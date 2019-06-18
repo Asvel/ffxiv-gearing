@@ -1,0 +1,10 @@
+@import "./ripple";
+
+.ripple-span {
+  @include mdc-ripple-surface;
+  @include mdc-ripple-radius-bounded;
+  @include mdc-states;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}

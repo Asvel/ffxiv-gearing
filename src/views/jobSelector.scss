@@ -1,0 +1,49 @@
+@import "./mixins";
+
+.job-selector {
+  position: relative;
+  margin-left: 3px;
+}
+.job-selector_column {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  //width: 25%;
+  width: 160px;
+  padding: 6px 16px 24px;
+  vertical-align: top;
+}
+.job-selector_group {
+  line-height: 34px;
+  &:not(:first-child) {
+    margin-top: 16px;
+  }
+  .job-selector_column:first-child &:first-child {
+    padding-bottom: 34px;
+  }
+}
+.job-selector_group-name {
+  padding-left: 16px;
+  font-weight: bold;
+}
+.job-selector_item {
+  padding-left: 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: #0000000a;
+  }
+}
+.job-selector_icon {
+  height: 16px;
+  margin-left: -1px;
+  vertical-align: -3px;
+}
+.job-selector_background-icon {
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+  width: 500px;
+  opacity: 0.2;
+}

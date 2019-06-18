@@ -1,0 +1,17 @@
+@import "~@material/animation/functions";
+@import "~@material/theme/mixins";
+@import "~@material/ripple/common";
+@import "~@material/ripple/mixins";
+@import "~@material/ripple/variables";
+
+// postcss-bem-linter: define ripple-surface
+
+.mdc-ripple-surface {
+  @include mdc-ripple-surface;
+  @include mdc-states;
+  @include mdc-ripple-radius-bounded;
+
+  position: relative;
+  outline: none;
+  overflow: hidden;
+}

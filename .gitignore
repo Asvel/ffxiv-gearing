@@ -1,0 +1,6 @@
+# NPM
+/node_modules/
+/yarn-error.log
+
+# Build
+/dist/

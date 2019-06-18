@@ -1,0 +1,98 @@
+@import "../../node_modules/@material/elevation/mixins";
+@import "../../node_modules/@material/card/mixins";
+//@import "./ripple";
+//@import "~@material/ripple/mdc-ripple";
+@import "./ripple-span";
+@import "./button";
+@import "./icon-button";
+@import "./textfield";
+@import "./mixins";
+
+body {
+  cursor: auto;
+  background-color: #f2f2f2;
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+svg {
+  fill: currentColor;
+  transform: translate3d(0, 0, 0);
+}
+
+.app {
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  /*line-height: 1.4286;*/
+  text-align: center;
+  color: #000000de;
+}
+
+.card {
+  @include mdc-card-fill-color(surface);
+  @include mdc-card-shape-radius(medium);
+  @include mdc-elevation(1);
+  overflow: hidden;
+}
+
+.table {
+  line-height: 36px;
+  color: #000000de;
+  th, td {
+    padding-top: 0;
+    padding-bottom: 0;
+    white-space: nowrap;
+  }
+  th {
+    padding-top: 1px;
+    font-weight: normal;
+    color: #00000099;
+  }
+  td {
+    border-top: 1px solid #e0e0e0;
+  }
+  tbody:first-child tr:first-child td {
+    border-top: none;
+  }
+  tbody tr {
+    &:hover {
+      background-color: #0000000a;
+    }
+    &.-selected {
+      background-color: rgba($primary, .08);
+    }
+  }
+}
+
+.app_inner {
+  position: relative;
+  display: inline-block;
+  padding-right: 250px;
+  text-align: initial;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+}
+.sidebar_inner {
+  position: fixed;
+  top: 0;
+  width: 250px;
+  padding-left: 10px;
+  transform: translate3d(0, 0, 0);
+}
+
+.divider {
+  height: 1px;
+  background-color: #0000001e;
+}
+
+@import "./welcome";
+@import "./jobSelector";
+@import "./slot";
+@import "./materia";
+@import "./condition";
+@import "./summary";

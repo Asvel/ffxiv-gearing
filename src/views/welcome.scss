@@ -1,0 +1,37 @@
+@import "./mixins";
+
+.welcome {
+  position: relative;
+  display: inline-block;
+  width: 980px;
+  margin-top: 10px;
+  padding-left: 108px;
+  padding-right: 80px;
+  text-align: initial;
+}
+.welcome_logo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 108px;
+  opacity: .2;
+}
+.welcome_appname {
+  padding: 40px 32px 30px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+}
+.welcome_divider {
+  margin-left: 24px;
+  margin-right: -100px;
+  border-bottom: 1px solid #0000001f;
+}
+.welcome_extra-action {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  .mdc-button {
+    padding: 0 16px;
+  }
+}

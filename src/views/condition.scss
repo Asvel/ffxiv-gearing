@@ -1,0 +1,92 @@
+@import "./mixins";
+
+.condition {
+  margin-top: 10px;
+}
+.condition_job {
+  cursor: pointer;
+  &:hover {
+    background-color: #0000000a;
+  }
+}
+.condition_job-icon {
+  float: right;
+  height: 82px;
+  padding: 8px;
+  //border-left: 1px solid #0000001e;
+  //background-color: #3D6730;
+}
+.condition_job-name {
+  padding: 16px 16px 8px 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.condition_version {
+  padding: 0 16px 14px 17px;
+  color: #00000099;
+}
+.condition_level {
+  padding: 0 16px;
+  line-height: 45px;
+}
+.condition_level-value {
+  float: right;
+}
+.condition_level-input {
+  width: 36px;
+  height: auto;
+  & > input {
+    padding: 6px 0 2px;
+    font-size: 14px;
+    text-align: center;
+  }
+  &:not(.mdc-text-field--disabled) {
+    background-color: transparent;
+  }
+}
+.condition_level-separator {
+  margin: 0 4px;
+}
+
+.condition2 {
+  margin-top: 10px;
+}
+.condition2_divider {
+  display: inline-block;
+  //line-height: 40px;
+  padding: 9px 0;
+  height: 42px;
+  width: 1px;
+  background-color: #0000001f;
+  background-clip: content-box;
+  vertical-align: top;
+}
+.condition2_right {
+  float: right;
+}
+.condition2_job {
+  display: inline-block;
+  padding: 0 12px 0 10px;
+  margin: 4px;
+  line-height: 34px;
+  border-radius: 4px;
+  vertical-align: top;
+}
+.condition2_job-icon {
+  width: 20px;
+  padding-bottom: 2px;
+}
+.condition2_level {
+  display: inline-block;
+  padding: 0 16px;
+  line-height: 42px;
+  vertical-align: top;
+}
+.condition2_level-value {
+  margin-right: 2px;
+}
+.condition2_version {
+  //float: right;
+  padding: 0 16px;
+  line-height: 42px;
+}

@@ -1,0 +1,91 @@
+@import "./mixins";
+
+.gears_materia {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  margin: auto -2px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 2px;
+  &:hover {
+    z-index: 1;
+    background-color: #0000000f;
+  }
+  &:active,
+  &.-active {
+    z-index: 1;
+    background-color: #0000001a;
+  }
+  &:empty:before {
+    content: " ";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    vertical-align: -3px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+  }
+  &.-normal {
+    color: #155724;
+    //color: mix($green, #000, 60%);
+    &:empty:before {
+      border-color: transparentify(#c3e6cb);
+    }
+  }
+  &.-advanced {
+    color: #721c24;
+    //color: mix($red, #000, 63%);
+    &:empty:before {
+      border-color: transparentify(#f5c6cb);
+    }
+  }
+}
+
+.materias {
+  @include mdc-elevation(4);
+  tbody tr:hover {
+    background-color: transparent;
+  }
+  td {
+    padding: 0 14px;
+    &:first-child {
+      padding-left: 16px;
+    }
+    &:last-child {
+      padding-right: 16px;
+    }
+    //border-right: $table-border;
+  }
+}
+.materias_stat-name {
+  border-right: $table-border;
+}
+.materias_row {
+  &.-invalid {
+    color: rgba(#000000, .20);
+  }
+}
+.materias_grade,
+.materias_remove {
+  cursor: pointer;
+  text-align: center;
+  &:hover {
+    background-color: #0000000a;
+  }
+  &.-selected {
+    background-color: rgba($primary, .08);
+  }
+}
+td.materias_meldable {
+  text-align: right;
+  padding-right: 0;
+  &.-overflowed {
+    color: #dc3545;
+    font-weight: bold;
+  }
+}
+.materias_meldable-title {
+  text-align: center;
+  border-right: $table-border;
+}
