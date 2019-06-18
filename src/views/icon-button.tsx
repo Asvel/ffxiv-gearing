@@ -1,21 +1,23 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
 import * as classNames from 'classnames';
-const { MDCRipple } = require('@material/ripple');
+import { withRipple, InjectedProps } from './ripple';
 
-class IconButton extends React.Component<any> {
-  render() {
-    const { className } = this.props;
-    return (
-      <button
-        {...this.props}
-        className={classNames(className, 'mdc-icon-button', 'mdc-icon-button--dense')}
-      />
-    );
-  }
-  componentDidMount() {
-    MDCRipple.attachTo(ReactDOM.findDOMNode(this), { isUnbounded: true });
-  }
+interface IconButtonProps extends InjectedProps<HTMLButtonElement>, React.HTMLProps<HTMLButtonElement> {
+  children?: React.ReactNode;
+  className: string;
+  initRipple: React.Ref<HTMLButtonElement>;
+  unbounded: boolean;
 }
+
+const IconButton = withRipple<IconButtonProps, HTMLButtonElement>(props => {
+  const { className, initRipple, type, unbounded, ...otherProps } = props;
+  return (
+    <button
+      className={classNames('mdc-icon-button', 'mdc-icon-button--dense', className)}
+      ref={initRipple}
+      {...otherProps}
+    />
+  );
+}, { unbounded: true });
 
 export { IconButton }

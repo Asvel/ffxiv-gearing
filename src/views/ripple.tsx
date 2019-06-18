@@ -91,13 +91,16 @@ export interface RippledComponentInterface<Surface, Activator = Element> {
   render: () => JSX.Element;
 }
 
+export interface RippledComponentDefaultProps extends Partial<RippledComponentProps<HTMLElement>> { }
+
 // This is an HOC that adds Ripple to the component passed as an argument
 export function withRipple<
   P extends InjectedProps<Surface, Activator>,
   Surface extends Element = Element,
   Activator extends Element = Element
 >(
-  WrappedComponent: React.ComponentType<P>
+  WrappedComponent: React.ComponentType<P>,
+  defaultProps?: RippledComponentDefaultProps,
 ): React.ComponentType<
   Subtract<P, InjectedProps<Surface, Activator>> &
     RippledComponentProps<Surface>
@@ -123,7 +126,7 @@ export function withRipple<
       style: {},
     };
 
-    static defaultProps: Partial<RippledComponentProps<HTMLElement>> = {
+    static defaultProps: RippledComponentDefaultProps = Object.assign({
       unbounded: false,
       disabled: false,
       style: {},
@@ -137,7 +140,7 @@ export function withRipple<
       onFocus: () => {},
       onBlur: () => {},
       ...WrappedComponent.defaultProps,
-    };
+    }, defaultProps);
 
     componentDidMount() {
       if (!this.foundation) {

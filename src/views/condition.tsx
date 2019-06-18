@@ -4,23 +4,38 @@ const { MDCTextField } = require('@material/textfield');
 import { Component } from './context';
 import { RippleSpan } from './ripple-span';
 import { Icon } from './icon';
-import { JobSelector } from './jobSelector';
+import { JobSelector } from './job-selector';
+
+interface ConditionProps { }
+
+interface ConditionState {
+  jobExpanded: boolean,
+}
 
 @observer
-class Condition extends Component {
+class Condition extends Component<ConditionProps, ConditionState> {
+  constructor(props: ConditionProps) {
+    super(props);
+    this.state = {
+      jobExpanded: false,
+    };
+  }
   render() {
     const { store } = this;
     const { condition } = store;
+    const { jobExpanded } = this.state;
     return (
       <div className="condition card">
-        <div className="condition_job">
-          <Icon className="condition_job-icon" name="jobs/WHM" />
-          <div className="condition_job-name">{store.schema.name}</div>
-          <div className="condition_version">游戏版本 {condition.versionString}</div>
-        </div>
-        <div className="divider" />
-        <div className="condition_level">
-          品级
+        {store.condition.job === undefined ? (
+          <span className="condition_job -empty">选择一个职业</span>
+        ) : (
+          <RippleSpan className="condition_job" onClick={this.handleJobClick}>
+            <Icon className="condition_job-icon" name="jobs/WHM" />
+            <span className="condition_job-name">{store.schema.name}</span>
+          </RippleSpan>
+        )}
+        <span className="condition_divider" />
+        <span className="condition_level">
           <span className="condition_level-value">
             <ConditionLevelInput
               value={condition.minLevel}
@@ -32,44 +47,18 @@ class Condition extends Component {
               onChange={value => condition.setMaxLevel(value)}
             />
           </span>
-        </div>
+          品级
+        </span>
+        <span className="condition_right">
+          <span className="condition_version">游戏版本 {condition.versionString}</span>
+        </span>
+        {(store.condition.job === undefined || jobExpanded) && <JobSelector />}
       </div>
     );
   }
-}
-
-@observer
-class Condition2 extends Component {
-  render() {
-    const { store } = this;
-    const { condition } = store;
-    return (
-      <div className="condition2 card">
-        <RippleSpan className="condition2_job">
-          <Icon className="condition2_job-icon" name="jobs/WHM" />
-          <span className="condition2_job-name">{store.schema.name}</span>
-        </RippleSpan>
-        <span className="condition2_divider" />
-        <span className="condition2_level">
-          <span className="condition2_level-value">
-            <ConditionLevelInput
-              value={condition.minLevel}
-              onChange={value => condition.setMinLevel(value)}
-            />
-            <span className="condition2_level-separator">-</span>
-            <ConditionLevelInput
-              value={condition.maxLevel}
-              onChange={value => condition.setMaxLevel(value)}
-            />
-          </span>
-          品级
-        </span>
-        <span className="condition2_right">
-          <span className="condition2_version">游戏版本 {condition.versionString}</span>
-        </span>
-        <JobSelector />
-      </div>
-    );
+  handleJobClick = () => {
+    const { jobExpanded } = this.state;
+    this.setState({ jobExpanded: !jobExpanded });
   }
 }
 
@@ -100,14 +89,6 @@ class ConditionLevelInput extends Component<ConditionLevelInputProps, ConditionL
           value={value}
           onBlur={() => onChange(parseInt(value))}
           onChange={e => this.setState({ value: e.target.value })}
-          onWheel={e => {
-            e.preventDefault();
-            if (e.deltaY !== 0) {
-              (e.target as HTMLInputElement).focus();
-              let delta = e.deltaY < 0 ? 5 : -5;
-              this.setState({ value: (parseInt(value) + delta).toString() });
-            }
-          }}
         />
         <div className="mdc-line-ripple" />
       </div>
@@ -115,7 +96,21 @@ class ConditionLevelInput extends Component<ConditionLevelInputProps, ConditionL
   }
   componentDidMount() {
     new MDCTextField(this.ref.current);
+    // FIXME: wait until https://github.com/facebook/react/issues/14856 fix
+    this.ref.current!.addEventListener('wheel', this.handleWheel);
+  }
+  componentWillUnmount() {
+    this.ref.current!.removeEventListener('wheel', this.handleWheel);
+  }
+  handleWheel = (e: HTMLElementEventMap['wheel']) => {
+    const { value } = this.state;
+    e.preventDefault();
+    if (e.deltaY !== 0) {
+      (e.target as HTMLInputElement).focus();
+      const delta = e.deltaY < 0 ? 5 : -5;
+      this.setState({ value: (parseInt(value) + delta).toString() });
+    }
   }
 }
 
-export { Condition, Condition2 };
+export { Condition };

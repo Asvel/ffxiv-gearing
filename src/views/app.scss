@@ -1,7 +1,5 @@
 @import "../../node_modules/@material/elevation/mixins";
 @import "../../node_modules/@material/card/mixins";
-//@import "./ripple";
-//@import "~@material/ripple/mdc-ripple";
 @import "./ripple-span";
 @import "./button";
 @import "./icon-button";
@@ -90,8 +88,7 @@ svg {
   background-color: #0000001e;
 }
 
-@import "./welcome";
-@import "./jobSelector";
+@import "./job-selector";
 @import "./slot";
 @import "./materia";
 @import "./condition";

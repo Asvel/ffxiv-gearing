@@ -3,7 +3,7 @@ import { observer } from 'mobx-react';
 import * as G from '../gear';
 import { Component } from './context';
 import { Icon } from './icon';
-
+import { RippleSpan } from './ripple-span';
 
 @observer
 class JobSelector extends Component {
@@ -85,13 +85,12 @@ class JobItem extends Component<{ job: G.Job }> {
     const { job } = this.props;
     const schema = G.jobSchemas[job];
     return (
-      <div className="job-selector_item" onClick={() => store.condition.setJob(job)}>
+      <RippleSpan className="job-selector_item" onClick={() => store.condition.setJob(job)}>
         {schema.name}
         <Icon className="job-selector_icon" name="jobs/WHM" />
-      </div>
+      </RippleSpan>
     );
   }
 }
-
 
 export { JobSelector }

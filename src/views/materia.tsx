@@ -35,64 +35,6 @@ class Materia extends Component<{ materia: IMateria }> {
   }
 }
 
-// @observer
-// class Materia2 extends Component<{ materia: IMateria }> {
-//   static popperModifiers = { offset: { offset: '-96px, 0' } };
-//   render() {
-//     const { materia } = this.props;
-//     const labelClassName = classNames(
-//       'gears_materia',
-//       materia.isAdvanced ? '-advanced' : '-normal',
-//       materia.expanded && '-active'
-//     );
-//     const popperContainer = document.getElementById('popper');
-//     return materia.expanded && popperContainer ? (
-//       <Popper.Manager>
-//         <Popper.Reference>
-//           {({ ref }) => (
-//             <span ref={ref} className={labelClassName}>
-//               <Observer render={() => materia.name} />
-//             </span>
-//           )}
-//         </Popper.Reference>
-//         {ReactDOM.createPortal(
-//           <Popper.Popper
-//             innerRef={el => {
-//               popperElement = el || undefined;
-//               popperOutsideClickHandler = () => materia.setExpanded(false);
-//             }}
-//             placement="bottom-start"
-//             modifiers={Materia.popperModifiers}
-//           >
-//             {({ placement, ref, style }) => (
-//               <div ref={ref} style={style} data-placement={placement}>
-//                 <MateriaPanel materia={materia} />
-//               </div>
-//             )}
-//           </Popper.Popper>,
-//           popperContainer
-//         )}
-//       </Popper.Manager>
-//     ) : (
-//       <span
-//         className={labelClassName}
-//         onClick={e => {
-//           materia.setExpanded(true);
-//           e.stopPropagation();
-//         }}
-//       >
-//         {materia.name}
-//       </span>
-//     );
-//   }
-//   componentDidMount() {
-//     let { materia } = this.props;
-//     if (materia.expanded) {
-//       this.forceUpdate();
-//     }
-//   }
-// }
-
 @observer
 class MateriaPanel extends Component<{ materia: IMateria }>  {
   render() {
@@ -143,26 +85,5 @@ class MateriaPanel extends Component<{ materia: IMateria }>  {
     );
   }
 }
-//
-// let popperElement: HTMLElement | undefined;
-// let popperOutsideClickHandler: Function | undefined;
-// window.addEventListener('click', e => {
-//   if (popperElement !== undefined && popperOutsideClickHandler !== undefined) {
-//     if (!popperElement.contains(e.target as Element)) {
-//       popperOutsideClickHandler();
-//       popperElement = undefined;
-//       popperOutsideClickHandler = undefined;
-//     }
-//   }
-// }, true);
-// window.addEventListener('keyup', e => {
-//   if (popperElement !== undefined && popperOutsideClickHandler !== undefined) {
-//     if (e.target && (e.target as Element).tagName === 'BODY') {
-//       popperOutsideClickHandler();
-//       popperElement = undefined;
-//       popperOutsideClickHandler = undefined;
-//     }
-//   }
-// }, true);
 
 export { Materia };

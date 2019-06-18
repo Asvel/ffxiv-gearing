@@ -2,6 +2,7 @@
 
 .job-selector {
   position: relative;
+  min-width: 900px;
   margin-left: 3px;
 }
 .job-selector_column {
@@ -27,13 +28,11 @@
   font-weight: bold;
 }
 .job-selector_item {
+  display: block;
   padding-left: 16px;
   font-size: 14px;
   border-radius: 4px;
   cursor: pointer;
-  &:hover {
-    background-color: #0000000a;
-  }
 }
 .job-selector_icon {
   height: 16px;
