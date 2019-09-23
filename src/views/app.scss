@@ -21,7 +21,10 @@ svg {
 .app {
   margin: 0 auto;
   font-size: 14px;
-  font-family: Arial, sans-serif;
+  font-family: // TODO: recheck fonts
+    Helvetica Neue, Helvetica, Arial,
+    PingFang SC, Hiragino Sans GB, Microsoft YaHei, \5FAE\8F6F\96C5\9ED1,
+    sans-serif;
   /*line-height: 1.4286;*/
   text-align: center;
   color: #000000de;
@@ -92,4 +95,5 @@ svg {
 @import "./slot";
 @import "./materia";
 @import "./condition";
+@import "./title";
 @import "./summary";

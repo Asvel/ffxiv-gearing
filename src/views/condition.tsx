@@ -3,6 +3,7 @@ import { observer } from 'mobx-react';
 const { MDCTextField } = require('@material/textfield');
 import { Component } from './context';
 import { RippleSpan } from './ripple-span';
+import { Button } from './button';
 import { Icon } from './icon';
 import { JobSelector } from './job-selector';
 
@@ -27,7 +28,7 @@ class Condition extends Component<ConditionProps, ConditionState> {
     return (
       <div className="condition card">
         {store.condition.job === undefined ? (
-          <span className="condition_job -empty">选择一个职业</span>
+          <span className="condition_job -empty">选择一个职业开始配装</span>
         ) : (
           <RippleSpan className="condition_job" onClick={this.handleJobClick}>
             <Icon className="condition_job-icon" name="jobs/WHM" />
@@ -49,7 +50,17 @@ class Condition extends Component<ConditionProps, ConditionState> {
           </span>
           品级
         </span>
+        {store.condition.job !== undefined && <span className="condition_divider" />}
+        {store.condition.job !== undefined && (
+          <Button className="condition_button">魔晶石</Button>
+        )}
         <span className="condition_right">
+          {store.condition.job !== undefined && (
+            <Button className="condition_button">分享</Button>
+          )}
+          <Button className="condition_button">导入</Button>
+          <Button className="condition_button">历史记录</Button>
+          <span className="condition_divider" />
           <span className="condition_version">游戏版本 {condition.versionString}</span>
         </span>
         {(store.condition.job === undefined || jobExpanded) && <JobSelector />}
@@ -96,7 +107,7 @@ class ConditionLevelInput extends Component<ConditionLevelInputProps, ConditionL
   }
   componentDidMount() {
     new MDCTextField(this.ref.current);
-    // FIXME: wait until https://github.com/facebook/react/issues/14856 fix
+    // FIXME: use onWheel when https://github.com/facebook/react/issues/14856 fix
     this.ref.current!.addEventListener('wheel', this.handleWheel);
   }
   componentWillUnmount() {

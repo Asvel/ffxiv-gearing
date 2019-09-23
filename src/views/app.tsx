@@ -4,6 +4,7 @@ import { IStore } from "../stores";
 import { StoreContext } from './context';
 import { Slot } from './slot';
 import { Condition } from './condition';
+import { Title } from './title';
 import { Summary } from './summary';
 
 @observer
@@ -24,6 +25,7 @@ class App extends React.Component<{ store: IStore }> {
             )}
             <div className="sidebar">
               <div className="sidebar_inner">
+                <Title />
                 {store.condition.job !== undefined && <Summary />}
               </div>
             </div>
