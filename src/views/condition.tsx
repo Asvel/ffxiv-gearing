@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
-const { MDCTextField } = require('@material/textfield');
+import { Ripple } from '@rmwc/ripple';
+import { Button } from '@rmwc/button';
+import { TextField } from '@rmwc/textfield';
 import { Component } from './context';
-import { RippleSpan } from './ripple-span';
-import { Button } from './button';
 import { Icon } from './icon';
 import { JobSelector } from './job-selector';
 
@@ -30,10 +30,12 @@ class Condition extends Component<ConditionProps, ConditionState> {
         {store.condition.job === undefined ? (
           <span className="condition_job -empty">选择一个职业开始配装</span>
         ) : (
-          <RippleSpan className="condition_job" onClick={this.handleJobClick}>
-            <Icon className="condition_job-icon" name="jobs/WHM" />
-            <span className="condition_job-name">{store.schema.name}</span>
-          </RippleSpan>
+          <Ripple>
+            <span className="condition_job" onClick={this.handleJobClick}>
+              <Icon className="condition_job-icon" name="jobs/WHM" />
+              <span className="condition_job-name">{store.schema.name}</span>
+            </span>
+          </Ripple>
         )}
         <span className="condition_divider" />
         <span className="condition_level">
@@ -82,7 +84,7 @@ interface ConditionLevelInputState {
 }
 @observer
 class ConditionLevelInput extends Component<ConditionLevelInputProps, ConditionLevelInputState> {
-  ref = React.createRef<HTMLDivElement>();
+  ref = React.createRef<HTMLInputElement>();
   constructor(props: ConditionLevelInputProps) {
     super(props);
     this.state = {
@@ -93,20 +95,16 @@ class ConditionLevelInput extends Component<ConditionLevelInputProps, ConditionL
     const { onChange } = this.props;
     const { value } = this.state;
     return (
-      <div ref={this.ref} className="condition_level-input mdc-text-field">
-        <input
-          type="text"
-          className="mdc-text-field__input"
-          value={value}
-          onBlur={() => onChange(parseInt(value))}
-          onChange={e => this.setState({ value: e.target.value })}
-        />
-        <div className="mdc-line-ripple" />
-      </div>
+      <TextField
+        inputRef={this.ref}
+        className="condition_level-input"
+        value={value}
+        onBlur={() => onChange(parseInt(value))}
+        onChange={(e: React.ChangeEvent<HTMLInputElement>) => this.setState({ value: e.target.value })}
+      />
     );
   }
   componentDidMount() {
-    new MDCTextField(this.ref.current);
     // FIXME: use onWheel when https://github.com/facebook/react/issues/14856 fix
     this.ref.current!.addEventListener('wheel', this.handleWheel);
   }

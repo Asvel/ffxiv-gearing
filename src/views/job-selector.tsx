@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
+import { Ripple } from '@rmwc/ripple';
 import * as G from '../gear';
 import { Component } from './context';
 import { Icon } from './icon';
-import { RippleSpan } from './ripple-span';
 
 @observer
 class JobSelector extends Component {
@@ -85,10 +85,12 @@ class JobItem extends Component<{ job: G.Job }> {
     const { job } = this.props;
     const schema = G.jobSchemas[job];
     return (
-      <RippleSpan className="job-selector_item" onClick={() => store.condition.setJob(job)}>
-        {schema.name}
-        <Icon className="job-selector_icon" name="jobs/WHM" />
-      </RippleSpan>
+      <Ripple>
+        <span className="job-selector_item" onClick={() => store.condition.setJob(job)}>
+          {schema.name}
+          <Icon className="job-selector_icon" name="jobs/WHM" />
+        </span>
+      </Ripple>
     );
   }
 }

@@ -57,9 +57,7 @@ class GearRow extends Component<{ gear: IGear }> {
           {gear.name}{gear.hq && <Icon className="gears_hq" name="hq"/>}
           <Dropdown
             label={({ ref, expanded, toggle }) => (
-              <IconButton ref={ref} className="gears_more" onClick={toggle}>
-                <Icon className="mdc-icon-button__icon" name="more" />
-              </IconButton>
+              <IconButton ref={ref} className="gears_more" icon="more" onClick={toggle} />
             )}
             popper={() => (
               <GearMenu gear={gear} />
