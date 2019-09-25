@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "../../node_modules/@material/ripple/common";
-@import "../../node_modules/@material/ripple/mixins";
-@import "../../node_modules/@material/button/mixins";
-@import "../../node_modules/@material/button/variables";
+@import "../../../node_modules/@material/ripple/common";
+@import "../../../node_modules/@material/ripple/mixins";
+@import "../../../node_modules/@material/button/mixins";
+@import "../../../node_modules/@material/button/variables";
 
 @mixin mdc-button-base_() {
   @include mdc-ripple-surface;

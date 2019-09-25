@@ -1,9 +1,9 @@
 @import "../../node_modules/@material/elevation/mixins";
 @import "../../node_modules/@material/card/mixins";
-@import "./ripple";
-@import "./button";
-@import "./icon-button";
-@import "./textfield";
+@import "./mdc-styles/ripple";
+@import "./mdc-styles/button";
+@import "./mdc-styles/icon-button";
+@import "./mdc-styles/textfield";
 @import "./mixins";
 
 body {

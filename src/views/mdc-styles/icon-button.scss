@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "~@material/ripple/common";
-@import "~@material/ripple/mixins";
-@import "~@material/theme/mixins";
+@import "../../../node_modules/@material/ripple/common";
+@import "../../../node_modules/@material/ripple/mixins";
+@import "../../../node_modules/@material/theme/mixins";
 
 $mdc-icon-button-size: 24px !default;
 
@@ -70,8 +70,6 @@ $mdc-icon-button-size: 24px !default;
     pointer-events: none;
   }
 }
-
-@import "./mixins";
 
 .mdc-icon-button {
   @include mdc-icon-button-base_;
