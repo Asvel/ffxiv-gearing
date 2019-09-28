@@ -7,20 +7,16 @@ interface IconButtonProps extends React.HTMLProps<HTMLButtonElement> {
   icon: string,
 }
 
-class IconButton extends React.Component<IconButtonProps> {
-  render() {
-    const { icon, className, ...otherProps } = this.props;
-    return (
-      <Ripple unbounded>
-        <button
-          {...otherProps}
-          className={classNames('mdc-icon-button', 'mdc-icon-button--dense', className)}
-          type="button"
-          children={<Icon className="mdc-icon-button__icon" name={icon} />}
-        />
-      </Ripple>
-    );
-  }
-}
+const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(({ icon, className, ...otherProps }, ref) => (
+  <Ripple unbounded>
+    <button
+      {...otherProps}
+      ref={ref}
+      className={classNames('mdc-icon-button', 'mdc-icon-button--dense', className)}
+      type="button"
+      children={<Icon className="mdc-icon-button__icon" name={icon} />}
+    />
+  </Ripple>
+));
 
 export { IconButton }

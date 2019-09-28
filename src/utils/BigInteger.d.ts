@@ -1,4 +1,4 @@
-declare class BigIntegerInternal { }
+declare interface BigIntegerInternal { }
 
 export type BigInteger = BigIntegerInternal | number;
 

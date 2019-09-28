@@ -1,13 +1,11 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { observer } from 'mobx-react';
-import * as classNames from 'classnames';
+import { observer } from 'mobx-react-lite';
 import * as PopperJS from "popper.js";
 import * as Popper from 'react-popper';
-import { Component } from './context';
 
 export interface DropdownLabelProps {
-  ref: (ref: React.ReactInstance | null) => void;
+  ref: (ref: HTMLElement | null) => void;
   expanded: boolean;
   toggle: () => void;
 }
@@ -19,78 +17,63 @@ export interface DropdownProps {
   modifiers?: PopperJS.Modifiers;
 }
 
-@observer
-class Dropdown extends Component<DropdownProps, { expanded: boolean }> {
-  labelElement: Element | null;
-  popperElement: Element | null;
-  constructor(props: DropdownProps) {
-    super(props);
-    this.state = {
-      expanded: false,
+const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers }) => {
+  const [ expanded, setExpanded ] = React.useState(false);
+  const labelRef = React.useRef<HTMLElement | null>(null);
+  const popperRef = React.useRef<HTMLElement | null>(null);
+  const popperContainer = document.getElementById('popper');
+  if (expanded) {
+    onGlobalClick = e => {
+      const target = e.target as Element;
+      if (target && labelRef.current && popperRef.current) {
+        if (!labelRef.current.contains(target) && !popperRef.current.contains(target)) {
+          setExpanded(false);
+          onGlobalClick = undefined;
+        }
+      }
     };
-    this.setLabelRef = this.setLabelRef.bind(this);
-    this.toggle = this.toggle.bind(this);
+    onGlobalKeyup = e => {
+      const target = e.target as Element;
+      if (target && target.tagName === 'BODY' && e.key === 'Escape') {
+        setExpanded(false);
+        onGlobalKeyup = undefined;
+      }
+    };
   }
-  render() {
-    const { label, popper, placement, modifiers } = this.props;
-    const { expanded } = this.state;
-    const popperContainer = document.getElementById('popper');
-    return (
-      <React.Fragment>
-        {label({ ref: this.setLabelRef, expanded, toggle: this.toggle })}
-        {expanded && popperContainer && ReactDOM.createPortal(
-          <Popper.Popper
-            referenceElement={this.labelElement!}
-            innerRef={el => this.popperElement = el}
-            placement={placement}
-            modifiers={modifiers}
-          >
-            {({ placement, ref, style }) => (
-              <div ref={ref} style={style} data-placement={placement}>
-                {popper()}
-              </div>
-            )}
-          </Popper.Popper>,
-          popperContainer
-        )}
-      </React.Fragment>
-    );
-  }
-  componentDidUpdate() {
-    const { expanded } = this.state;
-    if (expanded) {
-      expandedDropdown = this;
-    }
-  }
-  setLabelRef(ref: React.ReactInstance) {
-    this.labelElement = ReactDOM.findDOMNode(ref) as Element | null;
-  }
-  toggle(e?: UIEvent) {
-    this.setState({ expanded: !this.state.expanded });
-    if (e) {
-      e.stopPropagation();
-    }
-  }
-}
+  return (
+    <React.Fragment>
+      {label({
+        ref: r => labelRef.current = r,
+        expanded,
+        toggle: (e?: UIEvent) => {
+          setExpanded(!expanded);
+          if (e) {
+            e.stopPropagation();
+          }
+        },
+      })}
+      {expanded && popperContainer && ReactDOM.createPortal(
+        <Popper.Popper
+          referenceElement={labelRef.current!}
+          innerRef={el => popperRef.current = el}
+          placement={placement}
+          modifiers={modifiers}
+        >
+          {({ placement, ref, style }) => (
+            <div ref={ref} style={style} data-placement={placement}>
+              {popper()}
+            </div>
+          )}
+        </Popper.Popper>,
+        popperContainer
+      )}
+    </React.Fragment>
+  );
+});
 
-let expandedDropdown: Dropdown | undefined;
-window.addEventListener('click', e => {
-  const target = e.target as Element;
-  if (expandedDropdown && target && expandedDropdown.labelElement && expandedDropdown.popperElement) {
-    if (!expandedDropdown.labelElement.contains(target) && !expandedDropdown.popperElement.contains(target)) {
-      expandedDropdown.toggle();
-      expandedDropdown = undefined;
-    }
-  }
-}, true);
-window.addEventListener('keyup', e => {
-  const target = e.target as Element;
-  if (expandedDropdown && target) {
-    if (target.tagName === 'BODY') {
-      expandedDropdown.toggle();
-      expandedDropdown = undefined;
-    }
-  }
-}, true);
+let onGlobalClick: ((e: MouseEvent) => void) | undefined;
+window.addEventListener('click', e => onGlobalClick && onGlobalClick(e), true);
+let onGlobalKeyup: ((e: KeyboardEvent) => void) | undefined;
+window.addEventListener('keyup', e => onGlobalKeyup && onGlobalKeyup(e), true);
 
 export { Dropdown };

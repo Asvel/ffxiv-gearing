@@ -17,7 +17,19 @@ module.exports = function (env, argv) {
     },
     module: {
       rules: [
-        { test: /\.tsx?$/, loader: 'awesome-typescript-loader' },
+        {
+          test: /\.tsx?$/,
+          use: [
+            require('simple-functional-loader').createLoader(function(source) {
+              // Keep react component display name
+              return source.replace(
+                /([\r\n])const (.+?) = (.+?)\(\((.*?)\) => {([\r\n])/g,
+                '$1const $2 = $3(function $2($4) {$5'
+              );
+            }),
+            'awesome-typescript-loader',
+          ],
+        },
         {
           test: /\.s?css$/,
           use: [
@@ -32,7 +44,6 @@ module.exports = function (env, argv) {
                 ].filter(Boolean),
               }
             },
-
             {
               loader: 'sass-loader',
               options: {
@@ -41,8 +52,8 @@ module.exports = function (env, argv) {
             },
           ],
         },
-        { test: /\.png$/, loader: 'file-loader' },
-        { test: /\.svg$/, loader: 'svg-sprite-loader' },
+        { test: /\.png$/, use: 'file-loader' },
+        { test: /\.svg$/, use: 'svg-sprite-loader' },
         // {
         //   test: /gears-.*\.json$/,
         //   type: 'javascript/auto',
