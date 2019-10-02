@@ -10,9 +10,13 @@ export interface DropdownLabelProps {
   toggle: () => void;
 }
 
+export interface DropdownPopperProps {
+  toggle: () => void;
+}
+
 export interface DropdownProps {
   label: (props: DropdownLabelProps) => React.ReactNode
-  popper: () => React.ReactNode;
+  popper: (props: DropdownPopperProps) => React.ReactNode;
   placement: PopperJS.Placement;
   modifiers?: PopperJS.Modifiers;
 }
@@ -22,6 +26,12 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers 
   const labelRef = React.useRef<HTMLElement | null>(null);
   const popperRef = React.useRef<HTMLElement | null>(null);
   const popperContainer = document.getElementById('popper');
+  const toggle = (e?: UIEvent) => {
+    setExpanded(!expanded);
+    if (e) {
+      e.stopPropagation();
+    }
+  };
   if (expanded) {
     onGlobalClick = e => {
       const target = e.target as Element;
@@ -34,7 +44,8 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers 
     };
     onGlobalKeyup = e => {
       const target = e.target as Element;
-      if (target && target.tagName === 'BODY' && e.key === 'Escape') {
+      // label (比如是一个 button) 有可能成为按键事件的 target
+      if (target && (target.tagName === 'BODY' || target === labelRef.current) && e.key === 'Escape') {
         setExpanded(false);
         onGlobalKeyup = undefined;
       }
@@ -45,12 +56,7 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers 
       {label({
         ref: r => labelRef.current = r,
         expanded,
-        toggle: (e?: UIEvent) => {
-          setExpanded(!expanded);
-          if (e) {
-            e.stopPropagation();
-          }
-        },
+        toggle,
       })}
       {expanded && popperContainer && ReactDOM.createPortal(
         <Popper.Popper
@@ -60,8 +66,8 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers 
           modifiers={modifiers}
         >
           {({ placement, ref, style }) => (
-            <div ref={ref} style={style} data-placement={placement}>
-              {popper()}
+            <div ref={ref} style={style} data-placement={placement} onClick={e => e.stopPropagation()}>
+              {popper({ toggle })}
             </div>
           )}
         </Popper.Popper>,

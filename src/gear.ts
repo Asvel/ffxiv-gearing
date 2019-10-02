@@ -37,6 +37,8 @@ export const statNames = {
   GTH: '获得力',
   PCP: '鉴别力',
   GP: '采集力',
+  WPN: '武器基本性能',
+  DLY: '攻击间隔',
 };
 export type Stat = keyof typeof statNames;
 export type Stats = { [index in Stat]?: number };
@@ -53,7 +55,7 @@ export function getCaps(gear: Gear): Stats {
   if (!(cacheKey in capsCache)) {
     let caps: Stats = {};
     for (let stat of Object.keys(statNames) as Stat[]) {
-      caps[stat] = Math.round(
+      caps[stat] = (stat === 'WPN' || stat === 'DLY') ? Infinity : Math.round(
         levelCaps[stat][levelCapsIndex[level]] *
         slotCaps[stat][slot] *
         (roleCaps[stat] && roleCaps[stat][role] || 100) /
@@ -257,6 +259,8 @@ export const materias = {
   GTH: [3, 4, 5, 6, 10, 15],
   PCP: [3, 4, 5, 6, 10, 15],
   GP: [1, 2, 3, 4, 6, 8],
+  WPN: [] as number[],
+  DLY: [] as number[],
 };
 export type MateriaGrade = 1 | 2 | 3 | 4 | 5 | 6;
 

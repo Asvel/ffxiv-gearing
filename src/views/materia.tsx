@@ -34,7 +34,7 @@ const Materia = observer<{ materia: IMateria }>(({ materia }) => {
 const MateriaPanel = observer<{ materia: IMateria }>(({ materia }) => {
   const store = useStore();
   return (
-    <table className="materias table card" onClick={e => e.stopPropagation()}>
+    <table className="materias table card">
       <tbody>
       {store.schema.stats.slice(1).map(stat => materia.canMeldStat(stat) && (
         <tr

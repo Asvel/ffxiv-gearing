@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
+import { Ripple } from '@rmwc/ripple';
+import Clipboard from 'react-clipboard.js';
 import * as G from '../gear';
 import { IGear } from "../stores";
 import { useStore } from './context';
@@ -52,8 +54,8 @@ const GearRow = observer<{ gear: IGear }>(({ gear }) => {
           label={({ ref, toggle }) => (
             <IconButton ref={ref} className="gears_more" icon="more" onClick={toggle} />
           )}
-          popper={() => (
-            <GearMenu gear={gear} />
+          popper={({ toggle }) => (
+            <GearMenu gear={gear} toggle={toggle} />
           )}
           placement="bottom-end"
         />
@@ -82,11 +84,47 @@ const GearRow = observer<{ gear: IGear }>(({ gear }) => {
   );
 });
 
-const GearMenu = observer<{ gear: IGear }>(({ gear }) => {
+const GearMenu = observer<{ gear: IGear, toggle: () => void }>(({ gear, toggle }) => {
   const store = useStore();
   return (
-    <div>
-      {gear.name}
+    <div className="gear-menu card">
+      <Ripple>
+        <div/* for ripple */>
+          <Clipboard
+            className="gear-menu_item"
+            component="div"
+            data-clipboard-text={gear.name}
+            onClick={toggle}
+            children="复制道具名"
+          />
+        </div>
+      </Ripple>
+      <div className="gear-menu_divider" />
+      <Ripple>
+        <a
+          className="gear-menu_item"
+          href={`https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:` + encodeURI(gear.name)}
+          target="_blank"
+          tabIndex={0}
+        >
+          在 最终幻想XIV中文维基 中查看 <Icon className="gear-menu_external" name="open-in-new" />
+        </a>
+      </Ripple>
+      <Ripple>
+        <a
+          className="gear-menu_item"
+          href={`http://www.garlandtools.org/db/#item/` + gear.id}
+          target="_blank"
+          tabIndex={0}
+        >
+          在 Garland Data 中查看 <Icon className="gear-menu_external" name="open-in-new" />
+        </a>
+      </Ripple>
+      {gear.stats.WPN !== undefined && <div className="gear-menu_divider" />}
+      {gear.stats.WPN !== undefined && <div className="gear-menu_item">武器基本性能：{gear.stats.WPN}</div>}
+      {gear.stats.DLY !== undefined && (
+        <div className="gear-menu_item">攻击间隔：{(gear.stats.DLY / 1000).toFixed(2)}</div>
+      )}
     </div>
   );
 });

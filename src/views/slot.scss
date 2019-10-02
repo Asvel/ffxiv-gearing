@@ -72,3 +72,30 @@
   border-right: $table-border;
 }
 
+.gear-menu {
+  @include mdc-elevation(4);
+  padding: 9px 0;
+}
+
+.gear-menu_item {
+  display: block;
+  padding: 0 16px;
+  line-height: 32px;
+  color: inherit;
+  text-decoration: none;
+  &.mdc-ripple-surface,
+  .mdc-ripple-surface & {
+    cursor: pointer;
+  }
+}
+.gear-menu_divider {
+  height: 1px;
+  margin: 8px 0;
+  background-color: #0000001f;
+}
+.gear-menu_external {
+  height: 1em;
+  fill: currentColor;
+  vertical-align: -2px;
+  opacity: .75;
+}
