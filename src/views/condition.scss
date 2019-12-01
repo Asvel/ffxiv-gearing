@@ -57,6 +57,7 @@
   height: 34px;
   min-width: 48px;
   margin: 4px;
+  vertical-align: top;
   + .condition_button {
     margin-left: 0;
   }
@@ -64,4 +65,5 @@
 .condition_version {
   padding: 0 16px;
   line-height: 42px;
+  vertical-align: top;
 }

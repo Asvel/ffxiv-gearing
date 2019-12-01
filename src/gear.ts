@@ -18,6 +18,15 @@ export interface Gear {
   },
 }
 
+export interface GearSet {
+  job: Job,
+  level: number,
+  gears: {
+    id: GearId,
+    materias: ([Stat, MateriaGrade] | null)[]
+  }[],
+}
+
 export const statNames = {
   STR: '力量',
   DEX: '灵巧',
@@ -54,7 +63,7 @@ export function getCaps(gear: Gear): Stats {
   let cacheKey = `${level},${slot}`;
   if (!(cacheKey in capsCache)) {
     let caps: Stats = {};
-    for (let stat of Object.keys(statNames) as Stat[]) {
+    for (const stat of Object.keys(statNames) as Stat[]) {
       caps[stat] = (stat === 'WPN' || stat === 'DLY') ? Infinity : Math.round(
         levelCaps[stat][levelCapsIndex[level]] *
         slotCaps[stat][slot] *

@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = function (env, argv) {
   const prod = argv && argv.mode === 'production';
-  return {
+  return [{
     mode: prod ? 'production' : 'none',
     entry: './src/index.tsx',
     output: {
@@ -13,7 +13,7 @@ module.exports = function (env, argv) {
       hashDigestLength: 8,
     },
     resolve: {
-      extensions: ['.ts', '.tsx', '.js']
+      extensions: ['.ts', '.tsx', '.js'],
     },
     module: {
       rules: [
@@ -51,6 +51,19 @@ module.exports = function (env, argv) {
               },
             },
           ],
+        },
+        {
+          // Prevent webpack create getter/setter for these very large data
+          test: /gears-\d+\.json$/,
+          type: 'javascript/auto',
+          use: require('simple-functional-loader').createLoader(function(source) {
+            if (this.cacheable) this.cacheable();
+            let value = typeof source === "string" ? JSON.parse(source) : source;
+            value = JSON.stringify(value)
+              .replace(/\u2028/g, '\\u2028')
+              .replace(/\u2029/g, '\\u2029');
+            return `export default ${value}`;
+          }),
         },
         { test: /\.png$/, use: 'file-loader' },
         { test: /\.svg$/, use: 'svg-sprite-loader' },
@@ -98,5 +111,23 @@ module.exports = function (env, argv) {
       },
       hotClient: false,
     },
-  };
+  }, {
+    mode: prod ? 'production' : 'none',
+    entry: './src/import.js',
+    output: {
+      filename: 'import.js',
+      chunkFilename: '[name].[contenthash].bundle.js',
+      path: __dirname + '/dist',
+      hashDigestLength: 8,
+      jsonpFunction: '__ffxiv_gearing_webpack_jsonp',
+    },
+    optimization: {
+      moduleIds: 'hashed',
+    },
+  }];
+};
+
+const { toPath } = webpack.Template;
+webpack.Template.toPath = function (str) {
+  return toPath(str).replace(/(gears-\d+)-json$/, '$1');
 };

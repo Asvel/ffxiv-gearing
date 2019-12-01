@@ -1,6 +1,5 @@
 import * as BI from './utils/BigInteger';
 import * as G from './gear';
-import { IStore } from './stores';
 
 const permanentIndexes: { job: G.Job, stats: G.Stat[] }[] = [
   { job: 'PLD', stats: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'TEN', 'VIT'] },
@@ -34,6 +33,7 @@ class Ranges {
   private _version = 1;
   version = 77;
   job = 0;
+  level = 80;
   gearId = 0;
   materiaSlot = 0;
   materiaStat = 0;
@@ -52,48 +52,40 @@ class Ranges {
   }
 }
 
-export function stringify(store: IStore): string {
+export function stringify({ job, level, gears }: G.GearSet): string {
   const ranges = new Ranges();
   ranges.useVersion(1);
-
-  const { job } = store.condition;
-  if (job === undefined) return '';
-  const schema = G.jobSchemas[job];
   ranges.useJob(job);
 
-  const gears: { id: number, materias: number[]  }[] = [];
+  const gearCodes: { id: number, materias: number[]  }[] = [];
   const materiaCodeSet: { [index: string]: number } = {};
 
   let minGearId = Infinity;
   let maxGearId = 0;
   let maxMateriaCode = 0;
 
-  for (const slot of schema.slots) {
-    const gear = store.equippedGears.get(slot.slot.toString());
-    if (gear !== undefined) {
-      const { id } = gear.data;
-      if (id < minGearId) {
-        minGearId = id;
-      }
-      if (id > maxGearId) {
-        maxGearId = id;
-      }
-      const materias = [];
-      for (let materia of gear.materias) {
-        if (!materia.isValid) break;
-        const statToIndex = toIndex[job]!.stats;
-        const materiaCode = materia.stat === undefined || statToIndex[materia.stat] === undefined ? 0 :
-          statToIndex[materia.stat]! * ranges.materiaGrade + (materia.grade! - 1) + 1;
-        if (materiaCodeSet[materiaCode] === undefined) {
-          materiaCodeSet[materiaCode] = maxMateriaCode++;
-        }
-        materias.push(materiaCodeSet[materiaCode]);
-      }
-      gears.push({ id, materias });
+  for (const { id, materias } of gears) {
+    if (id < minGearId) {
+      minGearId = id;
     }
+    if (id > maxGearId) {
+      maxGearId = id;
+    }
+    const materiaCodes = [];
+    for (const materia of materias) {
+      const statToIndex = toIndex[job]!.stats;
+      const materiaCode = materia === null || statToIndex[materia[0]] === undefined ? 0 :
+        statToIndex[materia[0]]! * ranges.materiaGrade + (materia[1] - 1) + 1;
+      if (materiaCodeSet[materiaCode] === undefined) {
+        materiaCodeSet[materiaCode] = maxMateriaCode++;
+      }
+      materiaCodes.push(materiaCodeSet[materiaCode]);
+    }
+    gearCodes.push({ id, materias: materiaCodes });
   }
-  if (gears.length === 0) return '';
-  gears.reverse();
+
+  if (gearCodes.length === 0) return '';
+  gearCodes.reverse();
 
   const materiaCodes: number[] = [];
   for (const materiaCode of Object.keys(materiaCodeSet)) {
@@ -104,7 +96,7 @@ export function stringify(store: IStore): string {
   let result: BI.BigInteger = 0;
   const write = (value: number, range: number) => result = BI.add(BI.multiply(result, range), value);
 
-  for (const gear of gears) {
+  for (const gear of gearCodes) {
     write(gear.id - minGearId, maxGearId - minGearId + 1);
     for (const materiaCodeIndex of gear.materias) {
       write(materiaCodeIndex, materiaCodes.length);
@@ -117,13 +109,14 @@ export function stringify(store: IStore): string {
     write(materiaCode, ranges.materiaCode);
   }
   write(materiaCodes.length, ranges.materiaCode);
+  write(level - 1, ranges.level);
   write(toIndex[job]!.index, ranges.job);
   write(1, ranges.version);
 
   return BI.toString(result, 62);
 }
 
-export function parse(s: string) {
+export function parse(s: string): G.GearSet {
   let input = BI.parseInt(s, 62);
   const read = (range: number): number => {
     const ret = BI.remainder(input, range);
@@ -139,28 +132,31 @@ export function parse(s: string) {
   const job = permanentIndexes[read(ranges.job)];  // FIXME
   ranges.useJob(job.job);
 
+  const level = read(ranges.level) + 1;
+
   const materiaCodes = Array.from({ length: read(ranges.materiaCode) }, () => {
     let materiaCode = read(ranges.materiaCode);
-    let stat: G.Stat | undefined = undefined;
-    let grade: G.MateriaGrade | undefined = undefined;
     if (materiaCode > 0) {
       materiaCode -= 1;
-      grade = materiaCode % ranges.materiaGrade + 1 as G.MateriaGrade;
-      stat = job.stats[Math.floor(materiaCode / ranges.materiaGrade)];
+      let grade = materiaCode % ranges.materiaGrade + 1;
+      let stat = job.stats[Math.floor(materiaCode / ranges.materiaGrade)];
+      return [stat, grade] as [G.Stat, G.MateriaGrade];
+    } else {
+      return null;
     }
-    return { stat, grade };
   }).reverse();
 
   const maxGearId = read(ranges.gearId);
   const minGearId = read(maxGearId);
-  const gears: { id: number, materias: typeof materiaCodes }[] = [];
+  const gears: G.GearSet['gears'] = [];
   while (input !== 0) {
     const materias = Array.from({ length: read(ranges.materiaSlot) },
       () => materiaCodes[read(materiaCodes.length)]).reverse();
-    const id = read(maxGearId - minGearId + 1) + minGearId;
+    const id = (read(maxGearId - minGearId + 1) + minGearId) as G.GearId;
     gears.push({ id, materias });
   }
 
-  return gears;
+  return { job: job.job, level, gears };
 }
-// parse('mKQyadZHgxWO48QM0XDyhfMEkRuLwpzlglHmnNyYAllTa6boJSDBJ0g');
+// let s = 'rzCATkJiV44Rvv7tM9ykHTaFvJDV52GGA7tSWBjYkyYSNtvS';
+// console.assert(stringify(parse(s)) === s);

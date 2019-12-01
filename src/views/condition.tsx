@@ -10,14 +10,16 @@ import { JobSelector } from './job-selector';
 const Condition = observer(() => {
   const store = useStore();
   const { condition } = store;
-  const [ jobExpanded, setJobExpanded ] = React.useState(false);
+  type ExpandedPanel = 'job' | 'materia' | 'import' | 'share' | 'history' | null;
+  const [ expandedPanel, setExpandedPanel ] = React.useState<ExpandedPanel>(null);
+  const toggleExpandedPanel = (panel: ExpandedPanel) => setExpandedPanel(v => v === panel ? null : panel);
   return (
     <div className="condition card">
       {store.condition.job === undefined ? (
         <span className="condition_job -empty">选择一个职业开始配装</span>
       ) : (
         <Ripple>
-          <span className="condition_job" onClick={() => setJobExpanded(v => !v)}>
+          <span className="condition_job" onClick={() => toggleExpandedPanel('job')}>
             <Icon className="condition_job-icon" name="jobs/WHM" />
             <span className="condition_job-name">{store.schema.name}</span>
           </span>
@@ -46,12 +48,20 @@ const Condition = observer(() => {
         {store.condition.job !== undefined && (
           <Button className="condition_button">分享</Button>
         )}
-        <Button className="condition_button">导入</Button>
+        <Button className="condition_button" onClick={() => toggleExpandedPanel('import')}>导入</Button>
         <Button className="condition_button">历史记录</Button>
         <span className="condition_divider" />
         <span className="condition_version">游戏版本 {condition.versionString}</span>
       </span>
-      {(store.condition.job === undefined || jobExpanded) && <JobSelector />}
+      {(store.condition.job === undefined || expandedPanel === 'job') && <JobSelector />}
+      {expandedPanel === 'import' && (
+        <div>
+          <a
+            href={encodeURI(`javascript:void(document.body.appendChild(document.createElement('script')).src='`
+               + location.origin + location.pathname + `import.js?'+Math.random())`)}
+          >导入配装</a>
+        </div>
+      )}
     </div>
   );
 });

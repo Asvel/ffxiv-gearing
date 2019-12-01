@@ -62,7 +62,7 @@ const GearRow = observer<{ gear: IGear }>(({ gear }) => {
         <span className="gears_level">il{gear.level}</span>
       </td>
       <td className="gears_materias">
-        {gear.materias.map((materia, i) => materia.isValid && (
+        {gear.materias.map((materia, i) => (
           <Materia key={i} materia={materia} />
         ))}
       </td>
