@@ -107,7 +107,7 @@ export const Gear = types
       for (const materia of self.materias) {
         if (materia.stat !== undefined) {
           let materiaValue = G.materias[materia.stat][materia.grade! - 1];
-          stats[materia.stat] = (stats[materia.stat] || 0) + materiaValue;
+          stats[materia.stat] = (stats[materia.stat] ?? 0) + materiaValue;
         }
       }
       return stats;
@@ -115,21 +115,21 @@ export const Gear = types
     get stats(): G.Stats {
       let stats: G.Stats = {};
       for (const stat of Object.keys(this.bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
-        stats[stat] = Math.min((this.bareStats[stat] || 0) + (this.materiaStats[stat] || 0), this.caps[stat]);
+        stats[stat] = Math.min((this.bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0), this.caps[stat]);
       }
       return stats;
     },
     get totalMeldableStats(): G.Stats {
       let stats: G.Stats = {};
       for (const stat of Object.keys(this.caps) as G.Stat[]) {
-        stats[stat] = this.caps[stat] - (this.bareStats[stat] || 0);
+        stats[stat] = this.caps[stat] - (this.bareStats[stat] ?? 0);
       }
       return stats;
     },
     get currentMeldableStats(): G.Stats {
       let stats: G.Stats = {};
       for (const stat of Object.keys(this.caps) as G.Stat[]) {
-        stats[stat] = this.totalMeldableStats[stat] - (this.materiaStats[stat] || 0);
+        stats[stat] = this.totalMeldableStats[stat] - (this.materiaStats[stat] ?? 0);
       }
       return stats;
     },

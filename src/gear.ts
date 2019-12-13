@@ -54,7 +54,7 @@ export type Stats = { [index in Stat]?: number };
 
 const levelCaps = require('../data/levelCaps.json') as { [index in Stat | 'level']: number[] };
 const slotCaps = require('../data/slotCaps.json') as { [index in Stat]: number[] };
-const roleCaps = { VIT: [90,100,100,100,100,90,90,100,90,100,100,100,100] } as { [index in Stat]: number[] };
+const roleCaps = { VIT: [90,100,100,100,100,90,90,100,90,100,100,100,100] } as { [index in Stat]?: number[] };
 const levelCapsIndex: { [index: number]: number } = {};
 levelCaps.level.forEach((level, i) => levelCapsIndex[level] = i);
 const capsCache: { [index: string]: Stats } = {};
@@ -67,7 +67,7 @@ export function getCaps(gear: Gear): Stats {
       caps[stat] = (stat === 'WPN' || stat === 'DLY') ? Infinity : Math.round(
         levelCaps[stat][levelCapsIndex[level]] *
         slotCaps[stat][slot] *
-        (roleCaps[stat] && roleCaps[stat][role] || 100) /
+        (roleCaps[stat]?.[role] ?? 100) /
         10000);
     }
     capsCache[cacheKey] = caps;

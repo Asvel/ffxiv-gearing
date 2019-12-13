@@ -78,8 +78,8 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers 
 });
 
 let onGlobalClick: ((e: MouseEvent) => void) | undefined;
-window.addEventListener('click', e => onGlobalClick && onGlobalClick(e), true);
+window.addEventListener('click', e => onGlobalClick?.(e), true);
 let onGlobalKeyup: ((e: KeyboardEvent) => void) | undefined;
-window.addEventListener('keyup', e => onGlobalKeyup && onGlobalKeyup(e), true);
+window.addEventListener('keyup', e => onGlobalKeyup?.(e), true);
 
 export { Dropdown };

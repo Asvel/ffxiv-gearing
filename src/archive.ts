@@ -9,7 +9,7 @@ function createKey(): string {
 }
 
 function getCurrentKey(): string | undefined {
-  return history.state ? history.state.archiveKey : undefined;
+  return history.state?.archiveKey || undefined;
 }
 
 function setCurrentKey(key: string): void {

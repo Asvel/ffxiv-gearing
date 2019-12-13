@@ -71,7 +71,7 @@ const GearRow = observer<{ gear: IGear }>(({ gear }) => {
           key={stat}
           className={classNames(
             'gears_stat',
-            G.statHighlight[stat] && (gear.bareStats[stat] || 0) >= (gear.caps[stat] || Infinity) && '-full'
+            G.statHighlight[stat] && (gear.bareStats[stat] ?? 0) >= (gear.caps[stat] ?? Infinity) && '-full'
           )}
         >
           {gear.stats[stat]}
