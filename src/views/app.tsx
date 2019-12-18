@@ -1,18 +1,19 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
+import * as classNames from 'classnames';
 import { IStore } from "../stores";
 import { StoreContext } from './context';
 import { Slot } from './slot';
-import { Condition } from './condition';
+import { ConditionEditing, ConditionViewing } from './condition';
 import { Title } from './title';
 import { Summary } from './summary';
 
 const App = observer<{ store: IStore }>(({ store }) => {
-  return store.loading ? null : (
+  return store.isLoading ? null : (
     <StoreContext.Provider value={store}>
-      <div className="app">
+      <div className={classNames('app', `app-${store.mode}`)}>
         <div className="app_inner">
-          <Condition />
+          {store.isViewing ? <ConditionViewing /> : <ConditionEditing />}
           {store.condition.job !== undefined && (
             <div className="gears">
               {store.schema.slots.map(slot => (

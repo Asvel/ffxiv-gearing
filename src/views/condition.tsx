@@ -7,7 +7,7 @@ import { useStore } from './context';
 import { Icon } from './icon';
 import { JobSelector } from './job-selector';
 
-const Condition = observer(() => {
+const ConditionEditing = observer(() => {
   const store = useStore();
   const { condition } = store;
   type ExpandedPanel = 'job' | 'materia' | 'import' | 'share' | 'history' | null;
@@ -15,7 +15,7 @@ const Condition = observer(() => {
   const toggleExpandedPanel = (panel: ExpandedPanel) => setExpandedPanel(v => v === panel ? null : panel);
   return (
     <div className="condition card">
-      {store.condition.job === undefined ? (
+      {condition.job === undefined ? (
         <span className="condition_job -empty">选择一个职业开始配装</span>
       ) : (
         <Ripple>
@@ -40,12 +40,12 @@ const Condition = observer(() => {
         </span>
         品级
       </span>
-      {store.condition.job !== undefined && <span className="condition_divider" />}
-      {store.condition.job !== undefined && (
+      {condition.job !== undefined && <span className="condition_divider" />}
+      {condition.job !== undefined && (
         <Button className="condition_button">魔晶石</Button>
       )}
       <span className="condition_right">
-        {store.condition.job !== undefined && (
+        {condition.job !== undefined && (
           <Button className="condition_button">分享</Button>
         )}
         <Button className="condition_button" onClick={() => toggleExpandedPanel('import')}>导入</Button>
@@ -53,7 +53,7 @@ const Condition = observer(() => {
         <span className="condition_divider" />
         <span className="condition_version">游戏版本 {condition.versionString}</span>
       </span>
-      {(store.condition.job === undefined || expandedPanel === 'job') && <JobSelector />}
+      {(condition.job === undefined || expandedPanel === 'job') && <JobSelector />}
       {expandedPanel === 'import' && (
         <div>
           <a
@@ -62,6 +62,35 @@ const Condition = observer(() => {
           >导入配装</a>
         </div>
       )}
+    </div>
+  );
+});
+
+const ConditionViewing = observer(() => {
+  const store = useStore();
+  const { condition } = store;
+  return (
+    <div className="condition card">
+      <span className="condition_job">
+        <Icon className="condition_job-icon" name="jobs/WHM" />
+        <span className="condition_job-name">{store.schema.name}</span>
+      </span>
+      <span className="condition_divider" />
+      <Button className="condition_button">魔晶石</Button>
+      <span className="condition_right">
+        <Button
+          className="condition_button"
+          onClick={() => {
+            // TODO: check history event handlers
+            history.pushState(history.state, document.title, location.href.replace(/#.*$/, ''));
+            store.startEditing();
+          }}
+          children="编辑"
+        />
+        <Button className="condition_button">历史记录</Button>
+        <span className="condition_divider" />
+        <span className="condition_version">游戏版本 {condition.versionString}</span>
+      </span>
     </div>
   );
 });
@@ -97,4 +126,4 @@ const ConditionLevelInput = observer<ConditionLevelInputProps>(({ value, onChang
   );
 });
 
-export { Condition };
+export { ConditionEditing, ConditionViewing };

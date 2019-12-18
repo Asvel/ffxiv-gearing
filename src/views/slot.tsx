@@ -45,8 +45,8 @@ const GearRow = observer<{ gear: IGear }>(({ gear }) => {
   return (
     <tr
       data-id={gear.id}
-      className={classNames('gears_item', gear.equipped && '-selected')}
-      onClick={() => store.equip(gear)}
+      className={classNames('gears_item', !store.isViewing && gear.isEquipped && '-selected')}
+      onClick={store.isViewing ? undefined : () => store.equip(gear)}
     >
       <td className="gears_name">
         {gear.name}{gear.hq && <Icon className="gears_hq" name="hq"/>}

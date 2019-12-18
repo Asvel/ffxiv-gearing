@@ -133,7 +133,7 @@ export const Gear = types
       }
       return stats;
     },
-    get equipped(): boolean {
+    get isEquipped(): boolean {
       let store = getParentOfType(self, Store);
       return store.equippedGears.get(this.slot.toString()) === self;
     }
@@ -196,8 +196,11 @@ export const Store = types
     };
   })
   .views(self => ({
-    get loading(): boolean {
+    get isLoading(): boolean {
       return gearData.size === 0;
+    },
+    get isViewing(): boolean {
+      return self.mode === 'view';
     },
     get groupedGears(): { [index: number]: IGear[] | undefined } {
       console.log('groupedGears');
@@ -279,6 +282,19 @@ export const Store = types
     },
     setMode(mode: Mode): void {
       self.mode = mode;
+    },
+    startEditing(): void {
+      self.mode = 'edit';
+      let minLevel = Infinity;
+      let maxLevel = -Infinity;
+      self.equippedGears.forEach(gear => {
+        if (gear !== undefined) {
+          if (gear.level < minLevel) minLevel = gear.level;
+          if (gear.level > maxLevel) maxLevel = gear.level;
+        }
+      });
+      store.condition.minLevel = minLevel;
+      store.condition.maxLevel = maxLevel;
     },
     equip(gear: IGear): void {
       let key = gear.slot.toString();

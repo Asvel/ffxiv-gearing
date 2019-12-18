@@ -8,23 +8,25 @@
   line-height: 26px;
   text-align: center;
   border-radius: 2px;
-  &:hover {
-    z-index: 1;
-    background-color: #0000000f;
-  }
-  &:active,
-  &.-active {
-    z-index: 1;
-    background-color: #0000001a;
-  }
-  &:empty:before {
-    content: " ";
-    display: inline-block;
-    height: 16px;
-    width: 16px;
-    vertical-align: -3px;
-    border: 2px solid transparent;
-    border-radius: 50%;
+  .app-edit & {
+    &:hover {
+      z-index: 1;
+      background-color: #0000000f;
+    }
+    &:active,
+    &.-active {
+      z-index: 1;
+      background-color: #0000001a;
+    }
+    &:empty:before {
+      content: " ";
+      display: inline-block;
+      height: 16px;
+      width: 16px;
+      vertical-align: -3px;
+      border: 2px solid transparent;
+      border-radius: 50%;
+    }
   }
   &.-normal {
     color: #155724;

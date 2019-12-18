@@ -7,6 +7,7 @@ import { useStore } from './context';
 import { Dropdown } from './dropdown';
 
 const Materia = observer<{ materia: IMateria }>(({ materia }) => {
+  const store = useStore();
   const popperModifiers = React.useMemo(() => ({ offset: { offset: '-96px, 0' } }), []);
   return (
     <Dropdown
@@ -18,7 +19,7 @@ const Materia = observer<{ materia: IMateria }>(({ materia }) => {
             materia.isAdvanced ? '-advanced' : '-normal',
             expanded && '-active'
           )}
-          onClick={toggle}
+          onClick={store.isViewing ? undefined : toggle}
           children={materia.name}
         />
       )}

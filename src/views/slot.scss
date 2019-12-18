@@ -5,7 +5,9 @@
   margin-bottom: 10px;
 }
 .gears_item {
-  cursor: pointer;
+  .app-edit & {
+    cursor: pointer;
+  }
 }
 .gears_empty {
   text-align: center;
@@ -83,10 +85,6 @@
   line-height: 32px;
   color: inherit;
   text-decoration: none;
-  &.mdc-ripple-surface,
-  .mdc-ripple-surface & {
-    cursor: pointer;
-  }
 }
 .gear-menu_divider {
   height: 1px;
