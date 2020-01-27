@@ -69,7 +69,7 @@ const ConditionEditing = observer(() => {
 const ConditionViewing = observer(() => {
   const store = useStore();
   const { condition } = store;
-  return (
+  return condition.job === undefined ? null : (
     <div className="condition card">
       <span className="condition_job">
         <Icon className="condition_job-icon" name="jobs/WHM" />

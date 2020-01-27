@@ -2857,6 +2857,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "TEN": 14,
       "DHT": 20
@@ -2874,6 +2875,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "TEN": 20,
       "DET": 10
@@ -2891,6 +2893,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "CRT": 14,
       "SKS": 20
@@ -2908,6 +2911,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "DHT": 14,
       "CRT": 20
@@ -2926,6 +2930,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "DHT": 14,
       "CRT": 20
     },
@@ -2943,6 +2948,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "DHT": 20,
       "SKS": 14
     },
@@ -2960,6 +2966,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "DET": 10,
       "SKS": 20
     },
@@ -2977,6 +2984,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "CRT": 14,
       "DET": 14
     },
@@ -2994,6 +3002,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "DHT": 20,
       "CRT": 14
     },
@@ -3011,6 +3020,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "DET": 14,
       "SKS": 14
     },
@@ -3028,6 +3038,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "DHT": 20,
       "DET": 10
     },
@@ -3045,6 +3056,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "DET": 10,
       "SKS": 20
     },
@@ -3061,6 +3073,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "DET": 10,
       "SPS": 20
@@ -3078,6 +3091,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "PIE": 15,
       "SPS": 14
@@ -3095,6 +3109,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "PIE": 15,
       "CRT": 14
@@ -3112,6 +3127,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "PIE": 11,
       "SPS": 20
@@ -3129,6 +3145,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "CRT": 20,
       "SPS": 14
@@ -3146,6 +3163,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "DHT": 20,
       "DET": 10
@@ -3163,6 +3181,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "DET": 14,
       "SPS": 14
@@ -3180,6 +3199,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "CRT": 20,
       "DET": 10
@@ -4450,6 +4470,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 22,
       "VIT": 26,
       "DHT": 21,
       "CRT": 15
@@ -4467,6 +4488,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 22,
       "VIT": 26,
       "TEN": 15,
       "CRT": 21
@@ -4484,6 +4506,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 22,
       "VIT": 26,
       "DET": 15,
       "SKS": 15
@@ -4501,6 +4524,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 22,
       "VIT": 26,
       "DHT": 15,
       "SKS": 21
@@ -4519,6 +4543,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 22,
+      "VIT": 26,
       "DET": 15,
       "SKS": 15
     },
@@ -4536,6 +4561,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 22,
+      "VIT": 26,
       "DHT": 21,
       "SKS": 15
     },
@@ -4553,6 +4579,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 22,
+      "VIT": 26,
       "DHT": 15,
       "SKS": 21
     },
@@ -4570,6 +4597,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 22,
+      "VIT": 26,
       "DHT": 15,
       "CRT": 21
     },
@@ -4587,6 +4615,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 22,
+      "VIT": 26,
       "DHT": 15,
       "CRT": 21
     },
@@ -4604,6 +4633,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 22,
+      "VIT": 26,
       "DHT": 21,
       "DET": 10
     },
@@ -4621,6 +4651,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 22,
+      "VIT": 26,
       "DET": 15,
       "SKS": 15
     },
@@ -4638,6 +4669,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 22,
+      "VIT": 26,
       "DHT": 15,
       "SKS": 21
     },
@@ -4654,6 +4686,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 23,
       "MND": 22,
       "CRT": 21,
       "DET": 10
@@ -4671,6 +4704,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 23,
       "MND": 22,
       "PIE": 16,
       "SPS": 15
@@ -4688,6 +4722,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 23,
       "MND": 22,
       "PIE": 16,
       "SPS": 15
@@ -4705,6 +4740,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 23,
       "MND": 22,
       "PIE": 11,
       "CRT": 21
@@ -4722,6 +4758,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 23,
       "INT": 22,
       "DHT": 21,
       "DET": 10
@@ -4739,6 +4776,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 23,
       "INT": 22,
       "DET": 10,
       "SPS": 21
@@ -4756,6 +4794,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 23,
       "INT": 22,
       "DHT": 15,
       "CRT": 21
@@ -4773,6 +4812,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 23,
       "INT": 22,
       "DHT": 21,
       "SPS": 15
@@ -6210,6 +6250,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "DHT": 22,
       "DET": 11
@@ -6227,6 +6268,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "DHT": 22,
       "SKS": 15
@@ -6244,6 +6286,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "DHT": 15,
       "CRT": 22
@@ -6261,6 +6304,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "CRT": 15,
       "DET": 15
@@ -6279,6 +6323,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DHT": 15,
       "DET": 15
     },
@@ -6296,6 +6341,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "CRT": 22,
       "SKS": 15
     },
@@ -6313,6 +6359,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DHT": 22,
       "DET": 11
     },
@@ -6330,6 +6377,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DET": 11,
       "SKS": 22
     },
@@ -6347,6 +6395,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "CRT": 22,
       "SKS": 15
     },
@@ -6364,6 +6413,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 22,
       "CRT": 15
     },
@@ -6381,6 +6431,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 15,
       "SKS": 22
     },
@@ -6398,6 +6449,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 22,
       "DET": 11
     },
@@ -6414,6 +6466,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "PIE": 17,
       "DET": 11
@@ -6431,6 +6484,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "PIE": 12,
       "CRT": 22
@@ -6448,6 +6502,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "CRT": 15,
       "DET": 15
@@ -6465,6 +6520,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "DET": 11,
       "SPS": 22
@@ -6482,6 +6538,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "CRT": 15,
       "SPS": 22
@@ -6499,6 +6556,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DET": 15,
       "SPS": 15
@@ -6516,6 +6574,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DHT": 22,
       "DET": 11
@@ -6533,6 +6592,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DHT": 22,
       "CRT": 15
@@ -7803,6 +7863,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 24,
       "VIT": 27,
       "DHT": 22,
       "SKS": 16
@@ -7820,6 +7881,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 24,
       "VIT": 27,
       "CRT": 16,
       "DET": 16
@@ -7837,6 +7899,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 24,
       "VIT": 27,
       "DHT": 16,
       "CRT": 22
@@ -7854,6 +7917,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 24,
       "VIT": 27,
       "DHT": 16,
       "DET": 16
@@ -7872,6 +7936,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 24,
+      "VIT": 27,
       "DET": 16,
       "SKS": 16
     },
@@ -7889,6 +7954,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 24,
+      "VIT": 27,
       "DHT": 22,
       "CRT": 16
     },
@@ -7906,6 +7972,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 24,
+      "VIT": 27,
       "DHT": 16,
       "CRT": 22
     },
@@ -7923,6 +7990,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 24,
+      "VIT": 27,
       "DHT": 16,
       "SKS": 22
     },
@@ -7940,6 +8008,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 24,
+      "VIT": 27,
       "DHT": 16,
       "SKS": 22
     },
@@ -7957,6 +8026,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 24,
+      "VIT": 27,
       "DHT": 16,
       "DET": 16
     },
@@ -7974,6 +8044,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 24,
+      "VIT": 27,
       "CRT": 16,
       "DET": 16
     },
@@ -7991,6 +8062,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 24,
+      "VIT": 27,
       "CRT": 22,
       "SKS": 16
     },
@@ -8007,6 +8079,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "MND": 24,
       "CRT": 22,
       "DET": 11
@@ -8024,6 +8097,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "MND": 24,
       "PIE": 12,
       "SPS": 22
@@ -8041,6 +8115,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "MND": 24,
       "PIE": 12,
       "DET": 16
@@ -8058,6 +8133,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "MND": 24,
       "PIE": 17,
       "CRT": 16
@@ -8075,6 +8151,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "INT": 24,
       "DHT": 22,
       "DET": 11
@@ -8092,6 +8169,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "INT": 24,
       "DHT": 16,
       "SPS": 22
@@ -8109,6 +8187,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "INT": 24,
       "DHT": 16,
       "CRT": 22
@@ -8126,6 +8205,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "INT": 24,
       "DET": 16,
       "SPS": 16
@@ -9525,6 +9605,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 25,
       "VIT": 27,
       "DHT": 23,
       "SKS": 16
@@ -9542,6 +9623,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 25,
       "VIT": 27,
       "DHT": 16,
       "DET": 17
@@ -9559,6 +9641,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 25,
       "VIT": 27,
       "DHT": 23,
       "CRT": 16
@@ -9576,6 +9659,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 25,
       "VIT": 27,
       "TEN": 23,
       "DHT": 16
@@ -9594,6 +9678,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 25,
+      "VIT": 27,
       "DHT": 16,
       "SKS": 23
     },
@@ -9611,6 +9696,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 25,
+      "VIT": 27,
       "DHT": 16,
       "SKS": 23
     },
@@ -9628,6 +9714,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 25,
+      "VIT": 27,
       "CRT": 16,
       "DET": 17
     },
@@ -9645,6 +9732,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 25,
+      "VIT": 27,
       "CRT": 23,
       "DET": 12
     },
@@ -9662,6 +9750,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 25,
+      "VIT": 27,
       "CRT": 16,
       "DET": 17
     },
@@ -9679,6 +9768,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 25,
+      "VIT": 27,
       "DHT": 23,
       "SKS": 16
     },
@@ -9696,6 +9786,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 25,
+      "VIT": 27,
       "DHT": 16,
       "CRT": 23
     },
@@ -9713,6 +9804,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 25,
+      "VIT": 27,
       "DHT": 16,
       "SKS": 23
     },
@@ -9729,6 +9821,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "MND": 25,
       "PIE": 17,
       "SPS": 16
@@ -9746,6 +9839,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "MND": 25,
       "CRT": 16,
       "DET": 17
@@ -9763,6 +9857,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "MND": 25,
       "DET": 12,
       "SPS": 23
@@ -9780,6 +9875,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "MND": 25,
       "PIE": 12,
       "CRT": 23
@@ -9797,6 +9893,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "INT": 25,
       "DHT": 16,
       "SPS": 23
@@ -9814,6 +9911,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "INT": 25,
       "CRT": 23,
       "DET": 12
@@ -9831,6 +9929,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "INT": 25,
       "CRT": 16,
       "SPS": 23
@@ -9848,6 +9947,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "INT": 25,
       "DHT": 16,
       "SPS": 23
@@ -11187,6 +11287,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 26,
       "VIT": 28,
       "TEN": 23,
       "SKS": 16
@@ -11204,6 +11305,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 26,
       "VIT": 28,
       "DHT": 23,
       "CRT": 16
@@ -11221,6 +11323,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 26,
       "VIT": 28,
       "DET": 13,
       "SKS": 23
@@ -11238,6 +11341,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 26,
       "VIT": 28,
       "DHT": 23,
       "SKS": 16
@@ -11256,6 +11360,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 26,
+      "VIT": 28,
       "DHT": 23,
       "DET": 13
     },
@@ -11273,6 +11378,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 26,
+      "VIT": 28,
       "CRT": 16,
       "DET": 18
     },
@@ -11290,6 +11396,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 26,
+      "VIT": 28,
       "DHT": 23,
       "SKS": 16
     },
@@ -11307,6 +11414,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 26,
+      "VIT": 28,
       "CRT": 16,
       "SKS": 23
     },
@@ -11324,6 +11432,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 26,
+      "VIT": 28,
       "DHT": 16,
       "DET": 18
     },
@@ -11341,6 +11450,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 26,
+      "VIT": 28,
       "DET": 13,
       "SKS": 23
     },
@@ -11358,6 +11468,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 26,
+      "VIT": 28,
       "CRT": 23,
       "SKS": 16
     },
@@ -11375,6 +11486,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 26,
+      "VIT": 28,
       "DHT": 23,
       "CRT": 16
     },
@@ -11391,6 +11503,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "MND": 26,
       "PIE": 18,
       "CRT": 16
@@ -11408,6 +11521,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "MND": 26,
       "PIE": 12,
       "CRT": 23
@@ -11425,6 +11539,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "MND": 26,
       "PIE": 18,
       "SPS": 16
@@ -11442,6 +11557,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "MND": 26,
       "DET": 18,
       "SPS": 16
@@ -11459,6 +11575,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "INT": 26,
       "DET": 13,
       "SPS": 23
@@ -11476,6 +11593,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "INT": 26,
       "DHT": 23,
       "CRT": 16
@@ -11493,6 +11611,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "INT": 26,
       "DHT": 23,
       "SPS": 16
@@ -11510,6 +11629,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 25,
       "INT": 26,
       "DHT": 16,
       "DET": 18
@@ -13005,6 +13125,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 28,
       "VIT": 28,
       "TEN": 16,
       "DET": 19
@@ -13022,6 +13143,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 28,
       "VIT": 28,
       "DHT": 16,
       "CRT": 23
@@ -13039,6 +13161,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 28,
       "VIT": 28,
       "DHT": 23,
       "DET": 13
@@ -13056,6 +13179,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 28,
       "VIT": 28,
       "DHT": 23,
       "SKS": 16
@@ -13074,6 +13198,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 28,
+      "VIT": 28,
       "CRT": 16,
       "DET": 19
     },
@@ -13091,6 +13216,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 28,
+      "VIT": 28,
       "CRT": 23,
       "SKS": 16
     },
@@ -13108,6 +13234,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 28,
+      "VIT": 28,
       "CRT": 16,
       "SKS": 23
     },
@@ -13125,6 +13252,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 28,
+      "VIT": 28,
       "DHT": 23,
       "SKS": 16
     },
@@ -13142,6 +13270,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 28,
+      "VIT": 28,
       "CRT": 23,
       "DET": 13
     },
@@ -13159,6 +13288,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 28,
+      "VIT": 28,
       "DHT": 16,
       "CRT": 23
     },
@@ -13176,6 +13306,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 28,
+      "VIT": 28,
       "DHT": 23,
       "CRT": 16
     },
@@ -13193,6 +13324,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 28,
+      "VIT": 28,
       "DET": 13,
       "SKS": 23
     },
@@ -13209,6 +13341,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "MND": 28,
       "DET": 19,
       "SPS": 16
@@ -13226,6 +13359,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "MND": 28,
       "PIE": 18,
       "DET": 13
@@ -13243,6 +13377,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "MND": 28,
       "CRT": 23,
       "SPS": 16
@@ -13260,6 +13395,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "MND": 28,
       "PIE": 18,
       "CRT": 16
@@ -13277,6 +13413,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "INT": 28,
       "DHT": 23,
       "CRT": 16
@@ -13294,6 +13431,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "INT": 28,
       "DET": 13,
       "SPS": 23
@@ -13311,6 +13449,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "INT": 28,
       "CRT": 23,
       "DET": 13
@@ -13328,6 +13467,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 25,
       "INT": 28,
       "DHT": 23,
       "CRT": 16
@@ -14583,6 +14723,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 29,
       "VIT": 28,
       "TEN": 16,
       "DHT": 23
@@ -14600,6 +14741,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 29,
       "VIT": 28,
       "DHT": 23,
       "SKS": 16
@@ -14617,6 +14759,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 29,
       "VIT": 28,
       "CRT": 16,
       "DET": 21
@@ -14634,6 +14777,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 29,
       "VIT": 28,
       "CRT": 16,
       "SKS": 23
@@ -14652,6 +14796,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 29,
+      "VIT": 28,
       "DET": 21,
       "SKS": 16
     },
@@ -14669,6 +14814,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 29,
+      "VIT": 28,
       "DHT": 23,
       "DET": 14
     },
@@ -14686,6 +14832,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 29,
+      "VIT": 28,
       "DHT": 23,
       "DET": 14
     },
@@ -14703,6 +14850,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 29,
+      "VIT": 28,
       "DHT": 16,
       "CRT": 23
     },
@@ -14720,6 +14868,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 29,
+      "VIT": 28,
       "DHT": 23,
       "SKS": 16
     },
@@ -14737,6 +14886,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 29,
+      "VIT": 28,
       "CRT": 16,
       "DET": 21
     },
@@ -14754,6 +14904,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 29,
+      "VIT": 28,
       "DHT": 16,
       "CRT": 23
     },
@@ -14771,6 +14922,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 29,
+      "VIT": 28,
       "DHT": 16,
       "SKS": 23
     },
@@ -14787,6 +14939,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "MND": 29,
       "PIE": 19,
       "DET": 14
@@ -14804,6 +14957,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "MND": 29,
       "CRT": 23,
       "SPS": 16
@@ -14821,6 +14975,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "MND": 29,
       "PIE": 13,
       "DET": 21
@@ -14838,6 +14993,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "MND": 29,
       "CRT": 16,
       "SPS": 23
@@ -14855,6 +15011,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "INT": 29,
       "DET": 21,
       "SPS": 16
@@ -14872,6 +15029,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "INT": 29,
       "DHT": 23,
       "DET": 14
@@ -14889,6 +15047,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "INT": 29,
       "DHT": 23,
       "CRT": 16
@@ -14906,6 +15065,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "INT": 29,
       "CRT": 16,
       "SPS": 23
@@ -16191,6 +16351,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 30,
       "VIT": 29,
       "CRT": 17,
       "DET": 22
@@ -16208,6 +16369,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 30,
       "VIT": 29,
       "TEN": 17,
       "DHT": 24
@@ -16225,6 +16387,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 30,
       "VIT": 29,
       "DHT": 24,
       "SKS": 17
@@ -16242,6 +16405,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 30,
       "VIT": 29,
       "DHT": 17,
       "CRT": 24
@@ -16260,6 +16424,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 30,
+      "VIT": 29,
       "DHT": 17,
       "CRT": 24
     },
@@ -16277,6 +16442,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 30,
+      "VIT": 29,
       "DHT": 24,
       "SKS": 17
     },
@@ -16294,6 +16460,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 30,
+      "VIT": 29,
       "CRT": 24,
       "DET": 15
     },
@@ -16311,6 +16478,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 30,
+      "VIT": 29,
       "DET": 22,
       "SKS": 17
     },
@@ -16328,6 +16496,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 30,
+      "VIT": 29,
       "CRT": 24,
       "SKS": 17
     },
@@ -16345,6 +16514,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 30,
+      "VIT": 29,
       "DHT": 24,
       "DET": 15
     },
@@ -16362,6 +16532,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 30,
+      "VIT": 29,
       "DHT": 24,
       "SKS": 17
     },
@@ -16379,6 +16550,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 30,
+      "VIT": 29,
       "DHT": 24,
       "CRT": 17
     },
@@ -16395,6 +16567,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 26,
       "MND": 30,
       "CRT": 24,
       "SPS": 17
@@ -16412,6 +16585,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 26,
       "MND": 30,
       "PIE": 19,
       "SPS": 17
@@ -16429,6 +16603,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 26,
       "MND": 30,
       "PIE": 19,
       "DET": 15
@@ -16446,6 +16621,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 26,
       "MND": 30,
       "PIE": 14,
       "DET": 22
@@ -16463,6 +16639,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 26,
       "INT": 30,
       "DHT": 24,
       "DET": 15
@@ -16480,6 +16657,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 26,
       "INT": 30,
       "DHT": 24,
       "SPS": 17
@@ -16497,6 +16675,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 26,
       "INT": 30,
       "DET": 22,
       "SPS": 17
@@ -16514,6 +16693,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 26,
       "INT": 30,
       "DHT": 17,
       "CRT": 24

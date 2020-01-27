@@ -3116,6 +3116,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 72,
       "VIT": 80,
       "TEN": 57,
       "SKS": 40
@@ -3138,6 +3139,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 72,
+      "VIT": 80,
       "CRT": 40,
       "SKS": 57
     },
@@ -3159,6 +3161,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 72,
+      "VIT": 80,
       "DHT": 57,
       "CRT": 40
     },
@@ -3179,6 +3182,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "MND": 72,
       "CRT": 57,
       "DET": 38
@@ -3200,6 +3204,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "INT": 72,
       "CRT": 57,
       "SPS": 40
@@ -3221,6 +3226,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 72,
       "VIT": 80,
       "TEN": 40,
       "CRT": 57
@@ -3243,6 +3249,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 72,
+      "VIT": 80,
       "DHT": 40,
       "DET": 54
     },
@@ -3264,6 +3271,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 72,
+      "VIT": 80,
       "DHT": 40,
       "DET": 54
     },
@@ -3284,6 +3292,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "MND": 72,
       "PIE": 40,
       "SPS": 57
@@ -3305,6 +3314,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "INT": 72,
       "CRT": 40,
       "DET": 54
@@ -3326,6 +3336,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 72,
       "VIT": 80,
       "CRT": 40,
       "DET": 54
@@ -3348,6 +3359,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 72,
+      "VIT": 80,
       "DHT": 57,
       "SKS": 40
     },
@@ -3369,6 +3381,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 72,
+      "VIT": 80,
       "DET": 38,
       "SKS": 57
     },
@@ -3389,6 +3402,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "MND": 72,
       "PIE": 40,
       "DET": 54
@@ -3410,6 +3424,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "INT": 72,
       "CRT": 40,
       "SPS": 57
@@ -3431,6 +3446,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 72,
       "VIT": 80,
       "CRT": 57,
       "DET": 38
@@ -3453,6 +3469,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 72,
+      "VIT": 80,
       "CRT": 40,
       "SKS": 57
     },
@@ -3474,6 +3491,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 72,
+      "VIT": 80,
       "DHT": 57,
       "SKS": 40
     },
@@ -3494,6 +3512,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "MND": 72,
       "PIE": 40,
       "CRT": 57
@@ -3515,6 +3534,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "INT": 72,
       "DHT": 57,
       "SPS": 40
@@ -3899,7 +3919,7 @@
   },
   {
     "id": 20619,
-    "name": "悬浮米诺拟饵",
+    "name": "悬浮诱饵鱼",
     "level": 260,
     "slot": 0,
     "role": 9,
@@ -3910,6 +3930,46 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27359,
+    "name": "鬼船枪刃",
+    "level": 260,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 61,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 169,
+      "VIT": 188,
+      "DLY": 2800,
+      "CRT": 133,
+      "DET": 88,
+      "WPN": 83
+    },
+    "hq": false
+  },
+  {
+    "id": 27360,
+    "name": "鬼船战轮",
+    "level": 260,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 61,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 169,
+      "VIT": 188,
+      "DLY": 3120,
+      "DHT": 133,
+      "DET": 88,
+      "WPN": 83
+    },
     "hq": false
   },
   {
@@ -5165,6 +5225,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 75,
       "VIT": 84,
       "TEN": 58,
       "DET": 39
@@ -5187,6 +5248,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 75,
+      "VIT": 84,
       "CRT": 58,
       "SKS": 41
     },
@@ -5208,6 +5270,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 75,
+      "VIT": 84,
       "DHT": 58,
       "SKS": 41
     },
@@ -5228,6 +5291,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 76,
       "MND": 75,
       "PIE": 58,
       "SPS": 41
@@ -5249,6 +5313,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 76,
       "INT": 75,
       "DHT": 58,
       "SPS": 41
@@ -5270,6 +5335,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 75,
       "VIT": 84,
       "TEN": 58,
       "SKS": 41
@@ -5292,6 +5358,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 75,
+      "VIT": 84,
       "DHT": 41,
       "SKS": 58
     },
@@ -5313,6 +5380,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 75,
+      "VIT": 84,
       "DHT": 41,
       "DET": 56
     },
@@ -5333,6 +5401,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 76,
       "MND": 75,
       "CRT": 58,
       "DET": 39
@@ -5354,6 +5423,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 76,
       "INT": 75,
       "DHT": 58,
       "DET": 39
@@ -5375,6 +5445,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 75,
       "VIT": 84,
       "TEN": 41,
       "DET": 56
@@ -5397,6 +5468,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 75,
+      "VIT": 84,
       "CRT": 58,
       "DET": 39
     },
@@ -5418,6 +5490,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 75,
+      "VIT": 84,
       "DHT": 58,
       "CRT": 41
     },
@@ -5438,6 +5511,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 76,
       "MND": 75,
       "PIE": 58,
       "SPS": 41
@@ -5459,6 +5533,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 76,
       "INT": 75,
       "DHT": 41,
       "CRT": 58
@@ -5480,6 +5555,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 75,
       "VIT": 84,
       "TEN": 41,
       "CRT": 58
@@ -5502,6 +5578,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 75,
+      "VIT": 84,
       "CRT": 58,
       "SKS": 41
     },
@@ -5523,6 +5600,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 75,
+      "VIT": 84,
       "DET": 39,
       "SKS": 58
     },
@@ -5543,6 +5621,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 76,
       "MND": 75,
       "PIE": 58,
       "CRT": 41
@@ -5564,9 +5643,50 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 76,
       "INT": 75,
       "DHT": 41,
       "CRT": 58
+    },
+    "hq": true
+  },
+  {
+    "id": 27361,
+    "name": "硬钢刺刀",
+    "level": 265,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 62,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 175,
+      "VIT": 196,
+      "DLY": 2800,
+      "TEN": 95,
+      "SKS": 136,
+      "WPN": 83
+    },
+    "hq": true
+  },
+  {
+    "id": 27362,
+    "name": "硬钢战轮",
+    "level": 265,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 62,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 175,
+      "VIT": 196,
+      "DLY": 3120,
+      "CRT": 136,
+      "DET": 91,
+      "WPN": 83
     },
     "hq": true
   },
@@ -5922,7 +6042,7 @@
   },
   {
     "id": 18283,
-    "name": "紫水武士面饰",
+    "name": "紫水豪士面饰",
     "level": 270,
     "slot": 3,
     "role": 1,
@@ -5944,7 +6064,7 @@
   },
   {
     "id": 18284,
-    "name": "紫水武士上衣",
+    "name": "紫水豪士上衣",
     "level": 270,
     "slot": 4,
     "role": 1,
@@ -5966,7 +6086,7 @@
   },
   {
     "id": 18285,
-    "name": "紫水武士笼手",
+    "name": "紫水豪士笼手",
     "level": 270,
     "slot": 5,
     "role": 1,
@@ -5988,7 +6108,7 @@
   },
   {
     "id": 18286,
-    "name": "紫水武士小袴",
+    "name": "紫水豪士小袴",
     "level": 270,
     "slot": 7,
     "role": 1,
@@ -6010,7 +6130,7 @@
   },
   {
     "id": 18287,
-    "name": "紫水武士草履",
+    "name": "紫水豪士草履",
     "level": 270,
     "slot": 8,
     "role": 1,
@@ -6032,7 +6152,7 @@
   },
   {
     "id": 18288,
-    "name": "紫水武士带",
+    "name": "紫水豪士带",
     "level": 270,
     "slot": 6,
     "role": 1,
@@ -6810,7 +6930,7 @@
   },
   {
     "id": 18325,
-    "name": "红玉武士耳饰",
+    "name": "红玉豪士耳饰",
     "level": 270,
     "slot": 9,
     "role": 1,
@@ -6823,6 +6943,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "TEN": 59,
       "SKS": 42
@@ -6845,6 +6966,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DET": 57,
       "SKS": 42
     },
@@ -6866,6 +6988,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DET": 57,
       "SKS": 42
     },
@@ -6886,6 +7009,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "DET": 40,
       "SPS": 59
@@ -6907,6 +7031,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DHT": 42,
       "DET": 57
@@ -6915,7 +7040,7 @@
   },
   {
     "id": 18330,
-    "name": "红玉武士首饰",
+    "name": "红玉豪士首饰",
     "level": 270,
     "slot": 10,
     "role": 1,
@@ -6928,6 +7053,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "TEN": 59,
       "CRT": 42
@@ -6950,6 +7076,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "CRT": 42,
       "DET": 57
     },
@@ -6971,6 +7098,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "CRT": 42,
       "SKS": 59
     },
@@ -6991,6 +7119,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "CRT": 59,
       "SPS": 42
@@ -7012,6 +7141,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DHT": 42,
       "CRT": 59
@@ -7020,7 +7150,7 @@
   },
   {
     "id": 18335,
-    "name": "红玉武士手饰",
+    "name": "红玉豪士手饰",
     "level": 270,
     "slot": 11,
     "role": 1,
@@ -7033,6 +7163,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "TEN": 42,
       "SKS": 59
@@ -7055,6 +7186,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "CRT": 42,
       "DET": 57
     },
@@ -7076,6 +7208,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DHT": 42,
       "SKS": 59
     },
@@ -7096,6 +7229,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 41,
       "SPS": 59
@@ -7117,6 +7251,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DHT": 59,
       "CRT": 42
@@ -7125,7 +7260,7 @@
   },
   {
     "id": 18340,
-    "name": "红玉武士指饰",
+    "name": "红玉豪士指饰",
     "level": 270,
     "slot": 12,
     "role": 1,
@@ -7138,6 +7273,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "DET": 57,
       "SKS": 42
@@ -7160,6 +7296,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DHT": 59,
       "CRT": 42
     },
@@ -7181,6 +7318,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DHT": 42,
       "CRT": 59
     },
@@ -7201,6 +7339,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 59,
       "CRT": 42
@@ -7222,9 +7361,50 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DHT": 42,
       "DET": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 27363,
+    "name": "红玉枪刃",
+    "level": 270,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 63,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 182,
+      "VIT": 204,
+      "DLY": 2800,
+      "DET": 133,
+      "SKS": 97,
+      "WPN": 84
+    },
+    "hq": false
+  },
+  {
+    "id": 27364,
+    "name": "红玉风火轮",
+    "level": 270,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 63,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 182,
+      "VIT": 204,
+      "DLY": 3120,
+      "DHT": 97,
+      "DET": 133,
+      "WPN": 84
     },
     "hq": false
   },
@@ -8481,6 +8661,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 80,
       "VIT": 90,
       "TEN": 60,
       "SKS": 42
@@ -8503,6 +8684,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 80,
+      "VIT": 90,
       "DHT": 60,
       "CRT": 42
     },
@@ -8524,6 +8706,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 80,
+      "VIT": 90,
       "DET": 40,
       "SKS": 60
     },
@@ -8544,6 +8727,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 81,
       "MND": 80,
       "PIE": 60,
       "CRT": 42
@@ -8565,6 +8749,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 81,
       "INT": 80,
       "DHT": 42,
       "DET": 58
@@ -8586,6 +8771,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 80,
       "VIT": 90,
       "TEN": 42,
       "SKS": 60
@@ -8608,6 +8794,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 80,
+      "VIT": 90,
       "DET": 58,
       "SKS": 42
     },
@@ -8629,6 +8816,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 80,
+      "VIT": 90,
       "DHT": 60,
       "CRT": 42
     },
@@ -8649,6 +8837,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 81,
       "MND": 80,
       "PIE": 42,
       "SPS": 60
@@ -8670,6 +8859,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 81,
       "INT": 80,
       "CRT": 42,
       "SPS": 60
@@ -8691,6 +8881,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 80,
       "VIT": 90,
       "TEN": 42,
       "DET": 58
@@ -8713,6 +8904,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 80,
+      "VIT": 90,
       "CRT": 60,
       "DET": 40
     },
@@ -8734,6 +8926,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 80,
+      "VIT": 90,
       "DET": 40,
       "SKS": 60
     },
@@ -8754,6 +8947,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 81,
       "MND": 80,
       "PIE": 60,
       "DET": 40
@@ -8775,6 +8969,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 81,
       "INT": 80,
       "DHT": 42,
       "CRT": 60
@@ -8796,6 +8991,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 80,
       "VIT": 90,
       "TEN": 60,
       "CRT": 42
@@ -8818,6 +9014,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 80,
+      "VIT": 90,
       "CRT": 42,
       "SKS": 60
     },
@@ -8839,6 +9036,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 80,
+      "VIT": 90,
       "DHT": 60,
       "CRT": 42
     },
@@ -8859,6 +9057,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 81,
       "MND": 80,
       "PIE": 42,
       "CRT": 60
@@ -8880,9 +9079,50 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 81,
       "INT": 80,
       "DET": 40,
       "SPS": 60
+    },
+    "hq": true
+  },
+  {
+    "id": 27365,
+    "name": "卸铁枪刃",
+    "level": 273,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 64,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 186,
+      "VIT": 210,
+      "DLY": 2800,
+      "CRT": 98,
+      "DET": 135,
+      "WPN": 84
+    },
+    "hq": true
+  },
+  {
+    "id": 27366,
+    "name": "卸铁轮刃",
+    "level": 273,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 64,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 186,
+      "VIT": 210,
+      "DLY": 3120,
+      "DHT": 140,
+      "CRT": 98,
+      "WPN": 84
     },
     "hq": true
   },
@@ -10139,6 +10379,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 83,
       "VIT": 91,
       "DET": 46,
       "SKS": 66
@@ -10161,6 +10402,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 83,
+      "VIT": 91,
       "DHT": 47,
       "SKS": 66
     },
@@ -10182,6 +10424,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 83,
+      "VIT": 91,
       "DHT": 66,
       "SKS": 47
     },
@@ -10202,6 +10445,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 82,
       "MND": 83,
       "PIE": 47,
       "CRT": 66
@@ -10223,6 +10467,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 82,
       "INT": 83,
       "CRT": 47,
       "SPS": 66
@@ -10244,6 +10489,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 83,
       "VIT": 91,
       "CRT": 66,
       "SKS": 47
@@ -10266,6 +10512,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 83,
+      "VIT": 91,
       "DHT": 66,
       "DET": 46
     },
@@ -10287,6 +10534,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 83,
+      "VIT": 91,
       "DHT": 66,
       "DET": 46
     },
@@ -10307,6 +10555,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 82,
       "MND": 83,
       "CRT": 66,
       "DET": 46
@@ -10328,6 +10577,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 82,
       "INT": 83,
       "DHT": 66,
       "DET": 46
@@ -10349,6 +10599,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 83,
       "VIT": 91,
       "TEN": 47,
       "DET": 66
@@ -10371,6 +10622,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 83,
+      "VIT": 91,
       "CRT": 66,
       "SKS": 47
     },
@@ -10392,6 +10644,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 83,
+      "VIT": 91,
       "DHT": 47,
       "CRT": 66
     },
@@ -10412,6 +10665,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 82,
       "MND": 83,
       "PIE": 66,
       "CRT": 47
@@ -10433,6 +10687,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 82,
       "INT": 83,
       "CRT": 66,
       "SPS": 47
@@ -10454,6 +10709,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 83,
       "VIT": 91,
       "DET": 46,
       "SKS": 66
@@ -10476,6 +10732,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 83,
+      "VIT": 91,
       "DHT": 47,
       "CRT": 66
     },
@@ -10497,6 +10754,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 83,
+      "VIT": 91,
       "DHT": 66,
       "CRT": 47
     },
@@ -10517,6 +10775,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 82,
       "MND": 83,
       "PIE": 66,
       "CRT": 47
@@ -10538,9 +10797,50 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 82,
       "INT": 83,
       "DHT": 66,
       "DET": 46
+    },
+    "hq": false
+  },
+  {
+    "id": 27367,
+    "name": "悠久的大海",
+    "level": 276,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 65,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 195,
+      "VIT": 213,
+      "DLY": 2800,
+      "TEN": 109,
+      "SKS": 155,
+      "WPN": 86
+    },
+    "hq": false
+  },
+  {
+    "id": 27368,
+    "name": "巡回的慧星",
+    "level": 276,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 65,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 195,
+      "VIT": 213,
+      "DLY": 3120,
+      "DHT": 109,
+      "DET": 154,
+      "WPN": 86
     },
     "hq": false
   },
@@ -11797,6 +12097,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 86,
       "VIT": 92,
       "CRT": 73,
       "SKS": 51
@@ -11819,6 +12120,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 86,
+      "VIT": 92,
       "DET": 73,
       "SKS": 51
     },
@@ -11840,6 +12142,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 86,
+      "VIT": 92,
       "CRT": 51,
       "SKS": 73
     },
@@ -11860,6 +12163,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 83,
       "MND": 86,
       "PIE": 51,
       "CRT": 73
@@ -11881,6 +12185,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 83,
       "INT": 86,
       "DHT": 73,
       "SPS": 51
@@ -11902,6 +12207,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 86,
       "VIT": 92,
       "TEN": 51,
       "DET": 73
@@ -11924,6 +12230,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 86,
+      "VIT": 92,
       "DHT": 51,
       "SKS": 73
     },
@@ -11945,6 +12252,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 86,
+      "VIT": 92,
       "DHT": 73,
       "DET": 51
     },
@@ -11965,6 +12273,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 83,
       "MND": 86,
       "PIE": 73,
       "SPS": 51
@@ -11986,6 +12295,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 83,
       "INT": 86,
       "CRT": 51,
       "DET": 73
@@ -12007,6 +12317,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 86,
       "VIT": 92,
       "CRT": 51,
       "SKS": 73
@@ -12029,6 +12340,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 86,
+      "VIT": 92,
       "CRT": 73,
       "DET": 51
     },
@@ -12050,6 +12362,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 86,
+      "VIT": 92,
       "CRT": 73,
       "SKS": 51
     },
@@ -12070,6 +12383,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 83,
       "MND": 86,
       "PIE": 51,
       "CRT": 73
@@ -12091,6 +12405,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 83,
       "INT": 86,
       "CRT": 51,
       "SPS": 73
@@ -12112,6 +12427,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 86,
       "VIT": 92,
       "TEN": 51,
       "CRT": 73
@@ -12134,6 +12450,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 86,
+      "VIT": 92,
       "CRT": 73,
       "SKS": 51
     },
@@ -12155,6 +12472,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 86,
+      "VIT": 92,
       "DHT": 73,
       "DET": 51
     },
@@ -12175,6 +12493,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 83,
       "MND": 86,
       "PIE": 51,
       "SPS": 73
@@ -12196,9 +12515,50 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 83,
       "INT": 86,
       "DHT": 73,
       "DET": 51
+    },
+    "hq": true
+  },
+  {
+    "id": 27369,
+    "name": "玉钢枪刃",
+    "level": 279,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 66,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 200,
+      "VIT": 214,
+      "DLY": 2800,
+      "CRT": 119,
+      "DET": 170,
+      "WPN": 87
+    },
+    "hq": true
+  },
+  {
+    "id": 27370,
+    "name": "玉钢战轮",
+    "level": 279,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 66,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 200,
+      "VIT": 214,
+      "DLY": 3120,
+      "CRT": 119,
+      "DET": 170,
+      "WPN": 87
     },
     "hq": true
   },
@@ -12554,7 +12914,7 @@
   },
   {
     "id": 18595,
-    "name": "延夏武士钵铁",
+    "name": "延夏豪士钵铁",
     "level": 282,
     "slot": 3,
     "role": 1,
@@ -12576,7 +12936,7 @@
   },
   {
     "id": 18596,
-    "name": "延夏武士腹当",
+    "name": "延夏豪士腹当",
     "level": 282,
     "slot": 4,
     "role": 1,
@@ -12598,7 +12958,7 @@
   },
   {
     "id": 18597,
-    "name": "延夏武士笼手",
+    "name": "延夏豪士笼手",
     "level": 282,
     "slot": 5,
     "role": 1,
@@ -12620,7 +12980,7 @@
   },
   {
     "id": 18598,
-    "name": "延夏武士佩楯",
+    "name": "延夏豪士佩楯",
     "level": 282,
     "slot": 7,
     "role": 1,
@@ -12642,7 +13002,7 @@
   },
   {
     "id": 18599,
-    "name": "延夏武士护胫",
+    "name": "延夏豪士护胫",
     "level": 282,
     "slot": 8,
     "role": 1,
@@ -12664,7 +13024,7 @@
   },
   {
     "id": 18600,
-    "name": "延夏武士带",
+    "name": "延夏豪士带",
     "level": 282,
     "slot": 6,
     "role": 1,
@@ -13442,7 +13802,7 @@
   },
   {
     "id": 18637,
-    "name": "延夏武士耳饰",
+    "name": "延夏豪士耳饰",
     "level": 282,
     "slot": 9,
     "role": 1,
@@ -13455,6 +13815,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 88,
       "VIT": 93,
       "CRT": 56,
       "DET": 80
@@ -13477,6 +13838,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 88,
+      "VIT": 93,
       "CRT": 80,
       "DET": 56
     },
@@ -13498,6 +13860,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 88,
+      "VIT": 93,
       "CRT": 56,
       "SKS": 80
     },
@@ -13518,6 +13881,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 83,
       "MND": 88,
       "PIE": 80,
       "SPS": 56
@@ -13539,6 +13903,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 83,
       "INT": 88,
       "DHT": 56,
       "CRT": 80
@@ -13547,7 +13912,7 @@
   },
   {
     "id": 18642,
-    "name": "延夏武士首饰",
+    "name": "延夏豪士首饰",
     "level": 282,
     "slot": 10,
     "role": 1,
@@ -13560,6 +13925,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 88,
       "VIT": 93,
       "DET": 80,
       "SKS": 56
@@ -13582,6 +13948,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 88,
+      "VIT": 93,
       "DHT": 56,
       "SKS": 80
     },
@@ -13603,6 +13970,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 88,
+      "VIT": 93,
       "DHT": 56,
       "DET": 80
     },
@@ -13623,6 +13991,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 83,
       "MND": 88,
       "CRT": 56,
       "DET": 80
@@ -13644,6 +14013,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 83,
       "INT": 88,
       "CRT": 56,
       "SPS": 80
@@ -13652,7 +14022,7 @@
   },
   {
     "id": 18647,
-    "name": "延夏武士手饰",
+    "name": "延夏豪士手饰",
     "level": 282,
     "slot": 11,
     "role": 1,
@@ -13665,6 +14035,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 88,
       "VIT": 93,
       "TEN": 56,
       "SKS": 80
@@ -13687,6 +14058,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 88,
+      "VIT": 93,
       "CRT": 56,
       "DET": 80
     },
@@ -13708,6 +14080,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 88,
+      "VIT": 93,
       "DHT": 80,
       "DET": 56
     },
@@ -13728,6 +14101,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 83,
       "MND": 88,
       "PIE": 80,
       "SPS": 56
@@ -13749,6 +14123,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 83,
       "INT": 88,
       "DHT": 80,
       "DET": 56
@@ -13757,7 +14132,7 @@
   },
   {
     "id": 18652,
-    "name": "延夏武士指饰",
+    "name": "延夏豪士指饰",
     "level": 282,
     "slot": 12,
     "role": 1,
@@ -13770,6 +14145,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 88,
       "VIT": 93,
       "TEN": 56,
       "CRT": 80
@@ -13792,6 +14168,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 88,
+      "VIT": 93,
       "DHT": 56,
       "SKS": 80
     },
@@ -13813,6 +14190,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 88,
+      "VIT": 93,
       "DHT": 80,
       "CRT": 56
     },
@@ -13833,6 +14211,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 83,
       "MND": 88,
       "PIE": 56,
       "DET": 80
@@ -13854,9 +14233,50 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 83,
       "INT": 88,
       "DHT": 80,
       "CRT": 56
+    },
+    "hq": false
+  },
+  {
+    "id": 27371,
+    "name": "若狭·真打",
+    "level": 282,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 67,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 206,
+      "VIT": 216,
+      "DLY": 2800,
+      "DET": 186,
+      "SKS": 130,
+      "WPN": 89
+    },
+    "hq": false
+  },
+  {
+    "id": 27372,
+    "name": "胧月轮·真打",
+    "level": 282,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 67,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 206,
+      "VIT": 216,
+      "DLY": 3120,
+      "DHT": 130,
+      "SKS": 186,
+      "WPN": 89
     },
     "hq": false
   },
@@ -15113,6 +15533,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 90,
       "VIT": 93,
       "CRT": 87,
       "SKS": 61
@@ -15135,6 +15556,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 90,
+      "VIT": 93,
       "DHT": 87,
       "SKS": 61
     },
@@ -15156,6 +15578,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 90,
+      "VIT": 93,
       "DHT": 61,
       "DET": 87
     },
@@ -15176,6 +15599,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 84,
       "MND": 90,
       "DET": 61,
       "SPS": 87
@@ -15197,6 +15621,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 84,
       "INT": 90,
       "DHT": 61,
       "DET": 87
@@ -15218,6 +15643,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 90,
       "VIT": 93,
       "DET": 87,
       "SKS": 61
@@ -15240,6 +15666,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 90,
+      "VIT": 93,
       "CRT": 87,
       "DET": 61
     },
@@ -15261,6 +15688,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 90,
+      "VIT": 93,
       "CRT": 61,
       "SKS": 87
     },
@@ -15281,6 +15709,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 84,
       "MND": 90,
       "PIE": 61,
       "SPS": 87
@@ -15302,6 +15731,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 84,
       "INT": 90,
       "CRT": 87,
       "SPS": 61
@@ -15323,6 +15753,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 90,
       "VIT": 93,
       "TEN": 87,
       "DET": 61
@@ -15345,6 +15776,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 90,
+      "VIT": 93,
       "DHT": 61,
       "SKS": 87
     },
@@ -15366,6 +15798,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 90,
+      "VIT": 93,
       "CRT": 87,
       "DET": 61
     },
@@ -15386,6 +15819,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 84,
       "MND": 90,
       "PIE": 87,
       "CRT": 61
@@ -15407,6 +15841,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 84,
       "INT": 90,
       "DHT": 87,
       "SPS": 61
@@ -15428,6 +15863,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 90,
       "VIT": 93,
       "CRT": 61,
       "SKS": 87
@@ -15450,6 +15886,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 90,
+      "VIT": 93,
       "CRT": 61,
       "DET": 87
     },
@@ -15471,6 +15908,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 90,
+      "VIT": 93,
       "DHT": 87,
       "SKS": 61
     },
@@ -15491,6 +15929,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 84,
       "MND": 90,
       "PIE": 87,
       "CRT": 61
@@ -15512,9 +15951,50 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 84,
       "INT": 90,
       "CRT": 61,
       "DET": 87
+    },
+    "hq": true
+  },
+  {
+    "id": 27373,
+    "name": "钼钢枪刃",
+    "level": 285,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 68,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 211,
+      "VIT": 218,
+      "DLY": 2800,
+      "TEN": 142,
+      "DET": 203,
+      "WPN": 90
+    },
+    "hq": true
+  },
+  {
+    "id": 27374,
+    "name": "钼钢圆月轮",
+    "level": 285,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 68,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 211,
+      "VIT": 218,
+      "DLY": 3120,
+      "DHT": 203,
+      "DET": 142,
+      "WPN": 90
     },
     "hq": true
   },
@@ -16771,6 +17251,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 93,
       "VIT": 95,
       "CRT": 95,
       "DET": 67
@@ -16793,6 +17274,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 93,
+      "VIT": 95,
       "DHT": 67,
       "CRT": 95
     },
@@ -16814,6 +17296,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 93,
+      "VIT": 95,
       "DHT": 67,
       "DET": 95
     },
@@ -16834,6 +17317,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 85,
       "MND": 93,
       "PIE": 67,
       "CRT": 95
@@ -16855,6 +17339,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 85,
       "INT": 93,
       "CRT": 67,
       "SPS": 95
@@ -16876,6 +17361,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 93,
       "VIT": 95,
       "CRT": 95,
       "SKS": 67
@@ -16898,6 +17384,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 93,
+      "VIT": 95,
       "DET": 95,
       "SKS": 67
     },
@@ -16919,6 +17406,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 93,
+      "VIT": 95,
       "CRT": 67,
       "SKS": 95
     },
@@ -16939,6 +17427,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 85,
       "MND": 93,
       "PIE": 67,
       "SPS": 95
@@ -16960,6 +17449,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 85,
       "INT": 93,
       "DHT": 95,
       "SPS": 67
@@ -16981,6 +17471,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 93,
       "VIT": 95,
       "CRT": 95,
       "SKS": 67
@@ -17003,6 +17494,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 93,
+      "VIT": 95,
       "CRT": 95,
       "SKS": 67
     },
@@ -17024,6 +17516,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 93,
+      "VIT": 95,
       "DHT": 67,
       "DET": 95
     },
@@ -17044,6 +17537,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 85,
       "MND": 93,
       "PIE": 95,
       "DET": 67
@@ -17065,6 +17559,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 85,
       "INT": 93,
       "CRT": 67,
       "DET": 95
@@ -17086,6 +17581,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 93,
       "VIT": 95,
       "CRT": 67,
       "DET": 95
@@ -17108,6 +17604,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 93,
+      "VIT": 95,
       "DHT": 67,
       "SKS": 95
     },
@@ -17129,6 +17626,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 93,
+      "VIT": 95,
       "DHT": 95,
       "SKS": 67
     },
@@ -17149,6 +17647,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 85,
       "MND": 93,
       "CRT": 67,
       "SPS": 95
@@ -17170,9 +17669,50 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 85,
       "INT": 93,
       "DHT": 95,
       "SPS": 67
+    },
+    "hq": false
+  },
+  {
+    "id": 27375,
+    "name": "赫罗迪突刺刃",
+    "level": 288,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 69,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 217,
+      "VIT": 221,
+      "DLY": 2800,
+      "CRT": 155,
+      "SKS": 222,
+      "WPN": 92
+    },
+    "hq": false
+  },
+  {
+    "id": 27376,
+    "name": "狮鹫祸环",
+    "level": 288,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 69,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 217,
+      "VIT": 221,
+      "DLY": 3120,
+      "CRT": 222,
+      "SKS": 155,
+      "WPN": 92
     },
     "hq": false
   }

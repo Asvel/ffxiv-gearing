@@ -1032,6 +1032,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 6,
       "VIT": 6
     },
     "hq": false
@@ -6948,6 +6949,7 @@
     "stats": {
       "STR": 6,
       "DEX": 6,
+      "VIT": 6,
       "DET": 5,
       "SKS": 10
     },
@@ -6964,6 +6966,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 6,
       "DHT": 10,
       "DET": 5
@@ -6981,6 +6984,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 6,
       "VIT": 6,
       "TEN": 7,
       "DHT": 10
@@ -6998,6 +7002,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 6,
       "PIE": 4,
       "SPS": 10
@@ -7017,6 +7022,7 @@
     "stats": {
       "STR": 6,
       "DEX": 6,
+      "VIT": 6,
       "DET": 7,
       "SKS": 7
     },
@@ -7033,6 +7039,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 6,
       "MND": 6,
       "DET": 7,
@@ -7051,6 +7058,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 6,
       "VIT": 6,
       "TEN": 7,
       "DET": 7
@@ -7070,6 +7078,7 @@
     "stats": {
       "STR": 6,
       "DEX": 6,
+      "VIT": 6,
       "DET": 5,
       "SKS": 10
     },
@@ -7086,6 +7095,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 6,
       "DHT": 10,
       "DET": 5
@@ -7103,6 +7113,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 6,
       "VIT": 6,
       "TEN": 7,
       "DHT": 10
@@ -7120,6 +7131,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 6,
       "PIE": 4,
       "SPS": 10
@@ -10849,6 +10861,7 @@
     "stats": {
       "STR": 7,
       "DEX": 7,
+      "VIT": 7,
       "CRT": 8,
       "SKS": 11
     },
@@ -10910,6 +10923,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 6,
       "INT": 7,
       "MND": 7,
       "DHT": 11
@@ -10927,6 +10941,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 7,
       "VIT": 7,
       "TEN": 11,
       "DET": 5
@@ -10946,6 +10961,7 @@
     "stats": {
       "STR": 7,
       "DEX": 7,
+      "VIT": 7,
       "CRT": 11,
       "DET": 5
     },
@@ -11081,6 +11097,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 7,
       "VIT": 7,
       "TEN": 11,
       "CRT": 8
@@ -11101,6 +11118,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 7,
+      "VIT": 7,
       "DET": 7,
       "SKS": 8
     },
@@ -11119,6 +11137,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 7,
       "VIT": 7,
       "TEN": 8,
       "DHT": 11
@@ -11139,6 +11158,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 7,
+      "VIT": 7,
       "CRT": 11,
       "DET": 5
     },
@@ -11158,6 +11178,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 7,
+      "VIT": 7,
       "DHT": 11,
       "CRT": 8
     },
@@ -11176,6 +11197,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "PIE": 6,
       "DET": 5
@@ -11195,6 +11217,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 7,
       "DET": 7,
       "SPS": 8
@@ -11215,6 +11238,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 7,
       "MND": 7,
       "CRT": 8,
@@ -12650,6 +12674,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 7,
+      "VIT": 7,
       "SKS": 11
     },
     "hq": true
@@ -12665,6 +12690,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 7,
       "DET": 7
     },
@@ -12681,6 +12707,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "PIE": 6
     },
@@ -12697,6 +12724,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 7,
       "VIT": 7,
       "TEN": 11
     },
@@ -12714,6 +12742,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 7,
+      "VIT": 7,
       "CRT": 11
     },
     "hq": true
@@ -12729,6 +12758,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "SPS": 11
     },
@@ -12746,6 +12776,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 7,
+      "VIT": 7,
       "SKS": 11
     },
     "hq": true
@@ -12761,6 +12792,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 7,
       "DET": 7
     },
@@ -12777,6 +12809,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "PIE": 6
     },
@@ -12793,6 +12826,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 7,
       "VIT": 7,
       "TEN": 11
     },
@@ -12810,6 +12844,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 7,
+      "VIT": 7,
       "CRT": 11
     },
     "hq": true
@@ -12825,6 +12860,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "SPS": 11
     },
@@ -12842,6 +12878,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 7,
+      "VIT": 7,
       "SKS": 11
     },
     "hq": true
@@ -12857,6 +12894,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 7,
       "DET": 7
     },
@@ -12873,6 +12911,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "PIE": 6
     },
@@ -12889,6 +12928,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 7,
       "VIT": 7,
       "TEN": 11
     },
@@ -12906,6 +12946,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 7,
+      "VIT": 7,
       "CRT": 11
     },
     "hq": true
@@ -12921,6 +12962,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "SPS": 11
     },
@@ -12938,6 +12980,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 7,
+      "VIT": 7,
       "SKS": 11
     },
     "hq": true
@@ -12953,6 +12996,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "INT": 7,
       "DET": 7
     },
@@ -12969,6 +13013,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "PIE": 6
     },
@@ -12985,6 +13030,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 7,
       "VIT": 7,
       "TEN": 11
     },
@@ -13002,6 +13048,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 7,
+      "VIT": 7,
       "CRT": 11
     },
     "hq": true
@@ -13017,6 +13064,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 6,
       "MND": 7,
       "SPS": 11
     },
@@ -13507,6 +13555,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 7,
+      "VIT": 7,
       "CRT": 11,
       "DET": 5
     },
@@ -14396,6 +14445,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 8,
       "VIT": 8,
       "TEN": 8,
       "DHT": 11
@@ -14413,6 +14463,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 8,
       "VIT": 8,
       "TEN": 8,
       "DET": 8
@@ -14430,6 +14481,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 8,
       "VIT": 8,
       "TEN": 8,
       "DHT": 11
@@ -14589,6 +14641,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 8,
+      "VIT": 8,
       "DET": 5,
       "SKS": 11
     },
@@ -14606,6 +14659,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 8,
+      "VIT": 8,
       "DET": 8,
       "SKS": 8
     },
@@ -14623,6 +14677,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 8,
+      "VIT": 8,
       "DHT": 8,
       "SKS": 11
     },
@@ -14748,6 +14803,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 8,
+      "VIT": 8,
       "DHT": 8,
       "SKS": 11
     },
@@ -14765,6 +14821,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 8,
+      "VIT": 8,
       "DET": 8,
       "SKS": 8
     },
@@ -14782,6 +14839,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 8,
+      "VIT": 8,
       "DHT": 8,
       "DET": 8
     },
@@ -14888,6 +14946,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 7,
       "INT": 8,
       "DHT": 11,
       "DET": 5
@@ -14905,6 +14964,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 7,
       "INT": 8,
       "DET": 8,
       "SPS": 8
@@ -14922,6 +14982,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 7,
       "INT": 8,
       "DHT": 11,
       "DET": 5
@@ -14957,6 +15018,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 7,
       "MND": 8,
       "PIE": 5,
       "SPS": 11
@@ -14974,6 +15036,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 7,
       "MND": 8,
       "DET": 8,
       "SPS": 8
@@ -14991,6 +15054,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 7,
       "MND": 8,
       "PIE": 5,
       "SPS": 11
@@ -15766,6 +15830,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 8,
       "VIT": 8,
       "TEN": 8,
       "DHT": 11
@@ -15784,6 +15849,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 8,
+      "VIT": 8,
       "DHT": 8,
       "CRT": 11
     },
@@ -15801,6 +15867,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 8,
+      "VIT": 8,
       "DET": 8,
       "SKS": 8
     },
@@ -15817,6 +15884,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 7,
       "INT": 8,
       "CRT": 11,
       "SPS": 8
@@ -15834,6 +15902,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 7,
       "MND": 8,
       "PIE": 7,
       "SPS": 8
@@ -18217,6 +18286,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "CRT": 12,
       "DET": 6
     },
@@ -18234,6 +18304,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 9,
+      "VIT": 10,
       "DHT": 12,
       "CRT": 9
     },
@@ -18250,6 +18321,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "MND": 9,
       "PIE": 8,
       "SPS": 9
@@ -18267,6 +18339,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "TEN": 9,
       "DHT": 12
@@ -18285,6 +18358,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "CRT": 9,
       "SKS": 12
     },
@@ -18301,6 +18375,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "DET": 8,
       "SPS": 9
@@ -18320,6 +18395,7 @@
     "stats": {
       "STR": 9,
       "DEX": 9,
+      "VIT": 10,
       "DHT": 12,
       "DET": 6
     },
@@ -18336,6 +18412,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "MND": 9,
       "CRT": 12,
@@ -18354,6 +18431,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "TEN": 9,
       "CRT": 12
@@ -18372,6 +18450,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "DHT": 9,
       "CRT": 12
     },
@@ -18389,6 +18468,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 9,
+      "VIT": 10,
       "DHT": 9,
       "CRT": 12
     },
@@ -18405,6 +18485,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "MND": 9,
       "PIE": 8,
       "SPS": 9
@@ -18422,6 +18503,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "TEN": 12,
       "DET": 6
@@ -18440,6 +18522,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "DHT": 12,
       "CRT": 9
     },
@@ -18456,6 +18539,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "DHT": 12,
       "DET": 6
@@ -18473,6 +18557,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "MND": 9,
       "CRT": 9,
@@ -18493,6 +18578,7 @@
     "stats": {
       "STR": 9,
       "DEX": 9,
+      "VIT": 10,
       "DHT": 12,
       "DET": 6
     },
@@ -18509,6 +18595,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "TEN": 12,
       "CRT": 9
@@ -18527,6 +18614,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "DHT": 12,
       "CRT": 9
     },
@@ -18544,6 +18632,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 9,
+      "VIT": 10,
       "DHT": 12,
       "DET": 6
     },
@@ -18560,6 +18649,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "MND": 9,
       "PIE": 8,
       "SPS": 9
@@ -18577,6 +18667,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "TEN": 12,
       "DHT": 9
@@ -18595,6 +18686,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "DHT": 9,
       "SKS": 12
     },
@@ -18611,6 +18703,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "DET": 8,
       "SPS": 9
@@ -18630,6 +18723,7 @@
     "stats": {
       "STR": 9,
       "DEX": 9,
+      "VIT": 10,
       "DHT": 9,
       "DET": 8
     },
@@ -18646,6 +18740,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "MND": 9,
       "DHT": 12,
@@ -18664,6 +18759,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "TEN": 12,
       "DET": 6
@@ -18682,6 +18778,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "CRT": 9,
       "SKS": 12
     },
@@ -18699,6 +18796,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 9,
+      "VIT": 10,
       "CRT": 9,
       "DET": 8
     },
@@ -18715,6 +18813,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "MND": 9,
       "PIE": 8,
       "SPS": 9
@@ -18732,6 +18831,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "TEN": 12,
       "DHT": 9
@@ -18750,6 +18850,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "DHT": 12,
       "SKS": 9
     },
@@ -18766,6 +18867,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "DHT": 12,
       "DET": 6
@@ -18785,6 +18887,7 @@
     "stats": {
       "STR": 9,
       "DEX": 9,
+      "VIT": 10,
       "DHT": 12,
       "SKS": 9
     },
@@ -18801,6 +18904,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "MND": 9,
       "DHT": 9,
@@ -18819,6 +18923,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "TEN": 9,
       "DHT": 12
@@ -19768,6 +19873,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "CRT": 9,
       "DET": 8
@@ -19786,6 +19892,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "CRT": 12,
       "SKS": 9
     },
@@ -19803,6 +19910,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 9,
+      "VIT": 10,
       "DET": 6,
       "SKS": 12
     },
@@ -19819,6 +19927,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "CRT": 9,
       "SPS": 12
@@ -19836,6 +19945,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "MND": 9,
       "DET": 8,
       "SPS": 9
@@ -19853,6 +19963,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "DET": 8,
       "SKS": 9
@@ -19871,6 +19982,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "CRT": 12,
       "SKS": 9
     },
@@ -19888,6 +20000,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 9,
+      "VIT": 10,
       "DET": 6,
       "SKS": 12
     },
@@ -19904,6 +20017,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "CRT": 9,
       "SPS": 12
@@ -19921,6 +20035,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "MND": 9,
       "PIE": 6,
       "CRT": 12
@@ -19938,6 +20053,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "CRT": 9,
       "DET": 8
@@ -19956,6 +20072,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "DET": 6,
       "SKS": 12
     },
@@ -19973,6 +20090,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 9,
+      "VIT": 10,
       "CRT": 12,
       "SKS": 9
     },
@@ -19989,6 +20107,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "CRT": 9,
       "DET": 8
@@ -20006,6 +20125,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "MND": 9,
       "PIE": 6,
       "CRT": 12
@@ -20023,6 +20143,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 9,
       "VIT": 10,
       "CRT": 12,
       "SKS": 9
@@ -20041,6 +20162,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 9,
+      "VIT": 10,
       "DET": 6,
       "SKS": 12
     },
@@ -20058,6 +20180,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 9,
+      "VIT": 10,
       "DET": 8,
       "SKS": 9
     },
@@ -20074,6 +20197,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "INT": 9,
       "CRT": 12,
       "SPS": 9
@@ -20091,6 +20215,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 9,
       "MND": 9,
       "DET": 6,
       "SPS": 12
@@ -25392,6 +25517,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 11,
       "VIT": 13,
       "TEN": 10,
       "DET": 10
@@ -25410,6 +25536,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 11,
+      "VIT": 13,
       "CRT": 10,
       "DET": 10
     },
@@ -25427,6 +25554,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 11,
+      "VIT": 13,
       "DHT": 10,
       "CRT": 14
     },
@@ -25443,6 +25571,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "INT": 11,
       "DHT": 14,
       "SPS": 10
@@ -25460,6 +25589,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "MND": 11,
       "DET": 7,
       "SPS": 14
@@ -25477,6 +25607,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 11,
       "VIT": 13,
       "TEN": 14,
       "DET": 7
@@ -25495,6 +25626,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 11,
+      "VIT": 13,
       "CRT": 10,
       "SKS": 14
     },
@@ -25512,6 +25644,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 11,
+      "VIT": 13,
       "DHT": 10,
       "DET": 10
     },
@@ -25528,6 +25661,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "INT": 11,
       "CRT": 10,
       "DET": 10
@@ -25545,6 +25679,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "MND": 11,
       "PIE": 7,
       "SPS": 14
@@ -26364,6 +26499,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 11,
       "VIT": 13,
       "TEN": 14,
       "DET": 7
@@ -26381,6 +26517,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 11,
       "VIT": 13,
       "CRT": 14,
       "SKS": 10
@@ -26398,6 +26535,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 11,
       "VIT": 13,
       "DET": 10,
       "SKS": 10
@@ -26415,6 +26553,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 11,
       "VIT": 13,
       "DHT": 10,
       "CRT": 14
@@ -26433,6 +26572,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 11,
+      "VIT": 13,
       "CRT": 14,
       "DET": 7
     },
@@ -26450,6 +26590,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 11,
+      "VIT": 13,
       "DHT": 14,
       "DET": 7
     },
@@ -26467,6 +26608,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 11,
+      "VIT": 13,
       "CRT": 14,
       "SKS": 10
     },
@@ -26484,6 +26626,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 11,
+      "VIT": 13,
       "DHT": 10,
       "DET": 10
     },
@@ -26501,6 +26644,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 11,
+      "VIT": 13,
       "DET": 10,
       "SKS": 10
     },
@@ -26518,6 +26662,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 11,
+      "VIT": 13,
       "DHT": 14,
       "SKS": 10
     },
@@ -26535,6 +26680,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 11,
+      "VIT": 13,
       "CRT": 10,
       "DET": 10
     },
@@ -26552,6 +26698,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 11,
+      "VIT": 13,
       "CRT": 14,
       "DET": 7
     },
@@ -26568,6 +26715,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "MND": 11,
       "PIE": 10,
       "CRT": 10
@@ -26585,6 +26733,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "MND": 11,
       "PIE": 10,
       "DET": 7
@@ -26602,6 +26751,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "MND": 11,
       "DET": 7,
       "SPS": 14
@@ -26619,6 +26769,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "MND": 11,
       "CRT": 14,
       "DET": 7
@@ -26636,6 +26787,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "INT": 11,
       "DHT": 10,
       "CRT": 14
@@ -26653,6 +26805,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "INT": 11,
       "DET": 10,
       "SPS": 10
@@ -26670,6 +26823,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "INT": 11,
       "CRT": 10,
       "DET": 10
@@ -26687,6 +26841,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 11,
       "INT": 11,
       "DHT": 14,
       "SPS": 10
@@ -27836,6 +27991,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "CRT": 11,
       "SKS": 16
     },
@@ -27853,6 +28009,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DET": 8,
       "SKS": 16
     },
@@ -27869,6 +28026,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 8,
       "SPS": 16
@@ -27886,6 +28044,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 11,
       "DHT": 16
@@ -27904,6 +28063,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "CRT": 11,
       "DET": 11
     },
@@ -27920,6 +28080,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "CRT": 11,
       "SPS": 16
@@ -27937,6 +28098,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 11,
       "SKS": 16
@@ -27955,6 +28117,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 16,
       "CRT": 11
     },
@@ -27972,6 +28135,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 11,
       "DET": 11
     },
@@ -27988,6 +28152,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DHT": 11,
       "SPS": 16
@@ -28005,6 +28170,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 8,
       "DET": 11
@@ -28022,6 +28188,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "DHT": 16,
       "DET": 8
@@ -28053,6 +28220,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "CRT": 16,
       "SKS": 11
     },
@@ -28070,6 +28238,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 11,
       "SKS": 16
     },
@@ -28086,6 +28255,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 12,
       "DET": 8
@@ -28103,6 +28273,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 16,
       "DHT": 11
@@ -28121,6 +28292,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 16,
       "DET": 8
     },
@@ -28137,6 +28309,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "CRT": 16,
       "SPS": 11
@@ -28155,6 +28328,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "CRT": 11,
       "DET": 11
     },
@@ -28172,6 +28346,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DHT": 16,
       "DET": 8
     },
@@ -28188,6 +28363,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DHT": 16,
       "CRT": 11
@@ -28205,6 +28381,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 8,
       "SPS": 16
@@ -28222,6 +28399,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "CRT": 11,
       "DET": 11
@@ -28240,6 +28418,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 11,
       "CRT": 16
     },
@@ -28257,6 +28436,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DET": 8,
       "SKS": 16
     },
@@ -28274,6 +28454,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 11,
       "SKS": 16
     },
@@ -28290,6 +28471,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 8,
       "DET": 11
@@ -28307,6 +28489,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 16,
       "DHT": 11
@@ -28325,6 +28508,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 16,
       "CRT": 11
     },
@@ -28341,6 +28525,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "CRT": 11,
       "SPS": 16
@@ -28359,6 +28544,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 11,
       "SKS": 16
     },
@@ -28375,6 +28561,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DHT": 16,
       "DET": 8
@@ -28392,6 +28579,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "DET": 11,
       "SPS": 11
@@ -28410,6 +28598,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 16,
       "DET": 8
     },
@@ -28427,6 +28616,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DHT": 16,
       "SKS": 11
     },
@@ -28443,6 +28633,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 12,
       "DET": 8
@@ -28460,6 +28651,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 16,
       "SKS": 11
@@ -28478,6 +28670,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 11,
       "DET": 11
     },
@@ -28494,6 +28687,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DHT": 11,
       "SPS": 16
@@ -29661,6 +29855,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 11,
       "SKS": 16
@@ -29679,6 +29874,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 16,
       "SKS": 11
     },
@@ -29696,6 +29892,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DHT": 11,
       "CRT": 16
     },
@@ -29712,6 +29909,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DET": 8,
       "SPS": 16
@@ -29729,6 +29927,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 8,
       "CRT": 16
@@ -29746,6 +29945,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 11,
       "SKS": 16
@@ -29764,6 +29964,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 11,
       "CRT": 16
     },
@@ -29781,6 +29982,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DET": 11,
       "SKS": 11
     },
@@ -29797,6 +29999,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "CRT": 16,
       "DET": 8
@@ -29814,6 +30017,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 12,
       "CRT": 11
@@ -29831,6 +30035,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 16,
       "CRT": 11
@@ -29849,6 +30054,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DHT": 11,
       "DET": 11
     },
@@ -29866,6 +30072,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DHT": 16,
       "SKS": 11
     },
@@ -29882,6 +30089,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "CRT": 16,
       "DET": 8
@@ -29899,6 +30107,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 12,
       "CRT": 11
@@ -29916,6 +30125,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 11,
       "DHT": 16
@@ -29934,6 +30144,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DET": 11,
       "SKS": 11
     },
@@ -29951,6 +30162,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 16,
       "DET": 8
     },
@@ -29967,6 +30179,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "CRT": 16,
       "SPS": 11
@@ -29984,6 +30197,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 8,
       "CRT": 16
@@ -31197,6 +31411,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "CRT": 16,
       "DET": 8
@@ -31215,6 +31430,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DET": 11,
       "SKS": 11
     },
@@ -31232,6 +31448,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DET": 11,
       "SKS": 11
     },
@@ -31248,6 +31465,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "CRT": 16,
       "SPS": 11
@@ -31265,6 +31483,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "DET": 8,
       "SPS": 16
@@ -31282,6 +31501,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "CRT": 16,
       "SKS": 11
@@ -31300,6 +31520,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "DET": 11,
       "SKS": 11
     },
@@ -31317,6 +31538,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DET": 8,
       "SKS": 16
     },
@@ -31333,6 +31555,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "CRT": 11,
       "DET": 11
@@ -31350,6 +31573,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "DET": 8,
       "SPS": 16
@@ -31367,6 +31591,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "CRT": 11,
       "SKS": 16
@@ -31385,6 +31610,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "CRT": 16,
       "SKS": 11
     },
@@ -31402,6 +31628,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 11,
       "DET": 11
     },
@@ -31418,6 +31645,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DET": 8,
       "SPS": 16
@@ -31435,6 +31663,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "DET": 11,
       "SPS": 11
@@ -31452,6 +31681,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "DET": 11,
       "SKS": 11
@@ -31470,6 +31700,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "CRT": 16,
       "DET": 8
     },
@@ -31487,6 +31718,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "DET": 8,
       "SKS": 16
     },
@@ -31503,6 +31735,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DET": 8,
       "SPS": 16
@@ -31520,6 +31753,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "CRT": 16,
       "SPS": 11
@@ -32418,6 +32652,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "SKS": 16
     },
     "hq": true
@@ -32433,6 +32668,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DET": 11
     },
@@ -32449,6 +32685,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 12
     },
@@ -32465,6 +32702,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 16
     },
@@ -32482,6 +32720,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 16
     },
     "hq": true
@@ -32497,6 +32736,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "SPS": 16
     },
@@ -32514,6 +32754,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "SKS": 16
     },
     "hq": true
@@ -32529,6 +32770,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DET": 11
     },
@@ -32545,6 +32787,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 12
     },
@@ -32561,6 +32804,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 16
     },
@@ -32578,6 +32822,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 16
     },
     "hq": true
@@ -32593,6 +32838,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "SPS": 16
     },
@@ -32610,6 +32856,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "SKS": 16
     },
     "hq": true
@@ -32625,6 +32872,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DET": 11
     },
@@ -32641,6 +32889,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 12
     },
@@ -32657,6 +32906,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 16
     },
@@ -32674,6 +32924,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 16
     },
     "hq": true
@@ -32689,6 +32940,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "SPS": 16
     },
@@ -32706,6 +32958,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 13,
+      "VIT": 15,
       "SKS": 16
     },
     "hq": true
@@ -32721,6 +32974,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "INT": 13,
       "DET": 11
     },
@@ -32737,6 +32991,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "PIE": 12
     },
@@ -32753,6 +33008,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 13,
       "VIT": 15,
       "TEN": 16
     },
@@ -32770,6 +33026,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 13,
+      "VIT": 15,
       "CRT": 16
     },
     "hq": true
@@ -32785,6 +33042,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 14,
       "MND": 13,
       "SPS": 16
     },
@@ -35596,6 +35854,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "DHT": 17,
       "SKS": 12
@@ -35613,6 +35872,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "DHT": 12,
       "CRT": 17
@@ -35630,6 +35890,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "TEN": 17,
       "SKS": 12
@@ -35647,6 +35908,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "TEN": 12,
       "DHT": 17
@@ -35923,6 +36185,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DHT": 17,
       "CRT": 12
     },
@@ -35940,6 +36203,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DHT": 12,
       "CRT": 17
     },
@@ -35957,6 +36221,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DET": 9,
       "SKS": 17
     },
@@ -35974,6 +36239,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DHT": 12,
       "DET": 12
     },
@@ -36117,6 +36383,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "DHT": 17,
       "CRT": 12
     },
@@ -36134,6 +36401,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "DHT": 17,
       "CRT": 12
     },
@@ -36151,6 +36419,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "DHT": 12,
       "DET": 12
     },
@@ -36168,6 +36437,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "DHT": 12,
       "SKS": 17
     },
@@ -36322,6 +36592,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "PIE": 9,
       "DHT": 3,
@@ -36340,6 +36611,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "DHT": 3,
       "DET": 12,
@@ -36358,6 +36630,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "PIE": 13,
       "DHT": 3,
@@ -36376,6 +36649,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "PIE": 13,
       "DHT": 3,
@@ -36526,6 +36800,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "CRT": 12,
       "DET": 12
@@ -36543,6 +36818,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DHT": 12,
       "DET": 12
@@ -36560,6 +36836,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "CRT": 12,
       "SPS": 17
@@ -36577,6 +36854,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DHT": 17,
       "CRT": 12
@@ -37894,6 +38172,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "CRT": 17,
       "DET": 9
@@ -37911,6 +38190,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "CRT": 17,
       "DET": 9
@@ -37928,6 +38208,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "CRT": 12,
       "SKS": 17
@@ -37945,6 +38226,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "CRT": 12,
       "DET": 12
@@ -37963,6 +38245,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DET": 12,
       "SKS": 12
     },
@@ -37980,6 +38263,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DET": 12,
       "SKS": 12
     },
@@ -37997,6 +38281,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "CRT": 17,
       "SKS": 12
     },
@@ -38014,6 +38299,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "CRT": 17,
       "SKS": 12
     },
@@ -38031,6 +38317,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "DET": 12,
       "SKS": 12
     },
@@ -38048,6 +38335,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "DET": 9,
       "SKS": 17
     },
@@ -38065,6 +38353,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "CRT": 12,
       "DET": 12
     },
@@ -38082,6 +38371,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "CRT": 12,
       "SKS": 17
     },
@@ -38098,6 +38388,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "PIE": 9,
       "SPS": 17
@@ -38115,6 +38406,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "CRT": 12,
       "SPS": 17
@@ -38132,6 +38424,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "CRT": 12,
       "DET": 12
@@ -38149,6 +38442,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "CRT": 17,
       "SPS": 12
@@ -38166,6 +38460,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "CRT": 17,
       "SPS": 12
@@ -38183,6 +38478,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DET": 12,
       "SPS": 12
@@ -38200,6 +38496,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DET": 9,
       "SPS": 17
@@ -38217,6 +38514,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DET": 9,
       "SPS": 17
@@ -38452,6 +38750,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "TEN": 17,
       "DET": 9
@@ -38470,6 +38769,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DHT": 17,
       "DET": 9
     },
@@ -38487,6 +38787,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "CRT": 12,
       "SKS": 17
     },
@@ -38503,6 +38804,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DHT": 12,
       "DET": 12
@@ -38520,6 +38822,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "PIE": 9,
       "DHT": 3,
@@ -41369,6 +41672,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "TEN": 17,
       "DHT": 12
@@ -41386,6 +41690,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "TEN": 12,
       "DET": 12
@@ -41403,6 +41708,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "TEN": 12,
       "DET": 12
@@ -41420,6 +41726,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 16,
       "VIT": 18,
       "DHT": 12,
       "CRT": 17
@@ -41438,6 +41745,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DHT": 17,
       "SKS": 12
     },
@@ -41455,6 +41763,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DHT": 12,
       "SKS": 17
     },
@@ -41472,6 +41781,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DHT": 12,
       "SKS": 17
     },
@@ -41489,6 +41799,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 16,
+      "VIT": 18,
       "DET": 12,
       "SKS": 12
     },
@@ -41506,6 +41817,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "DET": 12,
       "SKS": 12
     },
@@ -41523,6 +41835,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "DHT": 17,
       "DET": 9
     },
@@ -41540,6 +41853,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "CRT": 17,
       "DET": 9
     },
@@ -41557,6 +41871,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 16,
+      "VIT": 18,
       "CRT": 12,
       "DET": 12
     },
@@ -41573,6 +41888,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "DHT": 3,
       "CRT": 12,
@@ -41591,6 +41907,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "PIE": 9,
       "DHT": 3,
@@ -41609,6 +41926,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "PIE": 9,
       "DHT": 3,
@@ -41627,6 +41945,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "MND": 16,
       "DHT": 3,
       "CRT": 12,
@@ -41645,6 +41964,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DHT": 12,
       "CRT": 17
@@ -41662,6 +41982,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DHT": 12,
       "CRT": 17
@@ -41679,6 +42000,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "DHT": 12,
       "SPS": 17
@@ -41696,6 +42018,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 16,
       "INT": 16,
       "CRT": 12,
       "DET": 12
@@ -42697,6 +43020,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "TEN": 19,
       "DHT": 13
@@ -42714,6 +43038,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "TEN": 19,
       "SKS": 13
@@ -42731,6 +43056,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "DHT": 13,
       "DET": 13
@@ -42748,6 +43074,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "TEN": 13,
       "DET": 13
@@ -43024,6 +43351,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "CRT": 13,
       "DET": 13
     },
@@ -43041,6 +43369,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DHT": 19,
       "DET": 9
     },
@@ -43058,6 +43387,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DHT": 13,
       "CRT": 19
     },
@@ -43075,6 +43405,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DHT": 19,
       "SKS": 13
     },
@@ -43218,6 +43549,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "CRT": 13,
       "SKS": 19
     },
@@ -43235,6 +43567,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DHT": 13,
       "SKS": 19
     },
@@ -43252,6 +43585,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "CRT": 19,
       "DET": 9
     },
@@ -43269,6 +43603,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DHT": 19,
       "DET": 9
     },
@@ -43423,6 +43758,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "DHT": 4,
       "CRT": 19,
@@ -43441,6 +43777,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "PIE": 14,
       "DHT": 4,
@@ -43459,6 +43796,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "DHT": 4,
       "DET": 9,
@@ -43477,6 +43815,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "PIE": 14,
       "DHT": 4,
@@ -43627,6 +43966,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "DHT": 19,
       "CRT": 13
@@ -43644,6 +43984,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 19,
       "DET": 9
@@ -43661,6 +44002,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "DHT": 19,
       "SPS": 13
@@ -43678,6 +44020,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "DHT": 19,
       "SPS": 13
@@ -43827,6 +44170,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "DHT": 19,
       "SKS": 13
@@ -43844,6 +44188,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "DHT": 13,
       "CRT": 19
@@ -43861,6 +44206,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "TEN": 19,
       "SKS": 13
@@ -43878,6 +44224,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "TEN": 13,
       "DHT": 19
@@ -44154,6 +44501,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DHT": 19,
       "CRT": 13
     },
@@ -44171,6 +44519,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DHT": 13,
       "CRT": 19
     },
@@ -44188,6 +44537,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DET": 9,
       "SKS": 19
     },
@@ -44205,6 +44555,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DHT": 13,
       "DET": 13
     },
@@ -44348,6 +44699,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DHT": 19,
       "CRT": 13
     },
@@ -44365,6 +44717,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DHT": 19,
       "CRT": 13
     },
@@ -44382,6 +44735,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DHT": 13,
       "DET": 13
     },
@@ -44399,6 +44753,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DHT": 13,
       "SKS": 19
     },
@@ -44553,6 +44908,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "PIE": 10,
       "DHT": 4,
@@ -44571,6 +44927,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "DHT": 4,
       "DET": 13,
@@ -44589,6 +44946,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "PIE": 14,
       "DHT": 4,
@@ -44607,6 +44965,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "PIE": 14,
       "DHT": 4,
@@ -44757,6 +45116,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 13,
       "DET": 13
@@ -44774,6 +45134,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "DHT": 13,
       "DET": 13
@@ -44791,6 +45152,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 13,
       "SPS": 19
@@ -44808,6 +45170,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "DHT": 19,
       "CRT": 13
@@ -45245,6 +45608,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "DHT": 13,
       "CRT": 19
@@ -45263,6 +45627,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "CRT": 19,
       "DET": 9
     },
@@ -45280,6 +45645,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "CRT": 19,
       "SKS": 13
     },
@@ -45296,6 +45662,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "DHT": 4,
       "CRT": 13,
@@ -45314,6 +45681,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 19,
       "DET": 9
@@ -45705,6 +46073,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "CRT": 19
     },
@@ -45721,6 +46090,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "DHT": 19
     },
@@ -45737,6 +46107,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "TEN": 19
     },
@@ -45753,6 +46124,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "TEN": 19
     },
@@ -46016,6 +46388,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DHT": 19
     },
     "hq": true
@@ -46032,6 +46405,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DET": 13
     },
     "hq": true
@@ -46048,6 +46422,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "SKS": 19
     },
     "hq": true
@@ -46064,6 +46439,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "SKS": 19
     },
     "hq": true
@@ -46206,6 +46582,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "SKS": 19
     },
     "hq": true
@@ -46222,6 +46599,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "CRT": 19
     },
     "hq": true
@@ -46238,6 +46616,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DHT": 19
     },
     "hq": true
@@ -46254,6 +46633,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DET": 13
     },
     "hq": true
@@ -46407,6 +46787,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "PIE": 14,
       "DHT": 4
@@ -46424,6 +46805,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "DHT": 4,
       "CRT": 19
@@ -46441,6 +46823,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "PIE": 14,
       "DHT": 4
@@ -46458,6 +46841,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "DHT": 4,
       "CRT": 19
@@ -46607,6 +46991,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 19
     },
@@ -46623,6 +47008,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "DHT": 19
     },
@@ -46639,6 +47025,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "DET": 13
     },
@@ -46655,6 +47042,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 19
     },
@@ -48113,6 +48501,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "DET": 9,
       "SKS": 19
@@ -48130,6 +48519,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "CRT": 13,
       "SKS": 19
@@ -48147,6 +48537,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "CRT": 19,
       "DET": 9
@@ -48164,6 +48555,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 18,
       "VIT": 21,
       "CRT": 13,
       "SKS": 19
@@ -48182,6 +48574,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "DET": 9,
       "SKS": 19
     },
@@ -48199,6 +48592,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "CRT": 13,
       "SKS": 19
     },
@@ -48216,6 +48610,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "CRT": 13,
       "DET": 13
     },
@@ -48233,6 +48628,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 18,
+      "VIT": 21,
       "CRT": 19,
       "SKS": 13
     },
@@ -48250,6 +48646,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DHT": 13,
       "DET": 13
     },
@@ -48267,6 +48664,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "DET": 13,
       "SKS": 13
     },
@@ -48284,6 +48682,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "CRT": 13,
       "SKS": 19
     },
@@ -48301,6 +48700,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 18,
+      "VIT": 21,
       "CRT": 19,
       "DET": 9
     },
@@ -48317,6 +48717,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "DET": 9,
       "SPS": 19
@@ -48334,6 +48735,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "CRT": 13,
       "DET": 13
@@ -48351,6 +48753,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "CRT": 19,
       "DET": 9
@@ -48368,6 +48771,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "MND": 18,
       "CRT": 19,
       "SPS": 13
@@ -48385,6 +48789,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "DET": 13,
       "SPS": 13
@@ -48402,6 +48807,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 19,
       "SPS": 13
@@ -48419,6 +48825,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 13,
       "DET": 13
@@ -48436,6 +48843,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 19,
       "INT": 18,
       "CRT": 13,
       "SPS": 19
@@ -51911,6 +52319,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 19,
       "VIT": 23,
       "DHT": 14,
       "CRT": 20
@@ -51928,6 +52337,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 19,
       "VIT": 23,
       "DHT": 20,
       "SKS": 14
@@ -51945,6 +52355,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 19,
       "VIT": 23,
       "DHT": 14,
       "DET": 14
@@ -51962,6 +52373,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 19,
       "VIT": 23,
       "TEN": 20,
       "DHT": 14
@@ -51980,6 +52392,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 19,
+      "VIT": 23,
       "DET": 10,
       "SKS": 20
     },
@@ -51997,6 +52410,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 19,
+      "VIT": 23,
       "DHT": 20,
       "DET": 10
     },
@@ -52014,6 +52428,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 19,
+      "VIT": 23,
       "DHT": 14,
       "CRT": 20
     },
@@ -52031,6 +52446,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 19,
+      "VIT": 23,
       "DHT": 14,
       "CRT": 20
     },
@@ -52048,6 +52464,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 19,
+      "VIT": 23,
       "DHT": 14,
       "DET": 14
     },
@@ -52065,6 +52482,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 19,
+      "VIT": 23,
       "CRT": 20,
       "DET": 10
     },
@@ -52082,6 +52500,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 19,
+      "VIT": 23,
       "CRT": 20,
       "SKS": 14
     },
@@ -52099,6 +52518,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 19,
+      "VIT": 23,
       "DHT": 20,
       "SKS": 14
     },
@@ -52115,6 +52535,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 20,
       "MND": 19,
       "PIE": 15,
       "DET": 10
@@ -52132,6 +52553,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 20,
       "MND": 19,
       "CRT": 20,
       "SPS": 14
@@ -52149,6 +52571,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 20,
       "MND": 19,
       "CRT": 14,
       "DET": 14
@@ -52166,6 +52589,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 20,
       "MND": 19,
       "PIE": 15,
       "CRT": 14
@@ -52183,6 +52607,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 20,
       "INT": 19,
       "DHT": 14,
       "DET": 14
@@ -52200,6 +52625,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 20,
       "INT": 19,
       "CRT": 14,
       "SPS": 20
@@ -52217,6 +52643,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 20,
       "INT": 19,
       "DHT": 20,
       "SPS": 14
@@ -52234,6 +52661,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 20,
       "INT": 19,
       "DHT": 14,
       "CRT": 20
@@ -52691,6 +53119,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "TEN": 14,
       "DHT": 20
@@ -52708,6 +53137,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "TEN": 20,
       "DHT": 14
@@ -52725,6 +53155,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "TEN": 20,
       "SKS": 14
@@ -52742,6 +53173,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "TEN": 20,
       "DET": 10
@@ -53006,6 +53438,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "DHT": 20,
       "DET": 10
     },
@@ -53023,6 +53456,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "DHT": 20,
       "CRT": 14
     },
@@ -53040,6 +53474,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "DHT": 14,
       "SKS": 20
     },
@@ -53057,6 +53492,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "DHT": 20,
       "CRT": 14
     },
@@ -53200,6 +53636,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "DHT": 20,
       "SKS": 14
     },
@@ -53217,6 +53654,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "DHT": 20,
       "SKS": 14
     },
@@ -53234,6 +53672,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "DHT": 14,
       "DET": 14
     },
@@ -53251,6 +53690,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "DHT": 20,
       "CRT": 14
     },
@@ -53405,6 +53845,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "DHT": 4,
       "CRT": 20,
@@ -53423,6 +53864,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "PIE": 11,
       "DHT": 4,
@@ -53441,6 +53883,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "PIE": 15,
       "DHT": 4,
@@ -53459,6 +53902,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "PIE": 15,
       "DHT": 4,
@@ -53609,6 +54053,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "DHT": 14,
       "CRT": 20
@@ -53626,6 +54071,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "DHT": 14,
       "SPS": 20
@@ -53643,6 +54089,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "DET": 14,
       "SPS": 14
@@ -53660,6 +54107,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "DHT": 20,
       "DET": 10
@@ -53919,6 +54367,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 21,
       "VIT": 24,
       "CRT": 20,
       "SKS": 14
@@ -53937,6 +54386,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 21,
+      "VIT": 24,
       "CRT": 14,
       "DET": 14
     },
@@ -53954,6 +54404,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 21,
+      "VIT": 24,
       "CRT": 14,
       "SKS": 20
     },
@@ -53970,6 +54421,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "MND": 21,
       "PIE": 11,
       "DHT": 4,
@@ -53988,6 +54440,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 22,
       "INT": 21,
       "CRT": 14,
       "SPS": 20
@@ -55482,6 +55935,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "TEN": 15,
       "DHT": 22
@@ -55499,6 +55953,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "TEN": 22,
       "DHT": 15
@@ -55516,6 +55971,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "TEN": 22,
       "SKS": 15
@@ -55533,6 +55989,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "TEN": 22,
       "DET": 11
@@ -55797,6 +56254,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DHT": 22,
       "DET": 11
     },
@@ -55814,6 +56272,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DHT": 22,
       "CRT": 15
     },
@@ -55831,6 +56290,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DHT": 15,
       "SKS": 22
     },
@@ -55848,6 +56308,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DHT": 22,
       "CRT": 15
     },
@@ -55991,6 +56452,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 22,
       "SKS": 15
     },
@@ -56008,6 +56470,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 22,
       "SKS": 15
     },
@@ -56025,6 +56488,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 15,
       "DET": 15
     },
@@ -56042,6 +56506,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 22,
       "CRT": 15
     },
@@ -56196,6 +56661,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "DHT": 4,
       "CRT": 22,
@@ -56214,6 +56680,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "PIE": 12,
       "DHT": 4,
@@ -56232,6 +56699,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "PIE": 17,
       "DHT": 4,
@@ -56250,6 +56718,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "PIE": 17,
       "DHT": 4,
@@ -56400,6 +56869,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DHT": 15,
       "CRT": 22
@@ -56417,6 +56887,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DHT": 15,
       "SPS": 22
@@ -56434,6 +56905,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DET": 15,
       "SPS": 15
@@ -56451,6 +56923,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DHT": 22,
       "DET": 11
@@ -56842,6 +57315,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "TEN": 22,
       "DET": 11
@@ -56859,6 +57333,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "DHT": 22,
       "DET": 11
@@ -56876,6 +57351,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "DHT": 15,
       "CRT": 22
@@ -56893,6 +57369,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 23,
       "VIT": 27,
       "DHT": 15,
       "CRT": 22
@@ -57157,6 +57634,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DHT": 15,
       "SKS": 22
     },
@@ -57174,6 +57652,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DET": 15,
       "SKS": 15
     },
@@ -57191,6 +57670,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "CRT": 22,
       "DET": 11
     },
@@ -57208,6 +57688,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 23,
+      "VIT": 27,
       "DHT": 15,
       "DET": 15
     },
@@ -57351,6 +57832,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "CRT": 22,
       "DET": 11
     },
@@ -57368,6 +57850,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 15,
       "DET": 15
     },
@@ -57385,6 +57868,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DHT": 22,
       "SKS": 15
     },
@@ -57402,6 +57886,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 23,
+      "VIT": 27,
       "DET": 11,
       "SKS": 22
     },
@@ -57556,6 +58041,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "PIE": 17,
       "DHT": 4,
@@ -57574,6 +58060,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "PIE": 17,
       "DHT": 4,
@@ -57592,6 +58079,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "DHT": 4,
       "DET": 15,
@@ -57610,6 +58098,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "MND": 23,
       "DHT": 4,
       "CRT": 15,
@@ -57760,6 +58249,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DHT": 22,
       "DET": 11
@@ -57777,6 +58267,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "CRT": 15,
       "DET": 15
@@ -57794,6 +58285,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "DHT": 22,
       "CRT": 15
@@ -57811,6 +58303,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 24,
       "INT": 23,
       "CRT": 22,
       "SPS": 15
@@ -58165,6 +58658,1101 @@
       "DHT": 36,
       "CRT": 51,
       "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23917,
+    "name": "正牙尉长剑",
+    "level": 130,
+    "slot": 1,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 39,
+      "VIT": 45,
+      "DLY": 2240,
+      "TEN": 26,
+      "CRT": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23918,
+    "name": "正漩尉曲刀",
+    "level": 130,
+    "slot": 1,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 39,
+      "VIT": 45,
+      "DLY": 2240,
+      "TEN": 26,
+      "CRT": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23919,
+    "name": "正耀尉斗剑",
+    "level": 130,
+    "slot": 1,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 39,
+      "VIT": 45,
+      "DLY": 2240,
+      "TEN": 26,
+      "CRT": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23920,
+    "name": "正牙尉拳锋",
+    "level": 130,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "MNK"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2560,
+      "CRT": 37,
+      "DET": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23921,
+    "name": "正漩尉利爪",
+    "level": 130,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "MNK"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2560,
+      "CRT": 37,
+      "DET": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23922,
+    "name": "正耀尉拳锋",
+    "level": 130,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "MNK"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2560,
+      "CRT": 37,
+      "DET": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23923,
+    "name": "正牙尉巨斧",
+    "level": 130,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "WAR"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 3360,
+      "DET": 38,
+      "SKS": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23924,
+    "name": "正漩尉双刃斧",
+    "level": 130,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "WAR"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 3360,
+      "DET": 38,
+      "SKS": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23925,
+    "name": "正耀尉战斧",
+    "level": 130,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "WAR"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 3360,
+      "DET": 38,
+      "SKS": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23926,
+    "name": "正牙尉长枪",
+    "level": 130,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2800,
+      "CRT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23927,
+    "name": "正漩尉长枪",
+    "level": 130,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2800,
+      "CRT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23928,
+    "name": "正耀尉长枪",
+    "level": 130,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2800,
+      "CRT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23929,
+    "name": "正牙尉战弓",
+    "level": 130,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "BRD"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 3040,
+      "DHT": 53,
+      "CRT": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23930,
+    "name": "正漩尉战弓",
+    "level": 130,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "BRD"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 3040,
+      "DHT": 53,
+      "CRT": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23931,
+    "name": "正耀尉战弓",
+    "level": 130,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "BRD"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 3040,
+      "DHT": 53,
+      "CRT": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23932,
+    "name": "正牙尉匕首",
+    "level": 130,
+    "slot": 13,
+    "role": 11,
+    "jobs": [
+      "NIN"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 2560,
+      "DHT": 37,
+      "DET": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23933,
+    "name": "正漩尉短剑",
+    "level": 130,
+    "slot": 13,
+    "role": 11,
+    "jobs": [
+      "NIN"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 2560,
+      "DHT": 37,
+      "DET": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23934,
+    "name": "正耀尉砍刀",
+    "level": 130,
+    "slot": 13,
+    "role": 11,
+    "jobs": [
+      "NIN"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 2560,
+      "DHT": 37,
+      "DET": 38,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23935,
+    "name": "正牙尉巨剑",
+    "level": 130,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "DRK"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2960,
+      "TEN": 53,
+      "SKS": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23936,
+    "name": "正漩尉重刀",
+    "level": 130,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "DRK"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2960,
+      "TEN": 53,
+      "SKS": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23937,
+    "name": "正耀尉断头剑",
+    "level": 130,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "DRK"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2960,
+      "TEN": 53,
+      "SKS": 37,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23938,
+    "name": "正牙尉火枪",
+    "level": 130,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "MCH"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 2640,
+      "DHT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23939,
+    "name": "正漩尉火枪",
+    "level": 130,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "MCH"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 2640,
+      "DHT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23940,
+    "name": "正耀尉手炮",
+    "level": 130,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "MCH"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 54,
+      "VIT": 63,
+      "DLY": 2640,
+      "DHT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23941,
+    "name": "正牙尉牧杖",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "WHM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "DLY": 3440,
+      "CRT": 37,
+      "SPS": 53,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23942,
+    "name": "正漩尉牧杖",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "WHM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "DLY": 3440,
+      "CRT": 37,
+      "SPS": 53,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23943,
+    "name": "正耀尉牧杖",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "WHM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "DLY": 3440,
+      "CRT": 37,
+      "SPS": 53,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23944,
+    "name": "正牙尉咒杖",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "BLM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3280,
+      "DHT": 53,
+      "SPS": 37,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23945,
+    "name": "正漩尉咒杖",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "BLM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3280,
+      "DHT": 53,
+      "SPS": 37,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23946,
+    "name": "正耀尉咒杖",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "BLM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3280,
+      "DHT": 53,
+      "SPS": 37,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23947,
+    "name": "正牙尉魔导书",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "SMN"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3120,
+      "CRT": 53,
+      "DET": 27,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23948,
+    "name": "正漩尉魔导书",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "SMN"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3120,
+      "CRT": 53,
+      "DET": 27,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23949,
+    "name": "正耀尉魔导书",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "SMN"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3120,
+      "CRT": 53,
+      "DET": 27,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23950,
+    "name": "正牙尉魔导典",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "SCH"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "PIE": 28,
+      "DLY": 3120,
+      "CRT": 53,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23951,
+    "name": "正漩尉魔导典",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "SCH"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "PIE": 28,
+      "DLY": 3120,
+      "CRT": 53,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23952,
+    "name": "正耀尉魔导典",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "SCH"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "PIE": 28,
+      "DLY": 3120,
+      "CRT": 53,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23953,
+    "name": "正牙尉天星盘",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "AST"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "PIE": 40,
+      "DLY": 3200,
+      "DET": 27,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23954,
+    "name": "正漩尉量天仪",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "AST"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "PIE": 40,
+      "DLY": 3200,
+      "DET": 27,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23955,
+    "name": "正耀尉天球仪",
+    "level": 130,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "AST"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "MND": 54,
+      "PIE": 40,
+      "DLY": 3200,
+      "DET": 27,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23956,
+    "name": "正牙尉太刀",
+    "level": 130,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "SAM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2640,
+      "DHT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23957,
+    "name": "正漩尉太刀",
+    "level": 130,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "SAM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2640,
+      "DHT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23958,
+    "name": "正耀尉武士刀",
+    "level": 130,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "SAM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 54,
+      "VIT": 63,
+      "DLY": 2640,
+      "DHT": 53,
+      "DET": 27,
+      "WPN": 57
+    },
+    "hq": false
+  },
+  {
+    "id": 23959,
+    "name": "正牙尉小剑",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "RDM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3440,
+      "CRT": 37,
+      "DET": 38,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23960,
+    "name": "正漩尉刺剑",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "RDM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3440,
+      "CRT": 37,
+      "DET": 38,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 23961,
+    "name": "正耀尉细剑",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "RDM"
+    ],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 57,
+      "INT": 54,
+      "DLY": 3440,
+      "CRT": 37,
+      "DET": 38,
+      "WPN": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 24551,
+    "name": "瓦拉其之魂",
+    "level": 130,
+    "slot": 13,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 3280
+    },
+    "hq": false
+  },
+  {
+    "id": 24552,
+    "name": "巫术师假面",
+    "level": 130,
+    "slot": 3,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 32,
+      "INT": 31,
+      "CRT": 29,
+      "SPS": 20
+    },
+    "hq": false
+  },
+  {
+    "id": 24553,
+    "name": "巫术师外套",
+    "level": 130,
+    "slot": 4,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 53,
+      "INT": 50,
+      "DHT": 33,
+      "DET": 34
+    },
+    "hq": false
+  },
+  {
+    "id": 24554,
+    "name": "巫术师手套",
+    "level": 130,
+    "slot": 5,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 32,
+      "INT": 31,
+      "CRT": 29,
+      "DET": 14
+    },
+    "hq": false
+  },
+  {
+    "id": 24555,
+    "name": "巫术师打底裤",
+    "level": 130,
+    "slot": 7,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 53,
+      "INT": 50,
+      "CRT": 47,
+      "DET": 23
+    },
+    "hq": false
+  },
+  {
+    "id": 24556,
+    "name": "巫术师皮靴",
+    "level": 130,
+    "slot": 8,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 50,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 32,
+      "INT": 31,
+      "DHT": 20,
+      "CRT": 29
     },
     "hq": false
   },

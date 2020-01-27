@@ -52,7 +52,7 @@ class Ranges {
   }
 }
 
-export function stringify({ job, level, gears }: G.GearSet): string {
+export function stringify({ job, level, gears }: G.Gearset): string {
   const ranges = new Ranges();
   ranges.useVersion(1);
   ranges.useJob(job);
@@ -116,7 +116,7 @@ export function stringify({ job, level, gears }: G.GearSet): string {
   return BI.toString(result, 62);
 }
 
-export function parse(s: string): G.GearSet {
+export function parse(s: string): G.Gearset {
   let input = BI.parseInt(s, 62);
   const read = (range: number): number => {
     const ret = BI.remainder(input, range);
@@ -148,7 +148,7 @@ export function parse(s: string): G.GearSet {
 
   const maxGearId = read(ranges.gearId);
   const minGearId = read(maxGearId);
-  const gears: G.GearSet['gears'] = [];
+  const gears: G.Gearset['gears'] = [];
   while (input !== 0) {
     const materias = Array.from({ length: read(ranges.materiaSlot) },
       () => materiaCodes[read(materiaCodes.length)]).reverse();

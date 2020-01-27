@@ -88,7 +88,13 @@ export const Gear = types
     materias: types.optional(types.array(Materia), []),
   })
   .views(self => ({
-    get data() { return gearData.get(Math.abs(self.id))!; },
+    get data() {
+      if (!gearData.has(Math.abs(self.id))) {
+        debugger;
+        throw ReferenceError(`Gear ${self.id} not exists.`);
+      }
+      return gearData.get(Math.abs(self.id))!;
+    },
   }))
   .views(self => ({
     get name() { return self.data.name; },
@@ -259,7 +265,7 @@ export const Store = types
       const { job } =  self.condition;
       if (job === undefined) return '';
       const level = 70;  // FIXME
-      const gears: G.GearSet['gears'] = [];
+      const gears: G.Gearset['gears'] = [];
       for (const slot of self.schema.slots) {
         const gear = store.equippedGears.get(slot.slot.toString());
         if (gear === undefined) continue;
@@ -347,7 +353,8 @@ const loadGearDataByEquipLevel = (equipLevel: number) => {
   const groupId = equipLevelGroupBasis[equipLevelGroupBasis.findIndex(v => v > equipLevel) - 1];
   if (groupId) loadGearData(groupId);
 };
-loadGearDataByEquipLevel(70);  // FIXME
+// loadGearDataByEquipLevel(70);  // FIXME
+loadGearDataByEquipLevel(80);  // FIXME
 
 export const store = Store.create(archive.load());
 // archive.load();
@@ -363,44 +370,41 @@ onSnapshot(store, snapshot => {
 // onPatch(store, patch => console.log(patch));
 // autorun(() => console.log(store.share, store.share.length));
 
-const gearSetStore = observable.box<G.GearSet>(undefined, { deep: false });
-// location.hash react to gearSetStore
-const parseHash = action(() => {
+const gearsetStore = observable.box<G.Gearset>(undefined, { deep: false });
+const parseHash = action(() => {  // location.hash react to gearsetStore
   let hash = location.hash.slice(1);
   let mode: Mode = 'edit';
   if (hash in G.jobSchemas) {
     store.condition.setJob(hash as G.Job);
     history.replaceState(history.state, document.title, location.href.replace(/#.*$/, ''));
   } else if (hash.startsWith('import-')) {
-    const gearSet = JSON.parse(decodeURIComponent(hash.slice('import-'.length))) as G.GearSet;
-    location.hash = share.stringify(gearSet);
+    const gearset = JSON.parse(decodeURIComponent(hash.slice('import-'.length))) as G.Gearset;
+    location.hash = share.stringify(gearset);
   } else if (hash.length > 3) {
     mode = 'view';
-    const gearSet = share.parse(hash);
-    for (const gear of gearSet.gears) {
+    const gearset = share.parse(hash);
+    for (const gear of gearset.gears) {
       loadGearDataByGear(gear.id);
     }
-    gearSetStore.set(gearSet);
+    gearsetStore.set(gearset);
   }
   store.setMode(mode);
 });
 parseHash();
 window.addEventListener('hashchange', parseHash);
-
-// gearSetStore react to main store
-autorun(() => {
-  const gearSet = gearSetStore.get();
-  if (gearSet === undefined) return;
+autorun(() => {  // gearsetStore react to main store
+  const gearset = gearsetStore.get();
+  if (gearset === undefined) return;
   if (gearDataLoading.get()) return;
   const snapshot: SnapshotIn<IStore> = {
     mode: 'view',
     condition: {
-      job: gearSet.job,
+      job: gearset.job,
     },
     gears: {},
     equippedGears: {},
   };
-  for (const g of gearSet.gears) {
+  for (const g of gearset.gears) {
     if (gearData.has(g.id)) {
       const { slot } = gearData.get(g.id)!;
       const id = snapshot.equippedGears![slot] === undefined ? g.id : -g.id as G.GearId;
@@ -414,5 +418,4 @@ autorun(() => {
 });
 
 (window as any).store = store;
-(window as any).Gear = Gear;
 (window as any).G = G;

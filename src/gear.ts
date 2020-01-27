@@ -18,7 +18,7 @@ export interface Gear {
   },
 }
 
-export interface GearSet {
+export interface Gearset {
   job: Job,
   level: number,
   gears: {
@@ -80,7 +80,7 @@ const statSchemas: { [index: string]: Stat[] } = {
   healer: ['MND', 'CRT', 'DET', 'DHT', 'SPS', 'PIE', 'VIT'],
   dpsStr: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'],
   dpsDex: ['DEX', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'],
-  dpsInt: ['INT', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'],
+  dpsInt: ['INT', 'CRT', 'DET', 'DHT', 'SPS', 'VIT'],
   hand: ['CMS', 'CRL', 'CP'],
   land: ['GTH', 'PCP', 'GP'],
 };

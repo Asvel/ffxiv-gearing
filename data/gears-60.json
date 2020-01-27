@@ -1204,6 +1204,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 31,
       "VIT": 29,
       "TEN": 24,
       "DHT": 17
@@ -1221,6 +1222,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 31,
       "VIT": 29,
       "DHT": 24,
       "CRT": 17
@@ -1238,6 +1240,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 31,
       "VIT": 29,
       "DHT": 24,
       "CRT": 17
@@ -1255,6 +1258,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 31,
       "VIT": 29,
       "CRT": 24,
       "SKS": 17
@@ -1273,6 +1277,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 31,
+      "VIT": 29,
       "DHT": 24,
       "CRT": 17
     },
@@ -1290,6 +1295,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 31,
+      "VIT": 29,
       "DET": 16,
       "SKS": 24
     },
@@ -1307,6 +1313,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 31,
+      "VIT": 29,
       "DHT": 17,
       "DET": 23
     },
@@ -1324,6 +1331,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 31,
+      "VIT": 29,
       "CRT": 24,
       "SKS": 17
     },
@@ -1341,6 +1349,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 31,
+      "VIT": 29,
       "DHT": 17,
       "SKS": 24
     },
@@ -1358,6 +1367,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 31,
+      "VIT": 29,
       "CRT": 24,
       "SKS": 17
     },
@@ -1375,6 +1385,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 31,
+      "VIT": 29,
       "DHT": 24,
       "CRT": 17
     },
@@ -1392,6 +1403,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 31,
+      "VIT": 29,
       "DET": 23,
       "SKS": 17
     },
@@ -1408,6 +1420,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "MND": 31,
       "CRT": 24,
       "DET": 16
@@ -1425,6 +1438,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "MND": 31,
       "DET": 23,
       "SPS": 17
@@ -1442,6 +1456,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "MND": 31,
       "PIE": 14,
       "SPS": 24
@@ -1459,6 +1474,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "MND": 31,
       "PIE": 20,
       "DET": 16
@@ -1476,6 +1492,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "INT": 31,
       "DHT": 17,
       "CRT": 24
@@ -1493,6 +1510,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "INT": 31,
       "DET": 23,
       "SPS": 17
@@ -1510,6 +1528,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "INT": 31,
       "DHT": 24,
       "DET": 16
@@ -1527,6 +1546,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 26,
       "INT": 31,
       "DHT": 24,
       "CRT": 17
@@ -3627,7 +3647,7 @@
   },
   {
     "id": 20596,
-    "name": "55式铁盔",
+    "name": "河畔堡驻军铁盔",
     "level": 150,
     "slot": 3,
     "role": 0,
@@ -3640,7 +3660,7 @@
   },
   {
     "id": 20597,
-    "name": "55式上衣",
+    "name": "河畔堡驻军上衣",
     "level": 150,
     "slot": 4,
     "role": 0,
@@ -3653,7 +3673,7 @@
   },
   {
     "id": 20598,
-    "name": "55式手甲",
+    "name": "河畔堡驻军手甲",
     "level": 150,
     "slot": 5,
     "role": 0,
@@ -3666,7 +3686,7 @@
   },
   {
     "id": 20599,
-    "name": "55式长裤",
+    "name": "河畔堡驻军长裤",
     "level": 150,
     "slot": 7,
     "role": 0,
@@ -3679,7 +3699,7 @@
   },
   {
     "id": 20600,
-    "name": "55式长靴",
+    "name": "河畔堡驻军长靴",
     "level": 150,
     "slot": 8,
     "role": 0,
@@ -5193,6 +5213,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 33,
       "VIT": 31,
       "TEN": 26,
       "DHT": 18
@@ -5210,6 +5231,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 33,
       "VIT": 31,
       "DHT": 18,
       "SKS": 26
@@ -5227,6 +5249,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 33,
       "VIT": 31,
       "TEN": 26,
       "SKS": 18
@@ -5244,6 +5267,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 33,
       "VIT": 31,
       "DET": 25,
       "SKS": 18
@@ -5262,6 +5286,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 33,
+      "VIT": 31,
       "CRT": 26,
       "SKS": 18
     },
@@ -5279,6 +5304,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 33,
+      "VIT": 31,
       "DHT": 18,
       "DET": 25
     },
@@ -5296,6 +5322,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 33,
+      "VIT": 31,
       "DHT": 26,
       "DET": 18
     },
@@ -5313,6 +5340,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 33,
+      "VIT": 31,
       "DHT": 18,
       "SKS": 26
     },
@@ -5330,6 +5358,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 33,
+      "VIT": 31,
       "CRT": 18,
       "DET": 25
     },
@@ -5347,6 +5376,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 33,
+      "VIT": 31,
       "DHT": 18,
       "SKS": 26
     },
@@ -5364,6 +5394,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 33,
+      "VIT": 31,
       "CRT": 18,
       "DET": 25
     },
@@ -5381,6 +5412,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 33,
+      "VIT": 31,
       "DHT": 26,
       "DET": 18
     },
@@ -5397,6 +5429,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "MND": 33,
       "PIE": 23,
       "DET": 18
@@ -5414,6 +5447,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "MND": 33,
       "PIE": 16,
       "SPS": 26
@@ -5431,6 +5465,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "MND": 33,
       "PIE": 23,
       "CRT": 18
@@ -5448,6 +5483,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "MND": 33,
       "CRT": 26,
       "DET": 18
@@ -5465,6 +5501,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "INT": 33,
       "CRT": 18,
       "SPS": 26
@@ -5482,6 +5519,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "INT": 33,
       "DHT": 18,
       "SPS": 26
@@ -5499,6 +5537,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "INT": 33,
       "DHT": 18,
       "CRT": 26
@@ -5516,6 +5555,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "INT": 33,
       "CRT": 26,
       "SPS": 18
@@ -6585,6 +6625,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 33,
       "VIT": 31
     },
     "hq": false
@@ -6600,6 +6641,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 33,
       "VIT": 31
     },
     "hq": false
@@ -6615,6 +6657,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 33,
       "VIT": 31
     },
     "hq": false
@@ -6630,6 +6673,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 33,
       "VIT": 31
     },
     "hq": false
@@ -6645,7 +6689,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 33
+      "STR": 33,
+      "VIT": 31
     },
     "hq": false
   },
@@ -6660,7 +6705,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 33
+      "STR": 33,
+      "VIT": 31
     },
     "hq": false
   },
@@ -6675,7 +6721,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 33
+      "STR": 33,
+      "VIT": 31
     },
     "hq": false
   },
@@ -6690,7 +6737,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 33
+      "STR": 33,
+      "VIT": 31
     },
     "hq": false
   },
@@ -6705,7 +6753,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 33
+      "DEX": 33,
+      "VIT": 31
     },
     "hq": false
   },
@@ -6720,7 +6769,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 33
+      "DEX": 33,
+      "VIT": 31
     },
     "hq": false
   },
@@ -6735,7 +6785,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 33
+      "DEX": 33,
+      "VIT": 31
     },
     "hq": false
   },
@@ -6750,7 +6801,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 33
+      "DEX": 33,
+      "VIT": 31
     },
     "hq": false
   },
@@ -6765,6 +6817,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "MND": 33
     },
     "hq": false
@@ -6780,6 +6833,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "MND": 33
     },
     "hq": false
@@ -6795,6 +6849,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "MND": 33
     },
     "hq": false
@@ -6810,6 +6865,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "MND": 33
     },
     "hq": false
@@ -6825,6 +6881,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "INT": 33
     },
     "hq": false
@@ -6840,6 +6897,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "INT": 33
     },
     "hq": false
@@ -6855,6 +6913,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "INT": 33
     },
     "hq": false
@@ -6870,6 +6929,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 28,
       "INT": 33
     },
     "hq": false
@@ -7226,7 +7286,7 @@
   },
   {
     "id": 11600,
-    "name": "夜叉武士钵铁",
+    "name": "夜叉豪士钵铁",
     "level": 170,
     "slot": 3,
     "role": 1,
@@ -7374,7 +7434,7 @@
   },
   {
     "id": 11607,
-    "name": "夜叉武士腹当",
+    "name": "夜叉豪士腹当",
     "level": 170,
     "slot": 4,
     "role": 1,
@@ -7522,7 +7582,7 @@
   },
   {
     "id": 11614,
-    "name": "夜叉武士笼手",
+    "name": "夜叉豪士笼手",
     "level": 170,
     "slot": 5,
     "role": 1,
@@ -7670,7 +7730,7 @@
   },
   {
     "id": 11621,
-    "name": "夜叉武士带",
+    "name": "夜叉豪士带",
     "level": 170,
     "slot": 6,
     "role": 1,
@@ -7818,7 +7878,7 @@
   },
   {
     "id": 11628,
-    "name": "夜叉武士佩楯",
+    "name": "夜叉豪士佩楯",
     "level": 170,
     "slot": 7,
     "role": 1,
@@ -7966,7 +8026,7 @@
   },
   {
     "id": 11635,
-    "name": "夜叉武士护胫",
+    "name": "夜叉豪士护胫",
     "level": 170,
     "slot": 8,
     "role": 1,
@@ -8114,7 +8174,7 @@
   },
   {
     "id": 11642,
-    "name": "夜叉武士耳饰",
+    "name": "夜叉豪士耳饰",
     "level": 170,
     "slot": 9,
     "role": 1,
@@ -8123,6 +8183,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 35,
       "VIT": 33,
       "CRT": 29,
       "DET": 19
@@ -8141,6 +8202,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 35,
+      "VIT": 33,
       "DHT": 29,
       "CRT": 20
     },
@@ -8158,6 +8220,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 35,
+      "VIT": 33,
       "DHT": 20,
       "SKS": 29
     },
@@ -8174,6 +8237,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 30,
       "MND": 35,
       "CRT": 29,
       "SPS": 20
@@ -8191,6 +8255,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 30,
       "INT": 35,
       "DHT": 29,
       "SPS": 20
@@ -8199,7 +8264,7 @@
   },
   {
     "id": 11647,
-    "name": "夜叉武士首饰",
+    "name": "夜叉豪士首饰",
     "level": 170,
     "slot": 10,
     "role": 1,
@@ -8208,6 +8273,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 35,
       "VIT": 33,
       "TEN": 29,
       "SKS": 20
@@ -8226,6 +8292,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 35,
+      "VIT": 33,
       "DET": 28,
       "SKS": 20
     },
@@ -8243,6 +8310,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 35,
+      "VIT": 33,
       "DHT": 29,
       "CRT": 20
     },
@@ -8259,6 +8327,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 30,
       "MND": 35,
       "PIE": 18,
       "DET": 28
@@ -8276,6 +8345,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 30,
       "INT": 35,
       "DHT": 20,
       "SPS": 29
@@ -8284,7 +8354,7 @@
   },
   {
     "id": 11652,
-    "name": "夜叉武士手饰",
+    "name": "夜叉豪士手饰",
     "level": 170,
     "slot": 11,
     "role": 1,
@@ -8293,6 +8363,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 35,
       "VIT": 33,
       "TEN": 20,
       "DHT": 29
@@ -8311,6 +8382,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 35,
+      "VIT": 33,
       "DHT": 29,
       "DET": 19
     },
@@ -8328,6 +8400,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 35,
+      "VIT": 33,
       "DHT": 29,
       "SKS": 20
     },
@@ -8344,6 +8417,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 30,
       "MND": 35,
       "DET": 19,
       "SPS": 29
@@ -8361,6 +8435,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 30,
       "INT": 35,
       "CRT": 20,
       "DET": 28
@@ -8369,7 +8444,7 @@
   },
   {
     "id": 11657,
-    "name": "夜叉武士指饰",
+    "name": "夜叉豪士指饰",
     "level": 170,
     "slot": 12,
     "role": 1,
@@ -8378,6 +8453,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 35,
       "VIT": 33,
       "DET": 28,
       "SKS": 20
@@ -8396,6 +8472,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 35,
+      "VIT": 33,
       "DHT": 20,
       "SKS": 29
     },
@@ -8413,6 +8490,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 35,
+      "VIT": 33,
       "DHT": 20,
       "CRT": 29
     },
@@ -8429,6 +8507,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 30,
       "MND": 35,
       "PIE": 26,
       "CRT": 20
@@ -8446,6 +8525,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 30,
       "INT": 35,
       "DHT": 20,
       "CRT": 29
@@ -12949,7 +13029,7 @@
   },
   {
     "id": 11676,
-    "name": "阿修罗武士钵铁",
+    "name": "阿修罗豪士钵铁",
     "level": 180,
     "slot": 3,
     "role": 1,
@@ -13097,7 +13177,7 @@
   },
   {
     "id": 11683,
-    "name": "阿修罗武士腹当",
+    "name": "阿修罗豪士腹当",
     "level": 180,
     "slot": 4,
     "role": 1,
@@ -13245,7 +13325,7 @@
   },
   {
     "id": 11690,
-    "name": "阿修罗武士笼手",
+    "name": "阿修罗豪士笼手",
     "level": 180,
     "slot": 5,
     "role": 1,
@@ -13393,7 +13473,7 @@
   },
   {
     "id": 11697,
-    "name": "阿修罗武士带",
+    "name": "阿修罗豪士带",
     "level": 180,
     "slot": 6,
     "role": 1,
@@ -13541,7 +13621,7 @@
   },
   {
     "id": 11704,
-    "name": "阿修罗武士佩楯",
+    "name": "阿修罗豪士佩楯",
     "level": 180,
     "slot": 7,
     "role": 1,
@@ -13689,7 +13769,7 @@
   },
   {
     "id": 11711,
-    "name": "阿修罗武士护胫",
+    "name": "阿修罗豪士护胫",
     "level": 180,
     "slot": 8,
     "role": 1,
@@ -13837,7 +13917,7 @@
   },
   {
     "id": 11718,
-    "name": "阿修罗武士耳饰",
+    "name": "阿修罗豪士耳饰",
     "level": 180,
     "slot": 9,
     "role": 1,
@@ -13846,6 +13926,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36,
       "CRT": 32,
       "DET": 21
@@ -13864,6 +13945,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 36,
+      "VIT": 36,
       "DHT": 32,
       "CRT": 22
     },
@@ -13881,6 +13963,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 36,
+      "VIT": 36,
       "DHT": 22,
       "SKS": 32
     },
@@ -13897,6 +13980,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36,
       "CRT": 32,
       "SPS": 22
@@ -13914,6 +13998,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36,
       "DHT": 32,
       "SPS": 22
@@ -13922,7 +14007,7 @@
   },
   {
     "id": 11723,
-    "name": "阿修罗武士首饰",
+    "name": "阿修罗豪士首饰",
     "level": 180,
     "slot": 10,
     "role": 1,
@@ -13931,6 +14016,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36,
       "TEN": 32,
       "SKS": 22
@@ -13949,6 +14035,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 36,
+      "VIT": 36,
       "DET": 30,
       "SKS": 22
     },
@@ -13966,6 +14053,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 36,
+      "VIT": 36,
       "DHT": 32,
       "CRT": 22
     },
@@ -13982,6 +14070,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36,
       "PIE": 21,
       "DET": 30
@@ -13999,6 +14088,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36,
       "DHT": 22,
       "SPS": 32
@@ -14007,7 +14097,7 @@
   },
   {
     "id": 11728,
-    "name": "阿修罗武士手饰",
+    "name": "阿修罗豪士手饰",
     "level": 180,
     "slot": 11,
     "role": 1,
@@ -14016,6 +14106,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36,
       "TEN": 22,
       "DHT": 32
@@ -14034,6 +14125,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 36,
+      "VIT": 36,
       "DHT": 32,
       "DET": 21
     },
@@ -14051,6 +14143,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 36,
+      "VIT": 36,
       "DHT": 32,
       "SKS": 22
     },
@@ -14067,6 +14160,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36,
       "DET": 21,
       "SPS": 32
@@ -14084,6 +14178,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36,
       "CRT": 22,
       "DET": 30
@@ -14092,7 +14187,7 @@
   },
   {
     "id": 11733,
-    "name": "阿修罗武士指饰",
+    "name": "阿修罗豪士指饰",
     "level": 180,
     "slot": 12,
     "role": 1,
@@ -14101,6 +14196,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36,
       "DET": 30,
       "SKS": 22
@@ -14119,6 +14215,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 36,
+      "VIT": 36,
       "DHT": 22,
       "SKS": 32
     },
@@ -14136,6 +14233,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 36,
+      "VIT": 36,
       "DHT": 22,
       "CRT": 32
     },
@@ -14152,6 +14250,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36,
       "PIE": 30,
       "CRT": 22
@@ -14169,6 +14268,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36,
       "DHT": 22,
       "CRT": 32
@@ -15380,6 +15480,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36,
       "DHT": 32,
       "CRT": 22
@@ -15397,6 +15498,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36,
       "CRT": 32,
       "SKS": 22
@@ -15414,6 +15516,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36,
       "DHT": 22,
       "DET": 30
@@ -15431,6 +15534,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36,
       "DHT": 22,
       "SKS": 32
@@ -15449,6 +15553,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 36,
+      "VIT": 36,
       "DHT": 22,
       "DET": 30
     },
@@ -15466,6 +15571,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 36,
+      "VIT": 36,
       "DHT": 22,
       "SKS": 32
     },
@@ -15483,6 +15589,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 36,
+      "VIT": 36,
       "DHT": 32,
       "SKS": 22
     },
@@ -15500,6 +15607,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 36,
+      "VIT": 36,
       "CRT": 22,
       "DET": 30
     },
@@ -15517,6 +15625,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 36,
+      "VIT": 36,
       "DHT": 22,
       "SKS": 32
     },
@@ -15534,6 +15643,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 36,
+      "VIT": 36,
       "DHT": 32,
       "CRT": 22
     },
@@ -15551,6 +15661,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 36,
+      "VIT": 36,
       "CRT": 32,
       "SKS": 22
     },
@@ -15568,6 +15679,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 36,
+      "VIT": 36,
       "DHT": 22,
       "DET": 30
     },
@@ -15584,6 +15696,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36,
       "PIE": 30,
       "SPS": 22
@@ -15601,6 +15714,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36,
       "PIE": 21,
       "CRT": 32
@@ -15618,6 +15732,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36,
       "CRT": 22,
       "DET": 30
@@ -15635,6 +15750,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36,
       "PIE": 30,
       "DET": 21
@@ -15652,6 +15768,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36,
       "DHT": 22,
       "CRT": 32
@@ -15669,6 +15786,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36,
       "DHT": 32,
       "CRT": 22
@@ -15686,6 +15804,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36,
       "DHT": 22,
       "DET": 30
@@ -15703,6 +15822,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36,
       "DET": 21,
       "SPS": 32
@@ -16554,6 +16674,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36
     },
     "hq": false
@@ -16569,6 +16690,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36
     },
     "hq": false
@@ -16584,6 +16706,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36
     },
     "hq": false
@@ -16599,6 +16722,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 36,
       "VIT": 36
     },
     "hq": false
@@ -16614,7 +16738,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 36
+      "STR": 36,
+      "VIT": 36
     },
     "hq": false
   },
@@ -16629,7 +16754,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 36
+      "STR": 36,
+      "VIT": 36
     },
     "hq": false
   },
@@ -16644,7 +16770,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 36
+      "STR": 36,
+      "VIT": 36
     },
     "hq": false
   },
@@ -16659,7 +16786,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 36
+      "STR": 36,
+      "VIT": 36
     },
     "hq": false
   },
@@ -16674,7 +16802,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 36
+      "DEX": 36,
+      "VIT": 36
     },
     "hq": false
   },
@@ -16689,7 +16818,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 36
+      "DEX": 36,
+      "VIT": 36
     },
     "hq": false
   },
@@ -16704,7 +16834,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 36
+      "DEX": 36,
+      "VIT": 36
     },
     "hq": false
   },
@@ -16719,7 +16850,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 36
+      "DEX": 36,
+      "VIT": 36
     },
     "hq": false
   },
@@ -16734,6 +16866,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36
     },
     "hq": false
@@ -16749,6 +16882,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36
     },
     "hq": false
@@ -16764,6 +16898,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36
     },
     "hq": false
@@ -16779,6 +16914,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "MND": 36
     },
     "hq": false
@@ -16794,6 +16930,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36
     },
     "hq": false
@@ -16809,6 +16946,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36
     },
     "hq": false
@@ -16824,6 +16962,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36
     },
     "hq": false
@@ -16839,6 +16978,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 32,
       "INT": 36
     },
     "hq": false
@@ -18677,6 +18817,706 @@
     "hq": false
   },
   {
+    "id": 24320,
+    "name": "邪龙怨影剑",
+    "level": 180,
+    "slot": 1,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 60,
+      "VIT": 60,
+      "DLY": 2240,
+      "DET": 35,
+      "SKS": 53,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24321,
+    "name": "邪龙怨影之拳",
+    "level": 180,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "MNK"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 2560,
+      "DET": 71,
+      "SKS": 52,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24322,
+    "name": "邪龙怨影大斧",
+    "level": 180,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "WAR"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 3440,
+      "CRT": 74,
+      "SKS": 52,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24323,
+    "name": "邪龙怨影长枪",
+    "level": 180,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 2880,
+      "CRT": 74,
+      "DET": 49,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24324,
+    "name": "邪龙怨影弓",
+    "level": 180,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "BRD"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 84,
+      "VIT": 84,
+      "DLY": 3040,
+      "CRT": 52,
+      "DET": 71,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24325,
+    "name": "邪龙怨影小刀",
+    "level": 180,
+    "slot": 13,
+    "role": 11,
+    "jobs": [
+      "NIN"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 84,
+      "VIT": 84,
+      "DLY": 2560,
+      "CRT": 52,
+      "SKS": 74,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24326,
+    "name": "邪龙怨影大剑",
+    "level": 180,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "DRK"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 2960,
+      "DET": 49,
+      "SKS": 74,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24327,
+    "name": "邪龙怨影手炮",
+    "level": 180,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "MCH"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 84,
+      "VIT": 84,
+      "DLY": 2640,
+      "CRT": 52,
+      "SKS": 74,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24328,
+    "name": "邪龙怨影牧杖",
+    "level": 180,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "WHM"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "MND": 84,
+      "PIE": 69,
+      "DLY": 3440,
+      "CRT": 52,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 24329,
+    "name": "邪龙怨影魔杖",
+    "level": 180,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "BLM"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "INT": 84,
+      "DLY": 3280,
+      "DET": 49,
+      "SPS": 74,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 24330,
+    "name": "邪龙怨影魔导书",
+    "level": 180,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "SMN"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "INT": 84,
+      "DLY": 3120,
+      "CRT": 52,
+      "DET": 71,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 24331,
+    "name": "邪龙怨影魔导典",
+    "level": 180,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "SCH"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "MND": 84,
+      "PIE": 48,
+      "DLY": 3120,
+      "SPS": 74,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 24332,
+    "name": "邪龙怨影天球仪",
+    "level": 180,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "AST"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "MND": 84,
+      "PIE": 69,
+      "DLY": 3200,
+      "DET": 49,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 24333,
+    "name": "邪龙怨影太刀",
+    "level": 180,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "SAM"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 2640,
+      "DHT": 52,
+      "SKS": 74,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 24334,
+    "name": "邪龙怨影刺剑",
+    "level": 180,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "RDM"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "INT": 84,
+      "DLY": 3440,
+      "DHT": 52,
+      "CRT": 74,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 24335,
+    "name": "邪龙怨影盾",
+    "level": 180,
+    "slot": 2,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 0,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 24,
+      "VIT": 24,
+      "TEN": 21,
+      "CRT": 15
+    },
+    "hq": true
+  },
+  {
+    "id": 25022,
+    "name": "神圣女神之剑",
+    "level": 180,
+    "slot": 1,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 60,
+      "VIT": 60,
+      "DLY": 2240,
+      "DET": 35,
+      "SKS": 53,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25023,
+    "name": "神圣女神之拳",
+    "level": 180,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "MNK"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 2560,
+      "CRT": 52,
+      "DET": 71,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25024,
+    "name": "神圣女神之斧",
+    "level": 180,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "WAR"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 3360,
+      "DET": 71,
+      "SKS": 52,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25025,
+    "name": "神圣女神之戟",
+    "level": 180,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 2800,
+      "DET": 49,
+      "SKS": 74,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25026,
+    "name": "神圣女神之弓",
+    "level": 180,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "BRD"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 84,
+      "VIT": 84,
+      "DLY": 3040,
+      "DET": 71,
+      "SKS": 52,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25027,
+    "name": "神圣女神之刃",
+    "level": 180,
+    "slot": 13,
+    "role": 11,
+    "jobs": [
+      "NIN"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 84,
+      "VIT": 84,
+      "DLY": 2560,
+      "CRT": 74,
+      "SKS": 52,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25028,
+    "name": "神圣女神之巨剑",
+    "level": 180,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "DRK"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 2960,
+      "CRT": 52,
+      "SKS": 74,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25029,
+    "name": "神圣女神之火",
+    "level": 180,
+    "slot": 13,
+    "role": 4,
+    "jobs": [
+      "MCH"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 84,
+      "VIT": 84,
+      "DLY": 2640,
+      "CRT": 74,
+      "SKS": 52,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25030,
+    "name": "神圣女神之幻杖",
+    "level": 180,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "WHM"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "MND": 84,
+      "DLY": 3440,
+      "CRT": 52,
+      "SPS": 74,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 25031,
+    "name": "神圣女神之玉杖",
+    "level": 180,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "BLM"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "INT": 84,
+      "DLY": 3280,
+      "DET": 71,
+      "SPS": 52,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 25032,
+    "name": "神圣女神之书",
+    "level": 180,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "SMN"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "INT": 84,
+      "DLY": 3120,
+      "CRT": 74,
+      "DET": 49,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 25033,
+    "name": "神圣女神之典",
+    "level": 180,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "SCH"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "MND": 84,
+      "DLY": 3120,
+      "CRT": 74,
+      "DET": 49,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 25034,
+    "name": "神圣女神之仪",
+    "level": 180,
+    "slot": 13,
+    "role": 6,
+    "jobs": [
+      "AST"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "MND": 84,
+      "DLY": 3200,
+      "DET": 71,
+      "SPS": 52,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 25035,
+    "name": "女神之刀·改",
+    "level": 180,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "SAM"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 84,
+      "VIT": 84,
+      "DLY": 2640,
+      "DET": 71,
+      "SKS": 52,
+      "WPN": 70
+    },
+    "hq": true
+  },
+  {
+    "id": 25036,
+    "name": "神圣女神之刺剑",
+    "level": 180,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "RDM"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 75,
+      "INT": 84,
+      "DLY": 3440,
+      "DET": 71,
+      "SPS": 52,
+      "WPN": 97
+    },
+    "hq": true
+  },
+  {
+    "id": 25037,
+    "name": "神圣女神之盾",
+    "level": 180,
+    "slot": 2,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 60,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 24,
+      "VIT": 24,
+      "TEN": 15,
+      "CRT": 21
+    },
+    "hq": true
+  },
+  {
     "id": 13161,
     "name": "狂妄船形帽",
     "level": 185,
@@ -19575,6 +20415,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 38,
       "VIT": 38,
       "TEN": 23,
       "SKS": 33
@@ -19592,6 +20433,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 38,
       "VIT": 38,
       "DHT": 33,
       "CRT": 23
@@ -19609,6 +20451,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 38,
       "VIT": 38,
       "DHT": 23,
       "CRT": 33
@@ -19626,6 +20469,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 38,
       "VIT": 38,
       "DET": 32,
       "SKS": 23
@@ -19644,6 +20488,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 38,
+      "VIT": 38,
       "DHT": 23,
       "SKS": 33
     },
@@ -19661,6 +20506,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 38,
+      "VIT": 38,
       "DHT": 33,
       "SKS": 23
     },
@@ -19678,6 +20524,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 38,
+      "VIT": 38,
       "DHT": 33,
       "CRT": 23
     },
@@ -19695,6 +20542,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 38,
+      "VIT": 38,
       "CRT": 33,
       "DET": 23
     },
@@ -19712,6 +20560,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 38,
+      "VIT": 38,
       "DHT": 33,
       "CRT": 23
     },
@@ -19729,6 +20578,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 38,
+      "VIT": 38,
       "DHT": 23,
       "DET": 32
     },
@@ -19746,6 +20596,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 38,
+      "VIT": 38,
       "DET": 23,
       "SKS": 33
     },
@@ -19763,6 +20614,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 38,
+      "VIT": 38,
       "CRT": 33,
       "DET": 23
     },
@@ -19779,6 +20631,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 34,
       "MND": 38,
       "PIE": 23,
       "DET": 32
@@ -19796,6 +20649,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 34,
       "MND": 38,
       "PIE": 33,
       "SPS": 23
@@ -19813,6 +20667,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 34,
       "MND": 38,
       "PIE": 23,
       "CRT": 33
@@ -19830,6 +20685,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 34,
       "MND": 38,
       "CRT": 33,
       "DET": 23
@@ -19847,6 +20703,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 34,
       "INT": 38,
       "CRT": 23,
       "SPS": 33
@@ -19864,6 +20721,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 34,
       "INT": 38,
       "DHT": 33,
       "DET": 23
@@ -19881,6 +20739,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 34,
       "INT": 38,
       "DHT": 23,
       "DET": 32
@@ -19898,6 +20757,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 34,
       "INT": 38,
       "CRT": 33,
       "DET": 23
@@ -21849,6 +22709,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 40,
       "VIT": 40,
       "DET": 34,
       "SKS": 25
@@ -21867,6 +22728,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 40,
+      "VIT": 40,
       "DET": 34,
       "SKS": 25
     },
@@ -21884,6 +22746,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 40,
+      "VIT": 40,
       "CRT": 25,
       "SKS": 36
     },
@@ -21900,6 +22763,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 36,
       "MND": 40,
       "PIE": 36,
       "CRT": 25
@@ -21917,6 +22781,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 36,
       "INT": 40,
       "DHT": 25,
       "CRT": 36
@@ -21934,6 +22799,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 40,
       "VIT": 40,
       "TEN": 25,
       "CRT": 36
@@ -21952,6 +22818,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 40,
+      "VIT": 40,
       "DHT": 36,
       "CRT": 25
     },
@@ -21969,6 +22836,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 40,
+      "VIT": 40,
       "DET": 34,
       "SKS": 25
     },
@@ -21985,6 +22853,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 36,
       "MND": 40,
       "PIE": 25,
       "CRT": 36
@@ -22002,6 +22871,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 36,
       "INT": 40,
       "CRT": 36,
       "DET": 24
@@ -22019,6 +22889,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 40,
       "VIT": 40,
       "TEN": 36,
       "DHT": 25
@@ -22037,6 +22908,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 40,
+      "VIT": 40,
       "CRT": 25,
       "SKS": 36
     },
@@ -22054,6 +22926,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 40,
+      "VIT": 40,
       "CRT": 36,
       "DET": 24
     },
@@ -22070,6 +22943,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 36,
       "MND": 40,
       "PIE": 36,
       "SPS": 25
@@ -22087,6 +22961,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 36,
       "INT": 40,
       "DHT": 36,
       "SPS": 25
@@ -22104,6 +22979,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 40,
       "VIT": 40,
       "DHT": 36,
       "DET": 24
@@ -22122,6 +22998,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 40,
+      "VIT": 40,
       "CRT": 36,
       "DET": 24
     },
@@ -22139,6 +23016,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 40,
+      "VIT": 40,
       "DHT": 25,
       "DET": 34
     },
@@ -22155,6 +23033,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 36,
       "MND": 40,
       "PIE": 25,
       "DET": 34
@@ -22172,6 +23051,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 36,
       "INT": 40,
       "CRT": 25,
       "SPS": 36
@@ -22961,7 +23841,7 @@
     "name": "龙堡强袭宽边帽",
     "level": 195,
     "slot": 3,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -22982,7 +23862,7 @@
     "name": "龙堡强袭束腰猎衣",
     "level": 195,
     "slot": 4,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -23003,7 +23883,7 @@
     "name": "龙堡强袭护手",
     "level": 195,
     "slot": 5,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -23024,7 +23904,7 @@
     "name": "龙堡强袭软甲裤",
     "level": 195,
     "slot": 7,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -23045,7 +23925,7 @@
     "name": "龙堡强袭高筒靴",
     "level": 195,
     "slot": 8,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -23066,7 +23946,7 @@
     "name": "龙堡强袭交叉腰带",
     "level": 195,
     "slot": 6,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -23603,6 +24483,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 41,
       "VIT": 42,
       "TEN": 26,
       "CRT": 37
@@ -23620,6 +24501,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 41,
       "VIT": 42,
       "TEN": 37,
       "DHT": 26
@@ -23637,6 +24519,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 41,
       "VIT": 42,
       "DET": 36,
       "SKS": 26
@@ -23654,6 +24537,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 41,
       "VIT": 42,
       "DHT": 37,
       "DET": 25
@@ -23672,6 +24556,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 41,
+      "VIT": 42,
       "CRT": 26,
       "SKS": 37
     },
@@ -23689,6 +24574,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 41,
+      "VIT": 42,
       "DHT": 37,
       "DET": 25
     },
@@ -23706,6 +24592,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 41,
+      "VIT": 42,
       "DHT": 26,
       "CRT": 37
     },
@@ -23723,6 +24610,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 41,
+      "VIT": 42,
       "DET": 36,
       "SKS": 26
     },
@@ -23740,6 +24628,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 41,
+      "VIT": 42,
       "DHT": 26,
       "DET": 36
     },
@@ -23757,6 +24646,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 41,
+      "VIT": 42,
       "CRT": 37,
       "SKS": 26
     },
@@ -23774,6 +24664,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 41,
+      "VIT": 42,
       "DET": 25,
       "SKS": 37
     },
@@ -23791,6 +24682,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 41,
+      "VIT": 42,
       "DHT": 37,
       "CRT": 26
     },
@@ -23807,6 +24699,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 38,
       "MND": 41,
       "DET": 25,
       "SPS": 37
@@ -23824,6 +24717,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 38,
       "MND": 41,
       "PIE": 28,
       "DET": 36
@@ -23841,6 +24735,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 38,
       "MND": 41,
       "PIE": 39,
       "SPS": 26
@@ -23858,6 +24753,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 38,
       "MND": 41,
       "PIE": 28,
       "CRT": 37
@@ -23875,6 +24771,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 38,
       "INT": 41,
       "DET": 36,
       "SPS": 26
@@ -23892,6 +24789,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 38,
       "INT": 41,
       "DHT": 26,
       "SPS": 37
@@ -23909,6 +24807,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 38,
       "INT": 41,
       "CRT": 37,
       "DET": 25
@@ -23926,6 +24825,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 38,
       "INT": 41,
       "DHT": 37,
       "CRT": 26
@@ -26089,6 +26989,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 43,
       "VIT": 45,
       "DHT": 39,
       "SKS": 28
@@ -26107,6 +27008,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 43,
+      "VIT": 45,
       "DHT": 39,
       "DET": 27
     },
@@ -26124,6 +27026,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 43,
+      "VIT": 45,
       "CRT": 39,
       "SKS": 28
     },
@@ -26140,6 +27043,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 40,
       "MND": 43,
       "PIE": 30,
       "DET": 38
@@ -26157,6 +27061,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 40,
       "INT": 43,
       "DHT": 39,
       "CRT": 28
@@ -26174,6 +27079,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 43,
       "VIT": 45,
       "TEN": 39,
       "DHT": 28
@@ -26192,6 +27098,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 43,
+      "VIT": 45,
       "CRT": 39,
       "SKS": 28
     },
@@ -26209,6 +27116,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 43,
+      "VIT": 45,
       "DHT": 39,
       "SKS": 28
     },
@@ -26225,6 +27133,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 40,
       "MND": 43,
       "CRT": 28,
       "SPS": 39
@@ -26242,6 +27151,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 40,
       "INT": 43,
       "DHT": 28,
       "DET": 38
@@ -26259,6 +27169,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 43,
       "VIT": 45,
       "DHT": 39,
       "DET": 27
@@ -26277,6 +27188,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 43,
+      "VIT": 45,
       "DHT": 39,
       "CRT": 28
     },
@@ -26294,6 +27206,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 43,
+      "VIT": 45,
       "DHT": 28,
       "CRT": 39
     },
@@ -26310,6 +27223,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 40,
       "MND": 43,
       "PIE": 30,
       "CRT": 39
@@ -26327,6 +27241,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 40,
       "INT": 43,
       "DHT": 28,
       "SPS": 39
@@ -26344,6 +27259,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 43,
       "VIT": 45,
       "TEN": 28,
       "DET": 38
@@ -26362,6 +27278,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 43,
+      "VIT": 45,
       "DHT": 28,
       "SKS": 39
     },
@@ -26379,6 +27296,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 43,
+      "VIT": 45,
       "DET": 27,
       "SKS": 39
     },
@@ -26395,6 +27313,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 40,
       "MND": 43,
       "DET": 27,
       "SPS": 39
@@ -26412,6 +27331,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 40,
       "INT": 43,
       "DET": 38,
       "SPS": 28
@@ -30901,6 +31821,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 45,
       "VIT": 47,
       "DHT": 29,
       "DET": 40
@@ -30918,6 +31839,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 45,
       "VIT": 47,
       "DHT": 42,
       "CRT": 29
@@ -30935,6 +31857,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 45,
       "VIT": 47,
       "DHT": 29,
       "SKS": 42
@@ -30952,6 +31875,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 45,
       "VIT": 47,
       "DHT": 42,
       "DET": 28
@@ -30970,6 +31894,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 45,
+      "VIT": 47,
       "DHT": 42,
       "SKS": 29
     },
@@ -30987,6 +31912,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 45,
+      "VIT": 47,
       "DHT": 29,
       "CRT": 42
     },
@@ -31004,6 +31930,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 45,
+      "VIT": 47,
       "DHT": 42,
       "DET": 28
     },
@@ -31021,6 +31948,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 45,
+      "VIT": 47,
       "DHT": 29,
       "DET": 40
     },
@@ -31038,6 +31966,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 45,
+      "VIT": 47,
       "DHT": 42,
       "DET": 28
     },
@@ -31055,6 +31984,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 45,
+      "VIT": 47,
       "DHT": 29,
       "CRT": 42
     },
@@ -31072,6 +32002,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 45,
+      "VIT": 47,
       "DHT": 29,
       "SKS": 42
     },
@@ -31089,6 +32020,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 45,
+      "VIT": 47,
       "DHT": 42,
       "CRT": 29
     },
@@ -31105,6 +32037,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 42,
       "MND": 45,
       "PIE": 32,
       "CRT": 42
@@ -31122,6 +32055,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 42,
       "MND": 45,
       "PIE": 46,
       "SPS": 29
@@ -31139,6 +32073,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 42,
       "MND": 45,
       "PIE": 46,
       "DET": 28
@@ -31156,6 +32091,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 42,
       "MND": 45,
       "PIE": 32,
       "SPS": 42
@@ -31173,6 +32109,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 42,
       "INT": 45,
       "DHT": 42,
       "SPS": 29
@@ -31190,6 +32127,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 42,
       "INT": 45,
       "DHT": 29,
       "SPS": 42
@@ -31207,6 +32145,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 42,
       "INT": 45,
       "DHT": 29,
       "DET": 40
@@ -31224,6 +32163,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 42,
       "INT": 45,
       "DHT": 42,
       "CRT": 29
@@ -32523,6 +33463,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49,
       "TEN": 30,
       "DET": 42
@@ -32541,6 +33482,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 47,
+      "VIT": 49,
       "CRT": 44,
       "DET": 29
     },
@@ -32558,6 +33500,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 47,
+      "VIT": 49,
       "DHT": 30,
       "SKS": 44
     },
@@ -32574,6 +33517,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47,
       "CRT": 30,
       "SPS": 44
@@ -32591,6 +33535,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47,
       "DHT": 30,
       "DET": 42
@@ -32608,6 +33553,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49,
       "DHT": 30,
       "CRT": 44
@@ -32626,6 +33572,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 47,
+      "VIT": 49,
       "DHT": 30,
       "DET": 42
     },
@@ -32643,6 +33590,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 47,
+      "VIT": 49,
       "DHT": 30,
       "DET": 42
     },
@@ -32659,6 +33607,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47,
       "PIE": 49,
       "DET": 29
@@ -32676,6 +33625,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47,
       "DHT": 44,
       "SPS": 30
@@ -32693,6 +33643,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49,
       "TEN": 44,
       "SKS": 30
@@ -32711,6 +33662,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 47,
+      "VIT": 49,
       "DET": 29,
       "SKS": 44
     },
@@ -32728,6 +33680,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 47,
+      "VIT": 49,
       "DET": 29,
       "SKS": 44
     },
@@ -32744,6 +33697,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47,
       "DET": 42,
       "SPS": 30
@@ -32761,6 +33715,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47,
       "CRT": 30,
       "DET": 42
@@ -32778,6 +33733,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49,
       "DHT": 44,
       "CRT": 30
@@ -32796,6 +33752,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 47,
+      "VIT": 49,
       "DHT": 44,
       "CRT": 30
     },
@@ -32813,6 +33770,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 47,
+      "VIT": 49,
       "DHT": 30,
       "CRT": 44
     },
@@ -32829,6 +33787,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47,
       "PIE": 34,
       "CRT": 44
@@ -32846,6 +33805,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47,
       "DHT": 44,
       "CRT": 30
@@ -34617,6 +35577,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49,
       "DHT": 44,
       "SKS": 30
@@ -34635,6 +35596,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 47,
+      "VIT": 49,
       "DHT": 44,
       "DET": 29
     },
@@ -34652,6 +35614,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 47,
+      "VIT": 49,
       "CRT": 44,
       "SKS": 30
     },
@@ -34668,6 +35631,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47,
       "PIE": 34,
       "DET": 42
@@ -34685,6 +35649,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47,
       "DHT": 44,
       "CRT": 30
@@ -34702,6 +35667,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49,
       "TEN": 44,
       "DHT": 30
@@ -34720,6 +35686,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 47,
+      "VIT": 49,
       "CRT": 44,
       "SKS": 30
     },
@@ -34737,6 +35704,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 47,
+      "VIT": 49,
       "DHT": 44,
       "SKS": 30
     },
@@ -34753,6 +35721,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47,
       "CRT": 30,
       "SPS": 44
@@ -34770,6 +35739,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47,
       "DHT": 30,
       "DET": 42
@@ -34787,6 +35757,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49,
       "DHT": 44,
       "DET": 29
@@ -34805,6 +35776,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 47,
+      "VIT": 49,
       "DHT": 44,
       "CRT": 30
     },
@@ -34822,6 +35794,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 47,
+      "VIT": 49,
       "DHT": 30,
       "CRT": 44
     },
@@ -34838,6 +35811,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47,
       "PIE": 34,
       "CRT": 44
@@ -34855,6 +35829,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47,
       "DHT": 30,
       "SPS": 44
@@ -34872,6 +35847,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49,
       "TEN": 30,
       "DET": 42
@@ -34890,6 +35866,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 47,
+      "VIT": 49,
       "DHT": 30,
       "SKS": 44
     },
@@ -34907,6 +35884,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 47,
+      "VIT": 49,
       "DET": 29,
       "SKS": 44
     },
@@ -34923,6 +35901,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47,
       "DET": 29,
       "SPS": 44
@@ -34940,6 +35919,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47,
       "DET": 42,
       "SPS": 30
@@ -36067,6 +37047,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49
     },
     "hq": false
@@ -36082,6 +37063,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49
     },
     "hq": false
@@ -36097,6 +37079,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49
     },
     "hq": false
@@ -36112,6 +37095,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 47,
       "VIT": 49
     },
     "hq": false
@@ -36127,7 +37111,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 47
+      "STR": 47,
+      "VIT": 49
     },
     "hq": false
   },
@@ -36142,7 +37127,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 47
+      "STR": 47,
+      "VIT": 49
     },
     "hq": false
   },
@@ -36157,7 +37143,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 47
+      "STR": 47,
+      "VIT": 49
     },
     "hq": false
   },
@@ -36172,7 +37159,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 47
+      "STR": 47,
+      "VIT": 49
     },
     "hq": false
   },
@@ -36187,7 +37175,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 47
+      "DEX": 47,
+      "VIT": 49
     },
     "hq": false
   },
@@ -36202,7 +37191,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 47
+      "DEX": 47,
+      "VIT": 49
     },
     "hq": false
   },
@@ -36217,7 +37207,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 47
+      "DEX": 47,
+      "VIT": 49
     },
     "hq": false
   },
@@ -36232,7 +37223,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 47
+      "DEX": 47,
+      "VIT": 49
     },
     "hq": false
   },
@@ -36247,6 +37239,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47
     },
     "hq": false
@@ -36262,6 +37255,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47
     },
     "hq": false
@@ -36277,6 +37271,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47
     },
     "hq": false
@@ -36292,6 +37287,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "MND": 47
     },
     "hq": false
@@ -36307,6 +37303,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47
     },
     "hq": false
@@ -36322,6 +37319,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47
     },
     "hq": false
@@ -36337,6 +37335,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47
     },
     "hq": false
@@ -36352,6 +37351,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 44,
       "INT": 47
     },
     "hq": false
@@ -36657,7 +37657,7 @@
     "name": "征服包头巾",
     "level": 215,
     "slot": 3,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -36678,7 +37678,7 @@
     "name": "征服坎肩",
     "level": 215,
     "slot": 4,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -36699,7 +37699,7 @@
     "name": "征服护臂",
     "level": 215,
     "slot": 5,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -36720,7 +37720,7 @@
     "name": "征服衬裤",
     "level": 215,
     "slot": 7,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -36741,7 +37741,7 @@
     "name": "征服凉鞋",
     "level": 215,
     "slot": 8,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -36762,7 +37762,7 @@
     "name": "征服腰带",
     "level": 215,
     "slot": 6,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -37299,6 +38299,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 49,
       "VIT": 52,
       "TEN": 31,
       "DET": 43
@@ -37316,6 +38317,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 49,
       "VIT": 52,
       "DHT": 45,
       "CRT": 31
@@ -37333,6 +38335,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 49,
       "VIT": 52,
       "TEN": 45,
       "DHT": 31
@@ -37350,6 +38353,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 49,
       "VIT": 52,
       "CRT": 45,
       "SKS": 31
@@ -37368,6 +38372,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 49,
+      "VIT": 52,
       "DHT": 45,
       "CRT": 31
     },
@@ -37385,6 +38390,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 49,
+      "VIT": 52,
       "DHT": 31,
       "CRT": 45
     },
@@ -37402,6 +38408,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 49,
+      "VIT": 52,
       "DHT": 45,
       "DET": 30
     },
@@ -37419,6 +38426,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 49,
+      "VIT": 52,
       "DET": 43,
       "SKS": 31
     },
@@ -37436,6 +38444,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 49,
+      "VIT": 52,
       "DET": 30,
       "SKS": 45
     },
@@ -37453,6 +38462,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 49,
+      "VIT": 52,
       "DHT": 31,
       "SKS": 45
     },
@@ -37470,6 +38480,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 49,
+      "VIT": 52,
       "DHT": 31,
       "CRT": 45
     },
@@ -37487,6 +38498,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 49,
+      "VIT": 52,
       "CRT": 31,
       "DET": 43
     },
@@ -37503,6 +38515,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 47,
       "MND": 49,
       "PIE": 35,
       "CRT": 45
@@ -37520,6 +38533,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 47,
       "MND": 49,
       "PIE": 50,
       "SPS": 31
@@ -37537,6 +38551,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 47,
       "MND": 49,
       "PIE": 50,
       "DET": 30
@@ -37554,6 +38569,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 47,
       "MND": 49,
       "CRT": 31,
       "SPS": 45
@@ -37571,6 +38587,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 47,
       "INT": 49,
       "DHT": 45,
       "DET": 30
@@ -37588,6 +38605,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 47,
       "INT": 49,
       "DHT": 45,
       "SPS": 31
@@ -37605,6 +38623,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 47,
       "INT": 49,
       "CRT": 31,
       "SPS": 45
@@ -37622,6 +38641,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 47,
       "INT": 49,
       "DHT": 31,
       "DET": 43
@@ -37639,6 +38659,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 51,
       "VIT": 55,
       "DHT": 32,
       "DET": 44
@@ -37656,6 +38677,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 51,
       "VIT": 55,
       "TEN": 32,
       "SKS": 46
@@ -37673,6 +38695,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 51,
       "VIT": 55,
       "DHT": 46,
       "SKS": 32
@@ -37690,6 +38713,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 51,
       "VIT": 55,
       "DHT": 32,
       "CRT": 46
@@ -37708,6 +38732,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 51,
+      "VIT": 55,
       "DHT": 46,
       "DET": 31
     },
@@ -37725,6 +38750,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 51,
+      "VIT": 55,
       "CRT": 32,
       "DET": 44
     },
@@ -37742,6 +38768,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 51,
+      "VIT": 55,
       "DET": 44,
       "SKS": 32
     },
@@ -37759,6 +38786,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 51,
+      "VIT": 55,
       "DHT": 32,
       "SKS": 46
     },
@@ -37776,6 +38804,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 51,
+      "VIT": 55,
       "DHT": 32,
       "SKS": 46
     },
@@ -37793,6 +38822,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 51,
+      "VIT": 55,
       "DHT": 46,
       "CRT": 32
     },
@@ -37810,6 +38840,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 51,
+      "VIT": 55,
       "CRT": 46,
       "DET": 31
     },
@@ -37827,6 +38858,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 51,
+      "VIT": 55,
       "DET": 44,
       "SKS": 32
     },
@@ -37843,6 +38875,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 49,
       "MND": 51,
       "PIE": 51,
       "SPS": 32
@@ -37860,6 +38893,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 49,
       "MND": 51,
       "CRT": 32,
       "DET": 44
@@ -37877,6 +38911,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 49,
       "MND": 51,
       "PIE": 36,
       "CRT": 46
@@ -37894,6 +38929,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 49,
       "MND": 51,
       "CRT": 32,
       "SPS": 46
@@ -37911,6 +38947,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 49,
       "INT": 51,
       "DHT": 46,
       "SPS": 32
@@ -37928,6 +38965,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 49,
       "INT": 51,
       "DHT": 46,
       "DET": 31
@@ -37945,6 +38983,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 49,
       "INT": 51,
       "CRT": 46,
       "SPS": 32
@@ -37962,6 +39001,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 49,
       "INT": 51,
       "CRT": 32,
       "DET": 44
@@ -38321,7 +39361,7 @@
     "name": "弥达斯原型强袭面具",
     "level": 220,
     "slot": 3,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -38469,7 +39509,7 @@
     "name": "弥达斯原型强袭短衣",
     "level": 220,
     "slot": 4,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -38617,7 +39657,7 @@
     "name": "弥达斯原型强袭手套",
     "level": 220,
     "slot": 5,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -38765,7 +39805,7 @@
     "name": "弥达斯原型强袭腰带",
     "level": 220,
     "slot": 6,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -38913,7 +39953,7 @@
     "name": "弥达斯原型强袭马裤",
     "level": 220,
     "slot": 7,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -39061,7 +40101,7 @@
     "name": "弥达斯原型强袭长靴",
     "level": 220,
     "slot": 8,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -39173,6 +40213,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 51,
       "VIT": 55,
       "DHT": 32,
       "CRT": 46
@@ -39191,6 +40232,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 51,
+      "VIT": 55,
       "DHT": 46,
       "SKS": 32
     },
@@ -39208,6 +40250,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 51,
+      "VIT": 55,
       "DET": 44,
       "SKS": 32
     },
@@ -39224,6 +40267,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 49,
       "MND": 51,
       "PIE": 51,
       "SPS": 32
@@ -39241,6 +40285,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 49,
       "INT": 51,
       "CRT": 46,
       "SPS": 32
@@ -39258,6 +40303,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 51,
       "VIT": 55,
       "DHT": 46,
       "SKS": 32
@@ -39276,6 +40322,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 51,
+      "VIT": 55,
       "CRT": 32,
       "SKS": 46
     },
@@ -39293,6 +40340,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 51,
+      "VIT": 55,
       "CRT": 46,
       "DET": 31
     },
@@ -39309,6 +40357,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 49,
       "MND": 51,
       "PIE": 36,
       "CRT": 46
@@ -39326,6 +40375,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 49,
       "INT": 51,
       "CRT": 32,
       "DET": 44
@@ -39343,6 +40393,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 51,
       "VIT": 55,
       "TEN": 46,
       "CRT": 32
@@ -39361,6 +40412,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 51,
+      "VIT": 55,
       "DHT": 32,
       "CRT": 46
     },
@@ -39378,6 +40430,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 51,
+      "VIT": 55,
       "DHT": 32,
       "SKS": 46
     },
@@ -39394,6 +40447,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 49,
       "MND": 51,
       "PIE": 51,
       "DET": 31
@@ -39411,6 +40465,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 49,
       "INT": 51,
       "DHT": 46,
       "DET": 31
@@ -39428,6 +40483,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 51,
       "VIT": 55,
       "TEN": 32,
       "SKS": 46
@@ -39446,6 +40502,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 51,
+      "VIT": 55,
       "DHT": 46,
       "DET": 31
     },
@@ -39463,6 +40520,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 51,
+      "VIT": 55,
       "DHT": 46,
       "CRT": 32
     },
@@ -39479,6 +40537,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 49,
       "MND": 51,
       "PIE": 36,
       "DET": 44
@@ -39496,6 +40555,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 49,
       "INT": 51,
       "DHT": 32,
       "SPS": 46
@@ -41333,6 +42393,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 54,
       "VIT": 58,
       "CRT": 33,
       "SKS": 48
@@ -41350,6 +42411,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 54,
       "VIT": 58,
       "TEN": 48,
       "DHT": 33
@@ -41367,6 +42429,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 54,
       "VIT": 58,
       "DHT": 48,
       "DET": 32
@@ -41384,6 +42447,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 54,
       "VIT": 58,
       "TEN": 33,
       "CRT": 48
@@ -41402,6 +42466,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 54,
+      "VIT": 58,
       "DHT": 48,
       "SKS": 33
     },
@@ -41419,6 +42484,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 54,
+      "VIT": 58,
       "DET": 32,
       "SKS": 48
     },
@@ -41436,6 +42502,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 54,
+      "VIT": 58,
       "DHT": 33,
       "DET": 45
     },
@@ -41453,6 +42520,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 54,
+      "VIT": 58,
       "CRT": 48,
       "SKS": 33
     },
@@ -41470,6 +42538,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 54,
+      "VIT": 58,
       "DHT": 48,
       "SKS": 33
     },
@@ -41487,6 +42556,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 54,
+      "VIT": 58,
       "DHT": 48,
       "CRT": 33
     },
@@ -41504,6 +42574,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 54,
+      "VIT": 58,
       "DHT": 33,
       "DET": 45
     },
@@ -41521,6 +42592,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 54,
+      "VIT": 58,
       "CRT": 48,
       "SKS": 33
     },
@@ -41537,6 +42609,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 52,
       "MND": 54,
       "PIE": 52,
       "DET": 32
@@ -41554,6 +42627,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 52,
       "MND": 54,
       "PIE": 52,
       "CRT": 33
@@ -41571,6 +42645,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 52,
       "MND": 54,
       "PIE": 36,
       "SPS": 48
@@ -41588,6 +42663,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 52,
       "MND": 54,
       "DET": 45,
       "SPS": 33
@@ -41605,6 +42681,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 52,
       "INT": 54,
       "DHT": 33,
       "CRT": 48
@@ -41622,6 +42699,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 52,
       "INT": 54,
       "DHT": 33,
       "SPS": 48
@@ -41639,6 +42717,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 52,
       "INT": 54,
       "DHT": 48,
       "DET": 32
@@ -41656,6 +42735,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 52,
       "INT": 54,
       "DET": 45,
       "SPS": 33
@@ -42015,7 +43095,7 @@
     "name": "狱炎强袭面具",
     "level": 230,
     "slot": 3,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -42163,7 +43243,7 @@
     "name": "狱炎强袭战铠",
     "level": 230,
     "slot": 4,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -42311,7 +43391,7 @@
     "name": "狱炎强袭手铠",
     "level": 230,
     "slot": 5,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -42459,7 +43539,7 @@
     "name": "蛮神强袭腰带",
     "level": 230,
     "slot": 6,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -42607,7 +43687,7 @@
     "name": "狱炎强袭马裤",
     "level": 230,
     "slot": 7,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -42755,7 +43835,7 @@
     "name": "狱炎强袭铠靴",
     "level": 230,
     "slot": 8,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -42867,6 +43947,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 56,
       "VIT": 60,
       "DHT": 49,
       "SKS": 34
@@ -42885,6 +43966,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 56,
+      "VIT": 60,
       "DHT": 34,
       "CRT": 49
     },
@@ -42902,6 +43984,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 56,
+      "VIT": 60,
       "CRT": 49,
       "DET": 33
     },
@@ -42918,6 +44001,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 54,
       "MND": 56,
       "PIE": 53,
       "DET": 33
@@ -42935,6 +44019,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 54,
       "INT": 56,
       "DET": 47,
       "SPS": 34
@@ -42952,6 +44037,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 56,
       "VIT": 60,
       "TEN": 49,
       "CRT": 34
@@ -42970,6 +44056,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 56,
+      "VIT": 60,
       "DHT": 49,
       "SKS": 34
     },
@@ -42987,6 +44074,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 56,
+      "VIT": 60,
       "DHT": 49,
       "SKS": 34
     },
@@ -43003,6 +44091,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 54,
       "MND": 56,
       "PIE": 37,
       "DET": 47
@@ -43020,6 +44109,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 54,
       "INT": 56,
       "DHT": 49,
       "DET": 33
@@ -43037,6 +44127,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 56,
       "VIT": 60,
       "DHT": 49,
       "DET": 33
@@ -43055,6 +44146,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 56,
+      "VIT": 60,
       "CRT": 34,
       "SKS": 49
     },
@@ -43072,6 +44164,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 56,
+      "VIT": 60,
       "DHT": 49,
       "CRT": 34
     },
@@ -43088,6 +44181,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 54,
       "MND": 56,
       "PIE": 53,
       "SPS": 34
@@ -43105,6 +44199,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 54,
       "INT": 56,
       "DHT": 49,
       "CRT": 34
@@ -43122,6 +44217,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 56,
       "VIT": 60,
       "DHT": 34,
       "SKS": 49
@@ -43140,6 +44236,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 56,
+      "VIT": 60,
       "DET": 47,
       "SKS": 34
     },
@@ -43157,6 +44254,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 56,
+      "VIT": 60,
       "CRT": 34,
       "DET": 47
     },
@@ -43173,6 +44271,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 54,
       "MND": 56,
       "CRT": 34,
       "SPS": 49
@@ -43190,6 +44289,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 54,
       "INT": 56,
       "CRT": 34,
       "SPS": 49
@@ -43759,7 +44859,7 @@
     "name": "亚菲姆强袭头冠",
     "level": 230,
     "slot": 3,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -43780,7 +44880,7 @@
     "name": "亚菲姆强袭斗服",
     "level": 230,
     "slot": 4,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -43801,7 +44901,7 @@
     "name": "亚菲姆强袭手套",
     "level": 230,
     "slot": 5,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -43822,7 +44922,7 @@
     "name": "亚菲姆强袭束膝裤",
     "level": 230,
     "slot": 7,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -43843,7 +44943,7 @@
     "name": "亚菲姆革强袭凉鞋",
     "level": 230,
     "slot": 8,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -43864,7 +44964,7 @@
     "name": "亚菲姆强袭腰带",
     "level": 230,
     "slot": 6,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -47527,6 +48627,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 58,
       "VIT": 63
     },
     "hq": false
@@ -47542,6 +48643,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 58,
       "VIT": 63
     },
     "hq": false
@@ -47557,6 +48659,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 58,
       "VIT": 63
     },
     "hq": false
@@ -47572,6 +48675,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 58,
       "VIT": 63
     },
     "hq": false
@@ -47587,7 +48691,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 58
+      "STR": 58,
+      "VIT": 63
     },
     "hq": false
   },
@@ -47602,7 +48707,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 58
+      "STR": 58,
+      "VIT": 63
     },
     "hq": false
   },
@@ -47617,7 +48723,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 58
+      "STR": 58,
+      "VIT": 63
     },
     "hq": false
   },
@@ -47632,7 +48739,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 58
+      "STR": 58,
+      "VIT": 63
     },
     "hq": false
   },
@@ -47647,7 +48755,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 58
+      "DEX": 58,
+      "VIT": 63
     },
     "hq": false
   },
@@ -47662,7 +48771,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 58
+      "DEX": 58,
+      "VIT": 63
     },
     "hq": false
   },
@@ -47677,7 +48787,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 58
+      "DEX": 58,
+      "VIT": 63
     },
     "hq": false
   },
@@ -47692,7 +48803,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 58
+      "DEX": 58,
+      "VIT": 63
     },
     "hq": false
   },
@@ -47707,6 +48819,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "MND": 58
     },
     "hq": false
@@ -47722,6 +48835,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "MND": 58
     },
     "hq": false
@@ -47737,6 +48851,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "MND": 58
     },
     "hq": false
@@ -47752,6 +48867,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "MND": 58
     },
     "hq": false
@@ -47767,6 +48883,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "INT": 58
     },
     "hq": false
@@ -47782,6 +48899,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "INT": 58
     },
     "hq": false
@@ -47797,6 +48915,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "INT": 58
     },
     "hq": false
@@ -47812,6 +48931,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "INT": 58
     },
     "hq": false
@@ -47827,6 +48947,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 58,
       "VIT": 63,
       "DET": 34,
       "SKS": 50
@@ -47844,6 +48965,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 58,
       "VIT": 63,
       "CRT": 35,
       "DET": 48
@@ -47861,6 +48983,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 58,
       "VIT": 63,
       "CRT": 50,
       "DET": 34
@@ -47878,6 +49001,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 58,
       "VIT": 63,
       "DET": 48,
       "SKS": 35
@@ -47896,6 +49020,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 58,
+      "VIT": 63,
       "CRT": 50,
       "DET": 34
     },
@@ -47913,6 +49038,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 58,
+      "VIT": 63,
       "CRT": 35,
       "DET": 48
     },
@@ -47930,6 +49056,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 58,
+      "VIT": 63,
       "CRT": 35,
       "DET": 48
     },
@@ -47947,6 +49074,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 58,
+      "VIT": 63,
       "DET": 34,
       "SKS": 50
     },
@@ -47964,6 +49092,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 58,
+      "VIT": 63,
       "CRT": 35,
       "DET": 48
     },
@@ -47981,6 +49110,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 58,
+      "VIT": 63,
       "DET": 48,
       "SKS": 35
     },
@@ -47998,6 +49128,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 58,
+      "VIT": 63,
       "DET": 48,
       "SKS": 35
     },
@@ -48015,6 +49146,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 58,
+      "VIT": 63,
       "DET": 34,
       "SKS": 50
     },
@@ -48031,6 +49163,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "MND": 58,
       "CRT": 35,
       "SPS": 50
@@ -48048,6 +49181,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "MND": 58,
       "CRT": 35,
       "DET": 48
@@ -48065,6 +49199,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "MND": 58,
       "CRT": 50,
       "SPS": 35
@@ -48082,6 +49217,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "MND": 58,
       "CRT": 35,
       "DET": 48
@@ -48099,6 +49235,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "INT": 58,
       "DET": 48,
       "SPS": 35
@@ -48116,6 +49253,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "INT": 58,
       "DET": 34,
       "SPS": 50
@@ -48133,6 +49271,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "INT": 58,
       "CRT": 50,
       "SPS": 35
@@ -48150,6 +49289,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 57,
       "INT": 58,
       "CRT": 50,
       "DET": 34
@@ -48389,6 +49529,46 @@
       "DHT": 117,
       "DET": 78,
       "WPN": 109
+    },
+    "hq": false
+  },
+  {
+    "id": 27347,
+    "name": "角尊枪刃",
+    "level": 235,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 136,
+      "VIT": 147,
+      "DLY": 2800,
+      "CRT": 82,
+      "SKS": 117,
+      "WPN": 79
+    },
+    "hq": false
+  },
+  {
+    "id": 27348,
+    "name": "角尊战轮",
+    "level": 235,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 136,
+      "VIT": 147,
+      "DLY": 3120,
+      "DHT": 82,
+      "SKS": 117,
+      "WPN": 79
     },
     "hq": false
   },
@@ -48745,7 +49925,7 @@
     "name": "改良型狱炎强袭面具",
     "level": 240,
     "slot": 3,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -48893,7 +50073,7 @@
     "name": "改良型狱炎强袭战铠",
     "level": 240,
     "slot": 4,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -49041,7 +50221,7 @@
     "name": "改良型狱炎强袭手铠",
     "level": 240,
     "slot": 5,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -49189,7 +50369,7 @@
     "name": "改良型蛮神强袭腰带",
     "level": 240,
     "slot": 6,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -49337,7 +50517,7 @@
     "name": "改良型狱炎强袭马裤",
     "level": 240,
     "slot": 7,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -49485,7 +50665,7 @@
     "name": "改良型狱炎强袭铠靴",
     "level": 240,
     "slot": 8,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -49597,6 +50777,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 61,
       "VIT": 66,
       "DHT": 51,
       "SKS": 36
@@ -49615,6 +50796,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 61,
+      "VIT": 66,
       "DHT": 36,
       "CRT": 51
     },
@@ -49632,6 +50814,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 61,
+      "VIT": 66,
       "CRT": 51,
       "DET": 34
     },
@@ -49648,6 +50831,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "MND": 61,
       "PIE": 54,
       "DET": 34
@@ -49665,6 +50849,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "INT": 61,
       "DET": 49,
       "SPS": 36
@@ -49682,6 +50867,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 61,
       "VIT": 66,
       "TEN": 51,
       "CRT": 36
@@ -49700,6 +50886,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 61,
+      "VIT": 66,
       "DHT": 51,
       "SKS": 36
     },
@@ -49717,6 +50904,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 61,
+      "VIT": 66,
       "DHT": 51,
       "SKS": 36
     },
@@ -49733,6 +50921,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "MND": 61,
       "PIE": 38,
       "DET": 49
@@ -49750,6 +50939,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "INT": 61,
       "DHT": 51,
       "DET": 34
@@ -49767,6 +50957,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 61,
       "VIT": 66,
       "DHT": 51,
       "DET": 34
@@ -49785,6 +50976,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 61,
+      "VIT": 66,
       "CRT": 36,
       "SKS": 51
     },
@@ -49802,6 +50994,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 61,
+      "VIT": 66,
       "DHT": 51,
       "CRT": 36
     },
@@ -49818,6 +51011,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "MND": 61,
       "PIE": 54,
       "SPS": 36
@@ -49835,6 +51029,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "INT": 61,
       "DHT": 51,
       "CRT": 36
@@ -49852,6 +51047,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 61,
       "VIT": 66,
       "DHT": 36,
       "SKS": 51
@@ -49870,6 +51066,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 61,
+      "VIT": 66,
       "DET": 49,
       "SKS": 36
     },
@@ -49887,6 +51084,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 61,
+      "VIT": 66,
       "CRT": 36,
       "DET": 49
     },
@@ -49903,6 +51101,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "MND": 61,
       "CRT": 36,
       "SPS": 51
@@ -49920,6 +51119,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "INT": 61,
       "CRT": 36,
       "SPS": 51
@@ -49973,7 +51173,7 @@
     "name": "弥达斯强袭面具",
     "level": 240,
     "slot": 3,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -50121,7 +51321,7 @@
     "name": "弥达斯强袭短衣",
     "level": 240,
     "slot": 4,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -50269,7 +51469,7 @@
     "name": "弥达斯强袭手套",
     "level": 240,
     "slot": 5,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -50417,7 +51617,7 @@
     "name": "弥达斯强袭腰带",
     "level": 240,
     "slot": 6,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -50565,7 +51765,7 @@
     "name": "弥达斯强袭马裤",
     "level": 240,
     "slot": 7,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -50713,7 +51913,7 @@
     "name": "弥达斯强袭长靴",
     "level": 240,
     "slot": 8,
-    "role": 10,
+    "role": 3,
     "jobs": [
       "MNK",
       "SAM"
@@ -50825,6 +52025,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 61,
       "VIT": 66,
       "TEN": 36,
       "DET": 49
@@ -50843,6 +52044,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 61,
+      "VIT": 66,
       "DET": 49,
       "SKS": 36
     },
@@ -50860,6 +52062,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 61,
+      "VIT": 66,
       "DHT": 51,
       "SKS": 36
     },
@@ -50876,6 +52079,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "MND": 61,
       "CRT": 36,
       "SPS": 51
@@ -50893,6 +52097,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "INT": 61,
       "DHT": 51,
       "CRT": 36
@@ -50910,6 +52115,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 61,
       "VIT": 66,
       "DHT": 51,
       "CRT": 36
@@ -50928,6 +52134,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 61,
+      "VIT": 66,
       "DHT": 36,
       "CRT": 51
     },
@@ -50945,6 +52152,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 61,
+      "VIT": 66,
       "DHT": 36,
       "CRT": 51
     },
@@ -50961,6 +52169,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "MND": 61,
       "PIE": 54,
       "SPS": 36
@@ -50978,6 +52187,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "INT": 61,
       "DHT": 36,
       "CRT": 51
@@ -50995,6 +52205,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 61,
       "VIT": 66,
       "TEN": 36,
       "SKS": 51
@@ -51013,6 +52224,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 61,
+      "VIT": 66,
       "DHT": 51,
       "DET": 34
     },
@@ -51030,6 +52242,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 61,
+      "VIT": 66,
       "DET": 49,
       "SKS": 36
     },
@@ -51046,6 +52259,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "MND": 61,
       "PIE": 38,
       "CRT": 51
@@ -51063,6 +52277,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "INT": 61,
       "DET": 34,
       "SPS": 51
@@ -51080,6 +52295,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 61,
       "VIT": 66,
       "DHT": 51,
       "DET": 34
@@ -51098,6 +52314,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 61,
+      "VIT": 66,
       "DHT": 51,
       "CRT": 36
     },
@@ -51115,6 +52332,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 61,
+      "VIT": 66,
       "DHT": 36,
       "SKS": 51
     },
@@ -51131,6 +52349,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "MND": 61,
       "PIE": 54,
       "DET": 34
@@ -51148,6 +52367,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 59,
       "INT": 61,
       "DHT": 51,
       "DET": 34
@@ -52681,6 +53901,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 64,
       "VIT": 70,
       "DHT": 37,
       "DET": 51
@@ -52698,6 +53919,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 64,
       "VIT": 70,
       "TEN": 37,
       "DHT": 53
@@ -52715,6 +53937,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 64,
       "VIT": 70,
       "TEN": 37,
       "CRT": 53
@@ -52732,6 +53955,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 64,
       "VIT": 70,
       "CRT": 53,
       "SKS": 37
@@ -52750,6 +53974,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 64,
+      "VIT": 70,
       "DHT": 37,
       "CRT": 53
     },
@@ -52767,6 +53992,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 64,
+      "VIT": 70,
       "DHT": 53,
       "CRT": 37
     },
@@ -52784,6 +54010,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 64,
+      "VIT": 70,
       "DHT": 53,
       "DET": 35
     },
@@ -52801,6 +54028,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 64,
+      "VIT": 70,
       "CRT": 37,
       "SKS": 53
     },
@@ -52818,6 +54046,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 64,
+      "VIT": 70,
       "DHT": 37,
       "DET": 51
     },
@@ -52835,6 +54064,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 64,
+      "VIT": 70,
       "DHT": 53,
       "CRT": 37
     },
@@ -52852,6 +54082,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 64,
+      "VIT": 70,
       "DHT": 37,
       "SKS": 53
     },
@@ -52869,6 +54100,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 64,
+      "VIT": 70,
       "CRT": 53,
       "SKS": 37
     },
@@ -52885,6 +54117,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 63,
       "MND": 64,
       "CRT": 53,
       "SPS": 37
@@ -52902,6 +54135,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 63,
       "MND": 64,
       "PIE": 38,
       "DET": 51
@@ -52919,6 +54153,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 63,
       "MND": 64,
       "PIE": 55,
       "DET": 35
@@ -52936,6 +54171,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 63,
       "MND": 64,
       "CRT": 53,
       "SPS": 37
@@ -52953,6 +54189,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 63,
       "INT": 64,
       "DHT": 53,
       "SPS": 37
@@ -52970,6 +54207,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 63,
       "INT": 64,
       "DHT": 53,
       "CRT": 37
@@ -52987,6 +54225,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 63,
       "INT": 64,
       "CRT": 53,
       "SPS": 37
@@ -53004,6 +54243,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 63,
       "INT": 64,
       "CRT": 37,
       "DET": 51
@@ -53953,6 +55193,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 66,
       "VIT": 73,
       "TEN": 54,
       "DET": 36
@@ -53971,6 +55212,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 66,
+      "VIT": 73,
       "DHT": 38,
       "SKS": 54
     },
@@ -53988,6 +55230,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 66,
+      "VIT": 73,
       "DHT": 54,
       "SKS": 38
     },
@@ -54004,6 +55247,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 66,
       "MND": 66,
       "PIE": 56,
       "CRT": 38
@@ -54021,6 +55265,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 66,
       "INT": 66,
       "CRT": 54,
       "DET": 36
@@ -54038,6 +55283,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 66,
       "VIT": 73,
       "DHT": 54,
       "SKS": 38
@@ -54056,6 +55302,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 66,
+      "VIT": 73,
       "DHT": 54,
       "CRT": 38
     },
@@ -54073,6 +55320,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 66,
+      "VIT": 73,
       "DET": 52,
       "SKS": 38
     },
@@ -54089,6 +55337,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 66,
       "MND": 66,
       "PIE": 56,
       "SPS": 38
@@ -54106,6 +55355,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 66,
       "INT": 66,
       "DHT": 38,
       "DET": 52
@@ -54123,6 +55373,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 66,
       "VIT": 73,
       "DHT": 38,
       "CRT": 54
@@ -54141,6 +55392,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 66,
+      "VIT": 73,
       "CRT": 38,
       "DET": 52
     },
@@ -54158,6 +55410,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 66,
+      "VIT": 73,
       "DHT": 54,
       "DET": 36
     },
@@ -54174,6 +55427,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 66,
       "MND": 66,
       "PIE": 39,
       "SPS": 54
@@ -54191,6 +55445,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 66,
       "INT": 66,
       "DHT": 54,
       "SPS": 38
@@ -54208,6 +55463,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 66,
       "VIT": 73,
       "DET": 36,
       "SKS": 54
@@ -54226,6 +55482,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 66,
+      "VIT": 73,
       "CRT": 54,
       "SKS": 38
     },
@@ -54243,6 +55500,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 66,
+      "VIT": 73,
       "CRT": 38,
       "SKS": 54
     },
@@ -54259,6 +55517,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 66,
       "MND": 66,
       "CRT": 54,
       "SPS": 38
@@ -54276,6 +55535,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 66,
       "INT": 66,
       "CRT": 54,
       "DET": 36
@@ -55487,6 +56747,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 66,
       "VIT": 73,
       "DHT": 54,
       "SKS": 38
@@ -55505,6 +56766,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 66,
+      "VIT": 73,
       "CRT": 54,
       "DET": 36
     },
@@ -55522,6 +56784,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 66,
+      "VIT": 73,
       "DHT": 38,
       "DET": 52
     },
@@ -55538,6 +56801,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 66,
       "MND": 66,
       "PIE": 56,
       "SPS": 38
@@ -55555,6 +56819,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 66,
       "INT": 66,
       "DHT": 38,
       "SPS": 54
@@ -55572,6 +56837,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 66,
       "VIT": 73,
       "CRT": 54,
       "DET": 36
@@ -55590,6 +56856,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 66,
+      "VIT": 73,
       "DET": 36,
       "SKS": 54
     },
@@ -55607,6 +56874,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 66,
+      "VIT": 73,
       "DHT": 54,
       "CRT": 38
     },
@@ -55623,6 +56891,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 66,
       "MND": 66,
       "PIE": 39,
       "CRT": 54
@@ -55640,6 +56909,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 66,
       "INT": 66,
       "CRT": 38,
       "SPS": 54
@@ -55657,6 +56927,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 66,
       "VIT": 73,
       "TEN": 38,
       "DHT": 54
@@ -55675,6 +56946,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 66,
+      "VIT": 73,
       "DHT": 54,
       "SKS": 38
     },
@@ -55692,6 +56964,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 66,
+      "VIT": 73,
       "CRT": 54,
       "SKS": 38
     },
@@ -55708,6 +56981,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 66,
       "MND": 66,
       "PIE": 56,
       "DET": 36
@@ -55725,6 +56999,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 66,
       "INT": 66,
       "DHT": 38,
       "DET": 52
@@ -55742,6 +57017,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 66,
       "VIT": 73,
       "TEN": 54,
       "CRT": 38
@@ -55760,6 +57036,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 66,
+      "VIT": 73,
       "CRT": 38,
       "DET": 52
     },
@@ -55777,6 +57054,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 66,
+      "VIT": 73,
       "DET": 52,
       "SKS": 38
     },
@@ -55793,6 +57071,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 66,
       "MND": 66,
       "CRT": 38,
       "DET": 52
@@ -55810,6 +57089,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 66,
       "INT": 66,
       "DET": 52,
       "SPS": 38
@@ -58569,6 +59849,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 69,
       "VIT": 77,
       "CRT": 55,
       "DET": 37
@@ -58591,6 +59872,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 69,
+      "VIT": 77,
       "DHT": 39,
       "DET": 53
     },
@@ -58612,6 +59894,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 69,
+      "VIT": 77,
       "DHT": 39,
       "SKS": 55
     },
@@ -58632,6 +59915,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 69,
       "MND": 69,
       "PIE": 40,
       "CRT": 55
@@ -58653,6 +59937,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 69,
       "INT": 69,
       "CRT": 39,
       "DET": 53
@@ -58674,6 +59959,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 69,
       "VIT": 77,
       "TEN": 55,
       "SKS": 39
@@ -58696,6 +59982,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 69,
+      "VIT": 77,
       "CRT": 39,
       "SKS": 55
     },
@@ -58717,6 +60004,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 69,
+      "VIT": 77,
       "DET": 37,
       "SKS": 55
     },
@@ -58737,6 +60025,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 69,
       "MND": 69,
       "DET": 37,
       "SPS": 55
@@ -58758,6 +60047,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 69,
       "INT": 69,
       "DHT": 39,
       "CRT": 55
@@ -58779,6 +60069,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 69,
       "VIT": 77,
       "DET": 53,
       "SKS": 39
@@ -58801,6 +60092,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 69,
+      "VIT": 77,
       "CRT": 39,
       "DET": 53
     },
@@ -58822,6 +60114,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 69,
+      "VIT": 77,
       "DHT": 39,
       "CRT": 55
     },
@@ -58842,6 +60135,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 69,
       "MND": 69,
       "PIE": 57,
       "CRT": 39
@@ -58863,6 +60157,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 69,
       "INT": 69,
       "DET": 37,
       "SPS": 55
@@ -58884,6 +60179,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 69,
       "VIT": 77,
       "CRT": 39,
       "DET": 53
@@ -58906,6 +60202,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 69,
+      "VIT": 77,
       "DHT": 55,
       "SKS": 39
     },
@@ -58927,6 +60224,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 69,
+      "VIT": 77,
       "DHT": 55,
       "CRT": 39
     },
@@ -58947,6 +60245,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 69,
       "MND": 69,
       "PIE": 57,
       "DET": 37
@@ -58968,6 +60267,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 69,
       "INT": 69,
       "DHT": 39,
       "CRT": 55
@@ -59061,6 +60361,266 @@
       "WPN": 112
     },
     "hq": false
+  },
+  {
+    "id": 27256,
+    "name": "外来者头箍",
+    "level": 255,
+    "slot": 3,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 92,
+      "VIT": 102,
+      "TEN": 52,
+      "CRT": 74
+    },
+    "hq": false
+  },
+  {
+    "id": 27257,
+    "name": "外来者外套",
+    "level": 255,
+    "slot": 4,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 150,
+      "VIT": 166,
+      "CRT": 84,
+      "SKS": 120
+    },
+    "hq": false
+  },
+  {
+    "id": 27258,
+    "name": "外来者手套",
+    "level": 255,
+    "slot": 5,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 92,
+      "VIT": 102,
+      "TEN": 52,
+      "DET": 71
+    },
+    "hq": false
+  },
+  {
+    "id": 27259,
+    "name": "外来者皮套裤",
+    "level": 255,
+    "slot": 7,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 150,
+      "VIT": 166,
+      "CRT": 120,
+      "DET": 81
+    },
+    "hq": false
+  },
+  {
+    "id": 27260,
+    "name": "外来者长靴",
+    "level": 255,
+    "slot": 8,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 92,
+      "VIT": 102,
+      "CRT": 52,
+      "DET": 71
+    },
+    "hq": false
+  },
+  {
+    "id": 27261,
+    "name": "舞者包头巾",
+    "level": 255,
+    "slot": 3,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 92,
+      "VIT": 102,
+      "DHT": 74,
+      "CRT": 52
+    },
+    "hq": false
+  },
+  {
+    "id": 27262,
+    "name": "舞者短外套",
+    "level": 255,
+    "slot": 4,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 150,
+      "VIT": 166,
+      "DHT": 120,
+      "CRT": 84
+    },
+    "hq": false
+  },
+  {
+    "id": 27263,
+    "name": "舞者手套",
+    "level": 255,
+    "slot": 5,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 92,
+      "VIT": 102,
+      "DHT": 52,
+      "SKS": 74
+    },
+    "hq": false
+  },
+  {
+    "id": 27264,
+    "name": "舞者垮裤",
+    "level": 255,
+    "slot": 7,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 150,
+      "VIT": 166,
+      "CRT": 84,
+      "DET": 115
+    },
+    "hq": false
+  },
+  {
+    "id": 27265,
+    "name": "舞者尖头鞋",
+    "level": 255,
+    "slot": 8,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 92,
+      "VIT": 102,
+      "CRT": 74,
+      "DET": 50
+    },
+    "hq": false
+  },
+  {
+    "id": 27349,
+    "name": "闪熠刺刀",
+    "level": 255,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 162,
+      "VIT": 179,
+      "DLY": 2800,
+      "TEN": 129,
+      "DET": 87,
+      "WPN": 82
+    },
+    "hq": false
+  },
+  {
+    "id": 27350,
+    "name": "闪熠轮刃",
+    "level": 255,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 162,
+      "VIT": 179,
+      "DLY": 3120,
+      "DHT": 129,
+      "DET": 87,
+      "WPN": 82
+    },
+    "hq": false
+  },
+  {
+    "id": 27357,
+    "name": "硬钢枪刃",
+    "level": 255,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 162,
+      "VIT": 179,
+      "DLY": 2800,
+      "CRT": 91,
+      "DET": 124,
+      "WPN": 82
+    },
+    "hq": true
+  },
+  {
+    "id": 27358,
+    "name": "硬钢圆月轮",
+    "level": 255,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "DEX": 162,
+      "VIT": 179,
+      "DLY": 3120,
+      "DHT": 91,
+      "SKS": 129,
+      "WPN": 82
+    },
+    "hq": true
   },
   {
     "id": 15237,
@@ -60545,6 +62105,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 72,
       "VIT": 80,
       "DHT": 57,
       "CRT": 40
@@ -60563,6 +62124,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 72,
+      "VIT": 80,
       "CRT": 40,
       "DET": 54
     },
@@ -60580,6 +62142,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 72,
+      "VIT": 80,
       "DHT": 40,
       "SKS": 57
     },
@@ -60596,6 +62159,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "MND": 72,
       "CRT": 40,
       "SPS": 57
@@ -60613,6 +62177,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "INT": 72,
       "CRT": 57,
       "DET": 38
@@ -60630,6 +62195,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 72,
       "VIT": 80,
       "DET": 38,
       "SKS": 57
@@ -60648,6 +62214,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 72,
+      "VIT": 80,
       "DHT": 40,
       "SKS": 57
     },
@@ -60665,6 +62232,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 72,
+      "VIT": 80,
       "DET": 54,
       "SKS": 40
     },
@@ -60681,6 +62249,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "MND": 72,
       "PIE": 57,
       "DET": 38
@@ -60698,6 +62267,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "INT": 72,
       "DHT": 57,
       "SPS": 40
@@ -60715,6 +62285,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 72,
       "VIT": 80,
       "CRT": 57,
       "SKS": 40
@@ -60733,6 +62304,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 72,
+      "VIT": 80,
       "DHT": 57,
       "DET": 38
     },
@@ -60750,6 +62322,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 72,
+      "VIT": 80,
       "DHT": 57,
       "CRT": 40
     },
@@ -60766,6 +62339,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "MND": 72,
       "PIE": 57,
       "CRT": 40
@@ -60783,6 +62357,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "INT": 72,
       "DET": 38,
       "SPS": 57
@@ -60800,6 +62375,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 72,
       "VIT": 80,
       "TEN": 57,
       "CRT": 40
@@ -60818,6 +62394,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 72,
+      "VIT": 80,
       "DET": 54,
       "SKS": 40
     },
@@ -60835,6 +62412,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 72,
+      "VIT": 80,
       "CRT": 57,
       "DET": 38
     },
@@ -60851,6 +62429,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "MND": 72,
       "DET": 54,
       "SPS": 40
@@ -60868,6 +62447,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 72,
       "INT": 72,
       "CRT": 40,
       "SPS": 57
@@ -61807,6 +63387,46 @@
     "hq": false
   },
   {
+    "id": 27351,
+    "name": "田园刺刀",
+    "level": 260,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 169,
+      "VIT": 188,
+      "DLY": 2800,
+      "DET": 88,
+      "SKS": 133,
+      "WPN": 83
+    },
+    "hq": false
+  },
+  {
+    "id": 27352,
+    "name": "田园轮刃",
+    "level": 260,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 169,
+      "VIT": 188,
+      "DLY": 3120,
+      "CRT": 133,
+      "DET": 88,
+      "WPN": 83
+    },
+    "hq": false
+  },
+  {
     "id": 17244,
     "name": "旭日御敌头盔",
     "level": 265,
@@ -62621,6 +64241,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 75,
       "VIT": 84
     },
     "hq": false
@@ -62636,6 +64257,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 75,
       "VIT": 84
     },
     "hq": false
@@ -62651,6 +64273,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 75,
       "VIT": 84
     },
     "hq": false
@@ -62666,6 +64289,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 75,
       "VIT": 84
     },
     "hq": false
@@ -62681,7 +64305,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 75
+      "STR": 75,
+      "VIT": 84
     },
     "hq": false
   },
@@ -62696,7 +64321,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 75
+      "STR": 75,
+      "VIT": 84
     },
     "hq": false
   },
@@ -62711,7 +64337,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 75
+      "STR": 75,
+      "VIT": 84
     },
     "hq": false
   },
@@ -62726,7 +64353,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 75
+      "STR": 75,
+      "VIT": 84
     },
     "hq": false
   },
@@ -62741,7 +64369,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 75
+      "DEX": 75,
+      "VIT": 84
     },
     "hq": false
   },
@@ -62756,7 +64385,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 75
+      "DEX": 75,
+      "VIT": 84
     },
     "hq": false
   },
@@ -62771,7 +64401,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 75
+      "DEX": 75,
+      "VIT": 84
     },
     "hq": false
   },
@@ -62786,7 +64417,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 75
+      "DEX": 75,
+      "VIT": 84
     },
     "hq": false
   },
@@ -62801,6 +64433,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 76,
       "MND": 75
     },
     "hq": false
@@ -62816,6 +64449,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 76,
       "MND": 75
     },
     "hq": false
@@ -62831,6 +64465,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 76,
       "MND": 75
     },
     "hq": false
@@ -62846,6 +64481,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 76,
       "MND": 75
     },
     "hq": false
@@ -62861,6 +64497,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 76,
       "INT": 75
     },
     "hq": false
@@ -62876,6 +64513,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 76,
       "INT": 75
     },
     "hq": false
@@ -62891,6 +64529,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 76,
       "INT": 75
     },
     "hq": false
@@ -62906,6 +64545,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 76,
       "INT": 75
     },
     "hq": false
@@ -64743,6 +66383,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "DHT": 59,
       "CRT": 42
@@ -64761,6 +66402,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "CRT": 42,
       "DET": 57
     },
@@ -64778,6 +66420,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DHT": 42,
       "SKS": 59
     },
@@ -64794,6 +66437,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "CRT": 42,
       "SPS": 59
@@ -64811,6 +66455,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "CRT": 59,
       "DET": 40
@@ -64828,6 +66473,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "DET": 40,
       "SKS": 59
@@ -64846,6 +66492,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DHT": 42,
       "SKS": 59
     },
@@ -64863,6 +66510,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DET": 57,
       "SKS": 42
     },
@@ -64879,6 +66527,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 59,
       "DET": 40
@@ -64896,6 +66545,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DHT": 59,
       "SPS": 42
@@ -64913,6 +66563,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "CRT": 59,
       "SKS": 42
@@ -64931,6 +66582,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DHT": 59,
       "DET": 40
     },
@@ -64948,6 +66600,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DHT": 59,
       "CRT": 42
     },
@@ -64964,6 +66617,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 59,
       "CRT": 42
@@ -64981,6 +66635,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DET": 40,
       "SPS": 59
@@ -64998,6 +66653,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "TEN": 59,
       "CRT": 42
@@ -65016,6 +66672,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DET": 57,
       "SKS": 42
     },
@@ -65033,6 +66690,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "CRT": 59,
       "DET": 40
     },
@@ -65049,6 +66707,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "DET": 57,
       "SPS": 42
@@ -65066,6 +66725,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "CRT": 42,
       "SPS": 59
@@ -65971,6 +67631,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "TEN": 59,
       "DET": 40
@@ -65989,6 +67650,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DHT": 42,
       "SKS": 59
     },
@@ -66006,6 +67668,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "CRT": 42,
       "DET": 57
     },
@@ -66022,6 +67685,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 59,
       "DET": 40
@@ -66039,6 +67703,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DHT": 59,
       "SPS": 42
@@ -66056,6 +67721,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "DHT": 59,
       "CRT": 42
@@ -66074,6 +67740,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DHT": 59,
       "DET": 40
     },
@@ -66091,6 +67758,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DHT": 42,
       "CRT": 59
     },
@@ -66107,6 +67775,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 59,
       "CRT": 42
@@ -66124,6 +67793,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "CRT": 59,
       "DET": 40
@@ -66141,6 +67811,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "TEN": 42,
       "DET": 57
@@ -66159,6 +67830,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "CRT": 59,
       "SKS": 42
     },
@@ -66176,6 +67848,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DHT": 42,
       "DET": 57
     },
@@ -66192,6 +67865,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "DET": 57,
       "SPS": 42
@@ -66209,6 +67883,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "CRT": 42,
       "DET": 57
@@ -66226,6 +67901,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "CRT": 59,
       "SKS": 42
@@ -66244,6 +67920,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "CRT": 59,
       "DET": 40
     },
@@ -66261,6 +67938,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DET": 57,
       "SKS": 42
     },
@@ -66277,6 +67955,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "CRT": 42,
       "SPS": 59
@@ -66294,6 +67973,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "CRT": 42,
       "DET": 57
@@ -66311,6 +67991,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "CRT": 59,
       "SKS": 42
@@ -66328,6 +68009,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "DHT": 59,
       "CRT": 42
@@ -66345,6 +68027,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "DHT": 42,
       "SKS": 59
@@ -66362,6 +68045,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 78,
       "VIT": 88,
       "TEN": 42,
       "DET": 57
@@ -66380,6 +68064,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "CRT": 59,
       "SKS": 42
     },
@@ -66397,6 +68082,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DHT": 42,
       "SKS": 59
     },
@@ -66414,6 +68100,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "DHT": 59,
       "DET": 40
     },
@@ -66431,6 +68118,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 78,
+      "VIT": 88,
       "CRT": 42,
       "SKS": 59
     },
@@ -66448,6 +68136,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DHT": 59,
       "DET": 40
     },
@@ -66465,6 +68154,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DET": 40,
       "SKS": 59
     },
@@ -66482,6 +68172,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "DHT": 42,
       "CRT": 59
     },
@@ -66499,6 +68190,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 78,
+      "VIT": 88,
       "CRT": 42,
       "SKS": 59
     },
@@ -66515,6 +68207,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 41,
       "SPS": 59
@@ -66532,6 +68225,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 59,
       "DET": 40
@@ -66549,6 +68243,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "PIE": 41,
       "CRT": 59
@@ -66566,6 +68261,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "MND": 78,
       "CRT": 59,
       "DET": 40
@@ -66583,6 +68279,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "CRT": 42,
       "SPS": 59
@@ -66600,6 +68297,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DHT": 59,
       "SPS": 42
@@ -66617,6 +68315,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DET": 57,
       "SPS": 42
@@ -66634,6 +68333,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 79,
       "INT": 78,
       "DET": 40,
       "SPS": 59
@@ -66681,6 +68381,46 @@
       "DHT": 139,
       "CRT": 97,
       "WPN": 114
+    },
+    "hq": false
+  },
+  {
+    "id": 27353,
+    "name": "改良型田园刺刀",
+    "level": 270,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 182,
+      "VIT": 204,
+      "DLY": 2800,
+      "DET": 93,
+      "SKS": 139,
+      "WPN": 84
+    },
+    "hq": false
+  },
+  {
+    "id": 27354,
+    "name": "改良型田园轮刃",
+    "level": 270,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 2,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 182,
+      "VIT": 204,
+      "DLY": 3120,
+      "CRT": 139,
+      "DET": 93,
+      "WPN": 84
     },
     "hq": false
   },
@@ -67627,6 +69367,42 @@
       "INT": 202,
       "DLY": 3440,
       "WPN": 118
+    },
+    "hq": false
+  },
+  {
+    "id": 27355,
+    "name": "女巫会之枪刃",
+    "level": 280,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 202,
+      "VIT": 214,
+      "DLY": 2800,
+      "WPN": 87
+    },
+    "hq": false
+  },
+  {
+    "id": 27356,
+    "name": "女巫会之轮刃",
+    "level": 280,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 60,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 202,
+      "VIT": 214,
+      "DLY": 3120,
+      "WPN": 87
     },
     "hq": false
   }

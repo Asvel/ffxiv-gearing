@@ -10918,7 +10918,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "MND": 4
+    },
     "hq": false
   },
   {
@@ -10931,7 +10933,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "INT": 4
+    },
     "hq": false
   },
   {
@@ -10944,7 +10948,10 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "STR": 4,
+      "DEX": 4
+    },
     "hq": false
   },
   {
@@ -10957,7 +10964,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "VIT": 4
+    },
     "hq": false
   },
   {
@@ -10970,7 +10979,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "VIT": 3
+    },
     "hq": false
   },
   {
@@ -10983,7 +10994,10 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "DEX": 2,
+      "MND": 2
+    },
     "hq": false
   },
   {
@@ -10996,7 +11010,10 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "STR": 2,
+      "INT": 2
+    },
     "hq": false
   },
   {
@@ -13997,6 +14014,81 @@
     "hq": false
   },
   {
+    "id": 17718,
+    "name": "特制上仙紧箍",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "INT": 5
+    },
+    "hq": false
+  },
+  {
+    "id": 17719,
+    "name": "特制上仙斗衣",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "MND": 5
+    },
+    "hq": false
+  },
+  {
+    "id": 17720,
+    "name": "特制上仙数珠",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 5
+    },
+    "hq": false
+  },
+  {
+    "id": 17721,
+    "name": "特制上仙长裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 5
+    },
+    "hq": false
+  },
+  {
+    "id": 17722,
+    "name": "特制上仙缠足",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 5
+    },
+    "hq": false
+  },
+  {
     "id": 19047,
     "name": "赤鬼偃月刀",
     "level": 1,
@@ -16426,6 +16518,84 @@
     "hq": false
   },
   {
+    "id": 21036,
+    "name": "东方武人帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 21037,
+    "name": "东方武人服",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 21038,
+    "name": "东方武人靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 21039,
+    "name": "东方佳人发饰",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 21040,
+    "name": "东方佳人服",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 21041,
+    "name": "东方佳人靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
     "id": 21202,
     "name": "萨维奈秋意衬衫",
     "level": 1,
@@ -17468,7 +17638,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "INT": 5
+    },
     "hq": false
   },
   {
@@ -17481,7 +17653,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "MND": 5
+    },
     "hq": false
   },
   {
@@ -17494,7 +17668,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "DEX": 5
+    },
     "hq": false
   },
   {
@@ -17507,7 +17683,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "VIT": 5
+    },
     "hq": false
   },
   {
@@ -17520,7 +17698,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "STR": 5
+    },
     "hq": false
   },
   {
@@ -17533,7 +17713,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "INT": 5
+    },
     "hq": false
   },
   {
@@ -17546,7 +17728,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "MND": 5
+    },
     "hq": false
   },
   {
@@ -17559,7 +17743,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "DEX": 5
+    },
     "hq": false
   },
   {
@@ -17572,7 +17758,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "VIT": 5
+    },
     "hq": false
   },
   {
@@ -17585,7 +17773,9 @@
     "equipLevel": 1,
     "materiaSlot": 0,
     "materiaAdvanced": false,
-    "stats": {},
+    "stats": {
+      "STR": 5
+    },
     "hq": false
   },
   {
@@ -17645,6 +17835,32 @@
     "name": "破损的绅士高跟鞋",
     "level": 1,
     "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22457,
+    "name": "金猪武士盔",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22458,
+    "name": "朱漆金猪武士盔",
+    "level": 1,
+    "slot": 3,
     "role": 0,
     "jobs": [],
     "equipLevel": 1,
@@ -17801,6 +18017,3808 @@
     "name": "常风背带衬衫",
     "level": 1,
     "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22606,
+    "name": "改良型火龙头盔【男】",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22607,
+    "name": "改良型火龙铠甲【男】",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22608,
+    "name": "改良型火龙腕甲【男】",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22609,
+    "name": "改良型火龙腰甲【男】",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22610,
+    "name": "改良型火龙护腿【男】",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22611,
+    "name": "改良型火龙头盔【女】",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22612,
+    "name": "改良型火龙铠甲【女】",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22613,
+    "name": "改良型火龙腕甲【女】",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22614,
+    "name": "改良型火龙腰甲【女】",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22615,
+    "name": "改良型火龙护腿【女】",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22746,
+    "name": "唤雨杖",
+    "level": 1,
+    "slot": 13,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 3280
+    },
+    "hq": false
+  },
+  {
+    "id": 22747,
+    "name": "青魔法师之证",
+    "level": 1,
+    "slot": 17,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22993,
+    "name": "天之耳饰",
+    "level": 1,
+    "slot": 9,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22994,
+    "name": "天之首饰",
+    "level": 1,
+    "slot": 10,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22995,
+    "name": "天之手饰",
+    "level": 1,
+    "slot": 11,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22996,
+    "name": "天之指饰",
+    "level": 1,
+    "slot": 12,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 22997,
+    "name": "花花公子帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 22998,
+    "name": "花花公子皱边礼服衬衫",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 22999,
+    "name": "花花公子皱边裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23000,
+    "name": "花花公子便鞋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23001,
+    "name": "风尚花边长裙",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23002,
+    "name": "风尚花边短裙",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23003,
+    "name": "门客帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23004,
+    "name": "门客斗衣",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23005,
+    "name": "门客袖饰",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23006,
+    "name": "门客长裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23007,
+    "name": "门客皮鞋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23008,
+    "name": "辨天帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23009,
+    "name": "辨天服",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23010,
+    "name": "辨天手套",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23011,
+    "name": "辨天衬裙",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23012,
+    "name": "辨天短靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23013,
+    "name": "飞燕胴着",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23014,
+    "name": "飞燕笼手",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23015,
+    "name": "飞燕长裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23016,
+    "name": "飞燕缠足",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23017,
+    "name": "永夏墨镜",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23018,
+    "name": "永夏短衣",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23019,
+    "name": "永夏短裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23038,
+    "name": "巴格斯特头盔",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23039,
+    "name": "巴格斯特战甲",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23040,
+    "name": "巴格斯特手铠",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23041,
+    "name": "巴格斯特腿甲",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23042,
+    "name": "巴格斯特铠靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23098,
+    "name": "红色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23099,
+    "name": "蓝色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23100,
+    "name": "黄色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23101,
+    "name": "绿色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23102,
+    "name": "橙色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23103,
+    "name": "紫色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23104,
+    "name": "白色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23105,
+    "name": "黑色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23106,
+    "name": "混色大丽花头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23226,
+    "name": "永夏凉鞋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23343,
+    "name": "贝希摩斯头盔（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23344,
+    "name": "贝希摩斯重头盔（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23350,
+    "name": "恒冰头巾",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23351,
+    "name": "恒冰衬衫",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23352,
+    "name": "恒冰缠手带",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23353,
+    "name": "恒冰束膝裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23354,
+    "name": "恒冰凉鞋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23355,
+    "name": "恒冰头饰",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23356,
+    "name": "恒冰短外套",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23357,
+    "name": "恒冰手套",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23358,
+    "name": "恒冰及膝裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23359,
+    "name": "恒冰工作靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23360,
+    "name": "鲶鱼精的铃铛",
+    "level": 1,
+    "slot": 10,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23373,
+    "name": "风尚礼帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23374,
+    "name": "风尚礼鞋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 23384,
+    "name": "火龙头盔【男】",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23385,
+    "name": "火龙铠甲【男】",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23386,
+    "name": "火龙腕甲【男】",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23387,
+    "name": "火龙腰甲【男】",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23388,
+    "name": "火龙护腿【男】",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23389,
+    "name": "火龙头盔【女】",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23390,
+    "name": "火龙铠甲【女】",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23391,
+    "name": "火龙腕甲【女】",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23392,
+    "name": "火龙腰甲【女】",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 23393,
+    "name": "火龙护腿【女】",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24004,
+    "name": "私语呢绒大衣",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24005,
+    "name": "私语呢绒打底裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24006,
+    "name": "私语呢绒短靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24145,
+    "name": "唱诗班礼帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24146,
+    "name": "唱诗班长袍",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24147,
+    "name": "唱诗班皮靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24148,
+    "name": "东方武官帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24149,
+    "name": "东方武官服",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24150,
+    "name": "东方武官腕环",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24151,
+    "name": "东方武官裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24152,
+    "name": "东方武官鞋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24153,
+    "name": "东方美姬帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24154,
+    "name": "东方美姬服",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24155,
+    "name": "东方美姬腕环",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24156,
+    "name": "东方美姬裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24157,
+    "name": "东方美姬鞋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24158,
+    "name": "豪雪之斗笠",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24159,
+    "name": "豪雪之胴着",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24160,
+    "name": "豪雪之手甲",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24161,
+    "name": "豪雪之筒袴",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24162,
+    "name": "豪雪之木屐",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24163,
+    "name": "玛托雅的帽子",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24164,
+    "name": "鲶鱼精面具",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24175,
+    "name": "红色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24176,
+    "name": "蓝色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24177,
+    "name": "黄色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24178,
+    "name": "绿色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24179,
+    "name": "橙色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24180,
+    "name": "紫色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24181,
+    "name": "白色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24182,
+    "name": "黑色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24183,
+    "name": "混色马蹄莲头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24192,
+    "name": "黯黑犬灵战盔",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24193,
+    "name": "黯黑犬灵战甲",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24194,
+    "name": "黯黑犬灵手铠",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24195,
+    "name": "黯黑犬灵腿甲",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24196,
+    "name": "黯黑犬灵铠靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24236,
+    "name": "朱漆福鼠武士盔",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24237,
+    "name": "青漆福鼠武士盔",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24288,
+    "name": "延夏居民羽织",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24337,
+    "name": "卡托布莱帕斯角",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24338,
+    "name": "上级恶魔角",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24339,
+    "name": "古恶魔长角",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24582,
+    "name": "真蓝礼帽",
+    "level": 1,
+    "slot": 3,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24583,
+    "name": "真蓝外衣",
+    "level": 1,
+    "slot": 4,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24584,
+    "name": "真蓝手套",
+    "level": 1,
+    "slot": 5,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24585,
+    "name": "真蓝软甲裤",
+    "level": 1,
+    "slot": 7,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24586,
+    "name": "真蓝皮靴",
+    "level": 1,
+    "slot": 8,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24590,
+    "name": "花冠",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24591,
+    "name": "雨兜",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24592,
+    "name": "雨衣",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24593,
+    "name": "雨靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24594,
+    "name": "血盟旅行者面罩",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24595,
+    "name": "血盟旅行者外套",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24596,
+    "name": "血盟旅行者手套",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24597,
+    "name": "血盟旅行者软甲裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24598,
+    "name": "血盟旅行者长靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24599,
+    "name": "东方书生帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 2,
+      "MND": 2
+    },
+    "hq": false
+  },
+  {
+    "id": 24600,
+    "name": "东方书生袴",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 3
+    },
+    "hq": false
+  },
+  {
+    "id": 24601,
+    "name": "东方书生草履",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 2,
+      "INT": 2
+    },
+    "hq": false
+  },
+  {
+    "id": 24602,
+    "name": "东方女生发带",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DEX": 2,
+      "MND": 2
+    },
+    "hq": false
+  },
+  {
+    "id": 24603,
+    "name": "东方女生袴",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 3
+    },
+    "hq": false
+  },
+  {
+    "id": 24604,
+    "name": "东方女生皮靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 2,
+      "INT": 2
+    },
+    "hq": false
+  },
+  {
+    "id": 24605,
+    "name": "魔石精外套",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24606,
+    "name": "魔石精打底裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24607,
+    "name": "魔石精皮靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24608,
+    "name": "路西斯王子的外套",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24609,
+    "name": "路西斯王子的半指手套",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24610,
+    "name": "路西斯王子的打底裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24611,
+    "name": "路西斯王子的皮靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24612,
+    "name": "鲶鱼耳饰",
+    "level": 1,
+    "slot": 9,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24613,
+    "name": "鲶鱼领巾",
+    "level": 1,
+    "slot": 10,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24614,
+    "name": "豆柴耳饰",
+    "level": 1,
+    "slot": 9,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24615,
+    "name": "豆柴围巾",
+    "level": 1,
+    "slot": 10,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 24796,
+    "name": "启示者之杖",
+    "level": 1,
+    "slot": 13,
+    "role": 5,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 3280
+    },
+    "hq": false
+  },
+  {
+    "id": 24857,
+    "name": "香托托魔杖",
+    "level": 1,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "BLM"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 3280
+    },
+    "hq": false
+  },
+  {
+    "id": 24858,
+    "name": "彭忒西勒亚之枪",
+    "level": 1,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2800
+    },
+    "hq": false
+  },
+  {
+    "id": 24859,
+    "name": "红色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24860,
+    "name": "蓝色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24861,
+    "name": "黄色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24862,
+    "name": "绿色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24863,
+    "name": "橙色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24864,
+    "name": "紫色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24865,
+    "name": "白色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24866,
+    "name": "黑色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24867,
+    "name": "混色铃兰头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 24996,
+    "name": "真·斩铁剑（双手剑）",
+    "level": 1,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "DRK"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2960
+    },
+    "hq": false
+  },
+  {
+    "id": 24997,
+    "name": "真·斩铁剑",
+    "level": 1,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "SAM"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2640
+    },
+    "hq": false
+  },
+  {
+    "id": 24998,
+    "name": "绝对之枪",
+    "level": 1,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2800
+    },
+    "hq": false
+  },
+  {
+    "id": 24999,
+    "name": "纯白礼服",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25000,
+    "name": "纯白短裙",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25010,
+    "name": "伊修加德连衣裙",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25011,
+    "name": "东方旅装",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25013,
+    "name": "基迦盾",
+    "level": 1,
+    "slot": 2,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25014,
+    "name": "哈利卡纳苏斯剑",
+    "level": 1,
+    "slot": 1,
+    "role": 1,
+    "jobs": [
+      "PLD"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2240
+    },
+    "hq": false
+  },
+  {
+    "id": 25015,
+    "name": "巨人斧",
+    "level": 1,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "WAR"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 3360
+    },
+    "hq": false
+  },
+  {
+    "id": 25016,
+    "name": "浮士德枪",
+    "level": 1,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2800
+    },
+    "hq": false
+  },
+  {
+    "id": 25017,
+    "name": "库姆库姆杖",
+    "level": 1,
+    "slot": 13,
+    "role": 5,
+    "jobs": [
+      "BLM"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 3280
+    },
+    "hq": false
+  },
+  {
+    "id": 25018,
+    "name": "木刀",
+    "level": 1,
+    "slot": 13,
+    "role": 3,
+    "jobs": [
+      "SAM"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2640
+    },
+    "hq": false
+  },
+  {
+    "id": 25019,
+    "name": "巨兵断头剑",
+    "level": 1,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "DRK"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2960
+    },
+    "hq": false
+  },
+  {
+    "id": 25020,
+    "name": "基迦巨剑",
+    "level": 1,
+    "slot": 13,
+    "role": 1,
+    "jobs": [
+      "DRK"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2960
+    },
+    "hq": false
+  },
+  {
+    "id": 25021,
+    "name": "冬贝利菜刀",
+    "level": 1,
+    "slot": 2,
+    "role": 9,
+    "jobs": [
+      "CUL"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "CMS": 1
+    },
+    "hq": false
+  },
+  {
+    "id": 25055,
+    "name": "特制如意金箍棒",
+    "level": 1,
+    "slot": 13,
+    "role": 2,
+    "jobs": [
+      "DRG"
+    ],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2800
+    },
+    "hq": false
+  },
+  {
+    "id": 25180,
+    "name": "左轮枪刃",
+    "level": 1,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2800
+    },
+    "hq": false
+  },
+  {
+    "id": 26740,
+    "name": "水晶都头盔",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 26741,
+    "name": "水晶都短袖罩衣",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 26742,
+    "name": "水晶都手铠",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 26743,
+    "name": "水晶都胫甲",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27333,
+    "name": "孤狼武士盔",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27334,
+    "name": "孤狼大铠",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27335,
+    "name": "孤狼笼手",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27336,
+    "name": "孤狼筒袴",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27337,
+    "name": "孤狼护胫",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27339,
+    "name": "群狼武士盔",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27340,
+    "name": "群狼大铠",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27341,
+    "name": "群狼笼手",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27342,
+    "name": "群狼筒袴",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27343,
+    "name": "群狼护胫",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27345,
+    "name": "赤鬼火绳金棒",
+    "level": 1,
+    "slot": 13,
+    "role": 1,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 2800
+    },
+    "hq": false
+  },
+  {
+    "id": 27346,
+    "name": "奴延环刃",
+    "level": 1,
+    "slot": 13,
+    "role": 4,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "DLY": 3120
+    },
+    "hq": false
+  },
+  {
+    "id": 27923,
+    "name": "缎带",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27924,
+    "name": "红色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27925,
+    "name": "蓝色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27926,
+    "name": "黄色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27927,
+    "name": "绿色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27928,
+    "name": "橙色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27929,
+    "name": "紫色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27930,
+    "name": "白色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27931,
+    "name": "黑色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27932,
+    "name": "混色绣球头花",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27933,
+    "name": "血盟聆听者兜帽",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27934,
+    "name": "血盟聆听者长衣",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27935,
+    "name": "血盟聆听者靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27936,
+    "name": "蟾蜍头套",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27937,
+    "name": "蟾蜍服",
+    "level": 1,
+    "slot": 16,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27938,
+    "name": "玻璃革兜帽坎肩",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27939,
+    "name": "玻璃革七分裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27940,
+    "name": "牛皮鞋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27941,
+    "name": "夏季靛蓝衬衫",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27942,
+    "name": "夏季靛蓝七分裤",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27943,
+    "name": "红莲节缠头带",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27944,
+    "name": "白漆莫古力面具",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27945,
+    "name": "黑漆莫古力面具",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27946,
+    "name": "涂漆鲶鱼精面具",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27947,
+    "name": "红莲节白染法被",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27948,
+    "name": "红莲节红染法被",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27949,
+    "name": "红莲节黑染法被",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27950,
+    "name": "红莲节足袋",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27956,
+    "name": "白鸦（复制品）",
+    "level": 1,
+    "slot": 9,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27984,
+    "name": "曼德维尔耳环（复制品）",
+    "level": 1,
+    "slot": 9,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27991,
+    "name": "冒险者兜帽坎肩",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": true
+  },
+  {
+    "id": 27992,
+    "name": "伊修加德筒靴",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28006,
+    "name": "仙木皮帽（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28007,
+    "name": "仙木长袍（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28008,
+    "name": "仙木手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28009,
+    "name": "仙木工作裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28010,
+    "name": "仙木靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28011,
+    "name": "圣铁头巾（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28012,
+    "name": "圣铁围裙（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28013,
+    "name": "圣铁手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28014,
+    "name": "圣铁工作裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28015,
+    "name": "圣铁靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28016,
+    "name": "玄甲面罩（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28017,
+    "name": "玄甲围裙（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28018,
+    "name": "玄甲手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28019,
+    "name": "玄甲工作裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28020,
+    "name": "玄甲靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28021,
+    "name": "鎏金包头巾（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28022,
+    "name": "鎏金长袍（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28023,
+    "name": "鎏金手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28024,
+    "name": "鎏金工作裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28025,
+    "name": "鎏金靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28026,
+    "name": "韦革头巾（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28027,
+    "name": "韦革短衣（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28028,
+    "name": "韦革手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28029,
+    "name": "韦革长裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28030,
+    "name": "韦革长靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28031,
+    "name": "绮衣皮帽（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28032,
+    "name": "绮衣夹克（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28033,
+    "name": "绮衣手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28034,
+    "name": "绮衣工作裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28035,
+    "name": "绮衣靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28036,
+    "name": "炼师帽（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28037,
+    "name": "炼师长袍（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28038,
+    "name": "炼师礼服手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28039,
+    "name": "炼师工作裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28040,
+    "name": "炼师靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28041,
+    "name": "烹炙厨帽（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28042,
+    "name": "烹炙围裙（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28043,
+    "name": "烹炙连指手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28044,
+    "name": "烹炙软甲裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28045,
+    "name": "烹炙皮鞋（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28046,
+    "name": "精矿头灯帽（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28047,
+    "name": "精矿工作衫（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28048,
+    "name": "精矿工作手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28049,
+    "name": "精矿工作裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28050,
+    "name": "精矿工作靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28051,
+    "name": "百草帽（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28052,
+    "name": "百草衬衫（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28053,
+    "name": "百草手套（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28054,
+    "name": "百草工作裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28055,
+    "name": "百草靴（复制品）",
+    "level": 1,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28056,
+    "name": "渔采头巾（复制品）",
+    "level": 1,
+    "slot": 3,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28057,
+    "name": "渔采工作坎肩（复制品）",
+    "level": 1,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28058,
+    "name": "渔采半指护手（复制品）",
+    "level": 1,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28059,
+    "name": "渔采五分裤（复制品）",
+    "level": 1,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 28060,
+    "name": "渔采凉鞋（复制品）",
+    "level": 1,
+    "slot": 8,
     "role": 0,
     "jobs": [],
     "equipLevel": 1,
@@ -19760,6 +23778,142 @@
       "PIE": 1
     },
     "hq": false
+  },
+  {
+    "id": 25208,
+    "name": "维埃拉斗服",
+    "level": 5,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25209,
+    "name": "维埃拉护臂",
+    "level": 5,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25210,
+    "name": "维埃拉热裤",
+    "level": 5,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25211,
+    "name": "维埃拉凉鞋",
+    "level": 5,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25212,
+    "name": "硌狮格斗服",
+    "level": 5,
+    "slot": 4,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25213,
+    "name": "硌狮护腕",
+    "level": 5,
+    "slot": 5,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25214,
+    "name": "硌狮三角裤",
+    "level": 5,
+    "slot": 7,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25215,
+    "name": "硌狮凉鞋",
+    "level": 5,
+    "slot": 8,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27634,
+    "name": "改良型筒靴",
+    "level": 5,
+    "slot": 8,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 5,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 1,
+      "DEX": 1
+    },
+    "hq": true
+  },
+  {
+    "id": 27665,
+    "name": "改良型牛皮长靴",
+    "level": 5,
+    "slot": 8,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 5,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "INT": 1,
+      "MND": 1
+    },
+    "hq": true
   },
   {
     "id": 100,
@@ -24135,7 +28289,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 1,
-      "DEX": 1
+      "DEX": 1,
+      "VIT": 1
     },
     "hq": true
   },
@@ -24152,6 +28307,7 @@
     "stats": {
       "STR": 1,
       "DEX": 1,
+      "VIT": 1,
       "INT": 1,
       "MND": 1
     },
@@ -24170,6 +28326,7 @@
     "stats": {
       "STR": 1,
       "DEX": 1,
+      "VIT": 1,
       "INT": 1,
       "MND": 1
     },
@@ -25144,6 +29301,60 @@
       "VIT": 1,
       "INT": 1,
       "MND": 1
+    },
+    "hq": true
+  },
+  {
+    "id": 27635,
+    "name": "改良型棉头带",
+    "level": 12,
+    "slot": 3,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 12,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 1,
+      "DEX": 1,
+      "VIT": 1,
+      "DET": 1
+    },
+    "hq": true
+  },
+  {
+    "id": 27636,
+    "name": "硬革腿套",
+    "level": 12,
+    "slot": 7,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 12,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 2,
+      "DEX": 2,
+      "VIT": 2,
+      "DET": 1
+    },
+    "hq": true
+  },
+  {
+    "id": 27637,
+    "name": "硬革长靴",
+    "level": 12,
+    "slot": 8,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 12,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "STR": 1,
+      "DEX": 1,
+      "VIT": 1,
+      "DET": 1
     },
     "hq": true
   },
@@ -28179,6 +32390,36 @@
     "hq": false
   },
   {
+    "id": 27591,
+    "name": "淡水万能饵",
+    "level": 15,
+    "slot": 0,
+    "role": 9,
+    "jobs": [
+      "FSH"
+    ],
+    "equipLevel": 15,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 27592,
+    "name": "海水万能饵",
+    "level": 15,
+    "slot": 0,
+    "role": 9,
+    "jobs": [
+      "FSH"
+    ],
+    "equipLevel": 15,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
     "id": 105,
     "name": "过期黄铜步兵剑",
     "level": 16,
@@ -29029,6 +33270,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 1,
       "INT": 1,
       "MND": 1,
       "DHT": 1
@@ -29061,6 +33303,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 1,
       "INT": 1,
       "MND": 1
     },
@@ -29079,6 +33322,7 @@
     "stats": {
       "STR": 1,
       "DEX": 1,
+      "VIT": 1,
       "DHT": 1
     },
     "hq": true
@@ -29095,7 +33339,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 1,
-      "DEX": 1
+      "DEX": 1,
+      "VIT": 1
     },
     "hq": false
   },
@@ -30878,6 +35123,7 @@
     "stats": {
       "STR": 1,
       "DEX": 1,
+      "VIT": 1,
       "DHT": 2
     },
     "hq": true
@@ -30894,7 +35140,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 1,
-      "DEX": 1
+      "DEX": 1,
+      "VIT": 1
     },
     "hq": false
   },
@@ -30941,6 +35188,7 @@
     "stats": {
       "STR": 1,
       "DEX": 1,
+      "VIT": 1,
       "DHT": 1
     },
     "hq": false
@@ -30956,6 +35204,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 1,
       "INT": 1,
       "MND": 1,
       "DHT": 1
@@ -30973,6 +35222,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 1,
       "INT": 1,
       "MND": 1,
       "DHT": 2
@@ -30990,6 +35240,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 1,
       "INT": 1,
       "MND": 1
     },
@@ -32229,6 +36480,7 @@
     "stats": {
       "STR": 1,
       "DEX": 1,
+      "VIT": 1,
       "DHT": 2
     },
     "hq": true
@@ -32260,9 +36512,28 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 1,
-      "DEX": 1
+      "DEX": 1,
+      "VIT": 1
     },
     "hq": false
+  },
+  {
+    "id": 27666,
+    "name": "改良型棉布厚袍",
+    "level": 18,
+    "slot": 4,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 18,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 3,
+      "INT": 3,
+      "MND": 3,
+      "DHT": 4
+    },
+    "hq": true
   },
   {
     "id": 106,
@@ -33170,6 +37441,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 2,
       "VIT": 1,
       "CRT": 2
     },
@@ -33186,6 +37458,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 2,
       "VIT": 1
     },
     "hq": false
@@ -33216,6 +37489,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 1,
       "INT": 2,
       "MND": 2,
       "DHT": 2
@@ -33233,6 +37507,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 1,
       "INT": 2,
       "MND": 2
     },
@@ -34387,6 +38662,7 @@
     "stats": {
       "STR": 2,
       "DEX": 2,
+      "VIT": 2,
       "DHT": 2
     },
     "hq": true
@@ -34403,7 +38679,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 2,
-      "DEX": 2
+      "DEX": 2,
+      "VIT": 2
     },
     "hq": false
   },
@@ -38470,6 +42747,28 @@
     "hq": false
   },
   {
+    "id": 27653,
+    "name": "黑铁头甲",
+    "level": 23,
+    "slot": 3,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRG",
+      "DRK"
+    ],
+    "equipLevel": 23,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 3,
+      "VIT": 3,
+      "SKS": 3
+    },
+    "hq": true
+  },
+  {
     "id": 107,
     "name": "过期麻痹小刀",
     "level": 24,
@@ -40483,6 +44782,7 @@
     "stats": {
       "STR": 2,
       "DEX": 2,
+      "VIT": 2,
       "CRT": 3,
       "DET": 2
     },
@@ -40501,6 +44801,7 @@
     "stats": {
       "STR": 2,
       "DEX": 2,
+      "VIT": 2,
       "CRT": 3,
       "DET": 2
     },
@@ -40519,10 +44820,29 @@
     "stats": {
       "STR": 2,
       "DEX": 2,
+      "VIT": 2,
       "CRT": 3,
       "DET": 2
     },
     "hq": false
+  },
+  {
+    "id": 27638,
+    "name": "改良型棉绒头巾",
+    "level": 25,
+    "slot": 3,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 25,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 3,
+      "DEX": 3,
+      "VIT": 3,
+      "DET": 2
+    },
+    "hq": true
   },
   {
     "id": 110,
@@ -42103,6 +46423,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "INT": 2,
       "MND": 2,
       "DHT": 3
@@ -42120,6 +46441,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "INT": 2,
       "MND": 2
     },
@@ -42153,6 +46475,7 @@
     "stats": {
       "STR": 2,
       "DEX": 2,
+      "VIT": 2,
       "DHT": 3
     },
     "hq": true
@@ -42169,7 +46492,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 2,
-      "DEX": 2
+      "DEX": 2,
+      "VIT": 2
     },
     "hq": false
   },
@@ -42254,6 +46578,24 @@
       "WPN": 17
     },
     "hq": false
+  },
+  {
+    "id": 27667,
+    "name": "改良型山羊革狩猎靴",
+    "level": 26,
+    "slot": 8,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 26,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 3,
+      "INT": 3,
+      "MND": 3,
+      "DHT": 4
+    },
+    "hq": true
   },
   {
     "id": 191,
@@ -43630,6 +47972,7 @@
     "stats": {
       "STR": 2,
       "DEX": 2,
+      "VIT": 2,
       "DHT": 3
     },
     "hq": true
@@ -43646,7 +47989,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 2,
-      "DEX": 2
+      "DEX": 2,
+      "VIT": 2
     },
     "hq": false
   },
@@ -43691,6 +48035,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "INT": 2,
       "MND": 2,
       "DHT": 3
@@ -43708,6 +48053,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "INT": 2,
       "MND": 2
     },
@@ -43739,6 +48085,7 @@
     "stats": {
       "STR": 2,
       "DEX": 2,
+      "VIT": 2,
       "DHT": 3
     },
     "hq": true
@@ -43770,7 +48117,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 2,
-      "DEX": 2
+      "DEX": 2,
+      "VIT": 2
     },
     "hq": false
   },
@@ -44967,6 +49315,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 2,
+      "VIT": 3,
       "SKS": 3
     },
     "hq": true
@@ -44982,7 +49331,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 2
+      "STR": 2,
+      "VIT": 3
     },
     "hq": false
   },
@@ -44997,6 +49347,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "INT": 2,
       "DET": 2
     },
@@ -45013,6 +49364,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "INT": 2
     },
     "hq": false
@@ -45028,6 +49380,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "MND": 2,
       "PIE": 2
     },
@@ -45044,6 +49397,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "MND": 2
     },
     "hq": false
@@ -45059,6 +49413,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 2,
       "VIT": 3,
       "TEN": 3
     },
@@ -45075,6 +49430,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 2,
       "VIT": 3
     },
     "hq": false
@@ -45091,6 +49447,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 2,
+      "VIT": 3,
       "CRT": 3
     },
     "hq": true
@@ -45106,7 +49463,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 2
+      "DEX": 2,
+      "VIT": 3
     },
     "hq": false
   },
@@ -45121,6 +49479,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "MND": 2,
       "SPS": 3
     },
@@ -45137,6 +49496,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "MND": 2
     },
     "hq": false
@@ -45153,6 +49513,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 2,
+      "VIT": 3,
       "SKS": 3
     },
     "hq": true
@@ -45168,7 +49529,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 2
+      "STR": 2,
+      "VIT": 3
     },
     "hq": false
   },
@@ -45183,6 +49545,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "INT": 2,
       "DET": 2
     },
@@ -45199,6 +49562,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "INT": 2
     },
     "hq": false
@@ -45214,6 +49578,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "MND": 2,
       "PIE": 2
     },
@@ -45230,6 +49595,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "MND": 2
     },
     "hq": false
@@ -45245,6 +49611,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 2,
       "VIT": 3,
       "TEN": 3
     },
@@ -45261,6 +49628,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 2,
       "VIT": 3
     },
     "hq": false
@@ -45277,6 +49645,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 2,
+      "VIT": 3,
       "CRT": 3
     },
     "hq": true
@@ -45292,7 +49661,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 2
+      "DEX": 2,
+      "VIT": 3
     },
     "hq": false
   },
@@ -45307,6 +49677,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "MND": 2,
       "SPS": 3
     },
@@ -45323,6 +49694,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "MND": 2
     },
     "hq": false
@@ -46489,6 +50861,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 3,
       "VIT": 3,
       "CRT": 3
     },
@@ -46505,6 +50878,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 3,
       "VIT": 3
     },
     "hq": false
@@ -46521,6 +50895,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 3,
+      "VIT": 3,
       "SKS": 3
     },
     "hq": true
@@ -46536,7 +50911,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 3
+      "STR": 3,
+      "VIT": 3
     },
     "hq": false
   },
@@ -46551,6 +50927,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "INT": 3,
       "DET": 2
     },
@@ -46567,6 +50944,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "INT": 3
     },
     "hq": false
@@ -46582,6 +50960,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "MND": 3,
       "PIE": 2
     },
@@ -46598,6 +50977,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "MND": 3
     },
     "hq": false
@@ -46613,6 +50993,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 3,
       "VIT": 3,
       "TEN": 3
     },
@@ -46629,6 +51010,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 3,
       "VIT": 3
     },
     "hq": false
@@ -46645,6 +51027,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 3,
+      "VIT": 3,
       "CRT": 3
     },
     "hq": true
@@ -46660,7 +51043,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 3
+      "DEX": 3,
+      "VIT": 3
     },
     "hq": false
   },
@@ -46675,6 +51059,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "MND": 3,
       "SPS": 3
     },
@@ -46691,6 +51076,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "MND": 3
     },
     "hq": false
@@ -46722,6 +51108,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 3,
+      "VIT": 3,
       "SKS": 3
     },
     "hq": true
@@ -46737,7 +51124,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 3
+      "STR": 3,
+      "VIT": 3
     },
     "hq": false
   },
@@ -46752,6 +51140,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "INT": 3,
       "DET": 2
     },
@@ -46768,6 +51157,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "INT": 3
     },
     "hq": false
@@ -46783,6 +51173,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "MND": 3,
       "PIE": 2
     },
@@ -46799,6 +51190,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "MND": 3
     },
     "hq": false
@@ -46814,6 +51206,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 3,
       "VIT": 3,
       "TEN": 3
     },
@@ -46830,6 +51223,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 3,
       "VIT": 3
     },
     "hq": false
@@ -46846,6 +51240,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 3,
+      "VIT": 3,
       "CRT": 3
     },
     "hq": true
@@ -46861,7 +51256,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 3
+      "DEX": 3,
+      "VIT": 3
     },
     "hq": false
   },
@@ -46876,6 +51272,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "MND": 3,
       "SPS": 3
     },
@@ -46892,6 +51289,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "MND": 3
     },
     "hq": false
@@ -46907,6 +51305,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 2,
       "INT": 3,
       "MND": 3,
       "DHT": 3
@@ -46924,6 +51323,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 2,
       "INT": 3,
       "MND": 3
     },
@@ -47315,7 +51715,7 @@
       "DLY": 1920,
       "WPN": 19
     },
-    "hq": true
+    "hq": false
   },
   {
     "id": 1632,
@@ -48363,6 +52763,7 @@
     "stats": {
       "STR": 3,
       "DEX": 3,
+      "VIT": 3,
       "DHT": 4
     },
     "hq": true
@@ -48379,7 +52780,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 3,
-      "DEX": 3
+      "DEX": 3,
+      "VIT": 3
     },
     "hq": false
   },
@@ -49066,6 +53468,32 @@
     "jobs": [
       "SAM"
     ],
+    "equipLevel": 30,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25216,
+    "name": "绝枪战士之证",
+    "level": 30,
+    "slot": 17,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 30,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {},
+    "hq": false
+  },
+  {
+    "id": 25217,
+    "name": "舞者之证",
+    "level": 30,
+    "slot": 17,
+    "role": 0,
+    "jobs": [],
     "equipLevel": 30,
     "materiaSlot": 0,
     "materiaAdvanced": false,
@@ -50977,6 +55405,78 @@
     "hq": false
   },
   {
+    "id": 27669,
+    "name": "棉绒外袍",
+    "level": 31,
+    "slot": 4,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 31,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 6,
+      "INT": 6,
+      "MND": 6,
+      "DHT": 8
+    },
+    "hq": true
+  },
+  {
+    "id": 27670,
+    "name": "棉绒手套",
+    "level": 31,
+    "slot": 5,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 31,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 4,
+      "INT": 4,
+      "MND": 4,
+      "DET": 3
+    },
+    "hq": true
+  },
+  {
+    "id": 27671,
+    "name": "改良型棉绒马裤",
+    "level": 31,
+    "slot": 7,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 31,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 6,
+      "INT": 6,
+      "MND": 6,
+      "DHT": 8
+    },
+    "hq": true
+  },
+  {
+    "id": 27672,
+    "name": "巨蟾蜍革长靴",
+    "level": 31,
+    "slot": 8,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 31,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 4,
+      "INT": 4,
+      "MND": 4,
+      "DHT": 5
+    },
+    "hq": true
+  },
+  {
     "id": 159,
     "name": "过期黑铁战戈",
     "level": 32,
@@ -52539,6 +57039,46 @@
     "hq": false
   },
   {
+    "id": 27654,
+    "name": "白钢头甲",
+    "level": 32,
+    "slot": 3,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRG",
+      "DRK"
+    ],
+    "equipLevel": 32,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 4,
+      "VIT": 4,
+      "SKS": 5
+    },
+    "hq": true
+  },
+  {
+    "id": 27668,
+    "name": "白银单眼镜",
+    "level": 32,
+    "slot": 3,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 32,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 4,
+      "INT": 4,
+      "MND": 4,
+      "DHT": 5
+    },
+    "hq": true
+  },
+  {
     "id": 131,
     "name": "过期铁甲指虎",
     "level": 33,
@@ -52980,7 +57520,7 @@
       "DLY": 2000,
       "WPN": 21
     },
-    "hq": true
+    "hq": false
   },
   {
     "id": 2014,
@@ -53277,6 +57817,7 @@
     "stats": {
       "STR": 3,
       "DEX": 3,
+      "VIT": 3,
       "DHT": 5,
       "DET": 3
     },
@@ -53295,6 +57836,7 @@
     "stats": {
       "STR": 3,
       "DEX": 3,
+      "VIT": 3,
       "DHT": 5,
       "DET": 3
     },
@@ -53313,6 +57855,7 @@
     "stats": {
       "STR": 3,
       "DEX": 3,
+      "VIT": 3,
       "DHT": 5,
       "DET": 3
     },
@@ -54730,6 +59273,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 3,
       "VIT": 4,
       "TEN": 5
     },
@@ -54748,6 +59292,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 3,
       "VIT": 4,
       "DET": 3
     },
@@ -54767,6 +59312,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 3,
+      "VIT": 4,
       "CRT": 5
     },
     "hq": false
@@ -54785,6 +59331,7 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 3,
+      "VIT": 4,
       "SKS": 5
     },
     "hq": false
@@ -54802,6 +59349,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 3,
       "MND": 3,
       "SPS": 5
     },
@@ -54820,6 +59368,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 3,
       "INT": 3,
       "SPS": 5
     },
@@ -54839,6 +59388,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 3,
+      "VIT": 4,
       "DET": 3
     },
     "hq": false
@@ -54857,6 +59407,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 3,
       "INT": 3,
       "MND": 3,
       "DET": 3
@@ -54918,6 +59469,7 @@
     "materiaAdvanced": false,
     "stats": {
       "DEX": 3,
+      "VIT": 4,
       "CRT": 5
     },
     "hq": false
@@ -56429,6 +60981,63 @@
     "hq": true
   },
   {
+    "id": 27639,
+    "name": "亚麻头巾",
+    "level": 35,
+    "slot": 3,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 35,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 5,
+      "DEX": 5,
+      "VIT": 5,
+      "SKS": 6
+    },
+    "hq": true
+  },
+  {
+    "id": 27640,
+    "name": "改良型野猪革长靴",
+    "level": 35,
+    "slot": 8,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 35,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 5,
+      "DEX": 5,
+      "VIT": 5,
+      "DET": 4
+    },
+    "hq": true
+  },
+  {
+    "id": 27655,
+    "name": "改良型白钢重甲",
+    "level": 35,
+    "slot": 15,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRK"
+    ],
+    "equipLevel": 35,
+    "materiaSlot": 4,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 12,
+      "VIT": 13,
+      "CRT": 17
+    },
+    "hq": true
+  },
+  {
     "id": 116,
     "name": "过期蜂蜡骑兵剑",
     "level": 36,
@@ -57256,6 +61865,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 3,
       "INT": 4,
       "MND": 4,
       "DHT": 5
@@ -57273,6 +61883,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 3,
       "INT": 4,
       "MND": 4
     },
@@ -57306,6 +61917,7 @@
     "stats": {
       "STR": 4,
       "DEX": 4,
+      "VIT": 4,
       "DHT": 5
     },
     "hq": true
@@ -57322,7 +61934,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 4,
-      "DEX": 4
+      "DEX": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -57338,6 +61951,24 @@
     "materiaAdvanced": false,
     "stats": {},
     "hq": false
+  },
+  {
+    "id": 27990,
+    "name": "改良型亚麻裤袜",
+    "level": 36,
+    "slot": 7,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 36,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 7,
+      "INT": 8,
+      "MND": 8,
+      "DET": 7
+    },
+    "hq": true
   },
   {
     "id": 198,
@@ -57979,7 +62610,7 @@
       "DLY": 2080,
       "WPN": 24
     },
-    "hq": true
+    "hq": false
   },
   {
     "id": 1641,
@@ -58635,6 +63266,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 4,
       "VIT": 4,
       "DET": 3,
       "SKS": 6
@@ -58654,6 +63286,7 @@
     "stats": {
       "STR": 4,
       "DEX": 4,
+      "VIT": 4,
       "DET": 3,
       "SKS": 6
     },
@@ -58670,6 +63303,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "MND": 4,
       "DET": 3,
@@ -58690,6 +63324,7 @@
     "stats": {
       "STR": 4,
       "DEX": 4,
+      "VIT": 4,
       "DHT": 5
     },
     "hq": true
@@ -58706,7 +63341,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 4,
-      "DEX": 4
+      "DEX": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -58751,6 +63387,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "MND": 4,
       "DHT": 5
@@ -58768,6 +63405,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "MND": 4
     },
@@ -58786,6 +63424,7 @@
     "stats": {
       "STR": 4,
       "DEX": 4,
+      "VIT": 4,
       "DHT": 5
     },
     "hq": true
@@ -58802,7 +63441,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 4,
-      "DEX": 4
+      "DEX": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -58908,6 +63548,42 @@
       "WPN": 41
     },
     "hq": false
+  },
+  {
+    "id": 27641,
+    "name": "改良型野猪革盔帽",
+    "level": 37,
+    "slot": 3,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 37,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 5,
+      "DEX": 5,
+      "VIT": 5,
+      "DHT": 7
+    },
+    "hq": true
+  },
+  {
+    "id": 27673,
+    "name": "改良型亚麻僧袍",
+    "level": 37,
+    "slot": 15,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 37,
+    "materiaSlot": 4,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 13,
+      "INT": 13,
+      "MND": 13,
+      "DHT": 19
+    },
+    "hq": true
   },
   {
     "id": 117,
@@ -60748,6 +65424,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 4,
+      "VIT": 4,
       "SKS": 6
     },
     "hq": true
@@ -60763,7 +65440,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 4
+      "STR": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -60778,6 +65456,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "DET": 4
     },
@@ -60794,6 +65473,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4
     },
     "hq": false
@@ -60809,6 +65489,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "MND": 4,
       "PIE": 3
     },
@@ -60825,6 +65506,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "MND": 4
     },
     "hq": false
@@ -60840,6 +65522,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 4,
       "VIT": 4,
       "TEN": 6
     },
@@ -60856,6 +65539,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 4,
       "VIT": 4
     },
     "hq": false
@@ -60872,6 +65556,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 4,
+      "VIT": 4,
       "CRT": 6
     },
     "hq": true
@@ -60887,7 +65572,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 4
+      "DEX": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -60902,6 +65588,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "MND": 4,
       "SPS": 6
     },
@@ -60918,6 +65605,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "MND": 4
     },
     "hq": false
@@ -60933,6 +65621,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "CRT": 6
     },
@@ -60949,6 +65638,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4
     },
     "hq": false
@@ -60965,6 +65655,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 4,
+      "VIT": 4,
       "SKS": 6
     },
     "hq": true
@@ -60980,7 +65671,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 4
+      "STR": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -60995,6 +65687,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "DET": 4
     },
@@ -61011,6 +65704,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4
     },
     "hq": false
@@ -61026,6 +65720,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "MND": 4,
       "PIE": 3
     },
@@ -61042,6 +65737,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "MND": 4
     },
     "hq": false
@@ -61057,6 +65753,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 4,
       "VIT": 4,
       "TEN": 6
     },
@@ -61073,6 +65770,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 4,
       "VIT": 4
     },
     "hq": false
@@ -61089,6 +65787,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 4,
+      "VIT": 4,
       "CRT": 6
     },
     "hq": true
@@ -61104,7 +65803,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 4
+      "DEX": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -61119,6 +65819,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "MND": 4,
       "SPS": 6
     },
@@ -61135,6 +65836,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "MND": 4
     },
     "hq": false
@@ -61150,6 +65852,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "CRT": 6
     },
@@ -61166,6 +65869,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4
     },
     "hq": false
@@ -61354,6 +66058,28 @@
       "WPN": 42
     },
     "hq": false
+  },
+  {
+    "id": 27656,
+    "name": "改良型秘银骑兵头盔",
+    "level": 38,
+    "slot": 3,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRG",
+      "DRK"
+    ],
+    "equipLevel": 38,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 5,
+      "VIT": 6,
+      "SKS": 8
+    },
+    "hq": true
   },
   {
     "id": 132,
@@ -62261,6 +66987,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 4,
       "VIT": 4,
       "CRT": 6
     },
@@ -62277,6 +67004,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 4,
       "VIT": 4
     },
     "hq": false
@@ -62293,6 +67021,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 4,
+      "VIT": 4,
       "SKS": 6
     },
     "hq": true
@@ -62308,7 +67037,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 4
+      "STR": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -62323,6 +67053,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "DET": 4
     },
@@ -62339,6 +67070,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4
     },
     "hq": false
@@ -62354,6 +67086,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "MND": 4,
       "PIE": 3
     },
@@ -62370,6 +67103,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "MND": 4
     },
     "hq": false
@@ -62385,6 +67119,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 4,
       "VIT": 4,
       "TEN": 6
     },
@@ -62401,6 +67136,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 4,
       "VIT": 4
     },
     "hq": false
@@ -62417,6 +67153,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 4,
+      "VIT": 4,
       "CRT": 6
     },
     "hq": true
@@ -62432,7 +67169,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 4
+      "DEX": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -62447,6 +67185,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "MND": 4,
       "SPS": 6
     },
@@ -62463,6 +67202,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "MND": 4
     },
     "hq": false
@@ -62478,6 +67218,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "CRT": 6
     },
@@ -62494,6 +67235,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4
     },
     "hq": false
@@ -62525,6 +67267,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 4,
+      "VIT": 4,
       "SKS": 6
     },
     "hq": true
@@ -62540,7 +67283,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 4
+      "STR": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -62555,6 +67299,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "DET": 4
     },
@@ -62571,6 +67316,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4
     },
     "hq": false
@@ -62586,6 +67332,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "MND": 4,
       "PIE": 3
     },
@@ -62602,6 +67349,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "MND": 4
     },
     "hq": false
@@ -62617,6 +67365,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 4,
       "VIT": 4,
       "TEN": 6
     },
@@ -62633,6 +67382,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 4,
       "VIT": 4
     },
     "hq": false
@@ -62649,6 +67399,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 4,
+      "VIT": 4,
       "CRT": 6
     },
     "hq": true
@@ -62664,7 +67415,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 4
+      "DEX": 4,
+      "VIT": 4
     },
     "hq": false
   },
@@ -62679,6 +67431,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "MND": 4,
       "SPS": 6
     },
@@ -62695,6 +67448,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "MND": 4
     },
     "hq": false
@@ -62710,6 +67464,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "MND": 4,
       "DHT": 6
@@ -62727,6 +67482,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "MND": 4
     },
@@ -63140,7 +67896,7 @@
       "DLY": 2080,
       "WPN": 27
     },
-    "hq": true
+    "hq": false
   },
   {
     "id": 1645,
@@ -65054,6 +69810,7 @@
     "stats": {
       "STR": 4,
       "DEX": 4,
+      "VIT": 5,
       "DHT": 6
     },
     "hq": true
@@ -65070,7 +69827,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 4,
-      "DEX": 4
+      "DEX": 4,
+      "VIT": 5
     },
     "hq": false
   },
@@ -65352,6 +70110,24 @@
       "WPN": 43
     },
     "hq": false
+  },
+  {
+    "id": 27642,
+    "name": "改良型呢绒衬衫",
+    "level": 40,
+    "slot": 4,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 40,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 9,
+      "DEX": 9,
+      "VIT": 10,
+      "DHT": 14
+    },
+    "hq": true
   },
   {
     "id": 216,
@@ -66652,6 +71428,60 @@
     "hq": false
   },
   {
+    "id": 27674,
+    "name": "改良型秘银作业眼镜",
+    "level": 41,
+    "slot": 3,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 41,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 6,
+      "INT": 6,
+      "MND": 6,
+      "DHT": 9
+    },
+    "hq": true
+  },
+  {
+    "id": 27675,
+    "name": "改良型呢绒长外衣",
+    "level": 41,
+    "slot": 4,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 41,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 9,
+      "INT": 9,
+      "MND": 9,
+      "CRT": 14
+    },
+    "hq": true
+  },
+  {
+    "id": 27676,
+    "name": "改良型呢绒裤袜",
+    "level": 41,
+    "slot": 7,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 41,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 9,
+      "INT": 9,
+      "MND": 9,
+      "DET": 9
+    },
+    "hq": true
+  },
+  {
     "id": 118,
     "name": "过期黑铁短剑",
     "level": 42,
@@ -67819,6 +72649,7 @@
     "stats": {
       "STR": 4,
       "DEX": 4,
+      "VIT": 5,
       "CRT": 8,
       "DET": 5
     },
@@ -67835,6 +72666,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 4,
       "VIT": 5,
       "TEN": 8,
       "DET": 5
@@ -67852,6 +72684,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 4,
       "INT": 4,
       "MND": 4,
       "CRT": 8,
@@ -70388,6 +75221,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "MND": 5,
       "DHT": 7
@@ -70405,6 +75239,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "MND": 5
     },
@@ -70761,6 +75596,60 @@
       "WPN": 47
     },
     "hq": false
+  },
+  {
+    "id": 27643,
+    "name": "改良型呢绒宽边帽",
+    "level": 43,
+    "slot": 3,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 43,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 6,
+      "DEX": 6,
+      "VIT": 7,
+      "SKS": 10
+    },
+    "hq": true
+  },
+  {
+    "id": 27644,
+    "name": "呢绒束腰衣",
+    "level": 43,
+    "slot": 4,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 43,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 10,
+      "DEX": 10,
+      "VIT": 11,
+      "SKS": 16
+    },
+    "hq": true
+  },
+  {
+    "id": 27645,
+    "name": "改良型呢绒弓术手套",
+    "level": 43,
+    "slot": 5,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 43,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 6,
+      "DEX": 6,
+      "VIT": 7,
+      "CRT": 10
+    },
+    "hq": true
   },
   {
     "id": 255,
@@ -71588,6 +76477,67 @@
       "VIT": 5
     },
     "hq": false
+  },
+  {
+    "id": 27646,
+    "name": "改良型内衬呢绒软甲裤",
+    "level": 44,
+    "slot": 7,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 44,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 10,
+      "DEX": 10,
+      "VIT": 11,
+      "DET": 11
+    },
+    "hq": true
+  },
+  {
+    "id": 27657,
+    "name": "改良型秘银锁甲头罩",
+    "level": 44,
+    "slot": 3,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRG",
+      "DRK"
+    ],
+    "equipLevel": 44,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 6,
+      "VIT": 7,
+      "SKS": 10
+    },
+    "hq": true
+  },
+  {
+    "id": 27658,
+    "name": "改良型秘银重甲",
+    "level": 44,
+    "slot": 15,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRK"
+    ],
+    "equipLevel": 44,
+    "materiaSlot": 4,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 17,
+      "VIT": 18,
+      "CRT": 27
+    },
+    "hq": true
   },
   {
     "id": 119,
@@ -74956,6 +79906,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "MND": 5,
       "DHT": 9
@@ -74973,6 +79924,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "MND": 5
     },
@@ -75004,6 +79956,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "MND": 5,
       "CRT": 9,
@@ -75024,6 +79977,7 @@
     "stats": {
       "STR": 5,
       "DEX": 5,
+      "VIT": 5,
       "DHT": 9,
       "CRT": 9
     },
@@ -75040,6 +79994,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 5,
       "DEX": 4,
       "VIT": 5,
       "TEN": 9,
@@ -75060,6 +80015,7 @@
     "stats": {
       "STR": 5,
       "DEX": 5,
+      "VIT": 5,
       "DHT": 9
     },
     "hq": true
@@ -75076,7 +80032,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 5,
-      "DEX": 5
+      "DEX": 5,
+      "VIT": 5
     },
     "hq": false
   },
@@ -75343,6 +80300,46 @@
       "WPN": 51
     },
     "hq": false
+  },
+  {
+    "id": 27647,
+    "name": "盗龙革狩猎靴",
+    "level": 46,
+    "slot": 8,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 46,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 7,
+      "DEX": 7,
+      "VIT": 7,
+      "DHT": 11
+    },
+    "hq": true
+  },
+  {
+    "id": 27659,
+    "name": "改良型钴铁骑兵头盔",
+    "level": 46,
+    "slot": 3,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRG",
+      "DRK"
+    ],
+    "equipLevel": 46,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 7,
+      "VIT": 7,
+      "SKS": 11
+    },
+    "hq": true
   },
   {
     "id": 135,
@@ -76703,6 +81700,7 @@
     "stats": {
       "STR": 5,
       "DEX": 5,
+      "VIT": 6,
       "DHT": 9
     },
     "hq": true
@@ -76719,7 +81717,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 5,
-      "DEX": 5
+      "DEX": 5,
+      "VIT": 6
     },
     "hq": false
   },
@@ -76764,6 +81763,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "MND": 5,
       "DHT": 9
@@ -76781,6 +81781,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "MND": 5
     },
@@ -76895,6 +81896,7 @@
     "stats": {
       "STR": 5,
       "DEX": 5,
+      "VIT": 6,
       "DHT": 9
     },
     "hq": true
@@ -76911,7 +81913,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 5,
-      "DEX": 5
+      "DEX": 5,
+      "VIT": 6
     },
     "hq": false
   },
@@ -76927,6 +81930,24 @@
     "materiaAdvanced": true,
     "stats": {
       "CP": 15
+    },
+    "hq": true
+  },
+  {
+    "id": 27677,
+    "name": "改良型呢绒僧袍",
+    "level": 47,
+    "slot": 15,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 47,
+    "materiaSlot": 4,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 18,
+      "INT": 18,
+      "MND": 18,
+      "DHT": 31
     },
     "hq": true
   },
@@ -78407,6 +83428,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 5,
+      "VIT": 6,
       "SKS": 9
     },
     "hq": true
@@ -78422,7 +83444,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 5
+      "STR": 5,
+      "VIT": 6
     },
     "hq": false
   },
@@ -78437,6 +83460,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "DET": 6
     },
@@ -78453,6 +83477,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5
     },
     "hq": false
@@ -78468,6 +83493,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "MND": 5,
       "PIE": 5
     },
@@ -78484,6 +83510,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "MND": 5
     },
     "hq": false
@@ -78499,6 +83526,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 5,
       "VIT": 6,
       "TEN": 9
     },
@@ -78515,6 +83543,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 5,
       "VIT": 6
     },
     "hq": false
@@ -78531,6 +83560,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 5,
+      "VIT": 6,
       "CRT": 9
     },
     "hq": true
@@ -78546,7 +83576,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 5
+      "DEX": 5,
+      "VIT": 6
     },
     "hq": false
   },
@@ -78561,6 +83592,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "MND": 5,
       "SPS": 9
     },
@@ -78577,6 +83609,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "MND": 5
     },
     "hq": false
@@ -78592,6 +83625,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "CRT": 9
     },
@@ -78608,6 +83642,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5
     },
     "hq": false
@@ -78624,6 +83659,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 5,
+      "VIT": 6,
       "SKS": 9
     },
     "hq": true
@@ -78639,7 +83675,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 5
+      "STR": 5,
+      "VIT": 6
     },
     "hq": false
   },
@@ -78654,6 +83691,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "DET": 6
     },
@@ -78670,6 +83708,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5
     },
     "hq": false
@@ -78685,6 +83724,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "MND": 5,
       "PIE": 5
     },
@@ -78701,6 +83741,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "MND": 5
     },
     "hq": false
@@ -78716,6 +83757,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 5,
       "VIT": 6,
       "TEN": 9
     },
@@ -78732,6 +83774,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 5,
       "VIT": 6
     },
     "hq": false
@@ -78748,6 +83791,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 5,
+      "VIT": 6,
       "CRT": 9
     },
     "hq": true
@@ -78763,7 +83807,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 5
+      "DEX": 5,
+      "VIT": 6
     },
     "hq": false
   },
@@ -78778,6 +83823,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "MND": 5,
       "SPS": 9
     },
@@ -78794,6 +83840,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "MND": 5
     },
     "hq": false
@@ -78809,6 +83856,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "CRT": 9
     },
@@ -78825,6 +83873,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5
     },
     "hq": false
@@ -78840,6 +83889,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 5,
       "VIT": 6,
       "TEN": 10,
       "DHT": 9
@@ -78857,6 +83907,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 5,
       "CRT": 9,
       "SPS": 10
@@ -78876,6 +83927,7 @@
     "stats": {
       "STR": 5,
       "DEX": 5,
+      "VIT": 6,
       "CRT": 9,
       "DET": 7
     },
@@ -80434,6 +85486,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 6,
       "VIT": 6,
       "CRT": 10
     },
@@ -80450,6 +85503,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 6,
       "VIT": 6
     },
     "hq": false
@@ -80466,6 +85520,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 6,
+      "VIT": 6,
       "SKS": 10
     },
     "hq": true
@@ -80481,7 +85536,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 6
+      "STR": 6,
+      "VIT": 6
     },
     "hq": false
   },
@@ -80496,6 +85552,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 6,
       "DET": 6
     },
@@ -80512,6 +85569,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 6
     },
     "hq": false
@@ -80527,6 +85585,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "MND": 6,
       "PIE": 5
     },
@@ -80543,6 +85602,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "MND": 6
     },
     "hq": false
@@ -80558,6 +85618,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 6,
       "VIT": 6,
       "TEN": 10
     },
@@ -80574,6 +85635,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 6,
       "VIT": 6
     },
     "hq": false
@@ -80590,6 +85652,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 6,
+      "VIT": 6,
       "CRT": 10
     },
     "hq": true
@@ -80605,7 +85668,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 6
+      "DEX": 6,
+      "VIT": 6
     },
     "hq": false
   },
@@ -80620,6 +85684,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "MND": 6,
       "SPS": 10
     },
@@ -80636,6 +85701,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "MND": 6
     },
     "hq": false
@@ -80651,6 +85717,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 6,
       "CRT": 10
     },
@@ -80667,6 +85734,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 6
     },
     "hq": false
@@ -80684,6 +85752,7 @@
     "stats": {
       "STR": 6,
       "DEX": 6,
+      "VIT": 6,
       "DHT": 10
     },
     "hq": true
@@ -80700,7 +85769,8 @@
     "materiaAdvanced": false,
     "stats": {
       "STR": 6,
-      "DEX": 6
+      "DEX": 6,
+      "VIT": 6
     },
     "hq": false
   },
@@ -80731,6 +85801,7 @@
     "materiaAdvanced": true,
     "stats": {
       "STR": 6,
+      "VIT": 6,
       "SKS": 10
     },
     "hq": true
@@ -80746,7 +85817,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "STR": 6
+      "STR": 6,
+      "VIT": 6
     },
     "hq": false
   },
@@ -80761,6 +85833,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 6,
       "DET": 6
     },
@@ -80777,6 +85850,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 6
     },
     "hq": false
@@ -80792,6 +85866,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "MND": 6,
       "PIE": 5
     },
@@ -80808,6 +85883,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "MND": 6
     },
     "hq": false
@@ -80823,6 +85899,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "STR": 6,
       "VIT": 6,
       "TEN": 10
     },
@@ -80839,6 +85916,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "STR": 6,
       "VIT": 6
     },
     "hq": false
@@ -80855,6 +85933,7 @@
     "materiaAdvanced": true,
     "stats": {
       "DEX": 6,
+      "VIT": 6,
       "CRT": 10
     },
     "hq": true
@@ -80870,7 +85949,8 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
-      "DEX": 6
+      "DEX": 6,
+      "VIT": 6
     },
     "hq": false
   },
@@ -80885,6 +85965,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "MND": 6,
       "SPS": 10
     },
@@ -80901,6 +85982,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "MND": 6
     },
     "hq": false
@@ -80916,6 +85998,7 @@
     "materiaSlot": 1,
     "materiaAdvanced": true,
     "stats": {
+      "VIT": 5,
       "INT": 6,
       "MND": 6,
       "DHT": 10
@@ -80933,6 +86016,7 @@
     "materiaSlot": 0,
     "materiaAdvanced": false,
     "stats": {
+      "VIT": 5,
       "INT": 6,
       "MND": 6
     },
@@ -81065,6 +86149,291 @@
       "WPN": 56
     },
     "hq": false
+  },
+  {
+    "id": 27648,
+    "name": "呢绒头巾",
+    "level": 49,
+    "slot": 3,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 7,
+      "DEX": 7,
+      "VIT": 8,
+      "CRT": 13
+    },
+    "hq": true
+  },
+  {
+    "id": 27649,
+    "name": "盗龙革衬衫",
+    "level": 49,
+    "slot": 4,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 12,
+      "DEX": 12,
+      "VIT": 13,
+      "DET": 14
+    },
+    "hq": true
+  },
+  {
+    "id": 27650,
+    "name": "盗龙革手套",
+    "level": 49,
+    "slot": 5,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 7,
+      "DEX": 7,
+      "VIT": 8,
+      "DHT": 13
+    },
+    "hq": true
+  },
+  {
+    "id": 27651,
+    "name": "盗龙革短裙",
+    "level": 49,
+    "slot": 7,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 12,
+      "DEX": 12,
+      "VIT": 13,
+      "DHT": 21
+    },
+    "hq": true
+  },
+  {
+    "id": 27652,
+    "name": "盗龙革长筒靴",
+    "level": 49,
+    "slot": 8,
+    "role": 7,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 7,
+      "DEX": 7,
+      "VIT": 8,
+      "DHT": 13
+    },
+    "hq": true
+  },
+  {
+    "id": 27660,
+    "name": "钴铁面罩",
+    "level": 49,
+    "slot": 3,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRK"
+    ],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 7,
+      "VIT": 8,
+      "TEN": 13
+    },
+    "hq": true
+  },
+  {
+    "id": 27661,
+    "name": "改良型钴铁胸甲",
+    "level": 49,
+    "slot": 4,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRK"
+    ],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 12,
+      "VIT": 13,
+      "TEN": 21
+    },
+    "hq": true
+  },
+  {
+    "id": 27662,
+    "name": "改良型钴铁手铠",
+    "level": 49,
+    "slot": 5,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRK"
+    ],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 7,
+      "VIT": 8,
+      "DHT": 13
+    },
+    "hq": true
+  },
+  {
+    "id": 27663,
+    "name": "呢绒御敌软甲裤",
+    "level": 49,
+    "slot": 7,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRK"
+    ],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 12,
+      "VIT": 13,
+      "SKS": 21
+    },
+    "hq": true
+  },
+  {
+    "id": 27664,
+    "name": "改良型钴铁铠靴",
+    "level": 49,
+    "slot": 8,
+    "role": 1,
+    "jobs": [
+      "PLD",
+      "WAR",
+      "DRK"
+    ],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "STR": 7,
+      "VIT": 8,
+      "CRT": 13
+    },
+    "hq": true
+  },
+  {
+    "id": 27678,
+    "name": "改良型纤维宽边帽",
+    "level": 49,
+    "slot": 3,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 7,
+      "INT": 7,
+      "MND": 7,
+      "DHT": 13
+    },
+    "hq": true
+  },
+  {
+    "id": 27679,
+    "name": "改良型纤维长袍",
+    "level": 49,
+    "slot": 4,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 11,
+      "INT": 12,
+      "MND": 12,
+      "DHT": 21
+    },
+    "hq": true
+  },
+  {
+    "id": 27680,
+    "name": "纤维手套",
+    "level": 49,
+    "slot": 5,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 7,
+      "INT": 7,
+      "MND": 7,
+      "DHT": 13
+    },
+    "hq": true
+  },
+  {
+    "id": 27681,
+    "name": "纤维马裤",
+    "level": 49,
+    "slot": 7,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 11,
+      "INT": 12,
+      "MND": 12,
+      "DHT": 21
+    },
+    "hq": true
+  },
+  {
+    "id": 27682,
+    "name": "盗龙革尖头靴",
+    "level": 49,
+    "slot": 8,
+    "role": 8,
+    "jobs": [],
+    "equipLevel": 49,
+    "materiaSlot": 2,
+    "materiaAdvanced": true,
+    "stats": {
+      "VIT": 7,
+      "INT": 7,
+      "MND": 7,
+      "DHT": 13
+    },
+    "hq": true
   },
   {
     "id": 1800,
@@ -82818,6 +88187,21 @@
       "VIT": 5,
       "INT": 5,
       "MND": 5
+    },
+    "hq": false
+  },
+  {
+    "id": 24589,
+    "name": "以太之光耳坠",
+    "level": 290,
+    "slot": 9,
+    "role": 0,
+    "jobs": [],
+    "equipLevel": 1,
+    "materiaSlot": 0,
+    "materiaAdvanced": false,
+    "stats": {
+      "VIT": 96
     },
     "hq": false
   }
