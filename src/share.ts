@@ -2,21 +2,21 @@ import * as BI from './utils/BigInteger';
 import * as G from './gear';
 
 const permanentIndexes: { job: G.Job, stats: G.Stat[] }[] = [
-  { job: 'PLD', stats: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'TEN', 'VIT'] },
-  { job: 'WAR', stats: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'TEN', 'VIT'] },
-  { job: 'DRK', stats: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'TEN', 'VIT'] },
-  { job: 'WHM', stats: ['MND', 'CRT', 'DET', 'DHT', 'SPS', 'PIE', 'VIT'] },
-  { job: 'SCH', stats: ['MND', 'CRT', 'DET', 'DHT', 'SPS', 'PIE', 'VIT'] },
-  { job: 'AST', stats: ['MND', 'CRT', 'DET', 'DHT', 'SPS', 'PIE', 'VIT'] },
-  { job: 'MNK', stats: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
-  { job: 'DRG', stats: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
-  { job: 'NIN', stats: ['DEX', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
-  { job: 'SAM', stats: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
-  { job: 'BRD', stats: ['DEX', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
-  { job: 'MCH', stats: ['DEX', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
-  { job: 'BLM', stats: ['INT', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
-  { job: 'SMN', stats: ['INT', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
-  { job: 'RDM', stats: ['INT', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'] },
+  { job: 'PLD', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
+  { job: 'WAR', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
+  { job: 'DRK', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
+  { job: 'WHM', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
+  { job: 'SCH', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
+  { job: 'AST', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
+  { job: 'MNK', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'DRG', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'NIN', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'SAM', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'BRD', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'MCH', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'BLM', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'SMN', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'RDM', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
 ];
 
 const toIndex: { [index in G.Job]?: { index: number, stats: { [index in G.Stat]?: number } } } = {};
@@ -44,13 +44,15 @@ class Ranges {
     this.job = version === 1 ? 28 : -1;  // permanentIndexes.length,
     this.gearId = 50000;
     this.materiaSlot = 6;
-    this.materiaGrade = 6;
+    this.materiaGrade = 8;
   }
   useJob(job: G.Job) {
     this.materiaStat = permanentIndexes[toIndex[job]!.index].stats.length;  // TODO: versoin
     this.materiaCode = this.materiaStat * this.materiaGrade + 1;
   }
 }
+
+// TODO: use compact materiaGrade range
 
 export function stringify({ job, level, gears }: G.Gearset): string {
   const ranges = new Ranges();
@@ -158,5 +160,6 @@ export function parse(s: string): G.Gearset {
 
   return { job: job.job, level, gears };
 }
-// let s = 'rzCATkJiV44Rvv7tM9ykHTaFvJDV52GGA7tSWBjYkyYSNtvS';
-// console.assert(stringify(parse(s)) === s);
+
+let s = 'pfKAzqARmp635lynL8rrPbLFsnDVVLYiBp34GMvT5aoUuV';
+console.assert(stringify(parse(s)) === s);

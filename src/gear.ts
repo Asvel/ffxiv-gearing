@@ -249,29 +249,24 @@ export const statHighlight: { [index in Stat]?: boolean } = {
   SPS: true,
 };
 
-export const materias = {
-  VIT: [1, 2, 4, 8, 15, 25],
-  STR: [1, 2, 4, 7, 15, 25],
-  DEX: [1, 2, 4, 7, 15, 25],
-  INT: [1, 2, 4, 7, 15, 25],
-  MND: [1, 2, 4, 7, 15, 25],
-  PIE: [1, 2, 3, 6, 11, 40],
-  DHT: [2, 4, 6, 9, 12, 40],
-  CRT: [2, 4, 6, 9, 12, 40],
-  DET: [1, 3, 4, 6, 12, 40],
-  SPS: [2, 4, 6, 9, 12, 40],
-  SKS: [2, 4, 6, 9, 12, 40],
-  TEN: [2, 4, 6, 9, 12, 40],
-  CMS: [3, 4, 5, 6, 11, 16],
-  CRL: [1, 2, 3, 4, 7, 10],
-  CP: [1, 2, 3, 4, 6, 8],
-  GTH: [3, 4, 5, 6, 10, 15],
-  PCP: [3, 4, 5, 6, 10, 15],
-  GP: [1, 2, 3, 4, 6, 8],
-  WPN: [] as number[],
-  DLY: [] as number[],
+export const materias: { [index in Stat]?: number[] } = {
+  PIE: [1, 2, 3, 6, 11, 40, 20, 60],
+  DHT: [2, 4, 6, 9, 12, 40, 20, 60],
+  CRT: [2, 4, 6, 9, 12, 40, 20, 60],
+  DET: [1, 3, 4, 6, 12, 40, 20, 60],
+  SPS: [2, 4, 6, 9, 12, 40, 20, 60],
+  SKS: [2, 4, 6, 9, 12, 40, 20, 60],
+  TEN: [2, 4, 6, 9, 12, 40, 20, 60],
+  CMS: [3, 4, 5, 6, 11, 16, 14, 21],
+  CRL: [1, 2, 3, 4, 7, 10, 9, 13],
+  CP: [1, 2, 3, 4, 6, 8, 7, 9],
+  GTH: [3, 4, 5, 6, 10, 15, 12, 20],
+  PCP: [3, 4, 5, 6, 10, 15, 12, 20],
+  GP: [1, 2, 3, 4, 6, 8, 7, 9],
 };
-export type MateriaGrade = 1 | 2 | 3 | 4 | 5 | 6;
+export type MateriaGrade = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
+export const materiaGrades: MateriaGrade[] = [8, 7, 6, 5, 4, 3, 2, 1];
+export const materiaGradesAdvanced: MateriaGrade[] = [7, 5, 4, 3, 2, 1];
 
 export function isMeldable(stat: Stat, materiaGrade: MateriaGrade, meldSlot: number, gearSlot: number): boolean {
   let isMainStat = stat === 'VIT' || stat === 'STR' || stat === 'DEX' || stat === 'INT' || stat === 'MND';

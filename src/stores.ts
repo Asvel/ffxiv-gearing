@@ -66,12 +66,8 @@ export const Materia = types
     get isAdvanced(): boolean {
       return self.index >= self.gear.materiaSlot;
     },
-    get maxMeldableGrade(): G.MateriaGrade {
-      return self.index <= self.gear.materiaSlot ? 6 : 5;
-    },
-    canMeldStat(stat: G.Stat): boolean {
-      let isMainStat = stat === 'VIT' || stat === 'STR' || stat === 'DEX' || stat === 'INT' || stat === 'MND';
-      return !(this.isAdvanced && isMainStat);
+    get meldableGrades(): G.MateriaGrade[] {
+      return this.isAdvanced ? G.materiaGradesAdvanced : G.materiaGrades;  // TODO; work for low level item
     },
   }))
   .actions(self => ({
@@ -112,7 +108,7 @@ export const Gear = types
       let stats: G.Stats = {};
       for (const materia of self.materias) {
         if (materia.stat !== undefined) {
-          let materiaValue = G.materias[materia.stat][materia.grade! - 1];
+          let materiaValue = G.materias[materia.stat]![materia.grade! - 1];
           stats[materia.stat] = (stats[materia.stat] ?? 0) + materiaValue;
         }
       }

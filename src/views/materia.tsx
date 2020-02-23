@@ -37,7 +37,7 @@ const MateriaPanel = observer<{ materia: IMateria }>(({ materia }) => {
   return (
     <table className="materias table card">
       <tbody>
-      {store.schema.stats.slice(1).map(stat => materia.canMeldStat(stat) && (
+      {store.schema.stats.slice(1).map(stat => stat in G.materias && (
         <tr
           key={stat}
           className={classNames('materias_row', materia.gear.currentMeldableStats[stat]! <= 0 && '-invalid')}
@@ -51,24 +51,24 @@ const MateriaPanel = observer<{ materia: IMateria }>(({ materia }) => {
             {materia.gear.currentMeldableStats[stat]}
           </td>
           <td className="materias_stat-name">{G.statNames[stat]}</td>
-          {G.materias[stat].map((value, i) => i < materia.maxMeldableGrade && (
+          {materia.meldableGrades.map(grade => (
             <td
-              key={i}
+              key={grade}
               className={classNames(
                 'materias_grade',
-                materia.stat === stat && materia.grade === i + 1 && '-selected'
+                materia.stat === stat && materia.grade === grade && '-selected'
               )}
-              onClick={() => materia.meld(stat, (i + 1) as G.MateriaGrade)}
-              children={'+' + value}
+              onClick={() => materia.meld(stat, grade)}
+              children={'+' + G.materias[stat]![grade - 1]}
             />
-          )).reverse()}
+          ))}
         </tr>
       ))}
       <tr>
-        <td className="materias_meldable-title" colSpan={2}>可镶嵌量</td>
+        <td className="materias_meldable-title" colSpan={2}>可镶嵌值</td>
         <td
           className={classNames('materias_remove', materia.stat === undefined && '-selected')}
-          colSpan={materia.maxMeldableGrade}
+          colSpan={materia.meldableGrades.length}
           onClick={() => materia.meld(undefined)}
         >
           不镶嵌魔晶石
