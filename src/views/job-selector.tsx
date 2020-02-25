@@ -76,10 +76,18 @@ const JobItem = observer<{ job: G.Job }>(({ job }) => {
   const schema = G.jobSchemas[job];
   return (
     <Ripple>
-      <span className="job-selector_item" onClick={() => store.condition.setJob(job)}>
+      <a
+        className="job-selector_item"
+        href={`?${job}`}
+        onClick={e => {
+          e.preventDefault();
+          store.condition.setJob(job);
+          history.pushState(history.state, document.title, location.href);
+        }}
+      >
         {schema.name}
         <Icon className="job-selector_icon" name="jobs/WHM" />
-      </span>
+      </a>
     </Ripple>
   );
 });

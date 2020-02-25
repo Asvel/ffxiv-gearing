@@ -70,7 +70,7 @@
   }
 
   if (data.job !== null) {
-    const importUrl = origin + '#import-' + encodeURIComponent(JSON.stringify(data));
+    const importUrl = origin + '?import-' + encodeURIComponent(JSON.stringify(data));
     console.log(importUrl);
     if (open(importUrl) === null) {
       prompt('Open this url to import.', importUrl);

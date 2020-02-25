@@ -81,9 +81,8 @@ const ConditionViewing = observer(() => {
         <Button
           className="condition_button"
           onClick={() => {
-            // TODO: check history event handlers
-            history.pushState(history.state, document.title, location.href.replace(/#.*$/, ''));
             store.startEditing();
+            history.pushState(null, document.title, location.href.replace(/\?.*$/, ''));  // TODO: recheck behavior
           }}
           children="编辑"
         />

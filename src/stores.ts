@@ -1,7 +1,7 @@
 import { observable, computed, autorun, reaction, action, runInAction } from 'mobx';
 // noinspection ES6UnusedImports
 import { types, Instance, SnapshotIn, SnapshotOut, ISimpleType, getParentOfType, resolveIdentifier, getIdentifier,
-  unprotect, applySnapshot, onSnapshot, onPatch } from "mobx-state-tree";
+  unprotect, getSnapshot, applySnapshot, onSnapshot, onPatch } from "mobx-state-tree";
 import * as G from './gear';
 import * as archive from './archive';
 import * as share from './share';
@@ -358,7 +358,7 @@ export const store = Store.create(archive.load());
 // unprotect(store);
 
 onSnapshot(store, snapshot => {
-  if (snapshot.mode !== 'view') {
+  if (snapshot.condition.job !== undefined && snapshot.mode !== 'view') {
     archive.save(snapshot);
   }
 });
@@ -367,27 +367,6 @@ onSnapshot(store, snapshot => {
 // autorun(() => console.log(store.share, store.share.length));
 
 const gearsetStore = observable.box<G.Gearset>(undefined, { deep: false });
-const parseHash = action(() => {  // location.hash react to gearsetStore
-  let hash = location.hash.slice(1);
-  let mode: Mode = 'edit';
-  if (hash in G.jobSchemas) {
-    store.condition.setJob(hash as G.Job);
-    history.replaceState(history.state, document.title, location.href.replace(/#.*$/, ''));
-  } else if (hash.startsWith('import-')) {
-    const gearset = JSON.parse(decodeURIComponent(hash.slice('import-'.length))) as G.Gearset;
-    location.hash = share.stringify(gearset);
-  } else if (hash.length > 3) {
-    mode = 'view';
-    const gearset = share.parse(hash);
-    for (const gear of gearset.gears) {
-      loadGearDataByGear(gear.id);
-    }
-    gearsetStore.set(gearset);
-  }
-  store.setMode(mode);
-});
-parseHash();
-window.addEventListener('hashchange', parseHash);
 autorun(() => {  // gearsetStore react to main store
   const gearset = gearsetStore.get();
   if (gearset === undefined) return;
@@ -412,6 +391,39 @@ autorun(() => {  // gearsetStore react to main store
   }
   applySnapshot(store, snapshot);
 });
+
+const parseQuery = () => {
+  let query = location.search.slice(1);
+  if (query in G.jobSchemas) {
+    store.condition.setJob(query as G.Job);
+    history.replaceState(history.state, document.title, location.href.replace(/\?.*$/, ''));
+  } else {
+    if (query.startsWith('import-')) {
+      const gearset = JSON.parse(decodeURIComponent(query.slice('import-'.length))) as G.Gearset;
+      query = share.stringify(gearset);
+      history.replaceState(history.state, document.title, location.href.replace(/\?.*$/, `?${query}`));
+    }
+    if (query.length > 3) {
+      const gearset = share.parse(query);
+      for (const gear of gearset.gears) {
+        loadGearDataByGear(gear.id);
+      }
+      gearsetStore.set(gearset);
+      store.setMode('view');
+    }
+  }
+};
+parseQuery();
+
+window.addEventListener('popstate', action(() => {
+  const archiveData = archive.load();
+  if (archiveData !== undefined) {
+    applySnapshot(store, archive.load());
+  } else {
+    applySnapshot(store, getSnapshot(Store.create()));
+    parseQuery();
+  }
+}));
 
 (window as any).store = store;
 (window as any).G = G;
