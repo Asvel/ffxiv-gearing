@@ -5,16 +5,15 @@
   margin-bottom: 10px;
 }
 .gears_item {
-  .app-edit & {
+  .app-edit &[data-id] {
     cursor: pointer;
   }
 }
-.gears_empty {
-  text-align: center;
-  color: #00000099;
-  &:hover {
-    background-color: transparent !important;
-  }
+.gears_inline-slot {
+  margin-right: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  vertical-align: top;
 }
 .gears_name {
   width: 300px;
@@ -38,6 +37,7 @@
 }
 .gears_level {
   float: right;
+  margin-left: 12px;
   line-height: 34px;
   margin-top: 2px;
   font-size: 12px;
@@ -62,6 +62,9 @@
   vertical-align: top;
   transform: scale(0.9);
   transform-origin: left;
+}
+.gears_empty {
+  color: #00000060;
 }
 
 .gears_materias {

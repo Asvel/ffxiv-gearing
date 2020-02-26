@@ -28,27 +28,59 @@ const Slot = observer<{ slot: G.Slot }>(({ slot }) => {
       </tr>
       </thead>
       <tbody>
-      {groupedGears ? groupedGears.map(gear => (
+      {groupedGears !== undefined ? groupedGears.map(gear => (
         <GearRow key={gear.id} gear={gear} />
       )) : (
-        <tr className="gears_empty">
-          <td colSpan={store.schema.stats.length + 2}>无匹配</td>
-        </tr>
+        <GearRow gear={undefined} />
       )}
       </tbody>
     </table>
   );
 });
 
-const GearRow = observer<{ gear: IGear }>(({ gear }) => {
+const SlotCompact = observer(() => {
   const store = useStore();
   return (
+    <table className="gears_slot table card">
+      <thead>
+      <tr>
+        <th className="gears_name-compact">装备</th>
+        <th className="gears_materias">魔晶石</th>
+        {store.schema.stats.map(stat => (
+          <th key={stat} className="gears_stat">
+            {G.statNames[stat]}
+          </th>
+        ))}
+      </tr>
+      </thead>
+      <tbody>
+      {store.schema.slots.map(slot => (
+        <GearRow key={slot.slot} gear={store.equippedGears.get(slot.slot.toString())} slotName={slot.name} />
+      ))}
+      </tbody>
+    </table>
+  );
+});
+
+const GearRow = observer<{ gear?: IGear, slotName?: string }>(({ gear, slotName }) => {
+  const store = useStore();
+  return gear === undefined ? (
+    <tr className="gears_item">
+      <td className="gears_name">
+        {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
+        <span className="gears_empty">{store.isViewing ? '无装备' : '无匹配'}</span>
+      </td>
+      <td className="gears_materias" />
+      <td colSpan={store.schema.stats.length}/>
+    </tr>
+  ): (
     <tr
       data-id={gear.id}
       className={classNames('gears_item', !store.isViewing && gear.isEquipped && '-selected')}
       onClick={store.isViewing ? undefined : () => store.equip(gear)}
     >
       <td className="gears_name">
+        {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
         {gear.name}{gear.hq && <Icon className="gears_hq" name="hq"/>}
         <Dropdown
           label={({ ref, toggle }) => (
@@ -75,7 +107,7 @@ const GearRow = observer<{ gear: IGear }>(({ gear }) => {
           )}
         >
           {gear.stats[stat]}
-          {gear.materiaStats[stat] && (
+          {gear.materiaStats[stat] && (  // FIXME
             <span className="gears_stat-materia">+{gear.materiaStats[stat]}</span>
           )}
         </td>
@@ -129,4 +161,4 @@ const GearMenu = observer<{ gear: IGear, toggle: () => void }>(({ gear, toggle }
   );
 });
 
-export { Slot };
+export { Slot, SlotCompact };

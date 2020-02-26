@@ -3,7 +3,7 @@ import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { IStore } from "../stores";
 import { StoreContext } from './context';
-import { Slot } from './slot';
+import { Slot, SlotCompact } from './slot';
 import { ConditionEditing, ConditionViewing } from './condition';
 import { Title } from './title';
 import { Summary } from './summary';
@@ -16,9 +16,13 @@ const App = observer<{ store: IStore }>(({ store }) => {
           {store.isViewing ? <ConditionViewing /> : <ConditionEditing />}
           {store.condition.job !== undefined && (
             <div className="gears">
-              {store.schema.slots.map(slot => (
-                <Slot key={slot.slot} slot={slot} />
-              ))}
+              {store.isViewing ? (
+                <SlotCompact />
+              ) : (
+                store.schema.slots.map(slot => (
+                  <Slot key={slot.slot} slot={slot}/>
+                ))
+              )}
             </div>
           )}
           <div className="sidebar">
