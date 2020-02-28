@@ -6,16 +6,11 @@ export interface Gear {
   level: number,
   slot: number,
   role: number,
-  jobs: Job[],
+  jobCategory: number,
   materiaSlot: number,
   materiaAdvanced: boolean
   stats: Stats,
   hq: boolean,
-  source: string,
-  external: {
-    lodestone: string,
-    xivdb: number,
-  },
 }
 
 export interface Gearset {
@@ -30,30 +25,31 @@ export interface Gearset {
 export const statNames = {
   STR: '力量',
   DEX: '灵巧',
-  VIT: '耐力',
   INT: '智力',
   MND: '精神',
-  PIE: '信仰',
-  TEN: '坚韧',
-  DHT: '直击',
+  VIT: '耐力',
   CRT: '暴击',
+  DHT: '直击',
   DET: '信念',
   SKS: '技速',
   SPS: '咏唱',
+  TEN: '坚韧',
+  PIE: '信仰',
   CMS: '作业精度',
   CRL: '加工精度',
   CP: '制作力',
   GTH: '获得力',
   PCP: '鉴别力',
   GP: '采集力',
-  WPN: '武器基本性能',
+  PDMG: '物理基本性能',
+  MDMG: '魔法基本性能',
   DLY: '攻击间隔',
 };
 export type Stat = keyof typeof statNames;
 export type Stats = { [index in Stat]?: number };
 
-const levelCaps = require('../data/levelCaps.json') as { [index in Stat | 'level']: number[] };
-const slotCaps = require('../data/slotCaps.json') as { [index in Stat]: number[] };
+const levelCaps = require('../data/levelCaps').default as { [index in Stat | 'level']: number[] };
+const slotCaps = require('../data/slotCaps').default as { [index in Stat]: number[] };
 const roleCaps = { VIT: [90,100,100,100,100,90,90,100,90,100,100,100,100] } as { [index in Stat]?: number[] };
 const levelCapsIndex: { [index: number]: number } = {};
 levelCaps.level.forEach((level, i) => levelCapsIndex[level] = i);
@@ -64,7 +60,7 @@ export function getCaps(gear: Gear): Stats {
   if (!(cacheKey in capsCache)) {
     let caps: Stats = {};
     for (const stat of Object.keys(statNames) as Stat[]) {
-      caps[stat] = (stat === 'WPN' || stat === 'DLY') ? Infinity : Math.round(
+      caps[stat] = (stat === 'PDMG' || stat === 'MDMG' || stat === 'DLY') ? Infinity : Math.round(
         levelCaps[stat][levelCapsIndex[level]] *
         slotCaps[stat][slot] *
         (roleCaps[stat]?.[role] ?? 100) /
@@ -239,6 +235,8 @@ export const jobSchemas = {
 };
 export type Job = keyof typeof jobSchemas;
 
+export const jobCategories = require('../data/jobCategories').default as { [index in Job]?: Boolean }[];
+
 export const statHighlight: { [index in Stat]?: boolean } = {
   PIE: true,
   TEN: true,
@@ -267,11 +265,6 @@ export const materias: { [index in Stat]?: number[] } = {
 export type MateriaGrade = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 export const materiaGrades: MateriaGrade[] = [8, 7, 6, 5, 4, 3, 2, 1];
 export const materiaGradesAdvanced: MateriaGrade[] = [7, 5, 4, 3, 2, 1];
-
-export function isMeldable(stat: Stat, materiaGrade: MateriaGrade, meldSlot: number, gearSlot: number): boolean {
-  let isMainStat = stat === 'VIT' || stat === 'STR' || stat === 'DEX' || stat === 'INT' || stat === 'MND';
-  return !(isMainStat && meldSlot > gearSlot || materiaGrade >= 6 && meldSlot > gearSlot + 1);
-}
 
 export const races = [
   '中原之民', '高地之民',

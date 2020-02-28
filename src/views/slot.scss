@@ -93,6 +93,11 @@
   height: 1px;
   margin: 8px 0;
   background-color: #0000001f;
+  &:first-child,
+  &:last-child,
+  & + & {
+    display: none;
+  }
 }
 .gear-menu_external {
   height: 1em;

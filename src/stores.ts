@@ -96,12 +96,9 @@ export const Gear = types
     get name() { return self.data.name; },
     get level() { return self.data.level; },
     get slot() { return self.id > 0 ? self.data.slot : -self.data.slot; },
-    get jobs() { return self.data.jobs; },
     get materiaSlot() { return self.data.materiaSlot; },
     get materiaAdvanced() { return self.data.materiaAdvanced; },
     get hq() { return self.data.hq; },
-    get source() { return self.data.source; },
-    // get external() { return self.data.external; },  TODO
     get caps(): G.Stats { return G.getCaps(self.data); },
     get bareStats(): G.Stats { return self.data.stats; },
     get materiaStats(): G.Stats {
@@ -315,7 +312,7 @@ export const Store = types
 export interface IStore extends Instance<typeof Store> {}
 
 export function isGearMatch(gear: G.Gear, c: ICondition) {
-  return c.job !== undefined && gear.level >= c.minLevel && gear.level <= c.maxLevel && gear.jobs.includes(c.job);
+  return gear.level >= c.minLevel && gear.level <= c.maxLevel && G.jobCategories[gear.jobCategory][c.job!];
 }
 
 export const gearData = observable.map<G.GearId, G.Gear>({}, { deep: false });
@@ -329,7 +326,7 @@ export const gearDataLoading = computed(() => {
 const loadGearData = async (groupId: number) => {
   if (gearDataLoadStatus.has(groupId)) return;
   runInAction(() => gearDataLoadStatus.set(groupId, 'loading'));
-  const data = (await import(/* webpackChunkName: "[request]" */`../data/gears-${groupId}.json`)).default as G.Gear[];
+  const data = (await import(/* webpackChunkName: "[request]" */`../data/gears-${groupId}`)).default as G.Gear[];
   runInAction(() => {
     for (const item of data) {
       if (!gearData.has(item.id)) {
@@ -339,18 +336,13 @@ const loadGearData = async (groupId: number) => {
     gearDataLoadStatus.set(groupId, 'finished');
   });
 };
-const equipLevelGroupBasis = [1, 50, 51, 60, 61, 70, 71, 80, Infinity];
-const gearGroups = require('../data/gearGroups.json');
+const gearGroups = require('../data/gearGroups').default as number[];
 const loadGearDataByGear = (gearId: G.GearId) => {
-  const groupId = equipLevelGroupBasis[gearGroups[gearId] - 1];
+  const groupId = gearGroups[gearId];
   if (groupId) loadGearData(groupId);
 };
-const loadGearDataByEquipLevel = (equipLevel: number) => {
-  const groupId = equipLevelGroupBasis[equipLevelGroupBasis.findIndex(v => v > equipLevel) - 1];
-  if (groupId) loadGearData(groupId);
-};
-// loadGearDataByEquipLevel(70);  // FIXME
-loadGearDataByEquipLevel(80);  // FIXME
+loadGearData(80);  // FIXME
+// TODO: loadGearDataByItemLevel
 
 export const store = Store.create(archive.load());
 // archive.load();

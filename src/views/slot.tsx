@@ -132,6 +132,12 @@ const GearMenu = observer<{ gear: IGear, toggle: () => void }>(({ gear, toggle }
         </div>
       </Ripple>
       <div className="gear-menu_divider" />
+      {gear.stats.PDMG !== undefined && <div className="gear-menu_item">物理基本性能：{gear.stats.PDMG}</div>}
+      {gear.stats.MDMG !== undefined && <div className="gear-menu_item">魔法基本性能：{gear.stats.MDMG}</div>}
+      {gear.stats.DLY !== undefined && (
+        <div className="gear-menu_item">攻击间隔：{(gear.stats.DLY / 1000).toFixed(2)}</div>
+      )}
+      <div className="gear-menu_divider" />
       <Ripple>
         <a
           className="gear-menu_item"
@@ -152,11 +158,6 @@ const GearMenu = observer<{ gear: IGear, toggle: () => void }>(({ gear, toggle }
           在 Garland Data 中查看 <Icon className="gear-menu_external" name="open-in-new" />
         </a>
       </Ripple>
-      {gear.stats.WPN !== undefined && <div className="gear-menu_divider" />}
-      {gear.stats.WPN !== undefined && <div className="gear-menu_item">武器基本性能：{gear.stats.WPN}</div>}
-      {gear.stats.DLY !== undefined && (
-        <div className="gear-menu_item">攻击间隔：{(gear.stats.DLY / 1000).toFixed(2)}</div>
-      )}
     </div>
   );
 });

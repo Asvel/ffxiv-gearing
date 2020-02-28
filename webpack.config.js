@@ -52,33 +52,8 @@ module.exports = function (env, argv) {
             },
           ],
         },
-        {
-          // Prevent webpack create getter/setter for these very large data
-          test: /gears-\d+\.json$/,
-          type: 'javascript/auto',
-          use: require('simple-functional-loader').createLoader(function(source) {
-            if (this.cacheable) this.cacheable();
-            let value = typeof source === "string" ? JSON.parse(source) : source;
-            value = JSON.stringify(value)
-              .replace(/\u2028/g, '\\u2028')
-              .replace(/\u2029/g, '\\u2029');
-            return `export default ${value}`;
-          }),
-        },
         { test: /\.png$/, use: 'file-loader' },
         { test: /\.svg$/, use: 'svg-sprite-loader' },
-        // {
-        //   test: /gears-.*\.json$/,
-        //   type: 'javascript/auto',
-        //   use: [
-        //     {
-        //       loader: 'file-loader',
-        //       options: {
-        //         name: '[path][name].[ext]',
-        //       },
-        //     }
-        //   ],
-        // },
       ]
     },
     plugins: [
