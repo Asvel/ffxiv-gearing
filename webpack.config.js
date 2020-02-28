@@ -99,6 +99,23 @@ module.exports = function (env, argv) {
     optimization: {
       moduleIds: 'hashed',
     },
+  }, {
+    mode: prod ? 'production' : 'none',
+    entry: './src/lodestone.js',
+    output: {
+      filename: prod ? 'lodestone.[contenthash].bundle.js' : 'lodestone.bundle.js',
+      path: __dirname + '/dist',
+      hashDigestLength: 8,
+    },
+    plugins: [
+      new HtmlWebpackPlugin({
+        filename: 'lodestone.html',
+        title: 'Redirecting...',
+      }),
+    ],
+    optimization: {
+      moduleIds: 'hashed',
+    },
   }];
 };
 

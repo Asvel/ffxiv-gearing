@@ -50,7 +50,7 @@
     const lodestoneIds = (await import(/* webpackChunkName: "import.ore" */'../data/lodestoneIds')).default;
     const lodestoneIdToItemId = {};
     for (let i = 0; i < lodestoneIds.length; i++) {
-      if (lodestoneIds[i] !== null) {
+      if (lodestoneIds[i] !== undefined) {
         lodestoneIdToItemId[lodestoneIds[i]] = i;
       }
     }

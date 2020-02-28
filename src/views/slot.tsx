@@ -158,6 +158,16 @@ const GearMenu = observer<{ gear: IGear, toggle: () => void }>(({ gear, toggle }
           在 Garland Data 中查看 <Icon className="gear-menu_external" name="open-in-new" />
         </a>
       </Ripple>
+      <Ripple>
+        <a
+          className="gear-menu_item"
+          href={`./lodestone?jp:${gear.id}`}
+          target="_blank"
+          tabIndex={0}
+        >
+          在 The Lodestone 中查看 <Icon className="gear-menu_external" name="open-in-new" />
+        </a>
+      </Ripple>
     </div>
   );
 });
