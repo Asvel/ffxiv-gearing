@@ -4,7 +4,7 @@ import * as classNames from 'classnames';
 import { Ripple } from '@rmwc/ripple';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../gear';
-import { IGear } from "../stores";
+import { IGearUnion, Gear, Food } from "../stores";
 import { useStore } from './context';
 import { Icon } from './icon';
 import { IconButton } from './icon-button';
@@ -19,7 +19,7 @@ const Slot = observer<{ slot: G.Slot }>(({ slot }) => {
       <thead>
       <tr>
         <th className="gears_name">{slot.name}</th>
-        <th className="gears_materias">魔晶石</th>
+        <th className="gears_materias">{slot.slot === -1 ? '利用率' : '魔晶石'}</th>
         {store.schema.stats.map(stat => (
           <th key={stat} className="gears_stat">
             {G.statNames[stat]}
@@ -62,7 +62,7 @@ const SlotCompact = observer(() => {
   );
 });
 
-const GearRow = observer<{ gear?: IGear, slotName?: string }>(({ gear, slotName }) => {
+const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slotName }) => {
   const store = useStore();
   return gear === undefined ? (
     <tr className="gears_item">
@@ -76,7 +76,11 @@ const GearRow = observer<{ gear?: IGear, slotName?: string }>(({ gear, slotName 
   ): (
     <tr
       data-id={gear.id}
-      className={classNames('gears_item', !store.isViewing && gear.isEquipped && '-selected')}
+      className={classNames(
+        'gears_item',
+        Food.is(gear) && '-food',
+        !store.isViewing && gear.isEquipped && '-selected'
+      )}
       onClick={store.isViewing ? undefined : () => store.equip(gear)}
     >
       <td className="gears_name">
@@ -94,20 +98,34 @@ const GearRow = observer<{ gear?: IGear, slotName?: string }>(({ gear, slotName 
         <span className="gears_level">il{gear.level}</span>
       </td>
       <td className="gears_materias">
-        {gear.materias.map((materia, i) => (
+        {Gear.is(gear) && gear.materias.map((materia, i) => (
           <Materia key={i} materia={materia} />
         ))}
+        {Food.is(gear) && (
+          store.isViewing ? (
+            <span className="gears_food-utilization">利用率{gear.utilization}%</span>
+          ) : (
+            <span
+              className={classNames('gears_food-utilization', gear.utilization === 100 && '-full')}
+              style={{ opacity: gear.utilizationOpacity }}
+            >{gear.utilization}%</span>
+          )
+        )}
       </td>
       {store.schema.stats.map(stat => (
-        <td
-          key={stat}
-          className={classNames(
-            'gears_stat',
-            G.statHighlight[stat] && (gear.bareStats[stat] ?? 0) >= (gear.caps[stat] ?? Infinity) && '-full'
+        <td key={stat} className="gears_stat">
+          <span className={classNames('gears_stat-value', gear.statHighlights[stat] && '-full')}>
+            {gear.stats[stat]}
+          </span>
+          {!store.isViewing && stat !== 'VIT' && Food.is(gear) && gear.requiredStats[stat] && (
+            <span
+              className={classNames(
+                'gears_stat-required',
+                store.equippedStatsWithoutFood[stat]! >= gear.requiredStats[stat]! && '-enough'
+              )}
+            >{gear.requiredStats[stat]}+</span>
           )}
-        >
-          {gear.stats[stat]}
-          {gear.materiaStats[stat] && (  // FIXME
+          {Gear.is(gear) && gear.materiaStats[stat] && (  // FIXME
             <span className="gears_stat-materia">+{gear.materiaStats[stat]}</span>
           )}
         </td>
@@ -116,7 +134,7 @@ const GearRow = observer<{ gear?: IGear, slotName?: string }>(({ gear, slotName 
   );
 });
 
-const GearMenu = observer<{ gear: IGear, toggle: () => void }>(({ gear, toggle }) => {
+const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, toggle }) => {
   const store = useStore();
   return (
     <div className="gear-menu card">

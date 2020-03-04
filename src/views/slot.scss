@@ -1,5 +1,11 @@
 @import "./mixins";
 
+.gears {
+  .app-edit & {
+    margin-bottom: 80vh;
+  }
+}
+
 .gears_slot {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -43,12 +49,40 @@
   font-size: 12px;
   color: #00000060;
 }
-.gears_stat {
-  text-align: center;
-  width: 60px;
+.gears_materias {
+  position: relative;
+  z-index: 0;
+  width: 247px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-left: $table-border;
+  border-right: $table-border;
+}
+.gears_food-utilization {
+  margin-left: 4px;
   &.-full {
     font-weight: bold;
   }
+}
+.gears_stat {
+  text-align: center;
+  width: 60px;
+  .gears_item.-food & {
+    line-height: 1;
+  }
+}
+.gears_stat-value {
+  &.-full {
+    font-weight: bold;
+  }
+}
+.gears_stat-required {
+  display: block;
+  margin-bottom: -2px;
+  font-size: 12px;
+  line-height: 8px;
+  color: rgba(0, 0, 0, .54);
+  transform: scale(.9);
 }
 .gears_stat-materia {
   position: relative;
@@ -65,16 +99,6 @@
 }
 .gears_empty {
   color: #00000060;
-}
-
-.gears_materias {
-  position: relative;
-  z-index: 0;
-  width: 247px;
-  padding-left: 13px;
-  padding-right: 13px;
-  border-left: $table-border;
-  border-right: $table-border;
 }
 
 .gear-menu {

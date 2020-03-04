@@ -1,16 +1,22 @@
 export type GearId = number & { readonly brand: unique symbol };
 
-export interface Gear {
+export interface GearBase {
   id: GearId,
   name: string,
   level: number,
   slot: number,
-  role: number,
   jobCategory: number,
+  stats: Stats,
+}
+export interface Gear extends GearBase {
+  role: number,
   materiaSlot: number,
   materiaAdvanced: boolean
-  stats: Stats,
   hq: boolean,
+}
+export interface Food extends GearBase {
+  statRates: Stats,
+  statMain: Stat,
 }
 
 export interface Gearset {
@@ -94,6 +100,7 @@ const commonSlotSchema = [
   { slot: 11, name: '手镯' },
   { slot: 12, name: '戒指' },
   { slot: -12, name: '戒指' },
+  { slot: -1, name: '食物' },
 ];
 const battleJobSlotSchema = [{ slot: 13, name: '武器' }].concat(commonSlotSchema);
 export type Slot = (typeof commonSlotSchema)[number];
@@ -235,7 +242,7 @@ export const jobSchemas = {
 };
 export type Job = keyof typeof jobSchemas;
 
-export const jobCategories = require('../data/jobCategories').default as { [index in Job]?: Boolean }[];
+export const jobCategories = require('../data/jobCategories').default as { [index in Job]?: boolean }[];
 
 export const statHighlight: { [index in Stat]?: boolean } = {
   PIE: true,

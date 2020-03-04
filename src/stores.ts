@@ -14,6 +14,14 @@ declare global {
   }
 }
 
+declare module 'mobx-state-tree' {
+  // noinspection JSUnusedGlobalSymbols
+  interface IType<C, S, T> {
+    // Use .is only on instance
+    is(thing: any): thing is this["Type"];
+  }
+}
+
 export type Mode = 'edit' | 'view';
 
 export const Job = types.string as ISimpleType<G.Job>;
@@ -23,10 +31,10 @@ export const MateriaGrade = types.number as ISimpleType<G.MateriaGrade>;
 
 export const Condition = types
   .model('Condition', {
-    version: types.optional(types.number, 420),
+    version: types.optional(types.number, 505),
     job: types.maybe(Job),
-    minLevel: types.optional(types.number, 350),
-    maxLevel: types.optional(types.number, 375),
+    minLevel: types.optional(types.number, 440),
+    maxLevel: types.optional(types.number, 470),
   })
   .views(self => ({
     get versionString(): string {
@@ -85,11 +93,8 @@ export const Gear = types
   })
   .views(self => ({
     get data() {
-      if (!gearData.has(Math.abs(self.id))) {
-        debugger;
-        throw ReferenceError(`Gear ${self.id} not exists.`);
-      }
-      return gearData.get(Math.abs(self.id))!;
+      if (!gearData.has(Math.abs(self.id))) throw ReferenceError(`Gear ${self.id} not exists.`);
+      return gearData.get(Math.abs(self.id))! as G.Gear;
     },
   }))
   .views(self => ({
@@ -102,38 +107,45 @@ export const Gear = types
     get caps(): G.Stats { return G.getCaps(self.data); },
     get bareStats(): G.Stats { return self.data.stats; },
     get materiaStats(): G.Stats {
-      let stats: G.Stats = {};
+      const stats: G.Stats = {};
       for (const materia of self.materias) {
         if (materia.stat !== undefined) {
-          let materiaValue = G.materias[materia.stat]![materia.grade! - 1];
+          const materiaValue = G.materias[materia.stat]![materia.grade! - 1];
           stats[materia.stat] = (stats[materia.stat] ?? 0) + materiaValue;
         }
       }
       return stats;
     },
     get stats(): G.Stats {
-      let stats: G.Stats = {};
+      const stats: G.Stats = {};
       for (const stat of Object.keys(this.bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
         stats[stat] = Math.min((this.bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0), this.caps[stat]);
       }
       return stats;
     },
     get totalMeldableStats(): G.Stats {
-      let stats: G.Stats = {};
+      const stats: G.Stats = {};
       for (const stat of Object.keys(this.caps) as G.Stat[]) {
         stats[stat] = this.caps[stat] - (this.bareStats[stat] ?? 0);
       }
       return stats;
     },
     get currentMeldableStats(): G.Stats {
-      let stats: G.Stats = {};
+      const stats: G.Stats = {};
       for (const stat of Object.keys(this.caps) as G.Stat[]) {
         stats[stat] = this.totalMeldableStats[stat] - (this.materiaStats[stat] ?? 0);
       }
       return stats;
     },
+    get statHighlights(): { [index in G.Stat]?: Boolean } {
+      const ret: { [index in G.Stat]?: Boolean } = {};
+      for (const stat of Object.keys(this.bareStats) as G.Stat[]) {
+        ret[stat] = G.statHighlight[stat] && (this.bareStats[stat] ?? 0) >= (this.caps[stat] ?? Infinity);
+      }
+      return ret;
+    },
     get isEquipped(): boolean {
-      let store = getParentOfType(self, Store);
+      const store = getParentOfType(self, Store);
       return store.equippedGears.get(this.slot.toString()) === self;
     }
   }))
@@ -150,9 +162,82 @@ export const Gear = types
   }));
 export interface IGear extends Instance<typeof Gear> {}
 
-export const GearReference = types.maybe(types.reference(Gear, {
+export const Food = types
+  .model('Food', {
+    id: GearId,
+  })
+  .views(self => ({
+    get data() {
+      if (!gearData.has(self.id)) throw ReferenceError(`Food ${self.id} not exists.`);
+      return gearData.get(self.id)! as G.Food;
+    },
+  }))
+  .views(self => ({
+    get name() { return self.data.name; },
+    get level() { return self.data.level; },
+    get slot() { return self.data.slot; },
+    get hq() { return true; },
+    get stats(): G.Stats { return self.data.stats; },
+    get statRates(): G.Stats { return self.data.statRates; },
+    get requiredStats(): G.Stats {
+      const stats: G.Stats = {};
+      for (const stat of Object.keys(this.stats) as G.Stat[]) {
+        const statRate = this.statRates[stat];
+        if (statRate !== undefined) {
+          stats[stat] = Math.ceil(this.stats[stat] * 100 / statRate);
+        }
+      }
+      return stats;
+    },
+    get effectiveStats(): G.Stats {
+      const store = getParentOfType(self, Store);
+      const stats: G.Stats = {};
+      for (const stat of Object.keys(this.stats) as G.Stat[]) {
+        const equippedStat = store.equippedStatsWithoutFood[stat] ?? 1;
+        const statRate = this.statRates[stat] ?? Infinity;
+        stats[stat] = Math.min(this.stats[stat], Math.floor(equippedStat * statRate / 100));
+      }
+      return stats;
+    },
+    get statHighlights(): { [index in G.Stat]?: Boolean } {
+      return {
+        [self.data.statMain]: true,
+      };
+    },
+    get utilization(): number {
+      let fullStat = 0;
+      let effectiveStat = 0;
+      for (const stat of Object.keys(this.stats) as G.Stat[]) {
+        fullStat += this.stats[stat];
+        effectiveStat += this.effectiveStats[stat];
+      }
+      return Math.round(effectiveStat / fullStat * 100);
+    },
+    get utilizationOpacity(): number {
+      return Math.max(0.2, Math.pow(this.utilization / 100, 2));
+    },
+    get isEquipped(): boolean {
+      const store = getParentOfType(self, Store);
+      return store.equippedGears.get('-1') === self;
+    }
+  }));
+export interface IFood extends Instance<typeof Food> {}
+
+const GearUnion = types.union({
+  dispatcher: snapshot => {
+    const gear =  gearData.get(Math.abs(snapshot.id));
+    if (gear !== undefined) {
+      if (snapshot.materias !== undefined && gear.slot === -1) delete snapshot.materias;
+      return gear.slot !== -1 ? Gear : Food;
+    } else {
+      return snapshot.materias !== undefined ? Gear : Food;
+    }
+  },
+}, Gear, Food);
+export type IGearUnion = IGear | IFood;
+export const GearUnionReference = types.maybe(types.reference(GearUnion, {
   get(identifier, parent): any {
-    let value = parent ? resolveIdentifier(Gear, parent, identifier) : undefined;
+    const value = parent ? resolveIdentifier(GearUnion, parent, identifier) : undefined;
     return value && gearData.has(Math.abs(value.id)) ? value : undefined;
   },
   set(value): any {
@@ -164,8 +249,8 @@ export const Store = types
   .model('Store', {
     mode: types.optional(types.string as ISimpleType<Mode>, 'edit'),
     condition: types.optional(Condition, {}),
-    gears: types.map(Gear),
-    equippedGears: types.map(GearReference),
+    gears: types.map(GearUnion),
+    equippedGears: types.map(GearUnionReference),
     race: 5,  // TODO: global
   })
   .views(self => {
@@ -177,9 +262,13 @@ export const Store = types
         if (self.mode === 'view') {
           return Array.from(self.gears.keys(), id => Number(id) as G.GearId);
         }
-        let ret: G.GearId[] = [];
+        const ret: G.GearId[] = [];
         for (const gear of gearData.values()) {
-          if (isGearMatch(gear, self.condition)) {
+          let { job, minLevel, maxLevel } = self.condition;
+          if (gear.slot === -1) {
+            minLevel -= 35;  // TODO: craft and gather foods
+          }
+          if (gear.level >= minLevel && gear.level <= maxLevel && G.jobCategories[gear.jobCategory][job!]) {
             ret.push(gear.id);
             if (gear.slot === 12) {
               ret.push(-gear.id as G.GearId);
@@ -196,16 +285,16 @@ export const Store = types
   })
   .views(self => ({
     get isLoading(): boolean {
-      return gearData.size === 0;
+      return gearDataLoading.get();
     },
     get isViewing(): boolean {
       return self.mode === 'view';
     },
-    get groupedGears(): { [index: number]: IGear[] | undefined } {
+    get groupedGears(): { [index: number]: IGearUnion[] | undefined } {
       console.log('groupedGears');
-      let ret: { [index: number]: IGear[] } = {};
+      const ret: { [index: number]: IGearUnion[] } = {};
       for (const gearId of self.filteredIds) {
-        let gear = self.gears.get(gearId.toString())!;
+        const gear = self.gears.get(gearId.toString())!;
         if (!(gear.slot in ret)) {
           ret[gear.slot] = [];
         }
@@ -213,22 +302,34 @@ export const Store = types
       }
       return ret;
     },
-    get equippedStats(): G.Stats {
-      console.log('equippedStats');
+    get equippedStatsWithoutFood(): G.Stats {
       if (self.condition.job === undefined) return {};
-      let stats: G.Stats = Object.assign({}, G.jobSchemas[self.condition.job].baseStats);
+      const stats: G.Stats = Object.assign({}, G.jobSchemas[self.condition.job].baseStats);
       for (const stat of Object.keys(G.raceStats) as G.Stat[]) {
         stats[stat] = stats[stat]! + G.raceStats[stat]![self.race];
       }
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined) continue;
-        for (const stat of Object.keys(gear.stats) as G.Stat[]) {
-          stats[stat] = stats[stat]! + gear.stats[stat]!;
+        if (Gear.is(gear)) {
+          for (const stat of Object.keys(gear.stats) as G.Stat[]) {
+            stats[stat] = stats[stat]! + gear.stats[stat]!;
+          }
         }
       }
       return stats;
     },
-    isEquipped(gear: IGear): boolean {
+    get equippedStats(): G.Stats {
+      console.log('equippedStats');
+      if (self.condition.job === undefined) return {};
+      const equippedFood = self.equippedGears.get('-1') as IFood;
+      if (equippedFood === undefined) return this.equippedStatsWithoutFood;
+      const stats: G.Stats = {};
+      for (const stat of Object.keys(this.equippedStatsWithoutFood) as G.Stat[]) {
+        stats[stat] = this.equippedStatsWithoutFood[stat] + (equippedFood.effectiveStats[stat] ?? 0);
+      }
+      return stats;
+    },
+    isEquipped(gear: IGearUnion): boolean {
       return self.equippedGears.get(gear.slot.toString()) === gear;
     },
     get schema(): typeof G.jobSchemas[G.Job] {
@@ -264,7 +365,7 @@ export const Store = types
         if (gear === undefined) continue;
         gears.push({
           id: gear.data.id,
-          materias: gear.materias.map(m => m.stat !== undefined ? [m.stat, m.grade!] : null),
+          materias: Gear.is(gear) ? gear.materias.map(m => m.stat !== undefined ? [m.stat, m.grade!] : null) : [],
         });
       }
       return share.stringify({ job, level, gears });
@@ -275,7 +376,7 @@ export const Store = types
       console.log('createGears');
       for (const gearId of self.filteredIds) {
         if (!self.gears.has(gearId.toString())) {
-          self.gears.put(Gear.create({ id: gearId }));
+          self.gears.put(GearUnion.create({ id: gearId }));
         }
       }
     },
@@ -295,8 +396,8 @@ export const Store = types
       store.condition.minLevel = minLevel;
       store.condition.maxLevel = maxLevel;
     },
-    equip(gear: IGear): void {
-      let key = gear.slot.toString();
+    equip(gear: IGearUnion): void {
+      const key = gear.slot.toString();
       if (self.equippedGears.get(key) === gear) {
         self.equippedGears.delete(key);
       } else {
@@ -311,22 +412,19 @@ export const Store = types
   }));
 export interface IStore extends Instance<typeof Store> {}
 
-export function isGearMatch(gear: G.Gear, c: ICondition) {
-  return gear.level >= c.minLevel && gear.level <= c.maxLevel && G.jobCategories[gear.jobCategory][c.job!];
-}
-
-export const gearData = observable.map<G.GearId, G.Gear>({}, { deep: false });
-const gearDataLoadStatus = observable.map<number, 'loading' | 'finished'>({});  // TODO: handle failures
+export const gearData = observable.map<G.GearId, G.GearBase>({}, { deep: false });
+const gearDataLoadStatus = observable.map<string, 'loading' | 'finished'>({});  // TODO: handle failures
 export const gearDataLoading = computed(() => {
   for (const status of gearDataLoadStatus.values()) {
     if (status === 'loading') return true;
   }
   return false;
 });
-const loadGearData = async (groupId: number) => {
+const loadGearData = async (groupId: string) => {
   if (gearDataLoadStatus.has(groupId)) return;
   runInAction(() => gearDataLoadStatus.set(groupId, 'loading'));
-  const data = (await import(/* webpackChunkName: "[request]" */`../data/gears-${groupId}`)).default as G.Gear[];
+  const data = (await import(/* webpackChunkName: "[request]" */`../data/gears-${groupId}`)).default as G.GearBase[];
+  console.log(`gears-${groupId}`);
   runInAction(() => {
     for (const item of data) {
       if (!gearData.has(item.id)) {
@@ -339,9 +437,10 @@ const loadGearData = async (groupId: number) => {
 const gearGroups = require('../data/gearGroups').default as number[];
 const loadGearDataByGear = (gearId: G.GearId) => {
   const groupId = gearGroups[gearId];
-  if (groupId) loadGearData(groupId);
+  if (groupId) loadGearData(groupId.toString());
 };
-loadGearData(80);  // FIXME
+loadGearData('food');
+loadGearData('80');  // FIXME
 // TODO: loadGearDataByItemLevel
 
 export const store = Store.create(archive.load());
