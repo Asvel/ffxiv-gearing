@@ -1,0 +1,21 @@
+@import "./mixins";
+
+.about {
+  margin-bottom: 10px;
+  line-height: 20px;
+  text-align: center;
+  color: #00000080;
+}
+.about_separator {
+  margin: 0 4px;
+}
+.about_version {
+  margin-left: 4px;
+}
+.about_link {
+  color: #00000080;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

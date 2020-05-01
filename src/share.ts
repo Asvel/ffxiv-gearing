@@ -141,7 +141,7 @@ export function parse(s: string): G.Gearset {
     if (materiaCode > 0) {
       materiaCode -= 1;
       let grade = materiaCode % ranges.materiaGrade + 1;
-      let stat = job.stats[Math.floor(materiaCode / ranges.materiaGrade)];
+      let stat = job.stats[Math.floor(materiaCode / ranges.materiaGrade + 1e-7)];
       return [stat, grade] as [G.Stat, G.MateriaGrade];
     } else {
       return null;

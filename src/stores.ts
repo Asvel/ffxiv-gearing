@@ -195,7 +195,7 @@ export const Food = types
       for (const stat of Object.keys(this.stats) as G.Stat[]) {
         const equippedStat = store.equippedStatsWithoutFood[stat] ?? 1;
         const statRate = this.statRates[stat] ?? Infinity;
-        stats[stat] = Math.min(this.stats[stat], Math.floor(equippedStat * statRate / 100));
+        stats[stat] = Math.min(this.stats[stat], Math.floor(equippedStat * statRate / 100 + 1e-7));
       }
       return stats;
     },
@@ -302,12 +302,24 @@ export const Store = types
       }
       return ret;
     },
+    get baseStats(): G.Stats {
+      if (self.condition.job === undefined) return {};
+      const levelModifier = G.levelModifiers[80];  // FIXME
+      const stats: G.Stats = { PDMG: 0, MDMG: 0 };
+      for (const stat of this.schema.stats as G.Stat[]) {
+        const baseStat = G.baseStats[stat] ?? 0;
+        if (typeof baseStat === 'number') {
+          stats[stat] = baseStat;
+        } else {
+          stats[stat] = Math.floor(levelModifier[baseStat] * (this.schema.statModifiers[stat] ?? 100) / 100 + 1e-7) +
+            (stat === this.schema.mainStat ? 48 : 0) + (G.raceStats[stat]?.[self.race] ?? 0);
+        }
+      }
+      return stats;
+    },
     get equippedStatsWithoutFood(): G.Stats {
       if (self.condition.job === undefined) return {};
-      const stats: G.Stats = Object.assign({}, G.jobSchemas[self.condition.job].baseStats);
-      for (const stat of Object.keys(G.raceStats) as G.Stat[]) {
-        stats[stat] = stats[stat]! + G.raceStats[stat]![self.race];
-      }
+      const stats: G.Stats = Object.assign({}, this.baseStats);
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined) continue;
         if (Gear.is(gear)) {
@@ -329,6 +341,13 @@ export const Store = types
       }
       return stats;
     },
+    get equippedLevel(): number {
+      let level = 0;
+      for (let slot of this.schema.slots) {
+        level += (self.equippedGears.get(slot.slot)?.level ?? 0) * (slot.levelWeight ?? 1);
+      }
+      return Math.floor(level / 13);
+    },
     isEquipped(gear: IGearUnion): boolean {
       return self.equippedGears.get(gear.slot.toString()) === gear;
     },
@@ -343,17 +362,29 @@ export const Store = types
   .views(self => ({
     get equippedEffects() {
       console.log('equippedEffects');
-      return {
-        crtRate: G.statEffect.crtRate(self.equippedStats.CRT!),
-        crtDamage: G.statEffect.crtDamage(self.equippedStats.CRT!),
-        detDamage: G.statEffect.detDamage(self.equippedStats.DET!),
-        dhtRate: G.statEffect.dhtRate(self.equippedStats.DHT!),
-        tenDamage: G.statEffect.tenDamage(self.equippedStats.TEN!),
-        gcd: G.statEffect.gcd(self.equippedStats.SPS!),  // FIXME: or SKS
-        ssDamage: G.statEffect.ssDamage(self.equippedStats.SPS!),  // FIXME: or SKS
-        hp: G.statEffect.hp(self.equippedStats.VIT!, self.schema.hpModifier),
-        mp: G.statEffect.mp(self.equippedStats.PIE!, self.schema.mpModifier),
-      };
+      const levelMod = G.levelModifiers[80];  // FIXME
+      const { main, sub, div } = levelMod;
+      const { CRT, DET, DHT, TEN, SKS, SPS, VIT, PIE, PDMG, MDMG } = self.equippedStats;
+      const { statModifiers, mainStat, traitDamageMultiplier } = self.schema;
+      const attackMainStat = mainStat === 'VIT' ? 'STR' : mainStat as G.Stat;
+      const crtChance = Math.floor(200 * (CRT! - sub) / div + 50) / 1000;
+      const crtDamage = Math.floor(200 * (CRT! - sub) / div + 1400) / 1000;
+      const detDamage = Math.floor(130 * (DET! - sub) / div + 1000) / 1000;
+      const dhtChance = Math.floor(550 * (DHT! - main) / div) / 1000;
+      const tenDamage = Math.floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
+      const weaponDamage = Math.floor(main * statModifiers[attackMainStat as keyof typeof statModifiers] / 1000) +
+        ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0);
+      const mainDamage = Math.floor(statModifiers.ap *
+        ((self.equippedStats[attackMainStat] ?? 0) - main) / main + 100) / 100;
+      const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier
+        * ((crtDamage - 1) * crtChance + 1) * (0.25 * dhtChance + 1);
+      const gcd = Math.floor((1000 - Math.floor(130 * ((SKS || SPS)! - sub) / div)) / 1000 * 250) / 100;
+      const ssDamage = Math.floor(130 * ((SKS || SPS)! - sub) / div + 1000) / 1000;
+      const hp = Math.floor(levelMod.hp * statModifiers.hp / 100 +
+        (mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) *
+        (VIT! - levelMod.main) + 1e-7);
+      const mp = Math.floor(200 + (PIE! - levelMod.main) / 22);
+      return { crtChance, crtDamage, detDamage, dhtChance, tenDamage, damage, gcd, ssDamage, hp, mp };
     },
     get share(): string {
       const { job } =  self.condition;

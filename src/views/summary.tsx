@@ -8,22 +8,28 @@ const Summary = observer(() => {
   const effects = store.equippedEffects;
   return (
     <div className="summary card">
-      {/*<div className="summary_title">总属性</div>*/}
-      {/*<div className="divider" />*/}
-      <div className="summary_race">{store.raceName}</div>
+      <span className="summary_left">
+        <span className="summary_race">{store.raceName}</span>
+        {store.equippedLevel}
+        <span className="summary_stat summary_damage">
+        {store.equippedEffects.damage.toFixed(5)}
+          <div className="summary_stat-name">每威力伤害期望</div>
+      </span>
+      </span>
+      <span className="summary_divider" />
       {store.schema.stats.map(stat => (
-        <div key={stat} className="summary_stat">
-          <div className="summary_stat-name">{G.statNames[stat]}</div>
-          <span className="summary_stat-value">{store.equippedStats[stat]}</span>
-          <span className="summary_stat-effect">
-              {stat === 'CRT' && <span><i />{effects.crtRate}%<i />×{effects.crtDamage}</span>}
-            {stat === 'DET' && <span><i />×{effects.detDamage}</span>}
-            {stat === 'DHT' && <span><i />{effects.dhtRate}%</span>}
-            {stat === 'SPS' && <span><i />{effects.gcd}s<i />×{effects.ssDamage}</span>}
-            {stat === 'PIE' && <span><i />{effects.mp} MP</span>}
-            {stat === 'VIT' && <span><i />{effects.hp} HP</span>}
-            </span>
-        </div>
+        <span key={stat} className="summary_stat">
+          {store.equippedStats[stat]}
+          {stat === 'SKS' || stat === 'SPS' ? (
+            <div className="summary_stat-effect">{effects.gcd}s</div>
+          ) : stat === 'VIT' ? (
+            <div className="summary_stat-effect">{effects.hp}<span className="summary_stat-small">HP</span></div>
+          ) : stat === 'PIE' ? (
+            <div className="summary_stat-effect">{effects.mp}<span className="summary_stat-small">MP</span>/3s</div>
+          ) : (
+            <div className="summary_stat-name">{G.statNames[stat]}</div>
+          )}
+        </span>
       ))}
     </div>
   );

@@ -1,37 +1,52 @@
 @import "./mixins";
 
 .summary {
-  position: relative;
-  margin-top: 10px;
-  padding: 16px 0;
-}
-.summary_race {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  line-height: 24px;
-}
-.summary_stat {
-  padding: 0 16px;
-  line-height: 24px;
-  &:not(:last-child) {
-    margin-bottom: 8px;
+  @include mdc-elevation(4);
+  position: fixed;
+  bottom: 0;
+  padding: 0 12px;
+  margin-left: -12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  > span {
+    display: inline-block;
+    vertical-align: top;
   }
+}
+
+.summary_divider {
+  display: none;
+  + * {
+    border-left: $table-border;
+  }
+}
+
+.summary_left {
+  width: 547px;
+}
+
+.summary_damage {
+  float: right;
+  width: 120px;
+}
+
+.summary_stat {
+  width: 60px;
+  padding-top: 9px;
+  padding-bottom: 4px;
+  line-height: 18px;
+  text-align: center;
 }
 .summary_stat-name {
-  font-weight: bold;
-}
-.summary_stat-value {
-  //display: inline-block;
-  //white-space: nowrap;
-  //width: 40px;
-  //font-weight: bold;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.65);
 }
 .summary_stat-effect {
-  color: #00000099;
-  i:before {
-    content: "/";
-    margin: 0 8px;
-    font-style: normal;
-  }
+  font-size: 12px;
+  white-space: nowrap;
+}
+.summary_stat-small {
+  display: inline-block;
+  margin: 0 -2px;
+  transform: scale(.83) translateY(1px);
 }

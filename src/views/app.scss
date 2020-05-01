@@ -7,10 +7,11 @@
 @import "./mixins";
 
 body {
-  cursor: auto;
-  background-color: #f2f2f2;
   overflow-x: auto;
   overflow-y: scroll;
+  text-align: center;
+  background-color: #f2f2f2;
+  cursor: auto;
 }
 
 svg {
@@ -19,14 +20,16 @@ svg {
 }
 
 .app {
-  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 48px;
   font-size: 14px;
   font-family: // TODO: recheck fonts
     Helvetica Neue, Helvetica, Arial,
     PingFang SC, Hiragino Sans GB, Microsoft YaHei, \5FAE\8F6F\96C5\9ED1,
     sans-serif;
   /*line-height: 1.4286;*/
-  text-align: center;
+  text-align: initial;
   color: #000000de;
 }
 
@@ -66,34 +69,9 @@ svg {
   }
 }
 
-.app_inner {
-  position: relative;
-  display: inline-block;
-  padding-right: 250px;
-  text-align: initial;
-}
-.sidebar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 250px;
-}
-.sidebar_inner {
-  position: fixed;
-  top: 0;
-  width: 250px;
-  padding-left: 10px;
-  transform: translate3d(0, 0, 0);
-}
-
-.divider {
-  height: 1px;
-  background-color: #0000001e;
-}
-
 @import "./job-selector";
 @import "./slot";
 @import "./materia";
 @import "./condition";
-@import "./title";
 @import "./summary";
+@import "./about";
