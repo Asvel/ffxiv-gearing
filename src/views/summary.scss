@@ -24,12 +24,6 @@
 .summary_left {
   width: 547px;
 }
-
-.summary_damage {
-  float: right;
-  width: 120px;
-}
-
 .summary_stat {
   width: 60px;
   padding-top: 9px;
@@ -49,4 +43,8 @@
   display: inline-block;
   margin: 0 -2px;
   transform: scale(.83) translateY(1px);
+}
+.summary_damage {
+  float: right;
+  width: 120px;
 }

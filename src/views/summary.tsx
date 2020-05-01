@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
-import * as G from '../gear';
+import * as G from '../game';
 import { useStore } from './context';
 
 const Summary = observer(() => {

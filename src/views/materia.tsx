@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
-import * as G from '../gear';
+import * as G from '../game';
 import { IMateria } from "../stores";
 import { useStore } from './context';
 import { Dropdown } from './dropdown';

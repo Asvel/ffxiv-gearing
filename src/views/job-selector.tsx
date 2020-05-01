@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import { Ripple } from '@rmwc/ripple';
-import * as G from '../gear';
+import * as G from '../game';
 import { useStore } from './context';
 import { Icon } from './icon';
 

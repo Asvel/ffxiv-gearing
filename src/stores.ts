@@ -2,7 +2,7 @@ import { observable, computed, autorun, reaction, action, runInAction } from 'mo
 // noinspection ES6UnusedImports
 import { types, Instance, SnapshotIn, SnapshotOut, ISimpleType, getParentOfType, resolveIdentifier, getIdentifier,
   unprotect, getSnapshot, applySnapshot, onSnapshot, onPatch } from "mobx-state-tree";
-import * as G from './gear';
+import * as G from './game';
 import * as archive from './archive';
 import * as share from './share';
 

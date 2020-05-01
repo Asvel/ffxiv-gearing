@@ -3,7 +3,7 @@ import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Ripple } from '@rmwc/ripple';
 import Clipboard from 'react-clipboard.js';
-import * as G from '../gear';
+import * as G from '../game';
 import { IGearUnion, Gear, Food } from "../stores";
 import { useStore } from './context';
 import { Icon } from './icon';

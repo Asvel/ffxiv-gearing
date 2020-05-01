@@ -1,5 +1,5 @@
 import * as BI from './utils/BigInteger';
-import * as G from './gear';
+import * as G from './game';
 
 const permanentIndexes: { job: G.Job, stats: G.Stat[] }[] = [
   { job: 'PLD', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
