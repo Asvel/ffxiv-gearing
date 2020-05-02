@@ -8,7 +8,6 @@ import { Dropdown } from './dropdown';
 
 const Materia = observer<{ materia: IMateria }>(({ materia }) => {
   const store = useStore();
-  const popperModifiers = React.useMemo(() => ({ offset: { offset: '-96px, 0' } }), []);
   return (
     <Dropdown
       label={({ ref, expanded, toggle }) => (
@@ -27,7 +26,7 @@ const Materia = observer<{ materia: IMateria }>(({ materia }) => {
         <MateriaPanel materia={materia} />
       )}
       placement="bottom-start"
-      modifiers={popperModifiers}
+      modifiers={React.useMemo(() => ([{ name: 'offset', options: { offset: [-93, 0] } }]), [])}
     />
   );
 });
