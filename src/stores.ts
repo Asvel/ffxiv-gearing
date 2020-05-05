@@ -22,6 +22,8 @@ declare module 'mobx-state-tree' {
   }
 }
 
+const globalClanKey = 'ffxiv-gearing-clan';
+
 export type Mode = 'edit' | 'view';
 
 export const Job = types.string as ISimpleType<G.Job>;
@@ -251,8 +253,10 @@ export const Store = types
     condition: types.optional(Condition, {}),
     gears: types.map(GearUnion),
     equippedGears: types.map(GearUnionReference),
-    race: 5,  // TODO: global
   })
+  .volatile(() => ({
+    clan: Number(localStorage.getItem(globalClanKey)) || 0,
+  }))
   .views(self => {
     let unobservableEquippedGears: SnapshotOut<typeof self.equippedGears> = {};
     autorun(() => unobservableEquippedGears = self.equippedGears.toJSON());
@@ -312,7 +316,7 @@ export const Store = types
           stats[stat] = baseStat;
         } else {
           stats[stat] = Math.floor(levelModifier[baseStat] * (this.schema.statModifiers[stat] ?? 100) / 100 + 1e-7) +
-            (stat === this.schema.mainStat ? 48 : 0) + (G.raceStats[stat]?.[self.race] ?? 0);
+            (stat === this.schema.mainStat ? 48 : 0) + (G.clanStats[stat]?.[self.clan] ?? 0);
         }
       }
       return stats;
@@ -356,7 +360,10 @@ export const Store = types
       return G.jobSchemas[self.condition.job];
     },
     get raceName(): string {
-      return G.races[self.race];
+      return G.races[Math.floor(self.clan / 2)];
+    },
+    get clanName(): string {
+      return G.clans[self.clan];
     },
   }))
   .views(self => ({
@@ -435,6 +442,10 @@ export const Store = types
         self.equippedGears.set(key, gear);
       }
     },
+    setClan(clan: number): void {
+      self.clan = clan;
+      localStorage.setItem(globalClanKey, clan.toString());
+    }
   }))
   .actions(self => ({
     afterCreate(): void {

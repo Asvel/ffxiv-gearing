@@ -313,6 +313,17 @@ export const levelModifiers = {
 };
 
 export const races = [
+  '人族',
+  '精灵族',
+  '拉拉菲尔族',
+  '猫魅族',
+  '鲁加族',
+  '敖龙族',
+  '维埃拉族',
+  '硌狮族',
+];
+
+export const clans = [
   '中原之民', '高地之民',
   '森林之民', '黑影之民',
   '平原之民', '沙漠之民',
@@ -323,7 +334,7 @@ export const races = [
   '密林之民', '山林之民',
 ];
 
-export const raceStats: { [index in Stat]?: number[] } = {
+export const clanStats: { [index in Stat]?: number[] } = {
   STR: [22, 23, 20, 20, 19, 19, 22, 19, 22, 20, 19, 23, 23, 23, 20, 19].map(x => x - 20),
   DEX: [19, 20, 23, 20, 23, 21, 23, 22, 19, 18, 22, 20, 17, 17, 23, 20].map(x => x - 20),
   VIT: [20, 22, 19, 19, 19, 18, 20, 18, 23, 23, 19, 22, 23, 23, 18, 19].map(x => x - 20),

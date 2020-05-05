@@ -19,13 +19,14 @@ export interface DropdownProps {
   popper: (props: DropdownPopperProps) => React.ReactNode;
   placement: PopperJS.Placement;
   modifiers?: PopperJS.StrictModifiers[];
+  strategy?: PopperJS.PositioningStrategy;
 }
 
-const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers }) => {
+const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers, strategy }) => {
   const [ expanded, setExpanded ] = React.useState(false);
   const [ labelElement, setLabelElement ] = React.useState<HTMLElement | null>(null);
   const [ popperElement, setPopperElement ] = React.useState<HTMLElement | null>(null);
-  const popper_ = ReactPopper.usePopper(labelElement, popperElement, { placement, modifiers });
+  const popperInstance = ReactPopper.usePopper(labelElement, popperElement, { placement, modifiers, strategy });
   const popperContainer = document.getElementById('popper');
   const toggle = (e?: UIEvent) => {
     setExpanded(!expanded);
@@ -62,8 +63,8 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers 
       {expanded && popperContainer && ReactDOM.createPortal((
         <div
           ref={setPopperElement}
-          style={popper_.styles.popper}
-          {...popper_.attributes.popper}
+          style={popperInstance.styles.popper}
+          {...popperInstance.attributes.popper}
           onClick={e => e.stopPropagation()}
           children={popper({ toggle })}
         />

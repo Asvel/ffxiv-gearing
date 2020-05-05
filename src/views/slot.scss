@@ -99,8 +99,8 @@
 }
 
 .gear-menu {
-  @include mdc-elevation(4);
   padding: 9px 0;
+  @include mdc-elevation(4);
 }
 
 .gear-menu_item {
