@@ -22,6 +22,15 @@ declare module 'mobx-state-tree' {
   }
 }
 
+function floor(value: number) {
+  if (Math.floor(value + 1e-7) !== Math.floor(value)) debugger;
+  return Math.floor(value + 1e-7);
+}
+function ceil(value: number) {
+  if (Math.ceil(value - 1e-7) !== Math.ceil(value)) debugger;
+  return Math.ceil(value - 1e-7);
+}
+
 const globalClanKey = 'ffxiv-gearing-clan';
 
 export type Mode = 'edit' | 'view';
@@ -197,7 +206,7 @@ export const Food = types
       for (const stat of Object.keys(this.stats) as G.Stat[]) {
         const equippedStat = store.equippedStatsWithoutFood[stat] ?? 1;
         const statRate = this.statRates[stat] ?? Infinity;
-        stats[stat] = Math.min(this.stats[stat], Math.floor(equippedStat * statRate / 100 + 1e-7));
+        stats[stat] = Math.min(this.stats[stat], floor(equippedStat * statRate / 100));
       }
       return stats;
     },
@@ -315,7 +324,7 @@ export const Store = types
         if (typeof baseStat === 'number') {
           stats[stat] = baseStat;
         } else {
-          stats[stat] = Math.floor(levelModifier[baseStat] * (this.schema.statModifiers[stat] ?? 100) / 100 + 1e-7) +
+          stats[stat] = floor(levelModifier[baseStat] * (this.schema.statModifiers[stat] ?? 100) / 100) +
             (stat === this.schema.mainStat ? 48 : 0) + (G.clanStats[stat]?.[self.clan] ?? 0);
         }
       }
@@ -350,7 +359,7 @@ export const Store = types
       for (let slot of this.schema.slots) {
         level += (self.equippedGears.get(slot.slot)?.level ?? 0) * (slot.levelWeight ?? 1);
       }
-      return Math.floor(level / 13);
+      return floor(level / 13);
     },
     isEquipped(gear: IGearUnion): boolean {
       return self.equippedGears.get(gear.slot.toString()) === gear;
@@ -360,7 +369,7 @@ export const Store = types
       return G.jobSchemas[self.condition.job];
     },
     get raceName(): string {
-      return G.races[Math.floor(self.clan / 2)];
+      return G.races[floor(self.clan / 2)];
     },
     get clanName(): string {
       return G.clans[self.clan];
@@ -374,24 +383,50 @@ export const Store = types
       const { CRT, DET, DHT, TEN, SKS, SPS, VIT, PIE, PDMG, MDMG } = self.equippedStats;
       const { statModifiers, mainStat, traitDamageMultiplier } = self.schema;
       const attackMainStat = mainStat === 'VIT' ? 'STR' : mainStat as G.Stat;
-      const crtChance = Math.floor(200 * (CRT! - sub) / div + 50) / 1000;
-      const crtDamage = Math.floor(200 * (CRT! - sub) / div + 1400) / 1000;
-      const detDamage = Math.floor(130 * (DET! - sub) / div + 1000) / 1000;
-      const dhtChance = Math.floor(550 * (DHT! - main) / div) / 1000;
-      const tenDamage = Math.floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
-      const weaponDamage = Math.floor(main * statModifiers[attackMainStat as keyof typeof statModifiers] / 1000) +
+      const crtChance = floor(200 * (CRT! - sub) / div + 50) / 1000;
+      const crtDamage = floor(200 * (CRT! - sub) / div + 1400) / 1000;
+      const detDamage = floor(130 * (DET! - main) / div + 1000) / 1000;
+      const dhtChance = floor(550 * (DHT! - sub) / div) / 1000;
+      const tenDamage = floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
+      const weaponDamage = floor(main * statModifiers[attackMainStat as keyof typeof statModifiers] / 1000) +
         ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0);
-      const mainDamage = Math.floor(statModifiers.ap *
+      const mainDamage = floor(statModifiers.ap *
         ((self.equippedStats[attackMainStat] ?? 0) - main) / main + 100) / 100;
       const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier
         * ((crtDamage - 1) * crtChance + 1) * (0.25 * dhtChance + 1);
-      const gcd = Math.floor((1000 - Math.floor(130 * ((SKS || SPS)! - sub) / div)) / 1000 * 250) / 100;
-      const ssDamage = Math.floor(130 * ((SKS || SPS)! - sub) / div + 1000) / 1000;
-      const hp = Math.floor(levelMod.hp * statModifiers.hp / 100 +
-        (mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) *
-        (VIT! - levelMod.main) + 1e-7);
-      const mp = Math.floor(200 + (PIE! - levelMod.main) / 22);
+      const gcd = floor((1000 - floor(130 * ((SKS || SPS)! - sub) / div)) / 1000 * 250) / 100;
+      const ssDamage = floor(130 * ((SKS || SPS)! - sub) / div + 1000) / 1000;
+      const hp = floor(levelMod.hp * statModifiers.hp / 100 +
+        (mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) * (VIT! - main));
+      const mp = floor(200 + ((PIE ?? main) - main) / 22);
       return { crtChance, crtDamage, detDamage, dhtChance, tenDamage, damage, gcd, ssDamage, hp, mp };
+    },
+    get equippedTiers(): { [index in G.Stat]?: { prev: number, next: number } | undefined } {
+      const { main, sub, div } = G.levelModifiers[80];
+      const { CRT, DET, DHT, TEN, SKS, SPS, PIE } = self.equippedStats;
+      function calcTier(value: number, multiplier: number) {
+        if (!value) return undefined;
+        const quotient = floor(value / multiplier);
+        const prev = ceil(quotient * multiplier) - 1 - value;
+        const next = ceil((quotient + 1) * multiplier) - value;
+        return { prev, next };
+      }
+      function calcGcdTier(value: number, multiplier: number) {
+        if (!value) return undefined;
+        const quotient = ceil(floor(value / multiplier) / 4);
+        const prev = ceil((quotient * 4 - 3) * multiplier) - 1 - value;
+        const next = ceil((quotient * 4 + 1) * multiplier) - value;
+        return { prev, next };
+      }
+      return {
+        CRT: calcTier(CRT! - sub, div / 200),
+        DET: calcTier(DET! - main, div / 130),
+        DHT: calcTier(DHT! - sub, div / 550),
+        TEN: calcTier(TEN! - sub, div / 100),
+        SKS: calcGcdTier(SKS! - sub, div / 130),
+        SPS: calcGcdTier(SPS! - sub, div / 130),
+        PIE: calcTier(PIE! - main, 22),
+      };
     },
     get share(): string {
       const { job } =  self.condition;

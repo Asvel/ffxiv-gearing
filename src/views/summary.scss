@@ -3,22 +3,19 @@
 .summary {
   position: fixed;
   bottom: 0;
+  display: flex;
   padding: 0 12px;
   margin-left: -12px;
+  align-items: flex-end;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   @include mdc-elevation(4);
-  > span {
-    display: inline-block;
-    vertical-align: top;
-  }
 }
 
 .summary_divider {
-  display: none;
-  + * {
-    border-left: $table-border;
-  }
+  align-self: stretch;
+  border-left: $table-border;
+  margin-right: -1px;
 }
 
 .summary_left {
@@ -37,7 +34,6 @@
   bottom: 5px;
   height: 35px;
   padding: 0 12px;
-  display: inline-block;
 }
 
 .summary_equipped-level {
@@ -49,12 +45,37 @@
   color: #00000060;
 }
 
+.summary_tiers-toggle {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  height: 35px;
+}
+
 .summary_stat {
   width: 60px;
   padding-top: 9px;
   padding-bottom: 4px;
   line-height: 18px;
   text-align: center;
+}
+.summary_stat-tier {
+  margin-top: 2px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.summary_stat-prev,
+.summary_stat-next {
+  display: inline-block;
+  width: 21px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.summary_stat-prev {
+  text-align: left;
+}
+.summary_stat-next {
+  text-align: right;
 }
 .summary_stat-name {
   font-size: 13px;
