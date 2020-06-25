@@ -1,0 +1,20 @@
+{
+  "name": "ffxiv-gearing-data",
+  "version": "0.0.1",
+  "description": "Final Fantasy XIV Gearing Data",
+  "keywords": [
+    "final-fantasy-xiv",
+    "ffxiv"
+  ],
+  "homepage": "https://asvel.github.io/ffxiv-gearing/",
+  "license": "MIT",
+  "repository": "https://github.com/Asvel/ffxiv-gearing",
+  "scripts": {
+    "update": "node update.js",
+    "convert": "node convert.js"
+  },
+  "dependencies": {
+    "json5": "^2.1.3",
+    "papaparse": "^5.2.0"
+  }
+}

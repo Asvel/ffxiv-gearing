@@ -13,6 +13,7 @@ export default [
       GP: 35,
     },
     hq: false,
+    source: '渔叉',
   },
   {
     id: 19612,
@@ -29,6 +30,7 @@ export default [
       CRL: 75,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19613,
@@ -46,6 +48,7 @@ export default [
       CRL: 75,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19614,
@@ -62,6 +65,7 @@ export default [
       CRL: 75,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19615,
@@ -78,6 +82,7 @@ export default [
       CRL: 75,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19616,
@@ -94,6 +99,7 @@ export default [
       CRL: 75,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19617,
@@ -110,6 +116,7 @@ export default [
       PCP: 146,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19618,
@@ -128,6 +135,7 @@ export default [
       PCP: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19619,
@@ -145,6 +153,7 @@ export default [
       GTH: 110,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19620,
@@ -162,6 +171,7 @@ export default [
       PCP: 7,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19621,
@@ -179,6 +189,7 @@ export default [
       PCP: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19506,
@@ -195,6 +206,7 @@ export default [
       CRL: 159,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19507,
@@ -211,6 +223,7 @@ export default [
       CRL: 159,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19508,
@@ -227,6 +240,7 @@ export default [
       CRL: 159,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19509,
@@ -243,6 +257,7 @@ export default [
       CRL: 159,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19510,
@@ -259,6 +274,7 @@ export default [
       CRL: 159,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19511,
@@ -275,6 +291,7 @@ export default [
       CRL: 159,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19512,
@@ -291,6 +308,7 @@ export default [
       CRL: 159,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19513,
@@ -307,6 +325,7 @@ export default [
       CRL: 159,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19514,
@@ -324,6 +343,7 @@ export default [
       PCP: 156,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19515,
@@ -341,6 +361,7 @@ export default [
       PCP: 156,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19516,
@@ -358,6 +379,7 @@ export default [
       PCP: 156,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19727,
@@ -373,6 +395,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19732,
@@ -388,6 +411,7 @@ export default [
       PCP: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19517,
@@ -404,6 +428,7 @@ export default [
       CRL: 169,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19518,
@@ -420,6 +445,7 @@ export default [
       CRL: 169,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19519,
@@ -436,6 +462,7 @@ export default [
       CRL: 169,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19520,
@@ -452,6 +479,7 @@ export default [
       CRL: 169,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19521,
@@ -468,6 +496,7 @@ export default [
       CRL: 169,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19522,
@@ -484,6 +513,7 @@ export default [
       CRL: 169,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19523,
@@ -500,6 +530,7 @@ export default [
       CRL: 169,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19524,
@@ -516,6 +547,7 @@ export default [
       CRL: 169,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19525,
@@ -532,6 +564,7 @@ export default [
       PCP: 292,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19526,
@@ -548,6 +581,7 @@ export default [
       PCP: 292,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19622,
@@ -564,6 +598,7 @@ export default [
       CRL: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19623,
@@ -581,6 +616,7 @@ export default [
       CRL: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19624,
@@ -597,6 +633,7 @@ export default [
       CRL: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19625,
@@ -613,6 +650,7 @@ export default [
       CRL: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19626,
@@ -629,6 +667,7 @@ export default [
       CRL: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19627,
@@ -645,6 +684,7 @@ export default [
       PCP: 167,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19628,
@@ -663,6 +703,7 @@ export default [
       PCP: 83,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19629,
@@ -680,6 +721,7 @@ export default [
       GTH: 125,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19630,
@@ -697,6 +739,7 @@ export default [
       PCP: 8,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19631,
@@ -714,6 +757,7 @@ export default [
       PCP: 83,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19728,
@@ -730,6 +774,7 @@ export default [
       CMS: 5,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19729,
@@ -746,6 +791,7 @@ export default [
       CMS: 5,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19730,
@@ -762,6 +808,7 @@ export default [
       CMS: 5,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19731,
@@ -778,6 +825,7 @@ export default [
       CRL: 10,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19733,
@@ -793,6 +841,7 @@ export default [
       GP: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19734,
@@ -808,6 +857,7 @@ export default [
       GP: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19735,
@@ -823,6 +873,7 @@ export default [
       GP: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19736,
@@ -838,6 +889,7 @@ export default [
       GP: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19527,
@@ -854,6 +906,7 @@ export default [
       CRL: 179,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19528,
@@ -870,6 +923,7 @@ export default [
       CRL: 179,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19529,
@@ -886,6 +940,7 @@ export default [
       CRL: 179,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19530,
@@ -902,6 +957,7 @@ export default [
       CRL: 179,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19531,
@@ -918,6 +974,7 @@ export default [
       CRL: 179,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19532,
@@ -934,6 +991,7 @@ export default [
       CRL: 179,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19533,
@@ -950,6 +1008,7 @@ export default [
       CRL: 179,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19534,
@@ -966,6 +1025,7 @@ export default [
       CRL: 179,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19535,
@@ -983,6 +1043,7 @@ export default [
       PCP: 178,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19536,
@@ -1000,6 +1061,7 @@ export default [
       PCP: 178,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19537,
@@ -1017,6 +1079,7 @@ export default [
       PCP: 178,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19632,
@@ -1033,6 +1096,7 @@ export default [
       CRL: 90,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19633,
@@ -1050,6 +1114,7 @@ export default [
       CRL: 90,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19634,
@@ -1066,6 +1131,7 @@ export default [
       CRL: 90,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19635,
@@ -1082,6 +1148,7 @@ export default [
       CRL: 90,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19636,
@@ -1098,6 +1165,7 @@ export default [
       CRL: 90,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19637,
@@ -1114,6 +1182,7 @@ export default [
       PCP: 178,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19638,
@@ -1132,6 +1201,7 @@ export default [
       PCP: 89,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19639,
@@ -1149,6 +1219,7 @@ export default [
       GTH: 134,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19640,
@@ -1166,6 +1237,7 @@ export default [
       PCP: 9,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19641,
@@ -1183,6 +1255,7 @@ export default [
       PCP: 89,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19538,
@@ -1199,6 +1272,7 @@ export default [
       CRL: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19539,
@@ -1215,6 +1289,7 @@ export default [
       CRL: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19540,
@@ -1231,6 +1306,7 @@ export default [
       CRL: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19541,
@@ -1247,6 +1323,7 @@ export default [
       CRL: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19542,
@@ -1263,6 +1340,7 @@ export default [
       CRL: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19543,
@@ -1279,6 +1357,7 @@ export default [
       CRL: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19544,
@@ -1295,6 +1374,7 @@ export default [
       CRL: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19545,
@@ -1311,6 +1391,7 @@ export default [
       CRL: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19546,
@@ -1327,6 +1408,7 @@ export default [
       PCP: 316,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19547,
@@ -1343,6 +1425,7 @@ export default [
       PCP: 316,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19737,
@@ -1358,6 +1441,7 @@ export default [
       CRL: 92,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19742,
@@ -1373,6 +1457,7 @@ export default [
       PCP: 45,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19548,
@@ -1389,6 +1474,7 @@ export default [
       CRL: 192,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19549,
@@ -1405,6 +1491,7 @@ export default [
       CRL: 192,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19550,
@@ -1421,6 +1508,7 @@ export default [
       CRL: 192,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19551,
@@ -1437,6 +1525,7 @@ export default [
       CRL: 192,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19552,
@@ -1453,6 +1542,7 @@ export default [
       CRL: 192,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19553,
@@ -1469,6 +1559,7 @@ export default [
       CRL: 192,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19554,
@@ -1485,6 +1576,7 @@ export default [
       CRL: 192,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19555,
@@ -1501,6 +1593,7 @@ export default [
       CRL: 192,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19556,
@@ -1518,6 +1611,7 @@ export default [
       PCP: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19557,
@@ -1535,6 +1629,7 @@ export default [
       PCP: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19558,
@@ -1552,6 +1647,7 @@ export default [
       PCP: 184,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19738,
@@ -1568,6 +1664,7 @@ export default [
       CMS: 6,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19739,
@@ -1584,6 +1681,7 @@ export default [
       CMS: 6,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19740,
@@ -1600,6 +1698,7 @@ export default [
       CMS: 6,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19741,
@@ -1616,6 +1715,7 @@ export default [
       CRL: 12,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19743,
@@ -1631,6 +1731,7 @@ export default [
       GP: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19744,
@@ -1646,6 +1747,7 @@ export default [
       GP: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19745,
@@ -1661,6 +1763,7 @@ export default [
       GP: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19746,
@@ -1676,6 +1779,7 @@ export default [
       GP: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18111,
@@ -1696,6 +1800,7 @@ export default [
       DLY: 2160,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18112,
@@ -1716,6 +1821,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18113,
@@ -1736,6 +1842,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18114,
@@ -1756,6 +1863,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18115,
@@ -1776,6 +1884,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18116,
@@ -1796,6 +1905,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18117,
@@ -1816,6 +1926,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18118,
@@ -1836,6 +1947,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18119,
@@ -1855,6 +1967,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18120,
@@ -1874,6 +1987,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18121,
@@ -1893,6 +2007,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18122,
@@ -1912,6 +2027,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18123,
@@ -1931,6 +2047,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18124,
@@ -1951,6 +2068,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18125,
@@ -1970,6 +2088,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18126,
@@ -1988,6 +2107,7 @@ export default [
       SKS: 27,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18127,
@@ -2006,6 +2126,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18128,
@@ -2024,6 +2145,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18129,
@@ -2042,6 +2164,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18130,
@@ -2060,6 +2183,7 @@ export default [
       DET: 117,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18131,
@@ -2078,6 +2202,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18132,
@@ -2096,6 +2221,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18133,
@@ -2114,6 +2240,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18134,
@@ -2132,6 +2259,7 @@ export default [
       DET: 117,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18135,
@@ -2150,6 +2278,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18136,
@@ -2168,6 +2297,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18137,
@@ -2186,6 +2316,7 @@ export default [
       CRT: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18138,
@@ -2204,6 +2335,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18139,
@@ -2222,6 +2354,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18140,
@@ -2240,6 +2373,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18141,
@@ -2258,6 +2392,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18142,
@@ -2276,6 +2411,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18143,
@@ -2294,6 +2430,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18144,
@@ -2312,6 +2449,7 @@ export default [
       CRT: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18145,
@@ -2330,6 +2468,7 @@ export default [
       CRT: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18146,
@@ -2348,6 +2487,7 @@ export default [
       SKS: 123,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18147,
@@ -2366,6 +2506,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18148,
@@ -2384,6 +2525,7 @@ export default [
       SKS: 123,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18149,
@@ -2402,6 +2544,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18150,
@@ -2420,6 +2563,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18151,
@@ -2438,6 +2582,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18152,
@@ -2456,6 +2601,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18153,
@@ -2474,6 +2620,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18154,
@@ -2492,6 +2639,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18155,
@@ -2510,6 +2658,7 @@ export default [
       CRT: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18156,
@@ -2528,6 +2677,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18157,
@@ -2546,6 +2696,7 @@ export default [
       DET: 72,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18158,
@@ -2564,6 +2715,7 @@ export default [
       SPS: 123,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18159,
@@ -2582,6 +2734,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18160,
@@ -2600,6 +2753,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18161,
@@ -2618,6 +2772,7 @@ export default [
       SPS: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18162,
@@ -2636,6 +2791,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18163,
@@ -2654,6 +2810,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18164,
@@ -2672,6 +2829,7 @@ export default [
       CRT: 123,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18165,
@@ -2690,6 +2848,7 @@ export default [
       SPS: 76,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18166,
@@ -2708,6 +2867,7 @@ export default [
       DET: 117,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18167,
@@ -2726,6 +2886,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18168,
@@ -2744,6 +2905,7 @@ export default [
       CRT: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18169,
@@ -2762,6 +2924,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18170,
@@ -2780,6 +2943,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18171,
@@ -2798,6 +2962,7 @@ export default [
       CRT: 40,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18172,
@@ -2816,6 +2981,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18173,
@@ -2834,6 +3000,7 @@ export default [
       SPS: 40,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18174,
@@ -2852,6 +3019,7 @@ export default [
       CRT: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18175,
@@ -2870,6 +3038,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18176,
@@ -2888,6 +3057,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18177,
@@ -2906,6 +3076,7 @@ export default [
       SPS: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18178,
@@ -2924,6 +3095,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18179,
@@ -2942,6 +3114,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18180,
@@ -2960,6 +3133,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18181,
@@ -2978,6 +3152,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18182,
@@ -2996,6 +3171,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18183,
@@ -3014,6 +3190,7 @@ export default [
       SPS: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18184,
@@ -3032,6 +3209,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18185,
@@ -3050,6 +3228,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18186,
@@ -3068,6 +3247,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18187,
@@ -3086,6 +3266,7 @@ export default [
       CRT: 57,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 18188,
@@ -3104,6 +3285,7 @@ export default [
       SPS: 40,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
   },
   {
     id: 19559,
@@ -3120,6 +3302,7 @@ export default [
       CRL: 200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19560,
@@ -3136,6 +3319,7 @@ export default [
       CRL: 200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19561,
@@ -3152,6 +3336,7 @@ export default [
       CRL: 200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19562,
@@ -3168,6 +3353,7 @@ export default [
       CRL: 200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19563,
@@ -3184,6 +3370,7 @@ export default [
       CRL: 200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19564,
@@ -3200,6 +3387,7 @@ export default [
       CRL: 200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19565,
@@ -3216,6 +3404,7 @@ export default [
       CRL: 200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19566,
@@ -3232,6 +3421,7 @@ export default [
       CRL: 200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19567,
@@ -3248,6 +3438,7 @@ export default [
       PCP: 329,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19568,
@@ -3264,6 +3455,7 @@ export default [
       PCP: 329,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19642,
@@ -3280,6 +3472,7 @@ export default [
       CRL: 100,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19643,
@@ -3297,6 +3490,7 @@ export default [
       CRL: 100,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19644,
@@ -3313,6 +3507,7 @@ export default [
       CRL: 100,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19645,
@@ -3329,6 +3524,7 @@ export default [
       CRL: 100,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19646,
@@ -3345,6 +3541,7 @@ export default [
       CRL: 100,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19647,
@@ -3361,6 +3558,7 @@ export default [
       PCP: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19648,
@@ -3379,6 +3577,7 @@ export default [
       PCP: 94,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19649,
@@ -3396,6 +3595,7 @@ export default [
       GTH: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19650,
@@ -3413,6 +3613,7 @@ export default [
       PCP: 9,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 19651,
@@ -3430,6 +3631,7 @@ export default [
       PCP: 94,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 27359,
@@ -3450,6 +3652,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
+    patch: '5.0',
   },
   {
     id: 27360,
@@ -3470,6 +3674,8 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '迷宫挑战/妖歌海',
+    patch: '5.0',
   },
   {
     id: 18189,
@@ -3490,6 +3696,7 @@ export default [
       DLY: 2160,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18190,
@@ -3510,6 +3717,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18191,
@@ -3530,6 +3738,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18192,
@@ -3550,6 +3759,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18193,
@@ -3570,6 +3780,7 @@ export default [
       DLY: 3280,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18194,
@@ -3590,6 +3801,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18195,
@@ -3610,6 +3822,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18196,
@@ -3630,6 +3843,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18197,
@@ -3649,6 +3863,7 @@ export default [
       MDMG: 113,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18198,
@@ -3668,6 +3883,7 @@ export default [
       MDMG: 113,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18199,
@@ -3687,6 +3903,7 @@ export default [
       MDMG: 113,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18200,
@@ -3706,6 +3923,7 @@ export default [
       MDMG: 113,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18201,
@@ -3725,6 +3943,7 @@ export default [
       MDMG: 113,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18202,
@@ -3745,6 +3964,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18203,
@@ -3764,6 +3984,7 @@ export default [
       MDMG: 113,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18204,
@@ -3782,6 +4003,7 @@ export default [
       CRT: 27,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18205,
@@ -3800,6 +4022,7 @@ export default [
       CRT: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18206,
@@ -3818,6 +4041,7 @@ export default [
       SKS: 88,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18207,
@@ -3836,6 +4060,7 @@ export default [
       SKS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18208,
@@ -3854,6 +4079,7 @@ export default [
       DET: 121,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18209,
@@ -3872,6 +4098,7 @@ export default [
       SKS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18210,
@@ -3890,6 +4117,7 @@ export default [
       SKS: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18211,
@@ -3908,6 +4136,7 @@ export default [
       SKS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18212,
@@ -3926,6 +4155,7 @@ export default [
       DET: 84,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18213,
@@ -3944,6 +4174,7 @@ export default [
       SKS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18214,
@@ -3962,6 +4193,7 @@ export default [
       CRT: 88,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18215,
@@ -3980,6 +4212,7 @@ export default [
       DET: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18216,
@@ -3998,6 +4231,7 @@ export default [
       CRT: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18217,
@@ -4016,6 +4250,7 @@ export default [
       SKS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18218,
@@ -4034,6 +4269,7 @@ export default [
       SKS: 126,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18219,
@@ -4052,6 +4288,7 @@ export default [
       CRT: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18220,
@@ -4070,6 +4307,7 @@ export default [
       SKS: 126,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18221,
@@ -4088,6 +4326,7 @@ export default [
       CRT: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18222,
@@ -4106,6 +4345,7 @@ export default [
       SKS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18223,
@@ -4124,6 +4364,7 @@ export default [
       SKS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18224,
@@ -4142,6 +4383,7 @@ export default [
       SKS: 88,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18225,
@@ -4160,6 +4402,7 @@ export default [
       SKS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18226,
@@ -4178,6 +4421,7 @@ export default [
       DET: 84,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18227,
@@ -4196,6 +4440,7 @@ export default [
       SKS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18228,
@@ -4214,6 +4459,7 @@ export default [
       CRT: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18229,
@@ -4232,6 +4478,7 @@ export default [
       SKS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18230,
@@ -4250,6 +4497,7 @@ export default [
       DET: 121,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18231,
@@ -4268,6 +4516,7 @@ export default [
       SKS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18232,
@@ -4286,6 +4535,7 @@ export default [
       DET: 121,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18233,
@@ -4304,6 +4554,7 @@ export default [
       SKS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18234,
@@ -4322,6 +4573,7 @@ export default [
       SKS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18235,
@@ -4340,6 +4592,7 @@ export default [
       DET: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18236,
@@ -4358,6 +4611,7 @@ export default [
       DET: 121,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18237,
@@ -4376,6 +4630,7 @@ export default [
       SPS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18238,
@@ -4394,6 +4649,7 @@ export default [
       DET: 84,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18239,
@@ -4412,6 +4668,7 @@ export default [
       SPS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18240,
@@ -4430,6 +4687,7 @@ export default [
       CRT: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18241,
@@ -4448,6 +4706,7 @@ export default [
       SPS: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18242,
@@ -4466,6 +4725,7 @@ export default [
       CRT: 126,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18243,
@@ -4484,6 +4744,7 @@ export default [
       SPS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18244,
@@ -4502,6 +4763,7 @@ export default [
       SPS: 88,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18245,
@@ -4520,6 +4782,7 @@ export default [
       DET: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18246,
@@ -4538,6 +4801,7 @@ export default [
       SPS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18247,
@@ -4556,6 +4820,7 @@ export default [
       DET: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18248,
@@ -4574,6 +4839,7 @@ export default [
       SKS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18249,
@@ -4592,6 +4858,7 @@ export default [
       SKS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18250,
@@ -4610,6 +4877,7 @@ export default [
       SPS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18251,
@@ -4628,6 +4896,7 @@ export default [
       SPS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18252,
@@ -4646,6 +4915,7 @@ export default [
       SKS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18253,
@@ -4664,6 +4934,7 @@ export default [
       SKS: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18254,
@@ -4682,6 +4953,7 @@ export default [
       DET: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18255,
@@ -4700,6 +4972,7 @@ export default [
       DET: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18256,
@@ -4718,6 +4991,7 @@ export default [
       DET: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18257,
@@ -4736,6 +5010,7 @@ export default [
       DET: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18258,
@@ -4754,6 +5029,7 @@ export default [
       DET: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18259,
@@ -4772,6 +5048,7 @@ export default [
       CRT: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18260,
@@ -4790,6 +5067,7 @@ export default [
       SPS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18261,
@@ -4808,6 +5086,7 @@ export default [
       CRT: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18262,
@@ -4826,6 +5105,7 @@ export default [
       CRT: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18263,
@@ -4844,6 +5124,7 @@ export default [
       SKS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18264,
@@ -4862,6 +5143,7 @@ export default [
       SKS: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18265,
@@ -4880,6 +5162,7 @@ export default [
       CRT: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18266,
@@ -4898,6 +5181,7 @@ export default [
       CRT: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 27361,
@@ -4918,6 +5202,8 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 27362,
@@ -4938,6 +5224,8 @@ export default [
       DLY: 3120,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 18267,
@@ -4958,6 +5246,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18268,
@@ -4978,6 +5267,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18269,
@@ -4998,6 +5288,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18270,
@@ -5018,6 +5309,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18271,
@@ -5038,6 +5330,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18272,
@@ -5058,6 +5351,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18273,
@@ -5078,6 +5372,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18274,
@@ -5098,6 +5393,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18275,
@@ -5117,6 +5413,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18276,
@@ -5136,6 +5433,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18277,
@@ -5155,6 +5453,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18278,
@@ -5174,6 +5473,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18279,
@@ -5193,6 +5493,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18280,
@@ -5213,6 +5514,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18281,
@@ -5232,6 +5534,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18282,
@@ -5250,6 +5553,7 @@ export default [
       CRT: 40,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18283,
@@ -5268,6 +5572,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18284,
@@ -5286,6 +5591,7 @@ export default [
       SKS: 129,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18285,
@@ -5304,6 +5610,7 @@ export default [
       CRT: 55,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18286,
@@ -5322,6 +5629,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18287,
@@ -5340,6 +5648,7 @@ export default [
       CRT: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18288,
@@ -5358,6 +5667,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18289,
@@ -5376,6 +5686,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18290,
@@ -5394,6 +5705,7 @@ export default [
       SKS: 129,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18291,
@@ -5412,6 +5724,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18292,
@@ -5430,6 +5743,7 @@ export default [
       CRT: 90,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18293,
@@ -5448,6 +5762,7 @@ export default [
       CRT: 55,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18294,
@@ -5466,6 +5781,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18295,
@@ -5484,6 +5800,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18296,
@@ -5502,6 +5819,7 @@ export default [
       SKS: 129,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18297,
@@ -5520,6 +5838,7 @@ export default [
       CRT: 55,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18298,
@@ -5538,6 +5857,7 @@ export default [
       SKS: 129,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18299,
@@ -5556,6 +5876,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18300,
@@ -5574,6 +5895,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18301,
@@ -5592,6 +5914,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18302,
@@ -5610,6 +5933,7 @@ export default [
       CRT: 129,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18303,
@@ -5628,6 +5952,7 @@ export default [
       DET: 76,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18304,
@@ -5646,6 +5971,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18305,
@@ -5664,6 +5990,7 @@ export default [
       CRT: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18306,
@@ -5682,6 +6009,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18307,
@@ -5700,6 +6028,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18308,
@@ -5718,6 +6047,7 @@ export default [
       DET: 123,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18309,
@@ -5736,6 +6066,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18310,
@@ -5754,6 +6085,7 @@ export default [
       CRT: 90,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18311,
@@ -5772,6 +6104,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18312,
@@ -5790,6 +6123,7 @@ export default [
       CRT: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18313,
@@ -5808,6 +6142,7 @@ export default [
       SPS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18314,
@@ -5826,6 +6161,7 @@ export default [
       CRT: 129,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18315,
@@ -5844,6 +6180,7 @@ export default [
       CRT: 55,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18316,
@@ -5862,6 +6199,7 @@ export default [
       CRT: 90,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18317,
@@ -5880,6 +6218,7 @@ export default [
       SPS: 55,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18318,
@@ -5898,6 +6237,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18319,
@@ -5916,6 +6256,7 @@ export default [
       SPS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18320,
@@ -5934,6 +6275,7 @@ export default [
       CRT: 90,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18321,
@@ -5952,6 +6294,7 @@ export default [
       SPS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18322,
@@ -5970,6 +6313,7 @@ export default [
       DET: 86,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18323,
@@ -5988,6 +6332,7 @@ export default [
       SPS: 79,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18324,
@@ -6006,6 +6351,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18325,
@@ -6024,6 +6370,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18326,
@@ -6042,6 +6389,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18327,
@@ -6060,6 +6408,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18328,
@@ -6078,6 +6427,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18329,
@@ -6096,6 +6446,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18330,
@@ -6114,6 +6465,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18331,
@@ -6132,6 +6484,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18332,
@@ -6150,6 +6503,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18333,
@@ -6168,6 +6522,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18334,
@@ -6186,6 +6541,7 @@ export default [
       CRT: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18335,
@@ -6204,6 +6560,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18336,
@@ -6222,6 +6579,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18337,
@@ -6240,6 +6598,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18338,
@@ -6258,6 +6617,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18339,
@@ -6276,6 +6636,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18340,
@@ -6294,6 +6655,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18341,
@@ -6312,6 +6674,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18342,
@@ -6330,6 +6693,7 @@ export default [
       CRT: 59,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18343,
@@ -6348,6 +6712,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 18344,
@@ -6366,6 +6731,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
   },
   {
     id: 27363,
@@ -6386,6 +6752,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
+    patch: '5.0',
   },
   {
     id: 27364,
@@ -6406,6 +6774,8 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '迷宫挑战/紫水宫',
+    patch: '5.0',
   },
   {
     id: 18345,
@@ -6426,6 +6796,7 @@ export default [
       DLY: 2080,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18346,
@@ -6446,6 +6817,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18347,
@@ -6466,6 +6838,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18348,
@@ -6486,6 +6859,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18349,
@@ -6506,6 +6880,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18350,
@@ -6526,6 +6901,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18351,
@@ -6546,6 +6922,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18352,
@@ -6566,6 +6943,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18353,
@@ -6585,6 +6963,7 @@ export default [
       MDMG: 114,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18354,
@@ -6604,6 +6983,7 @@ export default [
       MDMG: 114,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18355,
@@ -6623,6 +7003,7 @@ export default [
       MDMG: 114,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18356,
@@ -6642,6 +7023,7 @@ export default [
       MDMG: 114,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18357,
@@ -6661,6 +7043,7 @@ export default [
       MDMG: 114,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18358,
@@ -6681,6 +7064,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18359,
@@ -6700,6 +7084,7 @@ export default [
       MDMG: 114,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18360,
@@ -6718,6 +7103,7 @@ export default [
       CRT: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18361,
@@ -6736,6 +7122,7 @@ export default [
       DET: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18362,
@@ -6754,6 +7141,7 @@ export default [
       DET: 88,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18363,
@@ -6772,6 +7160,7 @@ export default [
       SKS: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18364,
@@ -6790,6 +7179,7 @@ export default [
       DET: 88,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18365,
@@ -6808,6 +7198,7 @@ export default [
       DET: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18366,
@@ -6826,6 +7217,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18367,
@@ -6844,6 +7236,7 @@ export default [
       DET: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18368,
@@ -6862,6 +7255,7 @@ export default [
       SKS: 91,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18369,
@@ -6880,6 +7274,7 @@ export default [
       DET: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18370,
@@ -6898,6 +7293,7 @@ export default [
       DET: 88,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18371,
@@ -6916,6 +7312,7 @@ export default [
       SKS: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18372,
@@ -6934,6 +7331,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18373,
@@ -6952,6 +7350,7 @@ export default [
       SKS: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18374,
@@ -6970,6 +7369,7 @@ export default [
       DET: 125,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18375,
@@ -6988,6 +7388,7 @@ export default [
       SKS: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18376,
@@ -7006,6 +7407,7 @@ export default [
       DET: 125,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18377,
@@ -7024,6 +7426,7 @@ export default [
       CRT: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18378,
@@ -7042,6 +7445,7 @@ export default [
       DET: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18379,
@@ -7060,6 +7464,7 @@ export default [
       DET: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18380,
@@ -7078,6 +7483,7 @@ export default [
       SKS: 91,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18381,
@@ -7096,6 +7502,7 @@ export default [
       CRT: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18382,
@@ -7114,6 +7521,7 @@ export default [
       SKS: 91,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18383,
@@ -7132,6 +7540,7 @@ export default [
       CRT: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18384,
@@ -7150,6 +7559,7 @@ export default [
       DET: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18385,
@@ -7168,6 +7578,7 @@ export default [
       DET: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18386,
@@ -7186,6 +7597,7 @@ export default [
       SKS: 130,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18387,
@@ -7204,6 +7616,7 @@ export default [
       SKS: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18388,
@@ -7222,6 +7635,7 @@ export default [
       SKS: 130,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18389,
@@ -7240,6 +7654,7 @@ export default [
       CRT: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18390,
@@ -7258,6 +7673,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18391,
@@ -7276,6 +7692,7 @@ export default [
       DET: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18392,
@@ -7294,6 +7711,7 @@ export default [
       SPS: 130,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18393,
@@ -7312,6 +7730,7 @@ export default [
       SPS: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18394,
@@ -7330,6 +7749,7 @@ export default [
       SPS: 91,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18395,
@@ -7348,6 +7768,7 @@ export default [
       SPS: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18396,
@@ -7366,6 +7787,7 @@ export default [
       SPS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18397,
@@ -7384,6 +7806,7 @@ export default [
       DET: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18398,
@@ -7402,6 +7825,7 @@ export default [
       SPS: 130,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18399,
@@ -7420,6 +7844,7 @@ export default [
       SPS: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18400,
@@ -7438,6 +7863,7 @@ export default [
       CRT: 130,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18401,
@@ -7456,6 +7882,7 @@ export default [
       SPS: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18402,
@@ -7474,6 +7901,7 @@ export default [
       DET: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18403,
@@ -7492,6 +7920,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18404,
@@ -7510,6 +7939,7 @@ export default [
       CRT: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18405,
@@ -7528,6 +7958,7 @@ export default [
       SKS: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18406,
@@ -7546,6 +7977,7 @@ export default [
       CRT: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18407,
@@ -7564,6 +7996,7 @@ export default [
       DET: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18408,
@@ -7582,6 +8015,7 @@ export default [
       SKS: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18409,
@@ -7600,6 +8034,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18410,
@@ -7618,6 +8053,7 @@ export default [
       CRT: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18411,
@@ -7636,6 +8072,7 @@ export default [
       SPS: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18412,
@@ -7654,6 +8091,7 @@ export default [
       SPS: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18413,
@@ -7672,6 +8110,7 @@ export default [
       DET: 58,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18414,
@@ -7690,6 +8129,7 @@ export default [
       DET: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18415,
@@ -7708,6 +8148,7 @@ export default [
       SKS: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18416,
@@ -7726,6 +8167,7 @@ export default [
       DET: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18417,
@@ -7744,6 +8186,7 @@ export default [
       CRT: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18418,
@@ -7762,6 +8205,7 @@ export default [
       CRT: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18419,
@@ -7780,6 +8224,7 @@ export default [
       SKS: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18420,
@@ -7798,6 +8243,7 @@ export default [
       CRT: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18421,
@@ -7816,6 +8262,7 @@ export default [
       CRT: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18422,
@@ -7834,6 +8281,7 @@ export default [
       SPS: 60,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 27365,
@@ -7854,6 +8302,8 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 27366,
@@ -7874,6 +8324,8 @@ export default [
       DLY: 3120,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 18423,
@@ -7894,6 +8346,7 @@ export default [
       DLY: 2160,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18424,
@@ -7914,6 +8367,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18425,
@@ -7934,6 +8388,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18426,
@@ -7954,6 +8409,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18427,
@@ -7974,6 +8430,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18428,
@@ -7994,6 +8451,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18429,
@@ -8014,6 +8472,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18430,
@@ -8034,6 +8493,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18431,
@@ -8053,6 +8513,7 @@ export default [
       MDMG: 116,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18432,
@@ -8072,6 +8533,7 @@ export default [
       MDMG: 116,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18433,
@@ -8091,6 +8553,7 @@ export default [
       MDMG: 116,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18434,
@@ -8110,6 +8573,7 @@ export default [
       MDMG: 116,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18435,
@@ -8129,6 +8593,7 @@ export default [
       MDMG: 116,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18436,
@@ -8149,6 +8614,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18437,
@@ -8168,6 +8634,7 @@ export default [
       MDMG: 116,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18438,
@@ -8186,6 +8653,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18439,
@@ -8204,6 +8672,7 @@ export default [
       DET: 61,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18440,
@@ -8222,6 +8691,7 @@ export default [
       SKS: 101,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18441,
@@ -8240,6 +8710,7 @@ export default [
       DET: 61,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18442,
@@ -8258,6 +8729,7 @@ export default [
       SKS: 101,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18443,
@@ -8276,6 +8748,7 @@ export default [
       SKS: 62,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18444,
@@ -8294,6 +8767,7 @@ export default [
       CRT: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18445,
@@ -8312,6 +8786,7 @@ export default [
       DET: 61,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18446,
@@ -8330,6 +8805,7 @@ export default [
       SKS: 144,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18447,
@@ -8348,6 +8824,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18448,
@@ -8366,6 +8843,7 @@ export default [
       SKS: 101,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18449,
@@ -8384,6 +8862,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18450,
@@ -8402,6 +8881,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18451,
@@ -8420,6 +8900,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18452,
@@ -8438,6 +8919,7 @@ export default [
       CRT: 144,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18453,
@@ -8456,6 +8938,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18454,
@@ -8474,6 +8957,7 @@ export default [
       CRT: 144,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18455,
@@ -8492,6 +8976,7 @@ export default [
       DET: 61,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18456,
@@ -8510,6 +8995,7 @@ export default [
       CRT: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18457,
@@ -8528,6 +9014,7 @@ export default [
       CRT: 62,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18458,
@@ -8546,6 +9033,7 @@ export default [
       SKS: 101,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18459,
@@ -8564,6 +9052,7 @@ export default [
       DET: 88,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18460,
@@ -8582,6 +9071,7 @@ export default [
       DET: 100,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18461,
@@ -8600,6 +9090,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18462,
@@ -8618,6 +9109,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18463,
@@ -8636,6 +9128,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18464,
@@ -8654,6 +9147,7 @@ export default [
       CRT: 101,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18465,
@@ -8672,6 +9166,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18466,
@@ -8690,6 +9185,7 @@ export default [
       SKS: 144,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18467,
@@ -8708,6 +9204,7 @@ export default [
       DET: 88,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18468,
@@ -8726,6 +9223,7 @@ export default [
       SKS: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18469,
@@ -8744,6 +9242,7 @@ export default [
       DET: 88,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18470,
@@ -8762,6 +9261,7 @@ export default [
       CRT: 144,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18471,
@@ -8780,6 +9280,7 @@ export default [
       SPS: 62,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18472,
@@ -8798,6 +9299,7 @@ export default [
       SPS: 101,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18473,
@@ -8816,6 +9318,7 @@ export default [
       DET: 61,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18474,
@@ -8834,6 +9337,7 @@ export default [
       SPS: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18475,
@@ -8852,6 +9356,7 @@ export default [
       SPS: 62,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18476,
@@ -8870,6 +9375,7 @@ export default [
       SPS: 101,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18477,
@@ -8888,6 +9394,7 @@ export default [
       CRT: 62,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18478,
@@ -8906,6 +9413,7 @@ export default [
       SPS: 144,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18479,
@@ -8924,6 +9432,7 @@ export default [
       DET: 88,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18480,
@@ -8942,6 +9451,7 @@ export default [
       SPS: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18481,
@@ -8960,6 +9470,7 @@ export default [
       SKS: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18482,
@@ -8978,6 +9489,7 @@ export default [
       SKS: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18483,
@@ -8996,6 +9508,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18484,
@@ -9014,6 +9527,7 @@ export default [
       CRT: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18485,
@@ -9032,6 +9546,7 @@ export default [
       SPS: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18486,
@@ -9050,6 +9565,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18487,
@@ -9068,6 +9584,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18488,
@@ -9086,6 +9603,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18489,
@@ -9104,6 +9622,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18490,
@@ -9122,6 +9641,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18491,
@@ -9140,6 +9660,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18492,
@@ -9158,6 +9679,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18493,
@@ -9176,6 +9698,7 @@ export default [
       CRT: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18494,
@@ -9194,6 +9717,7 @@ export default [
       CRT: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18495,
@@ -9212,6 +9736,7 @@ export default [
       SPS: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18496,
@@ -9230,6 +9755,7 @@ export default [
       SKS: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18497,
@@ -9248,6 +9774,7 @@ export default [
       CRT: 66,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18498,
@@ -9266,6 +9793,7 @@ export default [
       CRT: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18499,
@@ -9284,6 +9812,7 @@ export default [
       CRT: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 18500,
@@ -9302,6 +9831,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
   },
   {
     id: 27367,
@@ -9322,10 +9852,12 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
+    patch: '5.0',
   },
   {
     id: 27368,
-    name: '巡回的慧星',
+    name: '巡回的彗星',
     level: 276,
     slot: 13,
     role: 4,
@@ -9342,6 +9874,8 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '迷宫挑战/巴儿达木霸道',
+    patch: '5.0',
   },
   {
     id: 18501,
@@ -9362,6 +9896,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18502,
@@ -9382,6 +9917,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18503,
@@ -9402,6 +9938,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18504,
@@ -9422,6 +9959,7 @@ export default [
       DLY: 2880,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18505,
@@ -9442,6 +9980,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18506,
@@ -9462,6 +10001,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18507,
@@ -9482,6 +10022,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18508,
@@ -9502,6 +10043,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18509,
@@ -9521,6 +10063,7 @@ export default [
       MDMG: 118,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18510,
@@ -9540,6 +10083,7 @@ export default [
       MDMG: 118,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18511,
@@ -9559,6 +10103,7 @@ export default [
       MDMG: 118,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18512,
@@ -9578,6 +10123,7 @@ export default [
       MDMG: 118,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18513,
@@ -9597,6 +10143,7 @@ export default [
       MDMG: 118,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18514,
@@ -9617,6 +10164,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18515,
@@ -9636,6 +10184,7 @@ export default [
       MDMG: 118,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18516,
@@ -9654,6 +10203,7 @@ export default [
       SKS: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18517,
@@ -9672,6 +10222,7 @@ export default [
       CRT: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18518,
@@ -9690,6 +10241,7 @@ export default [
       SKS: 110,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18519,
@@ -9708,6 +10260,7 @@ export default [
       SKS: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18520,
@@ -9726,6 +10279,7 @@ export default [
       SKS: 110,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18521,
@@ -9744,6 +10298,7 @@ export default [
       DET: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18522,
@@ -9762,6 +10317,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18523,
@@ -9780,6 +10336,7 @@ export default [
       CRT: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18524,
@@ -9798,6 +10355,7 @@ export default [
       SKS: 158,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18525,
@@ -9816,6 +10374,7 @@ export default [
       DET: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18526,
@@ -9834,6 +10393,7 @@ export default [
       SKS: 158,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18527,
@@ -9852,6 +10412,7 @@ export default [
       CRT: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18528,
@@ -9870,6 +10431,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18529,
@@ -9888,6 +10450,7 @@ export default [
       CRT: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18530,
@@ -9906,6 +10469,7 @@ export default [
       DET: 158,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18531,
@@ -9924,6 +10488,7 @@ export default [
       DET: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18532,
@@ -9942,6 +10507,7 @@ export default [
       DET: 110,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18533,
@@ -9960,6 +10526,7 @@ export default [
       SKS: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18534,
@@ -9978,6 +10545,7 @@ export default [
       CRT: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18535,
@@ -9996,6 +10564,7 @@ export default [
       CRT: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18536,
@@ -10014,6 +10583,7 @@ export default [
       SKS: 158,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18537,
@@ -10032,6 +10602,7 @@ export default [
       SKS: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18538,
@@ -10050,6 +10621,7 @@ export default [
       CRT: 158,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18539,
@@ -10068,6 +10640,7 @@ export default [
       DET: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18540,
@@ -10086,6 +10659,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18541,
@@ -10104,6 +10678,7 @@ export default [
       DET: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18542,
@@ -10122,6 +10697,7 @@ export default [
       CRT: 158,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18543,
@@ -10140,6 +10716,7 @@ export default [
       SKS: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18544,
@@ -10158,6 +10735,7 @@ export default [
       DET: 110,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18545,
@@ -10176,6 +10754,7 @@ export default [
       SKS: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18546,
@@ -10194,6 +10773,7 @@ export default [
       DET: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18547,
@@ -10212,6 +10792,7 @@ export default [
       DET: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18548,
@@ -10230,6 +10811,7 @@ export default [
       SPS: 110,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18549,
@@ -10248,6 +10830,7 @@ export default [
       DET: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18550,
@@ -10266,6 +10849,7 @@ export default [
       CRT: 110,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18551,
@@ -10284,6 +10868,7 @@ export default [
       DET: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18552,
@@ -10302,6 +10887,7 @@ export default [
       SPS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18553,
@@ -10320,6 +10906,7 @@ export default [
       SPS: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18554,
@@ -10338,6 +10925,7 @@ export default [
       DET: 110,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18555,
@@ -10356,6 +10944,7 @@ export default [
       CRT: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18556,
@@ -10374,6 +10963,7 @@ export default [
       SPS: 158,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18557,
@@ -10392,6 +10982,7 @@ export default [
       CRT: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18558,
@@ -10410,6 +11001,7 @@ export default [
       SPS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18559,
@@ -10428,6 +11020,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18560,
@@ -10446,6 +11039,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18561,
@@ -10464,6 +11058,7 @@ export default [
       SKS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18562,
@@ -10482,6 +11077,7 @@ export default [
       CRT: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18563,
@@ -10500,6 +11096,7 @@ export default [
       SPS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18564,
@@ -10518,6 +11115,7 @@ export default [
       DET: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18565,
@@ -10536,6 +11134,7 @@ export default [
       SKS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18566,
@@ -10554,6 +11153,7 @@ export default [
       DET: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18567,
@@ -10572,6 +11172,7 @@ export default [
       SPS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18568,
@@ -10590,6 +11191,7 @@ export default [
       DET: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18569,
@@ -10608,6 +11210,7 @@ export default [
       SKS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18570,
@@ -10626,6 +11229,7 @@ export default [
       DET: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18571,
@@ -10644,6 +11248,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18572,
@@ -10662,6 +11267,7 @@ export default [
       CRT: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18573,
@@ -10680,6 +11286,7 @@ export default [
       SPS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18574,
@@ -10698,6 +11305,7 @@ export default [
       CRT: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18575,
@@ -10716,6 +11324,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18576,
@@ -10734,6 +11343,7 @@ export default [
       DET: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18577,
@@ -10752,6 +11362,7 @@ export default [
       SPS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18578,
@@ -10770,6 +11381,7 @@ export default [
       DET: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 27369,
@@ -10790,6 +11402,8 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 27370,
@@ -10810,6 +11424,8 @@ export default [
       DLY: 3120,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 18579,
@@ -10830,6 +11446,7 @@ export default [
       DLY: 2080,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18580,
@@ -10850,6 +11467,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18581,
@@ -10870,6 +11488,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18582,
@@ -10890,6 +11509,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18583,
@@ -10910,6 +11530,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18584,
@@ -10930,6 +11551,7 @@ export default [
       DLY: 2720,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18585,
@@ -10950,6 +11572,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18586,
@@ -10970,6 +11593,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18587,
@@ -10989,6 +11613,7 @@ export default [
       MDMG: 120,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18588,
@@ -11008,6 +11633,7 @@ export default [
       MDMG: 120,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18589,
@@ -11027,6 +11653,7 @@ export default [
       MDMG: 120,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18590,
@@ -11046,6 +11673,7 @@ export default [
       MDMG: 120,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18591,
@@ -11065,6 +11693,7 @@ export default [
       MDMG: 120,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18592,
@@ -11085,6 +11714,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18593,
@@ -11104,6 +11734,7 @@ export default [
       MDMG: 120,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18594,
@@ -11122,6 +11753,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18595,
@@ -11140,6 +11772,7 @@ export default [
       SKS: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18596,
@@ -11158,6 +11791,7 @@ export default [
       DET: 172,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18597,
@@ -11176,6 +11810,7 @@ export default [
       SKS: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18598,
@@ -11194,6 +11829,7 @@ export default [
       SKS: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18599,
@@ -11212,6 +11848,7 @@ export default [
       CRT: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18600,
@@ -11230,6 +11867,7 @@ export default [
       DET: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18601,
@@ -11248,6 +11886,7 @@ export default [
       DET: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18602,
@@ -11266,6 +11905,7 @@ export default [
       SKS: 172,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18603,
@@ -11284,6 +11924,7 @@ export default [
       SKS: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18604,
@@ -11302,6 +11943,7 @@ export default [
       SKS: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18605,
@@ -11320,6 +11962,7 @@ export default [
       CRT: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18606,
@@ -11338,6 +11981,7 @@ export default [
       DET: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18607,
@@ -11356,6 +12000,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18608,
@@ -11374,6 +12019,7 @@ export default [
       SKS: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18609,
@@ -11392,6 +12038,7 @@ export default [
       SKS: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18610,
@@ -11410,6 +12057,7 @@ export default [
       CRT: 172,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18611,
@@ -11428,6 +12076,7 @@ export default [
       DET: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18612,
@@ -11446,6 +12095,7 @@ export default [
       SKS: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18613,
@@ -11464,6 +12114,7 @@ export default [
       DET: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18614,
@@ -11482,6 +12133,7 @@ export default [
       SKS: 172,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18615,
@@ -11500,6 +12152,7 @@ export default [
       DET: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18616,
@@ -11518,6 +12171,7 @@ export default [
       CRT: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18617,
@@ -11536,6 +12190,7 @@ export default [
       SKS: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18618,
@@ -11554,6 +12209,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18619,
@@ -11572,6 +12228,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18620,
@@ -11590,6 +12247,7 @@ export default [
       DET: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18621,
@@ -11608,6 +12266,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18622,
@@ -11626,6 +12285,7 @@ export default [
       DET: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18623,
@@ -11644,6 +12304,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18624,
@@ -11662,6 +12323,7 @@ export default [
       DET: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18625,
@@ -11680,6 +12342,7 @@ export default [
       CRT: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18626,
@@ -11698,6 +12361,7 @@ export default [
       DET: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18627,
@@ -11716,6 +12380,7 @@ export default [
       SPS: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18628,
@@ -11734,6 +12399,7 @@ export default [
       SPS: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18629,
@@ -11752,6 +12418,7 @@ export default [
       CRT: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18630,
@@ -11770,6 +12437,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18631,
@@ -11788,6 +12456,7 @@ export default [
       SPS: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18632,
@@ -11806,6 +12475,7 @@ export default [
       DET: 172,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18633,
@@ -11824,6 +12494,7 @@ export default [
       SPS: 106,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18634,
@@ -11842,6 +12513,7 @@ export default [
       CRT: 121,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18635,
@@ -11860,6 +12532,7 @@ export default [
       DET: 74,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18636,
@@ -11878,6 +12551,7 @@ export default [
       SPS: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18637,
@@ -11896,6 +12570,7 @@ export default [
       DET: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18638,
@@ -11914,6 +12589,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18639,
@@ -11932,6 +12608,7 @@ export default [
       SKS: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18640,
@@ -11950,6 +12627,7 @@ export default [
       SPS: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18641,
@@ -11968,6 +12646,7 @@ export default [
       CRT: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18642,
@@ -11986,6 +12665,7 @@ export default [
       SKS: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18643,
@@ -12004,6 +12684,7 @@ export default [
       SKS: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18644,
@@ -12022,6 +12703,7 @@ export default [
       DET: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18645,
@@ -12040,6 +12722,7 @@ export default [
       DET: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18646,
@@ -12058,6 +12741,7 @@ export default [
       SPS: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18647,
@@ -12076,6 +12760,7 @@ export default [
       SKS: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18648,
@@ -12094,6 +12779,7 @@ export default [
       DET: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18649,
@@ -12112,6 +12798,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18650,
@@ -12130,6 +12817,7 @@ export default [
       SPS: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18651,
@@ -12148,6 +12836,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18652,
@@ -12166,6 +12855,7 @@ export default [
       CRT: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18653,
@@ -12184,6 +12874,7 @@ export default [
       SKS: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18654,
@@ -12202,6 +12893,7 @@ export default [
       CRT: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18655,
@@ -12220,6 +12912,7 @@ export default [
       DET: 80,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 18656,
@@ -12238,6 +12931,7 @@ export default [
       CRT: 56,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
   },
   {
     id: 27371,
@@ -12258,6 +12952,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
+    patch: '5.0',
   },
   {
     id: 27372,
@@ -12278,6 +12974,8 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '迷宫挑战/多玛王城',
+    patch: '5.0',
   },
   {
     id: 18657,
@@ -12298,6 +12996,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18658,
@@ -12318,6 +13017,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18659,
@@ -12338,6 +13038,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18660,
@@ -12358,6 +13059,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18661,
@@ -12378,6 +13080,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18662,
@@ -12398,6 +13101,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18663,
@@ -12418,6 +13122,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18664,
@@ -12438,6 +13143,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18665,
@@ -12457,6 +13163,7 @@ export default [
       MDMG: 122,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18666,
@@ -12476,6 +13183,7 @@ export default [
       MDMG: 122,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18667,
@@ -12495,6 +13203,7 @@ export default [
       MDMG: 122,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18668,
@@ -12514,6 +13223,7 @@ export default [
       MDMG: 122,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18669,
@@ -12533,6 +13243,7 @@ export default [
       MDMG: 122,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18670,
@@ -12553,6 +13264,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18671,
@@ -12572,6 +13284,7 @@ export default [
       MDMG: 122,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18672,
@@ -12590,6 +13303,7 @@ export default [
       SKS: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18673,
@@ -12608,6 +13322,7 @@ export default [
       SKS: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18674,
@@ -12626,6 +13341,7 @@ export default [
       DET: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18675,
@@ -12644,6 +13360,7 @@ export default [
       CRT: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18676,
@@ -12662,6 +13379,7 @@ export default [
       SKS: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18677,
@@ -12680,6 +13398,7 @@ export default [
       DET: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18678,
@@ -12698,6 +13417,7 @@ export default [
       DET: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18679,
@@ -12716,6 +13436,7 @@ export default [
       CRT: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18680,
@@ -12734,6 +13455,7 @@ export default [
       DET: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18681,
@@ -12752,6 +13474,7 @@ export default [
       SKS: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18682,
@@ -12770,6 +13493,7 @@ export default [
       SKS: 132,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18683,
@@ -12788,6 +13512,7 @@ export default [
       DET: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18684,
@@ -12806,6 +13531,7 @@ export default [
       SKS: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18685,
@@ -12824,6 +13550,7 @@ export default [
       DET: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18686,
@@ -12842,6 +13569,7 @@ export default [
       SKS: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18687,
@@ -12860,6 +13588,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18688,
@@ -12878,6 +13607,7 @@ export default [
       SKS: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18689,
@@ -12896,6 +13626,7 @@ export default [
       CRT: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18690,
@@ -12914,6 +13645,7 @@ export default [
       DET: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18691,
@@ -12932,6 +13664,7 @@ export default [
       DET: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18692,
@@ -12950,6 +13683,7 @@ export default [
       SKS: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18693,
@@ -12968,6 +13702,7 @@ export default [
       SKS: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18694,
@@ -12986,6 +13721,7 @@ export default [
       SKS: 132,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18695,
@@ -13004,6 +13740,7 @@ export default [
       DET: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18696,
@@ -13022,6 +13759,7 @@ export default [
       SKS: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18697,
@@ -13040,6 +13778,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18698,
@@ -13058,6 +13797,7 @@ export default [
       CRT: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18699,
@@ -13076,6 +13816,7 @@ export default [
       DET: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18700,
@@ -13094,6 +13835,7 @@ export default [
       SKS: 132,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18701,
@@ -13112,6 +13854,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18702,
@@ -13130,6 +13873,7 @@ export default [
       SKS: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18703,
@@ -13148,6 +13892,7 @@ export default [
       SPS: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18704,
@@ -13166,6 +13911,7 @@ export default [
       SPS: 132,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18705,
@@ -13184,6 +13930,7 @@ export default [
       SPS: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18706,
@@ -13202,6 +13949,7 @@ export default [
       DET: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18707,
@@ -13220,6 +13968,7 @@ export default [
       CRT: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18708,
@@ -13238,6 +13987,7 @@ export default [
       CRT: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18709,
@@ -13256,6 +14006,7 @@ export default [
       SPS: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18710,
@@ -13274,6 +14025,7 @@ export default [
       DET: 132,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18711,
@@ -13292,6 +14044,7 @@ export default [
       SPS: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18712,
@@ -13310,6 +14063,7 @@ export default [
       DET: 188,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18713,
@@ -13328,6 +14082,7 @@ export default [
       SPS: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18714,
@@ -13346,6 +14101,7 @@ export default [
       DET: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18715,
@@ -13364,6 +14120,7 @@ export default [
       SKS: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18716,
@@ -13382,6 +14139,7 @@ export default [
       SKS: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18717,
@@ -13400,6 +14158,7 @@ export default [
       DET: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18718,
@@ -13418,6 +14177,7 @@ export default [
       SPS: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18719,
@@ -13436,6 +14196,7 @@ export default [
       DET: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18720,
@@ -13454,6 +14215,7 @@ export default [
       SKS: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18721,
@@ -13472,6 +14234,7 @@ export default [
       DET: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18722,
@@ -13490,6 +14253,7 @@ export default [
       SKS: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18723,
@@ -13508,6 +14272,7 @@ export default [
       SPS: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18724,
@@ -13526,6 +14291,7 @@ export default [
       SPS: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18725,
@@ -13544,6 +14310,7 @@ export default [
       DET: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18726,
@@ -13562,6 +14329,7 @@ export default [
       SKS: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18727,
@@ -13580,6 +14348,7 @@ export default [
       DET: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18728,
@@ -13598,6 +14367,7 @@ export default [
       CRT: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18729,
@@ -13616,6 +14386,7 @@ export default [
       SPS: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18730,
@@ -13634,6 +14405,7 @@ export default [
       SKS: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18731,
@@ -13652,6 +14424,7 @@ export default [
       DET: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18732,
@@ -13670,6 +14443,7 @@ export default [
       SKS: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18733,
@@ -13688,6 +14462,7 @@ export default [
       CRT: 61,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18734,
@@ -13706,6 +14481,7 @@ export default [
       DET: 87,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 27373,
@@ -13726,6 +14502,8 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 27374,
@@ -13746,6 +14524,8 @@ export default [
       DLY: 3120,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 18735,
@@ -13766,6 +14546,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18736,
@@ -13786,6 +14567,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18737,
@@ -13806,6 +14588,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18738,
@@ -13826,6 +14609,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18739,
@@ -13846,6 +14630,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18740,
@@ -13866,6 +14651,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18741,
@@ -13886,6 +14672,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18742,
@@ -13906,6 +14693,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18743,
@@ -13925,6 +14713,7 @@ export default [
       MDMG: 124,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18744,
@@ -13944,6 +14733,7 @@ export default [
       MDMG: 124,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18745,
@@ -13963,6 +14753,7 @@ export default [
       MDMG: 124,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18746,
@@ -13982,6 +14773,7 @@ export default [
       MDMG: 124,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18747,
@@ -14001,6 +14793,7 @@ export default [
       MDMG: 124,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18748,
@@ -14021,6 +14814,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18749,
@@ -14040,6 +14834,7 @@ export default [
       MDMG: 124,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18750,
@@ -14058,6 +14853,7 @@ export default [
       SKS: 63,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18751,
@@ -14076,6 +14872,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18752,
@@ -14094,6 +14891,7 @@ export default [
       DET: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18753,
@@ -14112,6 +14910,7 @@ export default [
       DET: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18754,
@@ -14130,6 +14929,7 @@ export default [
       CRT: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18755,
@@ -14148,6 +14948,7 @@ export default [
       CRT: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18756,
@@ -14166,6 +14967,7 @@ export default [
       SKS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18757,
@@ -14184,6 +14986,7 @@ export default [
       DET: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18758,
@@ -14202,6 +15005,7 @@ export default [
       SKS: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18759,
@@ -14220,6 +15024,7 @@ export default [
       CRT: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18760,
@@ -14238,6 +15043,7 @@ export default [
       SKS: 144,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18761,
@@ -14256,6 +15062,7 @@ export default [
       CRT: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18762,
@@ -14274,6 +15081,7 @@ export default [
       DET: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18763,
@@ -14292,6 +15100,7 @@ export default [
       SKS: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18764,
@@ -14310,6 +15119,7 @@ export default [
       DET: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18765,
@@ -14328,6 +15138,7 @@ export default [
       CRT: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18766,
@@ -14346,6 +15157,7 @@ export default [
       SKS: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18767,
@@ -14364,6 +15176,7 @@ export default [
       DET: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18768,
@@ -14382,6 +15195,7 @@ export default [
       SKS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18769,
@@ -14400,6 +15214,7 @@ export default [
       DET: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18770,
@@ -14418,6 +15233,7 @@ export default [
       SKS: 144,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18771,
@@ -14436,6 +15252,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18772,
@@ -14454,6 +15271,7 @@ export default [
       DET: 144,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18773,
@@ -14472,6 +15290,7 @@ export default [
       CRT: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18774,
@@ -14490,6 +15309,7 @@ export default [
       SKS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18775,
@@ -14508,6 +15328,7 @@ export default [
       CRT: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18776,
@@ -14526,6 +15347,7 @@ export default [
       SKS: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18777,
@@ -14544,6 +15366,7 @@ export default [
       SKS: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18778,
@@ -14562,6 +15385,7 @@ export default [
       SKS: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18779,
@@ -14580,6 +15404,7 @@ export default [
       DET: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18780,
@@ -14598,6 +15423,7 @@ export default [
       SKS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18781,
@@ -14616,6 +15442,7 @@ export default [
       CRT: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18782,
@@ -14634,6 +15461,7 @@ export default [
       SPS: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18783,
@@ -14652,6 +15480,7 @@ export default [
       DET: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18784,
@@ -14670,6 +15499,7 @@ export default [
       CRT: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18785,
@@ -14688,6 +15518,7 @@ export default [
       SPS: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18786,
@@ -14706,6 +15537,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18787,
@@ -14724,6 +15556,7 @@ export default [
       CRT: 127,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18788,
@@ -14742,6 +15575,7 @@ export default [
       SPS: 144,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18789,
@@ -14760,6 +15594,7 @@ export default [
       SPS: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18790,
@@ -14778,6 +15613,7 @@ export default [
       SPS: 206,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18791,
@@ -14796,6 +15632,7 @@ export default [
       CRT: 89,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18792,
@@ -14814,6 +15651,7 @@ export default [
       SPS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18793,
@@ -14832,6 +15670,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18794,
@@ -14850,6 +15689,7 @@ export default [
       CRT: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18795,
@@ -14868,6 +15708,7 @@ export default [
       DET: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18796,
@@ -14886,6 +15727,7 @@ export default [
       CRT: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18797,
@@ -14904,6 +15746,7 @@ export default [
       SPS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18798,
@@ -14922,6 +15765,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18799,
@@ -14940,6 +15784,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18800,
@@ -14958,6 +15803,7 @@ export default [
       SKS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18801,
@@ -14976,6 +15822,7 @@ export default [
       SPS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18802,
@@ -14994,6 +15841,7 @@ export default [
       SPS: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18803,
@@ -15012,6 +15860,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18804,
@@ -15030,6 +15879,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18805,
@@ -15048,6 +15898,7 @@ export default [
       DET: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18806,
@@ -15066,6 +15917,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18807,
@@ -15084,6 +15936,7 @@ export default [
       DET: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18808,
@@ -15102,6 +15955,7 @@ export default [
       DET: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18809,
@@ -15120,6 +15974,7 @@ export default [
       SKS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18810,
@@ -15138,6 +15993,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18811,
@@ -15156,6 +16012,7 @@ export default [
       SPS: 95,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 18812,
@@ -15174,6 +16031,7 @@ export default [
       SPS: 67,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
   },
   {
     id: 27375,
@@ -15194,6 +16052,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
+    patch: '5.0',
   },
   {
     id: 27376,
@@ -15214,5 +16074,7 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '迷宫挑战/白山堡',
+    patch: '5.0',
   },
 ];

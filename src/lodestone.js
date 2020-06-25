@@ -1,4 +1,4 @@
-const lodestoneIds = require('../data/lodestoneIds').default;
+const lodestoneIds = require('../data/out/lodestoneIds').default;
 const [region, gearId] = location.search.slice(1).split(':');
 const lodestoneId = lodestoneIds[gearId];
 if (region && lodestoneId !== undefined) {

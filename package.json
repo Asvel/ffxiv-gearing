@@ -1,15 +1,14 @@
 {
   "name": "ffxiv-gearing",
   "version": "0.0.1",
-  "description": "Final Fantasy XIV Weather Bell",
+  "description": "Final Fantasy XIV Gearing",
   "keywords": [
     "final-fantasy-xiv",
     "ffxiv"
   ],
-  "homepage": "https://asvel.github.io/ffxiv-weather-bell/",
+  "homepage": "https://asvel.github.io/ffxiv-gearing/",
   "license": "MIT",
-  "main": "index.js",
-  "repository": "https://github.com/Asvel/ffxiv-weather-bell",
+  "repository": "https://github.com/Asvel/ffxiv-gearing",
   "scripts": {
     "start": "webpack-serve --config webpack.config.js",
     "build": "webpack --config webpack.config.js --mode=production",

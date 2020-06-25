@@ -18,7 +18,7 @@ const Slot = observer<{ slot: G.Slot }>(({ slot }) => {
     <table className="gears_slot table card">
       <thead>
       <tr>
-        <th className="gears_name">{slot.name}</th>
+        <th className="gears_left">{slot.name}</th>
         <th className="gears_materias">{slot.slot === -1 ? '利用率' : '魔晶石'}</th>
         {store.schema.stats.map(stat => (
           <th key={stat} className="gears_stat">
@@ -44,7 +44,7 @@ const SlotCompact = observer(() => {
     <table className="gears_slot table card">
       <thead>
       <tr>
-        <th className="gears_name-compact">装备</th>
+        <th className="gears_left-compact">装备</th>
         <th className="gears_materias">魔晶石</th>
         {store.schema.stats.map(stat => (
           <th key={stat} className="gears_stat">
@@ -66,14 +66,14 @@ const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slot
   const store = useStore();
   return gear === undefined ? (
     <tr className="gears_item">
-      <td className="gears_name">
+      <td className="gears_left">
         {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
         <span className="gears_empty">{store.isViewing ? '无装备' : '无匹配'}</span>
       </td>
       <td className="gears_materias" />
       <td colSpan={store.schema.stats.length}/>
     </tr>
-  ): (
+  ) : (
     <tr
       data-id={gear.id}
       className={classNames(
@@ -83,9 +83,9 @@ const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slot
       )}
       onClick={store.isViewing ? undefined : () => store.equip(gear)}
     >
-      <td className="gears_name">
+      <td className="gears_left">
         {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
-        {gear.name}{gear.hq && <Icon className="gears_hq" name="hq"/>}
+        <span className="gears_name">{gear.name}{gear.hq && <Icon className="gears_hq" name="hq"/>}</span>
         <Dropdown
           label={({ ref, toggle }) => (
             <IconButton ref={ref} className="gears_more" icon="more" onClick={toggle} />

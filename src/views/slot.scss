@@ -18,7 +18,7 @@
   font-size: 13px;
   vertical-align: top;
 }
-.gears_name {
+.gears_left {
   width: 300px;
   padding-left: 16px;
   padding-right: 16px;
@@ -27,6 +27,14 @@
     text-align: left;
     color: #000000de;
   }
+}
+.gears_name {
+  display: inline-block;
+  max-width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
 }
 .gears_hq {
   width: 12px;

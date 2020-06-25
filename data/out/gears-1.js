@@ -1075,6 +1075,7 @@ export default [
       DEX: 1,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27665,
@@ -1091,6 +1092,7 @@ export default [
       MND: 1,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1996,
@@ -3037,7 +3039,7 @@ export default [
     slot: 2,
     role: 9,
     jobCategory: 17,
-    equipLevel: 11,
+    equipLevel: 10,
     materiaSlot: 0,
     materiaAdvanced: false,
     stats: {
@@ -3053,7 +3055,7 @@ export default [
     slot: 2,
     role: 9,
     jobCategory: 18,
-    equipLevel: 11,
+    equipLevel: 10,
     materiaSlot: 0,
     materiaAdvanced: false,
     stats: {
@@ -3930,6 +3932,7 @@ export default [
       DET: 1,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27636,
@@ -3948,6 +3951,7 @@ export default [
       DET: 1,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27637,
@@ -3966,6 +3970,7 @@ export default [
       DET: 1,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1605,
@@ -8174,6 +8179,7 @@ export default [
       DHT: 4,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1688,
@@ -12200,6 +12206,7 @@ export default [
       SKS: 3,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1622,
@@ -13348,6 +13355,7 @@ export default [
       DET: 2,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1624,
@@ -14532,6 +14540,7 @@ export default [
       DHT: 4,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 267,
@@ -20084,6 +20093,7 @@ export default [
       DHT: 8,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27670,
@@ -20102,6 +20112,7 @@ export default [
       DET: 3,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27671,
@@ -20120,6 +20131,7 @@ export default [
       DHT: 8,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27672,
@@ -20138,6 +20150,7 @@ export default [
       DHT: 5,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 263,
@@ -21031,6 +21044,7 @@ export default [
       SKS: 5,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27668,
@@ -21049,6 +21063,7 @@ export default [
       DHT: 5,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1616,
@@ -23298,6 +23313,7 @@ export default [
       SKS: 6,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27640,
@@ -23316,6 +23332,7 @@ export default [
       DET: 4,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27655,
@@ -23333,6 +23350,7 @@ export default [
       CRT: 17,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1639,
@@ -23836,6 +23854,7 @@ export default [
       DET: 7,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 264,
@@ -24886,6 +24905,7 @@ export default [
       DHT: 7,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27673,
@@ -24904,6 +24924,7 @@ export default [
       DHT: 19,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1635,
@@ -26518,6 +26539,7 @@ export default [
       SKS: 8,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 2125,
@@ -29278,6 +29300,7 @@ export default [
       DHT: 14,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1648,
@@ -30166,6 +30189,7 @@ export default [
       DHT: 9,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27675,
@@ -30184,6 +30208,7 @@ export default [
       CRT: 14,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27676,
@@ -30202,6 +30227,7 @@ export default [
       DET: 9,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 265,
@@ -33091,6 +33117,7 @@ export default [
       SKS: 10,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27644,
@@ -33109,6 +33136,7 @@ export default [
       SKS: 16,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27645,
@@ -33127,6 +33155,7 @@ export default [
       CRT: 10,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 2130,
@@ -33803,6 +33832,7 @@ export default [
       DET: 11,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27657,
@@ -33820,6 +33850,7 @@ export default [
       SKS: 10,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27658,
@@ -33837,6 +33868,7 @@ export default [
       CRT: 27,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1642,
@@ -36941,6 +36973,7 @@ export default [
       DHT: 11,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27659,
@@ -36958,6 +36991,7 @@ export default [
       SKS: 11,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 268,
@@ -37688,7 +37722,7 @@ export default [
   },
   {
     id: 4488,
-    name: '黄沙工匠戒指',
+    name: '密林工匠戒指',
     level: 47,
     slot: 12,
     role: 9,
@@ -37703,7 +37737,7 @@ export default [
   },
   {
     id: 4489,
-    name: '黄沙使者戒指',
+    name: '密林使者戒指',
     level: 47,
     slot: 12,
     role: 9,
@@ -37748,7 +37782,7 @@ export default [
   },
   {
     id: 4492,
-    name: '密林工匠戒指',
+    name: '黄沙工匠戒指',
     level: 47,
     slot: 12,
     role: 9,
@@ -37763,7 +37797,7 @@ export default [
   },
   {
     id: 4493,
-    name: '密林使者戒指',
+    name: '黄沙使者戒指',
     level: 47,
     slot: 12,
     role: 9,
@@ -37843,6 +37877,7 @@ export default [
       DHT: 31,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1649,
@@ -41339,6 +41374,7 @@ export default [
       CRT: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27649,
@@ -41357,6 +41393,7 @@ export default [
       DET: 14,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27650,
@@ -41375,6 +41412,7 @@ export default [
       DHT: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27651,
@@ -41393,6 +41431,7 @@ export default [
       DHT: 21,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27652,
@@ -41411,6 +41450,7 @@ export default [
       DHT: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27660,
@@ -41428,6 +41468,7 @@ export default [
       TEN: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27661,
@@ -41445,6 +41486,7 @@ export default [
       TEN: 21,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27662,
@@ -41462,6 +41504,7 @@ export default [
       DHT: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27663,
@@ -41479,6 +41522,7 @@ export default [
       SKS: 21,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27664,
@@ -41496,6 +41540,7 @@ export default [
       CRT: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27678,
@@ -41514,6 +41559,7 @@ export default [
       DHT: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27679,
@@ -41532,6 +41578,7 @@ export default [
       DHT: 21,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27680,
@@ -41550,6 +41597,7 @@ export default [
       DHT: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27681,
@@ -41568,6 +41616,7 @@ export default [
       DHT: 21,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 27682,
@@ -41586,6 +41635,7 @@ export default [
       DHT: 13,
     },
     hq: true,
+    patch: '5.0',
   },
   {
     id: 1800,

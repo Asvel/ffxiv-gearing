@@ -4154,6 +4154,7 @@ export default [
       VIT: 10,
     },
     statMain: 'DHT',
+    patch: '5.0',
   },
   {
     id: 27854,
@@ -4170,6 +4171,7 @@ export default [
       VIT: 10,
     },
     statMain: 'SKS',
+    patch: '5.0',
   },
   {
     id: 27855,
@@ -4186,6 +4188,7 @@ export default [
       VIT: 10,
     },
     statMain: 'PIE',
+    patch: '5.0',
   },
   {
     id: 27856,
@@ -4202,6 +4205,7 @@ export default [
       VIT: 10,
     },
     statMain: 'TEN',
+    patch: '5.0',
   },
   {
     id: 27857,
@@ -4218,6 +4222,7 @@ export default [
       VIT: 10,
     },
     statMain: 'DET',
+    patch: '5.0',
   },
   {
     id: 27858,
@@ -4234,6 +4239,7 @@ export default [
       VIT: 10,
     },
     statMain: 'SPS',
+    patch: '5.0',
   },
   {
     id: 27859,
@@ -4250,6 +4256,7 @@ export default [
       VIT: 10,
     },
     statMain: 'CRT',
+    patch: '5.0',
   },
   {
     id: 27860,
@@ -4266,6 +4273,7 @@ export default [
       VIT: 10,
     },
     statMain: 'TEN',
+    patch: '5.0',
   },
   {
     id: 27861,
@@ -4282,6 +4290,7 @@ export default [
       VIT: 10,
     },
     statMain: 'DHT',
+    patch: '5.0',
   },
   {
     id: 27862,
@@ -4298,6 +4307,7 @@ export default [
       VIT: 10,
     },
     statMain: 'PIE',
+    patch: '5.0',
   },
   {
     id: 27863,
@@ -4314,6 +4324,7 @@ export default [
       VIT: 10,
     },
     statMain: 'SPS',
+    patch: '5.0',
   },
   {
     id: 27864,
@@ -4330,6 +4341,7 @@ export default [
       CP: 10,
     },
     statMain: 'CMS',
+    patch: '5.0',
   },
   {
     id: 27865,
@@ -4346,6 +4358,7 @@ export default [
       PCP: 3,
     },
     statMain: 'GTH',
+    patch: '5.0',
   },
   {
     id: 27866,
@@ -4364,6 +4377,7 @@ export default [
       CRT: 10,
     },
     statMain: 'TEN',
+    patch: '5.0',
   },
   {
     id: 27867,
@@ -4382,6 +4396,7 @@ export default [
       TEN: 10,
     },
     statMain: 'SKS',
+    patch: '5.0',
   },
   {
     id: 27868,
@@ -4400,6 +4415,7 @@ export default [
       DET: 10,
     },
     statMain: 'SPS',
+    patch: '5.0',
   },
   {
     id: 27869,
@@ -4418,6 +4434,7 @@ export default [
       SPS: 10,
     },
     statMain: 'CRT',
+    patch: '5.0',
   },
   {
     id: 27870,
@@ -4434,6 +4451,7 @@ export default [
       GTH: 3,
     },
     statMain: 'GP',
+    patch: '5.0',
   },
   {
     id: 27871,
@@ -4450,6 +4468,7 @@ export default [
       CMS: 5,
     },
     statMain: 'CRL',
+    patch: '5.0',
   },
   {
     id: 27872,
@@ -4468,6 +4487,7 @@ export default [
       CRT: 10,
     },
     statMain: 'PIE',
+    patch: '5.0',
   },
   {
     id: 27873,
@@ -4486,6 +4506,7 @@ export default [
       SPS: 10,
     },
     statMain: 'DET',
+    patch: '5.0',
   },
   {
     id: 27874,
@@ -4504,6 +4525,7 @@ export default [
       CRT: 10,
     },
     statMain: 'DHT',
+    patch: '5.0',
   },
   {
     id: 27875,
@@ -4522,6 +4544,7 @@ export default [
       DET: 10,
     },
     statMain: 'SKS',
+    patch: '5.0',
   },
   {
     id: 27876,
@@ -4538,6 +4561,7 @@ export default [
       CRL: 5,
     },
     statMain: 'CP',
+    patch: '5.0',
   },
   {
     id: 27877,
@@ -4556,6 +4580,7 @@ export default [
       DET: 10,
     },
     statMain: 'TEN',
+    patch: '5.0',
   },
   {
     id: 27878,
@@ -4572,6 +4597,7 @@ export default [
       GP: 8,
     },
     statMain: 'PCP',
+    patch: '5.0',
   },
   {
     id: 27879,
@@ -4590,6 +4616,7 @@ export default [
       DHT: 10,
     },
     statMain: 'SKS',
+    patch: '5.0',
   },
   {
     id: 27880,
@@ -4608,6 +4635,7 @@ export default [
       DHT: 10,
     },
     statMain: 'SPS',
+    patch: '5.0',
   },
   {
     id: 27881,
@@ -4626,6 +4654,7 @@ export default [
       DET: 10,
     },
     statMain: 'PIE',
+    patch: '5.0',
   },
   {
     id: 27882,
@@ -4644,6 +4673,7 @@ export default [
       DET: 10,
     },
     statMain: 'DHT',
+    patch: '5.0',
   },
   {
     id: 27883,
@@ -4662,6 +4692,7 @@ export default [
       DET: 10,
     },
     statMain: 'DHT',
+    patch: '5.05',
   },
   {
     id: 27884,
@@ -4680,6 +4711,7 @@ export default [
       DHT: 10,
     },
     statMain: 'SKS',
+    patch: '5.05',
   },
   {
     id: 27885,
@@ -4698,6 +4730,7 @@ export default [
       SKS: 10,
     },
     statMain: 'CRT',
+    patch: '5.05',
   },
   {
     id: 27886,
@@ -4716,6 +4749,7 @@ export default [
       CRT: 10,
     },
     statMain: 'DET',
+    patch: '5.05',
   },
   {
     id: 27887,
@@ -4734,6 +4768,7 @@ export default [
       DET: 10,
     },
     statMain: 'PIE',
+    patch: '5.05',
   },
   {
     id: 27888,
@@ -4752,6 +4787,7 @@ export default [
       PIE: 10,
     },
     statMain: 'SPS',
+    patch: '5.05',
   },
   {
     id: 27889,
@@ -4770,6 +4806,7 @@ export default [
       SPS: 10,
     },
     statMain: 'CRT',
+    patch: '5.05',
   },
   {
     id: 27890,
@@ -4788,6 +4825,7 @@ export default [
       DHT: 10,
     },
     statMain: 'SPS',
+    patch: '5.05',
   },
   {
     id: 27891,
@@ -4806,6 +4844,7 @@ export default [
       DET: 10,
     },
     statMain: 'TEN',
+    patch: '5.05',
   },
   {
     id: 27892,
@@ -4824,5 +4863,230 @@ export default [
       TEN: 10,
     },
     statMain: 'DET',
+    patch: '5.05',
+  },
+  {
+    id: 28720,
+    name: '蒜炒贻贝',
+    level: 460,
+    slot: -1,
+    jobCategory: 33,
+    stats: {
+      CP: 70,
+      CMS: 105,
+    },
+    statRates: {
+      CP: 26,
+      CMS: 6,
+    },
+    statMain: 'CP',
+    patch: '5.1',
+  },
+  {
+    id: 28721,
+    name: '乌贼墨汁炒饭',
+    level: 460,
+    slot: -1,
+    jobCategory: 32,
+    stats: {
+      PCP: 93,
+      GTH: 42,
+    },
+    statRates: {
+      PCP: 7,
+      GTH: 3,
+    },
+    statMain: 'PCP',
+    patch: '5.1',
+  },
+  {
+    id: 29497,
+    name: 'Ovim Meatballs',
+    level: 480,
+    slot: -1,
+    jobCategory: 34,
+    stats: {
+      DHT: 168,
+      VIT: 215,
+      DET: 101,
+    },
+    statRates: {
+      DHT: 10,
+      VIT: 10,
+      DET: 10,
+    },
+    statMain: 'DHT',
+    patch: '5.2',
+  },
+  {
+    id: 29498,
+    name: 'Mors',
+    level: 480,
+    slot: -1,
+    jobCategory: 30,
+    stats: {
+      SKS: 168,
+      VIT: 215,
+      DHT: 101,
+    },
+    statRates: {
+      SKS: 10,
+      VIT: 10,
+      DHT: 10,
+    },
+    statMain: 'SKS',
+    patch: '5.2',
+  },
+  {
+    id: 29499,
+    name: 'Lemon Waffle',
+    level: 480,
+    slot: -1,
+    jobCategory: 64,
+    stats: {
+      PIE: 168,
+      VIT: 215,
+      DET: 101,
+    },
+    statRates: {
+      PIE: 10,
+      VIT: 10,
+      DET: 10,
+    },
+    statMain: 'PIE',
+    patch: '5.2',
+  },
+  {
+    id: 29500,
+    name: 'Honey Croissant',
+    level: 480,
+    slot: -1,
+    jobCategory: 64,
+    stats: {
+      SPS: 168,
+      VIT: 215,
+      PIE: 101,
+    },
+    statRates: {
+      SPS: 10,
+      VIT: 10,
+      PIE: 10,
+    },
+    statMain: 'SPS',
+    patch: '5.2',
+  },
+  {
+    id: 29501,
+    name: 'Sausage and Sauerkraut',
+    level: 480,
+    slot: -1,
+    jobCategory: 30,
+    stats: {
+      CRT: 168,
+      VIT: 215,
+      SKS: 101,
+    },
+    statRates: {
+      CRT: 10,
+      VIT: 10,
+      SKS: 10,
+    },
+    statMain: 'CRT',
+    patch: '5.2',
+  },
+  {
+    id: 29502,
+    name: 'Stuffed Highland Cabbage',
+    level: 480,
+    slot: -1,
+    jobCategory: 34,
+    stats: {
+      DET: 168,
+      VIT: 215,
+      CRT: 101,
+    },
+    statRates: {
+      DET: 10,
+      VIT: 10,
+      CRT: 10,
+    },
+    statMain: 'DET',
+    patch: '5.2',
+  },
+  {
+    id: 29503,
+    name: 'Pickled Herring',
+    level: 480,
+    slot: -1,
+    jobCategory: 31,
+    stats: {
+      SPS: 168,
+      VIT: 215,
+      DHT: 101,
+    },
+    statRates: {
+      SPS: 10,
+      VIT: 10,
+      DHT: 10,
+    },
+    statMain: 'SPS',
+    patch: '5.2',
+  },
+  {
+    id: 29504,
+    name: 'Herring Pie',
+    level: 480,
+    slot: -1,
+    jobCategory: 31,
+    stats: {
+      CRT: 168,
+      VIT: 215,
+      SPS: 101,
+    },
+    statRates: {
+      CRT: 10,
+      VIT: 10,
+      SPS: 10,
+    },
+    statMain: 'CRT',
+    patch: '5.2',
+  },
+  {
+    id: 29505,
+    name: "Farmer's Breakfast",
+    level: 480,
+    slot: -1,
+    jobCategory: 59,
+    stats: {
+      TEN: 168,
+      VIT: 215,
+      DET: 101,
+    },
+    statRates: {
+      TEN: 10,
+      VIT: 10,
+      DET: 10,
+    },
+    statMain: 'TEN',
+    patch: '5.2',
+  },
+  {
+    id: 29506,
+    name: 'Silkie Pudding',
+    level: 480,
+    slot: -1,
+    jobCategory: 59,
+    stats: {
+      DET: 168,
+      VIT: 215,
+      TEN: 101,
+    },
+    statRates: {
+      DET: 10,
+      VIT: 10,
+      TEN: 10,
+    },
+    statMain: 'DET',
+    patch: '5.2',
   },
 ];

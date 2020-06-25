@@ -86,7 +86,8 @@ export const Materia = types
       return self.index >= self.gear.materiaSlot;
     },
     get meldableGrades(): G.MateriaGrade[] {
-      return this.isAdvanced ? G.materiaGradesAdvanced : G.materiaGrades;  // TODO; work for low level item
+      return self.index > self.gear.materiaSlot ?
+        G.materiaGradesAdvanced : G.materiaGrades;  // TODO; work for low level item
     },
   }))
   .actions(self => ({
@@ -500,7 +501,7 @@ export const gearDataLoading = computed(() => {
 const loadGearData = async (groupId: string) => {
   if (gearDataLoadStatus.has(groupId)) return;
   runInAction(() => gearDataLoadStatus.set(groupId, 'loading'));
-  const data = (await import(/* webpackChunkName: "[request]" */`../data/gears-${groupId}`)).default as G.GearBase[];
+  const data = (await import(/* webpackChunkName: "[request]" */`../data/out/gears-${groupId}`)).default as G.GearBase[];
   console.log(`gears-${groupId}`);
   runInAction(() => {
     for (const item of data) {
@@ -511,7 +512,7 @@ const loadGearData = async (groupId: string) => {
     gearDataLoadStatus.set(groupId, 'finished');
   });
 };
-const gearGroups = require('../data/gearGroups').default as number[];
+const gearGroups = require('../data/out/gearGroups').default as number[];
 const loadGearDataByGear = (gearId: G.GearId) => {
   const groupId = gearGroups[gearId];
   if (groupId) loadGearData(groupId.toString());

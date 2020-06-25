@@ -18,6 +18,7 @@ export default [
       DLY: 2080,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10597,
@@ -38,6 +39,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10603,
@@ -58,6 +60,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10609,
@@ -78,6 +81,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10615,
@@ -98,6 +102,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10621,
@@ -118,6 +123,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10627,
@@ -138,6 +144,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10633,
@@ -158,6 +165,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10639,
@@ -177,6 +185,7 @@ export default [
       MDMG: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10645,
@@ -196,6 +205,7 @@ export default [
       MDMG: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10651,
@@ -215,6 +225,7 @@ export default [
       MDMG: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10657,
@@ -234,6 +245,7 @@ export default [
       MDMG: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10663,
@@ -253,6 +265,7 @@ export default [
       MDMG: 85,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10669,
@@ -271,6 +284,7 @@ export default [
       CRT: 16,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10675,
@@ -289,6 +303,7 @@ export default [
       DHT: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10682,
@@ -307,6 +322,7 @@ export default [
       SKS: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10689,
@@ -325,6 +341,7 @@ export default [
       SKS: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10696,
@@ -343,6 +360,7 @@ export default [
       SKS: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10703,
@@ -361,6 +379,7 @@ export default [
       DET: 34,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10710,
@@ -379,6 +398,7 @@ export default [
       CRT: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10717,
@@ -397,6 +417,7 @@ export default [
       SKS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10724,
@@ -415,6 +436,7 @@ export default [
       CRT: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10731,
@@ -433,6 +455,7 @@ export default [
       CRT: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10738,
@@ -451,6 +474,7 @@ export default [
       DET: 23,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10745,
@@ -469,6 +493,7 @@ export default [
       SKS: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10752,
@@ -487,6 +512,7 @@ export default [
       DET: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10759,
@@ -505,6 +531,7 @@ export default [
       SKS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10766,
@@ -523,6 +550,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10773,
@@ -541,6 +569,7 @@ export default [
       SKS: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10780,
@@ -559,6 +588,7 @@ export default [
       CRT: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10787,
@@ -577,6 +607,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10794,
@@ -595,6 +626,7 @@ export default [
       DET: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10801,
@@ -613,6 +645,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10808,
@@ -631,6 +664,7 @@ export default [
       DET: 34,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10815,
@@ -649,6 +683,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10822,
@@ -667,6 +702,7 @@ export default [
       CRT: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10829,
@@ -685,6 +721,7 @@ export default [
       DET: 34,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10836,
@@ -703,6 +740,7 @@ export default [
       SKS: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10843,
@@ -721,6 +759,7 @@ export default [
       CRT: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10850,
@@ -739,6 +778,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10857,
@@ -757,6 +797,7 @@ export default [
       SKS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10864,
@@ -775,6 +816,7 @@ export default [
       DET: 16,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10871,
@@ -793,6 +835,7 @@ export default [
       SKS: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10878,
@@ -811,6 +854,7 @@ export default [
       SKS: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10885,
@@ -829,6 +873,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10892,
@@ -847,6 +892,7 @@ export default [
       SPS: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10899,
@@ -865,6 +911,7 @@ export default [
       DET: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10906,
@@ -883,6 +930,7 @@ export default [
       CRT: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10913,
@@ -901,6 +949,7 @@ export default [
       SPS: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10920,
@@ -919,6 +968,7 @@ export default [
       CRT: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10927,
@@ -937,6 +987,7 @@ export default [
       CRT: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10934,
@@ -955,6 +1006,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10941,
@@ -973,6 +1025,7 @@ export default [
       SPS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10948,
@@ -991,6 +1044,7 @@ export default [
       SPS: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10955,
@@ -1009,6 +1063,7 @@ export default [
       DET: 34,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10962,
@@ -1027,6 +1082,7 @@ export default [
       SPS: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10969,
@@ -1045,6 +1101,7 @@ export default [
       DHT: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10975,
@@ -1063,6 +1120,7 @@ export default [
       CRT: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10981,
@@ -1081,6 +1139,7 @@ export default [
       CRT: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10987,
@@ -1099,6 +1158,7 @@ export default [
       SKS: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10993,
@@ -1117,6 +1177,7 @@ export default [
       CRT: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10999,
@@ -1135,6 +1196,7 @@ export default [
       SKS: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11005,
@@ -1153,6 +1215,7 @@ export default [
       DET: 23,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11011,
@@ -1171,6 +1234,7 @@ export default [
       SKS: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11017,
@@ -1189,6 +1253,7 @@ export default [
       SKS: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11023,
@@ -1207,6 +1272,7 @@ export default [
       SKS: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11029,
@@ -1225,6 +1291,7 @@ export default [
       CRT: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11035,
@@ -1243,6 +1310,7 @@ export default [
       SKS: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11041,
@@ -1261,6 +1329,7 @@ export default [
       DET: 16,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11047,
@@ -1279,6 +1348,7 @@ export default [
       SPS: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11053,
@@ -1297,6 +1367,7 @@ export default [
       SPS: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11059,
@@ -1315,6 +1386,7 @@ export default [
       DET: 16,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11065,
@@ -1333,6 +1405,7 @@ export default [
       CRT: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11071,
@@ -1351,6 +1424,7 @@ export default [
       SPS: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11077,
@@ -1369,6 +1443,7 @@ export default [
       DET: 16,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11083,
@@ -1387,6 +1462,7 @@ export default [
       CRT: 17,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11874,
@@ -1403,6 +1479,7 @@ export default [
       CRL: 124,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11878,
@@ -1419,6 +1496,7 @@ export default [
       CRL: 124,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11882,
@@ -1435,6 +1513,7 @@ export default [
       CRL: 124,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11886,
@@ -1451,6 +1530,7 @@ export default [
       CRL: 124,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11890,
@@ -1467,6 +1547,7 @@ export default [
       CRL: 124,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11894,
@@ -1483,6 +1564,7 @@ export default [
       CRL: 124,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11898,
@@ -1499,6 +1581,7 @@ export default [
       CRL: 124,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11902,
@@ -1515,6 +1598,7 @@ export default [
       CRL: 124,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11906,
@@ -1532,6 +1616,7 @@ export default [
       PCP: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11910,
@@ -1549,6 +1634,7 @@ export default [
       PCP: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11914,
@@ -1566,6 +1652,7 @@ export default [
       PCP: 116,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11959,
@@ -1581,6 +1668,7 @@ export default [
       CRL: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11964,
@@ -1597,6 +1685,7 @@ export default [
       CRL: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11969,
@@ -1612,6 +1701,7 @@ export default [
       CRL: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11977,
@@ -1627,6 +1717,7 @@ export default [
       CRL: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11982,
@@ -1642,6 +1733,7 @@ export default [
       CRL: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11987,
@@ -1658,6 +1750,7 @@ export default [
       PCP: 136,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11992,
@@ -1675,6 +1768,7 @@ export default [
       PCP: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11997,
@@ -1691,6 +1785,7 @@ export default [
       GTH: 102,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12005,
@@ -1707,6 +1802,7 @@ export default [
       GTH: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12010,
@@ -1723,6 +1819,7 @@ export default [
       PCP: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13776,
@@ -1741,6 +1838,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13777,
@@ -1759,6 +1857,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13778,
@@ -1777,6 +1876,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13779,
@@ -1795,6 +1895,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13780,
@@ -1813,6 +1914,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13781,
@@ -1831,6 +1933,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13782,
@@ -1849,6 +1952,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13783,
@@ -1867,6 +1971,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13784,
@@ -1884,6 +1989,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13785,
@@ -1901,6 +2007,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13786,
@@ -1918,6 +2025,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13787,
@@ -1935,6 +2043,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13788,
@@ -1952,6 +2061,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 13789,
@@ -1968,6 +2078,7 @@ export default [
       VIT: 19,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15115,
@@ -1986,6 +2097,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15116,
@@ -2004,6 +2116,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15117,
@@ -2022,6 +2135,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15118,
@@ -2040,6 +2154,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15119,
@@ -2058,6 +2173,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15120,
@@ -2076,6 +2192,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15121,
@@ -2094,6 +2211,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15122,
@@ -2112,6 +2230,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15123,
@@ -2129,6 +2248,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15124,
@@ -2146,6 +2266,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15125,
@@ -2163,6 +2284,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15126,
@@ -2180,6 +2302,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15127,
@@ -2197,6 +2320,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15128,
@@ -2213,6 +2337,7 @@ export default [
       VIT: 19,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15893,
@@ -2231,6 +2356,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15894,
@@ -2249,6 +2375,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15895,
@@ -2267,6 +2394,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15896,
@@ -2285,6 +2413,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15897,
@@ -2303,6 +2432,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15898,
@@ -2321,6 +2451,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15899,
@@ -2339,6 +2470,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15900,
@@ -2357,6 +2489,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15901,
@@ -2374,6 +2507,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15902,
@@ -2391,6 +2525,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15903,
@@ -2408,6 +2543,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15904,
@@ -2425,6 +2561,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15905,
@@ -2442,6 +2579,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 15906,
@@ -2458,6 +2596,7 @@ export default [
       VIT: 19,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16912,
@@ -2476,6 +2615,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16913,
@@ -2494,6 +2634,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16914,
@@ -2512,6 +2653,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16915,
@@ -2530,6 +2672,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16916,
@@ -2548,6 +2691,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16917,
@@ -2566,6 +2710,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16918,
@@ -2584,6 +2729,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16919,
@@ -2602,6 +2748,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16920,
@@ -2619,6 +2766,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16921,
@@ -2636,6 +2784,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16922,
@@ -2653,6 +2802,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16923,
@@ -2670,6 +2820,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16924,
@@ -2687,6 +2838,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16925,
@@ -2703,6 +2855,7 @@ export default [
       VIT: 19,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16972,
@@ -2721,6 +2874,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16973,
@@ -2739,6 +2893,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16974,
@@ -2757,6 +2912,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16975,
@@ -2775,6 +2931,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16976,
@@ -2793,6 +2950,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16977,
@@ -2811,6 +2969,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16978,
@@ -2829,6 +2988,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16979,
@@ -2847,6 +3007,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16980,
@@ -2864,6 +3025,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16981,
@@ -2881,6 +3043,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16982,
@@ -2898,6 +3061,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16983,
@@ -2915,6 +3079,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16984,
@@ -2932,6 +3097,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16985,
@@ -2948,6 +3114,7 @@ export default [
       VIT: 19,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16986,
@@ -2966,6 +3133,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16987,
@@ -2984,6 +3152,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16988,
@@ -3002,6 +3171,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16989,
@@ -3020,6 +3190,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16990,
@@ -3038,6 +3209,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16991,
@@ -3056,6 +3228,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16992,
@@ -3074,6 +3247,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16993,
@@ -3092,6 +3266,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16994,
@@ -3109,6 +3284,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16995,
@@ -3126,6 +3302,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16996,
@@ -3143,6 +3320,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16997,
@@ -3160,6 +3338,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16998,
@@ -3177,6 +3356,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 16999,
@@ -3193,6 +3373,7 @@ export default [
       VIT: 19,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 17500,
@@ -3213,6 +3394,7 @@ export default [
       PIE: 38,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 20523,
@@ -3231,6 +3413,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '危命任务',
   },
   {
     id: 20998,
@@ -3249,6 +3432,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 20999,
@@ -3267,6 +3451,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21000,
@@ -3285,6 +3470,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21001,
@@ -3303,6 +3489,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21002,
@@ -3321,6 +3508,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21003,
@@ -3339,6 +3527,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21004,
@@ -3357,6 +3546,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21005,
@@ -3375,6 +3565,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21006,
@@ -3392,6 +3583,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21007,
@@ -3409,6 +3601,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21008,
@@ -3426,6 +3619,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21009,
@@ -3443,6 +3637,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21010,
@@ -3460,6 +3655,7 @@ export default [
       MDMG: 85,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 21011,
@@ -3476,6 +3672,7 @@ export default [
       VIT: 19,
     },
     hq: false,
+    source: '魂武/复制品',
   },
   {
     id: 6109,
@@ -3496,6 +3693,7 @@ export default [
       PIE: 28,
     },
     hq: false,
+    source: '成就/战职等级',
   },
   {
     id: 11364,
@@ -3516,6 +3714,7 @@ export default [
       DLY: 2080,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11365,
@@ -3536,6 +3735,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11366,
@@ -3556,6 +3756,7 @@ export default [
       DLY: 3200,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11367,
@@ -3576,6 +3777,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11368,
@@ -3596,6 +3798,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11369,
@@ -3616,6 +3819,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11370,
@@ -3636,6 +3840,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11371,
@@ -3656,6 +3861,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11372,
@@ -3675,6 +3881,7 @@ export default [
       MDMG: 89,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11373,
@@ -3694,6 +3901,7 @@ export default [
       MDMG: 89,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11374,
@@ -3713,6 +3921,7 @@ export default [
       MDMG: 89,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11375,
@@ -3732,6 +3941,7 @@ export default [
       MDMG: 89,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11376,
@@ -3751,6 +3961,7 @@ export default [
       MDMG: 89,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11377,
@@ -3769,6 +3980,7 @@ export default [
       SKS: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11378,
@@ -3787,6 +3999,7 @@ export default [
       DHT: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11379,
@@ -3805,6 +4018,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11380,
@@ -3823,6 +4037,7 @@ export default [
       CRT: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11381,
@@ -3841,6 +4056,7 @@ export default [
       SKS: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11382,
@@ -3859,6 +4075,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11383,
@@ -3877,6 +4094,7 @@ export default [
       CRT: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11384,
@@ -3895,6 +4113,7 @@ export default [
       DET: 24,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11385,
@@ -3913,6 +4132,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11386,
@@ -3931,6 +4151,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11387,
@@ -3949,6 +4170,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11388,
@@ -3967,6 +4189,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11389,
@@ -3985,6 +4208,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11390,
@@ -4003,6 +4227,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11391,
@@ -4021,6 +4246,7 @@ export default [
       SPS: 40,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11392,
@@ -4039,6 +4265,7 @@ export default [
       DHT: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11393,
@@ -4057,6 +4284,7 @@ export default [
       SKS: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11394,
@@ -4075,6 +4303,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11395,
@@ -4093,6 +4322,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11396,
@@ -4111,6 +4341,7 @@ export default [
       SKS: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11397,
@@ -4129,6 +4360,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11398,
@@ -4147,6 +4379,7 @@ export default [
       CRT: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11399,
@@ -4165,6 +4398,7 @@ export default [
       DET: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11400,
@@ -4183,6 +4417,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11401,
@@ -4201,6 +4436,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11402,
@@ -4219,6 +4455,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11403,
@@ -4237,6 +4474,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11404,
@@ -4255,6 +4493,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11405,
@@ -4273,6 +4512,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11406,
@@ -4291,6 +4531,7 @@ export default [
       DHT: 40,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11407,
@@ -4309,6 +4550,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11408,
@@ -4327,6 +4569,7 @@ export default [
       CRT: 40,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11409,
@@ -4345,6 +4588,7 @@ export default [
       CRT: 40,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11410,
@@ -4363,6 +4607,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11411,
@@ -4381,6 +4626,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11412,
@@ -4399,6 +4645,7 @@ export default [
       DET: 55,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11413,
@@ -4417,6 +4664,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11414,
@@ -4435,6 +4683,7 @@ export default [
       CRT: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11415,
@@ -4453,6 +4702,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11416,
@@ -4471,6 +4721,7 @@ export default [
       CRT: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11417,
@@ -4489,6 +4740,7 @@ export default [
       CRT: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11418,
@@ -4507,6 +4759,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11419,
@@ -4525,6 +4778,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12456,
@@ -4543,6 +4797,7 @@ export default [
       DHT: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12457,
@@ -4561,6 +4816,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12458,
@@ -4579,6 +4835,7 @@ export default [
       SKS: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12459,
@@ -4597,6 +4854,7 @@ export default [
       SKS: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12460,
@@ -4615,6 +4873,7 @@ export default [
       SKS: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12461,
@@ -4633,6 +4892,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12462,
@@ -4651,6 +4911,7 @@ export default [
       DET: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12463,
@@ -4669,6 +4930,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12464,
@@ -4687,6 +4949,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12465,
@@ -4705,6 +4968,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12466,
@@ -4723,6 +4987,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12467,
@@ -4741,6 +5006,7 @@ export default [
       DET: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12468,
@@ -4759,6 +5025,7 @@ export default [
       DET: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12469,
@@ -4777,6 +5044,7 @@ export default [
       SPS: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12470,
@@ -4795,6 +5063,7 @@ export default [
       CRT: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12471,
@@ -4813,6 +5082,7 @@ export default [
       DET: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12472,
@@ -4831,6 +5101,7 @@ export default [
       SPS: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12473,
@@ -4849,6 +5120,7 @@ export default [
       SPS: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12474,
@@ -4867,6 +5139,7 @@ export default [
       CRT: 26,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12475,
@@ -4885,6 +5158,7 @@ export default [
       SPS: 18,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 12513,
@@ -4905,6 +5179,7 @@ export default [
       PIE: 28,
     },
     hq: false,
+    source: '成就/尘封秘岩',
   },
   {
     id: 12514,
@@ -4925,6 +5200,7 @@ export default [
       PIE: 45,
     },
     hq: false,
+    source: '成就/尘封秘岩',
   },
   {
     id: 12515,
@@ -4945,6 +5221,7 @@ export default [
       PIE: 28,
     },
     hq: false,
+    source: '成就/尘封秘岩',
   },
   {
     id: 12516,
@@ -4965,6 +5242,7 @@ export default [
       PIE: 45,
     },
     hq: false,
+    source: '成就/尘封秘岩',
   },
   {
     id: 12517,
@@ -4985,6 +5263,7 @@ export default [
       PIE: 28,
     },
     hq: false,
+    source: '成就/尘封秘岩',
   },
   {
     id: 12996,
@@ -5003,6 +5282,7 @@ export default [
       DET: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12997,
@@ -5021,6 +5301,7 @@ export default [
       SKS: 57,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12998,
@@ -5039,6 +5320,7 @@ export default [
       CRT: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12999,
@@ -5057,6 +5339,7 @@ export default [
       CRT: 57,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13000,
@@ -5075,6 +5358,7 @@ export default [
       CRT: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13001,
@@ -5093,6 +5377,7 @@ export default [
       CRT: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13002,
@@ -5111,6 +5396,7 @@ export default [
       SPS: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13381,
@@ -5127,6 +5413,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13382,
@@ -5143,6 +5430,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13383,
@@ -5159,6 +5447,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13384,
@@ -5175,6 +5464,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13385,
@@ -5191,6 +5481,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13386,
@@ -5207,6 +5498,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13387,
@@ -5223,6 +5515,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13388,
@@ -5239,6 +5532,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13389,
@@ -5255,6 +5549,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13390,
@@ -5271,6 +5566,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13391,
@@ -5287,6 +5583,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13392,
@@ -5303,6 +5600,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13393,
@@ -5319,6 +5617,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13394,
@@ -5335,6 +5634,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13395,
@@ -5351,6 +5651,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13396,
@@ -5367,6 +5668,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13397,
@@ -5383,6 +5685,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13398,
@@ -5399,6 +5702,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13399,
@@ -5415,6 +5719,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13400,
@@ -5431,6 +5736,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13401,
@@ -5447,6 +5753,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13402,
@@ -5463,6 +5770,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13403,
@@ -5479,6 +5787,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13404,
@@ -5495,6 +5804,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13405,
@@ -5511,6 +5821,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13406,
@@ -5527,6 +5838,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13407,
@@ -5543,6 +5855,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13408,
@@ -5559,6 +5872,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13409,
@@ -5575,6 +5889,7 @@ export default [
       VIT: 67,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13410,
@@ -5591,6 +5906,7 @@ export default [
       VIT: 42,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13411,
@@ -5607,6 +5923,7 @@ export default [
       MND: 44,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13412,
@@ -5623,6 +5940,7 @@ export default [
       MND: 71,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13413,
@@ -5639,6 +5957,7 @@ export default [
       MND: 44,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13414,
@@ -5655,6 +5974,7 @@ export default [
       MND: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13415,
@@ -5671,6 +5991,7 @@ export default [
       MND: 71,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13416,
@@ -5687,6 +6008,7 @@ export default [
       MND: 44,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13417,
@@ -5703,6 +6025,7 @@ export default [
       INT: 44,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13418,
@@ -5719,6 +6042,7 @@ export default [
       INT: 71,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13419,
@@ -5735,6 +6059,7 @@ export default [
       INT: 44,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13420,
@@ -5751,6 +6076,7 @@ export default [
       INT: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13421,
@@ -5767,6 +6093,7 @@ export default [
       INT: 71,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13422,
@@ -5783,6 +6110,7 @@ export default [
       INT: 44,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13423,
@@ -5799,6 +6127,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13424,
@@ -5815,6 +6144,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13425,
@@ -5831,6 +6161,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13426,
@@ -5847,6 +6178,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13427,
@@ -5863,6 +6195,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13428,
@@ -5879,6 +6212,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13429,
@@ -5895,6 +6229,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13430,
@@ -5911,6 +6246,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13431,
@@ -5927,6 +6263,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13432,
@@ -5943,6 +6280,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13433,
@@ -5959,6 +6297,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13434,
@@ -5975,6 +6314,7 @@ export default [
       VIT: 31,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13435,
@@ -5991,6 +6331,7 @@ export default [
       MND: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13436,
@@ -6007,6 +6348,7 @@ export default [
       MND: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13437,
@@ -6023,6 +6365,7 @@ export default [
       MND: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13438,
@@ -6039,6 +6382,7 @@ export default [
       MND: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13439,
@@ -6055,6 +6399,7 @@ export default [
       INT: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13440,
@@ -6071,6 +6416,7 @@ export default [
       INT: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13441,
@@ -6087,6 +6433,7 @@ export default [
       INT: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13442,
@@ -6103,6 +6450,7 @@ export default [
       INT: 33,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 20424,
@@ -6123,6 +6471,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 20425,
@@ -6142,6 +6491,7 @@ export default [
       MDMG: 89,
     },
     hq: false,
+    source: '迷宫挑战/不获岛、无限回廊',
   },
   {
     id: 11586,
@@ -6162,6 +6512,7 @@ export default [
       DLY: 2080,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11587,
@@ -6182,6 +6533,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11588,
@@ -6202,6 +6554,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11589,
@@ -6222,6 +6575,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11590,
@@ -6242,6 +6596,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11591,
@@ -6262,6 +6617,7 @@ export default [
       DLY: 2720,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11592,
@@ -6282,6 +6638,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11593,
@@ -6302,6 +6659,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11594,
@@ -6321,6 +6679,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11595,
@@ -6340,6 +6699,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11596,
@@ -6359,6 +6719,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11597,
@@ -6378,6 +6739,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11598,
@@ -6397,6 +6759,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11599,
@@ -6415,6 +6778,7 @@ export default [
       CRT: 14,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11600,
@@ -6433,6 +6797,7 @@ export default [
       CRT: 39,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11601,
@@ -6451,6 +6816,7 @@ export default [
       CRT: 39,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11602,
@@ -6469,6 +6835,7 @@ export default [
       SKS: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11603,
@@ -6487,6 +6854,7 @@ export default [
       CRT: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11604,
@@ -6505,6 +6873,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11605,
@@ -6523,6 +6892,7 @@ export default [
       DET: 26,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11606,
@@ -6541,6 +6911,7 @@ export default [
       DET: 26,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11607,
@@ -6559,6 +6930,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11608,
@@ -6577,6 +6949,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11609,
@@ -6595,6 +6968,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11610,
@@ -6613,6 +6987,7 @@ export default [
       DET: 60,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11611,
@@ -6631,6 +7006,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11612,
@@ -6649,6 +7025,7 @@ export default [
       SPS: 63,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11613,
@@ -6667,6 +7044,7 @@ export default [
       SPS: 63,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11614,
@@ -6685,6 +7063,7 @@ export default [
       DHT: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11615,
@@ -6703,6 +7082,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11616,
@@ -6721,6 +7101,7 @@ export default [
       DET: 26,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11617,
@@ -6739,6 +7120,7 @@ export default [
       SKS: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11618,
@@ -6757,6 +7139,7 @@ export default [
       CRT: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11619,
@@ -6775,6 +7158,7 @@ export default [
       CRT: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11620,
@@ -6793,6 +7177,7 @@ export default [
       SPS: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11621,
@@ -6811,6 +7196,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11622,
@@ -6829,6 +7215,7 @@ export default [
       SKS: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11623,
@@ -6847,6 +7234,7 @@ export default [
       DET: 19,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11624,
@@ -6865,6 +7253,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11625,
@@ -6883,6 +7272,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11626,
@@ -6901,6 +7291,7 @@ export default [
       CRT: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11627,
@@ -6919,6 +7310,7 @@ export default [
       SPS: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11628,
@@ -6937,6 +7329,7 @@ export default [
       DET: 60,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11629,
@@ -6955,6 +7348,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11630,
@@ -6973,6 +7367,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11631,
@@ -6991,6 +7386,7 @@ export default [
       DET: 60,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11632,
@@ -7009,6 +7405,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11633,
@@ -7027,6 +7424,7 @@ export default [
       DET: 60,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11634,
@@ -7045,6 +7443,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11635,
@@ -7063,6 +7462,7 @@ export default [
       CRT: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11636,
@@ -7081,6 +7481,7 @@ export default [
       CRT: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11637,
@@ -7099,6 +7500,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11638,
@@ -7117,6 +7519,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11639,
@@ -7135,6 +7538,7 @@ export default [
       CRT: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11640,
@@ -7153,6 +7557,7 @@ export default [
       SPS: 27,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11641,
@@ -7171,6 +7576,7 @@ export default [
       DET: 37,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11642,
@@ -7189,6 +7595,7 @@ export default [
       DET: 19,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11643,
@@ -7207,6 +7614,7 @@ export default [
       CRT: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11644,
@@ -7225,6 +7633,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11645,
@@ -7243,6 +7652,7 @@ export default [
       SPS: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11646,
@@ -7261,6 +7671,7 @@ export default [
       SPS: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11647,
@@ -7279,6 +7690,7 @@ export default [
       SKS: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11648,
@@ -7297,6 +7709,7 @@ export default [
       SKS: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11649,
@@ -7315,6 +7728,7 @@ export default [
       CRT: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11650,
@@ -7333,6 +7747,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11651,
@@ -7351,6 +7766,7 @@ export default [
       SPS: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11652,
@@ -7369,6 +7785,7 @@ export default [
       DHT: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11653,
@@ -7387,6 +7804,7 @@ export default [
       DET: 19,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11654,
@@ -7405,6 +7823,7 @@ export default [
       SKS: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11655,
@@ -7423,6 +7842,7 @@ export default [
       SPS: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11656,
@@ -7441,6 +7861,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11657,
@@ -7459,6 +7880,7 @@ export default [
       SKS: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11658,
@@ -7477,6 +7899,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11659,
@@ -7495,6 +7918,7 @@ export default [
       CRT: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11660,
@@ -7513,6 +7937,7 @@ export default [
       CRT: 20,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11661,
@@ -7531,6 +7956,7 @@ export default [
       CRT: 29,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11918,
@@ -7547,6 +7973,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11922,
@@ -7563,6 +7990,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11926,
@@ -7579,6 +8007,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11930,
@@ -7595,6 +8024,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11934,
@@ -7611,6 +8041,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11938,
@@ -7627,6 +8058,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11942,
@@ -7643,6 +8075,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11946,
@@ -7659,6 +8092,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11950,
@@ -7675,6 +8109,7 @@ export default [
       PCP: 238,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11954,
@@ -7691,6 +8126,7 @@ export default [
       PCP: 238,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11972,
@@ -7706,6 +8142,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12000,
@@ -7721,6 +8158,7 @@ export default [
       PCP: 34,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12013,
@@ -7736,6 +8174,7 @@ export default [
       CP: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12016,
@@ -7751,6 +8190,7 @@ export default [
       CP: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12019,
@@ -7766,6 +8206,7 @@ export default [
       CP: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12022,
@@ -7781,6 +8222,7 @@ export default [
       CP: 23,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12025,
@@ -7796,6 +8238,7 @@ export default [
       GP: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12028,
@@ -7811,6 +8254,7 @@ export default [
       GP: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12031,
@@ -7826,6 +8270,7 @@ export default [
       GP: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 12034,
@@ -7841,6 +8286,7 @@ export default [
       GP: 27,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13005,
@@ -7857,6 +8303,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13006,
@@ -7873,6 +8320,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13007,
@@ -7889,6 +8337,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13008,
@@ -7905,6 +8354,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13009,
@@ -7921,6 +8371,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13010,
@@ -7937,6 +8388,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13011,
@@ -7953,6 +8405,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13012,
@@ -7969,6 +8422,7 @@ export default [
       CRL: 141,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13013,
@@ -7985,6 +8439,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13014,
@@ -8002,6 +8457,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13015,
@@ -8018,6 +8474,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13016,
@@ -8034,6 +8491,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13017,
@@ -8050,6 +8508,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13018,
@@ -8066,6 +8525,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13019,
@@ -8083,6 +8543,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13020,
@@ -8099,6 +8560,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13021,
@@ -8115,6 +8577,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13022,
@@ -8131,6 +8594,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13023,
@@ -8147,6 +8611,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13024,
@@ -8164,6 +8629,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13025,
@@ -8180,6 +8646,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13026,
@@ -8196,6 +8663,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13027,
@@ -8212,6 +8680,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13028,
@@ -8228,6 +8697,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13029,
@@ -8245,6 +8715,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13030,
@@ -8261,6 +8732,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13031,
@@ -8277,6 +8749,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13032,
@@ -8293,6 +8766,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13033,
@@ -8309,6 +8783,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13034,
@@ -8326,6 +8801,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13035,
@@ -8342,6 +8818,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13036,
@@ -8358,6 +8835,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13037,
@@ -8374,6 +8852,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13038,
@@ -8390,6 +8869,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13039,
@@ -8407,6 +8887,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13040,
@@ -8423,6 +8904,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13041,
@@ -8439,6 +8921,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13042,
@@ -8455,6 +8938,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13043,
@@ -8471,6 +8955,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13044,
@@ -8488,6 +8973,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13045,
@@ -8504,6 +8990,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13046,
@@ -8520,6 +9007,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13047,
@@ -8536,6 +9024,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13048,
@@ -8552,6 +9041,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13049,
@@ -8569,6 +9059,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13050,
@@ -8585,6 +9076,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13051,
@@ -8601,6 +9093,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13052,
@@ -8617,6 +9110,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13611,
@@ -8637,6 +9131,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13612,
@@ -8657,6 +9152,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13613,
@@ -8677,6 +9173,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13614,
@@ -8697,6 +9194,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13615,
@@ -8717,6 +9215,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13616,
@@ -8737,6 +9236,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13617,
@@ -8757,6 +9257,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13618,
@@ -8777,6 +9278,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13619,
@@ -8796,6 +9298,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13620,
@@ -8815,6 +9318,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13621,
@@ -8834,6 +9338,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13622,
@@ -8853,6 +9358,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13623,
@@ -8872,6 +9378,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13624,
@@ -8890,6 +9397,7 @@ export default [
       DET: 19,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15510,
@@ -8906,6 +9414,7 @@ export default [
       PCP: 136,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15511,
@@ -8924,6 +9433,7 @@ export default [
       PCP: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15512,
@@ -8941,6 +9451,7 @@ export default [
       GTH: 102,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15513,
@@ -8958,6 +9469,7 @@ export default [
       PCP: 7,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15514,
@@ -8975,6 +9487,7 @@ export default [
       PCP: 68,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15520,
@@ -8991,6 +9504,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15521,
@@ -9008,6 +9522,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15522,
@@ -9024,6 +9539,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15523,
@@ -9040,6 +9556,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15524,
@@ -9056,6 +9573,7 @@ export default [
       CRL: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20412,
@@ -9076,6 +9594,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 20413,
@@ -9095,6 +9614,7 @@ export default [
       MDMG: 93,
     },
     hq: false,
+    source: '点数/法典→兵团',
   },
   {
     id: 11420,
@@ -9115,6 +9635,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11421,
@@ -9135,6 +9656,7 @@ export default [
       DLY: 2400,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11422,
@@ -9155,6 +9677,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11423,
@@ -9175,6 +9698,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11424,
@@ -9195,6 +9719,7 @@ export default [
       DLY: 3280,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11425,
@@ -9215,6 +9740,7 @@ export default [
       DLY: 2400,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11426,
@@ -9235,6 +9761,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11427,
@@ -9255,6 +9782,7 @@ export default [
       DLY: 2760,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11428,
@@ -9274,6 +9802,7 @@ export default [
       MDMG: 95,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11429,
@@ -9293,6 +9822,7 @@ export default [
       MDMG: 95,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11430,
@@ -9312,6 +9842,7 @@ export default [
       MDMG: 95,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11431,
@@ -9331,6 +9862,7 @@ export default [
       MDMG: 95,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11432,
@@ -9350,6 +9882,7 @@ export default [
       MDMG: 95,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 11433,
@@ -9368,6 +9901,7 @@ export default [
       SKS: 20,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 20426,
@@ -9388,6 +9922,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 20427,
@@ -9407,6 +9942,7 @@ export default [
       MDMG: 95,
     },
     hq: false,
+    source: '歼殛战/云神',
   },
   {
     id: 10230,
@@ -9423,6 +9959,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10231,
@@ -9440,6 +9977,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10232,
@@ -9456,6 +9994,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10233,
@@ -9472,6 +10011,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10234,
@@ -9488,6 +10028,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10235,
@@ -9504,6 +10045,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10236,
@@ -9521,6 +10063,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10237,
@@ -9537,6 +10080,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10238,
@@ -9553,6 +10097,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10239,
@@ -9569,6 +10114,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10240,
@@ -9585,6 +10131,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10241,
@@ -9602,6 +10149,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10242,
@@ -9618,6 +10166,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10243,
@@ -9634,6 +10183,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10244,
@@ -9650,6 +10200,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10245,
@@ -9666,6 +10217,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10246,
@@ -9683,6 +10235,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10247,
@@ -9699,6 +10252,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10248,
@@ -9715,6 +10269,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10249,
@@ -9731,6 +10286,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10250,
@@ -9747,6 +10303,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10251,
@@ -9764,6 +10321,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10252,
@@ -9780,6 +10338,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10253,
@@ -9796,6 +10355,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10254,
@@ -9812,6 +10372,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10255,
@@ -9828,6 +10389,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10256,
@@ -9845,6 +10407,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10257,
@@ -9861,6 +10424,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10258,
@@ -9877,6 +10441,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10259,
@@ -9893,6 +10458,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10260,
@@ -9909,6 +10475,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10261,
@@ -9926,6 +10493,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10262,
@@ -9942,6 +10510,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10263,
@@ -9958,6 +10527,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10264,
@@ -9974,6 +10544,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10265,
@@ -9990,6 +10561,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10266,
@@ -10007,6 +10579,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10267,
@@ -10023,6 +10596,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10268,
@@ -10039,6 +10613,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10269,
@@ -10055,6 +10630,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10270,
@@ -10071,6 +10647,7 @@ export default [
       PCP: 146,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10271,
@@ -10089,6 +10666,7 @@ export default [
       PCP: 73,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10272,
@@ -10106,6 +10684,7 @@ export default [
       GTH: 110,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10273,
@@ -10123,6 +10702,7 @@ export default [
       PCP: 7,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10274,
@@ -10140,6 +10720,7 @@ export default [
       PCP: 73,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10275,
@@ -10156,6 +10737,7 @@ export default [
       PCP: 146,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10276,
@@ -10174,6 +10756,7 @@ export default [
       PCP: 73,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10277,
@@ -10191,6 +10774,7 @@ export default [
       GTH: 110,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10278,
@@ -10208,6 +10792,7 @@ export default [
       PCP: 7,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10279,
@@ -10225,6 +10810,7 @@ export default [
       PCP: 73,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10280,
@@ -10241,6 +10827,7 @@ export default [
       PCP: 146,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10281,
@@ -10259,6 +10846,7 @@ export default [
       PCP: 73,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10282,
@@ -10276,6 +10864,7 @@ export default [
       GTH: 110,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10283,
@@ -10293,6 +10882,7 @@ export default [
       PCP: 7,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10284,
@@ -10310,6 +10900,7 @@ export default [
       PCP: 73,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10296,
@@ -10326,6 +10917,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10297,
@@ -10342,6 +10934,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10298,
@@ -10358,6 +10951,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10299,
@@ -10374,6 +10968,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10300,
@@ -10390,6 +10985,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10301,
@@ -10406,6 +11002,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10302,
@@ -10422,6 +11019,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10303,
@@ -10438,6 +11036,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 10304,
@@ -10455,6 +11054,7 @@ export default [
       PCP: 146,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10305,
@@ -10472,6 +11072,7 @@ export default [
       PCP: 146,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10306,
@@ -10489,6 +11090,7 @@ export default [
       PCP: 146,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 10676,
@@ -10507,6 +11109,7 @@ export default [
       SKS: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10683,
@@ -10525,6 +11128,7 @@ export default [
       DET: 66,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10690,
@@ -10543,6 +11147,7 @@ export default [
       CRT: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10697,
@@ -10561,6 +11166,7 @@ export default [
       CRT: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10704,
@@ -10579,6 +11185,7 @@ export default [
       SKS: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10711,
@@ -10597,6 +11204,7 @@ export default [
       DET: 28,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10718,
@@ -10615,6 +11223,7 @@ export default [
       DET: 28,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10725,
@@ -10633,6 +11242,7 @@ export default [
       SKS: 69,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10732,
@@ -10651,6 +11261,7 @@ export default [
       DET: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10739,
@@ -10669,6 +11280,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10746,
@@ -10687,6 +11299,7 @@ export default [
       CRT: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10753,
@@ -10705,6 +11318,7 @@ export default [
       SKS: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10760,
@@ -10723,6 +11337,7 @@ export default [
       DET: 28,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10767,
@@ -10741,6 +11356,7 @@ export default [
       CRT: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10774,
@@ -10759,6 +11375,7 @@ export default [
       DET: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10781,
@@ -10777,6 +11394,7 @@ export default [
       SKS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10788,
@@ -10795,6 +11413,7 @@ export default [
       SKS: 69,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10795,
@@ -10813,6 +11432,7 @@ export default [
       SKS: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10802,
@@ -10831,6 +11451,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10809,
@@ -10849,6 +11470,7 @@ export default [
       CRT: 69,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10816,
@@ -10867,6 +11489,7 @@ export default [
       DET: 28,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10823,
@@ -10885,6 +11508,7 @@ export default [
       CRT: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10830,
@@ -10903,6 +11527,7 @@ export default [
       SKS: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10837,
@@ -10921,6 +11546,7 @@ export default [
       DET: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10844,
@@ -10939,6 +11565,7 @@ export default [
       SKS: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10851,
@@ -10957,6 +11584,7 @@ export default [
       CRT: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10858,
@@ -10975,6 +11603,7 @@ export default [
       DET: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10865,
@@ -10993,6 +11622,7 @@ export default [
       SKS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10872,
@@ -11011,6 +11641,7 @@ export default [
       SKS: 69,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10879,
@@ -11029,6 +11660,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10886,
@@ -11047,6 +11679,7 @@ export default [
       SPS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10893,
@@ -11065,6 +11698,7 @@ export default [
       CRT: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10900,
@@ -11083,6 +11717,7 @@ export default [
       SPS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10907,
@@ -11101,6 +11736,7 @@ export default [
       SPS: 22,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10914,
@@ -11119,6 +11755,7 @@ export default [
       SPS: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10921,
@@ -11137,6 +11774,7 @@ export default [
       DET: 40,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10928,
@@ -11155,6 +11793,7 @@ export default [
       SPS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10935,
@@ -11173,6 +11812,7 @@ export default [
       SPS: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10942,
@@ -11191,6 +11831,7 @@ export default [
       DET: 28,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10949,
@@ -11209,6 +11850,7 @@ export default [
       CRT: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10956,
@@ -11227,6 +11869,7 @@ export default [
       SPS: 48,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10963,
@@ -11245,6 +11888,7 @@ export default [
       CRT: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11662,
@@ -11265,6 +11909,7 @@ export default [
       DLY: 2080,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11663,
@@ -11285,6 +11930,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11664,
@@ -11305,6 +11951,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11665,
@@ -11325,6 +11972,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11666,
@@ -11345,6 +11993,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11667,
@@ -11365,6 +12014,7 @@ export default [
       DLY: 2720,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11668,
@@ -11385,6 +12035,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11669,
@@ -11405,6 +12056,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11670,
@@ -11424,6 +12076,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11671,
@@ -11443,6 +12096,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11672,
@@ -11462,6 +12116,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11673,
@@ -11481,6 +12136,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11674,
@@ -11500,6 +12156,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11675,
@@ -11518,6 +12175,7 @@ export default [
       CRT: 15,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11676,
@@ -11536,6 +12194,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11677,
@@ -11554,6 +12213,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11678,
@@ -11572,6 +12232,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11679,
@@ -11590,6 +12251,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11680,
@@ -11608,6 +12270,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11681,
@@ -11626,6 +12289,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11682,
@@ -11644,6 +12308,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11683,
@@ -11662,6 +12327,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11684,
@@ -11680,6 +12346,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11685,
@@ -11698,6 +12365,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11686,
@@ -11716,6 +12384,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11687,
@@ -11734,6 +12403,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11688,
@@ -11752,6 +12422,7 @@ export default [
       SPS: 69,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11689,
@@ -11770,6 +12441,7 @@ export default [
       SPS: 69,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11690,
@@ -11788,6 +12460,7 @@ export default [
       DHT: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11691,
@@ -11806,6 +12479,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11692,
@@ -11824,6 +12498,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11693,
@@ -11842,6 +12517,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11694,
@@ -11860,6 +12536,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11695,
@@ -11878,6 +12555,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11696,
@@ -11896,6 +12574,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11697,
@@ -11914,6 +12593,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11698,
@@ -11932,6 +12612,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11699,
@@ -11950,6 +12631,7 @@ export default [
       DET: 21,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11700,
@@ -11968,6 +12650,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11701,
@@ -11986,6 +12669,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11702,
@@ -12004,6 +12688,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11703,
@@ -12022,6 +12707,7 @@ export default [
       SPS: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11704,
@@ -12040,6 +12726,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11705,
@@ -12058,6 +12745,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11706,
@@ -12076,6 +12764,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11707,
@@ -12094,6 +12783,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11708,
@@ -12112,6 +12802,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11709,
@@ -12130,6 +12821,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11710,
@@ -12148,6 +12840,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11711,
@@ -12166,6 +12859,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11712,
@@ -12184,6 +12878,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11713,
@@ -12202,6 +12897,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11714,
@@ -12220,6 +12916,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11715,
@@ -12238,6 +12935,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11716,
@@ -12256,6 +12954,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11717,
@@ -12274,6 +12973,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11718,
@@ -12292,6 +12992,7 @@ export default [
       DET: 21,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11719,
@@ -12310,6 +13011,7 @@ export default [
       CRT: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11720,
@@ -12328,6 +13030,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11721,
@@ -12346,6 +13049,7 @@ export default [
       SPS: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11722,
@@ -12364,6 +13068,7 @@ export default [
       SPS: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11723,
@@ -12382,6 +13087,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11724,
@@ -12400,6 +13106,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11725,
@@ -12418,6 +13125,7 @@ export default [
       CRT: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11726,
@@ -12436,6 +13144,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11727,
@@ -12454,6 +13163,7 @@ export default [
       SPS: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11728,
@@ -12472,6 +13182,7 @@ export default [
       DHT: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11729,
@@ -12490,6 +13201,7 @@ export default [
       DET: 21,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11730,
@@ -12508,6 +13220,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11731,
@@ -12526,6 +13239,7 @@ export default [
       SPS: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11732,
@@ -12544,6 +13258,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11733,
@@ -12562,6 +13277,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11734,
@@ -12580,6 +13296,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11735,
@@ -12598,6 +13315,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11736,
@@ -12616,6 +13334,7 @@ export default [
       CRT: 22,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 11737,
@@ -12634,6 +13353,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 12280,
@@ -12654,6 +13374,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12281,
@@ -12674,6 +13395,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12282,
@@ -12694,6 +13416,7 @@ export default [
       DLY: 3200,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12283,
@@ -12714,6 +13437,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12284,
@@ -12734,6 +13458,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12285,
@@ -12754,6 +13479,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12286,
@@ -12774,6 +13500,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12287,
@@ -12794,6 +13521,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12288,
@@ -12813,6 +13541,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12289,
@@ -12832,6 +13561,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12290,
@@ -12851,6 +13581,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12291,
@@ -12870,6 +13601,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12292,
@@ -12889,6 +13621,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12293,
@@ -12907,6 +13640,7 @@ export default [
       DET: 20,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12294,
@@ -12925,6 +13659,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12295,
@@ -12943,6 +13678,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12296,
@@ -12961,6 +13697,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12297,
@@ -12979,6 +13716,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12298,
@@ -12997,6 +13735,7 @@ export default [
       SKS: 69,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12299,
@@ -13015,6 +13754,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12300,
@@ -13033,6 +13773,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12301,
@@ -13051,6 +13792,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12302,
@@ -13069,6 +13811,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12303,
@@ -13087,6 +13830,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12304,
@@ -13105,6 +13849,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12305,
@@ -13123,6 +13868,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12306,
@@ -13141,6 +13887,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12307,
@@ -13159,6 +13906,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12308,
@@ -13177,6 +13925,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12309,
@@ -13195,6 +13944,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12310,
@@ -13213,6 +13963,7 @@ export default [
       SKS: 69,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12311,
@@ -13231,6 +13982,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12312,
@@ -13249,6 +14001,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12313,
@@ -13267,6 +14020,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12314,
@@ -13285,6 +14039,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12315,
@@ -13303,6 +14058,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12316,
@@ -13321,6 +14077,7 @@ export default [
       SKS: 69,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12317,
@@ -13339,6 +14096,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12318,
@@ -13357,6 +14115,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12319,
@@ -13375,6 +14134,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12320,
@@ -13393,6 +14153,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12321,
@@ -13411,6 +14172,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12322,
@@ -13429,6 +14191,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12323,
@@ -13447,6 +14210,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12324,
@@ -13465,6 +14229,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12325,
@@ -13483,6 +14248,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12326,
@@ -13501,6 +14267,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12327,
@@ -13519,6 +14286,7 @@ export default [
       SPS: 32,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12328,
@@ -13537,6 +14305,7 @@ export default [
       CRT: 69,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12329,
@@ -13555,6 +14324,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12330,
@@ -13573,6 +14343,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12331,
@@ -13591,6 +14362,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12332,
@@ -13609,6 +14381,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12333,
@@ -13627,6 +14400,7 @@ export default [
       SPS: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12334,
@@ -13645,6 +14419,7 @@ export default [
       SPS: 48,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12335,
@@ -13663,6 +14438,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12336,
@@ -13681,6 +14457,7 @@ export default [
       CRT: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12337,
@@ -13699,6 +14476,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12338,
@@ -13717,6 +14495,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12339,
@@ -13735,6 +14514,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12340,
@@ -13753,6 +14533,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12341,
@@ -13771,6 +14552,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12342,
@@ -13789,6 +14571,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12343,
@@ -13807,6 +14590,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12344,
@@ -13825,6 +14609,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12345,
@@ -13843,6 +14628,7 @@ export default [
       CRT: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12346,
@@ -13861,6 +14647,7 @@ export default [
       SKS: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12347,
@@ -13879,6 +14666,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12348,
@@ -13897,6 +14685,7 @@ export default [
       SPS: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12349,
@@ -13915,6 +14704,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12350,
@@ -13933,6 +14723,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12351,
@@ -13951,6 +14742,7 @@ export default [
       DET: 21,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12352,
@@ -13969,6 +14761,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12353,
@@ -13987,6 +14780,7 @@ export default [
       CRT: 22,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12354,
@@ -14005,6 +14799,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 12355,
@@ -14023,6 +14818,7 @@ export default [
       SPS: 32,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 13443,
@@ -14039,6 +14835,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13444,
@@ -14055,6 +14852,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13445,
@@ -14071,6 +14869,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13446,
@@ -14087,6 +14886,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13447,
@@ -14103,6 +14903,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13448,
@@ -14119,6 +14920,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13449,
@@ -14135,6 +14937,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13450,
@@ -14151,6 +14954,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13451,
@@ -14167,6 +14971,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13452,
@@ -14183,6 +14988,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13453,
@@ -14199,6 +15005,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13454,
@@ -14215,6 +15022,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13455,
@@ -14231,6 +15039,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13456,
@@ -14247,6 +15056,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13457,
@@ -14263,6 +15073,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13458,
@@ -14279,6 +15090,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13459,
@@ -14295,6 +15107,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13460,
@@ -14311,6 +15124,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13461,
@@ -14327,6 +15141,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13462,
@@ -14343,6 +15158,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13463,
@@ -14359,6 +15175,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13464,
@@ -14375,6 +15192,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13465,
@@ -14391,6 +15209,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13466,
@@ -14407,6 +15226,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13467,
@@ -14423,6 +15243,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13468,
@@ -14439,6 +15260,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13469,
@@ -14455,6 +15277,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13470,
@@ -14471,6 +15294,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13471,
@@ -14487,6 +15311,7 @@ export default [
       VIT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13472,
@@ -14503,6 +15328,7 @@ export default [
       VIT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13473,
@@ -14519,6 +15345,7 @@ export default [
       MND: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13474,
@@ -14535,6 +15362,7 @@ export default [
       MND: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13475,
@@ -14551,6 +15379,7 @@ export default [
       MND: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13476,
@@ -14567,6 +15396,7 @@ export default [
       MND: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13477,
@@ -14583,6 +15413,7 @@ export default [
       MND: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13478,
@@ -14599,6 +15430,7 @@ export default [
       MND: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13479,
@@ -14615,6 +15447,7 @@ export default [
       INT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13480,
@@ -14631,6 +15464,7 @@ export default [
       INT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13481,
@@ -14647,6 +15481,7 @@ export default [
       INT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13482,
@@ -14663,6 +15498,7 @@ export default [
       INT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13483,
@@ -14679,6 +15515,7 @@ export default [
       INT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13484,
@@ -14695,6 +15532,7 @@ export default [
       INT: 48,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13485,
@@ -14711,6 +15549,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13486,
@@ -14727,6 +15566,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13487,
@@ -14743,6 +15583,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13488,
@@ -14759,6 +15600,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13489,
@@ -14775,6 +15617,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13490,
@@ -14791,6 +15634,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13491,
@@ -14807,6 +15651,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13492,
@@ -14823,6 +15668,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13493,
@@ -14839,6 +15685,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13494,
@@ -14855,6 +15702,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13495,
@@ -14871,6 +15719,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13496,
@@ -14887,6 +15736,7 @@ export default [
       VIT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13497,
@@ -14903,6 +15753,7 @@ export default [
       MND: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13498,
@@ -14919,6 +15770,7 @@ export default [
       MND: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13499,
@@ -14935,6 +15787,7 @@ export default [
       MND: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13500,
@@ -14951,6 +15804,7 @@ export default [
       MND: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13501,
@@ -14967,6 +15821,7 @@ export default [
       INT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13502,
@@ -14983,6 +15838,7 @@ export default [
       INT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13503,
@@ -14999,6 +15855,7 @@ export default [
       INT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13504,
@@ -15015,6 +15872,7 @@ export default [
       INT: 36,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 14106,
@@ -15031,6 +15889,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14107,
@@ -15047,6 +15906,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14108,
@@ -15063,6 +15923,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14109,
@@ -15079,6 +15940,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14110,
@@ -15095,6 +15957,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14111,
@@ -15111,6 +15974,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14112,
@@ -15127,6 +15991,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14113,
@@ -15143,6 +16008,7 @@ export default [
       CRL: 149,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14114,
@@ -15159,6 +16025,7 @@ export default [
       PCP: 256,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 14115,
@@ -15175,6 +16042,7 @@ export default [
       PCP: 256,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 14116,
@@ -15190,6 +16058,7 @@ export default [
       CRL: 75,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14117,
@@ -15205,6 +16074,7 @@ export default [
       CP: 45,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14118,
@@ -15220,6 +16090,7 @@ export default [
       CP: 45,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14119,
@@ -15235,6 +16106,7 @@ export default [
       CP: 44,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14120,
@@ -15250,6 +16122,7 @@ export default [
       CP: 23,
     },
     hq: false,
+    source: '巧手蓝票→黄票',
   },
   {
     id: 14121,
@@ -15265,6 +16138,7 @@ export default [
       PCP: 37,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 14122,
@@ -15280,6 +16154,7 @@ export default [
       GP: 53,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 14123,
@@ -15295,6 +16170,7 @@ export default [
       GP: 53,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 14124,
@@ -15310,6 +16186,7 @@ export default [
       GP: 52,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 14125,
@@ -15325,6 +16202,7 @@ export default [
       GP: 28,
     },
     hq: false,
+    source: '大地蓝票→黄票',
   },
   {
     id: 15570,
@@ -15345,6 +16223,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15571,
@@ -15365,6 +16244,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15572,
@@ -15385,6 +16265,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15573,
@@ -15405,6 +16286,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15574,
@@ -15425,6 +16307,7 @@ export default [
       DLY: 3280,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15575,
@@ -15445,6 +16328,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15576,
@@ -15465,6 +16349,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15577,
@@ -15485,6 +16370,7 @@ export default [
       DLY: 2760,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15578,
@@ -15504,6 +16390,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15579,
@@ -15523,6 +16410,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15580,
@@ -15542,6 +16430,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15581,
@@ -15561,6 +16450,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15582,
@@ -15580,6 +16470,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15583,
@@ -15598,6 +16489,7 @@ export default [
       SKS: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15584,
@@ -15618,6 +16510,7 @@ export default [
       DLY: 2080,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15585,
@@ -15638,6 +16531,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15586,
@@ -15658,6 +16552,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15587,
@@ -15678,6 +16573,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15588,
@@ -15698,6 +16594,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15589,
@@ -15718,6 +16615,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15590,
@@ -15738,6 +16636,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15591,
@@ -15758,6 +16657,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15592,
@@ -15777,6 +16677,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15593,
@@ -15796,6 +16697,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15594,
@@ -15815,6 +16717,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15595,
@@ -15834,6 +16737,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15596,
@@ -15853,6 +16757,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15597,
@@ -15871,6 +16776,7 @@ export default [
       SKS: 15,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15598,
@@ -15891,6 +16797,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15599,
@@ -15911,6 +16818,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15600,
@@ -15931,6 +16839,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15601,
@@ -15951,6 +16860,7 @@ export default [
       DLY: 2880,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15602,
@@ -15971,6 +16881,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15603,
@@ -15991,6 +16902,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15604,
@@ -16011,6 +16923,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15605,
@@ -16031,6 +16944,7 @@ export default [
       DLY: 2480,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15606,
@@ -16050,6 +16964,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15607,
@@ -16069,6 +16984,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15608,
@@ -16088,6 +17004,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15609,
@@ -16107,6 +17024,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15610,
@@ -16126,6 +17044,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15611,
@@ -16144,6 +17063,7 @@ export default [
       SKS: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17604,
@@ -16164,6 +17084,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17605,
@@ -16184,6 +17105,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17606,
@@ -16204,6 +17126,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17607,
@@ -16224,6 +17147,7 @@ export default [
       DLY: 2880,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17608,
@@ -16244,6 +17168,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17609,
@@ -16264,6 +17189,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17610,
@@ -16284,6 +17210,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17611,
@@ -16304,6 +17231,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17612,
@@ -16323,6 +17251,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17613,
@@ -16342,6 +17271,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17614,
@@ -16361,6 +17291,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17615,
@@ -16380,6 +17311,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17616,
@@ -16399,6 +17331,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 17617,
@@ -16417,6 +17350,7 @@ export default [
       DET: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20408,
@@ -16437,6 +17371,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 20409,
@@ -16456,6 +17391,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 20414,
@@ -16476,6 +17412,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 20415,
@@ -16495,6 +17432,7 @@ export default [
       MDMG: 97,
     },
     hq: false,
+    source: '点数强化/法典→兵团',
   },
   {
     id: 20428,
@@ -16515,6 +17453,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20429,
@@ -16534,6 +17473,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20432,
@@ -16554,6 +17494,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20433,
@@ -16573,6 +17514,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20436,
@@ -16593,6 +17535,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20437,
@@ -16612,6 +17555,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20440,
@@ -16632,6 +17576,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20441,
@@ -16651,6 +17596,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24320,
@@ -16671,6 +17617,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24321,
@@ -16691,6 +17638,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24322,
@@ -16711,6 +17659,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24323,
@@ -16731,6 +17680,7 @@ export default [
       DLY: 2880,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24324,
@@ -16751,6 +17701,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24325,
@@ -16771,6 +17722,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24326,
@@ -16791,6 +17743,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24327,
@@ -16811,6 +17764,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24328,
@@ -16830,6 +17784,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24329,
@@ -16849,6 +17804,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24330,
@@ -16868,6 +17824,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24331,
@@ -16887,6 +17844,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24332,
@@ -16906,6 +17864,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24333,
@@ -16926,6 +17885,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24334,
@@ -16945,6 +17905,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 24335,
@@ -16963,6 +17924,7 @@ export default [
       CRT: 15,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25022,
@@ -16983,6 +17945,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25023,
@@ -17003,6 +17966,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25024,
@@ -17023,6 +17987,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25025,
@@ -17043,6 +18008,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25026,
@@ -17063,6 +18029,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25027,
@@ -17083,6 +18050,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25028,
@@ -17103,6 +18071,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25029,
@@ -17123,6 +18092,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25030,
@@ -17142,6 +18112,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25031,
@@ -17161,6 +18132,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25032,
@@ -17180,6 +18152,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25033,
@@ -17199,6 +18172,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25034,
@@ -17218,6 +18192,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25035,
@@ -17238,6 +18213,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25036,
@@ -17257,6 +18233,7 @@ export default [
       MDMG: 97,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 25037,
@@ -17275,6 +18252,7 @@ export default [
       CRT: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13161,
@@ -17293,6 +18271,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13162,
@@ -17311,6 +18290,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13163,
@@ -17329,6 +18309,7 @@ export default [
       SKS: 31,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13164,
@@ -17347,6 +18328,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13165,
@@ -17365,6 +18347,7 @@ export default [
       DHT: 45,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13166,
@@ -17383,6 +18366,7 @@ export default [
       DET: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13167,
@@ -17401,6 +18385,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13168,
@@ -17419,6 +18404,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13169,
@@ -17437,6 +18423,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13170,
@@ -17455,6 +18442,7 @@ export default [
       SKS: 73,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13171,
@@ -17473,6 +18461,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13172,
@@ -17491,6 +18480,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13173,
@@ -17509,6 +18499,7 @@ export default [
       CRT: 45,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13174,
@@ -17527,6 +18518,7 @@ export default [
       SKS: 73,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13175,
@@ -17545,6 +18537,7 @@ export default [
       SKS: 31,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13176,
@@ -17563,6 +18556,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13177,
@@ -17581,6 +18575,7 @@ export default [
       SKS: 31,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13178,
@@ -17599,6 +18594,7 @@ export default [
       DET: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13179,
@@ -17617,6 +18613,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13180,
@@ -17635,6 +18632,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13181,
@@ -17653,6 +18651,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13182,
@@ -17671,6 +18670,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13183,
@@ -17689,6 +18689,7 @@ export default [
       SKS: 45,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13184,
@@ -17707,6 +18708,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13185,
@@ -17725,6 +18727,7 @@ export default [
       CRT: 31,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13186,
@@ -17743,6 +18746,7 @@ export default [
       SKS: 73,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13187,
@@ -17761,6 +18765,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13188,
@@ -17779,6 +18784,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13189,
@@ -17797,6 +18803,7 @@ export default [
       SKS: 31,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13190,
@@ -17815,6 +18822,7 @@ export default [
       SKS: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13191,
@@ -17833,6 +18841,7 @@ export default [
       SPS: 45,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13192,
@@ -17851,6 +18860,7 @@ export default [
       SPS: 51,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13193,
@@ -17869,6 +18879,7 @@ export default [
       CRT: 45,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13194,
@@ -17887,6 +18898,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13195,
@@ -17905,6 +18917,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13196,
@@ -17923,6 +18936,7 @@ export default [
       SPS: 33,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13197,
@@ -17941,6 +18955,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13198,
@@ -17959,6 +18974,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13199,
@@ -17977,6 +18993,7 @@ export default [
       SPS: 31,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13200,
@@ -17995,6 +19012,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13201,
@@ -18013,6 +19031,7 @@ export default [
       SPS: 45,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13202,
@@ -18031,6 +19050,7 @@ export default [
       SPS: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13203,
@@ -18049,6 +19069,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13204,
@@ -18067,6 +19088,7 @@ export default [
       CRT: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13205,
@@ -18085,6 +19107,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13206,
@@ -18103,6 +19126,7 @@ export default [
       SKS: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13207,
@@ -18121,6 +19145,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13208,
@@ -18139,6 +19164,7 @@ export default [
       SKS: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13209,
@@ -18157,6 +19183,7 @@ export default [
       CRT: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13210,
@@ -18175,6 +19202,7 @@ export default [
       DET: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13211,
@@ -18193,6 +19221,7 @@ export default [
       CRT: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13212,
@@ -18211,6 +19240,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13213,
@@ -18229,6 +19259,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13214,
@@ -18247,6 +19278,7 @@ export default [
       DET: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13215,
@@ -18265,6 +19297,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13216,
@@ -18283,6 +19316,7 @@ export default [
       SPS: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13217,
@@ -18301,6 +19335,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13218,
@@ -18319,6 +19354,7 @@ export default [
       DET: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13219,
@@ -18337,6 +19373,7 @@ export default [
       SPS: 33,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13220,
@@ -18355,6 +19392,7 @@ export default [
       DET: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13221,
@@ -18373,6 +19411,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13222,
@@ -18391,6 +19430,7 @@ export default [
       DET: 23,
     },
     hq: false,
+    source: '迷宫挑战/植物园、天狼星灯塔',
   },
   {
     id: 13640,
@@ -18409,6 +19449,7 @@ export default [
       SKS: 45,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13641,
@@ -18427,6 +19468,7 @@ export default [
       SKS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13642,
@@ -18445,6 +19487,7 @@ export default [
       DHT: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13643,
@@ -18463,6 +19506,7 @@ export default [
       CRT: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13644,
@@ -18481,6 +19525,7 @@ export default [
       SKS: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13646,
@@ -18499,6 +19544,7 @@ export default [
       CRT: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13647,
@@ -18517,6 +19563,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13648,
@@ -18535,6 +19582,7 @@ export default [
       SKS: 45,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13649,
@@ -18553,6 +19601,7 @@ export default [
       DET: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13650,
@@ -18571,6 +19620,7 @@ export default [
       SKS: 45,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13652,
@@ -18589,6 +19639,7 @@ export default [
       SKS: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13653,
@@ -18607,6 +19658,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13654,
@@ -18625,6 +19677,7 @@ export default [
       SKS: 45,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13655,
@@ -18643,6 +19696,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13656,
@@ -18661,6 +19715,7 @@ export default [
       DET: 43,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13658,
@@ -18679,6 +19734,7 @@ export default [
       CRT: 45,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13659,
@@ -18697,6 +19753,7 @@ export default [
       DET: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13660,
@@ -18715,6 +19772,7 @@ export default [
       SKS: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13661,
@@ -18733,6 +19791,7 @@ export default [
       SKS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13662,
@@ -18751,6 +19810,7 @@ export default [
       DET: 43,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13664,
@@ -18769,6 +19829,7 @@ export default [
       SKS: 45,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13665,
@@ -18787,6 +19848,7 @@ export default [
       DET: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13666,
@@ -18805,6 +19867,7 @@ export default [
       CRT: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13667,
@@ -18823,6 +19886,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13668,
@@ -18841,6 +19905,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13670,
@@ -18859,6 +19924,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13671,
@@ -18877,6 +19943,7 @@ export default [
       SPS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13672,
@@ -18895,6 +19962,7 @@ export default [
       SPS: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13673,
@@ -18913,6 +19981,7 @@ export default [
       CRT: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13674,
@@ -18931,6 +20000,7 @@ export default [
       SPS: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13676,
@@ -18949,6 +20019,7 @@ export default [
       SPS: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13677,
@@ -18967,6 +20038,7 @@ export default [
       DET: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13678,
@@ -18985,6 +20057,7 @@ export default [
       CRT: 45,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13679,
@@ -19003,6 +20076,7 @@ export default [
       SPS: 73,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13680,
@@ -19021,6 +20095,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11434,
@@ -19041,6 +20116,7 @@ export default [
       DLY: 2080,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11435,
@@ -19061,6 +20137,7 @@ export default [
       DLY: 2400,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11436,
@@ -19081,6 +20158,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11437,
@@ -19101,6 +20179,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11438,
@@ -19121,6 +20200,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11439,
@@ -19141,6 +20221,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11440,
@@ -19161,6 +20242,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11441,
@@ -19181,6 +20263,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11442,
@@ -19200,6 +20283,7 @@ export default [
       MDMG: 100,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11443,
@@ -19219,6 +20303,7 @@ export default [
       MDMG: 100,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11444,
@@ -19238,6 +20323,7 @@ export default [
       MDMG: 100,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11445,
@@ -19257,6 +20343,7 @@ export default [
       MDMG: 100,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11446,
@@ -19276,6 +20363,7 @@ export default [
       MDMG: 100,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11447,
@@ -19294,6 +20382,7 @@ export default [
       SKS: 17,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 11448,
@@ -19312,6 +20401,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11449,
@@ -19330,6 +20420,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11450,
@@ -19348,6 +20439,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11451,
@@ -19366,6 +20458,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11452,
@@ -19384,6 +20477,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11453,
@@ -19402,6 +20496,7 @@ export default [
       SPS: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11454,
@@ -19420,6 +20515,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11455,
@@ -19438,6 +20534,7 @@ export default [
       SKS: 77,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11456,
@@ -19456,6 +20553,7 @@ export default [
       SKS: 54,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11457,
@@ -19474,6 +20572,7 @@ export default [
       CRT: 77,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11458,
@@ -19492,6 +20591,7 @@ export default [
       SKS: 54,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11459,
@@ -19510,6 +20610,7 @@ export default [
       DET: 74,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11460,
@@ -19528,6 +20629,7 @@ export default [
       SPS: 54,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11461,
@@ -19546,6 +20648,7 @@ export default [
       DET: 52,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11462,
@@ -19564,6 +20667,7 @@ export default [
       DHT: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11463,
@@ -19582,6 +20686,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11464,
@@ -19600,6 +20705,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11465,
@@ -19618,6 +20724,7 @@ export default [
       CRT: 47,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11466,
@@ -19636,6 +20743,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11467,
@@ -19654,6 +20762,7 @@ export default [
       SPS: 47,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11468,
@@ -19672,6 +20781,7 @@ export default [
       SPS: 47,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11469,
@@ -19690,6 +20800,7 @@ export default [
       CRT: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11470,
@@ -19708,6 +20819,7 @@ export default [
       DET: 24,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11471,
@@ -19726,6 +20838,7 @@ export default [
       SKS: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11472,
@@ -19744,6 +20857,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11473,
@@ -19762,6 +20876,7 @@ export default [
       SKS: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11474,
@@ -19780,6 +20895,7 @@ export default [
       SPS: 36,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11475,
@@ -19798,6 +20914,7 @@ export default [
       CRT: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11476,
@@ -19816,6 +20933,7 @@ export default [
       CRT: 54,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11477,
@@ -19834,6 +20952,7 @@ export default [
       SKS: 77,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11478,
@@ -19852,6 +20971,7 @@ export default [
       SKS: 77,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11479,
@@ -19870,6 +20990,7 @@ export default [
       SKS: 77,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11480,
@@ -19888,6 +21009,7 @@ export default [
       SKS: 77,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11481,
@@ -19906,6 +21028,7 @@ export default [
       CRT: 54,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11482,
@@ -19924,6 +21047,7 @@ export default [
       DET: 74,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11483,
@@ -19942,6 +21066,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11484,
@@ -19960,6 +21085,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11485,
@@ -19978,6 +21104,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11486,
@@ -19996,6 +21123,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11487,
@@ -20014,6 +21142,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11488,
@@ -20032,6 +21161,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11489,
@@ -20050,6 +21180,7 @@ export default [
       SPS: 33,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11490,
@@ -20068,6 +21199,7 @@ export default [
       SKS: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11491,
@@ -20086,6 +21218,7 @@ export default [
       SKS: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11492,
@@ -20104,6 +21237,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11493,
@@ -20122,6 +21256,7 @@ export default [
       CRT: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11494,
@@ -20140,6 +21275,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11495,
@@ -20158,6 +21294,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11496,
@@ -20176,6 +21313,7 @@ export default [
       CRT: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11497,
@@ -20194,6 +21332,7 @@ export default [
       SKS: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11498,
@@ -20212,6 +21351,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11499,
@@ -20230,6 +21370,7 @@ export default [
       DET: 24,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11500,
@@ -20248,6 +21389,7 @@ export default [
       DHT: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11501,
@@ -20266,6 +21408,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11502,
@@ -20284,6 +21427,7 @@ export default [
       DET: 24,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11503,
@@ -20302,6 +21446,7 @@ export default [
       SPS: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11504,
@@ -20320,6 +21465,7 @@ export default [
       SPS: 25,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11505,
@@ -20338,6 +21484,7 @@ export default [
       DET: 24,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11506,
@@ -20356,6 +21503,7 @@ export default [
       DET: 24,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11507,
@@ -20374,6 +21522,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11508,
@@ -20392,6 +21541,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 11509,
@@ -20410,6 +21560,7 @@ export default [
       SPS: 36,
     },
     hq: false,
+    source: '大型任务/启动之章',
   },
   {
     id: 15505,
@@ -20426,6 +21577,7 @@ export default [
       PCP: 156,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15506,
@@ -20444,6 +21596,7 @@ export default [
       PCP: 78,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15507,
@@ -20461,6 +21614,7 @@ export default [
       GTH: 117,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15508,
@@ -20478,6 +21632,7 @@ export default [
       PCP: 8,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15509,
@@ -20495,6 +21650,7 @@ export default [
       PCP: 78,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15515,
@@ -20511,6 +21667,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15516,
@@ -20528,6 +21685,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15517,
@@ -20544,6 +21702,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15518,
@@ -20560,6 +21719,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15519,
@@ -20576,6 +21736,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15525,
@@ -20591,6 +21752,7 @@ export default [
       GP: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15526,
@@ -20606,6 +21768,7 @@ export default [
       GP: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15527,
@@ -20621,6 +21784,7 @@ export default [
       GP: 56,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15528,
@@ -20636,6 +21800,7 @@ export default [
       GP: 29,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15529,
@@ -20651,6 +21816,7 @@ export default [
       PCP: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15530,
@@ -20666,6 +21832,7 @@ export default [
       CP: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15531,
@@ -20681,6 +21848,7 @@ export default [
       CP: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15532,
@@ -20696,6 +21864,7 @@ export default [
       CP: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15533,
@@ -20711,6 +21880,7 @@ export default [
       CP: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15534,
@@ -20726,6 +21896,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16785,
@@ -20742,6 +21913,7 @@ export default [
       PCP: 156,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16786,
@@ -20760,6 +21932,7 @@ export default [
       PCP: 78,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16787,
@@ -20777,6 +21950,7 @@ export default [
       GTH: 117,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16788,
@@ -20794,6 +21968,7 @@ export default [
       PCP: 8,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16789,
@@ -20811,6 +21986,7 @@ export default [
       PCP: 78,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16790,
@@ -20827,6 +22003,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16791,
@@ -20844,6 +22021,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16792,
@@ -20860,6 +22038,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16793,
@@ -20876,6 +22055,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16794,
@@ -20892,6 +22072,7 @@ export default [
       CRL: 80,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 20430,
@@ -20912,6 +22093,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 20431,
@@ -20931,6 +22113,7 @@ export default [
       MDMG: 100,
     },
     hq: false,
+    source: '歼殛战/武神',
   },
   {
     id: 14650,
@@ -20949,6 +22132,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14651,
@@ -20967,6 +22151,7 @@ export default [
       DET: 78,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14652,
@@ -20985,6 +22170,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14653,
@@ -21003,6 +22189,7 @@ export default [
       CRT: 81,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14654,
@@ -21021,6 +22208,7 @@ export default [
       SKS: 50,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14655,
@@ -21039,6 +22227,7 @@ export default [
       CRT: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14656,
@@ -21057,6 +22246,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14657,
@@ -21075,6 +22265,7 @@ export default [
       DET: 78,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14658,
@@ -21093,6 +22284,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14659,
@@ -21111,6 +22303,7 @@ export default [
       DET: 55,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14660,
@@ -21129,6 +22322,7 @@ export default [
       SKS: 50,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14661,
@@ -21147,6 +22341,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14662,
@@ -21165,6 +22360,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14663,
@@ -21183,6 +22379,7 @@ export default [
       SKS: 81,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14664,
@@ -21201,6 +22398,7 @@ export default [
       CRT: 50,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14665,
@@ -21219,6 +22417,7 @@ export default [
       DET: 78,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14666,
@@ -21237,6 +22436,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14667,
@@ -21255,6 +22455,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14668,
@@ -21273,6 +22474,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14669,
@@ -21291,6 +22493,7 @@ export default [
       SKS: 81,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14670,
@@ -21309,6 +22512,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14671,
@@ -21327,6 +22531,7 @@ export default [
       CRT: 81,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14672,
@@ -21345,6 +22550,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14673,
@@ -21363,6 +22569,7 @@ export default [
       DET: 36,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14674,
@@ -21381,6 +22588,7 @@ export default [
       SKS: 50,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14675,
@@ -21399,6 +22607,7 @@ export default [
       CRT: 57,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14676,
@@ -21417,6 +22626,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14677,
@@ -21435,6 +22645,7 @@ export default [
       DET: 78,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14678,
@@ -21453,6 +22664,7 @@ export default [
       SKS: 50,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14679,
@@ -21471,6 +22683,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14680,
@@ -21489,6 +22702,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14681,
@@ -21507,6 +22721,7 @@ export default [
       CRT: 81,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14682,
@@ -21525,6 +22740,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14683,
@@ -21543,6 +22759,7 @@ export default [
       DET: 78,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14684,
@@ -21561,6 +22778,7 @@ export default [
       SPS: 50,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14685,
@@ -21579,6 +22797,7 @@ export default [
       CRT: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14686,
@@ -21597,6 +22816,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14687,
@@ -21615,6 +22835,7 @@ export default [
       DET: 55,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14688,
@@ -21633,6 +22854,7 @@ export default [
       SPS: 50,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14689,
@@ -21651,6 +22873,7 @@ export default [
       DET: 78,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14690,
@@ -21669,6 +22892,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14691,
@@ -21687,6 +22911,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14692,
@@ -21705,6 +22930,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14693,
@@ -21723,6 +22949,7 @@ export default [
       DHT: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14694,
@@ -21741,6 +22968,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14695,
@@ -21759,6 +22987,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14696,
@@ -21777,6 +23006,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14697,
@@ -21795,6 +23025,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14698,
@@ -21813,6 +23044,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14699,
@@ -21831,6 +23063,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14700,
@@ -21849,6 +23082,7 @@ export default [
       DET: 36,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14701,
@@ -21867,6 +23101,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14702,
@@ -21885,6 +23120,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14703,
@@ -21903,6 +23139,7 @@ export default [
       CRT: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14704,
@@ -21921,6 +23158,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14705,
@@ -21939,6 +23177,7 @@ export default [
       DET: 36,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14706,
@@ -21957,6 +23196,7 @@ export default [
       SPS: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14707,
@@ -21975,6 +23215,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14708,
@@ -21993,6 +23234,7 @@ export default [
       SPS: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14709,
@@ -22011,6 +23253,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14710,
@@ -22029,6 +23272,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 14711,
@@ -22047,6 +23291,7 @@ export default [
       CRT: 26,
     },
     hq: false,
+    source: '迷宫挑战/颠倒塔、无限城市街',
   },
   {
     id: 15535,
@@ -22063,6 +23308,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15536,
@@ -22079,6 +23325,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15537,
@@ -22095,6 +23342,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15538,
@@ -22111,6 +23359,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15539,
@@ -22127,6 +23376,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15540,
@@ -22143,6 +23393,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15541,
@@ -22159,6 +23410,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15542,
@@ -22175,6 +23427,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15543,
@@ -22192,6 +23445,7 @@ export default [
       PCP: 162,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15544,
@@ -22209,6 +23463,7 @@ export default [
       PCP: 162,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15545,
@@ -22226,6 +23481,7 @@ export default [
       PCP: 162,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15546,
@@ -22242,6 +23498,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15547,
@@ -22258,6 +23515,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15548,
@@ -22274,6 +23532,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15549,
@@ -22290,6 +23549,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15550,
@@ -22306,6 +23566,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15551,
@@ -22322,6 +23583,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15552,
@@ -22338,6 +23600,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15553,
@@ -22354,6 +23617,7 @@ export default [
       CRL: 164,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15554,
@@ -22370,6 +23634,7 @@ export default [
       PCP: 283,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 15555,
@@ -22386,6 +23651,7 @@ export default [
       PCP: 283,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 8573,
@@ -22406,6 +23672,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 8842,
@@ -22426,6 +23693,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 8843,
@@ -22445,6 +23713,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9630,
@@ -22463,6 +23732,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9631,
@@ -22481,6 +23751,7 @@ export default [
       DHT: 60,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9632,
@@ -22499,6 +23770,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9633,
@@ -22517,6 +23789,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9634,
@@ -22535,6 +23808,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9635,
@@ -22553,6 +23827,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9636,
@@ -22571,6 +23846,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9637,
@@ -22589,6 +23865,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9638,
@@ -22607,6 +23884,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9639,
@@ -22625,6 +23903,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9640,
@@ -22643,6 +23922,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9641,
@@ -22661,6 +23941,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9642,
@@ -22679,6 +23960,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9643,
@@ -22697,6 +23979,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 9644,
@@ -22715,6 +23998,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10180,
@@ -22733,6 +24017,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10181,
@@ -22751,6 +24036,7 @@ export default [
       DHT: 86,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10182,
@@ -22769,6 +24055,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10183,
@@ -22787,6 +24074,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10184,
@@ -22805,6 +24093,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10185,
@@ -22823,6 +24112,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10186,
@@ -22841,6 +24131,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10187,
@@ -22859,6 +24150,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10188,
@@ -22877,6 +24169,7 @@ export default [
       SKS: 60,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10189,
@@ -22895,6 +24188,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10190,
@@ -22913,6 +24207,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10191,
@@ -22931,6 +24226,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10192,
@@ -22949,6 +24245,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10193,
@@ -22967,6 +24264,7 @@ export default [
       DHT: 86,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10194,
@@ -22985,6 +24283,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10195,
@@ -23003,6 +24302,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10196,
@@ -23021,6 +24321,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10197,
@@ -23039,6 +24340,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10198,
@@ -23057,6 +24359,7 @@ export default [
       SKS: 60,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10199,
@@ -23075,6 +24378,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10200,
@@ -23093,6 +24397,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10201,
@@ -23111,6 +24416,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10202,
@@ -23129,6 +24435,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10203,
@@ -23147,6 +24454,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10204,
@@ -23165,6 +24473,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10205,
@@ -23183,6 +24492,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10206,
@@ -23201,6 +24511,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10207,
@@ -23219,6 +24530,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10208,
@@ -23237,6 +24549,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10209,
@@ -23255,6 +24568,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10210,
@@ -23273,6 +24587,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10211,
@@ -23291,6 +24606,7 @@ export default [
       SPS: 86,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10212,
@@ -23309,6 +24625,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10213,
@@ -23327,6 +24644,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10214,
@@ -23345,6 +24663,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10215,
@@ -23363,6 +24682,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10216,
@@ -23381,6 +24701,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10217,
@@ -23399,6 +24720,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10218,
@@ -23417,6 +24739,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10219,
@@ -23435,6 +24758,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10220,
@@ -23453,6 +24777,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10221,
@@ -23471,6 +24796,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10222,
@@ -23489,6 +24815,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10223,
@@ -23507,6 +24834,7 @@ export default [
       SPS: 60,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10224,
@@ -23525,6 +24853,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10225,
@@ -23543,6 +24872,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10226,
@@ -23561,6 +24891,7 @@ export default [
       SKS: 60,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10227,
@@ -23579,6 +24910,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10228,
@@ -23597,6 +24929,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10229,
@@ -23615,6 +24948,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '点数/禁书→诗学',
   },
   {
     id: 10285,
@@ -23635,6 +24969,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10286,
@@ -23653,6 +24988,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10287,
@@ -23673,6 +25009,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10288,
@@ -23693,6 +25030,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10289,
@@ -23713,6 +25051,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10290,
@@ -23733,6 +25072,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10291,
@@ -23753,6 +25093,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10292,
@@ -23772,6 +25113,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10293,
@@ -23791,6 +25133,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10294,
@@ -23810,6 +25153,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 10295,
@@ -23829,6 +25173,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11738,
@@ -23847,6 +25192,7 @@ export default [
       CRT: 39,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11739,
@@ -23865,6 +25211,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11740,
@@ -23883,6 +25230,7 @@ export default [
       DET: 27,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11741,
@@ -23901,6 +25249,7 @@ export default [
       SKS: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11742,
@@ -23919,6 +25268,7 @@ export default [
       CRT: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11743,
@@ -23937,6 +25287,7 @@ export default [
       SPS: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11744,
@@ -23955,6 +25306,7 @@ export default [
       SPS: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11745,
@@ -23973,6 +25325,7 @@ export default [
       SKS: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11746,
@@ -23991,6 +25344,7 @@ export default [
       DET: 27,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11747,
@@ -24009,6 +25363,7 @@ export default [
       SKS: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11748,
@@ -24027,6 +25382,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11749,
@@ -24045,6 +25401,7 @@ export default [
       CRT: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11750,
@@ -24063,6 +25420,7 @@ export default [
       DHT: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11751,
@@ -24081,6 +25439,7 @@ export default [
       SKS: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11752,
@@ -24099,6 +25458,7 @@ export default [
       SKS: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11753,
@@ -24117,6 +25477,7 @@ export default [
       SPS: 39,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11754,
@@ -24135,6 +25496,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11755,
@@ -24153,6 +25515,7 @@ export default [
       DET: 27,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11756,
@@ -24171,6 +25534,7 @@ export default [
       CRT: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11757,
@@ -24189,6 +25553,7 @@ export default [
       CRT: 39,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11758,
@@ -24207,6 +25572,7 @@ export default [
       CRT: 39,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11759,
@@ -24225,6 +25591,7 @@ export default [
       SPS: 39,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11760,
@@ -24243,6 +25610,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11761,
@@ -24261,6 +25629,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11762,
@@ -24279,6 +25648,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11763,
@@ -24297,6 +25667,7 @@ export default [
       SPS: 39,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 11764,
@@ -24315,6 +25686,7 @@ export default [
       SPS: 28,
     },
     hq: false,
+    source: '点数/禁书→兵团',
   },
   {
     id: 13119,
@@ -24333,6 +25705,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13120,
@@ -24351,6 +25724,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13121,
@@ -24369,6 +25743,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13122,
@@ -24387,6 +25762,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13123,
@@ -24405,6 +25781,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13124,
@@ -24423,6 +25800,7 @@ export default [
       SKS: 28,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13125,
@@ -24441,6 +25819,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13126,
@@ -24459,6 +25838,7 @@ export default [
       SKS: 60,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13127,
@@ -24477,6 +25857,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13128,
@@ -24495,6 +25876,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13129,
@@ -24513,6 +25895,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13130,
@@ -24531,6 +25914,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13131,
@@ -24549,6 +25933,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13132,
@@ -24567,6 +25952,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13133,
@@ -24585,6 +25971,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13134,
@@ -24603,6 +25990,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13135,
@@ -24621,6 +26009,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13136,
@@ -24639,6 +26028,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13137,
@@ -24657,6 +26047,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13138,
@@ -24675,6 +26066,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13139,
@@ -24693,6 +26085,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13140,
@@ -24711,6 +26104,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13141,
@@ -24729,6 +26123,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13142,
@@ -24747,6 +26142,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13143,
@@ -24765,6 +26161,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13144,
@@ -24783,6 +26180,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13145,
@@ -24801,6 +26199,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13146,
@@ -24819,6 +26218,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13147,
@@ -24837,6 +26237,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13148,
@@ -24855,6 +26256,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13149,
@@ -24873,6 +26275,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13150,
@@ -24891,6 +26294,7 @@ export default [
       SPS: 86,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13151,
@@ -24909,6 +26313,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13152,
@@ -24927,6 +26332,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13153,
@@ -24945,6 +26351,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13154,
@@ -24963,6 +26370,7 @@ export default [
       CRT: 39,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13155,
@@ -24981,6 +26389,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13156,
@@ -24999,6 +26408,7 @@ export default [
       SPS: 60,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13157,
@@ -25017,6 +26427,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13158,
@@ -25035,6 +26446,7 @@ export default [
       SPS: 60,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13159,
@@ -25053,6 +26465,7 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13160,
@@ -25071,6 +26484,7 @@ export default [
       SPS: 39,
     },
     hq: false,
+    source: '团队任务/魔航船',
   },
   {
     id: 13597,
@@ -25091,6 +26505,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13598,
@@ -25111,6 +26526,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13599,
@@ -25131,6 +26547,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13600,
@@ -25151,6 +26568,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13601,
@@ -25171,6 +26589,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13602,
@@ -25191,6 +26610,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13603,
@@ -25211,6 +26631,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13604,
@@ -25231,6 +26652,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13605,
@@ -25250,6 +26672,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13606,
@@ -25269,6 +26692,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13607,
@@ -25288,6 +26712,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13608,
@@ -25307,6 +26732,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13609,
@@ -25326,6 +26752,7 @@ export default [
       MDMG: 102,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13610,
@@ -25344,6 +26771,7 @@ export default [
       DET: 25,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15654,
@@ -25360,6 +26788,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15655,
@@ -25376,6 +26805,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15656,
@@ -25392,6 +26822,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15657,
@@ -25408,6 +26839,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15658,
@@ -25424,6 +26856,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15659,
@@ -25440,6 +26873,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15660,
@@ -25456,6 +26890,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15661,
@@ -25472,6 +26907,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15662,
@@ -25489,6 +26925,7 @@ export default [
       PCP: 167,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15663,
@@ -25506,6 +26943,7 @@ export default [
       PCP: 167,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15664,
@@ -25523,6 +26961,7 @@ export default [
       PCP: 167,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15665,
@@ -25539,6 +26978,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15666,
@@ -25556,6 +26996,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15667,
@@ -25572,6 +27013,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15668,
@@ -25588,6 +27030,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15669,
@@ -25604,6 +27047,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15670,
@@ -25620,6 +27064,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15671,
@@ -25637,6 +27082,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15672,
@@ -25653,6 +27099,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15673,
@@ -25669,6 +27116,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15674,
@@ -25685,6 +27133,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15675,
@@ -25701,6 +27150,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15676,
@@ -25718,6 +27168,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15677,
@@ -25734,6 +27185,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15678,
@@ -25750,6 +27202,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15679,
@@ -25766,6 +27219,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15680,
@@ -25782,6 +27236,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15681,
@@ -25799,6 +27254,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15682,
@@ -25815,6 +27271,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15683,
@@ -25831,6 +27288,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15684,
@@ -25847,6 +27305,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15685,
@@ -25863,6 +27322,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15686,
@@ -25880,6 +27340,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15687,
@@ -25896,6 +27357,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15688,
@@ -25912,6 +27374,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15689,
@@ -25928,6 +27391,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15690,
@@ -25944,6 +27408,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15691,
@@ -25961,6 +27426,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15692,
@@ -25977,6 +27443,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15693,
@@ -25993,6 +27460,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15694,
@@ -26009,6 +27477,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15695,
@@ -26025,6 +27494,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15696,
@@ -26042,6 +27512,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15697,
@@ -26058,6 +27529,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15698,
@@ -26074,6 +27546,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15699,
@@ -26090,6 +27563,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15700,
@@ -26106,6 +27580,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15701,
@@ -26123,6 +27598,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15702,
@@ -26139,6 +27615,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15703,
@@ -26155,6 +27632,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15704,
@@ -26171,6 +27649,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15705,
@@ -26187,6 +27666,7 @@ export default [
       PCP: 176,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15706,
@@ -26205,6 +27685,7 @@ export default [
       PCP: 88,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15707,
@@ -26222,6 +27703,7 @@ export default [
       GTH: 132,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15708,
@@ -26240,6 +27722,7 @@ export default [
       PCP: 8,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15709,
@@ -26257,6 +27740,7 @@ export default [
       PCP: 88,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15710,
@@ -26273,6 +27757,7 @@ export default [
       PCP: 176,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15711,
@@ -26291,6 +27776,7 @@ export default [
       PCP: 88,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15712,
@@ -26308,6 +27794,7 @@ export default [
       GTH: 132,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15713,
@@ -26326,6 +27813,7 @@ export default [
       PCP: 8,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15714,
@@ -26343,6 +27831,7 @@ export default [
       PCP: 88,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15715,
@@ -26359,6 +27848,7 @@ export default [
       PCP: 176,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15716,
@@ -26377,6 +27867,7 @@ export default [
       PCP: 88,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15717,
@@ -26394,6 +27885,7 @@ export default [
       GTH: 132,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15718,
@@ -26412,6 +27904,7 @@ export default [
       PCP: 8,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15719,
@@ -26429,6 +27922,7 @@ export default [
       PCP: 88,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15873,
@@ -26445,6 +27939,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15874,
@@ -26461,6 +27956,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15875,
@@ -26477,6 +27973,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15876,
@@ -26493,6 +27990,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15877,
@@ -26509,6 +28007,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15878,
@@ -26525,6 +28024,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15879,
@@ -26541,6 +28041,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15880,
@@ -26557,6 +28058,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15881,
@@ -26573,6 +28075,7 @@ export default [
       PCP: 292,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15882,
@@ -26589,6 +28092,7 @@ export default [
       PCP: 292,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15883,
@@ -26604,6 +28108,7 @@ export default [
       CRL: 90,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15884,
@@ -26620,6 +28125,7 @@ export default [
       CMS: 5,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15885,
@@ -26636,6 +28142,7 @@ export default [
       CMS: 5,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15886,
@@ -26652,6 +28159,7 @@ export default [
       CMS: 5,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15887,
@@ -26668,6 +28176,7 @@ export default [
       CMS: 5,
     },
     hq: false,
+    source: '巧手红票→黄票',
   },
   {
     id: 15888,
@@ -26683,6 +28192,7 @@ export default [
       PCP: 44,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15889,
@@ -26699,6 +28209,7 @@ export default [
       GTH: 5,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15890,
@@ -26715,6 +28226,7 @@ export default [
       GTH: 5,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15891,
@@ -26731,6 +28243,7 @@ export default [
       GTH: 5,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 15892,
@@ -26747,6 +28260,7 @@ export default [
       PCP: 5,
     },
     hq: false,
+    source: '大地红票→黄票',
   },
   {
     id: 16958,
@@ -26763,6 +28277,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16959,
@@ -26779,6 +28294,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16960,
@@ -26795,6 +28311,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16961,
@@ -26811,6 +28328,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16962,
@@ -26827,6 +28345,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16963,
@@ -26843,6 +28362,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16964,
@@ -26859,6 +28379,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16965,
@@ -26875,6 +28396,7 @@ export default [
       CRL: 169,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16966,
@@ -26892,6 +28414,7 @@ export default [
       PCP: 167,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16967,
@@ -26909,6 +28432,7 @@ export default [
       PCP: 167,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 16968,
@@ -26926,6 +28450,7 @@ export default [
       PCP: 167,
     },
     hq: false,
+    source: '成就/笔记完成度',
   },
   {
     id: 13237,
@@ -26946,6 +28471,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13238,
@@ -26966,6 +28492,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13239,
@@ -26986,6 +28513,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13240,
@@ -27006,6 +28534,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13241,
@@ -27026,6 +28555,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13242,
@@ -27046,6 +28576,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13243,
@@ -27066,6 +28597,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13244,
@@ -27086,6 +28618,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13245,
@@ -27105,6 +28638,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13246,
@@ -27124,6 +28658,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13247,
@@ -27143,6 +28678,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13248,
@@ -27162,6 +28698,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13249,
@@ -27181,6 +28718,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 13250,
@@ -27199,6 +28737,7 @@ export default [
       SKS: 28,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 14754,
@@ -27219,6 +28758,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14755,
@@ -27239,6 +28779,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14756,
@@ -27259,6 +28800,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14757,
@@ -27279,6 +28821,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14758,
@@ -27299,6 +28842,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14759,
@@ -27319,6 +28863,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14760,
@@ -27339,6 +28884,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14761,
@@ -27359,6 +28905,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14762,
@@ -27378,6 +28925,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14763,
@@ -27397,6 +28945,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14764,
@@ -27416,6 +28965,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14765,
@@ -27435,6 +28985,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14766,
@@ -27454,6 +29005,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14767,
@@ -27472,6 +29024,7 @@ export default [
       SKS: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14768,
@@ -27490,6 +29043,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14769,
@@ -27508,6 +29062,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14770,
@@ -27526,6 +29081,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14771,
@@ -27544,6 +29100,7 @@ export default [
       DET: 60,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14772,
@@ -27562,6 +29119,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14773,
@@ -27580,6 +29138,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14774,
@@ -27598,6 +29157,7 @@ export default [
       DET: 60,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14775,
@@ -27616,6 +29176,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14776,
@@ -27634,6 +29195,7 @@ export default [
       SKS: 63,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14777,
@@ -27652,6 +29214,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14778,
@@ -27670,6 +29233,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14779,
@@ -27688,6 +29252,7 @@ export default [
       SKS: 63,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14780,
@@ -27706,6 +29271,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14781,
@@ -27724,6 +29290,7 @@ export default [
       DET: 60,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14782,
@@ -27742,6 +29309,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14783,
@@ -27760,6 +29328,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14784,
@@ -27778,6 +29347,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14785,
@@ -27796,6 +29366,7 @@ export default [
       DET: 37,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14786,
@@ -27814,6 +29385,7 @@ export default [
       SKS: 63,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14787,
@@ -27832,6 +29404,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14788,
@@ -27850,6 +29423,7 @@ export default [
       SKS: 39,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14789,
@@ -27868,6 +29442,7 @@ export default [
       DET: 86,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14790,
@@ -27886,6 +29461,7 @@ export default [
       DET: 37,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14791,
@@ -27904,6 +29480,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14792,
@@ -27922,6 +29499,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14793,
@@ -27940,6 +29518,7 @@ export default [
       DET: 37,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14794,
@@ -27958,6 +29537,7 @@ export default [
       SPS: 90,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14795,
@@ -27976,6 +29556,7 @@ export default [
       SPS: 55,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14796,
@@ -27994,6 +29575,7 @@ export default [
       SPS: 63,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14797,
@@ -28012,6 +29594,7 @@ export default [
       SPS: 39,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14798,
@@ -28030,6 +29613,7 @@ export default [
       SPS: 39,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14799,
@@ -28048,6 +29632,7 @@ export default [
       SPS: 90,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14800,
@@ -28066,6 +29651,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14801,
@@ -28084,6 +29670,7 @@ export default [
       DET: 60,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14802,
@@ -28102,6 +29689,7 @@ export default [
       SPS: 55,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14803,
@@ -28120,6 +29708,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14804,
@@ -28138,6 +29727,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14805,
@@ -28156,6 +29746,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14806,
@@ -28174,6 +29765,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14807,
@@ -28192,6 +29784,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14808,
@@ -28210,6 +29803,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14809,
@@ -28228,6 +29822,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14810,
@@ -28246,6 +29841,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14811,
@@ -28264,6 +29860,7 @@ export default [
       CRT: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14812,
@@ -28282,6 +29879,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14813,
@@ -28300,6 +29898,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14814,
@@ -28318,6 +29917,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14815,
@@ -28336,6 +29936,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14816,
@@ -28354,6 +29955,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14817,
@@ -28372,6 +29974,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14818,
@@ -28390,6 +29993,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14819,
@@ -28408,6 +30012,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14820,
@@ -28426,6 +30031,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14821,
@@ -28444,6 +30050,7 @@ export default [
       CRT: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14822,
@@ -28462,6 +30069,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14823,
@@ -28480,6 +30088,7 @@ export default [
       SPS: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14824,
@@ -28498,6 +30107,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14825,
@@ -28516,6 +30126,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14826,
@@ -28534,6 +30145,7 @@ export default [
       SPS: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14827,
@@ -28552,6 +30164,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14828,
@@ -28570,6 +30183,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 14829,
@@ -28588,6 +30202,7 @@ export default [
       CRT: 29,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 20410,
@@ -28608,6 +30223,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 20411,
@@ -28627,6 +30243,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '狼印战绩',
   },
   {
     id: 20434,
@@ -28647,6 +30264,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 20435,
@@ -28666,6 +30284,7 @@ export default [
       MDMG: 104,
     },
     hq: false,
+    source: '歼殛战/骑神',
   },
   {
     id: 11510,
@@ -28686,6 +30305,7 @@ export default [
       DLY: 2160,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11511,
@@ -28706,6 +30326,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11512,
@@ -28726,6 +30347,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11513,
@@ -28746,6 +30368,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11514,
@@ -28766,6 +30389,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11515,
@@ -28786,6 +30410,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11516,
@@ -28806,6 +30431,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11517,
@@ -28826,6 +30452,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11518,
@@ -28845,6 +30472,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11519,
@@ -28864,6 +30492,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11520,
@@ -28883,6 +30512,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11521,
@@ -28902,6 +30532,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11522,
@@ -28921,6 +30552,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11523,
@@ -28939,6 +30571,7 @@ export default [
       SKS: 20,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11524,
@@ -28957,6 +30590,7 @@ export default [
       SKS: 41,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11525,
@@ -28975,6 +30609,7 @@ export default [
       CRT: 41,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11526,
@@ -28993,6 +30628,7 @@ export default [
       CRT: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11527,
@@ -29011,6 +30647,7 @@ export default [
       CRT: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11528,
@@ -29029,6 +30666,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11529,
@@ -29047,6 +30685,7 @@ export default [
       SPS: 41,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11530,
@@ -29065,6 +30704,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11531,
@@ -29083,6 +30723,7 @@ export default [
       DET: 90,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11532,
@@ -29101,6 +30742,7 @@ export default [
       SKS: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11533,
@@ -29119,6 +30761,7 @@ export default [
       SKS: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11534,
@@ -29137,6 +30780,7 @@ export default [
       SKS: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11535,
@@ -29155,6 +30799,7 @@ export default [
       CRT: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11536,
@@ -29173,6 +30818,7 @@ export default [
       SPS: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11537,
@@ -29191,6 +30837,7 @@ export default [
       SPS: 66,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11538,
@@ -29209,6 +30856,7 @@ export default [
       DHT: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11539,
@@ -29227,6 +30875,7 @@ export default [
       SKS: 41,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11540,
@@ -29245,6 +30894,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11541,
@@ -29263,6 +30913,7 @@ export default [
       SKS: 41,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11542,
@@ -29281,6 +30932,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11543,
@@ -29299,6 +30951,7 @@ export default [
       CRT: 41,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11544,
@@ -29317,6 +30970,7 @@ export default [
       CRT: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11545,
@@ -29335,6 +30989,7 @@ export default [
       DHT: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11546,
@@ -29353,6 +31008,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11547,
@@ -29371,6 +31027,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11548,
@@ -29389,6 +31046,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11549,
@@ -29407,6 +31065,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11550,
@@ -29425,6 +31084,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11551,
@@ -29443,6 +31103,7 @@ export default [
       SPS: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11552,
@@ -29461,6 +31122,7 @@ export default [
       CRT: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11553,
@@ -29479,6 +31141,7 @@ export default [
       DET: 63,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11554,
@@ -29497,6 +31160,7 @@ export default [
       CRT: 66,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11555,
@@ -29515,6 +31179,7 @@ export default [
       SKS: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11556,
@@ -29533,6 +31198,7 @@ export default [
       SKS: 66,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11557,
@@ -29551,6 +31217,7 @@ export default [
       CRT: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11558,
@@ -29569,6 +31236,7 @@ export default [
       SPS: 94,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11559,
@@ -29587,6 +31255,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11560,
@@ -29605,6 +31274,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11561,
@@ -29623,6 +31293,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11562,
@@ -29641,6 +31312,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11563,
@@ -29659,6 +31331,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11564,
@@ -29677,6 +31350,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11565,
@@ -29695,6 +31369,7 @@ export default [
       CRT: 41,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11566,
@@ -29713,6 +31388,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11567,
@@ -29731,6 +31407,7 @@ export default [
       DET: 29,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11568,
@@ -29749,6 +31426,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11569,
@@ -29767,6 +31445,7 @@ export default [
       SPS: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11570,
@@ -29785,6 +31464,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11571,
@@ -29803,6 +31483,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11572,
@@ -29821,6 +31502,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11573,
@@ -29839,6 +31521,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11574,
@@ -29857,6 +31540,7 @@ export default [
       DET: 29,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11575,
@@ -29875,6 +31559,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11576,
@@ -29893,6 +31578,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11577,
@@ -29911,6 +31597,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11578,
@@ -29929,6 +31616,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11579,
@@ -29947,6 +31635,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11580,
@@ -29965,6 +31654,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11581,
@@ -29983,6 +31673,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11582,
@@ -30001,6 +31692,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11583,
@@ -30019,6 +31711,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11584,
@@ -30037,6 +31730,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11585,
@@ -30055,6 +31749,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 11765,
@@ -30075,6 +31770,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11766,
@@ -30095,6 +31791,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11767,
@@ -30115,6 +31812,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11768,
@@ -30135,6 +31833,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11769,
@@ -30155,6 +31854,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11770,
@@ -30175,6 +31875,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11771,
@@ -30195,6 +31896,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11772,
@@ -30215,6 +31917,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11773,
@@ -30234,6 +31937,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11774,
@@ -30253,6 +31957,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11775,
@@ -30272,6 +31977,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11776,
@@ -30291,6 +31997,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11777,
@@ -30310,6 +32017,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11778,
@@ -30328,6 +32036,7 @@ export default [
       SKS: 29,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11779,
@@ -30346,6 +32055,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11780,
@@ -30364,6 +32074,7 @@ export default [
       DHT: 94,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11781,
@@ -30382,6 +32093,7 @@ export default [
       SKS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11782,
@@ -30400,6 +32112,7 @@ export default [
       DET: 63,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11783,
@@ -30418,6 +32131,7 @@ export default [
       CRT: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11784,
@@ -30436,6 +32150,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11785,
@@ -30454,6 +32169,7 @@ export default [
       DET: 63,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11786,
@@ -30472,6 +32188,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11787,
@@ -30490,6 +32207,7 @@ export default [
       SKS: 66,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11788,
@@ -30508,6 +32226,7 @@ export default [
       SKS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11789,
@@ -30526,6 +32245,7 @@ export default [
       CRT: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11790,
@@ -30544,6 +32264,7 @@ export default [
       SKS: 94,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11791,
@@ -30562,6 +32283,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11792,
@@ -30580,6 +32302,7 @@ export default [
       DHT: 94,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11793,
@@ -30598,6 +32321,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11794,
@@ -30616,6 +32340,7 @@ export default [
       SKS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11795,
@@ -30634,6 +32359,7 @@ export default [
       CRT: 66,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11796,
@@ -30652,6 +32378,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11797,
@@ -30670,6 +32397,7 @@ export default [
       SKS: 66,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11798,
@@ -30688,6 +32416,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11799,
@@ -30706,6 +32435,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11800,
@@ -30724,6 +32454,7 @@ export default [
       CRT: 66,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11801,
@@ -30742,6 +32473,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11802,
@@ -30760,6 +32492,7 @@ export default [
       DET: 63,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11803,
@@ -30778,6 +32511,7 @@ export default [
       SKS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11804,
@@ -30796,6 +32530,7 @@ export default [
       CRT: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11805,
@@ -30814,6 +32549,7 @@ export default [
       SKS: 66,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11806,
@@ -30832,6 +32568,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11807,
@@ -30850,6 +32587,7 @@ export default [
       DET: 63,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11808,
@@ -30868,6 +32606,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11809,
@@ -30886,6 +32625,7 @@ export default [
       CRT: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11810,
@@ -30904,6 +32644,7 @@ export default [
       DHT: 66,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11811,
@@ -30922,6 +32663,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11812,
@@ -30940,6 +32682,7 @@ export default [
       SKS: 94,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11813,
@@ -30958,6 +32701,7 @@ export default [
       SKS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11814,
@@ -30976,6 +32720,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11815,
@@ -30994,6 +32739,7 @@ export default [
       DET: 90,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11816,
@@ -31012,6 +32758,7 @@ export default [
       CRT: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11817,
@@ -31030,6 +32777,7 @@ export default [
       CRT: 94,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11818,
@@ -31048,6 +32796,7 @@ export default [
       SKS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11819,
@@ -31066,6 +32815,7 @@ export default [
       SPS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11820,
@@ -31084,6 +32834,7 @@ export default [
       CRT: 94,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11821,
@@ -31102,6 +32853,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11822,
@@ -31120,6 +32872,7 @@ export default [
       DET: 63,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11823,
@@ -31138,6 +32891,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11824,
@@ -31156,6 +32910,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11825,
@@ -31174,6 +32929,7 @@ export default [
       SPS: 94,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11826,
@@ -31192,6 +32948,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11827,
@@ -31210,6 +32967,7 @@ export default [
       CRT: 94,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11828,
@@ -31228,6 +32986,7 @@ export default [
       DET: 56,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11829,
@@ -31246,6 +33005,7 @@ export default [
       SPS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11830,
@@ -31264,6 +33024,7 @@ export default [
       DET: 63,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11831,
@@ -31282,6 +33043,7 @@ export default [
       SPS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11832,
@@ -31300,6 +33062,7 @@ export default [
       DET: 90,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11833,
@@ -31318,6 +33081,7 @@ export default [
       SPS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11834,
@@ -31336,6 +33100,7 @@ export default [
       CRT: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11835,
@@ -31354,6 +33119,7 @@ export default [
       DET: 90,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11836,
@@ -31372,6 +33138,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11837,
@@ -31390,6 +33157,7 @@ export default [
       SPS: 66,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11838,
@@ -31408,6 +33176,7 @@ export default [
       SPS: 58,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11839,
@@ -31426,6 +33195,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11840,
@@ -31444,6 +33214,7 @@ export default [
       CRT: 66,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11841,
@@ -31462,6 +33233,7 @@ export default [
       SPS: 41,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11842,
@@ -31480,6 +33252,7 @@ export default [
       DET: 90,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11843,
@@ -31498,6 +33271,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11844,
@@ -31516,6 +33290,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11845,
@@ -31534,6 +33309,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11846,
@@ -31552,6 +33328,7 @@ export default [
       DET: 29,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11847,
@@ -31570,6 +33347,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11848,
@@ -31588,6 +33366,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11849,
@@ -31606,6 +33385,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11850,
@@ -31624,6 +33404,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11851,
@@ -31642,6 +33423,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11852,
@@ -31660,6 +33442,7 @@ export default [
       DET: 29,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11853,
@@ -31678,6 +33461,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11854,
@@ -31696,6 +33480,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11855,
@@ -31714,6 +33499,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11856,
@@ -31732,6 +33518,7 @@ export default [
       DHT: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11857,
@@ -31750,6 +33537,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11858,
@@ -31768,6 +33556,7 @@ export default [
       SKS: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11859,
@@ -31786,6 +33575,7 @@ export default [
       SPS: 44,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11860,
@@ -31804,6 +33594,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11861,
@@ -31822,6 +33613,7 @@ export default [
       DET: 29,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11862,
@@ -31840,6 +33632,7 @@ export default [
       CRT: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11863,
@@ -31858,6 +33651,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11864,
@@ -31876,6 +33670,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11865,
@@ -31894,6 +33689,7 @@ export default [
       SPS: 44,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11866,
@@ -31912,6 +33708,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11867,
@@ -31930,6 +33727,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11868,
@@ -31948,6 +33746,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11869,
@@ -31966,6 +33765,7 @@ export default [
       SPS: 44,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 11870,
@@ -31984,6 +33784,7 @@ export default [
       SPS: 30,
     },
     hq: false,
+    source: '点数强化/禁书→兵团',
   },
   {
     id: 13223,
@@ -32004,6 +33805,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13224,
@@ -32024,6 +33826,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13225,
@@ -32044,6 +33847,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13226,
@@ -32064,6 +33868,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13227,
@@ -32084,6 +33889,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13228,
@@ -32104,6 +33910,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13229,
@@ -32124,6 +33931,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13230,
@@ -32144,6 +33952,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13231,
@@ -32163,6 +33972,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13232,
@@ -32182,6 +33992,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13233,
@@ -32201,6 +34012,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13234,
@@ -32220,6 +34032,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13235,
@@ -32239,6 +34052,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13236,
@@ -32257,6 +34071,7 @@ export default [
       DET: 28,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 13505,
@@ -32273,6 +34088,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13506,
@@ -32289,6 +34105,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13507,
@@ -32305,6 +34122,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13508,
@@ -32321,6 +34139,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13509,
@@ -32337,6 +34156,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13510,
@@ -32353,6 +34173,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13511,
@@ -32369,6 +34190,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13512,
@@ -32385,6 +34207,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13513,
@@ -32401,6 +34224,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13514,
@@ -32417,6 +34241,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13515,
@@ -32433,6 +34258,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13516,
@@ -32449,6 +34275,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13517,
@@ -32465,6 +34292,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13518,
@@ -32481,6 +34309,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13519,
@@ -32497,6 +34326,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13520,
@@ -32513,6 +34343,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13521,
@@ -32529,6 +34360,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13522,
@@ -32545,6 +34377,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13523,
@@ -32561,6 +34394,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13524,
@@ -32577,6 +34411,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13525,
@@ -32593,6 +34428,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13526,
@@ -32609,6 +34445,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13527,
@@ -32625,6 +34462,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13528,
@@ -32641,6 +34479,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13529,
@@ -32657,6 +34496,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13530,
@@ -32673,6 +34513,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13531,
@@ -32689,6 +34530,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13532,
@@ -32705,6 +34547,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13533,
@@ -32721,6 +34564,7 @@ export default [
       VIT: 107,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13534,
@@ -32737,6 +34581,7 @@ export default [
       VIT: 66,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13535,
@@ -32753,6 +34598,7 @@ export default [
       MND: 62,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13536,
@@ -32769,6 +34615,7 @@ export default [
       MND: 101,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13537,
@@ -32785,6 +34632,7 @@ export default [
       MND: 62,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13538,
@@ -32801,6 +34649,7 @@ export default [
       MND: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13539,
@@ -32817,6 +34666,7 @@ export default [
       MND: 101,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13540,
@@ -32833,6 +34683,7 @@ export default [
       MND: 62,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13541,
@@ -32849,6 +34700,7 @@ export default [
       INT: 62,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13542,
@@ -32865,6 +34717,7 @@ export default [
       INT: 101,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13543,
@@ -32881,6 +34734,7 @@ export default [
       INT: 62,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13544,
@@ -32897,6 +34751,7 @@ export default [
       INT: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13545,
@@ -32913,6 +34768,7 @@ export default [
       INT: 101,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13546,
@@ -32929,6 +34785,7 @@ export default [
       INT: 62,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13547,
@@ -32945,6 +34802,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13548,
@@ -32961,6 +34819,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13549,
@@ -32977,6 +34836,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13550,
@@ -32993,6 +34853,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13551,
@@ -33009,6 +34870,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13552,
@@ -33025,6 +34887,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13553,
@@ -33041,6 +34904,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13554,
@@ -33057,6 +34921,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13555,
@@ -33073,6 +34938,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13556,
@@ -33089,6 +34955,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13557,
@@ -33105,6 +34972,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13558,
@@ -33121,6 +34989,7 @@ export default [
       VIT: 49,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13559,
@@ -33137,6 +35006,7 @@ export default [
       MND: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13560,
@@ -33153,6 +35023,7 @@ export default [
       MND: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13561,
@@ -33169,6 +35040,7 @@ export default [
       MND: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13562,
@@ -33185,6 +35057,7 @@ export default [
       MND: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13563,
@@ -33201,6 +35074,7 @@ export default [
       INT: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13564,
@@ -33217,6 +35091,7 @@ export default [
       INT: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13565,
@@ -33233,6 +35108,7 @@ export default [
       INT: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13566,
@@ -33249,6 +35125,7 @@ export default [
       INT: 47,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 20448,
@@ -33269,6 +35146,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 20449,
@@ -33288,6 +35166,7 @@ export default [
       MDMG: 105,
     },
     hq: false,
+    source: '零式/启动之章',
   },
   {
     id: 15359,
@@ -33306,6 +35185,7 @@ export default [
       SKS: 60,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15360,
@@ -33324,6 +35204,7 @@ export default [
       SKS: 68,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15361,
@@ -33342,6 +35223,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15362,
@@ -33360,6 +35242,7 @@ export default [
       CRT: 97,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15363,
@@ -33378,6 +35261,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15364,
@@ -33396,6 +35280,7 @@ export default [
       SKS: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15365,
@@ -33414,6 +35299,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15366,
@@ -33432,6 +35318,7 @@ export default [
       DET: 65,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15367,
@@ -33450,6 +35337,7 @@ export default [
       SKS: 60,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15368,
@@ -33468,6 +35356,7 @@ export default [
       SKS: 68,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15369,
@@ -33486,6 +35375,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15370,
@@ -33504,6 +35394,7 @@ export default [
       SKS: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15371,
@@ -33522,6 +35413,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15372,
@@ -33540,6 +35432,7 @@ export default [
       DET: 93,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15373,
@@ -33558,6 +35451,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15374,
@@ -33576,6 +35470,7 @@ export default [
       SKS: 97,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15375,
@@ -33594,6 +35489,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15376,
@@ -33612,6 +35508,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15377,
@@ -33630,6 +35527,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15378,
@@ -33648,6 +35546,7 @@ export default [
       SKS: 68,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15379,
@@ -33666,6 +35565,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15380,
@@ -33684,6 +35584,7 @@ export default [
       SKS: 97,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15381,
@@ -33702,6 +35603,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15382,
@@ -33720,6 +35622,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15383,
@@ -33738,6 +35641,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15384,
@@ -33756,6 +35660,7 @@ export default [
       DET: 65,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15385,
@@ -33774,6 +35679,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15386,
@@ -33792,6 +35698,7 @@ export default [
       DET: 93,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15387,
@@ -33810,6 +35717,7 @@ export default [
       SKS: 60,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15388,
@@ -33828,6 +35736,7 @@ export default [
       SKS: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15389,
@@ -33846,6 +35755,7 @@ export default [
       CRT: 60,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15390,
@@ -33864,6 +35774,7 @@ export default [
       DET: 65,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15391,
@@ -33882,6 +35793,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15392,
@@ -33900,6 +35812,7 @@ export default [
       SPS: 97,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15393,
@@ -33918,6 +35831,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15394,
@@ -33936,6 +35850,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15395,
@@ -33954,6 +35869,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15396,
@@ -33972,6 +35888,7 @@ export default [
       SPS: 97,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15397,
@@ -33990,6 +35907,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15398,
@@ -34008,6 +35926,7 @@ export default [
       DET: 93,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15399,
@@ -34026,6 +35945,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15400,
@@ -34044,6 +35964,7 @@ export default [
       SPS: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15401,
@@ -34062,6 +35983,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15402,
@@ -34080,6 +36002,7 @@ export default [
       CRT: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15403,
@@ -34098,6 +36021,7 @@ export default [
       DHT: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15404,
@@ -34116,6 +36040,7 @@ export default [
       SKS: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15405,
@@ -34134,6 +36059,7 @@ export default [
       CRT: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15406,
@@ -34152,6 +36078,7 @@ export default [
       CRT: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15407,
@@ -34170,6 +36097,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15408,
@@ -34188,6 +36116,7 @@ export default [
       SKS: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15409,
@@ -34206,6 +36135,7 @@ export default [
       SKS: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15410,
@@ -34224,6 +36154,7 @@ export default [
       SKS: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15411,
@@ -34242,6 +36173,7 @@ export default [
       CRT: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15412,
@@ -34260,6 +36192,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15413,
@@ -34278,6 +36211,7 @@ export default [
       CRT: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15414,
@@ -34296,6 +36230,7 @@ export default [
       SPS: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15415,
@@ -34314,6 +36249,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15416,
@@ -34332,6 +36268,7 @@ export default [
       SPS: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15417,
@@ -34350,6 +36287,7 @@ export default [
       DET: 30,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15418,
@@ -34368,6 +36306,7 @@ export default [
       SPS: 31,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15419,
@@ -34386,6 +36325,7 @@ export default [
       SPS: 45,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 15420,
@@ -34404,6 +36344,7 @@ export default [
       DET: 43,
     },
     hq: false,
+    source: '迷宫挑战/忆罪宫、破舰岛',
   },
   {
     id: 13301,
@@ -34422,6 +36363,7 @@ export default [
       DET: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13302,
@@ -34440,6 +36382,7 @@ export default [
       SKS: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13303,
@@ -34458,6 +36401,7 @@ export default [
       SKS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13304,
@@ -34476,6 +36420,7 @@ export default [
       CRT: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13305,
@@ -34494,6 +36439,7 @@ export default [
       DET: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13306,
@@ -34512,6 +36458,7 @@ export default [
       DET: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13307,
@@ -34530,6 +36477,7 @@ export default [
       SKS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13308,
@@ -34548,6 +36496,7 @@ export default [
       SKS: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13309,
@@ -34566,6 +36515,7 @@ export default [
       SKS: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13310,
@@ -34584,6 +36534,7 @@ export default [
       CRT: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13311,
@@ -34602,6 +36553,7 @@ export default [
       DET: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13312,
@@ -34620,6 +36572,7 @@ export default [
       SKS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13313,
@@ -34638,6 +36591,7 @@ export default [
       SPS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13314,
@@ -34656,6 +36610,7 @@ export default [
       DET: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13315,
@@ -34674,6 +36629,7 @@ export default [
       CRT: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13316,
@@ -34692,6 +36648,7 @@ export default [
       SPS: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13317,
@@ -34710,6 +36667,7 @@ export default [
       SPS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13318,
@@ -34728,6 +36686,7 @@ export default [
       DET: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13319,
@@ -34746,6 +36705,7 @@ export default [
       SPS: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 13320,
@@ -34764,6 +36724,7 @@ export default [
       DET: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14016,
@@ -34784,6 +36745,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14017,
@@ -34804,6 +36766,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14018,
@@ -34824,6 +36787,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14019,
@@ -34844,6 +36808,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14020,
@@ -34864,6 +36829,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14021,
@@ -34884,6 +36850,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14022,
@@ -34903,6 +36870,7 @@ export default [
       MDMG: 106,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14023,
@@ -34922,6 +36890,7 @@ export default [
       MDMG: 106,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14024,
@@ -34941,6 +36910,7 @@ export default [
       MDMG: 106,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14025,
@@ -34960,6 +36930,7 @@ export default [
       MDMG: 106,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14026,
@@ -34980,6 +36951,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14027,
@@ -35000,6 +36972,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14028,
@@ -35019,6 +36992,7 @@ export default [
       MDMG: 106,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14029,
@@ -35037,6 +37011,7 @@ export default [
       DET: 21,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 14512,
@@ -35055,6 +37030,7 @@ export default [
       CRT: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14513,
@@ -35073,6 +37049,7 @@ export default [
       SKS: 62,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14514,
@@ -35091,6 +37068,7 @@ export default [
       DET: 41,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14515,
@@ -35109,6 +37087,7 @@ export default [
       SKS: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14516,
@@ -35127,6 +37106,7 @@ export default [
       CRT: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14517,
@@ -35145,6 +37125,7 @@ export default [
       DET: 41,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14518,
@@ -35163,6 +37144,7 @@ export default [
       SPS: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14519,
@@ -35181,6 +37163,7 @@ export default [
       CRT: 100,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14520,
@@ -35199,6 +37182,7 @@ export default [
       DET: 96,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14521,
@@ -35217,6 +37201,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14522,
@@ -35235,6 +37220,7 @@ export default [
       DET: 96,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14523,
@@ -35253,6 +37239,7 @@ export default [
       SKS: 100,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14524,
@@ -35271,6 +37258,7 @@ export default [
       SPS: 70,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14525,
@@ -35289,6 +37277,7 @@ export default [
       DET: 96,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14526,
@@ -35307,6 +37296,7 @@ export default [
       DHT: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14527,
@@ -35325,6 +37315,7 @@ export default [
       CRT: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14528,
@@ -35343,6 +37334,7 @@ export default [
       SKS: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14529,
@@ -35361,6 +37353,7 @@ export default [
       CRT: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14530,
@@ -35379,6 +37372,7 @@ export default [
       SKS: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14531,
@@ -35397,6 +37391,7 @@ export default [
       SPS: 62,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14532,
@@ -35415,6 +37410,7 @@ export default [
       CRT: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14533,
@@ -35433,6 +37429,7 @@ export default [
       DET: 31,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14534,
@@ -35451,6 +37448,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14535,
@@ -35469,6 +37467,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14536,
@@ -35487,6 +37486,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14537,
@@ -35505,6 +37505,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14538,
@@ -35523,6 +37524,7 @@ export default [
       SPS: 46,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14539,
@@ -35541,6 +37543,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14540,
@@ -35559,6 +37562,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14541,
@@ -35577,6 +37581,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14542,
@@ -35595,6 +37600,7 @@ export default [
       CRT: 70,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14543,
@@ -35613,6 +37619,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14544,
@@ -35631,6 +37638,7 @@ export default [
       DET: 96,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14545,
@@ -35649,6 +37657,7 @@ export default [
       CRT: 70,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14546,
@@ -35667,6 +37676,7 @@ export default [
       SPS: 70,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14547,
@@ -35685,6 +37695,7 @@ export default [
       SKS: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14548,
@@ -35703,6 +37714,7 @@ export default [
       SKS: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14549,
@@ -35721,6 +37733,7 @@ export default [
       SKS: 62,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14550,
@@ -35739,6 +37752,7 @@ export default [
       SKS: 62,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14551,
@@ -35757,6 +37771,7 @@ export default [
       SKS: 43,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14552,
@@ -35775,6 +37790,7 @@ export default [
       CRT: 62,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14553,
@@ -35793,6 +37809,7 @@ export default [
       SPS: 62,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14554,
@@ -35811,6 +37828,7 @@ export default [
       CRT: 46,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14555,
@@ -35829,6 +37847,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14556,
@@ -35847,6 +37866,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14557,
@@ -35865,6 +37885,7 @@ export default [
       SPS: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14558,
@@ -35883,6 +37904,7 @@ export default [
       SPS: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14559,
@@ -35901,6 +37923,7 @@ export default [
       SKS: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14560,
@@ -35919,6 +37942,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14561,
@@ -35937,6 +37961,7 @@ export default [
       DET: 31,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14562,
@@ -35955,6 +37980,7 @@ export default [
       CRT: 46,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14563,
@@ -35973,6 +37999,7 @@ export default [
       DET: 44,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14564,
@@ -35991,6 +38018,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14565,
@@ -36009,6 +38037,7 @@ export default [
       CRT: 46,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14566,
@@ -36027,6 +38056,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14567,
@@ -36045,6 +38075,7 @@ export default [
       DET: 31,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14568,
@@ -36063,6 +38094,7 @@ export default [
       DET: 31,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14569,
@@ -36081,6 +38113,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14570,
@@ -36099,6 +38132,7 @@ export default [
       DET: 31,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14571,
@@ -36117,6 +38151,7 @@ export default [
       CRT: 32,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14572,
@@ -36135,6 +38170,7 @@ export default [
       DET: 44,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14573,
@@ -36153,6 +38189,7 @@ export default [
       SPS: 46,
     },
     hq: false,
+    source: '大型任务/律动之章',
   },
   {
     id: 14712,
@@ -36171,6 +38208,7 @@ export default [
       SKS: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14713,
@@ -36189,6 +38227,7 @@ export default [
       DET: 67,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14714,
@@ -36207,6 +38246,7 @@ export default [
       SKS: 43,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14715,
@@ -36225,6 +38265,7 @@ export default [
       CRT: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14716,
@@ -36243,6 +38284,7 @@ export default [
       DHT: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14717,
@@ -36261,6 +38303,7 @@ export default [
       CRT: 43,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14718,
@@ -36279,6 +38322,7 @@ export default [
       SKS: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14719,
@@ -36297,6 +38341,7 @@ export default [
       DET: 59,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14720,
@@ -36315,6 +38360,7 @@ export default [
       SKS: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14721,
@@ -36333,6 +38379,7 @@ export default [
       DET: 59,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14722,
@@ -36351,6 +38398,7 @@ export default [
       SKS: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14723,
@@ -36369,6 +38417,7 @@ export default [
       SKS: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14724,
@@ -36387,6 +38436,7 @@ export default [
       CRT: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14725,
@@ -36405,6 +38455,7 @@ export default [
       SKS: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14726,
@@ -36423,6 +38474,7 @@ export default [
       DET: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14727,
@@ -36441,6 +38493,7 @@ export default [
       DET: 59,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14728,
@@ -36459,6 +38512,7 @@ export default [
       SKS: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14729,
@@ -36477,6 +38531,7 @@ export default [
       DET: 59,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14730,
@@ -36495,6 +38550,7 @@ export default [
       SKS: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14731,
@@ -36513,6 +38569,7 @@ export default [
       DET: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14732,
@@ -36531,6 +38588,7 @@ export default [
       SKS: 43,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14733,
@@ -36549,6 +38607,7 @@ export default [
       CRT: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14734,
@@ -36567,6 +38626,7 @@ export default [
       CRT: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14735,
@@ -36585,6 +38645,7 @@ export default [
       SKS: 100,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14736,
@@ -36603,6 +38664,7 @@ export default [
       DET: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14737,
@@ -36621,6 +38683,7 @@ export default [
       SPS: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14738,
@@ -36639,6 +38702,7 @@ export default [
       CRT: 70,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14739,
@@ -36657,6 +38721,7 @@ export default [
       DET: 41,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14740,
@@ -36675,6 +38740,7 @@ export default [
       DET: 96,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14741,
@@ -36693,6 +38759,7 @@ export default [
       SPS: 43,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14742,
@@ -36711,6 +38778,7 @@ export default [
       CRT: 62,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14743,
@@ -36729,6 +38797,7 @@ export default [
       SPS: 100,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14744,
@@ -36747,6 +38816,7 @@ export default [
       SPS: 43,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14745,
@@ -36765,6 +38835,7 @@ export default [
       DET: 67,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14746,
@@ -36783,6 +38854,7 @@ export default [
       CRT: 43,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14747,
@@ -36801,6 +38873,7 @@ export default [
       CRT: 32,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14748,
@@ -36819,6 +38892,7 @@ export default [
       CRT: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14749,
@@ -36837,6 +38911,7 @@ export default [
       CRT: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14750,
@@ -36855,6 +38930,7 @@ export default [
       DET: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14751,
@@ -36873,6 +38949,7 @@ export default [
       DET: 44,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14752,
@@ -36891,6 +38968,7 @@ export default [
       DET: 31,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14753,
@@ -36909,6 +38987,7 @@ export default [
       SPS: 46,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20438,
@@ -36929,6 +39008,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 20439,
@@ -36948,6 +39028,7 @@ export default [
       MDMG: 106,
     },
     hq: false,
+    source: '歼殛战/魔神',
   },
   {
     id: 16189,
@@ -36966,6 +39047,7 @@ export default [
       DET: 61,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16190,
@@ -36984,6 +39066,7 @@ export default [
       DHT: 103,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16191,
@@ -37002,6 +39085,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16192,
@@ -37020,6 +39104,7 @@ export default [
       SKS: 72,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16193,
@@ -37038,6 +39123,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16194,
@@ -37056,6 +39142,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16195,
@@ -37074,6 +39161,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16196,
@@ -37092,6 +39180,7 @@ export default [
       CRT: 103,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16197,
@@ -37110,6 +39199,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16198,
@@ -37128,6 +39218,7 @@ export default [
       DET: 98,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16199,
@@ -37146,6 +39237,7 @@ export default [
       SKS: 63,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16200,
@@ -37164,6 +39256,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16201,
@@ -37182,6 +39275,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16202,
@@ -37200,6 +39294,7 @@ export default [
       SKS: 103,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16203,
@@ -37218,6 +39313,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16204,
@@ -37236,6 +39332,7 @@ export default [
       CRT: 72,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16205,
@@ -37254,6 +39351,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16206,
@@ -37272,6 +39370,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16207,
@@ -37290,6 +39389,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16208,
@@ -37308,6 +39408,7 @@ export default [
       DET: 98,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16209,
@@ -37326,6 +39427,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16210,
@@ -37344,6 +39446,7 @@ export default [
       CRT: 103,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16211,
@@ -37362,6 +39465,7 @@ export default [
       SKS: 63,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16212,
@@ -37380,6 +39484,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16213,
@@ -37398,6 +39503,7 @@ export default [
       SKS: 44,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16214,
@@ -37416,6 +39522,7 @@ export default [
       SKS: 103,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16215,
@@ -37434,6 +39541,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16216,
@@ -37452,6 +39560,7 @@ export default [
       DET: 98,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16217,
@@ -37470,6 +39579,7 @@ export default [
       CRT: 44,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16218,
@@ -37488,6 +39598,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16219,
@@ -37506,6 +39617,7 @@ export default [
       SPS: 44,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16220,
@@ -37524,6 +39636,7 @@ export default [
       CRT: 103,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16221,
@@ -37542,6 +39655,7 @@ export default [
       SPS: 63,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16222,
@@ -37560,6 +39674,7 @@ export default [
       CRT: 72,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16223,
@@ -37578,6 +39693,7 @@ export default [
       DET: 61,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16224,
@@ -37596,6 +39712,7 @@ export default [
       SPS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16225,
@@ -37614,6 +39731,7 @@ export default [
       DET: 42,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16226,
@@ -37632,6 +39750,7 @@ export default [
       DET: 69,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16227,
@@ -37650,6 +39769,7 @@ export default [
       DET: 61,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16228,
@@ -37668,6 +39788,7 @@ export default [
       SPS: 72,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16229,
@@ -37686,6 +39807,7 @@ export default [
       SPS: 63,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16230,
@@ -37704,6 +39826,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16231,
@@ -37722,6 +39845,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16232,
@@ -37740,6 +39864,7 @@ export default [
       DHT: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16233,
@@ -37758,6 +39883,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16234,
@@ -37776,6 +39902,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16235,
@@ -37794,6 +39921,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16236,
@@ -37812,6 +39940,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16237,
@@ -37830,6 +39959,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16238,
@@ -37848,6 +39978,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16239,
@@ -37866,6 +39997,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16240,
@@ -37884,6 +40016,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16241,
@@ -37902,6 +40035,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16242,
@@ -37920,6 +40054,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16243,
@@ -37938,6 +40073,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16244,
@@ -37956,6 +40092,7 @@ export default [
       CRT: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16245,
@@ -37974,6 +40111,7 @@ export default [
       SPS: 48,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16246,
@@ -37992,6 +40130,7 @@ export default [
       SPS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16247,
@@ -38010,6 +40149,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16248,
@@ -38028,6 +40168,7 @@ export default [
       SPS: 48,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16249,
@@ -38046,6 +40187,7 @@ export default [
       DET: 32,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 16250,
@@ -38064,6 +40206,7 @@ export default [
       SPS: 33,
     },
     hq: false,
+    source: '迷宫挑战/塞尔法特尔溪谷、图书馆',
   },
   {
     id: 14312,
@@ -38084,6 +40227,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14313,
@@ -38104,6 +40248,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14314,
@@ -38124,6 +40269,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14315,
@@ -38144,6 +40290,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14316,
@@ -38164,6 +40311,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14317,
@@ -38184,6 +40332,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14318,
@@ -38204,6 +40353,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14319,
@@ -38224,6 +40374,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14320,
@@ -38243,6 +40394,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14321,
@@ -38262,6 +40414,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14322,
@@ -38281,6 +40434,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14323,
@@ -38300,6 +40454,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14324,
@@ -38319,6 +40474,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14325,
@@ -38337,6 +40493,7 @@ export default [
       SKS: 33,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14326,
@@ -38355,6 +40512,7 @@ export default [
       DET: 44,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14327,
@@ -38373,6 +40531,7 @@ export default [
       CRT: 65,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14328,
@@ -38391,6 +40550,7 @@ export default [
       CRT: 65,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14329,
@@ -38409,6 +40569,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14330,
@@ -38427,6 +40588,7 @@ export default [
       CRT: 46,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14331,
@@ -38445,6 +40607,7 @@ export default [
       CRT: 46,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14332,
@@ -38463,6 +40626,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14333,
@@ -38481,6 +40645,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14334,
@@ -38499,6 +40664,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14335,
@@ -38517,6 +40683,7 @@ export default [
       SKS: 106,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14336,
@@ -38535,6 +40702,7 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14337,
@@ -38553,6 +40721,7 @@ export default [
       DET: 101,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14338,
@@ -38571,6 +40740,7 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14339,
@@ -38589,6 +40759,7 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14340,
@@ -38607,6 +40778,7 @@ export default [
       DHT: 65,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14341,
@@ -38625,6 +40797,7 @@ export default [
       SKS: 65,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14342,
@@ -38643,6 +40816,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14343,
@@ -38661,6 +40835,7 @@ export default [
       CRT: 65,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14344,
@@ -38679,6 +40854,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14345,
@@ -38697,6 +40873,7 @@ export default [
       CRT: 65,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14346,
@@ -38715,6 +40892,7 @@ export default [
       CRT: 46,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14347,
@@ -38733,6 +40911,7 @@ export default [
       CRT: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14348,
@@ -38751,6 +40930,7 @@ export default [
       DET: 33,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14349,
@@ -38769,6 +40949,7 @@ export default [
       DET: 33,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14350,
@@ -38787,6 +40968,7 @@ export default [
       SKS: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14351,
@@ -38805,6 +40987,7 @@ export default [
       SKS: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14352,
@@ -38823,6 +41006,7 @@ export default [
       CRT: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14353,
@@ -38841,6 +41025,7 @@ export default [
       CRT: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14354,
@@ -38859,6 +41044,7 @@ export default [
       DHT: 74,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14355,
@@ -38877,6 +41063,7 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14356,
@@ -38895,6 +41082,7 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14357,
@@ -38913,6 +41101,7 @@ export default [
       SKS: 106,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14358,
@@ -38931,6 +41120,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14359,
@@ -38949,6 +41139,7 @@ export default [
       SPS: 74,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14360,
@@ -38967,6 +41158,7 @@ export default [
       SPS: 106,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14361,
@@ -38985,6 +41177,7 @@ export default [
       CRT: 46,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14362,
@@ -39003,6 +41196,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14363,
@@ -39021,6 +41215,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14364,
@@ -39039,6 +41234,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14365,
@@ -39057,6 +41253,7 @@ export default [
       SKS: 65,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14366,
@@ -39075,6 +41272,7 @@ export default [
       SPS: 65,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14367,
@@ -39093,6 +41291,7 @@ export default [
       SPS: 46,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14368,
@@ -39111,6 +41310,7 @@ export default [
       SKS: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14369,
@@ -39129,6 +41329,7 @@ export default [
       CRT: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14370,
@@ -39147,6 +41348,7 @@ export default [
       DET: 33,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14371,
@@ -39165,6 +41367,7 @@ export default [
       DET: 33,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14372,
@@ -39183,6 +41386,7 @@ export default [
       SPS: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14373,
@@ -39201,6 +41405,7 @@ export default [
       CRT: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14374,
@@ -39219,6 +41424,7 @@ export default [
       SKS: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14375,
@@ -39237,6 +41443,7 @@ export default [
       SKS: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14376,
@@ -39255,6 +41462,7 @@ export default [
       DET: 47,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14377,
@@ -39273,6 +41481,7 @@ export default [
       DET: 33,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14378,
@@ -39291,6 +41500,7 @@ export default [
       DET: 33,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14379,
@@ -39309,6 +41519,7 @@ export default [
       SKS: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14380,
@@ -39327,6 +41538,7 @@ export default [
       CRT: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14381,
@@ -39345,6 +41557,7 @@ export default [
       SPS: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14382,
@@ -39363,6 +41576,7 @@ export default [
       CRT: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14383,
@@ -39381,6 +41595,7 @@ export default [
       SKS: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14384,
@@ -39399,6 +41614,7 @@ export default [
       SKS: 34,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14385,
@@ -39417,6 +41633,7 @@ export default [
       DET: 47,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14386,
@@ -39435,6 +41652,7 @@ export default [
       SPS: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14387,
@@ -39453,6 +41671,7 @@ export default [
       SPS: 49,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 14870,
@@ -39473,6 +41692,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14871,
@@ -39493,6 +41713,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14872,
@@ -39513,6 +41734,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14873,
@@ -39533,6 +41755,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14874,
@@ -39553,6 +41776,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14875,
@@ -39573,6 +41797,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14876,
@@ -39593,6 +41818,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14877,
@@ -39613,6 +41839,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14878,
@@ -39632,6 +41859,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14879,
@@ -39651,6 +41879,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14880,
@@ -39670,6 +41899,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14881,
@@ -39689,6 +41919,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14882,
@@ -39708,6 +41939,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 14883,
@@ -39726,6 +41958,7 @@ export default [
       DET: 31,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15317,
@@ -39744,6 +41977,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15318,
@@ -39762,6 +41996,7 @@ export default [
       DHT: 74,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15319,
@@ -39780,6 +42015,7 @@ export default [
       SKS: 65,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15320,
@@ -39798,6 +42034,7 @@ export default [
       CRT: 74,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15321,
@@ -39816,6 +42053,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15322,
@@ -39834,6 +42072,7 @@ export default [
       DET: 33,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15323,
@@ -39852,6 +42091,7 @@ export default [
       SKS: 65,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15324,
@@ -39870,6 +42110,7 @@ export default [
       DET: 101,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15325,
@@ -39888,6 +42129,7 @@ export default [
       DET: 44,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15326,
@@ -39906,6 +42148,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15327,
@@ -39924,6 +42167,7 @@ export default [
       CRT: 65,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15328,
@@ -39942,6 +42186,7 @@ export default [
       SKS: 34,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15329,
@@ -39960,6 +42205,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15330,
@@ -39978,6 +42224,7 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15331,
@@ -39996,6 +42243,7 @@ export default [
       SKS: 65,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15332,
@@ -40014,6 +42262,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15333,
@@ -40032,6 +42281,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15334,
@@ -40050,6 +42300,7 @@ export default [
       CRT: 49,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15335,
@@ -40068,6 +42319,7 @@ export default [
       DET: 44,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15336,
@@ -40086,6 +42338,7 @@ export default [
       SKS: 106,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15337,
@@ -40104,6 +42357,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15338,
@@ -40122,6 +42376,7 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15339,
@@ -40140,6 +42395,7 @@ export default [
       SKS: 46,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15340,
@@ -40158,6 +42414,7 @@ export default [
       DET: 47,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15341,
@@ -40176,6 +42433,7 @@ export default [
       SKS: 65,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15342,
@@ -40194,6 +42452,7 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15343,
@@ -40212,6 +42471,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15344,
@@ -40230,6 +42490,7 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15345,
@@ -40248,6 +42509,7 @@ export default [
       CRT: 46,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15346,
@@ -40266,6 +42528,7 @@ export default [
       CRT: 49,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15347,
@@ -40284,6 +42547,7 @@ export default [
       DET: 62,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15348,
@@ -40302,6 +42566,7 @@ export default [
       SPS: 106,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15349,
@@ -40320,6 +42585,7 @@ export default [
       SPS: 46,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15350,
@@ -40338,6 +42604,7 @@ export default [
       CRT: 74,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15351,
@@ -40356,6 +42623,7 @@ export default [
       CRT: 65,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15352,
@@ -40374,6 +42642,7 @@ export default [
       DET: 33,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15353,
@@ -40392,6 +42661,7 @@ export default [
       CRT: 65,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15354,
@@ -40410,6 +42680,7 @@ export default [
       SPS: 106,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15355,
@@ -40428,6 +42699,7 @@ export default [
       SPS: 46,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15356,
@@ -40446,6 +42718,7 @@ export default [
       CRT: 74,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15357,
@@ -40464,6 +42737,7 @@ export default [
       DET: 44,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 15358,
@@ -40482,6 +42756,7 @@ export default [
       SPS: 49,
     },
     hq: false,
+    source: '团队任务/玛哈',
   },
   {
     id: 20416,
@@ -40502,6 +42777,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 20417,
@@ -40521,6 +42797,7 @@ export default [
       MDMG: 108,
     },
     hq: false,
+    source: '点数/传承→诗学',
   },
   {
     id: 15181,
@@ -40541,6 +42818,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15182,
@@ -40561,6 +42839,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15183,
@@ -40581,6 +42860,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15184,
@@ -40601,6 +42881,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15185,
@@ -40621,6 +42902,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15186,
@@ -40641,6 +42923,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15187,
@@ -40661,6 +42944,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15188,
@@ -40681,6 +42965,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15189,
@@ -40700,6 +42985,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15190,
@@ -40719,6 +43005,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15191,
@@ -40738,6 +43025,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15192,
@@ -40757,6 +43045,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15193,
@@ -40776,6 +43065,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15194,
@@ -40794,6 +43084,7 @@ export default [
       SKS: 23,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 15303,
@@ -40814,6 +43105,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15304,
@@ -40834,6 +43126,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15305,
@@ -40854,6 +43147,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15306,
@@ -40874,6 +43168,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15307,
@@ -40894,6 +43189,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15308,
@@ -40914,6 +43210,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15309,
@@ -40934,6 +43231,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15310,
@@ -40954,6 +43252,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15311,
@@ -40973,6 +43272,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15312,
@@ -40992,6 +43292,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15313,
@@ -41011,6 +43312,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15314,
@@ -41030,6 +43332,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15315,
@@ -41049,6 +43352,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 15316,
@@ -41067,6 +43371,7 @@ export default [
       CRT: 23,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 16067,
@@ -41087,6 +43392,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16068,
@@ -41107,6 +43413,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16069,
@@ -41127,6 +43434,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16070,
@@ -41147,6 +43455,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16071,
@@ -41167,6 +43476,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16072,
@@ -41187,6 +43497,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16073,
@@ -41207,6 +43518,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16074,
@@ -41227,6 +43539,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16075,
@@ -41246,6 +43559,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16076,
@@ -41265,6 +43579,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16077,
@@ -41284,6 +43599,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16078,
@@ -41303,6 +43619,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16079,
@@ -41322,6 +43639,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16080,
@@ -41340,6 +43658,7 @@ export default [
       DET: 22,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16081,
@@ -41358,6 +43677,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16082,
@@ -41376,6 +43696,7 @@ export default [
       DET: 104,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16083,
@@ -41394,6 +43715,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16084,
@@ -41412,6 +43734,7 @@ export default [
       SKS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16085,
@@ -41430,6 +43753,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16086,
@@ -41448,6 +43772,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16087,
@@ -41466,6 +43791,7 @@ export default [
       SKS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16088,
@@ -41484,6 +43810,7 @@ export default [
       DET: 64,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16089,
@@ -41502,6 +43829,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16090,
@@ -41520,6 +43848,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16091,
@@ -41538,6 +43867,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16092,
@@ -41556,6 +43886,7 @@ export default [
       DET: 104,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16093,
@@ -41574,6 +43905,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16094,
@@ -41592,6 +43924,7 @@ export default [
       SKS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16095,
@@ -41610,6 +43943,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16096,
@@ -41628,6 +43962,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16097,
@@ -41646,6 +43981,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16098,
@@ -41664,6 +44000,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16099,
@@ -41682,6 +44019,7 @@ export default [
       SKS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16100,
@@ -41700,6 +44038,7 @@ export default [
       DET: 45,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16101,
@@ -41718,6 +44057,7 @@ export default [
       DET: 64,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16102,
@@ -41736,6 +44076,7 @@ export default [
       SKS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16103,
@@ -41754,6 +44095,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16104,
@@ -41772,6 +44114,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16105,
@@ -41790,6 +44133,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16106,
@@ -41808,6 +44152,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16107,
@@ -41826,6 +44171,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16108,
@@ -41844,6 +44190,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16109,
@@ -41862,6 +44209,7 @@ export default [
       DET: 73,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16110,
@@ -41880,6 +44228,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16111,
@@ -41898,6 +44247,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16112,
@@ -41916,6 +44266,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16113,
@@ -41934,6 +44285,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16114,
@@ -41952,6 +44304,7 @@ export default [
       DET: 73,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16115,
@@ -41970,6 +44323,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16116,
@@ -41988,6 +44342,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16117,
@@ -42006,6 +44361,7 @@ export default [
       SKS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16118,
@@ -42024,6 +44380,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16119,
@@ -42042,6 +44399,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16120,
@@ -42060,6 +44418,7 @@ export default [
       DET: 64,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16121,
@@ -42078,6 +44437,7 @@ export default [
       SKS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16122,
@@ -42096,6 +44456,7 @@ export default [
       SKS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16123,
@@ -42114,6 +44475,7 @@ export default [
       SKS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16124,
@@ -42132,6 +44494,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16125,
@@ -42150,6 +44513,7 @@ export default [
       DET: 64,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16126,
@@ -42168,6 +44532,7 @@ export default [
       SPS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16127,
@@ -42186,6 +44551,7 @@ export default [
       SPS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16128,
@@ -42204,6 +44570,7 @@ export default [
       DET: 64,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16129,
@@ -42222,6 +44589,7 @@ export default [
       DET: 73,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16130,
@@ -42240,6 +44608,7 @@ export default [
       SPS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16131,
@@ -42258,6 +44627,7 @@ export default [
       SPS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16132,
@@ -42276,6 +44646,7 @@ export default [
       SPS: 76,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16133,
@@ -42294,6 +44665,7 @@ export default [
       DET: 64,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16134,
@@ -42312,6 +44684,7 @@ export default [
       DET: 73,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16135,
@@ -42330,6 +44703,7 @@ export default [
       SPS: 67,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16136,
@@ -42348,6 +44722,7 @@ export default [
       DET: 64,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16137,
@@ -42366,6 +44741,7 @@ export default [
       SPS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16138,
@@ -42384,6 +44760,7 @@ export default [
       SPS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16139,
@@ -42402,6 +44779,7 @@ export default [
       SPS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16140,
@@ -42420,6 +44798,7 @@ export default [
       SPS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16141,
@@ -42438,6 +44817,7 @@ export default [
       DET: 64,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16142,
@@ -42456,6 +44836,7 @@ export default [
       SPS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16143,
@@ -42474,6 +44855,7 @@ export default [
       SPS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16144,
@@ -42492,6 +44874,7 @@ export default [
       SPS: 109,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16145,
@@ -42510,6 +44893,7 @@ export default [
       SPS: 47,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 16835,
@@ -42526,6 +44910,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16836,
@@ -42542,6 +44927,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16837,
@@ -42558,6 +44944,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16838,
@@ -42574,6 +44961,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16839,
@@ -42590,6 +44978,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16840,
@@ -42606,6 +44995,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16841,
@@ -42622,6 +45012,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16842,
@@ -42638,6 +45029,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16843,
@@ -42654,6 +45046,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16844,
@@ -42670,6 +45063,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16845,
@@ -42686,6 +45080,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16846,
@@ -42702,6 +45097,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16847,
@@ -42718,6 +45114,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16848,
@@ -42734,6 +45131,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16849,
@@ -42750,6 +45148,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16850,
@@ -42766,6 +45165,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16851,
@@ -42782,6 +45182,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16852,
@@ -42798,6 +45199,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16853,
@@ -42814,6 +45216,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16854,
@@ -42830,6 +45233,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16855,
@@ -42846,6 +45250,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16856,
@@ -42862,6 +45267,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16857,
@@ -42878,6 +45284,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16858,
@@ -42894,6 +45301,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16859,
@@ -42910,6 +45318,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16860,
@@ -42926,6 +45335,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16861,
@@ -42942,6 +45352,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16862,
@@ -42958,6 +45369,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16863,
@@ -42974,6 +45386,7 @@ export default [
       VIT: 137,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16864,
@@ -42990,6 +45403,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16865,
@@ -43006,6 +45420,7 @@ export default [
       MND: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16866,
@@ -43022,6 +45437,7 @@ export default [
       MND: 126,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16867,
@@ -43038,6 +45454,7 @@ export default [
       MND: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16868,
@@ -43054,6 +45471,7 @@ export default [
       MND: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16869,
@@ -43070,6 +45488,7 @@ export default [
       MND: 126,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16870,
@@ -43086,6 +45505,7 @@ export default [
       MND: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16871,
@@ -43102,6 +45522,7 @@ export default [
       INT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16872,
@@ -43118,6 +45539,7 @@ export default [
       INT: 126,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16873,
@@ -43134,6 +45556,7 @@ export default [
       INT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16874,
@@ -43150,6 +45573,7 @@ export default [
       INT: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16875,
@@ -43166,6 +45590,7 @@ export default [
       INT: 126,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16876,
@@ -43182,6 +45607,7 @@ export default [
       INT: 78,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16877,
@@ -43198,6 +45624,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16878,
@@ -43214,6 +45641,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16879,
@@ -43230,6 +45658,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16880,
@@ -43246,6 +45675,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16881,
@@ -43262,6 +45692,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16882,
@@ -43278,6 +45709,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16883,
@@ -43294,6 +45726,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16884,
@@ -43310,6 +45743,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16885,
@@ -43326,6 +45760,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16886,
@@ -43342,6 +45777,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16887,
@@ -43358,6 +45794,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16888,
@@ -43374,6 +45811,7 @@ export default [
       VIT: 63,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16889,
@@ -43390,6 +45828,7 @@ export default [
       MND: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16890,
@@ -43406,6 +45845,7 @@ export default [
       MND: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16891,
@@ -43422,6 +45862,7 @@ export default [
       MND: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16892,
@@ -43438,6 +45879,7 @@ export default [
       MND: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16893,
@@ -43454,6 +45896,7 @@ export default [
       INT: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16894,
@@ -43470,6 +45913,7 @@ export default [
       INT: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16895,
@@ -43486,6 +45930,7 @@ export default [
       INT: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 16896,
@@ -43502,6 +45947,7 @@ export default [
       INT: 58,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17138,
@@ -43520,6 +45966,7 @@ export default [
       SKS: 50,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17139,
@@ -43538,6 +45985,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17140,
@@ -43556,6 +46004,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17141,
@@ -43574,6 +46023,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17142,
@@ -43592,6 +46042,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17143,
@@ -43610,6 +46061,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17144,
@@ -43628,6 +46080,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17145,
@@ -43646,6 +46099,7 @@ export default [
       SKS: 50,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17146,
@@ -43664,6 +46118,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17147,
@@ -43682,6 +46137,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17148,
@@ -43700,6 +46156,7 @@ export default [
       SKS: 35,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17149,
@@ -43718,6 +46175,7 @@ export default [
       SKS: 50,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17150,
@@ -43736,6 +46194,7 @@ export default [
       SPS: 50,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17151,
@@ -43754,6 +46213,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17152,
@@ -43772,6 +46232,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17153,
@@ -43790,6 +46251,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17154,
@@ -43808,6 +46270,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17155,
@@ -43826,6 +46289,7 @@ export default [
       SPS: 50,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17156,
@@ -43844,6 +46308,7 @@ export default [
       SPS: 35,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17157,
@@ -43862,6 +46327,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17158,
@@ -43880,6 +46346,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17159,
@@ -43898,6 +46365,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17160,
@@ -43916,6 +46384,7 @@ export default [
       SKS: 50,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17161,
@@ -43934,6 +46403,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17162,
@@ -43952,6 +46422,7 @@ export default [
       DET: 48,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17163,
@@ -43970,6 +46441,7 @@ export default [
       SPS: 50,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 17164,
@@ -43988,6 +46460,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '狼印战绩/牙狼联动',
   },
   {
     id: 20442,
@@ -44008,6 +46481,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 20443,
@@ -44027,6 +46501,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '歼殛战/邪龙',
   },
   {
     id: 20456,
@@ -44047,6 +46522,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 20457,
@@ -44066,6 +46542,7 @@ export default [
       MDMG: 109,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 27347,
@@ -44086,6 +46563,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '死者宫殿',
+    patch: '5.0',
   },
   {
     id: 27348,
@@ -44106,6 +46585,8 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '死者宫殿',
+    patch: '5.0',
   },
   {
     id: 14388,
@@ -44126,6 +46607,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14389,
@@ -44146,6 +46628,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14390,
@@ -44166,6 +46649,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14391,
@@ -44186,6 +46670,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14392,
@@ -44206,6 +46691,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14393,
@@ -44226,6 +46712,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14394,
@@ -44246,6 +46733,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14395,
@@ -44266,6 +46754,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14396,
@@ -44285,6 +46774,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14397,
@@ -44304,6 +46794,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14398,
@@ -44323,6 +46814,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14399,
@@ -44342,6 +46834,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14400,
@@ -44361,6 +46854,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14401,
@@ -44379,6 +46873,7 @@ export default [
       SKS: 34,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14402,
@@ -44397,6 +46892,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14403,
@@ -44415,6 +46911,7 @@ export default [
       CRT: 69,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14404,
@@ -44433,6 +46930,7 @@ export default [
       CRT: 69,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14405,
@@ -44451,6 +46949,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14406,
@@ -44469,6 +46968,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14407,
@@ -44487,6 +46987,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14408,
@@ -44505,6 +47006,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14409,
@@ -44523,6 +47025,7 @@ export default [
       SKS: 78,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14410,
@@ -44541,6 +47044,7 @@ export default [
       SKS: 78,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14411,
@@ -44559,6 +47063,7 @@ export default [
       SKS: 112,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14412,
@@ -44577,6 +47082,7 @@ export default [
       DET: 75,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14413,
@@ -44595,6 +47101,7 @@ export default [
       DET: 107,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14414,
@@ -44613,6 +47120,7 @@ export default [
       DET: 75,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14415,
@@ -44631,6 +47139,7 @@ export default [
       DET: 75,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14416,
@@ -44649,6 +47158,7 @@ export default [
       DHT: 69,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14417,
@@ -44667,6 +47177,7 @@ export default [
       SKS: 69,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14418,
@@ -44685,6 +47196,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14419,
@@ -44703,6 +47215,7 @@ export default [
       CRT: 69,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14420,
@@ -44721,6 +47234,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14421,
@@ -44739,6 +47253,7 @@ export default [
       CRT: 69,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14422,
@@ -44757,6 +47272,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14423,
@@ -44775,6 +47291,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14424,
@@ -44793,6 +47310,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14425,
@@ -44811,6 +47329,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14426,
@@ -44829,6 +47348,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14427,
@@ -44847,6 +47367,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14428,
@@ -44865,6 +47386,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14429,
@@ -44883,6 +47405,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14430,
@@ -44901,6 +47424,7 @@ export default [
       DHT: 78,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14431,
@@ -44919,6 +47443,7 @@ export default [
       DET: 75,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14432,
@@ -44937,6 +47462,7 @@ export default [
       DET: 75,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14433,
@@ -44955,6 +47481,7 @@ export default [
       SKS: 112,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14434,
@@ -44973,6 +47500,7 @@ export default [
       SKS: 78,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14435,
@@ -44991,6 +47519,7 @@ export default [
       SPS: 78,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14436,
@@ -45009,6 +47538,7 @@ export default [
       SPS: 112,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14437,
@@ -45027,6 +47557,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14438,
@@ -45045,6 +47576,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14439,
@@ -45063,6 +47595,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14440,
@@ -45081,6 +47614,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14441,
@@ -45099,6 +47633,7 @@ export default [
       SKS: 69,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14442,
@@ -45117,6 +47652,7 @@ export default [
       SPS: 69,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14443,
@@ -45135,6 +47671,7 @@ export default [
       SPS: 48,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14444,
@@ -45153,6 +47690,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14445,
@@ -45171,6 +47709,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14446,
@@ -45189,6 +47728,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14447,
@@ -45207,6 +47747,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14448,
@@ -45225,6 +47766,7 @@ export default [
       SPS: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14449,
@@ -45243,6 +47785,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14450,
@@ -45261,6 +47804,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14451,
@@ -45279,6 +47823,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14452,
@@ -45297,6 +47842,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14453,
@@ -45315,6 +47861,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14454,
@@ -45333,6 +47880,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14455,
@@ -45351,6 +47899,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14456,
@@ -45369,6 +47918,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14457,
@@ -45387,6 +47937,7 @@ export default [
       SPS: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14458,
@@ -45405,6 +47956,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14459,
@@ -45423,6 +47975,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14460,
@@ -45441,6 +47994,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14461,
@@ -45459,6 +48013,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14462,
@@ -45477,6 +48032,7 @@ export default [
       SPS: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14463,
@@ -45495,6 +48051,7 @@ export default [
       SPS: 51,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14588,
@@ -45513,6 +48070,7 @@ export default [
       DHT: 48,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14589,
@@ -45531,6 +48089,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14590,
@@ -45549,6 +48108,7 @@ export default [
       SKS: 69,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14591,
@@ -45567,6 +48127,7 @@ export default [
       CRT: 69,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14592,
@@ -45585,6 +48146,7 @@ export default [
       SKS: 69,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14593,
@@ -45603,6 +48165,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14594,
@@ -45621,6 +48184,7 @@ export default [
       SPS: 69,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14595,
@@ -45639,6 +48203,7 @@ export default [
       CRT: 78,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14596,
@@ -45657,6 +48222,7 @@ export default [
       DET: 107,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14597,
@@ -45675,6 +48241,7 @@ export default [
       DET: 107,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14598,
@@ -45693,6 +48260,7 @@ export default [
       SKS: 112,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14599,
@@ -45711,6 +48279,7 @@ export default [
       SKS: 78,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14600,
@@ -45729,6 +48298,7 @@ export default [
       SPS: 112,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14601,
@@ -45747,6 +48317,7 @@ export default [
       SPS: 78,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14602,
@@ -45765,6 +48336,7 @@ export default [
       SKS: 69,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14603,
@@ -45783,6 +48355,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14604,
@@ -45801,6 +48374,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14605,
@@ -45819,6 +48393,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14606,
@@ -45837,6 +48412,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14607,
@@ -45855,6 +48431,7 @@ export default [
       SPS: 48,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14608,
@@ -45873,6 +48450,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14609,
@@ -45891,6 +48469,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14610,
@@ -45909,6 +48488,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14611,
@@ -45927,6 +48507,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14612,
@@ -45945,6 +48526,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14613,
@@ -45963,6 +48545,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14614,
@@ -45981,6 +48564,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14615,
@@ -45999,6 +48583,7 @@ export default [
       SPS: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14616,
@@ -46017,6 +48602,7 @@ export default [
       DET: 75,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14617,
@@ -46035,6 +48621,7 @@ export default [
       SKS: 112,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14618,
@@ -46053,6 +48640,7 @@ export default [
       SKS: 78,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14619,
@@ -46071,6 +48659,7 @@ export default [
       DET: 75,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14620,
@@ -46089,6 +48678,7 @@ export default [
       DET: 75,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14621,
@@ -46107,6 +48697,7 @@ export default [
       CRT: 112,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14622,
@@ -46125,6 +48716,7 @@ export default [
       CRT: 78,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14623,
@@ -46143,6 +48735,7 @@ export default [
       DET: 66,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14624,
@@ -46161,6 +48754,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14625,
@@ -46179,6 +48773,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14626,
@@ -46197,6 +48792,7 @@ export default [
       SKS: 48,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14627,
@@ -46215,6 +48811,7 @@ export default [
       CRT: 48,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14628,
@@ -46233,6 +48830,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14629,
@@ -46251,6 +48849,7 @@ export default [
       DET: 46,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14630,
@@ -46269,6 +48868,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14631,
@@ -46287,6 +48887,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14632,
@@ -46305,6 +48906,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14633,
@@ -46323,6 +48925,7 @@ export default [
       SPS: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14634,
@@ -46341,6 +48944,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14635,
@@ -46359,6 +48963,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14636,
@@ -46377,6 +48982,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14637,
@@ -46395,6 +49001,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14638,
@@ -46413,6 +49020,7 @@ export default [
       SPS: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14639,
@@ -46431,6 +49039,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14640,
@@ -46449,6 +49058,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14641,
@@ -46467,6 +49077,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14642,
@@ -46485,6 +49096,7 @@ export default [
       SKS: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14643,
@@ -46503,6 +49115,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14644,
@@ -46521,6 +49134,7 @@ export default [
       SPS: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14645,
@@ -46539,6 +49153,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14646,
@@ -46557,6 +49172,7 @@ export default [
       CRT: 36,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14647,
@@ -46575,6 +49191,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14648,
@@ -46593,6 +49210,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14649,
@@ -46611,6 +49229,7 @@ export default [
       DET: 34,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 15223,
@@ -46629,6 +49248,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15224,
@@ -46647,6 +49267,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15225,
@@ -46665,6 +49286,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15226,
@@ -46683,6 +49305,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15227,
@@ -46701,6 +49324,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15228,
@@ -46719,6 +49343,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15229,
@@ -46737,6 +49362,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15230,
@@ -46755,6 +49381,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15231,
@@ -46772,6 +49399,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15232,
@@ -46789,6 +49417,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15233,
@@ -46806,6 +49435,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15234,
@@ -46823,6 +49453,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15235,
@@ -46840,6 +49471,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15236,
@@ -46856,6 +49488,7 @@ export default [
       VIT: 44,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 20418,
@@ -46876,6 +49509,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 20419,
@@ -46895,6 +49529,7 @@ export default [
       MDMG: 110,
     },
     hq: false,
+    source: '点数强化/传承→诗学',
   },
   {
     id: 14574,
@@ -46915,6 +49550,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14575,
@@ -46935,6 +49571,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14576,
@@ -46955,6 +49592,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14577,
@@ -46975,6 +49613,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14578,
@@ -46995,6 +49634,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14579,
@@ -47015,6 +49655,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14580,
@@ -47035,6 +49676,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14581,
@@ -47055,6 +49697,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14582,
@@ -47074,6 +49717,7 @@ export default [
       MDMG: 111,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14583,
@@ -47093,6 +49737,7 @@ export default [
       MDMG: 111,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14584,
@@ -47112,6 +49757,7 @@ export default [
       MDMG: 111,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14585,
@@ -47131,6 +49777,7 @@ export default [
       MDMG: 111,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14586,
@@ -47150,6 +49797,7 @@ export default [
       MDMG: 111,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 14587,
@@ -47168,6 +49816,7 @@ export default [
       CRT: 25,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 17385,
@@ -47186,6 +49835,7 @@ export default [
       SKS: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17386,
@@ -47204,6 +49854,7 @@ export default [
       DET: 77,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17387,
@@ -47222,6 +49873,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17388,
@@ -47240,6 +49892,7 @@ export default [
       CRT: 80,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17389,
@@ -47258,6 +49911,7 @@ export default [
       DET: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17390,
@@ -47276,6 +49930,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17391,
@@ -47294,6 +49949,7 @@ export default [
       SKS: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17392,
@@ -47312,6 +49968,7 @@ export default [
       DET: 109,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17393,
@@ -47330,6 +49987,7 @@ export default [
       SKS: 49,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17394,
@@ -47348,6 +50006,7 @@ export default [
       DET: 77,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17395,
@@ -47366,6 +50025,7 @@ export default [
       SKS: 49,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17396,
@@ -47384,6 +50044,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17397,
@@ -47402,6 +50063,7 @@ export default [
       SKS: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17398,
@@ -47420,6 +50082,7 @@ export default [
       DET: 77,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17399,
@@ -47438,6 +50101,7 @@ export default [
       SKS: 49,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17400,
@@ -47456,6 +50120,7 @@ export default [
       DET: 109,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17401,
@@ -47474,6 +50139,7 @@ export default [
       DET: 47,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17402,
@@ -47492,6 +50158,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17403,
@@ -47510,6 +50177,7 @@ export default [
       CRT: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17404,
@@ -47528,6 +50196,7 @@ export default [
       SKS: 80,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17405,
@@ -47546,6 +50215,7 @@ export default [
       SKS: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17406,
@@ -47564,6 +50234,7 @@ export default [
       CRT: 80,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17407,
@@ -47582,6 +50253,7 @@ export default [
       SKS: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17408,
@@ -47600,6 +50272,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17409,
@@ -47618,6 +50291,7 @@ export default [
       CRT: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17410,
@@ -47636,6 +50310,7 @@ export default [
       SKS: 114,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17411,
@@ -47654,6 +50329,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17412,
@@ -47672,6 +50348,7 @@ export default [
       DET: 109,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17413,
@@ -47690,6 +50367,7 @@ export default [
       SKS: 49,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17414,
@@ -47708,6 +50386,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17415,
@@ -47726,6 +50405,7 @@ export default [
       SPS: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17416,
@@ -47744,6 +50424,7 @@ export default [
       CRT: 80,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17417,
@@ -47762,6 +50443,7 @@ export default [
       SPS: 49,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17418,
@@ -47780,6 +50462,7 @@ export default [
       SPS: 114,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17419,
@@ -47798,6 +50481,7 @@ export default [
       CRT: 49,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17420,
@@ -47816,6 +50500,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17421,
@@ -47834,6 +50519,7 @@ export default [
       SPS: 49,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17422,
@@ -47852,6 +50538,7 @@ export default [
       SPS: 114,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17423,
@@ -47870,6 +50557,7 @@ export default [
       DET: 67,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17424,
@@ -47888,6 +50576,7 @@ export default [
       CRT: 80,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17425,
@@ -47906,6 +50595,7 @@ export default [
       CRT: 70,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17426,
@@ -47924,6 +50614,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17427,
@@ -47942,6 +50633,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17428,
@@ -47960,6 +50652,7 @@ export default [
       DHT: 53,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17429,
@@ -47978,6 +50671,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17430,
@@ -47996,6 +50690,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17431,
@@ -48014,6 +50709,7 @@ export default [
       CRT: 53,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17432,
@@ -48032,6 +50728,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17433,
@@ -48050,6 +50747,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17434,
@@ -48068,6 +50766,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17435,
@@ -48086,6 +50785,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17436,
@@ -48104,6 +50804,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17437,
@@ -48122,6 +50823,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17438,
@@ -48140,6 +50842,7 @@ export default [
       SKS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17439,
@@ -48158,6 +50861,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17440,
@@ -48176,6 +50880,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17441,
@@ -48194,6 +50899,7 @@ export default [
       DET: 35,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17442,
@@ -48212,6 +50918,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17443,
@@ -48230,6 +50937,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17444,
@@ -48248,6 +50956,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17445,
@@ -48266,6 +50975,7 @@ export default [
       SPS: 37,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 17446,
@@ -48284,6 +50994,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '迷宫挑战/巴埃萨长城、索姆阿尔灵峰',
   },
   {
     id: 20450,
@@ -48304,6 +51015,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 20451,
@@ -48323,6 +51035,7 @@ export default [
       MDMG: 111,
     },
     hq: false,
+    source: '零式/律动之章',
   },
   {
     id: 16403,
@@ -48341,6 +51054,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16404,
@@ -48359,6 +51073,7 @@ export default [
       SKS: 117,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16405,
@@ -48377,6 +51092,7 @@ export default [
       DET: 69,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16406,
@@ -48395,6 +51111,7 @@ export default [
       SKS: 82,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16407,
@@ -48413,6 +51130,7 @@ export default [
       CRT: 72,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16408,
@@ -48431,6 +51149,7 @@ export default [
       CRT: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16409,
@@ -48449,6 +51168,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16410,
@@ -48467,6 +51187,7 @@ export default [
       DET: 79,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16411,
@@ -48485,6 +51206,7 @@ export default [
       CRT: 72,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16412,
@@ -48503,6 +51225,7 @@ export default [
       SKS: 117,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16413,
@@ -48521,6 +51244,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16414,
@@ -48539,6 +51263,7 @@ export default [
       DET: 36,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16415,
@@ -48557,6 +51282,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16416,
@@ -48575,6 +51301,7 @@ export default [
       DET: 113,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16417,
@@ -48593,6 +51320,7 @@ export default [
       CRT: 72,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16418,
@@ -48611,6 +51339,7 @@ export default [
       SKS: 82,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16419,
@@ -48629,6 +51358,7 @@ export default [
       SKS: 72,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16420,
@@ -48647,6 +51377,7 @@ export default [
       DET: 52,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16421,
@@ -48665,6 +51396,7 @@ export default [
       DET: 69,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16422,
@@ -48683,6 +51415,7 @@ export default [
       SKS: 117,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16423,
@@ -48701,6 +51434,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16424,
@@ -48719,6 +51453,7 @@ export default [
       DET: 79,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16425,
@@ -48737,6 +51472,7 @@ export default [
       CRT: 72,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16426,
@@ -48755,6 +51491,7 @@ export default [
       SKS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16427,
@@ -48773,6 +51510,7 @@ export default [
       SKS: 51,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16428,
@@ -48791,6 +51529,7 @@ export default [
       DET: 79,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16429,
@@ -48809,6 +51548,7 @@ export default [
       SKS: 72,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16430,
@@ -48827,6 +51567,7 @@ export default [
       CRT: 82,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16431,
@@ -48845,6 +51586,7 @@ export default [
       DET: 69,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16432,
@@ -48863,6 +51605,7 @@ export default [
       SKS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16433,
@@ -48881,6 +51624,7 @@ export default [
       SPS: 51,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16434,
@@ -48899,6 +51643,7 @@ export default [
       SPS: 117,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16435,
@@ -48917,6 +51662,7 @@ export default [
       CRT: 51,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16436,
@@ -48935,6 +51681,7 @@ export default [
       DET: 79,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16437,
@@ -48953,6 +51700,7 @@ export default [
       SPS: 51,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16438,
@@ -48971,6 +51719,7 @@ export default [
       DET: 52,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16439,
@@ -48989,6 +51738,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16440,
@@ -49007,6 +51757,7 @@ export default [
       SPS: 82,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16441,
@@ -49025,6 +51776,7 @@ export default [
       SPS: 72,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16442,
@@ -49043,6 +51795,7 @@ export default [
       DET: 113,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16443,
@@ -49061,6 +51814,7 @@ export default [
       DET: 49,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16444,
@@ -49079,6 +51833,7 @@ export default [
       SPS: 54,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16445,
@@ -49097,6 +51852,7 @@ export default [
       DET: 36,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16446,
@@ -49115,6 +51871,7 @@ export default [
       SKS: 54,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16447,
@@ -49133,6 +51890,7 @@ export default [
       SKS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16448,
@@ -49151,6 +51909,7 @@ export default [
       CRT: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16449,
@@ -49169,6 +51928,7 @@ export default [
       DET: 36,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16450,
@@ -49187,6 +51947,7 @@ export default [
       SKS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16451,
@@ -49205,6 +51966,7 @@ export default [
       CRT: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16452,
@@ -49223,6 +51985,7 @@ export default [
       SKS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16453,
@@ -49241,6 +52004,7 @@ export default [
       SPS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16454,
@@ -49259,6 +52023,7 @@ export default [
       DET: 52,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16455,
@@ -49277,6 +52042,7 @@ export default [
       CRT: 54,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16456,
@@ -49295,6 +52061,7 @@ export default [
       DET: 52,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16457,
@@ -49313,6 +52080,7 @@ export default [
       DET: 36,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16458,
@@ -49331,6 +52099,7 @@ export default [
       SPS: 54,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16459,
@@ -49349,6 +52118,7 @@ export default [
       SPS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16460,
@@ -49367,6 +52137,7 @@ export default [
       SKS: 54,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16461,
@@ -49385,6 +52156,7 @@ export default [
       SKS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16462,
@@ -49403,6 +52175,7 @@ export default [
       SKS: 54,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16463,
@@ -49421,6 +52194,7 @@ export default [
       SPS: 38,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16464,
@@ -49439,6 +52213,7 @@ export default [
       DET: 36,
     },
     hq: false,
+    source: '大型任务/天动之章',
   },
   {
     id: 16627,
@@ -49459,6 +52234,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16628,
@@ -49479,6 +52255,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16629,
@@ -49499,6 +52276,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16630,
@@ -49519,6 +52297,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16631,
@@ -49539,6 +52318,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16632,
@@ -49559,6 +52339,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16633,
@@ -49579,6 +52360,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16634,
@@ -49599,6 +52381,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16635,
@@ -49618,6 +52401,7 @@ export default [
       MDMG: 111,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16636,
@@ -49637,6 +52421,7 @@ export default [
       MDMG: 111,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16637,
@@ -49656,6 +52441,7 @@ export default [
       MDMG: 111,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16638,
@@ -49675,6 +52461,7 @@ export default [
       MDMG: 111,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16639,
@@ -49694,6 +52481,7 @@ export default [
       MDMG: 111,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16640,
@@ -49712,6 +52500,7 @@ export default [
       DET: 24,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16641,
@@ -49730,6 +52519,7 @@ export default [
       DET: 69,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16642,
@@ -49748,6 +52538,7 @@ export default [
       CRT: 117,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16643,
@@ -49766,6 +52557,7 @@ export default [
       CRT: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16644,
@@ -49784,6 +52576,7 @@ export default [
       DET: 79,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16645,
@@ -49802,6 +52595,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16646,
@@ -49820,6 +52614,7 @@ export default [
       DET: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16647,
@@ -49838,6 +52633,7 @@ export default [
       CRT: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16648,
@@ -49856,6 +52652,7 @@ export default [
       SKS: 82,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16649,
@@ -49874,6 +52671,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16650,
@@ -49892,6 +52690,7 @@ export default [
       CRT: 82,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16651,
@@ -49910,6 +52709,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16652,
@@ -49928,6 +52728,7 @@ export default [
       SKS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16653,
@@ -49946,6 +52747,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16654,
@@ -49964,6 +52766,7 @@ export default [
       SKS: 82,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16655,
@@ -49982,6 +52785,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16656,
@@ -50000,6 +52804,7 @@ export default [
       SKS: 117,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16657,
@@ -50018,6 +52823,7 @@ export default [
       CRT: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16658,
@@ -50036,6 +52842,7 @@ export default [
       SKS: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16659,
@@ -50054,6 +52861,7 @@ export default [
       SKS: 72,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16660,
@@ -50072,6 +52880,7 @@ export default [
       CRT: 82,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16661,
@@ -50090,6 +52899,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16662,
@@ -50108,6 +52918,7 @@ export default [
       SKS: 82,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16663,
@@ -50126,6 +52937,7 @@ export default [
       SKS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16664,
@@ -50144,6 +52956,7 @@ export default [
       DET: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16665,
@@ -50162,6 +52975,7 @@ export default [
       DET: 69,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16666,
@@ -50180,6 +52994,7 @@ export default [
       SKS: 82,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16667,
@@ -50198,6 +53013,7 @@ export default [
       CRT: 72,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16668,
@@ -50216,6 +53032,7 @@ export default [
       SKS: 117,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16669,
@@ -50234,6 +53051,7 @@ export default [
       CRT: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16670,
@@ -50252,6 +53070,7 @@ export default [
       SKS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16671,
@@ -50270,6 +53089,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16672,
@@ -50288,6 +53108,7 @@ export default [
       CRT: 82,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16673,
@@ -50306,6 +53127,7 @@ export default [
       SPS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16674,
@@ -50324,6 +53146,7 @@ export default [
       SPS: 117,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16675,
@@ -50342,6 +53165,7 @@ export default [
       CRT: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16676,
@@ -50360,6 +53184,7 @@ export default [
       SPS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16677,
@@ -50378,6 +53203,7 @@ export default [
       SPS: 51,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16678,
@@ -50396,6 +53222,7 @@ export default [
       DET: 113,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16679,
@@ -50414,6 +53241,7 @@ export default [
       DET: 49,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16680,
@@ -50432,6 +53260,7 @@ export default [
       SPS: 82,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16681,
@@ -50450,6 +53279,7 @@ export default [
       SPS: 72,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16682,
@@ -50468,6 +53298,7 @@ export default [
       DET: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16683,
@@ -50486,6 +53317,7 @@ export default [
       SKS: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16684,
@@ -50504,6 +53336,7 @@ export default [
       DET: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16685,
@@ -50522,6 +53355,7 @@ export default [
       DET: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16686,
@@ -50540,6 +53374,7 @@ export default [
       SPS: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16687,
@@ -50558,6 +53393,7 @@ export default [
       SPS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16688,
@@ -50576,6 +53412,7 @@ export default [
       DET: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16689,
@@ -50594,6 +53431,7 @@ export default [
       SKS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16690,
@@ -50612,6 +53450,7 @@ export default [
       CRT: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16691,
@@ -50630,6 +53469,7 @@ export default [
       CRT: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16692,
@@ -50648,6 +53488,7 @@ export default [
       SPS: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16693,
@@ -50666,6 +53507,7 @@ export default [
       DHT: 54,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16694,
@@ -50684,6 +53526,7 @@ export default [
       SKS: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16695,
@@ -50702,6 +53545,7 @@ export default [
       SKS: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16696,
@@ -50720,6 +53564,7 @@ export default [
       DET: 36,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16697,
@@ -50738,6 +53583,7 @@ export default [
       DET: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16698,
@@ -50756,6 +53602,7 @@ export default [
       CRT: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16699,
@@ -50774,6 +53621,7 @@ export default [
       DET: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16700,
@@ -50792,6 +53640,7 @@ export default [
       SKS: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16701,
@@ -50810,6 +53659,7 @@ export default [
       DET: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16702,
@@ -50828,6 +53678,7 @@ export default [
       SPS: 38,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 16899,
@@ -50846,6 +53697,7 @@ export default [
       CRT: 117,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16900,
@@ -50864,6 +53716,7 @@ export default [
       SKS: 82,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16901,
@@ -50882,6 +53735,7 @@ export default [
       SKS: 82,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16902,
@@ -50900,6 +53754,7 @@ export default [
       CRT: 82,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16903,
@@ -50918,6 +53773,7 @@ export default [
       SKS: 82,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16904,
@@ -50936,6 +53792,7 @@ export default [
       CRT: 82,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16905,
@@ -50954,6 +53811,7 @@ export default [
       DET: 113,
     },
     hq: true,
+    source: '天书奇谈',
   },
   {
     id: 16152,
@@ -50974,6 +53832,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16153,
@@ -50994,6 +53853,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16154,
@@ -51014,6 +53874,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16155,
@@ -51034,6 +53895,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16156,
@@ -51054,6 +53916,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16157,
@@ -51074,6 +53937,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16158,
@@ -51094,6 +53958,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16159,
@@ -51114,6 +53979,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16160,
@@ -51133,6 +53999,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16161,
@@ -51152,6 +54019,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16162,
@@ -51171,6 +54039,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16163,
@@ -51190,6 +54059,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16164,
@@ -51209,6 +54079,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16165,
@@ -51227,6 +54098,7 @@ export default [
       SKS: 26,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 16174,
@@ -51247,6 +54119,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16175,
@@ -51267,6 +54140,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16176,
@@ -51287,6 +54161,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16177,
@@ -51307,6 +54182,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16178,
@@ -51327,6 +54203,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16179,
@@ -51347,6 +54224,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16180,
@@ -51367,6 +54245,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16181,
@@ -51387,6 +54266,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16182,
@@ -51406,6 +54286,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16183,
@@ -51425,6 +54306,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16184,
@@ -51444,6 +54326,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16185,
@@ -51463,6 +54346,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16186,
@@ -51482,6 +54366,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 16187,
@@ -51500,6 +54385,7 @@ export default [
       CRT: 37,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 17306,
@@ -51518,6 +54404,7 @@ export default [
       SKS: 52,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17307,
@@ -51536,6 +54423,7 @@ export default [
       CRT: 84,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17308,
@@ -51554,6 +54442,7 @@ export default [
       DET: 71,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17309,
@@ -51572,6 +54461,7 @@ export default [
       SKS: 120,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17310,
@@ -51590,6 +54480,7 @@ export default [
       DET: 50,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17311,
@@ -51608,6 +54499,7 @@ export default [
       SKS: 52,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17312,
@@ -51626,6 +54518,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17313,
@@ -51644,6 +54537,7 @@ export default [
       DET: 50,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17314,
@@ -51662,6 +54556,7 @@ export default [
       DET: 115,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17315,
@@ -51680,6 +54575,7 @@ export default [
       SKS: 74,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17316,
@@ -51698,6 +54594,7 @@ export default [
       CRT: 52,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17317,
@@ -51716,6 +54613,7 @@ export default [
       SKS: 120,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17318,
@@ -51734,6 +54632,7 @@ export default [
       SKS: 52,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17319,
@@ -51752,6 +54651,7 @@ export default [
       SKS: 84,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17320,
@@ -51770,6 +54670,7 @@ export default [
       DET: 71,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17321,
@@ -51788,6 +54689,7 @@ export default [
       DET: 71,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17322,
@@ -51806,6 +54708,7 @@ export default [
       SKS: 120,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17323,
@@ -51824,6 +54727,7 @@ export default [
       SKS: 52,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17324,
@@ -51842,6 +54746,7 @@ export default [
       CRT: 84,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17325,
@@ -51860,6 +54765,7 @@ export default [
       DET: 50,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17326,
@@ -51878,6 +54784,7 @@ export default [
       SKS: 74,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17327,
@@ -51896,6 +54803,7 @@ export default [
       SKS: 84,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17328,
@@ -51914,6 +54822,7 @@ export default [
       CRT: 74,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17329,
@@ -51932,6 +54841,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17330,
@@ -51950,6 +54860,7 @@ export default [
       SKS: 74,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17331,
@@ -51968,6 +54879,7 @@ export default [
       DET: 50,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17332,
@@ -51986,6 +54898,7 @@ export default [
       CRT: 84,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17333,
@@ -52004,6 +54917,7 @@ export default [
       CRT: 74,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17334,
@@ -52022,6 +54936,7 @@ export default [
       SPS: 84,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17335,
@@ -52040,6 +54955,7 @@ export default [
       SPS: 52,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17336,
@@ -52058,6 +54974,7 @@ export default [
       SPS: 52,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17337,
@@ -52076,6 +54993,7 @@ export default [
       SPS: 84,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17338,
@@ -52094,6 +55012,7 @@ export default [
       SPS: 74,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17339,
@@ -52112,6 +55031,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 17340,
@@ -52130,6 +55050,7 @@ export default [
       CRT: 74,
     },
     hq: true,
+    source: '生产制作/空岛',
   },
   {
     id: 18033,
@@ -52150,6 +55071,7 @@ export default [
       DLY: 2320,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18034,
@@ -52170,6 +55092,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18035,
@@ -52190,6 +55113,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18036,
@@ -52210,6 +55134,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18037,
@@ -52230,6 +55155,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18038,
@@ -52250,6 +55176,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18039,
@@ -52270,6 +55197,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18040,
@@ -52290,6 +55218,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18041,
@@ -52309,6 +55238,7 @@ export default [
       MDMG: 112,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18042,
@@ -52328,6 +55258,7 @@ export default [
       MDMG: 112,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18043,
@@ -52347,6 +55278,7 @@ export default [
       MDMG: 112,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18044,
@@ -52366,6 +55298,7 @@ export default [
       MDMG: 112,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18045,
@@ -52385,6 +55318,7 @@ export default [
       MDMG: 112,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18046,
@@ -52405,6 +55339,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18047,
@@ -52424,6 +55359,7 @@ export default [
       MDMG: 112,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18048,
@@ -52442,6 +55378,7 @@ export default [
       DET: 35,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18049,
@@ -52460,6 +55397,7 @@ export default [
       CRT: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18050,
@@ -52478,6 +55416,7 @@ export default [
       SKS: 120,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18051,
@@ -52496,6 +55435,7 @@ export default [
       SKS: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18052,
@@ -52514,6 +55454,7 @@ export default [
       SKS: 84,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18053,
@@ -52532,6 +55473,7 @@ export default [
       CRT: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18054,
@@ -52550,6 +55492,7 @@ export default [
       CRT: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18055,
@@ -52568,6 +55511,7 @@ export default [
       DET: 50,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18056,
@@ -52586,6 +55530,7 @@ export default [
       SKS: 84,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18057,
@@ -52604,6 +55549,7 @@ export default [
       SKS: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18058,
@@ -52622,6 +55568,7 @@ export default [
       SKS: 120,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18059,
@@ -52640,6 +55587,7 @@ export default [
       DET: 50,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18060,
@@ -52658,6 +55606,7 @@ export default [
       SKS: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18061,
@@ -52676,6 +55625,7 @@ export default [
       DET: 71,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18062,
@@ -52694,6 +55644,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18063,
@@ -52712,6 +55663,7 @@ export default [
       SKS: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18064,
@@ -52730,6 +55682,7 @@ export default [
       DET: 115,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18065,
@@ -52748,6 +55701,7 @@ export default [
       CRT: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18066,
@@ -52766,6 +55720,7 @@ export default [
       DET: 53,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18067,
@@ -52784,6 +55739,7 @@ export default [
       DET: 71,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18068,
@@ -52802,6 +55758,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18069,
@@ -52820,6 +55777,7 @@ export default [
       CRT: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18070,
@@ -52838,6 +55796,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18071,
@@ -52856,6 +55815,7 @@ export default [
       SKS: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18072,
@@ -52874,6 +55834,7 @@ export default [
       SKS: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18073,
@@ -52892,6 +55853,7 @@ export default [
       CRT: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18074,
@@ -52910,6 +55872,7 @@ export default [
       DET: 115,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18075,
@@ -52928,6 +55891,7 @@ export default [
       DET: 50,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18076,
@@ -52946,6 +55910,7 @@ export default [
       SKS: 120,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18077,
@@ -52964,6 +55929,7 @@ export default [
       DET: 71,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18078,
@@ -52982,6 +55948,7 @@ export default [
       SKS: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18079,
@@ -53000,6 +55967,7 @@ export default [
       CRT: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18080,
@@ -53018,6 +55986,7 @@ export default [
       DET: 81,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18081,
@@ -53036,6 +56005,7 @@ export default [
       SPS: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18082,
@@ -53054,6 +56024,7 @@ export default [
       DET: 115,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18083,
@@ -53072,6 +56043,7 @@ export default [
       CRT: 52,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18084,
@@ -53090,6 +56062,7 @@ export default [
       SPS: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18085,
@@ -53108,6 +56081,7 @@ export default [
       DET: 50,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18086,
@@ -53126,6 +56100,7 @@ export default [
       CRT: 84,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18087,
@@ -53144,6 +56119,7 @@ export default [
       CRT: 74,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18088,
@@ -53162,6 +56138,7 @@ export default [
       SPS: 120,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18089,
@@ -53180,6 +56157,7 @@ export default [
       DET: 71,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18090,
@@ -53198,6 +56176,7 @@ export default [
       SPS: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18091,
@@ -53216,6 +56195,7 @@ export default [
       DET: 37,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18092,
@@ -53234,6 +56214,7 @@ export default [
       DET: 53,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18093,
@@ -53252,6 +56233,7 @@ export default [
       SKS: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18094,
@@ -53270,6 +56252,7 @@ export default [
       CRT: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18095,
@@ -53288,6 +56271,7 @@ export default [
       DET: 53,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18096,
@@ -53306,6 +56290,7 @@ export default [
       SKS: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18097,
@@ -53324,6 +56309,7 @@ export default [
       SKS: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18098,
@@ -53342,6 +56328,7 @@ export default [
       SKS: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18099,
@@ -53360,6 +56347,7 @@ export default [
       SPS: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18100,
@@ -53378,6 +56366,7 @@ export default [
       CRT: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18101,
@@ -53396,6 +56385,7 @@ export default [
       SKS: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18102,
@@ -53414,6 +56404,7 @@ export default [
       DET: 53,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18103,
@@ -53432,6 +56423,7 @@ export default [
       CRT: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18104,
@@ -53450,6 +56442,7 @@ export default [
       CRT: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18105,
@@ -53468,6 +56461,7 @@ export default [
       SPS: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18106,
@@ -53486,6 +56480,7 @@ export default [
       DET: 53,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18107,
@@ -53504,6 +56499,7 @@ export default [
       SKS: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18108,
@@ -53522,6 +56518,7 @@ export default [
       CRT: 39,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18109,
@@ -53540,6 +56537,7 @@ export default [
       DET: 37,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 18110,
@@ -53558,6 +56556,7 @@ export default [
       CRT: 55,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 20444,
@@ -53578,6 +56577,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 20445,
@@ -53597,6 +56597,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '歼殛战/女神',
   },
   {
     id: 20458,
@@ -53617,6 +56618,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 20459,
@@ -53636,6 +56638,7 @@ export default [
       MDMG: 112,
     },
     hq: false,
+    source: '死者宫殿',
   },
   {
     id: 27256,
@@ -53654,6 +56657,8 @@ export default [
       CRT: 74,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27257,
@@ -53672,6 +56677,8 @@ export default [
       SKS: 120,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27258,
@@ -53690,6 +56697,8 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27259,
@@ -53708,6 +56717,8 @@ export default [
       DET: 81,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27260,
@@ -53726,6 +56737,8 @@ export default [
       DET: 71,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27261,
@@ -53744,6 +56757,8 @@ export default [
       CRT: 52,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27262,
@@ -53762,6 +56777,8 @@ export default [
       CRT: 84,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27263,
@@ -53780,6 +56797,8 @@ export default [
       SKS: 74,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27264,
@@ -53798,6 +56817,8 @@ export default [
       DET: 115,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27265,
@@ -53816,6 +56837,8 @@ export default [
       DET: 50,
     },
     hq: false,
+    source: '职业套',
+    patch: '5.0',
   },
   {
     id: 27349,
@@ -53836,6 +56859,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '死者宫殿',
+    patch: '5.0',
   },
   {
     id: 27350,
@@ -53856,6 +56881,8 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '死者宫殿',
+    patch: '5.0',
   },
   {
     id: 27357,
@@ -53876,6 +56903,8 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 27358,
@@ -53896,6 +56925,8 @@ export default [
       DLY: 3120,
     },
     hq: true,
+    source: '生产制作',
+    patch: '5.0',
   },
   {
     id: 15237,
@@ -53914,6 +56945,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15238,
@@ -53932,6 +56964,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15239,
@@ -53950,6 +56983,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15240,
@@ -53968,6 +57002,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15241,
@@ -53986,6 +57021,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15242,
@@ -54004,6 +57040,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15243,
@@ -54022,6 +57059,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15244,
@@ -54040,6 +57078,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15245,
@@ -54057,6 +57096,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15246,
@@ -54074,6 +57114,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15247,
@@ -54091,6 +57132,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15248,
@@ -54108,6 +57150,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15249,
@@ -54125,6 +57168,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15250,
@@ -54141,6 +57185,7 @@ export default [
       VIT: 54,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16251,
@@ -54161,6 +57206,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16252,
@@ -54181,6 +57227,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16253,
@@ -54201,6 +57248,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16254,
@@ -54221,6 +57269,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16255,
@@ -54241,6 +57290,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16256,
@@ -54261,6 +57311,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16257,
@@ -54281,6 +57332,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16258,
@@ -54301,6 +57353,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16259,
@@ -54320,6 +57373,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16260,
@@ -54339,6 +57393,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16261,
@@ -54358,6 +57413,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16262,
@@ -54377,6 +57433,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16263,
@@ -54396,6 +57453,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16264,
@@ -54414,6 +57472,7 @@ export default [
       SKS: 38,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16265,
@@ -54432,6 +57491,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16266,
@@ -54450,6 +57510,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16267,
@@ -54468,6 +57529,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16268,
@@ -54486,6 +57548,7 @@ export default [
       DHT: 86,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16269,
@@ -54504,6 +57567,7 @@ export default [
       DHT: 76,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16270,
@@ -54522,6 +57586,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16271,
@@ -54540,6 +57605,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16272,
@@ -54558,6 +57624,7 @@ export default [
       DET: 117,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16273,
@@ -54576,6 +57643,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16274,
@@ -54594,6 +57662,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16275,
@@ -54612,6 +57681,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16276,
@@ -54630,6 +57700,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16277,
@@ -54648,6 +57719,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16278,
@@ -54666,6 +57738,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16279,
@@ -54684,6 +57757,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16280,
@@ -54702,6 +57776,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16281,
@@ -54720,6 +57795,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16282,
@@ -54738,6 +57814,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16283,
@@ -54756,6 +57833,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16284,
@@ -54774,6 +57852,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16285,
@@ -54792,6 +57871,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16286,
@@ -54810,6 +57890,7 @@ export default [
       DET: 117,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16287,
@@ -54828,6 +57909,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16288,
@@ -54846,6 +57928,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16289,
@@ -54864,6 +57947,7 @@ export default [
       DET: 72,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16290,
@@ -54882,6 +57966,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16291,
@@ -54900,6 +57985,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16292,
@@ -54918,6 +58004,7 @@ export default [
       SKS: 86,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16293,
@@ -54936,6 +58023,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16294,
@@ -54954,6 +58042,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16295,
@@ -54972,6 +58061,7 @@ export default [
       DET: 72,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16296,
@@ -54990,6 +58080,7 @@ export default [
       SPS: 86,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16297,
@@ -55008,6 +58099,7 @@ export default [
       SPS: 76,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16298,
@@ -55026,6 +58118,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16299,
@@ -55044,6 +58137,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16300,
@@ -55062,6 +58156,7 @@ export default [
       SPS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16301,
@@ -55080,6 +58175,7 @@ export default [
       SPS: 76,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16302,
@@ -55098,6 +58194,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16303,
@@ -55116,6 +58213,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16304,
@@ -55134,6 +58232,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16305,
@@ -55152,6 +58251,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16306,
@@ -55170,6 +58270,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16307,
@@ -55188,6 +58289,7 @@ export default [
       CRT: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16308,
@@ -55206,6 +58308,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16309,
@@ -55224,6 +58327,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16310,
@@ -55242,6 +58346,7 @@ export default [
       SPS: 57,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16311,
@@ -55260,6 +58365,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16312,
@@ -55278,6 +58384,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16313,
@@ -55296,6 +58403,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16314,
@@ -55314,6 +58422,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16315,
@@ -55332,6 +58441,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16316,
@@ -55350,6 +58460,7 @@ export default [
       SPS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16317,
@@ -55368,6 +58479,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16318,
@@ -55386,6 +58498,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16319,
@@ -55404,6 +58517,7 @@ export default [
       CRT: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16320,
@@ -55422,6 +58536,7 @@ export default [
       CRT: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16321,
@@ -55440,6 +58555,7 @@ export default [
       SPS: 57,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16322,
@@ -55458,6 +58574,7 @@ export default [
       CRT: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16323,
@@ -55476,6 +58593,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16324,
@@ -55494,6 +58612,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16325,
@@ -55512,6 +58631,7 @@ export default [
       SPS: 40,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 16326,
@@ -55530,6 +58650,7 @@ export default [
       SPS: 57,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 17343,
@@ -55548,6 +58669,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17344,
@@ -55566,6 +58688,7 @@ export default [
       DET: 117,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17345,
@@ -55584,6 +58707,7 @@ export default [
       CRT: 76,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17346,
@@ -55602,6 +58726,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17347,
@@ -55620,6 +58745,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17348,
@@ -55638,6 +58764,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17349,
@@ -55656,6 +58783,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17350,
@@ -55674,6 +58802,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17351,
@@ -55692,6 +58821,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17352,
@@ -55710,6 +58840,7 @@ export default [
       CRT: 123,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17353,
@@ -55728,6 +58859,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17354,
@@ -55746,6 +58878,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17355,
@@ -55764,6 +58897,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17356,
@@ -55782,6 +58916,7 @@ export default [
       CRT: 123,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17357,
@@ -55800,6 +58935,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17358,
@@ -55818,6 +58954,7 @@ export default [
       DET: 117,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17359,
@@ -55836,6 +58973,7 @@ export default [
       SKS: 53,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17360,
@@ -55854,6 +58992,7 @@ export default [
       DET: 38,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17361,
@@ -55872,6 +59011,7 @@ export default [
       SKS: 76,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17362,
@@ -55890,6 +59030,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17363,
@@ -55908,6 +59049,7 @@ export default [
       DET: 72,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17364,
@@ -55926,6 +59068,7 @@ export default [
       DET: 82,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17365,
@@ -55944,6 +59087,7 @@ export default [
       CRT: 76,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17366,
@@ -55962,6 +59106,7 @@ export default [
       DET: 54,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17367,
@@ -55980,6 +59125,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17368,
@@ -55998,6 +59144,7 @@ export default [
       SKS: 123,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17369,
@@ -56016,6 +59163,7 @@ export default [
       DET: 72,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17370,
@@ -56034,6 +59182,7 @@ export default [
       CRT: 86,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17371,
@@ -56052,6 +59201,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17372,
@@ -56070,6 +59220,7 @@ export default [
       SKS: 57,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17373,
@@ -56088,6 +59239,7 @@ export default [
       SPS: 53,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17374,
@@ -56106,6 +59258,7 @@ export default [
       DET: 117,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17375,
@@ -56124,6 +59277,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17376,
@@ -56142,6 +59296,7 @@ export default [
       SPS: 86,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17377,
@@ -56160,6 +59315,7 @@ export default [
       CRT: 76,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17378,
@@ -56178,6 +59334,7 @@ export default [
       SPS: 57,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17379,
@@ -56196,6 +59353,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17380,
@@ -56214,6 +59372,7 @@ export default [
       SPS: 86,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17381,
@@ -56232,6 +59391,7 @@ export default [
       DET: 72,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17382,
@@ -56250,6 +59410,7 @@ export default [
       SPS: 123,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17383,
@@ -56268,6 +59429,7 @@ export default [
       DET: 51,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 17384,
@@ -56286,6 +59448,7 @@ export default [
       SPS: 57,
     },
     hq: false,
+    source: '团队任务/影之国',
   },
   {
     id: 20420,
@@ -56306,6 +59469,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 20421,
@@ -56325,6 +59489,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '点数/圣典→诗学',
   },
   {
     id: 27351,
@@ -56345,6 +59510,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '点数/圣典→诗学',
+    patch: '5.0',
   },
   {
     id: 27352,
@@ -56365,6 +59532,8 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '点数/圣典→诗学',
+    patch: '5.0',
   },
   {
     id: 17244,
@@ -56381,6 +59550,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17245,
@@ -56397,6 +59567,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17246,
@@ -56413,6 +59584,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17247,
@@ -56429,6 +59601,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17248,
@@ -56445,6 +59618,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17249,
@@ -56461,6 +59635,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17250,
@@ -56477,6 +59652,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17251,
@@ -56493,6 +59669,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17252,
@@ -56509,6 +59686,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17253,
@@ -56525,6 +59703,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17254,
@@ -56541,6 +59720,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17255,
@@ -56557,6 +59737,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17256,
@@ -56573,6 +59754,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17257,
@@ -56589,6 +59771,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17258,
@@ -56605,6 +59788,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17259,
@@ -56621,6 +59805,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17260,
@@ -56637,6 +59822,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17261,
@@ -56653,6 +59839,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17262,
@@ -56669,6 +59856,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17263,
@@ -56685,6 +59873,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17264,
@@ -56701,6 +59890,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17265,
@@ -56717,6 +59907,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17266,
@@ -56733,6 +59924,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17267,
@@ -56749,6 +59941,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17268,
@@ -56765,6 +59958,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17269,
@@ -56781,6 +59975,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17270,
@@ -56797,6 +59992,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17271,
@@ -56813,6 +60009,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17272,
@@ -56829,6 +60026,7 @@ export default [
       VIT: 182,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17273,
@@ -56845,6 +60043,7 @@ export default [
       VIT: 112,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17274,
@@ -56861,6 +60060,7 @@ export default [
       MND: 100,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17275,
@@ -56877,6 +60077,7 @@ export default [
       MND: 163,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17276,
@@ -56893,6 +60094,7 @@ export default [
       MND: 100,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17277,
@@ -56909,6 +60111,7 @@ export default [
       MND: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17278,
@@ -56925,6 +60128,7 @@ export default [
       MND: 163,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17279,
@@ -56941,6 +60145,7 @@ export default [
       MND: 100,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17280,
@@ -56957,6 +60162,7 @@ export default [
       INT: 100,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17281,
@@ -56973,6 +60179,7 @@ export default [
       INT: 163,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17282,
@@ -56989,6 +60196,7 @@ export default [
       INT: 100,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17283,
@@ -57005,6 +60213,7 @@ export default [
       INT: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17284,
@@ -57021,6 +60230,7 @@ export default [
       INT: 163,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17285,
@@ -57037,6 +60247,7 @@ export default [
       INT: 100,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17286,
@@ -57053,6 +60264,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17287,
@@ -57069,6 +60281,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17288,
@@ -57085,6 +60298,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17289,
@@ -57101,6 +60315,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17290,
@@ -57117,6 +60332,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17291,
@@ -57133,6 +60349,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17292,
@@ -57149,6 +60366,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17293,
@@ -57165,6 +60383,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17294,
@@ -57181,6 +60400,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17295,
@@ -57197,6 +60417,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17296,
@@ -57213,6 +60434,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17297,
@@ -57229,6 +60451,7 @@ export default [
       VIT: 84,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17298,
@@ -57245,6 +60468,7 @@ export default [
       MND: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17299,
@@ -57261,6 +60485,7 @@ export default [
       MND: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17300,
@@ -57277,6 +60502,7 @@ export default [
       MND: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17301,
@@ -57293,6 +60519,7 @@ export default [
       MND: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17302,
@@ -57309,6 +60536,7 @@ export default [
       INT: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17303,
@@ -57325,6 +60553,7 @@ export default [
       INT: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17304,
@@ -57341,6 +60570,7 @@ export default [
       INT: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17305,
@@ -57357,6 +60587,7 @@ export default [
       INT: 75,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 17447,
@@ -57377,6 +60608,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17448,
@@ -57397,6 +60629,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17449,
@@ -57417,6 +60650,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17450,
@@ -57437,6 +60671,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17451,
@@ -57457,6 +60692,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17452,
@@ -57477,6 +60713,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17453,
@@ -57497,6 +60734,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17454,
@@ -57517,6 +60755,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17455,
@@ -57536,6 +60775,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17456,
@@ -57555,6 +60795,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17457,
@@ -57574,6 +60815,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17458,
@@ -57593,6 +60835,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17459,
@@ -57612,6 +60855,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 17460,
@@ -57630,6 +60874,7 @@ export default [
       DET: 26,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 20446,
@@ -57650,6 +60895,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 20447,
@@ -57669,6 +60915,7 @@ export default [
       MDMG: 113,
     },
     hq: false,
+    source: '歼殛战/鬼神',
   },
   {
     id: 15251,
@@ -57687,6 +60934,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15252,
@@ -57705,6 +60953,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15253,
@@ -57723,6 +60972,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15254,
@@ -57741,6 +60991,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15255,
@@ -57759,6 +61010,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15256,
@@ -57777,6 +61029,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15257,
@@ -57795,6 +61048,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15258,
@@ -57813,6 +61067,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15259,
@@ -57830,6 +61085,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15260,
@@ -57847,6 +61103,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15261,
@@ -57864,6 +61121,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15262,
@@ -57881,6 +61139,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15263,
@@ -57898,6 +61157,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 15264,
@@ -57914,6 +61174,7 @@ export default [
       VIT: 58,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16327,
@@ -57934,6 +61195,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16328,
@@ -57954,6 +61216,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16329,
@@ -57974,6 +61237,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16330,
@@ -57994,6 +61258,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16331,
@@ -58014,6 +61279,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16332,
@@ -58034,6 +61300,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16333,
@@ -58054,6 +61321,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16334,
@@ -58074,6 +61342,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16335,
@@ -58093,6 +61362,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16336,
@@ -58112,6 +61382,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16337,
@@ -58131,6 +61402,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16338,
@@ -58150,6 +61422,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16339,
@@ -58169,6 +61442,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16340,
@@ -58187,6 +61461,7 @@ export default [
       SKS: 40,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16341,
@@ -58205,6 +61480,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16342,
@@ -58223,6 +61499,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16343,
@@ -58241,6 +61518,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16344,
@@ -58259,6 +61537,7 @@ export default [
       DHT: 90,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16345,
@@ -58277,6 +61556,7 @@ export default [
       DHT: 79,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16346,
@@ -58295,6 +61575,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16347,
@@ -58313,6 +61594,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16348,
@@ -58331,6 +61613,7 @@ export default [
       DET: 123,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16349,
@@ -58349,6 +61632,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16350,
@@ -58367,6 +61651,7 @@ export default [
       DET: 86,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16351,
@@ -58385,6 +61670,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16352,
@@ -58403,6 +61689,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16353,
@@ -58421,6 +61708,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16354,
@@ -58439,6 +61727,7 @@ export default [
       DET: 86,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16355,
@@ -58457,6 +61746,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16356,
@@ -58475,6 +61765,7 @@ export default [
       CRT: 90,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16357,
@@ -58493,6 +61784,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16358,
@@ -58511,6 +61803,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16359,
@@ -58529,6 +61822,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16360,
@@ -58547,6 +61841,7 @@ export default [
       DET: 86,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16361,
@@ -58565,6 +61860,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16362,
@@ -58583,6 +61879,7 @@ export default [
       DET: 123,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16363,
@@ -58601,6 +61898,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16364,
@@ -58619,6 +61917,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16365,
@@ -58637,6 +61936,7 @@ export default [
       DET: 76,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16366,
@@ -58655,6 +61955,7 @@ export default [
       CRT: 90,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16367,
@@ -58673,6 +61974,7 @@ export default [
       SKS: 55,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16368,
@@ -58691,6 +61993,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16369,
@@ -58709,6 +62012,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16370,
@@ -58727,6 +62031,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16371,
@@ -58745,6 +62050,7 @@ export default [
       DET: 76,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16372,
@@ -58763,6 +62069,7 @@ export default [
       SPS: 90,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16373,
@@ -58781,6 +62088,7 @@ export default [
       SPS: 79,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16374,
@@ -58799,6 +62107,7 @@ export default [
       DET: 86,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16375,
@@ -58817,6 +62126,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16376,
@@ -58835,6 +62145,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16377,
@@ -58853,6 +62164,7 @@ export default [
       SPS: 79,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16378,
@@ -58871,6 +62183,7 @@ export default [
       DET: 86,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16379,
@@ -58889,6 +62202,7 @@ export default [
       SPS: 55,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16380,
@@ -58907,6 +62221,7 @@ export default [
       CRT: 90,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16381,
@@ -58925,6 +62240,7 @@ export default [
       SPS: 55,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16382,
@@ -58943,6 +62259,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16383,
@@ -58961,6 +62278,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16384,
@@ -58979,6 +62297,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16385,
@@ -58997,6 +62316,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16386,
@@ -59015,6 +62335,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16387,
@@ -59033,6 +62354,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16388,
@@ -59051,6 +62373,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16389,
@@ -59069,6 +62392,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16390,
@@ -59087,6 +62411,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16391,
@@ -59105,6 +62430,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16392,
@@ -59123,6 +62449,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16393,
@@ -59141,6 +62468,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16394,
@@ -59159,6 +62487,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16395,
@@ -59177,6 +62506,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16396,
@@ -59195,6 +62525,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16397,
@@ -59213,6 +62544,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16398,
@@ -59231,6 +62563,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16399,
@@ -59249,6 +62582,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16400,
@@ -59267,6 +62601,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16401,
@@ -59285,6 +62620,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16402,
@@ -59303,6 +62639,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 16479,
@@ -59321,6 +62658,7 @@ export default [
       DHT: 79,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16480,
@@ -59339,6 +62677,7 @@ export default [
       CRT: 129,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16481,
@@ -59357,6 +62696,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16482,
@@ -59375,6 +62715,7 @@ export default [
       CRT: 90,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16483,
@@ -59393,6 +62734,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16484,
@@ -59411,6 +62753,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16485,
@@ -59429,6 +62772,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16486,
@@ -59447,6 +62791,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16487,
@@ -59465,6 +62810,7 @@ export default [
       DET: 76,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16488,
@@ -59483,6 +62829,7 @@ export default [
       SKS: 129,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16489,
@@ -59501,6 +62848,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16490,
@@ -59519,6 +62867,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16491,
@@ -59537,6 +62886,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16492,
@@ -59555,6 +62905,7 @@ export default [
       CRT: 129,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16493,
@@ -59573,6 +62924,7 @@ export default [
       DET: 76,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16494,
@@ -59591,6 +62943,7 @@ export default [
       DET: 123,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16495,
@@ -59609,6 +62962,7 @@ export default [
       SKS: 79,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16496,
@@ -59627,6 +62981,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16497,
@@ -59645,6 +63000,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16498,
@@ -59663,6 +63019,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16499,
@@ -59681,6 +63038,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16500,
@@ -59699,6 +63057,7 @@ export default [
       SKS: 129,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16501,
@@ -59717,6 +63076,7 @@ export default [
       DET: 76,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16502,
@@ -59735,6 +63095,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16503,
@@ -59753,6 +63114,7 @@ export default [
       CRT: 55,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16504,
@@ -59771,6 +63133,7 @@ export default [
       SKS: 129,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16505,
@@ -59789,6 +63152,7 @@ export default [
       DET: 76,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16506,
@@ -59807,6 +63171,7 @@ export default [
       SKS: 90,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16507,
@@ -59825,6 +63190,7 @@ export default [
       CRT: 79,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16508,
@@ -59843,6 +63209,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16509,
@@ -59861,6 +63228,7 @@ export default [
       CRT: 55,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16510,
@@ -59879,6 +63247,7 @@ export default [
       DET: 86,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16511,
@@ -59897,6 +63266,7 @@ export default [
       DET: 53,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16512,
@@ -59915,6 +63285,7 @@ export default [
       SPS: 90,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16513,
@@ -59933,6 +63304,7 @@ export default [
       SPS: 79,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16514,
@@ -59951,6 +63323,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16515,
@@ -59969,6 +63342,7 @@ export default [
       DET: 76,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16516,
@@ -59987,6 +63361,7 @@ export default [
       SPS: 90,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16517,
@@ -60005,6 +63380,7 @@ export default [
       CRT: 79,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16518,
@@ -60023,6 +63399,7 @@ export default [
       SPS: 90,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16519,
@@ -60041,6 +63418,7 @@ export default [
       CRT: 55,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16520,
@@ -60059,6 +63437,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16521,
@@ -60077,6 +63456,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16522,
@@ -60095,6 +63475,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16523,
@@ -60113,6 +63494,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16524,
@@ -60131,6 +63513,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16525,
@@ -60149,6 +63532,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16526,
@@ -60167,6 +63551,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16527,
@@ -60185,6 +63570,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16528,
@@ -60203,6 +63589,7 @@ export default [
       CRT: 59,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16529,
@@ -60221,6 +63608,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16530,
@@ -60239,6 +63627,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16531,
@@ -60257,6 +63646,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16532,
@@ -60275,6 +63665,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16533,
@@ -60293,6 +63684,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16534,
@@ -60311,6 +63703,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16535,
@@ -60329,6 +63722,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16536,
@@ -60347,6 +63741,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16537,
@@ -60365,6 +63760,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16538,
@@ -60383,6 +63779,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16539,
@@ -60401,6 +63798,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16540,
@@ -60419,6 +63817,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 17501,
@@ -60437,6 +63836,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17502,
@@ -60455,6 +63855,7 @@ export default [
       CRT: 42,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17503,
@@ -60473,6 +63874,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17504,
@@ -60491,6 +63893,7 @@ export default [
       DET: 57,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17505,
@@ -60509,6 +63912,7 @@ export default [
       SKS: 42,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17506,
@@ -60527,6 +63931,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17507,
@@ -60545,6 +63950,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17508,
@@ -60563,6 +63969,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17509,
@@ -60581,6 +63988,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17510,
@@ -60599,6 +64007,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17511,
@@ -60617,6 +64026,7 @@ export default [
       CRT: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17512,
@@ -60635,6 +64045,7 @@ export default [
       SKS: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17513,
@@ -60653,6 +64064,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17514,
@@ -60671,6 +64083,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17515,
@@ -60689,6 +64102,7 @@ export default [
       CRT: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17516,
@@ -60707,6 +64121,7 @@ export default [
       DET: 40,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17517,
@@ -60725,6 +64140,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17518,
@@ -60743,6 +64159,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17519,
@@ -60761,6 +64178,7 @@ export default [
       SPS: 42,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 17520,
@@ -60779,6 +64197,7 @@ export default [
       SPS: 59,
     },
     hq: false,
+    source: '团队任务/影之国周常',
   },
   {
     id: 20422,
@@ -60799,6 +64218,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 20423,
@@ -60818,6 +64238,7 @@ export default [
       MDMG: 114,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
   },
   {
     id: 27353,
@@ -60838,6 +64259,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
+    patch: '5.0',
   },
   {
     id: 27354,
@@ -60858,6 +64281,108 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '点数强化/圣典→诗学',
+    patch: '5.0',
+  },
+  {
+    id: 28493,
+    name: '瓦拉其耳坠',
+    level: 270,
+    slot: 9,
+    role: 5,
+    jobCategory: 129,
+    equipLevel: 60,
+    materiaSlot: 1,
+    materiaAdvanced: false,
+    stats: {
+      VIT: 79,
+      INT: 78,
+      CRT: 42,
+      SPS: 59,
+    },
+    hq: false,
+    source: '点数/同盟',
+    patch: '5.15',
+  },
+  {
+    id: 28494,
+    name: '瓦拉其项环',
+    level: 270,
+    slot: 10,
+    role: 5,
+    jobCategory: 129,
+    equipLevel: 60,
+    materiaSlot: 1,
+    materiaAdvanced: false,
+    stats: {
+      VIT: 79,
+      INT: 78,
+      DHT: 42,
+      CRT: 59,
+    },
+    hq: false,
+    source: '点数/同盟',
+    patch: '5.15',
+  },
+  {
+    id: 28495,
+    name: '瓦拉其手镯',
+    level: 270,
+    slot: 11,
+    role: 5,
+    jobCategory: 129,
+    equipLevel: 60,
+    materiaSlot: 1,
+    materiaAdvanced: false,
+    stats: {
+      VIT: 79,
+      INT: 78,
+      DHT: 42,
+      CRT: 59,
+    },
+    hq: false,
+    source: '点数/同盟',
+    patch: '5.15',
+  },
+  {
+    id: 28496,
+    name: '瓦拉其指环',
+    level: 270,
+    slot: 12,
+    role: 5,
+    jobCategory: 129,
+    equipLevel: 60,
+    materiaSlot: 1,
+    materiaAdvanced: false,
+    stats: {
+      VIT: 79,
+      INT: 78,
+      DHT: 59,
+      SPS: 42,
+    },
+    hq: false,
+    source: '点数/同盟',
+    patch: '5.15',
+  },
+  {
+    id: 28647,
+    name: '蓝色假面',
+    level: 270,
+    slot: 3,
+    role: 5,
+    jobCategory: 129,
+    equipLevel: 60,
+    materiaSlot: 2,
+    materiaAdvanced: false,
+    stats: {
+      VIT: 105,
+      INT: 104,
+      DHT: 55,
+      CRT: 79,
+    },
+    hq: false,
+    source: '任务/职业',
+    patch: '5.15',
   },
   {
     id: 16050,
@@ -60876,6 +64401,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16051,
@@ -60894,6 +64420,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16052,
@@ -60912,6 +64439,7 @@ export default [
       DLY: 3440,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16053,
@@ -60930,6 +64458,7 @@ export default [
       DLY: 2880,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16054,
@@ -60948,6 +64477,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16055,
@@ -60966,6 +64496,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16056,
@@ -60984,6 +64515,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16057,
@@ -61002,6 +64534,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16058,
@@ -61019,6 +64552,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16059,
@@ -61036,6 +64570,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16060,
@@ -61053,6 +64588,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16061,
@@ -61070,6 +64606,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16062,
@@ -61087,6 +64624,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16063,
@@ -61103,6 +64641,7 @@ export default [
       VIT: 61,
     },
     hq: false,
+    source: '魂武',
   },
   {
     id: 16465,
@@ -61123,6 +64662,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16466,
@@ -61143,6 +64683,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16467,
@@ -61163,6 +64704,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16468,
@@ -61183,6 +64725,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16469,
@@ -61203,6 +64746,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16470,
@@ -61223,6 +64767,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16471,
@@ -61243,6 +64788,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16472,
@@ -61263,6 +64809,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16473,
@@ -61282,6 +64829,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16474,
@@ -61301,6 +64849,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16475,
@@ -61320,6 +64869,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16476,
@@ -61339,6 +64889,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16477,
@@ -61358,6 +64909,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 16478,
@@ -61376,6 +64928,7 @@ export default [
       DET: 39,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 20452,
@@ -61396,6 +64949,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 20453,
@@ -61415,6 +64969,7 @@ export default [
       MDMG: 115,
     },
     hq: false,
+    source: '零式/天动之章',
   },
   {
     id: 13878,
@@ -61431,6 +64986,7 @@ export default [
       VIT: 61,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13879,
@@ -61449,6 +65005,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13880,
@@ -61467,6 +65024,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13881,
@@ -61485,6 +65043,7 @@ export default [
       DLY: 3200,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13882,
@@ -61503,6 +65062,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13883,
@@ -61521,6 +65081,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13884,
@@ -61539,6 +65100,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13885,
@@ -61556,6 +65118,7 @@ export default [
       MDMG: 118,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13886,
@@ -61573,6 +65136,7 @@ export default [
       MDMG: 118,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13887,
@@ -61590,6 +65154,7 @@ export default [
       MDMG: 118,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13888,
@@ -61607,6 +65172,7 @@ export default [
       MDMG: 118,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13889,
@@ -61625,6 +65191,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13890,
@@ -61643,6 +65210,7 @@ export default [
       DLY: 2480,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 13891,
@@ -61660,6 +65228,7 @@ export default [
       MDMG: 118,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 20454,
@@ -61678,6 +65247,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 20455,
@@ -61695,6 +65265,7 @@ export default [
       MDMG: 118,
     },
     hq: false,
+    source: '空岛',
   },
   {
     id: 27355,
@@ -61713,6 +65284,8 @@ export default [
       DLY: 2800,
     },
     hq: false,
+    source: '空岛',
+    patch: '5.0',
   },
   {
     id: 27356,
@@ -61731,5 +65304,7 @@ export default [
       DLY: 3120,
     },
     hq: false,
+    source: '空岛',
+    patch: '5.0',
   },
 ];

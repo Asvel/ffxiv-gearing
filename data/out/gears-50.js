@@ -45174,6 +45174,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10598,
@@ -45194,6 +45195,7 @@ export default [
       DLY: 3200,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10604,
@@ -45214,6 +45216,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10610,
@@ -45234,6 +45237,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10616,
@@ -45254,6 +45258,7 @@ export default [
       DLY: 2720,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10622,
@@ -45274,6 +45279,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10628,
@@ -45294,6 +45300,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10634,
@@ -45313,6 +45320,7 @@ export default [
       MDMG: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10640,
@@ -45332,6 +45340,7 @@ export default [
       MDMG: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10646,
@@ -45351,6 +45360,7 @@ export default [
       MDMG: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10652,
@@ -45370,6 +45380,7 @@ export default [
       MDMG: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10658,
@@ -45389,6 +45400,7 @@ export default [
       MDMG: 77,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10664,
@@ -45407,6 +45419,7 @@ export default [
       SKS: 13,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10670,
@@ -45425,6 +45438,7 @@ export default [
       DHT: 26,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10677,
@@ -45443,6 +45457,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10684,
@@ -45461,6 +45476,7 @@ export default [
       DET: 13,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10691,
@@ -45479,6 +45495,7 @@ export default [
       CRT: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10698,
@@ -45497,6 +45514,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10705,
@@ -45515,6 +45533,7 @@ export default [
       CRT: 26,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10712,
@@ -45533,6 +45552,7 @@ export default [
       DET: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10719,
@@ -45551,6 +45571,7 @@ export default [
       DET: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10726,
@@ -45569,6 +45590,7 @@ export default [
       SKS: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10733,
@@ -45587,6 +45609,7 @@ export default [
       SKS: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10740,
@@ -45605,6 +45628,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10747,
@@ -45623,6 +45647,7 @@ export default [
       DET: 13,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10754,
@@ -45641,6 +45666,7 @@ export default [
       CRT: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10761,
@@ -45659,6 +45685,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10768,
@@ -45677,6 +45704,7 @@ export default [
       CRT: 26,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10775,
@@ -45695,6 +45723,7 @@ export default [
       CRT: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10782,
@@ -45713,6 +45742,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10789,
@@ -45731,6 +45761,7 @@ export default [
       SKS: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10796,
@@ -45749,6 +45780,7 @@ export default [
       CRT: 26,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10803,
@@ -45767,6 +45799,7 @@ export default [
       SKS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10810,
@@ -45785,6 +45818,7 @@ export default [
       CRT: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10817,
@@ -45803,6 +45837,7 @@ export default [
       SKS: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10824,
@@ -45821,6 +45856,7 @@ export default [
       DET: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10831,
@@ -45839,6 +45875,7 @@ export default [
       SKS: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10838,
@@ -45857,6 +45894,7 @@ export default [
       SKS: 26,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10845,
@@ -45875,6 +45913,7 @@ export default [
       CRT: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10852,
@@ -45893,6 +45932,7 @@ export default [
       DET: 13,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10859,
@@ -45911,6 +45951,7 @@ export default [
       SKS: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10866,
@@ -45929,6 +45970,7 @@ export default [
       SKS: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10873,
@@ -45947,6 +45989,7 @@ export default [
       DET: 13,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10880,
@@ -45965,6 +46008,7 @@ export default [
       CRT: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10887,
@@ -45983,6 +46027,7 @@ export default [
       DET: 30,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10894,
@@ -46001,6 +46046,7 @@ export default [
       SPS: 26,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10901,
@@ -46019,6 +46065,7 @@ export default [
       SPS: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10908,
@@ -46037,6 +46084,7 @@ export default [
       DET: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10915,
@@ -46055,6 +46103,7 @@ export default [
       SPS: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10922,
@@ -46073,6 +46122,7 @@ export default [
       CRT: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10929,
@@ -46091,6 +46141,7 @@ export default [
       SPS: 42,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10936,
@@ -46109,6 +46160,7 @@ export default [
       DET: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10943,
@@ -46127,6 +46179,7 @@ export default [
       DET: 10,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10950,
@@ -46145,6 +46198,7 @@ export default [
       DET: 21,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10957,
@@ -46163,6 +46217,7 @@ export default [
       SPS: 18,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10964,
@@ -46181,6 +46236,7 @@ export default [
       CRT: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10970,
@@ -46199,6 +46255,7 @@ export default [
       SKS: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10976,
@@ -46217,6 +46274,7 @@ export default [
       DET: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10982,
@@ -46235,6 +46293,7 @@ export default [
       DHT: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10988,
@@ -46253,6 +46312,7 @@ export default [
       SKS: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 10994,
@@ -46271,6 +46331,7 @@ export default [
       DET: 10,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11000,
@@ -46289,6 +46350,7 @@ export default [
       CRT: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11006,
@@ -46307,6 +46369,7 @@ export default [
       CRT: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11012,
@@ -46325,6 +46388,7 @@ export default [
       DET: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11018,
@@ -46343,6 +46407,7 @@ export default [
       DET: 10,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11024,
@@ -46361,6 +46426,7 @@ export default [
       SKS: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11030,
@@ -46379,6 +46445,7 @@ export default [
       SKS: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11036,
@@ -46397,6 +46464,7 @@ export default [
       DET: 10,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11042,
@@ -46415,6 +46483,7 @@ export default [
       SPS: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11048,
@@ -46433,6 +46502,7 @@ export default [
       DET: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11054,
@@ -46451,6 +46521,7 @@ export default [
       CRT: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11060,
@@ -46469,6 +46540,7 @@ export default [
       DET: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11066,
@@ -46487,6 +46559,7 @@ export default [
       SPS: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11072,
@@ -46505,6 +46578,7 @@ export default [
       SPS: 14,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 11078,
@@ -46523,6 +46597,7 @@ export default [
       CRT: 20,
     },
     hq: true,
+    source: '生产制作',
   },
   {
     id: 14886,

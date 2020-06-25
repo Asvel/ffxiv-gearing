@@ -54,8 +54,8 @@ export const statNames = {
 export type Stat = keyof typeof statNames;
 export type Stats = { [index in Stat]?: number };
 
-const levelCaps = require('../data/levelCaps').default as { [index in Stat | 'level']: number[] };
-const slotCaps = require('../data/slotCaps').default as { [index in Stat]: number[] };
+const levelCaps = require('../data/out/levelCaps').default as { [index in Stat | 'level']: number[] };
+const slotCaps = require('../data/out/slotCaps').default as { [index in Stat]: number[] };
 const roleCaps = { VIT: [90,100,100,100,100,90,90,100,90,100,100,100,100] } as { [index in Stat]?: number[] };
 const levelCapsIndex: { [index: number]: number } = {};
 levelCaps.level.forEach((level, i) => levelCapsIndex[level] = i);
@@ -274,7 +274,7 @@ export const jobSchemas = {
 };
 export type Job = keyof typeof jobSchemas;
 
-export const jobCategories = require('../data/jobCategories').default as { [index in Job]?: boolean }[];
+export const jobCategories = require('../data/out/jobCategories').default as { [index in Job]?: boolean }[];
 
 export const statHighlight: { [index in Stat]?: boolean } = {
   PIE: true,
