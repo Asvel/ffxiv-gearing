@@ -3,6 +3,7 @@ import { observer } from 'mobx-react-lite';
 import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import { TextField } from '@rmwc/textfield';
+import * as G from '../game';
 import { useStore } from './context';
 import { Icon } from './icon';
 import { JobSelector } from './job-selector';
@@ -51,7 +52,7 @@ const ConditionEditing = observer(() => {
         <Button className="condition_button" onClick={() => toggleExpandedPanel('import')}>导入</Button>
         <Button className="condition_button">历史记录</Button>
         <span className="condition_divider" />
-        <span className="condition_version">游戏版本 {condition.versionString}</span>
+        <span className="condition_version">数据版本 {G.dataVersion}</span>
       </span>
       {(condition.job === undefined || expandedPanel === 'job') && <JobSelector />}
       {expandedPanel === 'import' && (
@@ -88,7 +89,7 @@ const ConditionViewing = observer(() => {
         />
         <Button className="condition_button">历史记录</Button>
         <span className="condition_divider" />
-        <span className="condition_version">游戏版本 {condition.versionString}</span>
+        <span className="condition_version">数据版本 {G.dataVersion}</span>
       </span>
     </div>
   );

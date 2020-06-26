@@ -23476,7 +23476,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23498,7 +23498,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23520,7 +23520,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23542,7 +23542,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23564,7 +23564,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23586,7 +23586,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23608,7 +23608,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23630,7 +23630,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23651,7 +23651,7 @@ export default [
       MDMG: 166,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23672,7 +23672,7 @@ export default [
       MDMG: 166,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23693,7 +23693,7 @@ export default [
       MDMG: 166,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23714,7 +23714,7 @@ export default [
       MDMG: 166,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23735,7 +23735,7 @@ export default [
       MDMG: 166,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23757,7 +23757,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23778,7 +23778,7 @@ export default [
       MDMG: 166,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23800,7 +23800,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23822,7 +23822,7 @@ export default [
       DLY: 3120,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23842,7 +23842,7 @@ export default [
       CRT: 135,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23862,7 +23862,7 @@ export default [
       DET: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23882,7 +23882,7 @@ export default [
       DET: 438,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23902,7 +23902,7 @@ export default [
       CRT: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23922,7 +23922,7 @@ export default [
       SKS: 438,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23942,7 +23942,7 @@ export default [
       SKS: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23962,7 +23962,7 @@ export default [
       SKS: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -23982,7 +23982,7 @@ export default [
       SKS: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24002,7 +24002,7 @@ export default [
       DET: 307,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24022,7 +24022,7 @@ export default [
       DET: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24042,7 +24042,7 @@ export default [
       CRT: 438,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24062,7 +24062,7 @@ export default [
       DET: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24082,7 +24082,7 @@ export default [
       SKS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24102,7 +24102,7 @@ export default [
       SKS: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24122,7 +24122,7 @@ export default [
       CRT: 307,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24142,7 +24142,7 @@ export default [
       SKS: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24162,7 +24162,7 @@ export default [
       CRT: 438,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24182,7 +24182,7 @@ export default [
       DET: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24202,7 +24202,7 @@ export default [
       SKS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24222,7 +24222,7 @@ export default [
       DET: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24242,7 +24242,7 @@ export default [
       CRT: 438,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24262,7 +24262,7 @@ export default [
       SKS: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24282,7 +24282,7 @@ export default [
       DET: 307,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24302,7 +24302,7 @@ export default [
       DET: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24322,7 +24322,7 @@ export default [
       DET: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24342,7 +24342,7 @@ export default [
       SKS: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24362,7 +24362,7 @@ export default [
       CRT: 307,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24382,7 +24382,7 @@ export default [
       DET: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24402,7 +24402,7 @@ export default [
       DET: 307,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24422,7 +24422,7 @@ export default [
       CRT: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24442,7 +24442,7 @@ export default [
       DET: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24462,7 +24462,7 @@ export default [
       SPS: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24482,7 +24482,7 @@ export default [
       DET: 438,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24502,7 +24502,7 @@ export default [
       CRT: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24522,7 +24522,7 @@ export default [
       CRT: 438,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24542,7 +24542,7 @@ export default [
       DET: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24562,7 +24562,7 @@ export default [
       DET: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24582,7 +24582,7 @@ export default [
       SPS: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24602,7 +24602,7 @@ export default [
       SPS: 307,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24622,7 +24622,7 @@ export default [
       DET: 270,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24642,7 +24642,7 @@ export default [
       DET: 307,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24662,7 +24662,7 @@ export default [
       SPS: 189,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24682,7 +24682,7 @@ export default [
       CRT: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24702,7 +24702,7 @@ export default [
       SKS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24722,7 +24722,7 @@ export default [
       DET: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24742,7 +24742,7 @@ export default [
       CRT: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24762,7 +24762,7 @@ export default [
       SPS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24782,7 +24782,7 @@ export default [
       SPS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24802,7 +24802,7 @@ export default [
       DET: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24822,7 +24822,7 @@ export default [
       SKS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24842,7 +24842,7 @@ export default [
       SKS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24862,7 +24862,7 @@ export default [
       DET: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24882,7 +24882,7 @@ export default [
       DET: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24902,7 +24902,7 @@ export default [
       DET: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24922,7 +24922,7 @@ export default [
       DET: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24942,7 +24942,7 @@ export default [
       SKS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24962,7 +24962,7 @@ export default [
       SPS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -24982,7 +24982,7 @@ export default [
       SPS: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -25002,7 +25002,7 @@ export default [
       CRT: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -25022,7 +25022,7 @@ export default [
       DET: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -25042,7 +25042,7 @@ export default [
       DET: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -25062,7 +25062,7 @@ export default [
       CRT: 202,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -25082,7 +25082,7 @@ export default [
       CRT: 142,
     },
     hq: true,
-    source: '5.x肝武',
+    source: '生产制作',
     patch: '5.2',
   },
   {
@@ -27332,7 +27332,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27354,7 +27354,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27376,7 +27376,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27398,7 +27398,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27420,7 +27420,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27442,7 +27442,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27464,7 +27464,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27486,7 +27486,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27507,7 +27507,7 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27528,7 +27528,7 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27549,7 +27549,7 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27570,7 +27570,7 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27591,7 +27591,7 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27613,7 +27613,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27634,7 +27634,7 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27656,7 +27656,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27678,7 +27678,7 @@ export default [
       DLY: 3120,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {
@@ -27698,7 +27698,7 @@ export default [
       DET: 95,
     },
     hq: false,
-    source: '5.x肝武',
+    source: '新肝武',
     patch: '5.25',
   },
   {

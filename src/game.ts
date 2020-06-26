@@ -7,12 +7,14 @@ export interface GearBase {
   slot: number,
   jobCategory: number,
   stats: Stats,
+  patch: string,
 }
 export interface Gear extends GearBase {
   role: number,
   materiaSlot: number,
   materiaAdvanced: boolean
   hq: boolean,
+  source: string,
 }
 export interface Food extends GearBase {
   statRates: Stats,
@@ -27,6 +29,9 @@ export interface Gearset {
     materias: ([Stat, MateriaGrade] | null)[]
   }[],
 }
+
+export const dataVersion = '5.25';
+export const releasedVersion = '5.18';  // released version of chinese datacenter
 
 export const statNames = {
   STR: '力量',

@@ -85,7 +85,14 @@ const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slot
     >
       <td className="gears_left">
         {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
-        <span className="gears_name">{gear.name}{gear.hq && <Icon className="gears_hq" name="hq"/>}</span>
+        {gear.isInstalled ? (
+          <span className="gears_name">{gear.name}{gear.hq && <Icon className="gears_hq" name="hq"/>}</span>
+        ) : (
+          <span className="gears_name">
+            <span className="gears_origin">*{Gear.is(gear) ? gear.source : gear.name}</span>
+            <span className="gears_patch">{gear.patch}</span>
+          </span>
+        )}
         <Dropdown
           label={({ ref, toggle }) => (
             <IconButton ref={ref} className="gears_more" icon="more" onClick={toggle} />
@@ -156,16 +163,18 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
         <div className="gear-menu_item">攻击间隔：{(gear.stats.DLY / 1000).toFixed(2)}</div>
       )}
       <div className="gear-menu_divider" />
-      <Ripple>
-        <a
-          className="gear-menu_item"
-          href={`https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:` + encodeURI(gear.name)}
-          target="_blank"
-          tabIndex={0}
-        >
-          在 最终幻想XIV中文维基 中查看 <Icon className="gear-menu_external" name="open-in-new" />
-        </a>
-      </Ripple>
+      {gear.isInstalled && (
+        <Ripple>
+          <a
+            className="gear-menu_item"
+            href={`https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:` + encodeURI(gear.name)}
+            target="_blank"
+            tabIndex={0}
+          >
+            在 最终幻想XIV中文维基 中查看 <Icon className="gear-menu_external" name="open-in-new" />
+          </a>
+        </Ripple>
+      )}
       <Ripple>
         <a
           className="gear-menu_item"

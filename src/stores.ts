@@ -42,16 +42,10 @@ export const MateriaGrade = types.number as ISimpleType<G.MateriaGrade>;
 
 export const Condition = types
   .model('Condition', {
-    version: types.optional(types.number, 505),
     job: types.maybe(Job),
     minLevel: types.optional(types.number, 440),
     maxLevel: types.optional(types.number, 470),
   })
-  .views(self => ({
-    get versionString(): string {
-      return self.version.toString().split('').join('.');
-    }
-  }))
   .actions(self => ({
     setJob(value: G.Job): void {
       self.job = value;
@@ -116,6 +110,8 @@ export const Gear = types
     get materiaSlot() { return self.data.materiaSlot; },
     get materiaAdvanced() { return self.data.materiaAdvanced; },
     get hq() { return self.data.hq; },
+    get source() { return self.data.source; },
+    get patch() { return self.data.patch; },
     get caps(): G.Stats { return G.getCaps(self.data); },
     get bareStats(): G.Stats { return self.data.stats; },
     get materiaStats(): G.Stats {
@@ -156,10 +152,13 @@ export const Gear = types
       }
       return ret;
     },
+    get isInstalled(): boolean {
+      return this.patch <= G.releasedVersion;
+    },
     get isEquipped(): boolean {
       const store = getParentOfType(self, Store);
       return store.equippedGears.get(this.slot.toString()) === self;
-    }
+    },
   }))
   .actions(self => ({
     afterCreate(): void {
@@ -189,6 +188,7 @@ export const Food = types
     get level() { return self.data.level; },
     get slot() { return self.data.slot; },
     get hq() { return true; },
+    get patch() { return self.data.patch; },
     get stats(): G.Stats { return self.data.stats; },
     get statRates(): G.Stats { return self.data.statRates; },
     get requiredStats(): G.Stats {
@@ -228,10 +228,13 @@ export const Food = types
     get utilizationOpacity(): number {
       return Math.max(0.2, Math.pow(this.utilization / 100, 2));
     },
+    get isInstalled(): boolean {
+      return this.patch <= G.releasedVersion;
+    },
     get isEquipped(): boolean {
       const store = getParentOfType(self, Store);
       return store.equippedGears.get('-1') === self;
-    }
+    },
   }));
 export interface IFood extends Instance<typeof Food> {}
 
@@ -486,7 +489,7 @@ export const Store = types
   .actions(self => ({
     afterCreate(): void {
       reaction(() => self.condition.job && self.filteredIds, self.createGears);
-    }
+    },
   }));
 export interface IStore extends Instance<typeof Store> {}
 
