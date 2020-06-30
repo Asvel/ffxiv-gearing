@@ -85,8 +85,16 @@ const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slot
     >
       <td className="gears_left">
         {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
-        {gear.isInstalled ? (
-          <span className="gears_name">{gear.name}{gear.hq && <Icon className="gears_hq" name="hq"/>}</span>
+        {store.displayGearSource && Gear.is(gear) ? (
+          <span className="gears_name">
+            {gear.source}
+            {!gear.isInstalled && <span className="gears_patch">{gear.patch}</span>}
+          </span>
+        ) : gear.isInstalled ? (
+          <span className="gears_name">
+            {gear.name}
+            {gear.hq && <Icon className="gears_hq" name="hq"/>}
+          </span>
         ) : (
           <span className="gears_name">
             <span className="gears_origin">*{Gear.is(gear) ? gear.source : gear.name}</span>
@@ -156,6 +164,18 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
           />
         </div>
       </Ripple>
+      {gear.isInstalled && Gear.is(gear) && (
+        <Ripple>
+          <div
+            className="gear-menu_item"
+            children="切换 装备名/来源 显示（全局）"
+            onClick={() => {
+              toggle();
+              store.toggleDisplayGearSource();
+            }}
+          />
+        </Ripple>
+      )}
       <div className="gear-menu_divider" />
       {gear.stats.PDMG !== undefined && <div className="gear-menu_item">物理基本性能：{gear.stats.PDMG}</div>}
       {gear.stats.MDMG !== undefined && <div className="gear-menu_item">魔法基本性能：{gear.stats.MDMG}</div>}

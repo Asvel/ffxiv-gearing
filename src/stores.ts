@@ -266,6 +266,7 @@ export const Store = types
     condition: types.optional(Condition, {}),
     gears: types.map(GearUnion),
     equippedGears: types.map(GearUnionReference),
+    displayGearSource: types.optional(types.boolean, false),
   })
   .volatile(() => ({
     clan: Number(localStorage.getItem(globalClanKey)) || 0,
@@ -484,7 +485,13 @@ export const Store = types
     setClan(clan: number): void {
       self.clan = clan;
       localStorage.setItem(globalClanKey, clan.toString());
-    }
+    },
+    toggleDisplayGearSource(): void {
+      self.displayGearSource = !self.displayGearSource;
+    },
+    unprotect(): void {
+      setTimeout(() => unprotect(self), 0);
+    },
   }))
   .actions(self => ({
     afterCreate(): void {
@@ -527,7 +534,6 @@ loadGearData('80');  // FIXME
 export const store = Store.create(archive.load());
 // archive.load();
 // export const store = Stores.create();
-// unprotect(store);
 
 onSnapshot(store, snapshot => {
   if (snapshot.condition.job !== undefined && snapshot.mode !== 'view') {
