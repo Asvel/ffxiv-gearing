@@ -448,6 +448,9 @@ export const Store = types
       }
       return share.stringify({ job, level, gears });
     },
+    get shareUrl(): string {
+      return location.origin + location.pathname + '?' + this.share;
+    },
   }))
   .actions(self => ({
     createGears(): void {

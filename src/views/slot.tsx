@@ -101,7 +101,7 @@ const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slot
           </span>
         ) : (
           <span className="gears_name">
-            <span className="gears_origin">*{Gear.is(gear) ? gear.source : gear.name}</span>
+            <span className="gears_origin">{Gear.is(gear) ? '*' + gear.source : gear.name}</span>
             <span className="gears_patch">{gear.patch}</span>
           </span>
         )}
