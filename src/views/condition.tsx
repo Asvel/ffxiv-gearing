@@ -21,7 +21,7 @@ const ConditionEditing = observer(() => {
       ) : (
         <Ripple>
           <span className="condition_job" onClick={() => toggleExpandedPanel('job')}>
-            <Icon className="condition_job-icon" name="jobs/WHM" />
+            <Icon className="condition_job-icon" name={'jobs/' + condition.job} />
             <span className="condition_job-name">{store.schema.name}</span>
           </span>
         </Ripple>
@@ -73,7 +73,7 @@ const ConditionViewing = observer(() => {
   return condition.job === undefined ? null : (
     <div className="condition card">
       <span className="condition_job">
-        <Icon className="condition_job-icon" name="jobs/WHM" />
+        <Icon className="condition_job-icon" name={'jobs/' + condition.job} />
         <span className="condition_job-name">{store.schema.name}</span>
       </span>
       <span className="condition_divider" />

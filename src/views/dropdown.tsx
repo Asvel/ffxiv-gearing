@@ -41,6 +41,7 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers,
         if (!labelElement.contains(target) && !popperElement.contains(target)) {
           setExpanded(false);
           onGlobalClick = undefined;
+          (e as any)._isClosingDropdown = true;
         }
       }
     };

@@ -7,7 +7,7 @@ import './views/app.scss';
 
 const _t = (s: string) => s;
 
-document.title = _t('FFXIV Gearing');
+document.title = _t('最终幻想14配装器');
 
 let container = document.createElement('div');
 document.body.appendChild(container);

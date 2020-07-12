@@ -57,7 +57,7 @@ const JobSelector = observer(() => {
           <JobItem job="WHM" />
         </JobGroup>
       </div>
-      <Icon className="job-selector_background-icon" name="jobs/WHM" />
+      <Icon className="job-selector_background-icon" name="meteo" />
     </div>
   );
 });
@@ -86,7 +86,7 @@ const JobItem = observer<{ job: G.Job }>(({ job }) => {
         }}
       >
         {schema.name}
-        <Icon className="job-selector_icon" name="jobs/WHM" />
+        <Icon className="job-selector_icon" name={'jobs/' + job} />
       </a>
     </Ripple>
   );

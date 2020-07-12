@@ -410,14 +410,14 @@ export const Store = types
       const { main, sub, div } = G.levelModifiers[80];
       const { CRT, DET, DHT, TEN, SKS, SPS, PIE } = self.equippedStats;
       function calcTier(value: number, multiplier: number) {
-        if (!value) return undefined;
+        if (value !== value) return undefined;
         const quotient = floor(value / multiplier);
         const prev = ceil(quotient * multiplier) - 1 - value;
         const next = ceil((quotient + 1) * multiplier) - value;
         return { prev, next };
       }
       function calcGcdTier(value: number, multiplier: number) {
-        if (!value) return undefined;
+        if (value !== value) return undefined;
         const quotient = ceil(floor(value / multiplier) / 4);
         const prev = ceil((quotient * 4 - 3) * multiplier) - 1 - value;
         const next = ceil((quotient * 4 + 1) * multiplier) - value;

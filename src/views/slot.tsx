@@ -81,7 +81,11 @@ const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slot
         Food.is(gear) && '-food',
         !store.isViewing && gear.isEquipped && '-selected'
       )}
-      onClick={store.isViewing ? undefined : () => store.equip(gear)}
+      onClick={store.isViewing ? undefined : e => {
+        // when dropdown open, clicking on a row usually intends to close dropdown
+        if ((e.nativeEvent as any)._isClosingDropdown) return;
+        store.equip(gear);
+      }}
     >
       <td className="gears_left">
         {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
