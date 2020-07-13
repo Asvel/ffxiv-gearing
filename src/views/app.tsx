@@ -14,18 +14,16 @@ const App = observer<{ store: IStore }>(({ store }) => {
       <div className={classNames('app', `app-${store.mode}`)}>
         {store.isViewing ? <ConditionViewing /> : <ConditionEditing />}
         {store.condition.job !== undefined && (
-          <div className="gears">
-            {store.isViewing ? (
-              <SlotCompact />
-            ) : (
-              store.schema.slots.map(slot => (
-                <Slot key={slot.slot} slot={slot}/>
-              ))
-            )}
-          </div>
+          store.isViewing ? (
+            <SlotCompact />
+          ) : (
+            store.schema.slots.map(slot => (
+              <Slot key={slot.slot} slot={slot}/>
+            ))
+          )
         )}
-        <About />
         {store.condition.job !== undefined && <Summary />}
+        <About />
         <div id="popper" />
       </div>
     </StoreContext.Provider>

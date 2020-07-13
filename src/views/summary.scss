@@ -1,15 +1,21 @@
 @import "./mixins";
 
 .summary {
-  position: fixed;
-  bottom: 0;
   display: flex;
-  padding: 0 12px;
-  margin-left: -12px;
   align-items: flex-end;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  @include mdc-elevation(4);
+  .app-edit & {
+    position: fixed;
+    bottom: 0;
+    padding: 0 12px;
+    margin-left: -12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    @include mdc-elevation(4);
+  }
+  .app-view & > span:not(.summary_divider) {
+    margin-top: -2px;
+    margin-bottom: 2px;
+  }
 }
 
 .summary_divider {
@@ -20,7 +26,7 @@
 
 .summary_left {
   position: relative;
-  width: 300px;
+  width: 320px;
   height: 49px;
 }
 .summary_middle {
@@ -38,7 +44,7 @@
 
 .summary_equipped-level {
   position: absolute;
-  left: 240px;
+  left: 260px;
   bottom: 0;
   font-size: 12px;
   line-height: 44px;
@@ -89,6 +95,9 @@
   display: inline-block;
   margin: 0 -2px;
   transform: scale(.83) translateY(1px);
+}
+.app-view .summary_stat:last-child .summary_stat-effect-hp {
+  transform: translateX(-4px);
 }
 
 .summary_damage {
