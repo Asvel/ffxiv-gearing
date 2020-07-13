@@ -7,7 +7,7 @@ export interface GearBase {
   slot: number,
   jobCategory: number,
   stats: Stats,
-  patch: string,
+  patch?: string,
 }
 export interface Gear extends GearBase {
   role: number,
@@ -46,11 +46,11 @@ export const statNames = {
   SPS: '咏唱',
   TEN: '坚韧',
   PIE: '信仰',
-  CMS: '作业精度',
-  CRL: '加工精度',
+  CMS: '作业',
+  CRL: '加工',
   CP: '制作力',
-  GTH: '获得力',
-  PCP: '鉴别力',
+  GTH: '获得',
+  PCP: '鉴别',
   GP: '采集力',
   PDMG: '物理基本性能',
   MDMG: '魔法基本性能',
@@ -88,11 +88,11 @@ const statSchemas: { [index: string]: Stat[] } = {
   dpsStr: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'],
   dpsDex: ['DEX', 'CRT', 'DET', 'DHT', 'SKS', 'VIT'],
   dpsInt: ['INT', 'CRT', 'DET', 'DHT', 'SPS', 'VIT'],
-  hand: ['CMS', 'CRL', 'CP'],
-  land: ['GTH', 'PCP', 'GP'],
+  crafting: ['CMS', 'CRL', 'CP'],
+  gathering: ['GTH', 'PCP', 'GP'],
 };
 
-interface SlotSchema {
+export interface SlotSchema {
   slot: number,
   name: string,
   levelWeight?: number,
@@ -111,8 +111,12 @@ const commonSlotSchema: SlotSchema[] = [
   { slot: -12, name: '戒指' },
   { slot: -1, name: '食物', levelWeight: 0 },
 ];
-const battleJobSlotSchema = ([{ slot: 13, name: '武器', levelWeight: 2 }] as SlotSchema[]).concat(commonSlotSchema);
-export type Slot = (typeof commonSlotSchema)[number];
+const combatJobSlotSchema =
+  ([{ slot: 13, name: '武器', levelWeight: 2 }] as SlotSchema[]).concat(commonSlotSchema);
+const gatheringJobSlotSchema =
+  ([{ slot: 1, name: '主工具' }, { slot: 2, name: '副工具' }] as SlotSchema[]).concat(commonSlotSchema);
+const craftingJobSlotSchema = gatheringJobSlotSchema.slice(0, -1).concat(
+  [{ slot: 17, name: '灵魂水晶', levelWeight: 0 }, { slot: -1, name: '食物', levelWeight: 0 }]);
 
 export const baseStats: { [index in Stat]?: 'main' | 'sub' | number } = {
   STR: 'main',
@@ -127,7 +131,11 @@ export const baseStats: { [index in Stat]?: 'main' | 'sub' | number } = {
   SPS: 'sub',
   TEN: 'sub',
   PIE: 'main',
+  CMS: 0,
+  CRL: 0,
   CP: 180,
+  GTH: 0,
+  PCP: 0,
   GP: 400,
 };
 
@@ -143,7 +151,7 @@ export const jobSchemas = {
   WAR: {
     name: '战士',
     stats: statSchemas.tank,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { STR: 105, VIT: 110, hp: 125, ap: 115 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
@@ -151,7 +159,7 @@ export const jobSchemas = {
   DRK: {
     name: '暗黑骑士',
     stats: statSchemas.tank,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { STR: 105, VIT: 110, hp: 120, ap: 115 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
@@ -159,7 +167,7 @@ export const jobSchemas = {
   GNB: {
     name: '绝枪战士',
     stats: statSchemas.tank,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { STR: 100, VIT: 110, hp: 120, ap: 115 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
@@ -167,7 +175,7 @@ export const jobSchemas = {
   WHM: {
     name: '白魔法师',
     stats: statSchemas.healer,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
@@ -175,7 +183,7 @@ export const jobSchemas = {
   SCH: {
     name: '学者',
     stats: statSchemas.healer,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
@@ -183,7 +191,7 @@ export const jobSchemas = {
   AST: {
     name: '占星术士',
     stats: statSchemas.healer,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
@@ -191,7 +199,7 @@ export const jobSchemas = {
   MNK: {
     name: '武僧',
     stats: statSchemas.dpsStr,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { STR: 110, VIT: 100, hp: 110, ap: 165 },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
@@ -199,7 +207,7 @@ export const jobSchemas = {
   DRG: {
     name: '龙骑士',
     stats: statSchemas.dpsStr,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { STR: 115, VIT: 105, hp: 115, ap: 165 },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
@@ -207,7 +215,7 @@ export const jobSchemas = {
   NIN: {
     name: '忍者',
     stats: statSchemas.dpsDex,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { DEX: 110, VIT: 100, hp: 108, ap: 165 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1,
@@ -215,7 +223,7 @@ export const jobSchemas = {
   SAM: {
     name: '武士',
     stats: statSchemas.dpsStr,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { STR: 112, VIT: 100, hp: 109, ap: 165 },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
@@ -223,7 +231,7 @@ export const jobSchemas = {
   BRD: {
     name: '吟游诗人',
     stats: statSchemas.dpsDex,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
@@ -231,7 +239,7 @@ export const jobSchemas = {
   MCH: {
     name: '机工士',
     stats: statSchemas.dpsDex,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
@@ -239,7 +247,7 @@ export const jobSchemas = {
   DNC: {
     name: '舞者',
     stats: statSchemas.dpsDex,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
@@ -247,7 +255,7 @@ export const jobSchemas = {
   BLM: {
     name: '黑魔法师',
     stats: statSchemas.dpsInt,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
@@ -255,7 +263,7 @@ export const jobSchemas = {
   SMN: {
     name: '召唤师',
     stats: statSchemas.dpsInt,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
@@ -263,7 +271,7 @@ export const jobSchemas = {
   RDM: {
     name: '赤魔法师',
     stats: statSchemas.dpsInt,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
@@ -271,10 +279,65 @@ export const jobSchemas = {
   BLU: {
     name: '青魔法师',
     stats: statSchemas.dpsInt,
-    slots: battleJobSlotSchema,
+    slots: combatJobSlotSchema,
     statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
+  },
+  CRP: {
+    name: '刻木匠',
+    stats: statSchemas.crafting,
+    slots: craftingJobSlotSchema,
+  },
+  BSM: {
+    name: '锻铁匠',
+    stats: statSchemas.crafting,
+    slots: craftingJobSlotSchema,
+  },
+  ARM: {
+    name: '铸甲匠',
+    stats: statSchemas.crafting,
+    slots: craftingJobSlotSchema,
+  },
+  GSM: {
+    name: '雕金匠',
+    stats: statSchemas.crafting,
+    slots: craftingJobSlotSchema,
+  },
+  LTW: {
+    name: '制革匠',
+    stats: statSchemas.crafting,
+    slots: craftingJobSlotSchema,
+  },
+  WVR: {
+    name: '裁衣匠',
+    stats: statSchemas.crafting,
+    slots: craftingJobSlotSchema,
+  },
+  ALC: {
+    name: '炼金术士',
+    stats: statSchemas.crafting,
+    slots: craftingJobSlotSchema,
+  },
+  CUL: {
+    name: '烹调师',
+    stats: statSchemas.crafting,
+    slots: craftingJobSlotSchema,
+  },
+  MIN: {
+    name: '采矿工',
+    stats: statSchemas.gathering,
+    slots: gatheringJobSlotSchema,
+  },
+  BTN: {
+    name: '园艺工',
+    stats: statSchemas.gathering,
+    slots: gatheringJobSlotSchema,
+  },
+  FSH: {
+    name: '捕鱼人',
+    stats: statSchemas.gathering,
+    slots: gatheringJobSlotSchema,
   },
 };
 export type Job = keyof typeof jobSchemas;
@@ -346,30 +409,3 @@ export const clanStats: { [index in Stat]?: number[] } = {
   INT: [23, 18, 22, 23, 22, 22, 19, 21, 18, 20, 20, 20, 17, 17, 21, 23].map(x => x - 20),
   MND: [19, 20, 19, 21, 20, 23, 19, 23, 21, 22, 23, 18, 23, 23, 21, 22].map(x => x - 20),
 };
-
-export const sources = [
-  [18969, 19046, '生产制作'],
-  [19203, 19280, '万物神典石'],
-  [19281, 19358, '万物神典石'],
-  [19359, 19436, '零式德尔塔'],
-  [19437, 19498, '普通德尔塔'],
-  [19499, 19505, '天书奇谈'],
-  [19601, 19726, '生产制作'],
-  [19757, 19766, '天书奇谈'],
-  [19771, 19786, '讨伐歼灭战'/*豪神*/],
-  [19787, 19806, '讨伐歼灭战'/*美神*/],
-  [20881, 20922, '团队任务'],
-  [20943, 20958, '讨伐歼灭战'/*神龙*/],
-  [20959, 20974, '绝境战'/*巴哈姆特*/],
-  [21208, 21258, '巧手黄票'],
-  [21259, 21273, '大地黄票'],
-  [21321, 21398, '虚构神典石'],
-  [21399, 21476, '虚构神典石'],
-  [21477, 21492, '讨伐歼灭战'/*白虎*/],
-  [21493, 21570, '零式西格玛'],
-  [21571, 21632, '普通西格玛'],
-  [21633, 21694, '迷宫挑战'],
-  [21695, 21772, '生产制作'],
-  [21804, 21810, '天书奇谈'],
-  [21942, 22305, '优雷卡'],
-];

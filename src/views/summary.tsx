@@ -56,7 +56,7 @@ const Summary = observer(() => {
       </span>
       <span className="summary_divider" />
       <span className="summary_middle">
-        {!store.isViewing && (
+        {!store.isViewing && effects && (
           <Button
             className="summary_tiers-toggle"
             children={`${tiersVisible ? '隐藏' : '显示'}阈值(差值)`}
@@ -66,10 +66,12 @@ const Summary = observer(() => {
             }}
           />
         )}
-        <span className="summary_stat summary_damage">
-          {store.equippedEffects.damage.toFixed(5)}
-          <div className="summary_stat-name">每威力伤害期望</div>
-        </span>
+        {effects && (
+          <span className="summary_stat summary_damage">
+            {effects.damage.toFixed(5)}
+            <div className="summary_stat-name">每威力伤害期望</div>
+          </span>
+        )}
       </span>
       <span className="summary_divider" />
       {store.schema.stats.map(stat => (
@@ -81,19 +83,31 @@ const Summary = observer(() => {
             </div>
           )}
           {store.equippedStats[stat]}
-          {stat === 'SKS' || stat === 'SPS' ? (
-            <div className="summary_stat-effect">{effects.gcd.toFixed(2)}s</div>
-          ) : stat === 'VIT' ? (
-            <div className="summary_stat-effect summary_stat-effect-hp">
-              {effects.hp}<span className="summary_stat-small">HP</span>
-            </div>
-          ) : stat === 'TEN' ? (
-            <div className="summary_stat-effect">-{((effects.tenDamage - 1) * 100).toFixed(1)}%</div>
-          ) : stat === 'PIE' ? (
-            <div className="summary_stat-effect">{effects.mp}<span className="summary_stat-small">MP</span>/3s</div>
-          ) : (
-            <div className="summary_stat-name">{G.statNames[stat]}</div>
+          {effects && (
+            <React.Fragment>
+              {(stat === 'SKS' || stat === 'SPS') && (
+                <div className="summary_stat-effect">
+                  {effects.gcd.toFixed(2)}s
+                </div>
+              )}
+              {stat === 'VIT' && (
+                <div className="summary_stat-effect summary_stat-effect-hp">
+                  {effects.hp}<span className="summary_stat-small">HP</span>
+                </div>
+              )}
+              {stat === 'TEN' && (
+                <div className="summary_stat-effect">
+                  -{((effects.tenDamage - 1) * 100).toFixed(1)}%
+                </div>
+              )}
+              {stat === 'PIE' && (
+                <div className="summary_stat-effect">
+                  {effects.mp}<span className="summary_stat-small">MP</span>/3s
+                </div>
+              )}
+            </React.Fragment>
           )}
+          <div className="summary_stat-name">{G.statNames[stat]}</div>
         </span>
       ))}
     </div>

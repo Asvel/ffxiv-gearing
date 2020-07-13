@@ -35,26 +35,26 @@ const JobSelector = observer(() => {
           <JobItem job="BLM" />
           <JobItem job="SMN" />
           <JobItem job="RDM" />
-          <JobItem job="WHM" />
+          <JobItem job="BLU" />
         </JobGroup>
       </div>
       <div className="job-selector_column">
         <JobGroup name="能工巧匠">
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
+          <JobItem job="CRP" />
+          <JobItem job="BSM" />
+          <JobItem job="ARM" />
+          <JobItem job="GSM" />
+          <JobItem job="LTW" />
+          <JobItem job="WVR" />
+          <JobItem job="ALC" />
+          <JobItem job="CUL" />
         </JobGroup>
       </div>
       <div className="job-selector_column">
         <JobGroup name="大地使者">
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
-          <JobItem job="WHM" />
+          <JobItem job="MIN" />
+          <JobItem job="BTN" />
+          <JobItem job="FSH" />
         </JobGroup>
       </div>
       <Icon className="job-selector_background-icon" name="meteo" />

@@ -1,21 +1,5 @@
 export default [
   {
-    id: 17726,
-    name: '渔叉',
-    level: 180,
-    slot: 2,
-    role: 9,
-    jobCategory: 19,
-    equipLevel: 61,
-    materiaSlot: 0,
-    materiaAdvanced: false,
-    stats: {
-      GP: 35,
-    },
-    hq: false,
-    source: '渔叉',
-  },
-  {
     id: 19612,
     name: '赤麻巧匠包头巾',
     level: 180,

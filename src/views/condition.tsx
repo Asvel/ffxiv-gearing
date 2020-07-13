@@ -17,7 +17,7 @@ const ConditionEditing = observer(() => {
   const [ expandedPanel, setExpandedPanel ] = React.useState<ExpandedPanel>(null);
   const toggleExpandedPanel = (panel: ExpandedPanel) => setExpandedPanel(v => v === panel ? null : panel);
   return (
-    <div className="condition card">
+    <div className="condition card" style={condition.job === undefined ? { width: '900px' } : {}}>
       {condition.job === undefined ? (
         <span className="condition_job -empty">选择一个职业开始配装</span>
       ) : (

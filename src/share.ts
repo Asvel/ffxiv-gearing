@@ -5,6 +5,7 @@ const permanentIndexes: { job: G.Job, stats: G.Stat[] }[] = [
   { job: 'PLD', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
   { job: 'WAR', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
   { job: 'DRK', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
+  { job: 'GNB', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
   { job: 'WHM', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
   { job: 'SCH', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
   { job: 'AST', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
@@ -14,9 +15,22 @@ const permanentIndexes: { job: G.Job, stats: G.Stat[] }[] = [
   { job: 'SAM', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'BRD', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'MCH', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'DNC', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'BLM', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'SMN', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'RDM', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'BLU', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'CRP', stats: ['CMS', 'CRL', 'CP'] },
+  { job: 'BSM', stats: ['CMS', 'CRL', 'CP'] },
+  { job: 'ARM', stats: ['CMS', 'CRL', 'CP'] },
+  { job: 'GSM', stats: ['CMS', 'CRL', 'CP'] },
+  { job: 'LTW', stats: ['CMS', 'CRL', 'CP'] },
+  { job: 'WVR', stats: ['CMS', 'CRL', 'CP'] },
+  { job: 'ALC', stats: ['CMS', 'CRL', 'CP'] },
+  { job: 'CUL', stats: ['CMS', 'CRL', 'CP'] },
+  { job: 'MIN', stats: ['GTH', 'PCP', 'GP'] },
+  { job: 'BTN', stats: ['GTH', 'PCP', 'GP'] },
+  { job: 'FSH', stats: ['GTH', 'PCP', 'GP'] },
 ];
 
 const toIndex: { [index in G.Job]?: { index: number, stats: { [index in G.Stat]?: number } } } = {};
@@ -41,7 +55,7 @@ class Ranges {
   materiaCode = 0;
   useVersion(version: number) {
     this._version = version;
-    this.job = version === 1 ? 28 : -1;  // permanentIndexes.length,
+    this.job = version === 1 ? 29 : -1;  // permanentIndexes.length,
     this.gearId = 50000;
     this.materiaSlot = 6;
     this.materiaGrade = 8;
@@ -51,8 +65,6 @@ class Ranges {
     this.materiaCode = this.materiaStat * this.materiaGrade + 1;
   }
 }
-
-// TODO: use compact materiaGrade range
 
 export function stringify({ job, level, gears }: G.Gearset): string {
   const ranges = new Ranges();
@@ -94,7 +106,6 @@ export function stringify({ job, level, gears }: G.Gearset): string {
     materiaCodes[materiaCodeSet[materiaCode]] = parseInt(materiaCode);
   }
 
-  // console.log(gears, minGearId, maxGearId, materiaCodes);
   let result: BI.BigInteger = 0;
   const write = (value: number, range: number) => result = BI.add(BI.multiply(result, range), value);
 
@@ -161,5 +172,5 @@ export function parse(s: string): G.Gearset {
   return { job: job.job, level, gears };
 }
 
-let s = 'pfKAzqARmp635lynL8rrPbLFsnDVVLYiBp34GMvT5aoUuV';
-console.assert(stringify(parse(s)) === s);
+// const s = 'jPaIbq8ix1QmKBMjLbnMBofMOSTeLnFCsqIrAxlt0vQ';
+// console.assert(stringify(parse(s)) === s);

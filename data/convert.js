@@ -215,7 +215,8 @@ for (let equipLevel = 1; equipLevel <= equipLevelGroupBasis[equipLevelGroupBasis
 const gearGroups = [];
 const groupedGears = [];
 for (const gear of gears) {
-  const groupId = equipLevelGroup[gear.equipLevel];
+  let groupId = equipLevelGroup[gear.equipLevel];
+  if ((gear.id >= 10337 && gear.id <=10344) || gear.id === 17726) groupId = 80;  // 专家证、渔叉跟随最新分组加载
   gearGroups[gear.id] = groupId;
   if (groupedGears[groupId] === undefined) groupedGears[groupId] = [];
   groupedGears[groupId].push(gear);

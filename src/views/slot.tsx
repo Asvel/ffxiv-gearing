@@ -11,7 +11,7 @@ import { IconButton } from './icon-button';
 import { Dropdown } from './dropdown';
 import { Materia } from './materia';
 
-const Slot = observer<{ slot: G.Slot }>(({ slot }) => {
+const Slot = observer<{ slot: G.SlotSchema }>(({ slot }) => {
   const store = useStore();
   const groupedGears = store.groupedGears[slot.slot];
   return (
@@ -89,7 +89,7 @@ const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slot
     >
       <td className="gears_left">
         {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
-        {store.displayGearSource && Gear.is(gear) ? (
+        {store.displayGearSource && Gear.is(gear) && gear.source ? (
           <span className="gears_name">
             {gear.source}
             {!gear.isInstalled && <span className="gears_patch">{gear.patch}</span>}

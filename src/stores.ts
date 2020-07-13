@@ -74,7 +74,7 @@ export const Materia = types
   }))
   .views(self => ({
     get name(): string {
-      return self.stat === undefined ? '' : G.statNames[self.stat] + self.grade;
+      return self.stat === undefined ? '' : G.statNames[self.stat].slice(0, 2) + self.grade;
     },
     get isAdvanced(): boolean {
       return self.index >= self.gear.materiaSlot;
@@ -125,6 +125,7 @@ export const Gear = types
       return stats;
     },
     get stats(): G.Stats {
+      if (this.materiaSlot === 0) return this.bareStats;
       const stats: G.Stats = {};
       for (const stat of Object.keys(this.bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
         stats[stat] = Math.min((this.bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0), this.caps[stat]);
@@ -153,7 +154,7 @@ export const Gear = types
       return ret;
     },
     get isInstalled(): boolean {
-      return this.patch <= G.releasedVersion;
+      return !(this.patch > G.releasedVersion);
     },
     get isEquipped(): boolean {
       const store = getParentOfType(self, Store);
@@ -229,7 +230,7 @@ export const Food = types
       return Math.max(0.2, Math.pow(this.utilization / 100, 2));
     },
     get isInstalled(): boolean {
-      return this.patch <= G.releasedVersion;
+      return !(this.patch > G.releasedVersion);
     },
     get isEquipped(): boolean {
       const store = getParentOfType(self, Store);
@@ -285,6 +286,10 @@ export const Store = types
           let { job, minLevel, maxLevel } = self.condition;
           if (gear.slot === -1) {
             minLevel -= 35;  // TODO: craft and gather foods
+          }
+          if (gear.slot === 17 || (gear.slot === 2 && job === 'FSH')) {  // Soul crystal and spearfishing gig
+            minLevel = 0;
+            maxLevel = 999;
           }
           if (gear.level >= minLevel && gear.level <= maxLevel && G.jobCategories[gear.jobCategory][job!]) {
             ret.push(gear.id);
@@ -383,6 +388,7 @@ export const Store = types
   .views(self => ({
     get equippedEffects() {
       console.log('equippedEffects');
+      if (!('statModifiers' in self.schema)) return undefined;
       const levelMod = G.levelModifiers[80];  // FIXME
       const { main, sub, div } = levelMod;
       const { CRT, DET, DHT, TEN, SKS, SPS, VIT, PIE, PDMG, MDMG } = self.equippedStats;

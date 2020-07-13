@@ -90,6 +90,9 @@
 .summary_stat-effect {
   font-size: 12px;
   white-space: nowrap;
+  + .summary_stat-name {
+    display: none;
+  }
 }
 .summary_stat-small {
   display: inline-block;
