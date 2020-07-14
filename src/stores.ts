@@ -43,8 +43,8 @@ export const MateriaGrade = types.number as ISimpleType<G.MateriaGrade>;
 export const Condition = types
   .model('Condition', {
     job: types.maybe(Job),
-    minLevel: types.optional(types.number, 440),
-    maxLevel: types.optional(types.number, 470),
+    minLevel: types.optional(types.number, 470),
+    maxLevel: types.optional(types.number, 505),
   })
   .actions(self => ({
     setJob(value: G.Job): void {
