@@ -1,4 +1,4 @@
-@import "./mixins";
+@use "./mixins" as *;
 
 .summary {
   display: flex;
@@ -10,7 +10,7 @@
     margin-left: -12px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    @include mdc-elevation(4);
+    @include elevation(4);
   }
   .app-view & > span:not(.summary_divider) {
     margin-top: -2px;
@@ -110,7 +110,7 @@
 
 .clan {
   padding: 8px;
-  @include mdc-elevation(8);
+  @include elevation(8);
 }
 .clan_race {
   text-align: right;

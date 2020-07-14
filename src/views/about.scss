@@ -1,4 +1,4 @@
-@import "./mixins";
+@use "./mixins" as *;
 
 .about {
   margin-top: 10px;

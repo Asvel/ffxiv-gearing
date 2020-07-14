@@ -1,4 +1,4 @@
-@import "./mixins";
+@use "./mixins" as *;
 
 .gears_materia {
   position: relative;
@@ -45,7 +45,7 @@
 }
 
 .materias {
-  @include mdc-elevation(4);
+  @include elevation(4);
   tbody tr:hover {
     background-color: transparent;
   }

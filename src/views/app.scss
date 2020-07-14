@@ -1,10 +1,31 @@
-@import "../../node_modules/@material/elevation/mixins";
-@import "../../node_modules/@material/card/mixins";
-@import "./mdc-styles/ripple";
-@import "./mdc-styles/button";
-@import "./mdc-styles/icon-button";
-@import "./mdc-styles/textfield";
-@import "./mixins";
+@use "../../node_modules/@material/feature-targeting";
+@use "../../node_modules/@material/card/mixins" as card;
+@use "../../node_modules/@material/ripple/mixins" as ripple;
+@use "../../node_modules/@material/button/mixins" as button;
+@use "../../node_modules/@material/icon-button/mixins" as icon-button;
+@use "../../node_modules/@material/line-ripple/mixins" as line-ripple;
+@use "../../node_modules/@material/textfield/mixins" as textfield;  // only use line-ripple, skip others
+@use "./mixins" as *;
+
+@include ripple.common(feature-targeting.without(typography));
+@include ripple.core-styles(feature-targeting.without(typography));
+@include button.core-styles(feature-targeting.without(typography));
+@include button.theme-baseline(feature-targeting.without(typography));
+@include icon-button.core-styles(feature-targeting.without(typography));
+@include line-ripple.core-styles(feature-targeting.without(typography));
+@include textfield.core-styles(feature-targeting.without(typography));
+
+.mdc-ripple-surface {
+  cursor: pointer;
+}
+.mdc-icon-button {
+  svg {
+    vertical-align: top;
+  }
+}
+.mdc-icon-button--dense {
+  @include icon-button.icon-size(15px, 15px, 5px, feature-targeting.without(typography));
+}
 
 body {
   overflow-x: auto;
@@ -34,9 +55,9 @@ svg {
 }
 
 .card {
-  @include mdc-card-fill-color(surface);
-  @include mdc-card-shape-radius(medium);
-  @include mdc-elevation(1);
+  @include card.fill-color(surface);
+  @include card.shape-radius(medium);
+  @include elevation(1);
   overflow: hidden;
 }
 

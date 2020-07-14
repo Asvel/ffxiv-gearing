@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import 'mobx-react-lite/batchingForReactDom';
 import { store } from "./stores";
 import { App } from './views/app'
 import './utils/sanitize.css';

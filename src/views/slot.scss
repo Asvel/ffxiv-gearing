@@ -1,4 +1,4 @@
-@import "./mixins";
+@use "./mixins" as *;
 
 .gears_slot {
   margin-top: 10px;
@@ -116,7 +116,7 @@
 
 .gear-menu {
   padding: 9px 0;
-  @include mdc-elevation(4);
+  @include elevation(4);
 }
 
 .gear-menu_item {

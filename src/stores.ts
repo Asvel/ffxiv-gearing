@@ -253,7 +253,7 @@ const GearUnion = types.union({
 export type IGearUnion = IGear | IFood;
 export const GearUnionReference = types.maybe(types.reference(GearUnion, {
   get(identifier, parent): any {
-    const value = parent ? resolveIdentifier(GearUnion, parent, identifier) : undefined;
+    const value = parent ? resolveIdentifier(GearUnion as any/*FIXME*/, parent, identifier) : undefined;
     return value && gearData.has(Math.abs(value.id)) ? value : undefined;
   },
   set(value): any {

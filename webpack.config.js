@@ -31,6 +31,14 @@ module.exports = function (env, argv) {
           ],
         },
         {
+          test: /node_modules[\\\/]@material[\\\/]ripple[\\\/]foundation\.js$/,
+          use:
+            require('simple-functional-loader').createLoader(function(source) {
+              // mdc-ripple should not force using even number ripple size.
+              return source.replace('initialSize - 1;', 'initialSize;');
+            }),
+        },
+        {
           test: /\.s?css$/,
           use: [
             'style-loader',
@@ -47,7 +55,9 @@ module.exports = function (env, argv) {
             {
               loader: 'sass-loader',
               options: {
-                includePaths: ['./node_modules'],
+                sassOptions: {
+                  includePaths: ['./node_modules'],
+                },
               },
             },
           ],
@@ -76,15 +86,11 @@ module.exports = function (env, argv) {
       moduleIds: 'hashed',
     },
     devtool: !prod && 'cheap-source-map',
-    stats: {
-      children: false,
-      maxModules: 0,
-    },
-    serve: {
-      devMiddleware: {
-        logLevel: 'warn',
-      },
-      hotClient: false,
+    stats: 'errors-warnings',
+    devServer: {
+      contentBase: false,
+      injectClient: false,
+      injectHot: false,
     },
   }, {
     mode: prod ? 'production' : 'none',
