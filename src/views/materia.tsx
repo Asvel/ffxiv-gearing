@@ -36,7 +36,7 @@ const MateriaPanel = observer<{ materia: IMateria }>(({ materia }) => {
   return (
     <table className="materias table card">
       <tbody>
-      {store.schema.stats.slice(1).map(stat => stat in G.materias && (
+      {store.schema.stats.map(stat => stat in G.materias && (
         <tr
           key={stat}
           className={classNames('materias_row', materia.gear.currentMeldableStats[stat]! <= 0 && '-invalid')}
