@@ -55,19 +55,19 @@ const SlotCompact = observer(() => {
       </thead>
       <tbody>
       {store.schema.slots.map(slot => (
-        <GearRow key={slot.slot} gear={store.equippedGears.get(slot.slot.toString())} slotName={slot.name} />
+        <GearRow key={slot.slot} gear={store.equippedGears.get(slot.slot.toString())} slot={slot} />
       ))}
       </tbody>
     </table>
   );
 });
 
-const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slotName }) => {
+const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, slot }) => {
   const store = useStore();
-  return gear === undefined ? (
+  return gear === undefined ? slot?.levelWeight === 0 ? null : (
     <tr className="gears_item">
       <td className="gears_left">
-        {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
+        {slot !== undefined && <span className="gears_inline-slot">{(slot.shortName ?? slot.name).slice(0, 2)}</span>}
         <span className="gears_empty">{store.isViewing ? '无装备' : '无匹配'}</span>
       </td>
       <td className="gears_materias" />
@@ -88,7 +88,7 @@ const GearRow = observer<{ gear?: IGearUnion, slotName?: string }>(({ gear, slot
       }}
     >
       <td className="gears_left">
-        {slotName !== undefined && <span className="gears_inline-slot">{slotName.slice(0, 2)}</span>}
+        {slot !== undefined && <span className="gears_inline-slot">{(slot.shortName ?? slot.name).slice(0, 2)}</span>}
         {store.displayGearSource && Gear.is(gear) && gear.source ? (
           <span className="gears_name">
             {gear.source}

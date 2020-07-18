@@ -95,6 +95,7 @@ const statSchemas: { [index: string]: Stat[] } = {
 export interface SlotSchema {
   slot: number,
   name: string,
+  shortName?: string,
   levelWeight?: number,
 }
 const commonSlotSchema: SlotSchema[] = [
@@ -116,7 +117,7 @@ const combatJobSlotSchema =
 const gatheringJobSlotSchema =
   ([{ slot: 1, name: '主工具' }, { slot: 2, name: '副工具' }] as SlotSchema[]).concat(commonSlotSchema);
 const craftingJobSlotSchema = gatheringJobSlotSchema.slice(0, -1).concat(
-  [{ slot: 17, name: '灵魂水晶', levelWeight: 0 }, { slot: -1, name: '食物', levelWeight: 0 }]);
+  [{ slot: 17, name: '灵魂水晶', shortName: '水晶', levelWeight: 0 }, { slot: -1, name: '食物', levelWeight: 0 }]);
 
 export const baseStats: { [index in Stat]?: 'main' | 'sub' | number } = {
   STR: 'main',

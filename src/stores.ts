@@ -224,7 +224,7 @@ export const Food = types
         fullStat += this.stats[stat];
         effectiveStat += this.effectiveStats[stat];
       }
-      return Math.round(effectiveStat / fullStat * 100);
+      return floor(effectiveStat / fullStat * 100);
     },
     get utilizationOpacity(): number {
       return Math.max(0.2, Math.pow(this.utilization / 100, 2));
@@ -474,12 +474,13 @@ export const Store = types
       self.mode = 'edit';
       let minLevel = Infinity;
       let maxLevel = -Infinity;
-      self.equippedGears.forEach(gear => {
-        if (gear !== undefined) {
+      for (const slot of self.schema.slots) {
+        const gear = self.equippedGears.get(slot.slot.toString());
+        if (gear !== undefined && slot.levelWeight !== 0) {
           if (gear.level < minLevel) minLevel = gear.level;
           if (gear.level > maxLevel) maxLevel = gear.level;
         }
-      });
+      }
       store.condition.minLevel = minLevel;
       store.condition.maxLevel = maxLevel;
     },
