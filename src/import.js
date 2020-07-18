@@ -1,5 +1,5 @@
 (async () => {
-  const origin = new URL(document.currentScript.src + '/../').href.replace(/\?[\d.]*$/, '');
+  const origin = new URL(document.currentScript.src.replace(/\?[\d.]*$/, '') + '/../').href;
   __webpack_require__.p = origin;
 
   const data = {
