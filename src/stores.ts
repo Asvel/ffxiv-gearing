@@ -550,6 +550,12 @@ onSnapshot(store, snapshot => {
   }
 });
 
+autorun(() => {
+  if (store.condition.job !== undefined && !store.isLoading) {
+    document.title = `${store.schema.name}(il${store.equippedLevel}) - 最终幻想14配装器`;
+  }
+});
+
 // onPatch(store, patch => console.log(patch));
 // autorun(() => console.log(store.share, store.share.length));
 
