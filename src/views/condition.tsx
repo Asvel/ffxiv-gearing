@@ -28,21 +28,23 @@ const ConditionEditing = observer(() => {
           </span>
         </Ripple>
       )}
-      <span className="condition_divider" />
-      <span className="condition_level">
-        <span className="condition_level-value">
-          <ConditionLevelInput
-            value={condition.minLevel}
-            onChange={value => condition.setMinLevel(value)}
-          />
-          <span className="condition_level-separator">-</span>
-          <ConditionLevelInput
-            value={condition.maxLevel}
-            onChange={value => condition.setMaxLevel(value)}
-          />
+      {condition.job !== undefined && <span className="condition_divider" />}
+      {condition.job !== undefined && (
+        <span className="condition_level">
+          <span className="condition_level-value">
+            <ConditionLevelInput
+              value={condition.minLevel}
+              onChange={value => condition.setMinLevel(value)}
+            />
+            <span className="condition_level-separator">-</span>
+            <ConditionLevelInput
+              value={condition.maxLevel}
+              onChange={value => condition.setMaxLevel(value)}
+            />
+          </span>
+          品级
         </span>
-        品级
-      </span>
+      )}
       {/*{condition.job !== undefined && <span className="condition_divider" />}*/}
       {/*{condition.job !== undefined && (*/}
       {/*  <Button className="condition_button">魔晶石</Button>*/}
@@ -137,6 +139,11 @@ interface ConditionLevelInputProps {
 }
 const ConditionLevelInput = observer<ConditionLevelInputProps>(({ value, onChange })  => {
   const [ inputValue, setInputValue ] = React.useState(value.toString());
+  const [ prevValue, setPrevValue ] = React.useState(value);
+  if (value !== prevValue) {
+    setInputValue(value.toString());
+    setPrevValue(value);
+  }
   const inputRef = React.useRef<HTMLInputElement>(null);
   React.useEffect(() => {
     const handleWheel = (e: HTMLElementEventMap['wheel']) => {

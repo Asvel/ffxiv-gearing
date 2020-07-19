@@ -46,6 +46,11 @@ export const Condition = types
   })
   .actions(self => ({
     setJob(value: G.Job): void {
+      const newDefaultLevel = G.jobSchemas[value].defaultLevel;
+      if (newDefaultLevel !== (self.job && G.jobSchemas[self.job].defaultLevel)) {
+        self.minLevel = newDefaultLevel[0];
+        self.maxLevel = newDefaultLevel[1];
+      }
       self.job = value;
     },
     setMinLevel(value: number): void {
