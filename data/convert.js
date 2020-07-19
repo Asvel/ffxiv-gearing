@@ -75,6 +75,14 @@ const jobCategoriesUsed = [];
 const levelsUsed = {};
 const sourcesMissing = {};
 
+jobCategories[2] = { PLD: true, WAR: true, DRK: true, GNB: true, MNK: true, DRG: true, SAM: true };
+const jobCategoryOfMainStats = {
+  STR: 2,
+  DEX: 105,
+  INT: 63,
+  MND: 64,
+};
+
 const gears = Item
   .map((x, index) => {
     if (jobCategories[x['ClassJobCategory']] === undefined) return;
@@ -105,8 +113,27 @@ const gears = Item
     if (('INT' in stats || 'MND' in stats) && rawStats[13] > 0) {
       stats['MDMG'] = rawStats[13];
     }
+    let jobCategory = Number(x['ClassJobCategory']);
+    if (x['EquipSlotCategory'] === '13' && jobCategory === 129) {  // 青魔武器没有属性
+      stats['MDMG'] = rawStats[13];
+    }
     if (Object.keys(stats).length === 0) return;
-    jobCategoriesUsed[x['ClassJobCategory']] = jobCategories[x['ClassJobCategory']];
+    if (jobCategory === 1) {
+      const existStats =  Object.keys(jobCategoryOfMainStats).filter(x => x in stats);
+      if (existStats.length === 1) {
+        jobCategory = jobCategoryOfMainStats[existStats[0]];
+      }
+      const craft = 'CMS' in stats || 'CRL' in stats || 'CP' in stats;
+      const gather = 'GTH' in stats || 'PCP' in stats || 'GP' in stats;
+      if (craft) jobCategory = 33;
+      if (gather) jobCategory = 32;
+      if (craft && gather) jobCategory = 35;
+    }
+    const equipLevel = Number(x['Level{Equip}']);
+    if (jobCategory === 63 && equipLevel > 60) {  // 青魔并不能装备高等级装备
+      jobCategory = 89;
+    }
+    jobCategoriesUsed[jobCategory] = jobCategories[jobCategory];
     levelsUsed[x['Level{Item}']] = true;
     if (sourceOfId[x['#']] === undefined && Number(x['Level{Equip}']) >= 60) {
       sourcesMissing[x['#']] = x['Name'];
@@ -117,8 +144,8 @@ const gears = Item
       level: Number(x['Level{Item}']),
       slot: Number(x['EquipSlotCategory']),
       role: Number(x['BaseParamModifier']),
-      jobCategory: Number(x['ClassJobCategory']),
-      equipLevel: Number(x['Level{Equip}']),
+      jobCategory,
+      equipLevel,
       materiaSlot: Number(x['MateriaSlotCount']),
       materiaAdvanced: x['IsAdvancedMeldingPermitted'] === 'True',
       stats,
