@@ -128,9 +128,9 @@ const gears = Item
     };
   })
   .filter(Boolean)
-  .sort((x, y) => {
-    const k = x.level - y.level;
-    return k !== 0 ? k : x.id - y.id;
+  .sort((a, b) => {
+    const k = a.level - b.level;
+    return k !== 0 ? k : a.id - b.id;
   });
 
 const jobCategoryMap = Object.fromEntries(jobCategoriesUsed
@@ -153,6 +153,7 @@ const foods = Item
           }
         }
       }
+      if (Object.keys(stats).length === 0) return;
       const jobs = {};
       if ('CMS' in stats || 'CRL' in stats || 'CP' in stats) {
         ['CRP', 'BSM', 'ARM', 'GSM', 'LTW', 'WVR', 'ALC', 'CUL'].forEach(j => jobs[j] = true);
@@ -203,20 +204,23 @@ for (const i of Object.keys(statAbbrs)) {
   slotCaps[statAbbrs[i]] = Array.from({ length: 14 }).map((_, j) => j === 0 ? 0 : parseInt(BaseParam[i][4 + j]));
 }
 
-const equipLevelGroupBasis = [1, 50, 51, 60, 61, 70, 71, 80];
-const equipLevelGroup = [];
+const levelGroupBasis = [1, 50, 150, 290, 430];
+const levelGroupIds = [];
+const levelGroupLast = levelGroupBasis[levelGroupBasis.length - 1];
 let groupId = 0;
-for (let equipLevel = 1; equipLevel <= equipLevelGroupBasis[equipLevelGroupBasis.length - 1]; equipLevel++) {
-  if (equipLevelGroupBasis.includes(equipLevel)){
-    groupId = equipLevel;
+for (let level = 1; level <= levelGroupLast + 200; level++) {
+  if (levelGroupBasis.includes(level)){
+    groupId = level;
   }
-  equipLevelGroup[equipLevel] = groupId;
+  levelGroupIds[level] = groupId;
 }
 const gearGroups = [];
 const groupedGears = [];
 for (const gear of gears) {
-  let groupId = equipLevelGroup[gear.equipLevel];
-  if ((gear.id >= 10337 && gear.id <=10344) || gear.id === 17726) groupId = 80;  // 专家证、渔叉跟随最新分组加载
+  let groupId = levelGroupIds[gear.level];
+  if ((gear.id >= 10337 && gear.id <= 10344) || gear.id === 17726) {  // 专家证、渔叉跟随最新分组加载
+    groupId = levelGroupLast;
+  }
   gearGroups[gear.id] = groupId;
   if (groupedGears[groupId] === undefined) groupedGears[groupId] = [];
   groupedGears[groupId].push(gear);
@@ -250,8 +254,9 @@ if (sourcesMissingIds.length > 0) {
   fs.unlink('./out/sourcesMissing.txt', () => {});  // ignore error
 }
 
+fs.writeFileSync('./out/gearGroupBasis.js', stringify(levelGroupBasis).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroups.js', stringify(gearGroups).replace(/null,/g, ','));
-for (const groupId of equipLevelGroupBasis) {
+for (const groupId of levelGroupBasis) {
   fs.writeFileSync(`./out/gears-${groupId}.js`, stringify(groupedGears[groupId]));
 }
 fs.writeFileSync('./out/gears-food.js', stringify(foods));

@@ -23,11 +23,9 @@ declare module 'mobx-state-tree' {
 }
 
 function floor(value: number) {
-  if (Math.floor(value + 1e-7) !== Math.floor(value)) debugger;
   return Math.floor(value + 1e-7);
 }
 function ceil(value: number) {
-  if (Math.ceil(value - 1e-7) !== Math.ceil(value)) debugger;
   return Math.ceil(value - 1e-7);
 }
 
@@ -282,7 +280,7 @@ export const Store = types
           return Array.from(self.gears.keys(), id => Number(id) as G.GearId);
         }
         const ret: G.GearId[] = [];
-        for (const gear of gearData.values()) {
+        for (const gear of gearDataOrdered.get()) {
           let { job, minLevel, maxLevel } = self.condition;
           if (gear.slot === -1) {
             minLevel -= 35;  // TODO: craft and gather foods
@@ -506,23 +504,24 @@ export const Store = types
   .actions(self => ({
     afterCreate(): void {
       reaction(() => self.condition.job && self.filteredIds, self.createGears);
+      autorun(() => loadGearDataOfLevelRange(self.condition.minLevel, self.condition.maxLevel));
     },
   }));
 export interface IStore extends Instance<typeof Store> {}
 
 export const gearData = observable.map<G.GearId, G.GearBase>({}, { deep: false });
-const gearDataLoadStatus = observable.map<string, 'loading' | 'finished'>({});  // TODO: handle failures
+const gearDataLoadStatus = observable.map<string | number, 'loading' | 'finished'>({});  // TODO: handle failures
 export const gearDataLoading = computed(() => {
   for (const status of gearDataLoadStatus.values()) {
     if (status === 'loading') return true;
   }
   return false;
 });
-const loadGearData = async (groupId: string) => {
-  if (gearDataLoadStatus.has(groupId)) return;
+const loadGearData = async (groupId: string | number) => {
+  if (groupId === undefined || gearDataLoadStatus.has(groupId)) return;
   runInAction(() => gearDataLoadStatus.set(groupId, 'loading'));
   const data = (await import(/* webpackChunkName: "[request]" */`../data/out/gears-${groupId}`)).default as G.GearBase[];
-  console.log(`gears-${groupId}`);
+  console.log(`Load gears-${groupId}.`);
   runInAction(() => {
     for (const item of data) {
       if (!gearData.has(item.id)) {
@@ -532,33 +531,42 @@ const loadGearData = async (groupId: string) => {
     gearDataLoadStatus.set(groupId, 'finished');
   });
 };
+const gearGroupBasis = require('../data/out/gearGroupBasis').default as number[];
 const gearGroups = require('../data/out/gearGroups').default as number[];
-const loadGearDataByGear = (gearId: G.GearId) => {
-  const groupId = gearGroups[gearId];
-  if (groupId) loadGearData(groupId.toString());
+const loadGearDataOfGear = (gearId: G.GearId) => loadGearData(gearGroups[gearId]);
+const loadGearDataOfLevelRange = (minLevel: number, maxLevel: number) => {
+  let i = 0;
+  while (gearGroupBasis[i + 1] <= minLevel) i++;
+  while (gearGroupBasis[i] <= maxLevel) {
+    loadGearData(gearGroupBasis[i]);
+    i++;
+  }
 };
 loadGearData('food');
-loadGearData('80');  // FIXME
-// TODO: loadGearDataByItemLevel
+loadGearData(gearGroupBasis[gearGroupBasis.length - 1]);
+
+export const gearDataOrdered = observable.box([] as G.GearBase[], { deep: false });
+reaction(() => gearDataLoading.get(), () => {
+  gearDataOrdered.set(Array.from(gearData.values()).sort((a, b) => {
+    const k = a.level - b.level;
+    return k !== 0 ? k : a.id - b.id;
+  }));
+});
 
 export const store = Store.create(archive.load());
-// archive.load();
-// export const store = Stores.create();
 
 onSnapshot(store, snapshot => {
   if (snapshot.condition.job !== undefined && snapshot.mode !== 'view') {
     archive.save(snapshot);
   }
 });
+// onPatch(store, patch => console.log(patch));
 
 autorun(() => {
   if (store.condition.job !== undefined && !store.isLoading) {
     document.title = `${store.schema.name}(il${store.equippedLevel}) - 最终幻想14配装器`;
   }
 });
-
-// onPatch(store, patch => console.log(patch));
-// autorun(() => console.log(store.share, store.share.length));
 
 const gearsetStore = observable.box<G.Gearset>(undefined, { deep: false });
 autorun(() => {  // gearsetStore react to main store
@@ -600,7 +608,7 @@ const parseQuery = () => {
     if (query.length > 3) {
       const gearset = share.parse(query);
       for (const gear of gearset.gears) {
-        loadGearDataByGear(gear.id);
+        loadGearDataOfGear(gear.id);
       }
       gearsetStore.set(gearset);
       store.setMode('view');
