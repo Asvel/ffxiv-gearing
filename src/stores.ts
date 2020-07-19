@@ -41,15 +41,15 @@ export const MateriaGrade = types.number as ISimpleType<G.MateriaGrade>;
 export const Condition = types
   .model('Condition', {
     job: types.maybe(Job),
-    minLevel: types.optional(types.number, 470),
-    maxLevel: types.optional(types.number, 505),
+    minLevel: types.optional(types.number, 0),
+    maxLevel: types.optional(types.number, 0),
   })
   .actions(self => ({
     setJob(value: G.Job): void {
-      const newDefaultLevel = G.jobSchemas[value].defaultLevel;
-      if (newDefaultLevel !== (self.job && G.jobSchemas[self.job].defaultLevel)) {
-        self.minLevel = newDefaultLevel[0];
-        self.maxLevel = newDefaultLevel[1];
+      const newLevel = G.jobSchemas[value].defaultItemLevel;
+      if (newLevel !== (self.job && G.jobSchemas[self.job].defaultItemLevel)) {
+        self.minLevel = newLevel[0];
+        self.maxLevel = newLevel[1];
       }
       self.job = value;
     },
@@ -307,6 +307,9 @@ export const Store = types
         }
         return ret;
       },
+      get jobLevel(): keyof typeof G.levelModifiers {  // FIXME: why this.jobLevel is any
+        return this.schema.jobLevel ?? 80;
+      },
     };
   })
   .views(self => ({
@@ -330,7 +333,7 @@ export const Store = types
     },
     get baseStats(): G.Stats {
       if (self.condition.job === undefined) return {};
-      const levelModifier = G.levelModifiers[80];  // FIXME
+      const levelModifier = G.levelModifiers[self.jobLevel];
       const stats: G.Stats = { PDMG: 0, MDMG: 0 };
       for (const stat of this.schema.stats as G.Stat[]) {
         const baseStat = G.baseStats[stat] ?? 0;
@@ -392,7 +395,7 @@ export const Store = types
     get equippedEffects() {
       console.log('equippedEffects');
       if (!('statModifiers' in self.schema)) return undefined;
-      const levelMod = G.levelModifiers[80];  // FIXME
+      const levelMod = G.levelModifiers[self.jobLevel];
       const { main, sub, div } = levelMod;
       const { CRT, DET, DHT, TEN, SKS, SPS, VIT, PIE, PDMG, MDMG } = self.equippedStats;
       const { statModifiers, mainStat, traitDamageMultiplier } = self.schema;
@@ -416,7 +419,7 @@ export const Store = types
       return { crtChance, crtDamage, detDamage, dhtChance, tenDamage, damage, gcd, ssDamage, hp, mp };
     },
     get equippedTiers(): { [index in G.Stat]?: { prev: number, next: number } | undefined } {
-      const { main, sub, div } = G.levelModifiers[80];
+      const { main, sub, div } = G.levelModifiers[self.jobLevel];
       const { CRT, DET, DHT, TEN, SKS, SPS, PIE } = self.equippedStats;
       function calcTier(value: number, multiplier: number) {
         if (value !== value) return undefined;
@@ -445,7 +448,7 @@ export const Store = types
     get share(): string {
       const { job } =  self.condition;
       if (job === undefined) return '';
-      const level = 70;  // FIXME
+      const level = self.jobLevel;  // FIXME
       const gears: G.Gearset['gears'] = [];
       for (const slot of self.schema.slots) {
         const gear = store.equippedGears.get(slot.slot.toString());
