@@ -13,7 +13,7 @@ const App = observer<{ store: IStore }>(({ store }) => {
     <StoreContext.Provider value={store}>
       <div className={classNames('app', `app-${store.mode}`)}>
         {store.isViewing ? <ConditionViewing /> : <ConditionEditing />}
-        {store.condition.job !== undefined && (
+        {store.job !== undefined && (
           store.isViewing ? (
             <SlotCompact />
           ) : (
@@ -22,7 +22,7 @@ const App = observer<{ store: IStore }>(({ store }) => {
             ))
           )
         )}
-        {store.condition.job !== undefined && <Summary />}
+        {store.job !== undefined && <Summary />}
         <About />
         <div id="popper" />
       </div>

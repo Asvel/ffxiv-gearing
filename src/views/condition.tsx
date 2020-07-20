@@ -12,45 +12,44 @@ import { JobSelector } from './job-selector';
 
 const ConditionEditing = observer(() => {
   const store = useStore();
-  const { condition } = store;
   type ExpandedPanel = 'job' | 'materia' | null;
   const [ expandedPanel, setExpandedPanel ] = React.useState<ExpandedPanel>(null);
   const toggleExpandedPanel = (panel: ExpandedPanel) => setExpandedPanel(v => v === panel ? null : panel);
   return (
-    <div className="condition card" style={condition.job === undefined ? { width: '900px' } : {}}>
-      {condition.job === undefined ? (
+    <div className="condition card" style={store.job === undefined ? { width: '900px' } : {}}>
+      {store.job === undefined ? (
         <span className="condition_job -empty">选择一个职业开始配装</span>
       ) : (
         <Ripple>
           <span className="condition_job" onClick={() => toggleExpandedPanel('job')}>
-            <Icon className="condition_job-icon" name={'jobs/' + condition.job} />
+            <Icon className="condition_job-icon" name={'jobs/' + store.job} />
             <span className="condition_job-name">{store.schema.name}</span>
           </span>
         </Ripple>
       )}
-      {condition.job !== undefined && <span className="condition_divider" />}
-      {condition.job !== undefined && (
+      {store.job !== undefined && <span className="condition_divider" />}
+      {store.job !== undefined && (
         <span className="condition_level">
           <span className="condition_level-value">
             <ConditionLevelInput
-              value={condition.minLevel}
-              onChange={value => condition.setMinLevel(value)}
+              value={store.minLevel}
+              onChange={value => store.setMinLevel(value)}
             />
             <span className="condition_level-separator">-</span>
             <ConditionLevelInput
-              value={condition.maxLevel}
-              onChange={value => condition.setMaxLevel(value)}
+              value={store.maxLevel}
+              onChange={value => store.setMaxLevel(value)}
             />
           </span>
           品级
         </span>
       )}
-      {/*{condition.job !== undefined && <span className="condition_divider" />}*/}
-      {/*{condition.job !== undefined && (*/}
+      {/*{store.job !== undefined && <span className="condition_divider" />}*/}
+      {/*{store.job !== undefined && (*/}
       {/*  <Button className="condition_button">魔晶石</Button>*/}
       {/*)}*/}
       <span className="condition_right">
-        {condition.job !== undefined && (
+        {store.job !== undefined && (
           <Dropdown
             label={({ ref, toggle }) => (
               <Button ref={ref} className="condition_button" onClick={toggle}>分享</Button>
@@ -100,18 +99,17 @@ const ConditionEditing = observer(() => {
         <span className="condition_divider" />
         <span className="condition_version">数据版本 {G.dataVersion}</span>
       </span>
-      {(condition.job === undefined || expandedPanel === 'job') && <JobSelector />}
+      {(store.job === undefined || expandedPanel === 'job') && <JobSelector />}
     </div>
   );
 });
 
 const ConditionViewing = observer(() => {
   const store = useStore();
-  const { condition } = store;
-  return condition.job === undefined ? null : (
+  return store.job === undefined ? null : (
     <div className="condition card">
       <span className="condition_job">
-        <Icon className="condition_job-icon" name={'jobs/' + condition.job} />
+        <Icon className="condition_job-icon" name={'jobs/' + store.job} />
         <span className="condition_job-name">{store.schema.name}</span>
       </span>
       {/*<span className="condition_divider" />*/}

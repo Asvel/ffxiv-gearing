@@ -38,30 +38,6 @@ export const GearId = types.identifierNumber as ISimpleType<G.GearId>;
 export const Stat = types.string as ISimpleType<G.Stat>;
 export const MateriaGrade = types.number as ISimpleType<G.MateriaGrade>;
 
-export const Condition = types
-  .model('Condition', {
-    job: types.maybe(Job),
-    minLevel: types.optional(types.number, 0),
-    maxLevel: types.optional(types.number, 0),
-  })
-  .actions(self => ({
-    setJob(value: G.Job): void {
-      const newLevel = G.jobSchemas[value].defaultItemLevel;
-      if (newLevel !== (self.job && G.jobSchemas[self.job].defaultItemLevel)) {
-        self.minLevel = newLevel[0];
-        self.maxLevel = newLevel[1];
-      }
-      self.job = value;
-    },
-    setMinLevel(value: number): void {
-      self.minLevel = value;
-    },
-    setMaxLevel(value: number): void {
-      self.maxLevel = value;
-    },
-  }));
-export interface ICondition extends Instance<typeof Condition> {}
-
 export const Materia = types
   .model({
     stat: types.maybe(Stat),
@@ -110,6 +86,7 @@ export const Gear = types
     get name() { return self.data.name; },
     get level() { return self.data.level; },
     get slot() { return self.id > 0 ? self.data.slot : -self.data.slot; },
+    get jobs() { return G.jobCategories[self.data.jobCategory]; },
     get materiaSlot() { return self.data.materiaSlot; },
     get materiaAdvanced() { return self.data.materiaAdvanced; },
     get hq() { return self.data.hq; },
@@ -191,6 +168,7 @@ export const Food = types
     get name() { return self.data.name; },
     get level() { return self.data.level; },
     get slot() { return self.data.slot; },
+    get jobs() { return G.jobCategories[self.data.jobCategory]; },
     get hq() { return true; },
     get patch() { return self.data.patch; },
     get stats(): G.Stats { return self.data.stats; },
@@ -267,7 +245,9 @@ export const GearUnionReference = types.maybe(types.reference(GearUnion, {
 export const Store = types
   .model('Store', {
     mode: types.optional(types.string as ISimpleType<Mode>, 'edit'),
-    condition: types.optional(Condition, {}),
+    job: types.maybe(Job),
+    minLevel: types.optional(types.number, 0),
+    maxLevel: types.optional(types.number, 0),
     gears: types.map(GearUnion),
     equippedGears: types.map(GearUnionReference),
     displayGearSource: types.optional(types.boolean, false),
@@ -286,7 +266,7 @@ export const Store = types
         }
         const ret: G.GearId[] = [];
         for (const gear of gearDataOrdered.get()) {
-          let { job, minLevel, maxLevel } = self.condition;
+          let { job, minLevel, maxLevel } = self;
           if (gear.slot === -1) {
             minLevel -= 35;  // TODO: craft and gather foods
           }
@@ -308,6 +288,7 @@ export const Store = types
         return ret;
       },
       get jobLevel(): keyof typeof G.levelModifiers {  // FIXME: why this.jobLevel is any
+        // TODO: changable job level
         return this.schema.jobLevel ?? 80;
       },
     };
@@ -332,7 +313,7 @@ export const Store = types
       return ret;
     },
     get baseStats(): G.Stats {
-      if (self.condition.job === undefined) return {};
+      if (self.job === undefined) return {};
       const levelModifier = G.levelModifiers[self.jobLevel];
       const stats: G.Stats = { PDMG: 0, MDMG: 0 };
       for (const stat of this.schema.stats as G.Stat[]) {
@@ -347,7 +328,7 @@ export const Store = types
       return stats;
     },
     get equippedStatsWithoutFood(): G.Stats {
-      if (self.condition.job === undefined) return {};
+      if (self.job === undefined) return {};
       const stats: G.Stats = Object.assign({}, this.baseStats);
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined) continue;
@@ -361,7 +342,7 @@ export const Store = types
     },
     get equippedStats(): G.Stats {
       console.log('equippedStats');
-      if (self.condition.job === undefined) return {};
+      if (self.job === undefined) return {};
       const equippedFood = self.equippedGears.get('-1') as IFood;
       if (equippedFood === undefined) return this.equippedStatsWithoutFood;
       const stats: G.Stats = {};
@@ -381,8 +362,8 @@ export const Store = types
       return self.equippedGears.get(gear.slot.toString()) === gear;
     },
     get schema(): typeof G.jobSchemas[G.Job] {
-      if (self.condition.job === undefined) throw new ReferenceError();
-      return G.jobSchemas[self.condition.job];
+      if (self.job === undefined) throw new ReferenceError();
+      return G.jobSchemas[self.job];
     },
     get raceName(): string {
       return G.races[floor(self.clan / 2)];
@@ -446,9 +427,7 @@ export const Store = types
       };
     },
     get share(): string {
-      const { job } =  self.condition;
-      if (job === undefined) return '';
-      const level = self.jobLevel;  // FIXME
+      if (self.job === undefined) return '';
       const gears: G.Gearset['gears'] = [];
       for (const slot of self.schema.slots) {
         const gear = store.equippedGears.get(slot.slot.toString());
@@ -458,7 +437,11 @@ export const Store = types
           materias: Gear.is(gear) ? gear.materias.map(m => m.stat !== undefined ? [m.stat, m.grade!] : null) : [],
         });
       }
-      return share.stringify({ job, level, gears });
+      return share.stringify({
+        job: self.job,
+        level: self.jobLevel,
+        gears,
+      });
     },
     get shareUrl(): string {
       return location.origin + location.pathname + '?' + this.share;
@@ -476,6 +459,25 @@ export const Store = types
     setMode(mode: Mode): void {
       self.mode = mode;
     },
+    setJob(value: G.Job): void {
+      const newLevel = G.jobSchemas[value].defaultItemLevel;
+      if (newLevel !== (self.job && G.jobSchemas[self.job].defaultItemLevel)) {
+        self.minLevel = newLevel[0];
+        self.maxLevel = newLevel[1];
+      }
+      for (const [ key, gear ] of self.equippedGears.entries()) {
+        if (gear !== undefined && !gear.jobs[value]) {
+          self.equippedGears.delete(key);
+        }
+      }
+      self.job = value;
+    },
+    setMinLevel(value: number): void {
+      self.minLevel = value;
+    },
+    setMaxLevel(value: number): void {
+      self.maxLevel = value;
+    },
     startEditing(): void {
       self.mode = 'edit';
       let minLevel = Infinity;
@@ -487,8 +489,8 @@ export const Store = types
           if (gear.level > maxLevel) maxLevel = gear.level;
         }
       }
-      store.condition.minLevel = minLevel;
-      store.condition.maxLevel = maxLevel;
+      store.minLevel = minLevel;
+      store.maxLevel = maxLevel;
     },
     equip(gear: IGearUnion): void {
       const key = gear.slot.toString();
@@ -511,8 +513,8 @@ export const Store = types
   }))
   .actions(self => ({
     afterCreate(): void {
-      reaction(() => self.condition.job && self.filteredIds, self.createGears);
-      autorun(() => loadGearDataOfLevelRange(self.condition.minLevel, self.condition.maxLevel));
+      reaction(() => self.job && self.filteredIds, self.createGears);
+      autorun(() => loadGearDataOfLevelRange(self.minLevel, self.maxLevel));
     },
   }));
 export interface IStore extends Instance<typeof Store> {}
@@ -561,17 +563,25 @@ reaction(() => gearDataLoading.get(), () => {
   }));
 });
 
-export const store = Store.create(archive.load());
+// export const store = Store.create(archive.load());
+// TODO: delete this old store structure compatible code
+const _archive = archive.load() as any;
+if (_archive && _archive.condition) {
+  Object.assign(_archive, _archive.condition);
+  delete _archive.condition;
+  archive.save(_archive);
+}
+export const store = Store.create(_archive);
 
 onSnapshot(store, snapshot => {
-  if (snapshot.condition.job !== undefined && snapshot.mode !== 'view') {
+  if (snapshot.job !== undefined && snapshot.mode !== 'view') {
     archive.save(snapshot);
   }
 });
 // onPatch(store, patch => console.log(patch));
 
 autorun(() => {
-  if (store.condition.job !== undefined && !store.isLoading) {
+  if (store.job !== undefined && !store.isLoading) {
     document.title = `${store.schema.name}(il${store.equippedLevel}) - 最终幻想14配装器`;
   }
 });
@@ -583,9 +593,7 @@ autorun(() => {  // gearsetStore react to main store
   if (gearDataLoading.get()) return;
   const snapshot: SnapshotIn<IStore> = {
     mode: 'view',
-    condition: {
-      job: gearset.job,
-    },
+    job: gearset.job,
     gears: {},
     equippedGears: {},
   };
@@ -605,7 +613,7 @@ autorun(() => {  // gearsetStore react to main store
 const parseQuery = () => {
   let query = location.search.slice(1);
   if (query in G.jobSchemas) {
-    store.condition.setJob(query as G.Job);
+    store.setJob(query as G.Job);
     history.replaceState(history.state, document.title, location.href.replace(/\?.*$/, ''));
   } else {
     if (query.startsWith('import-')) {

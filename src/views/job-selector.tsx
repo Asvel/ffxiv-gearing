@@ -81,7 +81,7 @@ const JobItem = observer<{ job: G.Job }>(({ job }) => {
         href={`?${job}`}
         onClick={e => {
           e.preventDefault();
-          store.condition.setJob(job);
+          store.setJob(job);
           history.pushState(history.state, document.title, location.href);
         }}
       >
