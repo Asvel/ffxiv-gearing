@@ -67,6 +67,7 @@
 }
 
 .share {
+  min-width: 300px;
   padding: 16px;
   line-height: 20px;
   @include elevation(4);

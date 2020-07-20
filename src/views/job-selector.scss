@@ -16,9 +16,6 @@
   &:not(:first-child) {
     margin-top: 16px;
   }
-  .job-selector_column:first-child &:first-child {
-    padding-bottom: 34px;
-  }
 }
 .job-selector_group-name {
   padding-left: 16px;

@@ -13,6 +13,7 @@ const JobSelector = observer(() => {
           <JobItem job="PLD" />
           <JobItem job="WAR" />
           <JobItem job="DRK" />
+          <JobItem job="GNB" />
         </JobGroup>
         <JobGroup name="治疗职业">
           <JobItem job="WHM" />
@@ -30,6 +31,7 @@ const JobSelector = observer(() => {
         <JobGroup name="远程物理职业">
           <JobItem job="BRD" />
           <JobItem job="MCH" />
+          <JobItem job="DNC" />
         </JobGroup>
         <JobGroup name="远程魔法职业">
           <JobItem job="BLM" />
