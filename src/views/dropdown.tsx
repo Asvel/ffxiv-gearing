@@ -12,6 +12,7 @@ export interface DropdownLabelProps {
 
 export interface DropdownPopperProps {
   toggle: () => void;
+  labelElement: HTMLElement | null;
 }
 
 export interface DropdownProps {
@@ -67,7 +68,7 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers,
           style={popperInstance.styles.popper}
           {...popperInstance.attributes.popper}
           onClick={e => e.stopPropagation()}
-          children={popper({ toggle })}
+          children={popper({ toggle, labelElement })}
         />
       ), popperContainer)}
     </React.Fragment>

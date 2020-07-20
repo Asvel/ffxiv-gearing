@@ -22,16 +22,16 @@ const Materia = observer<{ materia: IMateria }>(({ materia }) => {
           children={materia.name}
         />
       )}
-      popper={() => (
-        <MateriaPanel materia={materia} />
+      popper={({ labelElement }) => (
+        <MateriaPanel materia={materia} labelElement={labelElement} />
       )}
       placement="bottom-start"
-      modifiers={React.useMemo(() => ([{ name: 'offset', options: { offset: [-93, 0] } }]), [])}
+      modifiers={React.useMemo(() => ([{ name: 'offset', options: { offset: [-104 - materia.index * 44, 0] } }]), [])}
     />
   );
 });
 
-const MateriaPanel = observer<{ materia: IMateria }>(({ materia }) => {
+const MateriaPanel = observer<{ materia: IMateria, labelElement: HTMLElement | null }>(({ materia, labelElement }) => {
   const store = useStore();
   return (
     <table className="materias table card">
@@ -57,7 +57,13 @@ const MateriaPanel = observer<{ materia: IMateria }>(({ materia }) => {
                 'materias_grade',
                 materia.stat === stat && materia.grade === grade && '-selected'
               )}
-              onClick={() => materia.meld(stat, grade)}
+              onClick={() => {
+                materia.meld(stat, grade);
+                const nextMateria = labelElement?.nextElementSibling;
+                if (nextMateria?.childNodes.length === 0) {
+                  (nextMateria as HTMLElement).click();
+                }
+              }}
               children={'+' + G.materias[stat]![grade - 1]}
             />
           ))}
