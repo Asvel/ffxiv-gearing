@@ -3,14 +3,16 @@
 .summary {
   display: flex;
   align-items: flex-end;
-  .app-edit & {
-    position: fixed;
-    bottom: 0;
-    padding: 0 12px;
-    margin-left: -12px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    @include elevation(4);
+  @media (min-width: 1080px) {
+    .app-edit & {
+      position: fixed;
+      bottom: 0;
+      padding: 0 12px;
+      margin-left: -12px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      @include elevation(4);
+    }
   }
   .app-view & > span:not(.summary_divider) {
     margin-top: -2px;
