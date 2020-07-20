@@ -11605,7 +11605,7 @@ export default [
   },
   {
     id: 29339,
-    name: 'Anamnesis Circlet of Fending',
+    name: '追忆馆御敌头冠',
     level: 455,
     slot: 3,
     role: 1,
@@ -11625,7 +11625,7 @@ export default [
   },
   {
     id: 29340,
-    name: 'Anamnesis Armor of Fending',
+    name: '追忆馆御敌战甲',
     level: 455,
     slot: 4,
     role: 1,
@@ -11645,7 +11645,7 @@ export default [
   },
   {
     id: 29341,
-    name: 'Anamnesis Gauntlets of Fending',
+    name: '追忆馆御敌手铠',
     level: 455,
     slot: 5,
     role: 1,
@@ -11665,7 +11665,7 @@ export default [
   },
   {
     id: 29342,
-    name: 'Anamnesis Hose of Fending',
+    name: '追忆馆御敌骑兵裤',
     level: 455,
     slot: 7,
     role: 1,
@@ -11685,7 +11685,7 @@ export default [
   },
   {
     id: 29343,
-    name: 'Anamnesis Sollerets of Fending',
+    name: '追忆馆御敌锁甲靴',
     level: 455,
     slot: 8,
     role: 1,
@@ -11705,7 +11705,7 @@ export default [
   },
   {
     id: 29344,
-    name: 'Anamnesis Belt of Fending',
+    name: '追忆馆御敌腰带',
     level: 455,
     slot: 6,
     role: 1,
@@ -11725,7 +11725,7 @@ export default [
   },
   {
     id: 29345,
-    name: 'Anamnesis Circlet of Maiming',
+    name: '追忆馆制敌头冠',
     level: 455,
     slot: 3,
     role: 2,
@@ -11745,7 +11745,7 @@ export default [
   },
   {
     id: 29346,
-    name: 'Anamnesis Armor of Maiming',
+    name: '追忆馆制敌战甲',
     level: 455,
     slot: 4,
     role: 2,
@@ -11765,7 +11765,7 @@ export default [
   },
   {
     id: 29347,
-    name: 'Anamnesis Gauntlets of Maiming',
+    name: '追忆馆制敌手铠',
     level: 455,
     slot: 5,
     role: 2,
@@ -11785,7 +11785,7 @@ export default [
   },
   {
     id: 29348,
-    name: 'Anamnesis Hose of Maiming',
+    name: '追忆馆制敌骑兵裤',
     level: 455,
     slot: 7,
     role: 2,
@@ -11805,7 +11805,7 @@ export default [
   },
   {
     id: 29349,
-    name: 'Anamnesis Sollerets of Maiming',
+    name: '追忆馆制敌锁甲靴',
     level: 455,
     slot: 8,
     role: 2,
@@ -11825,7 +11825,7 @@ export default [
   },
   {
     id: 29350,
-    name: 'Anamnesis Belt of Maiming',
+    name: '追忆馆制敌腰带',
     level: 455,
     slot: 6,
     role: 2,
@@ -11845,7 +11845,7 @@ export default [
   },
   {
     id: 29351,
-    name: 'Anamnesis Headband of Striking',
+    name: '追忆馆强袭头带',
     level: 455,
     slot: 3,
     role: 3,
@@ -11865,7 +11865,7 @@ export default [
   },
   {
     id: 29352,
-    name: 'Anamnesis Jacket of Striking',
+    name: '追忆馆强袭短衣',
     level: 455,
     slot: 4,
     role: 3,
@@ -11885,7 +11885,7 @@ export default [
   },
   {
     id: 29353,
-    name: 'Anamnesis Gloves of Striking',
+    name: '追忆馆强袭手套',
     level: 455,
     slot: 5,
     role: 3,
@@ -11905,7 +11905,7 @@ export default [
   },
   {
     id: 29354,
-    name: 'Anamnesis Hose of Striking',
+    name: '追忆馆强袭骑兵裤',
     level: 455,
     slot: 7,
     role: 3,
@@ -11925,7 +11925,7 @@ export default [
   },
   {
     id: 29355,
-    name: 'Anamnesis Boots of Striking',
+    name: '追忆馆强袭矮靴',
     level: 455,
     slot: 8,
     role: 3,
@@ -11945,7 +11945,7 @@ export default [
   },
   {
     id: 29356,
-    name: 'Anamnesis Belt of Striking',
+    name: '追忆馆强袭腰带',
     level: 455,
     slot: 6,
     role: 3,
@@ -11965,7 +11965,7 @@ export default [
   },
   {
     id: 29357,
-    name: 'Anamnesis Hat of Aiming',
+    name: '追忆馆精准狩猎帽',
     level: 455,
     slot: 3,
     role: 4,
@@ -11985,7 +11985,7 @@ export default [
   },
   {
     id: 29358,
-    name: 'Anamnesis Coat of Aiming',
+    name: '追忆馆精准长衣',
     level: 455,
     slot: 4,
     role: 4,
@@ -12005,7 +12005,7 @@ export default [
   },
   {
     id: 29359,
-    name: 'Anamnesis Gloves of Aiming',
+    name: '追忆馆精准手套',
     level: 455,
     slot: 5,
     role: 4,
@@ -12025,7 +12025,7 @@ export default [
   },
   {
     id: 29360,
-    name: 'Anamnesis Hose of Aiming',
+    name: '追忆馆精准骑兵裤',
     level: 455,
     slot: 7,
     role: 4,
@@ -12045,7 +12045,7 @@ export default [
   },
   {
     id: 29361,
-    name: 'Anamnesis Thighboots of Aiming',
+    name: '追忆馆精准高筒靴',
     level: 455,
     slot: 8,
     role: 4,
@@ -12065,7 +12065,7 @@ export default [
   },
   {
     id: 29362,
-    name: 'Anamnesis Belt of Aiming',
+    name: '追忆馆精准腰带',
     level: 455,
     slot: 6,
     role: 4,
@@ -12085,7 +12085,7 @@ export default [
   },
   {
     id: 29363,
-    name: 'Anamnesis Headband of Scouting',
+    name: '追忆馆游击头带',
     level: 455,
     slot: 3,
     role: 11,
@@ -12105,7 +12105,7 @@ export default [
   },
   {
     id: 29364,
-    name: 'Anamnesis Jacket of Scouting',
+    name: '追忆馆游击短衣',
     level: 455,
     slot: 4,
     role: 11,
@@ -12125,7 +12125,7 @@ export default [
   },
   {
     id: 29365,
-    name: 'Anamnesis Gloves of Scouting',
+    name: '追忆馆游击手套',
     level: 455,
     slot: 5,
     role: 11,
@@ -12145,7 +12145,7 @@ export default [
   },
   {
     id: 29366,
-    name: 'Anamnesis Hose of Scouting',
+    name: '追忆馆游击骑兵裤',
     level: 455,
     slot: 7,
     role: 11,
@@ -12165,7 +12165,7 @@ export default [
   },
   {
     id: 29367,
-    name: 'Anamnesis Thighboots of Scouting',
+    name: '追忆馆游击高筒靴',
     level: 455,
     slot: 8,
     role: 11,
@@ -12185,7 +12185,7 @@ export default [
   },
   {
     id: 29368,
-    name: 'Anamnesis Belt of Scouting',
+    name: '追忆馆游击腰带',
     level: 455,
     slot: 6,
     role: 11,
@@ -12205,7 +12205,7 @@ export default [
   },
   {
     id: 29369,
-    name: 'Anamnesis Hat of Healing',
+    name: '追忆馆治愈帽',
     level: 455,
     slot: 3,
     role: 6,
@@ -12225,7 +12225,7 @@ export default [
   },
   {
     id: 29370,
-    name: 'Anamnesis Coat of Healing',
+    name: '追忆馆治愈长衣',
     level: 455,
     slot: 4,
     role: 6,
@@ -12245,7 +12245,7 @@ export default [
   },
   {
     id: 29371,
-    name: 'Anamnesis Gloves of Healing',
+    name: '追忆馆治愈手套',
     level: 455,
     slot: 5,
     role: 6,
@@ -12265,7 +12265,7 @@ export default [
   },
   {
     id: 29372,
-    name: 'Anamnesis Hose of Healing',
+    name: '追忆馆治愈骑兵裤',
     level: 455,
     slot: 7,
     role: 6,
@@ -12285,7 +12285,7 @@ export default [
   },
   {
     id: 29373,
-    name: 'Anamnesis Thighboots of Healing',
+    name: '追忆馆治愈高筒靴',
     level: 455,
     slot: 8,
     role: 6,
@@ -12305,7 +12305,7 @@ export default [
   },
   {
     id: 29374,
-    name: 'Anamnesis Belt of Healing',
+    name: '追忆馆治愈腰带',
     level: 455,
     slot: 6,
     role: 6,
@@ -12325,7 +12325,7 @@ export default [
   },
   {
     id: 29375,
-    name: 'Anamnesis Hat of Casting',
+    name: '追忆馆咏咒魔术帽',
     level: 455,
     slot: 3,
     role: 5,
@@ -12345,7 +12345,7 @@ export default [
   },
   {
     id: 29376,
-    name: 'Anamnesis Coat of Casting',
+    name: '追忆馆咏咒长衣',
     level: 455,
     slot: 4,
     role: 5,
@@ -12365,7 +12365,7 @@ export default [
   },
   {
     id: 29377,
-    name: 'Anamnesis Gloves of Casting',
+    name: '追忆馆咏咒手套',
     level: 455,
     slot: 5,
     role: 5,
@@ -12385,7 +12385,7 @@ export default [
   },
   {
     id: 29378,
-    name: 'Anamnesis Hose of Casting',
+    name: '追忆馆咏咒骑兵裤',
     level: 455,
     slot: 7,
     role: 5,
@@ -12405,7 +12405,7 @@ export default [
   },
   {
     id: 29379,
-    name: 'Anamnesis Thighboots of Casting',
+    name: '追忆馆咏咒高筒靴',
     level: 455,
     slot: 8,
     role: 5,
@@ -12425,7 +12425,7 @@ export default [
   },
   {
     id: 29380,
-    name: 'Anamnesis Belt of Casting',
+    name: '追忆馆咏咒腰带',
     level: 455,
     slot: 6,
     role: 5,
@@ -12445,7 +12445,7 @@ export default [
   },
   {
     id: 29381,
-    name: 'Anamnesis Earrings of Fending',
+    name: '追忆馆御敌耳坠',
     level: 455,
     slot: 9,
     role: 1,
@@ -12465,7 +12465,7 @@ export default [
   },
   {
     id: 29382,
-    name: 'Anamnesis Earrings of Slaying',
+    name: '追忆馆强攻耳坠',
     level: 455,
     slot: 9,
     role: 10,
@@ -12485,7 +12485,7 @@ export default [
   },
   {
     id: 29383,
-    name: 'Anamnesis Earrings of Aiming',
+    name: '追忆馆精准耳坠',
     level: 455,
     slot: 9,
     role: 12,
@@ -12505,7 +12505,7 @@ export default [
   },
   {
     id: 29384,
-    name: 'Anamnesis Earrings of Healing',
+    name: '追忆馆治愈耳坠',
     level: 455,
     slot: 9,
     role: 6,
@@ -12525,7 +12525,7 @@ export default [
   },
   {
     id: 29385,
-    name: 'Anamnesis Earrings of Casting',
+    name: '追忆馆咏咒耳坠',
     level: 455,
     slot: 9,
     role: 5,
@@ -12545,7 +12545,7 @@ export default [
   },
   {
     id: 29386,
-    name: 'Anamnesis Choker of Fending',
+    name: '追忆馆御敌项环',
     level: 455,
     slot: 10,
     role: 1,
@@ -12565,7 +12565,7 @@ export default [
   },
   {
     id: 29387,
-    name: 'Anamnesis Choker of Slaying',
+    name: '追忆馆强攻项环',
     level: 455,
     slot: 10,
     role: 10,
@@ -12585,7 +12585,7 @@ export default [
   },
   {
     id: 29388,
-    name: 'Anamnesis Choker of Aiming',
+    name: '追忆馆精准项环',
     level: 455,
     slot: 10,
     role: 12,
@@ -12605,7 +12605,7 @@ export default [
   },
   {
     id: 29389,
-    name: 'Anamnesis Choker of Healing',
+    name: '追忆馆治愈项环',
     level: 455,
     slot: 10,
     role: 6,
@@ -12625,7 +12625,7 @@ export default [
   },
   {
     id: 29390,
-    name: 'Anamnesis Choker of Casting',
+    name: '追忆馆咏咒项环',
     level: 455,
     slot: 10,
     role: 5,
@@ -12645,7 +12645,7 @@ export default [
   },
   {
     id: 29391,
-    name: 'Anamnesis Bracelet of Fending',
+    name: '追忆馆御敌手镯',
     level: 455,
     slot: 11,
     role: 1,
@@ -12665,7 +12665,7 @@ export default [
   },
   {
     id: 29392,
-    name: 'Anamnesis Bracelet of Slaying',
+    name: '追忆馆强攻手镯',
     level: 455,
     slot: 11,
     role: 10,
@@ -12685,7 +12685,7 @@ export default [
   },
   {
     id: 29393,
-    name: 'Anamnesis Bracelet of Aiming',
+    name: '追忆馆精准手镯',
     level: 455,
     slot: 11,
     role: 12,
@@ -12705,7 +12705,7 @@ export default [
   },
   {
     id: 29394,
-    name: 'Anamnesis Bracelet of Healing',
+    name: '追忆馆治愈手镯',
     level: 455,
     slot: 11,
     role: 6,
@@ -12725,7 +12725,7 @@ export default [
   },
   {
     id: 29395,
-    name: 'Anamnesis Bracelet of Casting',
+    name: '追忆馆咏咒手镯',
     level: 455,
     slot: 11,
     role: 5,
@@ -12745,7 +12745,7 @@ export default [
   },
   {
     id: 29396,
-    name: 'Anamnesis Ring of Fending',
+    name: '追忆馆御敌指环',
     level: 455,
     slot: 12,
     role: 1,
@@ -12765,7 +12765,7 @@ export default [
   },
   {
     id: 29397,
-    name: 'Anamnesis Ring of Slaying',
+    name: '追忆馆强攻指环',
     level: 455,
     slot: 12,
     role: 10,
@@ -12785,7 +12785,7 @@ export default [
   },
   {
     id: 29398,
-    name: 'Anamnesis Ring of Aiming',
+    name: '追忆馆精准指环',
     level: 455,
     slot: 12,
     role: 12,
@@ -12805,7 +12805,7 @@ export default [
   },
   {
     id: 29399,
-    name: 'Anamnesis Ring of Healing',
+    name: '追忆馆治愈指环',
     level: 455,
     slot: 12,
     role: 6,
@@ -12825,7 +12825,7 @@ export default [
   },
   {
     id: 29400,
-    name: 'Anamnesis Ring of Casting',
+    name: '追忆馆咏咒指环',
     level: 455,
     slot: 12,
     role: 5,
@@ -20826,7 +20826,7 @@ export default [
   },
   {
     id: 29591,
-    name: "Professional's Saw",
+    name: '专业手锯',
     level: 470,
     slot: 1,
     role: 9,
@@ -20844,7 +20844,7 @@ export default [
   },
   {
     id: 29592,
-    name: "Professional's Cross-pein Hammer",
+    name: '专业横头锤',
     level: 470,
     slot: 1,
     role: 9,
@@ -20862,7 +20862,7 @@ export default [
   },
   {
     id: 29593,
-    name: "Professional's Raising Hammer",
+    name: '专业圆头锤',
     level: 470,
     slot: 1,
     role: 9,
@@ -20880,7 +20880,7 @@ export default [
   },
   {
     id: 29594,
-    name: "Professional's Lapidary Hammer",
+    name: '专业工艺锤',
     level: 470,
     slot: 1,
     role: 9,
@@ -20898,7 +20898,7 @@ export default [
   },
   {
     id: 29595,
-    name: "Professional's Round Knife",
+    name: '专业圆革刀',
     level: 470,
     slot: 1,
     role: 9,
@@ -20916,7 +20916,7 @@ export default [
   },
   {
     id: 29596,
-    name: "Professional's Needle",
+    name: '专业缝针',
     level: 470,
     slot: 1,
     role: 9,
@@ -20934,7 +20934,7 @@ export default [
   },
   {
     id: 29597,
-    name: "Professional's Alembic",
+    name: '专业蒸馏器',
     level: 470,
     slot: 1,
     role: 9,
@@ -20952,7 +20952,7 @@ export default [
   },
   {
     id: 29598,
-    name: "Professional's Frypan",
+    name: '专业煎锅',
     level: 470,
     slot: 1,
     role: 9,
@@ -20970,7 +20970,7 @@ export default [
   },
   {
     id: 29599,
-    name: "Professional's Pickaxe",
+    name: '专业鹤嘴锄',
     level: 470,
     slot: 1,
     role: 9,
@@ -20989,7 +20989,7 @@ export default [
   },
   {
     id: 29600,
-    name: "Professional's Hatchet",
+    name: '专业手斧',
     level: 470,
     slot: 1,
     role: 9,
@@ -21008,7 +21008,7 @@ export default [
   },
   {
     id: 29601,
-    name: "Professional's Fishing Rod",
+    name: '专业钓竿',
     level: 470,
     slot: 1,
     role: 9,
@@ -21027,7 +21027,7 @@ export default [
   },
   {
     id: 29602,
-    name: "Professional's Beret of Crafting",
+    name: '专业巧匠贝雷帽',
     level: 470,
     slot: 3,
     role: 9,
@@ -21045,7 +21045,7 @@ export default [
   },
   {
     id: 29603,
-    name: "Professional's Jacket of Crafting",
+    name: '专业巧匠外套',
     level: 470,
     slot: 4,
     role: 9,
@@ -21064,7 +21064,7 @@ export default [
   },
   {
     id: 29604,
-    name: "Professional's Fingerless Gloves of Crafting",
+    name: '专业巧匠半指护手',
     level: 470,
     slot: 5,
     role: 9,
@@ -21082,7 +21082,7 @@ export default [
   },
   {
     id: 29605,
-    name: "Professional's Trousers of Crafting",
+    name: '专业巧匠软甲裤',
     level: 470,
     slot: 7,
     role: 9,
@@ -21100,7 +21100,7 @@ export default [
   },
   {
     id: 29606,
-    name: "Professional's Shoes of Crafting",
+    name: '专业巧匠皮靴',
     level: 470,
     slot: 8,
     role: 9,
@@ -21118,7 +21118,7 @@ export default [
   },
   {
     id: 29607,
-    name: "Professional's Bandana of Gathering",
+    name: '专业大地头巾',
     level: 470,
     slot: 3,
     role: 9,
@@ -21136,7 +21136,7 @@ export default [
   },
   {
     id: 29608,
-    name: "Professional's Coat of Gathering",
+    name: '专业大地外套',
     level: 470,
     slot: 4,
     role: 9,
@@ -21156,7 +21156,7 @@ export default [
   },
   {
     id: 29609,
-    name: "Professional's Gloves of Gathering",
+    name: '专业大地手套',
     level: 470,
     slot: 5,
     role: 9,
@@ -21175,7 +21175,7 @@ export default [
   },
   {
     id: 29610,
-    name: "Professional's Breeches of Gathering",
+    name: '专业大地马裤',
     level: 470,
     slot: 7,
     role: 9,
@@ -21195,7 +21195,7 @@ export default [
   },
   {
     id: 29611,
-    name: "Professional's Boots of Gathering",
+    name: '专业大地工作靴',
     level: 470,
     slot: 8,
     role: 9,
@@ -21214,7 +21214,7 @@ export default [
   },
   {
     id: 29948,
-    name: "Millfiend's Claw Hammer",
+    name: '异木羊角锤',
     level: 470,
     slot: 2,
     role: 9,
@@ -21232,7 +21232,7 @@ export default [
   },
   {
     id: 29949,
-    name: "Forgefiend's File",
+    name: '怪铁锉刀',
     level: 470,
     slot: 2,
     role: 9,
@@ -21250,7 +21250,7 @@ export default [
   },
   {
     id: 29950,
-    name: "Hammerfiend's Pliers",
+    name: '凶甲手钳',
     level: 470,
     slot: 2,
     role: 9,
@@ -21268,7 +21268,7 @@ export default [
   },
   {
     id: 29951,
-    name: "Gemfiend's Grinding Wheel",
+    name: '恶金砂轮机',
     level: 470,
     slot: 2,
     role: 9,
@@ -21286,7 +21286,7 @@ export default [
   },
   {
     id: 29952,
-    name: "Hidefiend's Awl",
+    name: '妖革平斩',
     level: 470,
     slot: 2,
     role: 9,
@@ -21304,7 +21304,7 @@ export default [
   },
   {
     id: 29953,
-    name: "Boltfiend's Spinning Wheel",
+    name: '邪衣纺车',
     level: 470,
     slot: 2,
     role: 9,
@@ -21322,7 +21322,7 @@ export default [
   },
   {
     id: 29954,
-    name: "Cauldronfiend's Mortar",
+    name: '炼魔研钵',
     level: 470,
     slot: 2,
     role: 9,
@@ -21340,7 +21340,7 @@ export default [
   },
   {
     id: 29955,
-    name: "Galleyfiend's Culinary Knife",
+    name: '烹宰厨刀',
     level: 470,
     slot: 2,
     role: 9,
@@ -21358,7 +21358,7 @@ export default [
   },
   {
     id: 29956,
-    name: "Minefiend's Sledgehammer",
+    name: '鬼矿碎石锤',
     level: 470,
     slot: 2,
     role: 9,
@@ -21376,7 +21376,7 @@ export default [
   },
   {
     id: 29957,
-    name: "Fieldfiend's Scythe",
+    name: '犷野镰刀',
     level: 470,
     slot: 2,
     role: 9,
@@ -22371,7 +22371,7 @@ export default [
   },
   {
     id: 29117,
-    name: 'Edencall Helm of Fending',
+    name: '伊甸之音御敌头盔',
     level: 480,
     slot: 3,
     role: 1,
@@ -22391,7 +22391,7 @@ export default [
   },
   {
     id: 29118,
-    name: 'Edencall Mail of Fending',
+    name: '伊甸之音御敌战铠',
     level: 480,
     slot: 4,
     role: 1,
@@ -22411,7 +22411,7 @@ export default [
   },
   {
     id: 29119,
-    name: 'Edencall Gauntlets of Fending',
+    name: '伊甸之音御敌手铠',
     level: 480,
     slot: 5,
     role: 1,
@@ -22431,7 +22431,7 @@ export default [
   },
   {
     id: 29120,
-    name: 'Edencall Cuisses of Fending',
+    name: '伊甸之音御敌腿甲',
     level: 480,
     slot: 7,
     role: 1,
@@ -22451,7 +22451,7 @@ export default [
   },
   {
     id: 29121,
-    name: 'Edencall Sollerets of Fending',
+    name: '伊甸之音御敌锁甲靴',
     level: 480,
     slot: 8,
     role: 1,
@@ -22471,7 +22471,7 @@ export default [
   },
   {
     id: 29122,
-    name: 'Edencall Tassets of Fending',
+    name: '伊甸之音御敌腰甲',
     level: 480,
     slot: 6,
     role: 1,
@@ -22491,7 +22491,7 @@ export default [
   },
   {
     id: 29123,
-    name: 'Edencall Helm of Maiming',
+    name: '伊甸之音制敌头盔',
     level: 480,
     slot: 3,
     role: 2,
@@ -22511,7 +22511,7 @@ export default [
   },
   {
     id: 29124,
-    name: 'Edencall Mail of Maiming',
+    name: '伊甸之音制敌战铠',
     level: 480,
     slot: 4,
     role: 2,
@@ -22531,7 +22531,7 @@ export default [
   },
   {
     id: 29125,
-    name: 'Edencall Gauntlets of Maiming',
+    name: '伊甸之音制敌手铠',
     level: 480,
     slot: 5,
     role: 2,
@@ -22551,7 +22551,7 @@ export default [
   },
   {
     id: 29126,
-    name: 'Edencall Cuisses of Maiming',
+    name: '伊甸之音制敌腿甲',
     level: 480,
     slot: 7,
     role: 2,
@@ -22571,7 +22571,7 @@ export default [
   },
   {
     id: 29127,
-    name: 'Edencall Sollerets of Maiming',
+    name: '伊甸之音制敌锁甲靴',
     level: 480,
     slot: 8,
     role: 2,
@@ -22591,7 +22591,7 @@ export default [
   },
   {
     id: 29128,
-    name: 'Edencall Tassets of Maiming',
+    name: '伊甸之音制敌腰甲',
     level: 480,
     slot: 6,
     role: 2,
@@ -22611,7 +22611,7 @@ export default [
   },
   {
     id: 29129,
-    name: 'Edencall Eyepatch of Striking',
+    name: '伊甸之音强袭眼罩',
     level: 480,
     slot: 3,
     role: 3,
@@ -22631,7 +22631,7 @@ export default [
   },
   {
     id: 29130,
-    name: 'Edencall Gambison of Striking',
+    name: '伊甸之音强袭外套',
     level: 480,
     slot: 4,
     role: 3,
@@ -22651,7 +22651,7 @@ export default [
   },
   {
     id: 29131,
-    name: 'Edencall Gauntlets of Striking',
+    name: '伊甸之音强袭手铠',
     level: 480,
     slot: 5,
     role: 3,
@@ -22671,7 +22671,7 @@ export default [
   },
   {
     id: 29132,
-    name: 'Edencall Trousers of Striking',
+    name: '伊甸之音强袭软甲裤',
     level: 480,
     slot: 7,
     role: 3,
@@ -22691,7 +22691,7 @@ export default [
   },
   {
     id: 29133,
-    name: 'Edencall Sollerets of Striking',
+    name: '伊甸之音强袭锁甲靴',
     level: 480,
     slot: 8,
     role: 3,
@@ -22711,7 +22711,7 @@ export default [
   },
   {
     id: 29134,
-    name: 'Edencall Tassets of Striking',
+    name: '伊甸之音强袭腰甲',
     level: 480,
     slot: 6,
     role: 3,
@@ -22731,7 +22731,7 @@ export default [
   },
   {
     id: 29135,
-    name: 'Edencall Chapeau of Aiming',
+    name: '伊甸之音精准礼帽',
     level: 480,
     slot: 3,
     role: 4,
@@ -22751,7 +22751,7 @@ export default [
   },
   {
     id: 29136,
-    name: 'Edencall Gambison of Aiming',
+    name: '伊甸之音精准外套',
     level: 480,
     slot: 4,
     role: 4,
@@ -22771,7 +22771,7 @@ export default [
   },
   {
     id: 29137,
-    name: 'Edencall Vambraces of Aiming',
+    name: '伊甸之音精准臂甲',
     level: 480,
     slot: 5,
     role: 4,
@@ -22791,7 +22791,7 @@ export default [
   },
   {
     id: 29138,
-    name: 'Edencall Trousers of Aiming',
+    name: '伊甸之音精准软甲裤',
     level: 480,
     slot: 7,
     role: 4,
@@ -22811,7 +22811,7 @@ export default [
   },
   {
     id: 29139,
-    name: 'Edencall Shoes of Aiming',
+    name: '伊甸之音精准短靴',
     level: 480,
     slot: 8,
     role: 4,
@@ -22831,7 +22831,7 @@ export default [
   },
   {
     id: 29140,
-    name: 'Edencall Tassets of Aiming',
+    name: '伊甸之音精准腰甲',
     level: 480,
     slot: 6,
     role: 4,
@@ -22851,7 +22851,7 @@ export default [
   },
   {
     id: 29141,
-    name: 'Edencall Eyepatch of Scouting',
+    name: '伊甸之音游击眼罩',
     level: 480,
     slot: 3,
     role: 11,
@@ -22871,7 +22871,7 @@ export default [
   },
   {
     id: 29142,
-    name: 'Edencall Gambison of Scouting',
+    name: '伊甸之音游击外套',
     level: 480,
     slot: 4,
     role: 11,
@@ -22891,7 +22891,7 @@ export default [
   },
   {
     id: 29143,
-    name: 'Edencall Gauntlets of Scouting',
+    name: '伊甸之音游击手铠',
     level: 480,
     slot: 5,
     role: 11,
@@ -22911,7 +22911,7 @@ export default [
   },
   {
     id: 29144,
-    name: 'Edencall Breeches of Scouting',
+    name: '伊甸之音游击马裤',
     level: 480,
     slot: 7,
     role: 11,
@@ -22931,7 +22931,7 @@ export default [
   },
   {
     id: 29145,
-    name: 'Edencall Sollerets of Scouting',
+    name: '伊甸之音游击锁甲靴',
     level: 480,
     slot: 8,
     role: 11,
@@ -22951,7 +22951,7 @@ export default [
   },
   {
     id: 29146,
-    name: 'Edencall Tassets of Scouting',
+    name: '伊甸之音游击腰甲',
     level: 480,
     slot: 6,
     role: 11,
@@ -22971,7 +22971,7 @@ export default [
   },
   {
     id: 29147,
-    name: 'Edencall Wings of Healing',
+    name: '伊甸之音治愈翼冠',
     level: 480,
     slot: 3,
     role: 6,
@@ -22991,7 +22991,7 @@ export default [
   },
   {
     id: 29148,
-    name: 'Edencall Tunic of Healing',
+    name: '伊甸之音治愈束腰衣',
     level: 480,
     slot: 4,
     role: 6,
@@ -23011,7 +23011,7 @@ export default [
   },
   {
     id: 29149,
-    name: 'Edencall Armlets of Healing',
+    name: '伊甸之音治愈护臂',
     level: 480,
     slot: 5,
     role: 6,
@@ -23031,7 +23031,7 @@ export default [
   },
   {
     id: 29150,
-    name: 'Edencall Breeches of Healing',
+    name: '伊甸之音治愈马裤',
     level: 480,
     slot: 7,
     role: 6,
@@ -23051,7 +23051,7 @@ export default [
   },
   {
     id: 29151,
-    name: 'Edencall Boots of Healing',
+    name: '伊甸之音治愈长靴',
     level: 480,
     slot: 8,
     role: 6,
@@ -23071,7 +23071,7 @@ export default [
   },
   {
     id: 29152,
-    name: 'Edencall Tassets of Healing',
+    name: '伊甸之音治愈腰甲',
     level: 480,
     slot: 6,
     role: 6,
@@ -23091,7 +23091,7 @@ export default [
   },
   {
     id: 29153,
-    name: 'Edencall Hat of Casting',
+    name: '伊甸之音咏咒魔术帽',
     level: 480,
     slot: 3,
     role: 5,
@@ -23111,7 +23111,7 @@ export default [
   },
   {
     id: 29154,
-    name: 'Edencall Tunic of Casting',
+    name: '伊甸之音咏咒束腰衣',
     level: 480,
     slot: 4,
     role: 5,
@@ -23131,7 +23131,7 @@ export default [
   },
   {
     id: 29155,
-    name: 'Edencall Armlets of Casting',
+    name: '伊甸之音咏咒护臂',
     level: 480,
     slot: 5,
     role: 5,
@@ -23151,7 +23151,7 @@ export default [
   },
   {
     id: 29156,
-    name: 'Edencall Breeches of Casting',
+    name: '伊甸之音咏咒马裤',
     level: 480,
     slot: 7,
     role: 5,
@@ -23171,7 +23171,7 @@ export default [
   },
   {
     id: 29157,
-    name: 'Edencall Boots of Casting',
+    name: '伊甸之音咏咒长靴',
     level: 480,
     slot: 8,
     role: 5,
@@ -23191,7 +23191,7 @@ export default [
   },
   {
     id: 29158,
-    name: 'Edencall Tassets of Casting',
+    name: '伊甸之音咏咒腰甲',
     level: 480,
     slot: 6,
     role: 5,
@@ -23211,7 +23211,7 @@ export default [
   },
   {
     id: 29159,
-    name: 'Edencall Earrings of Fending',
+    name: '伊甸之音御敌耳坠',
     level: 480,
     slot: 9,
     role: 1,
@@ -23231,7 +23231,7 @@ export default [
   },
   {
     id: 29160,
-    name: 'Edencall Earrings of Slaying',
+    name: '伊甸之音强攻耳坠',
     level: 480,
     slot: 9,
     role: 10,
@@ -23251,7 +23251,7 @@ export default [
   },
   {
     id: 29161,
-    name: 'Edencall Earrings of Aiming',
+    name: '伊甸之音精准耳坠',
     level: 480,
     slot: 9,
     role: 12,
@@ -23271,7 +23271,7 @@ export default [
   },
   {
     id: 29162,
-    name: 'Edencall Earrings of Healing',
+    name: '伊甸之音治愈耳坠',
     level: 480,
     slot: 9,
     role: 6,
@@ -23291,7 +23291,7 @@ export default [
   },
   {
     id: 29163,
-    name: 'Edencall Earrings of Casting',
+    name: '伊甸之音咏咒耳坠',
     level: 480,
     slot: 9,
     role: 5,
@@ -23311,7 +23311,7 @@ export default [
   },
   {
     id: 29164,
-    name: 'Edencall Choker of Fending',
+    name: '伊甸之音御敌项环',
     level: 480,
     slot: 10,
     role: 1,
@@ -23331,7 +23331,7 @@ export default [
   },
   {
     id: 29165,
-    name: 'Edencall Choker of Slaying',
+    name: '伊甸之音强攻项环',
     level: 480,
     slot: 10,
     role: 10,
@@ -23351,7 +23351,7 @@ export default [
   },
   {
     id: 29166,
-    name: 'Edencall Choker of Aiming',
+    name: '伊甸之音精准项环',
     level: 480,
     slot: 10,
     role: 12,
@@ -23371,7 +23371,7 @@ export default [
   },
   {
     id: 29167,
-    name: 'Edencall Choker of Healing',
+    name: '伊甸之音治愈项环',
     level: 480,
     slot: 10,
     role: 6,
@@ -23391,7 +23391,7 @@ export default [
   },
   {
     id: 29168,
-    name: 'Edencall Choker of Casting',
+    name: '伊甸之音咏咒项环',
     level: 480,
     slot: 10,
     role: 5,
@@ -23411,7 +23411,7 @@ export default [
   },
   {
     id: 29169,
-    name: 'Edencall Wristband of Fending',
+    name: '伊甸之音御敌手环',
     level: 480,
     slot: 11,
     role: 1,
@@ -23431,7 +23431,7 @@ export default [
   },
   {
     id: 29170,
-    name: 'Edencall Wristband of Slaying',
+    name: '伊甸之音强攻手环',
     level: 480,
     slot: 11,
     role: 10,
@@ -23451,7 +23451,7 @@ export default [
   },
   {
     id: 29171,
-    name: 'Edencall Wristband of Aiming',
+    name: '伊甸之音精准手环',
     level: 480,
     slot: 11,
     role: 12,
@@ -23471,7 +23471,7 @@ export default [
   },
   {
     id: 29172,
-    name: 'Edencall Wristband of Healing',
+    name: '伊甸之音治愈手环',
     level: 480,
     slot: 11,
     role: 6,
@@ -23491,7 +23491,7 @@ export default [
   },
   {
     id: 29173,
-    name: 'Edencall Wristband of Casting',
+    name: '伊甸之音咏咒手环',
     level: 480,
     slot: 11,
     role: 5,
@@ -23511,7 +23511,7 @@ export default [
   },
   {
     id: 29174,
-    name: 'Edencall Ring of Fending',
+    name: '伊甸之音御敌指环',
     level: 480,
     slot: 12,
     role: 1,
@@ -23531,7 +23531,7 @@ export default [
   },
   {
     id: 29175,
-    name: 'Edencall Ring of Slaying',
+    name: '伊甸之音强攻指环',
     level: 480,
     slot: 12,
     role: 10,
@@ -23551,7 +23551,7 @@ export default [
   },
   {
     id: 29176,
-    name: 'Edencall Ring of Aiming',
+    name: '伊甸之音精准指环',
     level: 480,
     slot: 12,
     role: 12,
@@ -23571,7 +23571,7 @@ export default [
   },
   {
     id: 29177,
-    name: 'Edencall Ring of Healing',
+    name: '伊甸之音治愈指环',
     level: 480,
     slot: 12,
     role: 6,
@@ -23591,7 +23591,7 @@ export default [
   },
   {
     id: 29178,
-    name: 'Edencall Ring of Casting',
+    name: '伊甸之音咏咒指环',
     level: 480,
     slot: 12,
     role: 5,
@@ -23611,7 +23611,7 @@ export default [
   },
   {
     id: 29404,
-    name: 'Neo-Ishgardian Sword',
+    name: '伊修加德新型长剑',
     level: 480,
     slot: 1,
     role: 1,
@@ -23633,7 +23633,7 @@ export default [
   },
   {
     id: 29405,
-    name: 'Neo-Ishgardian Claws',
+    name: '伊修加德新型利爪',
     level: 480,
     slot: 13,
     role: 3,
@@ -23655,7 +23655,7 @@ export default [
   },
   {
     id: 29406,
-    name: 'Neo-Ishgardian Labrys',
+    name: '伊修加德新型双刃斧',
     level: 480,
     slot: 13,
     role: 1,
@@ -23677,7 +23677,7 @@ export default [
   },
   {
     id: 29407,
-    name: 'Neo-Ishgardian Trident',
+    name: '伊修加德新型三尖枪',
     level: 480,
     slot: 13,
     role: 2,
@@ -23699,7 +23699,7 @@ export default [
   },
   {
     id: 29408,
-    name: 'Neo-Ishgardian Longbow',
+    name: '伊修加德新型长弓',
     level: 480,
     slot: 13,
     role: 4,
@@ -23721,7 +23721,7 @@ export default [
   },
   {
     id: 29409,
-    name: 'Neo-Ishgardian Daggers',
+    name: '伊修加德新型小刀',
     level: 480,
     slot: 13,
     role: 11,
@@ -23743,7 +23743,7 @@ export default [
   },
   {
     id: 29410,
-    name: 'Neo-Ishgardian Greatsword',
+    name: '伊修加德新型巨剑',
     level: 480,
     slot: 13,
     role: 1,
@@ -23765,7 +23765,7 @@ export default [
   },
   {
     id: 29411,
-    name: 'Neo-Ishgardian Revolver',
+    name: '伊修加德新型左轮枪',
     level: 480,
     slot: 13,
     role: 4,
@@ -23787,7 +23787,7 @@ export default [
   },
   {
     id: 29412,
-    name: 'Neo-Ishgardian Cane',
+    name: '伊修加德新型牧杖',
     level: 480,
     slot: 13,
     role: 6,
@@ -23808,7 +23808,7 @@ export default [
   },
   {
     id: 29413,
-    name: 'Neo-Ishgardian Rod',
+    name: '伊修加德新型法杖',
     level: 480,
     slot: 13,
     role: 5,
@@ -23829,7 +23829,7 @@ export default [
   },
   {
     id: 29414,
-    name: 'Neo-Ishgardian Grimoire',
+    name: '伊修加德新型魔导书',
     level: 480,
     slot: 13,
     role: 5,
@@ -23850,7 +23850,7 @@ export default [
   },
   {
     id: 29415,
-    name: 'Neo-Ishgardian Codex',
+    name: '伊修加德新型魔导典',
     level: 480,
     slot: 13,
     role: 6,
@@ -23871,7 +23871,7 @@ export default [
   },
   {
     id: 29416,
-    name: 'Neo-Ishgardian Planisphere',
+    name: '伊修加德新型天星盘',
     level: 480,
     slot: 13,
     role: 6,
@@ -23892,7 +23892,7 @@ export default [
   },
   {
     id: 29417,
-    name: 'Neo-Ishgardian Blade',
+    name: '伊修加德新型武士刀',
     level: 480,
     slot: 13,
     role: 3,
@@ -23914,7 +23914,7 @@ export default [
   },
   {
     id: 29418,
-    name: 'Neo-Ishgardian Foil',
+    name: '伊修加德新型花剑',
     level: 480,
     slot: 13,
     role: 5,
@@ -23935,7 +23935,7 @@ export default [
   },
   {
     id: 29419,
-    name: 'Neo-Ishgardian Manatrigger',
+    name: '伊修加德新型魔机刃',
     level: 480,
     slot: 13,
     role: 1,
@@ -23957,7 +23957,7 @@ export default [
   },
   {
     id: 29420,
-    name: 'Neo-Ishgardian Chakrams',
+    name: '伊修加德新型圆月轮',
     level: 480,
     slot: 13,
     role: 4,
@@ -23979,7 +23979,7 @@ export default [
   },
   {
     id: 29421,
-    name: 'Neo-Ishgardian Shield',
+    name: '伊修加德新型骑士盾',
     level: 480,
     slot: 2,
     role: 1,
@@ -23999,7 +23999,7 @@ export default [
   },
   {
     id: 29422,
-    name: 'Neo-Ishgardian Cap of Fending',
+    name: '伊修加德新型御敌军帽',
     level: 480,
     slot: 3,
     role: 1,
@@ -24019,7 +24019,7 @@ export default [
   },
   {
     id: 29423,
-    name: 'Neo-Ishgardian Top of Fending',
+    name: '伊修加德新型御敌上装',
     level: 480,
     slot: 4,
     role: 1,
@@ -24039,7 +24039,7 @@ export default [
   },
   {
     id: 29424,
-    name: 'Neo-Ishgardian Gauntlets of Fending',
+    name: '伊修加德新型御敌手铠',
     level: 480,
     slot: 5,
     role: 1,
@@ -24059,7 +24059,7 @@ export default [
   },
   {
     id: 29425,
-    name: 'Neo-Ishgardian Bottoms of Fending',
+    name: '伊修加德新型御敌打底裤',
     level: 480,
     slot: 7,
     role: 1,
@@ -24079,7 +24079,7 @@ export default [
   },
   {
     id: 29426,
-    name: 'Neo-Ishgardian Sollerets of Fending',
+    name: '伊修加德新型御敌锁甲靴',
     level: 480,
     slot: 8,
     role: 1,
@@ -24099,7 +24099,7 @@ export default [
   },
   {
     id: 29427,
-    name: 'Neo-Ishgardian Plate Belt of Fending',
+    name: '伊修加德新型御敌腰带',
     level: 480,
     slot: 6,
     role: 1,
@@ -24119,7 +24119,7 @@ export default [
   },
   {
     id: 29428,
-    name: 'Neo-Ishgardian Cap of Maiming',
+    name: '伊修加德新型制敌军帽',
     level: 480,
     slot: 3,
     role: 2,
@@ -24139,7 +24139,7 @@ export default [
   },
   {
     id: 29429,
-    name: 'Neo-Ishgardian Top of Maiming',
+    name: '伊修加德新型制敌上装',
     level: 480,
     slot: 4,
     role: 2,
@@ -24159,7 +24159,7 @@ export default [
   },
   {
     id: 29430,
-    name: 'Neo-Ishgardian Gloves of Maiming',
+    name: '伊修加德新型制敌手套',
     level: 480,
     slot: 5,
     role: 2,
@@ -24179,7 +24179,7 @@ export default [
   },
   {
     id: 29431,
-    name: 'Neo-Ishgardian Bottoms of Maiming',
+    name: '伊修加德新型制敌打底裤',
     level: 480,
     slot: 7,
     role: 2,
@@ -24199,7 +24199,7 @@ export default [
   },
   {
     id: 29432,
-    name: 'Neo-Ishgardian Boots of Maiming',
+    name: '伊修加德新型制敌皮靴',
     level: 480,
     slot: 8,
     role: 2,
@@ -24219,7 +24219,7 @@ export default [
   },
   {
     id: 29433,
-    name: 'Neo-Ishgardian Plate Belt of Maiming',
+    name: '伊修加德新型制敌腰带',
     level: 480,
     slot: 6,
     role: 2,
@@ -24239,7 +24239,7 @@ export default [
   },
   {
     id: 29434,
-    name: 'Neo-Ishgardian Hat of Striking',
+    name: '伊修加德新型强袭礼帽',
     level: 480,
     slot: 3,
     role: 3,
@@ -24259,7 +24259,7 @@ export default [
   },
   {
     id: 29435,
-    name: 'Neo-Ishgardian Top of Striking',
+    name: '伊修加德新型强袭上装',
     level: 480,
     slot: 4,
     role: 3,
@@ -24279,7 +24279,7 @@ export default [
   },
   {
     id: 29436,
-    name: 'Neo-Ishgardian Gloves of Striking',
+    name: '伊修加德新型强袭手套',
     level: 480,
     slot: 5,
     role: 3,
@@ -24299,7 +24299,7 @@ export default [
   },
   {
     id: 29437,
-    name: 'Neo-Ishgardian Bottoms of Striking',
+    name: '伊修加德新型强袭打底裤',
     level: 480,
     slot: 7,
     role: 3,
@@ -24319,7 +24319,7 @@ export default [
   },
   {
     id: 29438,
-    name: 'Neo-Ishgardian Boots of Striking',
+    name: '伊修加德新型强袭长靴',
     level: 480,
     slot: 8,
     role: 3,
@@ -24339,7 +24339,7 @@ export default [
   },
   {
     id: 29439,
-    name: 'Neo-Ishgardian Leather Belt of Striking',
+    name: '伊修加德新型强袭腰带',
     level: 480,
     slot: 6,
     role: 3,
@@ -24359,7 +24359,7 @@ export default [
   },
   {
     id: 29440,
-    name: 'Neo-Ishgardian Cap of Aiming',
+    name: '伊修加德新型精准军帽',
     level: 480,
     slot: 3,
     role: 4,
@@ -24379,7 +24379,7 @@ export default [
   },
   {
     id: 29441,
-    name: 'Neo-Ishgardian Top of Aiming',
+    name: '伊修加德新型精准上装',
     level: 480,
     slot: 4,
     role: 4,
@@ -24399,7 +24399,7 @@ export default [
   },
   {
     id: 29442,
-    name: 'Neo-Ishgardian Gloves of Aiming',
+    name: '伊修加德新型精准手套',
     level: 480,
     slot: 5,
     role: 4,
@@ -24419,7 +24419,7 @@ export default [
   },
   {
     id: 29443,
-    name: 'Neo-Ishgardian Bottoms of Aiming',
+    name: '伊修加德新型精准打底裤',
     level: 480,
     slot: 7,
     role: 4,
@@ -24439,7 +24439,7 @@ export default [
   },
   {
     id: 29444,
-    name: 'Neo-Ishgardian Boots of Aiming',
+    name: '伊修加德新型精准长靴',
     level: 480,
     slot: 8,
     role: 4,
@@ -24459,7 +24459,7 @@ export default [
   },
   {
     id: 29445,
-    name: 'Neo-Ishgardian Leather Belt of Aiming',
+    name: '伊修加德新型精准腰带',
     level: 480,
     slot: 6,
     role: 4,
@@ -24479,7 +24479,7 @@ export default [
   },
   {
     id: 29446,
-    name: 'Neo-Ishgardian Hat of Scouting',
+    name: '伊修加德新型游击礼帽',
     level: 480,
     slot: 3,
     role: 11,
@@ -24499,7 +24499,7 @@ export default [
   },
   {
     id: 29447,
-    name: 'Neo-Ishgardian Top of Scouting',
+    name: '伊修加德新型游击上装',
     level: 480,
     slot: 4,
     role: 11,
@@ -24519,7 +24519,7 @@ export default [
   },
   {
     id: 29448,
-    name: 'Neo-Ishgardian Gloves of Scouting',
+    name: '伊修加德新型游击手套',
     level: 480,
     slot: 5,
     role: 11,
@@ -24539,7 +24539,7 @@ export default [
   },
   {
     id: 29449,
-    name: 'Neo-Ishgardian Bottoms of Scouting',
+    name: '伊修加德新型游击打底裤',
     level: 480,
     slot: 7,
     role: 11,
@@ -24559,7 +24559,7 @@ export default [
   },
   {
     id: 29450,
-    name: 'Neo-Ishgardian Sollerets of Scouting',
+    name: '伊修加德新型游击锁甲靴',
     level: 480,
     slot: 8,
     role: 11,
@@ -24579,7 +24579,7 @@ export default [
   },
   {
     id: 29451,
-    name: 'Neo-Ishgardian Leather Belt of Scouting',
+    name: '伊修加德新型游击腰带',
     level: 480,
     slot: 6,
     role: 11,
@@ -24599,7 +24599,7 @@ export default [
   },
   {
     id: 29452,
-    name: 'Neo-Ishgardian Cap of Healing',
+    name: '伊修加德新型治愈军帽',
     level: 480,
     slot: 3,
     role: 6,
@@ -24619,7 +24619,7 @@ export default [
   },
   {
     id: 29453,
-    name: 'Neo-Ishgardian Top of Healing',
+    name: '伊修加德新型治愈上装',
     level: 480,
     slot: 4,
     role: 6,
@@ -24639,7 +24639,7 @@ export default [
   },
   {
     id: 29454,
-    name: 'Neo-Ishgardian Gloves of Healing',
+    name: '伊修加德新型治愈手套',
     level: 480,
     slot: 5,
     role: 6,
@@ -24659,7 +24659,7 @@ export default [
   },
   {
     id: 29455,
-    name: 'Neo-Ishgardian Bottoms of Healing',
+    name: '伊修加德新型治愈打底裤',
     level: 480,
     slot: 7,
     role: 6,
@@ -24679,7 +24679,7 @@ export default [
   },
   {
     id: 29456,
-    name: 'Neo-Ishgardian Boots of Healing',
+    name: '伊修加德新型治愈长靴',
     level: 480,
     slot: 8,
     role: 6,
@@ -24699,7 +24699,7 @@ export default [
   },
   {
     id: 29457,
-    name: 'Neo-Ishgardian Leather Belt of Healing',
+    name: '伊修加德新型治愈腰带',
     level: 480,
     slot: 6,
     role: 6,
@@ -24719,7 +24719,7 @@ export default [
   },
   {
     id: 29458,
-    name: 'Neo-Ishgardian Hat of Casting',
+    name: '伊修加德新型咏咒礼帽',
     level: 480,
     slot: 3,
     role: 5,
@@ -24739,7 +24739,7 @@ export default [
   },
   {
     id: 29459,
-    name: 'Neo-Ishgardian Top of Casting',
+    name: '伊修加德新型咏咒上装',
     level: 480,
     slot: 4,
     role: 5,
@@ -24759,7 +24759,7 @@ export default [
   },
   {
     id: 29460,
-    name: 'Neo-Ishgardian Gloves of Casting',
+    name: '伊修加德新型咏咒护臂',
     level: 480,
     slot: 5,
     role: 5,
@@ -24779,7 +24779,7 @@ export default [
   },
   {
     id: 29461,
-    name: 'Neo-Ishgardian Bottoms of Casting',
+    name: '伊修加德新型咏咒打底裤',
     level: 480,
     slot: 7,
     role: 5,
@@ -24799,7 +24799,7 @@ export default [
   },
   {
     id: 29462,
-    name: 'Neo-Ishgardian Boots of Casting',
+    name: '伊修加德新型咏咒皮靴',
     level: 480,
     slot: 8,
     role: 5,
@@ -24819,7 +24819,7 @@ export default [
   },
   {
     id: 29463,
-    name: 'Neo-Ishgardian Leather Belt of Casting',
+    name: '伊修加德新型咏咒腰带',
     level: 480,
     slot: 6,
     role: 5,
@@ -24839,7 +24839,7 @@ export default [
   },
   {
     id: 29464,
-    name: 'Neo-Ishgardian Earring of Fending',
+    name: '伊修加德新型御敌耳坠',
     level: 480,
     slot: 9,
     role: 1,
@@ -24859,7 +24859,7 @@ export default [
   },
   {
     id: 29465,
-    name: 'Neo-Ishgardian Earring of Slaying',
+    name: '伊修加德新型强攻耳坠',
     level: 480,
     slot: 9,
     role: 10,
@@ -24879,7 +24879,7 @@ export default [
   },
   {
     id: 29466,
-    name: 'Neo-Ishgardian Earring of Aiming',
+    name: '伊修加德新型精准耳坠',
     level: 480,
     slot: 9,
     role: 12,
@@ -24899,7 +24899,7 @@ export default [
   },
   {
     id: 29467,
-    name: 'Neo-Ishgardian Earring of Healing',
+    name: '伊修加德新型治愈耳坠',
     level: 480,
     slot: 9,
     role: 6,
@@ -24919,7 +24919,7 @@ export default [
   },
   {
     id: 29468,
-    name: 'Neo-Ishgardian Earring of Casting',
+    name: '伊修加德新型咏咒耳坠',
     level: 480,
     slot: 9,
     role: 5,
@@ -24939,7 +24939,7 @@ export default [
   },
   {
     id: 29469,
-    name: 'Neo-Ishgardian Choker of Fending',
+    name: '伊修加德新型御敌项环',
     level: 480,
     slot: 10,
     role: 1,
@@ -24959,7 +24959,7 @@ export default [
   },
   {
     id: 29470,
-    name: 'Neo-Ishgardian Choker of Slaying',
+    name: '伊修加德新型强攻项环',
     level: 480,
     slot: 10,
     role: 10,
@@ -24979,7 +24979,7 @@ export default [
   },
   {
     id: 29471,
-    name: 'Neo-Ishgardian Choker of Aiming',
+    name: '伊修加德新型精准项环',
     level: 480,
     slot: 10,
     role: 12,
@@ -24999,7 +24999,7 @@ export default [
   },
   {
     id: 29472,
-    name: 'Neo-Ishgardian Choker of Healing',
+    name: '伊修加德新型治愈项环',
     level: 480,
     slot: 10,
     role: 6,
@@ -25019,7 +25019,7 @@ export default [
   },
   {
     id: 29473,
-    name: 'Neo-Ishgardian Choker of Casting',
+    name: '伊修加德新型咏咒项环',
     level: 480,
     slot: 10,
     role: 5,
@@ -25039,7 +25039,7 @@ export default [
   },
   {
     id: 29474,
-    name: 'Neo-Ishgardian Wristbands of Fending',
+    name: '伊修加德新型御敌手环',
     level: 480,
     slot: 11,
     role: 1,
@@ -25059,7 +25059,7 @@ export default [
   },
   {
     id: 29475,
-    name: 'Neo-Ishgardian Wristbands of Slaying',
+    name: '伊修加德新型强攻手环',
     level: 480,
     slot: 11,
     role: 10,
@@ -25079,7 +25079,7 @@ export default [
   },
   {
     id: 29476,
-    name: 'Neo-Ishgardian Wristbands of Aiming',
+    name: '伊修加德新型精准手环',
     level: 480,
     slot: 11,
     role: 12,
@@ -25099,7 +25099,7 @@ export default [
   },
   {
     id: 29477,
-    name: 'Neo-Ishgardian Wristbands of Healing',
+    name: '伊修加德新型治愈手环',
     level: 480,
     slot: 11,
     role: 6,
@@ -25119,7 +25119,7 @@ export default [
   },
   {
     id: 29478,
-    name: 'Neo-Ishgardian Wristbands of Casting',
+    name: '伊修加德新型咏咒手环',
     level: 480,
     slot: 11,
     role: 5,
@@ -25139,7 +25139,7 @@ export default [
   },
   {
     id: 29479,
-    name: 'Neo-Ishgardian Ring of Fending',
+    name: '伊修加德新型御敌指环',
     level: 480,
     slot: 12,
     role: 1,
@@ -25159,7 +25159,7 @@ export default [
   },
   {
     id: 29480,
-    name: 'Neo-Ishgardian Ring of Slaying',
+    name: '伊修加德新型强攻指环',
     level: 480,
     slot: 12,
     role: 10,
@@ -25179,7 +25179,7 @@ export default [
   },
   {
     id: 29481,
-    name: 'Neo-Ishgardian Ring of Aiming',
+    name: '伊修加德新型精准指环',
     level: 480,
     slot: 12,
     role: 12,
@@ -25199,7 +25199,7 @@ export default [
   },
   {
     id: 29482,
-    name: 'Neo-Ishgardian Ring of Healing',
+    name: '伊修加德新型治愈指环',
     level: 480,
     slot: 12,
     role: 6,
@@ -25219,7 +25219,7 @@ export default [
   },
   {
     id: 29483,
-    name: 'Neo-Ishgardian Ring of Casting',
+    name: '伊修加德新型咏咒指环',
     level: 480,
     slot: 12,
     role: 5,
@@ -25239,7 +25239,7 @@ export default [
   },
   {
     id: 30035,
-    name: 'Ornate Neo-Ishgardian Top of Fending',
+    name: '华美型伊修加德新型御敌上装',
     level: 480,
     slot: 4,
     role: 1,
@@ -25259,7 +25259,7 @@ export default [
   },
   {
     id: 30036,
-    name: 'Ornate Neo-Ishgardian Top of Maiming',
+    name: '华美型伊修加德新型制敌上装',
     level: 480,
     slot: 4,
     role: 2,
@@ -25279,7 +25279,7 @@ export default [
   },
   {
     id: 30037,
-    name: 'Ornate Neo-Ishgardian Top of Striking',
+    name: '华美型伊修加德新型强袭上装',
     level: 480,
     slot: 4,
     role: 3,
@@ -25299,7 +25299,7 @@ export default [
   },
   {
     id: 30038,
-    name: 'Ornate Neo-Ishgardian Top of Aiming',
+    name: '华美型伊修加德新型精准上装',
     level: 480,
     slot: 4,
     role: 4,
@@ -25319,7 +25319,7 @@ export default [
   },
   {
     id: 30039,
-    name: 'Ornate Neo-Ishgardian Top of Scouting',
+    name: '华美型伊修加德新型游击上装',
     level: 480,
     slot: 4,
     role: 11,
@@ -25339,7 +25339,7 @@ export default [
   },
   {
     id: 30040,
-    name: 'Ornate Neo-Ishgardian Top of Healing',
+    name: '华美型伊修加德新型治愈上装',
     level: 480,
     slot: 4,
     role: 6,
@@ -25359,7 +25359,7 @@ export default [
   },
   {
     id: 30041,
-    name: 'Ornate Neo-Ishgardian Top of Casting',
+    name: '华美型伊修加德新型咏咒上装',
     level: 480,
     slot: 4,
     role: 5,
@@ -27079,7 +27079,7 @@ export default [
   },
   {
     id: 29002,
-    name: 'Ruby Broadsword',
+    name: '红宝石宽刃剑',
     level: 485,
     slot: 1,
     role: 1,
@@ -27101,7 +27101,7 @@ export default [
   },
   {
     id: 29003,
-    name: 'Ruby Cesti',
+    name: '红宝石钢拳',
     level: 485,
     slot: 13,
     role: 3,
@@ -27123,7 +27123,7 @@ export default [
   },
   {
     id: 29004,
-    name: 'Ruby Battleaxe',
+    name: '红宝石战斧',
     level: 485,
     slot: 13,
     role: 1,
@@ -27145,7 +27145,7 @@ export default [
   },
   {
     id: 29005,
-    name: 'Ruby Partisan',
+    name: '红宝石游击枪',
     level: 485,
     slot: 13,
     role: 2,
@@ -27167,7 +27167,7 @@ export default [
   },
   {
     id: 29006,
-    name: 'Ruby Bow',
+    name: '红宝石战弓',
     level: 485,
     slot: 13,
     role: 4,
@@ -27189,7 +27189,7 @@ export default [
   },
   {
     id: 29007,
-    name: 'Ruby Daggers',
+    name: '红宝石小刀',
     level: 485,
     slot: 13,
     role: 11,
@@ -27211,7 +27211,7 @@ export default [
   },
   {
     id: 29008,
-    name: 'Ruby Greatsword',
+    name: '红宝石巨剑',
     level: 485,
     slot: 13,
     role: 1,
@@ -27233,7 +27233,7 @@ export default [
   },
   {
     id: 29009,
-    name: 'Ruby Knifelock',
+    name: '红宝石刀锁',
     level: 485,
     slot: 13,
     role: 4,
@@ -27255,7 +27255,7 @@ export default [
   },
   {
     id: 29010,
-    name: 'Ruby Cane',
+    name: '红宝石牧杖',
     level: 485,
     slot: 13,
     role: 6,
@@ -27276,7 +27276,7 @@ export default [
   },
   {
     id: 29011,
-    name: 'Ruby Rod',
+    name: '红宝石法杖',
     level: 485,
     slot: 13,
     role: 5,
@@ -27297,7 +27297,7 @@ export default [
   },
   {
     id: 29012,
-    name: 'Ruby Index',
+    name: '红宝石魔导书',
     level: 485,
     slot: 13,
     role: 5,
@@ -27318,7 +27318,7 @@ export default [
   },
   {
     id: 29013,
-    name: 'Ruby Codex',
+    name: '红宝石魔导典',
     level: 485,
     slot: 13,
     role: 6,
@@ -27339,7 +27339,7 @@ export default [
   },
   {
     id: 29014,
-    name: 'Ruby Astrometer',
+    name: '红宝石天仪',
     level: 485,
     slot: 13,
     role: 6,
@@ -27360,7 +27360,7 @@ export default [
   },
   {
     id: 29015,
-    name: 'Ruby Samurai Blade',
+    name: '红宝石武士刀',
     level: 485,
     slot: 13,
     role: 3,
@@ -27382,7 +27382,7 @@ export default [
   },
   {
     id: 29016,
-    name: 'Ruby Hanger',
+    name: '红宝石重刺剑',
     level: 485,
     slot: 13,
     role: 5,
@@ -27403,7 +27403,7 @@ export default [
   },
   {
     id: 29017,
-    name: 'Ruby Sawback',
+    name: '红宝石锯刃',
     level: 485,
     slot: 13,
     role: 1,
@@ -27425,7 +27425,7 @@ export default [
   },
   {
     id: 29018,
-    name: 'Ruby Chakrams',
+    name: '红宝石圆月轮',
     level: 485,
     slot: 13,
     role: 4,
@@ -27447,7 +27447,7 @@ export default [
   },
   {
     id: 29019,
-    name: 'Ruby Scutum',
+    name: '红宝石盾',
     level: 485,
     slot: 2,
     role: 1,
@@ -27855,7 +27855,7 @@ export default [
   },
   {
     id: 29179,
-    name: 'Crystarium Sword',
+    name: '水晶都长剑',
     level: 490,
     slot: 1,
     role: 1,
@@ -27877,7 +27877,7 @@ export default [
   },
   {
     id: 29180,
-    name: 'Crystarium Knuckles',
+    name: '水晶都指虎',
     level: 490,
     slot: 13,
     role: 3,
@@ -27899,7 +27899,7 @@ export default [
   },
   {
     id: 29181,
-    name: 'Crystarium Labrys',
+    name: '水晶都双刃斧',
     level: 490,
     slot: 13,
     role: 1,
@@ -27921,7 +27921,7 @@ export default [
   },
   {
     id: 29182,
-    name: 'Crystarium Spear',
+    name: '水晶都长枪',
     level: 490,
     slot: 13,
     role: 2,
@@ -27943,7 +27943,7 @@ export default [
   },
   {
     id: 29183,
-    name: 'Crystarium Composite Bow',
+    name: '水晶都复合弓',
     level: 490,
     slot: 13,
     role: 4,
@@ -27965,7 +27965,7 @@ export default [
   },
   {
     id: 29184,
-    name: 'Crystarium Daggers',
+    name: '水晶都小刀',
     level: 490,
     slot: 13,
     role: 11,
@@ -27987,7 +27987,7 @@ export default [
   },
   {
     id: 29185,
-    name: 'Crystarium Greatsword',
+    name: '水晶都巨剑',
     level: 490,
     slot: 13,
     role: 1,
@@ -28009,7 +28009,7 @@ export default [
   },
   {
     id: 29186,
-    name: 'Crystarium Culverin',
+    name: '水晶都重炮',
     level: 490,
     slot: 13,
     role: 4,
@@ -28031,7 +28031,7 @@ export default [
   },
   {
     id: 29187,
-    name: 'Crystarium Cane',
+    name: '水晶都牧杖',
     level: 490,
     slot: 13,
     role: 6,
@@ -28052,7 +28052,7 @@ export default [
   },
   {
     id: 29188,
-    name: 'Crystarium Rod',
+    name: '水晶都法杖',
     level: 490,
     slot: 13,
     role: 5,
@@ -28073,7 +28073,7 @@ export default [
   },
   {
     id: 29189,
-    name: 'Crystarium Index',
+    name: '水晶都魔导书',
     level: 490,
     slot: 13,
     role: 5,
@@ -28094,7 +28094,7 @@ export default [
   },
   {
     id: 29190,
-    name: 'Crystarium Codex',
+    name: '水晶都魔导典',
     level: 490,
     slot: 13,
     role: 6,
@@ -28115,7 +28115,7 @@ export default [
   },
   {
     id: 29191,
-    name: 'Crystarium Planisphere',
+    name: '水晶都天星盘',
     level: 490,
     slot: 13,
     role: 6,
@@ -28136,7 +28136,7 @@ export default [
   },
   {
     id: 29192,
-    name: 'Crystarium Samurai Blade',
+    name: '水晶都武士刀',
     level: 490,
     slot: 13,
     role: 3,
@@ -28158,7 +28158,7 @@ export default [
   },
   {
     id: 29193,
-    name: 'Crystarium Rapier',
+    name: '水晶都刺剑',
     level: 490,
     slot: 13,
     role: 5,
@@ -28179,7 +28179,7 @@ export default [
   },
   {
     id: 29194,
-    name: 'Crystarium Manatrigger',
+    name: '水晶都魔机刃',
     level: 490,
     slot: 13,
     role: 1,
@@ -28201,7 +28201,7 @@ export default [
   },
   {
     id: 29195,
-    name: 'Crystarium War Quoits',
+    name: '水晶都战轮',
     level: 490,
     slot: 13,
     role: 4,
@@ -28223,7 +28223,7 @@ export default [
   },
   {
     id: 29196,
-    name: 'Crystarium Kite Shield',
+    name: '水晶都鸢盾',
     level: 490,
     slot: 2,
     role: 1,
@@ -28243,7 +28243,7 @@ export default [
   },
   {
     id: 29197,
-    name: 'Crystarium Circlet of Fending',
+    name: '水晶都御敌头冠',
     level: 490,
     slot: 3,
     role: 1,
@@ -28263,7 +28263,7 @@ export default [
   },
   {
     id: 29198,
-    name: 'Crystarium Tabard of Fending',
+    name: '水晶都御敌罩衣',
     level: 490,
     slot: 4,
     role: 1,
@@ -28283,7 +28283,7 @@ export default [
   },
   {
     id: 29199,
-    name: 'Crystarium Gauntlets of Fending',
+    name: '水晶都御敌手铠',
     level: 490,
     slot: 5,
     role: 1,
@@ -28303,7 +28303,7 @@ export default [
   },
   {
     id: 29200,
-    name: 'Crystarium Trousers of Fending',
+    name: '水晶都御敌软甲裤',
     level: 490,
     slot: 7,
     role: 1,
@@ -28323,7 +28323,7 @@ export default [
   },
   {
     id: 29201,
-    name: 'Crystarium Thighboots of Fending',
+    name: '水晶都御敌高筒靴',
     level: 490,
     slot: 8,
     role: 1,
@@ -28343,7 +28343,7 @@ export default [
   },
   {
     id: 29202,
-    name: 'Crystarium Belt of Fending',
+    name: '水晶都御敌腰甲',
     level: 490,
     slot: 6,
     role: 1,
@@ -28363,7 +28363,7 @@ export default [
   },
   {
     id: 29203,
-    name: 'Crystarium Circlet of Maiming',
+    name: '水晶都制敌头冠',
     level: 490,
     slot: 3,
     role: 2,
@@ -28383,7 +28383,7 @@ export default [
   },
   {
     id: 29204,
-    name: 'Crystarium Tabard of Maiming',
+    name: '水晶都制敌罩衣',
     level: 490,
     slot: 4,
     role: 2,
@@ -28403,7 +28403,7 @@ export default [
   },
   {
     id: 29205,
-    name: 'Crystarium Gauntlets of Maiming',
+    name: '水晶都制敌手铠',
     level: 490,
     slot: 5,
     role: 2,
@@ -28423,7 +28423,7 @@ export default [
   },
   {
     id: 29206,
-    name: 'Crystarium Trousers of Maiming',
+    name: '水晶都制敌软甲裤',
     level: 490,
     slot: 7,
     role: 2,
@@ -28443,7 +28443,7 @@ export default [
   },
   {
     id: 29207,
-    name: 'Crystarium Thighboots of Maiming',
+    name: '水晶都制敌高筒靴',
     level: 490,
     slot: 8,
     role: 2,
@@ -28463,7 +28463,7 @@ export default [
   },
   {
     id: 29208,
-    name: 'Crystarium Belt of Maiming',
+    name: '水晶都制敌腰甲',
     level: 490,
     slot: 6,
     role: 2,
@@ -28483,7 +28483,7 @@ export default [
   },
   {
     id: 29209,
-    name: 'Crystarium Turban of Striking',
+    name: '水晶都强袭包头巾',
     level: 490,
     slot: 3,
     role: 3,
@@ -28503,7 +28503,7 @@ export default [
   },
   {
     id: 29210,
-    name: 'Crystarium Coat of Striking',
+    name: '水晶都强袭外套',
     level: 490,
     slot: 4,
     role: 3,
@@ -28523,7 +28523,7 @@ export default [
   },
   {
     id: 29211,
-    name: 'Crystarium Gloves of Striking',
+    name: '水晶都强袭手套',
     level: 490,
     slot: 5,
     role: 3,
@@ -28543,7 +28543,7 @@ export default [
   },
   {
     id: 29212,
-    name: 'Crystarium Pantaloons of Striking',
+    name: '水晶都强袭喇叭裤',
     level: 490,
     slot: 7,
     role: 3,
@@ -28563,7 +28563,7 @@ export default [
   },
   {
     id: 29213,
-    name: 'Crystarium Shoes of Striking',
+    name: '水晶都强袭短靴',
     level: 490,
     slot: 8,
     role: 3,
@@ -28583,7 +28583,7 @@ export default [
   },
   {
     id: 29214,
-    name: 'Crystarium Belt of Striking',
+    name: '水晶都强袭腰甲',
     level: 490,
     slot: 6,
     role: 3,
@@ -28603,7 +28603,7 @@ export default [
   },
   {
     id: 29215,
-    name: 'Crystarium Blinder of Aiming',
+    name: '水晶都精准眼罩',
     level: 490,
     slot: 3,
     role: 4,
@@ -28623,7 +28623,7 @@ export default [
   },
   {
     id: 29216,
-    name: 'Crystarium Coat of Aiming',
+    name: '水晶都精准外套',
     level: 490,
     slot: 4,
     role: 4,
@@ -28643,7 +28643,7 @@ export default [
   },
   {
     id: 29217,
-    name: 'Crystarium Gloves of Aiming',
+    name: '水晶都精准手套',
     level: 490,
     slot: 5,
     role: 4,
@@ -28663,7 +28663,7 @@ export default [
   },
   {
     id: 29218,
-    name: 'Crystarium Breeches of Aiming',
+    name: '水晶都精准马裤',
     level: 490,
     slot: 7,
     role: 4,
@@ -28683,7 +28683,7 @@ export default [
   },
   {
     id: 29219,
-    name: 'Crystarium Boots of Aiming',
+    name: '水晶都精准长靴',
     level: 490,
     slot: 8,
     role: 4,
@@ -28703,7 +28703,7 @@ export default [
   },
   {
     id: 29220,
-    name: 'Crystarium Belt of Aiming',
+    name: '水晶都精准腰甲',
     level: 490,
     slot: 6,
     role: 4,
@@ -28723,7 +28723,7 @@ export default [
   },
   {
     id: 29221,
-    name: 'Crystarium Hat of Scouting',
+    name: '水晶都游击圆顶帽',
     level: 490,
     slot: 3,
     role: 11,
@@ -28743,7 +28743,7 @@ export default [
   },
   {
     id: 29222,
-    name: 'Crystarium Coat of Scouting',
+    name: '水晶都游击外套',
     level: 490,
     slot: 4,
     role: 11,
@@ -28763,7 +28763,7 @@ export default [
   },
   {
     id: 29223,
-    name: 'Crystarium Gloves of Scouting',
+    name: '水晶都游击手套',
     level: 490,
     slot: 5,
     role: 11,
@@ -28783,7 +28783,7 @@ export default [
   },
   {
     id: 29224,
-    name: 'Crystarium Pantaloons of Scouting',
+    name: '水晶都游击软甲裤',
     level: 490,
     slot: 7,
     role: 11,
@@ -28803,7 +28803,7 @@ export default [
   },
   {
     id: 29225,
-    name: 'Crystarium Boots of Scouting',
+    name: '水晶都游击长靴',
     level: 490,
     slot: 8,
     role: 11,
@@ -28823,7 +28823,7 @@ export default [
   },
   {
     id: 29226,
-    name: 'Crystarium Belt of Scouting',
+    name: '水晶都游击腰甲',
     level: 490,
     slot: 6,
     role: 11,
@@ -28843,7 +28843,7 @@ export default [
   },
   {
     id: 29227,
-    name: 'Crystarium Turban of Healing',
+    name: '水晶都治愈包头巾',
     level: 490,
     slot: 3,
     role: 6,
@@ -28863,7 +28863,7 @@ export default [
   },
   {
     id: 29228,
-    name: 'Crystarium Robe of Healing',
+    name: '水晶都治愈长袍',
     level: 490,
     slot: 4,
     role: 6,
@@ -28883,7 +28883,7 @@ export default [
   },
   {
     id: 29229,
-    name: 'Crystarium Gloves of Healing',
+    name: '水晶都治愈手套',
     level: 490,
     slot: 5,
     role: 6,
@@ -28903,7 +28903,7 @@ export default [
   },
   {
     id: 29230,
-    name: 'Crystarium Pantaloons of Healing',
+    name: '水晶都治愈喇叭裤',
     level: 490,
     slot: 7,
     role: 6,
@@ -28923,7 +28923,7 @@ export default [
   },
   {
     id: 29231,
-    name: 'Crystarium Shoes of Healing',
+    name: '水晶都治愈短靴',
     level: 490,
     slot: 8,
     role: 6,
@@ -28943,7 +28943,7 @@ export default [
   },
   {
     id: 29232,
-    name: 'Crystarium Belt of Healing',
+    name: '水晶都治愈腰甲',
     level: 490,
     slot: 6,
     role: 6,
@@ -28963,7 +28963,7 @@ export default [
   },
   {
     id: 29233,
-    name: 'Crystarium Halfmask of Casting',
+    name: '水晶都咏咒口罩',
     level: 490,
     slot: 3,
     role: 5,
@@ -28983,7 +28983,7 @@ export default [
   },
   {
     id: 29234,
-    name: 'Crystarium Robe of Casting',
+    name: '水晶都咏咒长袍',
     level: 490,
     slot: 4,
     role: 5,
@@ -29003,7 +29003,7 @@ export default [
   },
   {
     id: 29235,
-    name: 'Crystarium Shortgloves of Casting',
+    name: '水晶都咏咒短手套',
     level: 490,
     slot: 5,
     role: 5,
@@ -29023,7 +29023,7 @@ export default [
   },
   {
     id: 29236,
-    name: 'Crystarium Hose of Casting',
+    name: '水晶都咏咒骑兵裤',
     level: 490,
     slot: 7,
     role: 5,
@@ -29043,7 +29043,7 @@ export default [
   },
   {
     id: 29237,
-    name: 'Crystarium Boots of Casting',
+    name: '水晶都咏咒筒靴',
     level: 490,
     slot: 8,
     role: 5,
@@ -29063,7 +29063,7 @@ export default [
   },
   {
     id: 29238,
-    name: 'Crystarium Belt of Casting',
+    name: '水晶都咏咒腰甲',
     level: 490,
     slot: 6,
     role: 5,
@@ -29083,7 +29083,7 @@ export default [
   },
   {
     id: 29239,
-    name: 'Crystarium Earrings of Fending',
+    name: '水晶都御敌耳坠',
     level: 490,
     slot: 9,
     role: 1,
@@ -29103,7 +29103,7 @@ export default [
   },
   {
     id: 29240,
-    name: 'Crystarium Earrings of Slaying',
+    name: '水晶都强攻耳坠',
     level: 490,
     slot: 9,
     role: 10,
@@ -29123,7 +29123,7 @@ export default [
   },
   {
     id: 29241,
-    name: 'Crystarium Earrings of Aiming',
+    name: '水晶都精准耳坠',
     level: 490,
     slot: 9,
     role: 12,
@@ -29143,7 +29143,7 @@ export default [
   },
   {
     id: 29242,
-    name: 'Crystarium Earrings of Healing',
+    name: '水晶都治愈耳坠',
     level: 490,
     slot: 9,
     role: 6,
@@ -29163,7 +29163,7 @@ export default [
   },
   {
     id: 29243,
-    name: 'Crystarium Earrings of Casting',
+    name: '水晶都咏咒耳坠',
     level: 490,
     slot: 9,
     role: 5,
@@ -29183,7 +29183,7 @@ export default [
   },
   {
     id: 29244,
-    name: 'Crystarium Choker of Fending',
+    name: '水晶都御敌项环',
     level: 490,
     slot: 10,
     role: 1,
@@ -29203,7 +29203,7 @@ export default [
   },
   {
     id: 29245,
-    name: 'Crystarium Choker of Slaying',
+    name: '水晶都强攻项环',
     level: 490,
     slot: 10,
     role: 10,
@@ -29223,7 +29223,7 @@ export default [
   },
   {
     id: 29246,
-    name: 'Crystarium Choker of Aiming',
+    name: '水晶都精准项环',
     level: 490,
     slot: 10,
     role: 12,
@@ -29243,7 +29243,7 @@ export default [
   },
   {
     id: 29247,
-    name: 'Crystarium Choker of Healing',
+    name: '水晶都治愈项环',
     level: 490,
     slot: 10,
     role: 6,
@@ -29263,7 +29263,7 @@ export default [
   },
   {
     id: 29248,
-    name: 'Crystarium Choker of Casting',
+    name: '水晶都咏咒项环',
     level: 490,
     slot: 10,
     role: 5,
@@ -29283,7 +29283,7 @@ export default [
   },
   {
     id: 29249,
-    name: 'Crystarium Wristband of Fending',
+    name: '水晶都御敌手环',
     level: 490,
     slot: 11,
     role: 1,
@@ -29303,7 +29303,7 @@ export default [
   },
   {
     id: 29250,
-    name: 'Crystarium Wristband of Slaying',
+    name: '水晶都强攻手环',
     level: 490,
     slot: 11,
     role: 10,
@@ -29323,7 +29323,7 @@ export default [
   },
   {
     id: 29251,
-    name: 'Crystarium Wristband of Aiming',
+    name: '水晶都精准手环',
     level: 490,
     slot: 11,
     role: 12,
@@ -29343,7 +29343,7 @@ export default [
   },
   {
     id: 29252,
-    name: 'Crystarium Wristband of Healing',
+    name: '水晶都治愈手环',
     level: 490,
     slot: 11,
     role: 6,
@@ -29363,7 +29363,7 @@ export default [
   },
   {
     id: 29253,
-    name: 'Crystarium Wristband of Casting',
+    name: '水晶都咏咒手环',
     level: 490,
     slot: 11,
     role: 5,
@@ -29383,7 +29383,7 @@ export default [
   },
   {
     id: 29254,
-    name: 'Crystarium Ring of Fending',
+    name: '水晶都御敌指环',
     level: 490,
     slot: 12,
     role: 1,
@@ -29403,7 +29403,7 @@ export default [
   },
   {
     id: 29255,
-    name: 'Crystarium Ring of Slaying',
+    name: '水晶都强攻指环',
     level: 490,
     slot: 12,
     role: 10,
@@ -29423,7 +29423,7 @@ export default [
   },
   {
     id: 29256,
-    name: 'Crystarium Ring of Aiming',
+    name: '水晶都精准指环',
     level: 490,
     slot: 12,
     role: 12,
@@ -29443,7 +29443,7 @@ export default [
   },
   {
     id: 29257,
-    name: 'Crystarium Ring of Healing',
+    name: '水晶都治愈指环',
     level: 490,
     slot: 12,
     role: 6,
@@ -29463,7 +29463,7 @@ export default [
   },
   {
     id: 29258,
-    name: 'Crystarium Ring of Casting',
+    name: '水晶都咏咒指环',
     level: 490,
     slot: 12,
     role: 5,
@@ -29483,7 +29483,7 @@ export default [
   },
   {
     id: 29055,
-    name: 'Edenchoir Helm of Fending',
+    name: '伊甸之律御敌头盔',
     level: 500,
     slot: 3,
     role: 1,
@@ -29503,7 +29503,7 @@ export default [
   },
   {
     id: 29056,
-    name: 'Edenchoir Mail of Fending',
+    name: '伊甸之律御敌战铠',
     level: 500,
     slot: 4,
     role: 1,
@@ -29523,7 +29523,7 @@ export default [
   },
   {
     id: 29057,
-    name: 'Edenchoir Gauntlets of Fending',
+    name: '伊甸之律御敌手铠',
     level: 500,
     slot: 5,
     role: 1,
@@ -29543,7 +29543,7 @@ export default [
   },
   {
     id: 29058,
-    name: 'Edenchoir Cuisses of Fending',
+    name: '伊甸之律御敌腿甲',
     level: 500,
     slot: 7,
     role: 1,
@@ -29563,7 +29563,7 @@ export default [
   },
   {
     id: 29059,
-    name: 'Edenchoir Sollerets of Fending',
+    name: '伊甸之律御敌锁甲靴',
     level: 500,
     slot: 8,
     role: 1,
@@ -29583,7 +29583,7 @@ export default [
   },
   {
     id: 29060,
-    name: 'Edenchoir Tassets of Fending',
+    name: '伊甸之律御敌腰甲',
     level: 500,
     slot: 6,
     role: 1,
@@ -29603,7 +29603,7 @@ export default [
   },
   {
     id: 29061,
-    name: 'Edenchoir Helm of Maiming',
+    name: '伊甸之律制敌头盔',
     level: 500,
     slot: 3,
     role: 2,
@@ -29623,7 +29623,7 @@ export default [
   },
   {
     id: 29062,
-    name: 'Edenchoir Mail of Maiming',
+    name: '伊甸之律制敌战铠',
     level: 500,
     slot: 4,
     role: 2,
@@ -29643,7 +29643,7 @@ export default [
   },
   {
     id: 29063,
-    name: 'Edenchoir Gauntlets of Maiming',
+    name: '伊甸之律制敌手铠',
     level: 500,
     slot: 5,
     role: 2,
@@ -29663,7 +29663,7 @@ export default [
   },
   {
     id: 29064,
-    name: 'Edenchoir Cuisses of Maiming',
+    name: '伊甸之律制敌腿甲',
     level: 500,
     slot: 7,
     role: 2,
@@ -29683,7 +29683,7 @@ export default [
   },
   {
     id: 29065,
-    name: 'Edenchoir Sollerets of Maiming',
+    name: '伊甸之律制敌锁甲靴',
     level: 500,
     slot: 8,
     role: 2,
@@ -29703,7 +29703,7 @@ export default [
   },
   {
     id: 29066,
-    name: 'Edenchoir Tassets of Maiming',
+    name: '伊甸之律制敌腰甲',
     level: 500,
     slot: 6,
     role: 2,
@@ -29723,7 +29723,7 @@ export default [
   },
   {
     id: 29067,
-    name: 'Edenchoir Eyepatch of Striking',
+    name: '伊甸之律强袭眼罩',
     level: 500,
     slot: 3,
     role: 3,
@@ -29743,7 +29743,7 @@ export default [
   },
   {
     id: 29068,
-    name: 'Edenchoir Gambison of Striking',
+    name: '伊甸之律强袭外套',
     level: 500,
     slot: 4,
     role: 3,
@@ -29763,7 +29763,7 @@ export default [
   },
   {
     id: 29069,
-    name: 'Edenchoir Gauntlets of Striking',
+    name: '伊甸之律强袭手铠',
     level: 500,
     slot: 5,
     role: 3,
@@ -29783,7 +29783,7 @@ export default [
   },
   {
     id: 29070,
-    name: 'Edenchoir Trousers of Striking',
+    name: '伊甸之律强袭软甲裤',
     level: 500,
     slot: 7,
     role: 3,
@@ -29803,7 +29803,7 @@ export default [
   },
   {
     id: 29071,
-    name: 'Edenchoir Sollerets of Striking',
+    name: '伊甸之律强袭锁甲靴',
     level: 500,
     slot: 8,
     role: 3,
@@ -29823,7 +29823,7 @@ export default [
   },
   {
     id: 29072,
-    name: 'Edenchoir Tassets of Striking',
+    name: '伊甸之律强袭腰甲',
     level: 500,
     slot: 6,
     role: 3,
@@ -29843,7 +29843,7 @@ export default [
   },
   {
     id: 29073,
-    name: 'Edenchoir Chapeau of Aiming',
+    name: '伊甸之律精准礼帽',
     level: 500,
     slot: 3,
     role: 4,
@@ -29863,7 +29863,7 @@ export default [
   },
   {
     id: 29074,
-    name: 'Edenchoir Gambison of Aiming',
+    name: '伊甸之律精准外套',
     level: 500,
     slot: 4,
     role: 4,
@@ -29883,7 +29883,7 @@ export default [
   },
   {
     id: 29075,
-    name: 'Edenchoir Vambraces of Aiming',
+    name: '伊甸之律精准臂甲',
     level: 500,
     slot: 5,
     role: 4,
@@ -29903,7 +29903,7 @@ export default [
   },
   {
     id: 29076,
-    name: 'Edenchoir Trousers of Aiming',
+    name: '伊甸之律精准软甲裤',
     level: 500,
     slot: 7,
     role: 4,
@@ -29923,7 +29923,7 @@ export default [
   },
   {
     id: 29077,
-    name: 'Edenchoir Shoes of Aiming',
+    name: '伊甸之律精准短靴',
     level: 500,
     slot: 8,
     role: 4,
@@ -29943,7 +29943,7 @@ export default [
   },
   {
     id: 29078,
-    name: 'Edenchoir Tassets of Aiming',
+    name: '伊甸之律精准腰甲',
     level: 500,
     slot: 6,
     role: 4,
@@ -29963,7 +29963,7 @@ export default [
   },
   {
     id: 29079,
-    name: 'Edenchoir Eyepatch of Scouting',
+    name: '伊甸之律游击眼罩',
     level: 500,
     slot: 3,
     role: 11,
@@ -29983,7 +29983,7 @@ export default [
   },
   {
     id: 29080,
-    name: 'Edenchoir Gambison of Scouting',
+    name: '伊甸之律游击外套',
     level: 500,
     slot: 4,
     role: 11,
@@ -30003,7 +30003,7 @@ export default [
   },
   {
     id: 29081,
-    name: 'Edenchoir Gauntlets of Scouting',
+    name: '伊甸之律游击手铠',
     level: 500,
     slot: 5,
     role: 11,
@@ -30023,7 +30023,7 @@ export default [
   },
   {
     id: 29082,
-    name: 'Edenchoir Breeches of Scouting',
+    name: '伊甸之律游击马裤',
     level: 500,
     slot: 7,
     role: 11,
@@ -30043,7 +30043,7 @@ export default [
   },
   {
     id: 29083,
-    name: 'Edenchoir Sollerets of Scouting',
+    name: '伊甸之律游击锁甲靴',
     level: 500,
     slot: 8,
     role: 11,
@@ -30063,7 +30063,7 @@ export default [
   },
   {
     id: 29084,
-    name: 'Edenchoir Tassets of Scouting',
+    name: '伊甸之律游击腰甲',
     level: 500,
     slot: 6,
     role: 11,
@@ -30083,7 +30083,7 @@ export default [
   },
   {
     id: 29085,
-    name: 'Edenchoir Wings of Healing',
+    name: '伊甸之律治愈翼冠',
     level: 500,
     slot: 3,
     role: 6,
@@ -30103,7 +30103,7 @@ export default [
   },
   {
     id: 29086,
-    name: 'Edenchoir Tunic of Healing',
+    name: '伊甸之律治愈束腰衣',
     level: 500,
     slot: 4,
     role: 6,
@@ -30123,7 +30123,7 @@ export default [
   },
   {
     id: 29087,
-    name: 'Edenchoir Armlets of Healing',
+    name: '伊甸之律治愈护臂',
     level: 500,
     slot: 5,
     role: 6,
@@ -30143,7 +30143,7 @@ export default [
   },
   {
     id: 29088,
-    name: 'Edenchoir Breeches of Healing',
+    name: '伊甸之律治愈马裤',
     level: 500,
     slot: 7,
     role: 6,
@@ -30163,7 +30163,7 @@ export default [
   },
   {
     id: 29089,
-    name: 'Edenchoir Boots of Healing',
+    name: '伊甸之律治愈长靴',
     level: 500,
     slot: 8,
     role: 6,
@@ -30183,7 +30183,7 @@ export default [
   },
   {
     id: 29090,
-    name: 'Edenchoir Tassets of Healing',
+    name: '伊甸之律治愈腰甲',
     level: 500,
     slot: 6,
     role: 6,
@@ -30203,7 +30203,7 @@ export default [
   },
   {
     id: 29091,
-    name: 'Edenchoir Hat of Casting',
+    name: '伊甸之律咏咒魔术帽',
     level: 500,
     slot: 3,
     role: 5,
@@ -30223,7 +30223,7 @@ export default [
   },
   {
     id: 29092,
-    name: 'Edenchoir Tunic of Casting',
+    name: '伊甸之律咏咒束腰衣',
     level: 500,
     slot: 4,
     role: 5,
@@ -30243,7 +30243,7 @@ export default [
   },
   {
     id: 29093,
-    name: 'Edenchoir Armlets of Casting',
+    name: '伊甸之律咏咒护臂',
     level: 500,
     slot: 5,
     role: 5,
@@ -30263,7 +30263,7 @@ export default [
   },
   {
     id: 29094,
-    name: 'Edenchoir Breeches of Casting',
+    name: '伊甸之律咏咒马裤',
     level: 500,
     slot: 7,
     role: 5,
@@ -30283,7 +30283,7 @@ export default [
   },
   {
     id: 29095,
-    name: 'Edenchoir Boots of Casting',
+    name: '伊甸之律咏咒长靴',
     level: 500,
     slot: 8,
     role: 5,
@@ -30303,7 +30303,7 @@ export default [
   },
   {
     id: 29096,
-    name: 'Edenchoir Tassets of Casting',
+    name: '伊甸之律咏咒腰甲',
     level: 500,
     slot: 6,
     role: 5,
@@ -30323,7 +30323,7 @@ export default [
   },
   {
     id: 29097,
-    name: 'Edenchoir Earrings of Fending',
+    name: '伊甸之律御敌耳坠',
     level: 500,
     slot: 9,
     role: 1,
@@ -30343,7 +30343,7 @@ export default [
   },
   {
     id: 29098,
-    name: 'Edenchoir Earrings of Slaying',
+    name: '伊甸之律强攻耳坠',
     level: 500,
     slot: 9,
     role: 10,
@@ -30363,7 +30363,7 @@ export default [
   },
   {
     id: 29099,
-    name: 'Edenchoir Earrings of Aiming',
+    name: '伊甸之律精准耳坠',
     level: 500,
     slot: 9,
     role: 12,
@@ -30383,7 +30383,7 @@ export default [
   },
   {
     id: 29100,
-    name: 'Edenchoir Earrings of Healing',
+    name: '伊甸之律治愈耳坠',
     level: 500,
     slot: 9,
     role: 6,
@@ -30403,7 +30403,7 @@ export default [
   },
   {
     id: 29101,
-    name: 'Edenchoir Earrings of Casting',
+    name: '伊甸之律咏咒耳坠',
     level: 500,
     slot: 9,
     role: 5,
@@ -30423,7 +30423,7 @@ export default [
   },
   {
     id: 29102,
-    name: 'Edenchoir Choker of Fending',
+    name: '伊甸之律御敌项环',
     level: 500,
     slot: 10,
     role: 1,
@@ -30443,7 +30443,7 @@ export default [
   },
   {
     id: 29103,
-    name: 'Edenchoir Choker of Slaying',
+    name: '伊甸之律强攻项环',
     level: 500,
     slot: 10,
     role: 10,
@@ -30463,7 +30463,7 @@ export default [
   },
   {
     id: 29104,
-    name: 'Edenchoir Choker of Aiming',
+    name: '伊甸之律精准项环',
     level: 500,
     slot: 10,
     role: 12,
@@ -30483,7 +30483,7 @@ export default [
   },
   {
     id: 29105,
-    name: 'Edenchoir Choker of Healing',
+    name: '伊甸之律治愈项环',
     level: 500,
     slot: 10,
     role: 6,
@@ -30503,7 +30503,7 @@ export default [
   },
   {
     id: 29106,
-    name: 'Edenchoir Choker of Casting',
+    name: '伊甸之律咏咒项环',
     level: 500,
     slot: 10,
     role: 5,
@@ -30523,7 +30523,7 @@ export default [
   },
   {
     id: 29107,
-    name: 'Edenchoir Wristband of Fending',
+    name: '伊甸之律御敌手环',
     level: 500,
     slot: 11,
     role: 1,
@@ -30543,7 +30543,7 @@ export default [
   },
   {
     id: 29108,
-    name: 'Edenchoir Wristband of Slaying',
+    name: '伊甸之律强攻手环',
     level: 500,
     slot: 11,
     role: 10,
@@ -30563,7 +30563,7 @@ export default [
   },
   {
     id: 29109,
-    name: 'Edenchoir Wristband of Aiming',
+    name: '伊甸之律精准手环',
     level: 500,
     slot: 11,
     role: 12,
@@ -30583,7 +30583,7 @@ export default [
   },
   {
     id: 29110,
-    name: 'Edenchoir Wristband of Healing',
+    name: '伊甸之律治愈手环',
     level: 500,
     slot: 11,
     role: 6,
@@ -30603,7 +30603,7 @@ export default [
   },
   {
     id: 29111,
-    name: 'Edenchoir Wristband of Casting',
+    name: '伊甸之律咏咒手环',
     level: 500,
     slot: 11,
     role: 5,
@@ -30623,7 +30623,7 @@ export default [
   },
   {
     id: 29112,
-    name: 'Edenchoir Ring of Fending',
+    name: '伊甸之律御敌指环',
     level: 500,
     slot: 12,
     role: 1,
@@ -30643,7 +30643,7 @@ export default [
   },
   {
     id: 29113,
-    name: 'Edenchoir Ring of Slaying',
+    name: '伊甸之律强攻指环',
     level: 500,
     slot: 12,
     role: 10,
@@ -30663,7 +30663,7 @@ export default [
   },
   {
     id: 29114,
-    name: 'Edenchoir Ring of Aiming',
+    name: '伊甸之律精准指环',
     level: 500,
     slot: 12,
     role: 12,
@@ -30683,7 +30683,7 @@ export default [
   },
   {
     id: 29115,
-    name: 'Edenchoir Ring of Healing',
+    name: '伊甸之律治愈指环',
     level: 500,
     slot: 12,
     role: 6,
@@ -30703,7 +30703,7 @@ export default [
   },
   {
     id: 29116,
-    name: 'Edenchoir Ring of Casting',
+    name: '伊甸之律咏咒指环',
     level: 500,
     slot: 12,
     role: 5,
@@ -30723,7 +30723,7 @@ export default [
   },
   {
     id: 29259,
-    name: 'Augmented Crystarium Sword',
+    name: '改良型水晶都长剑',
     level: 500,
     slot: 1,
     role: 1,
@@ -30745,7 +30745,7 @@ export default [
   },
   {
     id: 29260,
-    name: 'Augmented Crystarium Knuckles',
+    name: '改良型水晶都指虎',
     level: 500,
     slot: 13,
     role: 3,
@@ -30767,7 +30767,7 @@ export default [
   },
   {
     id: 29261,
-    name: 'Augmented Crystarium Labrys',
+    name: '改良型水晶都双刃斧',
     level: 500,
     slot: 13,
     role: 1,
@@ -30789,7 +30789,7 @@ export default [
   },
   {
     id: 29262,
-    name: 'Augmented Crystarium Spear',
+    name: '改良型水晶都长枪',
     level: 500,
     slot: 13,
     role: 2,
@@ -30811,7 +30811,7 @@ export default [
   },
   {
     id: 29263,
-    name: 'Augmented Crystarium Composite Bow',
+    name: '改良型水晶都复合弓',
     level: 500,
     slot: 13,
     role: 4,
@@ -30833,7 +30833,7 @@ export default [
   },
   {
     id: 29264,
-    name: 'Augmented Crystarium Daggers',
+    name: '改良型水晶都小刀',
     level: 500,
     slot: 13,
     role: 11,
@@ -30855,7 +30855,7 @@ export default [
   },
   {
     id: 29265,
-    name: 'Augmented Crystarium Greatsword',
+    name: '改良型水晶都巨剑',
     level: 500,
     slot: 13,
     role: 1,
@@ -30877,7 +30877,7 @@ export default [
   },
   {
     id: 29266,
-    name: 'Augmented Crystarium Culverin',
+    name: '改良型水晶都重炮',
     level: 500,
     slot: 13,
     role: 4,
@@ -30899,7 +30899,7 @@ export default [
   },
   {
     id: 29267,
-    name: 'Augmented Crystarium Cane',
+    name: '改良型水晶都牧杖',
     level: 500,
     slot: 13,
     role: 6,
@@ -30920,7 +30920,7 @@ export default [
   },
   {
     id: 29268,
-    name: 'Augmented Crystarium Rod',
+    name: '改良型水晶都法杖',
     level: 500,
     slot: 13,
     role: 5,
@@ -30941,7 +30941,7 @@ export default [
   },
   {
     id: 29269,
-    name: 'Augmented Crystarium Index',
+    name: '改良型水晶都魔导书',
     level: 500,
     slot: 13,
     role: 5,
@@ -30962,7 +30962,7 @@ export default [
   },
   {
     id: 29270,
-    name: 'Augmented Crystarium Codex',
+    name: '改良型水晶都魔导典',
     level: 500,
     slot: 13,
     role: 6,
@@ -30983,7 +30983,7 @@ export default [
   },
   {
     id: 29271,
-    name: 'Augmented Crystarium Planisphere',
+    name: '改良型水晶都天星盘',
     level: 500,
     slot: 13,
     role: 6,
@@ -31004,7 +31004,7 @@ export default [
   },
   {
     id: 29272,
-    name: 'Augmented Crystarium Samurai Blade',
+    name: '改良型水晶都武士刀',
     level: 500,
     slot: 13,
     role: 3,
@@ -31026,7 +31026,7 @@ export default [
   },
   {
     id: 29273,
-    name: 'Augmented Crystarium Rapier',
+    name: '改良型水晶都刺剑',
     level: 500,
     slot: 13,
     role: 5,
@@ -31047,7 +31047,7 @@ export default [
   },
   {
     id: 29274,
-    name: 'Augmented Crystarium Manatrigger',
+    name: '改良型水晶都魔机刃',
     level: 500,
     slot: 13,
     role: 1,
@@ -31069,7 +31069,7 @@ export default [
   },
   {
     id: 29275,
-    name: 'Augmented Crystarium War Quoits',
+    name: '改良型水晶都战轮',
     level: 500,
     slot: 13,
     role: 4,
@@ -31091,7 +31091,7 @@ export default [
   },
   {
     id: 29276,
-    name: 'Augmented Crystarium Kite Shield',
+    name: '改良型水晶都鸢盾',
     level: 500,
     slot: 2,
     role: 1,
@@ -31111,7 +31111,7 @@ export default [
   },
   {
     id: 29277,
-    name: 'Augmented Crystarium Circlet of Fending',
+    name: '改良型水晶都御敌头冠',
     level: 500,
     slot: 3,
     role: 1,
@@ -31131,7 +31131,7 @@ export default [
   },
   {
     id: 29278,
-    name: 'Augmented Crystarium Tabard of Fending',
+    name: '改良型水晶都御敌罩衣',
     level: 500,
     slot: 4,
     role: 1,
@@ -31151,7 +31151,7 @@ export default [
   },
   {
     id: 29279,
-    name: 'Augmented Crystarium Gauntlets of Fending',
+    name: '改良型水晶都御敌手铠',
     level: 500,
     slot: 5,
     role: 1,
@@ -31171,7 +31171,7 @@ export default [
   },
   {
     id: 29280,
-    name: 'Augmented Crystarium Trousers of Fending',
+    name: '改良型水晶都御敌软甲裤',
     level: 500,
     slot: 7,
     role: 1,
@@ -31191,7 +31191,7 @@ export default [
   },
   {
     id: 29281,
-    name: 'Augmented Crystarium Thighboots of Fending',
+    name: '改良型水晶都御敌高筒靴',
     level: 500,
     slot: 8,
     role: 1,
@@ -31211,7 +31211,7 @@ export default [
   },
   {
     id: 29282,
-    name: 'Augmented Crystarium Belt of Fending',
+    name: '改良型水晶都御敌腰甲',
     level: 500,
     slot: 6,
     role: 1,
@@ -31231,7 +31231,7 @@ export default [
   },
   {
     id: 29283,
-    name: 'Augmented Crystarium Circlet of Maiming',
+    name: '改良型水晶都制敌头冠',
     level: 500,
     slot: 3,
     role: 2,
@@ -31251,7 +31251,7 @@ export default [
   },
   {
     id: 29284,
-    name: 'Augmented Crystarium Tabard of Maiming',
+    name: '改良型水晶都制敌罩衣',
     level: 500,
     slot: 4,
     role: 2,
@@ -31271,7 +31271,7 @@ export default [
   },
   {
     id: 29285,
-    name: 'Augmented Crystarium Gauntlets of Maiming',
+    name: '改良型水晶都制敌手铠',
     level: 500,
     slot: 5,
     role: 2,
@@ -31291,7 +31291,7 @@ export default [
   },
   {
     id: 29286,
-    name: 'Augmented Crystarium Trousers of Maiming',
+    name: '改良型水晶都制敌软甲裤',
     level: 500,
     slot: 7,
     role: 2,
@@ -31311,7 +31311,7 @@ export default [
   },
   {
     id: 29287,
-    name: 'Augmented Crystarium Thighboots of Maiming',
+    name: '改良型水晶都制敌高筒靴',
     level: 500,
     slot: 8,
     role: 2,
@@ -31331,7 +31331,7 @@ export default [
   },
   {
     id: 29288,
-    name: 'Augmented Crystarium Belt of Maiming',
+    name: '改良型水晶都制敌腰甲',
     level: 500,
     slot: 6,
     role: 2,
@@ -31351,7 +31351,7 @@ export default [
   },
   {
     id: 29289,
-    name: 'Augmented Crystarium Turban of Striking',
+    name: '改良型水晶都强袭包头巾',
     level: 500,
     slot: 3,
     role: 3,
@@ -31371,7 +31371,7 @@ export default [
   },
   {
     id: 29290,
-    name: 'Augmented Crystarium Coat of Striking',
+    name: '改良型水晶都强袭外套',
     level: 500,
     slot: 4,
     role: 3,
@@ -31391,7 +31391,7 @@ export default [
   },
   {
     id: 29291,
-    name: 'Augmented Crystarium Gloves of Striking',
+    name: '改良型水晶都强袭手套',
     level: 500,
     slot: 5,
     role: 3,
@@ -31411,7 +31411,7 @@ export default [
   },
   {
     id: 29292,
-    name: 'Augmented Crystarium Pantaloons of Striking',
+    name: '改良型水晶都强袭喇叭裤',
     level: 500,
     slot: 7,
     role: 3,
@@ -31431,7 +31431,7 @@ export default [
   },
   {
     id: 29293,
-    name: 'Augmented Crystarium Shoes of Striking',
+    name: '改良型水晶都强袭短靴',
     level: 500,
     slot: 8,
     role: 3,
@@ -31451,7 +31451,7 @@ export default [
   },
   {
     id: 29294,
-    name: 'Augmented Crystarium Belt of Striking',
+    name: '改良型水晶都强袭腰甲',
     level: 500,
     slot: 6,
     role: 3,
@@ -31471,7 +31471,7 @@ export default [
   },
   {
     id: 29295,
-    name: 'Augmented Crystarium Blinder of Aiming',
+    name: '改良型水晶都精准眼罩',
     level: 500,
     slot: 3,
     role: 4,
@@ -31491,7 +31491,7 @@ export default [
   },
   {
     id: 29296,
-    name: 'Augmented Crystarium Coat of Aiming',
+    name: '改良型水晶都精准外套',
     level: 500,
     slot: 4,
     role: 4,
@@ -31511,7 +31511,7 @@ export default [
   },
   {
     id: 29297,
-    name: 'Augmented Crystarium Gloves of Aiming',
+    name: '改良型水晶都精准手套',
     level: 500,
     slot: 5,
     role: 4,
@@ -31531,7 +31531,7 @@ export default [
   },
   {
     id: 29298,
-    name: 'Augmented Crystarium Breeches of Aiming',
+    name: '改良型水晶都精准马裤',
     level: 500,
     slot: 7,
     role: 4,
@@ -31551,7 +31551,7 @@ export default [
   },
   {
     id: 29299,
-    name: 'Augmented Crystarium Boots of Aiming',
+    name: '改良型水晶都精准长靴',
     level: 500,
     slot: 8,
     role: 4,
@@ -31571,7 +31571,7 @@ export default [
   },
   {
     id: 29300,
-    name: 'Augmented Crystarium Belt of Aiming',
+    name: '改良型水晶都精准腰甲',
     level: 500,
     slot: 6,
     role: 4,
@@ -31591,7 +31591,7 @@ export default [
   },
   {
     id: 29301,
-    name: 'Augmented Crystarium Hat of Scouting',
+    name: '改良型水晶都游击圆顶帽',
     level: 500,
     slot: 3,
     role: 11,
@@ -31611,7 +31611,7 @@ export default [
   },
   {
     id: 29302,
-    name: 'Augmented Crystarium Coat of Scouting',
+    name: '改良型水晶都游击外套',
     level: 500,
     slot: 4,
     role: 11,
@@ -31631,7 +31631,7 @@ export default [
   },
   {
     id: 29303,
-    name: 'Augmented Crystarium Gloves of Scouting',
+    name: '改良型水晶都游击手套',
     level: 500,
     slot: 5,
     role: 11,
@@ -31651,7 +31651,7 @@ export default [
   },
   {
     id: 29304,
-    name: 'Augmented Crystarium Pantaloons of Scouting',
+    name: '改良型水晶都游击软甲裤',
     level: 500,
     slot: 7,
     role: 11,
@@ -31671,7 +31671,7 @@ export default [
   },
   {
     id: 29305,
-    name: 'Augmented Crystarium Boots of Scouting',
+    name: '改良型水晶都游击长靴',
     level: 500,
     slot: 8,
     role: 11,
@@ -31691,7 +31691,7 @@ export default [
   },
   {
     id: 29306,
-    name: 'Augmented Crystarium Belt of Scouting',
+    name: '改良型水晶都游击腰甲',
     level: 500,
     slot: 6,
     role: 11,
@@ -31711,7 +31711,7 @@ export default [
   },
   {
     id: 29307,
-    name: 'Augmented Crystarium Turban of Healing',
+    name: '改良型水晶都治愈包头巾',
     level: 500,
     slot: 3,
     role: 6,
@@ -31731,7 +31731,7 @@ export default [
   },
   {
     id: 29308,
-    name: 'Augmented Crystarium Robe of Healing',
+    name: '改良型水晶都治愈长袍',
     level: 500,
     slot: 4,
     role: 6,
@@ -31751,7 +31751,7 @@ export default [
   },
   {
     id: 29309,
-    name: 'Augmented Crystarium Gloves of Healing',
+    name: '改良型水晶都治愈手套',
     level: 500,
     slot: 5,
     role: 6,
@@ -31771,7 +31771,7 @@ export default [
   },
   {
     id: 29310,
-    name: 'Augmented Crystarium Pantaloons of Healing',
+    name: '改良型水晶都治愈喇叭裤',
     level: 500,
     slot: 7,
     role: 6,
@@ -31791,7 +31791,7 @@ export default [
   },
   {
     id: 29311,
-    name: 'Augmented Crystarium Shoes of Healing',
+    name: '改良型水晶都治愈短靴',
     level: 500,
     slot: 8,
     role: 6,
@@ -31811,7 +31811,7 @@ export default [
   },
   {
     id: 29312,
-    name: 'Augmented Crystarium Belt of Healing',
+    name: '改良型水晶都治愈腰甲',
     level: 500,
     slot: 6,
     role: 6,
@@ -31831,7 +31831,7 @@ export default [
   },
   {
     id: 29313,
-    name: 'Augmented Crystarium Halfmask of Casting',
+    name: '改良型水晶都咏咒口罩',
     level: 500,
     slot: 3,
     role: 5,
@@ -31851,7 +31851,7 @@ export default [
   },
   {
     id: 29314,
-    name: 'Augmented Crystarium Robe of Casting',
+    name: '改良型水晶都咏咒长袍',
     level: 500,
     slot: 4,
     role: 5,
@@ -31871,7 +31871,7 @@ export default [
   },
   {
     id: 29315,
-    name: 'Augmented Crystarium Shortgloves of Casting',
+    name: '改良型水晶都咏咒短手套',
     level: 500,
     slot: 5,
     role: 5,
@@ -31891,7 +31891,7 @@ export default [
   },
   {
     id: 29316,
-    name: 'Augmented Crystarium Hose of Casting',
+    name: '改良型水晶都咏咒骑兵裤',
     level: 500,
     slot: 7,
     role: 5,
@@ -31911,7 +31911,7 @@ export default [
   },
   {
     id: 29317,
-    name: 'Augmented Crystarium Boots of Casting',
+    name: '改良型水晶都咏咒筒靴',
     level: 500,
     slot: 8,
     role: 5,
@@ -31931,7 +31931,7 @@ export default [
   },
   {
     id: 29318,
-    name: 'Augmented Crystarium Belt of Casting',
+    name: '改良型水晶都咏咒腰甲',
     level: 500,
     slot: 6,
     role: 5,
@@ -31951,7 +31951,7 @@ export default [
   },
   {
     id: 29319,
-    name: 'Augmented Crystarium Earrings of Fending',
+    name: '改良型水晶都御敌耳坠',
     level: 500,
     slot: 9,
     role: 1,
@@ -31971,7 +31971,7 @@ export default [
   },
   {
     id: 29320,
-    name: 'Augmented Crystarium Earrings of Slaying',
+    name: '改良型水晶都强攻耳坠',
     level: 500,
     slot: 9,
     role: 10,
@@ -31991,7 +31991,7 @@ export default [
   },
   {
     id: 29321,
-    name: 'Augmented Crystarium Earrings of Aiming',
+    name: '改良型水晶都精准耳坠',
     level: 500,
     slot: 9,
     role: 12,
@@ -32011,7 +32011,7 @@ export default [
   },
   {
     id: 29322,
-    name: 'Augmented Crystarium Earrings of Healing',
+    name: '改良型水晶都治愈耳坠',
     level: 500,
     slot: 9,
     role: 6,
@@ -32031,7 +32031,7 @@ export default [
   },
   {
     id: 29323,
-    name: 'Augmented Crystarium Earrings of Casting',
+    name: '改良型水晶都咏咒耳坠',
     level: 500,
     slot: 9,
     role: 5,
@@ -32051,7 +32051,7 @@ export default [
   },
   {
     id: 29324,
-    name: 'Augmented Crystarium Choker of Fending',
+    name: '改良型水晶都御敌项环',
     level: 500,
     slot: 10,
     role: 1,
@@ -32071,7 +32071,7 @@ export default [
   },
   {
     id: 29325,
-    name: 'Augmented Crystarium Choker of Slaying',
+    name: '改良型水晶都强攻项环',
     level: 500,
     slot: 10,
     role: 10,
@@ -32091,7 +32091,7 @@ export default [
   },
   {
     id: 29326,
-    name: 'Augmented Crystarium Choker of Aiming',
+    name: '改良型水晶都精准项环',
     level: 500,
     slot: 10,
     role: 12,
@@ -32111,7 +32111,7 @@ export default [
   },
   {
     id: 29327,
-    name: 'Augmented Crystarium Choker of Healing',
+    name: '改良型水晶都治愈项环',
     level: 500,
     slot: 10,
     role: 6,
@@ -32131,7 +32131,7 @@ export default [
   },
   {
     id: 29328,
-    name: 'Augmented Crystarium Choker of Casting',
+    name: '改良型水晶都咏咒项环',
     level: 500,
     slot: 10,
     role: 5,
@@ -32151,7 +32151,7 @@ export default [
   },
   {
     id: 29329,
-    name: 'Augmented Crystarium Wristband of Fending',
+    name: '改良型水晶都御敌手环',
     level: 500,
     slot: 11,
     role: 1,
@@ -32171,7 +32171,7 @@ export default [
   },
   {
     id: 29330,
-    name: 'Augmented Crystarium Wristband of Slaying',
+    name: '改良型水晶都强攻手环',
     level: 500,
     slot: 11,
     role: 10,
@@ -32191,7 +32191,7 @@ export default [
   },
   {
     id: 29331,
-    name: 'Augmented Crystarium Wristband of Aiming',
+    name: '改良型水晶都精准手环',
     level: 500,
     slot: 11,
     role: 12,
@@ -32211,7 +32211,7 @@ export default [
   },
   {
     id: 29332,
-    name: 'Augmented Crystarium Wristband of Healing',
+    name: '改良型水晶都治愈手环',
     level: 500,
     slot: 11,
     role: 6,
@@ -32231,7 +32231,7 @@ export default [
   },
   {
     id: 29333,
-    name: 'Augmented Crystarium Wristband of Casting',
+    name: '改良型水晶都咏咒手环',
     level: 500,
     slot: 11,
     role: 5,
@@ -32251,7 +32251,7 @@ export default [
   },
   {
     id: 29334,
-    name: 'Augmented Crystarium Ring of Fending',
+    name: '改良型水晶都御敌指环',
     level: 500,
     slot: 12,
     role: 1,
@@ -32271,7 +32271,7 @@ export default [
   },
   {
     id: 29335,
-    name: 'Augmented Crystarium Ring of Slaying',
+    name: '改良型水晶都强攻指环',
     level: 500,
     slot: 12,
     role: 10,
@@ -32291,7 +32291,7 @@ export default [
   },
   {
     id: 29336,
-    name: 'Augmented Crystarium Ring of Aiming',
+    name: '改良型水晶都精准指环',
     level: 500,
     slot: 12,
     role: 12,
@@ -32311,7 +32311,7 @@ export default [
   },
   {
     id: 29337,
-    name: 'Augmented Crystarium Ring of Healing',
+    name: '改良型水晶都治愈指环',
     level: 500,
     slot: 12,
     role: 6,
@@ -32331,7 +32331,7 @@ export default [
   },
   {
     id: 29338,
-    name: 'Augmented Crystarium Ring of Casting',
+    name: '改良型水晶都咏咒指环',
     level: 500,
     slot: 12,
     role: 5,
@@ -32351,7 +32351,7 @@ export default [
   },
   {
     id: 29037,
-    name: 'Edenchoir Bastard Sword',
+    name: '伊甸之律手半剑',
     level: 505,
     slot: 1,
     role: 1,
@@ -32373,7 +32373,7 @@ export default [
   },
   {
     id: 29038,
-    name: 'Edenchoir Jamadhars',
+    name: '伊甸之律拳锋',
     level: 505,
     slot: 13,
     role: 3,
@@ -32395,7 +32395,7 @@ export default [
   },
   {
     id: 29039,
-    name: 'Edenchoir Battleaxe',
+    name: '伊甸之律战斧',
     level: 505,
     slot: 13,
     role: 1,
@@ -32417,7 +32417,7 @@ export default [
   },
   {
     id: 29040,
-    name: 'Edenchoir Fork',
+    name: '伊甸之律战叉',
     level: 505,
     slot: 13,
     role: 2,
@@ -32439,7 +32439,7 @@ export default [
   },
   {
     id: 29041,
-    name: 'Edenchoir Harp Bow',
+    name: '伊甸之律竖琴弓',
     level: 505,
     slot: 13,
     role: 4,
@@ -32461,7 +32461,7 @@ export default [
   },
   {
     id: 29042,
-    name: 'Edenchoir Daggers',
+    name: '伊甸之律小刀',
     level: 505,
     slot: 13,
     role: 11,
@@ -32483,7 +32483,7 @@ export default [
   },
   {
     id: 29043,
-    name: 'Edenchoir Greatsword',
+    name: '伊甸之律巨剑',
     level: 505,
     slot: 13,
     role: 1,
@@ -32505,7 +32505,7 @@ export default [
   },
   {
     id: 29044,
-    name: 'Edenchoir Arquebus',
+    name: '伊甸之律明火枪',
     level: 505,
     slot: 13,
     role: 4,
@@ -32527,7 +32527,7 @@ export default [
   },
   {
     id: 29045,
-    name: 'Edenchoir Cane',
+    name: '伊甸之律牧杖',
     level: 505,
     slot: 13,
     role: 6,
@@ -32548,7 +32548,7 @@ export default [
   },
   {
     id: 29046,
-    name: 'Edenchoir Rod',
+    name: '伊甸之律法杖',
     level: 505,
     slot: 13,
     role: 5,
@@ -32569,7 +32569,7 @@ export default [
   },
   {
     id: 29047,
-    name: 'Edenchoir Index',
+    name: '伊甸之律魔导书',
     level: 505,
     slot: 13,
     role: 5,
@@ -32590,7 +32590,7 @@ export default [
   },
   {
     id: 29048,
-    name: 'Edenchoir Codex',
+    name: '伊甸之律魔导典',
     level: 505,
     slot: 13,
     role: 6,
@@ -32611,7 +32611,7 @@ export default [
   },
   {
     id: 29049,
-    name: 'Edenchoir Torquetum',
+    name: '伊甸之律黄道仪',
     level: 505,
     slot: 13,
     role: 6,
@@ -32632,7 +32632,7 @@ export default [
   },
   {
     id: 29050,
-    name: 'Edenchoir Samurai Blade',
+    name: '伊甸之律武士刀',
     level: 505,
     slot: 13,
     role: 3,
@@ -32654,7 +32654,7 @@ export default [
   },
   {
     id: 29051,
-    name: 'Edenchoir Rapier',
+    name: '伊甸之律刺剑',
     level: 505,
     slot: 13,
     role: 5,
@@ -32675,7 +32675,7 @@ export default [
   },
   {
     id: 29052,
-    name: 'Edenchoir Gunblade',
+    name: '伊甸之律枪刃',
     level: 505,
     slot: 13,
     role: 1,
@@ -32697,7 +32697,7 @@ export default [
   },
   {
     id: 29053,
-    name: 'Edenchoir Chakrams',
+    name: '伊甸之律圆月轮',
     level: 505,
     slot: 13,
     role: 4,
@@ -32719,7 +32719,7 @@ export default [
   },
   {
     id: 29054,
-    name: 'Edenchoir Scutum',
+    name: '伊甸之律步兵盾',
     level: 505,
     slot: 2,
     role: 1,

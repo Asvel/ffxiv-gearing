@@ -31,7 +31,7 @@ export interface Gearset {
 }
 
 export const dataVersion = '5.25';
-export const releasedVersion = '5.18';  // released version of chinese datacenter
+export const releasedVersion = '5.20';  // released version of chinese datacenter
 
 export const statNames = {
   STR: '力量', DEX: '灵巧', INT: '智力', MND: '精神', VIT: '耐力',

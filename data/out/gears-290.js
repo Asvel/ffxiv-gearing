@@ -4182,7 +4182,7 @@ export default [
   },
   {
     id: 30068,
-    name: "Shinryu's Ephemeral Longsword",
+    name: '神龙梦幻直剑',
     level: 290,
     slot: 1,
     role: 1,
@@ -4204,7 +4204,7 @@ export default [
   },
   {
     id: 30069,
-    name: "Shinryu's Ephemeral Claws",
+    name: '神龙梦幻斗器',
     level: 290,
     slot: 13,
     role: 3,
@@ -4226,7 +4226,7 @@ export default [
   },
   {
     id: 30070,
-    name: "Shinryu's Ephemeral War Axe",
+    name: '神龙梦幻战斧',
     level: 290,
     slot: 13,
     role: 1,
@@ -4248,7 +4248,7 @@ export default [
   },
   {
     id: 30071,
-    name: "Shinryu's Ephemeral Lance",
+    name: '神龙梦幻长枪',
     level: 290,
     slot: 13,
     role: 2,
@@ -4270,7 +4270,7 @@ export default [
   },
   {
     id: 30072,
-    name: "Shinryu's Ephemeral Greatbow",
+    name: '神龙梦幻大弓',
     level: 290,
     slot: 13,
     role: 4,
@@ -4292,7 +4292,7 @@ export default [
   },
   {
     id: 30073,
-    name: "Shinryu's Ephemeral Daggers",
+    name: '神龙梦幻双剑',
     level: 290,
     slot: 13,
     role: 11,
@@ -4314,7 +4314,7 @@ export default [
   },
   {
     id: 30074,
-    name: "Shinryu's Ephemeral Greatsword",
+    name: '神龙梦幻大剑',
     level: 290,
     slot: 13,
     role: 1,
@@ -4336,7 +4336,7 @@ export default [
   },
   {
     id: 30075,
-    name: "Shinryu's Ephemeral Revolver",
+    name: '神龙梦幻短铳',
     level: 290,
     slot: 13,
     role: 4,
@@ -4358,7 +4358,7 @@ export default [
   },
   {
     id: 30076,
-    name: "Shinryu's Ephemeral Cane",
+    name: '神龙梦幻锡杖',
     level: 290,
     slot: 13,
     role: 6,
@@ -4379,7 +4379,7 @@ export default [
   },
   {
     id: 30077,
-    name: "Shinryu's Ephemeral Rod",
+    name: '神龙梦幻咒杖',
     level: 290,
     slot: 13,
     role: 5,
@@ -4400,7 +4400,7 @@ export default [
   },
   {
     id: 30078,
-    name: "Shinryu's Ephemeral Grimoire",
+    name: '神龙梦幻经典',
     level: 290,
     slot: 13,
     role: 5,
@@ -4421,7 +4421,7 @@ export default [
   },
   {
     id: 30079,
-    name: "Shinryu's Ephemeral Codex",
+    name: '神龙梦幻文书',
     level: 290,
     slot: 13,
     role: 6,
@@ -4442,7 +4442,7 @@ export default [
   },
   {
     id: 30080,
-    name: "Shinryu's Ephemeral Ephemeris",
+    name: '神龙梦幻天仪',
     level: 290,
     slot: 13,
     role: 6,
@@ -4463,7 +4463,7 @@ export default [
   },
   {
     id: 30081,
-    name: "Shinryu's Ephemeral Katana",
+    name: '神龙梦幻刀',
     level: 290,
     slot: 13,
     role: 3,
@@ -4485,7 +4485,7 @@ export default [
   },
   {
     id: 30082,
-    name: "Shinryu's Ephemeral Rapier",
+    name: '神龙梦幻细剑',
     level: 290,
     slot: 13,
     role: 5,
@@ -4506,7 +4506,7 @@ export default [
   },
   {
     id: 30083,
-    name: "Shinryu's Ephemeral Gunblade",
+    name: '神龙梦幻枪刃',
     level: 290,
     slot: 13,
     role: 1,
@@ -4528,7 +4528,7 @@ export default [
   },
   {
     id: 30084,
-    name: "Shinryu's Ephemeral Chakrams",
+    name: '神龙梦幻环刃',
     level: 290,
     slot: 13,
     role: 4,
@@ -4550,7 +4550,7 @@ export default [
   },
   {
     id: 30085,
-    name: "Shinryu's Ephemeral Shield",
+    name: '神龙梦幻大盾',
     level: 290,
     slot: 2,
     role: 1,
@@ -21953,7 +21953,7 @@ export default [
   },
   {
     id: 30086,
-    name: "Shinryu's Gunblade",
+    name: '神龙枪刃',
     level: 335,
     slot: 13,
     role: 1,
@@ -21975,7 +21975,7 @@ export default [
   },
   {
     id: 30087,
-    name: "Shinryu's Chakrams",
+    name: '神龙环刃',
     level: 335,
     slot: 13,
     role: 4,

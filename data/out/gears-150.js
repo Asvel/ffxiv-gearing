@@ -75522,7 +75522,7 @@ export default [
   },
   {
     id: 18535,
-    name: '哔叽强袭狩猎帽',
+    name: '哔叽精准狩猎帽',
     level: 279,
     slot: 3,
     role: 4,

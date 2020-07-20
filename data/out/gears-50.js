@@ -7815,7 +7815,7 @@ export default [
   },
   {
     id: 1989,
-    name: '牙士幻杖',
+    name: '牙尉幻杖',
     level: 55,
     slot: 1,
     role: 6,
@@ -7833,7 +7833,7 @@ export default [
   },
   {
     id: 1990,
-    name: '漩士幻杖',
+    name: '漩尉幻杖',
     level: 55,
     slot: 1,
     role: 6,
@@ -7851,7 +7851,7 @@ export default [
   },
   {
     id: 1991,
-    name: '耀士幻杖',
+    name: '耀尉幻杖',
     level: 55,
     slot: 1,
     role: 6,

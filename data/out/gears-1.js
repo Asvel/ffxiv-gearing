@@ -35958,7 +35958,7 @@ export default [
   },
   {
     id: 3437,
-    name: '漩士跨裤',
+    name: '漩士垮裤',
     level: 46,
     slot: 7,
     role: 9,

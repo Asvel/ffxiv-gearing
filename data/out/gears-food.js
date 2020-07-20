@@ -4595,7 +4595,7 @@ export default [
   },
   {
     id: 29497,
-    name: 'Ovim Meatballs',
+    name: '力山羊肉丸',
     level: 480,
     slot: -1,
     jobCategory: 34,
@@ -4614,7 +4614,7 @@ export default [
   },
   {
     id: 29498,
-    name: 'Mors',
+    name: '莫尔斯',
     level: 480,
     slot: -1,
     jobCategory: 30,
@@ -4633,7 +4633,7 @@ export default [
   },
   {
     id: 29499,
-    name: 'Lemon Waffle',
+    name: '柠檬华夫饼',
     level: 480,
     slot: -1,
     jobCategory: 64,
@@ -4652,7 +4652,7 @@ export default [
   },
   {
     id: 29500,
-    name: 'Honey Croissant',
+    name: '蜂蜜牛角面包',
     level: 480,
     slot: -1,
     jobCategory: 64,
@@ -4671,7 +4671,7 @@ export default [
   },
   {
     id: 29501,
-    name: 'Sausage and Sauerkraut',
+    name: '香肠泡菜',
     level: 480,
     slot: -1,
     jobCategory: 30,
@@ -4690,7 +4690,7 @@ export default [
   },
   {
     id: 29502,
-    name: 'Stuffed Highland Cabbage',
+    name: '高地风味菜肉卷',
     level: 480,
     slot: -1,
     jobCategory: 34,
@@ -4709,7 +4709,7 @@ export default [
   },
   {
     id: 29503,
-    name: 'Pickled Herring',
+    name: '腌鲱鱼',
     level: 480,
     slot: -1,
     jobCategory: 31,
@@ -4728,7 +4728,7 @@ export default [
   },
   {
     id: 29504,
-    name: 'Herring Pie',
+    name: '鲱鱼派',
     level: 480,
     slot: -1,
     jobCategory: 31,
@@ -4747,7 +4747,7 @@ export default [
   },
   {
     id: 29505,
-    name: "Farmer's Breakfast",
+    name: '农场早餐',
     level: 480,
     slot: -1,
     jobCategory: 59,
@@ -4766,7 +4766,7 @@ export default [
   },
   {
     id: 29506,
-    name: 'Silkie Pudding',
+    name: '乌鸡布丁',
     level: 480,
     slot: -1,
     jobCategory: 59,
