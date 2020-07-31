@@ -114,6 +114,27 @@ const combatDefaultLevel = [470, 505];
 const craftingDefaultLevel = [430, 460];
 const gatheringDefaultLevel = craftingDefaultLevel;
 
+export interface JobSchema {
+  name: string,
+  stats: Stat[],
+  slots: SlotSchema[],
+  defaultItemLevel: [number, number],
+  statModifiers?: {
+    STR?: number,
+    DEX?: number,
+    INT?: number,
+    MND?: number,
+    VIT: number,
+    hp: number,
+    ap: number,
+    gcd?: number,
+    gcdReason: string,
+  },
+  mainStat?: 'STR' | 'DEX' | 'INT' | 'MND' | 'VIT',
+  traitDamageMultiplier?: number,
+  jobLevel?: keyof typeof levelModifiers,
+}
+
 export const jobSchemas = {
   PLD: {
     name: '骑士',
@@ -123,7 +144,7 @@ export const jobSchemas = {
     statModifiers: { STR: 100, VIT: 110, hp: 120, ap: 115 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
-  },
+  } as JobSchema,
   WAR: {
     name: '战士',
     stats: statSchemas.tank,
@@ -132,7 +153,7 @@ export const jobSchemas = {
     statModifiers: { STR: 105, VIT: 110, hp: 125, ap: 115 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
-  },
+  } as JobSchema,
   DRK: {
     name: '暗黑骑士',
     stats: statSchemas.tank,
@@ -141,7 +162,7 @@ export const jobSchemas = {
     statModifiers: { STR: 105, VIT: 110, hp: 120, ap: 115 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
-  },
+  } as JobSchema,
   GNB: {
     name: '绝枪战士',
     stats: statSchemas.tank,
@@ -150,7 +171,7 @@ export const jobSchemas = {
     statModifiers: { STR: 100, VIT: 110, hp: 120, ap: 115 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
-  },
+  } as JobSchema,
   WHM: {
     name: '白魔法师',
     stats: statSchemas.healer,
@@ -159,7 +180,7 @@ export const jobSchemas = {
     statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
-  },
+  } as JobSchema,
   SCH: {
     name: '学者',
     stats: statSchemas.healer,
@@ -168,7 +189,7 @@ export const jobSchemas = {
     statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
-  },
+  } as JobSchema,
   AST: {
     name: '占星术士',
     stats: statSchemas.healer,
@@ -177,16 +198,16 @@ export const jobSchemas = {
     statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
-  },
+  } as JobSchema,
   MNK: {
     name: '武僧',
     stats: statSchemas.dpsStr,
     slots: combatJobSlotSchema,
     defaultItemLevel: combatDefaultLevel,
-    statModifiers: { STR: 110, VIT: 100, hp: 110, ap: 165 },
+    statModifiers: { STR: 110, VIT: 100, hp: 110, ap: 165, gcd: 80, gcdReason: '四档“疾风迅雷”状态中' },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
-  },
+  } as JobSchema,
   DRG: {
     name: '龙骑士',
     stats: statSchemas.dpsStr,
@@ -195,25 +216,25 @@ export const jobSchemas = {
     statModifiers: { STR: 115, VIT: 105, hp: 115, ap: 165 },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
-  },
+  } as JobSchema,
   NIN: {
     name: '忍者',
     stats: statSchemas.dpsDex,
     slots: combatJobSlotSchema,
     defaultItemLevel: combatDefaultLevel,
-    statModifiers: { DEX: 110, VIT: 100, hp: 108, ap: 165 },
+    statModifiers: { DEX: 110, VIT: 100, hp: 108, ap: 165, gcd: 85, gcdReason: '“风遁”状态中' },
     mainStat: 'DEX',
     traitDamageMultiplier: 1,
-  },
+  } as JobSchema,
   SAM: {
     name: '武士',
     stats: statSchemas.dpsStr,
     slots: combatJobSlotSchema,
     defaultItemLevel: combatDefaultLevel,
-    statModifiers: { STR: 112, VIT: 100, hp: 109, ap: 165 },
+    statModifiers: { STR: 112, VIT: 100, hp: 109, ap: 165, gcd: 87, gcdReason: '“士风”状态中' },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
-  },
+  } as JobSchema,
   BRD: {
     name: '吟游诗人',
     stats: statSchemas.dpsDex,
@@ -222,7 +243,7 @@ export const jobSchemas = {
     statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
-  },
+  } as JobSchema,
   MCH: {
     name: '机工士',
     stats: statSchemas.dpsDex,
@@ -231,7 +252,7 @@ export const jobSchemas = {
     statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
-  },
+  } as JobSchema,
   DNC: {
     name: '舞者',
     stats: statSchemas.dpsDex,
@@ -240,7 +261,7 @@ export const jobSchemas = {
     statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
-  },
+  } as JobSchema,
   BLM: {
     name: '黑魔法师',
     stats: statSchemas.dpsInt,
@@ -249,7 +270,7 @@ export const jobSchemas = {
     statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
-  },
+  } as JobSchema,
   SMN: {
     name: '召唤师',
     stats: statSchemas.dpsInt,
@@ -258,7 +279,7 @@ export const jobSchemas = {
     statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
-  },
+  } as JobSchema,
   RDM: {
     name: '赤魔法师',
     stats: statSchemas.dpsInt,
@@ -267,7 +288,7 @@ export const jobSchemas = {
     statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
-  },
+  } as JobSchema,
   BLU: {
     name: '青魔法师',
     stats: statSchemas.dpsInt,
@@ -277,74 +298,75 @@ export const jobSchemas = {
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
     jobLevel: 60,
-  },
+  } as JobSchema,
   CRP: {
     name: '刻木匠',
     stats: statSchemas.crafting,
     slots: craftingJobSlotSchema,
     defaultItemLevel: craftingDefaultLevel,
-  },
+  } as JobSchema,
   BSM: {
     name: '锻铁匠',
     stats: statSchemas.crafting,
     slots: craftingJobSlotSchema,
     defaultItemLevel: craftingDefaultLevel,
-  },
+  } as JobSchema,
   ARM: {
     name: '铸甲匠',
     stats: statSchemas.crafting,
     slots: craftingJobSlotSchema,
     defaultItemLevel: craftingDefaultLevel,
-  },
+  } as JobSchema,
   GSM: {
     name: '雕金匠',
     stats: statSchemas.crafting,
     slots: craftingJobSlotSchema,
     defaultItemLevel: craftingDefaultLevel,
-  },
+  } as JobSchema,
   LTW: {
     name: '制革匠',
     stats: statSchemas.crafting,
     slots: craftingJobSlotSchema,
     defaultItemLevel: craftingDefaultLevel,
-  },
+  } as JobSchema,
   WVR: {
     name: '裁衣匠',
     stats: statSchemas.crafting,
     slots: craftingJobSlotSchema,
     defaultItemLevel: craftingDefaultLevel,
-  },
+  } as JobSchema,
   ALC: {
     name: '炼金术士',
     stats: statSchemas.crafting,
     slots: craftingJobSlotSchema,
     defaultItemLevel: craftingDefaultLevel,
-  },
+  } as JobSchema,
   CUL: {
     name: '烹调师',
     stats: statSchemas.crafting,
     slots: craftingJobSlotSchema,
     defaultItemLevel: craftingDefaultLevel,
-  },
+  } as JobSchema,
   MIN: {
     name: '采矿工',
     stats: statSchemas.gathering,
     slots: gatheringJobSlotSchema,
     defaultItemLevel: gatheringDefaultLevel,
-  },
+  } as JobSchema,
   BTN: {
     name: '园艺工',
     stats: statSchemas.gathering,
     slots: gatheringJobSlotSchema,
     defaultItemLevel: gatheringDefaultLevel,
-  },
+  } as JobSchema,
   FSH: {
     name: '捕鱼人',
     stats: statSchemas.gathering,
     slots: gatheringJobSlotSchema,
     defaultItemLevel: gatheringDefaultLevel,
-  },
+  } as JobSchema,
 };
+
 export type Job = keyof typeof jobSchemas;
 
 export const jobCategories = require('../data/out/jobCategories').default as { [index in Job]?: boolean }[];

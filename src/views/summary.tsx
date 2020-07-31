@@ -76,7 +76,7 @@ const Summary = observer(() => {
       <span className="summary_divider" />
       {store.schema.stats.map(stat => (
         <span key={stat} className="summary_stat">
-          {tiersVisible && store.equippedTiers[stat] !== undefined && (
+          {tiersVisible && store.equippedTiers !== undefined && store.equippedTiers[stat] !== undefined && (
             <div className="summary_stat-tier">
               <span className="summary_stat-prev">{store.equippedTiers[stat]!.prev}</span>
               <span className="summary_stat-next">+{store.equippedTiers[stat]!.next}</span>
@@ -86,7 +86,7 @@ const Summary = observer(() => {
           {effects && (
             <React.Fragment>
               {(stat === 'SKS' || stat === 'SPS') && (
-                <div className="summary_stat-effect">
+                <div className="summary_stat-effect" title={store.schema.statModifiers?.gcdReason}>
                   {effects.gcd.toFixed(2)}s
                 </div>
               )}

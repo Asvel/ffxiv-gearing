@@ -375,31 +375,34 @@ export const Store = types
   .views(self => ({
     get equippedEffects() {
       console.log('equippedEffects');
-      if (!('statModifiers' in self.schema)) return undefined;
+      const { statModifiers, mainStat, traitDamageMultiplier } = self.schema;
+      if (statModifiers === undefined || mainStat === undefined || traitDamageMultiplier === undefined) return;
       const levelMod = G.levelModifiers[self.jobLevel];
       const { main, sub, div } = levelMod;
       const { CRT, DET, DHT, TEN, SKS, SPS, VIT, PIE, PDMG, MDMG } = self.equippedStats;
-      const { statModifiers, mainStat, traitDamageMultiplier } = self.schema;
-      const attackMainStat = mainStat === 'VIT' ? 'STR' : mainStat as G.Stat;
+      const attackMainStat = mainStat === 'VIT' ? 'STR' : mainStat;
       const crtChance = floor(200 * (CRT! - sub) / div + 50) / 1000;
       const crtDamage = floor(200 * (CRT! - sub) / div + 1400) / 1000;
       const detDamage = floor(130 * (DET! - main) / div + 1000) / 1000;
       const dhtChance = floor(550 * (DHT! - sub) / div) / 1000;
       const tenDamage = floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
-      const weaponDamage = floor(main * statModifiers[attackMainStat as keyof typeof statModifiers] / 1000) +
+      const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
         ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0);
       const mainDamage = floor(statModifiers.ap *
         ((self.equippedStats[attackMainStat] ?? 0) - main) / main + 100) / 100;
-      const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier
-        * ((crtDamage - 1) * crtChance + 1) * (0.25 * dhtChance + 1);
-      const gcd = floor((1000 - floor(130 * ((SKS || SPS)! - sub) / div)) / 1000 * 250) / 100;
+      const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier *
+        ((crtDamage - 1) * crtChance + 1) * (0.25 * dhtChance + 1);
+      const gcd = floor(floor((1000 - floor(130 * ((SKS || SPS)! - sub) / div)) * 2500 / 1000) *
+        (statModifiers.gcd ?? 100) / 1000) / 100;
       const ssDamage = floor(130 * ((SKS || SPS)! - sub) / div + 1000) / 1000;
       const hp = floor(levelMod.hp * statModifiers.hp / 100 +
         (mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) * (VIT! - main));
       const mp = floor(200 + ((PIE ?? main) - main) / 22);
       return { crtChance, crtDamage, detDamage, dhtChance, tenDamage, damage, gcd, ssDamage, hp, mp };
     },
-    get equippedTiers(): { [index in G.Stat]?: { prev: number, next: number } | undefined } {
+    get equippedTiers(): { [index in G.Stat]?: { prev: number, next: number } } | undefined {
+      const { statModifiers } = self.schema;
+      if (statModifiers === undefined) return;
       const { main, sub, div } = G.levelModifiers[self.jobLevel];
       const { CRT, DET, DHT, TEN, SKS, SPS, PIE } = self.equippedStats;
       function calcTier(value: number, multiplier: number) {
@@ -409,11 +412,11 @@ export const Store = types
         const next = ceil((quotient + 1) * multiplier) - value;
         return { prev, next };
       }
-      function calcGcdTier(value: number, multiplier: number) {
+      function calcGcdTier(value: number, multiplier: number, modifier: number) {
         if (value !== value) return undefined;
-        const quotient = ceil(floor(value / multiplier) / 4);
-        const prev = ceil((quotient * 4 - 3) * multiplier) - 1 - value;
-        const next = ceil((quotient * 4 + 1) * multiplier) - value;
+        const gcdc = floor(floor((1000 - floor(value / multiplier)) * 2.5) * modifier);
+        const prev = ceil((floor(1000 - ceil((gcdc + 1) / modifier) / 2.5) + 1) * multiplier) - 1 - value;
+        const next = ceil((floor(1000 - ceil(gcdc / modifier) / 2.5) + 1) * multiplier) - value;
         return { prev, next };
       }
       return {
@@ -421,8 +424,8 @@ export const Store = types
         DET: calcTier(DET! - main, div / 130),
         DHT: calcTier(DHT! - sub, div / 550),
         TEN: calcTier(TEN! - sub, div / 100),
-        SKS: calcGcdTier(SKS! - sub, div / 130),
-        SPS: calcGcdTier(SPS! - sub, div / 130),
+        SKS: calcGcdTier(SKS! - sub, div / 130, (statModifiers.gcd ?? 100) / 1000),
+        SPS: calcGcdTier(SPS! - sub, div / 130, (statModifiers.gcd ?? 100) / 1000),
         PIE: calcTier(PIE! - main, 22),
       };
     },

@@ -92,6 +92,10 @@
 .summary_stat-effect {
   font-size: 12px;
   white-space: nowrap;
+  &[title] {
+    text-decoration: underline dotted;
+    cursor: help;
+  }
   + .summary_stat-name {
     display: none;
   }
