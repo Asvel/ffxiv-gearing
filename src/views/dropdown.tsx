@@ -35,26 +35,24 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers,
       e.stopPropagation();
     }
   };
-  if (expanded) {
-    onGlobalClick = e => {
-      const target = e.target as Element;
-      if (target && labelElement && popperElement) {
-        if (!labelElement.contains(target) && !popperElement.contains(target)) {
-          setExpanded(false);
-          onGlobalClick = undefined;
-          (e as any)._isClosingDropdown = true;
-        }
-      }
-    };
-    onGlobalKeyup = e => {
-      const target = e.target as Element;
-      // label (比如是一个 button) 有可能成为按键事件的 target
-      if (target && (target.tagName === 'BODY' || target === labelElement) && e.key === 'Escape') {
+  onGlobalClick = expanded ? e => {
+    const target = e.target as Element;
+    if (target && labelElement && popperElement) {
+      if (!labelElement.contains(target) && !popperElement.contains(target)) {
         setExpanded(false);
-        onGlobalKeyup = undefined;
+        onGlobalClick = undefined;
+        (e as any)._isClosingDropdown = true;
       }
-    };
-  }
+    }
+  } : undefined;
+  onGlobalKeyup = expanded ? e => {
+    const target = e.target as Element;
+    // label (比如是一个 button) 有可能成为按键事件的 target
+    if (target && (target.tagName === 'BODY' || target === labelElement) && e.key === 'Escape') {
+      setExpanded(false);
+      onGlobalKeyup = undefined;
+    }
+  } : undefined;
   return (
     <React.Fragment>
       {label({
