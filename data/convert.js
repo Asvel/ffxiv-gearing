@@ -20,6 +20,11 @@ function loadExd(filename) {
   });
 }
 
+const versions = {
+  data: '5.25',
+  released: '5.20',  // released version of chinese datacenter
+};
+
 const statAbbrs = {
   1: 'STR', 2: 'DEX', 4: 'INT', 5: 'MND', 3: 'VIT',
   27: 'CRT', 22: 'DHT', 44: 'DET', 45: 'SKS', 46: 'SPS', 19: 'TEN', 6: 'PIE',
@@ -219,6 +224,19 @@ const foods = Item
   })
   .filter(Boolean);
 
+const bestFoods = [];
+for (const food of foods.slice().reverse()) {
+  if (food.id === 4745) continue;  // 唯一的直击信仰食物，各只加1，应该并不会有人想吃它
+  if (food.patch > versions.released) {
+    food.best = true;
+    continue;
+  }
+  if (!bestFoods.some(bestFood => Object.keys(food.stats).every(stat => food.stats[stat] <= bestFood.stats[stat]))) {
+    food.best = true;
+    bestFoods.push(food);
+  }
+}
+
 const levelCaps = {
   level: Object.keys(levelsUsed).map(x => parseInt(x)).sort((a, b) => a - b),
 };
@@ -281,6 +299,7 @@ if (sourcesMissingIds.length > 0) {
   fs.unlink('./out/sourcesMissing.txt', () => {});  // ignore error
 }
 
+fs.writeFileSync('./out/versions.ts', stringify(versions).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroupBasis.js', stringify(levelGroupBasis).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroups.js', stringify(gearGroups).replace(/null,/g, ','));
 for (const groupId of levelGroupBasis) {

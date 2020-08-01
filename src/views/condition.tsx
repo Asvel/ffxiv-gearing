@@ -97,7 +97,7 @@ const ConditionEditing = observer(() => {
         />
         {/*<Button className="condition_button">历史记录</Button>*/}
         <span className="condition_divider" />
-        <span className="condition_version">数据版本 {G.dataVersion}</span>
+        <span className="condition_version">数据版本 {G.versions.data}</span>
       </span>
       {(store.job === undefined || expandedPanel === 'job') && <JobSelector />}
     </div>
@@ -125,7 +125,7 @@ const ConditionViewing = observer(() => {
         />
         {/*<Button className="condition_button">历史记录</Button>*/}
         <span className="condition_divider" />
-        <span className="condition_version">数据版本 {G.dataVersion}</span>
+        <span className="condition_version">数据版本 {G.versions.data}</span>
       </span>
     </div>
   );

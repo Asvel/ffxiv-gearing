@@ -2,6 +2,7 @@ import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Ripple } from '@rmwc/ripple';
+import { Button } from '@rmwc/button';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../game';
 import { IGearUnion, Gear, Food } from "../stores";
@@ -18,7 +19,16 @@ const Slot = observer<{ slot: G.SlotSchema }>(({ slot }) => {
     <table className="gears_slot table card">
       <thead>
       <tr>
-        <th className="gears_left">{slot.name}</th>
+        <th className="gears_left">
+          {slot.name}
+          {slot.slot === -1 && (
+            <Button
+              className="gears_toogle-all-foods"
+              children={store.showAllFoods ? '显示最优' :'显示全部'}
+              onClick={store.toggleShowAllFoods}
+            />
+          )}
+        </th>
         <th className="gears_materias">{slot.slot === -1 ? '利用率' : '魔晶石'}</th>
         {store.schema.stats.map(stat => (
           <th key={stat} className="gears_stat">

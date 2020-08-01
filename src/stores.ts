@@ -134,7 +134,7 @@ export const Gear = types
       return ret;
     },
     get isInstalled(): boolean {
-      return !(this.patch > G.releasedVersion);
+      return !(this.patch > G.versions.released);
     },
     get isEquipped(): boolean {
       const store = getParentOfType(self, Store);
@@ -211,7 +211,7 @@ export const Food = types
       return Math.max(0.2, Math.pow(this.utilization / 100, 2));
     },
     get isInstalled(): boolean {
-      return !(this.patch > G.releasedVersion);
+      return !(this.patch > G.versions.released);
     },
     get isEquipped(): boolean {
       const store = getParentOfType(self, Store);
@@ -248,6 +248,7 @@ export const Store = types
     job: types.maybe(Job),
     minLevel: types.optional(types.number, 0),
     maxLevel: types.optional(types.number, 0),
+    showAllFoods: types.optional(types.boolean, false),
     gears: types.map(GearUnion),
     equippedGears: types.map(GearUnionReference),
     displayGearSource: types.optional(types.boolean, false),
@@ -266,23 +267,23 @@ export const Store = types
         }
         const ret: G.GearId[] = [];
         for (const gear of gearDataOrdered.get()) {
-          let { job, minLevel, maxLevel } = self;
-          if (gear.slot === -1) {
-            minLevel -= 35;  // TODO: craft and gather foods
-          }
-          if (gear.slot === 17 || (gear.slot === 2 && job === 'FSH')) {  // Soul crystal and spearfishing gig
-            minLevel = 0;
-            maxLevel = 999;
-          }
-          if (gear.level >= minLevel && gear.level <= maxLevel && G.jobCategories[gear.jobCategory][job!]) {
+          const { job, minLevel, maxLevel } = self;
+          if (G.jobCategories[gear.jobCategory][job!]
+            && (gear.slot === -1 ? (self.showAllFoods || 'best' in gear) :  // Foods
+              gear.slot === 17 || (gear.slot === 2 && job === 'FSH')  // Soul crystal and spearfishing gig
+              || (gear.level >= minLevel && gear.level <= maxLevel))
+          ) {
             ret.push(gear.id);
             if (gear.slot === 12) {
               ret.push(-gear.id as G.GearId);
             }
-          } else if (unobservableEquippedGears[gear.slot] === gear.id) {
-            ret.push(gear.id);
-          } else if (unobservableEquippedGears[-gear.slot] === -gear.id) {
-            ret.push(-gear.id as G.GearId);
+          } else {
+            if (unobservableEquippedGears[gear.slot] === gear.id) {
+              ret.push(gear.id);
+            }
+            if (unobservableEquippedGears[-gear.slot] === -gear.id) {
+              ret.push(-gear.id as G.GearId);
+            }
           }
         }
         return ret;
@@ -480,6 +481,9 @@ export const Store = types
     },
     setMaxLevel(value: number): void {
       self.maxLevel = value;
+    },
+    toggleShowAllFoods(): void {
+      self.showAllFoods = !self.showAllFoods;
     },
     startEditing(): void {
       self.mode = 'edit';

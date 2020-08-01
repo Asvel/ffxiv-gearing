@@ -2482,6 +2482,7 @@ export default [
       CP: 5,
     },
     statMain: 'CRL',
+    best: true,
   },
   {
     id: 12865,
@@ -2546,6 +2547,7 @@ export default [
       PCP: 3,
     },
     statMain: 'GP',
+    best: true,
   },
   {
     id: 12869,
@@ -2770,6 +2772,7 @@ export default [
       CP: 4,
     },
     statMain: 'CRL',
+    best: true,
   },
   {
     id: 15651,
@@ -2788,6 +2791,7 @@ export default [
       GP: 2,
     },
     statMain: 'GTH',
+    best: true,
   },
   {
     id: 16709,
@@ -2842,6 +2846,7 @@ export default [
       DHT: 3,
     },
     statMain: 'TEN',
+    best: true,
   },
   {
     id: 16712,
@@ -3392,6 +3397,7 @@ export default [
       CRL: 5,
     },
     statMain: 'CMS',
+    best: true,
   },
   {
     id: 19835,
@@ -3832,6 +3838,7 @@ export default [
       DHT: 2,
     },
     statMain: 'CRT',
+    best: true,
   },
   {
     id: 27853,
@@ -4036,6 +4043,7 @@ export default [
     },
     statMain: 'CMS',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27865,
@@ -4053,6 +4061,7 @@ export default [
     },
     statMain: 'GTH',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27866,
@@ -4072,6 +4081,7 @@ export default [
     },
     statMain: 'TEN',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27867,
@@ -4091,6 +4101,7 @@ export default [
     },
     statMain: 'SKS',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27868,
@@ -4110,6 +4121,7 @@ export default [
     },
     statMain: 'SPS',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27869,
@@ -4146,6 +4158,7 @@ export default [
     },
     statMain: 'GP',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27871,
@@ -4163,6 +4176,7 @@ export default [
     },
     statMain: 'CRL',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27872,
@@ -4182,6 +4196,7 @@ export default [
     },
     statMain: 'PIE',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27873,
@@ -4201,6 +4216,7 @@ export default [
     },
     statMain: 'DET',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27874,
@@ -4220,6 +4236,7 @@ export default [
     },
     statMain: 'DHT',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27875,
@@ -4239,6 +4256,7 @@ export default [
     },
     statMain: 'SKS',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27876,
@@ -4256,6 +4274,7 @@ export default [
     },
     statMain: 'CP',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27877,
@@ -4292,6 +4311,7 @@ export default [
     },
     statMain: 'PCP',
     patch: '5.0',
+    best: true,
   },
   {
     id: 27879,
@@ -4575,6 +4595,7 @@ export default [
     },
     statMain: 'CP',
     patch: '5.1',
+    best: true,
   },
   {
     id: 28721,
@@ -4592,6 +4613,7 @@ export default [
     },
     statMain: 'PCP',
     patch: '5.1',
+    best: true,
   },
   {
     id: 29497,
@@ -4611,6 +4633,7 @@ export default [
     },
     statMain: 'DHT',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29498,
@@ -4630,6 +4653,7 @@ export default [
     },
     statMain: 'SKS',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29499,
@@ -4649,6 +4673,7 @@ export default [
     },
     statMain: 'PIE',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29500,
@@ -4668,6 +4693,7 @@ export default [
     },
     statMain: 'SPS',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29501,
@@ -4687,6 +4713,7 @@ export default [
     },
     statMain: 'CRT',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29502,
@@ -4706,6 +4733,7 @@ export default [
     },
     statMain: 'DET',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29503,
@@ -4725,6 +4753,7 @@ export default [
     },
     statMain: 'SPS',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29504,
@@ -4744,6 +4773,7 @@ export default [
     },
     statMain: 'CRT',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29505,
@@ -4763,6 +4793,7 @@ export default [
     },
     statMain: 'TEN',
     patch: '5.2',
+    best: true,
   },
   {
     id: 29506,
@@ -4782,5 +4813,6 @@ export default [
     },
     statMain: 'DET',
     patch: '5.2',
+    best: true,
   },
 ];

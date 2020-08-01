@@ -19,6 +19,7 @@ export interface Gear extends GearBase {
 export interface Food extends GearBase {
   statRates: Stats,
   statMain: Stat,
+  best: boolean,
 }
 
 export interface Gearset {
@@ -30,8 +31,8 @@ export interface Gearset {
   }[],
 }
 
-export const dataVersion = '5.25';
-export const releasedVersion = '5.20';  // released version of chinese datacenter
+import versions from '../data/out/versions';
+export { versions };
 
 export const statNames = {
   STR: '力量', DEX: '灵巧', INT: '智力', MND: '精神', VIT: '耐力',
