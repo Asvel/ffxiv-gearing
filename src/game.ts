@@ -415,8 +415,8 @@ export const races = [
   '猫魅族',
   '鲁加族',
   '敖龙族',
-  '维埃拉族',
   '硌狮族',
+  '维埃拉族',
 ];
 
 export const clans = [
