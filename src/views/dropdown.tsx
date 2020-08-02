@@ -23,19 +23,42 @@ export interface DropdownProps {
   strategy?: PopperJS.PositioningStrategy;
 }
 
-const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers, strategy }) => {
+const Dropdown = observer<DropdownProps>(props => {
   const [ expanded, setExpanded ] = React.useState(false);
   const [ labelElement, setLabelElement ] = React.useState<HTMLElement | null>(null);
-  const [ popperElement, setPopperElement ] = React.useState<HTMLElement | null>(null);
-  const popperInstance = ReactPopper.usePopper(labelElement, popperElement, { placement, modifiers, strategy });
-  const popperContainer = document.getElementById('popper');
   const toggle = (e?: UIEvent) => {
     setExpanded(!expanded);
     if (e) {
       e.stopPropagation();
     }
   };
-  onGlobalClick = expanded ? e => {
+  return (
+    <React.Fragment>
+      {props.label({
+        ref: setLabelElement,
+        expanded,
+        toggle,
+      })}
+      {expanded && (
+        <DropdownPopper
+          {...props}
+          expanded={expanded}
+          setExpanded={setExpanded}
+          labelElement={labelElement}
+          toggle={toggle}
+        />
+      )}
+    </React.Fragment>
+  );
+});
+
+const DropdownPopper = observer<any>(props => {
+  const { popper, placement, modifiers, strategy, expanded, setExpanded, labelElement, toggle } = props;
+  const [ popperElement, setPopperElement ] = React.useState<HTMLElement | null>(null);
+  const popperInstance = ReactPopper.usePopper(labelElement, popperElement, { placement, modifiers, strategy });
+  const popperContainer = document.getElementById('popper');
+  onGlobalClick = e => {
+    if (!expanded) return;
     const target = e.target as Element;
     if (target && labelElement && popperElement) {
       if (!labelElement.contains(target) && !popperElement.contains(target)) {
@@ -44,33 +67,25 @@ const Dropdown = observer<DropdownProps>(({ label, popper, placement, modifiers,
         (e as any)._isClosingDropdown = true;
       }
     }
-  } : undefined;
-  onGlobalKeyup = expanded ? e => {
+  };
+  onGlobalKeyup = e => {
+    if (!expanded) return;
     const target = e.target as Element;
     // label (比如是一个 button) 有可能成为按键事件的 target
     if (target && (target.tagName === 'BODY' || target === labelElement) && e.key === 'Escape') {
       setExpanded(false);
       onGlobalKeyup = undefined;
     }
-  } : undefined;
-  return (
-    <React.Fragment>
-      {label({
-        ref: setLabelElement,
-        expanded,
-        toggle,
-      })}
-      {expanded && popperContainer && ReactDOM.createPortal((
-        <div
-          ref={setPopperElement}
-          style={popperInstance.styles.popper}
-          {...popperInstance.attributes.popper}
-          onClick={e => e.stopPropagation()}
-          children={popper({ toggle, labelElement })}
-        />
-      ), popperContainer)}
-    </React.Fragment>
-  );
+  };
+  return popperContainer && ReactDOM.createPortal((
+    <div
+      ref={setPopperElement}
+      style={popperInstance.styles.popper}
+      {...popperInstance.attributes.popper}
+      onClick={e => e.stopPropagation()}
+      children={popper({ toggle, labelElement })}
+    />
+  ), popperContainer);
 });
 
 let onGlobalClick: ((e: MouseEvent) => void) | undefined;
