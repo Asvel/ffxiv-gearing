@@ -5,7 +5,7 @@
 @use "../../node_modules/@material/icon-button/mixins" as icon-button;
 @use "../../node_modules/@material/line-ripple/mixins" as line-ripple;
 @use "../../node_modules/@material/textfield/mixins" as textfield;  // only use line-ripple, skip others
-@use "./mixins" as *;
+@use "./components/mixins" as *;
 
 @include ripple.common(feature-targeting.without(typography));
 @include ripple.core-styles(feature-targeting.without(typography));

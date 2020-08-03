@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IStore } from "../stores";
+import { IStore } from "../../stores";
 
 export const StoreContext = React.createContext<IStore>(undefined as any);
 

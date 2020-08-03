@@ -23,7 +23,7 @@ export interface DropdownProps {
   strategy?: PopperJS.PositioningStrategy;
 }
 
-const Dropdown = observer<DropdownProps>(props => {
+export const Dropdown = observer<DropdownProps>(props => {
   const [ expanded, setExpanded ] = React.useState(false);
   const [ labelElement, setLabelElement ] = React.useState<HTMLElement | null>(null);
   const toggle = (e?: UIEvent) => {
@@ -92,5 +92,3 @@ let onGlobalClick: ((e: MouseEvent) => void) | undefined;
 window.addEventListener('click', e => onGlobalClick?.(e), true);
 let onGlobalKeyup: ((e: KeyboardEvent) => void) | undefined;
 window.addEventListener('keyup', e => onGlobalKeyup?.(e), true);
-
-export { Dropdown };

@@ -3,10 +3,10 @@ import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import * as G from '../game';
 import { IMateria } from "../stores";
-import { useStore } from './context';
-import { Dropdown } from './dropdown';
+import { useStore } from './components/contexts';
+import { Dropdown } from './components/Dropdown';
 
-const Materia = observer<{ materia: IMateria }>(({ materia }) => {
+export const Materia = observer<{ materia: IMateria }>(({ materia }) => {
   const store = useStore();
   return (
     <Dropdown
@@ -83,5 +83,3 @@ const MateriaPanel = observer<{ materia: IMateria, labelElement: HTMLElement | n
     </table>
   );
 });
-
-export { Materia };

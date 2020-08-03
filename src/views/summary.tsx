@@ -3,10 +3,10 @@ import { observer } from 'mobx-react-lite';
 import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import * as G from '../game';
-import { useStore } from './context';
-import { Dropdown } from './dropdown';
+import { useStore } from './components/contexts';
+import { Dropdown } from './components/Dropdown';
 
-const Summary = observer(() => {
+export const Summary = observer(() => {
   const store = useStore();
   const effects = store.equippedEffects;
   const [ tiersVisible, setTiersVisible ] = React.useState(false);
@@ -113,5 +113,3 @@ const Summary = observer(() => {
     </div>
   );
 });
-
-export { Summary };

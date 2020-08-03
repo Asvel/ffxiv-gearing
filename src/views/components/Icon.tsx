@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-const icons = require.context('../../img', true, /\.svg$/);
+const icons = require.context('../../../img', true, /\.svg$/);
 
-const Icon = React.memo<{ className?: string, name: string }>(({ className, name }) => {
+export const Icon = React.memo<{ className?: string, name: string }>(({ className, name }) => {
   const icon = icons('./' + name + '.svg').default;
   return (
     <svg className={className} viewBox={icon.viewBox}>
@@ -10,5 +10,3 @@ const Icon = React.memo<{ className?: string, name: string }>(({ className, name
     </svg>
   );
 });
-
-export { Icon }

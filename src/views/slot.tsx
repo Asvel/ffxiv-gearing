@@ -5,14 +5,14 @@ import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../game';
-import { IGearUnion, Gear, Food } from "../stores";
-import { useStore } from './context';
-import { Icon } from './icon';
-import { IconButton } from './icon-button';
-import { Dropdown } from './dropdown';
+import { IGearUnion } from "../stores";
+import { useStore } from './components/contexts';
+import { Icon } from './components/Icon';
+import { IconButton } from './components/IconButton';
+import { Dropdown } from './components/Dropdown';
 import { Materia } from './materia';
 
-const Slot = observer<{ slot: G.SlotSchema }>(({ slot }) => {
+export const Slot = observer<{ slot: G.SlotSchema }>(({ slot }) => {
   const store = useStore();
   const groupedGears = store.groupedGears[slot.slot];
   return (
@@ -48,7 +48,7 @@ const Slot = observer<{ slot: G.SlotSchema }>(({ slot }) => {
   );
 });
 
-const SlotCompact = observer(() => {
+export const SlotCompact = observer(() => {
   const store = useStore();
   return (
     <table className="gears_slot table card">
@@ -88,7 +88,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
       data-id={gear.id}
       className={classNames(
         'gears_item',
-        Food.is(gear) && '-food',
+        gear.isFood && '-food',
         !store.isViewing && gear.isEquipped && '-selected'
       )}
       onClick={store.isViewing ? undefined : e => {
@@ -99,7 +99,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
     >
       <td className="gears_left">
         {slot !== undefined && <span className="gears_inline-slot">{(slot.shortName ?? slot.name).slice(0, 2)}</span>}
-        {store.displayGearSource && Gear.is(gear) && gear.source ? (
+        {store.displayGearSource && !gear.isFood && gear.source ? (
           <span className="gears_name">
             {gear.source}
             {!gear.isInstalled && <span className="gears_patch">{gear.patch}</span>}
@@ -111,7 +111,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
           </span>
         ) : (
           <span className="gears_name">
-            <span className="gears_origin">{Gear.is(gear) ? '*' + gear.source : gear.name}</span>
+            <span className="gears_origin">{!gear.isFood ? '*' + gear.source : gear.name}</span>
             <span className="gears_patch">{gear.patch}</span>
           </span>
         )}
@@ -127,10 +127,10 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
         <span className="gears_level">il{gear.level}</span>
       </td>
       <td className="gears_materias">
-        {Gear.is(gear) && gear.materias.map((materia, i) => (
+        {!gear.isFood && gear.materias.map((materia, i) => (
           <Materia key={i} materia={materia} />
         ))}
-        {Food.is(gear) && (
+        {gear.isFood && (
           store.isViewing ? (
             <span className="gears_food-utilization">利用率{gear.utilization}%</span>
           ) : (
@@ -146,7 +146,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
           <span className={classNames('gears_stat-value', gear.statHighlights[stat] && '-full')}>
             {gear.stats[stat]}
           </span>
-          {!store.isViewing && stat !== 'VIT' && Food.is(gear) && gear.requiredStats[stat] && (
+          {!store.isViewing && stat !== 'VIT' && gear.isFood && gear.requiredStats[stat] && (
             <span
               className={classNames(
                 'gears_stat-required',
@@ -154,7 +154,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
               )}
             >{gear.requiredStats[stat]}+</span>
           )}
-          {Gear.is(gear) && gear.materiaStats[stat] && (  // FIXME
+          {!gear.isFood && gear.materiaStats[stat] && (  // FIXME
             <span className="gears_stat-materia">+{gear.materiaStats[stat]}</span>
           )}
         </td>
@@ -178,7 +178,7 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
           />
         </div>
       </Ripple>
-      {gear.isInstalled && Gear.is(gear) && (
+      {gear.isInstalled && !gear.isFood && (
         <Ripple>
           <div
             className="gear-menu_item"
@@ -232,5 +232,3 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
     </div>
   );
 });
-
-export { Slot, SlotCompact };

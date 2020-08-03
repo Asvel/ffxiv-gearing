@@ -5,12 +5,12 @@ import { Button } from '@rmwc/button';
 import { TextField } from '@rmwc/textfield';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../game';
-import { useStore } from './context';
-import { Icon } from './icon';
-import { Dropdown } from './dropdown';
+import { useStore } from './components/contexts';
+import { Icon } from './components/Icon';
+import { Dropdown } from './components/Dropdown';
 import { JobSelector } from './job-selector';
 
-const ConditionEditing = observer(() => {
+export const ConditionEditing = observer(() => {
   const store = useStore();
   type ExpandedPanel = 'job' | 'materia' | null;
   const [ expandedPanel, setExpandedPanel ] = React.useState<ExpandedPanel>(null);
@@ -104,7 +104,7 @@ const ConditionEditing = observer(() => {
   );
 });
 
-const ConditionViewing = observer(() => {
+export const ConditionViewing = observer(() => {
   const store = useStore();
   return store.job === undefined ? null : (
     <div className="condition card">
@@ -166,5 +166,3 @@ const ConditionLevelInput = observer<ConditionLevelInputProps>(({ value, onChang
     />
   );
 });
-
-export { ConditionEditing, ConditionViewing };

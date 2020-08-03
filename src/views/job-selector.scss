@@ -1,4 +1,4 @@
-@use "./mixins" as *;
+@use "./components/mixins" as *;
 
 .job-selector {
   position: relative;
@@ -39,7 +39,7 @@
   right: -100px;
   bottom: -100px;
   width: 480px;
-  color: #6200ee;
+  color: $primary;
   opacity: 0.08;
   pointer-events: none;
 }

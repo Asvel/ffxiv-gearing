@@ -2,10 +2,10 @@ import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import { Ripple } from '@rmwc/ripple';
 import * as G from '../game';
-import { useStore } from './context';
-import { Icon } from './icon';
+import { useStore } from './components/contexts';
+import { Icon } from './components/Icon';
 
-const JobSelector = observer(() => {
+export const JobSelector = observer(() => {
   return (
     <div className="job-selector">
       <div className="job-selector_column">
@@ -93,5 +93,3 @@ const JobItem = observer<{ job: G.Job }>(({ job }) => {
     </Ripple>
   );
 });
-
-export { JobSelector }
