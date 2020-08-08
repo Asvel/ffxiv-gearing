@@ -3,6 +3,7 @@ import { observer } from 'mobx-react-lite';
 import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import { TextField } from '@rmwc/textfield';
+import { Radio } from '@rmwc/radio';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../game';
 import { useStore } from './components/contexts';
@@ -54,7 +55,7 @@ export const ConditionEditing = observer(() => {
             label={({ ref, toggle }) => (
               <Button ref={ref} className="condition_button" onClick={toggle}>分享</Button>
             )}
-            popper={({ toggle }) => (
+            popper={() => (
               <div className="share card">
                 <a className="share_url" href={store.shareUrl} target="_blank">{store.shareUrl}</a>
                 <div className="share_tip">分享时只会包含选中的装备。</div>
@@ -73,7 +74,7 @@ export const ConditionEditing = observer(() => {
           label={({ ref, toggle }) => (
             <Button ref={ref} className="condition_button" onClick={toggle}>导入</Button>
           )}
-          popper={({ toggle }) => (
+          popper={() => (
             <div className="import card">
               <div className="import_title">使用方法：</div>
               <div>将下方的链接添加为浏览器书签（一种较方便的方式是拖拽下方链接至书签栏），</div>
@@ -96,6 +97,48 @@ export const ConditionEditing = observer(() => {
           placement="bottom-end"
         />
         {/*<Button className="condition_button">历史记录</Button>*/}
+        <Dropdown
+          label={({ ref, toggle }) => (
+            <Button ref={ref} className="condition_button" onClick={toggle}>设置</Button>
+          )}
+          popper={() => (
+            <div className="setting card">
+              <div className="setting_section">
+                <span className="setting_title">切换装备名/来源显示</span>
+                <span className="setting_sub">国服未实装的装备总会显示为装备来源</span>
+              </div>
+              <div className="setting_controls">
+                <Radio
+                  label="显示装备名"
+                  checked={store.setting.gearDisplayName === 'name'}
+                  onChange={() => store.setting.setGearDisplayName('name')}
+                />
+                <Radio
+                  label="显示装备来源"
+                  checked={store.setting.gearDisplayName === 'source'}
+                  onChange={() => store.setting.setGearDisplayName('source')}
+                />
+              </div>
+              <div className="setting_section">
+                <span className="setting_title">高饱和度模式</span>
+                <span className="setting_sub">如果默认高亮颜色难以辨识请启用此模式</span>
+              </div>
+              <div className="setting_controls">
+                <Radio
+                  label="不启用"
+                  checked={!store.setting.highSaturation}
+                  onChange={() => store.setting.setHighSaturation(false)}
+                />
+                <Radio
+                  label="启用"
+                  checked={store.setting.highSaturation}
+                  onChange={() => store.setting.setHighSaturation(true)}
+                />
+              </div>
+            </div>
+          )}
+          placement="bottom-end"
+        />
         <span className="condition_divider" />
         <span className="condition_version">数据版本 {G.versions.data}</span>
       </span>

@@ -17,6 +17,7 @@ export function ceil(value: number) {
   return Math.ceil(value - 1e-7);
 }
 
+export { Setting, ISetting } from './Setting';
 export { Materia, IMateria } from './Materia';
 export { Gear, IGear } from './Gear';
 export { Food, IFood } from './Food';

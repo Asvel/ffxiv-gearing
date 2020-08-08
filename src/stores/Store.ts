@@ -2,7 +2,7 @@ import { autorun, reaction } from 'mobx';
 import { types, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
 import * as G from '../game';
 import * as share from '../share';
-import { floor, ceil, IFood, GearUnion, IGearUnion, GearUnionReference,
+import { floor, ceil, Setting, IFood, GearUnion, IGearUnion, GearUnionReference,
   gearDataOrdered, gearDataLoading, loadGearDataOfLevelRange } from '.';
 
 const globalClanKey = 'ffxiv-gearing-clan';
@@ -18,9 +18,9 @@ export const Store = types
     showAllFoods: types.optional(types.boolean, false),
     gears: types.map(GearUnion),
     equippedGears: types.map(GearUnionReference),
-    displayGearSource: types.optional(types.boolean, false),
   })
   .volatile(() => ({
+    setting: Setting.create(),
     clan: Number(localStorage.getItem(globalClanKey)) || 0,
   }))
   .views(self => {
@@ -277,9 +277,6 @@ export const Store = types
     setClan(clan: number): void {
       self.clan = clan;
       localStorage.setItem(globalClanKey, clan.toString());
-    },
-    toggleDisplayGearSource(): void {
-      self.displayGearSource = !self.displayGearSource;
     },
     unprotect(): void {
       setTimeout(() => unprotect(self), 0);

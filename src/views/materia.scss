@@ -31,6 +31,9 @@
   &.-normal {
     color: #155724;
     //color: mix($green, #000, 60%);
+    .app-high-saturation & {
+      color: #008a30;
+    }
     &:empty:before {
       border-color: transparentify(#c3e6cb);
     }
@@ -38,6 +41,9 @@
   &.-advanced {
     color: #721c24;
     //color: mix($red, #000, 63%);
+    .app-high-saturation & {
+      color: #9c0010;
+    }
     &:empty:before {
       border-color: transparentify(#f5c6cb);
     }
@@ -77,6 +83,9 @@
   }
   &.-selected {
     background-color: rgba($primary, .08);
+    .app-high-saturation & {
+      background-color: rgba($primary, .16);
+    }
   }
 }
 td.materias_meldable {

@@ -11,7 +11,7 @@ import { About } from './about';
 export const App = observer<{ store: IStore }>(({ store }) => {
   return store.isLoading ? null : (
     <StoreContext.Provider value={store}>
-      <div className={classNames('app', `app-${store.mode}`)}>
+      <div className={classNames('app', `app-${store.mode}`, store.setting.highSaturation && 'app-high-saturation')}>
         {store.isViewing ? <ConditionViewing /> : <ConditionEditing />}
         {store.job !== undefined && (
           store.isViewing ? (

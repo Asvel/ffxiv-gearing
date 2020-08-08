@@ -99,7 +99,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
     >
       <td className="gears_left">
         {slot !== undefined && <span className="gears_inline-slot">{(slot.shortName ?? slot.name).slice(0, 2)}</span>}
-        {store.displayGearSource && !gear.isFood && gear.source ? (
+        {store.setting.gearDisplayName === 'source' && !gear.isFood && gear.source ? (
           <span className="gears_name">
             {gear.source}
             {!gear.isInstalled && <span className="gears_patch">{gear.patch}</span>}
@@ -178,18 +178,6 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
           />
         </div>
       </Ripple>
-      {gear.isInstalled && !gear.isFood && (
-        <Ripple>
-          <div
-            className="gear-menu_item"
-            children="切换 装备名/来源 显示（全局）"
-            onClick={() => {
-              toggle();
-              store.toggleDisplayGearSource();
-            }}
-          />
-        </Ripple>
-      )}
       <div className="gear-menu_divider" />
       {gear.stats.PDMG !== undefined && <div className="gear-menu_item">物理基本性能：{gear.stats.PDMG}</div>}
       {gear.stats.MDMG !== undefined && <div className="gear-menu_item">魔法基本性能：{gear.stats.MDMG}</div>}
