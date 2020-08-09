@@ -408,6 +408,11 @@ export const materias: { [index in Stat]?: number[] } = {
 export type MateriaGrade = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 export const materiaGrades: MateriaGrade[] = [8, 7, 6, 5, 4, 3, 2, 1];
 export const materiaGradesAdvanced: MateriaGrade[] = [7, 5, 4, 3, 2, 1];
+export const materiaNames: { [index in Stat]?: string } = {
+  CRT: '武略', DHT: '神眼', DET: '雄略', SKS: '战技', SPS: '咏唱', TEN: '刚柔', PIE: '信力',
+  CMS: '名匠', CRL: '巨匠', CP: '魔匠',
+  GTH: '达识', PCP: '博识', GP: '器识',
+};
 
 export const levelModifiers = {
   50: { main: 202, sub: 341, div: 341, hp: 1700, vit: 10.2, vitTank: 14.5 },

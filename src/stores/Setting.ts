@@ -1,6 +1,7 @@
 import { types, Instance, ISimpleType, applySnapshot, onSnapshot } from "mobx-state-tree";
 
 type GearDisplayName = 'name' | 'source';
+type MateriaDisplayName = 'stat' | 'materia';
 
 const storageKey = 'ffxiv-gearing-setting';
 
@@ -8,6 +9,7 @@ export const Setting = types
   .model({
     highSaturation: types.optional(types.boolean, false),
     gearDisplayName: types.optional(types.string as ISimpleType<GearDisplayName>, 'name'),
+    materiaDisplayName: types.optional(types.string as ISimpleType<MateriaDisplayName>, 'stat'),
   })
   .actions(self => ({
     afterCreate(): void {
@@ -19,6 +21,9 @@ export const Setting = types
     },
     setGearDisplayName(gearDisplayName: GearDisplayName): void {
       self.gearDisplayName = gearDisplayName;
+    },
+    setMateriaDisplayName(materiaDisplayName: MateriaDisplayName): void {
+      self.materiaDisplayName = materiaDisplayName;
     },
   }));
 

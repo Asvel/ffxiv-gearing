@@ -104,7 +104,7 @@ export const ConditionEditing = observer(() => {
           popper={() => (
             <div className="setting card">
               <div className="setting_section">
-                <span className="setting_title">切换装备名/来源显示</span>
+                <span className="setting_title">装备名显示方式</span>
                 <span className="setting_sub">国服未实装的装备总会显示为装备来源</span>
               </div>
               <div className="setting_controls">
@@ -119,6 +119,22 @@ export const ConditionEditing = observer(() => {
                   onChange={() => store.setting.setGearDisplayName('source')}
                 />
               </div>
+              <div className="setting_section">
+                <span className="setting_title">魔晶石显示方式</span>
+              </div>
+              <div className="setting_controls">
+                <Radio
+                  label="显示受增益的属性"
+                  checked={store.setting.materiaDisplayName === 'stat'}
+                  onChange={() => store.setting.setMateriaDisplayName('stat')}
+                />
+                <Radio
+                  label="显示魔晶石本身的名字"
+                  checked={store.setting.materiaDisplayName === 'materia'}
+                  onChange={() => store.setting.setMateriaDisplayName('materia')}
+                />
+              </div>
+              {/*<div>累加魔晶石的属性至属性列表</div>*/}
               <div className="setting_section">
                 <span className="setting_title">高饱和度模式</span>
                 <span className="setting_sub">如果默认高亮颜色难以辨识请启用此模式</span>
