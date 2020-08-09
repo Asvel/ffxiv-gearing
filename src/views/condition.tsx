@@ -134,7 +134,21 @@ export const ConditionEditing = observer(() => {
                   onChange={() => store.setting.setMateriaDisplayName('materia')}
                 />
               </div>
-              {/*<div>累加魔晶石的属性至属性列表</div>*/}
+              <div className="setting_section">
+                <span className="setting_title">展示包含魔晶石增益的装备属性</span>
+              </div>
+              <div className="setting_controls">
+                <Radio
+                  label="是，展示实际生效的属性"
+                  checked={store.setting.displayMeldedStats}
+                  onChange={() => store.setting.setDisplayMeldedStats(true)}
+                />
+                <Radio
+                  label="否，展示装备的原始属性"
+                  checked={!store.setting.displayMeldedStats}
+                  onChange={() => store.setting.setDisplayMeldedStats(false)}
+                />
+              </div>
               <div className="setting_section">
                 <span className="setting_title">高饱和度模式</span>
                 <span className="setting_sub">如果默认高亮颜色难以辨识请启用此模式</span>

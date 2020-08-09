@@ -144,7 +144,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
       {store.schema.stats.map(stat => (
         <td key={stat} className="gears_stat">
           <span className={classNames('gears_stat-value', gear.statHighlights[stat] && '-full')}>
-            {gear.stats[stat]}
+            {(gear.isFood || store.setting.displayMeldedStats ? gear.stats : gear.bareStats)[stat]}
           </span>
           {!store.isViewing && stat !== 'VIT' && gear.isFood && gear.requiredStats[stat] && (
             <span
@@ -153,9 +153,6 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
                 store.equippedStatsWithoutFood[stat]! >= gear.requiredStats[stat]! && '-enough'
               )}
             >{gear.requiredStats[stat]}+</span>
-          )}
-          {!gear.isFood && gear.materiaStats[stat] && (  // FIXME
-            <span className="gears_stat-materia">+{gear.materiaStats[stat]}</span>
           )}
         </td>
       ))}

@@ -10,6 +10,7 @@ export const Setting = types
     highSaturation: types.optional(types.boolean, false),
     gearDisplayName: types.optional(types.string as ISimpleType<GearDisplayName>, 'name'),
     materiaDisplayName: types.optional(types.string as ISimpleType<MateriaDisplayName>, 'stat'),
+    displayMeldedStats: types.optional(types.boolean, true),
   })
   .actions(self => ({
     afterCreate(): void {
@@ -24,6 +25,9 @@ export const Setting = types
     },
     setMateriaDisplayName(materiaDisplayName: MateriaDisplayName): void {
       self.materiaDisplayName = materiaDisplayName;
+    },
+    setDisplayMeldedStats(displayMeldedStats: boolean): void {
+      self.displayMeldedStats = displayMeldedStats;
     },
   }));
 
