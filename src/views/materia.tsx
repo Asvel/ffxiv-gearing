@@ -19,6 +19,12 @@ export const Materia = observer<{ materia: IMateria }>(({ materia }) => {
             expanded && '-active'
           )}
           onClick={store.isViewing ? undefined : toggle}
+          onContextMenu={e => {
+            if (!document.getSelection()?.toString()) {
+              e.preventDefault();
+              materia.meld(undefined);
+            }
+          }}
           children={materia.name}
         />
       )}
