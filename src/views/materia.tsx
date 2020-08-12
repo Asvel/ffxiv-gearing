@@ -64,11 +64,16 @@ const MateriaPanel = observer<{ materia: IMateria, labelElement: HTMLElement | n
                 materia.stat === stat && materia.grade === grade && '-selected'
               )}
               onClick={() => {
-                materia.meld(stat, grade);
-                const nextMateria = labelElement?.nextElementSibling;
-                if (nextMateria?.childNodes.length === 0) {
-                  (nextMateria as HTMLElement).click();
+                if (materia.stat === undefined) {  // Only for initial melding, not changing materia
+                  const nextMateria = labelElement?.nextElementSibling;
+                  if (nextMateria === null) {
+                    labelElement?.click();
+                  }
+                  if (nextMateria?.childNodes.length === 0) {
+                    (nextMateria as HTMLElement).click();
+                  }
                 }
+                materia.meld(stat, grade);
               }}
               children={'+' + G.materias[stat]![grade - 1]}
             />
