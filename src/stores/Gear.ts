@@ -1,6 +1,8 @@
-import { types, Instance, ISimpleType, getParentOfType } from "mobx-state-tree";
+import { types, getEnv, Instance, ISimpleType, getParentOfType } from "mobx-state-tree";
 import * as G from '../game';
-import { Materia, Store, gearData } from '.';
+import { ISetting, Materia, Store, gearData } from '.';
+
+export type GearColor = 'white' | 'red' | 'green' | 'blue' | 'purple';
 
 export const Gear = types
   .model('Gear', {
@@ -24,6 +26,12 @@ export const Gear = types
     get hq() { return self.data.hq; },
     get source() { return self.data.source; },
     get patch() { return self.data.patch; },
+    get color(): GearColor {
+      const { gearColorScheme } = getEnv(self).setting as ISetting;
+      if (gearColorScheme === 'none') return 'white';
+      const { rarity, source='' } = self.data;
+      return gearColorScheme === 'source' && sourceColors[(source).slice(0, 2)] || rarityColors[rarity];
+    },
     get caps(): G.Stats { return G.getCaps(self.data); },
     get bareStats(): G.Stats { return self.data.stats; },
     get materiaStats(): G.Stats {
@@ -84,5 +92,20 @@ export const Gear = types
       }
     },
   }));
+
+const rarityColors: { [index: number]: GearColor } = {
+  1: 'white',
+  2: 'green',
+  3: 'blue',
+  4: 'purple',
+  7: 'red',
+};
+
+// noinspection NonAsciiCharacters
+const sourceColors: { [index: string]: GearColor } = {
+  '点数': 'red',
+  '天书': 'purple',
+  '绝境': 'purple',
+};
 
 export interface IGear extends Instance<typeof Gear> {}

@@ -1,8 +1,8 @@
 import { autorun, reaction } from 'mobx';
-import { types, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
+import { types, getEnv, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
 import * as G from '../game';
 import * as share from '../share';
-import { floor, ceil, Setting, IFood, GearUnion, IGearUnion, GearUnionReference,
+import { floor, ceil, ISetting, IFood, GearUnion, IGearUnion, GearUnionReference,
   gearDataOrdered, gearDataLoading, loadGearDataOfLevelRange } from '.';
 
 const globalClanKey = 'ffxiv-gearing-clan';
@@ -20,7 +20,6 @@ export const Store = types
     equippedGears: types.map(GearUnionReference),
   })
   .volatile(() => ({
-    setting: Setting.create(),
     clan: Number(localStorage.getItem(globalClanKey)) || 0,
   }))
   .views(self => {
@@ -62,6 +61,9 @@ export const Store = types
     };
   })
   .views(self => ({
+    get setting(): ISetting {
+      return getEnv(self).setting;
+    },
     get isLoading(): boolean {
       return gearDataLoading.get();
     },

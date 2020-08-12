@@ -1,6 +1,6 @@
 import { types, Instance, ISimpleType, getParentOfType } from "mobx-state-tree";
 import * as G from '../game';
-import { floor, Store, gearData } from '.';
+import { floor, GearColor, Store, gearData } from '.';
 
 export const Food = types
   .model('Food', {
@@ -20,6 +20,7 @@ export const Food = types
     get jobs() { return G.jobCategories[self.data.jobCategory]; },
     get hq() { return true; },
     get patch() { return self.data.patch; },
+    get color(): GearColor { return 'white'; },
     get stats(): G.Stats { return self.data.stats; },
     get statRates(): G.Stats { return self.data.statRates; },
     get requiredStats(): G.Stats {

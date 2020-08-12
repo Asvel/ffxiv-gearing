@@ -148,6 +148,7 @@ const gears = Item
       id: Number(x['#']),
       name: ItemCn[index] && ItemCn[index]['Name'] || x['Name'],
       level: Number(x['Level{Item}']),
+      rarity: Number(x['Rarity']),
       slot: Number(x['EquipSlotCategory']),
       role: Number(x['BaseParamModifier']),
       jobCategory,

@@ -97,7 +97,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
         store.equip(gear);
       }}
     >
-      <td className="gears_left">
+      <td className={classNames('gears_left', `gears_color-${gear.color}`)}>
         {slot !== undefined && <span className="gears_inline-slot">{(slot.shortName ?? slot.name).slice(0, 2)}</span>}
         {store.setting.gearDisplayName === 'source' && !gear.isFood && gear.source ? (
           <span className="gears_name">

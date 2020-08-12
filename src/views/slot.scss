@@ -35,6 +35,30 @@
   .app-view & {
     max-width: 198px;
   }
+  .gears_color-red & {
+    color: #721c24;
+    .app-high-saturation & {
+      color: #9c0010;
+    }
+  }
+  .gears_color-green & {
+    color: #155724;
+    .app-high-saturation & {
+      color: #007a2b;
+    }
+  }
+  .gears_color-blue & {
+    color: #003085;
+    .app-high-saturation & {
+      color: #003899;
+    }
+  }
+  .gears_color-purple & {
+    color: #36037c;
+    .app-high-saturation & {
+      color: #3e0094;
+    }
+  }
 }
 .gears_hq {
   width: 12px;

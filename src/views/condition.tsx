@@ -120,6 +120,26 @@ export const ConditionEditing = observer(() => {
                 />
               </div>
               <div className="setting_section">
+                <span className="setting_title">装备颜色方案</span>
+              </div>
+              <div className="setting_controls">
+                <Radio
+                  label="区分竞品"
+                  checked={store.setting.gearColorScheme === 'source'}
+                  onChange={() => store.setting.setGearColorScheme('source')}
+                />
+                <Radio
+                  label="按稀有度上色"
+                  checked={store.setting.gearColorScheme === 'rarity'}
+                  onChange={() => store.setting.setGearColorScheme('rarity')}
+                />
+                <Radio
+                  label="不上色"
+                  checked={store.setting.gearColorScheme === 'none'}
+                  onChange={() => store.setting.setGearColorScheme('none')}
+                />
+              </div>
+              <div className="setting_section">
                 <span className="setting_title">魔晶石显示方式</span>
               </div>
               <div className="setting_controls">

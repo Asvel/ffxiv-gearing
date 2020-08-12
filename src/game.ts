@@ -10,6 +10,7 @@ export interface GearBase {
   patch?: string,
 }
 export interface Gear extends GearBase {
+  rarity: number,
   role: number,
   materiaSlot: number,
   materiaAdvanced: boolean

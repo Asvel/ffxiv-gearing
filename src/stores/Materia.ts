@@ -1,6 +1,6 @@
-import { types, Instance, ISimpleType, getParentOfType } from "mobx-state-tree";
+import { types, getEnv, Instance, ISimpleType, getParentOfType } from "mobx-state-tree";
 import * as G from '../game';
-import { Gear, IGear, Store } from '.';
+import { Gear, IGear, ISetting } from '.';
 
 export const Materia = types
   .model({
@@ -17,7 +17,7 @@ export const Materia = types
   }))
   .views(self => ({
     get name(): string {
-      const names = getParentOfType(self, Store).setting.materiaDisplayName === 'stat' ? G.statNames : G.materiaNames;
+      const names = (getEnv(self).setting as ISetting).materiaDisplayName === 'stat' ? G.statNames : G.materiaNames;
       return self.stat === undefined ? '' : names[self.stat]!.slice(0, 2) + self.grade;
     },
     get isAdvanced(): boolean {

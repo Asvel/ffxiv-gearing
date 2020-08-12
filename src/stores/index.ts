@@ -19,16 +19,16 @@ export function ceil(value: number) {
 
 export { Setting, ISetting } from './Setting';
 export { Materia, IMateria } from './Materia';
-export { Gear, IGear } from './Gear';
+export { Gear, IGear, GearColor } from './Gear';
 export { Food, IFood } from './Food';
 export { GearUnion, IGearUnion, GearUnionReference } from './GearUnion';
 export { Store, IStore, Mode } from './Store';
 export { gearData, gearDataOrdered, gearDataLoading,
   loadGearData, loadGearDataOfGear, loadGearDataOfLevelRange } from './gearData';
 
-import { Store } from '.';
+import { Setting, Store } from '.';
 
-// export const store = Store.create(archive.load());
+// export const store = Store.create(archive.load(), { setting: Setting.create() });
 // TODO: delete this old store structure compatible code
 const _archive = archive.load() as any;
 if (_archive && _archive.condition) {
@@ -36,7 +36,7 @@ if (_archive && _archive.condition) {
   delete _archive.condition;
   archive.save(_archive);
 }
-export const store = Store.create(_archive);
+export const store = Store.create(_archive, { setting: Setting.create() });
 
 onSnapshot(store, snapshot => {
   if (snapshot.job !== undefined && snapshot.mode !== 'view') {
