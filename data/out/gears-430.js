@@ -5004,7 +5004,7 @@ export default [
       DLY: 2240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5027,7 +5027,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5050,7 +5050,7 @@ export default [
       DLY: 3360,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5073,7 +5073,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5096,7 +5096,7 @@ export default [
       DLY: 3040,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5119,7 +5119,7 @@ export default [
       DLY: 2560,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5142,7 +5142,7 @@ export default [
       DLY: 2960,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5165,7 +5165,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5187,7 +5187,7 @@ export default [
       MDMG: 155,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5209,7 +5209,7 @@ export default [
       MDMG: 155,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5231,7 +5231,7 @@ export default [
       MDMG: 155,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5253,7 +5253,7 @@ export default [
       MDMG: 155,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5275,7 +5275,7 @@ export default [
       MDMG: 155,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5298,7 +5298,7 @@ export default [
       DLY: 2640,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5320,7 +5320,7 @@ export default [
       MDMG: 155,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5343,7 +5343,7 @@ export default [
       DLY: 2800,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5366,7 +5366,7 @@ export default [
       DLY: 3120,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5387,7 +5387,7 @@ export default [
       CRT: 120,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5408,7 +5408,7 @@ export default [
       SKS: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5429,7 +5429,7 @@ export default [
       DET: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5450,7 +5450,7 @@ export default [
       CRT: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5471,7 +5471,7 @@ export default [
       SKS: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5492,7 +5492,7 @@ export default [
       DET: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5513,7 +5513,7 @@ export default [
       SKS: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5534,7 +5534,7 @@ export default [
       DET: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5555,7 +5555,7 @@ export default [
       SKS: 390,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5576,7 +5576,7 @@ export default [
       SKS: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5597,7 +5597,7 @@ export default [
       DET: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5618,7 +5618,7 @@ export default [
       CRT: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5639,7 +5639,7 @@ export default [
       SKS: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5660,7 +5660,7 @@ export default [
       DET: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5681,7 +5681,7 @@ export default [
       CRT: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5702,7 +5702,7 @@ export default [
       SKS: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5723,7 +5723,7 @@ export default [
       CRT: 390,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5744,7 +5744,7 @@ export default [
       DET: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5765,7 +5765,7 @@ export default [
       SKS: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5786,7 +5786,7 @@ export default [
       DET: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5807,7 +5807,7 @@ export default [
       DET: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5828,7 +5828,7 @@ export default [
       SKS: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5849,7 +5849,7 @@ export default [
       DET: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5870,7 +5870,7 @@ export default [
       CRT: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5891,7 +5891,7 @@ export default [
       SKS: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5912,7 +5912,7 @@ export default [
       DET: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5933,7 +5933,7 @@ export default [
       DET: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5954,7 +5954,7 @@ export default [
       SKS: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5975,7 +5975,7 @@ export default [
       DET: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -5996,7 +5996,7 @@ export default [
       SKS: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6017,7 +6017,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6038,7 +6038,7 @@ export default [
       DET: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6059,7 +6059,7 @@ export default [
       SPS: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6080,7 +6080,7 @@ export default [
       DET: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6101,7 +6101,7 @@ export default [
       CRT: 390,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6122,7 +6122,7 @@ export default [
       SPS: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6143,7 +6143,7 @@ export default [
       DET: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6164,7 +6164,7 @@ export default [
       DET: 240,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6185,7 +6185,7 @@ export default [
       CRT: 390,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6206,7 +6206,7 @@ export default [
       SPS: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6227,7 +6227,7 @@ export default [
       SPS: 273,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6248,7 +6248,7 @@ export default [
       DET: 168,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6269,7 +6269,7 @@ export default [
       CRT: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6290,7 +6290,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6311,7 +6311,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6332,7 +6332,7 @@ export default [
       SKS: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6353,7 +6353,7 @@ export default [
       CRT: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6374,7 +6374,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6395,7 +6395,7 @@ export default [
       SKS: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6416,7 +6416,7 @@ export default [
       SKS: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6437,7 +6437,7 @@ export default [
       DET: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6458,7 +6458,7 @@ export default [
       SPS: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6479,7 +6479,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6500,7 +6500,7 @@ export default [
       DET: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6521,7 +6521,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6542,7 +6542,7 @@ export default [
       SKS: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6563,7 +6563,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6584,7 +6584,7 @@ export default [
       SPS: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6605,7 +6605,7 @@ export default [
       CRT: 180,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6626,7 +6626,7 @@ export default [
       CRT: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6647,7 +6647,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6668,7 +6668,7 @@ export default [
       DET: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
@@ -6689,7 +6689,7 @@ export default [
       SPS: 126,
     },
     hq: false,
-    source: '点数/魔典',
+    source: '点数/魔典→战利品',
     patch: '5.0',
   },
   {
