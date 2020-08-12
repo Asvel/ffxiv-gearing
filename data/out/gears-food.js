@@ -4815,4 +4815,40 @@ export default [
     patch: '5.2',
     best: true,
   },
+  {
+    id: 30481,
+    name: 'Crab Cakes',
+    level: 480,
+    slot: -1,
+    jobCategory: 32,
+    stats: {
+      GP: 55,
+      PCP: 47,
+    },
+    statRates: {
+      GP: 29,
+      PCP: 3,
+    },
+    statMain: 'GP',
+    patch: '5.3',
+    best: true,
+  },
+  {
+    id: 30482,
+    name: 'Chili Crab',
+    level: 480,
+    slot: -1,
+    jobCategory: 33,
+    stats: {
+      CP: 72,
+      CRL: 70,
+    },
+    statRates: {
+      CP: 26,
+      CRL: 6,
+    },
+    statMain: 'CP',
+    patch: '5.3',
+    best: true,
+  },
 ];
