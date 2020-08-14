@@ -19,7 +19,7 @@
         const item = items[slot];
         const id = item.itemID;
         const materias = (materiaData[`${slot}-${item.itemID}`] || []).map(m => {
-          const [type, level] = m.split(':');
+          const [ type, level ] = m.split(':');
           return [type, Number(level) + 1];
         });
         data.gears.push({ id, materias });
@@ -100,7 +100,7 @@
       for (const food of state.food.listResult) {
         foodIdToItemId[food.id] = food.item;
       }
-      for (const [slot, gear] of Object.entries(state.gearsets.gearset)) {
+      for (const [ slot, gear ] of Object.entries(state.gearsets.gearset)) {
         let { id } = gear || {};
         if (id) {
           if (slot === 'food') id = foodIdToItemId[id];
@@ -110,7 +110,7 @@
           const materia = state.gearsets.gearset.materia[materiaKey];
           const materias = [];
           if (materia) {
-            for (const [index, materiaId] of Object.entries(materia)) {
+            for (const [ index, materiaId ] of Object.entries(materia)) {
               const materiaInfo = materiaInfoOfId[materiaId];
               if (materiaInfo.param in materiaTypes) {
                 materias[index - 1] = [materiaTypes[materiaInfo.param], materiaInfo.tier];

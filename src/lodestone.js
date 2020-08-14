@@ -1,5 +1,5 @@
 const lodestoneIds = require('../data/out/lodestoneIds').default;
-const [region, gearId] = location.search.slice(1).split(':');
+const [ region, gearId ] = location.search.slice(1).split(':');
 const lodestoneId = lodestoneIds[gearId];
 if (region && lodestoneId !== undefined) {
   location.href = `https://${region}.finalfantasyxiv.com/lodestone/playguide/db/item/${lodestoneId}/`;
