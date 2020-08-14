@@ -1,4 +1,4 @@
-import { types, resolveIdentifier, getIdentifier } from "mobx-state-tree";
+import { types, resolveIdentifier } from "mobx-state-tree";
 import { Gear, IGear, Food, IFood, gearData } from '.';
 
 export const GearUnion = types.union({
@@ -21,6 +21,6 @@ export const GearUnionReference = types.maybe(types.reference(GearUnion, {
     return value && gearData.has(Math.abs(value.id)) ? value : undefined;
   },
   set(value): any {
-    return getIdentifier(value);
+    return (value as any)?.$treenode.unnormalizedIdentifier;
   },
 }));

@@ -36,6 +36,13 @@ if (_archive && _archive.condition) {
   delete _archive.condition;
   archive.save(_archive);
 }
+// TODO: delete this bug fix compatible code
+if (_archive && typeof Object.values(_archive.equippedGears)[0] === 'string') {
+  for (const [key, value] of Object.entries(_archive.equippedGears)) {
+    _archive.equippedGears[key] = Number(value);
+  }
+  archive.save(_archive);
+}
 export const store = Store.create(_archive, { setting: Setting.create() });
 
 onSnapshot(store, snapshot => {
