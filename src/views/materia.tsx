@@ -19,7 +19,7 @@ export const Materia = observer<{ materia: IMateria }>(({ materia }) => {
             expanded && '-active'
           )}
           onClick={store.isViewing ? undefined : toggle}
-          onContextMenu={e => {
+          onContextMenu={store.isViewing ? undefined : e => {
             if (!document.getSelection()?.toString()) {
               e.preventDefault();
               materia.meld(undefined);
