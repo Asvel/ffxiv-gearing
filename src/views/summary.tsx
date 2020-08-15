@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
+import * as classNames from 'classnames';
 import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import * as G from '../game';
@@ -75,7 +76,7 @@ export const Summary = observer(() => {
       </span>
       <span className="summary_divider" />
       {store.schema.stats.map(stat => (
-        <span key={stat} className="summary_stat">
+        <span key={stat} className={classNames('summary_stat', store.schema.skeletonGears && '-skeleton')}>
           {tiersVisible && store.equippedTiers !== undefined && store.equippedTiers[stat] !== undefined && (
             <div className="summary_stat-tier">
               <span className="summary_stat-prev">{store.equippedTiers[stat]!.prev}</span>

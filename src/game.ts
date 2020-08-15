@@ -38,8 +38,8 @@ export { versions };
 export const statNames = {
   STR: '力量', DEX: '灵巧', INT: '智力', MND: '精神', VIT: '耐力',
   CRT: '暴击', DHT: '直击', DET: '信念', SKS: '技速', SPS: '咏唱', TEN: '坚韧', PIE: '信仰',
-  CMS: '作业', CRL: '加工', CP: '制作力',
-  GTH: '获得', PCP: '鉴别', GP: '采集力',
+  CMS: '作业精度', CRL: '加工精度', CP: '制作力',
+  GTH: '获得力', PCP: '鉴别力', GP: '采集力',
   PDMG: '物理基本性能', MDMG: '魔法基本性能', DLY: '攻击间隔',
 };
 export type Stat = keyof typeof statNames;
@@ -143,6 +143,7 @@ export interface JobSchema {
   mainStat?: 'STR' | 'DEX' | 'INT' | 'MND' | 'VIT',
   traitDamageMultiplier?: number,
   jobLevel?: keyof typeof levelModifiers,
+  skeletonGears?: boolean,  // consistent stats proportion in same slot, focus on materia choosing than gear choosing
 }
 
 export const jobSchemas = {
@@ -314,66 +315,77 @@ export const jobSchemas = {
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    skeletonGears: true,
   } as JobSchema,
   BSM: {
     name: '锻铁匠',
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    skeletonGears: true,
   } as JobSchema,
   ARM: {
     name: '铸甲匠',
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    skeletonGears: true,
   } as JobSchema,
   GSM: {
     name: '雕金匠',
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    skeletonGears: true,
   } as JobSchema,
   LTW: {
     name: '制革匠',
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    skeletonGears: true,
   } as JobSchema,
   WVR: {
     name: '裁衣匠',
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    skeletonGears: true,
   } as JobSchema,
   ALC: {
     name: '炼金术士',
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    skeletonGears: true,
   } as JobSchema,
   CUL: {
     name: '烹调师',
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    skeletonGears: true,
   } as JobSchema,
   MIN: {
     name: '采矿工',
     stats: statSchemas.gathering,
     slots: slotSchemaGathering,
     defaultItemLevel: defaultItemLevelGathering,
+    skeletonGears: true,
   } as JobSchema,
   BTN: {
     name: '园艺工',
     stats: statSchemas.gathering,
     slots: slotSchemaGathering,
     defaultItemLevel: defaultItemLevelGathering,
+    skeletonGears: true,
   } as JobSchema,
   FSH: {
     name: '捕鱼人',
     stats: statSchemas.gathering,
     slots: slotSchemaGathering,
     defaultItemLevel: defaultItemLevelGathering,
+    skeletonGears: true,
   } as JobSchema,
 };
 

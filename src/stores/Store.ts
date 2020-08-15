@@ -2,7 +2,7 @@ import { autorun, reaction } from 'mobx';
 import { types, getEnv, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
 import * as G from '../game';
 import * as share from '../share';
-import { floor, ceil, ISetting, IFood, GearUnion, IGearUnion, GearUnionReference,
+import { floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
   gearDataOrdered, gearDataLoading, loadGearDataOfLevelRange } from '.';
 
 const globalClanKey = 'ffxiv-gearing-clan';
@@ -21,6 +21,7 @@ export const Store = types
   })
   .volatile(() => ({
     clan: Number(localStorage.getItem(globalClanKey)) || 0,
+    autoSelectScheduled: false,
   }))
   .views(self => {
     let unobservableEquippedGears: SnapshotOut<typeof self.equippedGears> = {};
@@ -70,7 +71,7 @@ export const Store = types
     get isViewing(): boolean {
       return self.mode === 'view';
     },
-    get groupedGears(): { [index: number]: IGearUnion[] | undefined } {
+    get groupedGears(): { [index: number]: IGearUnion[] } {
       console.log('groupedGears');
       const ret: { [index: number]: IGearUnion[] } = {};
       for (const gearId of self.filteredIds) {
@@ -244,6 +245,9 @@ export const Store = types
         }
       }
       self.job = value;
+      if (G.jobSchemas[value].skeletonGears) {
+        self.autoSelectScheduled = true;
+      }
     },
     setMinLevel(value: number): void {
       self.minLevel = value;
@@ -280,14 +284,32 @@ export const Store = types
       self.clan = clan;
       localStorage.setItem(globalClanKey, clan.toString());
     },
+    autoSelect(): void {
+      if (!self.autoSelectScheduled) return;
+      self.autoSelectScheduled = true;
+      for (const gears of Object.values(self.groupedGears)) {
+        let lastMeldable = gears[gears.length - 1];
+        if (lastMeldable === undefined || lastMeldable.isFood || lastMeldable.slot === 17) continue;
+        for (let i = gears.length - 1; i >= 0; i--) {
+          if ((gears[i] as IGear).materias.length > 0) {
+            lastMeldable = gears[i];
+            break;
+          }
+        }
+        if (!lastMeldable.isEquipped) {
+          this.equip(lastMeldable);
+        }
+      }
+    },
     unprotect(): void {
       setTimeout(() => unprotect(self), 0);
     },
   }))
   .actions(self => ({
     afterCreate(): void {
-      reaction(() => self.job && self.filteredIds, self.createGears);
       autorun(() => loadGearDataOfLevelRange(self.minLevel, self.maxLevel));
+      reaction(() => self.job && self.filteredIds, self.createGears);
+      reaction(() => self.autoSelectScheduled && self.groupedGears, self.autoSelect);
     },
   }));
 

@@ -110,8 +110,12 @@
 }
 
 .gears_stat {
-  text-align: center;
   width: 60px;
+  text-align: center;
+  &.-skeleton {
+    width: 86px;
+    white-space: nowrap;
+  }
   .gears_item.-food & {
     line-height: 1;
   }
@@ -120,8 +124,26 @@
   &.-full {
     font-weight: bold;
   }
+  &.-skeleton {
+    display: inline-block;
+    width: 50%;
+    font-weight: bold;
+    text-align: right;
+    &:last-child {
+      margin-right: 50%;
+    }
+  }
 }
-.gears_stat-required {
+.gears_stat-caps {
+  display: inline-block;
+  width: 50%;
+  padding-left: 1px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1;
+  color: #00000099;
+}
+.gears_stat-requirement {
   display: block;
   margin-bottom: -2px;
   font-size: 12px;

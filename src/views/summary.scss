@@ -66,6 +66,9 @@
   padding-bottom: 4px;
   line-height: 18px;
   text-align: center;
+  &.-skeleton {
+    width: 86px;
+  }
 }
 .summary_stat-tier {
   margin-top: 2px;

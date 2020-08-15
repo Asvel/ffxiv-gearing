@@ -142,14 +142,22 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
         )}
       </td>
       {store.schema.stats.map(stat => (
-        <td key={stat} className="gears_stat">
-          <span className={classNames('gears_stat-value', gear.statHighlights[stat] && '-full')}>
-            {(gear.isFood || store.setting.displayMeldedStats ? gear.stats : gear.bareStats)[stat]}
-          </span>
+        <td key={stat} className={classNames('gears_stat', store.schema.skeletonGears && '-skeleton')}>
+          <span
+            className={classNames(
+              'gears_stat-value',
+              gear.statHighlights[stat] && '-full',
+              store.schema.skeletonGears && !gear.isFood && gear.slot !== 17 && '-skeleton'
+            )}
+            children={(gear.isFood || store.setting.displayMeldedStats ? gear.stats : gear.bareStats)[stat]}
+          />
+          {store.schema.skeletonGears && !gear.isFood && gear.materias.length > 0 && (
+            <span className="gears_stat-caps">/{gear.caps[stat]}</span>
+          )}
           {!store.isViewing && stat !== 'VIT' && gear.isFood && gear.requiredStats[stat] && (
             <span
               className={classNames(
-                'gears_stat-required',
+                'gears_stat-requirement',
                 store.equippedStatsWithoutFood[stat]! >= gear.requiredStats[stat]! && '-enough'
               )}
             >{gear.requiredStats[stat]}+</span>
