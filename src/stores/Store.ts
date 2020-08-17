@@ -71,6 +71,10 @@ export const Store = types
     get isViewing(): boolean {
       return self.mode === 'view';
     },
+    get schema(): G.JobSchema {
+      if (self.job === undefined) throw new ReferenceError();
+      return G.jobSchemas[self.job];
+    },
     get groupedGears(): { [index: number]: IGearUnion[] } {
       console.log('groupedGears');
       const ret: { [index: number]: IGearUnion[] } = {};
@@ -129,12 +133,58 @@ export const Store = types
       }
       return floor(level / 13);
     },
-    isEquipped(gear: IGearUnion): boolean {
-      return self.equippedGears.get(gear.slot.toString()) === gear;
-    },
-    get schema(): typeof G.jobSchemas[G.Job] {
-      if (self.job === undefined) throw new ReferenceError();
-      return G.jobSchemas[self.job];
+    get materiaConsumption() {
+      const consumption: { [index in G.Stat]?: { [index in G.MateriaGrade]?:
+          { safe: number, expectation: number, confidence90: number, confidence99: number, rates: number[] } } } = {};
+      for (const gear of self.equippedGears.values()) {
+        if (gear === undefined || gear.isFood) continue;
+        for (const materia of gear.materias) {
+          if (materia.stat === undefined) continue;
+          if (consumption[materia.stat] === undefined) {
+            consumption[materia.stat] = {};
+          }
+          if (consumption[materia.stat]![materia.grade!] === undefined) {
+            consumption[materia.stat]![materia.grade!] =
+              { safe: 0, expectation: 0, confidence90: 0, confidence99: 0, rates: [] };
+          }
+          const consumptionItem = consumption[materia.stat]![materia.grade!]!;
+          if (materia.successRate === 100) {
+            consumptionItem.safe += 1;
+          } else {
+            consumptionItem.expectation += 100 / materia.successRate!;
+            consumptionItem.rates.push(materia.successRate! / 100);
+          }
+        }
+      }
+      for (const consumptionOfStat of Object.values(consumption)) {
+        for (const consumptionItem of Object.values(consumptionOfStat!)) {
+          consumptionItem!.expectation = consumptionItem!.safe + Math.round(consumptionItem!.expectation);
+          const p = consumptionItem!.rates;
+          if (p.length === 0) {
+            consumptionItem!.confidence90 = consumptionItem!.confidence99 = consumptionItem!.safe;
+            continue;
+          }
+          const ps: number[][] = [];  // ps[n][i]: success rate of using n materias to meld slots p[i..]
+          let n = 1, n90 = 0;
+          while (true) {
+            ps[n] = [];
+            ps[n][p.length - 1] = 1 - Math.pow(1 - p[p.length - 1], n);
+            for (let i = p.length - 2; i >= 0; i--) {
+              if (p.length - i > n) break;
+              ps[n][i] = 0;
+              for (let j = 1; j <= n - (p.length - i) + 1; j++) {
+                ps[n][i] += Math.pow(1 - p[i], j - 1) * p[i] * ps[n - j][i + 1];
+              }
+            }
+            if (ps[n][0] > 0.9 && n90 === 0) n90 = n;
+            if (ps[n][0] > 0.99) break;
+            n++;
+          }
+          consumptionItem!.confidence90 = consumptionItem!.safe + n90;
+          consumptionItem!.confidence99 = consumptionItem!.safe + n;
+        }
+      }
+      return consumption;
     },
     get raceName(): string {
       return G.races[floor(self.clan / 2)];

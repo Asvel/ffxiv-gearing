@@ -38,8 +38,7 @@ export { versions };
 export const statNames = {
   STR: '力量', DEX: '灵巧', INT: '智力', MND: '精神', VIT: '耐力',
   CRT: '暴击', DHT: '直击', DET: '信念', SKS: '技速', SPS: '咏唱', TEN: '坚韧', PIE: '信仰',
-  CMS: '作业精度', CRL: '加工精度', CP: '制作力',
-  GTH: '获得力', PCP: '鉴别力', GP: '采集力',
+  CMS: '作业精度', CRL: '加工精度', CP: '制作力', GTH: '获得力', PCP: '鉴别力', GP: '采集力',
   PDMG: '物理基本性能', MDMG: '魔法基本性能', DLY: '攻击间隔',
 };
 export type Stat = keyof typeof statNames;
@@ -71,8 +70,7 @@ export function getCaps(gear: Gear): Stats {
 export const baseStats: { [index in Stat]?: 'main' | 'sub' | number } = {
   STR: 'main', DEX: 'main', INT: 'main', MND: 'main', VIT: 'main',
   CRT: 'sub', DHT: 'sub', DET: 'main', SKS: 'sub', SPS: 'sub', TEN: 'sub', PIE: 'main',
-  CMS: 0, CRL: 0, CP: 180,
-  GTH: 0, PCP: 0, GP: 400,
+  CMS: 0, CRL: 0, CP: 180, GTH: 0, PCP: 0, GP: 400,
 };
 
 const statSchemas: { [index: string]: Stat[] } = {
@@ -421,11 +419,23 @@ export const materias: { [index in Stat]?: number[] } = {
 export type MateriaGrade = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 export const materiaGrades: MateriaGrade[] = [8, 7, 6, 5, 4, 3, 2, 1];
 export const materiaGradesAdvanced: MateriaGrade[] = [7, 5, 4, 3, 2, 1];
+export const materiaSuccessRates: number[][] = [
+  [90, 82, 70, 58, 17, 17, 17, 17],
+  [48, 44, 38, 32, 10, 0, 10, 0],
+  [28, 26, 22, 20, 7, 0, 7, 0],
+  [16, 16, 14, 12, 5, 0, 5, 0]
+];
+// export const materiaItemOrder: Stat[] = [
+//   'CRT', 'DET', 'DHT', 'SKS', 'SPS', 'TEN', 'PIE',
+//   'GTH', 'PCP', 'GP', 'CMS', 'CP', 'CRL',
+// ];
 export const materiaNames: { [index in Stat]?: string } = {
   CRT: '武略', DHT: '神眼', DET: '雄略', SKS: '战技', SPS: '咏唱', TEN: '刚柔', PIE: '信力',
-  CMS: '名匠', CRL: '巨匠', CP: '魔匠',
-  GTH: '达识', PCP: '博识', GP: '器识',
+  CMS: '名匠', CRL: '巨匠', CP: '魔匠', GTH: '达识', PCP: '博识', GP: '器识',
 };
+export function getMateriaName(stat: Stat, grade: MateriaGrade, useStatName: boolean) {
+  return (useStatName ? statNames : materiaNames)[stat]!.slice(0, 2) + grade;
+}
 
 export const levelModifiers = {
   50: { main: 202, sub: 341, div: 341, hp: 1700, vit: 10.2, vitTank: 14.5 },

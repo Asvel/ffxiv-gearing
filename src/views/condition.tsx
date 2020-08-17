@@ -2,6 +2,7 @@ import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
+import { Tab, TabBar } from '@rmwc/tabs';
 import { TextField } from '@rmwc/textfield';
 import { Radio } from '@rmwc/radio';
 import Clipboard from 'react-clipboard.js';
@@ -49,10 +50,77 @@ export const Condition = observer(() => {
           品级
         </span>
       )}
-      {/*{(editing | viewing) && <span className="condition_divider" />}*/}
-      {/*{(editing | viewing) && (*/}
-      {/*  <Button className="condition_button">魔晶石</Button>*/}
-      {/*)}*/}
+      {(editing || viewing) && <span className="condition_divider" />}
+      {(editing || viewing) && (
+        <Dropdown
+          label={({ ref, toggle }) => (
+            <Button ref={ref} className="condition_button" onClick={toggle}>魔晶石</Button>
+          )}
+          popper={() => {
+            const [ activeTab, setActiveTab ] = React.useState(0);
+            return (
+              <div className="materia-overall card">
+                <div className="materia-overall_tabbar">
+                  <TabBar
+                    activeTabIndex={activeTab}
+                    onActivate={e => setActiveTab(e.detail.index)}
+                  >
+                    <Tab>用量预估</Tab>
+                    <Tab>批量镶嵌</Tab>
+                  </TabBar>
+                </div>
+                {activeTab === 0 && (
+                  <table className="materia-consumption table">
+                    <thead>
+                    <tr>
+                      <th>魔晶石</th>
+                      <th>安全孔</th>
+                      <th>期望</th>
+                      <th>90%*</th>
+                      <th>99%*</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {(() => {
+                      const ret = [];
+                      const stats = store.schema.stats.filter(stat => stat in store.materiaConsumption);
+                      for (const stat of stats) {
+                        for (const grade of G.materiaGrades) {
+                          const consumptionItem = store.materiaConsumption[stat]![grade];
+                          if (consumptionItem === undefined) continue;
+                          ret.push(
+                            <tr key={stat + grade}>
+                              <td>{G.getMateriaName(stat, grade, store.setting.materiaDisplayName === 'stat')}</td>
+                              <td>{consumptionItem.safe}</td>
+                              <td>{consumptionItem.expectation}</td>
+                              <td>{consumptionItem.confidence90}</td>
+                              <td>{consumptionItem.confidence99}</td>
+                            </tr>
+                          );
+                        }
+                      }
+                      return ret;
+                    })()}
+                    {Object.keys(store.materiaConsumption).length === 0 && (
+                      <tr className="materia-consumption_empty">
+                        <td colSpan={5}>未镶嵌魔晶石</td>
+                      </tr>
+                    )}
+                    <tr className="materia-consumption_tip">
+                      <td colSpan={5}>*以此成功率完成全部镶嵌所需的数量</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                )}
+                {activeTab === 1 && (
+                  <div>WIP</div>
+                )}
+              </div>
+            );
+          }}
+          placement="bottom-start"
+        />
+      )}
       <span className="condition_right">
         {editing && (
           <Dropdown

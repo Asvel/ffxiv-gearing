@@ -4,6 +4,10 @@
 @use "../../node_modules/@material/ripple/mixins" as ripple;
 @use "../../node_modules/@material/button/mixins" as button;
 @use "../../node_modules/@material/icon-button/mixins" as icon-button;
+@use "../../node_modules/@material/tab-bar/mixins" as tab-bar;
+@use "../../node_modules/@material/tab-scroller/mixins" as tab-scroller;
+@use "../../node_modules/@material/tab-indicator/mixins" as tab-indicator;
+@use "../../node_modules/@material/tab/mixins" as tab;
 @use "../../node_modules/@material/line-ripple/mixins" as line-ripple;
 @use "../../node_modules/@material/textfield/mixins" as textfield;  // only use line-ripple, skip others
 @use "../../node_modules/@material/form-field/mixins" as form-field;
@@ -15,6 +19,10 @@
 @include button.core-styles(feature-targeting.without(typography));
 @include button.theme-baseline(feature-targeting.without(typography));
 @include icon-button.core-styles(feature-targeting.without(typography));
+@include tab-bar.core-styles(feature-targeting.without(typography));
+@include tab-scroller.core-styles(feature-targeting.without(typography));
+@include tab-indicator.core-styles(feature-targeting.without(typography));
+@include tab.core-styles(feature-targeting.without(typography));
 @include line-ripple.core-styles(feature-targeting.without(typography));
 @include textfield.core-styles(feature-targeting.without(typography));
 @include form-field.core-styles(feature-targeting.without(typography));

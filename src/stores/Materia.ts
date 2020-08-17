@@ -17,8 +17,8 @@ export const Materia = types
   }))
   .views(self => ({
     get name(): string {
-      const names = (getEnv(self).setting as ISetting).materiaDisplayName === 'stat' ? G.statNames : G.materiaNames;
-      return self.stat === undefined ? '' : names[self.stat]!.slice(0, 2) + self.grade;
+      return self.stat === undefined ? '' : G.getMateriaName(self.stat, self.grade!,
+        (getEnv(self).setting as ISetting).materiaDisplayName === 'stat');
     },
     get isAdvanced(): boolean {
       return self.index >= self.gear.materiaSlot;
@@ -26,6 +26,11 @@ export const Materia = types
     get meldableGrades(): G.MateriaGrade[] {
       return self.index > self.gear.materiaSlot ?
         G.materiaGradesAdvanced : G.materiaGrades;  // TODO; work for low level item
+    },
+    get successRate(): number | undefined {
+      if (self.grade === undefined) return undefined;
+      const advancedIndex = self.index - self.gear.materiaSlot;
+      return advancedIndex < 0 ? 100 : G.materiaSuccessRates[advancedIndex][self.grade - 1];
     },
   }))
   .actions(self => ({

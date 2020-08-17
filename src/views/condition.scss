@@ -66,6 +66,39 @@
   vertical-align: top;
 }
 
+.materia-overall {
+  @include elevation(4);
+}
+.materia-overall_tabbar {
+  border-bottom: 1px solid #0000001f;
+  .mdc-tab-bar {
+    width: 200px;
+  }
+  .mdc-tab {
+    padding: 0 12px;
+    height: 40px;
+  }
+}
+.materia-consumption {
+  text-align: center;
+  th {
+    width: 72px;
+    color: inherit;
+  }
+}
+.materia-consumption_empty {
+  color: #00000060;
+}
+.materia-consumption_tip {
+  text-align: left;
+  .table tbody &:hover {
+    background: none;
+  }
+  td {
+    padding: 0 16px;
+  }
+}
+
 .share {
   min-width: 300px;
   padding: 16px;
