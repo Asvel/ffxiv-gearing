@@ -27302,7 +27302,7 @@ export default [
   },
   {
     id: 29460,
-    name: '伊修加德新型咏咒护臂',
+    name: '伊修加德新型咏咒手套',
     level: 480,
     rarity: 2,
     slot: 5,

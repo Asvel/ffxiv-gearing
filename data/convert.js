@@ -22,7 +22,7 @@ function loadExd(filename) {
 
 const versions = {
   data: '5.3',
-  released: '5.2',  // released version of chinese datacenter
+  released: '5.21',  // released version of chinese datacenter
 };
 
 const statAbbrs = {
