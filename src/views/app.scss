@@ -14,6 +14,7 @@
 @use "../../node_modules/@material/radio/mixins" as radio;
 @use "./components/mixins" as *;
 
+@import "../../node_modules/@rmwc/tooltip/tooltip";
 @include ripple.common(feature-targeting.without(typography));
 @include ripple.core-styles(feature-targeting.without(typography));
 @include button.core-styles(feature-targeting.without(typography));

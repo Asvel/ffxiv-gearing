@@ -25,13 +25,19 @@ export const Condition = observer(() => {
       {welcoming && (
         <span className="condition_job -empty">选择一个职业开始配装</span>
       )}
-      {(editing || viewing) && (
+      {editing && (
         <Ripple>
-          <span className="condition_job" onClick={editing ? () => toggleExpandedPanel('job') : undefined}>
+          <span className="condition_job" onClick={() => toggleExpandedPanel('job')}>
             <Icon className="condition_job-icon" name={'jobs/' + store.job} />
             <span className="condition_job-name">{store.schema.name}</span>
           </span>
         </Ripple>
+      )}
+      {viewing && (
+        <span className="condition_job">
+          <Icon className="condition_job-icon" name={'jobs/' + store.job} />
+          <span className="condition_job-name">{store.schema.name}</span>
+        </span>
       )}
       {editing && <span className="condition_divider" />}
       {editing && (

@@ -95,9 +95,8 @@
 .summary_stat-effect {
   font-size: 12px;
   white-space: nowrap;
-  &[title] {
+  &.-tip {
     text-decoration: underline dotted;
-    cursor: help;
   }
   + .summary_stat-name {
     display: none;
@@ -115,6 +114,13 @@
 .summary_damage {
   float: right;
   width: 120px;
+}
+.summary_damage-tip {
+  top: 8px;
+  right: 13px;
+  position: absolute;
+  width: 16px;
+  color: rgba(0, 0, 0, 0.55);
 }
 
 .clan {

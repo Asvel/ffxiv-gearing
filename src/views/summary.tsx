@@ -3,8 +3,10 @@ import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
+import { Tooltip } from '@rmwc/tooltip';
 import * as G from '../game';
 import { useStore } from './components/contexts';
+import { Icon } from './components/Icon';
 import { Dropdown } from './components/Dropdown';
 
 export const Summary = observer(() => {
@@ -70,6 +72,14 @@ export const Summary = observer(() => {
         {effects && (
           <span className="summary_stat summary_damage">
             {effects.damage.toFixed(5)}
+            <Tooltip
+              content="包括食物和组队加成，不包括其他任何手动施放的增益（如爆发药、连环计、天语、以太复制等）"
+              showArrow
+            >
+              <span className="summary_damage-tip">
+                <Icon name="help" />
+              </span>
+            </Tooltip>
             <div className="summary_stat-name">每威力伤害期望</div>
           </span>
         )}
@@ -87,9 +97,15 @@ export const Summary = observer(() => {
           {effects && (
             <React.Fragment>
               {(stat === 'SKS' || stat === 'SPS') && (
-                <div className="summary_stat-effect" title={store.schema.statModifiers?.gcdReason}>
-                  {effects.gcd.toFixed(2)}s
-                </div>
+                <Tooltip
+                  content={store.schema.statModifiers?.gcdReason ?? ''}
+                  showArrow
+                  open={store.schema.statModifiers?.gcdReason === undefined ? false : undefined}
+                >
+                  <div className={classNames('summary_stat-effect', store.schema.statModifiers?.gcdReason && '-tip')}>
+                    {effects.gcd.toFixed(2) + 's'}
+                  </div>
+                </Tooltip>
               )}
               {stat === 'VIT' && (
                 <div className="summary_stat-effect summary_stat-effect-hp">

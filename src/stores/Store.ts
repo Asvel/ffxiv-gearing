@@ -196,7 +196,7 @@ export const Store = types
   .views(self => ({
     get equippedEffects() {
       console.log('equippedEffects');
-      const { statModifiers, mainStat, traitDamageMultiplier } = self.schema;
+      const { statModifiers, mainStat, traitDamageMultiplier, partyBonus } = self.schema;
       if (statModifiers === undefined || mainStat === undefined || traitDamageMultiplier === undefined) return;
       const levelMod = G.levelModifiers[self.jobLevel];
       const { main, sub, div } = levelMod;
@@ -210,7 +210,7 @@ export const Store = types
       const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
         ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0);
       const mainDamage = floor(statModifiers.ap *
-        ((self.equippedStats[attackMainStat] ?? 0) - main) / main + 100) / 100;
+        (floor((self.equippedStats[attackMainStat] ?? 0) * (partyBonus ?? 1.05)) - main) / main + 100) / 100;
       const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier *
         ((crtDamage - 1) * crtChance + 1) * (0.25 * dhtChance + 1);
       const gcd = floor(floor((1000 - floor(130 * ((SKS || SPS)! - sub) / div)) * 2500 / 1000) *

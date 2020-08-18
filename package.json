@@ -23,6 +23,7 @@
     "@rmwc/ripple": "^6.1.3",
     "@rmwc/tabs": "^6.1.3",
     "@rmwc/textfield": "^6.1.3",
+    "@rmwc/tooltip": "^6.1.3",
     "@types/classnames": "^2.2.10",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",

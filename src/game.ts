@@ -136,10 +136,11 @@ export interface JobSchema {
     hp: number,
     ap: number,
     gcd?: number,
-    gcdReason: string,
+    gcdReason?: string,
   },
   mainStat?: 'STR' | 'DEX' | 'INT' | 'MND' | 'VIT',
   traitDamageMultiplier?: number,
+  partyBonus?: number,
   jobLevel?: keyof typeof levelModifiers,
   skeletonGears?: boolean,  // consistent stats proportion in same slot, focus on materia choosing than gear choosing
 }
@@ -306,6 +307,7 @@ export const jobSchemas = {
     statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
+    partyBonus: 1.01,
     jobLevel: 60,
   } as JobSchema,
   CRP: {
