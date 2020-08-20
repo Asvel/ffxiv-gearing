@@ -320,7 +320,7 @@ const ConditionLevelInput = observer<ConditionLevelInputProps>(({ value, onChang
       className="condition_level-input"
       value={inputValue}
       onFocus={() => inputRef.current?.select()}
-      onBlur={() => onChange(parseInt(inputValue))}
+      onBlur={() => onChange(parseInt(inputValue) || 0)}
       onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInputValue(e.target.value)}
     />
   );
