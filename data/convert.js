@@ -131,9 +131,10 @@ const gears = Item
       }
       const craft = 'CMS' in stats || 'CRL' in stats || 'CP' in stats;
       const gather = 'GTH' in stats || 'PCP' in stats || 'GP' in stats;
-      if (craft) jobCategory = 33;
-      if (gather) jobCategory = 32;
+      if (craft && !gather) jobCategory = 33;
+      if (!craft && gather) jobCategory = 32;
       if (craft && gather) jobCategory = 35;
+      if (!craft && !gather) jobCategory = 34;
     }
     const equipLevel = Number(x['Level{Equip}']);
     if (jobCategory === 63 && equipLevel > 60) {  // 青魔并不能装备高等级装备
