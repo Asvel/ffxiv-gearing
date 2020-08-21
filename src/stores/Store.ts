@@ -28,7 +28,7 @@ export const Store = types
     autorun(() => unobservableEquippedGears = self.equippedGears.toJSON());
     return {
       get filteredIds(): G.GearId[] {
-        console.log('filteredIds');
+        console.debug('filteredIds');
         if (self.mode === 'view') {
           return Array.from(self.gears.keys(), id => Number(id) as G.GearId);
         }
@@ -76,7 +76,7 @@ export const Store = types
       return G.jobSchemas[self.job];
     },
     get groupedGears(): { [index: number]: IGearUnion[] } {
-      console.log('groupedGears');
+      console.debug('groupedGears');
       const ret: { [index: number]: IGearUnion[] } = {};
       for (const gearId of self.filteredIds) {
         const gear = self.gears.get(gearId.toString())!;
@@ -116,7 +116,7 @@ export const Store = types
       return stats;
     },
     get equippedStats(): G.Stats {
-      console.log('equippedStats');
+      console.debug('equippedStats');
       if (self.job === undefined) return {};
       const equippedFood = self.equippedGears.get('-1') as IFood;
       if (equippedFood === undefined) return this.equippedStatsWithoutFood;
@@ -195,7 +195,7 @@ export const Store = types
   }))
   .views(self => ({
     get equippedEffects() {
-      console.log('equippedEffects');
+      console.debug('equippedEffects');
       const { statModifiers, mainStat, traitDamageMultiplier, partyBonus } = self.schema;
       if (statModifiers === undefined || mainStat === undefined || traitDamageMultiplier === undefined) return;
       const levelMod = G.levelModifiers[self.jobLevel];
@@ -273,7 +273,7 @@ export const Store = types
   }))
   .actions(self => ({
     createGears(): void {
-      console.log('createGears');
+      console.debug('createGears');
       for (const gearId of self.filteredIds) {
         if (!self.gears.has(gearId.toString())) {
           self.gears.put(GearUnion.create({ id: gearId }));

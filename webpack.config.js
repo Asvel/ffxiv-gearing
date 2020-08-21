@@ -27,8 +27,12 @@ module.exports = function (env, argv) {
                 '$1const $2 = $3(function $2($4) {$5'
               );
             }),
+            prod && require('simple-functional-loader').createLoader(function(source) {
+              // Remove console.debug(...)
+              return source.replace(/([\r\n])\s*console\.debug\(.+?\);/g, '$1');
+            }),
             'awesome-typescript-loader',
-          ],
+          ].filter(Boolean),
         },
         {
           test: /node_modules[\\\/]@material[\\\/]ripple[\\\/]foundation\.js$/,

@@ -16,7 +16,7 @@ export const loadGearData = async (groupId: string | number) => {
   runInAction(() => gearDataLoadStatus.set(groupId, 'loading'));
   const data = (await import(/* webpackChunkName: "[request]" */`../../data/out/gears-${groupId}`)).default as
     G.GearBase[];
-  console.log(`Load gears-${groupId}.`);
+  console.debug(`Load gears-${groupId}.`);
   runInAction(() => {
     for (const item of data) {
       if (!gearData.has(item.id)) {
