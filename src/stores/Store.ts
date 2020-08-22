@@ -138,6 +138,7 @@ export const Store = types
           { safe: number, expectation: number, confidence90: number, confidence99: number, rates: number[] } } } = {};
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined || gear.isFood) continue;
+        const copies = (gear.slot === 1 || gear.slot === 2) && this.schema.toolMateriaCopies || 1;
         for (const materia of gear.materias) {
           if (materia.stat === undefined) continue;
           if (consumption[materia.stat] === undefined) {
@@ -148,11 +149,13 @@ export const Store = types
               { safe: 0, expectation: 0, confidence90: 0, confidence99: 0, rates: [] };
           }
           const consumptionItem = consumption[materia.stat]![materia.grade!]!;
-          if (materia.successRate === 100) {
-            consumptionItem.safe += 1;
-          } else {
-            consumptionItem.expectation += 100 / materia.successRate!;
-            consumptionItem.rates.push(materia.successRate! / 100);
+          for (let i = 0; i < copies; i++) {
+            if (materia.successRate === 100) {
+              consumptionItem.safe += 1;
+            } else {
+              consumptionItem.expectation += 100 / materia.successRate!;
+              consumptionItem.rates.push(materia.successRate! / 100);
+            }
           }
         }
       }

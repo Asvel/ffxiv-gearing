@@ -113,7 +113,14 @@ export const Condition = observer(() => {
                       </tr>
                     )}
                     <tr className="materia-consumption_tip">
-                      <td colSpan={5}>*以此成功率完成全部镶嵌所需的数量</td>
+                      <td colSpan={5}>
+                        *以此成功率完成全部镶嵌所需的数量
+                        {store.schema.toolMateriaCopies! > 1 && (
+                          <div className="materia-consumption_tool-copies">
+                            {`主副手的用量按照${store.schema.toolMateriaCopies}套计算`}
+                          </div>
+                        )}
+                      </td>
                     </tr>
                     </tbody>
                   </table>

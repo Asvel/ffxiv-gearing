@@ -90,13 +90,17 @@
   color: #00000060;
 }
 .materia-consumption_tip {
+  line-height: 20px;
   text-align: left;
   .table tbody &:hover {
     background: none;
   }
   td {
-    padding: 0 16px;
+    padding: 8px 16px;
   }
+}
+.materia-consumption_tool-copies {
+  font-weight: bold;
 }
 
 .share {
