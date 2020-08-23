@@ -42,7 +42,6 @@ export const Dropdown = observer<DropdownProps>(props => {
       {expanded && (
         <DropdownPopper
           {...props}
-          expanded={expanded}
           setExpanded={setExpanded}
           labelElement={labelElement}
           toggle={toggle}
@@ -53,12 +52,11 @@ export const Dropdown = observer<DropdownProps>(props => {
 });
 
 const DropdownPopper = observer<any>(props => {
-  const { popper, placement, modifiers, strategy, expanded, setExpanded, labelElement, toggle } = props;
+  const { popper, placement, modifiers, strategy, setExpanded, labelElement, toggle } = props;
   const [ popperElement, setPopperElement ] = React.useState<HTMLElement | null>(null);
   const popperInstance = ReactPopper.usePopper(labelElement, popperElement, { placement, modifiers, strategy });
   const popperContainer = document.getElementById('popper');
   onGlobalClick = e => {
-    if (!expanded) return;
     const target = e.target as Element;
     if (target && labelElement && popperElement) {
       if (!labelElement.contains(target) && !popperElement.contains(target)) {
@@ -69,7 +67,6 @@ const DropdownPopper = observer<any>(props => {
     }
   };
   onGlobalKeyup = e => {
-    if (!expanded) return;
     const target = e.target as Element;
     // label (比如是一个 button) 有可能成为按键事件的 target
     if (target && (target.tagName === 'BODY' || target === labelElement) && e.key === 'Escape') {
@@ -77,6 +74,7 @@ const DropdownPopper = observer<any>(props => {
       onGlobalKeyup = undefined;
     }
   };
+  React.useEffect(() => () => onGlobalClick = onGlobalKeyup = undefined, []);
   return popperContainer && ReactDOM.createPortal((
     <div
       ref={setPopperElement}
