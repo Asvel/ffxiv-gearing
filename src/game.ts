@@ -432,16 +432,13 @@ export const materias: { [index in Stat]?: number[] } = {
 export type MateriaGrade = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 export const materiaGrades: MateriaGrade[] = [8, 7, 6, 5, 4, 3, 2, 1];
 export const materiaGradesAdvanced: MateriaGrade[] = [7, 5, 4, 3, 2, 1];
+export const materiaGradeRequiredLevels: number[] = [0, 15, 30, 45, 70, 160, 290, 420, 420];
 export const materiaSuccessRates: number[][] = [
   [90, 82, 70, 58, 17, 17, 17, 17],
   [48, 44, 38, 32, 10, 0, 10, 0],
   [28, 26, 22, 20, 7, 0, 7, 0],
   [16, 16, 14, 12, 5, 0, 5, 0]
 ];
-// export const materiaItemOrder: Stat[] = [
-//   'CRT', 'DET', 'DHT', 'SKS', 'SPS', 'TEN', 'PIE',
-//   'GTH', 'PCP', 'GP', 'CMS', 'CP', 'CRL',
-// ];
 export const materiaNames: { [index in Stat]?: string } = {
   CRT: '武略', DHT: '神眼', DET: '雄略', SKS: '战技', SPS: '咏唱', TEN: '刚柔', PIE: '信力',
   CMS: '名匠', CRL: '巨匠', CP: '魔匠', GTH: '达识', PCP: '博识', GP: '器识',

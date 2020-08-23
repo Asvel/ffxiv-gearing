@@ -64,7 +64,7 @@ const MateriaPanel = observer<{ materia: IMateria, labelElement: HTMLElement | n
                 materia.stat === stat && materia.grade === grade && '-selected'
               )}
               onClick={() => {
-                if (materia.stat === undefined) {  // Only for initial melding, not changing materia
+                if (materia.stat === undefined) {  // Only for initial melding, not for changing materia
                   const nextMateria = labelElement?.nextElementSibling;
                   if (nextMateria === null) {
                     labelElement?.click();
