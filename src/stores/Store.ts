@@ -1,4 +1,4 @@
-import { autorun, reaction } from 'mobx';
+import { autorun, reaction, untracked } from 'mobx';
 import { types, getEnv, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
 import * as G from '../game';
 import * as share from '../share';
@@ -23,44 +23,41 @@ export const Store = types
     clan: Number(localStorage.getItem(globalClanKey)) || 0,
     autoSelectScheduled: false,
   }))
-  .views(self => {
-    let unobservableEquippedGears: SnapshotOut<typeof self.equippedGears> = {};
-    autorun(() => unobservableEquippedGears = self.equippedGears.toJSON());
-    return {
-      get filteredIds(): G.GearId[] {
-        console.debug('filteredIds');
-        if (self.mode === 'view') {
-          return Array.from(self.gears.keys(), id => Number(id) as G.GearId);
-        }
-        const ret: G.GearId[] = [];
-        for (const gear of gearDataOrdered.get()) {
-          const { job, minLevel, maxLevel } = self;
-          if (G.jobCategories[gear.jobCategory][job!]
-            && (gear.slot === -1 ? (self.showAllFoods || 'best' in gear) :  // Foods
-              gear.slot === 17 || (gear.slot === 2 && job === 'FSH')  // Soul crystal and spearfishing gig
-              || (gear.level >= minLevel && gear.level <= maxLevel))
-          ) {
+  .views(self => ({
+    get filteredIds(): G.GearId[] {
+      console.debug('filteredIds');
+      if (self.mode === 'view') {
+        return Array.from(self.gears.keys(), id => Number(id) as G.GearId);
+      }
+      const unobservableEquippedGears = untracked(() => self.equippedGears.toJSON());
+      const ret: G.GearId[] = [];
+      for (const gear of gearDataOrdered.get()) {
+        const { job, minLevel, maxLevel } = self;
+        if (G.jobCategories[gear.jobCategory][job!]
+          && (gear.slot === -1 ? (self.showAllFoods || 'best' in gear) :  // Foods
+            gear.slot === 17 || (gear.slot === 2 && job === 'FSH')  // Soul crystal and spearfishing gig
+            || (gear.level >= minLevel && gear.level <= maxLevel))
+        ) {
+          ret.push(gear.id);
+          if (gear.slot === 12) {
+            ret.push(-gear.id as G.GearId);
+          }
+        } else {
+          if (unobservableEquippedGears[gear.slot] === gear.id) {
             ret.push(gear.id);
-            if (gear.slot === 12) {
-              ret.push(-gear.id as G.GearId);
-            }
-          } else {
-            if (unobservableEquippedGears[gear.slot] === gear.id) {
-              ret.push(gear.id);
-            }
-            if (unobservableEquippedGears[-gear.slot] === -gear.id) {
-              ret.push(-gear.id as G.GearId);
-            }
+          }
+          if (unobservableEquippedGears[-gear.slot] === -gear.id) {
+            ret.push(-gear.id as G.GearId);
           }
         }
-        return ret;
-      },
-      get jobLevel(): keyof typeof G.levelModifiers {  // FIXME: why this.jobLevel is any
-        // TODO: changable job level
-        return this.schema.jobLevel ?? 80;
-      },
-    };
-  })
+      }
+      return ret;
+    },
+    get jobLevel(): keyof typeof G.levelModifiers {  // FIXME: why this.jobLevel is any
+      // TODO: changable job level
+      return this.schema.jobLevel ?? 80;
+    },
+  }))
   .views(self => ({
     get setting(): ISetting {
       return getEnv(self).setting;
