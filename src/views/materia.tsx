@@ -32,7 +32,7 @@ export const Materia = observer<{ materia: IMateria }>(({ materia }) => {
         <MateriaPanel materia={materia} labelElement={labelElement} />
       )}
       placement="bottom-start"
-      modifiers={React.useMemo(() => ([{ name: 'offset', options: { offset: [-104 - materia.index * 44, 0] } }]), [])}
+      modifiers={React.useMemo(() => ([{ name: 'offset', options: { offset: [-104 - materia.index * 50, 0] } }]), [])}
     />
   );
 });
