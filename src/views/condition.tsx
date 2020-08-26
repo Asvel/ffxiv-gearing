@@ -242,7 +242,7 @@ export const Condition = observer(() => {
                 </div>
                 <div className="setting_controls">
                   <Radio
-                    label="显示受增益的属性"
+                    label="显示增益的属性"
                     checked={store.setting.materiaDisplayName === 'stat'}
                     onChange={() => store.setting.setMateriaDisplayName('stat')}
                   />

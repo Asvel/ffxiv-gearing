@@ -3,11 +3,20 @@
 .gears_materia {
   position: relative;
   display: inline-block;
-  width: 48px;
+  width: 54px;
   margin: auto -2px;
   line-height: 26px;
   text-align: center;
   border-radius: 2px;
+  &:not(:empty):after {
+    content: " ";
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 4px;
+    border-bottom: 2px solid;
+    opacity: 0.1;
+  }
   .app-edit & {
     &:hover {
       z-index: 1;

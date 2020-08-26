@@ -25,7 +25,7 @@ export const Materia = types
     },
     get meldableGrades(): G.MateriaGrade[] {
       return (self.index > self.gear.materiaSlot ? G.materiaGradesAdvanced : G.materiaGrades)
-        .filter(grade => self.gear.level >= G.materiaGradeRequiredLevels[grade]);
+        .filter(grade => self.gear.level >= G.materiaGradeRequiredLevels[grade - 1]);
     },
     get successRate(): number | undefined {
       if (self.grade === undefined) return undefined;
