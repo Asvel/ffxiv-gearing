@@ -33559,7 +33559,7 @@ export default [
     role: 1,
     jobCategory: 59,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -33685,7 +33685,7 @@ export default [
     role: 2,
     jobCategory: 47,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -33811,7 +33811,7 @@ export default [
     role: 3,
     jobCategory: 65,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -33937,7 +33937,7 @@ export default [
     role: 4,
     jobCategory: 66,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       DEX: 252,
@@ -34063,7 +34063,7 @@ export default [
     role: 11,
     jobCategory: 103,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       DEX: 252,
@@ -34189,7 +34189,7 @@ export default [
     role: 6,
     jobCategory: 64,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34315,7 +34315,7 @@ export default [
     role: 5,
     jobCategory: 89,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34336,7 +34336,7 @@ export default [
     role: 1,
     jobCategory: 59,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -34357,7 +34357,7 @@ export default [
     role: 10,
     jobCategory: 84,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -34378,7 +34378,7 @@ export default [
     role: 12,
     jobCategory: 105,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       DEX: 252,
@@ -34399,7 +34399,7 @@ export default [
     role: 6,
     jobCategory: 64,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34420,7 +34420,7 @@ export default [
     role: 5,
     jobCategory: 89,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34441,7 +34441,7 @@ export default [
     role: 1,
     jobCategory: 59,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -34462,7 +34462,7 @@ export default [
     role: 10,
     jobCategory: 84,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -34483,7 +34483,7 @@ export default [
     role: 12,
     jobCategory: 105,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       DEX: 252,
@@ -34504,7 +34504,7 @@ export default [
     role: 6,
     jobCategory: 64,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34525,7 +34525,7 @@ export default [
     role: 5,
     jobCategory: 89,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34546,7 +34546,7 @@ export default [
     role: 1,
     jobCategory: 59,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -34567,7 +34567,7 @@ export default [
     role: 10,
     jobCategory: 84,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -34588,7 +34588,7 @@ export default [
     role: 12,
     jobCategory: 105,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       DEX: 252,
@@ -34609,7 +34609,7 @@ export default [
     role: 6,
     jobCategory: 64,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34630,7 +34630,7 @@ export default [
     role: 5,
     jobCategory: 89,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34651,7 +34651,7 @@ export default [
     role: 1,
     jobCategory: 59,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -34672,7 +34672,7 @@ export default [
     role: 10,
     jobCategory: 84,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       STR: 252,
@@ -34693,7 +34693,7 @@ export default [
     role: 12,
     jobCategory: 105,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       DEX: 252,
@@ -34714,7 +34714,7 @@ export default [
     role: 6,
     jobCategory: 64,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,
@@ -34735,7 +34735,7 @@ export default [
     role: 5,
     jobCategory: 89,
     equipLevel: 80,
-    materiaSlot: 1,
+    materiaSlot: 2,
     materiaAdvanced: false,
     stats: {
       VIT: 248,

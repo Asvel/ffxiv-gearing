@@ -1,4 +1,4 @@
 export default {
-  data: '5.3',
+  data: '5.31',
   released: '5.21',
 };
