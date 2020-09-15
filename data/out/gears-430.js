@@ -6694,7 +6694,7 @@ export default [
   },
   {
     id: 29612,
-    name: 'Skysteel Saw',
+    name: '天钢手锯',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6713,7 +6713,7 @@ export default [
   },
   {
     id: 29613,
-    name: 'Skysteel Cross-pein Hammer',
+    name: '天钢横头锤',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6732,7 +6732,7 @@ export default [
   },
   {
     id: 29614,
-    name: 'Skysteel Raising Hammer',
+    name: '天钢圆头锤',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6751,7 +6751,7 @@ export default [
   },
   {
     id: 29615,
-    name: 'Skysteel Lapidary Hammer',
+    name: '天钢工艺锤',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6770,7 +6770,7 @@ export default [
   },
   {
     id: 29616,
-    name: 'Skysteel Round Knife',
+    name: '天钢圆革刀',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6789,7 +6789,7 @@ export default [
   },
   {
     id: 29617,
-    name: 'Skysteel Needle',
+    name: '天钢缝针',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6808,7 +6808,7 @@ export default [
   },
   {
     id: 29618,
-    name: 'Skysteel Alembic',
+    name: '天钢蒸馏器',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6827,7 +6827,7 @@ export default [
   },
   {
     id: 29619,
-    name: 'Skysteel Frypan',
+    name: '天钢煎锅',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6846,7 +6846,7 @@ export default [
   },
   {
     id: 29620,
-    name: 'Skysteel Hatchet',
+    name: '天钢手斧',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6866,7 +6866,7 @@ export default [
   },
   {
     id: 29621,
-    name: 'Skysteel Pickaxe',
+    name: '天钢鹤嘴锄',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -6886,7 +6886,7 @@ export default [
   },
   {
     id: 29622,
-    name: 'Skysteel Fishing Rod',
+    name: '天钢钓竿',
     level: 440,
     rarity: 1,
     slot: 1,
@@ -13493,7 +13493,7 @@ export default [
   },
   {
     id: 29623,
-    name: 'Skysteel Saw +1',
+    name: '天钢手锯+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13512,7 +13512,7 @@ export default [
   },
   {
     id: 29624,
-    name: 'Skysteel Cross-pein Hammer +1',
+    name: '天钢横头锤+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13531,7 +13531,7 @@ export default [
   },
   {
     id: 29625,
-    name: 'Skysteel Raising Hammer +1',
+    name: '天钢圆头锤+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13550,7 +13550,7 @@ export default [
   },
   {
     id: 29626,
-    name: 'Skysteel Lapidary Hammer +1',
+    name: '天钢工艺锤+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13569,7 +13569,7 @@ export default [
   },
   {
     id: 29627,
-    name: 'Skysteel Round Knife +1',
+    name: '天钢圆革刀+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13588,7 +13588,7 @@ export default [
   },
   {
     id: 29628,
-    name: 'Skysteel Needle +1',
+    name: '天钢缝针+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13607,7 +13607,7 @@ export default [
   },
   {
     id: 29629,
-    name: 'Skysteel Alembic +1',
+    name: '天钢蒸馏器+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13626,7 +13626,7 @@ export default [
   },
   {
     id: 29630,
-    name: 'Skysteel Frypan +1',
+    name: '天钢煎锅+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13645,7 +13645,7 @@ export default [
   },
   {
     id: 29631,
-    name: 'Skysteel Hatchet +1',
+    name: '天钢手斧+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13665,7 +13665,7 @@ export default [
   },
   {
     id: 29632,
-    name: 'Skysteel Pickaxe +1',
+    name: '天钢鹤嘴锄+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -13685,7 +13685,7 @@ export default [
   },
   {
     id: 29633,
-    name: 'Skysteel Fishing Rod +1',
+    name: '天钢钓竿+1',
     level: 455,
     rarity: 1,
     slot: 1,
@@ -23282,7 +23282,7 @@ export default [
   },
   {
     id: 29634,
-    name: 'Dragonsung Saw',
+    name: '龙诗手锯',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23301,7 +23301,7 @@ export default [
   },
   {
     id: 29635,
-    name: 'Dragonsung Cross-pein Hammer',
+    name: '龙诗横头锤',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23320,7 +23320,7 @@ export default [
   },
   {
     id: 29636,
-    name: 'Dragonsung Raising Hammer',
+    name: '龙诗圆头锤',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23339,7 +23339,7 @@ export default [
   },
   {
     id: 29637,
-    name: 'Dragonsung Lapidary Hammer',
+    name: '龙诗工艺锤',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23358,7 +23358,7 @@ export default [
   },
   {
     id: 29638,
-    name: 'Dragonsung Round Knife',
+    name: '龙诗圆革刀',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23377,7 +23377,7 @@ export default [
   },
   {
     id: 29639,
-    name: 'Dragonsung Needle',
+    name: '龙诗缝针',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23396,7 +23396,7 @@ export default [
   },
   {
     id: 29640,
-    name: 'Dragonsung Alembic',
+    name: '龙诗蒸馏器',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23415,7 +23415,7 @@ export default [
   },
   {
     id: 29641,
-    name: 'Dragonsung Frypan',
+    name: '龙诗平底锅',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23434,7 +23434,7 @@ export default [
   },
   {
     id: 29642,
-    name: 'Dragonsung Hatchet',
+    name: '龙诗手斧',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23454,7 +23454,7 @@ export default [
   },
   {
     id: 29643,
-    name: 'Dragonsung Pickaxe',
+    name: '龙诗鹤嘴锄',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23474,7 +23474,7 @@ export default [
   },
   {
     id: 29644,
-    name: 'Dragonsung Fishing Rod',
+    name: '龙诗钓竿',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -27953,7 +27953,7 @@ export default [
   },
   {
     id: 30142,
-    name: "Idealized Chevalier's Temple Chain",
+    name: '理想化的骑爵头链',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -27974,7 +27974,7 @@ export default [
   },
   {
     id: 30143,
-    name: "Idealized Chevalier's Cuirass",
+    name: '理想化的骑爵青铜胸甲',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -27995,7 +27995,7 @@ export default [
   },
   {
     id: 30144,
-    name: "Idealized Chevalier's Gauntlets",
+    name: '理想化的骑爵手铠',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28016,7 +28016,7 @@ export default [
   },
   {
     id: 30145,
-    name: "Idealized Chevalier's Poleyns",
+    name: '理想化的骑爵护膝裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28037,7 +28037,7 @@ export default [
   },
   {
     id: 30146,
-    name: "Idealized Chevalier's Sollerets",
+    name: '理想化的骑爵锁甲靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28058,7 +28058,7 @@ export default [
   },
   {
     id: 30147,
-    name: 'Idealized Bhikku Knotcap',
+    name: '理想化的比丘帽',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28079,7 +28079,7 @@ export default [
   },
   {
     id: 30148,
-    name: 'Idealized Bhikku Cyclas',
+    name: '理想化的比丘斗服',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28100,7 +28100,7 @@ export default [
   },
   {
     id: 30149,
-    name: 'Idealized Bhikku Gloves',
+    name: '理想化的比丘半指护手',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28121,7 +28121,7 @@ export default [
   },
   {
     id: 30150,
-    name: 'Idealized Bhikku Poleyns',
+    name: '理想化的比丘护膝裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28142,7 +28142,7 @@ export default [
   },
   {
     id: 30151,
-    name: 'Idealized Bhikku Boots',
+    name: '理想化的比丘短靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28163,7 +28163,7 @@ export default [
   },
   {
     id: 30152,
-    name: 'Idealized Boii Burgeonet',
+    name: '理想化的波伊轻盔',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28184,7 +28184,7 @@ export default [
   },
   {
     id: 30153,
-    name: 'Idealized Boii Tunic',
+    name: '理想化的波伊束腰衣',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28205,7 +28205,7 @@ export default [
   },
   {
     id: 30154,
-    name: 'Idealized Boii Gauntlets',
+    name: '理想化的波伊手铠',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28226,7 +28226,7 @@ export default [
   },
   {
     id: 30155,
-    name: 'Idealized Boii Brais',
+    name: '理想化的波伊衬裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28247,7 +28247,7 @@ export default [
   },
   {
     id: 30156,
-    name: 'Idealized Boii Boots',
+    name: '理想化的波伊筒靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28268,7 +28268,7 @@ export default [
   },
   {
     id: 30157,
-    name: 'Idealized Pteroslaver Armet',
+    name: '理想化的驭龙战盔',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28289,7 +28289,7 @@ export default [
   },
   {
     id: 30158,
-    name: 'Idealized Pteroslaver Mail',
+    name: '理想化的驭龙战铠',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28310,7 +28310,7 @@ export default [
   },
   {
     id: 30159,
-    name: 'Idealized Pteroslaver Gauntlets',
+    name: '理想化的驭龙手铠',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28331,7 +28331,7 @@ export default [
   },
   {
     id: 30160,
-    name: 'Idealized Pteroslaver Subligar',
+    name: '理想化的驭龙马裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28352,7 +28352,7 @@ export default [
   },
   {
     id: 30161,
-    name: 'Idealized Pteroslaver Greaves',
+    name: '理想化的驭龙高筒靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28373,7 +28373,7 @@ export default [
   },
   {
     id: 30162,
-    name: 'Idealized Fili Chapeau',
+    name: '理想化的诗彩礼帽',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28394,7 +28394,7 @@ export default [
   },
   {
     id: 30163,
-    name: 'Idealized Fili Gilet',
+    name: '理想化的诗彩背心',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28415,7 +28415,7 @@ export default [
   },
   {
     id: 30164,
-    name: 'Idealized Fili Armlets',
+    name: '理想化的诗彩护臂',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28436,7 +28436,7 @@ export default [
   },
   {
     id: 30165,
-    name: 'Idealized Fili Bottoms',
+    name: '理想化的诗彩打底裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28457,7 +28457,7 @@ export default [
   },
   {
     id: 30166,
-    name: 'Idealized Fili Shoes',
+    name: '理想化的诗彩短靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28478,7 +28478,7 @@ export default [
   },
   {
     id: 30167,
-    name: 'Idealized Ebers Hood',
+    name: '理想化的旧医兜帽',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28499,7 +28499,7 @@ export default [
   },
   {
     id: 30168,
-    name: 'Idealized Ebers Robe',
+    name: '理想化的旧医长袍',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28520,7 +28520,7 @@ export default [
   },
   {
     id: 30169,
-    name: 'Idealized Ebers Armlets',
+    name: '理想化的旧医护臂',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28541,7 +28541,7 @@ export default [
   },
   {
     id: 30170,
-    name: 'Idealized Ebers Skirt',
+    name: '理想化的旧医短裙',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28562,7 +28562,7 @@ export default [
   },
   {
     id: 30171,
-    name: 'Idealized Ebers Thighboots',
+    name: '理想化的旧医高筒靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28583,7 +28583,7 @@ export default [
   },
   {
     id: 30172,
-    name: 'Idealized Wicce Petasos',
+    name: '理想化的魔巫阔边帽',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28604,7 +28604,7 @@ export default [
   },
   {
     id: 30173,
-    name: 'Idealized Wicce Coat',
+    name: '理想化的魔巫长袍',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28625,7 +28625,7 @@ export default [
   },
   {
     id: 30174,
-    name: 'Idealized Wicce Wrist Torque',
+    name: '理想化的魔巫腕环',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28646,7 +28646,7 @@ export default [
   },
   {
     id: 30175,
-    name: 'Idealized Wicce Bottoms',
+    name: '理想化的魔巫打底裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28667,7 +28667,7 @@ export default [
   },
   {
     id: 30176,
-    name: 'Idealized Wicce Shoes',
+    name: '理想化的魔巫短靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28688,7 +28688,7 @@ export default [
   },
   {
     id: 30177,
-    name: "Idealized Beckoner's Horn",
+    name: '理想化的召引长角',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28709,7 +28709,7 @@ export default [
   },
   {
     id: 30178,
-    name: "Idealized Beckoner's Coat",
+    name: '理想化的召引长袍',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28730,7 +28730,7 @@ export default [
   },
   {
     id: 30179,
-    name: "Idealized Beckoner's Fingerless Gloves",
+    name: '理想化的召引半指手套',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28751,7 +28751,7 @@ export default [
   },
   {
     id: 30180,
-    name: "Idealized Beckoner's Sarouel",
+    name: '理想化的召引垮裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28772,7 +28772,7 @@ export default [
   },
   {
     id: 30181,
-    name: "Idealized Beckoner's Crakows",
+    name: '理想化的召引尖头靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28793,7 +28793,7 @@ export default [
   },
   {
     id: 30182,
-    name: 'Idealized Arbatel Mortarboard',
+    name: '理想化的古术方帽',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28814,7 +28814,7 @@ export default [
   },
   {
     id: 30183,
-    name: 'Idealized Arbatel Cloak',
+    name: '理想化的古术斗篷',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28835,7 +28835,7 @@ export default [
   },
   {
     id: 30184,
-    name: 'Idealized Arbatel Gloves',
+    name: '理想化的古术手套',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28856,7 +28856,7 @@ export default [
   },
   {
     id: 30185,
-    name: 'Idealized Arbatel Bottoms',
+    name: '理想化的古术打底裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28877,7 +28877,7 @@ export default [
   },
   {
     id: 30186,
-    name: 'Idealized Arbatel Thighboots',
+    name: '理想化的古术筒靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -28898,7 +28898,7 @@ export default [
   },
   {
     id: 30187,
-    name: 'Idealized Hattori Somen',
+    name: '理想化的服部总面',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -28919,7 +28919,7 @@ export default [
   },
   {
     id: 30188,
-    name: 'Idealized Hattori Chainmail',
+    name: '理想化的服部锁帷子',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -28940,7 +28940,7 @@ export default [
   },
   {
     id: 30189,
-    name: 'Idealized Hattori Tekko',
+    name: '理想化的服部手甲',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -28961,7 +28961,7 @@ export default [
   },
   {
     id: 30190,
-    name: 'Idealized Hattori Trousers',
+    name: '理想化的服部软裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -28982,7 +28982,7 @@ export default [
   },
   {
     id: 30191,
-    name: 'Idealized Hattori Kyahan',
+    name: '理想化的服部缠足',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -29003,7 +29003,7 @@ export default [
   },
   {
     id: 30192,
-    name: 'Idealized Bale Burgeonet',
+    name: '理想化的凶恶轻盔',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -29024,7 +29024,7 @@ export default [
   },
   {
     id: 30193,
-    name: 'Idealized Bale Cuirass',
+    name: '理想化的凶恶胸甲',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -29045,7 +29045,7 @@ export default [
   },
   {
     id: 30194,
-    name: 'Idealized Bale Gauntlets',
+    name: '理想化的凶恶手铠',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -29066,7 +29066,7 @@ export default [
   },
   {
     id: 30195,
-    name: 'Idealized Bale Flanchard',
+    name: '理想化的凶恶重足铠',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -29087,7 +29087,7 @@ export default [
   },
   {
     id: 30196,
-    name: 'Idealized Bale Sollerets',
+    name: '理想化的凶恶锁甲靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -29108,7 +29108,7 @@ export default [
   },
   {
     id: 30197,
-    name: "Idealized Gunslinger's Hat",
+    name: '理想化的枪徒宽边帽',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -29129,7 +29129,7 @@ export default [
   },
   {
     id: 30198,
-    name: "Idealized Gunslinger's Coat",
+    name: '理想化的枪徒外套',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -29150,7 +29150,7 @@ export default [
   },
   {
     id: 30199,
-    name: "Idealized Gunslinger's Halfgloves",
+    name: '理想化的枪徒半指护臂',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -29171,7 +29171,7 @@ export default [
   },
   {
     id: 30200,
-    name: "Idealized Gunslinger's Bottoms",
+    name: '理想化的枪徒打底裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -29192,7 +29192,7 @@ export default [
   },
   {
     id: 30201,
-    name: "Idealized Gunslinger's Thighboots",
+    name: '理想化的枪徒高筒靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -29213,7 +29213,7 @@ export default [
   },
   {
     id: 30202,
-    name: "Idealized Soothsayer's Turban",
+    name: '理想化的预占包头巾',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -29234,7 +29234,7 @@ export default [
   },
   {
     id: 30203,
-    name: "Idealized Soothsayer's Chiton",
+    name: '理想化的预占长衣',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -29255,7 +29255,7 @@ export default [
   },
   {
     id: 30204,
-    name: "Idealized Soothsayer's Armlets",
+    name: '理想化的预占护臂',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -29276,7 +29276,7 @@ export default [
   },
   {
     id: 30205,
-    name: "Idealized Soothsayer's Skirt",
+    name: '理想化的预占长裙',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -29297,7 +29297,7 @@ export default [
   },
   {
     id: 30206,
-    name: "Idealized Soothsayer's Sandals",
+    name: '理想化的预占凉鞋',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -29318,7 +29318,7 @@ export default [
   },
   {
     id: 30207,
-    name: 'Idealized Kasuga Hanbo',
+    name: '理想化的春日半颊',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -29339,7 +29339,7 @@ export default [
   },
   {
     id: 30208,
-    name: 'Idealized Kasuga Haori',
+    name: '理想化的春日羽织',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -29360,7 +29360,7 @@ export default [
   },
   {
     id: 30209,
-    name: 'Idealized Kasuga Kote',
+    name: '理想化的春日笼手',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -29381,7 +29381,7 @@ export default [
   },
   {
     id: 30210,
-    name: 'Idealized Kasuga Tsutsu-hakama',
+    name: '理想化的春日筒袴',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -29402,7 +29402,7 @@ export default [
   },
   {
     id: 30211,
-    name: 'Idealized Kasuga Zori',
+    name: '理想化的春日草履',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -29423,7 +29423,7 @@ export default [
   },
   {
     id: 30212,
-    name: "Idealized Estoqueur's Tricorne",
+    name: '理想化的疾刺船形帽',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -29444,7 +29444,7 @@ export default [
   },
   {
     id: 30213,
-    name: "Idealized Estoqueur's Bliaud",
+    name: '理想化的疾刺外袍',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -29465,7 +29465,7 @@ export default [
   },
   {
     id: 30214,
-    name: "Idealized Estoqueur's Gloves",
+    name: '理想化的疾刺手套',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -29486,7 +29486,7 @@ export default [
   },
   {
     id: 30215,
-    name: "Idealized Estoqueur's Bottoms",
+    name: '理想化的疾刺打底裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -29507,7 +29507,7 @@ export default [
   },
   {
     id: 30216,
-    name: "Idealized Estoqueur's Thighboots",
+    name: '理想化的疾刺高筒靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -29528,7 +29528,7 @@ export default [
   },
   {
     id: 30217,
-    name: "Idealized Bodyguard's Blinder",
+    name: '理想化的护卫眼罩',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -29549,7 +29549,7 @@ export default [
   },
   {
     id: 30218,
-    name: "Idealized Bodyguard's Coat",
+    name: '理想化的护卫长袍',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -29570,7 +29570,7 @@ export default [
   },
   {
     id: 30219,
-    name: "Idealized Bodyguard's Fingerless Gloves",
+    name: '理想化的护卫半指护手',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -29591,7 +29591,7 @@ export default [
   },
   {
     id: 30220,
-    name: "Idealized Bodyguard's Trousers",
+    name: '理想化的护卫软甲裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -29612,7 +29612,7 @@ export default [
   },
   {
     id: 30221,
-    name: "Idealized Bodyguard's Thighboots",
+    name: '理想化的护卫高筒靴',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -29633,7 +29633,7 @@ export default [
   },
   {
     id: 30222,
-    name: "Idealized Dancer's Headdress",
+    name: '理想化的起舞头饰',
     level: 480,
     rarity: 3,
     slot: 3,
@@ -29654,7 +29654,7 @@ export default [
   },
   {
     id: 30223,
-    name: "Idealized Dancer's Casaque",
+    name: '理想化的起舞舞衣',
     level: 480,
     rarity: 3,
     slot: 4,
@@ -29675,7 +29675,7 @@ export default [
   },
   {
     id: 30224,
-    name: "Idealized Dancer's Armlets",
+    name: '理想化的起舞护臂',
     level: 480,
     rarity: 3,
     slot: 5,
@@ -29696,7 +29696,7 @@ export default [
   },
   {
     id: 30225,
-    name: "Idealized Dancer's Bottoms",
+    name: '理想化的起舞打底裤',
     level: 480,
     rarity: 3,
     slot: 7,
@@ -29717,7 +29717,7 @@ export default [
   },
   {
     id: 30226,
-    name: "Idealized Dancer's Shoes",
+    name: '理想化的起舞舞鞋',
     level: 480,
     rarity: 3,
     slot: 8,
@@ -30144,7 +30144,7 @@ export default [
   },
   {
     id: 30228,
-    name: 'Honorbound',
+    name: '身负荣耀',
     level: 485,
     rarity: 4,
     slot: 1,
@@ -30162,12 +30162,12 @@ export default [
       DLY: 2240,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30229,
-    name: 'Samsara',
+    name: '轮回',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30185,12 +30185,12 @@ export default [
       DLY: 2560,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30230,
-    name: 'Skullrender',
+    name: '开天碎颅',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30208,12 +30208,12 @@ export default [
       DLY: 3360,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30231,
-    name: 'Dreizack',
+    name: '三锋锐',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30231,12 +30231,12 @@ export default [
       DLY: 2800,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30232,
-    name: 'Brilliance',
+    name: '才气焕发',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30254,12 +30254,12 @@ export default [
       DLY: 3040,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30233,
-    name: 'Honeshirazu',
+    name: '骨不知',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30277,12 +30277,12 @@ export default [
       DLY: 2560,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30234,
-    name: 'Woeborn',
+    name: '生于哀伤',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30300,12 +30300,12 @@ export default [
       DLY: 2960,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30235,
-    name: 'Lawman',
+    name: '执法',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30323,12 +30323,12 @@ export default [
       DLY: 2640,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30236,
-    name: 'Ingrimm',
+    name: '怒心',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30345,12 +30345,12 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30237,
-    name: 'Soulscourge',
+    name: '魂罚',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30367,12 +30367,12 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30238,
-    name: 'Espiritus',
+    name: '一灵真性',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30389,12 +30389,12 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30239,
-    name: 'Akademos',
+    name: '群贤毕至',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30411,12 +30411,12 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30240,
-    name: 'Solstice',
+    name: '天阳至宁',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30433,12 +30433,12 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30241,
-    name: 'Hoshikiri',
+    name: '星切',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30456,12 +30456,12 @@ export default [
       DLY: 2640,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30242,
-    name: 'Talekeeper',
+    name: '述说者',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30478,12 +30478,12 @@ export default [
       MDMG: 167,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30243,
-    name: 'Crownsblade',
+    name: '冠绝之刃',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30501,12 +30501,12 @@ export default [
       DLY: 2800,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30244,
-    name: 'Enchufla',
+    name: '交转重环',
     level: 485,
     rarity: 4,
     slot: 13,
@@ -30524,12 +30524,12 @@ export default [
       DLY: 3120,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
     id: 30245,
-    name: 'Tenacity',
+    name: '坚毅',
     level: 485,
     rarity: 4,
     slot: 2,
@@ -30545,7 +30545,7 @@ export default [
       DET: 95,
     },
     hq: false,
-    source: '新肝武',
+    source: '义军武器',
     patch: '5.25',
   },
   {
