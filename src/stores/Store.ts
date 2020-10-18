@@ -295,9 +295,7 @@ export const Store = types
         }
       }
       self.job = value;
-      if (G.jobSchemas[value].skeletonGears) {
-        self.autoSelectScheduled = true;
-      }
+      self.autoSelectScheduled = G.jobSchemas[value].skeletonGears ?? false;
     },
     setMinLevel(value: number): void {
       self.minLevel = value;

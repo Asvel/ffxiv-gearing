@@ -5,7 +5,7 @@ export const About = observer(() => {
   return (
     <div className="about">
       <span className="about_name">最终幻想14配装器</span>
-      <span className="about_version">2009b</span>
+      <span className="about_version">2010a</span>
       <span className="about_separator">·</span>
       <a
         className="about_link"
