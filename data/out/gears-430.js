@@ -23434,7 +23434,7 @@ export default [
   },
   {
     id: 29641,
-    name: '龙诗平底锅',
+    name: '龙诗煎锅',
     level: 475,
     rarity: 4,
     slot: 1,
@@ -23513,7 +23513,7 @@ export default [
   },
   {
     id: 30616,
-    name: 'Shadowless Mask of Fending',
+    name: '莫影御敌面具',
     level: 475,
     rarity: 2,
     slot: 3,
@@ -23534,7 +23534,7 @@ export default [
   },
   {
     id: 30617,
-    name: 'Shadowless Coat of Fending',
+    name: '莫影御敌大衣',
     level: 475,
     rarity: 2,
     slot: 4,
@@ -23555,7 +23555,7 @@ export default [
   },
   {
     id: 30618,
-    name: 'Shadowless Vambraces of Fending',
+    name: '莫影御敌臂甲',
     level: 475,
     rarity: 2,
     slot: 5,
@@ -23576,7 +23576,7 @@ export default [
   },
   {
     id: 30619,
-    name: 'Shadowless Skirt of Fending',
+    name: '莫影御敌长裙',
     level: 475,
     rarity: 2,
     slot: 7,
@@ -23597,7 +23597,7 @@ export default [
   },
   {
     id: 30620,
-    name: 'Shadowless Greaves of Fending',
+    name: '莫影御敌胫甲',
     level: 475,
     rarity: 2,
     slot: 8,
@@ -23618,7 +23618,7 @@ export default [
   },
   {
     id: 30621,
-    name: 'Shadowless Sash of Fending',
+    name: '莫影御敌腰围',
     level: 475,
     rarity: 2,
     slot: 6,
@@ -23639,7 +23639,7 @@ export default [
   },
   {
     id: 30622,
-    name: 'Shadowless Mask of Maiming',
+    name: '莫影制敌面具',
     level: 475,
     rarity: 2,
     slot: 3,
@@ -23660,7 +23660,7 @@ export default [
   },
   {
     id: 30623,
-    name: 'Shadowless Coat of Maiming',
+    name: '莫影制敌外套',
     level: 475,
     rarity: 2,
     slot: 4,
@@ -23681,7 +23681,7 @@ export default [
   },
   {
     id: 30624,
-    name: 'Shadowless Vambraces of Maiming',
+    name: '莫影制敌臂甲',
     level: 475,
     rarity: 2,
     slot: 5,
@@ -23702,7 +23702,7 @@ export default [
   },
   {
     id: 30625,
-    name: 'Shadowless Trousers of Maiming',
+    name: '莫影制敌软甲裤',
     level: 475,
     rarity: 2,
     slot: 7,
@@ -23723,7 +23723,7 @@ export default [
   },
   {
     id: 30626,
-    name: 'Shadowless Greaves of Maiming',
+    name: '莫影制敌胫甲',
     level: 475,
     rarity: 2,
     slot: 8,
@@ -23744,7 +23744,7 @@ export default [
   },
   {
     id: 30627,
-    name: 'Shadowless Sash of Maiming',
+    name: '莫影制敌腰围',
     level: 475,
     rarity: 2,
     slot: 6,
@@ -23765,7 +23765,7 @@ export default [
   },
   {
     id: 30628,
-    name: 'Shadowless Mask of Striking',
+    name: '莫影强袭面具',
     level: 475,
     rarity: 2,
     slot: 3,
@@ -23786,7 +23786,7 @@ export default [
   },
   {
     id: 30629,
-    name: 'Shadowless Coat of Striking',
+    name: '莫影强袭外套',
     level: 475,
     rarity: 2,
     slot: 4,
@@ -23807,7 +23807,7 @@ export default [
   },
   {
     id: 30630,
-    name: 'Shadowless Gloves of Striking',
+    name: '莫影强袭手套',
     level: 475,
     rarity: 2,
     slot: 5,
@@ -23828,7 +23828,7 @@ export default [
   },
   {
     id: 30631,
-    name: 'Shadowless Hose of Striking',
+    name: '莫影强袭骑兵裤',
     level: 475,
     rarity: 2,
     slot: 7,
@@ -23849,7 +23849,7 @@ export default [
   },
   {
     id: 30632,
-    name: 'Shadowless Sabatons of Striking',
+    name: '莫影强袭铠靴',
     level: 475,
     rarity: 2,
     slot: 8,
@@ -23870,7 +23870,7 @@ export default [
   },
   {
     id: 30633,
-    name: 'Shadowless Sash of Striking',
+    name: '莫影强袭腰围',
     level: 475,
     rarity: 2,
     slot: 6,
@@ -23891,7 +23891,7 @@ export default [
   },
   {
     id: 30634,
-    name: 'Shadowless Mask of Aiming',
+    name: '莫影精准面具',
     level: 475,
     rarity: 2,
     slot: 3,
@@ -23912,7 +23912,7 @@ export default [
   },
   {
     id: 30635,
-    name: 'Shadowless Coat of Aiming',
+    name: '莫影精准长衣',
     level: 475,
     rarity: 2,
     slot: 4,
@@ -23933,7 +23933,7 @@ export default [
   },
   {
     id: 30636,
-    name: 'Shadowless Gloves of Aiming',
+    name: '莫影精准护臂',
     level: 475,
     rarity: 2,
     slot: 5,
@@ -23954,7 +23954,7 @@ export default [
   },
   {
     id: 30637,
-    name: 'Shadowless Hose of Aiming',
+    name: '莫影精准骑兵裤',
     level: 475,
     rarity: 2,
     slot: 7,
@@ -23975,7 +23975,7 @@ export default [
   },
   {
     id: 30638,
-    name: 'Shadowless Sabatons of Aiming',
+    name: '莫影精准铠靴',
     level: 475,
     rarity: 2,
     slot: 8,
@@ -23996,7 +23996,7 @@ export default [
   },
   {
     id: 30639,
-    name: 'Shadowless Sash of Aiming',
+    name: '莫影精准腰围',
     level: 475,
     rarity: 2,
     slot: 6,
@@ -24017,7 +24017,7 @@ export default [
   },
   {
     id: 30640,
-    name: 'Shadowless Mask of Scouting',
+    name: '莫影游击面具',
     level: 475,
     rarity: 2,
     slot: 3,
@@ -24038,7 +24038,7 @@ export default [
   },
   {
     id: 30641,
-    name: 'Shadowless Coat of Scouting',
+    name: '莫影游击长衣',
     level: 475,
     rarity: 2,
     slot: 4,
@@ -24059,7 +24059,7 @@ export default [
   },
   {
     id: 30642,
-    name: 'Shadowless Gloves of Scouting',
+    name: '莫影游击护臂',
     level: 475,
     rarity: 2,
     slot: 5,
@@ -24080,7 +24080,7 @@ export default [
   },
   {
     id: 30643,
-    name: 'Shadowless Hose of Scouting',
+    name: '莫影游击骑兵裤',
     level: 475,
     rarity: 2,
     slot: 7,
@@ -24101,7 +24101,7 @@ export default [
   },
   {
     id: 30644,
-    name: 'Shadowless Sabatons of Scouting',
+    name: '莫影游击铠靴',
     level: 475,
     rarity: 2,
     slot: 8,
@@ -24122,7 +24122,7 @@ export default [
   },
   {
     id: 30645,
-    name: 'Shadowless Sash of Scouting',
+    name: '莫影游击腰围',
     level: 475,
     rarity: 2,
     slot: 6,
@@ -24143,7 +24143,7 @@ export default [
   },
   {
     id: 30646,
-    name: 'Shadowless Petasos of Healing',
+    name: '莫影治愈阔边帽',
     level: 475,
     rarity: 2,
     slot: 3,
@@ -24164,7 +24164,7 @@ export default [
   },
   {
     id: 30647,
-    name: 'Shadowless Robe of Healing',
+    name: '莫影治愈长袍',
     level: 475,
     rarity: 2,
     slot: 4,
@@ -24185,7 +24185,7 @@ export default [
   },
   {
     id: 30648,
-    name: 'Shadowless Gloves of Healing',
+    name: '莫影治愈手套',
     level: 475,
     rarity: 2,
     slot: 5,
@@ -24206,7 +24206,7 @@ export default [
   },
   {
     id: 30649,
-    name: 'Shadowless Bottoms of Healing',
+    name: '莫影治愈打底裤',
     level: 475,
     rarity: 2,
     slot: 7,
@@ -24227,7 +24227,7 @@ export default [
   },
   {
     id: 30650,
-    name: 'Shadowless Boots of Healing',
+    name: '莫影治愈筒靴',
     level: 475,
     rarity: 2,
     slot: 8,
@@ -24248,7 +24248,7 @@ export default [
   },
   {
     id: 30651,
-    name: 'Shadowless Sash of Healing',
+    name: '莫影治愈腰围',
     level: 475,
     rarity: 2,
     slot: 6,
@@ -24269,7 +24269,7 @@ export default [
   },
   {
     id: 30652,
-    name: 'Shadowless Petasos of Casting',
+    name: '莫影咏咒阔边帽',
     level: 475,
     rarity: 2,
     slot: 3,
@@ -24290,7 +24290,7 @@ export default [
   },
   {
     id: 30653,
-    name: 'Shadowless Robe of Casting',
+    name: '莫影咏咒长袍',
     level: 475,
     rarity: 2,
     slot: 4,
@@ -24311,7 +24311,7 @@ export default [
   },
   {
     id: 30654,
-    name: 'Shadowless Gloves of Casting',
+    name: '莫影咏咒手套',
     level: 475,
     rarity: 2,
     slot: 5,
@@ -24332,7 +24332,7 @@ export default [
   },
   {
     id: 30655,
-    name: 'Shadowless Bottoms of Casting',
+    name: '莫影咏咒打底裤',
     level: 475,
     rarity: 2,
     slot: 7,
@@ -24353,7 +24353,7 @@ export default [
   },
   {
     id: 30656,
-    name: 'Shadowless Boots of Casting',
+    name: '莫影咏咒筒靴',
     level: 475,
     rarity: 2,
     slot: 8,
@@ -24374,7 +24374,7 @@ export default [
   },
   {
     id: 30657,
-    name: 'Shadowless Sash of Casting',
+    name: '莫影咏咒腰围',
     level: 475,
     rarity: 2,
     slot: 6,
@@ -24395,7 +24395,7 @@ export default [
   },
   {
     id: 30658,
-    name: 'Shadowless Earrings of Fending',
+    name: '莫影御敌耳坠',
     level: 475,
     rarity: 2,
     slot: 9,
@@ -24416,7 +24416,7 @@ export default [
   },
   {
     id: 30659,
-    name: 'Shadowless Earrings of Slaying',
+    name: '莫影强攻耳坠',
     level: 475,
     rarity: 2,
     slot: 9,
@@ -24437,7 +24437,7 @@ export default [
   },
   {
     id: 30660,
-    name: 'Shadowless Earrings of Aiming',
+    name: '莫影精准耳坠',
     level: 475,
     rarity: 2,
     slot: 9,
@@ -24458,7 +24458,7 @@ export default [
   },
   {
     id: 30661,
-    name: 'Shadowless Earrings of Healing',
+    name: '莫影治愈耳坠',
     level: 475,
     rarity: 2,
     slot: 9,
@@ -24479,7 +24479,7 @@ export default [
   },
   {
     id: 30662,
-    name: 'Shadowless Earrings of Casting',
+    name: '莫影咏咒耳坠',
     level: 475,
     rarity: 2,
     slot: 9,
@@ -24500,7 +24500,7 @@ export default [
   },
   {
     id: 30663,
-    name: 'Shadowless Necklace of Fending',
+    name: '莫影御敌项链',
     level: 475,
     rarity: 2,
     slot: 10,
@@ -24521,7 +24521,7 @@ export default [
   },
   {
     id: 30664,
-    name: 'Shadowless Necklace of Slaying',
+    name: '莫影强攻项链',
     level: 475,
     rarity: 2,
     slot: 10,
@@ -24542,7 +24542,7 @@ export default [
   },
   {
     id: 30665,
-    name: 'Shadowless Necklace of Aiming',
+    name: '莫影精准项链',
     level: 475,
     rarity: 2,
     slot: 10,
@@ -24563,7 +24563,7 @@ export default [
   },
   {
     id: 30666,
-    name: 'Shadowless Necklace of Healing',
+    name: '莫影治愈项链',
     level: 475,
     rarity: 2,
     slot: 10,
@@ -24584,7 +24584,7 @@ export default [
   },
   {
     id: 30667,
-    name: 'Shadowless Necklace of Casting',
+    name: '莫影咏咒项链',
     level: 475,
     rarity: 2,
     slot: 10,
@@ -24605,7 +24605,7 @@ export default [
   },
   {
     id: 30668,
-    name: 'Shadowless Bracelet of Fending',
+    name: '莫影御敌手镯',
     level: 475,
     rarity: 2,
     slot: 11,
@@ -24626,7 +24626,7 @@ export default [
   },
   {
     id: 30669,
-    name: 'Shadowless Bracelet of Slaying',
+    name: '莫影强攻手镯',
     level: 475,
     rarity: 2,
     slot: 11,
@@ -24647,7 +24647,7 @@ export default [
   },
   {
     id: 30670,
-    name: 'Shadowless Bracelet of Aiming',
+    name: '莫影精准手镯',
     level: 475,
     rarity: 2,
     slot: 11,
@@ -24668,7 +24668,7 @@ export default [
   },
   {
     id: 30671,
-    name: 'Shadowless Bracelet of Healing',
+    name: '莫影治愈手镯',
     level: 475,
     rarity: 2,
     slot: 11,
@@ -24689,7 +24689,7 @@ export default [
   },
   {
     id: 30672,
-    name: 'Shadowless Bracelet of Casting',
+    name: '莫影咏咒手镯',
     level: 475,
     rarity: 2,
     slot: 11,
@@ -24710,7 +24710,7 @@ export default [
   },
   {
     id: 30673,
-    name: 'Shadowless Ring of Fending',
+    name: '莫影御敌指环',
     level: 475,
     rarity: 2,
     slot: 12,
@@ -24731,7 +24731,7 @@ export default [
   },
   {
     id: 30674,
-    name: 'Shadowless Ring of Slaying',
+    name: '莫影强攻指环',
     level: 475,
     rarity: 2,
     slot: 12,
@@ -24752,7 +24752,7 @@ export default [
   },
   {
     id: 30675,
-    name: 'Shadowless Ring of Aiming',
+    name: '莫影精准指环',
     level: 475,
     rarity: 2,
     slot: 12,
@@ -24773,7 +24773,7 @@ export default [
   },
   {
     id: 30676,
-    name: 'Shadowless Ring of Healing',
+    name: '莫影治愈指环',
     level: 475,
     rarity: 2,
     slot: 12,
@@ -24794,7 +24794,7 @@ export default [
   },
   {
     id: 30677,
-    name: 'Shadowless Ring of Casting',
+    name: '莫影咏咒指环',
     level: 475,
     rarity: 2,
     slot: 12,
@@ -32489,7 +32489,7 @@ export default [
   },
   {
     id: 30440,
-    name: "Aesthete's Saw",
+    name: '唯美手锯',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32508,7 +32508,7 @@ export default [
   },
   {
     id: 30441,
-    name: "Aesthete's Cross-pein Hammer",
+    name: '唯美横头锤',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32527,7 +32527,7 @@ export default [
   },
   {
     id: 30442,
-    name: "Aesthete's Raising Hammer",
+    name: '唯美圆头锤',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32546,7 +32546,7 @@ export default [
   },
   {
     id: 30443,
-    name: "Aesthete's Mallet",
+    name: '唯美工艺锤',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32565,7 +32565,7 @@ export default [
   },
   {
     id: 30444,
-    name: "Aesthete's Round Knife",
+    name: '唯美圆革刀',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32584,7 +32584,7 @@ export default [
   },
   {
     id: 30445,
-    name: "Aesthete's Needle",
+    name: '唯美缝针',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32603,7 +32603,7 @@ export default [
   },
   {
     id: 30446,
-    name: "Aesthete's Alembic",
+    name: '唯美蒸馏器',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32622,7 +32622,7 @@ export default [
   },
   {
     id: 30447,
-    name: "Aesthete's Frypan",
+    name: '唯美煎锅',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32641,7 +32641,7 @@ export default [
   },
   {
     id: 30448,
-    name: "Aesthete's Pickaxe",
+    name: '唯美鹤嘴锄',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32661,7 +32661,7 @@ export default [
   },
   {
     id: 30449,
-    name: "Aesthete's Hatchet",
+    name: '唯美手斧',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32681,7 +32681,7 @@ export default [
   },
   {
     id: 30450,
-    name: "Aesthete's Fishing Rod",
+    name: '唯美钓竿',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -32701,7 +32701,7 @@ export default [
   },
   {
     id: 30451,
-    name: "Aesthete's Claw Hammer",
+    name: '唯美羊角锤',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32720,7 +32720,7 @@ export default [
   },
   {
     id: 30452,
-    name: "Aesthete's File",
+    name: '唯美锉刀',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32739,7 +32739,7 @@ export default [
   },
   {
     id: 30453,
-    name: "Aesthete's Pliers",
+    name: '唯美手钳',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32758,7 +32758,7 @@ export default [
   },
   {
     id: 30454,
-    name: "Aesthete's Grinding Wheel",
+    name: '唯美砂轮机',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32777,7 +32777,7 @@ export default [
   },
   {
     id: 30455,
-    name: "Aesthete's Awl",
+    name: '唯美平斩',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32796,7 +32796,7 @@ export default [
   },
   {
     id: 30456,
-    name: "Aesthete's Spinning Wheel",
+    name: '唯美纺车',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32815,7 +32815,7 @@ export default [
   },
   {
     id: 30457,
-    name: "Aesthete's Mortar",
+    name: '唯美研钵',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32834,7 +32834,7 @@ export default [
   },
   {
     id: 30458,
-    name: "Aesthete's Culinary Knife",
+    name: '唯美厨刀',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32853,7 +32853,7 @@ export default [
   },
   {
     id: 30459,
-    name: "Aesthete's Sledgehammer",
+    name: '唯美碎石锤',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32872,7 +32872,7 @@ export default [
   },
   {
     id: 30460,
-    name: "Aesthete's Scythe",
+    name: '唯美镰刀',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -32891,7 +32891,7 @@ export default [
   },
   {
     id: 30461,
-    name: "Aesthete's Cap of Crafting",
+    name: '唯美巧匠皮帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -32910,7 +32910,7 @@ export default [
   },
   {
     id: 30462,
-    name: "Aesthete's Doublet of Crafting",
+    name: '唯美巧匠工作服',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -32930,7 +32930,7 @@ export default [
   },
   {
     id: 30463,
-    name: "Aesthete's Fingerless Gloves of Crafting",
+    name: '唯美巧匠半指手套',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -32949,7 +32949,7 @@ export default [
   },
   {
     id: 30464,
-    name: "Aesthete's Trousers of Crafting",
+    name: '唯美巧匠软甲裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -32968,7 +32968,7 @@ export default [
   },
   {
     id: 30465,
-    name: "Aesthete's Boots of Crafting",
+    name: '唯美巧匠筒靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -32987,7 +32987,7 @@ export default [
   },
   {
     id: 30466,
-    name: "Aesthete's Hat of Gathering",
+    name: '唯美大地工作帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -33006,7 +33006,7 @@ export default [
   },
   {
     id: 30467,
-    name: "Aesthete's Doublet of Gathering",
+    name: '唯美大地工作服',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -33027,7 +33027,7 @@ export default [
   },
   {
     id: 30468,
-    name: "Aesthete's Halfgloves of Gathering",
+    name: '唯美大地半指护手',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -33047,7 +33047,7 @@ export default [
   },
   {
     id: 30469,
-    name: "Aesthete's Trousers of Gathering",
+    name: '唯美大地软甲裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -33068,7 +33068,7 @@ export default [
   },
   {
     id: 30470,
-    name: "Aesthete's Boots of Gathering",
+    name: '唯美大地筒靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -33088,7 +33088,7 @@ export default [
   },
   {
     id: 30471,
-    name: "Aesthete's Tool Belt",
+    name: '唯美工具腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -33106,7 +33106,7 @@ export default [
   },
   {
     id: 30472,
-    name: "Aesthete's Ear Cuffs of Crafting",
+    name: '唯美巧匠耳夹',
     level: 490,
     rarity: 2,
     slot: 9,
@@ -33125,7 +33125,7 @@ export default [
   },
   {
     id: 30473,
-    name: "Aesthete's Choker of Crafting",
+    name: '唯美巧匠项环',
     level: 490,
     rarity: 2,
     slot: 10,
@@ -33144,7 +33144,7 @@ export default [
   },
   {
     id: 30474,
-    name: "Aesthete's Bracelets of Crafting",
+    name: '唯美巧匠腕环',
     level: 490,
     rarity: 2,
     slot: 11,
@@ -33163,7 +33163,7 @@ export default [
   },
   {
     id: 30475,
-    name: "Aesthete's Ring of Crafting",
+    name: '唯美巧匠戒指',
     level: 490,
     rarity: 2,
     slot: 12,
@@ -33182,7 +33182,7 @@ export default [
   },
   {
     id: 30476,
-    name: "Aesthete's Belt of Gathering",
+    name: '唯美大地腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -33200,7 +33200,7 @@ export default [
   },
   {
     id: 30477,
-    name: "Aesthete's Earrings of Gathering",
+    name: '唯美大地耳坠',
     level: 490,
     rarity: 2,
     slot: 9,
@@ -33218,7 +33218,7 @@ export default [
   },
   {
     id: 30478,
-    name: "Aesthete's Necklace of Gathering",
+    name: '唯美大地项链',
     level: 490,
     rarity: 2,
     slot: 10,
@@ -33236,7 +33236,7 @@ export default [
   },
   {
     id: 30479,
-    name: "Aesthete's Bracelet of Gathering",
+    name: '唯美大地手环',
     level: 490,
     rarity: 2,
     slot: 11,
@@ -33254,7 +33254,7 @@ export default [
   },
   {
     id: 30480,
-    name: "Aesthete's Ring of Gathering",
+    name: '唯美大地指环',
     level: 490,
     rarity: 2,
     slot: 12,
@@ -33272,7 +33272,7 @@ export default [
   },
   {
     id: 30508,
-    name: 'Augmented Neo-Ishgardian Sword',
+    name: '改良型伊修加德新型长剑',
     level: 490,
     rarity: 2,
     slot: 1,
@@ -33295,7 +33295,7 @@ export default [
   },
   {
     id: 30509,
-    name: 'Augmented Neo-Ishgardian Claws',
+    name: '改良型伊修加德新型利爪',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33318,7 +33318,7 @@ export default [
   },
   {
     id: 30510,
-    name: 'Augmented Neo-Ishgardian Labrys',
+    name: '改良型伊修加德新型双刃斧',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33341,7 +33341,7 @@ export default [
   },
   {
     id: 30511,
-    name: 'Augmented Neo-Ishgardian Trident',
+    name: '改良型伊修加德新型三尖枪',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33364,7 +33364,7 @@ export default [
   },
   {
     id: 30512,
-    name: 'Augmented Neo-Ishgardian Longbow',
+    name: '改良型伊修加德新型长弓',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33387,7 +33387,7 @@ export default [
   },
   {
     id: 30513,
-    name: 'Augmented Neo-Ishgardian Daggers',
+    name: '改良型伊修加德新型小刀',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33410,7 +33410,7 @@ export default [
   },
   {
     id: 30514,
-    name: 'Augmented Neo-Ishgardian Greatsword',
+    name: '改良型伊修加德新型巨剑',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33433,7 +33433,7 @@ export default [
   },
   {
     id: 30515,
-    name: 'Augmented Neo-Ishgardian Revolver',
+    name: '改良型伊修加德新型左轮枪',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33456,7 +33456,7 @@ export default [
   },
   {
     id: 30516,
-    name: 'Augmented Neo-Ishgardian Cane',
+    name: '改良型伊修加德新型牧杖',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33478,7 +33478,7 @@ export default [
   },
   {
     id: 30517,
-    name: 'Augmented Neo-Ishgardian Rod',
+    name: '改良型伊修加德新型法杖',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33500,7 +33500,7 @@ export default [
   },
   {
     id: 30518,
-    name: 'Augmented Neo-Ishgardian Grimoire',
+    name: '改良型伊修加德新型魔导书',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33522,7 +33522,7 @@ export default [
   },
   {
     id: 30519,
-    name: 'Augmented Neo-Ishgardian Codex',
+    name: '改良型伊修加德新型魔导典',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33544,7 +33544,7 @@ export default [
   },
   {
     id: 30520,
-    name: 'Augmented Neo-Ishgardian Planisphere',
+    name: '改良型伊修加德新型天星盘',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33566,7 +33566,7 @@ export default [
   },
   {
     id: 30521,
-    name: 'Augmented Neo-Ishgardian Blade',
+    name: '改良型伊修加德新型武士刀',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33589,7 +33589,7 @@ export default [
   },
   {
     id: 30522,
-    name: 'Augmented Neo-Ishgardian Foil',
+    name: '改良型伊修加德新型花剑',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33611,7 +33611,7 @@ export default [
   },
   {
     id: 30523,
-    name: 'Augmented Neo-Ishgardian Manatrigger',
+    name: '改良型伊修加德新型魔机刃',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33634,7 +33634,7 @@ export default [
   },
   {
     id: 30524,
-    name: 'Augmented Neo-Ishgardian Chakrams',
+    name: '改良型伊修加德新型圆月轮',
     level: 490,
     rarity: 2,
     slot: 13,
@@ -33657,7 +33657,7 @@ export default [
   },
   {
     id: 30525,
-    name: 'Augmented Neo-Ishgardian Shield',
+    name: '改良型伊修加德新型骑士盾',
     level: 490,
     rarity: 2,
     slot: 2,
@@ -33678,7 +33678,7 @@ export default [
   },
   {
     id: 30526,
-    name: 'Augmented Neo-Ishgardian Cap of Fending',
+    name: '改良型伊修加德新型御敌军帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -33699,7 +33699,7 @@ export default [
   },
   {
     id: 30527,
-    name: 'Augmented Neo-Ishgardian Top of Fending',
+    name: '改良型伊修加德新型御敌上装',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -33720,7 +33720,7 @@ export default [
   },
   {
     id: 30528,
-    name: 'Augmented Neo-Ishgardian Gauntlets of Fending',
+    name: '改良型伊修加德新型御敌手铠',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -33741,7 +33741,7 @@ export default [
   },
   {
     id: 30529,
-    name: 'Augmented Neo-Ishgardian Bottoms of Fending',
+    name: '改良型伊修加德新型御敌打底裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -33762,7 +33762,7 @@ export default [
   },
   {
     id: 30530,
-    name: 'Augmented Neo-Ishgardian Sollerets of Fending',
+    name: '改良型伊修加德新型御敌锁甲靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -33783,7 +33783,7 @@ export default [
   },
   {
     id: 30531,
-    name: 'Augmented Neo-Ishgardian Plate Belt of Fending',
+    name: '改良型伊修加德新型御敌腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -33804,7 +33804,7 @@ export default [
   },
   {
     id: 30532,
-    name: 'Augmented Neo-Ishgardian Cap of Maiming',
+    name: '改良型伊修加德新型制敌军帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -33825,7 +33825,7 @@ export default [
   },
   {
     id: 30533,
-    name: 'Augmented Neo-Ishgardian Top of Maiming',
+    name: '改良型伊修加德新型制敌上装',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -33846,7 +33846,7 @@ export default [
   },
   {
     id: 30534,
-    name: 'Augmented Neo-Ishgardian Gloves of Maiming',
+    name: '改良型伊修加德新型制敌手套',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -33867,7 +33867,7 @@ export default [
   },
   {
     id: 30535,
-    name: 'Augmented Neo-Ishgardian Bottoms of Maiming',
+    name: '改良型伊修加德新型制敌打底裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -33888,7 +33888,7 @@ export default [
   },
   {
     id: 30536,
-    name: 'Augmented Neo-Ishgardian Boots of Maiming',
+    name: '改良型伊修加德新型制敌皮靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -33909,7 +33909,7 @@ export default [
   },
   {
     id: 30537,
-    name: 'Augmented Neo-Ishgardian Plate Belt of Maiming',
+    name: '改良型伊修加德新型制敌腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -33930,7 +33930,7 @@ export default [
   },
   {
     id: 30538,
-    name: 'Augmented Neo-Ishgardian Hat of Striking',
+    name: '改良型伊修加德新型强袭礼帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -33951,7 +33951,7 @@ export default [
   },
   {
     id: 30539,
-    name: 'Augmented Neo-Ishgardian Top of Striking',
+    name: '改良型伊修加德新型强袭上装',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -33972,7 +33972,7 @@ export default [
   },
   {
     id: 30540,
-    name: 'Augmented Neo-Ishgardian Gloves of Striking',
+    name: '改良型伊修加德新型强袭手套',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -33993,7 +33993,7 @@ export default [
   },
   {
     id: 30541,
-    name: 'Augmented Neo-Ishgardian Bottoms of Striking',
+    name: '改良型伊修加德新型强袭打底裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -34014,7 +34014,7 @@ export default [
   },
   {
     id: 30542,
-    name: 'Augmented Neo-Ishgardian Boots of Striking',
+    name: '改良型伊修加德新型强袭长靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -34035,7 +34035,7 @@ export default [
   },
   {
     id: 30543,
-    name: 'Augmented Neo-Ishgardian Leather Belt of Striking',
+    name: '改良型伊修加德新型强袭腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -34056,7 +34056,7 @@ export default [
   },
   {
     id: 30544,
-    name: 'Augmented Neo-Ishgardian Cap of Aiming',
+    name: '改良型伊修加德新型精准军帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -34077,7 +34077,7 @@ export default [
   },
   {
     id: 30545,
-    name: 'Augmented Neo-Ishgardian Top of Aiming',
+    name: '改良型伊修加德新型精准上装',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -34098,7 +34098,7 @@ export default [
   },
   {
     id: 30546,
-    name: 'Augmented Neo-Ishgardian Gloves of Aiming',
+    name: '改良型伊修加德新型精准手套',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -34119,7 +34119,7 @@ export default [
   },
   {
     id: 30547,
-    name: 'Augmented Neo-Ishgardian Bottoms of Aiming',
+    name: '改良型伊修加德新型精准打底裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -34140,7 +34140,7 @@ export default [
   },
   {
     id: 30548,
-    name: 'Augmented Neo-Ishgardian Boots of Aiming',
+    name: '改良型伊修加德新型精准长靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -34161,7 +34161,7 @@ export default [
   },
   {
     id: 30549,
-    name: 'Augmented Neo-Ishgardian Leather Belt of Aiming',
+    name: '改良型伊修加德新型精准腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -34182,7 +34182,7 @@ export default [
   },
   {
     id: 30550,
-    name: 'Augmented Neo-Ishgardian Hat of Scouting',
+    name: '改良型伊修加德新型游击礼帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -34203,7 +34203,7 @@ export default [
   },
   {
     id: 30551,
-    name: 'Augmented Neo-Ishgardian Top of Scouting',
+    name: '改良型伊修加德新型游击上装',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -34224,7 +34224,7 @@ export default [
   },
   {
     id: 30552,
-    name: 'Augmented Neo-Ishgardian Gloves of Scouting',
+    name: '改良型伊修加德新型游击手套',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -34245,7 +34245,7 @@ export default [
   },
   {
     id: 30553,
-    name: 'Augmented Neo-Ishgardian Bottoms of Scouting',
+    name: '改良型伊修加德新型游击打底裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -34266,7 +34266,7 @@ export default [
   },
   {
     id: 30554,
-    name: 'Augmented Neo-Ishgardian Sollerets of Scouting',
+    name: '改良型伊修加德新型游击锁甲靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -34287,7 +34287,7 @@ export default [
   },
   {
     id: 30555,
-    name: 'Augmented Neo-Ishgardian Leather Belt of Scouting',
+    name: '改良型伊修加德新型游击腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -34308,7 +34308,7 @@ export default [
   },
   {
     id: 30556,
-    name: 'Augmented Neo-Ishgardian Cap of Healing',
+    name: '改良型伊修加德新型治愈军帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -34329,7 +34329,7 @@ export default [
   },
   {
     id: 30557,
-    name: 'Augmented Neo-Ishgardian Top of Healing',
+    name: '改良型伊修加德新型治愈上装',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -34350,7 +34350,7 @@ export default [
   },
   {
     id: 30558,
-    name: 'Augmented Neo-Ishgardian Gloves of Healing',
+    name: '改良型伊修加德新型治愈手套',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -34371,7 +34371,7 @@ export default [
   },
   {
     id: 30559,
-    name: 'Augmented Neo-Ishgardian Bottoms of Healing',
+    name: '改良型伊修加德新型治愈打底裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -34392,7 +34392,7 @@ export default [
   },
   {
     id: 30560,
-    name: 'Augmented Neo-Ishgardian Boots of Healing',
+    name: '改良型伊修加德新型治愈长靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -34413,7 +34413,7 @@ export default [
   },
   {
     id: 30561,
-    name: 'Augmented Neo-Ishgardian Leather Belt of Healing',
+    name: '改良型伊修加德新型治愈腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -34434,7 +34434,7 @@ export default [
   },
   {
     id: 30562,
-    name: 'Augmented Neo-Ishgardian Hat of Casting',
+    name: '改良型伊修加德新型咏咒礼帽',
     level: 490,
     rarity: 2,
     slot: 3,
@@ -34455,7 +34455,7 @@ export default [
   },
   {
     id: 30563,
-    name: 'Augmented Neo-Ishgardian Top of Casting',
+    name: '改良型伊修加德新型咏咒上装',
     level: 490,
     rarity: 2,
     slot: 4,
@@ -34476,7 +34476,7 @@ export default [
   },
   {
     id: 30564,
-    name: 'Augmented Neo-Ishgardian Gloves of Casting',
+    name: '改良型伊修加德新型咏咒手套',
     level: 490,
     rarity: 2,
     slot: 5,
@@ -34497,7 +34497,7 @@ export default [
   },
   {
     id: 30565,
-    name: 'Augmented Neo-Ishgardian Bottoms of Casting',
+    name: '改良型伊修加德新型咏咒打底裤',
     level: 490,
     rarity: 2,
     slot: 7,
@@ -34518,7 +34518,7 @@ export default [
   },
   {
     id: 30566,
-    name: 'Augmented Neo-Ishgardian Boots of Casting',
+    name: '改良型伊修加德新型咏咒皮靴',
     level: 490,
     rarity: 2,
     slot: 8,
@@ -34539,7 +34539,7 @@ export default [
   },
   {
     id: 30567,
-    name: 'Augmented Neo-Ishgardian Leather Belt of Casting',
+    name: '改良型伊修加德新型咏咒腰带',
     level: 490,
     rarity: 2,
     slot: 6,
@@ -34560,7 +34560,7 @@ export default [
   },
   {
     id: 30568,
-    name: 'Augmented Neo-Ishgardian Earring of Fending',
+    name: '改良型伊修加德新型御敌耳坠',
     level: 490,
     rarity: 2,
     slot: 9,
@@ -34581,7 +34581,7 @@ export default [
   },
   {
     id: 30569,
-    name: 'Augmented Neo-Ishgardian Earring of Slaying',
+    name: '改良型伊修加德新型强攻耳坠',
     level: 490,
     rarity: 2,
     slot: 9,
@@ -34602,7 +34602,7 @@ export default [
   },
   {
     id: 30570,
-    name: 'Augmented Neo-Ishgardian Earring of Aiming',
+    name: '改良型伊修加德新型精准耳坠',
     level: 490,
     rarity: 2,
     slot: 9,
@@ -34623,7 +34623,7 @@ export default [
   },
   {
     id: 30571,
-    name: 'Augmented Neo-Ishgardian Earring of Healing',
+    name: '改良型伊修加德新型治愈耳坠',
     level: 490,
     rarity: 2,
     slot: 9,
@@ -34644,7 +34644,7 @@ export default [
   },
   {
     id: 30572,
-    name: 'Augmented Neo-Ishgardian Earring of Casting',
+    name: '改良型伊修加德新型咏咒耳坠',
     level: 490,
     rarity: 2,
     slot: 9,
@@ -34665,7 +34665,7 @@ export default [
   },
   {
     id: 30573,
-    name: 'Augmented Neo-Ishgardian Choker of Fending',
+    name: '改良型伊修加德新型御敌项环',
     level: 490,
     rarity: 2,
     slot: 10,
@@ -34686,7 +34686,7 @@ export default [
   },
   {
     id: 30574,
-    name: 'Augmented Neo-Ishgardian Choker of Slaying',
+    name: '改良型伊修加德新型强攻项环',
     level: 490,
     rarity: 2,
     slot: 10,
@@ -34707,7 +34707,7 @@ export default [
   },
   {
     id: 30575,
-    name: 'Augmented Neo-Ishgardian Choker of Aiming',
+    name: '改良型伊修加德新型精准项环',
     level: 490,
     rarity: 2,
     slot: 10,
@@ -34728,7 +34728,7 @@ export default [
   },
   {
     id: 30576,
-    name: 'Augmented Neo-Ishgardian Choker of Healing',
+    name: '改良型伊修加德新型治愈项环',
     level: 490,
     rarity: 2,
     slot: 10,
@@ -34749,7 +34749,7 @@ export default [
   },
   {
     id: 30577,
-    name: 'Augmented Neo-Ishgardian Choker of Casting',
+    name: '改良型伊修加德新型咏咒项环',
     level: 490,
     rarity: 2,
     slot: 10,
@@ -34770,7 +34770,7 @@ export default [
   },
   {
     id: 30578,
-    name: 'Augmented Neo-Ishgardian Wristbands of Fending',
+    name: '改良型伊修加德新型御敌手环',
     level: 490,
     rarity: 2,
     slot: 11,
@@ -34791,7 +34791,7 @@ export default [
   },
   {
     id: 30579,
-    name: 'Augmented Neo-Ishgardian Wristbands of Slaying',
+    name: '改良型伊修加德新型强攻手环',
     level: 490,
     rarity: 2,
     slot: 11,
@@ -34812,7 +34812,7 @@ export default [
   },
   {
     id: 30580,
-    name: 'Augmented Neo-Ishgardian Wristbands of Aiming',
+    name: '改良型伊修加德新型精准手环',
     level: 490,
     rarity: 2,
     slot: 11,
@@ -34833,7 +34833,7 @@ export default [
   },
   {
     id: 30581,
-    name: 'Augmented Neo-Ishgardian Wristbands of Healing',
+    name: '改良型伊修加德新型治愈手环',
     level: 490,
     rarity: 2,
     slot: 11,
@@ -34854,7 +34854,7 @@ export default [
   },
   {
     id: 30582,
-    name: 'Augmented Neo-Ishgardian Wristbands of Casting',
+    name: '改良型伊修加德新型咏咒手环',
     level: 490,
     rarity: 2,
     slot: 11,
@@ -34875,7 +34875,7 @@ export default [
   },
   {
     id: 30583,
-    name: 'Augmented Neo-Ishgardian Ring of Fending',
+    name: '改良型伊修加德新型御敌指环',
     level: 490,
     rarity: 2,
     slot: 12,
@@ -34896,7 +34896,7 @@ export default [
   },
   {
     id: 30584,
-    name: 'Augmented Neo-Ishgardian Ring of Slaying',
+    name: '改良型伊修加德新型强攻指环',
     level: 490,
     rarity: 2,
     slot: 12,
@@ -34917,7 +34917,7 @@ export default [
   },
   {
     id: 30585,
-    name: 'Augmented Neo-Ishgardian Ring of Aiming',
+    name: '改良型伊修加德新型精准指环',
     level: 490,
     rarity: 2,
     slot: 12,
@@ -34938,7 +34938,7 @@ export default [
   },
   {
     id: 30586,
-    name: 'Augmented Neo-Ishgardian Ring of Healing',
+    name: '改良型伊修加德新型治愈指环',
     level: 490,
     rarity: 2,
     slot: 12,
@@ -34959,7 +34959,7 @@ export default [
   },
   {
     id: 30587,
-    name: 'Augmented Neo-Ishgardian Ring of Casting',
+    name: '改良型伊修加德新型咏咒指环',
     level: 490,
     rarity: 2,
     slot: 12,
@@ -34980,7 +34980,7 @@ export default [
   },
   {
     id: 30679,
-    name: 'YoRHa Type-53 Headband of Fending',
+    name: '寄叶五三式御敌军帽',
     level: 490,
     rarity: 3,
     slot: 3,
@@ -35001,7 +35001,7 @@ export default [
   },
   {
     id: 30680,
-    name: 'YoRHa Type-53 Coat of Fending',
+    name: '寄叶五三式御敌军装',
     level: 490,
     rarity: 3,
     slot: 4,
@@ -35022,7 +35022,7 @@ export default [
   },
   {
     id: 30681,
-    name: 'YoRHa Type-53 Gloves of Fending',
+    name: '寄叶五三式御敌手套',
     level: 490,
     rarity: 3,
     slot: 5,
@@ -35043,7 +35043,7 @@ export default [
   },
   {
     id: 30682,
-    name: 'YoRHa Type-53 Breeches of Fending',
+    name: '寄叶五三式御敌军裤',
     level: 490,
     rarity: 3,
     slot: 7,
@@ -35064,7 +35064,7 @@ export default [
   },
   {
     id: 30683,
-    name: 'YoRHa Type-53 Boots of Fending',
+    name: '寄叶五三式御敌军靴',
     level: 490,
     rarity: 3,
     slot: 8,
@@ -35085,7 +35085,7 @@ export default [
   },
   {
     id: 30684,
-    name: 'YoRHa Type-53 Headband of Maiming',
+    name: '寄叶五三式制敌军帽',
     level: 490,
     rarity: 3,
     slot: 3,
@@ -35106,7 +35106,7 @@ export default [
   },
   {
     id: 30685,
-    name: 'YoRHa Type-53 Coat of Maiming',
+    name: '寄叶五三式制敌军装',
     level: 490,
     rarity: 3,
     slot: 4,
@@ -35127,7 +35127,7 @@ export default [
   },
   {
     id: 30686,
-    name: 'YoRHa Type-53 Gloves of Maiming',
+    name: '寄叶五三式制敌手套',
     level: 490,
     rarity: 3,
     slot: 5,
@@ -35148,7 +35148,7 @@ export default [
   },
   {
     id: 30687,
-    name: 'YoRHa Type-53 Breeches of Maiming',
+    name: '寄叶五三式制敌军裤',
     level: 490,
     rarity: 3,
     slot: 7,
@@ -35169,7 +35169,7 @@ export default [
   },
   {
     id: 30688,
-    name: 'YoRHa Type-53 Boots of Maiming',
+    name: '寄叶五三式制敌军靴',
     level: 490,
     rarity: 3,
     slot: 8,
@@ -35190,7 +35190,7 @@ export default [
   },
   {
     id: 30689,
-    name: 'YoRHa Type-53 Headband of Striking',
+    name: '寄叶五三式强袭军帽',
     level: 490,
     rarity: 3,
     slot: 3,
@@ -35211,7 +35211,7 @@ export default [
   },
   {
     id: 30690,
-    name: 'YoRHa Type-53 Cyclas of Striking',
+    name: '寄叶五三式强袭军装',
     level: 490,
     rarity: 3,
     slot: 4,
@@ -35232,7 +35232,7 @@ export default [
   },
   {
     id: 30691,
-    name: 'YoRHa Type-53 Gloves of Striking',
+    name: '寄叶五三式强袭手套',
     level: 490,
     rarity: 3,
     slot: 5,
@@ -35253,7 +35253,7 @@ export default [
   },
   {
     id: 30692,
-    name: 'YoRHa Type-53 Breeches of Striking',
+    name: '寄叶五三式强袭军裤',
     level: 490,
     rarity: 3,
     slot: 7,
@@ -35274,7 +35274,7 @@ export default [
   },
   {
     id: 30693,
-    name: 'YoRHa Type-53 Boots of Striking',
+    name: '寄叶五三式强袭军靴',
     level: 490,
     rarity: 3,
     slot: 8,
@@ -35295,7 +35295,7 @@ export default [
   },
   {
     id: 30694,
-    name: 'YoRHa Type-53 Hat of Aiming',
+    name: '寄叶五三式精准军帽',
     level: 490,
     rarity: 3,
     slot: 3,
@@ -35316,7 +35316,7 @@ export default [
   },
   {
     id: 30695,
-    name: 'YoRHa Type-53 Cloak of Aiming',
+    name: '寄叶五三式精准军装',
     level: 490,
     rarity: 3,
     slot: 4,
@@ -35337,7 +35337,7 @@ export default [
   },
   {
     id: 30696,
-    name: 'YoRHa Type-53 Gloves of Aiming',
+    name: '寄叶五三式精准手套',
     level: 490,
     rarity: 3,
     slot: 5,
@@ -35358,7 +35358,7 @@ export default [
   },
   {
     id: 30697,
-    name: 'YoRHa Type-53 Halfslops of Aiming',
+    name: '寄叶五三式精准军裤',
     level: 490,
     rarity: 3,
     slot: 7,
@@ -35379,7 +35379,7 @@ export default [
   },
   {
     id: 30698,
-    name: 'YoRHa Type-53 Boots of Aiming',
+    name: '寄叶五三式精准军靴',
     level: 490,
     rarity: 3,
     slot: 8,
@@ -35400,7 +35400,7 @@ export default [
   },
   {
     id: 30699,
-    name: 'YoRHa Type-53 Hood of Scouting',
+    name: '寄叶五三式游击军帽',
     level: 490,
     rarity: 3,
     slot: 3,
@@ -35421,7 +35421,7 @@ export default [
   },
   {
     id: 30700,
-    name: 'YoRHa Type-53 Cloak of Scouting',
+    name: '寄叶五三式游击军装',
     level: 490,
     rarity: 3,
     slot: 4,
@@ -35442,7 +35442,7 @@ export default [
   },
   {
     id: 30701,
-    name: 'YoRHa Type-53 Gloves of Scouting',
+    name: '寄叶五三式游击手套',
     level: 490,
     rarity: 3,
     slot: 5,
@@ -35463,7 +35463,7 @@ export default [
   },
   {
     id: 30702,
-    name: 'YoRHa Type-53 Halfslops of Scouting',
+    name: '寄叶五三式游击军裤',
     level: 490,
     rarity: 3,
     slot: 7,
@@ -35484,7 +35484,7 @@ export default [
   },
   {
     id: 30703,
-    name: 'YoRHa Type-53 Boots of Scouting',
+    name: '寄叶五三式游击军靴',
     level: 490,
     rarity: 3,
     slot: 8,
@@ -35505,7 +35505,7 @@ export default [
   },
   {
     id: 30704,
-    name: 'YoRHa Type-53 Hat of Healing',
+    name: '寄叶五三式治愈军帽',
     level: 490,
     rarity: 3,
     slot: 3,
@@ -35526,7 +35526,7 @@ export default [
   },
   {
     id: 30705,
-    name: 'YoRHa Type-53 Halfrobe of Healing',
+    name: '寄叶五三式治愈军装',
     level: 490,
     rarity: 3,
     slot: 4,
@@ -35547,7 +35547,7 @@ export default [
   },
   {
     id: 30706,
-    name: 'YoRHa Type-53 Gloves of Healing',
+    name: '寄叶五三式治愈手套',
     level: 490,
     rarity: 3,
     slot: 5,
@@ -35568,7 +35568,7 @@ export default [
   },
   {
     id: 30707,
-    name: 'YoRHa Type-53 Bottoms of Healing',
+    name: '寄叶五三式治愈军裤',
     level: 490,
     rarity: 3,
     slot: 7,
@@ -35589,7 +35589,7 @@ export default [
   },
   {
     id: 30708,
-    name: 'YoRHa Type-53 Thighboots of Healing',
+    name: '寄叶五三式治愈军靴',
     level: 490,
     rarity: 3,
     slot: 8,
@@ -35610,7 +35610,7 @@ export default [
   },
   {
     id: 30709,
-    name: 'YoRHa Type-53 Hat of Casting',
+    name: '寄叶五三式咏咒军帽',
     level: 490,
     rarity: 3,
     slot: 3,
@@ -35631,7 +35631,7 @@ export default [
   },
   {
     id: 30710,
-    name: 'YoRHa Type-53 Halfrobe of Casting',
+    name: '寄叶五三式咏咒军装',
     level: 490,
     rarity: 3,
     slot: 4,
@@ -35652,7 +35652,7 @@ export default [
   },
   {
     id: 30711,
-    name: 'YoRHa Type-53 Gloves of Casting',
+    name: '寄叶五三式咏咒手套',
     level: 490,
     rarity: 3,
     slot: 5,
@@ -35673,7 +35673,7 @@ export default [
   },
   {
     id: 30712,
-    name: 'YoRHa Type-53 Bottoms of Casting',
+    name: '寄叶五三式咏咒军裤',
     level: 490,
     rarity: 3,
     slot: 7,
@@ -35694,7 +35694,7 @@ export default [
   },
   {
     id: 30713,
-    name: 'YoRHa Type-53 Thighboots of Casting',
+    name: '寄叶五三式咏咒军靴',
     level: 490,
     rarity: 3,
     slot: 8,
@@ -35715,7 +35715,7 @@ export default [
   },
   {
     id: 30597,
-    name: 'Sword of Light',
+    name: '光之剑',
     level: 495,
     rarity: 3,
     slot: 1,
@@ -35738,7 +35738,7 @@ export default [
   },
   {
     id: 30598,
-    name: 'Jamadhars of Light',
+    name: '光之拳锋',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35761,7 +35761,7 @@ export default [
   },
   {
     id: 30599,
-    name: 'Axe of Light',
+    name: '光之大斧',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35784,7 +35784,7 @@ export default [
   },
   {
     id: 30600,
-    name: 'Spear of Light',
+    name: '光之长枪',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35807,7 +35807,7 @@ export default [
   },
   {
     id: 30601,
-    name: 'Bow of Light',
+    name: '光之弓',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35830,7 +35830,7 @@ export default [
   },
   {
     id: 30602,
-    name: 'Knives of Light',
+    name: '光之匕首',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35853,7 +35853,7 @@ export default [
   },
   {
     id: 30603,
-    name: 'Faussar of Light',
+    name: '光之大弯刀',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35876,7 +35876,7 @@ export default [
   },
   {
     id: 30604,
-    name: 'Gun of Light',
+    name: '光之火枪',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35899,7 +35899,7 @@ export default [
   },
   {
     id: 30605,
-    name: 'Cane of Light',
+    name: '光之牧杖',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35921,7 +35921,7 @@ export default [
   },
   {
     id: 30606,
-    name: 'Rod of Light',
+    name: '光之法杖',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35943,7 +35943,7 @@ export default [
   },
   {
     id: 30607,
-    name: 'Index of Light',
+    name: '光之魔导书',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35965,7 +35965,7 @@ export default [
   },
   {
     id: 30608,
-    name: 'Codex of Light',
+    name: '光之魔导典',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -35987,7 +35987,7 @@ export default [
   },
   {
     id: 30609,
-    name: 'Globe of Light',
+    name: '光之天球仪',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -36009,7 +36009,7 @@ export default [
   },
   {
     id: 30610,
-    name: 'Blade of Light',
+    name: '光之刀',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -36032,7 +36032,7 @@ export default [
   },
   {
     id: 30611,
-    name: 'Hanger of Light',
+    name: '光之重刺剑',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -36054,7 +36054,7 @@ export default [
   },
   {
     id: 30612,
-    name: 'Gunblade of Light',
+    name: '光之枪刃',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -36077,7 +36077,7 @@ export default [
   },
   {
     id: 30613,
-    name: 'Chakrams of Light',
+    name: '光之圆月轮',
     level: 495,
     rarity: 3,
     slot: 13,
@@ -36100,7 +36100,7 @@ export default [
   },
   {
     id: 30614,
-    name: 'Shield of Light',
+    name: '光之盾',
     level: 495,
     rarity: 3,
     slot: 2,

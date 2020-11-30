@@ -3548,7 +3548,7 @@ export default [
   },
   {
     id: 30811,
-    name: "Tsukuyomi's Moonlit Longsword",
+    name: '月读命幽夜直剑',
     level: 290,
     rarity: 3,
     slot: 1,
@@ -3571,7 +3571,7 @@ export default [
   },
   {
     id: 30812,
-    name: "Tsukuyomi's Moonlit Crescents",
+    name: '月读命幽夜三日月',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3594,7 +3594,7 @@ export default [
   },
   {
     id: 30813,
-    name: "Tsukuyomi's Moonlit Greataxe",
+    name: '月读命幽夜大斧',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3617,7 +3617,7 @@ export default [
   },
   {
     id: 30814,
-    name: "Tsukuyomi's Moonlit Lance",
+    name: '月读命幽夜长枪',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3640,7 +3640,7 @@ export default [
   },
   {
     id: 30815,
-    name: "Tsukuyomi's Moonlit Greatbow",
+    name: '月读命幽夜大弓',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3663,7 +3663,7 @@ export default [
   },
   {
     id: 30816,
-    name: "Tsukuyomi's Moonlit Kunai",
+    name: '月读命幽夜苦无',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3686,7 +3686,7 @@ export default [
   },
   {
     id: 30817,
-    name: "Tsukuyomi's Moonlit Odachi",
+    name: '月读命幽夜大太刀',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3709,7 +3709,7 @@ export default [
   },
   {
     id: 30818,
-    name: "Tsukuyomi's Moonlit Revolver",
+    name: '月读命幽夜短铳',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3732,7 +3732,7 @@ export default [
   },
   {
     id: 30819,
-    name: "Tsukuyomi's Moonlit Cane",
+    name: '月读命幽夜锡杖',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3754,7 +3754,7 @@ export default [
   },
   {
     id: 30820,
-    name: "Tsukuyomi's Moonlit Rod",
+    name: '月读命幽夜咒杖',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3776,7 +3776,7 @@ export default [
   },
   {
     id: 30821,
-    name: "Tsukuyomi's Moonlit Grimoire",
+    name: '月读命幽夜经典',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3798,7 +3798,7 @@ export default [
   },
   {
     id: 30822,
-    name: "Tsukuyomi's Moonlit Codex",
+    name: '月读命幽夜文书',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3820,7 +3820,7 @@ export default [
   },
   {
     id: 30823,
-    name: "Tsukuyomi's Moonlit Ephemeris",
+    name: '月读命幽夜天仪',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3842,7 +3842,7 @@ export default [
   },
   {
     id: 30824,
-    name: "Tsukuyomi's Moonlit Chokuto",
+    name: '月读命幽夜直刀',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3865,7 +3865,7 @@ export default [
   },
   {
     id: 30825,
-    name: "Tsukuyomi's Moonlit Rapier",
+    name: '月读命幽夜细剑',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3887,7 +3887,7 @@ export default [
   },
   {
     id: 30826,
-    name: "Tsukuyomi's Moonlit Shield",
+    name: '月读命幽夜之盾',
     level: 290,
     rarity: 3,
     slot: 2,
@@ -3908,7 +3908,7 @@ export default [
   },
   {
     id: 30827,
-    name: "Suzaku's Flame-kissed Longsword",
+    name: '朱焰直剑',
     level: 290,
     rarity: 3,
     slot: 1,
@@ -3931,7 +3931,7 @@ export default [
   },
   {
     id: 30828,
-    name: "Suzaku's Flame-kissed Pinions",
+    name: '朱焰手甲',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3954,7 +3954,7 @@ export default [
   },
   {
     id: 30829,
-    name: "Suzaku's Flame-kissed Greataxe",
+    name: '朱焰大斧',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -3977,7 +3977,7 @@ export default [
   },
   {
     id: 30830,
-    name: "Suzaku's Flame-kissed Lance",
+    name: '朱焰长枪',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4000,7 +4000,7 @@ export default [
   },
   {
     id: 30831,
-    name: "Suzaku's Flame-kissed Greatbow",
+    name: '朱焰大弓',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4023,7 +4023,7 @@ export default [
   },
   {
     id: 30832,
-    name: "Suzaku's Flame-kissed Kunai",
+    name: '朱焰苦无',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4046,7 +4046,7 @@ export default [
   },
   {
     id: 30833,
-    name: "Suzaku's Flame-kissed Odachi",
+    name: '朱焰大太刀',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4069,7 +4069,7 @@ export default [
   },
   {
     id: 30834,
-    name: "Suzaku's Flame-kissed Revolver",
+    name: '朱焰短铳',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4092,7 +4092,7 @@ export default [
   },
   {
     id: 30835,
-    name: "Suzaku's Flame-kissed Cane",
+    name: '朱焰锡杖',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4114,7 +4114,7 @@ export default [
   },
   {
     id: 30836,
-    name: "Suzaku's Flame-kissed Rod",
+    name: '朱焰咒杖',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4136,7 +4136,7 @@ export default [
   },
   {
     id: 30837,
-    name: "Suzaku's Flame-kissed Grimoire",
+    name: '朱焰经典',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4158,7 +4158,7 @@ export default [
   },
   {
     id: 30838,
-    name: "Suzaku's Flame-kissed Codex",
+    name: '朱焰文书',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4180,7 +4180,7 @@ export default [
   },
   {
     id: 30839,
-    name: "Suzaku's Flame-kissed Ephemeris",
+    name: '朱焰天仪',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4202,7 +4202,7 @@ export default [
   },
   {
     id: 30840,
-    name: "Suzaku's Flame-kissed Chokuto",
+    name: '朱焰直刀',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4225,7 +4225,7 @@ export default [
   },
   {
     id: 30841,
-    name: "Suzaku's Flame-kissed Rapier",
+    name: '朱焰细剑',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4247,7 +4247,7 @@ export default [
   },
   {
     id: 30842,
-    name: "Suzaku's Flame-kissed Shield",
+    name: '朱焰大盾',
     level: 290,
     rarity: 3,
     slot: 2,
@@ -4268,7 +4268,7 @@ export default [
   },
   {
     id: 30843,
-    name: "Seiryu's Sanctified Longsword",
+    name: '青君直剑',
     level: 290,
     rarity: 3,
     slot: 1,
@@ -4291,7 +4291,7 @@ export default [
   },
   {
     id: 30844,
-    name: "Seiryu's Sanctified Tekko",
+    name: '青君手甲剑',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4314,7 +4314,7 @@ export default [
   },
   {
     id: 30845,
-    name: "Seiryu's Sanctified War Axe",
+    name: '青君战斧',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4337,7 +4337,7 @@ export default [
   },
   {
     id: 30846,
-    name: "Seiryu's Sanctified Lance",
+    name: '青君长枪',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4360,7 +4360,7 @@ export default [
   },
   {
     id: 30847,
-    name: "Seiryu's Sanctified Greatbow",
+    name: '青君大弓',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4383,7 +4383,7 @@ export default [
   },
   {
     id: 30848,
-    name: "Seiryu's Sanctified Daggers",
+    name: '青君短刀',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4406,7 +4406,7 @@ export default [
   },
   {
     id: 30849,
-    name: "Seiryu's Sanctified Spine",
+    name: '青君蛇腹剑',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4429,7 +4429,7 @@ export default [
   },
   {
     id: 30850,
-    name: "Seiryu's Sanctified Revolver",
+    name: '青君短铳',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4452,7 +4452,7 @@ export default [
   },
   {
     id: 30851,
-    name: "Seiryu's Sanctified Cane",
+    name: '青君锡杖',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4474,7 +4474,7 @@ export default [
   },
   {
     id: 30852,
-    name: "Seiryu's Sanctified Rod",
+    name: '青君咒杖',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4496,7 +4496,7 @@ export default [
   },
   {
     id: 30853,
-    name: "Seiryu's Sanctified Grimoire",
+    name: '青君经典',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4518,7 +4518,7 @@ export default [
   },
   {
     id: 30854,
-    name: "Seiryu's Sanctified Codex",
+    name: '青君文书',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4540,7 +4540,7 @@ export default [
   },
   {
     id: 30855,
-    name: "Seiryu's Sanctified Ephemeris",
+    name: '青君天仪',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4562,7 +4562,7 @@ export default [
   },
   {
     id: 30856,
-    name: "Seiryu's Sanctified Katana",
+    name: '青君鳞纹刀',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4585,7 +4585,7 @@ export default [
   },
   {
     id: 30857,
-    name: "Seiryu's Sanctified Rapier",
+    name: '青君细剑',
     level: 290,
     rarity: 3,
     slot: 13,
@@ -4607,7 +4607,7 @@ export default [
   },
   {
     id: 30858,
-    name: "Seiryu's Sanctified Shield",
+    name: '青君大盾',
     level: 290,
     rarity: 3,
     slot: 2,

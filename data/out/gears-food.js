@@ -2547,7 +2547,6 @@ export default [
       PCP: 3,
     },
     statMain: 'GP',
-    best: true,
   },
   {
     id: 12869,
@@ -4274,7 +4273,6 @@ export default [
     },
     statMain: 'CP',
     patch: '5.0',
-    best: true,
   },
   {
     id: 27877,
@@ -4817,7 +4815,7 @@ export default [
   },
   {
     id: 30481,
-    name: 'Crab Cakes',
+    name: '炸蟹饼',
     level: 480,
     slot: -1,
     jobCategory: 32,
@@ -4835,7 +4833,7 @@ export default [
   },
   {
     id: 30482,
-    name: 'Chili Crab',
+    name: '辣酱炒全蟹',
     level: 480,
     slot: -1,
     jobCategory: 33,

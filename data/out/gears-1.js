@@ -13193,7 +13193,7 @@ export default [
   },
   {
     id: 31420,
-    name: 'Plundered Falchion',
+    name: '掠夺弯刃刀',
     level: 17,
     rarity: 2,
     slot: 1,
@@ -13215,7 +13215,7 @@ export default [
   },
   {
     id: 31421,
-    name: 'Plundered Knuckles',
+    name: '掠夺指虎',
     level: 17,
     rarity: 2,
     slot: 13,
@@ -13237,7 +13237,7 @@ export default [
   },
   {
     id: 31422,
-    name: 'Plundered Battleaxe',
+    name: '掠夺战斧',
     level: 17,
     rarity: 2,
     slot: 13,
@@ -13259,7 +13259,7 @@ export default [
   },
   {
     id: 31423,
-    name: 'Plundered Guisarme',
+    name: '掠夺战戈',
     level: 17,
     rarity: 2,
     slot: 13,
@@ -13281,7 +13281,7 @@ export default [
   },
   {
     id: 31424,
-    name: 'Plundered Shortbow',
+    name: '掠夺短弓',
     level: 17,
     rarity: 2,
     slot: 13,
@@ -13303,7 +13303,7 @@ export default [
   },
   {
     id: 31425,
-    name: 'Plundered Knives',
+    name: '掠夺匕首',
     level: 17,
     rarity: 2,
     slot: 13,
@@ -13325,7 +13325,7 @@ export default [
   },
   {
     id: 31426,
-    name: 'Plundered Cane',
+    name: '掠夺牧杖',
     level: 17,
     rarity: 2,
     slot: 13,
@@ -13346,7 +13346,7 @@ export default [
   },
   {
     id: 31427,
-    name: 'Plundered Staff',
+    name: '掠夺长杖',
     level: 17,
     rarity: 2,
     slot: 13,
@@ -13367,7 +13367,7 @@ export default [
   },
   {
     id: 31428,
-    name: 'Plundered Grimoire',
+    name: '掠夺魔导书',
     level: 17,
     rarity: 2,
     slot: 13,
@@ -13389,7 +13389,7 @@ export default [
   },
   {
     id: 31429,
-    name: 'Plundered Round Shield',
+    name: '掠夺圆盾',
     level: 17,
     rarity: 2,
     slot: 2,
@@ -17251,7 +17251,7 @@ export default [
   },
   {
     id: 31430,
-    name: "Doctore's Vambraces",
+    name: '医师臂甲',
     level: 22,
     rarity: 2,
     slot: 5,
@@ -17271,7 +17271,7 @@ export default [
   },
   {
     id: 31431,
-    name: "Doctore's Trousers",
+    name: '医师软甲裤',
     level: 22,
     rarity: 2,
     slot: 7,
@@ -17291,7 +17291,7 @@ export default [
   },
   {
     id: 31432,
-    name: "Doctore's Sollerets",
+    name: '医师锁甲靴',
     level: 22,
     rarity: 2,
     slot: 8,
@@ -17311,7 +17311,7 @@ export default [
   },
   {
     id: 31433,
-    name: "Doctore's Belt of Resilience",
+    name: '医师弹性腰带',
     level: 22,
     rarity: 2,
     slot: 6,
@@ -17331,7 +17331,7 @@ export default [
   },
   {
     id: 31434,
-    name: "Doctore's Bracers",
+    name: '医师弓术手套',
     level: 22,
     rarity: 2,
     slot: 5,
@@ -17352,7 +17352,7 @@ export default [
   },
   {
     id: 31435,
-    name: "Doctore's Subligar",
+    name: '医师三角裤',
     level: 22,
     rarity: 2,
     slot: 7,
@@ -17373,7 +17373,7 @@ export default [
   },
   {
     id: 31436,
-    name: "Doctore's Caligae",
+    name: '医师战靴',
     level: 22,
     rarity: 2,
     slot: 8,
@@ -17394,7 +17394,7 @@ export default [
   },
   {
     id: 31437,
-    name: "Doctore's Belt of War",
+    name: '医师战斗腰带',
     level: 22,
     rarity: 2,
     slot: 6,
@@ -17415,7 +17415,7 @@ export default [
   },
   {
     id: 31438,
-    name: "Doctore's Ringbands",
+    name: '医师手箍',
     level: 22,
     rarity: 2,
     slot: 5,
@@ -17436,7 +17436,7 @@ export default [
   },
   {
     id: 31439,
-    name: "Doctore's Tights",
+    name: '医师紧身裤',
     level: 22,
     rarity: 2,
     slot: 7,
@@ -17457,7 +17457,7 @@ export default [
   },
   {
     id: 31440,
-    name: "Doctore's Crakows",
+    name: '医师尖头靴',
     level: 22,
     rarity: 2,
     slot: 8,
@@ -17478,7 +17478,7 @@ export default [
   },
   {
     id: 31441,
-    name: "Doctore's Belt of Magic",
+    name: '医师术士腰带',
     level: 22,
     rarity: 2,
     slot: 6,
@@ -17499,7 +17499,7 @@ export default [
   },
   {
     id: 31649,
-    name: "Doctore's Buckler",
+    name: '医师小圆盾',
     level: 22,
     rarity: 2,
     slot: 2,
@@ -21103,7 +21103,7 @@ export default [
   },
   {
     id: 31442,
-    name: "Warden's Trousers",
+    name: '狱卒软甲裤',
     level: 26,
     rarity: 2,
     slot: 7,
@@ -21123,7 +21123,7 @@ export default [
   },
   {
     id: 31443,
-    name: "Warden's Leggings",
+    name: '狱卒护腿',
     level: 26,
     rarity: 2,
     slot: 8,
@@ -21143,7 +21143,7 @@ export default [
   },
   {
     id: 31444,
-    name: "Warden's Belt",
+    name: '狱卒腰带',
     level: 26,
     rarity: 2,
     slot: 6,
@@ -21163,7 +21163,7 @@ export default [
   },
   {
     id: 31445,
-    name: "Brigand's Breeches",
+    name: '劫道马裤',
     level: 26,
     rarity: 2,
     slot: 7,
@@ -21184,7 +21184,7 @@ export default [
   },
   {
     id: 31446,
-    name: "Brigand's Leggings",
+    name: '劫道护腿',
     level: 26,
     rarity: 2,
     slot: 8,
@@ -21205,7 +21205,7 @@ export default [
   },
   {
     id: 31447,
-    name: "Brigand's Belt",
+    name: '劫道腰带',
     level: 26,
     rarity: 2,
     slot: 6,
@@ -21226,7 +21226,7 @@ export default [
   },
   {
     id: 31448,
-    name: "Ascetic's Halfgloves",
+    name: '苦行者半手套',
     level: 26,
     rarity: 2,
     slot: 5,
@@ -21247,7 +21247,7 @@ export default [
   },
   {
     id: 31449,
-    name: "Ascetic's Belt",
+    name: '苦行者腰带',
     level: 26,
     rarity: 2,
     slot: 6,
@@ -25816,7 +25816,7 @@ export default [
   },
   {
     id: 30807,
-    name: "Katana of the King's Counsel",
+    name: '怪刀·浮世丸',
     level: 30,
     rarity: 1,
     slot: 13,
@@ -25838,7 +25838,7 @@ export default [
   },
   {
     id: 30808,
-    name: 'Rapier of the Serpent Lord',
+    name: '蛇王刺剑',
     level: 30,
     rarity: 1,
     slot: 13,
@@ -25859,7 +25859,7 @@ export default [
   },
   {
     id: 30809,
-    name: 'Gunblade of the Yo-kai King',
+    name: '阎魔枪刃',
     level: 30,
     rarity: 1,
     slot: 13,
@@ -25879,7 +25879,7 @@ export default [
   },
   {
     id: 30810,
-    name: 'Glaives of the Dark Princess',
+    name: '百鬼圆阵',
     level: 30,
     rarity: 1,
     slot: 13,
@@ -25901,7 +25901,7 @@ export default [
   },
   {
     id: 31450,
-    name: 'Manor Elmo',
+    name: '庄园头盔',
     level: 30,
     rarity: 2,
     slot: 3,
@@ -25921,7 +25921,7 @@ export default [
   },
   {
     id: 31451,
-    name: 'Manor Scale Mail',
+    name: '庄园鳞铠',
     level: 30,
     rarity: 2,
     slot: 4,
@@ -25941,7 +25941,7 @@ export default [
   },
   {
     id: 31452,
-    name: 'Manor Scale Fingers',
+    name: '庄园鳞指套',
     level: 30,
     rarity: 2,
     slot: 5,
@@ -25961,7 +25961,7 @@ export default [
   },
   {
     id: 31453,
-    name: 'Manor Breeches',
+    name: '庄园马裤',
     level: 30,
     rarity: 2,
     slot: 7,
@@ -25981,7 +25981,7 @@ export default [
   },
   {
     id: 31454,
-    name: 'Manor Scale Greaves',
+    name: '庄园鳞胫甲',
     level: 30,
     rarity: 2,
     slot: 8,
@@ -26001,7 +26001,7 @@ export default [
   },
   {
     id: 31455,
-    name: 'Manor Belt of Resilience',
+    name: '庄园弹性腰带',
     level: 30,
     rarity: 2,
     slot: 6,
@@ -26021,7 +26021,7 @@ export default [
   },
   {
     id: 31456,
-    name: 'Manor Bandana',
+    name: '庄园头巾',
     level: 30,
     rarity: 2,
     slot: 3,
@@ -26042,7 +26042,7 @@ export default [
   },
   {
     id: 31457,
-    name: 'Manor Shirt',
+    name: '庄园衬衫',
     level: 30,
     rarity: 2,
     slot: 4,
@@ -26063,7 +26063,7 @@ export default [
   },
   {
     id: 31458,
-    name: 'Manor Field Dressing',
+    name: '庄园缠手带',
     level: 30,
     rarity: 2,
     slot: 5,
@@ -26084,7 +26084,7 @@ export default [
   },
   {
     id: 31459,
-    name: 'Manor Gaskins',
+    name: '庄园束膝裤',
     level: 30,
     rarity: 2,
     slot: 7,
@@ -26105,7 +26105,7 @@ export default [
   },
   {
     id: 31460,
-    name: 'Manor Sandals',
+    name: '庄园凉鞋',
     level: 30,
     rarity: 2,
     slot: 8,
@@ -26126,7 +26126,7 @@ export default [
   },
   {
     id: 31461,
-    name: 'Manor Belt of War',
+    name: '庄园战斗腰带',
     level: 30,
     rarity: 2,
     slot: 6,
@@ -26147,7 +26147,7 @@ export default [
   },
   {
     id: 31462,
-    name: 'Manor Beret',
+    name: '庄园贝雷帽',
     level: 30,
     rarity: 2,
     slot: 3,
@@ -26168,7 +26168,7 @@ export default [
   },
   {
     id: 31463,
-    name: 'Manor Halfrobe',
+    name: '庄园短袍',
     level: 30,
     rarity: 2,
     slot: 4,
@@ -26189,7 +26189,7 @@ export default [
   },
   {
     id: 31464,
-    name: 'Manor Halfgloves',
+    name: '庄园半指手套',
     level: 30,
     rarity: 2,
     slot: 5,
@@ -26210,7 +26210,7 @@ export default [
   },
   {
     id: 31465,
-    name: 'Manor Chausses',
+    name: '庄园裤袜',
     level: 30,
     rarity: 2,
     slot: 7,
@@ -26231,7 +26231,7 @@ export default [
   },
   {
     id: 31466,
-    name: 'Manor Shoes',
+    name: '庄园皮靴',
     level: 30,
     rarity: 2,
     slot: 8,
@@ -26252,7 +26252,7 @@ export default [
   },
   {
     id: 31467,
-    name: 'Manor Belt of Magic',
+    name: '庄园术士腰带',
     level: 30,
     rarity: 2,
     slot: 6,
@@ -30072,7 +30072,7 @@ export default [
   },
   {
     id: 31468,
-    name: 'Longstop Sword',
+    name: '抑制长剑',
     level: 34,
     rarity: 2,
     slot: 1,
@@ -30094,7 +30094,7 @@ export default [
   },
   {
     id: 31469,
-    name: 'Longstop Hora',
+    name: '抑制骨拳',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30116,7 +30116,7 @@ export default [
   },
   {
     id: 31470,
-    name: 'Longstop Labrys',
+    name: '抑制双刃斧',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30138,7 +30138,7 @@ export default [
   },
   {
     id: 31471,
-    name: 'Longstop Lance',
+    name: '抑制骑枪',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30160,7 +30160,7 @@ export default [
   },
   {
     id: 31472,
-    name: 'Longstop Bow',
+    name: '抑制短弓',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30182,7 +30182,7 @@ export default [
   },
   {
     id: 31473,
-    name: 'Longstop Baselards',
+    name: '抑制短刀',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30204,7 +30204,7 @@ export default [
   },
   {
     id: 31474,
-    name: 'Longstop Greatsword',
+    name: '抑制巨剑',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30226,7 +30226,7 @@ export default [
   },
   {
     id: 31475,
-    name: 'Longstop Arquebus',
+    name: '抑制明火枪',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30248,7 +30248,7 @@ export default [
   },
   {
     id: 31476,
-    name: 'Longstop Crook',
+    name: '抑制手杖',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30269,7 +30269,7 @@ export default [
   },
   {
     id: 31477,
-    name: 'Longstop Pole',
+    name: '抑制玉杖',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30290,7 +30290,7 @@ export default [
   },
   {
     id: 31478,
-    name: 'Longstop Grimoire',
+    name: '抑制魔导书',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30312,7 +30312,7 @@ export default [
   },
   {
     id: 31479,
-    name: 'Longstop Globe',
+    name: '抑制天球仪',
     level: 34,
     rarity: 2,
     slot: 13,
@@ -30333,7 +30333,7 @@ export default [
   },
   {
     id: 31480,
-    name: 'Longstop Hoplon',
+    name: '抑制重盾',
     level: 34,
     rarity: 2,
     slot: 2,
@@ -32993,7 +32993,7 @@ export default [
   },
   {
     id: 31481,
-    name: 'Qarn Circlet',
+    name: '喀恩头冠',
     level: 37,
     rarity: 2,
     slot: 3,
@@ -33013,7 +33013,7 @@ export default [
   },
   {
     id: 31482,
-    name: 'Qarn Chainmail',
+    name: '喀恩链甲',
     level: 37,
     rarity: 2,
     slot: 4,
@@ -33033,7 +33033,7 @@ export default [
   },
   {
     id: 31483,
-    name: 'Qarn Vambraces',
+    name: '喀恩臂甲',
     level: 37,
     rarity: 2,
     slot: 5,
@@ -33053,7 +33053,7 @@ export default [
   },
   {
     id: 31484,
-    name: 'Qarn Breeches of Resilience',
+    name: '喀恩弹性马裤',
     level: 37,
     rarity: 2,
     slot: 7,
@@ -33073,7 +33073,7 @@ export default [
   },
   {
     id: 31485,
-    name: 'Qarn Boots',
+    name: '喀恩长靴',
     level: 37,
     rarity: 2,
     slot: 8,
@@ -33093,7 +33093,7 @@ export default [
   },
   {
     id: 31486,
-    name: 'Qarn Belt of Resilience',
+    name: '喀恩弹性腰带',
     level: 37,
     rarity: 2,
     slot: 6,
@@ -33113,7 +33113,7 @@ export default [
   },
   {
     id: 31487,
-    name: 'Qarn Goggles',
+    name: '喀恩护目镜',
     level: 37,
     rarity: 2,
     slot: 3,
@@ -33134,7 +33134,7 @@ export default [
   },
   {
     id: 31488,
-    name: 'Qarn Jackcoat',
+    name: '喀恩外套',
     level: 37,
     rarity: 2,
     slot: 4,
@@ -33155,7 +33155,7 @@ export default [
   },
   {
     id: 31489,
-    name: 'Qarn Gloves',
+    name: '喀恩手套',
     level: 37,
     rarity: 2,
     slot: 5,
@@ -33176,7 +33176,7 @@ export default [
   },
   {
     id: 31490,
-    name: 'Qarn Breeches of War',
+    name: '喀恩战斗马裤',
     level: 37,
     rarity: 2,
     slot: 7,
@@ -33197,7 +33197,7 @@ export default [
   },
   {
     id: 31491,
-    name: 'Qarn Jackboots',
+    name: '喀恩长筒靴',
     level: 37,
     rarity: 2,
     slot: 8,
@@ -33218,7 +33218,7 @@ export default [
   },
   {
     id: 31492,
-    name: 'Qarn Belt of War',
+    name: '喀恩战斗腰带',
     level: 37,
     rarity: 2,
     slot: 6,
@@ -33239,7 +33239,7 @@ export default [
   },
   {
     id: 31493,
-    name: 'Qarn Cowl',
+    name: '喀恩僧袍',
     level: 37,
     rarity: 2,
     slot: 15,
@@ -33260,7 +33260,7 @@ export default [
   },
   {
     id: 31494,
-    name: 'Qarn Halfgloves',
+    name: '喀恩半指手套',
     level: 37,
     rarity: 2,
     slot: 5,
@@ -33281,7 +33281,7 @@ export default [
   },
   {
     id: 31495,
-    name: 'Qarn Breeches of Magic',
+    name: '喀恩术士马裤',
     level: 37,
     rarity: 2,
     slot: 7,
@@ -33302,7 +33302,7 @@ export default [
   },
   {
     id: 31496,
-    name: 'Qarn Duckbills',
+    name: '喀恩鸭嘴靴',
     level: 37,
     rarity: 2,
     slot: 8,
@@ -33323,7 +33323,7 @@ export default [
   },
   {
     id: 31497,
-    name: 'Qarn Belt of Magic',
+    name: '喀恩术士腰带',
     level: 37,
     rarity: 2,
     slot: 6,
@@ -33344,7 +33344,7 @@ export default [
   },
   {
     id: 31650,
-    name: 'Qarn Kite Shield',
+    name: '喀恩鸢盾',
     level: 37,
     rarity: 2,
     slot: 2,
@@ -37995,7 +37995,7 @@ export default [
   },
   {
     id: 31498,
-    name: 'Conquistador Vambraces',
+    name: '征服者臂甲',
     level: 40,
     rarity: 2,
     slot: 5,
@@ -38015,7 +38015,7 @@ export default [
   },
   {
     id: 31499,
-    name: 'Conquistador Thighboots',
+    name: '征服者高筒靴',
     level: 40,
     rarity: 2,
     slot: 8,
@@ -38035,7 +38035,7 @@ export default [
   },
   {
     id: 31500,
-    name: "Poacher's Kecks",
+    name: '偷猎者腿套',
     level: 40,
     rarity: 2,
     slot: 7,
@@ -38056,7 +38056,7 @@ export default [
   },
   {
     id: 31501,
-    name: 'Divining Halfgloves',
+    name: '占卜半指手套',
     level: 40,
     rarity: 2,
     slot: 5,
@@ -38077,7 +38077,7 @@ export default [
   },
   {
     id: 31502,
-    name: 'Divining Gaskins',
+    name: '占卜束膝裤',
     level: 40,
     rarity: 2,
     slot: 7,
@@ -38098,7 +38098,7 @@ export default [
   },
   {
     id: 31503,
-    name: 'Divining Moccasins',
+    name: '占卜狩猎靴',
     level: 40,
     rarity: 2,
     slot: 8,
@@ -38119,7 +38119,7 @@ export default [
   },
   {
     id: 31504,
-    name: 'Divining Plate Belt',
+    name: '占卜护腰带',
     level: 40,
     rarity: 2,
     slot: 6,
@@ -38140,7 +38140,7 @@ export default [
   },
   {
     id: 31505,
-    name: "Crier's Broadsword",
+    name: '哭鸣宽刃剑',
     level: 40,
     rarity: 2,
     slot: 1,
@@ -38162,7 +38162,7 @@ export default [
   },
   {
     id: 31506,
-    name: "Crier's Baghnakhs",
+    name: '哭鸣虎爪',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38184,7 +38184,7 @@ export default [
   },
   {
     id: 31507,
-    name: "Crier's Bhuj",
+    name: '哭鸣长刃斧',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38206,7 +38206,7 @@ export default [
   },
   {
     id: 31508,
-    name: "Crier's Halberd",
+    name: '哭鸣战戟',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38228,7 +38228,7 @@ export default [
   },
   {
     id: 31509,
-    name: "Crier's Composite Bow",
+    name: '哭鸣复合弓',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38250,7 +38250,7 @@ export default [
   },
   {
     id: 31510,
-    name: "Crier's Knives",
+    name: '哭鸣匕首',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38272,7 +38272,7 @@ export default [
   },
   {
     id: 31511,
-    name: "Crier's Claymore",
+    name: '哭鸣大剑',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38294,7 +38294,7 @@ export default [
   },
   {
     id: 31512,
-    name: "Crier's Carbine",
+    name: '哭鸣步枪',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38316,7 +38316,7 @@ export default [
   },
   {
     id: 31513,
-    name: "Crier's Radical",
+    name: '哭鸣根杖',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38337,7 +38337,7 @@ export default [
   },
   {
     id: 31514,
-    name: "Crier's Staff",
+    name: '哭鸣长杖',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38358,7 +38358,7 @@ export default [
   },
   {
     id: 31515,
-    name: "Crier's Grimoire",
+    name: '哭鸣魔导书',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38380,7 +38380,7 @@ export default [
   },
   {
     id: 31516,
-    name: "Crier's Star Globe",
+    name: '哭鸣天球仪',
     level: 40,
     rarity: 2,
     slot: 13,
@@ -38401,7 +38401,7 @@ export default [
   },
   {
     id: 31517,
-    name: "Crier's Scutum",
+    name: '哭鸣步兵盾',
     level: 40,
     rarity: 2,
     slot: 2,
@@ -38421,7 +38421,7 @@ export default [
   },
   {
     id: 31651,
-    name: 'Conquistador Plate Belt',
+    name: '征服者护腰带',
     level: 40,
     rarity: 2,
     slot: 6,
@@ -42516,7 +42516,7 @@ export default [
   },
   {
     id: 31518,
-    name: 'Vigil Coif',
+    name: '城塞兜帽',
     level: 43,
     rarity: 2,
     slot: 3,
@@ -42536,7 +42536,7 @@ export default [
   },
   {
     id: 31519,
-    name: 'Vigil Haubergeon',
+    name: '城塞锁子铠',
     level: 43,
     rarity: 2,
     slot: 4,
@@ -42556,7 +42556,7 @@ export default [
   },
   {
     id: 31520,
-    name: 'Vigil Vambraces',
+    name: '城塞臂甲',
     level: 43,
     rarity: 2,
     slot: 5,
@@ -42576,7 +42576,7 @@ export default [
   },
   {
     id: 31521,
-    name: 'Vigil Skirt',
+    name: '城塞短裙',
     level: 43,
     rarity: 2,
     slot: 7,
@@ -42596,7 +42596,7 @@ export default [
   },
   {
     id: 31522,
-    name: 'Vigil Sollerets',
+    name: '城塞锁甲靴',
     level: 43,
     rarity: 2,
     slot: 8,
@@ -42616,7 +42616,7 @@ export default [
   },
   {
     id: 31523,
-    name: 'Vigil Tassets of Resilience',
+    name: '城塞弹性腰甲',
     level: 43,
     rarity: 2,
     slot: 6,
@@ -42636,7 +42636,7 @@ export default [
   },
   {
     id: 31524,
-    name: 'Vigil Eyepatch',
+    name: '城塞眼罩',
     level: 43,
     rarity: 2,
     slot: 3,
@@ -42657,7 +42657,7 @@ export default [
   },
   {
     id: 31525,
-    name: 'Vigil Shirt',
+    name: '城塞衬衫',
     level: 43,
     rarity: 2,
     slot: 4,
@@ -42678,7 +42678,7 @@ export default [
   },
   {
     id: 31526,
-    name: 'Vigil Cuffs',
+    name: '城塞护袖',
     level: 43,
     rarity: 2,
     slot: 5,
@@ -42699,7 +42699,7 @@ export default [
   },
   {
     id: 31527,
-    name: 'Vigil Sarouel',
+    name: '城塞垮裤',
     level: 43,
     rarity: 2,
     slot: 7,
@@ -42720,7 +42720,7 @@ export default [
   },
   {
     id: 31528,
-    name: 'Vigil Boots',
+    name: '城塞长筒靴',
     level: 43,
     rarity: 2,
     slot: 8,
@@ -42741,7 +42741,7 @@ export default [
   },
   {
     id: 31529,
-    name: 'Vigil Tassets of War',
+    name: '城塞战斗腰甲',
     level: 43,
     rarity: 2,
     slot: 6,
@@ -42762,7 +42762,7 @@ export default [
   },
   {
     id: 31530,
-    name: 'Vigil Hat',
+    name: '城塞宽边帽',
     level: 43,
     rarity: 2,
     slot: 3,
@@ -42783,7 +42783,7 @@ export default [
   },
   {
     id: 31531,
-    name: 'Vigil Robe',
+    name: '城塞长袍',
     level: 43,
     rarity: 2,
     slot: 4,
@@ -42804,7 +42804,7 @@ export default [
   },
   {
     id: 31532,
-    name: 'Vigil Ringbands',
+    name: '城塞手箍',
     level: 43,
     rarity: 2,
     slot: 5,
@@ -42825,7 +42825,7 @@ export default [
   },
   {
     id: 31533,
-    name: 'Vigil Tights',
+    name: '城塞紧身裤',
     level: 43,
     rarity: 2,
     slot: 7,
@@ -42846,7 +42846,7 @@ export default [
   },
   {
     id: 31534,
-    name: 'Vigil Pattens',
+    name: '城塞木鞋',
     level: 43,
     rarity: 2,
     slot: 8,
@@ -42867,7 +42867,7 @@ export default [
   },
   {
     id: 31535,
-    name: 'Vigil Tassets of Magic',
+    name: '城塞术士腰甲',
     level: 43,
     rarity: 2,
     slot: 6,
@@ -42888,7 +42888,7 @@ export default [
   },
   {
     id: 31554,
-    name: 'Vigil Canopus Shield',
+    name: '城塞古盾',
     level: 43,
     rarity: 2,
     slot: 2,
@@ -46987,7 +46987,7 @@ export default [
   },
   {
     id: 31536,
-    name: "Templar's Vambraces",
+    name: '圣堂臂甲',
     level: 46,
     rarity: 2,
     slot: 5,
@@ -47007,7 +47007,7 @@ export default [
   },
   {
     id: 31537,
-    name: "Templar's Skirt",
+    name: '圣堂短裙',
     level: 46,
     rarity: 2,
     slot: 7,
@@ -47027,7 +47027,7 @@ export default [
   },
   {
     id: 31538,
-    name: "Buccaneer's Gloves",
+    name: '海盗手套',
     level: 46,
     rarity: 2,
     slot: 5,
@@ -47048,7 +47048,7 @@ export default [
   },
   {
     id: 31539,
-    name: "Buccaneer's Sarouel",
+    name: '海盗垮裤',
     level: 46,
     rarity: 2,
     slot: 7,
@@ -47069,7 +47069,7 @@ export default [
   },
   {
     id: 31540,
-    name: "Harlequin's Mitts",
+    name: '滑稽连指手套',
     level: 46,
     rarity: 2,
     slot: 5,
@@ -47090,7 +47090,7 @@ export default [
   },
   {
     id: 31541,
-    name: "Harlequin's Boots",
+    name: '滑稽长筒靴',
     level: 46,
     rarity: 2,
     slot: 8,
@@ -47111,7 +47111,7 @@ export default [
   },
   {
     id: 31542,
-    name: 'Dzemael Winglet',
+    name: '泽梅尔翼剑',
     level: 46,
     rarity: 2,
     slot: 1,
@@ -47133,7 +47133,7 @@ export default [
   },
   {
     id: 31543,
-    name: 'Dzemael Jamadhars',
+    name: '泽梅尔拳锋',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47155,7 +47155,7 @@ export default [
   },
   {
     id: 31544,
-    name: 'Dzemael Bardiche',
+    name: '泽梅尔巨斧',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47177,7 +47177,7 @@ export default [
   },
   {
     id: 31545,
-    name: 'Dzemael Spear',
+    name: '泽梅尔长枪',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47199,7 +47199,7 @@ export default [
   },
   {
     id: 31546,
-    name: 'Dzemael Longbow',
+    name: '泽梅尔长弓',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47221,7 +47221,7 @@ export default [
   },
   {
     id: 31547,
-    name: 'Dzemael Pugiones',
+    name: '泽梅尔辅剑',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47243,7 +47243,7 @@ export default [
   },
   {
     id: 31548,
-    name: 'Dzemael Zweihander',
+    name: '泽梅尔双手剑',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47265,7 +47265,7 @@ export default [
   },
   {
     id: 31549,
-    name: 'Dzemael Carbine',
+    name: '泽梅尔步枪',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47287,7 +47287,7 @@ export default [
   },
   {
     id: 31550,
-    name: 'Dzemael Whispering Rod',
+    name: '泽梅尔低语',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47308,7 +47308,7 @@ export default [
   },
   {
     id: 31551,
-    name: 'Dzemael Staff',
+    name: '泽梅尔长杖',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47329,7 +47329,7 @@ export default [
   },
   {
     id: 31552,
-    name: 'The Book of Dzemael',
+    name: '泽梅尔之书',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -47351,7 +47351,7 @@ export default [
   },
   {
     id: 31553,
-    name: 'Dzemael Planisphere',
+    name: '泽梅尔天星盘',
     level: 46,
     rarity: 2,
     slot: 13,
@@ -52288,7 +52288,7 @@ export default [
   },
   {
     id: 31555,
-    name: 'Aurum Celata',
+    name: '皇金头盔',
     level: 49,
     rarity: 2,
     slot: 3,
@@ -52308,7 +52308,7 @@ export default [
   },
   {
     id: 31556,
-    name: 'Aurum Cuirass',
+    name: '皇金胸甲',
     level: 49,
     rarity: 2,
     slot: 4,
@@ -52328,7 +52328,7 @@ export default [
   },
   {
     id: 31557,
-    name: 'Aurum Gauntlets',
+    name: '皇金连指手铠',
     level: 49,
     rarity: 2,
     slot: 5,
@@ -52348,7 +52348,7 @@ export default [
   },
   {
     id: 31558,
-    name: 'Aurum Trousers',
+    name: '皇金软甲裤',
     level: 49,
     rarity: 2,
     slot: 7,
@@ -52368,7 +52368,7 @@ export default [
   },
   {
     id: 31559,
-    name: 'Aurum Sabatons',
+    name: '皇金铠靴',
     level: 49,
     rarity: 2,
     slot: 8,
@@ -52388,7 +52388,7 @@ export default [
   },
   {
     id: 31560,
-    name: 'Aurum Twinbelt of Resilience',
+    name: '皇金弹性交叉腰带',
     level: 49,
     rarity: 2,
     slot: 6,
@@ -52408,7 +52408,7 @@ export default [
   },
   {
     id: 31561,
-    name: 'Aurum Pot Helm',
+    name: '皇金盔帽',
     level: 49,
     rarity: 2,
     slot: 3,
@@ -52429,7 +52429,7 @@ export default [
   },
   {
     id: 31562,
-    name: 'Aurum Jacket',
+    name: '皇金皮甲',
     level: 49,
     rarity: 2,
     slot: 4,
@@ -52450,7 +52450,7 @@ export default [
   },
   {
     id: 31563,
-    name: 'Aurum Armguards',
+    name: '皇金护臂',
     level: 49,
     rarity: 2,
     slot: 5,
@@ -52471,7 +52471,7 @@ export default [
   },
   {
     id: 31564,
-    name: 'Aurum Brais',
+    name: '皇金衬裤',
     level: 49,
     rarity: 2,
     slot: 7,
@@ -52492,7 +52492,7 @@ export default [
   },
   {
     id: 31565,
-    name: 'Aurum Leg Guards',
+    name: '皇金腿甲靴',
     level: 49,
     rarity: 2,
     slot: 8,
@@ -52513,7 +52513,7 @@ export default [
   },
   {
     id: 31566,
-    name: 'Aurum Twinbelt of War',
+    name: '皇金战斗交叉腰带',
     level: 49,
     rarity: 2,
     slot: 6,
@@ -52534,7 +52534,7 @@ export default [
   },
   {
     id: 31567,
-    name: 'Aurum Temple Chain',
+    name: '皇金头链',
     level: 49,
     rarity: 2,
     slot: 3,
@@ -52555,7 +52555,7 @@ export default [
   },
   {
     id: 31568,
-    name: 'Aurum Chasuble',
+    name: '皇金长袍',
     level: 49,
     rarity: 2,
     slot: 4,
@@ -52576,7 +52576,7 @@ export default [
   },
   {
     id: 31569,
-    name: 'Aurum Dress Gloves',
+    name: '皇金礼服手套',
     level: 49,
     rarity: 2,
     slot: 5,
@@ -52597,7 +52597,7 @@ export default [
   },
   {
     id: 31570,
-    name: 'Aurum Smalls',
+    name: '皇金短裤',
     level: 49,
     rarity: 2,
     slot: 7,
@@ -52618,7 +52618,7 @@ export default [
   },
   {
     id: 31571,
-    name: 'Aurum Boots',
+    name: '皇金长筒靴',
     level: 49,
     rarity: 2,
     slot: 8,
@@ -52639,7 +52639,7 @@ export default [
   },
   {
     id: 31572,
-    name: 'Aurum Twinbelt of Magic',
+    name: '皇金术士交叉腰带',
     level: 49,
     rarity: 2,
     slot: 6,
