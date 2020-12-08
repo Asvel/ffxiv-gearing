@@ -118,7 +118,7 @@ const slotSchemaCrafting = [
   { slot: -1, name: '食物', levelWeight: 0 },
 ];
 
-const defaultItemLevelCombat = [490, 505];
+const defaultItemLevelCombat = [490, 535];
 const defaultItemLevelCrafting = [490, 500];
 const defaultItemLevelGathering = defaultItemLevelCrafting;
 

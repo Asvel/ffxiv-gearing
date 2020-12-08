@@ -21,7 +21,7 @@ function loadExd(filename) {
 }
 
 const versions = {
-  data: '5.35',
+  data: '5.4',
   released: '5.3',  // released version of chinese datacenter
 };
 
@@ -48,6 +48,7 @@ const patches = {
   62: '5.1', 63: '5.11', 65: '5.15',
   66: '5.2', 67: '5.21', 68: '5.25',
   69: '5.3', 70: '5.31', 71: '5.35',
+  72: '5.4'
 };
 
 const sources = require('./in/sources');
