@@ -205,7 +205,7 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
       <Ripple>
         <a
           className="gear-menu_item"
-          href={`http://www.garlandtools.org/db/#item/` + gear.id}
+          href={`http://www.garlandtools.org/db/#item/` + Math.abs(gear.id)}
           target="_blank"
           tabIndex={0}
         >
@@ -215,7 +215,7 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
       <Ripple>
         <a
           className="gear-menu_item"
-          href={`./lodestone?jp:${gear.id}`}
+          href={`./lodestone?jp:${Math.abs(gear.id)}`}
           target="_blank"
           tabIndex={0}
         >
