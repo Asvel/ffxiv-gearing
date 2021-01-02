@@ -98,6 +98,9 @@ export const Store = types
     get itemLevelSync (): number {
       return 475
     },
+    get equippedStatsWithoutFood (): G.Stats {
+      if (self.job === undefined) return {}
+      const stats: G.Stats = Object.assign({}, this.baseStats)
       const syncedItemLevel = this.itemLevelSync
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined) continue;
