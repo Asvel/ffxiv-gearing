@@ -1,4 +1,19 @@
 export default {
+  345: {
+    1: { 'VIT': 234, 'MainAttr': 220, 'SecondaryAttr': 200 },
+    2: { 'VIT': 94, 'MainAttr': 88, 'SecondaryAttr': 80 },
+    3: { 'VIT': 188, 'MainAttr': 176, 'SecondaryAttr': 160 },
+    4: { 'VIT': 305, 'MainAttr': 286, 'SecondaryAttr': 260 },
+    5: { 'VIT': 188, 'MainAttr': 176, 'SecondaryAttr': 160 },
+    6: { 'VIT': 141, 'MainAttr': 132, 'SecondaryAttr': 120 },
+    7: { 'VIT': 305, 'MainAttr': 286, 'SecondaryAttr': 260 },
+    8: { 'VIT': 188, 'MainAttr': 176, 'SecondaryAttr': 160 },
+    9: { 'VIT': 141, 'MainAttr': 132, 'SecondaryAttr': 120 },
+    10: { 'VIT': 141, 'MainAttr': 132, 'SecondaryAttr': 120 },
+    11: { 'VIT': 141, 'MainAttr': 132, 'SecondaryAttr': 120 },
+    12: { 'VIT': 141, 'MainAttr': 132, 'SecondaryAttr': 120 },
+    13: { 'VIT': 328, 'MainAttr': 308, 'SecondaryAttr': 280 },
+  },
   375: {
     1: { 'VIT': 279, 'MainAttr': 254, 'SecondaryAttr': 227 }, // 副手
     2: { 'VIT': 112, 'MainAttr': 101, 'SecondaryAttr': 91 },
@@ -12,9 +27,9 @@ export default {
     10: { 'VIT': 168, 'MainAttr': 152, 'SecondaryAttr': 136 },
     11: { 'VIT': 168, 'MainAttr': 152, 'SecondaryAttr': 136 },
     12: { 'VIT': 168, 'MainAttr': 152, 'SecondaryAttr': 136 },
-    13: { 'VIT': 391, 'MainAttr': 355, 'SecondaryAttr': 318 }
-  }
-  ,
+    13: { 'VIT': 391, 'MainAttr': 355, 'SecondaryAttr': 318 },
+  },
+  // todo: 435
   475: {
     1: { 'VIT': 418, 'MainAttr': 389, 'SecondaryAttr': 334 },
     2: { 'VIT': 167, 'MainAttr': 155, 'SecondaryAttr': 133 },
@@ -28,6 +43,6 @@ export default {
     10: { 'VIT': 251, 'MainAttr': 233, 'SecondaryAttr': 200 },
     11: { 'VIT': 251, 'MainAttr': 233, 'SecondaryAttr': 200 },
     12: { 'VIT': 251, 'MainAttr': 233, 'SecondaryAttr': 200 },
-    13: { 'VIT': 585, 'MainAttr': 544, 'SecondaryAttr': 467 }
+    13: { 'VIT': 585, 'MainAttr': 544, 'SecondaryAttr': 467 },
   }
 }
