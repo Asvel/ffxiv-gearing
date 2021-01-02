@@ -1,11 +1,7 @@
-import { autorun, reaction, untracked } from 'mobx';
-import { types, getEnv, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
-import * as G from '../game';
-import * as share from '../share';
-import { floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
-  gearDataOrdered, gearDataLoading, loadGearDataOfLevelRange } from '.';
+import itemLevelCaps from './itemLevelCaps'
 
-const globalClanKey = 'ffxiv-gearing-clan';
+const MainAttrKeys = ['STR']
+const SecondaryAttrKeys = ['DHT', 'DET', 'CRT', 'TEN', 'SKS']
 
 export type Mode = 'edit' | 'view';
 
@@ -99,18 +95,36 @@ export const Store = types
       }
       return stats;
     },
-    get equippedStatsWithoutFood(): G.Stats {
-      if (self.job === undefined) return {};
-      const stats: G.Stats = Object.assign({}, this.baseStats);
+    get itemLevelSync (): number {
+      return 475
+    },
+      const syncedItemLevel = this.itemLevelSync
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined) continue;
         if (!gear.isFood) {
+          const {
+            MainAttr,
+            VIT,
+            SecondaryAttr
+          } = itemLevelCaps[syncedItemLevel][gear.slot]
           for (const stat of Object.keys(gear.stats) as G.Stat[]) {
-            stats[stat] = stats[stat]! + gear.stats[stat]!;
+            let cap = 0
+            if (stat === 'VIT') {
+              cap = VIT
+            } else if (MainAttrKeys.includes(stat)) {
+              cap = MainAttr
+            } else if (SecondaryAttrKeys.includes(stat)) {
+              cap = SecondaryAttr
+            }
+            if (gear.level <= syncedItemLevel) {
+              stats[stat] = stats[stat]! + gear.stats[stat]!
+            } else {
+              stats[stat] = stats[stat]! + Math.max(gear.stats[stat]! - (gear.materiaStats[stat] || 0), cap)
+            }
           }
         }
       }
-      return stats;
+      return stats
     },
     get equippedStats(): G.Stats {
       console.debug('equippedStats');
