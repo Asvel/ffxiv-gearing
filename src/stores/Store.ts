@@ -1,7 +1,17 @@
+import { autorun, reaction, untracked } from 'mobx';
+import { types, getEnv, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
+import * as G from '../game';
+import * as share from '../share';
+import {
+  floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
+  gearDataOrdered, gearDataLoading, loadGearDataOfLevelRange
+} from '.';
 import itemLevelCaps from './itemLevelCaps'
 
 const MainAttrKeys = ['STR']
 const SecondaryAttrKeys = ['DHT', 'DET', 'CRT', 'TEN', 'SKS']
+
+const globalClanKey = 'ffxiv-gearing-clan'
 
 export type Mode = 'edit' | 'view';
 
