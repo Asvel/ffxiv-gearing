@@ -2,16 +2,13 @@ import { autorun, reaction, untracked } from 'mobx';
 import { types, getEnv, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
 import * as G from '../game';
 import * as share from '../share';
-import {
-  floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
-  gearDataOrdered, gearDataLoading, loadGearDataOfLevelRange
-} from '.';
-import itemLevelCaps from './itemLevelCaps'
+import { floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
+  gearDataOrdered, gearDataLoading, loadGearDataOfLevelRange } from '.';
+import itemLevelCaps from './itemLevelCaps';
 
 const MainAttrKeys = ['STR']
 const SecondaryAttrKeys = ['DHT', 'DET', 'CRT', 'TEN', 'SKS']
-
-const globalClanKey = 'ffxiv-gearing-clan'
+const globalClanKey = 'ffxiv-gearing-clan';
 
 export type Mode = 'edit' | 'view';
 
@@ -109,9 +106,9 @@ export const Store = types
       return 475
     },
     get equippedStatsWithoutFood (): G.Stats {
-      if (self.job === undefined) return {}
-      const stats: G.Stats = Object.assign({}, this.baseStats)
-      const syncedItemLevel = this.itemLevelSync
+      if (self.job === undefined) return {};
+      const stats: G.Stats = Object.assign({}, this.baseStats);
+      const syncedItemLevel = this.itemLevelSync;
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined) continue;
         if (!gear.isFood) {
@@ -119,25 +116,25 @@ export const Store = types
             MainAttr,
             VIT,
             SecondaryAttr
-          } = itemLevelCaps[syncedItemLevel][gear.slot]
+          } = itemLevelCaps[syncedItemLevel][gear.slot];
           for (const stat of Object.keys(gear.stats) as G.Stat[]) {
-            let cap = 0
+            let cap = 0;
             if (stat === 'VIT') {
-              cap = VIT
+              cap = VIT;
             } else if (MainAttrKeys.includes(stat)) {
-              cap = MainAttr
+              cap = MainAttr;
             } else if (SecondaryAttrKeys.includes(stat)) {
-              cap = SecondaryAttr
+              cap = SecondaryAttr;
             }
             if (gear.level <= syncedItemLevel) {
-              stats[stat] = stats[stat]! + gear.stats[stat]!
+              stats[stat] = stats[stat]! + gear.stats[stat]!;
             } else {
-              stats[stat] = stats[stat]! + Math.max(gear.stats[stat]! - (gear.materiaStats[stat] || 0), cap)
+              stats[stat] = stats[stat]! + Math.max(gear.stats[stat]! - (gear.materiaStats[stat] || 0), cap);
             }
           }
         }
       }
-      return stats
+      return stats;
     },
     get equippedStats(): G.Stats {
       console.debug('equippedStats');
