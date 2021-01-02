@@ -15,7 +15,7 @@ export default {
     13: { 'VIT': 328, 'MainAttr': 308, 'SecondaryAttr': 280 },
   },
   375: {
-    1: { 'VIT': 279, 'MainAttr': 254, 'SecondaryAttr': 227 }, // 副手
+    1: { 'VIT': 279, 'MainAttr': 254, 'SecondaryAttr': 227 },
     2: { 'VIT': 112, 'MainAttr': 101, 'SecondaryAttr': 91 },
     3: { 'VIT': 223, 'MainAttr': 203, 'SecondaryAttr': 182 },
     4: { 'VIT': 363, 'MainAttr': 330, 'SecondaryAttr': 295 },
