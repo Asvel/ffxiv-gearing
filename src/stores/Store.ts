@@ -102,10 +102,10 @@ export const Store = types
       }
       return stats;
     },
-    get itemLevelSync (): number {
+    get itemLevelSync(): number {
       return 475
     },
-    get equippedStatsWithoutFood (): G.Stats {
+    get equippedStatsWithoutFood(): G.Stats {
       if (self.job === undefined) return {};
       const stats: G.Stats = Object.assign({}, this.baseStats);
       const syncedItemLevel = this.itemLevelSync;
