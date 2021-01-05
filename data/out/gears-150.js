@@ -261,7 +261,7 @@ export default [
   },
   {
     id: 10663,
-    name: '精金天星盘',
+    name: '皇金天星盘',
     level: 150,
     rarity: 1,
     slot: 13,
