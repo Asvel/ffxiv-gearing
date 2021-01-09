@@ -168,6 +168,9 @@ export function parse(s: string): G.Gearset {
     const id = (read(maxGearId - minGearId + 1) + minGearId) as G.GearId;
     gears.push({ id, materias });
   }
+  if (gears.find(g => g.id === minGearId) === undefined) {
+    gears.push({ id: minGearId as G.GearId, materias: [] });
+  }
 
   return { job: job.job, level, gears };
 }
