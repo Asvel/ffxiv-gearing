@@ -89,7 +89,8 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
       className={classNames(
         'gears_item',
         gear.isFood && '-food',
-        !store.isViewing && gear.isEquipped && '-selected'
+        !store.isViewing && gear.isEquipped && '-selected',
+        !gear.isFood && gear.syncedLevel !== undefined && '-synced'
       )}
       onClick={store.isViewing ? undefined : e => {
         // when dropdown open, clicking on a row usually intends to close dropdown
@@ -139,6 +140,11 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
               style={{ opacity: gear.utilizationOpacity }}
             >{gear.utilization}%</span>
           )
+        )}
+        {!gear.isFood && gear.syncedLevel !== undefined && (
+          <div className="gears_materias-synced">
+            <Icon name="sync" />
+          </div>
         )}
       </td>
       {store.schema.stats.map(stat => (

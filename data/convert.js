@@ -30,6 +30,7 @@ const statAbbrs = {
   27: 'CRT', 22: 'DHT', 44: 'DET', 45: 'SKS', 46: 'SPS', 19: 'TEN', 6: 'PIE',
   70: 'CMS', 71: 'CRL', 11: 'CP',
   72: 'GTH', 73: 'PCP', 10: 'GP',
+  12: 'PDMG', 13: 'MDMG',
 };
 
 const jobs = [
@@ -62,6 +63,7 @@ for (const [begin, end, source] of sources) {
 
 const BaseParam = loadExd('BaseParam.csv');
 const ClassJobCategory = loadExd('ClassJobCategory.csv');
+const ContentFinderCondition = loadExd('ContentFinderCondition.csv');
 const Item = loadExd('Item.csv');
 const ItemCn = loadExd('Item.cn.csv');
 const ItemAction = loadExd('ItemAction.csv');
@@ -103,11 +105,10 @@ const gears = Item
     }
     rawStats[12] = (rawStats[12] || 0) + Number(x['Damage{Phys}']);
     rawStats[13] = (rawStats[13] || 0) + Number(x['Damage{Mag}']);
-    if (rawStats[14]) console.log(x['Name'], rawStats[14], x['Delay<ms>']);
-    rawStats[14] = (rawStats[14] || 0) + Number(x['Delay<ms>']);
+    // rawStats[14] = (rawStats[14] || 0) + Number(x['Delay<ms>']);
     const stats = {};
     for (const k of Object.keys(rawStats)) {
-      if (rawStats[k] > 0) {
+      if (rawStats[k] > 0 && k !== '12' && k !== '13') {
         if (k in statAbbrs) {
           stats[statAbbrs[k]] = rawStats[k];
         }
@@ -125,20 +126,21 @@ const gears = Item
       stats['MDMG'] = rawStats[13];
     }
     if (Object.keys(stats).length === 0) return;
-    if (jobCategory === 1) {
-      const existStats =  Object.keys(jobCategoryOfMainStats).filter(x => x in stats);
+    if (jobCategory === 1 || jobCategory === 34) {
+      const existStats = Object.keys(jobCategoryOfMainStats).filter(x => x in stats);
       if (existStats.length === 1) {
         jobCategory = jobCategoryOfMainStats[existStats[0]];
+      } else {
+        const craft = 'CMS' in stats || 'CRL' in stats || 'CP' in stats;
+        const gather = 'GTH' in stats || 'PCP' in stats || 'GP' in stats;
+        if (craft && !gather) jobCategory = 33;
+        if (!craft && gather) jobCategory = 32;
+        if (craft && gather) jobCategory = 35;
+        if (!craft && !gather) jobCategory = 34;
       }
-      const craft = 'CMS' in stats || 'CRL' in stats || 'CP' in stats;
-      const gather = 'GTH' in stats || 'PCP' in stats || 'GP' in stats;
-      if (craft && !gather) jobCategory = 33;
-      if (!craft && gather) jobCategory = 32;
-      if (craft && gather) jobCategory = 35;
-      if (!craft && !gather) jobCategory = 34;
     }
     const equipLevel = Number(x['Level{Equip}']);
-    if (jobCategory === 63 && equipLevel > 60) {  // 青魔并不能装备高等级装备
+    if (jobCategory === 63 && equipLevel > 60) {  // 青魔并不能装备高等级装备 FIXME: 有了品级限制还需要在这里限制吗
       jobCategory = 89;
     }
     jobCategoriesUsed[jobCategory] = jobCategories[jobCategory];
@@ -241,6 +243,24 @@ for (const food of foods.slice().reverse()) {
   }
 }
 
+const syncLevelOfJobLevel = {};
+for (const x of ContentFinderCondition) {
+  if (x['ClassJobLevel{Required}'] === x['ClassJobLevel{Sync}'] && Number(x['ClassJobLevel{Required}']) >= 50) {
+    syncLevelOfJobLevel[x['ItemLevel{Required}']] = x['ClassJobLevel{Required}'];
+    syncLevelOfJobLevel[x['ItemLevel{Sync}']] = x['ClassJobLevel{Required}'];
+  }
+}
+delete syncLevelOfJobLevel['0'];
+const syncLevels = {};
+for (const l of Object.keys(syncLevelOfJobLevel).map(x => Number(x)).sort((a, b) => a - b)) {
+  const jobLevel = syncLevelOfJobLevel[l];
+  if (!(jobLevel in syncLevels)) {
+    syncLevels[jobLevel] = [];
+  }
+  syncLevels[jobLevel].push(l);
+  levelsUsed[l] = true;
+}
+
 const levelCaps = {
   level: Object.keys(levelsUsed).map(x => parseInt(x)).sort((a, b) => a - b),
 };
@@ -251,6 +271,11 @@ for (const i of Object.keys(statAbbrs)) {
 const slotCaps = {};
 for (const i of Object.keys(statAbbrs)) {
   slotCaps[statAbbrs[i]] = Array.from({ length: 14 }).map((_, j) => j === 0 ? 0 : parseInt(BaseParam[i][4 + j]));
+}
+
+const roleCaps = {};
+for (const i of Object.keys(statAbbrs)) {
+  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][26 + j]));
 }
 
 const levelGroupBasis = [1, 50, 150, 290, 430];
@@ -313,4 +338,6 @@ fs.writeFileSync('./out/gears-food.js', stringify(foods));
 fs.writeFileSync('./out/jobCategories.js', stringify(jobCategoriesUsed).replace(/null,/g, ','));
 fs.writeFileSync('./out/levelCaps.js', stringify(levelCaps));
 fs.writeFileSync('./out/slotCaps.js', stringify(slotCaps));
+fs.writeFileSync('./out/roleCaps.js', stringify(roleCaps));
+fs.writeFileSync('./out/syncLevels.js', stringify(syncLevels).replace(/'/g, ''));
 fs.writeFileSync('./out/lodestoneIds.js', stringify(lodestoneIds).replace(/null,/g, ','));

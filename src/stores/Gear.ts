@@ -21,6 +21,7 @@ export const Gear = types
     get level() { return self.data.level; },
     get slot() { return self.id > 0 ? self.data.slot : -self.data.slot; },
     get jobs() { return G.jobCategories[self.data.jobCategory]; },
+    get equipLevel() { return self.data.equipLevel; },
     get materiaSlot() { return self.data.materiaSlot; },
     get materiaAdvanced() { return self.data.materiaAdvanced; },
     get hq() { return self.data.hq; },
@@ -31,6 +32,13 @@ export const Gear = types
       if (gearColorScheme === 'none') return 'white';
       const { rarity, source='' } = self.data;
       return gearColorScheme === 'source' && sourceColors[(source).slice(0, 2)] || rarityColors[rarity];
+    },
+    get syncedLevel(): number | undefined {
+      let { jobLevel, syncLevel } = getParentOfType(self, Store);
+      if (syncLevel === undefined && jobLevel < this.equipLevel) {
+        syncLevel = G.syncLevelOfJobLevels[jobLevel];
+      }
+      return syncLevel! < this.level ? syncLevel : undefined;
     },
     get caps(): G.Stats { return G.getCaps(self.data); },
     get bareStats(): G.Stats { return self.data.stats; },
@@ -45,10 +53,18 @@ export const Gear = types
       return stats;
     },
     get stats(): G.Stats {
-      if (this.materiaSlot === 0) return this.bareStats;
-      const stats: G.Stats = {};
-      for (const stat of Object.keys(this.bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
-        stats[stat] = Math.min((this.bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0), this.caps[stat]);
+      let stats: G.Stats = {};
+      if (this.syncedLevel != undefined) {
+        const caps = G.getCaps(self.data, this.syncedLevel);
+        for (const stat of Object.keys(this.bareStats) as G.Stat[]) {
+          stats[stat] = Math.min(this.bareStats[stat] ?? 0, caps[stat]!);
+        }
+      } else if (this.materiaSlot === 0) {
+        stats = this.bareStats;
+      } else {
+        for (const stat of Object.keys(this.bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
+          stats[stat] = Math.min((this.bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0), this.caps[stat]);
+        }
       }
       return stats;
     },

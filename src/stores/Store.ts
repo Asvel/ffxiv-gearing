@@ -13,8 +13,10 @@ export const Store = types
   .model('Store', {
     mode: types.optional(types.string as ISimpleType<Mode>, 'edit'),
     job: types.maybe(types.string as ISimpleType<G.Job>),
+    jobLevel: types.optional(types.number as ISimpleType<G.JobLevel>, 80),
     minLevel: types.optional(types.number, 0),
     maxLevel: types.optional(types.number, 0),
+    syncLevel: types.maybe(types.number),
     showAllFoods: types.optional(types.boolean, false),
     gears: types.map(GearUnion),
     equippedGears: types.map(GearUnionReference),
@@ -53,10 +55,6 @@ export const Store = types
       }
       return ret;
     },
-    get jobLevel(): keyof typeof G.levelModifiers {  // FIXME: why this.jobLevel is any
-      // TODO: changable job level
-      return this.schema.jobLevel ?? 80;
-    },
   }))
   .views(self => ({
     get setting(): ISetting {
@@ -86,7 +84,7 @@ export const Store = types
     },
     get baseStats(): G.Stats {
       if (self.job === undefined) return {};
-      const levelModifier = G.levelModifiers[self.jobLevel];
+      const levelModifier = G.jobLevelModifiers[self.jobLevel];
       const stats: G.Stats = { PDMG: 0, MDMG: 0 };
       for (const stat of this.schema.stats as G.Stat[]) {
         const baseStat = G.baseStats[stat] ?? 0;
@@ -186,6 +184,14 @@ export const Store = types
       }
       return consumption;
     },
+    get syncLevelText(): number | string | undefined {
+      if (self.syncLevel !== undefined) {
+        return self.syncLevel.toString();
+      }
+      if (self.jobLevel !== this.schema.jobLevel) {
+        return self.jobLevel + '级';
+      }
+    },
     get raceName(): string {
       return G.races[floor(self.clan / 2)];
     },
@@ -198,7 +204,7 @@ export const Store = types
       console.debug('equippedEffects');
       const { statModifiers, mainStat, traitDamageMultiplier, partyBonus } = self.schema;
       if (statModifiers === undefined || mainStat === undefined || traitDamageMultiplier === undefined) return;
-      const levelMod = G.levelModifiers[self.jobLevel];
+      const levelMod = G.jobLevelModifiers[self.jobLevel];
       const { main, sub, div } = levelMod;
       const { CRT, DET, DHT, TEN, SKS, SPS, VIT, PIE, PDMG, MDMG } = self.equippedStats;
       const attackMainStat = mainStat === 'VIT' ? 'STR' : mainStat;
@@ -209,7 +215,7 @@ export const Store = types
       const tenDamage = floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
       const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
         ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0);
-      const mainDamage = floor(statModifiers.ap *
+      const mainDamage = floor((mainStat === 'VIT' ? levelMod.apTank : levelMod.ap) *
         (floor((self.equippedStats[attackMainStat] ?? 0) * (partyBonus ?? 1.05)) - main) / main + 100) / 100;
       const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier *
         ((crtDamage - 1) * crtChance + 1) * (0.25 * dhtChance + 1);
@@ -224,7 +230,7 @@ export const Store = types
     get equippedTiers(): { [index in G.Stat]?: { prev: number, next: number } } | undefined {
       const { statModifiers } = self.schema;
       if (statModifiers === undefined) return;
-      const { main, sub, div } = G.levelModifiers[self.jobLevel];
+      const { main, sub, div } = G.jobLevelModifiers[self.jobLevel];
       const { CRT, DET, DHT, TEN, SKS, SPS, PIE } = self.equippedStats;
       function calcTier(value: number, multiplier: number) {
         if (value !== value) return undefined;
@@ -263,7 +269,8 @@ export const Store = types
       }
       return share.stringify({
         job: self.job,
-        level: self.jobLevel,
+        jobLevel: self.jobLevel,
+        syncLevel: self.syncLevel,
         gears,
       });
     },
@@ -283,25 +290,34 @@ export const Store = types
     setMode(mode: Mode): void {
       self.mode = mode;
     },
-    setJob(value: G.Job): void {
-      const newLevel = G.jobSchemas[value].defaultItemLevel;
-      if (newLevel !== (self.job && G.jobSchemas[self.job].defaultItemLevel)) {
-        self.minLevel = newLevel[0];
-        self.maxLevel = newLevel[1];
+    setJob(job: G.Job): void {
+      const oldSchema = self.job && G.jobSchemas[self.job];
+      const newSchema = G.jobSchemas[job];
+      self.job = job;
+      if (newSchema.jobLevel !== oldSchema?.jobLevel || !newSchema.levelSyncable) {
+        self.jobLevel = newSchema.jobLevel;
+        self.syncLevel = undefined;
+      }
+      if (newSchema.defaultItemLevel !== oldSchema?.defaultItemLevel) {
+        self.minLevel = newSchema.defaultItemLevel[0];
+        self.maxLevel = newSchema.defaultItemLevel[1];
       }
       for (const [ key, gear ] of self.equippedGears.entries()) {
-        if (gear !== undefined && !gear.jobs[value]) {
+        if (gear !== undefined && !gear.jobs[job]) {
           self.equippedGears.delete(key);
         }
       }
-      self.job = value;
-      self.autoSelectScheduled = G.jobSchemas[value].skeletonGears ?? false;
+      self.autoSelectScheduled = newSchema.skeletonGears ?? false;
     },
-    setMinLevel(value: number): void {
-      self.minLevel = value;
+    setMinLevel(level: number): void {
+      self.minLevel = level;
     },
-    setMaxLevel(value: number): void {
-      self.maxLevel = value;
+    setMaxLevel(level: number): void {
+      self.maxLevel = level;
+    },
+    setSyncLevel(level: number | undefined, jobLevel: G.JobLevel | undefined): void {
+      self.syncLevel = level;
+      self.jobLevel = jobLevel ?? self.schema.jobLevel;
     },
     toggleShowAllFoods(): void {
       self.showAllFoods = !self.showAllFoods;

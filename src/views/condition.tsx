@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
+import * as classNames from 'classnames';
 import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import { Tab, TabBar } from '@rmwc/tabs';
+import { List, SimpleListItem, CollapsibleList } from '@rmwc/list';
 import { TextField } from '@rmwc/textfield';
 import { Radio } from '@rmwc/radio';
 import Clipboard from 'react-clipboard.js';
@@ -57,6 +59,87 @@ export const Condition = observer(() => {
         </span>
       )}
       {(editing || viewing) && <span className="condition_divider" />}
+      {viewing && store.schema.levelSyncable && store.syncLevelText !== undefined && (
+        <React.Fragment>
+          <span className="condition_text">
+            <Icon className="condition_level-sync-icon" name="sync" />
+            {store.syncLevelText}
+          </span>
+          <span className="condition_divider" />
+        </React.Fragment>
+      )}
+      {editing && store.schema.levelSyncable && (
+        <Dropdown
+          label={({ ref, toggle }) => (
+            <Button ref={ref} className="condition_button" onClick={toggle}>
+              {store.syncLevelText !== undefined && <Icon className="condition_level-sync-icon" name="sync" />}
+              {store.syncLevelText ?? '品级同步'}
+            </Button>
+          )}
+          popper={({ toggle }) => {
+            return (
+              <div className="level-sync card">
+                <List>
+                  {G.jobLevels.map(jobLevel=> jobLevel <= store.schema.jobLevel && (
+                    <CollapsibleList
+                      key={jobLevel}
+                      defaultOpen={jobLevel >= store.schema.jobLevel - 10}
+                      handle={
+                        <SimpleListItem
+                          className="level-sync_group"
+                          text={`${jobLevel}级`}
+                          metaIcon={<Icon className="level-sync_group-icon" name="chevron-right" />}
+                        />
+                      }
+                      children={
+                        <div className="level-sync_levels">
+                          {G.syncLevels[jobLevel].map(level => (
+                            <span
+                              key={level}
+                              className={classNames(
+                                'level-sync_level',
+                                G.syncLevelIsPopular[level] && '-popular',
+                                level === store.syncLevel && '-selected',
+                              )}
+                              onClick={() => {
+                                store.setSyncLevel(level, jobLevel);
+                                toggle();
+                              }}
+                              children={level}
+                            />
+                          ))}
+                          {jobLevel !== store.schema.jobLevel && (
+                            <div
+                              className={classNames(
+                                'level-sync_job-level-sync',
+                                jobLevel === store.jobLevel && store.syncLevel === undefined && '-selected',
+                              )}
+                              onClick={() => {
+                                store.setSyncLevel(undefined, jobLevel);
+                                toggle();
+                              }}
+                              children="仅同步等级"
+                            />
+                          )}
+                        </div>
+                      }
+                    />
+                  ))}
+                  <Button
+                    className="level-sync_cancel"
+                    onClick={() => {
+                      store.setSyncLevel(undefined, undefined);
+                      toggle();
+                    }}
+                    children="取消同步"
+                  />
+                </List>
+              </div>
+            );
+          }}
+          placement="bottom-start"
+        />
+      )}
       {(editing || viewing) && (
         <Dropdown
           label={({ ref, toggle }) => (
@@ -72,7 +155,7 @@ export const Condition = observer(() => {
                     onActivate={e => setActiveTab(e.detail.index)}
                   >
                     <Tab>用量预估</Tab>
-                    <Tab>批量镶嵌</Tab>
+                    <Tab style={{ visibility: 'hidden', pointerEvents: 'none' }}>批量镶嵌</Tab>
                   </TabBar>
                 </div>
                 {activeTab === 0 && (
@@ -126,7 +209,7 @@ export const Condition = observer(() => {
                   </table>
                 )}
                 {activeTab === 1 && (
-                  <div>WIP</div>
+                  <div>TBD</div>
                 )}
               </div>
             );
@@ -197,7 +280,7 @@ export const Condition = observer(() => {
         {(editing || viewing) && (
           <Dropdown
             label={({ ref, toggle }) => (
-              <Button ref={ref} className="condition_button" onClick={toggle}>设置</Button>
+              <Button ref={ref} className="condition_button condition_setting" onClick={toggle}>设置</Button>
             )}
             popper={() => (
               <div className="setting card">
@@ -289,7 +372,7 @@ export const Condition = observer(() => {
           />
         )}
         <span className="condition_divider" />
-        <span className="condition_version">数据版本 {G.versions.data}</span>
+        <span className="condition_text">数据版本 {G.versions.data}</span>
       </span>
       {(store.job === undefined || expandedPanel === 'job') && <JobSelector />}
     </div>

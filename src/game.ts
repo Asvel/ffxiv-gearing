@@ -12,6 +12,7 @@ export interface GearBase {
 export interface Gear extends GearBase {
   rarity: number,
   role: number,
+  equipLevel: number,
   materiaSlot: number,
   materiaAdvanced: boolean
   hq: boolean,
@@ -25,7 +26,8 @@ export interface Food extends GearBase {
 
 export interface Gearset {
   job: Job,
-  level: number,
+  jobLevel: JobLevel,
+  syncLevel?: number,
   gears: {
     id: GearId,
     materias: ([Stat, MateriaGrade] | null)[]
@@ -46,26 +48,37 @@ export type Stats = { [index in Stat]?: number };
 
 const levelCaps = require('../data/out/levelCaps').default as { [index in Stat | 'level']: number[] };
 const slotCaps = require('../data/out/slotCaps').default as { [index in Stat]: number[] };
-const roleCaps = { VIT: [90,100,100,100,100,90,90,100,90,100,100,100,100] } as { [index in Stat]?: number[] };
+const roleCaps = require('../data/out/roleCaps').default as { [index in Stat]: number[] };
 const levelCapsIndex: { [index: number]: number } = {};
 levelCaps.level.forEach((level, i) => levelCapsIndex[level] = i);
 const capsCache: { [index: string]: Stats } = {};
-export function getCaps(gear: Gear): Stats {
-  let { level, slot, role } = gear;
-  let cacheKey = `${level},${slot}`;
+export function getCaps(gear: Gear, syncLevel?: number): Stats {
+  const level = syncLevel ?? gear.level;
+  const { slot, role } = gear;
+  const cacheKey = `${level},${slot},${role}`;
   if (!(cacheKey in capsCache)) {
     let caps: Stats = {};
     for (const stat of Object.keys(statNames) as Stat[]) {
-      caps[stat] = (stat === 'PDMG' || stat === 'MDMG' || stat === 'DLY') ? Infinity : Math.round(
+      caps[stat] = stat === 'DLY' ? Infinity : Math.round(
         levelCaps[stat][levelCapsIndex[level]] *
         slotCaps[stat][slot] *
-        (roleCaps[stat]?.[role] ?? 100) /
+        roleCaps[stat][role] /
         10000);
     }
     capsCache[cacheKey] = caps;
   }
   return capsCache[cacheKey];
 }
+
+export const jobLevelModifiers = {
+  50: { main: 202, sub: 341, div: 341, hp: 1700, vit: 10.2, vitTank: 14.5, ap: 75, apTank: 55 },
+  60: { main: 218, sub: 354, div: 858, hp: 2600, vit: 15.4, vitTank: 20.5, ap: 100, apTank: 75 },
+  70: { main: 292, sub: 364, div: 2170, hp: 3600, vit: 15.9, vitTank: 21.5, ap: 125, apTank: 105 },
+  80: { main: 340, sub: 380, div: 3300, hp: 4400, vit: 22.1, vitTank: 31.5, ap: 165, apTank: 115 },
+};
+export type JobLevel = keyof typeof jobLevelModifiers;
+export const jobLevels = Object.keys(jobLevelModifiers).map(l => Number(l) as JobLevel);
+const jobLevelMax = jobLevels[jobLevels.length - 1];
 
 export const baseStats: { [index in Stat]?: 'main' | 'sub' | number } = {
   STR: 'main', DEX: 'main', INT: 'main', MND: 'main', VIT: 'main',
@@ -127,6 +140,8 @@ export interface JobSchema {
   stats: Stat[],
   slots: SlotSchema[],
   defaultItemLevel: [number, number],
+  jobLevel: JobLevel,
+  levelSyncable?: boolean,
   statModifiers?: {
     STR?: number,
     DEX?: number,
@@ -134,15 +149,13 @@ export interface JobSchema {
     MND?: number,
     VIT: number,
     hp: number,
-    ap: number,
     gcd?: number,
     gcdReason?: string,
   },
   mainStat?: 'STR' | 'DEX' | 'INT' | 'MND' | 'VIT',
   traitDamageMultiplier?: number,
   partyBonus?: number,
-  jobLevel?: keyof typeof levelModifiers,
-  skeletonGears?: boolean,  // consistent stats proportion in same slot, focus on materia choosing than gear choosing
+  skeletonGears?: boolean,  // consistent stats proportion in same slot, focus on materia melding than gear choosing
   toolMateriaCopies?: number,
 }
 
@@ -152,7 +165,9 @@ export const jobSchemas = {
     stats: statSchemas.tank,
     slots: [{ slot: 1, name: '武器' }, { slot: 2, name: '盾牌' }, ...slotSchemaCommon],
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { STR: 100, VIT: 110, hp: 120, ap: 115 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { STR: 100, VIT: 110, hp: 120 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -161,7 +176,9 @@ export const jobSchemas = {
     stats: statSchemas.tank,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { STR: 105, VIT: 110, hp: 125, ap: 115 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { STR: 105, VIT: 110, hp: 125 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -170,7 +187,9 @@ export const jobSchemas = {
     stats: statSchemas.tank,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { STR: 105, VIT: 110, hp: 120, ap: 115 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { STR: 105, VIT: 110, hp: 120 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -179,7 +198,9 @@ export const jobSchemas = {
     stats: statSchemas.tank,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { STR: 100, VIT: 110, hp: 120, ap: 115 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { STR: 100, VIT: 110, hp: 120 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -188,7 +209,9 @@ export const jobSchemas = {
     stats: statSchemas.healer,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { MND: 115, VIT: 100, hp: 105 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
@@ -197,7 +220,9 @@ export const jobSchemas = {
     stats: statSchemas.healer,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { MND: 115, VIT: 100, hp: 105 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
@@ -206,7 +231,9 @@ export const jobSchemas = {
     stats: statSchemas.healer,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { MND: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { MND: 115, VIT: 100, hp: 105 },
     mainStat: 'MND',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
@@ -215,7 +242,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsStr,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { STR: 110, VIT: 100, hp: 110, ap: 165, gcd: 80, gcdReason: '四档“疾风迅雷”状态中' },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { STR: 110, VIT: 100, hp: 110, gcd: 80, gcdReason: '四档“疾风迅雷”状态中' },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -224,7 +253,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsStr,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { STR: 115, VIT: 105, hp: 115, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { STR: 115, VIT: 105, hp: 115 },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -233,7 +264,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsDex,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { DEX: 110, VIT: 100, hp: 108, ap: 165, gcd: 85, gcdReason: '“风遁”状态中' },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { DEX: 110, VIT: 100, hp: 108, gcd: 85, gcdReason: '“风遁”状态中' },
     mainStat: 'DEX',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -242,7 +275,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsStr,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { STR: 112, VIT: 100, hp: 109, ap: 165, gcd: 87, gcdReason: '“士风”状态中' },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { STR: 112, VIT: 100, hp: 109, gcd: 87, gcdReason: '“士风”状态中' },
     mainStat: 'STR',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -251,7 +286,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsDex,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { DEX: 115, VIT: 100, hp: 105 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
   } as JobSchema,
@@ -260,7 +297,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsDex,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { DEX: 115, VIT: 100, hp: 105 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
   } as JobSchema,
@@ -269,7 +308,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsDex,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { DEX: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { DEX: 115, VIT: 100, hp: 105 },
     mainStat: 'DEX',
     traitDamageMultiplier: 1.2,
   } as JobSchema,
@@ -278,7 +319,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsInt,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
@@ -287,7 +330,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsInt,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
@@ -296,7 +341,9 @@ export const jobSchemas = {
     stats: statSchemas.dpsInt,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
-    statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
@@ -305,17 +352,19 @@ export const jobSchemas = {
     stats: statSchemas.dpsInt,
     slots: slotSchemaCombat,
     defaultItemLevel: [270, 270],
-    statModifiers: { INT: 115, VIT: 100, hp: 105, ap: 165 },
+    jobLevel: 60,
+    levelSyncable: true,
+    statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
     traitDamageMultiplier: 1.3,
     partyBonus: 1.01,
-    jobLevel: 60,
   } as JobSchema,
   CRP: {
     name: '刻木匠',
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 8,
   } as JobSchema,
@@ -324,6 +373,7 @@ export const jobSchemas = {
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 8,
   } as JobSchema,
@@ -332,6 +382,7 @@ export const jobSchemas = {
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 8,
   } as JobSchema,
@@ -340,6 +391,7 @@ export const jobSchemas = {
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 8,
   } as JobSchema,
@@ -348,6 +400,7 @@ export const jobSchemas = {
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 8,
   } as JobSchema,
@@ -356,6 +409,7 @@ export const jobSchemas = {
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 8,
   } as JobSchema,
@@ -364,6 +418,7 @@ export const jobSchemas = {
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 8,
   } as JobSchema,
@@ -372,6 +427,7 @@ export const jobSchemas = {
     stats: statSchemas.crafting,
     slots: slotSchemaCrafting,
     defaultItemLevel: defaultItemLevelCrafting,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 8,
   } as JobSchema,
@@ -380,6 +436,7 @@ export const jobSchemas = {
     stats: statSchemas.gathering,
     slots: slotSchemaGathering,
     defaultItemLevel: defaultItemLevelGathering,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 2,
   } as JobSchema,
@@ -388,6 +445,7 @@ export const jobSchemas = {
     stats: statSchemas.gathering,
     slots: slotSchemaGathering,
     defaultItemLevel: defaultItemLevelGathering,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
     toolMateriaCopies: 2,
   } as JobSchema,
@@ -396,6 +454,7 @@ export const jobSchemas = {
     stats: statSchemas.gathering,
     slots: slotSchemaGathering,
     defaultItemLevel: defaultItemLevelGathering,
+    jobLevel: jobLevelMax,
     skeletonGears: true,
   } as JobSchema,
 };
@@ -450,13 +509,6 @@ export function getMateriaName(stat: Stat, grade: MateriaGrade, useStat: boolean
     materiaNames[stat]! + materiaGradeNames[grade - 1];
 }
 
-export const levelModifiers = {
-  50: { main: 202, sub: 341, div: 341, hp: 1700, vit: 10.2, vitTank: 14.5 },
-  60: { main: 218, sub: 354, div: 858, hp: 2600, vit: 15.4, vitTank: 20.5 },
-  70: { main: 292, sub: 364, div: 2170, hp: 3600, vit: 15.9, vitTank: 21.5 },
-  80: { main: 340, sub: 380, div: 3300, hp: 4400, vit: 22.1, vitTank: 31.5 },
-};
-
 export const races = [
   '人族',
   '精灵族',
@@ -486,3 +538,11 @@ export const clanStats: { [index in Stat]?: number[] } = {
   INT: [23, 18, 22, 23, 22, 22, 19, 21, 18, 20, 20, 20, 17, 17, 21, 23].map(x => x - 20),
   MND: [19, 20, 19, 21, 20, 23, 19, 23, 21, 22, 23, 18, 23, 23, 21, 22].map(x => x - 20),
 };
+
+export const syncLevels = require('../data/out/syncLevels').default as { [index in JobLevel]: number[] };
+export const syncLevelIsPopular: { [index: number]: boolean } = {
+  300: true,  // Eureka
+  345: true, 375: true, 475: true,  // Ultimate Raids
+  435: true,  // Unreal Trials
+};
+export const syncLevelOfJobLevels = { 50: 130, 60: 270, 70: 400, 80: 530 };

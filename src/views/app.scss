@@ -8,6 +8,7 @@
 @use "../../node_modules/@material/tab-scroller/mixins" as tab-scroller;
 @use "../../node_modules/@material/tab-indicator/mixins" as tab-indicator;
 @use "../../node_modules/@material/tab/mixins" as tab;
+@use "../../node_modules/@material/list/mixins" as list;
 @use "../../node_modules/@material/line-ripple/mixins" as line-ripple;
 @use "../../node_modules/@material/textfield/mixins" as textfield;  // only use line-ripple, skip others
 @use "../../node_modules/@material/form-field/mixins" as form-field;
@@ -24,6 +25,7 @@
 @include tab-scroller.core-styles(feature-targeting.without(typography));
 @include tab-indicator.core-styles(feature-targeting.without(typography));
 @include tab.core-styles(feature-targeting.without(typography));
+@include list.core-styles(feature-targeting.without(typography));
 @include line-ripple.core-styles(feature-targeting.without(typography));
 @include textfield.core-styles(feature-targeting.without(typography));
 @include form-field.core-styles(feature-targeting.without(typography));
@@ -43,6 +45,8 @@
 .mdc-form-field label {
   cursor: pointer;
 }
+
+@import "../../node_modules/@rmwc/list/collapsible-list";
 
 body {
   min-width: 1080px;

@@ -37,6 +37,9 @@
       border-radius: 50%;
     }
   }
+  .gears_item.-synced & {
+    opacity: 0.2;
+  }
   &.-normal {
     color: #155724;
     //color: mix($green, #000, 60%);
@@ -89,6 +92,9 @@
   text-align: center;
   &:hover {
     background-color: #0000000a;
+  }
+  &:active {
+    background-color: #0000001a;
   }
   &.-selected {
     background-color: rgba($primary, .08);

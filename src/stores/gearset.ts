@@ -15,6 +15,8 @@ autorun(() => {  // gearsetStore react to main store
   const snapshot: SnapshotIn<IStore> = {
     mode: 'view',
     job: gearset.job,
+    jobLevel: gearset.jobLevel,
+    syncLevel: gearset.syncLevel,
     gears: {},
     equippedGears: {},
   };

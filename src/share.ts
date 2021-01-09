@@ -47,7 +47,8 @@ class Ranges {
   private _version = 1;
   version = 77;
   job = 0;
-  level = 80;
+  jobLevel = 0;
+  syncLevel = 0;
   gearId = 0;
   materiaSlot = 0;
   materiaStat = 0;
@@ -55,10 +56,16 @@ class Ranges {
   materiaCode = 0;
   useVersion(version: number) {
     this._version = version;
-    this.job = version === 1 ? 29 : -1;  // permanentIndexes.length,
-    this.gearId = 50000;
-    this.materiaSlot = 6;
-    this.materiaGrade = 8;
+    if (version === 1 || version === 2) {
+      this.job = 29;  // permanentIndexes.length,
+      this.jobLevel = 80;
+      this.gearId = 50000;
+      this.materiaSlot = 6;
+      this.materiaGrade = 8;
+    }
+    if (version === 2) {
+      this.syncLevel = 540;
+    }
   }
   useJob(job: G.Job) {
     this.materiaStat = permanentIndexes[toIndex[job]!.index].stats.length;  // TODO: versoin
@@ -66,9 +73,10 @@ class Ranges {
   }
 }
 
-export function stringify({ job, level, gears }: G.Gearset): string {
+export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): string {
+  const version = 2
   const ranges = new Ranges();
-  ranges.useVersion(1);
+  ranges.useVersion(version);
   ranges.useJob(job);
 
   const gearCodes: { id: number, materias: number[]  }[] = [];
@@ -122,9 +130,10 @@ export function stringify({ job, level, gears }: G.Gearset): string {
     write(materiaCode, ranges.materiaCode);
   }
   write(materiaCodes.length, ranges.materiaCode);
-  write(level - 1, ranges.level);
+  write(syncLevel ?? 0, ranges.syncLevel);
+  write(jobLevel - 1, ranges.jobLevel);
   write(toIndex[job]!.index, ranges.job);
-  write(1, ranges.version);
+  write(version, ranges.version);
 
   return BI.toString(result, 62);
 }
@@ -145,7 +154,9 @@ export function parse(s: string): G.Gearset {
   const job = permanentIndexes[read(ranges.job)];  // FIXME
   ranges.useJob(job.job);
 
-  const level = read(ranges.level) + 1;
+  let jobLevel = read(ranges.jobLevel) + 1 as G.JobLevel;
+  if (version === 1) jobLevel = 80;  // job level not used and may incorrect in old version
+  const syncLevel = version >= 2 && read(ranges.syncLevel) || undefined;
 
   const materiaCodes = Array.from({ length: read(ranges.materiaCode) }, () => {
     let materiaCode = read(ranges.materiaCode);
@@ -172,8 +183,8 @@ export function parse(s: string): G.Gearset {
     gears.push({ id: minGearId as G.GearId, materias: [] });
   }
 
-  return { job: job.job, level, gears };
+  return { job: job.job, jobLevel, syncLevel, gears };
 }
 
-// const s = 'jPaIbq8ix1QmKBMjLbnMBofMOSTeLnFCsqIrAxlt0vQ';
+// const s = '2MFHiPtChpG469X2Q6XmJZFl7sznjKmbdsyoJ667Ge5It';
 // console.assert(stringify(parse(s)) === s);

@@ -116,10 +116,10 @@
   width: 120px;
 }
 .summary_damage-tip {
-  top: 8px;
-  right: 13px;
-  position: absolute;
+  display: inline-block;
   width: 16px;
+  margin: -1px -6px -1px 1px;
+  vertical-align: 1px;
   color: rgba(0, 0, 0, 0.55);
 }
 

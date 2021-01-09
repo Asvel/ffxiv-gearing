@@ -1,7 +1,15 @@
 export default [
   ,
   ,
-  ,
+  {
+    PLD: true,
+    WAR: true,
+    DRK: true,
+    GNB: true,
+    MNK: true,
+    DRG: true,
+    SAM: true,
+  },
   ,
   ,
   ,

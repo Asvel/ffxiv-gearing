@@ -54,16 +54,73 @@
 .condition_button {
   height: 34px;
   min-width: 48px;
-  margin: 4px;
+  margin: 4px 8px;
   vertical-align: top;
   + .condition_button {
-    margin-left: 0;
+    margin-left: -4px;
   }
 }
-.condition_version {
+.condition_text {
   padding: 0 16px;
   line-height: 42px;
   vertical-align: top;
+}
+.condition_setting {
+  margin-right: 6px;  // text to divider 16px
+}
+
+.condition_level-sync-icon {
+  width: 14px;
+  vertical-align: -2px;
+}
+.level-sync {
+  @include elevation(4);
+  .rmwc-collapsible-list__children {
+    transition: none;
+  }
+}
+.level-sync_group {
+  font-weight: bold;
+}
+.level-sync_group-icon {
+  width: 24px;
+}
+.level-sync_levels {
+  width: 288px;
+  margin: 0 4px;
+}
+.level-sync_level {
+  display: inline-block;
+  width: 48px;
+  line-height: 36px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 4px;
+  cursor: pointer;
+  &.-popular {
+    font-weight: bold;
+  }
+  &:hover {
+    background-color: #0000000f;
+  }
+  &:active {
+    background-color: #0000001a;
+  }
+  &.-selected {
+    background-color: rgba($primary, .08);
+    .app-high-saturation & {
+      background-color: rgba($primary, .16);
+    }
+  }
+}
+.level-sync_job-level-sync {
+  @extend .level-sync_level;
+  float: right;
+  width: auto;
+  padding: 0 12px;
+}
+.level-sync_cancel {
+  margin: 5px 8px 0;
 }
 
 .materia-overall {
@@ -180,6 +237,6 @@
 .setting_controls {
   margin-left: -9px;
   > .mdc-form-field {
-    margin-right: 24px;
+    margin-right: 20px;
   }
 }

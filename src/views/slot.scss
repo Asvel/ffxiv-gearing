@@ -102,6 +102,20 @@
   border-left: $table-border;
   border-right: $table-border;
 }
+.gears_materias-synced {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 0;
+  right: 0;
+  line-height: 1;
+  text-align: center;
+  pointer-events: none;
+  > svg {
+    width: 16px;
+    color: #00000099;
+  }
+}
 .gears_food-utilization {
   margin-left: 4px;
   &.-full {
