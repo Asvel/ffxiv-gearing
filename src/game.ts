@@ -121,14 +121,14 @@ const slotSchemaCombat = [
   ...slotSchemaCommon,
 ];
 const slotSchemaGathering = [
-  { slot: 1, name: '主工具' },
-  { slot: 2, name: '副工具' },
+  { slot: 1, name: '主工具', shortName: '主手' },
+  { slot: 2, name: '副工具', shortName: '副手' },
   ...slotSchemaCommon,
 ];
 const slotSchemaCrafting = [
   ...slotSchemaGathering.slice(0, -1),
   { slot: 17, name: '灵魂水晶', shortName: '水晶', levelWeight: 0 },
-  { slot: -1, name: '食物', levelWeight: 0 },
+  slotSchemaGathering[slotSchemaGathering.length - 1],
 ];
 
 const defaultItemLevelCombat = [490, 535];
