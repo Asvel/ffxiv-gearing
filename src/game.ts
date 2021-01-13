@@ -101,33 +101,34 @@ export interface SlotSchema {
   name: string,
   shortName?: string,
   levelWeight?: number,
+  uiGroup: string,
 }
 const slotSchemaCommon: SlotSchema[] = [
-  { slot: 3, name: '头部防具' },
-  { slot: 4, name: '身体防具' },
-  { slot: 5, name: '手部防具' },
-  { slot: 6, name: '腰部防具' },
-  { slot: 7, name: '腿部防具' },
-  { slot: 8, name: '脚部防具' },
-  { slot: 9, name: '耳饰' },
-  { slot: 10, name: '项链' },
-  { slot: 11, name: '手镯' },
-  { slot: 12, name: '戒指' },
-  { slot: -12, name: '戒指' },
-  { slot: -1, name: '食物', levelWeight: 0 },
+  { slot: 3, name: '头部防具', uiGroup: 'left' },
+  { slot: 4, name: '身体防具', uiGroup: 'left' },
+  { slot: 5, name: '手部防具', uiGroup: 'left' },
+  { slot: 6, name: '腰部防具', uiGroup: 'left' },
+  { slot: 7, name: '腿部防具', uiGroup: 'left' },
+  { slot: 8, name: '脚部防具', uiGroup: 'left' },
+  { slot: 9, name: '耳饰', uiGroup: 'right' },
+  { slot: 10, name: '项链', uiGroup: 'right' },
+  { slot: 11, name: '手镯', uiGroup: 'right' },
+  { slot: 12, name: '戒指', uiGroup: 'right' },
+  { slot: -12, name: '戒指', uiGroup: 'right' },
+  { slot: -1, name: '食物', levelWeight: 0, uiGroup: 'misc' },
 ];
 const slotSchemaCombat = [
-  { slot: 13, name: '武器', levelWeight: 2 },
+  { slot: 13, name: '武器', levelWeight: 2, uiGroup: 'weapon' },
   ...slotSchemaCommon,
 ];
 const slotSchemaGathering = [
-  { slot: 1, name: '主工具', shortName: '主手' },
-  { slot: 2, name: '副工具', shortName: '副手' },
+  { slot: 1, name: '主工具', shortName: '主手', uiGroup: 'weapon' },
+  { slot: 2, name: '副工具', shortName: '副手', uiGroup: 'weapon' },
   ...slotSchemaCommon,
 ];
 const slotSchemaCrafting = [
   ...slotSchemaGathering.slice(0, -1),
-  { slot: 17, name: '灵魂水晶', shortName: '水晶', levelWeight: 0 },
+  { slot: 17, name: '灵魂水晶', shortName: '水晶', levelWeight: 0, uiGroup: 'misc' },
   slotSchemaGathering[slotSchemaGathering.length - 1],
 ];
 

@@ -64,18 +64,27 @@ export const SlotCompact = observer(() => {
       </tr>
       </thead>
       <tbody>
-      {store.schema.slots.map(slot => (
-        <GearRow key={slot.slot} gear={store.equippedGears.get(slot.slot.toString())} slot={slot} />
+      {store.schema.slots.map((slot, i) => (
+        <GearRow
+          key={slot.slot}
+          gear={store.equippedGears.get(slot.slot.toString())}
+          slot={slot}
+          isGroupEnd={i < store.schema.slots.length - 1 && slot.uiGroup !== store.schema.slots[i + 1].uiGroup}
+        />
       ))}
       </tbody>
     </table>
   );
 });
 
-const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, slot }) => {
+const GearRow = observer<{
+  gear?: IGearUnion,
+  slot?: G.SlotSchema,
+  isGroupEnd?: boolean,
+}>(({ gear, slot, isGroupEnd }) => {
   const store = useStore();
   return gear === undefined ? slot?.levelWeight === 0 ? null : (
-    <tr className="gears_item">
+    <tr className={classNames('gears_item', isGroupEnd && '-group-end')}>
       <td className="gears_left">
         {slot !== undefined && <span className="gears_inline-slot">{(slot.shortName ?? slot.name).slice(0, 2)}</span>}
         <span className="gears_empty">{store.isViewing ? '无装备' : '无匹配'}</span>
@@ -90,6 +99,7 @@ const GearRow = observer<{ gear?: IGearUnion, slot?: G.SlotSchema }>(({ gear, sl
         'gears_item',
         gear.isFood && '-food',
         !store.isViewing && gear.isEquipped && '-selected',
+        isGroupEnd && '-group-end',
         !gear.isFood && gear.syncedLevel !== undefined && '-synced'
       )}
       onClick={store.isViewing ? undefined : e => {
