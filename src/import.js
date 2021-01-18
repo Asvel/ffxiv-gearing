@@ -4,7 +4,7 @@
 
   const data = {
     job: null,
-    level: 80,  // FIXME
+    jobLevel: 80,  // FIXME
     gears: [],
   };
 

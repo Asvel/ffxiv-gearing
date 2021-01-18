@@ -74,7 +74,7 @@ class Ranges {
 }
 
 export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): string {
-  const version = 2
+  const version = 2;
   const ranges = new Ranges();
   ranges.useVersion(version);
   ranges.useJob(job);
