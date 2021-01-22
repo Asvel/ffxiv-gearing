@@ -1,4 +1,5 @@
 /* eslint-disable no-debugger, no-return-assign, array-callback-return */
+process.chdir(__dirname);
 
 const fs = require('fs');
 const JSON5 = require('json5');

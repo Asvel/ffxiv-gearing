@@ -1,7 +1,0 @@
-# NPM
-/node_modules/
-/yarn-error.log
-
-# Input
-/in/
-!/in/sources.js

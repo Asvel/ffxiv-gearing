@@ -1,6 +1,10 @@
 # NPM
-/node_modules/
-/yarn-error.log
+node_modules/
+yarn-error.log
 
 # Build
 /dist/
+
+# Original data
+/data/in/
+!/data/in/sources.js
