@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
-import { Ripple } from '@rmwc/ripple';
 import * as G from '../game';
 import { useStore } from './components/contexts';
+import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 
 export const JobSelector = observer(() => {
@@ -77,7 +77,7 @@ const JobItem = observer<{ job: G.Job }>(({ job }) => {
   const store = useStore();
   const schema = G.jobSchemas[job];
   return (
-    <Ripple>
+    <RippleLazy>
       <a
         className="job-selector_item"
         href={`?${job}`}
@@ -90,6 +90,6 @@ const JobItem = observer<{ job: G.Job }>(({ job }) => {
         {schema.name}
         <Icon className="job-selector_icon" name={'jobs/' + job} />
       </a>
-    </Ripple>
+    </RippleLazy>
   );
 });

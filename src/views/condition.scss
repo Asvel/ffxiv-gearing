@@ -100,12 +100,6 @@
   &.-popular {
     font-weight: bold;
   }
-  &:hover {
-    background-color: #0000000f;
-  }
-  &:active {
-    background-color: #0000001a;
-  }
   &.-selected {
     background-color: rgba($primary, .08);
     .app-high-saturation & {

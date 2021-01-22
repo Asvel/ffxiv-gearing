@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
-import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../game';
 import { IGearUnion } from '../stores';
 import { useStore } from './components/contexts';
+import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 import { IconButton } from './components/IconButton';
 import { Dropdown } from './components/Dropdown';
@@ -188,7 +188,7 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
   const store = useStore();
   return (
     <div className="gear-menu card">
-      <Ripple>
+      <RippleLazy>
         <div/* for ripple */>
           <Clipboard
             className="gear-menu_item"
@@ -198,7 +198,7 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
             children="复制道具名"
           />
         </div>
-      </Ripple>
+      </RippleLazy>
       <div className="gear-menu_divider" />
       {gear.stats.PDMG !== undefined && <div className="gear-menu_item">物理基本性能：{gear.stats.PDMG}</div>}
       {gear.stats.MDMG !== undefined && <div className="gear-menu_item">魔法基本性能：{gear.stats.MDMG}</div>}
@@ -207,7 +207,7 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
       )}
       <div className="gear-menu_divider" />
       {gear.isInstalled && (
-        <Ripple>
+        <RippleLazy>
           <a
             className="gear-menu_item"
             href={`https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:` + encodeURI(gear.name)}
@@ -216,9 +216,9 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
           >
             在 最终幻想XIV中文维基 中查看 <Icon className="gear-menu_external" name="open-in-new" />
           </a>
-        </Ripple>
+        </RippleLazy>
       )}
-      <Ripple>
+      <RippleLazy>
         <a
           className="gear-menu_item"
           href={`http://www.garlandtools.org/db/#item/` + Math.abs(gear.id)}
@@ -227,8 +227,8 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
         >
           在 Garland Data 中查看 <Icon className="gear-menu_external" name="open-in-new" />
         </a>
-      </Ripple>
-      <Ripple>
+      </RippleLazy>
+      <RippleLazy>
         <a
           className="gear-menu_item"
           href={`./lodestone?jp:${Math.abs(gear.id)}`}
@@ -237,7 +237,7 @@ const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, tog
         >
           在 The Lodestone 中查看 <Icon className="gear-menu_external" name="open-in-new" />
         </a>
-      </Ripple>
+      </RippleLazy>
     </div>
   );
 });

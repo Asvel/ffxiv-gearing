@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as classNames from 'classnames';
-import { Ripple } from '@rmwc/ripple';
+import { RippleLazy } from './RippleLazy';
 import { Icon } from './Icon';
 
 interface IconButtonProps extends React.HTMLProps<HTMLButtonElement> {
@@ -9,7 +9,7 @@ interface IconButtonProps extends React.HTMLProps<HTMLButtonElement> {
 
 export const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(
   ({ icon, className, ...otherProps }, ref) => (
-    <Ripple unbounded>
+    <RippleLazy unbounded>
       <button
         {...otherProps}
         ref={ref}
@@ -17,6 +17,6 @@ export const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(
         type="button"
         children={<Icon className="mdc-icon-button__icon" name={icon} />}
       />
-    </Ripple>
+    </RippleLazy>
   ),
 );

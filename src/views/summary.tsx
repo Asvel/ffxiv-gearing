@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
-import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import { Tooltip } from '@rmwc/tooltip';
 import * as G from '../game';
 import { useStore } from './components/contexts';
+import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 import { Dropdown } from './components/Dropdown';
 
@@ -31,7 +31,7 @@ export const Summary = observer(() => {
                     <td className="clan_race">{raceName}</td>
                     {[i * 2, i * 2 + 1].map(clan => (
                       <td key={clan}>
-                        <Ripple>
+                        <RippleLazy>
                           <div
                             className="clan_item"
                             onClick={() => {
@@ -40,7 +40,7 @@ export const Summary = observer(() => {
                             }}
                             children={G.clans[clan]}
                           />
-                        </Ripple>
+                        </RippleLazy>
                       </td>
                     ))}
                   </tr>

@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
-import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import { Tab, TabBar } from '@rmwc/tabs';
 import { List, SimpleListItem, CollapsibleList } from '@rmwc/list';
@@ -10,6 +9,7 @@ import { Radio } from '@rmwc/radio';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../game';
 import { useStore } from './components/contexts';
+import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 import { Dropdown } from './components/Dropdown';
 import { JobSelector } from './job-selector';
@@ -28,12 +28,12 @@ export const Condition = observer(() => {
         <span className="condition_job -empty">选择一个职业开始配装</span>
       )}
       {editing && (
-        <Ripple>
+        <RippleLazy>
           <span className="condition_job" onClick={() => toggleExpandedPanel('job')}>
             <Icon className="condition_job-icon" name={'jobs/' + store.job} />
             <span className="condition_job-name">{store.schema.name}</span>
           </span>
-        </Ripple>
+        </RippleLazy>
       )}
       {viewing && (
         <span className="condition_job">
@@ -94,32 +94,35 @@ export const Condition = observer(() => {
                       children={
                         <div className="level-sync_levels">
                           {G.syncLevels[jobLevel].map(level => (
-                            <span
-                              key={level}
-                              className={classNames(
-                                'level-sync_level',
-                                G.syncLevelIsPopular[level] && '-popular',
-                                level === store.syncLevel && '-selected',
-                              )}
-                              onClick={() => {
-                                store.setSyncLevel(level, jobLevel);
-                                toggle();
-                              }}
-                              children={level}
-                            />
+                            <RippleLazy key={level}>
+                              <span
+                                className={classNames(
+                                  'level-sync_level',
+                                  G.syncLevelIsPopular[level] && '-popular',
+                                  level === store.syncLevel && '-selected',
+                                )}
+                                onClick={() => {
+                                  store.setSyncLevel(level, jobLevel);
+                                  toggle();
+                                }}
+                                children={level}
+                              />
+                            </RippleLazy>
                           ))}
                           {jobLevel !== store.schema.jobLevel && (
-                            <div
-                              className={classNames(
-                                'level-sync_job-level-sync',
-                                jobLevel === store.jobLevel && store.syncLevel === undefined && '-selected',
-                              )}
-                              onClick={() => {
-                                store.setSyncLevel(undefined, jobLevel);
-                                toggle();
-                              }}
-                              children="仅同步等级"
-                            />
+                            <RippleLazy>
+                              <span
+                                className={classNames(
+                                  'level-sync_job-level-sync',
+                                  jobLevel === store.jobLevel && store.syncLevel === undefined && '-selected',
+                                )}
+                                onClick={() => {
+                                  store.setSyncLevel(undefined, jobLevel);
+                                  toggle();
+                                }}
+                                children="仅同步等级"
+                              />
+                            </RippleLazy>
                           )}
                         </div>
                       }
