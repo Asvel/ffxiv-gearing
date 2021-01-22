@@ -38,7 +38,7 @@ export function save(archive: object): void {
 
 export function load(key?: string): object | undefined {
   if (key === undefined) {
-    key = getCurrentKey();
+    key = getCurrentKey();  // eslint-disable-line no-param-reassign
   } else {
     setCurrentKey(key);
   }

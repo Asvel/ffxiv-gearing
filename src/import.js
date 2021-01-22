@@ -1,6 +1,6 @@
 (async () => {
   const origin = new URL(document.currentScript.src.replace(/\?[\d.]*$/, '') + '/../').href;
-  __webpack_require__.p = origin;
+  __webpack_require__.p = origin;  // eslint-disable-line no-undef
 
   const data = {
     job: null,
@@ -123,7 +123,7 @@
       data.job = state.jobs.currentJob.abbrev;
     }
 
-  } catch (e) { debugger; }
+  } catch (e) { debugger; }  // eslint-disable-line no-debugger
 
   if (data.job !== null) {
     const importUrl = origin + '?import-' + encodeURIComponent(JSON.stringify(data));

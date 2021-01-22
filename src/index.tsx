@@ -2,8 +2,8 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import 'mobx-react-lite/batchingForReactDom';
 import { autorun } from 'mobx';
-import { store } from "./stores";
-import { App } from './views/app'
+import { store } from './stores';
+import { App } from './views/app';
 import './utils/sanitize.css';
 import './views/app.scss';
 
@@ -13,6 +13,6 @@ autorun(() => {
   }
 });
 
-let container = document.createElement('div');
+const container = document.createElement('div');
 document.body.appendChild(container);
 ReactDOM.render(<App store={store} />, container);

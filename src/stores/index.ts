@@ -1,12 +1,12 @@
-import { onSnapshot } from "mobx-state-tree";
+import { onSnapshot } from 'mobx-state-tree';
 import * as G from '../game';
 import * as archive from '../archive';
 
 declare global {
   // noinspection JSUnusedGlobalSymbols
   interface Math {
-    abs(x: G.GearId): G.GearId;
-    abs(x: number): number;
+    abs(x: G.GearId): G.GearId;  // eslint-disable-line @typescript-eslint/method-signature-style
+    abs(x: number): number;  // eslint-disable-line @typescript-eslint/method-signature-style
   }
 }
 
@@ -31,7 +31,7 @@ import { Setting, Store } from '.';
 // export const store = Store.create(archive.load(), { setting: Setting.create() });
 // TODO: delete this old store structure compatible code
 const _archive = archive.load() as any;
-if (_archive && _archive.condition) {
+if (_archive?.condition) {
   Object.assign(_archive, _archive.condition);
   delete _archive.condition;
   archive.save(_archive);

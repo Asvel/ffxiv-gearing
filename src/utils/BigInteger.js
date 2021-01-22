@@ -1,4 +1,4 @@
-/*jslint plusplus: true, vars: true, indent: 2 */
+/* eslint-disable */
 
 // (function (global) {
   "use strict";

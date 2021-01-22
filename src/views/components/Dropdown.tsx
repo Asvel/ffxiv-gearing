@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { observer } from 'mobx-react-lite';
-import * as PopperJS from "@popperjs/core";
+import * as PopperJS from '@popperjs/core';
 import * as ReactPopper from 'react-popper';
 
 export interface DropdownLabelProps {
@@ -74,7 +74,10 @@ const DropdownPopper = observer<any>(props => {
       onGlobalKeyup = undefined;
     }
   };
-  React.useEffect(() => () => onGlobalClick = onGlobalKeyup = undefined, []);
+  React.useEffect(() => () => {
+    onGlobalClick = undefined;
+    onGlobalKeyup = undefined;
+  }, []);
   return popperContainer && ReactDOM.createPortal((
     <div
       ref={setPopperElement}

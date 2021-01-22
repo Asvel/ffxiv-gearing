@@ -177,7 +177,7 @@ export const Condition = observer(() => {
                         for (const grade of G.materiaGrades) {
                           const consumptionItem = store.materiaConsumption[stat]![grade];
                           if (consumptionItem === undefined) continue;
-                          ret.push(
+                          ret.push((
                             <tr key={stat + grade}>
                               <td>{G.getMateriaName(stat, grade, store.setting.materiaDisplayName === 'stat')}</td>
                               <td>{consumptionItem.safe}</td>
@@ -185,7 +185,7 @@ export const Condition = observer(() => {
                               <td>{consumptionItem.confidence90}</td>
                               <td>{consumptionItem.confidence99}</td>
                             </tr>
-                          );
+                          ));
                         }
                       }
                       return ret;
@@ -249,7 +249,7 @@ export const Condition = observer(() => {
                 <div>将下方的链接添加为浏览器书签（一种较方便的方式是拖拽下方链接至书签栏），</div>
                 <div>然后打开想导入的配装所在的页面，点击此书签。</div>
                 <a
-                  ref={r => r && r.setAttribute('href', encodeURI(
+                  ref={r => r?.setAttribute('href', encodeURI(
                     `javascript:void(document.body.appendChild(document.createElement('script')).src='`
                     + location.origin + location.pathname + `import.js?'+Math.random())`))}
                   className="import_bookmarklet"
@@ -257,7 +257,7 @@ export const Condition = observer(() => {
                   children="导入配装"
                 />
                 <div className="import_title">目前支持从以下配装器导入：</div>
-                <div>Ariyala's Final Fantasy XIV Toolkit (ffxiv.ariyala.com)</div>
+                <div>Ariyala&apos;s Final Fantasy XIV Toolkit (ffxiv.ariyala.com)</div>
                 <div>FF14俺tools：装備シミュレータ (ffxiv.es.exdreams.net)</div>
                 <div>Etro (etro.gg)</div>
                 <div className="import_warn">此功能可能因外部设计变动，不可预期地暂时不可用。</div>
@@ -276,7 +276,7 @@ export const Condition = observer(() => {
             children="编辑"
           />
         )}
-        {/*<Button className="condition_button">历史记录</Button>*/}
+        {/* <Button className="condition_button">历史记录</Button> */}
         {(editing || viewing) && (
           <Dropdown
             label={({ ref, toggle }) => (
@@ -392,12 +392,12 @@ const ConditionLevelInput = observer<ConditionLevelInputProps>(({ value, onChang
   }
   const inputRef = React.useRef<HTMLInputElement>(null);
   React.useEffect(() => {
-    const handleWheel = (e: HTMLElementEventMap['wheel']) => {
+    const handleWheel = (e: WheelEvent) => {
       e.preventDefault();
       if (e.deltaY !== 0) {
         (e.target as HTMLInputElement).focus();
         const delta = e.deltaY < 0 ? 5 : -5;
-        setInputValue(v => (parseInt(v) + delta).toString());
+        setInputValue(v => (parseInt(v, 10) + delta).toString());
       }
     };
     // FIXME: use onWheel when https://github.com/facebook/react/issues/14856 fix
@@ -410,7 +410,7 @@ const ConditionLevelInput = observer<ConditionLevelInputProps>(({ value, onChang
       className="condition_level-input"
       value={inputValue}
       onFocus={() => inputRef.current?.select()}
-      onBlur={() => onChange(parseInt(inputValue) || 0)}
+      onBlur={() => onChange(parseInt(inputValue, 10) || 0)}
       onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInputValue(e.target.value)}
     />
   );

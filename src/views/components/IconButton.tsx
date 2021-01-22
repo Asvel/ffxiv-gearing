@@ -18,5 +18,5 @@ export const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(
         children={<Icon className="mdc-icon-button__icon" name={icon} />}
       />
     </Ripple>
-  )
+  ),
 );

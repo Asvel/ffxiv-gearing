@@ -1,5 +1,5 @@
 import { autorun, reaction, untracked } from 'mobx';
-import { types, getEnv, Instance, SnapshotOut, ISimpleType, unprotect } from "mobx-state-tree";
+import { types, getEnv, Instance, ISimpleType, unprotect } from 'mobx-state-tree';
 import * as G from '../game';
 import * as share from '../share';
 import { floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
@@ -99,7 +99,7 @@ export const Store = types
     },
     get equippedStatsWithoutFood(): G.Stats {
       if (self.job === undefined) return {};
-      const stats: G.Stats = Object.assign({}, this.baseStats);
+      const stats: G.Stats = { ...this.baseStats };
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined) continue;
         if (!gear.isFood) {
@@ -123,7 +123,7 @@ export const Store = types
     },
     get equippedLevel(): number {
       let level = 0;
-      for (let slot of this.schema.slots) {
+      for (const slot of this.schema.slots) {
         level += (self.equippedGears.get(slot.slot)?.level ?? 0) * (slot.levelWeight ?? 1);
       }
       return floor(level / 13);
@@ -163,15 +163,16 @@ export const Store = types
             continue;
           }
           const ps: number[][] = [];  // ps[n][i]: success rate of using n materias to meld slots p[i..]
-          let n = 1, n90 = 0;
+          let n = 1;
+          let n90 = 0;
           while (true) {
             ps[n] = [];
-            ps[n][p.length - 1] = 1 - Math.pow(1 - p[p.length - 1], n);
+            ps[n][p.length - 1] = 1 - (1 - p[p.length - 1]) ** n;
             for (let i = p.length - 2; i >= 0; i--) {
               if (p.length - i > n) break;
               ps[n][i] = 0;
               for (let j = 1; j <= n - (p.length - i) + 1; j++) {
-                ps[n][i] += Math.pow(1 - p[i], j - 1) * p[i] * ps[n - j][i + 1];
+                ps[n][i] += (1 - p[i]) ** (j - 1) * p[i] * ps[n - j][i + 1];
               }
             }
             if (ps[n][0] > 0.9 && n90 === 0) n90 = n;
@@ -219,9 +220,9 @@ export const Store = types
         (floor((self.equippedStats[attackMainStat] ?? 0) * (partyBonus ?? 1.05)) - main) / main + 100) / 100;
       const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier *
         ((crtDamage - 1) * crtChance + 1) * (0.25 * dhtChance + 1);
-      const gcd = floor(floor((1000 - floor(130 * ((SKS || SPS)! - sub) / div)) * 2500 / 1000) *
+      const gcd = floor(floor((1000 - floor(130 * ((SKS ?? SPS)! - sub) / div)) * 2500 / 1000) *
         (statModifiers.gcd ?? 100) / 1000) / 100;
-      const ssDamage = floor(130 * ((SKS || SPS)! - sub) / div + 1000) / 1000;
+      const ssDamage = floor(130 * ((SKS ?? SPS)! - sub) / div + 1000) / 1000;
       const hp = floor(levelMod.hp * statModifiers.hp / 100 +
         (mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) * (VIT! - main));
       const mp = floor(200 + ((PIE ?? main) - main) / 22);
@@ -233,14 +234,14 @@ export const Store = types
       const { main, sub, div } = G.jobLevelModifiers[self.jobLevel];
       const { CRT, DET, DHT, TEN, SKS, SPS, PIE } = self.equippedStats;
       function calcTier(value: number, multiplier: number) {
-        if (value !== value) return undefined;
+        if (Number.isNaN(value)) return undefined;
         const quotient = floor(value / multiplier);
         const prev = ceil(quotient * multiplier) - 1 - value;
         const next = ceil((quotient + 1) * multiplier) - value;
         return { prev, next };
       }
       function calcGcdTier(value: number, multiplier: number, modifier: number) {
-        if (value !== value) return undefined;
+        if (Number.isNaN(value)) return undefined;
         const gcdc = floor(floor((1000 - floor(value / multiplier)) * 2.5) * modifier);
         const prev = ceil((floor(1000 - ceil((gcdc + 1) / modifier) / 2.5) + 1) * multiplier) - 1 - value;
         const next = ceil((floor(1000 - ceil(gcdc / modifier) / 2.5) + 1) * multiplier) - value;

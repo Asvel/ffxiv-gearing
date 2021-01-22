@@ -1,3 +1,5 @@
+/* eslint-disable no-debugger, no-return-assign, array-callback-return */
+
 const fs = require('fs');
 const JSON5 = require('json5');
 const Papa = require('papaparse');
@@ -10,7 +12,7 @@ function loadExd(filename) {
   const data = Papa.parse(fs.readFileSync('./in/' + filename, 'utf8')).data;
   const fields = data[1];
   return data.slice(3, -1).map(line => {
-    let ret = {};
+    const ret = {};
     for (let i = 0; i < line.length; i++) {
       if (fields[i] in ret) console.log(fields[i]);
       ret[fields[i] || i] = line[i];
@@ -49,7 +51,7 @@ const patches = {
   62: '5.1', 63: '5.11', 65: '5.15',
   66: '5.2', 67: '5.21', 68: '5.25',
   69: '5.3', 70: '5.31', 71: '5.35',
-  72: '5.4'
+  72: '5.4',
 };
 
 const sources = require('./in/sources');
@@ -223,7 +225,7 @@ const foods = Item
         jobCategory,
         stats,
         statRates,
-        statMain: statAbbrs[itemFood[`BaseParam[0]`]],
+        statMain: statAbbrs[itemFood['BaseParam[0]']],
         patch: patches[patchIds[x['#']]],
       };
     }
@@ -262,20 +264,20 @@ for (const l of Object.keys(syncLevelOfJobLevel).map(x => Number(x)).sort((a, b)
 }
 
 const levelCaps = {
-  level: Object.keys(levelsUsed).map(x => parseInt(x)).sort((a, b) => a - b),
+  level: Object.keys(levelsUsed).map(x => parseInt(x, 10)).sort((a, b) => a - b),
 };
 for (const i of Object.keys(statAbbrs)) {
-  levelCaps[statAbbrs[i]] = levelCaps.level.map(l => parseInt(ItemLevel[l][i]));
+  levelCaps[statAbbrs[i]] = levelCaps.level.map(l => parseInt(ItemLevel[l][i], 10));
 }
 
 const slotCaps = {};
 for (const i of Object.keys(statAbbrs)) {
-  slotCaps[statAbbrs[i]] = Array.from({ length: 14 }).map((_, j) => j === 0 ? 0 : parseInt(BaseParam[i][4 + j]));
+  slotCaps[statAbbrs[i]] = Array.from({ length: 14 }).map((_, j) => j === 0 ? 0 : parseInt(BaseParam[i][4 + j], 10));
 }
 
 const roleCaps = {};
 for (const i of Object.keys(statAbbrs)) {
-  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][26 + j]));
+  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][26 + j], 10));
 }
 
 const levelGroupBasis = [1, 50, 150, 290, 430];

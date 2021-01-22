@@ -1,4 +1,4 @@
-import { types, getEnv, Instance, ISimpleType, getParentOfType } from "mobx-state-tree";
+import { types, getEnv, Instance, ISimpleType, getParentOfType } from 'mobx-state-tree';
 import * as G from '../game';
 import { ISetting, Materia, Store, gearData } from '.';
 
@@ -54,7 +54,7 @@ export const Gear = types
     },
     get stats(): G.Stats {
       let stats: G.Stats = {};
-      if (this.syncedLevel != undefined) {
+      if (this.syncedLevel !== undefined) {
         const caps = G.getCaps(self.data, this.syncedLevel);
         for (const stat of Object.keys(this.bareStats) as G.Stat[]) {
           stats[stat] = Math.min(this.bareStats[stat] ?? 0, caps[stat]!);
@@ -82,8 +82,8 @@ export const Gear = types
       }
       return stats;
     },
-    get statHighlights(): { [index in G.Stat]?: Boolean } {
-      const ret: { [index in G.Stat]?: Boolean } = {};
+    get statHighlights(): { [index in G.Stat]?: boolean } {
+      const ret: { [index in G.Stat]?: boolean } = {};
       for (const stat of Object.keys(this.bareStats) as G.Stat[]) {
         ret[stat] = G.statHighlight[stat] && (this.bareStats[stat] ?? 0) >= (this.caps[stat] ?? Infinity);
       }

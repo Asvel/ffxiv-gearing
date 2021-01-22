@@ -44,17 +44,17 @@ for (let index = 0; index < permanentIndexes.length; index++) {
 }
 
 class Ranges {
+  public version = 77;
+  public job = 0;
+  public jobLevel = 0;
+  public syncLevel = 0;
+  public gearId = 0;
+  public materiaSlot = 0;
+  public materiaStat = 0;
+  public materiaGrade = 0;
+  public materiaCode = 0;
   private _version = 1;
-  version = 77;
-  job = 0;
-  jobLevel = 0;
-  syncLevel = 0;
-  gearId = 0;
-  materiaSlot = 0;
-  materiaStat = 0;
-  materiaGrade = 0;
-  materiaCode = 0;
-  useVersion(version: number) {
+  public useVersion(version: number) {
     this._version = version;
     if (version === 1 || version === 2) {
       this.job = 29;  // permanentIndexes.length,
@@ -67,7 +67,7 @@ class Ranges {
       this.syncLevel = 540;
     }
   }
-  useJob(job: G.Job) {
+  public useJob(job: G.Job) {
     this.materiaStat = permanentIndexes[toIndex[job]!.index].stats.length;  // TODO: versoin
     this.materiaCode = this.materiaStat * this.materiaGrade + 1;
   }
@@ -111,11 +111,13 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
 
   const materiaCodes: number[] = [];
   for (const materiaCode of Object.keys(materiaCodeSet)) {
-    materiaCodes[materiaCodeSet[materiaCode]] = parseInt(materiaCode);
+    materiaCodes[materiaCodeSet[materiaCode]] = parseInt(materiaCode, 10);
   }
 
   let result: BI.BigInteger = 0;
-  const write = (value: number, range: number) => result = BI.add(BI.multiply(result, range), value);
+  const write = (value: number, range: number) => {
+    result = BI.add(BI.multiply(result, range), value);
+  };
 
   for (const gear of gearCodes) {
     write(gear.id - minGearId, maxGearId - minGearId + 1);
@@ -162,8 +164,8 @@ export function parse(s: string): G.Gearset {
     let materiaCode = read(ranges.materiaCode);
     if (materiaCode > 0) {
       materiaCode -= 1;
-      let grade = materiaCode % ranges.materiaGrade + 1;
-      let stat = job.stats[Math.floor(materiaCode / ranges.materiaGrade + 1e-7)];
+      const grade = materiaCode % ranges.materiaGrade + 1;
+      const stat = job.stats[Math.floor(materiaCode / ranges.materiaGrade + 1e-7)];
       return [stat, grade] as [G.Stat, G.MateriaGrade];
     } else {
       return null;
@@ -173,7 +175,7 @@ export function parse(s: string): G.Gearset {
   const maxGearId = read(ranges.gearId);
   const minGearId = read(maxGearId);
   const gears: G.Gearset['gears'] = [];
-  while (input !== 0) {
+  while (input !== 0) {  // eslint-disable-line no-unmodified-loop-condition
     const materias = Array.from({ length: read(ranges.materiaSlot) },
       () => materiaCodes[read(materiaCodes.length)]).reverse();
     const id = (read(maxGearId - minGearId + 1) + minGearId) as G.GearId;

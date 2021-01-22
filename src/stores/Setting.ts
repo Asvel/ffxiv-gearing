@@ -1,4 +1,4 @@
-import { types, Instance, ISimpleType, applySnapshot, onSnapshot } from "mobx-state-tree";
+import { types, Instance, ISimpleType, applySnapshot, onSnapshot } from 'mobx-state-tree';
 
 type GearDisplayName = 'name' | 'source';
 type GearColorScheme = 'source' | 'rarity' | 'none';

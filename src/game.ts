@@ -50,14 +50,16 @@ const levelCaps = require('../data/out/levelCaps').default as { [index in Stat |
 const slotCaps = require('../data/out/slotCaps').default as { [index in Stat]: number[] };
 const roleCaps = require('../data/out/roleCaps').default as { [index in Stat]: number[] };
 const levelCapsIndex: { [index: number]: number } = {};
-levelCaps.level.forEach((level, i) => levelCapsIndex[level] = i);
+levelCaps.level.forEach((level, i) => {
+  levelCapsIndex[level] = i;
+});
 const capsCache: { [index: string]: Stats } = {};
 export function getCaps(gear: Gear, syncLevel?: number): Stats {
   const level = syncLevel ?? gear.level;
   const { slot, role } = gear;
   const cacheKey = `${level},${slot},${role}`;
   if (!(cacheKey in capsCache)) {
-    let caps: Stats = {};
+    const caps: Stats = {};
     for (const stat of Object.keys(statNames) as Stat[]) {
       caps[stat] = stat === 'DLY' ? Infinity : Math.round(
         levelCaps[stat][levelCapsIndex[level]] *
@@ -161,6 +163,7 @@ export interface JobSchema {
 }
 
 export const jobSchemas = {
+  /* eslint-disable @typescript-eslint/consistent-type-assertions */
   PLD: {
     name: '骑士',
     stats: statSchemas.tank,
@@ -458,6 +461,7 @@ export const jobSchemas = {
     jobLevel: jobLevelMax,
     skeletonGears: true,
   } as JobSchema,
+  /* eslint-enable @typescript-eslint/consistent-type-assertions */
 };
 
 export type Job = keyof typeof jobSchemas;
@@ -497,7 +501,7 @@ export const materiaSuccessRates: number[][] = [
   [90, 82, 70, 58, 17, 17, 17, 17],
   [48, 44, 38, 32, 10, 0, 10, 0],
   [28, 26, 22, 20, 7, 0, 7, 0],
-  [16, 16, 14, 12, 5, 0, 5, 0]
+  [16, 16, 14, 12, 5, 0, 5, 0],
 ];
 export const materiaNames: { [index in Stat]?: string } = {
   CRT: '武略', DHT: '神眼', DET: '雄略', SKS: '战技', SPS: '咏唱', TEN: '刚柔', PIE: '信力',

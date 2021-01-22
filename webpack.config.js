@@ -24,7 +24,7 @@ module.exports = function (env, argv) {
               // Keep react component display name
               return source.replace(
                 /([\r\n](?:export )?)const (.+?) = (.+?)\(\((.*?)\) => {([\r\n])/g,
-                '$1const $2 = $3(function $2($4) {$5'
+                '$1const $2 = $3(function $2($4) {$5',
               );
             }),
             prod && require('simple-functional-loader').createLoader(function(source) {
@@ -54,7 +54,7 @@ module.exports = function (env, argv) {
                   require('postcss-preset-env')(),
                   prod && require('cssnano')(),
                 ].filter(Boolean),
-              }
+              },
             },
             {
               loader: 'sass-loader',
@@ -68,7 +68,7 @@ module.exports = function (env, argv) {
         },
         { test: /\.png$/, use: 'file-loader' },
         { test: /\.svg$/, use: 'svg-sprite-loader' },
-      ]
+      ],
     },
     plugins: [
       new HtmlWebpackPlugin({
@@ -83,9 +83,9 @@ module.exports = function (env, argv) {
           commons: {
             test: /[\\/]node_modules[\\/]/,
             name: 'vendor',
-            chunks: 'all'
+            chunks: 'all',
           },
-        }
+        },
       },
       moduleIds: 'hashed',
     },

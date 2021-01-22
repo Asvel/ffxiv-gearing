@@ -5,7 +5,7 @@ import { Ripple } from '@rmwc/ripple';
 import { Button } from '@rmwc/button';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../game';
-import { IGearUnion } from "../stores";
+import { IGearUnion } from '../stores';
 import { useStore } from './components/contexts';
 import { Icon } from './components/Icon';
 import { IconButton } from './components/IconButton';
@@ -100,7 +100,7 @@ const GearRow = observer<{
         gear.isFood && '-food',
         !store.isViewing && gear.isEquipped && '-selected',
         isGroupEnd && '-group-end',
-        !gear.isFood && gear.syncedLevel !== undefined && '-synced'
+        !gear.isFood && gear.syncedLevel !== undefined && '-synced',
       )}
       onClick={store.isViewing ? undefined : e => {
         // when dropdown open, clicking on a row usually intends to close dropdown
@@ -163,7 +163,7 @@ const GearRow = observer<{
             className={classNames(
               'gears_stat-value',
               gear.statHighlights[stat] && '-full',
-              store.schema.skeletonGears && !gear.isFood && gear.slot !== 17 && '-skeleton'
+              store.schema.skeletonGears && !gear.isFood && gear.slot !== 17 && '-skeleton',
             )}
             children={(gear.isFood || store.setting.displayMeldedStats ? gear.stats : gear.bareStats)[stat]}
           />
@@ -174,7 +174,7 @@ const GearRow = observer<{
             <span
               className={classNames(
                 'gears_stat-requirement',
-                store.equippedStatsWithoutFood[stat]! >= gear.requiredStats[stat]! && '-enough'
+                store.equippedStatsWithoutFood[stat]! >= gear.requiredStats[stat]! && '-enough',
               )}
             >{gear.requiredStats[stat]}+</span>
           )}

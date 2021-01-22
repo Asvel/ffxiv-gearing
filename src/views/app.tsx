@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
-import { IStore } from "../stores";
+import { IStore } from '../stores';
 import { StoreContext } from './components/contexts';
 import { Slot, SlotCompact } from './slot';
 import { Condition } from './condition';

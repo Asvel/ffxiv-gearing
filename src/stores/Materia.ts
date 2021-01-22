@@ -1,4 +1,4 @@
-import { types, getEnv, Instance, ISimpleType, getParentOfType } from "mobx-state-tree";
+import { types, getEnv, Instance, ISimpleType, getParentOfType } from 'mobx-state-tree';
 import * as G from '../game';
 import { Gear, IGear, ISetting } from '.';
 

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { observer } from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import * as G from '../game';
-import { IMateria } from "../stores";
+import { IMateria } from '../stores';
 import { useStore } from './components/contexts';
 import { Dropdown } from './components/Dropdown';
 
@@ -16,7 +16,7 @@ export const Materia = observer<{ materia: IMateria }>(({ materia }) => {
           className={classNames(
             'gears_materia',
             materia.isAdvanced ? '-advanced' : '-normal',
-            expanded && '-active'
+            expanded && '-active',
           )}
           onClick={store.isViewing ? undefined : toggle}
           onContextMenu={store.isViewing ? undefined : e => {
@@ -61,7 +61,7 @@ const MateriaPanel = observer<{ materia: IMateria, labelElement: HTMLElement | n
               key={grade}
               className={classNames(
                 'materias_grade',
-                materia.stat === stat && materia.grade === grade && '-selected'
+                materia.stat === stat && materia.grade === grade && '-selected',
               )}
               onClick={() => {
                 if (materia.stat === undefined) {  // Only for initial melding, not for changing materia

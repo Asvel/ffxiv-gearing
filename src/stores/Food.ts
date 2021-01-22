@@ -1,4 +1,4 @@
-import { types, Instance, ISimpleType, getParentOfType } from "mobx-state-tree";
+import { types, Instance, ISimpleType, getParentOfType } from 'mobx-state-tree';
 import * as G from '../game';
 import { floor, GearColor, Store, gearData } from '.';
 
@@ -43,7 +43,7 @@ export const Food = types
       }
       return stats;
     },
-    get statHighlights(): { [index in G.Stat]?: Boolean } {
+    get statHighlights(): { [index in G.Stat]?: boolean } {
       return {
         [self.data.statMain]: true,
       };
@@ -58,7 +58,7 @@ export const Food = types
       return floor(effectiveStat / fullStat * 100);
     },
     get utilizationOpacity(): number {
-      return Math.max(0.2, Math.pow(this.utilization / 100, 2));
+      return Math.max(0.2, (this.utilization / 100) ** 2);
     },
     get isInstalled(): boolean {
       return !(this.patch > G.versions.released);

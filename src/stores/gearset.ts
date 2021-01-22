@@ -1,5 +1,5 @@
 import { observable, autorun, action } from 'mobx';
-import { SnapshotIn, getSnapshot, applySnapshot } from "mobx-state-tree";
+import { SnapshotIn, getSnapshot, applySnapshot } from 'mobx-state-tree';
 import * as G from '../game';
 import * as archive from '../archive';
 import * as share from '../share';
