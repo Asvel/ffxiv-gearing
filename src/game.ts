@@ -159,7 +159,7 @@ export interface JobSchema {
   traitDamageMultiplier?: number,
   partyBonus?: number,
   skeletonGears?: boolean,  // consistent stats proportion in same slot, focus on materia melding than gear choosing
-  toolMateriaCopies?: number,
+  toolMateriaDuplicates?: number,
 }
 
 export const jobSchemas = {
@@ -370,7 +370,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCrafting,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 8,
+    toolMateriaDuplicates: 8,
   } as JobSchema,
   BSM: {
     name: '锻铁匠',
@@ -379,7 +379,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCrafting,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 8,
+    toolMateriaDuplicates: 8,
   } as JobSchema,
   ARM: {
     name: '铸甲匠',
@@ -388,7 +388,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCrafting,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 8,
+    toolMateriaDuplicates: 8,
   } as JobSchema,
   GSM: {
     name: '雕金匠',
@@ -397,7 +397,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCrafting,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 8,
+    toolMateriaDuplicates: 8,
   } as JobSchema,
   LTW: {
     name: '制革匠',
@@ -406,7 +406,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCrafting,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 8,
+    toolMateriaDuplicates: 8,
   } as JobSchema,
   WVR: {
     name: '裁衣匠',
@@ -415,7 +415,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCrafting,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 8,
+    toolMateriaDuplicates: 8,
   } as JobSchema,
   ALC: {
     name: '炼金术士',
@@ -424,7 +424,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCrafting,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 8,
+    toolMateriaDuplicates: 8,
   } as JobSchema,
   CUL: {
     name: '烹调师',
@@ -433,7 +433,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCrafting,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 8,
+    toolMateriaDuplicates: 8,
   } as JobSchema,
   MIN: {
     name: '采矿工',
@@ -442,7 +442,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelGathering,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 2,
+    toolMateriaDuplicates: 2,
   } as JobSchema,
   BTN: {
     name: '园艺工',
@@ -451,7 +451,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelGathering,
     jobLevel: jobLevelMax,
     skeletonGears: true,
-    toolMateriaCopies: 2,
+    toolMateriaDuplicates: 2,
   } as JobSchema,
   FSH: {
     name: '捕鱼人',

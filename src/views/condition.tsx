@@ -6,6 +6,7 @@ import { Tab, TabBar } from '@rmwc/tabs';
 import { List, SimpleListItem, CollapsibleList } from '@rmwc/list';
 import { TextField } from '@rmwc/textfield';
 import { Radio } from '@rmwc/radio';
+import { Switch } from '@rmwc/switch';
 import Clipboard from 'react-clipboard.js';
 import * as G from '../game';
 import { useStore } from './components/contexts';
@@ -201,9 +202,19 @@ export const Condition = observer(() => {
                     <tr className="materia-consumption_tip">
                       <td colSpan={5}>
                         *以此成功率完成全部镶嵌所需的数量
-                        {store.schema.toolMateriaCopies! > 1 && (
-                          <div className="materia-consumption_tool-copies">
-                            {`主副手的用量按照${store.schema.toolMateriaCopies}套计算`}
+                        {store.schema.toolMateriaDuplicates! > 1 && (
+                          <div
+                            className={classNames(
+                              'materia-consumption_tool-duplicates',
+                              !store.duplicateToolMateria && '-disabled',
+                            )}
+                          >
+                            {`主副手的用量按照${store.schema.toolMateriaDuplicates}套计算`}
+                            <Switch
+                              className="materia-consumption_tool-duplicates-switch"
+                              checked={store.duplicateToolMateria}
+                              onChange={store.toggleDuplicateToolMateria}
+                            />
                           </div>
                         )}
                       </td>

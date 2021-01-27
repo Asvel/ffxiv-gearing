@@ -13,6 +13,7 @@
 @use "../../node_modules/@material/textfield/mixins" as textfield;  // only use line-ripple, skip others
 @use "../../node_modules/@material/form-field/mixins" as form-field;
 @use "../../node_modules/@material/radio/mixins" as radio;
+@use "../../node_modules/@material/switch/mixins" as switch;
 @use "./components/mixins" as *;
 
 @import "../../node_modules/@rmwc/tooltip/tooltip";
@@ -30,6 +31,7 @@
 @include textfield.core-styles(feature-targeting.without(typography));
 @include form-field.core-styles(feature-targeting.without(typography));
 @include radio.core-styles(feature-targeting.without(typography));
+@include switch.core-styles(feature-targeting.without(typography));
 
 .mdc-ripple-surface {
   cursor: pointer;

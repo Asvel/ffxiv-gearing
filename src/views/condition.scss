@@ -118,6 +118,7 @@
 }
 
 .materia-overall {
+  overflow: visible;
   @include elevation(4);
 }
 .materia-overall_tabbar {
@@ -150,8 +151,16 @@
     padding: 8px 16px;
   }
 }
-.materia-consumption_tool-copies {
+.materia-consumption_tool-duplicates {
   font-weight: bold;
+  line-height: 24px;
+  &.-disabled {
+    text-decoration: line-through;
+  }
+}
+.materia-consumption_tool-duplicates-switch {
+  margin-left: 6px;
+  vertical-align: -2px;
 }
 
 .share {

@@ -18,6 +18,7 @@ export const Store = types
     maxLevel: types.optional(types.number, 0),
     syncLevel: types.maybe(types.number),
     showAllFoods: types.optional(types.boolean, false),
+    duplicateToolMateria: types.optional(types.boolean, true),
     gears: types.map(GearUnion),
     equippedGears: types.map(GearUnionReference),
   })
@@ -133,7 +134,8 @@ export const Store = types
           { safe: number, expectation: number, confidence90: number, confidence99: number, rates: number[] } } } = {};
       for (const gear of self.equippedGears.values()) {
         if (gear === undefined || gear.isFood) continue;
-        const copies = (gear.slot === 1 || gear.slot === 2) && this.schema.toolMateriaCopies || 1;
+        const duplicates = self.duplicateToolMateria &&
+          (gear.slot === 1 || gear.slot === 2) && this.schema.toolMateriaDuplicates || 1;
         for (const materia of gear.materias) {
           if (materia.stat === undefined) continue;
           if (consumption[materia.stat] === undefined) {
@@ -144,7 +146,7 @@ export const Store = types
               { safe: 0, expectation: 0, confidence90: 0, confidence99: 0, rates: [] };
           }
           const consumptionItem = consumption[materia.stat]![materia.grade!]!;
-          for (let i = 0; i < copies; i++) {
+          for (let i = 0; i < duplicates; i++) {
             if (materia.successRate === 100) {
               consumptionItem.safe += 1;
             } else {
@@ -322,6 +324,9 @@ export const Store = types
     },
     toggleShowAllFoods(): void {
       self.showAllFoods = !self.showAllFoods;
+    },
+    toggleDuplicateToolMateria(): void {
+      self.duplicateToolMateria = !self.duplicateToolMateria;
     },
     startEditing(): void {
       self.mode = 'edit';
