@@ -8,6 +8,11 @@
     gears: [],
   };
 
+  const materiaTypes = {
+    6: 'PIE', 19: 'TEN', 22: 'DHT', 27: 'CRT', 44: 'DET', 45: 'SKS', 46: 'SPS',
+    10: 'GP', 11: 'CP', 70: 'CMS', 71: 'CRL', 72: 'GTH', 73: 'PCP',
+  };
+
   try {
 
     // Ariyala's Final Fantasy XIV Toolkit
@@ -73,21 +78,6 @@
 
     // Etro
     if (/\betro\b/i.test(document.title)) {
-      const materiaTypes = {
-        6: 'PIE',
-        19: 'TEN',
-        22: 'DHT',
-        27: 'CRT',
-        44: 'DET',
-        45: 'SKS',
-        46: 'SPS',
-        10: 'GP',
-        11: 'CP',
-        70: 'CMS',
-        71: 'CRL',
-        72: 'GTH',
-        73: 'PCP',
-      };
       let element = document.getElementById('root')._reactRootContainer._internalRoot.current;
       while (element.child && !(element.memoizedProps && element.memoizedProps.value &&
         element.memoizedProps.value.store)) element = element.child;
@@ -121,6 +111,34 @@
         }
       }
       data.job = state.jobs.currentJob.abbrev;
+    }
+
+    // FFXIV Teamcraft
+    const teamcraftApp = document.getElementsByTagName('app-gearset-display')[0];
+    if (teamcraftApp !== undefined) {
+      const component = teamcraftApp.__ngContext__[teamcraftApp.__ngContext__.length - 1];
+      const gearset = await new Promise(resolve => { component.gearset$.subscribe(v => resolve(v)); });
+      const materiaMap = {};
+      component.lazyData.data.materias.forEach(m => { materiaMap[m.itemId] = m; });
+      for (const item of Object.values(gearset)) {
+        if (item) {
+          const id = item.itemId;
+          if (id) {
+            const materias = item.materias.map(materiaId => {
+              const materia = materiaMap[materiaId];
+              if (!materia) return null;
+              const stat = materiaTypes[materia.baseParamId];
+              if (!stat) return null;
+              return [stat, materia.tier];
+            });
+            data.gears.push({ id, materias });
+          }
+          if (item.ID) {  // food
+            data.gears.push({ id: item.ID, materias: [] });
+          }
+        }
+      }
+      data.job = component.lazyData.data.jobAbbr[gearset.job].en;
     }
 
   } catch (e) { debugger; }  // eslint-disable-line no-debugger

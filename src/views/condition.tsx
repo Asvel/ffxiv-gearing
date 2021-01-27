@@ -274,7 +274,8 @@ export const Condition = observer(() => {
                 <div>Ariyala&apos;s Final Fantasy XIV Toolkit (ffxiv.ariyala.com)</div>
                 <div>FF14俺tools：装備シミュレータ (ffxiv.es.exdreams.net)</div>
                 <div>Etro (etro.gg)</div>
-                <div className="import_warn">此功能可能因外部设计变动，不可预期地暂时不可用。</div>
+                <div>FFXIV Teamcraft (ffxivteamcraft.com)</div>
+                <div className="import_warn">此功能可能因上述站点的设计变动而失效，如遇到不可用请反馈。</div>
               </div>
             )}
             placement="bottom-end"
