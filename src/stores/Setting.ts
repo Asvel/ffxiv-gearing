@@ -1,4 +1,4 @@
-import { types, Instance, ISimpleType, applySnapshot, onSnapshot } from 'mobx-state-tree';
+import * as mst from 'mobx-state-tree';
 
 type GearDisplayName = 'name' | 'source';
 type GearColorScheme = 'source' | 'rarity' | 'none';
@@ -6,18 +6,18 @@ type MateriaDisplayName = 'stat' | 'materia';
 
 const storageKey = 'ffxiv-gearing-setting';
 
-export const Setting = types
+export const Setting = mst.types
   .model({
-    highSaturation: types.optional(types.boolean, false),
-    gearDisplayName: types.optional(types.string as ISimpleType<GearDisplayName>, 'name'),
-    gearColorScheme: types.optional(types.string as ISimpleType<GearColorScheme>, 'source'),
-    materiaDisplayName: types.optional(types.string as ISimpleType<MateriaDisplayName>, 'stat'),
-    displayMeldedStats: types.optional(types.boolean, true),
+    highSaturation: mst.types.optional(mst.types.boolean, false),
+    gearDisplayName: mst.types.optional(mst.types.string as mst.ISimpleType<GearDisplayName>, 'name'),
+    gearColorScheme: mst.types.optional(mst.types.string as mst.ISimpleType<GearColorScheme>, 'source'),
+    materiaDisplayName: mst.types.optional(mst.types.string as mst.ISimpleType<MateriaDisplayName>, 'stat'),
+    displayMeldedStats: mst.types.optional(mst.types.boolean, true),
   })
   .actions(self => ({
     afterCreate(): void {
-      applySnapshot(self, JSON.parse(localStorage.getItem(storageKey) ?? '{}'));
-      onSnapshot(self, snapshot => localStorage.setItem(storageKey, JSON.stringify(snapshot)));
+      mst.applySnapshot(self, JSON.parse(localStorage.getItem(storageKey) ?? '{}'));
+      mst.onSnapshot(self, snapshot => localStorage.setItem(storageKey, JSON.stringify(snapshot)));
     },
     setHighSaturation(highSaturation: boolean): void {
       self.highSaturation = highSaturation;
@@ -36,4 +36,4 @@ export const Setting = types
     },
   }));
 
-export interface ISetting extends Instance<typeof Setting> {}
+export interface ISetting extends mst.Instance<typeof Setting> {}

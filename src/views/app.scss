@@ -36,6 +36,10 @@
 .mdc-ripple-surface {
   cursor: pointer;
 }
+.mdc-button {
+  font-weight: normal;
+  user-select: auto;
+}
 .mdc-icon-button {
   svg {
     vertical-align: top;
@@ -54,6 +58,7 @@ body {
   min-width: 1080px;
   overflow-x: auto;
   overflow-y: scroll;
+  line-height: 1.15;  // TODO: imporve overall line-height management
   text-align: center;
   background-color: #f2f2f2;
   cursor: auto;
@@ -69,13 +74,15 @@ svg {
   display: inline-block;
   padding-bottom: 48px;
   font-size: 14px;
-  font-family: // TODO: recheck fonts
+  font-family: // TODO: reconsider fonts
     Helvetica Neue, Helvetica, Arial,
     PingFang SC, Hiragino Sans GB, Microsoft YaHei, \5FAE\8F6F\96C5\9ED1,
     sans-serif;
-  /*line-height: 1.4286;*/
   text-align: initial;
   color: #000000de;
+  &:not(.app-high-saturation) ::selection {
+    background-color: #c8e1ff;
+  }
 }
 
 .card {

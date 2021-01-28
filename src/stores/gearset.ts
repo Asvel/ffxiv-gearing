@@ -1,5 +1,5 @@
-import { observable, autorun, action } from 'mobx';
-import { SnapshotIn, getSnapshot, applySnapshot } from 'mobx-state-tree';
+import * as mobx from 'mobx';
+import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as archive from '../archive';
 import * as share from '../share';
@@ -7,12 +7,12 @@ import { Store, IStore, gearData, gearDataLoading, loadGearDataOfGear, store } f
 
 // TODO: avoid accessing store instance
 
-const gearsetStore = observable.box<G.Gearset>(undefined, { deep: false });
-autorun(() => {  // gearsetStore react to main store
+const gearsetStore = mobx.observable.box<G.Gearset>(undefined, { deep: false });
+mobx.autorun(() => {  // gearsetStore react to main store
   const gearset = gearsetStore.get();
   if (gearset === undefined) return;
   if (gearDataLoading.get()) return;
-  const snapshot: SnapshotIn<IStore> = {
+  const snapshot: mst.SnapshotIn<IStore> = {
     mode: 'view',
     job: gearset.job,
     jobLevel: gearset.jobLevel,
@@ -30,19 +30,21 @@ autorun(() => {  // gearsetStore react to main store
       snapshot.equippedGears![id > 0 ? slot : -slot] = id;
     }
   }
-  applySnapshot(store, snapshot);
+  mst.applySnapshot(store, snapshot);
 });
 
 const parseQuery = () => {
-  let query = location.search.slice(1);
+  let query = window.location.search.slice(1);
   if (query in G.jobSchemas) {
     store.setJob(query as G.Job);
-    history.replaceState(history.state, document.title, location.href.replace(/\?.*$/, ''));
+    window.history.replaceState(window.history.state, document.title,
+      window.location.href.replace(/\?.*$/, ''));
   } else {
     if (query.startsWith('import-')) {
       const gearset = JSON.parse(decodeURIComponent(query.slice('import-'.length))) as G.Gearset;
       query = share.stringify(gearset);
-      history.replaceState(history.state, document.title, location.href.replace(/\?.*$/, `?${query}`));
+      window.history.replaceState(window.history.state, document.title,
+        window.location.href.replace(/\?.*$/, `?${query}`));
     }
     if (query.length > 3) {
       const gearset = share.parse(query);
@@ -56,12 +58,12 @@ const parseQuery = () => {
 };
 parseQuery();
 
-window.addEventListener('popstate', action(() => {
+window.addEventListener('popstate', mobx.action(() => {
   const archiveData = archive.load();
   if (archiveData !== undefined) {
-    applySnapshot(store, archive.load());
+    mst.applySnapshot(store, archive.load());
   } else {
-    applySnapshot(store, getSnapshot(Store.create()));
+    mst.applySnapshot(store, mst.getSnapshot(Store.create()));
     parseQuery();
   }
 }));

@@ -1,10 +1,10 @@
-import { types, Instance, ISimpleType, getParentOfType } from 'mobx-state-tree';
+import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import { floor, GearColor, Store, gearData } from '.';
 
-export const Food = types
+export const Food = mst.types
   .model('Food', {
-    id: types.identifierNumber as ISimpleType<G.GearId>,
+    id: mst.types.identifierNumber as mst.ISimpleType<G.GearId>,
   })
   .views(self => ({
     get data() {
@@ -34,7 +34,7 @@ export const Food = types
       return stats;
     },
     get effectiveStats(): G.Stats {
-      const store = getParentOfType(self, Store);
+      const store = mst.getParentOfType(self, Store);
       const stats: G.Stats = {};
       for (const stat of Object.keys(this.stats) as G.Stat[]) {
         const equippedStat = store.equippedStatsWithoutFood[stat] ?? 1;
@@ -64,9 +64,9 @@ export const Food = types
       return !(this.patch > G.versions.released);
     },
     get isEquipped(): boolean {
-      const store = getParentOfType(self, Store);
+      const store = mst.getParentOfType(self, Store);
       return store.equippedGears.get('-1') === self;
     },
   }));
 
-export interface IFood extends Instance<typeof Food> {}
+export interface IFood extends mst.Instance<typeof Food> {}

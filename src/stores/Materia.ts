@@ -1,24 +1,24 @@
-import { types, getEnv, Instance, ISimpleType, getParentOfType } from 'mobx-state-tree';
+import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import { Gear, IGear, ISetting } from '.';
 
-export const Materia = types
+export const Materia = mst.types
   .model({
-    stat: types.maybe(types.string as ISimpleType<G.Stat>),
-    grade: types.maybe(types.number as ISimpleType<G.MateriaGrade>),
+    stat: mst.types.maybe(mst.types.string as mst.ISimpleType<G.Stat>),
+    grade: mst.types.maybe(mst.types.number as mst.ISimpleType<G.MateriaGrade>),
   })
   .views(self => ({
     get index(): number {
       return Number((self as any).$treenode.subpath);
     },
     get gear(): IGear {
-      return getParentOfType(self, Gear);
+      return mst.getParentOfType(self, Gear);
     },
   }))
   .views(self => ({
     get name(): string {
       return self.stat === undefined ? '' : G.getMateriaName(self.stat, self.grade!,
-        (getEnv(self).setting as ISetting).materiaDisplayName === 'stat');
+        (mst.getEnv(self).setting as ISetting).materiaDisplayName === 'stat');
     },
     get isAdvanced(): boolean {
       return self.index >= self.gear.materiaSlot;
@@ -40,4 +40,4 @@ export const Materia = types
     },
   }));
 
-export interface IMateria extends Instance<typeof Materia> {}
+export interface IMateria extends mst.Instance<typeof Materia> {}

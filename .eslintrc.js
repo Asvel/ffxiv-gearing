@@ -4,20 +4,23 @@ module.exports = {
     'alloy',
     'alloy/react',
     'alloy/typescript',
+    'plugin:react-hooks/recommended',
   ],
   env: {
     browser: true,
   },
   rules: {
     'getter-return': 'off',
+    'no-restricted-globals': ['error', ...require('confusing-browser-globals')],
     'complexity': 'off',
     'max-depth': 'off',
     'prefer-const': ['error', { 'destructuring': 'all' }],
     'prefer-exponentiation-operator': 'error',
+    'react/jsx-uses-react': 'off',
     'react/no-children-prop': 'off',
-    'react/jsx-fragments': 'off',  // FIXME
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-require-imports': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
 
     // stylistic
     'comma-dangle': ['error', 'always-multiline'],
@@ -34,6 +37,7 @@ module.exports = {
     parserOptions: {
       tsconfigRootDir: __dirname,
       project: ['./tsconfig.json'],
+      jsxPragma: '__REACT_17_NEW_JSX_TRANSFORM__',
     },
     rules: {
       '@typescript-eslint/prefer-nullish-coalescing': 'error',

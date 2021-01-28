@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "alwaysStrict": true,
-    "experimentalDecorators": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
+    "module": "es2020",
     "moduleResolution": "node",
-    "target": "es6",
-    "lib": ["es2017", "dom", "dom.iterable"],
-    "jsx": "react"
+    "target": "es2018",
+    "lib": ["es2018", "dom", "dom.iterable"],
+    "jsx": "react-jsxdev"
   }
 }

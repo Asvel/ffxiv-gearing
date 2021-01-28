@@ -1,11 +1,10 @@
-import * as React from 'react';
-import { observer } from 'mobx-react-lite';
+import * as mobxReact from 'mobx-react-lite';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 
-export const JobSelector = observer(() => {
+export const JobSelector = mobxReact.observer(() => {
   return (
     <div className="job-selector">
       <div className="job-selector_column">
@@ -64,7 +63,7 @@ export const JobSelector = observer(() => {
   );
 });
 
-const JobGroup = observer<{ name: string }>(({ name, children }) => {
+const JobGroup = mobxReact.observer<{ name: string }>(({ name, children }) => {
   return (
     <div className="job-selector_group">
       <div className="job-selector_group-name">{name}</div>
@@ -73,7 +72,7 @@ const JobGroup = observer<{ name: string }>(({ name, children }) => {
   );
 });
 
-const JobItem = observer<{ job: G.Job }>(({ job }) => {
+const JobItem = mobxReact.observer<{ job: G.Job }>(({ job }) => {
   const store = useStore();
   const schema = G.jobSchemas[job];
   return (
@@ -84,7 +83,7 @@ const JobItem = observer<{ job: G.Job }>(({ job }) => {
         onClick={e => {
           e.preventDefault();
           store.setJob(job);
-          history.pushState(history.state, document.title, location.href);
+          window.history.pushState(window.history.state, document.title, window.location.href);
         }}
       >
         {schema.name}

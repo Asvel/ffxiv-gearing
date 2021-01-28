@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { observer } from 'mobx-react-lite';
+import * as mobxReact from 'mobx-react-lite';
 import * as PopperJS from '@popperjs/core';
 import * as ReactPopper from 'react-popper';
 
@@ -23,7 +23,7 @@ export interface DropdownProps {
   strategy?: PopperJS.PositioningStrategy;
 }
 
-export const Dropdown = observer<DropdownProps>(props => {
+export const Dropdown = mobxReact.observer<DropdownProps>(props => {
   const [ expanded, setExpanded ] = React.useState(false);
   const [ labelElement, setLabelElement ] = React.useState<HTMLElement | null>(null);
   const toggle = (e?: UIEvent) => {
@@ -33,7 +33,7 @@ export const Dropdown = observer<DropdownProps>(props => {
     }
   };
   return (
-    <React.Fragment>
+    <>
       {props.label({
         ref: setLabelElement,
         expanded,
@@ -47,11 +47,11 @@ export const Dropdown = observer<DropdownProps>(props => {
           toggle={toggle}
         />
       )}
-    </React.Fragment>
+    </>
   );
 });
 
-const DropdownPopper = observer<any>(props => {
+const DropdownPopper = mobxReact.observer<any>(props => {
   const { popper, placement, modifiers, strategy, setExpanded, labelElement, toggle } = props;
   const [ popperElement, setPopperElement ] = React.useState<HTMLElement | null>(null);
   const popperInstance = ReactPopper.usePopper(labelElement, popperElement, { placement, modifiers, strategy });

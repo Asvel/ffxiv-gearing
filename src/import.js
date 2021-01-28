@@ -65,11 +65,11 @@
       for (let i = 0; i < equipSelectorList.length; i++) {
         const equipSelector = equipSelectorList[i];
         const equip = jqsEquipList[equipSelector].setting.data[jqsEquipList[equipSelector].selectedIndex];
-        const materias = jqsMateriaList[materiaSelectorList[i]].selectedMateriaData;
+        const materiaData = jqsMateriaList[materiaSelectorList[i]].selectedMateriaData;
         if (equip.data) {
           const id = lodestoneIdToItemId[equip.data.id];
           if (id !== undefined) {
-            const materias = (materias || []).map(m => [materiaTypes[m.key], Number(m.level)]);
+            const materias = (materiaData || []).map(m => [materiaTypes[m.key], Number(m.level)]);
             data.gears.push({ id, materias });
           }
         }
@@ -146,7 +146,7 @@
   if (data.job !== null) {
     const importUrl = origin + '?import-' + encodeURIComponent(JSON.stringify(data));
     console.log(importUrl);
-    if (open(importUrl) === null) {
+    if (window.open(importUrl) === null) {
       prompt('Open this url to import.', importUrl);
     }
   } else {

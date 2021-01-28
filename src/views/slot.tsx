@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { observer } from 'mobx-react-lite';
+import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
 import Clipboard from 'react-clipboard.js';
@@ -12,7 +11,7 @@ import { IconButton } from './components/IconButton';
 import { Dropdown } from './components/Dropdown';
 import { Materia } from './materia';
 
-export const Slot = observer<{ slot: G.SlotSchema }>(({ slot }) => {
+export const Slot = mobxReact.observer<{ slot: G.SlotSchema }>(({ slot }) => {
   const store = useStore();
   const groupedGears = store.groupedGears[slot.slot];
   return (
@@ -48,7 +47,7 @@ export const Slot = observer<{ slot: G.SlotSchema }>(({ slot }) => {
   );
 });
 
-export const SlotCompact = observer(() => {
+export const SlotCompact = mobxReact.observer(() => {
   const store = useStore();
   return (
     <table className="gears_slot table card">
@@ -77,7 +76,7 @@ export const SlotCompact = observer(() => {
   );
 });
 
-const GearRow = observer<{
+const GearRow = mobxReact.observer<{
   gear?: IGearUnion,
   slot?: G.SlotSchema,
   isGroupEnd?: boolean,
@@ -184,8 +183,7 @@ const GearRow = observer<{
   );
 });
 
-const GearMenu = observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, toggle }) => {
-  const store = useStore();
+const GearMenu = mobxReact.observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, toggle }) => {
   return (
     <div className="gear-menu card">
       <RippleLazy>

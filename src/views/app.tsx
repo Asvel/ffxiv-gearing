@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { observer } from 'mobx-react-lite';
+import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { IStore } from '../stores';
 import { StoreContext } from './components/contexts';
@@ -8,7 +7,7 @@ import { Condition } from './condition';
 import { Summary } from './summary';
 import { About } from './about';
 
-export const App = observer<{ store: IStore }>(({ store }) => {
+export const App = mobxReact.observer<{ store: IStore }>(({ store }) => {
   return store.isLoading ? null : (
     <StoreContext.Provider value={store}>
       <div className={classNames('app', `app-${store.mode}`, store.setting.highSaturation && 'app-high-saturation')}>

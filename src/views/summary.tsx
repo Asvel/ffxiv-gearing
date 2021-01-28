@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { observer } from 'mobx-react-lite';
+import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
 import { Tooltip } from '@rmwc/tooltip';
@@ -9,7 +9,7 @@ import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 import { Dropdown } from './components/Dropdown';
 
-export const Summary = observer(() => {
+export const Summary = mobxReact.observer(() => {
   const store = useStore();
   const effects = store.equippedEffects;
   const [ tiersVisible, setTiersVisible ] = React.useState(false);
@@ -50,7 +50,7 @@ export const Summary = observer(() => {
             </div>
           )}
           placement="top-start"
-          modifiers={React.useMemo(() => ([{ name: 'offset', options: { offset: [-8, 0] } }]), [])}
+          modifiers={[{ name: 'offset', options: { offset: [-8, 0] } }]}
           strategy="fixed"
         />
         <span className="summary_equipped-level">
@@ -95,7 +95,7 @@ export const Summary = observer(() => {
           )}
           {store.equippedStats[stat]}
           {effects && (
-            <React.Fragment>
+            <>
               {(stat === 'SKS' || stat === 'SPS') && (
                 <Tooltip
                   content={store.schema.statModifiers?.gcdReason ?? ''}
@@ -122,7 +122,7 @@ export const Summary = observer(() => {
                   {effects.mp}<span className="summary_stat-small">MP</span>/3s
                 </div>
               )}
-            </React.Fragment>
+            </>
           )}
           <div className="summary_stat-name">{G.statNames[stat]}</div>
         </span>

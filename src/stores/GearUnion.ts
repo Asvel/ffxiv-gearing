@@ -1,7 +1,7 @@
-import { types, resolveIdentifier } from 'mobx-state-tree';
+import * as mst from 'mobx-state-tree';
 import { Gear, IGear, Food, IFood, gearData } from '.';
 
-export const GearUnion = types.union({
+export const GearUnion = mst.types.union({
   dispatcher: snapshot => {
     const gear =  gearData.get(Math.abs(snapshot.id));
     if (gear !== undefined) {
@@ -15,9 +15,9 @@ export const GearUnion = types.union({
 
 export type IGearUnion = IGear | IFood;
 
-export const GearUnionReference = types.maybe(types.reference(GearUnion, {
+export const GearUnionReference = mst.types.maybe(mst.types.reference(GearUnion, {
   get(identifier, parent): any {
-    const value = parent ? resolveIdentifier(GearUnion as any/* FIXME */, parent, identifier) : undefined;
+    const value = parent ? mst.resolveIdentifier(GearUnion as any/* FIXME */, parent, identifier) : undefined;
     return value && gearData.has(Math.abs(value.id)) ? value : undefined;
   },
   set(value): any {

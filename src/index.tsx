@@ -1,13 +1,12 @@
-import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import 'mobx-react-lite/batchingForReactDom';
-import { autorun } from 'mobx';
+import * as mobx from 'mobx';
 import { store } from './stores';
 import { App } from './views/app';
-import './utils/sanitize.css';
+import 'sanitize.css/evergreen.css';
+import 'sanitize.css/forms.evergreen.css';
 import './views/app.scss';
 
-autorun(() => {
+mobx.autorun(() => {
   if (store.job !== undefined && !store.isLoading) {
     document.title = `${store.schema.name}(il${store.equippedLevel}) - 最终幻想14配装器`;
   }

@@ -1,4 +1,4 @@
-import { onSnapshot } from 'mobx-state-tree';
+import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as archive from '../archive';
 
@@ -17,12 +17,18 @@ export function ceil(value: number) {
   return Math.ceil(value - 1e-7);
 }
 
-export { Setting, ISetting } from './Setting';
-export { Materia, IMateria } from './Materia';
-export { Gear, IGear, GearColor } from './Gear';
-export { Food, IFood } from './Food';
-export { GearUnion, IGearUnion, GearUnionReference } from './GearUnion';
-export { Store, IStore, Mode } from './Store';
+export { Setting } from './Setting';
+export type { ISetting } from './Setting';
+export { Materia } from './Materia';
+export type { IMateria } from './Materia';
+export { Gear } from './Gear';
+export type { IGear, GearColor } from './Gear';
+export { Food } from './Food';
+export type { IFood } from './Food';
+export { GearUnion, GearUnionReference } from './GearUnion';
+export type { IGearUnion } from './GearUnion';
+export { Store } from './Store';
+export type { IStore, Mode } from './Store';
 export { gearData, gearDataOrdered, gearDataLoading,
   loadGearData, loadGearDataOfGear, loadGearDataOfLevelRange } from './gearData';
 
@@ -45,7 +51,7 @@ if (_archive && typeof Object.values(_archive.equippedGears)[0] === 'string') {
 }
 export const store = Store.create(_archive, { setting: Setting.create() });
 
-onSnapshot(store, snapshot => {
+mst.onSnapshot(store, snapshot => {
   if (snapshot.job !== undefined && snapshot.mode !== 'view') {
     archive.save(snapshot);
   }

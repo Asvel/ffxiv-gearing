@@ -1,12 +1,11 @@
-import * as React from 'react';
-import { observer } from 'mobx-react-lite';
+import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import * as G from '../game';
 import { IMateria } from '../stores';
 import { useStore } from './components/contexts';
 import { Dropdown } from './components/Dropdown';
 
-export const Materia = observer<{ materia: IMateria }>(({ materia }) => {
+export const Materia = mobxReact.observer<{ materia: IMateria }>(({ materia }) => {
   const store = useStore();
   return (
     <Dropdown
@@ -32,12 +31,12 @@ export const Materia = observer<{ materia: IMateria }>(({ materia }) => {
         <MateriaPanel materia={materia} labelElement={labelElement} />
       )}
       placement="bottom-start"
-      modifiers={React.useMemo(() => ([{ name: 'offset', options: { offset: [-104 - materia.index * 50, 0] } }]), [])}
+      modifiers={[{ name: 'offset', options: { offset: [-104 - materia.index * 50, 0] } }]}
     />
   );
 });
 
-const MateriaPanel = observer<{ materia: IMateria, labelElement: HTMLElement | null }>(({ materia, labelElement }) => {
+const MateriaPanel = mobxReact.observer<{ materia: IMateria, labelElement: HTMLElement | null }>(({ materia, labelElement }) => {
   const store = useStore();
   return (
     <table className="materias table card">

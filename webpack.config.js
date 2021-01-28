@@ -1,15 +1,16 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+const { createLoader } = require('simple-functional-loader');
 
 module.exports = function (env, argv) {
   const prod = argv && argv.mode === 'production';
   return [{
-    mode: prod ? 'production' : 'none',
+    mode: prod ? 'production' : 'development',
     entry: './src/index.tsx',
     output: {
       filename: prod ? '[name].[contenthash].bundle.js' : '[name].bundle.js',
       chunkFilename: prod ? '[name].[contenthash].bundle.js' : '[name].bundle.js',
-      path: __dirname + '/dist',
       hashDigestLength: 8,
     },
     resolve: {
@@ -19,25 +20,34 @@ module.exports = function (env, argv) {
       rules: [
         {
           test: /\.tsx?$/,
+          exclude: /node_modules/,
           use: [
-            require('simple-functional-loader').createLoader(function(source) {
+            createLoader(function(source) {
               // Keep react component display name
               return source.replace(
                 /([\r\n](?:export )?)const (.+?) = (.+?)\(\((.*?)\) => {([\r\n])/g,
                 '$1const $2 = $3(function $2($4) {$5',
               );
             }),
-            prod && require('simple-functional-loader').createLoader(function(source) {
+            prod && createLoader(function(source) {
               // Remove console.debug(...)
               return source.replace(/([\r\n])\s*console\.debug\(.+?\);/g, '$1');
             }),
-            'awesome-typescript-loader',
+            {
+              loader: 'ts-loader',
+              options: {
+                transpileOnly: true,
+                compilerOptions: {
+                  jsx: prod ? 'react-jsx' : 'react-jsxdev',
+                },
+              },
+            },
           ].filter(Boolean),
         },
         {
           test: /node_modules[\\\/]@material[\\\/]ripple[\\\/]foundation\.js$/,
           use:
-            require('simple-functional-loader').createLoader(function(source) {
+            createLoader(function(source) {
               // mdc-ripple should not force using even number ripple size.
               return source.replace('initialSize - 1;', 'initialSize;');
             }),
@@ -46,14 +56,16 @@ module.exports = function (env, argv) {
           test: /\.s?css$/,
           use: [
             'style-loader',
+            'css-loader',
             {
               loader: 'postcss-loader',
               options: {
-                ident: 'postcss',
-                plugins: [
-                  require('postcss-preset-env')(),
-                  prod && require('cssnano')(),
-                ].filter(Boolean),
+                postcssOptions: {
+                  plugins: [
+                    'postcss-preset-env',
+                    prod && 'cssnano',
+                  ].filter(Boolean),
+                },
               },
             },
             {
@@ -66,35 +78,44 @@ module.exports = function (env, argv) {
             },
           ],
         },
-        { test: /\.png$/, use: 'file-loader' },
         { test: /\.svg$/, use: 'svg-sprite-loader' },
       ],
     },
     plugins: [
       new HtmlWebpackPlugin({
         template: './src/index.html',
-        favicon: './src/favicon.ico',
+        favicon: './img/favicon.ico',
       }),
-      // new webpack.HashedModuleIdsPlugin(),
+      new ForkTsCheckerWebpackPlugin({
+        async: !prod,
+        logger: {
+          issues: 'webpack-infrastructure',
+        },
+      }),
     ],
     optimization: {
-      splitChunks: {
-        cacheGroups: {
-          commons: {
-            test: /[\\/]node_modules[\\/]/,
-            name: 'vendor',
-            chunks: 'all',
-          },
-        },
-      },
-      moduleIds: 'hashed',
+      // splitChunks: {
+      //   cacheGroups: {
+      //     commons: {
+      //       test: /[\\/]node_modules[\\/]/,
+      //       name: 'vendor',
+      //       chunks: 'all',
+      //     },
+      //   },
+      // },
     },
     devtool: !prod && 'cheap-source-map',
-    stats: 'errors-warnings',
+    stats: {
+      preset: 'errors-warnings',
+      builtAt: true,
+      timings: true,
+    },
     devServer: {
-      contentBase: false,
+      hot: false,
+      liveReload: false,
       injectClient: false,
       injectHot: false,
+      static: false,
     },
   }, {
     mode: prod ? 'production' : 'none',
@@ -102,19 +123,14 @@ module.exports = function (env, argv) {
     output: {
       filename: 'import.js',
       chunkFilename: '[name].[contenthash].bundle.js',
-      path: __dirname + '/dist',
       hashDigestLength: 8,
-      jsonpFunction: '__ffxiv_gearing_webpack_jsonp',
     },
-    optimization: {
-      moduleIds: 'hashed',
-    },
+    stats: 'errors-warnings',
   }, {
     mode: prod ? 'production' : 'none',
     entry: './src/lodestone.js',
     output: {
       filename: prod ? 'lodestone.[contenthash].bundle.js' : 'lodestone.bundle.js',
-      path: __dirname + '/dist',
       hashDigestLength: 8,
     },
     plugins: [
@@ -123,9 +139,7 @@ module.exports = function (env, argv) {
         title: 'Redirecting...',
       }),
     ],
-    optimization: {
-      moduleIds: 'hashed',
-    },
+    stats: 'errors-warnings',
   }];
 };
 

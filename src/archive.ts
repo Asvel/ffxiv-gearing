@@ -9,11 +9,11 @@ function createKey(): string {
 }
 
 function getCurrentKey(): string | undefined {
-  return history.state?.archiveKey || undefined;
+  return window.history.state?.archiveKey || undefined;
 }
 
 function setCurrentKey(key: string): void {
-  history.replaceState({ archiveKey: key }, '');
+  window.history.replaceState({ archiveKey: key }, '');
 }
 
 let newArchive: object | undefined;

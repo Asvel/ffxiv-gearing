@@ -1,13 +1,13 @@
-import { types, getEnv, Instance, ISimpleType, getParentOfType } from 'mobx-state-tree';
+import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import { ISetting, Materia, Store, gearData } from '.';
 
 export type GearColor = 'white' | 'red' | 'green' | 'blue' | 'purple';
 
-export const Gear = types
+export const Gear = mst.types
   .model('Gear', {
-    id: types.identifierNumber as ISimpleType<G.GearId>,
-    materias: types.optional(types.array(Materia), []),
+    id: mst.types.identifierNumber as mst.ISimpleType<G.GearId>,
+    materias: mst.types.optional(mst.types.array(Materia), []),
   })
   .views(self => ({
     get data() {
@@ -28,13 +28,13 @@ export const Gear = types
     get source() { return self.data.source; },
     get patch() { return self.data.patch; },
     get color(): GearColor {
-      const { gearColorScheme } = getEnv(self).setting as ISetting;
+      const { gearColorScheme } = mst.getEnv(self).setting as ISetting;
       if (gearColorScheme === 'none') return 'white';
       const { rarity, source='' } = self.data;
       return gearColorScheme === 'source' && sourceColors[(source).slice(0, 2)] || rarityColors[rarity];
     },
     get syncedLevel(): number | undefined {
-      let { jobLevel, syncLevel } = getParentOfType(self, Store);
+      let { jobLevel, syncLevel } = mst.getParentOfType(self, Store);
       if (syncLevel === undefined && jobLevel < this.equipLevel) {
         syncLevel = G.syncLevelOfJobLevels[jobLevel];
       }
@@ -93,7 +93,7 @@ export const Gear = types
       return !(this.patch > G.versions.released);
     },
     get isEquipped(): boolean {
-      const store = getParentOfType(self, Store);
+      const store = mst.getParentOfType(self, Store);
       return store.equippedGears.get(this.slot.toString()) === self;
     },
   }))
@@ -124,4 +124,4 @@ const sourceColors: { [index: string]: GearColor } = {
   '绝境': 'purple',
 };
 
-export interface IGear extends Instance<typeof Gear> {}
+export interface IGear extends mst.Instance<typeof Gear> {}

@@ -1,5 +1,5 @@
-import { autorun, reaction, untracked } from 'mobx';
-import { types, getEnv, Instance, ISimpleType, unprotect } from 'mobx-state-tree';
+import * as mobx from 'mobx';
+import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as share from '../share';
 import { floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
@@ -9,18 +9,18 @@ const globalClanKey = 'ffxiv-gearing-clan';
 
 export type Mode = 'edit' | 'view';
 
-export const Store = types
+export const Store = mst.types
   .model('Store', {
-    mode: types.optional(types.string as ISimpleType<Mode>, 'edit'),
-    job: types.maybe(types.string as ISimpleType<G.Job>),
-    jobLevel: types.optional(types.number as ISimpleType<G.JobLevel>, 80),
-    minLevel: types.optional(types.number, 0),
-    maxLevel: types.optional(types.number, 0),
-    syncLevel: types.maybe(types.number),
-    showAllFoods: types.optional(types.boolean, false),
-    duplicateToolMateria: types.optional(types.boolean, true),
-    gears: types.map(GearUnion),
-    equippedGears: types.map(GearUnionReference),
+    mode: mst.types.optional(mst.types.string as mst.ISimpleType<Mode>, 'edit'),
+    job: mst.types.maybe(mst.types.string as mst.ISimpleType<G.Job>),
+    jobLevel: mst.types.optional(mst.types.number as mst.ISimpleType<G.JobLevel>, 80),
+    minLevel: mst.types.optional(mst.types.number, 0),
+    maxLevel: mst.types.optional(mst.types.number, 0),
+    syncLevel: mst.types.maybe(mst.types.number),
+    showAllFoods: mst.types.optional(mst.types.boolean, false),
+    duplicateToolMateria: mst.types.optional(mst.types.boolean, true),
+    gears: mst.types.map(GearUnion),
+    equippedGears: mst.types.map(GearUnionReference),
   })
   .volatile(() => ({
     clan: Number(localStorage.getItem(globalClanKey)) || 0,
@@ -32,7 +32,7 @@ export const Store = types
       if (self.mode === 'view') {
         return Array.from(self.gears.keys(), id => Number(id) as G.GearId);
       }
-      const unobservableEquippedGears = untracked(() => self.equippedGears.toJSON());
+      const unobservableEquippedGears = mobx.untracked(() => self.equippedGears.toJSON());
       const ret: G.GearId[] = [];
       for (const gear of gearDataOrdered.get()) {
         const { job, minLevel, maxLevel } = self;
@@ -59,7 +59,7 @@ export const Store = types
   }))
   .views(self => ({
     get setting(): ISetting {
-      return getEnv(self).setting;
+      return mst.getEnv(self).setting;
     },
     get isLoading(): boolean {
       return gearDataLoading.get();
@@ -278,7 +278,7 @@ export const Store = types
       });
     },
     get shareUrl(): string {
-      return location.origin + location.pathname + '?' + this.share;
+      return window.location.origin + window.location.pathname + '?' + this.share;
     },
   }))
   .actions(self => ({
@@ -372,15 +372,15 @@ export const Store = types
       }
     },
     unprotect(): void {
-      setTimeout(() => unprotect(self), 0);
+      setTimeout(() => mst.unprotect(self), 0);
     },
   }))
   .actions(self => ({
     afterCreate(): void {
-      autorun(() => loadGearDataOfLevelRange(self.minLevel, self.maxLevel));
-      reaction(() => self.job && self.filteredIds, self.createGears);
-      reaction(() => self.autoSelectScheduled && self.groupedGears, self.autoSelect);
+      mobx.autorun(() => loadGearDataOfLevelRange(self.minLevel, self.maxLevel));
+      mobx.reaction(() => self.job && self.filteredIds, self.createGears);
+      mobx.reaction(() => self.autoSelectScheduled && self.groupedGears, self.autoSelect);
     },
   }));
 
-export interface IStore extends Instance<typeof Store> {}
+export interface IStore extends mst.Instance<typeof Store> {}

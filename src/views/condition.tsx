@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { observer } from 'mobx-react-lite';
+import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
 import { Tab, TabBar } from '@rmwc/tabs';
@@ -15,7 +15,7 @@ import { Icon } from './components/Icon';
 import { Dropdown } from './components/Dropdown';
 import { JobSelector } from './job-selector';
 
-export const Condition = observer(() => {
+export const Condition = mobxReact.observer(() => {
   const store = useStore();
   type ExpandedPanel = 'job' | 'materia' | null;  // FIXME
   const [ expandedPanel, setExpandedPanel ] = React.useState<ExpandedPanel>(null);
@@ -61,13 +61,13 @@ export const Condition = observer(() => {
       )}
       {(editing || viewing) && <span className="condition_divider" />}
       {viewing && store.schema.levelSyncable && store.syncLevelText !== undefined && (
-        <React.Fragment>
+        <>
           <span className="condition_text">
             <Icon className="condition_level-sync-icon" name="sync" />
             {store.syncLevelText}
           </span>
           <span className="condition_divider" />
-        </React.Fragment>
+        </>
       )}
       {editing && store.schema.levelSyncable && (
         <Dropdown
@@ -265,7 +265,7 @@ export const Condition = observer(() => {
                 <a
                   ref={r => r?.setAttribute('href', encodeURI(
                     `javascript:void(document.body.appendChild(document.createElement('script')).src='`
-                    + location.origin + location.pathname + `import.js?'+Math.random())`))}
+                    + window.location.origin + window.location.pathname + `import.js?'+Math.random())`))}
                   className="import_bookmarklet"
                   onClick={e => e.preventDefault()}
                   children="导入配装"
@@ -286,7 +286,8 @@ export const Condition = observer(() => {
             className="condition_button"
             onClick={() => {
               store.startEditing();
-              history.pushState(null, document.title, location.href.replace(/\?.*$/, ''));  // TODO: recheck behavior
+              // TODO: recheck behavior
+              window.history.pushState(null, document.title, window.location.href.replace(/\?.*$/, ''));
             }}
             children="编辑"
           />
@@ -398,7 +399,7 @@ interface ConditionLevelInputProps {
   value: number;
   onChange: (value: number) => void;
 }
-const ConditionLevelInput = observer<ConditionLevelInputProps>(({ value, onChange })  => {
+const ConditionLevelInput = mobxReact.observer<ConditionLevelInputProps>(({ value, onChange })  => {
   const [ inputValue, setInputValue ] = React.useState(value.toString());
   const [ prevValue, setPrevValue ] = React.useState(value);
   if (value !== prevValue) {
@@ -416,8 +417,9 @@ const ConditionLevelInput = observer<ConditionLevelInputProps>(({ value, onChang
       }
     };
     // FIXME: use onWheel when https://github.com/facebook/react/issues/14856 fix
-    inputRef.current!.addEventListener('wheel', handleWheel);
-    return () => inputRef.current!.removeEventListener('wheel', handleWheel);
+    const input = inputRef.current!;
+    input.addEventListener('wheel', handleWheel);
+    return () => input.removeEventListener('wheel', handleWheel);
   }, []);
   return (
     <TextField

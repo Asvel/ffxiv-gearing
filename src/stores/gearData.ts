@@ -1,10 +1,10 @@
-import { observable, computed, reaction, runInAction } from 'mobx';
+import * as mobx from 'mobx';
 import * as G from '../game';
 
-export const gearData = observable.map<G.GearId, G.GearBase>({}, { deep: false });
+export const gearData = mobx.observable.map<G.GearId, G.GearBase>({}, { deep: false });
 
-const gearDataLoadStatus = observable.map<string | number, 'loading' | 'finished'>({});  // TODO: handle failures
-export const gearDataLoading = computed(() => {
+const gearDataLoadStatus = mobx.observable.map<string | number, 'loading' | 'finished'>({});  // TODO: handle failures
+export const gearDataLoading = mobx.computed(() => {
   for (const status of gearDataLoadStatus.values()) {
     if (status === 'loading') return true;
   }
@@ -13,11 +13,11 @@ export const gearDataLoading = computed(() => {
 
 export const loadGearData = async (groupId: string | number) => {
   if (groupId === undefined || gearDataLoadStatus.has(groupId)) return;
-  runInAction(() => gearDataLoadStatus.set(groupId, 'loading'));
+  mobx.runInAction(() => gearDataLoadStatus.set(groupId, 'loading'));
   const data = (await import(/* webpackChunkName: "[request]" */`../../data/out/gears-${groupId}`)).default as
     G.GearBase[];
   console.debug(`Load gears-${groupId}.`);
-  runInAction(() => {
+  mobx.runInAction(() => {
     for (const item of data) {
       if (!gearData.has(item.id)) {
         gearData.set(item.id, item);
@@ -40,8 +40,8 @@ export const loadGearDataOfLevelRange = (minLevel: number, maxLevel: number) => 
   }
 };
 
-export const gearDataOrdered = observable.box([] as G.GearBase[], { deep: false });
-reaction(() => gearDataLoading.get(), () => {
+export const gearDataOrdered = mobx.observable.box([] as G.GearBase[], { deep: false });
+mobx.reaction(() => gearDataLoading.get(), () => {
   gearDataOrdered.set(Array.from(gearData.values()).sort((a, b) => {
     const k = a.level - b.level;
     return k !== 0 ? k : a.id - b.id;
