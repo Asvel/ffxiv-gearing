@@ -93,7 +93,8 @@ export const Store = mst.types
           stats[stat] = baseStat;
         } else {
           stats[stat] = floor(levelModifier[baseStat] * (this.schema.statModifiers[stat] ?? 100) / 100) +
-            (stat === this.schema.mainStat ? 48 : 0) + (G.clanStats[stat]?.[self.clan] ?? 0);
+            (!this.schema.noMainStatTrait && stat === this.schema.mainStat ? levelModifier.mainTrait : 0) +
+            (G.clanStats[stat]?.[self.clan] ?? 0);
         }
       }
       return stats;

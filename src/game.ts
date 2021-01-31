@@ -73,10 +73,10 @@ export function getCaps(gear: Gear, syncLevel?: number): Stats {
 }
 
 export const jobLevelModifiers = {
-  50: { main: 202, sub: 341, div: 341, hp: 1700, vit: 10.2, vitTank: 14.5, ap: 75, apTank: 57 },
-  60: { main: 218, sub: 354, div: 858, hp: 2600, vit: 15.4, vitTank: 20.5, ap: 100, apTank: 78 },
-  70: { main: 292, sub: 364, div: 2170, hp: 3600, vit: 15.9, vitTank: 21.5, ap: 125, apTank: 105 },
-  80: { main: 340, sub: 380, div: 3300, hp: 4400, vit: 22.1, vitTank: 31.5, ap: 165, apTank: 115 },
+  50: { main: 202, sub: 341, div: 341, hp: 1700, vit: 10.2, vitTank: 14.5, ap: 75, apTank: 57, mainTrait: 24 },
+  60: { main: 218, sub: 354, div: 858, hp: 2600, vit: 15.4, vitTank: 20.5, ap: 100, apTank: 78, mainTrait: 48 },
+  70: { main: 292, sub: 364, div: 2170, hp: 3600, vit: 15.9, vitTank: 21.5, ap: 125, apTank: 105, mainTrait: 48 },
+  80: { main: 340, sub: 380, div: 3300, hp: 4400, vit: 22.1, vitTank: 31.5, ap: 165, apTank: 115, mainTrait: 48 },
 };
 export type JobLevel = keyof typeof jobLevelModifiers;
 export const jobLevels = Object.keys(jobLevelModifiers).map(l => Number(l) as JobLevel);
@@ -156,6 +156,7 @@ export interface JobSchema {
     gcdReason?: string,
   },
   mainStat?: 'STR' | 'DEX' | 'INT' | 'MND' | 'VIT',
+  noMainStatTrait?: boolean,
   traitDamageMultiplier?: number,
   partyBonus?: number,
   skeletonGears?: boolean,  // consistent stats proportion in same slot, focus on materia melding than gear choosing
@@ -360,6 +361,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
+    noMainStatTrait: true,
     traitDamageMultiplier: 1.3,
     partyBonus: 1.01,
   } as JobSchema,
