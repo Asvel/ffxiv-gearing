@@ -84,7 +84,10 @@ export const Condition = mobxReact.observer(() => {
                   {G.jobLevels.map(jobLevel=> jobLevel <= store.schema.jobLevel && (
                     <CollapsibleList
                       key={jobLevel}
-                      defaultOpen={jobLevel >= store.schema.jobLevel - 10}
+                      defaultOpen={
+                        jobLevel === store.jobLevel ||
+                        jobLevel >= store.schema.jobLevel - 10 && store.jobLevel >= store.schema.jobLevel - 10
+                      }
                       handle={
                         <SimpleListItem
                           className="level-sync_group"
@@ -129,14 +132,16 @@ export const Condition = mobxReact.observer(() => {
                       }
                     />
                   ))}
-                  <Button
-                    className="level-sync_cancel"
-                    onClick={() => {
-                      store.setSyncLevel(undefined, undefined);
-                      toggle();
-                    }}
-                    children="取消同步"
-                  />
+                  {(store.jobLevel !== store.schema.jobLevel || store.syncLevel !== undefined) && (
+                    <Button
+                      className="level-sync_cancel"
+                      onClick={() => {
+                        store.setSyncLevel(undefined, undefined);
+                        toggle();
+                      }}
+                      children="取消同步"
+                    />
+                  )}
                 </List>
               </div>
             );
