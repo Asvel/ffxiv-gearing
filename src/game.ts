@@ -73,8 +73,8 @@ export function getCaps(gear: Gear, syncLevel?: number): Stats {
 }
 
 export const jobLevelModifiers = {
-  50: { main: 202, sub: 341, div: 341, hp: 1700, vit: 10.2, vitTank: 14.5, ap: 75, apTank: 55 },
-  60: { main: 218, sub: 354, div: 858, hp: 2600, vit: 15.4, vitTank: 20.5, ap: 100, apTank: 75 },
+  50: { main: 202, sub: 341, div: 341, hp: 1700, vit: 10.2, vitTank: 14.5, ap: 75, apTank: 57 },
+  60: { main: 218, sub: 354, div: 858, hp: 2600, vit: 15.4, vitTank: 20.5, ap: 100, apTank: 78 },
   70: { main: 292, sub: 364, div: 2170, hp: 3600, vit: 15.9, vitTank: 21.5, ap: 125, apTank: 105 },
   80: { main: 340, sub: 380, div: 3300, hp: 4400, vit: 22.1, vitTank: 31.5, ap: 165, apTank: 115 },
 };
