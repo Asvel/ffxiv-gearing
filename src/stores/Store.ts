@@ -125,10 +125,12 @@ export const Store = mst.types
     },
     get equippedLevel(): number {
       let level = 0;
+      let weight = 0;
       for (const slot of this.schema.slots) {
         level += (self.equippedGears.get(slot.slot)?.level ?? 0) * (slot.levelWeight ?? 1);
+        weight += (slot.levelWeight ?? 1);
       }
-      return floor(level / 13);
+      return floor(level / weight);
     },
     get materiaConsumption() {
       const consumption: { [index in G.Stat]?: { [index in G.MateriaGrade]?:

@@ -168,7 +168,11 @@ export const jobSchemas = {
   PLD: {
     name: '骑士',
     stats: statSchemas.tank,
-    slots: [{ slot: 1, name: '武器' }, { slot: 2, name: '盾牌' }, ...slotSchemaCommon],
+    slots: [
+      { slot: 1, name: '武器', uiGroup: 'weapon' },
+      { slot: 2, name: '盾牌', uiGroup: 'weapon' },
+      ...slotSchemaCommon,
+    ],
     defaultItemLevel: defaultItemLevelCombat,
     jobLevel: jobLevelMax,
     levelSyncable: true,
@@ -355,7 +359,10 @@ export const jobSchemas = {
   BLU: {
     name: '青魔法师',
     stats: statSchemas.dpsInt,
-    slots: slotSchemaCombat,
+    slots: [
+      { slot: 13, name: '武器', levelWeight: 0, uiGroup: 'weapon' },
+      ...slotSchemaCommon,
+    ],
     defaultItemLevel: [270, 270],
     jobLevel: 60,
     levelSyncable: true,
