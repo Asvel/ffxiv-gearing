@@ -28,7 +28,7 @@ export const loadGearData = async (groupId: string | number) => {
 };
 
 const gearGroups = require('../../data/out/gearGroups').default as number[];
-export const loadGearDataOfGear = (gearId: G.GearId) => loadGearData(gearGroups[gearId]);
+export const loadGearDataOfGearId = (gearId: G.GearId) => loadGearData(gearGroups[gearId]);
 
 const gearGroupBasis = require('../../data/out/gearGroupBasis').default as number[];
 export const loadGearDataOfLevelRange = (minLevel: number, maxLevel: number) => {

@@ -3,7 +3,7 @@ import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as archive from '../archive';
 import * as share from '../share';
-import { Store, IStore, gearData, gearDataLoading, loadGearDataOfGear, store } from '.';
+import { Store, IStore, gearData, gearDataLoading, loadGearDataOfGearId, store } from '.';
 
 // TODO: avoid accessing store instance
 
@@ -49,7 +49,7 @@ const parseQuery = () => {
     if (query.length > 3) {
       const gearset = share.parse(query);
       for (const gear of gearset.gears) {
-        loadGearDataOfGear(gear.id);
+        loadGearDataOfGearId(gear.id);
       }
       mobx.runInAction(() => gearsetStore.set(gearset));
       store.setMode('view');

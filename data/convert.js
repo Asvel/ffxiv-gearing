@@ -187,7 +187,7 @@ const foods = Item
         const stat = statAbbrs[itemFood[`BaseParam[${i}]`]];
         if (stat !== undefined) {
           if (itemFood[`IsRelative[${i}]`] === 'True') {
-            stats[stat] =  Number(itemFood[`Max{HQ}[${i}]`]);
+            stats[stat] = Number(itemFood[`Max{HQ}[${i}]`]);
             statRates[stat] = Number(itemFood[`Value{HQ}[${i}]`]);
           } else {
             stats[stat] = Number(itemFood[`Value{HQ}[${i}]`]);

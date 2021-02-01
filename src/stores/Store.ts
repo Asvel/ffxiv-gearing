@@ -3,7 +3,7 @@ import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as share from '../share';
 import { floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
-  gearDataOrdered, gearDataLoading, loadGearDataOfLevelRange } from '.';
+  gearDataOrdered, gearDataLoading, loadGearDataOfGearId, loadGearDataOfLevelRange } from '.';
 
 const globalClanKey = 'ffxiv-gearing-clan';
 
@@ -378,6 +378,9 @@ export const Store = mst.types
   }))
   .actions(self => ({
     afterCreate(): void {
+      for (const gearId of Object.values(self.equippedGears.toJSON())) {
+        loadGearDataOfGearId(Math.abs(gearId as G.GearId));
+      }
       mobx.autorun(() => loadGearDataOfLevelRange(self.minLevel, self.maxLevel));
       mobx.reaction(() => self.job && self.filteredIds, self.createGears);
       mobx.reaction(() => self.autoSelectScheduled && self.groupedGears, self.autoSelect);

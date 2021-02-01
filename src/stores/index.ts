@@ -30,7 +30,7 @@ export type { IGearUnion } from './GearUnion';
 export { Store } from './Store';
 export type { IStore, Mode } from './Store';
 export { gearData, gearDataOrdered, gearDataLoading,
-  loadGearData, loadGearDataOfGear, loadGearDataOfLevelRange } from './gearData';
+  loadGearData, loadGearDataOfGearId, loadGearDataOfLevelRange } from './gearData';
 
 import { Setting, Store } from '.';
 

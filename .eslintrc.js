@@ -23,6 +23,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
 
     // stylistic
+    'no-multi-spaces': ['error', { 'ignoreEOLComments': true }],
     'comma-dangle': ['error', 'always-multiline'],
     'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
     'semi': 'error',

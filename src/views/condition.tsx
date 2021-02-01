@@ -404,7 +404,7 @@ interface ConditionLevelInputProps {
   value: number;
   onChange: (value: number) => void;
 }
-const ConditionLevelInput = mobxReact.observer<ConditionLevelInputProps>(({ value, onChange })  => {
+const ConditionLevelInput = mobxReact.observer<ConditionLevelInputProps>(({ value, onChange }) => {
   const [ inputValue, setInputValue ] = React.useState(value.toString());
   const [ prevValue, setPrevValue ] = React.useState(value);
   if (value !== prevValue) {

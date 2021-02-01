@@ -32,7 +32,7 @@
     }
 
     // FFXIV ORE TOOLS
-    const { filterJobClass, equipSelectorList, jqsEquipList, materiaSelectorList, jqsMateriaList  } = window;
+    const { filterJobClass, equipSelectorList, jqsEquipList, materiaSelectorList, jqsMateriaList } = window;
     if (filterJobClass !== undefined) {
       const materiaTypes = {
         'mat_hit': 'DHT',

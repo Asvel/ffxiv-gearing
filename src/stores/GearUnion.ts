@@ -3,7 +3,7 @@ import { Gear, IGear, Food, IFood, gearData } from '.';
 
 export const GearUnion = mst.types.union({
   dispatcher: snapshot => {
-    const gear =  gearData.get(Math.abs(snapshot.id));
+    const gear = gearData.get(Math.abs(snapshot.id));
     if (gear !== undefined) {
       if (snapshot.materias !== undefined && gear.slot === -1) delete snapshot.materias;
       return gear.slot !== -1 ? Gear : Food;

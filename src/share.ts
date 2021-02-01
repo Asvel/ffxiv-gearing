@@ -79,7 +79,7 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
   ranges.useVersion(version);
   ranges.useJob(job);
 
-  const gearCodes: { id: number, materias: number[]  }[] = [];
+  const gearCodes: { id: number, materias: number[] }[] = [];
   const materiaCodeSet: { [index: string]: number } = {};
 
   let minGearId = Infinity;
