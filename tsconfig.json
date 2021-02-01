@@ -5,6 +5,7 @@
     "strictNullChecks": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
     "module": "es2020",
     "moduleResolution": "node",
     "target": "es2018",

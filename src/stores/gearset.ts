@@ -51,7 +51,7 @@ const parseQuery = () => {
       for (const gear of gearset.gears) {
         loadGearDataOfGear(gear.id);
       }
-      gearsetStore.set(gearset);
+      mobx.runInAction(() => gearsetStore.set(gearset));
       store.setMode('view');
     }
   }

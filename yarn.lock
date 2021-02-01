@@ -3802,20 +3802,20 @@ mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-mobx-react-lite@^2.0.7:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-2.2.2.tgz#87c217dc72b4e47b22493daf155daf3759f868a6"
-  integrity sha512-2SlXALHIkyUPDsV4VTKVR9DW7K3Ksh1aaIv3NrNJygTbhXe2A9GrcKHZ2ovIiOp/BXilOcTYemfHHZubP431dg==
+mobx-react-lite@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-3.2.0.tgz#331d7365a6b053378dfe9c087315b4e41c5df69f"
+  integrity sha512-q5+UHIqYCOpBoFm/PElDuOhbcatvTllgRp3M1s+Hp5j0Z6XNgDbgqxawJ0ZAUEyKM8X1zs70PCuhAIzX1f4Q/g==
 
-mobx-state-tree@^3.17.2:
-  version "3.17.3"
-  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-3.17.3.tgz#e9c40dca17e7b72ad01270852a516145bf6b6c72"
-  integrity sha512-ph4ee/Lh1qUJqHEGkfdWdBAUGdG+VAu7xZbYX/+4qem5hSSpdeZYAJOcN3bhtgEH8Wh/ZxRpQVOLM0aMFXfBSw==
+mobx-state-tree@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-5.0.1.tgz#d495725fe11075d8fde8f02ab65db6736b44e014"
+  integrity sha512-XZafwF1sJe6sp8L1kgf9Tz0SLo/UPf2pxsonnHaBQNsqbebw+0GC+IT3WxPEIe0/aQ73q4nY4SRgW1uyfd1KRA==
 
-mobx@^5.15.4:
-  version "5.15.7"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-5.15.7.tgz#b9a5f2b6251f5d96980d13c78e9b5d8d4ce22665"
-  integrity sha512-wyM3FghTkhmC+hQjyPGGFdpehrcX1KOXsDuERhfK2YbJemkUhEB+6wzEN639T21onxlfYBmriA1PFnvxTUhcKw==
+mobx@^6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.1.4.tgz#6ba17f4e291146a3a26605a9c3a0c3ff8aea1e0b"
+  integrity sha512-DorvGl+ssJ9i5Sef90XzcIuOBMa2kWSC+PidTLHtgBX4f1bXOd+NKtujSjaRnQMDLTRkCzfJEFcC08hEjzCVaA==
 
 ms@2.0.0:
   version "2.0.0"
