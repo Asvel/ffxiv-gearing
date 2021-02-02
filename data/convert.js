@@ -89,10 +89,12 @@ const sourcesMissing = {};
 
 jobCategories[2] = { PLD: true, WAR: true, DRK: true, GNB: true, MNK: true, DRG: true, SAM: true };
 const jobCategoryOfMainStats = {
-  STR: 2,
-  DEX: 105,
-  INT: 63,
-  MND: 64,
+  'STR': 2,
+  'DEX': 105,
+  'INT': 63,
+  'MND': 64,
+  'STR,DEX': 30,
+  'INT,MND': 31,
 };
 
 const gears = Item
@@ -129,10 +131,10 @@ const gears = Item
       stats['MDMG'] = rawStats[13];
     }
     if (Object.keys(stats).length === 0) return;
-    if (jobCategory === 1 || jobCategory === 34) {
-      const existStats = Object.keys(jobCategoryOfMainStats).filter(x => x in stats);
-      if (existStats.length === 1) {
-        jobCategory = jobCategoryOfMainStats[existStats[0]];
+    if (jobCategory === 1 || jobCategory === 34 || jobCategory === 30 || jobCategory === 31) {
+      const existMainStats = ['STR', 'DEX', 'INT', 'MND'].filter(x => x in stats).join(',');
+      if (existMainStats !== '') {
+        jobCategory = jobCategoryOfMainStats[existMainStats] || 34;
       } else {
         const craft = 'CMS' in stats || 'CRL' in stats || 'CP' in stats;
         const gather = 'GTH' in stats || 'PCP' in stats || 'GP' in stats;
