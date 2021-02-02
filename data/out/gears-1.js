@@ -420,6 +420,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12117,
@@ -437,6 +438,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12118,
@@ -454,6 +456,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12119,
@@ -471,6 +474,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12120,
@@ -488,6 +492,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12121,
@@ -505,6 +510,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12122,
@@ -522,6 +528,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12123,
@@ -539,6 +546,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12124,
@@ -556,6 +564,7 @@ export default [
       PDMG: 37,
       DLY: 2320,
     },
+    source: '古武/复制品',
   },
   {
     id: 12125,
@@ -573,6 +582,7 @@ export default [
       PDMG: 37,
       DLY: 2720,
     },
+    source: '古武/复制品',
   },
   {
     id: 12126,
@@ -590,6 +600,7 @@ export default [
       PDMG: 37,
       DLY: 2720,
     },
+    source: '古武/复制品',
   },
   {
     id: 12127,
@@ -607,6 +618,7 @@ export default [
       PDMG: 37,
       DLY: 2720,
     },
+    source: '古武/复制品',
   },
   {
     id: 12128,
@@ -624,6 +636,7 @@ export default [
       PDMG: 37,
       DLY: 2720,
     },
+    source: '古武/复制品',
   },
   {
     id: 12129,
@@ -641,6 +654,7 @@ export default [
       PDMG: 37,
       DLY: 2720,
     },
+    source: '古武/复制品',
   },
   {
     id: 12130,
@@ -658,6 +672,7 @@ export default [
       PDMG: 37,
       DLY: 2720,
     },
+    source: '古武/复制品',
   },
   {
     id: 12131,
@@ -675,6 +690,7 @@ export default [
       PDMG: 37,
       DLY: 2720,
     },
+    source: '古武/复制品',
   },
   {
     id: 12132,
@@ -692,6 +708,7 @@ export default [
       PDMG: 37,
       DLY: 2640,
     },
+    source: '古武/复制品',
   },
   {
     id: 12133,
@@ -709,6 +726,7 @@ export default [
       PDMG: 37,
       DLY: 2640,
     },
+    source: '古武/复制品',
   },
   {
     id: 12134,
@@ -726,6 +744,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12135,
@@ -743,6 +762,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12136,
@@ -760,6 +780,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12137,
@@ -777,6 +798,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12138,
@@ -794,6 +816,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12139,
@@ -811,6 +834,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12140,
@@ -828,6 +852,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12141,
@@ -845,6 +870,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12142,
@@ -862,6 +888,7 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
+    source: '古武/复制品',
   },
   {
     id: 12143,
@@ -879,6 +906,7 @@ export default [
       PDMG: 37,
       DLY: 3120,
     },
+    source: '古武/复制品',
   },
   {
     id: 12144,
@@ -896,6 +924,7 @@ export default [
       PDMG: 37,
       DLY: 3120,
     },
+    source: '古武/复制品',
   },
   {
     id: 12145,
@@ -913,6 +942,7 @@ export default [
       PDMG: 37,
       DLY: 3120,
     },
+    source: '古武/复制品',
   },
   {
     id: 12146,
@@ -930,6 +960,7 @@ export default [
       PDMG: 37,
       DLY: 3120,
     },
+    source: '古武/复制品',
   },
   {
     id: 12147,
@@ -947,6 +978,7 @@ export default [
       PDMG: 37,
       DLY: 3120,
     },
+    source: '古武/复制品',
   },
   {
     id: 12148,
@@ -964,6 +996,7 @@ export default [
       PDMG: 37,
       DLY: 3120,
     },
+    source: '古武/复制品',
   },
   {
     id: 12149,
@@ -981,6 +1014,7 @@ export default [
       PDMG: 37,
       DLY: 3120,
     },
+    source: '古武/复制品',
   },
   {
     id: 12150,
@@ -998,6 +1032,7 @@ export default [
       PDMG: 37,
       DLY: 2960,
     },
+    source: '古武/复制品',
   },
   {
     id: 12151,
@@ -1015,6 +1050,7 @@ export default [
       PDMG: 37,
       DLY: 2960,
     },
+    source: '古武/复制品',
   },
   {
     id: 12152,
@@ -1032,6 +1068,7 @@ export default [
       PDMG: 37,
       DLY: 3280,
     },
+    source: '古武/复制品',
   },
   {
     id: 12153,
@@ -1049,6 +1086,7 @@ export default [
       PDMG: 37,
       DLY: 3280,
     },
+    source: '古武/复制品',
   },
   {
     id: 12154,
@@ -1066,6 +1104,7 @@ export default [
       PDMG: 37,
       DLY: 3280,
     },
+    source: '古武/复制品',
   },
   {
     id: 12155,
@@ -1083,6 +1122,7 @@ export default [
       PDMG: 37,
       DLY: 3280,
     },
+    source: '古武/复制品',
   },
   {
     id: 12156,
@@ -1100,6 +1140,7 @@ export default [
       PDMG: 37,
       DLY: 3280,
     },
+    source: '古武/复制品',
   },
   {
     id: 12157,
@@ -1117,6 +1158,7 @@ export default [
       PDMG: 37,
       DLY: 3280,
     },
+    source: '古武/复制品',
   },
   {
     id: 12158,
@@ -1134,6 +1176,7 @@ export default [
       PDMG: 37,
       DLY: 3280,
     },
+    source: '古武/复制品',
   },
   {
     id: 12159,
@@ -1151,6 +1194,7 @@ export default [
       PDMG: 37,
       DLY: 3040,
     },
+    source: '古武/复制品',
   },
   {
     id: 12160,
@@ -1168,6 +1212,7 @@ export default [
       PDMG: 37,
       DLY: 3040,
     },
+    source: '古武/复制品',
   },
   {
     id: 12161,
@@ -1185,6 +1230,7 @@ export default [
       PDMG: 37,
       DLY: 2480,
     },
+    source: '古武/复制品',
   },
   {
     id: 12162,
@@ -1202,6 +1248,7 @@ export default [
       PDMG: 37,
       DLY: 2480,
     },
+    source: '古武/复制品',
   },
   {
     id: 12163,
@@ -1219,6 +1266,7 @@ export default [
       PDMG: 37,
       DLY: 2480,
     },
+    source: '古武/复制品',
   },
   {
     id: 12164,
@@ -1236,6 +1284,7 @@ export default [
       PDMG: 37,
       DLY: 2480,
     },
+    source: '古武/复制品',
   },
   {
     id: 12165,
@@ -1253,6 +1302,7 @@ export default [
       PDMG: 37,
       DLY: 2480,
     },
+    source: '古武/复制品',
   },
   {
     id: 12166,
@@ -1270,6 +1320,7 @@ export default [
       PDMG: 37,
       DLY: 2480,
     },
+    source: '古武/复制品',
   },
   {
     id: 12167,
@@ -1287,6 +1338,7 @@ export default [
       PDMG: 37,
       DLY: 2480,
     },
+    source: '古武/复制品',
   },
   {
     id: 12168,
@@ -1304,6 +1356,7 @@ export default [
       PDMG: 37,
       DLY: 2400,
     },
+    source: '古武/复制品',
   },
   {
     id: 12169,
@@ -1321,6 +1374,7 @@ export default [
       PDMG: 37,
       DLY: 2400,
     },
+    source: '古武/复制品',
   },
   {
     id: 12170,
@@ -1337,6 +1391,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12171,
@@ -1353,6 +1408,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12172,
@@ -1369,6 +1425,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12173,
@@ -1385,6 +1442,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12174,
@@ -1401,6 +1459,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12175,
@@ -1417,6 +1476,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12176,
@@ -1433,6 +1493,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12177,
@@ -1449,6 +1510,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12178,
@@ -1465,6 +1527,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12179,
@@ -1481,6 +1544,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12180,
@@ -1497,6 +1561,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12181,
@@ -1513,6 +1578,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12182,
@@ -1529,6 +1595,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12183,
@@ -1545,6 +1612,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12184,
@@ -1561,6 +1629,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12185,
@@ -1577,6 +1646,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12186,
@@ -1593,6 +1663,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12187,
@@ -1609,6 +1680,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12188,
@@ -1625,6 +1697,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12189,
@@ -1641,6 +1714,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12190,
@@ -1657,6 +1731,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12191,
@@ -1673,6 +1748,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12192,
@@ -1689,6 +1765,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12193,
@@ -1705,6 +1782,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12194,
@@ -1721,6 +1799,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12195,
@@ -1737,6 +1816,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12196,
@@ -1753,6 +1833,7 @@ export default [
       INT: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12197,
@@ -1769,6 +1850,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12198,
@@ -1785,6 +1867,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12199,
@@ -1801,6 +1884,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12200,
@@ -1817,6 +1901,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12201,
@@ -1833,6 +1918,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12202,
@@ -1849,6 +1935,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12203,
@@ -1865,6 +1952,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12204,
@@ -1881,6 +1969,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12205,
@@ -1897,6 +1986,7 @@ export default [
       MND: 13,
       MDMG: 57,
     },
+    source: '古武/复制品',
   },
   {
     id: 12206,
@@ -1912,6 +2002,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    source: '古武/复制品',
   },
   {
     id: 12207,
@@ -1927,6 +2018,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    source: '古武/复制品',
   },
   {
     id: 12208,
@@ -1942,6 +2034,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    source: '古武/复制品',
   },
   {
     id: 12209,
@@ -1957,6 +2050,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    source: '古武/复制品',
   },
   {
     id: 12210,
@@ -1972,6 +2066,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    source: '古武/复制品',
   },
   {
     id: 12211,
@@ -1987,6 +2082,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    source: '古武/复制品',
   },
   {
     id: 12212,
@@ -2002,6 +2098,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    source: '古武/复制品',
   },
   {
     id: 12213,
@@ -2017,6 +2114,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    source: '古武/复制品',
   },
   {
     id: 13776,
@@ -2279,7 +2377,7 @@ export default [
       PDMG: 60,
       DLY: 2240,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15116,
@@ -2297,7 +2395,7 @@ export default [
       PDMG: 60,
       DLY: 2560,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15117,
@@ -2315,7 +2413,7 @@ export default [
       PDMG: 60,
       DLY: 3440,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15118,
@@ -2333,7 +2431,7 @@ export default [
       PDMG: 60,
       DLY: 2880,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15119,
@@ -2351,7 +2449,7 @@ export default [
       PDMG: 60,
       DLY: 3040,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15120,
@@ -2369,7 +2467,7 @@ export default [
       PDMG: 60,
       DLY: 2480,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15121,
@@ -2387,7 +2485,7 @@ export default [
       PDMG: 60,
       DLY: 2960,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15122,
@@ -2405,7 +2503,7 @@ export default [
       PDMG: 60,
       DLY: 2480,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15123,
@@ -2422,7 +2520,7 @@ export default [
       MND: 73,
       MDMG: 85,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15124,
@@ -2439,7 +2537,7 @@ export default [
       INT: 73,
       MDMG: 85,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15125,
@@ -2456,7 +2554,7 @@ export default [
       INT: 73,
       MDMG: 85,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15126,
@@ -2473,7 +2571,7 @@ export default [
       MND: 73,
       MDMG: 85,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15127,
@@ -2490,7 +2588,7 @@ export default [
       MND: 73,
       MDMG: 85,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15128,
@@ -2506,7 +2604,7 @@ export default [
       STR: 21,
       VIT: 19,
     },
-    source: '魂武',
+    source: '魂武/复制品',
   },
   {
     id: 15893,
@@ -3746,6 +3844,7 @@ export default [
     stats: {
       MDMG: 1,
     },
+    source: '职业任务',
   },
   {
     id: 23126,
@@ -4320,6 +4419,7 @@ export default [
     stats: {
       MDMG: 1,
     },
+    source: '职业任务',
   },
   {
     id: 24832,
@@ -4632,7 +4732,6 @@ export default [
       DLY: 2240,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28324,
@@ -4651,7 +4750,6 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28325,
@@ -4670,7 +4768,6 @@ export default [
       DLY: 3360,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28326,
@@ -4689,7 +4786,6 @@ export default [
       DLY: 2800,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28327,
@@ -4708,7 +4804,6 @@ export default [
       DLY: 3040,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28328,
@@ -4727,7 +4822,6 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28329,
@@ -4746,7 +4840,6 @@ export default [
       DLY: 2960,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28330,
@@ -4765,7 +4858,6 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28331,
@@ -4783,7 +4875,6 @@ export default [
       MDMG: 126,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28332,
@@ -4801,7 +4892,6 @@ export default [
       MDMG: 126,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28333,
@@ -4819,7 +4909,6 @@ export default [
       MDMG: 126,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28334,
@@ -4837,7 +4926,6 @@ export default [
       MDMG: 126,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28335,
@@ -4855,7 +4943,6 @@ export default [
       MDMG: 126,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28336,
@@ -4874,7 +4961,6 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28337,
@@ -4892,7 +4978,6 @@ export default [
       MDMG: 126,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 28338,
@@ -4909,7 +4994,6 @@ export default [
       VIT: 64,
     },
     source: '优雷卡/复制品',
-    patch: '5.1',
   },
   {
     id: 30304,
@@ -4925,7 +5009,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -4942,7 +5026,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -4959,7 +5043,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -4976,7 +5060,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -4993,7 +5077,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -5010,7 +5094,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -5027,7 +5111,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -5044,7 +5128,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -5061,7 +5145,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -5078,7 +5162,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -5095,7 +5179,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具',
+    source: '天钢工具/复制品',
     patch: '5.35',
   },
   {
@@ -5734,7 +5818,6 @@ export default [
       DEX: 1,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27665,
@@ -5751,7 +5834,6 @@ export default [
       MND: 1,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1996,
@@ -8571,7 +8653,6 @@ export default [
       DET: 1,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27636,
@@ -8590,7 +8671,6 @@ export default [
       DET: 1,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27637,
@@ -8609,7 +8689,6 @@ export default [
       DET: 1,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1605,
@@ -9164,6 +9243,7 @@ export default [
       MND: 3,
       MDMG: 21,
     },
+    obsolete: true,
   },
   {
     id: 2231,
@@ -9406,6 +9486,7 @@ export default [
       PDMG: 12,
       DLY: 1920,
     },
+    obsolete: true,
   },
   {
     id: 1754,
@@ -9443,6 +9524,7 @@ export default [
       PDMG: 12,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 1895,
@@ -9480,6 +9562,7 @@ export default [
       PDMG: 12,
       DLY: 2800,
     },
+    obsolete: true,
   },
   {
     id: 2059,
@@ -9515,6 +9598,7 @@ export default [
       INT: 2,
       MDMG: 22,
     },
+    obsolete: true,
   },
   {
     id: 2147,
@@ -9550,6 +9634,7 @@ export default [
       INT: 3,
       MDMG: 22,
     },
+    obsolete: true,
   },
   {
     id: 2470,
@@ -9702,6 +9787,7 @@ export default [
       STR: 2,
       VIT: 1,
     },
+    obsolete: true,
   },
   {
     id: 3023,
@@ -9756,6 +9842,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 3026,
@@ -9789,6 +9876,7 @@ export default [
       STR: 3,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3322,
@@ -9854,6 +9942,7 @@ export default [
       STR: 3,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3327,
@@ -9889,6 +9978,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3543,
@@ -9938,6 +10028,7 @@ export default [
       STR: 2,
       VIT: 1,
     },
+    obsolete: true,
   },
   {
     id: 3546,
@@ -10006,6 +10097,7 @@ export default [
       STR: 2,
       VIT: 1,
     },
+    obsolete: true,
   },
   {
     id: 3777,
@@ -10041,6 +10133,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 3779,
@@ -10109,6 +10202,7 @@ export default [
       STR: 1,
       VIT: 1,
     },
+    obsolete: true,
   },
   {
     id: 4204,
@@ -10220,6 +10314,7 @@ export default [
       PDMG: 12,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 1686,
@@ -10257,6 +10352,7 @@ export default [
       PDMG: 12,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 1825,
@@ -10294,6 +10390,7 @@ export default [
       PDMG: 12,
       DLY: 2800,
     },
+    obsolete: true,
   },
   {
     id: 1961,
@@ -10329,6 +10426,7 @@ export default [
       MND: 2,
       MDMG: 23,
     },
+    obsolete: true,
   },
   {
     id: 2317,
@@ -10494,6 +10592,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2677,
@@ -10529,6 +10628,7 @@ export default [
       DEX: 2,
       VIT: 1,
     },
+    obsolete: true,
   },
   {
     id: 3028,
@@ -10564,6 +10664,7 @@ export default [
       DEX: 3,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3323,
@@ -10614,6 +10715,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 3549,
@@ -10665,6 +10767,7 @@ export default [
       INT: 1,
       MND: 1,
     },
+    obsolete: true,
   },
   {
     id: 4094,
@@ -10962,6 +11065,7 @@ export default [
       MND: 3,
       MDMG: 24,
     },
+    obsolete: true,
   },
   {
     id: 2109,
@@ -10997,6 +11101,7 @@ export default [
       INT: 3,
       MDMG: 24,
     },
+    obsolete: true,
   },
   {
     id: 2233,
@@ -11166,6 +11271,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 2682,
@@ -11412,6 +11518,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 3550,
@@ -11445,6 +11552,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3552,
@@ -11480,6 +11588,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3554,
@@ -11621,6 +11730,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3786,
@@ -11761,6 +11871,7 @@ export default [
       DEX: 1,
       VIT: 1,
     },
+    obsolete: true,
   },
   {
     id: 4097,
@@ -12128,7 +12239,6 @@ export default [
       PDMG: 13,
       DLY: 2240,
     },
-    patch: '5.3',
   },
   {
     id: 31421,
@@ -12148,7 +12258,6 @@ export default [
       PDMG: 13,
       DLY: 2560,
     },
-    patch: '5.3',
   },
   {
     id: 31422,
@@ -12168,7 +12277,6 @@ export default [
       PDMG: 13,
       DLY: 3360,
     },
-    patch: '5.3',
   },
   {
     id: 31423,
@@ -12188,7 +12296,6 @@ export default [
       PDMG: 13,
       DLY: 2800,
     },
-    patch: '5.3',
   },
   {
     id: 31424,
@@ -12208,7 +12315,6 @@ export default [
       PDMG: 13,
       DLY: 3040,
     },
-    patch: '5.3',
   },
   {
     id: 31425,
@@ -12228,7 +12334,6 @@ export default [
       PDMG: 13,
       DLY: 2560,
     },
-    patch: '5.3',
   },
   {
     id: 31426,
@@ -12247,7 +12352,6 @@ export default [
       DET: 2,
       MDMG: 24,
     },
-    patch: '5.3',
   },
   {
     id: 31427,
@@ -12266,7 +12370,6 @@ export default [
       DET: 2,
       MDMG: 24,
     },
-    patch: '5.3',
   },
   {
     id: 31428,
@@ -12286,7 +12389,6 @@ export default [
       SPS: 3,
       MDMG: 24,
     },
-    patch: '5.3',
   },
   {
     id: 31429,
@@ -12304,7 +12406,6 @@ export default [
       DET: 1,
       SKS: 1,
     },
-    patch: '5.3',
   },
   {
     id: 1609,
@@ -12342,6 +12443,7 @@ export default [
       PDMG: 13,
       DLY: 2000,
     },
+    obsolete: true,
   },
   {
     id: 1756,
@@ -12379,6 +12481,7 @@ export default [
       PDMG: 13,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 1897,
@@ -12416,6 +12519,7 @@ export default [
       PDMG: 13,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 2061,
@@ -12451,6 +12555,7 @@ export default [
       INT: 2,
       MDMG: 26,
     },
+    obsolete: true,
   },
   {
     id: 2236,
@@ -12555,6 +12660,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2687,
@@ -12590,6 +12696,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2689,
@@ -12625,6 +12732,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2691,
@@ -12660,6 +12768,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2693,
@@ -12695,6 +12804,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2695,
@@ -12730,6 +12840,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2697,
@@ -12765,6 +12876,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3036,
@@ -12800,6 +12912,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3038,
@@ -12852,6 +12965,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 3041,
@@ -12974,7 +13088,6 @@ export default [
       DHT: 4,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1688,
@@ -13012,6 +13125,7 @@ export default [
       PDMG: 14,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 2318,
@@ -13216,6 +13330,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 3334,
@@ -13251,6 +13366,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3336,
@@ -13300,6 +13416,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3788,
@@ -13335,6 +13452,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 3790,
@@ -13472,6 +13590,7 @@ export default [
       PDMG: 14,
       DLY: 1920,
     },
+    obsolete: true,
   },
   {
     id: 1758,
@@ -13509,6 +13628,7 @@ export default [
       PDMG: 14,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 1827,
@@ -13546,6 +13666,7 @@ export default [
       PDMG: 14,
       DLY: 2960,
     },
+    obsolete: true,
   },
   {
     id: 2002,
@@ -13581,6 +13702,7 @@ export default [
       MND: 4,
       MDMG: 28,
     },
+    obsolete: true,
   },
   {
     id: 2111,
@@ -13616,6 +13738,7 @@ export default [
       INT: 4,
       MDMG: 28,
     },
+    obsolete: true,
   },
   {
     id: 2149,
@@ -13651,6 +13774,7 @@ export default [
       INT: 4,
       MDMG: 28,
     },
+    obsolete: true,
   },
   {
     id: 2331,
@@ -13788,6 +13912,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2707,
@@ -13842,6 +13967,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 2710,
@@ -13877,6 +14003,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 2712,
@@ -13910,6 +14037,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 2714,
@@ -13961,6 +14089,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3045,
@@ -13994,6 +14123,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3337,
@@ -14029,6 +14159,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3339,
@@ -14062,6 +14193,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3341,
@@ -14113,6 +14245,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3561,
@@ -14178,6 +14311,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3791,
@@ -14213,6 +14347,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3793,
@@ -14246,6 +14381,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3795,
@@ -14297,6 +14433,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3985,
@@ -14330,6 +14467,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 4208,
@@ -14434,6 +14572,7 @@ export default [
       PDMG: 14,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 1899,
@@ -14471,6 +14610,7 @@ export default [
       PDMG: 15,
       DLY: 2800,
     },
+    obsolete: true,
   },
   {
     id: 1963,
@@ -14506,6 +14646,7 @@ export default [
       MND: 3,
       MDMG: 29,
     },
+    obsolete: true,
   },
   {
     id: 2004,
@@ -14541,6 +14682,7 @@ export default [
       MND: 4,
       MDMG: 29,
     },
+    obsolete: true,
   },
   {
     id: 2063,
@@ -14576,6 +14718,7 @@ export default [
       INT: 3,
       MDMG: 29,
     },
+    obsolete: true,
   },
   {
     id: 2239,
@@ -14609,6 +14752,7 @@ export default [
       VIT: 1,
       INT: 1,
     },
+    obsolete: true,
   },
   {
     id: 2241,
@@ -14891,6 +15035,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 3052,
@@ -15014,6 +15159,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 3796,
@@ -15103,6 +15249,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 262,
@@ -15316,6 +15463,7 @@ export default [
       PDMG: 15,
       DLY: 2000,
     },
+    obsolete: true,
   },
   {
     id: 1617,
@@ -15733,6 +15881,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2721,
@@ -15856,6 +16005,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 3799,
@@ -15907,6 +16057,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 8663,
@@ -15963,7 +16114,6 @@ export default [
       CRT: 2,
       DET: 2,
     },
-    patch: '5.3',
   },
   {
     id: 31431,
@@ -15981,7 +16131,6 @@ export default [
       CRT: 4,
       DET: 3,
     },
-    patch: '5.3',
   },
   {
     id: 31432,
@@ -15999,7 +16148,6 @@ export default [
       CRT: 3,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 31433,
@@ -16017,7 +16165,6 @@ export default [
       CRT: 1,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 31434,
@@ -16036,7 +16183,6 @@ export default [
       DET: 2,
       SKS: 2,
     },
-    patch: '5.3',
   },
   {
     id: 31435,
@@ -16055,7 +16201,6 @@ export default [
       DET: 2,
       SKS: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31436,
@@ -16074,7 +16219,6 @@ export default [
       DET: 1,
       SKS: 3,
     },
-    patch: '5.3',
   },
   {
     id: 31437,
@@ -16093,7 +16237,6 @@ export default [
       CRT: 2,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 31438,
@@ -16112,7 +16255,6 @@ export default [
       CRT: 2,
       DET: 2,
     },
-    patch: '5.3',
   },
   {
     id: 31439,
@@ -16131,7 +16273,6 @@ export default [
       CRT: 5,
       SPS: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31440,
@@ -16150,7 +16291,6 @@ export default [
       CRT: 3,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 31441,
@@ -16169,7 +16309,6 @@ export default [
       CRT: 1,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 31649,
@@ -16187,7 +16326,6 @@ export default [
       TEN: 1,
       SKS: 1,
     },
-    patch: '5.3',
   },
   {
     id: 1618,
@@ -16279,6 +16417,7 @@ export default [
       PDMG: 16,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 1764,
@@ -16316,6 +16455,7 @@ export default [
       PDMG: 16,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 1833,
@@ -16353,6 +16493,7 @@ export default [
       PDMG: 16,
       DLY: 2960,
     },
+    obsolete: true,
   },
   {
     id: 1902,
@@ -16631,6 +16772,7 @@ export default [
       STR: 1,
       VIT: 1,
     },
+    obsolete: true,
   },
   {
     id: 2319,
@@ -16783,6 +16925,7 @@ export default [
       STR: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 2725,
@@ -16818,6 +16961,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 2727,
@@ -16868,6 +17012,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3060,
@@ -16903,6 +17048,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3345,
@@ -16938,6 +17084,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3347,
@@ -16991,6 +17138,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 3572,
@@ -17026,6 +17174,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3574,
@@ -17079,6 +17228,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 3804,
@@ -17132,6 +17282,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3991,
@@ -17167,6 +17318,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 9190,
@@ -17239,7 +17391,6 @@ export default [
       SKS: 3,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1622,
@@ -17277,6 +17428,7 @@ export default [
       PDMG: 16,
       DLY: 2000,
     },
+    obsolete: true,
   },
   {
     id: 1905,
@@ -17314,6 +17466,7 @@ export default [
       PDMG: 16,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 2332,
@@ -17485,6 +17638,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 3064,
@@ -17602,6 +17756,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3993,
@@ -17693,6 +17848,7 @@ export default [
       PDMG: 17,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 2011,
@@ -17728,6 +17884,7 @@ export default [
       MND: 5,
       MDMG: 32,
     },
+    obsolete: true,
   },
   {
     id: 2246,
@@ -17761,6 +17918,7 @@ export default [
       VIT: 1,
       MND: 1,
     },
+    obsolete: true,
   },
   {
     id: 2359,
@@ -17900,6 +18058,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 2731,
@@ -17932,6 +18091,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3066,
@@ -17967,6 +18127,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 3068,
@@ -18000,6 +18161,7 @@ export default [
       STR: 8,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3349,
@@ -18035,6 +18197,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 3351,
@@ -18084,6 +18247,7 @@ export default [
       STR: 8,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3354,
@@ -18138,6 +18302,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 3578,
@@ -18187,6 +18352,7 @@ export default [
       STR: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 3808,
@@ -18222,6 +18388,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 3810,
@@ -18273,6 +18440,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 3998,
@@ -18306,6 +18474,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 4211,
@@ -18408,7 +18577,6 @@ export default [
       DET: 2,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1624,
@@ -18465,6 +18633,7 @@ export default [
       PDMG: 17,
       DLY: 1920,
     },
+    obsolete: true,
   },
   {
     id: 1696,
@@ -18521,6 +18690,7 @@ export default [
       PDMG: 17,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 1768,
@@ -18596,6 +18766,7 @@ export default [
       PDMG: 17,
       DLY: 2800,
     },
+    obsolete: true,
   },
   {
     id: 1907,
@@ -18650,6 +18821,7 @@ export default [
       MND: 4,
       MDMG: 33,
     },
+    obsolete: true,
   },
   {
     id: 2013,
@@ -18703,6 +18875,7 @@ export default [
       INT: 4,
       MDMG: 33,
     },
+    obsolete: true,
   },
   {
     id: 2117,
@@ -18756,6 +18929,7 @@ export default [
       INT: 5,
       MDMG: 33,
     },
+    obsolete: true,
   },
   {
     id: 2156,
@@ -18791,6 +18965,7 @@ export default [
       INT: 5,
       MDMG: 33,
     },
+    obsolete: true,
   },
   {
     id: 2159,
@@ -19093,6 +19268,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3584,
@@ -19327,6 +19503,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3824,
@@ -19380,6 +19557,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 4103,
@@ -19521,6 +19699,7 @@ export default [
       PDMG: 17,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 9195,
@@ -19559,7 +19738,6 @@ export default [
       DHT: 4,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 31442,
@@ -19577,7 +19755,6 @@ export default [
       CRT: 4,
       SKS: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31443,
@@ -19595,7 +19772,6 @@ export default [
       CRT: 4,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 31444,
@@ -19613,7 +19789,6 @@ export default [
       DET: 2,
       SKS: 2,
     },
-    patch: '5.3',
   },
   {
     id: 31445,
@@ -19632,7 +19807,6 @@ export default [
       DET: 3,
       SKS: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31446,
@@ -19651,7 +19825,6 @@ export default [
       DET: 2,
       SKS: 3,
     },
-    patch: '5.3',
   },
   {
     id: 31447,
@@ -19670,7 +19843,6 @@ export default [
       CRT: 3,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 31448,
@@ -19689,7 +19861,6 @@ export default [
       CRT: 4,
       SPS: 3,
     },
-    patch: '5.3',
   },
   {
     id: 31449,
@@ -19708,7 +19879,6 @@ export default [
       CRT: 2,
       SPS: 3,
     },
-    patch: '5.3',
   },
   {
     id: 267,
@@ -19902,6 +20072,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 2538,
@@ -20186,6 +20357,7 @@ export default [
       INT: 8,
       MND: 8,
     },
+    obsolete: true,
   },
   {
     id: 3092,
@@ -20238,6 +20410,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 4003,
@@ -20273,6 +20446,7 @@ export default [
       DEX: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 4005,
@@ -20479,6 +20653,7 @@ export default [
       PDMG: 18,
       DLY: 2000,
     },
+    obsolete: true,
   },
   {
     id: 1769,
@@ -20516,6 +20691,7 @@ export default [
       PDMG: 18,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 1908,
@@ -20553,6 +20729,7 @@ export default [
       PDMG: 18,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 2069,
@@ -20588,6 +20765,7 @@ export default [
       INT: 4,
       MDMG: 34,
     },
+    obsolete: true,
   },
   {
     id: 2250,
@@ -20623,6 +20801,7 @@ export default [
       INT: 2,
       MND: 2,
     },
+    obsolete: true,
   },
   {
     id: 2320,
@@ -20776,6 +20955,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 2737,
@@ -20811,6 +20991,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 2739,
@@ -20846,6 +21027,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 2741,
@@ -20881,6 +21063,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 2743,
@@ -20916,6 +21099,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 2745,
@@ -20951,6 +21135,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 3096,
@@ -20984,6 +21169,7 @@ export default [
       STR: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3357,
@@ -21119,6 +21305,7 @@ export default [
       DEX: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3583,
@@ -21168,6 +21355,7 @@ export default [
       STR: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 3823,
@@ -21233,6 +21421,7 @@ export default [
       STR: 2,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 4109,
@@ -21666,6 +21855,7 @@ export default [
       PDMG: 19,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 1838,
@@ -21703,6 +21893,7 @@ export default [
       PDMG: 19,
       DLY: 2800,
     },
+    obsolete: true,
   },
   {
     id: 1967,
@@ -21738,6 +21929,7 @@ export default [
       MND: 4,
       MDMG: 35,
     },
+    obsolete: true,
   },
   {
     id: 2015,
@@ -21773,6 +21965,7 @@ export default [
       MND: 6,
       MDMG: 35,
     },
+    obsolete: true,
   },
   {
     id: 2252,
@@ -22868,6 +23061,7 @@ export default [
       MND: 6,
       MDMG: 36,
     },
+    obsolete: true,
   },
   {
     id: 2165,
@@ -23091,6 +23285,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 2755,
@@ -23124,6 +23319,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3100,
@@ -23159,6 +23355,7 @@ export default [
       DEX: 6,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3102,
@@ -23192,6 +23389,7 @@ export default [
       STR: 6,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3104,
@@ -23244,6 +23442,7 @@ export default [
       DEX: 6,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3369,
@@ -23293,6 +23492,7 @@ export default [
       STR: 6,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3597,
@@ -23328,6 +23528,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3599,
@@ -23361,6 +23562,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3601,
@@ -23410,6 +23612,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3827,
@@ -23445,6 +23648,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3829,
@@ -23494,6 +23698,7 @@ export default [
       STR: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 4011,
@@ -23529,6 +23734,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 4226,
@@ -23634,6 +23840,7 @@ export default [
       PDMG: 19,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 9198,
@@ -23978,7 +24185,6 @@ export default [
       PDMG: 19,
       DLY: 2640,
     },
-    patch: '5.3',
   },
   {
     id: 30808,
@@ -23997,7 +24203,6 @@ export default [
       CRT: 8,
       MDMG: 36,
     },
-    patch: '5.3',
   },
   {
     id: 30809,
@@ -24015,7 +24220,6 @@ export default [
       PDMG: 19,
       DLY: 2800,
     },
-    patch: '5.3',
   },
   {
     id: 30810,
@@ -24035,7 +24239,6 @@ export default [
       PDMG: 19,
       DLY: 3120,
     },
-    patch: '5.3',
   },
   {
     id: 31450,
@@ -24053,7 +24256,6 @@ export default [
       CRT: 5,
       DET: 2,
     },
-    patch: '5.3',
   },
   {
     id: 31451,
@@ -24071,7 +24273,6 @@ export default [
       CRT: 8,
       DET: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31452,
@@ -24089,7 +24290,6 @@ export default [
       CRT: 5,
       SKS: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31453,
@@ -24107,7 +24307,6 @@ export default [
       CRT: 8,
       SKS: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31454,
@@ -24125,7 +24324,6 @@ export default [
       CRT: 5,
       SKS: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31455,
@@ -24143,7 +24341,6 @@ export default [
       DET: 2,
       SKS: 3,
     },
-    patch: '5.3',
   },
   {
     id: 31456,
@@ -24162,7 +24359,6 @@ export default [
       DET: 2,
       SKS: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31457,
@@ -24181,7 +24377,6 @@ export default [
       CRT: 6,
       DET: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31458,
@@ -24200,7 +24395,6 @@ export default [
       DET: 3,
       SKS: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31459,
@@ -24219,7 +24413,6 @@ export default [
       CRT: 6,
       DET: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31460,
@@ -24238,7 +24431,6 @@ export default [
       CRT: 4,
       DET: 3,
     },
-    patch: '5.3',
   },
   {
     id: 31461,
@@ -24257,7 +24449,6 @@ export default [
       CRT: 4,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 31462,
@@ -24276,7 +24467,6 @@ export default [
       DET: 3,
       SPS: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31463,
@@ -24295,7 +24485,6 @@ export default [
       CRT: 6,
       DET: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31464,
@@ -24314,7 +24503,6 @@ export default [
       CRT: 5,
       DET: 2,
     },
-    patch: '5.3',
   },
   {
     id: 31465,
@@ -24333,7 +24521,6 @@ export default [
       DET: 5,
       SPS: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31466,
@@ -24352,7 +24539,6 @@ export default [
       DET: 3,
       SPS: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31467,
@@ -24371,7 +24557,6 @@ export default [
       CRT: 3,
       DET: 2,
     },
-    patch: '5.3',
   },
   {
     id: 1629,
@@ -24463,6 +24648,7 @@ export default [
       PDMG: 20,
       DLY: 2080,
     },
+    obsolete: true,
   },
   {
     id: 1702,
@@ -24608,6 +24794,7 @@ export default [
       PDMG: 20,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 1841,
@@ -24699,6 +24886,7 @@ export default [
       PDMG: 20,
       DLY: 2800,
     },
+    obsolete: true,
   },
   {
     id: 1911,
@@ -24839,6 +25027,7 @@ export default [
       INT: 5,
       MDMG: 37,
     },
+    obsolete: true,
   },
   {
     id: 2073,
@@ -24925,6 +25114,7 @@ export default [
       INT: 7,
       MDMG: 37,
     },
+    obsolete: true,
   },
   {
     id: 2162,
@@ -25012,6 +25202,7 @@ export default [
       STR: 2,
       VIT: 2,
     },
+    obsolete: true,
   },
   {
     id: 2321,
@@ -25234,6 +25425,7 @@ export default [
       INT: 6,
       MND: 6,
     },
+    obsolete: true,
   },
   {
     id: 3372,
@@ -25269,6 +25461,7 @@ export default [
       INT: 6,
       MND: 6,
     },
+    obsolete: true,
   },
   {
     id: 3603,
@@ -25304,6 +25497,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 3831,
@@ -25339,6 +25533,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 4013,
@@ -25374,6 +25569,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 9199,
@@ -25606,7 +25802,6 @@ export default [
       DHT: 8,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27670,
@@ -25626,7 +25821,6 @@ export default [
       DET: 3,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27671,
@@ -25646,7 +25840,6 @@ export default [
       DHT: 8,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27672,
@@ -25666,7 +25859,6 @@ export default [
       DHT: 5,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 263,
@@ -25880,6 +26072,7 @@ export default [
       PDMG: 20,
       DLY: 2320,
     },
+    obsolete: true,
   },
   {
     id: 1915,
@@ -25917,6 +26110,7 @@ export default [
       PDMG: 20,
       DLY: 2640,
     },
+    obsolete: true,
   },
   {
     id: 2021,
@@ -25952,6 +26146,7 @@ export default [
       MND: 7,
       MDMG: 37,
     },
+    obsolete: true,
   },
   {
     id: 2348,
@@ -26103,6 +26298,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 2765,
@@ -26136,6 +26332,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3109,
@@ -26319,6 +26516,7 @@ export default [
       STR: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3120,
@@ -26433,6 +26631,7 @@ export default [
       STR: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3605,
@@ -26466,6 +26665,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3833,
@@ -26501,6 +26701,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3835,
@@ -26534,6 +26735,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 27654,
@@ -26552,7 +26754,6 @@ export default [
       SKS: 5,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27668,
@@ -26572,7 +26773,6 @@ export default [
       DHT: 5,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1616,
@@ -26641,6 +26841,7 @@ export default [
       INT: 5,
       MDMG: 38,
     },
+    obsolete: true,
   },
   {
     id: 2361,
@@ -26759,6 +26960,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 3379,
@@ -26842,6 +27044,7 @@ export default [
       DEX: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 4228,
@@ -26930,6 +27133,7 @@ export default [
       PDMG: 21,
       DLY: 2000,
     },
+    obsolete: true,
   },
   {
     id: 1778,
@@ -26967,6 +27171,7 @@ export default [
       PDMG: 21,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 1847,
@@ -27004,6 +27209,7 @@ export default [
       PDMG: 21,
       DLY: 2960,
     },
+    obsolete: true,
   },
   {
     id: 1969,
@@ -27039,6 +27245,7 @@ export default [
       MND: 5,
       MDMG: 39,
     },
+    obsolete: true,
   },
   {
     id: 2123,
@@ -27074,6 +27281,7 @@ export default [
       INT: 8,
       MDMG: 39,
     },
+    obsolete: true,
   },
   {
     id: 2166,
@@ -27111,6 +27319,7 @@ export default [
       MND: 8,
       MDMG: 39,
     },
+    obsolete: true,
   },
   {
     id: 2260,
@@ -27144,6 +27353,7 @@ export default [
       VIT: 2,
       INT: 2,
     },
+    obsolete: true,
   },
   {
     id: 2322,
@@ -27797,6 +28007,7 @@ export default [
       PDMG: 21,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 9382,
@@ -27850,6 +28061,7 @@ export default [
       PDMG: 21,
       DLY: 2880,
     },
+    obsolete: true,
   },
   {
     id: 10463,
@@ -27887,6 +28099,7 @@ export default [
       PDMG: 21,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 10525,
@@ -27922,6 +28135,7 @@ export default [
       MND: 8,
       MDMG: 39,
     },
+    obsolete: true,
   },
   {
     id: 31468,
@@ -27941,7 +28155,6 @@ export default [
       PDMG: 21,
       DLY: 2240,
     },
-    patch: '5.3',
   },
   {
     id: 31469,
@@ -27961,7 +28174,6 @@ export default [
       PDMG: 21,
       DLY: 2560,
     },
-    patch: '5.3',
   },
   {
     id: 31470,
@@ -27981,7 +28193,6 @@ export default [
       PDMG: 21,
       DLY: 3360,
     },
-    patch: '5.3',
   },
   {
     id: 31471,
@@ -28001,7 +28212,6 @@ export default [
       PDMG: 21,
       DLY: 2800,
     },
-    patch: '5.3',
   },
   {
     id: 31472,
@@ -28021,7 +28231,6 @@ export default [
       PDMG: 21,
       DLY: 3040,
     },
-    patch: '5.3',
   },
   {
     id: 31473,
@@ -28041,7 +28250,6 @@ export default [
       PDMG: 21,
       DLY: 2560,
     },
-    patch: '5.3',
   },
   {
     id: 31474,
@@ -28061,7 +28269,6 @@ export default [
       PDMG: 21,
       DLY: 2960,
     },
-    patch: '5.3',
   },
   {
     id: 31475,
@@ -28081,7 +28288,6 @@ export default [
       PDMG: 21,
       DLY: 2640,
     },
-    patch: '5.3',
   },
   {
     id: 31476,
@@ -28100,7 +28306,6 @@ export default [
       DET: 5,
       MDMG: 39,
     },
-    patch: '5.3',
   },
   {
     id: 31477,
@@ -28119,7 +28324,6 @@ export default [
       SPS: 11,
       MDMG: 39,
     },
-    patch: '5.3',
   },
   {
     id: 31478,
@@ -28139,7 +28343,6 @@ export default [
       DET: 7,
       MDMG: 39,
     },
-    patch: '5.3',
   },
   {
     id: 31479,
@@ -28158,7 +28361,6 @@ export default [
       DET: 7,
       MDMG: 39,
     },
-    patch: '5.3',
   },
   {
     id: 31480,
@@ -28176,7 +28378,6 @@ export default [
       CRT: 3,
       DET: 1,
     },
-    patch: '5.3',
   },
   {
     id: 1708,
@@ -28214,6 +28415,7 @@ export default [
       PDMG: 22,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 1917,
@@ -28251,6 +28453,7 @@ export default [
       PDMG: 22,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 2023,
@@ -28286,6 +28489,7 @@ export default [
       MND: 8,
       MDMG: 40,
     },
+    obsolete: true,
   },
   {
     id: 2232,
@@ -28421,6 +28625,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 2776,
@@ -28456,6 +28661,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 2778,
@@ -28507,6 +28713,7 @@ export default [
       DEX: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3127,
@@ -28540,6 +28747,7 @@ export default [
       STR: 12,
       VIT: 13,
     },
+    obsolete: true,
   },
   {
     id: 3383,
@@ -28575,6 +28783,7 @@ export default [
       DEX: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3385,
@@ -28624,6 +28833,7 @@ export default [
       STR: 12,
       VIT: 13,
     },
+    obsolete: true,
   },
   {
     id: 3388,
@@ -28809,6 +29019,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 3613,
@@ -28858,6 +29069,7 @@ export default [
       STR: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 3841,
@@ -28893,6 +29105,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 3843,
@@ -28944,6 +29157,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 4022,
@@ -28979,6 +29193,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 4024,
@@ -29012,6 +29227,7 @@ export default [
       STR: 3,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 4231,
@@ -29063,7 +29279,6 @@ export default [
       SKS: 6,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27640,
@@ -29083,7 +29298,6 @@ export default [
       DET: 4,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27655,
@@ -29102,7 +29316,6 @@ export default [
       CRT: 17,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1639,
@@ -29140,6 +29353,7 @@ export default [
       PDMG: 23,
       DLY: 2080,
     },
+    obsolete: true,
   },
   {
     id: 2078,
@@ -29175,6 +29389,7 @@ export default [
       INT: 6,
       MDMG: 40,
     },
+    obsolete: true,
   },
   {
     id: 2262,
@@ -29208,6 +29423,7 @@ export default [
       STR: 2,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 2773,
@@ -29259,6 +29475,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 3021,
@@ -29341,6 +29558,7 @@ export default [
       INT: 8,
       MND: 8,
     },
+    obsolete: true,
   },
   {
     id: 3397,
@@ -29376,6 +29594,7 @@ export default [
       INT: 8,
       MND: 8,
     },
+    obsolete: true,
   },
   {
     id: 3399,
@@ -29411,6 +29630,7 @@ export default [
       DEX: 8,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3616,
@@ -29446,6 +29666,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 4026,
@@ -29601,7 +29822,6 @@ export default [
       DET: 7,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 264,
@@ -29892,6 +30112,7 @@ export default [
       PDMG: 24,
       DLY: 2640,
     },
+    obsolete: true,
   },
   {
     id: 1919,
@@ -29948,6 +30169,7 @@ export default [
       PDMG: 24,
       DLY: 2640,
     },
+    obsolete: true,
   },
   {
     id: 2025,
@@ -30086,6 +30308,7 @@ export default [
       STR: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 2788,
@@ -30121,6 +30344,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 3138,
@@ -30156,6 +30380,7 @@ export default [
       DEX: 8,
       VIT: 9,
     },
+    obsolete: true,
   },
   {
     id: 3140,
@@ -30191,6 +30416,7 @@ export default [
       INT: 13,
       MND: 13,
     },
+    obsolete: true,
   },
   {
     id: 3402,
@@ -30226,6 +30452,7 @@ export default [
       DEX: 8,
       VIT: 9,
     },
+    obsolete: true,
   },
   {
     id: 3619,
@@ -30259,6 +30486,7 @@ export default [
       STR: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 3847,
@@ -30294,6 +30522,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 4030,
@@ -30329,6 +30558,7 @@ export default [
       DEX: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 4032,
@@ -30642,7 +30872,6 @@ export default [
       DHT: 7,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27673,
@@ -30662,7 +30891,6 @@ export default [
       DHT: 19,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 31481,
@@ -30680,7 +30908,6 @@ export default [
       CRT: 7,
       DET: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31482,
@@ -30698,7 +30925,6 @@ export default [
       CRT: 12,
       SKS: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31483,
@@ -30716,7 +30942,6 @@ export default [
       CRT: 5,
       SKS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31484,
@@ -30734,7 +30959,6 @@ export default [
       CRT: 12,
       DET: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31485,
@@ -30752,7 +30976,6 @@ export default [
       CRT: 5,
       DET: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31486,
@@ -30770,7 +30993,6 @@ export default [
       DET: 3,
       SKS: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31487,
@@ -30789,7 +31011,6 @@ export default [
       DET: 4,
       SKS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31488,
@@ -30808,7 +31029,6 @@ export default [
       DET: 7,
       SKS: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31489,
@@ -30827,7 +31047,6 @@ export default [
       DET: 5,
       SKS: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31490,
@@ -30846,7 +31065,6 @@ export default [
       CRT: 8,
       SKS: 12,
     },
-    patch: '5.3',
   },
   {
     id: 31491,
@@ -30865,7 +31083,6 @@ export default [
       CRT: 7,
       DET: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31492,
@@ -30884,7 +31101,6 @@ export default [
       CRT: 4,
       DET: 3,
     },
-    patch: '5.3',
   },
   {
     id: 31493,
@@ -30903,7 +31119,6 @@ export default [
       CRT: 19,
       DET: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31494,
@@ -30922,7 +31137,6 @@ export default [
       CRT: 5,
       DET: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31495,
@@ -30941,7 +31155,6 @@ export default [
       DET: 7,
       SPS: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31496,
@@ -30960,7 +31173,6 @@ export default [
       CRT: 7,
       DET: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31497,
@@ -30979,7 +31191,6 @@ export default [
       CRT: 5,
       DET: 2,
     },
-    patch: '5.3',
   },
   {
     id: 31650,
@@ -30997,7 +31208,6 @@ export default [
       TEN: 4,
       DET: 2,
     },
-    patch: '5.3',
   },
   {
     id: 1635,
@@ -31055,6 +31265,7 @@ export default [
       PDMG: 25,
       DLY: 1920,
     },
+    obsolete: true,
   },
   {
     id: 1711,
@@ -31092,6 +31303,7 @@ export default [
       PDMG: 25,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 1781,
@@ -31129,6 +31341,7 @@ export default [
       PDMG: 25,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 1971,
@@ -31164,6 +31377,7 @@ export default [
       MND: 6,
       MDMG: 42,
     },
+    obsolete: true,
   },
   {
     id: 2026,
@@ -31199,6 +31413,7 @@ export default [
       MND: 9,
       MDMG: 42,
     },
+    obsolete: true,
   },
   {
     id: 2093,
@@ -31255,6 +31470,7 @@ export default [
       MND: 9,
       MDMG: 42,
     },
+    obsolete: true,
   },
   {
     id: 2184,
@@ -31512,6 +31728,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 2792,
@@ -31547,6 +31764,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 2794,
@@ -31582,6 +31800,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 2796,
@@ -31617,6 +31836,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 2798,
@@ -31652,6 +31872,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 2800,
@@ -31687,6 +31908,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 2802,
@@ -31720,6 +31942,7 @@ export default [
       STR: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 2804,
@@ -31785,6 +32008,7 @@ export default [
       STR: 8,
       VIT: 9,
     },
+    obsolete: true,
   },
   {
     id: 3144,
@@ -32484,6 +32708,7 @@ export default [
       PDMG: 25,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 9205,
@@ -32541,6 +32766,7 @@ export default [
       PDMG: 25,
       DLY: 2960,
     },
+    obsolete: true,
   },
   {
     id: 10464,
@@ -32578,6 +32804,7 @@ export default [
       PDMG: 25,
       DLY: 2640,
     },
+    obsolete: true,
   },
   {
     id: 10526,
@@ -32613,6 +32840,7 @@ export default [
       MND: 9,
       MDMG: 42,
     },
+    obsolete: true,
   },
   {
     id: 27656,
@@ -32631,7 +32859,6 @@ export default [
       SKS: 8,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 2125,
@@ -32667,6 +32894,7 @@ export default [
       INT: 9,
       MDMG: 42,
     },
+    obsolete: true,
   },
   {
     id: 2268,
@@ -32700,6 +32928,7 @@ export default [
       STR: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 2323,
@@ -32903,6 +33132,7 @@ export default [
       STR: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 4147,
@@ -33703,6 +33933,7 @@ export default [
       PDMG: 27,
       DLY: 2960,
     },
+    obsolete: true,
   },
   {
     id: 1922,
@@ -33794,6 +34025,7 @@ export default [
       PDMG: 27,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 1973,
@@ -34219,6 +34451,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 2808,
@@ -34289,6 +34522,7 @@ export default [
       DEX: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 2812,
@@ -34322,6 +34556,7 @@ export default [
       STR: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3076,
@@ -34444,6 +34679,7 @@ export default [
       DEX: 9,
       VIT: 10,
     },
+    obsolete: true,
   },
   {
     id: 3149,
@@ -34477,6 +34713,7 @@ export default [
       STR: 9,
       VIT: 10,
     },
+    obsolete: true,
   },
   {
     id: 3401,
@@ -34529,6 +34766,7 @@ export default [
       DEX: 9,
       VIT: 10,
     },
+    obsolete: true,
   },
   {
     id: 3410,
@@ -34578,6 +34816,7 @@ export default [
       STR: 9,
       VIT: 10,
     },
+    obsolete: true,
   },
   {
     id: 3618,
@@ -34631,6 +34870,7 @@ export default [
       DEX: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3627,
@@ -34680,6 +34920,7 @@ export default [
       STR: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3630,
@@ -34871,6 +35112,7 @@ export default [
       DEX: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3853,
@@ -34920,6 +35162,7 @@ export default [
       STR: 5,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3856,
@@ -34955,6 +35198,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 4018,
@@ -35022,6 +35266,7 @@ export default [
       STR: 4,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 4036,
@@ -35057,6 +35302,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 4247,
@@ -35340,7 +35586,6 @@ export default [
       DHT: 14,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 31498,
@@ -35358,7 +35603,6 @@ export default [
       CRT: 8,
       SKS: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31499,
@@ -35376,7 +35620,6 @@ export default [
       CRT: 6,
       SKS: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31500,
@@ -35395,7 +35638,6 @@ export default [
       CRT: 10,
       SKS: 14,
     },
-    patch: '5.3',
   },
   {
     id: 31501,
@@ -35414,7 +35656,6 @@ export default [
       DET: 4,
       SPS: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31502,
@@ -35433,7 +35674,6 @@ export default [
       CRT: 10,
       DET: 9,
     },
-    patch: '5.3',
   },
   {
     id: 31503,
@@ -35452,7 +35692,6 @@ export default [
       CRT: 6,
       DET: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31504,
@@ -35471,7 +35710,6 @@ export default [
       CRT: 4,
       DET: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31505,
@@ -35491,7 +35729,6 @@ export default [
       PDMG: 27,
       DLY: 2240,
     },
-    patch: '5.3',
   },
   {
     id: 31506,
@@ -35511,7 +35748,6 @@ export default [
       PDMG: 27,
       DLY: 2560,
     },
-    patch: '5.3',
   },
   {
     id: 31507,
@@ -35531,7 +35767,6 @@ export default [
       PDMG: 27,
       DLY: 3360,
     },
-    patch: '5.3',
   },
   {
     id: 31508,
@@ -35551,7 +35786,6 @@ export default [
       PDMG: 27,
       DLY: 2800,
     },
-    patch: '5.3',
   },
   {
     id: 31509,
@@ -35571,7 +35805,6 @@ export default [
       PDMG: 27,
       DLY: 3040,
     },
-    patch: '5.3',
   },
   {
     id: 31510,
@@ -35591,7 +35824,6 @@ export default [
       PDMG: 27,
       DLY: 2560,
     },
-    patch: '5.3',
   },
   {
     id: 31511,
@@ -35611,7 +35843,6 @@ export default [
       PDMG: 27,
       DLY: 2960,
     },
-    patch: '5.3',
   },
   {
     id: 31512,
@@ -35631,7 +35862,6 @@ export default [
       PDMG: 27,
       DLY: 2640,
     },
-    patch: '5.3',
   },
   {
     id: 31513,
@@ -35650,7 +35880,6 @@ export default [
       SPS: 15,
       MDMG: 43,
     },
-    patch: '5.3',
   },
   {
     id: 31514,
@@ -35669,7 +35898,6 @@ export default [
       DET: 10,
       MDMG: 43,
     },
-    patch: '5.3',
   },
   {
     id: 31515,
@@ -35689,7 +35917,6 @@ export default [
       DET: 7,
       MDMG: 43,
     },
-    patch: '5.3',
   },
   {
     id: 31516,
@@ -35708,7 +35935,6 @@ export default [
       SPS: 11,
       MDMG: 43,
     },
-    patch: '5.3',
   },
   {
     id: 31517,
@@ -35726,7 +35952,6 @@ export default [
       TEN: 3,
       SKS: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31651,
@@ -35744,7 +35969,6 @@ export default [
       CRT: 6,
       DET: 3,
     },
-    patch: '5.3',
   },
   {
     id: 1648,
@@ -35802,6 +36026,7 @@ export default [
       PDMG: 28,
       DLY: 2000,
     },
+    obsolete: true,
   },
   {
     id: 1716,
@@ -35839,6 +36064,7 @@ export default [
       PDMG: 28,
       DLY: 2320,
     },
+    obsolete: true,
   },
   {
     id: 1786,
@@ -35876,6 +36102,7 @@ export default [
       PDMG: 28,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 2030,
@@ -35911,6 +36138,7 @@ export default [
       MND: 10,
       MDMG: 44,
     },
+    obsolete: true,
   },
   {
     id: 2041,
@@ -35965,6 +36193,7 @@ export default [
       INT: 7,
       MDMG: 44,
     },
+    obsolete: true,
   },
   {
     id: 2174,
@@ -36002,6 +36231,7 @@ export default [
       MND: 10,
       MDMG: 44,
     },
+    obsolete: true,
   },
   {
     id: 2757,
@@ -36055,6 +36285,7 @@ export default [
       INT: 6,
       MND: 6,
     },
+    obsolete: true,
   },
   {
     id: 2816,
@@ -36282,6 +36513,7 @@ export default [
       INT: 9,
       MND: 9,
     },
+    obsolete: true,
   },
   {
     id: 3162,
@@ -36351,6 +36583,7 @@ export default [
       INT: 9,
       MND: 9,
     },
+    obsolete: true,
   },
   {
     id: 3415,
@@ -36418,6 +36651,7 @@ export default [
       INT: 6,
       MND: 6,
     },
+    obsolete: true,
   },
   {
     id: 3858,
@@ -36453,6 +36687,7 @@ export default [
       DEX: 6,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 3860,
@@ -36506,6 +36741,7 @@ export default [
       PDMG: 28,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 10403,
@@ -36543,6 +36779,7 @@ export default [
       PDMG: 28,
       DLY: 2880,
     },
+    obsolete: true,
   },
   {
     id: 10465,
@@ -36580,6 +36817,7 @@ export default [
       PDMG: 28,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 10527,
@@ -36615,6 +36853,7 @@ export default [
       MND: 10,
       MDMG: 44,
     },
+    obsolete: true,
   },
   {
     id: 27674,
@@ -36634,7 +36873,6 @@ export default [
       DHT: 9,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27675,
@@ -36654,7 +36892,6 @@ export default [
       CRT: 14,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27676,
@@ -36674,7 +36911,6 @@ export default [
       DET: 9,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 265,
@@ -36937,6 +37173,7 @@ export default [
       MND: 7,
       MDMG: 46,
     },
+    obsolete: true,
   },
   {
     id: 1976,
@@ -36972,6 +37209,7 @@ export default [
       MND: 7,
       MDMG: 46,
     },
+    obsolete: true,
   },
   {
     id: 1978,
@@ -37007,6 +37245,7 @@ export default [
       MND: 7,
       MDMG: 46,
     },
+    obsolete: true,
   },
   {
     id: 2270,
@@ -37042,6 +37281,7 @@ export default [
       INT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 2817,
@@ -37075,6 +37315,7 @@ export default [
       STR: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 2819,
@@ -37142,6 +37383,7 @@ export default [
       DEX: 9,
       VIT: 11,
     },
+    obsolete: true,
   },
   {
     id: 3416,
@@ -37177,6 +37419,7 @@ export default [
       DEX: 9,
       VIT: 11,
     },
+    obsolete: true,
   },
   {
     id: 3642,
@@ -37210,6 +37453,7 @@ export default [
       STR: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3691,
@@ -37262,6 +37506,7 @@ export default [
       DEX: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 4038,
@@ -37313,6 +37558,7 @@ export default [
       DEX: 4,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 4354,
@@ -37491,6 +37737,7 @@ export default [
       PDMG: 30,
       DLY: 2000,
     },
+    obsolete: true,
   },
   {
     id: 1718,
@@ -37619,6 +37866,7 @@ export default [
       PDMG: 30,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 1788,
@@ -37838,6 +38086,7 @@ export default [
       PDMG: 30,
       DLY: 2800,
     },
+    obsolete: true,
   },
   {
     id: 1927,
@@ -37966,6 +38215,7 @@ export default [
       PDMG: 30,
       DLY: 2640,
     },
+    obsolete: true,
   },
   {
     id: 1980,
@@ -38138,6 +38388,7 @@ export default [
       INT: 8,
       MDMG: 47,
     },
+    obsolete: true,
   },
   {
     id: 2128,
@@ -38702,6 +38953,7 @@ export default [
       DEX: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 2827,
@@ -38735,6 +38987,7 @@ export default [
       STR: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 2829,
@@ -38803,6 +39056,7 @@ export default [
       DEX: 10,
       VIT: 11,
     },
+    obsolete: true,
   },
   {
     id: 3174,
@@ -38836,6 +39090,7 @@ export default [
       STR: 10,
       VIT: 11,
     },
+    obsolete: true,
   },
   {
     id: 3176,
@@ -38905,6 +39160,7 @@ export default [
       DEX: 10,
       VIT: 11,
     },
+    obsolete: true,
   },
   {
     id: 3423,
@@ -38938,6 +39194,7 @@ export default [
       STR: 10,
       VIT: 11,
     },
+    obsolete: true,
   },
   {
     id: 3425,
@@ -39005,6 +39262,7 @@ export default [
       DEX: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3647,
@@ -39072,6 +39330,7 @@ export default [
       DEX: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3868,
@@ -39105,6 +39364,7 @@ export default [
       STR: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3870,
@@ -39188,6 +39448,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 4485,
@@ -39530,7 +39791,6 @@ export default [
       SKS: 10,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27644,
@@ -39550,7 +39810,6 @@ export default [
       SKS: 16,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27645,
@@ -39570,7 +39829,6 @@ export default [
       CRT: 10,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 31518,
@@ -39588,7 +39846,6 @@ export default [
       CRT: 10,
       SKS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31519,
@@ -39606,7 +39863,6 @@ export default [
       DET: 11,
       SKS: 11,
     },
-    patch: '5.3',
   },
   {
     id: 31520,
@@ -39624,7 +39880,6 @@ export default [
       CRT: 7,
       DET: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31521,
@@ -39642,7 +39897,6 @@ export default [
       DET: 11,
       SKS: 11,
     },
-    patch: '5.3',
   },
   {
     id: 31522,
@@ -39660,7 +39914,6 @@ export default [
       DET: 6,
       SKS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31523,
@@ -39678,7 +39931,6 @@ export default [
       CRT: 5,
       SKS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31524,
@@ -39697,7 +39949,6 @@ export default [
       CRT: 10,
       DET: 4,
     },
-    patch: '5.3',
   },
   {
     id: 31525,
@@ -39716,7 +39967,6 @@ export default [
       CRT: 16,
       SKS: 11,
     },
-    patch: '5.3',
   },
   {
     id: 31526,
@@ -39735,7 +39985,6 @@ export default [
       CRT: 7,
       SKS: 10,
     },
-    patch: '5.3',
   },
   {
     id: 31527,
@@ -39754,7 +40003,6 @@ export default [
       CRT: 16,
       DET: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31528,
@@ -39773,7 +40021,6 @@ export default [
       CRT: 10,
       SKS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31529,
@@ -39792,7 +40039,6 @@ export default [
       CRT: 5,
       SKS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31530,
@@ -39811,7 +40057,6 @@ export default [
       CRT: 7,
       DET: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31531,
@@ -39830,7 +40075,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    patch: '5.3',
   },
   {
     id: 31532,
@@ -39849,7 +40093,6 @@ export default [
       CRT: 10,
       SPS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31533,
@@ -39868,7 +40111,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    patch: '5.3',
   },
   {
     id: 31534,
@@ -39887,7 +40129,6 @@ export default [
       DET: 4,
       SPS: 10,
     },
-    patch: '5.3',
   },
   {
     id: 31535,
@@ -39906,7 +40147,6 @@ export default [
       DET: 5,
       SPS: 5,
     },
-    patch: '5.3',
   },
   {
     id: 31554,
@@ -39924,7 +40164,6 @@ export default [
       TEN: 3,
       CRT: 5,
     },
-    patch: '5.3',
   },
   {
     id: 2130,
@@ -39960,6 +40199,7 @@ export default [
       INT: 11,
       MDMG: 49,
     },
+    obsolete: true,
   },
   {
     id: 2279,
@@ -39993,6 +40233,7 @@ export default [
       STR: 3,
       VIT: 3,
     },
+    obsolete: true,
   },
   {
     id: 2503,
@@ -40077,6 +40318,7 @@ export default [
       STR: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 2832,
@@ -40112,6 +40354,7 @@ export default [
       INT: 6,
       MND: 6,
     },
+    obsolete: true,
   },
   {
     id: 2834,
@@ -40182,6 +40425,7 @@ export default [
       INT: 10,
       MND: 10,
     },
+    obsolete: true,
   },
   {
     id: 3180,
@@ -40215,6 +40459,7 @@ export default [
       STR: 17,
       VIT: 18,
     },
+    obsolete: true,
   },
   {
     id: 3427,
@@ -40250,6 +40495,7 @@ export default [
       DEX: 10,
       VIT: 11,
     },
+    obsolete: true,
   },
   {
     id: 3429,
@@ -40285,6 +40531,7 @@ export default [
       INT: 10,
       MND: 10,
     },
+    obsolete: true,
   },
   {
     id: 3431,
@@ -40318,6 +40565,7 @@ export default [
       STR: 17,
       VIT: 18,
     },
+    obsolete: true,
   },
   {
     id: 3649,
@@ -40351,6 +40599,7 @@ export default [
       STR: 6,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3872,
@@ -40530,6 +40779,7 @@ export default [
       INT: 6,
       MND: 6,
     },
+    obsolete: true,
   },
   {
     id: 3911,
@@ -40580,6 +40830,7 @@ export default [
       STR: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 27646,
@@ -40599,7 +40850,6 @@ export default [
       DET: 11,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27657,
@@ -40618,7 +40868,6 @@ export default [
       SKS: 10,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27658,
@@ -40637,7 +40886,6 @@ export default [
       CRT: 27,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1636,
@@ -40655,6 +40903,7 @@ export default [
       PDMG: 32,
       DLY: 2080,
     },
+    source: '金币购买',
   },
   {
     id: 1642,
@@ -40712,6 +40961,7 @@ export default [
       PDMG: 32,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 2039,
@@ -40747,6 +40997,7 @@ export default [
       MND: 11,
       MDMG: 50,
     },
+    obsolete: true,
   },
   {
     id: 2185,
@@ -40784,6 +41035,7 @@ export default [
       MND: 11,
       MDMG: 50,
     },
+    obsolete: true,
   },
   {
     id: 2287,
@@ -40817,6 +41069,7 @@ export default [
       VIT: 3,
       MND: 3,
     },
+    obsolete: true,
   },
   {
     id: 2465,
@@ -40869,6 +41122,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2837,
@@ -40920,6 +41174,7 @@ export default [
       DEX: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3653,
@@ -40969,6 +41224,7 @@ export default [
       STR: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 4049,
@@ -41004,6 +41260,7 @@ export default [
       INT: 5,
       MND: 5,
     },
+    obsolete: true,
   },
   {
     id: 4254,
@@ -41073,6 +41330,7 @@ export default [
       PDMG: 32,
       DLY: 2720,
     },
+    obsolete: true,
   },
   {
     id: 10404,
@@ -41110,6 +41368,7 @@ export default [
       PDMG: 32,
       DLY: 2960,
     },
+    obsolete: true,
   },
   {
     id: 10466,
@@ -41147,6 +41406,7 @@ export default [
       PDMG: 32,
       DLY: 2640,
     },
+    obsolete: true,
   },
   {
     id: 10528,
@@ -41182,6 +41442,7 @@ export default [
       MND: 11,
       MDMG: 50,
     },
+    obsolete: true,
   },
   {
     id: 1659,
@@ -41219,6 +41480,7 @@ export default [
       PDMG: 33,
       DLY: 2080,
     },
+    obsolete: true,
   },
   {
     id: 1725,
@@ -41310,6 +41572,7 @@ export default [
       PDMG: 33,
       DLY: 2400,
     },
+    obsolete: true,
   },
   {
     id: 1793,
@@ -41455,6 +41718,7 @@ export default [
       PDMG: 33,
       DLY: 2800,
     },
+    obsolete: true,
   },
   {
     id: 1934,
@@ -41546,6 +41810,7 @@ export default [
       PDMG: 33,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 1981,
@@ -41581,6 +41846,7 @@ export default [
       MND: 8,
       MDMG: 51,
     },
+    obsolete: true,
   },
   {
     id: 1983,
@@ -41616,6 +41882,7 @@ export default [
       MND: 8,
       MDMG: 51,
     },
+    obsolete: true,
   },
   {
     id: 1985,
@@ -41651,6 +41918,7 @@ export default [
       MND: 8,
       MDMG: 51,
     },
+    obsolete: true,
   },
   {
     id: 2036,
@@ -41788,6 +42056,7 @@ export default [
       INT: 8,
       MDMG: 51,
     },
+    obsolete: true,
   },
   {
     id: 2181,
@@ -42213,6 +42482,7 @@ export default [
       STR: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 2852,
@@ -42248,6 +42518,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2854,
@@ -42403,6 +42674,7 @@ export default [
       STR: 11,
       VIT: 12,
     },
+    obsolete: true,
   },
   {
     id: 3185,
@@ -42438,6 +42710,7 @@ export default [
       INT: 11,
       MND: 11,
     },
+    obsolete: true,
   },
   {
     id: 3187,
@@ -42883,6 +43156,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 3658,
@@ -42918,6 +43192,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 3660,
@@ -42953,6 +43228,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 3662,
@@ -42988,6 +43264,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 3664,
@@ -43023,6 +43300,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 3666,
@@ -43058,6 +43336,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 3668,
@@ -43144,6 +43423,7 @@ export default [
       DEX: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3885,
@@ -43281,6 +43561,7 @@ export default [
       DEX: 5,
       VIT: 5,
     },
+    obsolete: true,
   },
   {
     id: 4058,
@@ -43720,7 +44001,6 @@ export default [
       DHT: 11,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27659,
@@ -43739,7 +44019,6 @@ export default [
       SKS: 11,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 31536,
@@ -43758,7 +44037,6 @@ export default [
       CRT: 8,
       SKS: 11,
     },
-    patch: '5.3',
   },
   {
     id: 31537,
@@ -43777,7 +44055,6 @@ export default [
       CRT: 18,
       DET: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31538,
@@ -43797,7 +44074,6 @@ export default [
       CRT: 8,
       SKS: 11,
     },
-    patch: '5.3',
   },
   {
     id: 31539,
@@ -43817,7 +44093,6 @@ export default [
       CRT: 13,
       DET: 12,
     },
-    patch: '5.3',
   },
   {
     id: 31540,
@@ -43837,7 +44112,6 @@ export default [
       DET: 7,
       SPS: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31541,
@@ -43857,7 +44131,6 @@ export default [
       CRT: 11,
       SPS: 8,
     },
-    patch: '5.3',
   },
   {
     id: 31542,
@@ -43878,7 +44151,6 @@ export default [
       PDMG: 33,
       DLY: 2240,
     },
-    patch: '5.3',
   },
   {
     id: 31543,
@@ -43899,7 +44171,6 @@ export default [
       PDMG: 33,
       DLY: 2560,
     },
-    patch: '5.3',
   },
   {
     id: 31544,
@@ -43920,7 +44191,6 @@ export default [
       PDMG: 33,
       DLY: 3360,
     },
-    patch: '5.3',
   },
   {
     id: 31545,
@@ -43941,7 +44211,6 @@ export default [
       PDMG: 33,
       DLY: 2800,
     },
-    patch: '5.3',
   },
   {
     id: 31546,
@@ -43962,7 +44231,6 @@ export default [
       PDMG: 33,
       DLY: 3040,
     },
-    patch: '5.3',
   },
   {
     id: 31547,
@@ -43983,7 +44251,6 @@ export default [
       PDMG: 33,
       DLY: 2560,
     },
-    patch: '5.3',
   },
   {
     id: 31548,
@@ -44004,7 +44271,6 @@ export default [
       PDMG: 33,
       DLY: 2960,
     },
-    patch: '5.3',
   },
   {
     id: 31549,
@@ -44025,7 +44291,6 @@ export default [
       PDMG: 33,
       DLY: 2640,
     },
-    patch: '5.3',
   },
   {
     id: 31550,
@@ -44045,7 +44310,6 @@ export default [
       DET: 9,
       MDMG: 51,
     },
-    patch: '5.3',
   },
   {
     id: 31551,
@@ -44065,7 +44329,6 @@ export default [
       CRT: 14,
       MDMG: 51,
     },
-    patch: '5.3',
   },
   {
     id: 31552,
@@ -44086,7 +44349,6 @@ export default [
       SPS: 20,
       MDMG: 51,
     },
-    patch: '5.3',
   },
   {
     id: 31553,
@@ -44106,7 +44368,6 @@ export default [
       DET: 9,
       MDMG: 51,
     },
-    patch: '5.3',
   },
   {
     id: 268,
@@ -44471,6 +44732,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2859,
@@ -44504,6 +44766,7 @@ export default [
       STR: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 2861,
@@ -44555,6 +44818,7 @@ export default [
       DEX: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3182,
@@ -44607,6 +44871,7 @@ export default [
       DEX: 11,
       VIT: 12,
     },
+    obsolete: true,
   },
   {
     id: 3193,
@@ -44642,6 +44907,7 @@ export default [
       INT: 18,
       MND: 18,
     },
+    obsolete: true,
   },
   {
     id: 3444,
@@ -44658,6 +44924,7 @@ export default [
       DEX: 11,
       VIT: 12,
     },
+    obsolete: true,
   },
   {
     id: 3447,
@@ -44710,6 +44977,7 @@ export default [
       STR: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 3887,
@@ -44745,6 +45013,7 @@ export default [
       DEX: 7,
       VIT: 7,
     },
+    obsolete: true,
   },
   {
     id: 4153,
@@ -45001,7 +45270,6 @@ export default [
       DHT: 31,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 1649,
@@ -45079,6 +45347,7 @@ export default [
       PDMG: 35,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 2294,
@@ -45112,6 +45381,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 2300,
@@ -45371,6 +45641,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2872,
@@ -45406,6 +45677,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2874,
@@ -45441,6 +45713,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2876,
@@ -45476,6 +45749,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2878,
@@ -45511,6 +45785,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2880,
@@ -45546,6 +45821,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2882,
@@ -45581,6 +45857,7 @@ export default [
       DEX: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 2884,
@@ -45614,6 +45891,7 @@ export default [
       STR: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 2886,
@@ -45665,6 +45943,7 @@ export default [
       DEX: 12,
       VIT: 12,
     },
+    obsolete: true,
   },
   {
     id: 3203,
@@ -45698,6 +45977,7 @@ export default [
       STR: 12,
       VIT: 12,
     },
+    obsolete: true,
   },
   {
     id: 3205,
@@ -45767,6 +46047,7 @@ export default [
       DEX: 12,
       VIT: 12,
     },
+    obsolete: true,
   },
   {
     id: 3456,
@@ -45834,6 +46115,7 @@ export default [
       DEX: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3680,
@@ -45901,6 +46183,7 @@ export default [
       DEX: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3906,
@@ -45934,6 +46217,7 @@ export default [
       STR: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3908,
@@ -46624,6 +46908,7 @@ export default [
       PDMG: 36,
       DLY: 2080,
     },
+    obsolete: true,
   },
   {
     id: 1730,
@@ -46680,6 +46965,7 @@ export default [
       PDMG: 36,
       DLY: 2560,
     },
+    obsolete: true,
   },
   {
     id: 1798,
@@ -46736,6 +47022,7 @@ export default [
       PDMG: 36,
       DLY: 3360,
     },
+    obsolete: true,
   },
   {
     id: 1869,
@@ -46792,6 +47079,7 @@ export default [
       PDMG: 36,
       DLY: 2960,
     },
+    obsolete: true,
   },
   {
     id: 1939,
@@ -46848,6 +47136,7 @@ export default [
       PDMG: 36,
       DLY: 3200,
     },
+    obsolete: true,
   },
   {
     id: 1987,
@@ -46883,6 +47172,7 @@ export default [
       MND: 9,
       MDMG: 56,
     },
+    obsolete: true,
   },
   {
     id: 2042,
@@ -46936,6 +47226,7 @@ export default [
       MND: 13,
       MDMG: 56,
     },
+    obsolete: true,
   },
   {
     id: 2096,
@@ -46989,6 +47280,7 @@ export default [
       INT: 9,
       MDMG: 56,
     },
+    obsolete: true,
   },
   {
     id: 2133,
@@ -47024,6 +47316,7 @@ export default [
       INT: 13,
       MDMG: 56,
     },
+    obsolete: true,
   },
   {
     id: 2187,
@@ -47080,6 +47373,7 @@ export default [
       MND: 13,
       MDMG: 56,
     },
+    obsolete: true,
   },
   {
     id: 2292,
@@ -47147,6 +47441,7 @@ export default [
       STR: 4,
       VIT: 4,
     },
+    obsolete: true,
   },
   {
     id: 2298,
@@ -47182,6 +47477,7 @@ export default [
       INT: 4,
       MND: 4,
     },
+    obsolete: true,
   },
   {
     id: 2888,
@@ -47231,6 +47527,7 @@ export default [
       STR: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 2891,
@@ -47266,6 +47563,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 2893,
@@ -47301,6 +47599,7 @@ export default [
       DEX: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3209,
@@ -47334,6 +47633,7 @@ export default [
       STR: 12,
       VIT: 13,
     },
+    obsolete: true,
   },
   {
     id: 3211,
@@ -47369,6 +47669,7 @@ export default [
       INT: 12,
       MND: 12,
     },
+    obsolete: true,
   },
   {
     id: 3213,
@@ -47404,6 +47705,7 @@ export default [
       DEX: 12,
       VIT: 13,
     },
+    obsolete: true,
   },
   {
     id: 3218,
@@ -47457,6 +47759,7 @@ export default [
       INT: 12,
       MND: 12,
     },
+    obsolete: true,
   },
   {
     id: 3469,
@@ -47490,6 +47793,7 @@ export default [
       STR: 12,
       VIT: 13,
     },
+    obsolete: true,
   },
   {
     id: 3471,
@@ -47525,6 +47829,7 @@ export default [
       DEX: 12,
       VIT: 13,
     },
+    obsolete: true,
   },
   {
     id: 3692,
@@ -47558,6 +47863,7 @@ export default [
       STR: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3694,
@@ -47593,6 +47899,7 @@ export default [
       DEX: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3696,
@@ -47628,6 +47935,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 3912,
@@ -47661,6 +47969,7 @@ export default [
       STR: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 3914,
@@ -47696,6 +48005,7 @@ export default [
       INT: 7,
       MND: 7,
     },
+    obsolete: true,
   },
   {
     id: 3916,
@@ -47731,6 +48041,7 @@ export default [
       DEX: 7,
       VIT: 8,
     },
+    obsolete: true,
   },
   {
     id: 4059,
@@ -47764,6 +48075,7 @@ export default [
       STR: 6,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 4061,
@@ -47799,6 +48111,7 @@ export default [
       DEX: 6,
       VIT: 6,
     },
+    obsolete: true,
   },
   {
     id: 4063,
@@ -47834,6 +48147,7 @@ export default [
       INT: 6,
       MND: 6,
     },
+    obsolete: true,
   },
   {
     id: 4170,
@@ -48514,7 +48828,6 @@ export default [
       CRT: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27649,
@@ -48534,7 +48847,6 @@ export default [
       DET: 14,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27650,
@@ -48554,7 +48866,6 @@ export default [
       DHT: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27651,
@@ -48574,7 +48885,6 @@ export default [
       DHT: 21,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27652,
@@ -48594,7 +48904,6 @@ export default [
       DHT: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27660,
@@ -48613,7 +48922,6 @@ export default [
       TEN: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27661,
@@ -48632,7 +48940,6 @@ export default [
       TEN: 21,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27662,
@@ -48651,7 +48958,6 @@ export default [
       DHT: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27663,
@@ -48670,7 +48976,6 @@ export default [
       SKS: 21,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27664,
@@ -48689,7 +48994,6 @@ export default [
       CRT: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27678,
@@ -48709,7 +49013,6 @@ export default [
       DHT: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27679,
@@ -48729,7 +49032,6 @@ export default [
       DHT: 21,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27680,
@@ -48749,7 +49051,6 @@ export default [
       DHT: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27681,
@@ -48769,7 +49070,6 @@ export default [
       DHT: 21,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 27682,
@@ -48789,7 +49089,6 @@ export default [
       DHT: 13,
     },
     hq: true,
-    patch: '5.0',
   },
   {
     id: 31555,
@@ -48807,7 +49106,6 @@ export default [
       DET: 6,
       SKS: 13,
     },
-    patch: '5.3',
   },
   {
     id: 31556,
@@ -48825,7 +49123,6 @@ export default [
       CRT: 15,
       DET: 14,
     },
-    patch: '5.3',
   },
   {
     id: 31557,
@@ -48843,7 +49140,6 @@ export default [
       CRT: 13,
       SKS: 9,
     },
-    patch: '5.3',
   },
   {
     id: 31558,
@@ -48861,7 +49157,6 @@ export default [
       CRT: 21,
       DET: 10,
     },
-    patch: '5.3',
   },
   {
     id: 31559,
@@ -48879,7 +49174,6 @@ export default [
       CRT: 9,
       DET: 9,
     },
-    patch: '5.3',
   },
   {
     id: 31560,
@@ -48897,7 +49191,6 @@ export default [
       CRT: 7,
       SKS: 10,
     },
-    patch: '5.3',
   },
   {
     id: 31561,
@@ -48916,7 +49209,6 @@ export default [
       CRT: 13,
       DET: 6,
     },
-    patch: '5.3',
   },
   {
     id: 31562,
@@ -48935,7 +49227,6 @@ export default [
       DET: 10,
       SKS: 21,
     },
-    patch: '5.3',
   },
   {
     id: 31563,
@@ -48954,7 +49245,6 @@ export default [
       CRT: 9,
       SKS: 13,
     },
-    patch: '5.3',
   },
   {
     id: 31564,
@@ -48973,7 +49263,6 @@ export default [
       CRT: 15,
       DET: 14,
     },
-    patch: '5.3',
   },
   {
     id: 31565,
@@ -48992,7 +49281,6 @@ export default [
       CRT: 13,
       SKS: 9,
     },
-    patch: '5.3',
   },
   {
     id: 31566,
@@ -49011,7 +49299,6 @@ export default [
       CRT: 10,
       SKS: 7,
     },
-    patch: '5.3',
   },
   {
     id: 31567,
@@ -49030,7 +49317,6 @@ export default [
       CRT: 9,
       SPS: 13,
     },
-    patch: '5.3',
   },
   {
     id: 31568,
@@ -49049,7 +49335,6 @@ export default [
       CRT: 15,
       SPS: 21,
     },
-    patch: '5.3',
   },
   {
     id: 31569,
@@ -49068,7 +49353,6 @@ export default [
       DET: 9,
       SPS: 9,
     },
-    patch: '5.3',
   },
   {
     id: 31570,
@@ -49087,7 +49371,6 @@ export default [
       DET: 10,
       SPS: 21,
     },
-    patch: '5.3',
   },
   {
     id: 31571,
@@ -49106,7 +49389,6 @@ export default [
       CRT: 9,
       DET: 9,
     },
-    patch: '5.3',
   },
   {
     id: 31572,
@@ -49125,6 +49407,5 @@ export default [
       DET: 6,
       SPS: 7,
     },
-    patch: '5.3',
   },
 ];

@@ -27,6 +27,9 @@ export const Store = mst.types
     autoSelectScheduled: false,
   }))
   .views(self => ({
+    get setting(): ISetting {
+      return mst.getEnv(self).setting;
+    },
     get filteredIds(): G.GearId[] {
       console.debug('filteredIds');
       if (self.mode === 'view') {
@@ -38,8 +41,8 @@ export const Store = mst.types
         const { job, minLevel, maxLevel } = self;
         if (G.jobCategories[gear.jobCategory][job!]
           && (gear.slot === -1 ? (self.showAllFoods || 'best' in gear) :  // Foods
-            gear.slot === 17 || (gear.slot === 2 && job === 'FSH')  // Soul crystal and spearfishing gig
-            || (gear.level >= minLevel && gear.level <= maxLevel))
+            gear.slot === 17 || (gear.slot === 2 && job === 'FSH') ||  // Soul crystal and spearfishing gig
+            (gear.level >= minLevel && gear.level <= maxLevel && !(gear.obsolete && this.setting.hideObsoleteGears)))
         ) {
           ret.push(gear.id);
           if (gear.slot === 12) {
@@ -58,9 +61,6 @@ export const Store = mst.types
     },
   }))
   .views(self => ({
-    get setting(): ISetting {
-      return mst.getEnv(self).setting;
-    },
     get isLoading(): boolean {
       return gearDataLoading.get();
     },

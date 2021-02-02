@@ -3854,7 +3854,6 @@ export default [
       VIT: 10,
     },
     statMain: 'DHT',
-    patch: '5.0',
   },
   {
     id: 27854,
@@ -3871,7 +3870,6 @@ export default [
       VIT: 10,
     },
     statMain: 'SKS',
-    patch: '5.0',
   },
   {
     id: 27855,
@@ -3888,7 +3886,6 @@ export default [
       VIT: 10,
     },
     statMain: 'PIE',
-    patch: '5.0',
   },
   {
     id: 27856,
@@ -3905,7 +3902,6 @@ export default [
       VIT: 10,
     },
     statMain: 'TEN',
-    patch: '5.0',
   },
   {
     id: 27857,
@@ -3922,7 +3918,6 @@ export default [
       VIT: 10,
     },
     statMain: 'DET',
-    patch: '5.0',
   },
   {
     id: 27858,
@@ -3939,7 +3934,6 @@ export default [
       VIT: 10,
     },
     statMain: 'SPS',
-    patch: '5.0',
   },
   {
     id: 27859,
@@ -3956,7 +3950,6 @@ export default [
       VIT: 10,
     },
     statMain: 'CRT',
-    patch: '5.0',
   },
   {
     id: 27860,
@@ -3973,7 +3966,6 @@ export default [
       VIT: 10,
     },
     statMain: 'TEN',
-    patch: '5.0',
   },
   {
     id: 27861,
@@ -3990,7 +3982,6 @@ export default [
       VIT: 10,
     },
     statMain: 'DHT',
-    patch: '5.0',
   },
   {
     id: 27862,
@@ -4007,7 +3998,6 @@ export default [
       VIT: 10,
     },
     statMain: 'PIE',
-    patch: '5.0',
   },
   {
     id: 27863,
@@ -4024,7 +4014,6 @@ export default [
       VIT: 10,
     },
     statMain: 'SPS',
-    patch: '5.0',
   },
   {
     id: 27864,
@@ -4041,7 +4030,6 @@ export default [
       CP: 10,
     },
     statMain: 'CMS',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4059,7 +4047,6 @@ export default [
       PCP: 3,
     },
     statMain: 'GTH',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4079,7 +4066,6 @@ export default [
       CRT: 10,
     },
     statMain: 'TEN',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4099,7 +4085,6 @@ export default [
       TEN: 10,
     },
     statMain: 'SKS',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4119,7 +4104,6 @@ export default [
       DET: 10,
     },
     statMain: 'SPS',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4139,7 +4123,6 @@ export default [
       SPS: 10,
     },
     statMain: 'CRT',
-    patch: '5.0',
   },
   {
     id: 27870,
@@ -4156,7 +4139,6 @@ export default [
       GTH: 3,
     },
     statMain: 'GP',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4174,7 +4156,6 @@ export default [
       CMS: 5,
     },
     statMain: 'CRL',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4194,7 +4175,6 @@ export default [
       CRT: 10,
     },
     statMain: 'PIE',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4214,7 +4194,6 @@ export default [
       SPS: 10,
     },
     statMain: 'DET',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4234,7 +4213,6 @@ export default [
       CRT: 10,
     },
     statMain: 'DHT',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4254,7 +4232,6 @@ export default [
       DET: 10,
     },
     statMain: 'SKS',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4272,7 +4249,6 @@ export default [
       CRL: 5,
     },
     statMain: 'CP',
-    patch: '5.0',
   },
   {
     id: 27877,
@@ -4291,7 +4267,6 @@ export default [
       DET: 10,
     },
     statMain: 'TEN',
-    patch: '5.0',
   },
   {
     id: 27878,
@@ -4308,7 +4283,6 @@ export default [
       GP: 8,
     },
     statMain: 'PCP',
-    patch: '5.0',
     best: true,
   },
   {
@@ -4328,7 +4302,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SKS',
-    patch: '5.0',
   },
   {
     id: 27880,
@@ -4347,7 +4320,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SPS',
-    patch: '5.0',
   },
   {
     id: 27881,
@@ -4366,7 +4338,6 @@ export default [
       DET: 10,
     },
     statMain: 'PIE',
-    patch: '5.0',
   },
   {
     id: 27882,
@@ -4385,7 +4356,6 @@ export default [
       DET: 10,
     },
     statMain: 'DHT',
-    patch: '5.0',
   },
   {
     id: 27883,
@@ -4404,7 +4374,6 @@ export default [
       DET: 10,
     },
     statMain: 'DHT',
-    patch: '5.05',
   },
   {
     id: 27884,
@@ -4423,7 +4392,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SKS',
-    patch: '5.05',
   },
   {
     id: 27885,
@@ -4442,7 +4410,6 @@ export default [
       SKS: 10,
     },
     statMain: 'CRT',
-    patch: '5.05',
   },
   {
     id: 27886,
@@ -4461,7 +4428,6 @@ export default [
       CRT: 10,
     },
     statMain: 'DET',
-    patch: '5.05',
   },
   {
     id: 27887,
@@ -4480,7 +4446,6 @@ export default [
       DET: 10,
     },
     statMain: 'PIE',
-    patch: '5.05',
   },
   {
     id: 27888,
@@ -4499,7 +4464,6 @@ export default [
       PIE: 10,
     },
     statMain: 'SPS',
-    patch: '5.05',
   },
   {
     id: 27889,
@@ -4518,7 +4482,6 @@ export default [
       SPS: 10,
     },
     statMain: 'CRT',
-    patch: '5.05',
   },
   {
     id: 27890,
@@ -4537,7 +4500,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SPS',
-    patch: '5.05',
   },
   {
     id: 27891,
@@ -4556,7 +4518,6 @@ export default [
       DET: 10,
     },
     statMain: 'TEN',
-    patch: '5.05',
   },
   {
     id: 27892,
@@ -4575,7 +4536,6 @@ export default [
       TEN: 10,
     },
     statMain: 'DET',
-    patch: '5.05',
   },
   {
     id: 28720,
@@ -4592,7 +4552,6 @@ export default [
       CMS: 6,
     },
     statMain: 'CP',
-    patch: '5.1',
     best: true,
   },
   {
@@ -4610,7 +4569,6 @@ export default [
       GTH: 3,
     },
     statMain: 'PCP',
-    patch: '5.1',
     best: true,
   },
   {
@@ -4630,7 +4588,6 @@ export default [
       DET: 10,
     },
     statMain: 'DHT',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4650,7 +4607,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SKS',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4670,7 +4626,6 @@ export default [
       DET: 10,
     },
     statMain: 'PIE',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4690,7 +4645,6 @@ export default [
       PIE: 10,
     },
     statMain: 'SPS',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4710,7 +4664,6 @@ export default [
       SKS: 10,
     },
     statMain: 'CRT',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4730,7 +4683,6 @@ export default [
       CRT: 10,
     },
     statMain: 'DET',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4750,7 +4702,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SPS',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4770,7 +4721,6 @@ export default [
       SPS: 10,
     },
     statMain: 'CRT',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4790,7 +4740,6 @@ export default [
       DET: 10,
     },
     statMain: 'TEN',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4810,7 +4759,6 @@ export default [
       TEN: 10,
     },
     statMain: 'DET',
-    patch: '5.2',
     best: true,
   },
   {
@@ -4828,7 +4776,6 @@ export default [
       PCP: 3,
     },
     statMain: 'GP',
-    patch: '5.3',
     best: true,
   },
   {
@@ -4846,7 +4793,6 @@ export default [
       CRL: 6,
     },
     statMain: 'CP',
-    patch: '5.3',
     best: true,
   },
   {

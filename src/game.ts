@@ -7,6 +7,7 @@ export interface GearBase {
   slot: number,
   jobCategory: number,
   stats: Stats,
+  obsolete?: true,
   patch?: string,
 }
 export interface Gear extends GearBase {

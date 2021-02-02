@@ -48,19 +48,30 @@ const jobs = [
 
 const patchIds = require('./in/Item.json');
 const patches = {
-  58: '5.0', 59: '5.01', 60: '5.05', 61: '5.08',
-  62: '5.1', 63: '5.11', 65: '5.15',
-  66: '5.2', 67: '5.21', 68: '5.25',
-  69: '5.3', 70: '5.31', 71: '5.35',
+  71: '5.35',
   72: '5.4',
 };
 
-const sources = require('./in/sources');
 const sourceOfId = {};
-for (const [begin, end, source] of sources) {
-  for (let i = begin; i <= end; i++) {
-    if (i in sourceOfId) debugger;
-    sourceOfId[i] = source;
+{
+  const sourcesLines = fs.readFileSync('./in/sources.txt', 'utf8').split(/\r?\n/);
+  let source;
+  for (const line of sourcesLines) {
+    if (line === '') {
+      source = undefined;
+      continue;
+    }
+    if (source === undefined) {
+      source = line.replace(/\s*#.*/, '');
+      continue;
+    }
+    const parts = line.split('-');
+    const begin = Number(parts[0]);
+    const end = Number(parts[parts.length - 1]);
+    for (let i = begin; i <= end; i++) {
+      if (i in sourceOfId) throw Error(`装备 ${i} 来源存在冲突。`);
+      sourceOfId[i] = source;
+    }
   }
 }
 
@@ -115,6 +126,8 @@ const gears = Item
     ret.stats = {};
     ret.hq = x['CanBeHq'] === 'True' ? true : undefined;
     ret.source = sourceOfId[x['#']];
+    ret.obsolete = (ret.rarity === 7 && ret.source !== '危命任务' && !(ret.slot >= 9 && ret.slot <= 12)) ||
+      ret.source?.endsWith('已废弃') || ret.source === '旧空岛' ? true : undefined;
     ret.patch = patches[patchIds[x['#']]];
 
     // stats
@@ -165,8 +178,8 @@ const gears = Item
 
     jobCategoriesUsed[ret.jobCategory] = jobCategories[ret.jobCategory];
     levelsUsed[ret.level] = true;
-    if (ret.source === undefined && ret.equipLevel >= 60) {
-      sourcesMissing[ret.id] = ret.name;
+    if (ret.source === undefined && ret.slot !== 17 && (ret.equipLevel >= 50)) {
+      sourcesMissing[ret.id] = `${ret.level}${ret.hq ? 'HQ' : ''}  ${ret.name}`;
     }
     return ret;
   })
@@ -300,7 +313,7 @@ const gearGroups = [];
 const groupedGears = [];
 for (const gear of gears) {
   let groupId = levelGroupIds[gear.level];
-  if ((gear.id >= 10337 && gear.id <= 10344) || gear.id === 17726) {  // 专家证、渔叉跟随最新分组加载
+  if ((gear.id >= 10337 && gear.id <= 10344) || gear.id === 17726) {  // 专家证、渔叉跟随最新分组加载， TODO: 放到food.js里
     groupId = levelGroupLast;
   }
   gearGroups[gear.id] = groupId;
@@ -326,10 +339,10 @@ for (const item of Item) {
 
 const sourcesMissingIds = Object.keys(sourcesMissing).map(x => Number(x)).sort((a, b) => a - b);
 if (sourcesMissingIds.length > 0) {
-  const output = [];
+  const output = ['-----'];
   sourcesMissingIds.forEach((x, i) => {
-    output.push(`${x}\t${sourcesMissing[x]}`);
-    if (x + 1 !== sourcesMissingIds[i + 1]) output.push('-----');
+    output.push(`${x}  ${sourcesMissing[x]}`);
+    if (x + 1 !== sourcesMissingIds[i + 1]) output.push(output[0]);
   });
   fs.writeFileSync('./out/sourcesMissing.txt', output.join('\n'));
 } else {

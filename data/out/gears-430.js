@@ -160,8 +160,7 @@ export default [
       PDMG: 114,
       DLY: 2240,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25219,
@@ -181,8 +180,7 @@ export default [
       PDMG: 114,
       DLY: 2560,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25220,
@@ -202,8 +200,7 @@ export default [
       PDMG: 114,
       DLY: 3360,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25221,
@@ -223,8 +220,7 @@ export default [
       PDMG: 114,
       DLY: 2800,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25222,
@@ -244,8 +240,7 @@ export default [
       PDMG: 114,
       DLY: 3040,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25223,
@@ -265,8 +260,7 @@ export default [
       PDMG: 114,
       DLY: 2560,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25224,
@@ -286,8 +280,7 @@ export default [
       PDMG: 114,
       DLY: 2960,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25225,
@@ -307,8 +300,7 @@ export default [
       PDMG: 114,
       DLY: 2640,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25226,
@@ -327,8 +319,7 @@ export default [
       DET: 289,
       MDMG: 154,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25227,
@@ -347,8 +338,7 @@ export default [
       SPS: 413,
       MDMG: 154,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25228,
@@ -367,8 +357,7 @@ export default [
       DET: 289,
       MDMG: 154,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25229,
@@ -387,8 +376,7 @@ export default [
       DET: 289,
       MDMG: 154,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25230,
@@ -407,8 +395,7 @@ export default [
       SPS: 289,
       MDMG: 154,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25231,
@@ -428,8 +415,7 @@ export default [
       PDMG: 114,
       DLY: 2640,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25232,
@@ -448,8 +434,7 @@ export default [
       DET: 289,
       MDMG: 154,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25233,
@@ -469,8 +454,7 @@ export default [
       PDMG: 114,
       DLY: 2800,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25234,
@@ -490,8 +474,7 @@ export default [
       PDMG: 114,
       DLY: 3120,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25235,
@@ -509,8 +492,7 @@ export default [
       TEN: 118,
       DET: 83,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25236,
@@ -528,8 +510,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25237,
@@ -547,8 +528,7 @@ export default [
       TEN: 383,
       CRT: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25238,
@@ -566,8 +546,7 @@ export default [
       CRT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25239,
@@ -585,8 +564,7 @@ export default [
       TEN: 268,
       CRT: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25240,
@@ -604,8 +582,7 @@ export default [
       CRT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25241,
@@ -623,8 +600,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25242,
@@ -642,8 +618,7 @@ export default [
       DHT: 383,
       CRT: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25243,
@@ -661,8 +636,7 @@ export default [
       DHT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25244,
@@ -680,8 +654,7 @@ export default [
       CRT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25245,
@@ -699,8 +672,7 @@ export default [
       CRT: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25246,
@@ -718,8 +690,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25247,
@@ -737,8 +708,7 @@ export default [
       TEN: 383,
       SKS: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25248,
@@ -756,8 +726,7 @@ export default [
       CRT: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25249,
@@ -775,8 +744,7 @@ export default [
       TEN: 268,
       CRT: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25250,
@@ -794,8 +762,7 @@ export default [
       CRT: 236,
       SKS: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25251,
@@ -813,8 +780,7 @@ export default [
       DHT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25252,
@@ -832,8 +798,7 @@ export default [
       CRT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25253,
@@ -851,8 +816,7 @@ export default [
       CRT: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25254,
@@ -870,8 +834,7 @@ export default [
       DHT: 268,
       DET: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25255,
@@ -889,8 +852,7 @@ export default [
       CRT: 236,
       SKS: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25256,
@@ -908,8 +870,7 @@ export default [
       CRT: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25257,
@@ -927,8 +888,7 @@ export default [
       CRT: 268,
       DET: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25258,
@@ -946,8 +906,7 @@ export default [
       DHT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25259,
@@ -965,8 +924,7 @@ export default [
       DHT: 383,
       CRT: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25260,
@@ -984,8 +942,7 @@ export default [
       DHT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25261,
@@ -1003,8 +960,7 @@ export default [
       PIE: 165,
       SPS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25262,
@@ -1022,8 +978,7 @@ export default [
       CRT: 268,
       DET: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25263,
@@ -1041,8 +996,7 @@ export default [
       PIE: 236,
       SPS: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25264,
@@ -1060,8 +1014,7 @@ export default [
       PIE: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25265,
@@ -1079,8 +1032,7 @@ export default [
       CRT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25266,
@@ -1098,8 +1050,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25267,
@@ -1117,8 +1068,7 @@ export default [
       DHT: 268,
       SPS: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25268,
@@ -1136,8 +1086,7 @@ export default [
       DHT: 236,
       SPS: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25269,
@@ -1155,8 +1104,7 @@ export default [
       CRT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25270,
@@ -1174,8 +1122,7 @@ export default [
       DHT: 165,
       SPS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25271,
@@ -1193,8 +1140,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25272,
@@ -1212,8 +1158,7 @@ export default [
       CRT: 268,
       DET: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25273,
@@ -1231,8 +1176,7 @@ export default [
       DHT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25274,
@@ -1250,8 +1194,7 @@ export default [
       DHT: 268,
       CRT: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25275,
@@ -1269,8 +1212,7 @@ export default [
       DET: 165,
       SPS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25276,
@@ -1288,8 +1230,7 @@ export default [
       PIE: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25277,
@@ -1307,8 +1248,7 @@ export default [
       CRT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25278,
@@ -1326,8 +1266,7 @@ export default [
       PIE: 165,
       SPS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25279,
@@ -1345,8 +1284,7 @@ export default [
       PIE: 268,
       CRT: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25280,
@@ -1364,8 +1302,7 @@ export default [
       PIE: 236,
       CRT: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25281,
@@ -1383,8 +1320,7 @@ export default [
       DHT: 165,
       CRT: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25282,
@@ -1402,8 +1338,7 @@ export default [
       DHT: 268,
       DET: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25283,
@@ -1421,8 +1356,7 @@ export default [
       DET: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25284,
@@ -1440,8 +1374,7 @@ export default [
       DHT: 383,
       CRT: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25285,
@@ -1459,8 +1392,7 @@ export default [
       DHT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25286,
@@ -1478,8 +1410,7 @@ export default [
       CRT: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25287,
@@ -1497,8 +1428,7 @@ export default [
       TEN: 383,
       CRT: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25288,
@@ -1516,8 +1446,7 @@ export default [
       DET: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25289,
@@ -1535,8 +1464,7 @@ export default [
       TEN: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25290,
@@ -1554,8 +1482,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25291,
@@ -1573,8 +1500,7 @@ export default [
       DHT: 236,
       SKS: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25292,
@@ -1592,8 +1518,7 @@ export default [
       CRT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25293,
@@ -1611,8 +1536,7 @@ export default [
       DHT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25294,
@@ -1630,8 +1554,7 @@ export default [
       CRT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25295,
@@ -1649,8 +1572,7 @@ export default [
       DET: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25296,
@@ -1668,8 +1590,7 @@ export default [
       DET: 165,
       SPS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25297,
@@ -1687,8 +1608,7 @@ export default [
       PIE: 383,
       CRT: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25298,
@@ -1706,8 +1626,7 @@ export default [
       PIE: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25299,
@@ -1725,8 +1644,7 @@ export default [
       PIE: 268,
       DET: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25300,
@@ -1744,8 +1662,7 @@ export default [
       PIE: 236,
       CRT: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25301,
@@ -1763,8 +1680,7 @@ export default [
       DHT: 236,
       CRT: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25302,
@@ -1782,8 +1698,7 @@ export default [
       CRT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25303,
@@ -1801,8 +1716,7 @@ export default [
       DET: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25304,
@@ -1820,8 +1734,7 @@ export default [
       DHT: 268,
       SKS: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25305,
@@ -1839,8 +1752,7 @@ export default [
       DHT: 236,
       SKS: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25306,
@@ -1858,8 +1770,7 @@ export default [
       DHT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25307,
@@ -1877,8 +1788,7 @@ export default [
       DHT: 268,
       CRT: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25308,
@@ -1896,8 +1806,7 @@ export default [
       CRT: 165,
       DET: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25309,
@@ -1915,8 +1824,7 @@ export default [
       DHT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25310,
@@ -1934,8 +1842,7 @@ export default [
       CRT: 165,
       SPS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25311,
@@ -1953,8 +1860,7 @@ export default [
       CRT: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25312,
@@ -1972,8 +1878,7 @@ export default [
       CRT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25313,
@@ -1991,8 +1896,7 @@ export default [
       TEN: 165,
       CRT: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25314,
@@ -2010,8 +1914,7 @@ export default [
       CRT: 268,
       DET: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25315,
@@ -2029,8 +1932,7 @@ export default [
       TEN: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25316,
@@ -2048,8 +1950,7 @@ export default [
       CRT: 236,
       SKS: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25317,
@@ -2067,8 +1968,7 @@ export default [
       DHT: 268,
       DET: 383,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25318,
@@ -2086,8 +1986,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25319,
@@ -2105,8 +2004,7 @@ export default [
       DHT: 383,
       DET: 268,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 25320,
@@ -2124,8 +2022,7 @@ export default [
       CRT: 165,
       SKS: 236,
     },
-    source: '职业套',
-    patch: '5.0',
+    source: '职业校服',
   },
   {
     id: 26908,
@@ -2144,7 +2041,6 @@ export default [
       SKS: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26909,
@@ -2163,7 +2059,6 @@ export default [
       SKS: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26910,
@@ -2182,7 +2077,6 @@ export default [
       SKS: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26911,
@@ -2201,7 +2095,6 @@ export default [
       DET: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26912,
@@ -2220,7 +2113,6 @@ export default [
       DET: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26913,
@@ -2239,7 +2131,6 @@ export default [
       SPS: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26914,
@@ -2258,7 +2149,6 @@ export default [
       CRT: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26915,
@@ -2277,7 +2167,6 @@ export default [
       DET: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26916,
@@ -2296,7 +2185,6 @@ export default [
       CRT: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26917,
@@ -2315,7 +2203,6 @@ export default [
       CRT: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26918,
@@ -2334,7 +2221,6 @@ export default [
       DET: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26919,
@@ -2353,7 +2239,6 @@ export default [
       DET: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26920,
@@ -2372,7 +2257,6 @@ export default [
       DET: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26921,
@@ -2391,7 +2275,6 @@ export default [
       SKS: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26922,
@@ -2410,7 +2293,6 @@ export default [
       SKS: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26923,
@@ -2429,7 +2311,6 @@ export default [
       SPS: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26924,
@@ -2448,7 +2329,6 @@ export default [
       SPS: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26925,
@@ -2467,7 +2347,6 @@ export default [
       CRT: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26926,
@@ -2486,7 +2365,6 @@ export default [
       DET: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26927,
@@ -2505,7 +2383,6 @@ export default [
       DET: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26928,
@@ -2524,7 +2401,6 @@ export default [
       CRT: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26929,
@@ -2543,7 +2419,6 @@ export default [
       DET: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26930,
@@ -2562,7 +2437,6 @@ export default [
       SKS: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26931,
@@ -2581,7 +2455,6 @@ export default [
       DET: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26932,
@@ -2600,7 +2473,6 @@ export default [
       SKS: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26933,
@@ -2619,7 +2491,6 @@ export default [
       DET: 177,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 26934,
@@ -2638,7 +2509,6 @@ export default [
       DET: 124,
     },
     source: '迷宫挑战/亚马乌罗提、孪晶塔、阿尼德罗学院',
-    patch: '5.0',
   },
   {
     id: 27140,
@@ -2657,7 +2527,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27141,
@@ -2676,7 +2545,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27142,
@@ -2695,7 +2563,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27143,
@@ -2714,7 +2581,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27144,
@@ -2733,7 +2599,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27145,
@@ -2752,7 +2617,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27146,
@@ -2771,7 +2635,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27147,
@@ -2790,7 +2653,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27148,
@@ -2810,7 +2672,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27149,
@@ -2830,7 +2691,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27150,
@@ -2850,7 +2710,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27151,
@@ -2869,7 +2728,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27152,
@@ -2888,7 +2746,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27153,
@@ -2907,7 +2764,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27154,
@@ -2926,7 +2782,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27155,
@@ -2945,7 +2800,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27156,
@@ -2964,7 +2818,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27157,
@@ -2983,7 +2836,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27158,
@@ -3002,7 +2854,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27159,
@@ -3021,7 +2872,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27160,
@@ -3040,7 +2890,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27191,
@@ -3059,7 +2908,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27192,
@@ -3079,7 +2927,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27193,
@@ -3098,7 +2945,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27194,
@@ -3117,7 +2963,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27195,
@@ -3136,7 +2981,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27196,
@@ -3155,7 +2999,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27197,
@@ -3176,7 +3019,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27198,
@@ -3196,7 +3038,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27199,
@@ -3217,7 +3058,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27200,
@@ -3237,7 +3077,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27221,
@@ -3255,7 +3094,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27222,
@@ -3274,7 +3112,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27223,
@@ -3293,7 +3130,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27224,
@@ -3312,7 +3148,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27225,
@@ -3331,7 +3166,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27226,
@@ -3349,7 +3183,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27227,
@@ -3367,7 +3200,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27228,
@@ -3385,7 +3217,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27229,
@@ -3403,7 +3234,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 27230,
@@ -3421,7 +3251,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.0',
   },
   {
     id: 31393,
@@ -3455,7 +3284,6 @@ export default [
       CRL: 373,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25323,
@@ -3472,7 +3300,6 @@ export default [
       CRL: 373,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25324,
@@ -3489,7 +3316,6 @@ export default [
       CRL: 373,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25325,
@@ -3506,7 +3332,6 @@ export default [
       CRL: 373,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25326,
@@ -3523,7 +3348,6 @@ export default [
       CRL: 373,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25327,
@@ -3540,7 +3364,6 @@ export default [
       CRL: 373,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25328,
@@ -3557,7 +3380,6 @@ export default [
       CRL: 373,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25329,
@@ -3574,7 +3396,6 @@ export default [
       CRL: 373,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25330,
@@ -3592,7 +3413,6 @@ export default [
       PCP: 371,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25331,
@@ -3610,7 +3430,6 @@ export default [
       PCP: 371,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25332,
@@ -3628,7 +3447,6 @@ export default [
       PCP: 371,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25333,
@@ -3645,7 +3463,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25334,
@@ -3663,7 +3480,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25335,
@@ -3680,7 +3496,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25336,
@@ -3697,7 +3512,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25337,
@@ -3714,7 +3528,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25338,
@@ -3731,7 +3544,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25339,
@@ -3749,7 +3561,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25340,
@@ -3766,7 +3577,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25341,
@@ -3783,7 +3593,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25342,
@@ -3800,7 +3609,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25343,
@@ -3817,7 +3625,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25344,
@@ -3835,7 +3642,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25345,
@@ -3852,7 +3658,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25346,
@@ -3869,7 +3674,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25347,
@@ -3886,7 +3690,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25348,
@@ -3903,7 +3706,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25349,
@@ -3921,7 +3723,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25350,
@@ -3938,7 +3739,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25351,
@@ -3955,7 +3755,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25352,
@@ -3972,7 +3771,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25353,
@@ -3989,7 +3787,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25354,
@@ -4007,7 +3804,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25355,
@@ -4024,7 +3820,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25356,
@@ -4041,7 +3836,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25357,
@@ -4058,7 +3852,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25358,
@@ -4075,7 +3868,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25359,
@@ -4093,7 +3885,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25360,
@@ -4110,7 +3901,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25361,
@@ -4127,7 +3917,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25362,
@@ -4144,7 +3933,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25363,
@@ -4161,7 +3949,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25364,
@@ -4179,7 +3966,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25365,
@@ -4196,7 +3982,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25366,
@@ -4213,7 +3998,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25367,
@@ -4230,7 +4014,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25368,
@@ -4247,7 +4030,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25369,
@@ -4265,7 +4047,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25370,
@@ -4282,7 +4063,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25371,
@@ -4299,7 +4079,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25372,
@@ -4316,7 +4095,6 @@ export default [
       CRL: 186,
     },
     source: '巧手白票',
-    patch: '5.0',
   },
   {
     id: 25373,
@@ -4333,7 +4111,6 @@ export default [
       PCP: 371,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25374,
@@ -4352,7 +4129,6 @@ export default [
       PCP: 185,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25375,
@@ -4370,7 +4146,6 @@ export default [
       GTH: 278,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25376,
@@ -4389,7 +4164,6 @@ export default [
       PCP: 19,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25377,
@@ -4407,7 +4181,6 @@ export default [
       PCP: 185,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25378,
@@ -4424,7 +4197,6 @@ export default [
       PCP: 371,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25379,
@@ -4443,7 +4215,6 @@ export default [
       PCP: 185,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25380,
@@ -4461,7 +4232,6 @@ export default [
       GTH: 278,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25381,
@@ -4480,7 +4250,6 @@ export default [
       PCP: 19,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25382,
@@ -4498,7 +4267,6 @@ export default [
       PCP: 185,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25383,
@@ -4515,7 +4283,6 @@ export default [
       PCP: 371,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25384,
@@ -4534,7 +4301,6 @@ export default [
       PCP: 185,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25385,
@@ -4552,7 +4318,6 @@ export default [
       GTH: 278,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25386,
@@ -4571,7 +4336,6 @@ export default [
       PCP: 19,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25387,
@@ -4589,7 +4353,6 @@ export default [
       PCP: 185,
     },
     source: '大地白票',
-    patch: '5.0',
   },
   {
     id: 25388,
@@ -4610,7 +4373,6 @@ export default [
       DLY: 2240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25389,
@@ -4631,7 +4393,6 @@ export default [
       DLY: 2560,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25390,
@@ -4652,7 +4413,6 @@ export default [
       DLY: 3360,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25391,
@@ -4673,7 +4433,6 @@ export default [
       DLY: 2800,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25392,
@@ -4694,7 +4453,6 @@ export default [
       DLY: 3040,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25393,
@@ -4715,7 +4473,6 @@ export default [
       DLY: 2560,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25394,
@@ -4736,7 +4493,6 @@ export default [
       DLY: 2960,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25395,
@@ -4757,7 +4513,6 @@ export default [
       DLY: 2640,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25396,
@@ -4777,7 +4532,6 @@ export default [
       MDMG: 155,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25397,
@@ -4797,7 +4551,6 @@ export default [
       MDMG: 155,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25398,
@@ -4817,7 +4570,6 @@ export default [
       MDMG: 155,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25399,
@@ -4837,7 +4589,6 @@ export default [
       MDMG: 155,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25400,
@@ -4857,7 +4608,6 @@ export default [
       MDMG: 155,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25401,
@@ -4878,7 +4628,6 @@ export default [
       DLY: 2640,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25402,
@@ -4898,7 +4647,6 @@ export default [
       MDMG: 155,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25403,
@@ -4919,7 +4667,6 @@ export default [
       DLY: 2800,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25404,
@@ -4940,7 +4687,6 @@ export default [
       DLY: 3120,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25405,
@@ -4959,7 +4705,6 @@ export default [
       CRT: 120,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25406,
@@ -4978,7 +4723,6 @@ export default [
       SKS: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25407,
@@ -4997,7 +4741,6 @@ export default [
       DET: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25408,
@@ -5016,7 +4759,6 @@ export default [
       CRT: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25409,
@@ -5035,7 +4777,6 @@ export default [
       SKS: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25410,
@@ -5054,7 +4795,6 @@ export default [
       DET: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25411,
@@ -5073,7 +4813,6 @@ export default [
       SKS: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25412,
@@ -5092,7 +4831,6 @@ export default [
       DET: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25413,
@@ -5111,7 +4849,6 @@ export default [
       SKS: 390,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25414,
@@ -5130,7 +4867,6 @@ export default [
       SKS: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25415,
@@ -5149,7 +4885,6 @@ export default [
       DET: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25416,
@@ -5168,7 +4903,6 @@ export default [
       CRT: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25417,
@@ -5187,7 +4921,6 @@ export default [
       SKS: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25418,
@@ -5206,7 +4939,6 @@ export default [
       DET: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25419,
@@ -5225,7 +4957,6 @@ export default [
       CRT: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25420,
@@ -5244,7 +4975,6 @@ export default [
       SKS: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25421,
@@ -5263,7 +4993,6 @@ export default [
       CRT: 390,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25422,
@@ -5282,7 +5011,6 @@ export default [
       DET: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25423,
@@ -5301,7 +5029,6 @@ export default [
       SKS: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25424,
@@ -5320,7 +5047,6 @@ export default [
       DET: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25425,
@@ -5339,7 +5065,6 @@ export default [
       DET: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25426,
@@ -5358,7 +5083,6 @@ export default [
       SKS: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25427,
@@ -5377,7 +5101,6 @@ export default [
       DET: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25428,
@@ -5396,7 +5119,6 @@ export default [
       CRT: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25429,
@@ -5415,7 +5137,6 @@ export default [
       SKS: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25430,
@@ -5434,7 +5155,6 @@ export default [
       DET: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25431,
@@ -5453,7 +5173,6 @@ export default [
       DET: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25432,
@@ -5472,7 +5191,6 @@ export default [
       SKS: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25433,
@@ -5491,7 +5209,6 @@ export default [
       DET: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25434,
@@ -5510,7 +5227,6 @@ export default [
       SKS: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25435,
@@ -5529,7 +5245,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25436,
@@ -5548,7 +5263,6 @@ export default [
       DET: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25437,
@@ -5567,7 +5281,6 @@ export default [
       SPS: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25438,
@@ -5586,7 +5299,6 @@ export default [
       DET: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25439,
@@ -5605,7 +5317,6 @@ export default [
       CRT: 390,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25440,
@@ -5624,7 +5335,6 @@ export default [
       SPS: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25441,
@@ -5643,7 +5353,6 @@ export default [
       DET: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25442,
@@ -5662,7 +5371,6 @@ export default [
       DET: 240,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25443,
@@ -5681,7 +5389,6 @@ export default [
       CRT: 390,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25444,
@@ -5700,7 +5407,6 @@ export default [
       SPS: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25445,
@@ -5719,7 +5425,6 @@ export default [
       SPS: 273,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25446,
@@ -5738,7 +5443,6 @@ export default [
       DET: 168,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25447,
@@ -5757,7 +5461,6 @@ export default [
       CRT: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25448,
@@ -5776,7 +5479,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25449,
@@ -5795,7 +5497,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25450,
@@ -5814,7 +5515,6 @@ export default [
       SKS: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25451,
@@ -5833,7 +5533,6 @@ export default [
       CRT: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25452,
@@ -5852,7 +5551,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25453,
@@ -5871,7 +5569,6 @@ export default [
       SKS: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25454,
@@ -5890,7 +5587,6 @@ export default [
       SKS: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25455,
@@ -5909,7 +5605,6 @@ export default [
       DET: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25456,
@@ -5928,7 +5623,6 @@ export default [
       SPS: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25457,
@@ -5947,7 +5641,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25458,
@@ -5966,7 +5659,6 @@ export default [
       DET: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25459,
@@ -5985,7 +5677,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25460,
@@ -6004,7 +5695,6 @@ export default [
       SKS: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25461,
@@ -6023,7 +5713,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25462,
@@ -6042,7 +5731,6 @@ export default [
       SPS: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25463,
@@ -6061,7 +5749,6 @@ export default [
       CRT: 180,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25464,
@@ -6080,7 +5767,6 @@ export default [
       CRT: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25465,
@@ -6099,7 +5785,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25466,
@@ -6118,7 +5803,6 @@ export default [
       DET: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 25467,
@@ -6137,7 +5821,6 @@ export default [
       SPS: 126,
     },
     source: '点数/魔典→战利品',
-    patch: '5.0',
   },
   {
     id: 29612,
@@ -6154,7 +5837,6 @@ export default [
       CRL: 373,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29613,
@@ -6171,7 +5853,6 @@ export default [
       CRL: 373,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29614,
@@ -6188,7 +5869,6 @@ export default [
       CRL: 373,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29615,
@@ -6205,7 +5885,6 @@ export default [
       CRL: 373,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29616,
@@ -6222,7 +5901,6 @@ export default [
       CRL: 373,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29617,
@@ -6239,7 +5917,6 @@ export default [
       CRL: 373,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29618,
@@ -6256,7 +5933,6 @@ export default [
       CRL: 373,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29619,
@@ -6273,7 +5949,6 @@ export default [
       CRL: 373,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29620,
@@ -6291,7 +5966,6 @@ export default [
       PCP: 371,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29621,
@@ -6309,7 +5983,6 @@ export default [
       PCP: 371,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29622,
@@ -6327,7 +6000,6 @@ export default [
       PCP: 371,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 28209,
@@ -6346,7 +6018,6 @@ export default [
       DET: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28210,
@@ -6365,7 +6036,6 @@ export default [
       SKS: 278,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28211,
@@ -6384,7 +6054,6 @@ export default [
       DET: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28212,
@@ -6403,7 +6072,6 @@ export default [
       DET: 278,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28213,
@@ -6422,7 +6090,6 @@ export default [
       CRT: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28214,
@@ -6441,7 +6108,6 @@ export default [
       DET: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28215,
@@ -6460,7 +6126,6 @@ export default [
       SKS: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28216,
@@ -6479,7 +6144,6 @@ export default [
       CRT: 397,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28217,
@@ -6498,7 +6162,6 @@ export default [
       CRT: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28218,
@@ -6517,7 +6180,6 @@ export default [
       SKS: 397,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28219,
@@ -6536,7 +6198,6 @@ export default [
       DET: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28220,
@@ -6555,7 +6216,6 @@ export default [
       SKS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28221,
@@ -6574,7 +6234,6 @@ export default [
       DET: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28222,
@@ -6593,7 +6252,6 @@ export default [
       SKS: 397,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28223,
@@ -6612,7 +6270,6 @@ export default [
       CRT: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28224,
@@ -6631,7 +6288,6 @@ export default [
       DET: 397,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28225,
@@ -6650,7 +6306,6 @@ export default [
       SKS: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28226,
@@ -6669,7 +6324,6 @@ export default [
       CRT: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28227,
@@ -6688,7 +6342,6 @@ export default [
       SKS: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28228,
@@ -6707,7 +6360,6 @@ export default [
       DET: 278,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28229,
@@ -6726,7 +6378,6 @@ export default [
       DET: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28230,
@@ -6745,7 +6396,6 @@ export default [
       CRT: 278,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28231,
@@ -6764,7 +6414,6 @@ export default [
       DET: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28232,
@@ -6783,7 +6432,6 @@ export default [
       SKS: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28233,
@@ -6802,7 +6450,6 @@ export default [
       SKS: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28234,
@@ -6821,7 +6468,6 @@ export default [
       DET: 278,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28235,
@@ -6840,7 +6486,6 @@ export default [
       DET: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28236,
@@ -6859,7 +6504,6 @@ export default [
       SKS: 397,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28237,
@@ -6878,7 +6522,6 @@ export default [
       DET: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28238,
@@ -6897,7 +6540,6 @@ export default [
       DET: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28239,
@@ -6916,7 +6558,6 @@ export default [
       CRT: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28240,
@@ -6935,7 +6576,6 @@ export default [
       DET: 278,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28241,
@@ -6954,7 +6594,6 @@ export default [
       CRT: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28242,
@@ -6973,7 +6612,6 @@ export default [
       DET: 278,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28243,
@@ -6992,7 +6630,6 @@ export default [
       DET: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28244,
@@ -7011,7 +6648,6 @@ export default [
       CRT: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28245,
@@ -7030,7 +6666,6 @@ export default [
       CRT: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28246,
@@ -7049,7 +6684,6 @@ export default [
       SPS: 278,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28247,
@@ -7068,7 +6702,6 @@ export default [
       CRT: 171,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28248,
@@ -7087,7 +6720,6 @@ export default [
       DET: 397,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28249,
@@ -7106,7 +6738,6 @@ export default [
       DET: 244,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28250,
@@ -7125,7 +6756,6 @@ export default [
       SPS: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28251,
@@ -7144,7 +6774,6 @@ export default [
       SKS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28252,
@@ -7163,7 +6792,6 @@ export default [
       CRT: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28253,
@@ -7182,7 +6810,6 @@ export default [
       SKS: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28254,
@@ -7201,7 +6828,6 @@ export default [
       SPS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28255,
@@ -7220,7 +6846,6 @@ export default [
       SPS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28256,
@@ -7239,7 +6864,6 @@ export default [
       DET: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28257,
@@ -7258,7 +6882,6 @@ export default [
       DET: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28258,
@@ -7277,7 +6900,6 @@ export default [
       DET: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28259,
@@ -7296,7 +6918,6 @@ export default [
       SPS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28260,
@@ -7315,7 +6936,6 @@ export default [
       SPS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28261,
@@ -7334,7 +6954,6 @@ export default [
       SKS: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28262,
@@ -7353,7 +6972,6 @@ export default [
       DET: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28263,
@@ -7372,7 +6990,6 @@ export default [
       DET: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28264,
@@ -7391,7 +7008,6 @@ export default [
       CRT: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28265,
@@ -7410,7 +7026,6 @@ export default [
       DET: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28266,
@@ -7429,7 +7044,6 @@ export default [
       DET: 128,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28267,
@@ -7448,7 +7062,6 @@ export default [
       SKS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28268,
@@ -7467,7 +7080,6 @@ export default [
       SKS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28269,
@@ -7486,7 +7098,6 @@ export default [
       CRT: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 28270,
@@ -7505,7 +7116,6 @@ export default [
       SPS: 183,
     },
     source: '迷宫挑战/宇宙宫',
-    patch: '5.1',
   },
   {
     id: 26428,
@@ -7528,7 +7138,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26429,
@@ -7551,7 +7160,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26430,
@@ -7574,7 +7182,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26431,
@@ -7597,7 +7204,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26432,
@@ -7620,7 +7226,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26433,
@@ -7643,7 +7248,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26434,
@@ -7666,7 +7270,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26435,
@@ -7689,7 +7292,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26436,
@@ -7711,7 +7313,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26437,
@@ -7733,7 +7334,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26438,
@@ -7755,7 +7355,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26439,
@@ -7777,7 +7376,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26440,
@@ -7799,7 +7397,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26441,
@@ -7822,7 +7419,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26442,
@@ -7844,7 +7440,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26443,
@@ -7867,7 +7462,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26444,
@@ -7890,7 +7484,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26445,
@@ -7910,7 +7503,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26446,
@@ -7931,7 +7523,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26447,
@@ -7952,7 +7543,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26448,
@@ -7973,7 +7563,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26449,
@@ -7994,7 +7583,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26450,
@@ -8015,7 +7603,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26451,
@@ -8036,7 +7623,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26452,
@@ -8057,7 +7643,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26453,
@@ -8078,7 +7663,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26454,
@@ -8099,7 +7683,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26455,
@@ -8120,7 +7703,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26456,
@@ -8141,7 +7723,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26457,
@@ -8162,7 +7743,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26458,
@@ -8183,7 +7763,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26459,
@@ -8204,7 +7783,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26460,
@@ -8225,7 +7803,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26461,
@@ -8246,7 +7823,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26462,
@@ -8267,7 +7843,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26463,
@@ -8288,7 +7863,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26464,
@@ -8309,7 +7883,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26465,
@@ -8330,7 +7903,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26466,
@@ -8351,7 +7923,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26467,
@@ -8372,7 +7943,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26468,
@@ -8393,7 +7963,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26469,
@@ -8414,7 +7983,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26470,
@@ -8435,7 +8003,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26471,
@@ -8456,7 +8023,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26472,
@@ -8477,7 +8043,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26473,
@@ -8498,7 +8063,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26474,
@@ -8519,7 +8083,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26475,
@@ -8540,7 +8103,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26476,
@@ -8561,7 +8123,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26477,
@@ -8582,7 +8143,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26478,
@@ -8603,7 +8163,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26479,
@@ -8624,7 +8183,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26480,
@@ -8645,7 +8203,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26481,
@@ -8666,7 +8223,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26482,
@@ -8687,7 +8243,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26483,
@@ -8708,7 +8263,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26484,
@@ -8729,7 +8283,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26485,
@@ -8750,7 +8303,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26486,
@@ -8771,7 +8323,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26487,
@@ -8792,7 +8343,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26488,
@@ -8813,7 +8363,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26489,
@@ -8834,7 +8383,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26490,
@@ -8855,7 +8403,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26491,
@@ -8876,7 +8423,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26492,
@@ -8897,7 +8443,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26493,
@@ -8918,7 +8463,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26494,
@@ -8939,7 +8483,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26495,
@@ -8960,7 +8503,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26496,
@@ -8981,7 +8523,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26497,
@@ -9002,7 +8543,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26498,
@@ -9023,7 +8563,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26499,
@@ -9044,7 +8583,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26500,
@@ -9065,7 +8603,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26501,
@@ -9086,7 +8623,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26502,
@@ -9107,7 +8643,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26503,
@@ -9128,7 +8663,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26504,
@@ -9149,7 +8683,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26505,
@@ -9170,7 +8703,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26506,
@@ -9191,7 +8723,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26507,
@@ -9212,7 +8743,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.05',
   },
   {
     id: 26811,
@@ -9232,7 +8762,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.05',
   },
   {
     id: 26812,
@@ -9252,7 +8781,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.05',
   },
   {
     id: 26813,
@@ -9272,7 +8800,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.05',
   },
   {
     id: 26814,
@@ -9292,7 +8819,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.05',
   },
   {
     id: 26815,
@@ -9312,7 +8838,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.05',
   },
   {
     id: 26816,
@@ -9332,7 +8857,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.05',
   },
   {
     id: 26817,
@@ -9352,7 +8876,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.05',
   },
   {
     id: 27015,
@@ -9371,7 +8894,6 @@ export default [
       SKS: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27016,
@@ -9390,7 +8912,6 @@ export default [
       DET: 282,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27017,
@@ -9409,7 +8930,6 @@ export default [
       DET: 174,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27018,
@@ -9428,7 +8948,6 @@ export default [
       DET: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27019,
@@ -9447,7 +8966,6 @@ export default [
       CRT: 174,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27020,
@@ -9466,7 +8984,6 @@ export default [
       SKS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27021,
@@ -9485,7 +9002,6 @@ export default [
       SKS: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27022,
@@ -9504,7 +9020,6 @@ export default [
       DET: 282,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27023,
@@ -9523,7 +9038,6 @@ export default [
       CRT: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27024,
@@ -9542,7 +9056,6 @@ export default [
       DET: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27025,
@@ -9561,7 +9074,6 @@ export default [
       CRT: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27026,
@@ -9580,7 +9092,6 @@ export default [
       SKS: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27027,
@@ -9599,7 +9110,6 @@ export default [
       DET: 174,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27028,
@@ -9618,7 +9128,6 @@ export default [
       SKS: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27029,
@@ -9637,7 +9146,6 @@ export default [
       SKS: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27030,
@@ -9656,7 +9164,6 @@ export default [
       CRT: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27031,
@@ -9675,7 +9182,6 @@ export default [
       DET: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27032,
@@ -9694,7 +9200,6 @@ export default [
       DET: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27033,
@@ -9713,7 +9218,6 @@ export default [
       SKS: 174,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27034,
@@ -9732,7 +9236,6 @@ export default [
       SKS: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27035,
@@ -9751,7 +9254,6 @@ export default [
       CRT: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27036,
@@ -9770,7 +9272,6 @@ export default [
       DET: 282,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27037,
@@ -9789,7 +9290,6 @@ export default [
       DET: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27038,
@@ -9808,7 +9308,6 @@ export default [
       SKS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27039,
@@ -9827,7 +9326,6 @@ export default [
       SKS: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27040,
@@ -9846,7 +9344,6 @@ export default [
       DET: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27041,
@@ -9865,7 +9362,6 @@ export default [
       CRT: 174,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27042,
@@ -9884,7 +9380,6 @@ export default [
       DET: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27043,
@@ -9903,7 +9398,6 @@ export default [
       DET: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27044,
@@ -9922,7 +9416,6 @@ export default [
       SKS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27045,
@@ -9941,7 +9434,6 @@ export default [
       DET: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27046,
@@ -9960,7 +9452,6 @@ export default [
       SPS: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27047,
@@ -9979,7 +9470,6 @@ export default [
       SPS: 174,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27048,
@@ -9998,7 +9488,6 @@ export default [
       CRT: 403,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27049,
@@ -10017,7 +9506,6 @@ export default [
       SPS: 174,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27050,
@@ -10036,7 +9524,6 @@ export default [
       DET: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27051,
@@ -10055,7 +9542,6 @@ export default [
       DET: 174,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27052,
@@ -10074,7 +9560,6 @@ export default [
       SPS: 282,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27053,
@@ -10093,7 +9578,6 @@ export default [
       CRT: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27054,
@@ -10112,7 +9596,6 @@ export default [
       DET: 282,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27055,
@@ -10131,7 +9614,6 @@ export default [
       DET: 248,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27056,
@@ -10150,7 +9632,6 @@ export default [
       DET: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27057,
@@ -10169,7 +9650,6 @@ export default [
       DET: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27058,
@@ -10188,7 +9668,6 @@ export default [
       SKS: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27059,
@@ -10207,7 +9686,6 @@ export default [
       CRT: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27060,
@@ -10226,7 +9704,6 @@ export default [
       DET: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27061,
@@ -10245,7 +9722,6 @@ export default [
       SPS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27062,
@@ -10264,7 +9740,6 @@ export default [
       SKS: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27063,
@@ -10283,7 +9758,6 @@ export default [
       SKS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27064,
@@ -10302,7 +9776,6 @@ export default [
       SKS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27065,
@@ -10321,7 +9794,6 @@ export default [
       SPS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27066,
@@ -10340,7 +9812,6 @@ export default [
       DET: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27067,
@@ -10359,7 +9830,6 @@ export default [
       SKS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27068,
@@ -10378,7 +9848,6 @@ export default [
       CRT: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27069,
@@ -10397,7 +9866,6 @@ export default [
       SKS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27070,
@@ -10416,7 +9884,6 @@ export default [
       DET: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27071,
@@ -10435,7 +9902,6 @@ export default [
       DET: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27072,
@@ -10454,7 +9920,6 @@ export default [
       CRT: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27073,
@@ -10473,7 +9938,6 @@ export default [
       DET: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27074,
@@ -10492,7 +9956,6 @@ export default [
       CRT: 130,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27075,
@@ -10511,7 +9974,6 @@ export default [
       SPS: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27076,
@@ -10530,7 +9992,6 @@ export default [
       DET: 186,
     },
     source: '大型任务/觉醒之章',
-    patch: '5.01',
   },
   {
     id: 27596,
@@ -10551,7 +10012,6 @@ export default [
       DLY: 2240,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27597,
@@ -10572,7 +10032,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27598,
@@ -10593,7 +10052,6 @@ export default [
       DLY: 3360,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27599,
@@ -10614,7 +10072,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27600,
@@ -10635,7 +10092,6 @@ export default [
       DLY: 3040,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27601,
@@ -10656,7 +10112,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27602,
@@ -10677,7 +10132,6 @@ export default [
       DLY: 2960,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27603,
@@ -10698,7 +10152,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27604,
@@ -10718,7 +10171,6 @@ export default [
       MDMG: 158,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27605,
@@ -10738,7 +10190,6 @@ export default [
       MDMG: 158,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27606,
@@ -10758,7 +10209,6 @@ export default [
       MDMG: 158,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27607,
@@ -10778,7 +10228,6 @@ export default [
       MDMG: 158,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27608,
@@ -10798,7 +10247,6 @@ export default [
       MDMG: 158,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27609,
@@ -10819,7 +10267,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27610,
@@ -10839,7 +10286,6 @@ export default [
       MDMG: 158,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27611,
@@ -10860,7 +10306,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27612,
@@ -10881,7 +10326,6 @@ export default [
       DLY: 3120,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27613,
@@ -10900,7 +10344,6 @@ export default [
       DET: 87,
     },
     source: '歼殛战/缇坦妮雅',
-    patch: '5.0',
   },
   {
     id: 27614,
@@ -10919,7 +10362,6 @@ export default [
       CRT: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27615,
@@ -10938,7 +10380,6 @@ export default [
       DET: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27616,
@@ -10957,7 +10398,6 @@ export default [
       DET: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27617,
@@ -10976,7 +10416,6 @@ export default [
       CRT: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27618,
@@ -10995,7 +10434,6 @@ export default [
       CRT: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27619,
@@ -11014,7 +10452,6 @@ export default [
       SKS: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27620,
@@ -11033,7 +10470,6 @@ export default [
       CRT: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27621,
@@ -11052,7 +10488,6 @@ export default [
       DET: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27622,
@@ -11071,7 +10506,6 @@ export default [
       DET: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27623,
@@ -11090,7 +10524,6 @@ export default [
       SPS: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27624,
@@ -11109,7 +10542,6 @@ export default [
       DET: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27625,
@@ -11128,7 +10560,6 @@ export default [
       DET: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27626,
@@ -11147,7 +10578,6 @@ export default [
       SKS: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27627,
@@ -11166,7 +10596,6 @@ export default [
       SPS: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27628,
@@ -11185,7 +10614,6 @@ export default [
       CRT: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27629,
@@ -11204,7 +10632,6 @@ export default [
       DET: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27630,
@@ -11223,7 +10650,6 @@ export default [
       SKS: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27631,
@@ -11242,7 +10668,6 @@ export default [
       DET: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27632,
@@ -11261,7 +10686,6 @@ export default [
       DET: 130,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 27633,
@@ -11280,7 +10704,6 @@ export default [
       DET: 186,
     },
     source: '歼殛战/无瑕灵君',
-    patch: '5.0',
   },
   {
     id: 29339,
@@ -11299,7 +10722,6 @@ export default [
       CRT: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29340,
@@ -11318,7 +10740,6 @@ export default [
       SKS: 287,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29341,
@@ -11337,7 +10758,6 @@ export default [
       DET: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29342,
@@ -11356,7 +10776,6 @@ export default [
       DET: 410,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29343,
@@ -11375,7 +10794,6 @@ export default [
       SKS: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29344,
@@ -11394,7 +10812,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29345,
@@ -11413,7 +10830,6 @@ export default [
       CRT: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29346,
@@ -11432,7 +10848,6 @@ export default [
       SKS: 287,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29347,
@@ -11451,7 +10866,6 @@ export default [
       SKS: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29348,
@@ -11470,7 +10884,6 @@ export default [
       DET: 287,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29349,
@@ -11489,7 +10902,6 @@ export default [
       DET: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29350,
@@ -11508,7 +10920,6 @@ export default [
       CRT: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29351,
@@ -11527,7 +10938,6 @@ export default [
       SKS: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29352,
@@ -11546,7 +10956,6 @@ export default [
       DET: 287,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29353,
@@ -11565,7 +10974,6 @@ export default [
       DET: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29354,
@@ -11584,7 +10992,6 @@ export default [
       SKS: 410,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29355,
@@ -11603,7 +11010,6 @@ export default [
       SKS: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29356,
@@ -11622,7 +11028,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29357,
@@ -11641,7 +11046,6 @@ export default [
       CRT: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29358,
@@ -11660,7 +11064,6 @@ export default [
       DET: 410,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29359,
@@ -11679,7 +11082,6 @@ export default [
       SKS: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29360,
@@ -11698,7 +11100,6 @@ export default [
       CRT: 410,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29361,
@@ -11717,7 +11118,6 @@ export default [
       SKS: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29362,
@@ -11736,7 +11136,6 @@ export default [
       SKS: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29363,
@@ -11755,7 +11154,6 @@ export default [
       CRT: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29364,
@@ -11774,7 +11172,6 @@ export default [
       DET: 287,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29365,
@@ -11793,7 +11190,6 @@ export default [
       SKS: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29366,
@@ -11812,7 +11208,6 @@ export default [
       CRT: 287,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29367,
@@ -11831,7 +11226,6 @@ export default [
       SKS: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29368,
@@ -11850,7 +11244,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29369,
@@ -11869,7 +11262,6 @@ export default [
       CRT: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29370,
@@ -11888,7 +11280,6 @@ export default [
       SPS: 287,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29371,
@@ -11907,7 +11298,6 @@ export default [
       DET: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29372,
@@ -11926,7 +11316,6 @@ export default [
       CRT: 410,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29373,
@@ -11945,7 +11334,6 @@ export default [
       SPS: 252,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29374,
@@ -11964,7 +11352,6 @@ export default [
       SPS: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29375,
@@ -11983,7 +11370,6 @@ export default [
       DET: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29376,
@@ -12002,7 +11388,6 @@ export default [
       SPS: 410,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29377,
@@ -12021,7 +11406,6 @@ export default [
       SPS: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29378,
@@ -12040,7 +11424,6 @@ export default [
       DET: 410,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29379,
@@ -12059,7 +11442,6 @@ export default [
       DET: 176,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29380,
@@ -12078,7 +11460,6 @@ export default [
       CRT: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29381,
@@ -12097,7 +11478,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29382,
@@ -12116,7 +11496,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29383,
@@ -12135,7 +11514,6 @@ export default [
       DET: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29384,
@@ -12154,7 +11532,6 @@ export default [
       CRT: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29385,
@@ -12173,7 +11550,6 @@ export default [
       SPS: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29386,
@@ -12192,7 +11568,6 @@ export default [
       SKS: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29387,
@@ -12211,7 +11586,6 @@ export default [
       CRT: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29388,
@@ -12230,7 +11604,6 @@ export default [
       SKS: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29389,
@@ -12249,7 +11622,6 @@ export default [
       DET: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29390,
@@ -12268,7 +11640,6 @@ export default [
       DET: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29391,
@@ -12287,7 +11658,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29392,
@@ -12306,7 +11676,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29393,
@@ -12325,7 +11694,6 @@ export default [
       DET: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29394,
@@ -12344,7 +11712,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29395,
@@ -12363,7 +11730,6 @@ export default [
       CRT: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29396,
@@ -12382,7 +11748,6 @@ export default [
       SKS: 189,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29397,
@@ -12401,7 +11766,6 @@ export default [
       CRT: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29398,
@@ -12420,7 +11784,6 @@ export default [
       DET: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29399,
@@ -12439,7 +11802,6 @@ export default [
       SPS: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29400,
@@ -12458,7 +11820,6 @@ export default [
       SPS: 132,
     },
     source: '迷宫挑战/追忆馆',
-    patch: '5.2',
   },
   {
     id: 29623,
@@ -12475,7 +11836,6 @@ export default [
       CRL: 395,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29624,
@@ -12492,7 +11852,6 @@ export default [
       CRL: 395,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29625,
@@ -12509,7 +11868,6 @@ export default [
       CRL: 395,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29626,
@@ -12526,7 +11884,6 @@ export default [
       CRL: 395,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29627,
@@ -12543,7 +11900,6 @@ export default [
       CRL: 395,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29628,
@@ -12560,7 +11916,6 @@ export default [
       CRL: 395,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29629,
@@ -12577,7 +11932,6 @@ export default [
       CRL: 395,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29630,
@@ -12594,7 +11948,6 @@ export default [
       CRL: 395,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29631,
@@ -12612,7 +11965,6 @@ export default [
       PCP: 399,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29632,
@@ -12630,7 +11982,6 @@ export default [
       PCP: 399,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29633,
@@ -12648,7 +11999,6 @@ export default [
       PCP: 399,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 25468,
@@ -12668,8 +12018,7 @@ export default [
       PDMG: 119,
       DLY: 2240,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25469,
@@ -12689,8 +12038,7 @@ export default [
       PDMG: 119,
       DLY: 2560,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25470,
@@ -12710,8 +12058,7 @@ export default [
       PDMG: 119,
       DLY: 3360,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25471,
@@ -12731,8 +12078,7 @@ export default [
       PDMG: 119,
       DLY: 2800,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25472,
@@ -12752,8 +12098,7 @@ export default [
       PDMG: 119,
       DLY: 3040,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25473,
@@ -12773,8 +12118,7 @@ export default [
       PDMG: 119,
       DLY: 2560,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25474,
@@ -12794,8 +12138,7 @@ export default [
       PDMG: 119,
       DLY: 2960,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25475,
@@ -12815,8 +12158,7 @@ export default [
       PDMG: 119,
       DLY: 2640,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25476,
@@ -12835,8 +12177,7 @@ export default [
       DET: 314,
       MDMG: 161,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25477,
@@ -12855,8 +12196,7 @@ export default [
       DET: 314,
       MDMG: 161,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25478,
@@ -12875,8 +12215,7 @@ export default [
       DET: 448,
       MDMG: 161,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25479,
@@ -12895,8 +12234,7 @@ export default [
       DET: 448,
       MDMG: 161,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25480,
@@ -12915,8 +12253,7 @@ export default [
       CRT: 448,
       MDMG: 161,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25481,
@@ -12936,8 +12273,7 @@ export default [
       PDMG: 119,
       DLY: 2640,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25482,
@@ -12956,8 +12292,7 @@ export default [
       DET: 448,
       MDMG: 161,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25483,
@@ -12977,8 +12312,7 @@ export default [
       PDMG: 119,
       DLY: 2800,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25484,
@@ -12998,8 +12332,7 @@ export default [
       PDMG: 119,
       DLY: 3120,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25485,
@@ -13017,8 +12350,7 @@ export default [
       CRT: 128,
       DET: 90,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25486,
@@ -13036,8 +12368,7 @@ export default [
       TEN: 179,
       CRT: 256,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25487,
@@ -13055,8 +12386,7 @@ export default [
       CRT: 291,
       DET: 416,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25488,
@@ -13074,8 +12404,7 @@ export default [
       TEN: 179,
       SKS: 256,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25489,
@@ -13093,8 +12422,7 @@ export default [
       CRT: 291,
       DET: 416,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25490,
@@ -13112,8 +12440,7 @@ export default [
       TEN: 256,
       DET: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25491,
@@ -13131,8 +12458,7 @@ export default [
       CRT: 192,
       SKS: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25492,
@@ -13150,8 +12476,7 @@ export default [
       CRT: 256,
       DET: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25493,
@@ -13169,8 +12494,7 @@ export default [
       CRT: 291,
       SKS: 416,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25494,
@@ -13188,8 +12512,7 @@ export default [
       DET: 256,
       SKS: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25495,
@@ -13207,8 +12530,7 @@ export default [
       DHT: 416,
       DET: 291,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25496,
@@ -13226,8 +12548,7 @@ export default [
       DHT: 179,
       CRT: 256,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25497,
@@ -13245,8 +12566,7 @@ export default [
       DHT: 192,
       SKS: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25498,
@@ -13264,8 +12584,7 @@ export default [
       DHT: 179,
       CRT: 256,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25499,
@@ -13283,8 +12602,7 @@ export default [
       CRT: 291,
       SKS: 416,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25500,
@@ -13302,8 +12620,7 @@ export default [
       DHT: 256,
       SKS: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25501,
@@ -13321,8 +12638,7 @@ export default [
       DHT: 416,
       SKS: 291,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25502,
@@ -13340,8 +12656,7 @@ export default [
       CRT: 256,
       DET: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25503,
@@ -13359,8 +12674,7 @@ export default [
       CRT: 192,
       DET: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25504,
@@ -13378,8 +12692,7 @@ export default [
       CRT: 256,
       SKS: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25505,
@@ -13397,8 +12710,7 @@ export default [
       DHT: 291,
       DET: 416,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25506,
@@ -13416,8 +12728,7 @@ export default [
       CRT: 256,
       DET: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25507,
@@ -13435,8 +12746,7 @@ export default [
       DHT: 416,
       CRT: 291,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25508,
@@ -13454,8 +12764,7 @@ export default [
       DHT: 179,
       SKS: 256,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25509,
@@ -13473,8 +12782,7 @@ export default [
       DHT: 134,
       CRT: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25510,
@@ -13492,8 +12800,7 @@ export default [
       DHT: 256,
       CRT: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25511,
@@ -13511,8 +12818,7 @@ export default [
       DHT: 291,
       DET: 416,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25512,
@@ -13530,8 +12836,7 @@ export default [
       CRT: 256,
       DET: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25513,
@@ -13549,8 +12854,7 @@ export default [
       DET: 416,
       SKS: 291,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25514,
@@ -13568,8 +12872,7 @@ export default [
       CRT: 256,
       SKS: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25515,
@@ -13587,8 +12890,7 @@ export default [
       DHT: 192,
       DET: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25516,
@@ -13606,8 +12908,7 @@ export default [
       PIE: 256,
       DET: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25517,
@@ -13625,8 +12926,7 @@ export default [
       CRT: 291,
       DET: 416,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25518,
@@ -13644,8 +12944,7 @@ export default [
       PIE: 179,
       DET: 256,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25519,
@@ -13663,8 +12962,7 @@ export default [
       PIE: 416,
       DET: 291,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25520,
@@ -13682,8 +12980,7 @@ export default [
       PIE: 256,
       SPS: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25521,
@@ -13701,8 +12998,7 @@ export default [
       PIE: 192,
       SPS: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25522,
@@ -13720,8 +13016,7 @@ export default [
       DHT: 179,
       DET: 256,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25523,
@@ -13739,8 +13034,7 @@ export default [
       CRT: 416,
       DET: 291,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25524,
@@ -13758,8 +13052,7 @@ export default [
       DHT: 179,
       SPS: 256,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25525,
@@ -13777,8 +13070,7 @@ export default [
       DET: 291,
       SPS: 416,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25526,
@@ -13796,8 +13088,7 @@ export default [
       DHT: 256,
       CRT: 179,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25527,
@@ -13815,8 +13106,7 @@ export default [
       DHT: 134,
       DET: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25528,
@@ -13834,8 +13124,7 @@ export default [
       CRT: 134,
       SKS: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25529,
@@ -13853,8 +13142,7 @@ export default [
       CRT: 192,
       DET: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25530,
@@ -13872,8 +13160,7 @@ export default [
       CRT: 134,
       SKS: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25531,
@@ -13891,8 +13178,7 @@ export default [
       CRT: 192,
       DET: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25532,
@@ -13910,8 +13196,7 @@ export default [
       CRT: 192,
       SPS: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25533,
@@ -13929,8 +13214,7 @@ export default [
       TEN: 134,
       CRT: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25534,
@@ -13948,8 +13232,7 @@ export default [
       DET: 134,
       SKS: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25535,
@@ -13967,8 +13250,7 @@ export default [
       DHT: 134,
       DET: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25536,
@@ -13986,8 +13268,7 @@ export default [
       PIE: 192,
       CRT: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25537,
@@ -14005,8 +13286,7 @@ export default [
       DHT: 134,
       CRT: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25538,
@@ -14024,8 +13304,7 @@ export default [
       TEN: 192,
       SKS: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25539,
@@ -14043,8 +13322,7 @@ export default [
       CRT: 192,
       DET: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25540,
@@ -14062,8 +13340,7 @@ export default [
       CRT: 192,
       SKS: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25541,
@@ -14081,8 +13358,7 @@ export default [
       DET: 134,
       SPS: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25542,
@@ -14100,8 +13376,7 @@ export default [
       DHT: 134,
       DET: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25543,
@@ -14119,8 +13394,7 @@ export default [
       TEN: 134,
       DET: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25544,
@@ -14138,8 +13412,7 @@ export default [
       DHT: 192,
       CRT: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25545,
@@ -14157,8 +13430,7 @@ export default [
       DHT: 134,
       DET: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25546,
@@ -14176,8 +13448,7 @@ export default [
       CRT: 192,
       SPS: 134,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 25547,
@@ -14195,8 +13466,7 @@ export default [
       DHT: 134,
       CRT: 192,
     },
-    source: '点数/幻想→战利品',
-    patch: '5.05',
+    source: '点数/幻想',
   },
   {
     id: 28339,
@@ -14215,7 +13485,6 @@ export default [
       DET: 256,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28340,
@@ -14234,7 +13503,6 @@ export default [
       SKS: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28341,
@@ -14253,7 +13521,6 @@ export default [
       DET: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28342,
@@ -14272,7 +13539,6 @@ export default [
       SKS: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28343,
@@ -14291,7 +13557,6 @@ export default [
       DET: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28345,
@@ -14310,7 +13575,6 @@ export default [
       SKS: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28346,
@@ -14329,7 +13593,6 @@ export default [
       DET: 416,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28347,
@@ -14348,7 +13611,6 @@ export default [
       CRT: 256,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28348,
@@ -14367,7 +13629,6 @@ export default [
       SKS: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28349,
@@ -14386,7 +13647,6 @@ export default [
       CRT: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28351,
@@ -14405,7 +13665,6 @@ export default [
       CRT: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28352,
@@ -14424,7 +13683,6 @@ export default [
       DET: 416,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28353,
@@ -14443,7 +13701,6 @@ export default [
       SKS: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28354,
@@ -14462,7 +13719,6 @@ export default [
       DET: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28355,
@@ -14481,7 +13737,6 @@ export default [
       DET: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28357,
@@ -14500,7 +13755,6 @@ export default [
       SKS: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28358,
@@ -14519,7 +13773,6 @@ export default [
       SKS: 416,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28359,
@@ -14538,7 +13791,6 @@ export default [
       CRT: 256,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28360,
@@ -14557,7 +13809,6 @@ export default [
       CRT: 416,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28361,
@@ -14576,7 +13827,6 @@ export default [
       DET: 256,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28363,
@@ -14595,7 +13845,6 @@ export default [
       SKS: 256,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28364,
@@ -14614,7 +13863,6 @@ export default [
       DET: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28365,
@@ -14633,7 +13881,6 @@ export default [
       SKS: 256,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28366,
@@ -14652,7 +13899,6 @@ export default [
       CRT: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28367,
@@ -14671,7 +13917,6 @@ export default [
       CRT: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28369,
@@ -14690,7 +13935,6 @@ export default [
       CRT: 256,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28370,
@@ -14709,7 +13953,6 @@ export default [
       SPS: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28371,
@@ -14728,7 +13971,6 @@ export default [
       SPS: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28372,
@@ -14747,7 +13989,6 @@ export default [
       CRT: 416,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28373,
@@ -14766,7 +14007,6 @@ export default [
       DET: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28375,
@@ -14785,7 +14025,6 @@ export default [
       DET: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28376,
@@ -14804,7 +14043,6 @@ export default [
       SPS: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28377,
@@ -14823,7 +14061,6 @@ export default [
       DET: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28378,
@@ -14842,7 +14079,6 @@ export default [
       SPS: 291,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28379,
@@ -14861,7 +14097,6 @@ export default [
       DET: 179,
     },
     source: '团队任务/复制工厂',
-    patch: '5.1',
   },
   {
     id: 28381,
@@ -14883,7 +14118,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28382,
@@ -14905,7 +14139,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28383,
@@ -14927,7 +14160,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28384,
@@ -14949,7 +14181,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28385,
@@ -14971,7 +14202,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28386,
@@ -14993,7 +14223,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28387,
@@ -15015,7 +14244,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28388,
@@ -15037,7 +14265,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28389,
@@ -15058,7 +14285,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28390,
@@ -15079,7 +14305,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28391,
@@ -15100,7 +14325,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28392,
@@ -15121,7 +14345,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28393,
@@ -15142,7 +14365,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28394,
@@ -15164,7 +14386,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28395,
@@ -15185,7 +14406,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28396,
@@ -15207,7 +14427,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28397,
@@ -15229,7 +14448,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28398,
@@ -15249,7 +14467,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28399,
@@ -15269,7 +14486,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28400,
@@ -15289,7 +14505,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28401,
@@ -15309,7 +14524,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28402,
@@ -15329,7 +14543,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28403,
@@ -15349,7 +14562,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28404,
@@ -15369,7 +14581,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28405,
@@ -15389,7 +14600,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28406,
@@ -15409,7 +14619,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28407,
@@ -15429,7 +14638,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28408,
@@ -15449,7 +14657,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28409,
@@ -15469,7 +14676,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28410,
@@ -15489,7 +14695,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28411,
@@ -15509,7 +14714,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28412,
@@ -15529,7 +14733,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28413,
@@ -15549,7 +14752,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28414,
@@ -15569,7 +14771,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28415,
@@ -15589,7 +14790,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28416,
@@ -15609,7 +14809,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28417,
@@ -15629,7 +14828,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28418,
@@ -15649,7 +14847,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28419,
@@ -15669,7 +14866,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28420,
@@ -15689,7 +14885,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28421,
@@ -15709,7 +14904,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28422,
@@ -15729,7 +14923,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28423,
@@ -15749,7 +14942,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28424,
@@ -15769,7 +14961,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28425,
@@ -15789,7 +14980,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28426,
@@ -15809,7 +14999,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28427,
@@ -15829,7 +15018,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28428,
@@ -15849,7 +15037,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28429,
@@ -15869,7 +15056,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28430,
@@ -15889,7 +15075,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28431,
@@ -15909,7 +15094,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28432,
@@ -15929,7 +15113,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28433,
@@ -15949,7 +15132,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28434,
@@ -15969,7 +15151,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28435,
@@ -15989,7 +15170,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28436,
@@ -16009,7 +15189,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28437,
@@ -16029,7 +15208,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28438,
@@ -16049,7 +15227,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28439,
@@ -16069,7 +15246,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28440,
@@ -16089,7 +15265,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28441,
@@ -16109,7 +15284,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28442,
@@ -16129,7 +15303,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28443,
@@ -16149,7 +15322,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28444,
@@ -16169,7 +15341,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28445,
@@ -16189,7 +15360,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28446,
@@ -16209,7 +15379,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28447,
@@ -16229,7 +15398,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28448,
@@ -16249,7 +15417,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28449,
@@ -16269,7 +15436,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28450,
@@ -16289,7 +15455,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28451,
@@ -16309,7 +15474,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28452,
@@ -16329,7 +15493,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28453,
@@ -16349,7 +15512,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28454,
@@ -16369,7 +15531,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28455,
@@ -16389,7 +15550,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28456,
@@ -16409,7 +15569,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28457,
@@ -16429,7 +15588,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28458,
@@ -16449,7 +15607,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28459,
@@ -16469,7 +15626,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28460,
@@ -16489,7 +15645,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.1',
   },
   {
     id: 28461,
@@ -16508,7 +15663,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28462,
@@ -16527,7 +15681,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28463,
@@ -16546,7 +15699,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28464,
@@ -16565,7 +15717,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28465,
@@ -16584,7 +15735,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28466,
@@ -16603,7 +15753,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28467,
@@ -16622,7 +15771,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28468,
@@ -16641,7 +15789,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28469,
@@ -16661,7 +15808,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28470,
@@ -16681,7 +15827,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28471,
@@ -16701,7 +15846,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28472,
@@ -16720,7 +15864,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28473,
@@ -16740,7 +15883,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28474,
@@ -16759,7 +15901,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28475,
@@ -16778,7 +15919,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28476,
@@ -16797,7 +15937,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28477,
@@ -16816,7 +15955,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28478,
@@ -16837,7 +15975,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28479,
@@ -16857,7 +15994,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28480,
@@ -16878,7 +16014,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28481,
@@ -16898,7 +16033,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28509,
@@ -16917,7 +16051,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28510,
@@ -16936,7 +16069,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28511,
@@ -16955,7 +16087,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28512,
@@ -16974,7 +16105,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28513,
@@ -16993,7 +16123,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28514,
@@ -17012,7 +16141,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28515,
@@ -17031,7 +16159,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28516,
@@ -17050,7 +16177,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28517,
@@ -17069,7 +16195,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28518,
@@ -17088,7 +16213,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.1',
   },
   {
     id: 28271,
@@ -17109,7 +16233,6 @@ export default [
       DLY: 2240,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28272,
@@ -17130,7 +16253,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28273,
@@ -17151,7 +16273,6 @@ export default [
       DLY: 3360,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28274,
@@ -17172,7 +16293,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28275,
@@ -17193,7 +16313,6 @@ export default [
       DLY: 3040,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28276,
@@ -17214,7 +16333,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28277,
@@ -17235,7 +16353,6 @@ export default [
       DLY: 2960,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28278,
@@ -17256,7 +16373,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28279,
@@ -17276,7 +16392,6 @@ export default [
       MDMG: 162,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28280,
@@ -17296,7 +16411,6 @@ export default [
       MDMG: 162,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28281,
@@ -17316,7 +16430,6 @@ export default [
       MDMG: 162,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28282,
@@ -17336,7 +16449,6 @@ export default [
       MDMG: 162,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28283,
@@ -17356,7 +16468,6 @@ export default [
       MDMG: 162,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28284,
@@ -17377,7 +16488,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28285,
@@ -17397,7 +16507,6 @@ export default [
       MDMG: 162,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28286,
@@ -17418,7 +16527,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28287,
@@ -17439,7 +16547,6 @@ export default [
       DLY: 3120,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 28288,
@@ -17458,7 +16565,6 @@ export default [
       DET: 130,
     },
     source: '歼殛战/哈迪斯',
-    patch: '5.1',
   },
   {
     id: 25548,
@@ -17478,8 +16584,7 @@ export default [
       PDMG: 121,
       DLY: 2240,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25549,
@@ -17499,8 +16604,7 @@ export default [
       PDMG: 121,
       DLY: 2560,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25550,
@@ -17520,8 +16624,7 @@ export default [
       PDMG: 121,
       DLY: 3360,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25551,
@@ -17541,8 +16644,7 @@ export default [
       PDMG: 121,
       DLY: 2800,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25552,
@@ -17562,8 +16664,7 @@ export default [
       PDMG: 121,
       DLY: 3040,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25553,
@@ -17583,8 +16684,7 @@ export default [
       PDMG: 121,
       DLY: 2560,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25554,
@@ -17604,8 +16704,7 @@ export default [
       PDMG: 121,
       DLY: 2960,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25555,
@@ -17625,8 +16724,7 @@ export default [
       PDMG: 121,
       DLY: 2640,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25556,
@@ -17645,8 +16743,7 @@ export default [
       DET: 323,
       MDMG: 163,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25557,
@@ -17665,8 +16762,7 @@ export default [
       DET: 323,
       MDMG: 163,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25558,
@@ -17685,8 +16781,7 @@ export default [
       DET: 462,
       MDMG: 163,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25559,
@@ -17705,8 +16800,7 @@ export default [
       DET: 462,
       MDMG: 163,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25560,
@@ -17725,8 +16819,7 @@ export default [
       CRT: 462,
       MDMG: 163,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25561,
@@ -17746,8 +16839,7 @@ export default [
       PDMG: 121,
       DLY: 2640,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25562,
@@ -17766,8 +16858,7 @@ export default [
       DET: 462,
       MDMG: 163,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25563,
@@ -17787,8 +16878,7 @@ export default [
       PDMG: 121,
       DLY: 2800,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25564,
@@ -17808,8 +16898,7 @@ export default [
       PDMG: 121,
       DLY: 3120,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25565,
@@ -17827,8 +16916,7 @@ export default [
       CRT: 132,
       DET: 92,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25566,
@@ -17846,8 +16934,7 @@ export default [
       TEN: 185,
       CRT: 264,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25567,
@@ -17865,8 +16952,7 @@ export default [
       CRT: 300,
       DET: 429,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25568,
@@ -17884,8 +16970,7 @@ export default [
       TEN: 185,
       SKS: 264,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25569,
@@ -17903,8 +16988,7 @@ export default [
       CRT: 300,
       DET: 429,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25570,
@@ -17922,8 +17006,7 @@ export default [
       TEN: 264,
       DET: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25571,
@@ -17941,8 +17024,7 @@ export default [
       CRT: 198,
       SKS: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25572,
@@ -17960,8 +17042,7 @@ export default [
       CRT: 264,
       DET: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25573,
@@ -17979,8 +17060,7 @@ export default [
       CRT: 300,
       SKS: 429,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25574,
@@ -17998,8 +17078,7 @@ export default [
       DET: 264,
       SKS: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25575,
@@ -18017,8 +17096,7 @@ export default [
       DHT: 429,
       DET: 300,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25576,
@@ -18036,8 +17114,7 @@ export default [
       DHT: 185,
       CRT: 264,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25577,
@@ -18055,8 +17132,7 @@ export default [
       DHT: 198,
       SKS: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25578,
@@ -18074,8 +17150,7 @@ export default [
       DHT: 185,
       CRT: 264,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25579,
@@ -18093,8 +17168,7 @@ export default [
       CRT: 300,
       SKS: 429,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25580,
@@ -18112,8 +17186,7 @@ export default [
       DHT: 264,
       SKS: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25581,
@@ -18131,8 +17204,7 @@ export default [
       DHT: 429,
       SKS: 300,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25582,
@@ -18150,8 +17222,7 @@ export default [
       CRT: 264,
       DET: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25583,
@@ -18169,8 +17240,7 @@ export default [
       CRT: 198,
       DET: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25584,
@@ -18188,8 +17258,7 @@ export default [
       CRT: 264,
       SKS: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25585,
@@ -18207,8 +17276,7 @@ export default [
       DHT: 300,
       DET: 429,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25586,
@@ -18226,8 +17294,7 @@ export default [
       CRT: 264,
       DET: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25587,
@@ -18245,8 +17312,7 @@ export default [
       DHT: 429,
       CRT: 300,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25588,
@@ -18264,8 +17330,7 @@ export default [
       DHT: 185,
       SKS: 264,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25589,
@@ -18283,8 +17348,7 @@ export default [
       DHT: 139,
       CRT: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25590,
@@ -18302,8 +17366,7 @@ export default [
       DHT: 264,
       CRT: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25591,
@@ -18321,8 +17384,7 @@ export default [
       DHT: 300,
       DET: 429,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25592,
@@ -18340,8 +17402,7 @@ export default [
       CRT: 264,
       DET: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25593,
@@ -18359,8 +17420,7 @@ export default [
       DET: 429,
       SKS: 300,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25594,
@@ -18378,8 +17438,7 @@ export default [
       CRT: 264,
       SKS: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25595,
@@ -18397,8 +17456,7 @@ export default [
       DHT: 198,
       DET: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25596,
@@ -18416,8 +17474,7 @@ export default [
       PIE: 264,
       DET: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25597,
@@ -18435,8 +17492,7 @@ export default [
       CRT: 300,
       DET: 429,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25598,
@@ -18454,8 +17510,7 @@ export default [
       PIE: 185,
       DET: 264,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25599,
@@ -18473,8 +17528,7 @@ export default [
       PIE: 429,
       DET: 300,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25600,
@@ -18492,8 +17546,7 @@ export default [
       PIE: 264,
       SPS: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25601,
@@ -18511,8 +17564,7 @@ export default [
       PIE: 198,
       SPS: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25602,
@@ -18530,8 +17582,7 @@ export default [
       DHT: 185,
       DET: 264,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25603,
@@ -18549,8 +17600,7 @@ export default [
       CRT: 429,
       DET: 300,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25604,
@@ -18568,8 +17618,7 @@ export default [
       DHT: 185,
       SPS: 264,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25605,
@@ -18587,8 +17636,7 @@ export default [
       DET: 300,
       SPS: 429,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25606,
@@ -18606,8 +17654,7 @@ export default [
       DHT: 264,
       CRT: 185,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25607,
@@ -18625,8 +17672,7 @@ export default [
       DHT: 139,
       DET: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25608,
@@ -18644,8 +17690,7 @@ export default [
       CRT: 139,
       SKS: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25609,
@@ -18663,8 +17708,7 @@ export default [
       CRT: 198,
       DET: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25610,
@@ -18682,8 +17726,7 @@ export default [
       CRT: 139,
       SKS: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25611,
@@ -18701,8 +17744,7 @@ export default [
       CRT: 198,
       DET: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25612,
@@ -18720,8 +17762,7 @@ export default [
       CRT: 198,
       SPS: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25613,
@@ -18739,8 +17780,7 @@ export default [
       TEN: 139,
       CRT: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25614,
@@ -18758,8 +17798,7 @@ export default [
       DET: 139,
       SKS: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25615,
@@ -18777,8 +17816,7 @@ export default [
       DHT: 139,
       DET: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25616,
@@ -18796,8 +17834,7 @@ export default [
       PIE: 198,
       CRT: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25617,
@@ -18815,8 +17852,7 @@ export default [
       DHT: 139,
       CRT: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25618,
@@ -18834,8 +17870,7 @@ export default [
       TEN: 198,
       SKS: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25619,
@@ -18853,8 +17888,7 @@ export default [
       CRT: 198,
       DET: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25620,
@@ -18872,8 +17906,7 @@ export default [
       CRT: 198,
       SKS: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25621,
@@ -18891,8 +17924,7 @@ export default [
       DET: 139,
       SPS: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25622,
@@ -18910,8 +17942,7 @@ export default [
       DHT: 139,
       DET: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25623,
@@ -18929,8 +17960,7 @@ export default [
       TEN: 139,
       DET: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25624,
@@ -18948,8 +17978,7 @@ export default [
       DHT: 198,
       CRT: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25625,
@@ -18967,8 +17996,7 @@ export default [
       DHT: 139,
       DET: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25626,
@@ -18986,8 +18014,7 @@ export default [
       CRT: 198,
       SPS: 139,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 25627,
@@ -19005,8 +18032,7 @@ export default [
       DHT: 139,
       CRT: 198,
     },
-    source: '点数强化/幻想→战利品',
-    patch: '5.05',
+    source: '点数强化/幻想',
   },
   {
     id: 26953,
@@ -19025,7 +18051,6 @@ export default [
       SKS: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26954,
@@ -19044,7 +18069,6 @@ export default [
       SKS: 429,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26955,
@@ -19063,7 +18087,6 @@ export default [
       DET: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26956,
@@ -19082,7 +18105,6 @@ export default [
       DET: 300,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26957,
@@ -19101,7 +18123,6 @@ export default [
       SKS: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26958,
@@ -19120,7 +18141,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26959,
@@ -19139,7 +18159,6 @@ export default [
       SKS: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26960,
@@ -19158,7 +18177,6 @@ export default [
       CRT: 429,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26961,
@@ -19177,7 +18195,6 @@ export default [
       DET: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26962,
@@ -19196,7 +18213,6 @@ export default [
       DET: 429,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26963,
@@ -19215,7 +18231,6 @@ export default [
       SKS: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26964,
@@ -19234,7 +18249,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26965,
@@ -19253,7 +18267,6 @@ export default [
       DET: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26966,
@@ -19272,7 +18285,6 @@ export default [
       CRT: 429,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26967,
@@ -19291,7 +18303,6 @@ export default [
       DET: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26968,
@@ -19310,7 +18321,6 @@ export default [
       DET: 429,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26969,
@@ -19329,7 +18339,6 @@ export default [
       SKS: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26970,
@@ -19348,7 +18357,6 @@ export default [
       SKS: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26971,
@@ -19367,7 +18375,6 @@ export default [
       DET: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26972,
@@ -19386,7 +18393,6 @@ export default [
       DET: 300,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26973,
@@ -19405,7 +18411,6 @@ export default [
       CRT: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26974,
@@ -19424,7 +18429,6 @@ export default [
       SKS: 300,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26975,
@@ -19443,7 +18447,6 @@ export default [
       DET: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26976,
@@ -19462,7 +18465,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26977,
@@ -19481,7 +18483,6 @@ export default [
       DET: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26978,
@@ -19500,7 +18501,6 @@ export default [
       SKS: 300,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26979,
@@ -19519,7 +18519,6 @@ export default [
       SKS: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26980,
@@ -19538,7 +18537,6 @@ export default [
       CRT: 429,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26981,
@@ -19557,7 +18555,6 @@ export default [
       DET: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26982,
@@ -19576,7 +18573,6 @@ export default [
       SKS: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26983,
@@ -19595,7 +18591,6 @@ export default [
       SPS: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26984,
@@ -19614,7 +18609,6 @@ export default [
       DET: 300,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26985,
@@ -19633,7 +18627,6 @@ export default [
       SPS: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26986,
@@ -19652,7 +18645,6 @@ export default [
       DET: 300,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26987,
@@ -19671,7 +18663,6 @@ export default [
       CRT: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26988,
@@ -19690,7 +18681,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26989,
@@ -19709,7 +18699,6 @@ export default [
       SPS: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26990,
@@ -19728,7 +18717,6 @@ export default [
       SPS: 300,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26991,
@@ -19747,7 +18735,6 @@ export default [
       DET: 185,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26992,
@@ -19766,7 +18753,6 @@ export default [
       CRT: 300,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26993,
@@ -19785,7 +18771,6 @@ export default [
       SPS: 264,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26994,
@@ -19804,7 +18789,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26995,
@@ -19823,7 +18807,6 @@ export default [
       CRT: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26996,
@@ -19842,7 +18825,6 @@ export default [
       SKS: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26997,
@@ -19861,7 +18843,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26998,
@@ -19880,7 +18861,6 @@ export default [
       SPS: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26999,
@@ -19899,7 +18879,6 @@ export default [
       DET: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27000,
@@ -19918,7 +18897,6 @@ export default [
       SKS: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27001,
@@ -19937,7 +18915,6 @@ export default [
       CRT: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27002,
@@ -19956,7 +18933,6 @@ export default [
       SKS: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27003,
@@ -19975,7 +18951,6 @@ export default [
       SPS: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27004,
@@ -19994,7 +18969,6 @@ export default [
       SPS: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27005,
@@ -20013,7 +18987,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27006,
@@ -20032,7 +19005,6 @@ export default [
       SKS: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27007,
@@ -20051,7 +19023,6 @@ export default [
       DET: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27008,
@@ -20070,7 +19041,6 @@ export default [
       CRT: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27009,
@@ -20089,7 +19059,6 @@ export default [
       SPS: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27010,
@@ -20108,7 +19077,6 @@ export default [
       CRT: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27011,
@@ -20127,7 +19095,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27012,
@@ -20146,7 +19113,6 @@ export default [
       SKS: 198,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27013,
@@ -20165,7 +19131,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 27014,
@@ -20184,7 +19149,6 @@ export default [
       DET: 139,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 29591,
@@ -20201,7 +19165,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29592,
@@ -20218,7 +19181,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29593,
@@ -20235,7 +19197,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29594,
@@ -20252,7 +19213,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29595,
@@ -20269,7 +19229,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29596,
@@ -20286,7 +19245,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29597,
@@ -20303,7 +19261,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29598,
@@ -20320,7 +19277,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29599,
@@ -20338,7 +19294,6 @@ export default [
       PCP: 425,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29600,
@@ -20356,7 +19311,6 @@ export default [
       PCP: 425,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29601,
@@ -20374,7 +19328,6 @@ export default [
       PCP: 425,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29602,
@@ -20391,7 +19344,6 @@ export default [
       CRL: 207,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29603,
@@ -20409,7 +19361,6 @@ export default [
       CRL: 207,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29604,
@@ -20426,7 +19377,6 @@ export default [
       CRL: 207,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29605,
@@ -20443,7 +19393,6 @@ export default [
       CRL: 207,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29606,
@@ -20460,7 +19409,6 @@ export default [
       CRL: 207,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29607,
@@ -20477,7 +19425,6 @@ export default [
       PCP: 425,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29608,
@@ -20496,7 +19443,6 @@ export default [
       PCP: 213,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29609,
@@ -20514,7 +19460,6 @@ export default [
       GTH: 319,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29610,
@@ -20533,7 +19478,6 @@ export default [
       PCP: 21,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29611,
@@ -20551,7 +19495,6 @@ export default [
       PCP: 213,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29948,
@@ -20568,7 +19511,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29949,
@@ -20585,7 +19527,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29950,
@@ -20602,7 +19543,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29951,
@@ -20619,7 +19559,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29952,
@@ -20636,7 +19575,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29953,
@@ -20653,7 +19591,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29954,
@@ -20670,7 +19607,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29955,
@@ -20687,7 +19623,6 @@ export default [
       CRL: 414,
     },
     source: '巧手白票',
-    patch: '5.2',
   },
   {
     id: 29956,
@@ -20704,7 +19639,6 @@ export default [
       PCP: 744,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 29957,
@@ -20721,7 +19655,6 @@ export default [
       PCP: 744,
     },
     source: '大地白票',
-    patch: '5.2',
   },
   {
     id: 26935,
@@ -20742,7 +19675,6 @@ export default [
       DLY: 2240,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26936,
@@ -20763,7 +19695,6 @@ export default [
       DLY: 2560,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26937,
@@ -20784,7 +19715,6 @@ export default [
       DLY: 3360,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26938,
@@ -20805,7 +19735,6 @@ export default [
       DLY: 2800,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26939,
@@ -20826,7 +19755,6 @@ export default [
       DLY: 3040,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26940,
@@ -20847,7 +19775,6 @@ export default [
       DLY: 2560,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26941,
@@ -20868,7 +19795,6 @@ export default [
       DLY: 2960,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26942,
@@ -20889,7 +19815,6 @@ export default [
       DLY: 2640,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26943,
@@ -20909,7 +19834,6 @@ export default [
       MDMG: 164,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26944,
@@ -20929,7 +19853,6 @@ export default [
       MDMG: 164,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26945,
@@ -20949,7 +19872,6 @@ export default [
       MDMG: 164,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26946,
@@ -20969,7 +19891,6 @@ export default [
       MDMG: 164,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26947,
@@ -20989,7 +19910,6 @@ export default [
       MDMG: 164,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26948,
@@ -21010,7 +19930,6 @@ export default [
       DLY: 2640,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26949,
@@ -21030,7 +19949,6 @@ export default [
       MDMG: 164,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26950,
@@ -21051,7 +19969,6 @@ export default [
       DLY: 2800,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26951,
@@ -21072,7 +19989,6 @@ export default [
       DLY: 3120,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 26952,
@@ -21091,7 +20007,6 @@ export default [
       DET: 133,
     },
     source: '零式/觉醒之章',
-    patch: '5.05',
   },
   {
     id: 28289,
@@ -21112,7 +20027,6 @@ export default [
       DLY: 2240,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28290,
@@ -21133,7 +20047,6 @@ export default [
       DLY: 2560,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28291,
@@ -21154,7 +20067,6 @@ export default [
       DLY: 3360,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28292,
@@ -21175,7 +20087,6 @@ export default [
       DLY: 2800,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28293,
@@ -21196,7 +20107,6 @@ export default [
       DLY: 3040,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28294,
@@ -21217,7 +20127,6 @@ export default [
       DLY: 2560,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28295,
@@ -21238,7 +20147,6 @@ export default [
       DLY: 2960,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28296,
@@ -21259,7 +20167,6 @@ export default [
       DLY: 2640,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28297,
@@ -21279,7 +20186,6 @@ export default [
       MDMG: 164,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28298,
@@ -21299,7 +20205,6 @@ export default [
       MDMG: 164,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28299,
@@ -21319,7 +20224,6 @@ export default [
       MDMG: 164,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28300,
@@ -21339,7 +20243,6 @@ export default [
       MDMG: 164,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28301,
@@ -21359,7 +20262,6 @@ export default [
       MDMG: 164,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28302,
@@ -21380,7 +20282,6 @@ export default [
       DLY: 2640,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28303,
@@ -21400,7 +20301,6 @@ export default [
       MDMG: 164,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28304,
@@ -21421,7 +20321,6 @@ export default [
       DLY: 2800,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28305,
@@ -21442,7 +20341,6 @@ export default [
       DLY: 3120,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 28306,
@@ -21461,7 +20359,6 @@ export default [
       DET: 133,
     },
     source: '绝境战/亚历山大',
-    patch: '5.11',
   },
   {
     id: 29634,
@@ -21478,7 +20375,6 @@ export default [
       CRL: 421,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29635,
@@ -21495,7 +20391,6 @@ export default [
       CRL: 421,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29636,
@@ -21512,7 +20407,6 @@ export default [
       CRL: 421,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29637,
@@ -21529,7 +20423,6 @@ export default [
       CRL: 421,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29638,
@@ -21546,7 +20439,6 @@ export default [
       CRL: 421,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29639,
@@ -21563,7 +20455,6 @@ export default [
       CRL: 421,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29640,
@@ -21580,7 +20471,6 @@ export default [
       CRL: 421,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29641,
@@ -21597,7 +20487,6 @@ export default [
       CRL: 421,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29642,
@@ -21615,7 +20504,6 @@ export default [
       PCP: 434,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29643,
@@ -21633,7 +20521,6 @@ export default [
       PCP: 434,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 29644,
@@ -21651,7 +20538,6 @@ export default [
       PCP: 434,
     },
     source: '天钢工具',
-    patch: '5.25',
   },
   {
     id: 30616,
@@ -21670,7 +20556,6 @@ export default [
       DET: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30617,
@@ -21689,7 +20574,6 @@ export default [
       DET: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30618,
@@ -21708,7 +20592,6 @@ export default [
       SKS: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30619,
@@ -21727,7 +20610,6 @@ export default [
       CRT: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30620,
@@ -21746,7 +20628,6 @@ export default [
       SKS: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30621,
@@ -21765,7 +20646,6 @@ export default [
       DET: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30622,
@@ -21784,7 +20664,6 @@ export default [
       CRT: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30623,
@@ -21803,7 +20682,6 @@ export default [
       SKS: 434,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30624,
@@ -21822,7 +20700,6 @@ export default [
       CRT: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30625,
@@ -21841,7 +20718,6 @@ export default [
       DET: 434,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30626,
@@ -21860,7 +20736,6 @@ export default [
       SKS: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30627,
@@ -21879,7 +20754,6 @@ export default [
       CRT: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30628,
@@ -21898,7 +20772,6 @@ export default [
       SKS: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30629,
@@ -21917,7 +20790,6 @@ export default [
       DET: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30630,
@@ -21936,7 +20808,6 @@ export default [
       SKS: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30631,
@@ -21955,7 +20826,6 @@ export default [
       SKS: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30632,
@@ -21974,7 +20844,6 @@ export default [
       CRT: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30633,
@@ -21993,7 +20862,6 @@ export default [
       DET: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30634,
@@ -22012,7 +20880,6 @@ export default [
       CRT: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30635,
@@ -22031,7 +20898,6 @@ export default [
       DET: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30636,
@@ -22050,7 +20916,6 @@ export default [
       SKS: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30637,
@@ -22069,7 +20934,6 @@ export default [
       CRT: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30638,
@@ -22088,7 +20952,6 @@ export default [
       SKS: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30639,
@@ -22107,7 +20970,6 @@ export default [
       SKS: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30640,
@@ -22126,7 +20988,6 @@ export default [
       CRT: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30641,
@@ -22145,7 +21006,6 @@ export default [
       DET: 434,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30642,
@@ -22164,7 +21024,6 @@ export default [
       CRT: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30643,
@@ -22183,7 +21042,6 @@ export default [
       SKS: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30644,
@@ -22202,7 +21060,6 @@ export default [
       DET: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30645,
@@ -22221,7 +21078,6 @@ export default [
       SKS: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30646,
@@ -22240,7 +21096,6 @@ export default [
       DET: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30647,
@@ -22259,7 +21114,6 @@ export default [
       SPS: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30648,
@@ -22278,7 +21132,6 @@ export default [
       DET: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30649,
@@ -22297,7 +21150,6 @@ export default [
       DET: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30650,
@@ -22316,7 +21168,6 @@ export default [
       DET: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30651,
@@ -22335,7 +21186,6 @@ export default [
       SPS: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30652,
@@ -22354,7 +21204,6 @@ export default [
       SPS: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30653,
@@ -22373,7 +21222,6 @@ export default [
       DET: 304,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30654,
@@ -22392,7 +21240,6 @@ export default [
       DET: 267,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30655,
@@ -22411,7 +21258,6 @@ export default [
       SPS: 434,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30656,
@@ -22430,7 +21276,6 @@ export default [
       DET: 187,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30657,
@@ -22449,7 +21294,6 @@ export default [
       CRT: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30658,
@@ -22468,7 +21312,6 @@ export default [
       SKS: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30659,
@@ -22487,7 +21330,6 @@ export default [
       DET: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30660,
@@ -22506,7 +21348,6 @@ export default [
       DET: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30661,
@@ -22525,7 +21366,6 @@ export default [
       DET: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30662,
@@ -22544,7 +21384,6 @@ export default [
       SPS: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30663,
@@ -22563,7 +21402,6 @@ export default [
       DET: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30664,
@@ -22582,7 +21420,6 @@ export default [
       SKS: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30665,
@@ -22601,7 +21438,6 @@ export default [
       SKS: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30666,
@@ -22620,7 +21456,6 @@ export default [
       DET: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30667,
@@ -22639,7 +21474,6 @@ export default [
       CRT: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30668,
@@ -22658,7 +21492,6 @@ export default [
       SKS: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30669,
@@ -22677,7 +21510,6 @@ export default [
       DET: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30670,
@@ -22696,7 +21528,6 @@ export default [
       SKS: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30671,
@@ -22715,7 +21546,6 @@ export default [
       SPS: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30672,
@@ -22734,7 +21564,6 @@ export default [
       SPS: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30673,
@@ -22753,7 +21582,6 @@ export default [
       SKS: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30674,
@@ -22772,7 +21600,6 @@ export default [
       DET: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30675,
@@ -22791,7 +21618,6 @@ export default [
       DET: 140,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30676,
@@ -22810,7 +21636,6 @@ export default [
       DET: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 30677,
@@ -22829,7 +21654,6 @@ export default [
       CRT: 200,
     },
     source: '迷宫挑战/诺弗兰特',
-    patch: '5.3',
   },
   {
     id: 29117,
@@ -22848,7 +21672,6 @@ export default [
       SKS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29118,
@@ -22867,7 +21690,6 @@ export default [
       DET: 307,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29119,
@@ -22886,7 +21708,6 @@ export default [
       SKS: 270,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29120,
@@ -22905,7 +21726,6 @@ export default [
       DET: 438,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29121,
@@ -22924,7 +21744,6 @@ export default [
       SKS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29122,
@@ -22943,7 +21762,6 @@ export default [
       DET: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29123,
@@ -22962,7 +21780,6 @@ export default [
       CRT: 270,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29124,
@@ -22981,7 +21798,6 @@ export default [
       DET: 307,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29125,
@@ -23000,7 +21816,6 @@ export default [
       SKS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29126,
@@ -23019,7 +21834,6 @@ export default [
       DET: 438,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29127,
@@ -23038,7 +21852,6 @@ export default [
       SKS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29128,
@@ -23057,7 +21870,6 @@ export default [
       DET: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29129,
@@ -23076,7 +21888,6 @@ export default [
       DET: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29130,
@@ -23095,7 +21906,6 @@ export default [
       DET: 438,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29131,
@@ -23114,7 +21924,6 @@ export default [
       CRT: 270,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29132,
@@ -23133,7 +21942,6 @@ export default [
       DET: 307,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29133,
@@ -23152,7 +21960,6 @@ export default [
       SKS: 270,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29134,
@@ -23171,7 +21978,6 @@ export default [
       SKS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29135,
@@ -23190,7 +21996,6 @@ export default [
       SKS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29136,
@@ -23209,7 +22014,6 @@ export default [
       DET: 307,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29137,
@@ -23228,7 +22032,6 @@ export default [
       SKS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29138,
@@ -23247,7 +22050,6 @@ export default [
       CRT: 438,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29139,
@@ -23266,7 +22068,6 @@ export default [
       DET: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29140,
@@ -23285,7 +22086,6 @@ export default [
       DET: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29141,
@@ -23304,7 +22104,6 @@ export default [
       CRT: 270,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29142,
@@ -23323,7 +22122,6 @@ export default [
       DET: 438,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29143,
@@ -23342,7 +22140,6 @@ export default [
       SKS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29144,
@@ -23361,7 +22158,6 @@ export default [
       DET: 438,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29145,
@@ -23380,7 +22176,6 @@ export default [
       SKS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29146,
@@ -23399,7 +22194,6 @@ export default [
       SKS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29147,
@@ -23418,7 +22212,6 @@ export default [
       DET: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29148,
@@ -23437,7 +22230,6 @@ export default [
       CRT: 307,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29149,
@@ -23456,7 +22248,6 @@ export default [
       DET: 270,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29150,
@@ -23475,7 +22266,6 @@ export default [
       DET: 438,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29151,
@@ -23494,7 +22284,6 @@ export default [
       SPS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29152,
@@ -23513,7 +22302,6 @@ export default [
       SPS: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29153,
@@ -23532,7 +22320,6 @@ export default [
       DET: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29154,
@@ -23551,7 +22338,6 @@ export default [
       DET: 438,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29155,
@@ -23570,7 +22356,6 @@ export default [
       SPS: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29156,
@@ -23589,7 +22374,6 @@ export default [
       SPS: 307,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29157,
@@ -23608,7 +22392,6 @@ export default [
       DET: 189,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29158,
@@ -23627,7 +22410,6 @@ export default [
       SPS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29159,
@@ -23646,7 +22428,6 @@ export default [
       CRT: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29160,
@@ -23665,7 +22446,6 @@ export default [
       SKS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29161,
@@ -23684,7 +22464,6 @@ export default [
       SKS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29162,
@@ -23703,7 +22482,6 @@ export default [
       DET: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29163,
@@ -23722,7 +22500,6 @@ export default [
       DET: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29164,
@@ -23741,7 +22518,6 @@ export default [
       SKS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29165,
@@ -23760,7 +22536,6 @@ export default [
       DET: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29166,
@@ -23779,7 +22554,6 @@ export default [
       CRT: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29167,
@@ -23798,7 +22572,6 @@ export default [
       SPS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29168,
@@ -23817,7 +22590,6 @@ export default [
       SPS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29169,
@@ -23836,7 +22608,6 @@ export default [
       SKS: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29170,
@@ -23855,7 +22626,6 @@ export default [
       SKS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29171,
@@ -23874,7 +22644,6 @@ export default [
       CRT: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29172,
@@ -23893,7 +22662,6 @@ export default [
       CRT: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29173,
@@ -23912,7 +22680,6 @@ export default [
       DET: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29174,
@@ -23931,7 +22698,6 @@ export default [
       SKS: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29175,
@@ -23950,7 +22716,6 @@ export default [
       DET: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29176,
@@ -23969,7 +22734,6 @@ export default [
       CRT: 202,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29177,
@@ -23988,7 +22752,6 @@ export default [
       DET: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29178,
@@ -24007,7 +22770,6 @@ export default [
       SPS: 142,
     },
     source: '大型任务/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29404,
@@ -24030,7 +22792,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29405,
@@ -24053,7 +22814,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29406,
@@ -24076,7 +22836,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29407,
@@ -24099,7 +22858,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29408,
@@ -24122,7 +22880,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29409,
@@ -24145,7 +22902,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29410,
@@ -24168,7 +22924,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29411,
@@ -24191,7 +22946,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29412,
@@ -24213,7 +22967,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29413,
@@ -24235,7 +22988,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29414,
@@ -24257,7 +23009,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29415,
@@ -24279,7 +23030,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29416,
@@ -24301,7 +23051,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29417,
@@ -24324,7 +23073,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29418,
@@ -24346,7 +23094,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29419,
@@ -24369,7 +23116,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29420,
@@ -24392,7 +23138,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29421,
@@ -24412,7 +23157,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29422,
@@ -24433,7 +23177,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29423,
@@ -24454,7 +23197,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29424,
@@ -24475,7 +23217,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29425,
@@ -24496,7 +23237,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29426,
@@ -24517,7 +23257,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29427,
@@ -24538,7 +23277,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29428,
@@ -24559,7 +23297,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29429,
@@ -24580,7 +23317,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29430,
@@ -24601,7 +23337,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29431,
@@ -24622,7 +23357,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29432,
@@ -24643,7 +23377,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29433,
@@ -24664,7 +23397,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29434,
@@ -24685,7 +23417,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29435,
@@ -24706,7 +23437,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29436,
@@ -24727,7 +23457,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29437,
@@ -24748,7 +23477,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29438,
@@ -24769,7 +23497,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29439,
@@ -24790,7 +23517,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29440,
@@ -24811,7 +23537,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29441,
@@ -24832,7 +23557,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29442,
@@ -24853,7 +23577,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29443,
@@ -24874,7 +23597,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29444,
@@ -24895,7 +23617,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29445,
@@ -24916,7 +23637,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29446,
@@ -24937,7 +23657,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29447,
@@ -24958,7 +23677,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29448,
@@ -24979,7 +23697,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29449,
@@ -25000,7 +23717,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29450,
@@ -25021,7 +23737,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29451,
@@ -25042,7 +23757,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29452,
@@ -25063,7 +23777,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29453,
@@ -25084,7 +23797,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29454,
@@ -25105,7 +23817,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29455,
@@ -25126,7 +23837,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29456,
@@ -25147,7 +23857,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29457,
@@ -25168,7 +23877,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29458,
@@ -25189,7 +23897,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29459,
@@ -25210,7 +23917,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29460,
@@ -25231,7 +23937,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29461,
@@ -25252,7 +23957,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29462,
@@ -25273,7 +23977,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29463,
@@ -25294,7 +23997,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29464,
@@ -25315,7 +24017,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29465,
@@ -25336,7 +24037,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29466,
@@ -25357,7 +24057,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29467,
@@ -25378,7 +24077,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29468,
@@ -25399,7 +24097,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29469,
@@ -25420,7 +24117,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29470,
@@ -25441,7 +24137,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29471,
@@ -25462,7 +24157,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29472,
@@ -25483,7 +24177,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29473,
@@ -25504,7 +24197,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29474,
@@ -25525,7 +24217,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29475,
@@ -25546,7 +24237,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29476,
@@ -25567,7 +24257,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29477,
@@ -25588,7 +24277,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29478,
@@ -25609,7 +24297,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29479,
@@ -25630,7 +24317,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29480,
@@ -25651,7 +24337,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29481,
@@ -25672,7 +24357,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29482,
@@ -25693,7 +24377,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 29483,
@@ -25714,7 +24397,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.2',
   },
   {
     id: 30035,
@@ -25734,7 +24416,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.2',
   },
   {
     id: 30036,
@@ -25754,7 +24435,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.2',
   },
   {
     id: 30037,
@@ -25774,7 +24454,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.2',
   },
   {
     id: 30038,
@@ -25794,7 +24473,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.2',
   },
   {
     id: 30039,
@@ -25814,7 +24492,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.2',
   },
   {
     id: 30040,
@@ -25834,7 +24511,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.2',
   },
   {
     id: 30041,
@@ -25854,7 +24530,6 @@ export default [
     },
     hq: true,
     source: '天书奇谈',
-    patch: '5.2',
   },
   {
     id: 30142,
@@ -25873,7 +24548,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30143,
@@ -25892,7 +24566,6 @@ export default [
       CRT: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30144,
@@ -25911,7 +24584,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30145,
@@ -25930,7 +24602,6 @@ export default [
       CRT: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30146,
@@ -25949,7 +24620,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30147,
@@ -25968,7 +24638,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30148,
@@ -25987,7 +24656,6 @@ export default [
       CRT: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30149,
@@ -26006,7 +24674,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30150,
@@ -26025,7 +24692,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30151,
@@ -26044,7 +24710,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30152,
@@ -26063,7 +24728,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30153,
@@ -26082,7 +24746,6 @@ export default [
       SKS: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30154,
@@ -26101,7 +24764,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30155,
@@ -26120,7 +24782,6 @@ export default [
       CRT: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30156,
@@ -26139,7 +24800,6 @@ export default [
       SKS: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30157,
@@ -26158,7 +24818,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30158,
@@ -26177,7 +24836,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30159,
@@ -26196,7 +24854,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30160,
@@ -26215,7 +24872,6 @@ export default [
       DET: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30161,
@@ -26234,7 +24890,6 @@ export default [
       SKS: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30162,
@@ -26253,7 +24908,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30163,
@@ -26272,7 +24926,6 @@ export default [
       DET: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30164,
@@ -26291,7 +24944,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30165,
@@ -26310,7 +24962,6 @@ export default [
       CRT: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30166,
@@ -26329,7 +24980,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30167,
@@ -26348,7 +24998,6 @@ export default [
       SPS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30168,
@@ -26367,7 +25016,6 @@ export default [
       DET: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30169,
@@ -26386,7 +25034,6 @@ export default [
       SPS: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30170,
@@ -26405,7 +25052,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30171,
@@ -26424,7 +25070,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30172,
@@ -26443,7 +25088,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30173,
@@ -26462,7 +25106,6 @@ export default [
       SPS: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30174,
@@ -26481,7 +25124,6 @@ export default [
       SPS: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30175,
@@ -26500,7 +25142,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30176,
@@ -26519,7 +25160,6 @@ export default [
       SPS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30177,
@@ -26538,7 +25178,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30178,
@@ -26557,7 +25196,6 @@ export default [
       DET: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30179,
@@ -26576,7 +25214,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30180,
@@ -26595,7 +25232,6 @@ export default [
       CRT: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30181,
@@ -26614,7 +25250,6 @@ export default [
       SPS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30182,
@@ -26633,7 +25268,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30183,
@@ -26652,7 +25286,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30184,
@@ -26671,7 +25304,6 @@ export default [
       SPS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30185,
@@ -26690,7 +25322,6 @@ export default [
       CRT: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30186,
@@ -26709,7 +25340,6 @@ export default [
       CRT: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30187,
@@ -26728,7 +25358,6 @@ export default [
       CRT: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30188,
@@ -26747,7 +25376,6 @@ export default [
       DET: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30189,
@@ -26766,7 +25394,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30190,
@@ -26785,7 +25412,6 @@ export default [
       CRT: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30191,
@@ -26804,7 +25430,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30192,
@@ -26823,7 +25448,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30193,
@@ -26842,7 +25466,6 @@ export default [
       CRT: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30194,
@@ -26861,7 +25484,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30195,
@@ -26880,7 +25502,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30196,
@@ -26899,7 +25520,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30197,
@@ -26918,7 +25538,6 @@ export default [
       SKS: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30198,
@@ -26937,7 +25556,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30199,
@@ -26956,7 +25574,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30200,
@@ -26975,7 +25592,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30201,
@@ -26994,7 +25610,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30202,
@@ -27013,7 +25628,6 @@ export default [
       SPS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30203,
@@ -27032,7 +25646,6 @@ export default [
       CRT: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30204,
@@ -27051,7 +25664,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30205,
@@ -27070,7 +25682,6 @@ export default [
       DET: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30206,
@@ -27089,7 +25700,6 @@ export default [
       CRT: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30207,
@@ -27108,7 +25718,6 @@ export default [
       CRT: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30208,
@@ -27127,7 +25736,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30209,
@@ -27146,7 +25754,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30210,
@@ -27165,7 +25772,6 @@ export default [
       SKS: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30211,
@@ -27184,7 +25790,6 @@ export default [
       SKS: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30212,
@@ -27203,7 +25808,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30213,
@@ -27222,7 +25826,6 @@ export default [
       CRT: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30214,
@@ -27241,7 +25844,6 @@ export default [
       DET: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30215,
@@ -27260,7 +25862,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30216,
@@ -27279,7 +25880,6 @@ export default [
       SPS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30217,
@@ -27298,7 +25898,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30218,
@@ -27317,7 +25916,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30219,
@@ -27336,7 +25934,6 @@ export default [
       CRT: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30220,
@@ -27355,7 +25952,6 @@ export default [
       DET: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30221,
@@ -27374,7 +25970,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30222,
@@ -27393,7 +25988,6 @@ export default [
       SKS: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30223,
@@ -27412,7 +26006,6 @@ export default [
       DET: 438,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30224,
@@ -27431,7 +26024,6 @@ export default [
       DET: 189,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30225,
@@ -27450,7 +26042,6 @@ export default [
       DET: 307,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 30226,
@@ -27469,7 +26060,6 @@ export default [
       SKS: 270,
     },
     source: '歼殛战/博兹雅堡垒',
-    patch: '5.25',
   },
   {
     id: 29002,
@@ -27490,7 +26080,6 @@ export default [
       DLY: 2240,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29003,
@@ -27511,7 +26100,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29004,
@@ -27532,7 +26120,6 @@ export default [
       DLY: 3360,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29005,
@@ -27553,7 +26140,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29006,
@@ -27574,7 +26160,6 @@ export default [
       DLY: 3040,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29007,
@@ -27595,7 +26180,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29008,
@@ -27616,7 +26200,6 @@ export default [
       DLY: 2960,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29009,
@@ -27637,7 +26220,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29010,
@@ -27657,7 +26239,6 @@ export default [
       MDMG: 167,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29011,
@@ -27677,7 +26258,6 @@ export default [
       MDMG: 167,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29012,
@@ -27697,7 +26277,6 @@ export default [
       MDMG: 167,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29013,
@@ -27717,7 +26296,6 @@ export default [
       MDMG: 167,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29014,
@@ -27737,7 +26315,6 @@ export default [
       MDMG: 167,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29015,
@@ -27758,7 +26335,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29016,
@@ -27778,7 +26354,6 @@ export default [
       MDMG: 167,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29017,
@@ -27799,7 +26374,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29018,
@@ -27820,7 +26394,6 @@ export default [
       DLY: 3120,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 29019,
@@ -27839,7 +26412,6 @@ export default [
       DET: 95,
     },
     source: '歼殛战/红宝石神兵',
-    patch: '5.2',
   },
   {
     id: 30228,
@@ -27860,7 +26432,6 @@ export default [
       DLY: 2240,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30229,
@@ -27881,7 +26452,6 @@ export default [
       DLY: 2560,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30230,
@@ -27902,7 +26472,6 @@ export default [
       DLY: 3360,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30231,
@@ -27923,7 +26492,6 @@ export default [
       DLY: 2800,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30232,
@@ -27944,7 +26512,6 @@ export default [
       DLY: 3040,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30233,
@@ -27965,7 +26532,6 @@ export default [
       DLY: 2560,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30234,
@@ -27986,7 +26552,6 @@ export default [
       DLY: 2960,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30235,
@@ -28007,7 +26572,6 @@ export default [
       DLY: 2640,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30236,
@@ -28027,7 +26591,6 @@ export default [
       MDMG: 167,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30237,
@@ -28047,7 +26610,6 @@ export default [
       MDMG: 167,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30238,
@@ -28067,7 +26629,6 @@ export default [
       MDMG: 167,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30239,
@@ -28087,7 +26648,6 @@ export default [
       MDMG: 167,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30240,
@@ -28107,7 +26667,6 @@ export default [
       MDMG: 167,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30241,
@@ -28128,7 +26687,6 @@ export default [
       DLY: 2640,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30242,
@@ -28148,7 +26706,6 @@ export default [
       MDMG: 167,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30243,
@@ -28169,7 +26726,6 @@ export default [
       DLY: 2800,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30244,
@@ -28190,7 +26746,6 @@ export default [
       DLY: 3120,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30245,
@@ -28209,7 +26764,6 @@ export default [
       DET: 95,
     },
     source: '义军武器',
-    patch: '5.25',
   },
   {
     id: 30282,
@@ -29598,7 +28152,6 @@ export default [
       DLY: 2240,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29180,
@@ -29619,7 +28172,6 @@ export default [
       DLY: 2560,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29181,
@@ -29640,7 +28192,6 @@ export default [
       DLY: 3360,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29182,
@@ -29661,7 +28212,6 @@ export default [
       DLY: 2800,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29183,
@@ -29682,7 +28232,6 @@ export default [
       DLY: 3040,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29184,
@@ -29703,7 +28252,6 @@ export default [
       DLY: 2560,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29185,
@@ -29724,7 +28272,6 @@ export default [
       DLY: 2960,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29186,
@@ -29745,7 +28292,6 @@ export default [
       DLY: 2640,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29187,
@@ -29765,7 +28311,6 @@ export default [
       MDMG: 169,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29188,
@@ -29785,7 +28330,6 @@ export default [
       MDMG: 169,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29189,
@@ -29805,7 +28349,6 @@ export default [
       MDMG: 169,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29190,
@@ -29825,7 +28368,6 @@ export default [
       MDMG: 169,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29191,
@@ -29845,7 +28387,6 @@ export default [
       MDMG: 169,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29192,
@@ -29866,7 +28407,6 @@ export default [
       DLY: 2640,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29193,
@@ -29886,7 +28426,6 @@ export default [
       MDMG: 169,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29194,
@@ -29907,7 +28446,6 @@ export default [
       DLY: 2800,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29195,
@@ -29928,7 +28466,6 @@ export default [
       DLY: 3120,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29196,
@@ -29947,7 +28484,6 @@ export default [
       DET: 138,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29197,
@@ -29966,7 +28502,6 @@ export default [
       CRT: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29198,
@@ -29985,7 +28520,6 @@ export default [
       DET: 314,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29199,
@@ -30004,7 +28538,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29200,
@@ -30023,7 +28556,6 @@ export default [
       DET: 448,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29201,
@@ -30042,7 +28574,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29202,
@@ -30061,7 +28592,6 @@ export default [
       SKS: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29203,
@@ -30080,7 +28610,6 @@ export default [
       DET: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29204,
@@ -30099,7 +28628,6 @@ export default [
       DET: 314,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29205,
@@ -30118,7 +28646,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29206,
@@ -30137,7 +28664,6 @@ export default [
       DET: 314,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29207,
@@ -30156,7 +28682,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29208,
@@ -30175,7 +28700,6 @@ export default [
       CRT: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29209,
@@ -30194,7 +28718,6 @@ export default [
       DET: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29210,
@@ -30213,7 +28736,6 @@ export default [
       SKS: 314,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29211,
@@ -30232,7 +28754,6 @@ export default [
       DET: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29212,
@@ -30251,7 +28772,6 @@ export default [
       DET: 314,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29213,
@@ -30270,7 +28790,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29214,
@@ -30289,7 +28808,6 @@ export default [
       CRT: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29215,
@@ -30308,7 +28826,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29216,
@@ -30327,7 +28844,6 @@ export default [
       DET: 448,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29217,
@@ -30346,7 +28862,6 @@ export default [
       CRT: 275,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29218,
@@ -30365,7 +28880,6 @@ export default [
       CRT: 448,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29219,
@@ -30384,7 +28898,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29220,
@@ -30403,7 +28916,6 @@ export default [
       DET: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29221,
@@ -30422,7 +28934,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29222,
@@ -30441,7 +28952,6 @@ export default [
       SKS: 314,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29223,
@@ -30460,7 +28970,6 @@ export default [
       DET: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29224,
@@ -30479,7 +28988,6 @@ export default [
       CRT: 314,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29225,
@@ -30498,7 +29006,6 @@ export default [
       SKS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29226,
@@ -30517,7 +29024,6 @@ export default [
       DET: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29227,
@@ -30536,7 +29042,6 @@ export default [
       CRT: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29228,
@@ -30555,7 +29060,6 @@ export default [
       DET: 448,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29229,
@@ -30574,7 +29078,6 @@ export default [
       DET: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29230,
@@ -30593,7 +29096,6 @@ export default [
       DET: 314,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29231,
@@ -30612,7 +29114,6 @@ export default [
       SPS: 193,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29232,
@@ -30631,7 +29132,6 @@ export default [
       DET: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29233,
@@ -30650,7 +29150,6 @@ export default [
       CRT: 275,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29234,
@@ -30669,7 +29168,6 @@ export default [
       SPS: 448,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29235,
@@ -30688,7 +29186,6 @@ export default [
       SPS: 275,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29236,
@@ -30707,7 +29204,6 @@ export default [
       CRT: 448,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29237,
@@ -30726,7 +29222,6 @@ export default [
       SPS: 275,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29238,
@@ -30745,7 +29240,6 @@ export default [
       CRT: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29239,
@@ -30764,7 +29258,6 @@ export default [
       DET: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29240,
@@ -30783,7 +29276,6 @@ export default [
       SKS: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29241,
@@ -30802,7 +29294,6 @@ export default [
       DET: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29242,
@@ -30821,7 +29312,6 @@ export default [
       SPS: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29243,
@@ -30840,7 +29330,6 @@ export default [
       DET: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29244,
@@ -30859,7 +29348,6 @@ export default [
       SKS: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29245,
@@ -30878,7 +29366,6 @@ export default [
       DET: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29246,
@@ -30897,7 +29384,6 @@ export default [
       DET: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29247,
@@ -30916,7 +29402,6 @@ export default [
       DET: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29248,
@@ -30935,7 +29420,6 @@ export default [
       SPS: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29249,
@@ -30954,7 +29438,6 @@ export default [
       DET: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29250,
@@ -30973,7 +29456,6 @@ export default [
       DET: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29251,
@@ -30992,7 +29474,6 @@ export default [
       CRT: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29252,
@@ -31011,7 +29492,6 @@ export default [
       CRT: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29253,
@@ -31030,7 +29510,6 @@ export default [
       SPS: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29254,
@@ -31049,7 +29528,6 @@ export default [
       DET: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29255,
@@ -31068,7 +29546,6 @@ export default [
       CRT: 145,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29256,
@@ -31087,7 +29564,6 @@ export default [
       DET: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29257,
@@ -31106,7 +29582,6 @@ export default [
       DET: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 29258,
@@ -31125,7 +29600,6 @@ export default [
       DET: 207,
     },
     source: '点数/奇谭',
-    patch: '5.2',
   },
   {
     id: 30440,
@@ -31144,7 +29618,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30441,
@@ -31163,7 +29636,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30442,
@@ -31182,7 +29654,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30443,
@@ -31201,7 +29672,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30444,
@@ -31220,7 +29690,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30445,
@@ -31239,7 +29708,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30446,
@@ -31258,7 +29726,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30447,
@@ -31277,7 +29744,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30448,
@@ -31297,7 +29763,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30449,
@@ -31317,7 +29782,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30450,
@@ -31337,7 +29801,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30451,
@@ -31356,7 +29819,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30452,
@@ -31375,7 +29837,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30453,
@@ -31394,7 +29855,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30454,
@@ -31413,7 +29873,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30455,
@@ -31432,7 +29891,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30456,
@@ -31451,7 +29909,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30457,
@@ -31470,7 +29927,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30458,
@@ -31489,7 +29945,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30459,
@@ -31508,7 +29963,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30460,
@@ -31527,7 +29981,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30461,
@@ -31546,7 +29999,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30462,
@@ -31566,7 +30018,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30463,
@@ -31585,7 +30036,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30464,
@@ -31604,7 +30054,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30465,
@@ -31623,7 +30072,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30466,
@@ -31642,7 +30090,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30467,
@@ -31663,7 +30110,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30468,
@@ -31683,7 +30129,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30469,
@@ -31704,7 +30149,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30470,
@@ -31724,7 +30168,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30471,
@@ -31742,7 +30185,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30472,
@@ -31761,7 +30203,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30473,
@@ -31780,7 +30221,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30474,
@@ -31799,7 +30239,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30475,
@@ -31818,7 +30257,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30476,
@@ -31836,7 +30274,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30477,
@@ -31854,7 +30291,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30478,
@@ -31872,7 +30308,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30479,
@@ -31890,7 +30325,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30480,
@@ -31908,7 +30342,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '5.3',
   },
   {
     id: 30508,
@@ -31930,7 +30363,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30509,
@@ -31952,7 +30384,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30510,
@@ -31974,7 +30405,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30511,
@@ -31996,7 +30426,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30512,
@@ -32018,7 +30447,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30513,
@@ -32040,7 +30468,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30514,
@@ -32062,7 +30489,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30515,
@@ -32084,7 +30510,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30516,
@@ -32105,7 +30530,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30517,
@@ -32126,7 +30550,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30518,
@@ -32147,7 +30570,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30519,
@@ -32168,7 +30590,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30520,
@@ -32189,7 +30610,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30521,
@@ -32211,7 +30631,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30522,
@@ -32232,7 +30651,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30523,
@@ -32254,7 +30672,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30524,
@@ -32276,7 +30693,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30525,
@@ -32296,7 +30712,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30526,
@@ -32316,7 +30731,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30527,
@@ -32336,7 +30750,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30528,
@@ -32356,7 +30769,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30529,
@@ -32376,7 +30788,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30530,
@@ -32396,7 +30807,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30531,
@@ -32416,7 +30826,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30532,
@@ -32436,7 +30845,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30533,
@@ -32456,7 +30864,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30534,
@@ -32476,7 +30883,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30535,
@@ -32496,7 +30902,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30536,
@@ -32516,7 +30921,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30537,
@@ -32536,7 +30940,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30538,
@@ -32556,7 +30959,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30539,
@@ -32576,7 +30978,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30540,
@@ -32596,7 +30997,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30541,
@@ -32616,7 +31016,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30542,
@@ -32636,7 +31035,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30543,
@@ -32656,7 +31054,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30544,
@@ -32676,7 +31073,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30545,
@@ -32696,7 +31092,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30546,
@@ -32716,7 +31111,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30547,
@@ -32736,7 +31130,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30548,
@@ -32756,7 +31149,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30549,
@@ -32776,7 +31168,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30550,
@@ -32796,7 +31187,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30551,
@@ -32816,7 +31206,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30552,
@@ -32836,7 +31225,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30553,
@@ -32856,7 +31244,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30554,
@@ -32876,7 +31263,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30555,
@@ -32896,7 +31282,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30556,
@@ -32916,7 +31301,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30557,
@@ -32936,7 +31320,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30558,
@@ -32956,7 +31339,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30559,
@@ -32976,7 +31358,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30560,
@@ -32996,7 +31377,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30561,
@@ -33016,7 +31396,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30562,
@@ -33036,7 +31415,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30563,
@@ -33056,7 +31434,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30564,
@@ -33076,7 +31453,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30565,
@@ -33096,7 +31472,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30566,
@@ -33116,7 +31491,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30567,
@@ -33136,7 +31510,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30568,
@@ -33156,7 +31529,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30569,
@@ -33176,7 +31548,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30570,
@@ -33196,7 +31567,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30571,
@@ -33216,7 +31586,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30572,
@@ -33236,7 +31605,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30573,
@@ -33256,7 +31624,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30574,
@@ -33276,7 +31643,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30575,
@@ -33296,7 +31662,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30576,
@@ -33316,7 +31681,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30577,
@@ -33336,7 +31700,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30578,
@@ -33356,7 +31719,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30579,
@@ -33376,7 +31738,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30580,
@@ -33396,7 +31757,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30581,
@@ -33416,7 +31776,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30582,
@@ -33436,7 +31795,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30583,
@@ -33456,7 +31814,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30584,
@@ -33476,7 +31833,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30585,
@@ -33496,7 +31852,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30586,
@@ -33516,7 +31871,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30587,
@@ -33536,7 +31890,6 @@ export default [
     },
     hq: true,
     source: '制作装强化',
-    patch: '5.3',
   },
   {
     id: 30679,
@@ -33555,7 +31908,6 @@ export default [
       SKS: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30680,
@@ -33574,7 +31926,6 @@ export default [
       CRT: 448,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30681,
@@ -33593,7 +31944,6 @@ export default [
       DET: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30682,
@@ -33612,7 +31962,6 @@ export default [
       SKS: 314,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30683,
@@ -33631,7 +31980,6 @@ export default [
       CRT: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30684,
@@ -33650,7 +31998,6 @@ export default [
       SKS: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30685,
@@ -33669,7 +32016,6 @@ export default [
       DET: 314,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30686,
@@ -33688,7 +32034,6 @@ export default [
       CRT: 193,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30687,
@@ -33707,7 +32052,6 @@ export default [
       DET: 448,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30688,
@@ -33726,7 +32070,6 @@ export default [
       SKS: 193,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30689,
@@ -33745,7 +32088,6 @@ export default [
       DET: 193,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30690,
@@ -33764,7 +32106,6 @@ export default [
       DET: 448,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30691,
@@ -33783,7 +32124,6 @@ export default [
       DET: 193,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30692,
@@ -33802,7 +32142,6 @@ export default [
       SKS: 448,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30693,
@@ -33821,7 +32160,6 @@ export default [
       SKS: 193,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30694,
@@ -33840,7 +32178,6 @@ export default [
       DET: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30695,
@@ -33859,7 +32196,6 @@ export default [
       DET: 314,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30696,
@@ -33878,7 +32214,6 @@ export default [
       SKS: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30697,
@@ -33897,7 +32232,6 @@ export default [
       DET: 314,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30698,
@@ -33916,7 +32250,6 @@ export default [
       CRT: 193,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30699,
@@ -33935,7 +32268,6 @@ export default [
       DET: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30700,
@@ -33954,7 +32286,6 @@ export default [
       DET: 314,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30701,
@@ -33973,7 +32304,6 @@ export default [
       CRT: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30702,
@@ -33992,7 +32322,6 @@ export default [
       SKS: 314,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30703,
@@ -34011,7 +32340,6 @@ export default [
       CRT: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30704,
@@ -34030,7 +32358,6 @@ export default [
       DET: 193,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30705,
@@ -34049,7 +32376,6 @@ export default [
       CRT: 314,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30706,
@@ -34068,7 +32394,6 @@ export default [
       DET: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30707,
@@ -34087,7 +32412,6 @@ export default [
       DET: 314,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30708,
@@ -34106,7 +32430,6 @@ export default [
       SPS: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30709,
@@ -34125,7 +32448,6 @@ export default [
       SPS: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30710,
@@ -34144,7 +32466,6 @@ export default [
       CRT: 448,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30711,
@@ -34163,7 +32484,6 @@ export default [
       SPS: 193,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30712,
@@ -34182,7 +32502,6 @@ export default [
       SPS: 448,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30713,
@@ -34201,7 +32520,6 @@ export default [
       DET: 275,
     },
     source: '团队任务/军事基地',
-    patch: '5.3',
   },
   {
     id: 30597,
@@ -34222,7 +32540,6 @@ export default [
       DLY: 2240,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30598,
@@ -34243,7 +32560,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30599,
@@ -34264,7 +32580,6 @@ export default [
       DLY: 3360,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30600,
@@ -34285,7 +32600,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30601,
@@ -34306,7 +32620,6 @@ export default [
       DLY: 3040,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30602,
@@ -34327,7 +32640,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30603,
@@ -34348,7 +32660,6 @@ export default [
       DLY: 2960,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30604,
@@ -34369,7 +32680,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30605,
@@ -34389,7 +32699,6 @@ export default [
       MDMG: 170,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30606,
@@ -34409,7 +32718,6 @@ export default [
       MDMG: 170,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30607,
@@ -34429,7 +32737,6 @@ export default [
       MDMG: 170,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30608,
@@ -34449,7 +32756,6 @@ export default [
       MDMG: 170,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30609,
@@ -34469,7 +32775,6 @@ export default [
       MDMG: 170,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30610,
@@ -34490,7 +32795,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30611,
@@ -34510,7 +32814,6 @@ export default [
       MDMG: 170,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30612,
@@ -34531,7 +32834,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30613,
@@ -34552,7 +32854,6 @@ export default [
       DLY: 3120,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30614,
@@ -34571,7 +32872,6 @@ export default [
       DET: 139,
     },
     source: '歼殛战/？？？',
-    patch: '5.3',
   },
   {
     id: 30715,
@@ -35920,7 +34220,6 @@ export default [
       SKS: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29056,
@@ -35939,7 +34238,6 @@ export default [
       DET: 320,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29057,
@@ -35958,7 +34256,6 @@ export default [
       DET: 281,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29058,
@@ -35977,7 +34274,6 @@ export default [
       SKS: 320,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29059,
@@ -35996,7 +34292,6 @@ export default [
       DET: 281,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29060,
@@ -36015,7 +34310,6 @@ export default [
       DET: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29061,
@@ -36034,7 +34328,6 @@ export default [
       SKS: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29062,
@@ -36053,7 +34346,6 @@ export default [
       CRT: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29063,
@@ -36072,7 +34364,6 @@ export default [
       DET: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29064,
@@ -36091,7 +34382,6 @@ export default [
       CRT: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29065,
@@ -36110,7 +34400,6 @@ export default [
       DET: 281,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29066,
@@ -36129,7 +34418,6 @@ export default [
       SKS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29067,
@@ -36148,7 +34436,6 @@ export default [
       SKS: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29068,
@@ -36167,7 +34454,6 @@ export default [
       CRT: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29069,
@@ -36186,7 +34472,6 @@ export default [
       SKS: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29070,
@@ -36205,7 +34490,6 @@ export default [
       SKS: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29071,
@@ -36224,7 +34508,6 @@ export default [
       CRT: 281,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29072,
@@ -36243,7 +34526,6 @@ export default [
       SKS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29073,
@@ -36262,7 +34544,6 @@ export default [
       DET: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29074,
@@ -36281,7 +34562,6 @@ export default [
       CRT: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29075,
@@ -36300,7 +34580,6 @@ export default [
       SKS: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29076,
@@ -36319,7 +34598,6 @@ export default [
       DET: 320,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29077,
@@ -36338,7 +34616,6 @@ export default [
       DET: 281,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29078,
@@ -36357,7 +34634,6 @@ export default [
       SKS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29079,
@@ -36376,7 +34652,6 @@ export default [
       DET: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29080,
@@ -36395,7 +34670,6 @@ export default [
       CRT: 320,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29081,
@@ -36414,7 +34688,6 @@ export default [
       SKS: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29082,
@@ -36433,7 +34706,6 @@ export default [
       DET: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29083,
@@ -36452,7 +34724,6 @@ export default [
       CRT: 281,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29084,
@@ -36471,7 +34742,6 @@ export default [
       SKS: 211,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29085,
@@ -36490,7 +34760,6 @@ export default [
       DET: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29086,
@@ -36509,7 +34778,6 @@ export default [
       DET: 320,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29087,
@@ -36528,7 +34796,6 @@ export default [
       DET: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29088,
@@ -36547,7 +34814,6 @@ export default [
       SPS: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29089,
@@ -36566,7 +34832,6 @@ export default [
       DET: 281,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29090,
@@ -36585,7 +34850,6 @@ export default [
       SPS: 211,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29091,
@@ -36604,7 +34868,6 @@ export default [
       SPS: 281,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29092,
@@ -36623,7 +34886,6 @@ export default [
       CRT: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29093,
@@ -36642,7 +34904,6 @@ export default [
       DET: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29094,
@@ -36661,7 +34922,6 @@ export default [
       SPS: 457,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29095,
@@ -36680,7 +34940,6 @@ export default [
       CRT: 197,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29096,
@@ -36699,7 +34958,6 @@ export default [
       SPS: 211,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29097,
@@ -36718,7 +34976,6 @@ export default [
       SKS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29098,
@@ -36737,7 +34994,6 @@ export default [
       DET: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29099,
@@ -36756,7 +35012,6 @@ export default [
       SKS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29100,
@@ -36775,7 +35030,6 @@ export default [
       DET: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29101,
@@ -36794,7 +35048,6 @@ export default [
       SPS: 211,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29102,
@@ -36813,7 +35066,6 @@ export default [
       DET: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29103,
@@ -36832,7 +35084,6 @@ export default [
       DET: 211,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29104,
@@ -36851,7 +35102,6 @@ export default [
       DET: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29105,
@@ -36870,7 +35120,6 @@ export default [
       SPS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29106,
@@ -36889,7 +35138,6 @@ export default [
       DET: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29107,
@@ -36908,7 +35156,6 @@ export default [
       SKS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29108,
@@ -36927,7 +35174,6 @@ export default [
       CRT: 211,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29109,
@@ -36946,7 +35192,6 @@ export default [
       SKS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29110,
@@ -36965,7 +35210,6 @@ export default [
       DET: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29111,
@@ -36984,7 +35228,6 @@ export default [
       CRT: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29112,
@@ -37003,7 +35246,6 @@ export default [
       CRT: 211,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29113,
@@ -37022,7 +35264,6 @@ export default [
       SKS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29114,
@@ -37041,7 +35282,6 @@ export default [
       CRT: 211,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29115,
@@ -37060,7 +35300,6 @@ export default [
       SPS: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29116,
@@ -37079,7 +35318,6 @@ export default [
       DET: 148,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29259,
@@ -37100,7 +35338,6 @@ export default [
       DLY: 2240,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29260,
@@ -37121,7 +35358,6 @@ export default [
       DLY: 2560,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29261,
@@ -37142,7 +35378,6 @@ export default [
       DLY: 3360,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29262,
@@ -37163,7 +35398,6 @@ export default [
       DLY: 2800,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29263,
@@ -37184,7 +35418,6 @@ export default [
       DLY: 3040,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29264,
@@ -37205,7 +35438,6 @@ export default [
       DLY: 2560,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29265,
@@ -37226,7 +35458,6 @@ export default [
       DLY: 2960,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29266,
@@ -37247,7 +35478,6 @@ export default [
       DLY: 2640,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29267,
@@ -37267,7 +35497,6 @@ export default [
       MDMG: 171,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29268,
@@ -37287,7 +35516,6 @@ export default [
       MDMG: 171,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29269,
@@ -37307,7 +35535,6 @@ export default [
       MDMG: 171,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29270,
@@ -37327,7 +35554,6 @@ export default [
       MDMG: 171,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29271,
@@ -37347,7 +35573,6 @@ export default [
       MDMG: 171,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29272,
@@ -37368,7 +35593,6 @@ export default [
       DLY: 2640,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29273,
@@ -37388,7 +35612,6 @@ export default [
       MDMG: 171,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29274,
@@ -37409,7 +35632,6 @@ export default [
       DLY: 2800,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29275,
@@ -37430,7 +35652,6 @@ export default [
       DLY: 3120,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29276,
@@ -37449,7 +35670,6 @@ export default [
       DET: 141,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29277,
@@ -37468,7 +35688,6 @@ export default [
       CRT: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29278,
@@ -37487,7 +35706,6 @@ export default [
       DET: 320,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29279,
@@ -37506,7 +35724,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29280,
@@ -37525,7 +35742,6 @@ export default [
       DET: 457,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29281,
@@ -37544,7 +35760,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29282,
@@ -37563,7 +35778,6 @@ export default [
       SKS: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29283,
@@ -37582,7 +35796,6 @@ export default [
       DET: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29284,
@@ -37601,7 +35814,6 @@ export default [
       DET: 320,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29285,
@@ -37620,7 +35832,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29286,
@@ -37639,7 +35850,6 @@ export default [
       DET: 320,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29287,
@@ -37658,7 +35868,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29288,
@@ -37677,7 +35886,6 @@ export default [
       CRT: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29289,
@@ -37696,7 +35904,6 @@ export default [
       DET: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29290,
@@ -37715,7 +35922,6 @@ export default [
       SKS: 320,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29291,
@@ -37734,7 +35940,6 @@ export default [
       DET: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29292,
@@ -37753,7 +35958,6 @@ export default [
       DET: 320,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29293,
@@ -37772,7 +35976,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29294,
@@ -37791,7 +35994,6 @@ export default [
       CRT: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29295,
@@ -37810,7 +36012,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29296,
@@ -37829,7 +36030,6 @@ export default [
       DET: 457,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29297,
@@ -37848,7 +36048,6 @@ export default [
       CRT: 281,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29298,
@@ -37867,7 +36066,6 @@ export default [
       CRT: 457,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29299,
@@ -37886,7 +36084,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29300,
@@ -37905,7 +36102,6 @@ export default [
       DET: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29301,
@@ -37924,7 +36120,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29302,
@@ -37943,7 +36138,6 @@ export default [
       SKS: 320,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29303,
@@ -37962,7 +36156,6 @@ export default [
       DET: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29304,
@@ -37981,7 +36174,6 @@ export default [
       CRT: 320,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29305,
@@ -38000,7 +36192,6 @@ export default [
       SKS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29306,
@@ -38019,7 +36210,6 @@ export default [
       DET: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29307,
@@ -38038,7 +36228,6 @@ export default [
       CRT: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29308,
@@ -38057,7 +36246,6 @@ export default [
       DET: 457,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29309,
@@ -38076,7 +36264,6 @@ export default [
       DET: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29310,
@@ -38095,7 +36282,6 @@ export default [
       DET: 320,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29311,
@@ -38114,7 +36300,6 @@ export default [
       SPS: 197,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29312,
@@ -38133,7 +36318,6 @@ export default [
       DET: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29313,
@@ -38152,7 +36336,6 @@ export default [
       CRT: 281,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29314,
@@ -38171,7 +36354,6 @@ export default [
       SPS: 457,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29315,
@@ -38190,7 +36372,6 @@ export default [
       SPS: 281,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29316,
@@ -38209,7 +36390,6 @@ export default [
       CRT: 457,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29317,
@@ -38228,7 +36408,6 @@ export default [
       SPS: 281,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29318,
@@ -38247,7 +36426,6 @@ export default [
       CRT: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29319,
@@ -38266,7 +36444,6 @@ export default [
       DET: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29320,
@@ -38285,7 +36462,6 @@ export default [
       SKS: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29321,
@@ -38304,7 +36480,6 @@ export default [
       DET: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29322,
@@ -38323,7 +36498,6 @@ export default [
       SPS: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29323,
@@ -38342,7 +36516,6 @@ export default [
       DET: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29324,
@@ -38361,7 +36534,6 @@ export default [
       SKS: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29325,
@@ -38380,7 +36552,6 @@ export default [
       DET: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29326,
@@ -38399,7 +36570,6 @@ export default [
       DET: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29327,
@@ -38418,7 +36588,6 @@ export default [
       DET: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29328,
@@ -38437,7 +36606,6 @@ export default [
       SPS: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29329,
@@ -38456,7 +36624,6 @@ export default [
       DET: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29330,
@@ -38475,7 +36642,6 @@ export default [
       DET: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29331,
@@ -38494,7 +36660,6 @@ export default [
       CRT: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29332,
@@ -38513,7 +36678,6 @@ export default [
       CRT: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29333,
@@ -38532,7 +36696,6 @@ export default [
       SPS: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29334,
@@ -38551,7 +36714,6 @@ export default [
       DET: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29335,
@@ -38570,7 +36732,6 @@ export default [
       CRT: 148,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29336,
@@ -38589,7 +36750,6 @@ export default [
       DET: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29337,
@@ -38608,7 +36768,6 @@ export default [
       DET: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 29338,
@@ -38627,7 +36786,6 @@ export default [
       DET: 211,
     },
     source: '点数强化/奇谭',
-    patch: '5.2',
   },
   {
     id: 30293,
@@ -40290,7 +38448,6 @@ export default [
       DLY: 2240,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29038,
@@ -40311,7 +38468,6 @@ export default [
       DLY: 2560,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29039,
@@ -40332,7 +38488,6 @@ export default [
       DLY: 3360,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29040,
@@ -40353,7 +38508,6 @@ export default [
       DLY: 2800,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29041,
@@ -40374,7 +38528,6 @@ export default [
       DLY: 3040,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29042,
@@ -40395,7 +38548,6 @@ export default [
       DLY: 2560,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29043,
@@ -40416,7 +38568,6 @@ export default [
       DLY: 2960,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29044,
@@ -40437,7 +38588,6 @@ export default [
       DLY: 2640,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29045,
@@ -40457,7 +38607,6 @@ export default [
       MDMG: 172,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29046,
@@ -40477,7 +38626,6 @@ export default [
       MDMG: 172,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29047,
@@ -40497,7 +38645,6 @@ export default [
       MDMG: 172,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29048,
@@ -40517,7 +38664,6 @@ export default [
       MDMG: 172,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29049,
@@ -40537,7 +38683,6 @@ export default [
       MDMG: 172,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29050,
@@ -40558,7 +38703,6 @@ export default [
       DLY: 2640,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29051,
@@ -40578,7 +38722,6 @@ export default [
       MDMG: 172,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29052,
@@ -40599,7 +38742,6 @@ export default [
       DLY: 2800,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29053,
@@ -40620,7 +38762,6 @@ export default [
       DLY: 3120,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 29054,
@@ -40639,7 +38780,6 @@ export default [
       DET: 100,
     },
     source: '零式/共鸣之章',
-    patch: '5.2',
   },
   {
     id: 31813,

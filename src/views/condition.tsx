@@ -372,6 +372,22 @@ export const Condition = mobxReact.observer(() => {
                   />
                 </div>
                 <div className="setting_section">
+                  <span className="setting_title">隐藏已废弃的装备</span>
+                  <span className="setting_sub">部分粉色稀有度的装备、未强化的旧点数装备</span>
+                </div>
+                <div className="setting_controls">
+                  <Radio
+                    label="隐藏"
+                    checked={store.setting.hideObsoleteGears}
+                    onChange={() => store.setting.setHideObsoleteGears(true)}
+                  />
+                  <Radio
+                    label="显示"
+                    checked={!store.setting.hideObsoleteGears}
+                    onChange={() => store.setting.setHideObsoleteGears(false)}
+                  />
+                </div>
+                <div className="setting_section">
                   <span className="setting_title">高饱和度模式</span>
                   <span className="setting_sub">如果默认高亮颜色难以辨识请启用此模式</span>
                 </div>

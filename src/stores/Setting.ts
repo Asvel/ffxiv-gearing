@@ -8,19 +8,17 @@ const storageKey = 'ffxiv-gearing-setting';
 
 export const Setting = mst.types
   .model({
-    highSaturation: mst.types.optional(mst.types.boolean, false),
     gearDisplayName: mst.types.optional(mst.types.string as mst.ISimpleType<GearDisplayName>, 'name'),
     gearColorScheme: mst.types.optional(mst.types.string as mst.ISimpleType<GearColorScheme>, 'source'),
     materiaDisplayName: mst.types.optional(mst.types.string as mst.ISimpleType<MateriaDisplayName>, 'stat'),
     displayMeldedStats: mst.types.optional(mst.types.boolean, true),
+    hideObsoleteGears: mst.types.optional(mst.types.boolean, true),
+    highSaturation: mst.types.optional(mst.types.boolean, false),
   })
   .actions(self => ({
     afterCreate(): void {
       mst.applySnapshot(self, JSON.parse(localStorage.getItem(storageKey) ?? '{}'));
       mst.onSnapshot(self, snapshot => localStorage.setItem(storageKey, JSON.stringify(snapshot)));
-    },
-    setHighSaturation(highSaturation: boolean): void {
-      self.highSaturation = highSaturation;
     },
     setGearDisplayName(gearDisplayName: GearDisplayName): void {
       self.gearDisplayName = gearDisplayName;
@@ -33,6 +31,12 @@ export const Setting = mst.types
     },
     setDisplayMeldedStats(displayMeldedStats: boolean): void {
       self.displayMeldedStats = displayMeldedStats;
+    },
+    setHideObsoleteGears(hideObsoleteGears: boolean): void {
+      self.hideObsoleteGears = hideObsoleteGears;
+    },
+    setHighSaturation(highSaturation: boolean): void {
+      self.highSaturation = highSaturation;
     },
   }));
 
