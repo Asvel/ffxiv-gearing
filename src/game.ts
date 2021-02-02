@@ -369,7 +369,7 @@ export const jobSchemas = {
     statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
     noMainStatTrait: true,
-    traitDamageMultiplier: 1.3,
+    traitDamageMultiplier: 1.5,
     partyBonus: 1.01,
   } as JobSchema,
   CRP: {

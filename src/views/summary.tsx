@@ -69,7 +69,7 @@ export const Summary = mobxReact.observer(() => {
             }}
           />
         )}
-        {effects && (
+        {effects && store.job !== 'BLU' && (  // TODO: figure out BLU damage calculation
           <span className="summary_stat summary_damage">
             {effects.damage.toFixed(5)}
             <Tooltip
