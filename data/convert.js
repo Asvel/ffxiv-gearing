@@ -100,75 +100,75 @@ const jobCategoryOfMainStats = {
 const gears = Item
   .map((x, index) => {
     if (jobCategories[x['ClassJobCategory']] === undefined) return;
+
+    const ret = {};
+    ret.id = Number(x['#']);
+    ret.name = ItemCn[index]?.['Name'] || x['Name'];
+    ret.level = Number(x['Level{Item}']);
+    ret.rarity = Number(x['Rarity']);
+    ret.slot = Number(x['EquipSlotCategory']);
+    ret.role = Number(x['BaseParamModifier']);
+    ret.jobCategory = Number(x['ClassJobCategory']);
+    ret.equipLevel = Number(x['Level{Equip}']);
+    ret.materiaSlot = Number(x['MateriaSlotCount']);
+    ret.materiaAdvanced = x['IsAdvancedMeldingPermitted'] === 'True' ? true : undefined;
+    ret.stats = {};
+    ret.hq = x['CanBeHq'] === 'True' ? true : undefined;
+    ret.source = sourceOfId[x['#']];
+    ret.patch = patches[patchIds[x['#']]];
+
+    // stats
     const rawStats = {};
     for (let i = 0; i < 6; i++) {
       rawStats[x[`BaseParam[${i}]`]] = (rawStats[x[`BaseParam[${i}]`]] || 0) + Number(x[`BaseParamValue[${i}]`]);
-      if (x['CanBeHq'] === 'True') {  // 不能 HQ 的装备 {Special} 属性有值可能是有套装效果
-        rawStats[x[`BaseParam{Special}[${i}]`]] = (rawStats[x[`BaseParam{Special}[${i}]`]] || 0) +
+      if (ret.hq) {  // 不能 HQ 的装备 {Special} 属性有值可能是有套装效果
+        rawStats[x[`BaseParam{Special}[${i}]`]] = (rawStats[x[`BaseParam{Special}[${i}]`]] ?? 0) +
           Number(x[`BaseParamValue{Special}[${i}]`]);
       }
     }
-    rawStats[12] = (rawStats[12] || 0) + Number(x['Damage{Phys}']);
-    rawStats[13] = (rawStats[13] || 0) + Number(x['Damage{Mag}']);
-    // rawStats[14] = (rawStats[14] || 0) + Number(x['Delay<ms>']);
-    const stats = {};
+    rawStats[12] = (rawStats[12] ?? 0) + Number(x['Damage{Phys}']);
+    rawStats[13] = (rawStats[13] ?? 0) + Number(x['Damage{Mag}']);
     for (const k of Object.keys(rawStats)) {
-      if (rawStats[k] > 0 && k !== '12' && k !== '13') {
-        if (k in statAbbrs) {
-          stats[statAbbrs[k]] = rawStats[k];
-        }
+      if (rawStats[k] > 0 && k in statAbbrs && k !== '12' && k !== '13') {
+        ret.stats[statAbbrs[k]] = rawStats[k];
       }
     }
-    if (('STR' in stats || 'DEX' in stats) && rawStats[12] > 0) {
-      stats['PDMG'] = rawStats[12];
-      stats['DLY'] = Number(x['Delay<ms>']);  // 攻击间隔不会有 HQ 附加值
+    if (rawStats[12] > 0 && ('STR' in ret.stats || 'DEX' in ret.stats)) {
+      ret.stats['PDMG'] = rawStats[12];
+      ret.stats['DLY'] = Number(x['Delay<ms>']);  // 攻击间隔不会有 HQ 附加值
     }
-    if (('INT' in stats || 'MND' in stats) && rawStats[13] > 0) {
-      stats['MDMG'] = rawStats[13];
+    if (rawStats[13] > 0 && ('INT' in ret.stats || 'MND' in ret.stats)) {
+      ret.stats['MDMG'] = rawStats[13];
     }
-    let jobCategory = Number(x['ClassJobCategory']);
-    if (x['EquipSlotCategory'] === '13' && jobCategory === 129) {  // 青魔武器没有属性
-      stats['MDMG'] = rawStats[13];
+    if (ret.slot === 13 && ret.jobCategory === 129) {  // 青魔武器没有属性
+      ret.stats['MDMG'] = rawStats[13];
     }
-    if (Object.keys(stats).length === 0) return;
-    if (jobCategory === 1 || jobCategory === 34 || jobCategory === 30 || jobCategory === 31) {
-      const existMainStats = ['STR', 'DEX', 'INT', 'MND'].filter(x => x in stats).join(',');
+    if (Object.keys(ret.stats).length === 0) return;
+
+    // jobCategory
+    if (ret.jobCategory === 1 || ret.jobCategory === 34 || ret.jobCategory === 30 || ret.jobCategory === 31) {
+      const existMainStats = ['STR', 'DEX', 'INT', 'MND'].filter(x => x in ret.stats).join(',');
       if (existMainStats !== '') {
-        jobCategory = jobCategoryOfMainStats[existMainStats] || 34;
+        ret.jobCategory = jobCategoryOfMainStats[existMainStats] || 34;
       } else {
-        const craft = 'CMS' in stats || 'CRL' in stats || 'CP' in stats;
-        const gather = 'GTH' in stats || 'PCP' in stats || 'GP' in stats;
-        if (craft && !gather) jobCategory = 33;
-        if (!craft && gather) jobCategory = 32;
-        if (craft && gather) jobCategory = 35;
-        if (!craft && !gather) jobCategory = 34;
+        const craft = 'CMS' in ret.stats || 'CRL' in ret.stats || 'CP' in ret.stats;
+        const gather = 'GTH' in ret.stats || 'PCP' in ret.stats || 'GP' in ret.stats;
+        if (craft && !gather) ret.jobCategory = 33;
+        if (!craft && gather) ret.jobCategory = 32;
+        if (craft && gather) ret.jobCategory = 35;
+        if (!craft && !gather) ret.jobCategory = 34;
       }
     }
-    const equipLevel = Number(x['Level{Equip}']);
-    if (jobCategory === 63 && equipLevel > 60) {  // 青魔并不能装备高等级装备 FIXME: 有了品级限制还需要在这里限制吗
-      jobCategory = 89;
+    if (ret.jobCategory === 63 && ret.equipLevel > 60) {  // 青魔并不能装备高等级装备
+      ret.jobCategory = 89;
     }
-    jobCategoriesUsed[jobCategory] = jobCategories[jobCategory];
-    levelsUsed[x['Level{Item}']] = true;
-    if (sourceOfId[x['#']] === undefined && Number(x['Level{Equip}']) >= 60) {
-      sourcesMissing[x['#']] = x['Name'];
+
+    jobCategoriesUsed[ret.jobCategory] = jobCategories[ret.jobCategory];
+    levelsUsed[ret.level] = true;
+    if (ret.source === undefined && ret.equipLevel >= 60) {
+      sourcesMissing[ret.id] = ret.name;
     }
-    return {
-      id: Number(x['#']),
-      name: ItemCn[index] && ItemCn[index]['Name'] || x['Name'],
-      level: Number(x['Level{Item}']),
-      rarity: Number(x['Rarity']),
-      slot: Number(x['EquipSlotCategory']),
-      role: Number(x['BaseParamModifier']),
-      jobCategory,
-      equipLevel,
-      materiaSlot: Number(x['MateriaSlotCount']),
-      materiaAdvanced: x['IsAdvancedMeldingPermitted'] === 'True' ? true : undefined,
-      stats,
-      hq: x['CanBeHq'] === 'True' ? true : undefined,
-      source: sourceOfId[x['#']],
-      patch: patches[patchIds[x['#']]],
-    };
+    return ret;
   })
   .filter(Boolean)
   .sort((a, b) => {
@@ -181,57 +181,60 @@ const jobCategoryMap = Object.fromEntries(jobCategoriesUsed
 const foods = Item
   .map((x, index) => {
     const itemAction = ItemAction[x['ItemAction']];
-    if ((itemAction['Type'] === '844' || itemAction['Type'] === '845') && x['CanBeHq'] === 'True') {
-      const itemFood = ItemFood[itemAction['Data[1]']];
-      const stats = {};
-      const statRates = {};
-      for (const i of [0, 1, 2]) {
-        const stat = statAbbrs[itemFood[`BaseParam[${i}]`]];
-        if (stat !== undefined) {
-          if (itemFood[`IsRelative[${i}]`] === 'True') {
-            stats[stat] = Number(itemFood[`Max{HQ}[${i}]`]);
-            statRates[stat] = Number(itemFood[`Value{HQ}[${i}]`]);
-          } else {
-            stats[stat] = Number(itemFood[`Value{HQ}[${i}]`]);
-          }
+    if ((itemAction['Type'] !== '844' && itemAction['Type'] !== '845') || x['CanBeHq'] !== 'True') return;
+    const itemFood = ItemFood[itemAction['Data[1]']];
+
+    const ret = {};
+    ret.id = Number(x['#']);
+    ret.name = ItemCn[index]?.['Name'] || x['Name'];
+    ret.level = Number(x['Level{Item}']);
+    ret.slot = -1;
+    ret.jobCategory = undefined;
+    ret.stats = {};
+    ret.statRates = {};
+    ret.statMain = statAbbrs[itemFood['BaseParam[0]']];
+    ret.patch = patches[patchIds[x['#']]];
+
+    // stats
+    for (const i of [0, 1, 2]) {
+      const stat = statAbbrs[itemFood[`BaseParam[${i}]`]];
+      if (stat !== undefined) {
+        if (itemFood[`IsRelative[${i}]`] === 'True') {
+          ret.stats[stat] = Number(itemFood[`Max{HQ}[${i}]`]);
+          ret.statRates[stat] = Number(itemFood[`Value{HQ}[${i}]`]);
+        } else {
+          ret.stats[stat] = Number(itemFood[`Value{HQ}[${i}]`]);
         }
       }
-      if (Object.keys(stats).length === 0) return;
-      const jobs = {};
-      if ('CMS' in stats || 'CRL' in stats || 'CP' in stats) {
-        ['CRP', 'BSM', 'ARM', 'GSM', 'LTW', 'WVR', 'ALC', 'CUL'].forEach(j => jobs[j] = true);
-      }
-      if ('GTH' in stats || 'PCP' in stats || 'GP' in stats) {
-        ['MIN', 'BTN', 'FSH'].forEach(j => jobs[j] = true);
-      }
-      if ('TEN' in stats) {
-        ['PLD', 'WAR', 'DRK', 'GNB'].forEach(j => jobs[j] = true);
-      }
-      if ('PIE' in stats) {
-        ['WHM', 'SCH', 'AST'].forEach(j => jobs[j] = true);
-      }
-      if (Object.keys(jobs).length === 0) {
-        if (!('SPS' in stats)) {
-          ['PLD', 'WAR', 'DRK', 'GNB', 'MNK', 'DRG', 'NIN', 'SAM', 'BRD', 'MCH', 'DNC'].forEach(j => jobs[j] = true);
-        }
-        if (!('SKS' in stats)) {
-          ['WHM', 'SCH', 'AST', 'BLM', 'SMN', 'RDM', 'BLU'].forEach(j => jobs[j] = true);
-        }
-      }
-      const jobCategory = jobCategoryMap[Object.keys(jobs).sort().join(',')];
-      if (!jobCategory) debugger;
-      return {
-        id: Number(x['#']),
-        name: ItemCn[index] && ItemCn[index]['Name'] || x['Name'],
-        level: Number(x['Level{Item}']),
-        slot: -1,
-        jobCategory,
-        stats,
-        statRates,
-        statMain: statAbbrs[itemFood['BaseParam[0]']],
-        patch: patches[patchIds[x['#']]],
-      };
     }
+    if (Object.keys(ret.stats).length === 0) return;
+
+    // jobCategory
+    const jobs = {};
+    if ('CMS' in ret.stats || 'CRL' in ret.stats || 'CP' in ret.stats) {
+      ['CRP', 'BSM', 'ARM', 'GSM', 'LTW', 'WVR', 'ALC', 'CUL'].forEach(j => jobs[j] = true);
+    }
+    if ('GTH' in ret.stats || 'PCP' in ret.stats || 'GP' in ret.stats) {
+      ['MIN', 'BTN', 'FSH'].forEach(j => jobs[j] = true);
+    }
+    if ('TEN' in ret.stats) {
+      ['PLD', 'WAR', 'DRK', 'GNB'].forEach(j => jobs[j] = true);
+    }
+    if ('PIE' in ret.stats) {
+      ['WHM', 'SCH', 'AST'].forEach(j => jobs[j] = true);
+    }
+    if (Object.keys(jobs).length === 0) {
+      if (!('SPS' in ret.stats)) {
+        ['PLD', 'WAR', 'DRK', 'GNB', 'MNK', 'DRG', 'NIN', 'SAM', 'BRD', 'MCH', 'DNC'].forEach(j => jobs[j] = true);
+      }
+      if (!('SKS' in ret.stats)) {
+        ['WHM', 'SCH', 'AST', 'BLM', 'SMN', 'RDM', 'BLU'].forEach(j => jobs[j] = true);
+      }
+    }
+    ret.jobCategory = jobCategoryMap[Object.keys(jobs).sort().join(',')];
+    if (ret.jobCategory === undefined) debugger;
+
+    return ret;
   })
   .filter(Boolean);
 

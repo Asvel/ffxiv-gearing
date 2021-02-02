@@ -45,15 +45,15 @@ module.exports = {
       '@typescript-eslint/require-array-sort-compare': 'error',
     },
   }, {
+    files: ['src/*.js'],
+    rules: {
+      '@typescript-eslint/prefer-optional-chain': 'off',
+    },
+  }, {
     files: ['*.js'],
     excludedFiles: 'src/*',
     env: {
       node: true,
-    },
-  }, {
-    files: ['*.js'],
-    rules: {
-      '@typescript-eslint/prefer-optional-chain': 'off',
     },
   }],
 };
