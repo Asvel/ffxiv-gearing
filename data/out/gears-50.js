@@ -9,14 +9,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 10,
       PDMG: 37,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 1676,
@@ -28,7 +26,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
@@ -37,7 +34,6 @@ export default [
       PDMG: 37,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 1677,
@@ -49,7 +45,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 10,
@@ -58,7 +53,6 @@ export default [
       PDMG: 37,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 1735,
@@ -70,14 +64,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 1800,
@@ -109,14 +101,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 1871,
@@ -148,14 +138,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 3120,
     },
-    hq: false,
   },
   {
     id: 1886,
@@ -167,7 +155,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -176,7 +163,6 @@ export default [
       PDMG: 37,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 1941,
@@ -208,14 +194,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 2046,
@@ -227,13 +211,11 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 2047,
@@ -264,13 +246,11 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 2191,
@@ -282,13 +262,11 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 2192,
@@ -300,13 +278,11 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 2307,
@@ -318,14 +294,12 @@ export default [
     jobCategory: 56,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 3,
       VIT: 4,
       INT: 4,
       MND: 4,
     },
-    hq: false,
   },
   {
     id: 2895,
@@ -353,14 +327,12 @@ export default [
     jobCategory: 20,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 14,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 2898,
@@ -372,14 +344,12 @@ export default [
     jobCategory: 21,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 2899,
@@ -391,14 +361,12 @@ export default [
     jobCategory: 22,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 9,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 2900,
@@ -410,14 +378,12 @@ export default [
     jobCategory: 23,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 14,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 2901,
@@ -429,14 +395,12 @@ export default [
     jobCategory: 24,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 2902,
@@ -448,14 +412,12 @@ export default [
     jobCategory: 25,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 2903,
@@ -467,14 +429,12 @@ export default [
     jobCategory: 26,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       CRT: 10,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 2904,
@@ -486,14 +446,12 @@ export default [
     jobCategory: 28,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 2905,
@@ -505,14 +463,12 @@ export default [
     jobCategory: 29,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 5,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 2943,
@@ -524,14 +480,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 14,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 2944,
@@ -543,7 +497,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -551,7 +504,6 @@ export default [
       CRT: 10,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 2945,
@@ -563,7 +515,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -571,7 +522,6 @@ export default [
       CRT: 10,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 2951,
@@ -583,14 +533,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 3208,
@@ -673,7 +621,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       DEX: 28,
@@ -682,7 +629,6 @@ export default [
       DET: 33,
       SKS: 50,
     },
-    hq: false,
   },
   {
     id: 3458,
@@ -694,14 +640,12 @@ export default [
     jobCategory: 20,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
       TEN: 22,
       DHT: 15,
     },
-    hq: false,
   },
   {
     id: 3459,
@@ -713,14 +657,12 @@ export default [
     jobCategory: 21,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
       DHT: 22,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 3460,
@@ -732,14 +674,12 @@ export default [
     jobCategory: 22,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
       TEN: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 3461,
@@ -751,14 +691,12 @@ export default [
     jobCategory: 23,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
       CRT: 15,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 3462,
@@ -770,14 +708,12 @@ export default [
     jobCategory: 24,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
       CRT: 22,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 3463,
@@ -789,14 +725,12 @@ export default [
     jobCategory: 25,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       PIE: 12,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 3464,
@@ -808,14 +742,12 @@ export default [
     jobCategory: 26,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       CRT: 15,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 3465,
@@ -827,14 +759,12 @@ export default [
     jobCategory: 28,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       DHT: 22,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 3466,
@@ -846,14 +776,12 @@ export default [
     jobCategory: 29,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       PIE: 12,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 3473,
@@ -884,13 +812,11 @@ export default [
     jobCategory: 30,
     equipLevel: 49,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
       VIT: 13,
     },
-    hq: false,
   },
   {
     id: 3475,
@@ -919,14 +845,12 @@ export default [
     jobCategory: 20,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 14,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 3683,
@@ -938,14 +862,12 @@ export default [
     jobCategory: 21,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 9,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 3684,
@@ -957,14 +879,12 @@ export default [
     jobCategory: 22,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 10,
       DHT: 14,
     },
-    hq: false,
   },
   {
     id: 3685,
@@ -976,14 +896,12 @@ export default [
     jobCategory: 23,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 9,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 3686,
@@ -995,14 +913,12 @@ export default [
     jobCategory: 24,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 3687,
@@ -1014,14 +930,12 @@ export default [
     jobCategory: 25,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 3688,
@@ -1033,14 +947,12 @@ export default [
     jobCategory: 28,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 14,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 3689,
@@ -1052,14 +964,12 @@ export default [
     jobCategory: 29,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 3690,
@@ -1071,14 +981,12 @@ export default [
     jobCategory: 26,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 10,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 3698,
@@ -1106,14 +1014,12 @@ export default [
     jobCategory: 20,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 10,
       DHT: 14,
     },
-    hq: false,
   },
   {
     id: 3890,
@@ -1125,14 +1031,12 @@ export default [
     jobCategory: 21,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       CRT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 3891,
@@ -1144,14 +1048,12 @@ export default [
     jobCategory: 22,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 10,
       DHT: 14,
     },
-    hq: false,
   },
   {
     id: 3892,
@@ -1163,14 +1065,12 @@ export default [
     jobCategory: 23,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 3893,
@@ -1182,14 +1082,12 @@ export default [
     jobCategory: 24,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       CRT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 3894,
@@ -1201,14 +1099,12 @@ export default [
     jobCategory: 25,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 5,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 3895,
@@ -1220,14 +1116,12 @@ export default [
     jobCategory: 26,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 3896,
@@ -1239,14 +1133,12 @@ export default [
     jobCategory: 28,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 14,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 3897,
@@ -1258,14 +1150,12 @@ export default [
     jobCategory: 29,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 3918,
@@ -1309,12 +1199,10 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       VIT: 6,
     },
-    hq: false,
   },
   {
     id: 7887,
@@ -1326,14 +1214,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 7889,
@@ -1345,14 +1231,12 @@ export default [
     jobCategory: 92,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 7891,
@@ -1364,14 +1248,12 @@ export default [
     jobCategory: 92,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
       DHT: 22,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 7892,
@@ -1383,14 +1265,12 @@ export default [
     jobCategory: 92,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DET: 9,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 7893,
@@ -1402,14 +1282,12 @@ export default [
     jobCategory: 92,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       CRT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8391,
@@ -1421,14 +1299,12 @@ export default [
     jobCategory: 20,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 14,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 8393,
@@ -1440,14 +1316,12 @@ export default [
     jobCategory: 20,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 14,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 8394,
@@ -1459,14 +1333,12 @@ export default [
     jobCategory: 20,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
       TEN: 22,
       DHT: 15,
     },
-    hq: false,
   },
   {
     id: 8395,
@@ -1478,14 +1350,12 @@ export default [
     jobCategory: 20,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 10,
       DHT: 14,
     },
-    hq: false,
   },
   {
     id: 8396,
@@ -1497,14 +1367,12 @@ export default [
     jobCategory: 21,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8398,
@@ -1516,14 +1384,12 @@ export default [
     jobCategory: 21,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 9,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8399,
@@ -1535,14 +1401,12 @@ export default [
     jobCategory: 21,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
       DHT: 22,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8400,
@@ -1554,14 +1418,12 @@ export default [
     jobCategory: 21,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       CRT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8401,
@@ -1573,14 +1435,12 @@ export default [
     jobCategory: 22,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 9,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8403,
@@ -1592,14 +1452,12 @@ export default [
     jobCategory: 22,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 10,
       DHT: 14,
     },
-    hq: false,
   },
   {
     id: 8404,
@@ -1611,14 +1469,12 @@ export default [
     jobCategory: 22,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
       TEN: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8405,
@@ -1630,14 +1486,12 @@ export default [
     jobCategory: 22,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 10,
       DHT: 14,
     },
-    hq: false,
   },
   {
     id: 8406,
@@ -1649,14 +1503,12 @@ export default [
     jobCategory: 23,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 14,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 8408,
@@ -1668,14 +1520,12 @@ export default [
     jobCategory: 23,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 9,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8409,
@@ -1687,14 +1537,12 @@ export default [
     jobCategory: 23,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
       CRT: 15,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 8410,
@@ -1706,14 +1554,12 @@ export default [
     jobCategory: 23,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8411,
@@ -1725,14 +1571,12 @@ export default [
     jobCategory: 24,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8413,
@@ -1744,14 +1588,12 @@ export default [
     jobCategory: 24,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8414,
@@ -1763,14 +1605,12 @@ export default [
     jobCategory: 24,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
       CRT: 22,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8415,
@@ -1782,14 +1622,12 @@ export default [
     jobCategory: 24,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       CRT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8416,
@@ -1801,14 +1639,12 @@ export default [
     jobCategory: 25,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 8418,
@@ -1820,14 +1656,12 @@ export default [
     jobCategory: 25,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 8419,
@@ -1839,14 +1673,12 @@ export default [
     jobCategory: 25,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       PIE: 12,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8420,
@@ -1858,14 +1690,12 @@ export default [
     jobCategory: 25,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 5,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 8421,
@@ -1877,14 +1707,12 @@ export default [
     jobCategory: 26,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       CRT: 10,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 8423,
@@ -1896,14 +1724,12 @@ export default [
     jobCategory: 26,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 10,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 8424,
@@ -1915,14 +1741,12 @@ export default [
     jobCategory: 26,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       CRT: 15,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 8425,
@@ -1934,14 +1758,12 @@ export default [
     jobCategory: 26,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8426,
@@ -1953,14 +1775,12 @@ export default [
     jobCategory: 28,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8428,
@@ -1972,14 +1792,12 @@ export default [
     jobCategory: 28,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 14,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 8429,
@@ -1991,14 +1809,12 @@ export default [
     jobCategory: 28,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       DHT: 22,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8430,
@@ -2010,14 +1826,12 @@ export default [
     jobCategory: 28,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 14,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 8431,
@@ -2029,14 +1843,12 @@ export default [
     jobCategory: 29,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 5,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 8433,
@@ -2048,14 +1860,12 @@ export default [
     jobCategory: 29,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 8434,
@@ -2067,14 +1877,12 @@ export default [
     jobCategory: 29,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       PIE: 12,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8435,
@@ -2086,14 +1894,12 @@ export default [
     jobCategory: 29,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 9257,
@@ -2105,14 +1911,12 @@ export default [
     jobCategory: 92,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 9259,
@@ -2124,14 +1928,12 @@ export default [
     jobCategory: 92,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
       DHT: 22,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 9260,
@@ -2143,14 +1945,12 @@ export default [
     jobCategory: 92,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DET: 9,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 9261,
@@ -2162,14 +1962,12 @@ export default [
     jobCategory: 92,
     equipLevel: 45,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       CRT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 10024,
@@ -2181,14 +1979,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 10,
       PDMG: 37,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 10025,
@@ -2200,14 +1996,12 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10026,
@@ -2219,14 +2013,12 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 10027,
@@ -2238,14 +2030,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10028,
@@ -2257,14 +2047,12 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10029,
@@ -2276,13 +2064,11 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 10030,
@@ -2294,13 +2080,11 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 10031,
@@ -2312,14 +2096,12 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 10037,
@@ -2331,13 +2113,11 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       DEX: 7,
       VIT: 7,
     },
-    hq: false,
   },
   {
     id: 10038,
@@ -2349,13 +2129,11 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       DEX: 11,
       VIT: 12,
     },
-    hq: false,
   },
   {
     id: 10039,
@@ -2367,7 +2145,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       DEX: 7,
@@ -2376,7 +2153,6 @@ export default [
       MND: 7,
       PIE: 7,
     },
-    hq: false,
   },
   {
     id: 10040,
@@ -2388,13 +2164,11 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       DEX: 11,
       VIT: 12,
     },
-    hq: false,
   },
   {
     id: 10041,
@@ -2406,7 +2180,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       DEX: 7,
@@ -2415,7 +2188,6 @@ export default [
       MND: 7,
       PIE: 7,
     },
-    hq: false,
   },
   {
     id: 10152,
@@ -2427,14 +2199,12 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 7,
       MND: 7,
       PIE: 7,
     },
-    hq: false,
   },
   {
     id: 10153,
@@ -2446,14 +2216,12 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 11,
       MND: 11,
       PIE: 11,
     },
-    hq: false,
   },
   {
     id: 10154,
@@ -2465,14 +2233,12 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 11,
       MND: 11,
       PIE: 11,
     },
-    hq: false,
   },
   {
     id: 13260,
@@ -2484,14 +2250,12 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 13261,
@@ -2503,14 +2267,12 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 13790,
@@ -2522,7 +2284,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 10,
@@ -2543,7 +2304,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -2564,7 +2324,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -2585,7 +2344,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -2606,7 +2364,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
@@ -2627,7 +2384,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
@@ -2647,7 +2403,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 10,
@@ -2667,7 +2422,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
@@ -2687,7 +2441,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
@@ -2707,7 +2460,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
@@ -2728,7 +2480,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -2749,7 +2500,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
@@ -2770,7 +2520,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
@@ -2790,7 +2539,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 4,
       VIT: 4,
@@ -2809,7 +2557,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -2828,7 +2575,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -2847,7 +2593,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -2866,7 +2611,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -2885,7 +2629,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -2904,7 +2647,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -2923,7 +2665,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -2942,7 +2683,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -2961,7 +2701,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -2980,7 +2719,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -2999,7 +2737,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -3019,7 +2756,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -3039,7 +2775,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -3059,7 +2794,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -3079,7 +2813,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -3099,7 +2832,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -3118,7 +2850,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
@@ -3137,7 +2868,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -3156,7 +2886,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
@@ -3175,7 +2904,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -3194,7 +2922,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -3213,7 +2940,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
@@ -3232,7 +2958,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -3251,7 +2976,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
@@ -3270,7 +2994,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -3289,7 +3012,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -3308,7 +3030,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -3327,7 +3048,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -3346,7 +3066,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -3365,7 +3084,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -3384,7 +3102,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 4,
       VIT: 4,
@@ -3403,7 +3120,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 10,
@@ -3424,7 +3140,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -3445,7 +3160,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -3466,7 +3180,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -3487,7 +3200,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
@@ -3508,7 +3220,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
@@ -3529,7 +3240,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
@@ -3549,7 +3259,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
@@ -3569,7 +3278,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
@@ -3590,7 +3298,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
@@ -3611,7 +3318,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -3632,7 +3338,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
@@ -3653,7 +3358,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
@@ -3674,7 +3378,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -3693,7 +3396,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -3712,7 +3414,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -3731,7 +3432,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -3750,7 +3450,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -3769,7 +3468,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -3788,7 +3486,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -3807,7 +3504,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -3826,7 +3522,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -3845,7 +3540,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -3864,7 +3558,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -3884,7 +3577,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -3904,7 +3596,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -3924,7 +3615,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -3944,7 +3634,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -3964,7 +3653,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -3983,7 +3671,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
@@ -4002,7 +3689,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -4021,7 +3707,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
@@ -4040,7 +3725,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -4059,7 +3743,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -4079,7 +3762,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
@@ -4099,7 +3781,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -4119,7 +3800,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
@@ -4139,7 +3819,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -4159,7 +3838,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -4178,7 +3856,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -4197,7 +3874,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -4216,7 +3892,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -4235,7 +3910,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -4254,7 +3928,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4273,7 +3946,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -4292,7 +3964,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4311,7 +3982,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -4330,7 +4000,6 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4349,7 +4018,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4368,7 +4036,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -4387,7 +4054,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4406,7 +4072,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -4425,7 +4090,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4444,7 +4108,6 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4463,7 +4126,6 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -4482,7 +4144,6 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4501,7 +4162,6 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 13,
@@ -4520,7 +4180,6 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
@@ -4539,7 +4198,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -4558,7 +4216,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
@@ -4577,7 +4234,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -4596,7 +4252,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
@@ -4615,7 +4270,6 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -4634,7 +4288,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -4654,7 +4307,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
@@ -4674,7 +4326,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -4694,7 +4345,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
@@ -4714,7 +4364,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
@@ -4734,7 +4383,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -4753,7 +4401,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -4772,7 +4419,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -4791,7 +4437,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -4810,7 +4455,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
@@ -4829,7 +4473,6 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -4848,7 +4491,6 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
@@ -4867,7 +4509,6 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -4886,7 +4527,6 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 13,
@@ -4905,7 +4545,6 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
@@ -4924,7 +4563,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
@@ -4944,7 +4582,6 @@ export default [
     jobCategory: 34,
     equipLevel: 1,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 5,
       DEX: 5,
@@ -4952,7 +4589,6 @@ export default [
       INT: 5,
       MND: 5,
     },
-    hq: false,
   },
   {
     id: 20499,
@@ -4964,14 +4600,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 10,
       PDMG: 37,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 20500,
@@ -4983,14 +4617,12 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 20501,
@@ -5002,14 +4634,12 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 20502,
@@ -5021,14 +4651,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 20503,
@@ -5040,14 +4668,12 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 20504,
@@ -5059,14 +4685,12 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 20505,
@@ -5078,14 +4702,12 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 20506,
@@ -5097,14 +4719,12 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20507,
@@ -5116,13 +4736,11 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 20508,
@@ -5134,13 +4752,11 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 20509,
@@ -5152,13 +4768,11 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 20510,
@@ -5170,13 +4784,11 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 20511,
@@ -5188,13 +4800,11 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 20512,
@@ -5206,14 +4816,12 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       PDMG: 37,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20513,
@@ -5225,13 +4833,11 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
       MDMG: 57,
     },
-    hq: false,
   },
   {
     id: 20514,
@@ -5243,12 +4849,10 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 4,
       VIT: 4,
     },
-    hq: false,
   },
   {
     id: 1662,
@@ -5260,7 +4864,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
@@ -5269,7 +4872,6 @@ export default [
       PDMG: 37,
       DLY: 2000,
     },
-    hq: false,
   },
   {
     id: 1731,
@@ -5281,7 +4883,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
@@ -5290,7 +4891,6 @@ export default [
       PDMG: 37,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 1799,
@@ -5302,7 +4902,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
@@ -5311,7 +4910,6 @@ export default [
       PDMG: 37,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 1870,
@@ -5323,7 +4921,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
@@ -5332,7 +4929,6 @@ export default [
       PDMG: 37,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 1940,
@@ -5344,7 +4940,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 14,
       VIT: 15,
@@ -5353,7 +4948,6 @@ export default [
       PDMG: 37,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 2043,
@@ -5365,7 +4959,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       MND: 14,
@@ -5373,7 +4966,6 @@ export default [
       DET: 16,
       MDMG: 58,
     },
-    hq: false,
   },
   {
     id: 2132,
@@ -5385,7 +4977,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 14,
@@ -5393,7 +4984,6 @@ export default [
       SPS: 17,
       MDMG: 58,
     },
-    hq: false,
   },
   {
     id: 2271,
@@ -5405,14 +4995,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 4,
       VIT: 4,
       TEN: 7,
       DET: 3,
     },
-    hq: false,
   },
   {
     id: 2290,
@@ -5424,7 +5012,6 @@ export default [
     jobCategory: 56,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 4,
       INT: 4,
@@ -5432,7 +5019,6 @@ export default [
       DHT: 7,
       SPS: 5,
     },
-    hq: false,
   },
   {
     id: 2820,
@@ -5444,14 +5030,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 9,
       TEN: 10,
       DHT: 14,
     },
-    hq: false,
   },
   {
     id: 2821,
@@ -5463,12 +5047,10 @@ export default [
     jobCategory: 35,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CRL: 28,
       PCP: 59,
     },
-    hq: false,
   },
   {
     id: 2822,
@@ -5480,14 +5062,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 9,
       DHT: 14,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 2823,
@@ -5499,14 +5079,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 9,
       DHT: 14,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 3167,
@@ -5518,14 +5096,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 14,
       DHT: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 3168,
@@ -5537,14 +5113,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       DHT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3170,
@@ -5556,14 +5130,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 3171,
@@ -5575,14 +5147,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
       DET: 11,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 3418,
@@ -5594,14 +5164,12 @@ export default [
     jobCategory: 60,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       TEN: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 3419,
@@ -5613,14 +5181,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 13,
       INT: 13,
       DET: 11,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 3420,
@@ -5632,7 +5198,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       DEX: 13,
@@ -5640,7 +5205,6 @@ export default [
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 3644,
@@ -5652,14 +5216,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 8,
       INT: 8,
       DET: 6,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 3676,
@@ -5671,14 +5233,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 9,
       TEN: 14,
       DHT: 10,
     },
-    hq: false,
   },
   {
     id: 3863,
@@ -5690,14 +5250,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 8,
       INT: 8,
       DET: 6,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 3864,
@@ -5709,14 +5267,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 9,
       DHT: 10,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 3865,
@@ -5728,7 +5284,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -5736,7 +5291,6 @@ export default [
       DHT: 14,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 4041,
@@ -5748,7 +5302,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 6,
@@ -5756,7 +5309,6 @@ export default [
       DHT: 10,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 4042,
@@ -5768,7 +5320,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       DEX: 6,
@@ -5776,7 +5327,6 @@ export default [
       DHT: 7,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 4043,
@@ -5788,14 +5338,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       VIT: 6,
       TEN: 10,
       DHT: 7,
     },
-    hq: false,
   },
   {
     id: 4054,
@@ -5807,7 +5355,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       DEX: 6,
@@ -5815,7 +5362,6 @@ export default [
       DHT: 10,
       CRT: 7,
     },
-    hq: false,
   },
   {
     id: 4249,
@@ -5827,7 +5373,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       DEX: 6,
@@ -5835,7 +5380,6 @@ export default [
       DET: 5,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 4250,
@@ -5847,14 +5391,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 6,
       DHT: 10,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 4256,
@@ -5866,14 +5408,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       VIT: 6,
       TEN: 7,
       DHT: 10,
     },
-    hq: false,
   },
   {
     id: 4257,
@@ -5885,14 +5425,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 6,
       PIE: 4,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 4357,
@@ -5904,7 +5442,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       DEX: 6,
@@ -5912,7 +5449,6 @@ export default [
       DET: 7,
       SKS: 7,
     },
-    hq: false,
   },
   {
     id: 4358,
@@ -5924,7 +5460,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 6,
@@ -5932,7 +5467,6 @@ export default [
       DET: 7,
       SPS: 7,
     },
-    hq: false,
   },
   {
     id: 4359,
@@ -5944,14 +5478,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       VIT: 6,
       TEN: 7,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 4483,
@@ -5963,7 +5495,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       DEX: 6,
@@ -5971,7 +5502,6 @@ export default [
       DET: 5,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 4484,
@@ -5983,14 +5513,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 6,
       DHT: 10,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 4498,
@@ -6002,14 +5530,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       VIT: 6,
       TEN: 7,
       DHT: 10,
     },
-    hq: false,
   },
   {
     id: 4499,
@@ -6021,14 +5547,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 6,
       PIE: 4,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 1667,
@@ -6040,7 +5564,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
@@ -6048,7 +5571,6 @@ export default [
       PDMG: 38,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 1668,
@@ -6060,7 +5582,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
@@ -6068,7 +5589,6 @@ export default [
       PDMG: 38,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 1669,
@@ -6080,7 +5600,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
@@ -6088,7 +5607,6 @@ export default [
       PDMG: 38,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 1670,
@@ -6121,7 +5639,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6129,7 +5646,6 @@ export default [
       PDMG: 38,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 1738,
@@ -6141,7 +5657,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6149,7 +5664,6 @@ export default [
       PDMG: 38,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 1739,
@@ -6161,7 +5675,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6169,7 +5682,6 @@ export default [
       PDMG: 38,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 1740,
@@ -6202,7 +5714,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6210,7 +5721,6 @@ export default [
       PDMG: 38,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 1808,
@@ -6222,7 +5732,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6230,7 +5739,6 @@ export default [
       PDMG: 38,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 1809,
@@ -6242,7 +5750,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6250,7 +5757,6 @@ export default [
       PDMG: 38,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 1810,
@@ -6283,7 +5789,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6291,7 +5796,6 @@ export default [
       PDMG: 38,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 1877,
@@ -6303,7 +5807,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6311,7 +5814,6 @@ export default [
       PDMG: 38,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 1878,
@@ -6323,7 +5825,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -6331,7 +5832,6 @@ export default [
       PDMG: 38,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 1879,
@@ -6364,7 +5864,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -6372,7 +5871,6 @@ export default [
       PDMG: 38,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 1947,
@@ -6384,7 +5882,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -6392,7 +5889,6 @@ export default [
       PDMG: 38,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 1948,
@@ -6404,7 +5900,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -6412,7 +5907,6 @@ export default [
       PDMG: 38,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 1949,
@@ -6445,14 +5939,12 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       SPS: 18,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 1990,
@@ -6464,14 +5956,12 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       SPS: 18,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 1991,
@@ -6483,14 +5973,12 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       CRT: 18,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2049,
@@ -6522,14 +6010,12 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       CRT: 18,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2100,
@@ -6541,14 +6027,12 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       DHT: 18,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2101,
@@ -6560,14 +6044,12 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       SPS: 18,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2102,
@@ -6599,7 +6081,6 @@ export default [
     jobCategory: 68,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
@@ -6608,7 +6089,6 @@ export default [
       SPS: 18,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2195,
@@ -6620,14 +6100,12 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       SPS: 25,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2196,
@@ -6639,14 +6117,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       SPS: 25,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2197,
@@ -6658,14 +6134,12 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       CRT: 25,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2198,
@@ -6677,14 +6151,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       CRT: 25,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2199,
@@ -6696,14 +6168,12 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       DET: 17,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2200,
@@ -6715,14 +6185,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       PIE: 14,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 2201,
@@ -6774,12 +6242,10 @@ export default [
     jobCategory: 9,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2327,
@@ -6791,12 +6257,10 @@ export default [
     jobCategory: 9,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2339,
@@ -6825,12 +6289,10 @@ export default [
     jobCategory: 10,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2354,
@@ -6842,12 +6304,10 @@ export default [
     jobCategory: 10,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2365,
@@ -6876,12 +6336,10 @@ export default [
     jobCategory: 11,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2379,
@@ -6893,12 +6351,10 @@ export default [
     jobCategory: 11,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2390,
@@ -6927,12 +6383,10 @@ export default [
     jobCategory: 12,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2404,
@@ -6944,12 +6398,10 @@ export default [
     jobCategory: 12,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2415,
@@ -6978,12 +6430,10 @@ export default [
     jobCategory: 13,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2429,
@@ -6995,12 +6445,10 @@ export default [
     jobCategory: 13,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2441,
@@ -7029,12 +6477,10 @@ export default [
     jobCategory: 14,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2455,
@@ -7046,12 +6492,10 @@ export default [
     jobCategory: 14,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2466,
@@ -7080,12 +6524,10 @@ export default [
     jobCategory: 15,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2480,
@@ -7097,12 +6539,10 @@ export default [
     jobCategory: 15,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2492,
@@ -7131,12 +6571,10 @@ export default [
     jobCategory: 16,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2506,
@@ -7148,12 +6586,10 @@ export default [
     jobCategory: 16,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 107,
       CRL: 61,
     },
-    hq: false,
   },
   {
     id: 2518,
@@ -7182,12 +6618,10 @@ export default [
     jobCategory: 17,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 112,
       PCP: 64,
     },
-    hq: false,
   },
   {
     id: 2532,
@@ -7199,12 +6633,10 @@ export default [
     jobCategory: 17,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 112,
       PCP: 64,
     },
-    hq: false,
   },
   {
     id: 2544,
@@ -7233,12 +6665,10 @@ export default [
     jobCategory: 18,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 112,
       PCP: 64,
     },
-    hq: false,
   },
   {
     id: 2558,
@@ -7250,12 +6680,10 @@ export default [
     jobCategory: 18,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 112,
       PCP: 64,
     },
-    hq: false,
   },
   {
     id: 2570,
@@ -7284,12 +6712,10 @@ export default [
     jobCategory: 19,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 112,
       PCP: 64,
     },
-    hq: false,
   },
   {
     id: 2584,
@@ -7301,12 +6727,10 @@ export default [
     jobCategory: 19,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 112,
       PCP: 64,
     },
-    hq: false,
   },
   {
     id: 2866,
@@ -7318,7 +6742,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 8,
       INT: 9,
@@ -7326,7 +6749,6 @@ export default [
       CRT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 2867,
@@ -7338,14 +6760,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 9,
       DHT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 2868,
@@ -7357,14 +6777,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 9,
       CRT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 2869,
@@ -7376,14 +6794,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 9,
       TEN: 14,
       DHT: 10,
     },
-    hq: false,
   },
   {
     id: 2909,
@@ -7395,7 +6811,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -7404,7 +6819,6 @@ export default [
       MND: 8,
       PIE: 7,
     },
-    hq: false,
   },
   {
     id: 2911,
@@ -7474,7 +6888,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -7482,7 +6895,6 @@ export default [
       DHT: 14,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 2917,
@@ -7494,7 +6906,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -7502,7 +6913,6 @@ export default [
       DHT: 14,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 2918,
@@ -7514,7 +6924,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 8,
       INT: 8,
@@ -7522,7 +6931,6 @@ export default [
       DHT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 2920,
@@ -7756,14 +7164,12 @@ export default [
     jobCategory: 60,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       TEN: 16,
       DHT: 23,
     },
-    hq: false,
   },
   {
     id: 3197,
@@ -7775,7 +7181,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 14,
@@ -7783,7 +7188,6 @@ export default [
       DHT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3198,
@@ -7795,14 +7199,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       DET: 11,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 3199,
@@ -7814,14 +7216,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 14,
       VIT: 15,
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 3200,
@@ -7833,14 +7233,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       TEN: 23,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 3220,
@@ -7852,14 +7250,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       TEN: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3221,
@@ -7871,14 +7267,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 3222,
@@ -7890,14 +7284,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       TEN: 23,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 3223,
@@ -7909,14 +7301,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 3224,
@@ -7928,14 +7318,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 14,
       VIT: 15,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 3225,
@@ -7947,14 +7335,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 14,
       PIE: 13,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 3226,
@@ -7966,14 +7352,12 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 14,
       DHT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 3227,
@@ -7985,14 +7369,12 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 14,
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3228,
@@ -8004,14 +7386,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 14,
       PIE: 13,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 3229,
@@ -8279,7 +7659,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       DEX: 13,
@@ -8287,7 +7666,6 @@ export default [
       DET: 11,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 3246,
@@ -8299,14 +7677,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 3247,
@@ -8318,7 +7694,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
@@ -8326,7 +7701,6 @@ export default [
       DET: 11,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 3249,
@@ -8357,14 +7731,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       DHT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3450,
@@ -8376,7 +7748,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 14,
@@ -8384,7 +7755,6 @@ export default [
       DHT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3451,
@@ -8396,14 +7766,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 14,
       VIT: 15,
       DHT: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 3452,
@@ -8415,14 +7783,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       TEN: 23,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 3477,
@@ -8680,14 +8046,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 9,
       DET: 7,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 3674,
@@ -8699,14 +8063,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 9,
       DHT: 14,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 3675,
@@ -8718,7 +8080,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 8,
       INT: 9,
@@ -8726,7 +8087,6 @@ export default [
       DHT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 3699,
@@ -8797,7 +8157,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 8,
       INT: 8,
@@ -8805,7 +8164,6 @@ export default [
       DHT: 14,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 3703,
@@ -8817,7 +8175,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -8825,7 +8182,6 @@ export default [
       DET: 10,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 3704,
@@ -8837,14 +8193,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 3706,
@@ -9043,7 +8397,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 8,
       INT: 9,
@@ -9051,7 +8404,6 @@ export default [
       DHT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 3900,
@@ -9063,14 +8415,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 9,
       DHT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 3901,
@@ -9082,14 +8432,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 9,
       DHT: 14,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 3902,
@@ -9101,14 +8449,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 9,
       TEN: 14,
       DHT: 10,
     },
-    hq: false,
   },
   {
     id: 3920,
@@ -9179,14 +8525,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 3924,
@@ -9198,7 +8542,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 8,
       INT: 8,
@@ -9206,7 +8549,6 @@ export default [
       DET: 10,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 3925,
@@ -9218,7 +8560,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -9226,7 +8567,6 @@ export default [
       DET: 10,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 3927,
@@ -9425,7 +8765,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 7,
@@ -9433,7 +8772,6 @@ export default [
       DET: 5,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 4067,
@@ -9517,11 +8855,9 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 32,
     },
-    hq: false,
   },
   {
     id: 4275,
@@ -9533,11 +8869,9 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 32,
     },
-    hq: false,
   },
   {
     id: 4276,
@@ -9549,11 +8883,9 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 32,
     },
-    hq: false,
   },
   {
     id: 4277,
@@ -9623,11 +8955,9 @@ export default [
     jobCategory: 32,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 22,
     },
-    hq: false,
   },
   {
     id: 4518,
@@ -9639,11 +8969,9 @@ export default [
     jobCategory: 32,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 22,
     },
-    hq: false,
   },
   {
     id: 4519,
@@ -9655,11 +8983,9 @@ export default [
     jobCategory: 32,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 22,
     },
-    hq: false,
   },
   {
     id: 6111,
@@ -9671,7 +8997,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       DEX: 13,
@@ -9680,7 +9005,6 @@ export default [
       MND: 13,
       PIE: 12,
     },
-    hq: false,
   },
   {
     id: 6119,
@@ -9692,14 +9016,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
       TEN: 11,
       CRT: 8,
     },
-    hq: false,
   },
   {
     id: 6120,
@@ -9711,14 +9033,12 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
       DET: 7,
       SKS: 8,
     },
-    hq: false,
   },
   {
     id: 6121,
@@ -9730,14 +9050,12 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
       TEN: 8,
       DHT: 11,
     },
-    hq: false,
   },
   {
     id: 6122,
@@ -9749,14 +9067,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
       CRT: 11,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 6123,
@@ -9768,14 +9084,12 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 7,
       VIT: 7,
       DHT: 11,
       CRT: 8,
     },
-    hq: false,
   },
   {
     id: 6124,
@@ -9787,14 +9101,12 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
       PIE: 6,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 6125,
@@ -9806,14 +9118,12 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 7,
       DET: 7,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 6126,
@@ -9825,7 +9135,6 @@ export default [
     jobCategory: 68,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 7,
@@ -9833,7 +9142,6 @@ export default [
       CRT: 8,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6127,
@@ -9845,11 +9153,9 @@ export default [
     jobCategory: 9,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 17,
     },
-    hq: false,
   },
   {
     id: 6128,
@@ -9861,11 +9167,9 @@ export default [
     jobCategory: 10,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 17,
     },
-    hq: false,
   },
   {
     id: 6129,
@@ -9877,11 +9181,9 @@ export default [
     jobCategory: 11,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 17,
     },
-    hq: false,
   },
   {
     id: 6130,
@@ -9893,11 +9195,9 @@ export default [
     jobCategory: 12,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 17,
     },
-    hq: false,
   },
   {
     id: 6131,
@@ -9909,11 +9209,9 @@ export default [
     jobCategory: 13,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 17,
     },
-    hq: false,
   },
   {
     id: 6132,
@@ -9925,11 +9223,9 @@ export default [
     jobCategory: 14,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 17,
     },
-    hq: false,
   },
   {
     id: 6133,
@@ -9941,11 +9237,9 @@ export default [
     jobCategory: 15,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 17,
     },
-    hq: false,
   },
   {
     id: 6134,
@@ -9957,11 +9251,9 @@ export default [
     jobCategory: 16,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 17,
     },
-    hq: false,
   },
   {
     id: 6135,
@@ -9973,11 +9265,9 @@ export default [
     jobCategory: 17,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 22,
     },
-    hq: false,
   },
   {
     id: 6136,
@@ -9989,11 +9279,9 @@ export default [
     jobCategory: 18,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 22,
     },
-    hq: false,
   },
   {
     id: 6137,
@@ -10005,11 +9293,9 @@ export default [
     jobCategory: 19,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 22,
     },
-    hq: false,
   },
   {
     id: 6139,
@@ -10037,7 +9323,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
@@ -10046,7 +9331,6 @@ export default [
       PDMG: 38,
       DLY: 2000,
     },
-    hq: false,
   },
   {
     id: 6271,
@@ -10058,7 +9342,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -10067,7 +9350,6 @@ export default [
       PDMG: 38,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 6272,
@@ -10079,7 +9361,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -10088,7 +9369,6 @@ export default [
       PDMG: 38,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 6273,
@@ -10100,7 +9380,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -10109,7 +9388,6 @@ export default [
       PDMG: 38,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 6274,
@@ -10121,7 +9399,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -10130,7 +9407,6 @@ export default [
       PDMG: 38,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 6275,
@@ -10142,7 +9418,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
@@ -10150,7 +9425,6 @@ export default [
       DET: 17,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 6276,
@@ -10162,7 +9436,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
@@ -10170,7 +9443,6 @@ export default [
       SPS: 18,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 6277,
@@ -10182,14 +9454,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 4,
       VIT: 5,
       TEN: 7,
       DET: 3,
     },
-    hq: false,
   },
   {
     id: 6278,
@@ -10201,7 +9471,6 @@ export default [
     jobCategory: 56,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 4,
       INT: 4,
@@ -10209,7 +9478,6 @@ export default [
       DHT: 7,
       SPS: 5,
     },
-    hq: false,
   },
   {
     id: 6279,
@@ -10221,7 +9489,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       DEX: 7,
@@ -10229,7 +9496,6 @@ export default [
       DHT: 11,
       CRT: 8,
     },
-    hq: false,
   },
   {
     id: 6739,
@@ -10426,7 +9692,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 4,
       VIT: 5,
@@ -11135,7 +10400,6 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
@@ -11153,7 +10417,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 7,
@@ -11171,7 +10434,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
@@ -11189,7 +10451,6 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
@@ -11207,7 +10468,6 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 7,
       VIT: 7,
@@ -11225,7 +10485,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
@@ -11243,7 +10502,6 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
@@ -11261,7 +10519,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 7,
@@ -11279,7 +10536,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
@@ -11297,7 +10553,6 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
@@ -11315,7 +10570,6 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 7,
       VIT: 7,
@@ -11333,7 +10587,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
@@ -11351,7 +10604,6 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
@@ -11369,7 +10621,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 7,
@@ -11387,7 +10638,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
@@ -11405,7 +10655,6 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
@@ -11423,7 +10672,6 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 7,
       VIT: 7,
@@ -11441,7 +10689,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
@@ -11459,7 +10706,6 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
@@ -11477,7 +10723,6 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       INT: 7,
@@ -11495,7 +10740,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
@@ -11513,7 +10757,6 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 7,
       VIT: 7,
@@ -11531,7 +10774,6 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 7,
       VIT: 7,
@@ -11549,7 +10791,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 6,
       MND: 7,
@@ -11567,14 +10808,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 14,
       VIT: 15,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8392,
@@ -11586,14 +10825,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       TEN: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8397,
@@ -11605,14 +10842,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8402,
@@ -11624,14 +10859,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       TEN: 23,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 8407,
@@ -11643,14 +10876,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 15,
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 8412,
@@ -11662,14 +10893,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 14,
       VIT: 15,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 8417,
@@ -11681,14 +10910,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 14,
       PIE: 13,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 8422,
@@ -11700,14 +10927,12 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 14,
       DHT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 8427,
@@ -11719,14 +10944,12 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 14,
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8432,
@@ -11738,14 +10961,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 14,
       PIE: 13,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 8447,
@@ -11870,7 +11091,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -11879,7 +11099,6 @@ export default [
       PDMG: 38,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9221,
@@ -11891,7 +11110,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -11899,7 +11117,6 @@ export default [
       PDMG: 38,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9222,
@@ -11911,7 +11128,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -11919,7 +11135,6 @@ export default [
       PDMG: 38,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 9223,
@@ -11931,7 +11146,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -11939,7 +11153,6 @@ export default [
       PDMG: 38,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9224,
@@ -11993,14 +11206,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 14,
       VIT: 15,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 9381,
@@ -12012,14 +11223,12 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 7,
       VIT: 7,
       CRT: 11,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 10413,
@@ -12031,7 +11240,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -12040,7 +11248,6 @@ export default [
       PDMG: 38,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10414,
@@ -12073,7 +11280,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -12081,7 +11287,6 @@ export default [
       PDMG: 38,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10432,
@@ -12093,7 +11298,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -12101,7 +11305,6 @@ export default [
       PDMG: 38,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10433,
@@ -12113,7 +11316,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
@@ -12121,7 +11323,6 @@ export default [
       PDMG: 38,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10475,
@@ -12133,7 +11334,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -12142,7 +11342,6 @@ export default [
       PDMG: 38,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10476,
@@ -12175,7 +11374,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -12183,7 +11381,6 @@ export default [
       PDMG: 38,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10494,
@@ -12195,7 +11392,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -12203,7 +11399,6 @@ export default [
       PDMG: 38,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10495,
@@ -12215,7 +11410,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
@@ -12223,7 +11417,6 @@ export default [
       PDMG: 38,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10537,
@@ -12235,7 +11428,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
@@ -12243,7 +11435,6 @@ export default [
       CRT: 25,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 10538,
@@ -12275,14 +11466,12 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       SPS: 25,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 10556,
@@ -12294,14 +11483,12 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       DET: 17,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 10557,
@@ -12313,14 +11500,12 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       PIE: 14,
       MDMG: 59,
     },
-    hq: false,
   },
   {
     id: 1671,
@@ -12332,7 +11517,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 14,
@@ -12341,7 +11525,6 @@ export default [
       PDMG: 39,
       DLY: 2160,
     },
-    hq: false,
   },
   {
     id: 1741,
@@ -12353,7 +11536,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 19,
@@ -12362,7 +11544,6 @@ export default [
       PDMG: 39,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 1811,
@@ -12374,7 +11555,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 19,
@@ -12383,7 +11563,6 @@ export default [
       PDMG: 39,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 1880,
@@ -12395,7 +11574,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 19,
@@ -12404,7 +11582,6 @@ export default [
       PDMG: 39,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 1950,
@@ -12416,7 +11593,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 19,
@@ -12425,7 +11601,6 @@ export default [
       PDMG: 39,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 2050,
@@ -12437,7 +11612,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 17,
       MND: 18,
@@ -12445,7 +11619,6 @@ export default [
       DET: 18,
       MDMG: 60,
     },
-    hq: false,
   },
   {
     id: 2103,
@@ -12457,7 +11630,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 13,
@@ -12465,7 +11637,6 @@ export default [
       DET: 13,
       MDMG: 60,
     },
-    hq: false,
   },
   {
     id: 2203,
@@ -12477,7 +11648,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 17,
       INT: 18,
@@ -12485,7 +11655,6 @@ export default [
       DET: 18,
       MDMG: 60,
     },
-    hq: false,
   },
   {
     id: 2204,
@@ -12497,7 +11666,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 17,
       MND: 18,
@@ -12505,7 +11673,6 @@ export default [
       DET: 18,
       MDMG: 60,
     },
-    hq: false,
   },
   {
     id: 2824,
@@ -12517,14 +11684,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       INT: 10,
       DET: 10,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 2864,
@@ -12536,14 +11701,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       MND: 10,
       PIE: 9,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 2865,
@@ -12555,14 +11718,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DHT: 15,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 3195,
@@ -12574,14 +11735,12 @@ export default [
     jobCategory: 60,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 17,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 3196,
@@ -12593,14 +11752,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
       PIE: 15,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 3448,
@@ -12612,14 +11769,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
       PIE: 15,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 3453,
@@ -12631,14 +11786,12 @@ export default [
     jobCategory: 60,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 17,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 3672,
@@ -12650,14 +11803,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DHT: 11,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 3677,
@@ -12669,14 +11820,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       MND: 10,
       PIE: 9,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 3899,
@@ -12688,14 +11837,12 @@ export default [
     jobCategory: 60,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DHT: 11,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 3903,
@@ -12707,14 +11854,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       MND: 10,
       PIE: 9,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6280,
@@ -12726,14 +11871,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       TEN: 11,
       DHT: 15,
     },
-    hq: false,
   },
   {
     id: 6281,
@@ -12745,14 +11888,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 24,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 6282,
@@ -12764,14 +11905,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 24,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 6283,
@@ -12783,14 +11922,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       TEN: 15,
       DHT: 11,
     },
-    hq: false,
   },
   {
     id: 6284,
@@ -12802,14 +11939,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DHT: 11,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 6285,
@@ -12821,14 +11956,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 11,
       DHT: 8,
     },
-    hq: false,
   },
   {
     id: 6286,
@@ -12840,14 +11973,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 8,
       DHT: 11,
     },
-    hq: false,
   },
   {
     id: 6287,
@@ -12859,14 +11990,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 8,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6288,
@@ -12878,14 +12007,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 8,
       DHT: 11,
     },
-    hq: false,
   },
   {
     id: 6289,
@@ -12897,14 +12024,12 @@ export default [
     jobCategory: 60,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DHT: 11,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6290,
@@ -12916,14 +12041,12 @@ export default [
     jobCategory: 60,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DET: 7,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6291,
@@ -12935,14 +12058,12 @@ export default [
     jobCategory: 60,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 8,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6292,
@@ -12954,14 +12075,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 24,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 6293,
@@ -12973,14 +12092,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       CRT: 24,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 6294,
@@ -12992,14 +12109,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DHT: 15,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6295,
@@ -13011,14 +12126,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 5,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6296,
@@ -13030,14 +12143,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 5,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6297,
@@ -13049,14 +12160,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DET: 8,
       SKS: 8,
     },
-    hq: false,
   },
   {
     id: 6298,
@@ -13068,14 +12177,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 8,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6299,
@@ -13087,14 +12194,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 10,
       VIT: 11,
       DHT: 15,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 6300,
@@ -13106,14 +12211,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 24,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 6301,
@@ -13125,14 +12228,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 10,
       VIT: 11,
       CRT: 11,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6302,
@@ -13144,14 +12245,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 17,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 6303,
@@ -13163,14 +12262,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 10,
       VIT: 11,
       DHT: 15,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 6304,
@@ -13182,14 +12279,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 8,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6305,
@@ -13201,14 +12296,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 8,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6306,
@@ -13220,14 +12313,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DET: 8,
       SKS: 8,
     },
-    hq: false,
   },
   {
     id: 6307,
@@ -13239,14 +12330,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 8,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6308,
@@ -13258,14 +12347,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DET: 12,
       SPS: 24,
     },
-    hq: false,
   },
   {
     id: 6309,
@@ -13277,14 +12364,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DET: 12,
       SPS: 24,
     },
-    hq: false,
   },
   {
     id: 6310,
@@ -13296,14 +12381,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       INT: 10,
       DET: 7,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6311,
@@ -13315,14 +12398,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       INT: 10,
       DET: 7,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6312,
@@ -13334,14 +12415,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 11,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 6313,
@@ -13353,14 +12432,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 11,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 6314,
@@ -13372,14 +12449,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DET: 8,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 6315,
@@ -13391,14 +12466,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       DHT: 11,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 6316,
@@ -13410,14 +12483,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 6317,
@@ -13429,14 +12500,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 5,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6318,
@@ -13448,14 +12517,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       DET: 8,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 6319,
@@ -13467,14 +12534,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 5,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6704,
@@ -13486,14 +12551,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       TEN: 15,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6705,
@@ -13505,14 +12568,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       CRT: 11,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 6706,
@@ -13524,7 +12585,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       DEX: 10,
@@ -13532,7 +12592,6 @@ export default [
       CRT: 15,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6707,
@@ -13544,14 +12603,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 10,
       VIT: 11,
       DET: 10,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6708,
@@ -13563,14 +12620,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       MND: 10,
       CRT: 11,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 6709,
@@ -13582,14 +12637,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 17,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6710,
@@ -13601,14 +12654,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 24,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 6711,
@@ -13620,7 +12671,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       DEX: 16,
@@ -13628,7 +12678,6 @@ export default [
       CRT: 17,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 6712,
@@ -13640,14 +12689,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 17,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 6713,
@@ -13659,14 +12706,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       INT: 26,
       CRT: 39,
       SPS: 28,
     },
-    hq: false,
   },
   {
     id: 6714,
@@ -13678,14 +12723,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
       PIE: 10,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 6715,
@@ -13697,14 +12740,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 17,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6716,
@@ -13716,14 +12757,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 24,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 6717,
@@ -13735,7 +12774,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       DEX: 16,
@@ -13743,7 +12781,6 @@ export default [
       DHT: 17,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 6718,
@@ -13755,14 +12792,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       CRT: 17,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6719,
@@ -13774,14 +12809,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 17,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 6720,
@@ -13793,14 +12826,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
       PIE: 10,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6721,
@@ -13812,14 +12843,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DET: 10,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6722,
@@ -13831,14 +12860,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       DHT: 15,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 6723,
@@ -13850,7 +12877,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       DEX: 10,
@@ -13858,7 +12884,6 @@ export default [
       CRT: 15,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6724,
@@ -13870,14 +12895,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 10,
       VIT: 11,
       DHT: 15,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 6725,
@@ -13889,14 +12912,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       INT: 10,
       CRT: 15,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6726,
@@ -13908,14 +12929,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       MND: 10,
       PIE: 6,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 6727,
@@ -13927,14 +12946,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       TEN: 11,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 6728,
@@ -13946,14 +12963,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       CRT: 11,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 6729,
@@ -13965,7 +12980,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       DEX: 10,
@@ -13973,7 +12987,6 @@ export default [
       CRT: 11,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6730,
@@ -13985,14 +12998,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 10,
       VIT: 11,
       DET: 10,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6731,
@@ -14004,14 +13015,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       INT: 10,
       DHT: 15,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 6732,
@@ -14023,14 +13032,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       MND: 10,
       CRT: 15,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 6733,
@@ -14042,14 +13049,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 8,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6734,
@@ -14061,14 +13066,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       CRT: 11,
       SKS: 8,
     },
-    hq: false,
   },
   {
     id: 6735,
@@ -14080,7 +13083,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       DEX: 8,
@@ -14088,7 +13090,6 @@ export default [
       DHT: 8,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6736,
@@ -14100,14 +13101,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DHT: 11,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 6737,
@@ -14119,14 +13118,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       CRT: 11,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 6738,
@@ -14138,14 +13135,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       DET: 5,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 7048,
@@ -14157,14 +13152,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 8,
       DHT: 11,
     },
-    hq: false,
   },
   {
     id: 7049,
@@ -14176,14 +13169,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       DHT: 8,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 7050,
@@ -14195,14 +13186,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 8,
       VIT: 8,
       DET: 8,
       SKS: 8,
     },
-    hq: false,
   },
   {
     id: 7051,
@@ -14214,14 +13203,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       INT: 8,
       CRT: 11,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 7052,
@@ -14233,14 +13220,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 7,
       MND: 8,
       PIE: 7,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 9227,
@@ -14252,7 +13237,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 19,
@@ -14261,7 +13245,6 @@ export default [
       PDMG: 39,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 9300,
@@ -14410,7 +13393,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 19,
@@ -14419,7 +13401,6 @@ export default [
       PDMG: 39,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10506,
@@ -14431,7 +13412,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 19,
@@ -14440,7 +13420,6 @@ export default [
       PDMG: 39,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10568,
@@ -14452,7 +13431,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 17,
       MND: 18,
@@ -14460,7 +13438,6 @@ export default [
       DET: 18,
       MDMG: 60,
     },
-    hq: false,
   },
   {
     id: 14891,
@@ -14472,7 +13449,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 17,
       INT: 18,
@@ -14480,7 +13456,6 @@ export default [
       DET: 18,
       MDMG: 60,
     },
-    hq: false,
   },
   {
     id: 20356,
@@ -14492,7 +13467,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 19,
@@ -14501,7 +13475,6 @@ export default [
       PDMG: 39,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20357,
@@ -14513,7 +13486,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 17,
       INT: 18,
@@ -14521,7 +13493,6 @@ export default [
       DET: 18,
       MDMG: 60,
     },
-    hq: false,
   },
   {
     id: 11955,
@@ -14747,7 +13718,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 17,
@@ -14756,7 +13726,6 @@ export default [
       PDMG: 41,
       DLY: 1760,
     },
-    hq: false,
   },
   {
     id: 1736,
@@ -14810,7 +13779,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -14819,7 +13787,6 @@ export default [
       PDMG: 41,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 1806,
@@ -14873,7 +13840,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -14882,7 +13848,6 @@ export default [
       PDMG: 41,
       DLY: 3120,
     },
-    hq: false,
   },
   {
     id: 1875,
@@ -14936,7 +13901,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -14945,7 +13909,6 @@ export default [
       PDMG: 41,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 1945,
@@ -14978,7 +13941,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -14987,7 +13949,6 @@ export default [
       PDMG: 41,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 1953,
@@ -15020,7 +13981,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 16,
@@ -15028,7 +13988,6 @@ export default [
       SPS: 21,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 2048,
@@ -15100,7 +14059,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -15108,7 +14066,6 @@ export default [
       SPS: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 2139,
@@ -15180,7 +14137,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -15188,7 +14144,6 @@ export default [
       SPS: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 2206,
@@ -15200,7 +14155,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -15208,7 +14162,6 @@ export default [
       SPS: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 2211,
@@ -15337,14 +14290,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       DHT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 2936,
@@ -15356,7 +14307,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -15364,7 +14314,6 @@ export default [
       DHT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 2937,
@@ -15376,14 +14325,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 14,
       DHT: 11,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 2938,
@@ -15491,14 +14438,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 36,
       TEN: 43,
       CRT: 30,
     },
-    hq: false,
   },
   {
     id: 3251,
@@ -15510,14 +14455,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       DET: 18,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 3252,
@@ -15529,7 +14472,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -15537,7 +14479,6 @@ export default [
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 3253,
@@ -15549,14 +14490,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 20,
       VIT: 22,
       DHT: 27,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 3254,
@@ -15568,14 +14507,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 33,
       DHT: 43,
       SPS: 30,
     },
-    hq: false,
   },
   {
     id: 3255,
@@ -15587,14 +14524,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 33,
       PIE: 19,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 3256,
@@ -15721,14 +14656,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 36,
       TEN: 30,
       DHT: 43,
     },
-    hq: false,
   },
   {
     id: 3493,
@@ -15740,14 +14673,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       DHT: 19,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 3494,
@@ -15759,7 +14690,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -15767,7 +14697,6 @@ export default [
       DHT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 3495,
@@ -15779,14 +14708,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 20,
       VIT: 22,
       DHT: 19,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 3496,
@@ -15798,14 +14725,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
       CRT: 27,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 3497,
@@ -15817,14 +14742,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       MND: 20,
       PIE: 12,
       CRT: 27,
     },
-    hq: false,
   },
   {
     id: 3498,
@@ -15951,14 +14874,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       TEN: 11,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 3718,
@@ -15970,14 +14891,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 3719,
@@ -15989,7 +14908,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -15997,7 +14915,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3720,
@@ -16009,14 +14926,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 14,
       DHT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 3721,
@@ -16028,14 +14943,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       DHT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 3722,
@@ -16047,14 +14960,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       PIE: 11,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 3723,
@@ -16181,14 +15092,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       DHT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3939,
@@ -16200,7 +15109,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -16208,7 +15116,6 @@ export default [
       DHT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 3940,
@@ -16220,14 +15127,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 14,
       DHT: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 3941,
@@ -16239,14 +15144,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 3942,
@@ -16258,14 +15161,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       PIE: 11,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 3943,
@@ -16373,14 +15274,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 9,
       DHT: 12,
     },
-    hq: false,
   },
   {
     id: 4070,
@@ -16392,14 +15291,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 9,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4071,
@@ -16411,7 +15308,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       DEX: 9,
@@ -16419,7 +15315,6 @@ export default [
       DHT: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 4072,
@@ -16431,14 +15326,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       DHT: 9,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 4073,
@@ -16450,14 +15343,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       CRT: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 4074,
@@ -16469,14 +15360,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       PIE: 8,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 4075,
@@ -16584,14 +15473,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 4176,
@@ -16603,14 +15490,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       DHT: 12,
       CRT: 9,
     },
-    hq: false,
   },
   {
     id: 4177,
@@ -16622,14 +15507,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       PIE: 8,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 4178,
@@ -16641,14 +15524,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 9,
       DHT: 12,
     },
-    hq: false,
   },
   {
     id: 4179,
@@ -16660,14 +15541,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 9,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 4180,
@@ -16679,14 +15558,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       DET: 8,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 4181,
@@ -16757,14 +15634,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DHT: 9,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 4279,
@@ -16776,14 +15651,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       DHT: 9,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 4280,
@@ -16795,14 +15668,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       PIE: 8,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 4281,
@@ -16814,14 +15685,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 4282,
@@ -16833,14 +15702,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DHT: 12,
       CRT: 9,
     },
-    hq: false,
   },
   {
     id: 4283,
@@ -16852,14 +15719,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       DHT: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 4284,
@@ -16930,14 +15795,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DHT: 12,
       CRT: 9,
     },
-    hq: false,
   },
   {
     id: 4383,
@@ -16949,14 +15812,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       DHT: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 4384,
@@ -16968,14 +15829,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       PIE: 8,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 4385,
@@ -16987,14 +15846,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 12,
       DHT: 9,
     },
-    hq: false,
   },
   {
     id: 4386,
@@ -17006,14 +15863,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DHT: 9,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 4387,
@@ -17025,14 +15880,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       DET: 8,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 4388,
@@ -17103,14 +15956,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 9,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 4521,
@@ -17122,14 +15973,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       CRT: 9,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4522,
@@ -17141,14 +15990,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       PIE: 8,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 4523,
@@ -17160,14 +16007,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 12,
       DHT: 9,
     },
-    hq: false,
   },
   {
     id: 4524,
@@ -17179,14 +16024,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DHT: 12,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 4525,
@@ -17198,14 +16041,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       DHT: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 4526,
@@ -17285,7 +16126,6 @@ export default [
       PDMG: 41,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 6810,
@@ -17306,7 +16146,6 @@ export default [
       PDMG: 41,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 6811,
@@ -17327,7 +16166,6 @@ export default [
       PDMG: 41,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 6812,
@@ -17348,7 +16186,6 @@ export default [
       PDMG: 41,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 6813,
@@ -17369,7 +16206,6 @@ export default [
       PDMG: 41,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 6814,
@@ -17389,7 +16225,6 @@ export default [
       SPS: 20,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 6815,
@@ -17409,7 +16244,6 @@ export default [
       SPS: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 6816,
@@ -17429,7 +16263,6 @@ export default [
       DET: 20,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 6817,
@@ -17449,7 +16282,6 @@ export default [
       SPS: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 6818,
@@ -17461,14 +16293,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 6,
       VIT: 7,
       DHT: 8,
       DET: 4,
     },
-    hq: false,
   },
   {
     id: 6819,
@@ -17487,7 +16317,6 @@ export default [
       DET: 8,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6820,
@@ -17507,7 +16336,6 @@ export default [
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6821,
@@ -17526,7 +16354,6 @@ export default [
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6822,
@@ -17545,7 +16372,6 @@ export default [
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6823,
@@ -17564,7 +16390,6 @@ export default [
       DET: 18,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 6824,
@@ -17583,7 +16408,6 @@ export default [
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 6825,
@@ -17603,7 +16427,6 @@ export default [
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 6826,
@@ -17622,7 +16445,6 @@ export default [
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 6827,
@@ -17641,7 +16463,6 @@ export default [
       DET: 13,
       SPS: 27,
     },
-    hq: false,
   },
   {
     id: 6828,
@@ -17660,7 +16481,6 @@ export default [
       CRT: 19,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 6829,
@@ -17679,7 +16499,6 @@ export default [
       DET: 13,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 6830,
@@ -17698,7 +16517,6 @@ export default [
       CRT: 19,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 6831,
@@ -17718,7 +16536,6 @@ export default [
       CRT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 6832,
@@ -17737,7 +16554,6 @@ export default [
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 6833,
@@ -17756,7 +16572,6 @@ export default [
       CRT: 27,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 6834,
@@ -17775,7 +16590,6 @@ export default [
       CRT: 19,
       SPS: 27,
     },
-    hq: false,
   },
   {
     id: 6835,
@@ -17794,7 +16608,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6836,
@@ -17813,7 +16626,6 @@ export default [
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6837,
@@ -17833,7 +16645,6 @@ export default [
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6838,
@@ -17852,7 +16663,6 @@ export default [
       DET: 8,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6839,
@@ -17871,7 +16681,6 @@ export default [
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6840,
@@ -17890,7 +16699,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6841,
@@ -17909,7 +16717,6 @@ export default [
       DET: 8,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6842,
@@ -17929,7 +16736,6 @@ export default [
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6843,
@@ -17948,7 +16754,6 @@ export default [
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6844,
@@ -17967,7 +16772,6 @@ export default [
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6845,
@@ -17986,7 +16790,6 @@ export default [
       DET: 11,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6846,
@@ -18005,7 +16808,6 @@ export default [
       CRT: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 6847,
@@ -18024,7 +16826,6 @@ export default [
       DET: 8,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 6848,
@@ -18044,7 +16845,6 @@ export default [
       DET: 6,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 6849,
@@ -18063,7 +16863,6 @@ export default [
       CRT: 12,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 6850,
@@ -18082,7 +16881,6 @@ export default [
       CRT: 12,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 6851,
@@ -18101,7 +16899,6 @@ export default [
       PIE: 6,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6852,
@@ -18113,14 +16910,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 9,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6853,
@@ -18132,14 +16927,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 12,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 6854,
@@ -18151,14 +16944,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       DET: 6,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 6855,
@@ -18170,14 +16961,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       CRT: 9,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 6856,
@@ -18189,14 +16978,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       DET: 8,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 6857,
@@ -18208,14 +16995,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DET: 8,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 6858,
@@ -18227,14 +17012,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 12,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 6859,
@@ -18246,14 +17029,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       DET: 6,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 6860,
@@ -18265,14 +17046,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       CRT: 9,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 6861,
@@ -18284,14 +17063,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       PIE: 6,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 6862,
@@ -18303,14 +17080,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 9,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6863,
@@ -18322,14 +17097,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DET: 6,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 6864,
@@ -18341,14 +17114,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       CRT: 12,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 6865,
@@ -18360,14 +17131,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       CRT: 9,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6866,
@@ -18379,14 +17148,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       PIE: 6,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 6867,
@@ -18398,14 +17165,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 12,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 6868,
@@ -18417,14 +17182,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DET: 6,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 6869,
@@ -18436,14 +17199,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       DET: 8,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 6870,
@@ -18455,14 +17216,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       CRT: 12,
       SPS: 9,
     },
-    hq: false,
   },
   {
     id: 6871,
@@ -18474,14 +17233,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       DET: 6,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 7053,
@@ -18500,7 +17257,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7054,
@@ -18519,7 +17275,6 @@ export default [
       DET: 11,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 7055,
@@ -18538,7 +17293,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7444,
@@ -18550,14 +17304,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       TEN: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7445,
@@ -18569,14 +17321,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       DHT: 27,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 7446,
@@ -18588,14 +17338,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       TEN: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7447,
@@ -18607,14 +17355,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       TEN: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7448,
@@ -18626,14 +17372,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 7449,
@@ -18645,14 +17389,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DHT: 9,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7450,
@@ -18664,14 +17406,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 7451,
@@ -18683,14 +17423,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       DHT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 7452,
@@ -18702,14 +17440,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 7453,
@@ -18721,14 +17457,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7454,
@@ -18740,14 +17474,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7455,
@@ -18759,14 +17491,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       DHT: 9,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 7456,
@@ -18778,7 +17508,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -18786,7 +17515,6 @@ export default [
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7457,
@@ -18798,7 +17526,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -18806,7 +17533,6 @@ export default [
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7458,
@@ -18818,7 +17544,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -18826,7 +17551,6 @@ export default [
       DHT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7459,
@@ -18838,7 +17562,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -18846,7 +17569,6 @@ export default [
       DHT: 19,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 7460,
@@ -18858,7 +17580,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -18866,7 +17587,6 @@ export default [
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 7461,
@@ -18878,7 +17598,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       DEX: 9,
@@ -18886,7 +17605,6 @@ export default [
       CRT: 9,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7462,
@@ -18898,14 +17616,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 14,
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7463,
@@ -18917,14 +17633,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 20,
       VIT: 22,
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 7464,
@@ -18936,14 +17650,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 14,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 7465,
@@ -18955,14 +17667,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 20,
       VIT: 22,
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7466,
@@ -18974,14 +17684,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 12,
       VIT: 14,
       DET: 8,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7467,
@@ -18993,14 +17701,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 9,
       VIT: 10,
       DET: 8,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 7468,
@@ -19012,14 +17718,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       DET: 8,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 7469,
@@ -19031,14 +17735,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       MND: 20,
       CRT: 27,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 7470,
@@ -19050,14 +17752,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       PIE: 7,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 7471,
@@ -19069,14 +17769,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       MND: 20,
       PIE: 17,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7472,
@@ -19088,14 +17786,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       MND: 12,
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 7473,
@@ -19107,14 +17803,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       MND: 9,
       CRT: 9,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 7474,
@@ -19126,14 +17820,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       DHT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 7475,
@@ -19145,14 +17837,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
       CRT: 27,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 7476,
@@ -19164,14 +17854,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       DHT: 11,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 7477,
@@ -19183,14 +17871,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7478,
@@ -19202,14 +17888,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
       DHT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7479,
@@ -19221,14 +17905,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       DHT: 9,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 7521,
@@ -19240,13 +17922,11 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 3,
       CMS: 4,
       CRL: 39,
     },
-    hq: false,
   },
   {
     id: 7522,
@@ -19258,13 +17938,11 @@ export default [
     jobCategory: 32,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 3,
       GTH: 4,
       PCP: 82,
     },
-    hq: false,
   },
   {
     id: 7523,
@@ -19276,12 +17954,10 @@ export default [
     jobCategory: 9,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 139,
       CRL: 78,
     },
-    hq: false,
   },
   {
     id: 7524,
@@ -19293,12 +17969,10 @@ export default [
     jobCategory: 10,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 139,
       CRL: 78,
     },
-    hq: false,
   },
   {
     id: 7525,
@@ -19310,12 +17984,10 @@ export default [
     jobCategory: 11,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 139,
       CRL: 78,
     },
-    hq: false,
   },
   {
     id: 7526,
@@ -19327,12 +17999,10 @@ export default [
     jobCategory: 12,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 139,
       CRL: 78,
     },
-    hq: false,
   },
   {
     id: 7527,
@@ -19344,12 +18014,10 @@ export default [
     jobCategory: 13,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 139,
       CRL: 78,
     },
-    hq: false,
   },
   {
     id: 7528,
@@ -19361,12 +18029,10 @@ export default [
     jobCategory: 14,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 139,
       CRL: 78,
     },
-    hq: false,
   },
   {
     id: 7529,
@@ -19378,12 +18044,10 @@ export default [
     jobCategory: 15,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 139,
       CRL: 78,
     },
-    hq: false,
   },
   {
     id: 7530,
@@ -19395,12 +18059,10 @@ export default [
     jobCategory: 16,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 139,
       CRL: 78,
     },
-    hq: false,
   },
   {
     id: 7531,
@@ -19412,12 +18074,10 @@ export default [
     jobCategory: 17,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 143,
       PCP: 82,
     },
-    hq: false,
   },
   {
     id: 7532,
@@ -19429,12 +18089,10 @@ export default [
     jobCategory: 18,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 143,
       PCP: 82,
     },
-    hq: false,
   },
   {
     id: 7533,
@@ -19446,12 +18104,10 @@ export default [
     jobCategory: 19,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 143,
       PCP: 82,
     },
-    hq: false,
   },
   {
     id: 8460,
@@ -19463,7 +18119,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 17,
@@ -19472,7 +18127,6 @@ export default [
       PDMG: 41,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 8461,
@@ -19484,7 +18138,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19493,7 +18146,6 @@ export default [
       PDMG: 41,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 8462,
@@ -19505,7 +18157,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19514,7 +18165,6 @@ export default [
       PDMG: 41,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 8463,
@@ -19526,7 +18176,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19535,7 +18184,6 @@ export default [
       PDMG: 41,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 8464,
@@ -19547,7 +18195,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -19556,7 +18203,6 @@ export default [
       PDMG: 41,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 8465,
@@ -19568,7 +18214,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -19576,7 +18221,6 @@ export default [
       DET: 14,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8466,
@@ -19588,7 +18232,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -19596,7 +18239,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8467,
@@ -19608,7 +18250,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -19616,7 +18257,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8468,
@@ -19628,7 +18268,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -19636,7 +18275,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8469,
@@ -19648,7 +18286,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 17,
@@ -19657,7 +18294,6 @@ export default [
       PDMG: 41,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 8470,
@@ -19669,7 +18305,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19678,7 +18313,6 @@ export default [
       PDMG: 41,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 8471,
@@ -19690,7 +18324,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19699,7 +18332,6 @@ export default [
       PDMG: 41,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 8472,
@@ -19711,7 +18343,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19720,7 +18351,6 @@ export default [
       PDMG: 41,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 8473,
@@ -19732,7 +18362,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -19741,7 +18370,6 @@ export default [
       PDMG: 41,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 8474,
@@ -19753,7 +18381,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -19761,7 +18388,6 @@ export default [
       DET: 14,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8475,
@@ -19773,7 +18399,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -19781,7 +18406,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8476,
@@ -19793,7 +18417,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -19801,7 +18424,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8477,
@@ -19813,7 +18435,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -19821,7 +18442,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8478,
@@ -19833,7 +18453,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 17,
@@ -19842,7 +18461,6 @@ export default [
       PDMG: 41,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 8479,
@@ -19854,7 +18472,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19863,7 +18480,6 @@ export default [
       PDMG: 41,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 8480,
@@ -19875,7 +18491,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19884,7 +18499,6 @@ export default [
       PDMG: 41,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 8481,
@@ -19896,7 +18510,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -19905,7 +18518,6 @@ export default [
       PDMG: 41,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 8482,
@@ -19917,7 +18529,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -19926,7 +18537,6 @@ export default [
       PDMG: 41,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 8483,
@@ -19938,7 +18548,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -19946,7 +18555,6 @@ export default [
       DET: 14,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8484,
@@ -19958,7 +18566,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -19966,7 +18573,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8485,
@@ -19978,7 +18584,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -19986,7 +18591,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8486,
@@ -19998,7 +18602,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -20006,7 +18609,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 8487,
@@ -20018,14 +18620,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8488,
@@ -20037,14 +18637,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 8489,
@@ -20056,14 +18654,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       TEN: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8490,
@@ -20075,14 +18671,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8491,
@@ -20094,14 +18688,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 8492,
@@ -20113,7 +18705,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20121,7 +18712,6 @@ export default [
       DHT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8493,
@@ -20133,7 +18723,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -20141,7 +18730,6 @@ export default [
       CRT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 8494,
@@ -20153,7 +18741,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20161,7 +18748,6 @@ export default [
       DHT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 8495,
@@ -20173,7 +18759,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -20181,7 +18766,6 @@ export default [
       DET: 18,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 8496,
@@ -20193,7 +18777,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20201,7 +18784,6 @@ export default [
       DHT: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 8497,
@@ -20213,7 +18795,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20221,7 +18802,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8498,
@@ -20233,7 +18813,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
@@ -20241,7 +18820,6 @@ export default [
       CRT: 27,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 8499,
@@ -20253,7 +18831,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20261,7 +18838,6 @@ export default [
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 8500,
@@ -20273,7 +18849,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
@@ -20281,7 +18856,6 @@ export default [
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8501,
@@ -20293,7 +18867,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20301,7 +18874,6 @@ export default [
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 8502,
@@ -20313,14 +18885,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8503,
@@ -20332,14 +18902,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 8504,
@@ -20351,14 +18919,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       TEN: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8505,
@@ -20370,14 +18936,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8506,
@@ -20389,14 +18953,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 8507,
@@ -20408,7 +18970,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20416,7 +18977,6 @@ export default [
       DHT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8508,
@@ -20428,7 +18988,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -20436,7 +18995,6 @@ export default [
       CRT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 8509,
@@ -20448,7 +19006,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20456,7 +19013,6 @@ export default [
       DHT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 8510,
@@ -20468,7 +19024,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -20476,7 +19031,6 @@ export default [
       DET: 18,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 8511,
@@ -20488,7 +19042,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20496,7 +19049,6 @@ export default [
       DHT: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 8512,
@@ -20508,7 +19060,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20516,7 +19067,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8513,
@@ -20528,7 +19078,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
@@ -20536,7 +19085,6 @@ export default [
       CRT: 27,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 8514,
@@ -20548,7 +19096,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20556,7 +19103,6 @@ export default [
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 8515,
@@ -20568,7 +19114,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
@@ -20576,7 +19121,6 @@ export default [
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8516,
@@ -20588,7 +19132,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20596,7 +19139,6 @@ export default [
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 8517,
@@ -20608,14 +19150,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8518,
@@ -20627,14 +19167,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 8519,
@@ -20646,14 +19184,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       TEN: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8520,
@@ -20665,14 +19201,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 22,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8521,
@@ -20684,14 +19218,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 8522,
@@ -20703,7 +19235,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20711,7 +19242,6 @@ export default [
       DHT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8523,
@@ -20723,7 +19253,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -20731,7 +19260,6 @@ export default [
       CRT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 8524,
@@ -20743,7 +19271,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20751,7 +19278,6 @@ export default [
       DHT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 8525,
@@ -20763,7 +19289,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       DEX: 20,
@@ -20771,7 +19296,6 @@ export default [
       DET: 18,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 8526,
@@ -20783,7 +19307,6 @@ export default [
     jobCategory: 30,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       DEX: 12,
@@ -20791,7 +19314,6 @@ export default [
       DHT: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 8527,
@@ -20803,7 +19325,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20811,7 +19332,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8528,
@@ -20823,7 +19343,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
@@ -20831,7 +19350,6 @@ export default [
       CRT: 27,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 8529,
@@ -20843,7 +19361,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20851,7 +19368,6 @@ export default [
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 8530,
@@ -20863,7 +19379,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 20,
       INT: 20,
@@ -20871,7 +19386,6 @@ export default [
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8531,
@@ -20883,7 +19397,6 @@ export default [
     jobCategory: 31,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 12,
       INT: 12,
@@ -20891,7 +19404,6 @@ export default [
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 8569,
@@ -20903,12 +19415,10 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 4,
       CRL: 39,
     },
-    hq: false,
   },
   {
     id: 9225,
@@ -20962,7 +19472,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -20971,7 +19480,6 @@ export default [
       PDMG: 41,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 9238,
@@ -20983,7 +19491,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -20992,7 +19499,6 @@ export default [
       PDMG: 41,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9239,
@@ -21004,7 +19510,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -21013,7 +19518,6 @@ export default [
       PDMG: 41,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 9240,
@@ -21025,7 +19529,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -21034,7 +19537,6 @@ export default [
       PDMG: 41,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9243,
@@ -21055,7 +19557,6 @@ export default [
       PDMG: 41,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9307,
@@ -21237,13 +19738,11 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 2,
       CMS: 4,
       CRL: 35,
     },
-    hq: false,
   },
   {
     id: 10048,
@@ -21255,13 +19754,11 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 2,
       CMS: 4,
       CRL: 35,
     },
-    hq: false,
   },
   {
     id: 10053,
@@ -21273,13 +19770,11 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 2,
       CMS: 107,
       CRL: 35,
     },
-    hq: false,
   },
   {
     id: 10145,
@@ -21291,13 +19786,11 @@ export default [
     jobCategory: 33,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 2,
       CMS: 4,
       CRL: 35,
     },
-    hq: false,
   },
   {
     id: 10406,
@@ -21360,7 +19853,6 @@ export default [
       PDMG: 41,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10434,
@@ -21372,7 +19864,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -21381,7 +19872,6 @@ export default [
       PDMG: 41,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10435,
@@ -21393,7 +19883,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -21402,7 +19891,6 @@ export default [
       PDMG: 41,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10436,
@@ -21414,7 +19902,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -21423,7 +19910,6 @@ export default [
       PDMG: 41,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10445,
@@ -21435,7 +19921,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -21444,7 +19929,6 @@ export default [
       PDMG: 41,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10468,
@@ -21507,7 +19991,6 @@ export default [
       PDMG: 41,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10496,
@@ -21519,7 +20002,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -21528,7 +20010,6 @@ export default [
       PDMG: 41,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10497,
@@ -21540,7 +20021,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -21549,7 +20029,6 @@ export default [
       PDMG: 41,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10498,
@@ -21561,7 +20040,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -21570,7 +20048,6 @@ export default [
       PDMG: 41,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10507,
@@ -21582,7 +20059,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 22,
       VIT: 24,
@@ -21591,7 +20067,6 @@ export default [
       PDMG: 41,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 10530,
@@ -21651,7 +20126,6 @@ export default [
       SPS: 20,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 10558,
@@ -21663,7 +20137,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -21671,7 +20144,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 10559,
@@ -21683,7 +20155,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -21691,7 +20162,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 10560,
@@ -21703,7 +20173,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -21711,7 +20180,6 @@ export default [
       CRT: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 10569,
@@ -21723,7 +20191,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -21731,7 +20198,6 @@ export default [
       SPS: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 12017,
@@ -21811,7 +20277,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       MND: 22,
@@ -21819,7 +20284,6 @@ export default [
       SPS: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 20360,
@@ -21831,7 +20295,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 24,
@@ -21840,7 +20303,6 @@ export default [
       PDMG: 41,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20361,
@@ -21852,7 +20314,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 21,
       INT: 22,
@@ -21860,7 +20321,6 @@ export default [
       SPS: 29,
       MDMG: 63,
     },
-    hq: false,
   },
   {
     id: 1672,
@@ -21872,7 +20332,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 17,
       VIT: 19,
@@ -21881,7 +20340,6 @@ export default [
       PDMG: 42,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 1742,
@@ -21893,7 +20351,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 27,
@@ -21902,7 +20359,6 @@ export default [
       PDMG: 42,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 1812,
@@ -21914,7 +20370,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 27,
@@ -21923,7 +20378,6 @@ export default [
       PDMG: 42,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 1881,
@@ -21935,7 +20389,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 27,
@@ -21944,7 +20397,6 @@ export default [
       PDMG: 42,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 1951,
@@ -21956,7 +20408,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 27,
@@ -21965,7 +20416,6 @@ export default [
       PDMG: 42,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 1992,
@@ -21977,7 +20427,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 17,
       MND: 17,
@@ -21985,7 +20434,6 @@ export default [
       CRT: 15,
       MDMG: 65,
     },
-    hq: false,
   },
   {
     id: 2137,
@@ -21997,7 +20445,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 24,
@@ -22005,7 +20452,6 @@ export default [
       CRT: 22,
       MDMG: 65,
     },
-    hq: false,
   },
   {
     id: 2207,
@@ -22017,7 +20463,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 24,
@@ -22025,7 +20470,6 @@ export default [
       SPS: 22,
       MDMG: 65,
     },
-    hq: false,
   },
   {
     id: 2208,
@@ -22037,7 +20481,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 24,
@@ -22045,7 +20488,6 @@ export default [
       SPS: 22,
       MDMG: 65,
     },
-    hq: false,
   },
   {
     id: 8436,
@@ -22057,12 +20499,10 @@ export default [
     jobCategory: 9,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 149,
       CRL: 83,
     },
-    hq: false,
   },
   {
     id: 8437,
@@ -22074,12 +20514,10 @@ export default [
     jobCategory: 10,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 149,
       CRL: 83,
     },
-    hq: false,
   },
   {
     id: 8438,
@@ -22091,12 +20529,10 @@ export default [
     jobCategory: 11,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 149,
       CRL: 83,
     },
-    hq: false,
   },
   {
     id: 8439,
@@ -22108,12 +20544,10 @@ export default [
     jobCategory: 12,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 149,
       CRL: 83,
     },
-    hq: false,
   },
   {
     id: 8440,
@@ -22125,12 +20559,10 @@ export default [
     jobCategory: 13,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 149,
       CRL: 83,
     },
-    hq: false,
   },
   {
     id: 8441,
@@ -22142,12 +20574,10 @@ export default [
     jobCategory: 14,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 149,
       CRL: 83,
     },
-    hq: false,
   },
   {
     id: 8442,
@@ -22159,12 +20589,10 @@ export default [
     jobCategory: 15,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 149,
       CRL: 83,
     },
-    hq: false,
   },
   {
     id: 8443,
@@ -22176,12 +20604,10 @@ export default [
     jobCategory: 16,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 149,
       CRL: 83,
     },
-    hq: false,
   },
   {
     id: 8444,
@@ -22193,12 +20619,10 @@ export default [
     jobCategory: 17,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 153,
       PCP: 88,
     },
-    hq: false,
   },
   {
     id: 8445,
@@ -22210,12 +20634,10 @@ export default [
     jobCategory: 18,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 153,
       PCP: 88,
     },
-    hq: false,
   },
   {
     id: 8446,
@@ -22227,12 +20649,10 @@ export default [
     jobCategory: 19,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 153,
       PCP: 88,
     },
-    hq: false,
   },
   {
     id: 9229,
@@ -22244,7 +20664,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 27,
@@ -22253,7 +20672,6 @@ export default [
       PDMG: 42,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 10446,
@@ -22265,7 +20683,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 27,
@@ -22274,7 +20691,6 @@ export default [
       PDMG: 42,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10508,
@@ -22286,7 +20702,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 27,
@@ -22295,7 +20710,6 @@ export default [
       PDMG: 42,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 10570,
@@ -22307,7 +20721,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 24,
@@ -22315,7 +20728,6 @@ export default [
       SPS: 22,
       MDMG: 65,
     },
-    hq: false,
   },
   {
     id: 14890,
@@ -22327,7 +20739,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 24,
@@ -22335,7 +20746,6 @@ export default [
       CRT: 22,
       MDMG: 65,
     },
-    hq: false,
   },
   {
     id: 20368,
@@ -22347,7 +20757,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 27,
@@ -22356,7 +20765,6 @@ export default [
       PDMG: 42,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20369,
@@ -22368,7 +20776,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 24,
@@ -22376,7 +20783,6 @@ export default [
       SPS: 22,
       MDMG: 65,
     },
-    hq: false,
   },
   {
     id: 1675,
@@ -22388,7 +20794,6 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 19,
       VIT: 21,
@@ -22397,7 +20802,6 @@ export default [
       PDMG: 44,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 1745,
@@ -22409,7 +20813,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
@@ -22418,7 +20821,6 @@ export default [
       PDMG: 44,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 1746,
@@ -22430,7 +20832,6 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
@@ -22439,7 +20840,6 @@ export default [
       PDMG: 44,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 1815,
@@ -22451,7 +20851,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
@@ -22460,7 +20859,6 @@ export default [
       PDMG: 44,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 1816,
@@ -22472,7 +20870,6 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
@@ -22481,7 +20878,6 @@ export default [
       PDMG: 44,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 1884,
@@ -22493,7 +20889,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
@@ -22502,7 +20897,6 @@ export default [
       PDMG: 44,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 1885,
@@ -22514,7 +20908,6 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
@@ -22523,7 +20916,6 @@ export default [
       PDMG: 44,
       DLY: 3120,
     },
-    hq: false,
   },
   {
     id: 1954,
@@ -22535,7 +20927,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 30,
@@ -22544,7 +20935,6 @@ export default [
       PDMG: 44,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 1955,
@@ -22556,7 +20946,6 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 30,
@@ -22565,7 +20954,6 @@ export default [
       PDMG: 44,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 1994,
@@ -22577,7 +20965,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       MND: 27,
@@ -22585,7 +20972,6 @@ export default [
       DET: 16,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 2052,
@@ -22597,7 +20983,6 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       MND: 27,
@@ -22605,7 +20990,6 @@ export default [
       SPS: 23,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 2104,
@@ -22617,7 +21001,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 19,
@@ -22625,7 +21008,6 @@ export default [
       DET: 11,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 2140,
@@ -22637,7 +21019,6 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       INT: 27,
@@ -22645,7 +21026,6 @@ export default [
       SPS: 33,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 2209,
@@ -22657,7 +21037,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       INT: 27,
@@ -22665,7 +21044,6 @@ export default [
       DET: 16,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 2210,
@@ -22677,7 +21055,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       MND: 27,
@@ -22685,7 +21062,6 @@ export default [
       DET: 16,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 2213,
@@ -22697,7 +21073,6 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       INT: 27,
@@ -22705,7 +21080,6 @@ export default [
       SPS: 33,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 2214,
@@ -22717,7 +21091,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       MND: 27,
@@ -22725,7 +21098,6 @@ export default [
       SPS: 33,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 2305,
@@ -22737,14 +21109,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 9,
       DET: 5,
     },
-    hq: false,
   },
   {
     id: 2306,
@@ -22756,14 +21126,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 8,
       VIT: 8,
       TEN: 9,
       SKS: 7,
     },
-    hq: false,
   },
   {
     id: 2952,
@@ -22775,7 +21143,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       DEX: 15,
@@ -22783,7 +21150,6 @@ export default [
       DET: 9,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 2953,
@@ -22795,14 +21161,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
       DET: 13,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 2954,
@@ -22814,14 +21178,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       DET: 9,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 2955,
@@ -22833,14 +21195,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       TEN: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 2956,
@@ -22852,14 +21212,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 2957,
@@ -22871,14 +21229,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 3268,
@@ -22890,7 +21246,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       DEX: 25,
@@ -22898,7 +21253,6 @@ export default [
       CRT: 21,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 3269,
@@ -22910,14 +21264,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       DHT: 30,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 3270,
@@ -22929,14 +21281,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       PIE: 15,
       SPS: 30,
     },
-    hq: false,
   },
   {
     id: 3271,
@@ -22948,14 +21298,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       TEN: 30,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 3272,
@@ -22967,14 +21315,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 30,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 3273,
@@ -22986,14 +21332,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       DHT: 21,
       CRT: 30,
     },
-    hq: false,
   },
   {
     id: 3509,
@@ -23005,7 +21349,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       DEX: 25,
@@ -23013,7 +21356,6 @@ export default [
       DET: 21,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 3510,
@@ -23025,14 +21367,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       DHT: 21,
       SKS: 30,
     },
-    hq: false,
   },
   {
     id: 3511,
@@ -23044,14 +21384,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       PIE: 15,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 3512,
@@ -23063,14 +21401,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       TEN: 30,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 3513,
@@ -23082,14 +21418,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 21,
       CRT: 30,
     },
-    hq: false,
   },
   {
     id: 3514,
@@ -23101,14 +21435,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       DET: 21,
       SPS: 21,
     },
-    hq: false,
   },
   {
     id: 3734,
@@ -23120,7 +21452,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       DEX: 15,
@@ -23128,7 +21459,6 @@ export default [
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 3735,
@@ -23140,14 +21470,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
       CRT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 3736,
@@ -23159,14 +21487,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       PIE: 9,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 3737,
@@ -23178,14 +21504,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       TEN: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 3738,
@@ -23197,14 +21521,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       DHT: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 3739,
@@ -23216,14 +21538,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       CRT: 19,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 3953,
@@ -23235,7 +21555,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       DEX: 15,
@@ -23243,7 +21562,6 @@ export default [
       DHT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 3954,
@@ -23255,14 +21573,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
       DHT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 3955,
@@ -23274,14 +21590,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       PIE: 13,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 3956,
@@ -23293,14 +21607,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       DHT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 3957,
@@ -23312,14 +21624,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 3958,
@@ -23331,14 +21641,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 4085,
@@ -23350,7 +21658,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       DEX: 11,
@@ -23358,7 +21665,6 @@ export default [
       DET: 10,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 4086,
@@ -23370,14 +21676,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 11,
       VIT: 13,
       DHT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 4087,
@@ -23389,14 +21693,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       PIE: 10,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 4088,
@@ -23408,14 +21710,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       TEN: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 4089,
@@ -23427,14 +21727,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       CRT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 4090,
@@ -23446,14 +21744,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       CRT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 4400,
@@ -23465,14 +21761,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       TEN: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 4401,
@@ -23484,14 +21778,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       CRT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 4402,
@@ -23503,14 +21795,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 11,
       VIT: 13,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 4403,
@@ -23522,14 +21812,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       DHT: 14,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 4536,
@@ -23541,14 +21829,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       DET: 7,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 4537,
@@ -23560,14 +21846,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       TEN: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 4538,
@@ -23579,14 +21863,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       CRT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 4539,
@@ -23598,14 +21880,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 11,
       VIT: 13,
       DHT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 4540,
@@ -23617,14 +21897,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       CRT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 4541,
@@ -23636,14 +21914,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       PIE: 7,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 7888,
@@ -23655,7 +21931,6 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 30,
@@ -23664,7 +21939,6 @@ export default [
       PDMG: 44,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 8224,
@@ -23676,14 +21950,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       TEN: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8225,
@@ -23695,14 +21967,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DET: 15,
       SKS: 30,
     },
-    hq: false,
   },
   {
     id: 8226,
@@ -23714,14 +21984,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       TEN: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8227,
@@ -23733,14 +22001,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 21,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 8228,
@@ -23752,14 +22018,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 8229,
@@ -23771,14 +22035,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       DHT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8230,
@@ -23790,14 +22052,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       DET: 13,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 8231,
@@ -23809,14 +22069,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       CRT: 30,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8232,
@@ -23828,14 +22086,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       DHT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 8233,
@@ -23847,14 +22103,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       CRT: 21,
       SKS: 30,
     },
-    hq: false,
   },
   {
     id: 8234,
@@ -23866,14 +22120,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
       DHT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 8235,
@@ -23885,14 +22137,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       DHT: 10,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8236,
@@ -23904,7 +22154,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       DEX: 15,
@@ -23912,7 +22161,6 @@ export default [
       CRT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 8237,
@@ -23924,7 +22172,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       DEX: 25,
@@ -23932,7 +22179,6 @@ export default [
       DHT: 30,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8238,
@@ -23944,7 +22190,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       DEX: 15,
@@ -23952,7 +22197,6 @@ export default [
       DET: 13,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 8239,
@@ -23964,7 +22208,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       DEX: 25,
@@ -23972,7 +22215,6 @@ export default [
       DHT: 30,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8240,
@@ -23984,7 +22226,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       DEX: 15,
@@ -23992,7 +22233,6 @@ export default [
       CRT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 8241,
@@ -24004,7 +22244,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       DEX: 11,
@@ -24012,7 +22251,6 @@ export default [
       DHT: 14,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8242,
@@ -24024,14 +22262,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
       DHT: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8243,
@@ -24043,14 +22279,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       CRT: 21,
       SKS: 30,
     },
-    hq: false,
   },
   {
     id: 8244,
@@ -24062,14 +22296,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
       DHT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 8245,
@@ -24081,14 +22313,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       DET: 21,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 8246,
@@ -24100,14 +22330,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 15,
       VIT: 17,
       DHT: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8247,
@@ -24119,14 +22347,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 11,
       VIT: 13,
       CRT: 14,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8248,
@@ -24138,14 +22364,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       PIE: 13,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 8249,
@@ -24157,14 +22381,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       PIE: 22,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 8250,
@@ -24176,14 +22398,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       DET: 9,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 8251,
@@ -24195,14 +22415,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       PIE: 22,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 8252,
@@ -24214,14 +22432,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       MND: 15,
       DET: 9,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 8253,
@@ -24233,14 +22449,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       PIE: 7,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8254,
@@ -24252,14 +22466,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       DET: 13,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 8255,
@@ -24271,14 +22483,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       DHT: 30,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8256,
@@ -24290,14 +22500,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       DHT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 8257,
@@ -24309,14 +22517,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       DHT: 21,
       CRT: 30,
     },
-    hq: false,
   },
   {
     id: 8258,
@@ -24328,14 +22534,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 15,
       INT: 15,
       CRT: 13,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 8259,
@@ -24347,14 +22551,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       DHT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 8260,
@@ -24366,14 +22568,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       TEN: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 8261,
@@ -24385,14 +22585,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       CRT: 14,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8262,
@@ -24404,14 +22602,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       DET: 10,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8263,
@@ -24423,14 +22619,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8264,
@@ -24442,14 +22636,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       CRT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 8265,
@@ -24461,14 +22653,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       DHT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 8266,
@@ -24480,14 +22670,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       CRT: 14,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8267,
@@ -24499,14 +22687,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 13,
       DHT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8268,
@@ -24518,14 +22704,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 11,
       VIT: 13,
       DET: 10,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8269,
@@ -24537,14 +22721,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 11,
       VIT: 13,
       DHT: 14,
       SKS: 10,
     },
-    hq: false,
   },
   {
     id: 8270,
@@ -24556,14 +22738,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 11,
       VIT: 13,
       CRT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8271,
@@ -24575,14 +22755,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 11,
       VIT: 13,
       CRT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 8272,
@@ -24594,14 +22772,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       PIE: 10,
       CRT: 10,
     },
-    hq: false,
   },
   {
     id: 8273,
@@ -24613,14 +22789,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       PIE: 10,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 8274,
@@ -24632,14 +22806,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       DET: 7,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 8275,
@@ -24651,14 +22823,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
       CRT: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 8276,
@@ -24670,14 +22840,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       DHT: 10,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8277,
@@ -24689,14 +22857,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       DET: 10,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 8278,
@@ -24708,14 +22874,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       CRT: 10,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8279,
@@ -24727,14 +22891,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       INT: 11,
       DHT: 14,
       SPS: 10,
     },
-    hq: false,
   },
   {
     id: 8717,
@@ -24746,12 +22908,10 @@ export default [
     jobCategory: 19,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 165,
       PCP: 94,
     },
-    hq: false,
   },
   {
     id: 9230,
@@ -24763,7 +22923,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 30,
@@ -24772,7 +22931,6 @@ export default [
       PDMG: 44,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 10447,
@@ -24784,7 +22942,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
@@ -24793,7 +22950,6 @@ export default [
       PDMG: 44,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10509,
@@ -24805,7 +22961,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 30,
@@ -24814,7 +22969,6 @@ export default [
       PDMG: 44,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10571,
@@ -24826,7 +22980,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       MND: 27,
@@ -24834,7 +22987,6 @@ export default [
       DET: 16,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 11956,
@@ -25052,14 +23204,12 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
       PDMG: 44,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 14893,
@@ -25071,7 +23221,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       INT: 27,
@@ -25079,7 +23228,6 @@ export default [
       DET: 16,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 20364,
@@ -25091,7 +23239,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 30,
@@ -25100,7 +23247,6 @@ export default [
       PDMG: 44,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20365,
@@ -25112,7 +23258,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       INT: 27,
@@ -25120,7 +23265,6 @@ export default [
       CRT: 33,
       MDMG: 66,
     },
-    hq: false,
   },
   {
     id: 11871,
@@ -25329,7 +23473,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 25,
@@ -25338,7 +23481,6 @@ export default [
       PDMG: 46,
       DLY: 2160,
     },
-    hq: false,
   },
   {
     id: 1748,
@@ -25350,7 +23492,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -25359,7 +23500,6 @@ export default [
       PDMG: 46,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 1818,
@@ -25371,7 +23511,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -25380,7 +23519,6 @@ export default [
       PDMG: 46,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 1888,
@@ -25392,7 +23530,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -25401,7 +23538,6 @@ export default [
       PDMG: 46,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 1957,
@@ -25413,7 +23549,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 35,
@@ -25422,7 +23557,6 @@ export default [
       PDMG: 46,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 2054,
@@ -25434,7 +23568,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -25442,7 +23575,6 @@ export default [
       CRT: 26,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 2141,
@@ -25454,7 +23586,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
@@ -25462,7 +23593,6 @@ export default [
       DET: 26,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 2217,
@@ -25474,7 +23604,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
@@ -25482,7 +23611,6 @@ export default [
       SPS: 26,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 2218,
@@ -25494,7 +23622,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -25502,7 +23629,6 @@ export default [
       SPS: 26,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 2301,
@@ -25514,14 +23640,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       CRT: 7,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 2308,
@@ -25533,14 +23657,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 11,
       DHT: 7,
     },
-    hq: false,
   },
   {
     id: 2309,
@@ -25552,14 +23674,12 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 9,
       INT: 9,
       DHT: 11,
       SPS: 7,
     },
-    hq: false,
   },
   {
     id: 2311,
@@ -25571,14 +23691,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 7,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 2946,
@@ -25590,14 +23708,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       TEN: 21,
       DHT: 15,
     },
-    hq: false,
   },
   {
     id: 2947,
@@ -25609,7 +23725,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       DEX: 18,
@@ -25617,7 +23732,6 @@ export default [
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 2948,
@@ -25629,14 +23743,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       DHT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 2949,
@@ -25648,14 +23760,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       DHT: 21,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 2950,
@@ -25667,14 +23777,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 11,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 3263,
@@ -25686,7 +23794,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       DEX: 29,
@@ -25694,7 +23801,6 @@ export default [
       DHT: 24,
       CRT: 34,
     },
-    hq: false,
   },
   {
     id: 3264,
@@ -25706,14 +23812,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 29,
       VIT: 33,
       CRT: 24,
       SKS: 34,
     },
-    hq: false,
   },
   {
     id: 3265,
@@ -25725,14 +23829,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 29,
       PIE: 26,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 3266,
@@ -25744,14 +23846,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       TEN: 24,
       DHT: 34,
     },
-    hq: false,
   },
   {
     id: 3267,
@@ -25763,14 +23863,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 29,
       DET: 24,
       SPS: 24,
     },
-    hq: false,
   },
   {
     id: 3504,
@@ -25782,7 +23880,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       DEX: 29,
@@ -25790,7 +23887,6 @@ export default [
       CRT: 34,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 3505,
@@ -25802,14 +23898,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 29,
       VIT: 33,
       DHT: 34,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 3506,
@@ -25821,14 +23915,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 29,
       PIE: 26,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 3507,
@@ -25840,14 +23932,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       TEN: 24,
       CRT: 34,
     },
-    hq: false,
   },
   {
     id: 3508,
@@ -25859,14 +23949,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 29,
       DHT: 24,
       CRT: 34,
     },
-    hq: false,
   },
   {
     id: 3729,
@@ -25878,7 +23966,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       DEX: 18,
@@ -25886,7 +23973,6 @@ export default [
       CRT: 21,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3730,
@@ -25898,14 +23984,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       DET: 11,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 3731,
@@ -25917,14 +24001,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 16,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 3732,
@@ -25936,14 +24018,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DHT: 21,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3733,
@@ -25955,14 +24035,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       DET: 11,
       SPS: 21,
     },
-    hq: false,
   },
   {
     id: 3948,
@@ -25974,7 +24052,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       DEX: 18,
@@ -25982,7 +24059,6 @@ export default [
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 3949,
@@ -25994,14 +24070,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 3950,
@@ -26013,14 +24087,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 11,
       SPS: 21,
     },
-    hq: false,
   },
   {
     id: 3951,
@@ -26032,14 +24104,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       TEN: 21,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 3952,
@@ -26051,14 +24121,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       DHT: 15,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 4080,
@@ -26070,7 +24138,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       DEX: 13,
@@ -26078,7 +24145,6 @@ export default [
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4081,
@@ -26090,14 +24156,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 4082,
@@ -26109,14 +24173,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 12,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 4083,
@@ -26128,14 +24190,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 16,
       DHT: 11,
     },
-    hq: false,
   },
   {
     id: 4084,
@@ -26147,14 +24207,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 4184,
@@ -26166,14 +24224,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 4185,
@@ -26185,14 +24241,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DET: 8,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 4186,
@@ -26204,14 +24258,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 8,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 4187,
@@ -26223,14 +24275,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 11,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 4188,
@@ -26242,14 +24292,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 4189,
@@ -26261,14 +24309,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 4190,
@@ -26280,14 +24326,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 4191,
@@ -26299,14 +24343,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 4192,
@@ -26318,14 +24360,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 4193,
@@ -26337,14 +24377,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       DHT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 4194,
@@ -26356,14 +24394,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 8,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 4195,
@@ -26375,14 +24411,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4289,
@@ -26394,14 +24428,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 4290,
@@ -26413,14 +24445,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 4291,
@@ -26432,14 +24462,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 12,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4292,
@@ -26451,14 +24479,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 16,
       DHT: 11,
     },
-    hq: false,
   },
   {
     id: 4293,
@@ -26470,14 +24496,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4294,
@@ -26489,14 +24513,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 4295,
@@ -26508,14 +24530,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 4296,
@@ -26527,14 +24547,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DHT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4297,
@@ -26546,14 +24564,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       DHT: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 4298,
@@ -26565,14 +24581,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 8,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 4299,
@@ -26584,14 +24598,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 4300,
@@ -26603,14 +24615,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 11,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 4391,
@@ -26622,14 +24632,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DET: 8,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 4392,
@@ -26641,14 +24649,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 4393,
@@ -26660,14 +24666,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 8,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 4394,
@@ -26679,14 +24683,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 16,
       DHT: 11,
     },
-    hq: false,
   },
   {
     id: 4395,
@@ -26698,14 +24700,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 4396,
@@ -26717,14 +24717,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 4397,
@@ -26736,14 +24734,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 4398,
@@ -26755,14 +24751,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       DHT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4399,
@@ -26774,14 +24768,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       DET: 11,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 4530,
@@ -26793,14 +24785,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4531,
@@ -26812,14 +24802,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DHT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 4532,
@@ -26831,14 +24819,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 12,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 4533,
@@ -26850,14 +24836,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 4534,
@@ -26869,14 +24853,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 4535,
@@ -26888,14 +24870,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       DHT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6049,
@@ -26907,14 +24887,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DHT: 21,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 6050,
@@ -26926,14 +24904,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       TEN: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6051,
@@ -26945,14 +24921,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       TEN: 21,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 6052,
@@ -26964,14 +24938,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       TEN: 34,
       DHT: 24,
     },
-    hq: false,
   },
   {
     id: 6053,
@@ -26983,14 +24955,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       TEN: 15,
       DHT: 21,
     },
-    hq: false,
   },
   {
     id: 6054,
@@ -27002,14 +24972,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6055,
@@ -27021,14 +24989,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       TEN: 34,
       DHT: 24,
     },
-    hq: false,
   },
   {
     id: 6056,
@@ -27040,14 +25006,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       TEN: 15,
       DHT: 21,
     },
-    hq: false,
   },
   {
     id: 6057,
@@ -27059,14 +25023,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       TEN: 24,
       DET: 24,
     },
-    hq: false,
   },
   {
     id: 6058,
@@ -27078,14 +25040,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       TEN: 15,
       DHT: 21,
     },
-    hq: false,
   },
   {
     id: 6059,
@@ -27097,14 +25057,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DHT: 15,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 6060,
@@ -27116,14 +25074,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       DHT: 34,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 6061,
@@ -27135,14 +25091,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6062,
@@ -27154,14 +25108,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       DHT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6063,
@@ -27173,14 +25125,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       CRT: 15,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 6064,
@@ -27192,14 +25142,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DHT: 21,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6065,
@@ -27211,14 +25159,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       CRT: 24,
       DET: 24,
     },
-    hq: false,
   },
   {
     id: 6066,
@@ -27230,14 +25176,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6067,
@@ -27249,14 +25193,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       CRT: 24,
       SKS: 34,
     },
-    hq: false,
   },
   {
     id: 6068,
@@ -27268,14 +25210,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DHT: 15,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 6069,
@@ -27287,14 +25227,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       DHT: 15,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 6070,
@@ -27306,14 +25244,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 29,
       VIT: 33,
       DHT: 24,
       CRT: 34,
     },
-    hq: false,
   },
   {
     id: 6071,
@@ -27325,14 +25261,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       DHT: 15,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 6072,
@@ -27344,14 +25278,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 29,
       VIT: 33,
       CRT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6073,
@@ -27363,14 +25295,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       CRT: 15,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 6074,
@@ -27382,14 +25312,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 16,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6075,
@@ -27401,14 +25329,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 29,
       PIE: 26,
       SPS: 24,
     },
-    hq: false,
   },
   {
     id: 6076,
@@ -27420,14 +25346,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 16,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6077,
@@ -27439,14 +25363,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 29,
       PIE: 26,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6078,
@@ -27458,14 +25380,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 11,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 6079,
@@ -27477,14 +25397,12 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       CRT: 15,
       SPS: 21,
     },
-    hq: false,
   },
   {
     id: 6080,
@@ -27496,14 +25414,12 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 29,
       DHT: 34,
       SPS: 24,
     },
-    hq: false,
   },
   {
     id: 6081,
@@ -27515,14 +25431,12 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       DHT: 15,
       SPS: 21,
     },
-    hq: false,
   },
   {
     id: 6082,
@@ -27534,14 +25448,12 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 29,
       CRT: 24,
       SPS: 34,
     },
-    hq: false,
   },
   {
     id: 6083,
@@ -27553,14 +25465,12 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       DHT: 15,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 6084,
@@ -27572,14 +25482,12 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       DHT: 15,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 6085,
@@ -27591,14 +25499,12 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 29,
       CRT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6086,
@@ -27610,14 +25516,12 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       DHT: 21,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6087,
@@ -27629,14 +25533,12 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 29,
       DHT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6088,
@@ -27648,14 +25550,12 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       INT: 18,
       DHT: 21,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6089,
@@ -27667,14 +25567,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 11,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 6090,
@@ -27686,14 +25584,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 29,
       PIE: 26,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 6091,
@@ -27705,14 +25601,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 16,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6092,
@@ -27724,14 +25618,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 29,
       PIE: 26,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 6093,
@@ -27743,14 +25635,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       MND: 18,
       PIE: 16,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6225,
@@ -27762,14 +25652,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       CRT: 21,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6226,
@@ -27781,14 +25669,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       DET: 17,
       SKS: 34,
     },
-    hq: false,
   },
   {
     id: 6227,
@@ -27800,14 +25686,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 29,
       VIT: 33,
       DHT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6228,
@@ -27819,14 +25703,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       DHT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 6229,
@@ -27838,14 +25720,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 20,
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 6230,
@@ -27857,14 +25737,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6231,
@@ -27876,14 +25754,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6232,
@@ -27895,14 +25771,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 6233,
@@ -27914,7 +25788,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       DEX: 13,
@@ -27922,7 +25795,6 @@ export default [
       DHT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6234,
@@ -27934,14 +25806,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6235,
@@ -27953,14 +25823,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       DHT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6236,
@@ -27972,14 +25840,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 8,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 6237,
@@ -27991,14 +25857,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6238,
@@ -28010,14 +25874,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6239,
@@ -28029,14 +25891,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DHT: 11,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 6240,
@@ -28048,14 +25908,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       DET: 8,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6241,
@@ -28067,14 +25925,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 8,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 6242,
@@ -28086,14 +25942,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6243,
@@ -28105,14 +25959,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 11,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 6244,
@@ -28124,14 +25976,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6245,
@@ -28143,14 +25993,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6246,
@@ -28162,14 +26010,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 12,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 6247,
@@ -28181,14 +26027,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 16,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 6248,
@@ -28200,14 +26044,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DHT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6249,
@@ -28219,14 +26061,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DHT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6250,
@@ -28238,14 +26078,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6251,
@@ -28257,14 +26095,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 12,
       CRT: 11,
     },
-    hq: false,
   },
   {
     id: 6252,
@@ -28276,14 +26112,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 11,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 6253,
@@ -28295,14 +26129,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6254,
@@ -28314,14 +26146,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6255,
@@ -28333,14 +26163,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6256,
@@ -28352,14 +26180,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       PIE: 8,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 6257,
@@ -28371,7 +26197,6 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 25,
@@ -28380,7 +26205,6 @@ export default [
       PDMG: 46,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 6258,
@@ -28392,7 +26216,6 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -28401,7 +26224,6 @@ export default [
       PDMG: 46,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 6259,
@@ -28413,7 +26235,6 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -28422,7 +26243,6 @@ export default [
       PDMG: 46,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 6260,
@@ -28434,7 +26254,6 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -28443,7 +26262,6 @@ export default [
       PDMG: 46,
       DLY: 3120,
     },
-    hq: false,
   },
   {
     id: 6261,
@@ -28455,7 +26273,6 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 35,
@@ -28464,7 +26281,6 @@ export default [
       PDMG: 46,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 6262,
@@ -28476,7 +26292,6 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -28484,7 +26299,6 @@ export default [
       SPS: 26,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 6263,
@@ -28496,7 +26310,6 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
@@ -28504,7 +26317,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 6264,
@@ -28516,7 +26328,6 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
@@ -28524,7 +26335,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 6265,
@@ -28536,7 +26346,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -28544,7 +26353,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 6266,
@@ -28556,14 +26364,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 11,
       SKS: 7,
     },
-    hq: false,
   },
   {
     id: 6872,
@@ -28584,7 +26390,6 @@ export default [
       PDMG: 46,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 6873,
@@ -28605,7 +26410,6 @@ export default [
       PDMG: 46,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 6874,
@@ -28626,7 +26430,6 @@ export default [
       PDMG: 46,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 6875,
@@ -28647,7 +26450,6 @@ export default [
       PDMG: 46,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 6876,
@@ -28668,7 +26470,6 @@ export default [
       PDMG: 46,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 6877,
@@ -28688,7 +26489,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 6878,
@@ -28708,7 +26508,6 @@ export default [
       SPS: 26,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 6879,
@@ -28728,7 +26527,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 6880,
@@ -28748,7 +26546,6 @@ export default [
       DET: 18,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 6881,
@@ -28767,7 +26564,6 @@ export default [
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 6882,
@@ -28786,7 +26582,6 @@ export default [
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6883,
@@ -28806,7 +26601,6 @@ export default [
       CRT: 21,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6884,
@@ -28825,7 +26619,6 @@ export default [
       CRT: 15,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 6885,
@@ -28844,7 +26637,6 @@ export default [
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 6886,
@@ -28863,7 +26655,6 @@ export default [
       PIE: 11,
       SPS: 21,
     },
-    hq: false,
   },
   {
     id: 6887,
@@ -28882,7 +26673,6 @@ export default [
       CRT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6888,
@@ -28901,7 +26691,6 @@ export default [
       DET: 24,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 6889,
@@ -28921,7 +26710,6 @@ export default [
       DET: 24,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 6890,
@@ -28940,7 +26728,6 @@ export default [
       DET: 17,
       SKS: 34,
     },
-    hq: false,
   },
   {
     id: 6891,
@@ -28959,7 +26746,6 @@ export default [
       CRT: 24,
       DET: 24,
     },
-    hq: false,
   },
   {
     id: 6892,
@@ -28978,7 +26764,6 @@ export default [
       CRT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6893,
@@ -28997,7 +26782,6 @@ export default [
       CRT: 24,
       DET: 24,
     },
-    hq: false,
   },
   {
     id: 6894,
@@ -29016,7 +26800,6 @@ export default [
       DET: 17,
       SKS: 34,
     },
-    hq: false,
   },
   {
     id: 6895,
@@ -29036,7 +26819,6 @@ export default [
       CRT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6896,
@@ -29055,7 +26837,6 @@ export default [
       DET: 24,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 6897,
@@ -29074,7 +26855,6 @@ export default [
       CRT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 6898,
@@ -29093,7 +26873,6 @@ export default [
       PIE: 18,
       DET: 24,
     },
-    hq: false,
   },
   {
     id: 6899,
@@ -29112,7 +26891,6 @@ export default [
       CRT: 21,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6900,
@@ -29131,7 +26909,6 @@ export default [
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 6901,
@@ -29151,7 +26928,6 @@ export default [
       CRT: 15,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 6902,
@@ -29170,7 +26946,6 @@ export default [
       CRT: 21,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6903,
@@ -29189,7 +26964,6 @@ export default [
       CRT: 21,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6904,
@@ -29208,7 +26982,6 @@ export default [
       DET: 15,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 6905,
@@ -29227,7 +27000,6 @@ export default [
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6906,
@@ -29246,7 +27018,6 @@ export default [
       CRT: 15,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 6907,
@@ -29266,7 +27037,6 @@ export default [
       CRT: 21,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 6908,
@@ -29285,7 +27055,6 @@ export default [
       CRT: 21,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6909,
@@ -29304,7 +27073,6 @@ export default [
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 6910,
@@ -29323,7 +27091,6 @@ export default [
       PIE: 11,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 6911,
@@ -29342,7 +27109,6 @@ export default [
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6912,
@@ -29361,7 +27127,6 @@ export default [
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6913,
@@ -29381,7 +27146,6 @@ export default [
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6914,
@@ -29400,7 +27164,6 @@ export default [
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6915,
@@ -29419,7 +27182,6 @@ export default [
       CRT: 11,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6916,
@@ -29438,7 +27200,6 @@ export default [
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6917,
@@ -29450,14 +27211,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6918,
@@ -29469,14 +27228,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6919,
@@ -29488,14 +27245,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6920,
@@ -29507,14 +27262,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6921,
@@ -29526,14 +27279,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       DET: 8,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6922,
@@ -29545,14 +27296,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6923,
@@ -29564,14 +27313,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6924,
@@ -29583,14 +27330,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DET: 8,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6925,
@@ -29602,14 +27347,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6926,
@@ -29621,14 +27364,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       DET: 8,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6927,
@@ -29640,14 +27381,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 11,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6928,
@@ -29659,14 +27398,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 16,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6929,
@@ -29678,14 +27415,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       CRT: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 6930,
@@ -29697,14 +27432,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       DET: 8,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6931,
@@ -29716,14 +27449,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       DET: 11,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 6932,
@@ -29735,14 +27466,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       DET: 11,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 6933,
@@ -29754,14 +27483,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       CRT: 16,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6934,
@@ -29773,14 +27500,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 13,
       VIT: 15,
       DET: 8,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 6935,
@@ -29792,14 +27517,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       INT: 13,
       DET: 8,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 6936,
@@ -29811,14 +27534,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 14,
       MND: 13,
       CRT: 16,
       SPS: 11,
     },
-    hq: false,
   },
   {
     id: 7480,
@@ -30520,14 +28241,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       DHT: 15,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 7954,
@@ -30539,14 +28258,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 29,
       VIT: 33,
       DHT: 34,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 7955,
@@ -30558,14 +28275,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 29,
       VIT: 33,
       DHT: 34,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 7956,
@@ -30577,14 +28292,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 7957,
@@ -30596,14 +28309,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 20,
       CRT: 15,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 8280,
@@ -31162,7 +28873,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 35,
@@ -31171,7 +28881,6 @@ export default [
       PDMG: 46,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9244,
@@ -31192,7 +28901,6 @@ export default [
       PDMG: 46,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9250,
@@ -31204,7 +28912,6 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 35,
@@ -31213,7 +28920,6 @@ export default [
       PDMG: 46,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 10132,
@@ -31225,12 +28931,10 @@ export default [
     jobCategory: 9,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 180,
       CRL: 97,
     },
-    hq: false,
   },
   {
     id: 10133,
@@ -31242,12 +28946,10 @@ export default [
     jobCategory: 10,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 180,
       CRL: 97,
     },
-    hq: false,
   },
   {
     id: 10134,
@@ -31259,12 +28961,10 @@ export default [
     jobCategory: 11,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 180,
       CRL: 97,
     },
-    hq: false,
   },
   {
     id: 10135,
@@ -31276,12 +28976,10 @@ export default [
     jobCategory: 12,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 180,
       CRL: 97,
     },
-    hq: false,
   },
   {
     id: 10136,
@@ -31293,12 +28991,10 @@ export default [
     jobCategory: 13,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 180,
       CRL: 97,
     },
-    hq: false,
   },
   {
     id: 10137,
@@ -31310,12 +29006,10 @@ export default [
     jobCategory: 14,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 180,
       CRL: 97,
     },
-    hq: false,
   },
   {
     id: 10138,
@@ -31327,12 +29021,10 @@ export default [
     jobCategory: 15,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 180,
       CRL: 97,
     },
-    hq: false,
   },
   {
     id: 10139,
@@ -31344,12 +29036,10 @@ export default [
     jobCategory: 16,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 180,
       CRL: 97,
     },
-    hq: false,
   },
   {
     id: 10140,
@@ -31361,12 +29051,10 @@ export default [
     jobCategory: 17,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 179,
       PCP: 102,
     },
-    hq: false,
   },
   {
     id: 10141,
@@ -31378,12 +29066,10 @@ export default [
     jobCategory: 18,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 179,
       PCP: 102,
     },
-    hq: false,
   },
   {
     id: 10142,
@@ -31395,12 +29081,10 @@ export default [
     jobCategory: 19,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 179,
       PCP: 102,
     },
-    hq: false,
   },
   {
     id: 10416,
@@ -31421,7 +29105,6 @@ export default [
       PDMG: 46,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10453,
@@ -31433,7 +29116,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -31442,7 +29124,6 @@ export default [
       PDMG: 46,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10478,
@@ -31463,7 +29144,6 @@ export default [
       PDMG: 46,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10515,
@@ -31475,7 +29155,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 35,
@@ -31484,7 +29163,6 @@ export default [
       PDMG: 46,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10540,
@@ -31504,7 +29182,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 10577,
@@ -31516,7 +29193,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -31524,7 +29200,6 @@ export default [
       DET: 18,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 11915,
@@ -31784,14 +29459,12 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
       PDMG: 46,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 1678,
@@ -31803,7 +29476,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
@@ -31812,7 +29484,6 @@ export default [
       PDMG: 47,
       DLY: 2160,
     },
-    hq: false,
   },
   {
     id: 1747,
@@ -31824,7 +29495,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -31833,7 +29503,6 @@ export default [
       PDMG: 47,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 1817,
@@ -31845,7 +29514,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -31854,7 +29522,6 @@ export default [
       PDMG: 47,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 1887,
@@ -31866,7 +29533,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -31875,7 +29541,6 @@ export default [
       PDMG: 47,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 1956,
@@ -31887,7 +29552,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
@@ -31896,7 +29560,6 @@ export default [
       PDMG: 47,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 2053,
@@ -31908,7 +29571,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -31916,7 +29578,6 @@ export default [
       SPS: 39,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 2105,
@@ -31928,7 +29589,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 24,
@@ -31936,7 +29596,6 @@ export default [
       SPS: 19,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 2215,
@@ -31948,7 +29607,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
@@ -31956,7 +29614,6 @@ export default [
       DET: 19,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 2216,
@@ -31968,7 +29625,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -31976,7 +29632,6 @@ export default [
       DET: 19,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 6693,
@@ -31988,7 +29643,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
@@ -31997,7 +29651,6 @@ export default [
       PDMG: 47,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 6694,
@@ -32009,7 +29662,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -32018,7 +29670,6 @@ export default [
       PDMG: 47,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 6695,
@@ -32030,7 +29681,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -32039,7 +29689,6 @@ export default [
       PDMG: 47,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 6696,
@@ -32051,7 +29700,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -32060,7 +29708,6 @@ export default [
       PDMG: 47,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 6697,
@@ -32072,7 +29719,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
@@ -32081,7 +29727,6 @@ export default [
       PDMG: 47,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 6698,
@@ -32093,7 +29738,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 24,
@@ -32101,7 +29745,6 @@ export default [
       SPS: 19,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 6699,
@@ -32113,7 +29756,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
@@ -32121,7 +29763,6 @@ export default [
       DET: 19,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 6700,
@@ -32133,7 +29774,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
@@ -32141,7 +29781,6 @@ export default [
       DET: 28,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 6701,
@@ -32153,7 +29792,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -32161,7 +29799,6 @@ export default [
       DET: 19,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 6702,
@@ -32173,14 +29810,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 10,
       VIT: 11,
       CRT: 8,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 6703,
@@ -32192,14 +29827,12 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 10,
       MND: 10,
       PIE: 8,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 8355,
@@ -32949,7 +30582,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
@@ -32958,7 +30590,6 @@ export default [
       PDMG: 47,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9234,
@@ -33054,7 +30685,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
@@ -33063,7 +30693,6 @@ export default [
       PDMG: 47,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 10408,
@@ -33159,7 +30788,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -33168,7 +30796,6 @@ export default [
       PDMG: 47,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10454,
@@ -33180,7 +30807,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -33189,7 +30815,6 @@ export default [
       PDMG: 47,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10470,
@@ -33285,7 +30910,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
@@ -33294,7 +30918,6 @@ export default [
       PDMG: 47,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10516,
@@ -33306,7 +30929,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
@@ -33315,7 +30937,6 @@ export default [
       PDMG: 47,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10532,
@@ -33407,7 +31028,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -33415,7 +31035,6 @@ export default [
       CRT: 39,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 10578,
@@ -33427,7 +31046,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -33435,7 +31053,6 @@ export default [
       DET: 28,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 14887,
@@ -33447,7 +31064,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -33455,7 +31071,6 @@ export default [
       SPS: 27,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 14892,
@@ -33467,7 +31082,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
@@ -33475,7 +31089,6 @@ export default [
       SPS: 27,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 15913,
@@ -33731,7 +31344,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
@@ -33740,7 +31352,6 @@ export default [
       PDMG: 47,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20373,
@@ -33752,7 +31363,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
@@ -33760,7 +31370,6 @@ export default [
       DET: 19,
       MDMG: 71,
     },
-    hq: false,
   },
   {
     id: 7228,
@@ -33772,14 +31381,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 7229,
@@ -33791,14 +31398,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       TEN: 38,
       DHT: 26,
     },
-    hq: false,
   },
   {
     id: 7230,
@@ -33810,14 +31415,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7231,
@@ -33829,14 +31432,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       TEN: 38,
       CRT: 26,
     },
-    hq: false,
   },
   {
     id: 7232,
@@ -33848,14 +31449,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 7233,
@@ -33867,14 +31466,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7234,
@@ -33886,14 +31483,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7235,
@@ -33905,14 +31500,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 7236,
@@ -33924,14 +31517,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7237,
@@ -33943,14 +31534,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 12,
       DHT: 17,
     },
-    hq: false,
   },
   {
     id: 7238,
@@ -33962,14 +31551,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7239,
@@ -33981,14 +31568,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       DHT: 38,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 7240,
@@ -34000,14 +31585,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7241,
@@ -34019,14 +31602,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       CRT: 38,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 7242,
@@ -34038,14 +31619,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7243,
@@ -34057,14 +31636,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 7244,
@@ -34076,7 +31653,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       DEX: 21,
@@ -34084,7 +31660,6 @@ export default [
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7245,
@@ -34096,7 +31671,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       DEX: 34,
@@ -34104,7 +31678,6 @@ export default [
       CRT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 7246,
@@ -34116,7 +31689,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       DEX: 21,
@@ -34124,7 +31696,6 @@ export default [
       DET: 16,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7247,
@@ -34136,7 +31707,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       DEX: 34,
@@ -34144,7 +31714,6 @@ export default [
       DHT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 7248,
@@ -34156,7 +31725,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       DEX: 21,
@@ -34164,7 +31732,6 @@ export default [
       DET: 11,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7249,
@@ -34176,7 +31743,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       DEX: 16,
@@ -34184,7 +31750,6 @@ export default [
       DHT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7250,
@@ -34196,14 +31761,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 17,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 7251,
@@ -34215,14 +31778,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 7252,
@@ -34234,14 +31795,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DET: 9,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 7253,
@@ -34253,14 +31812,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7254,
@@ -34272,14 +31829,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7255,
@@ -34291,14 +31846,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
       CRT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 7256,
@@ -34310,14 +31863,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7257,
@@ -34329,14 +31880,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
       DET: 19,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 7258,
@@ -34348,14 +31897,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7259,
@@ -34367,14 +31914,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       CRT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7260,
@@ -34386,14 +31931,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 17,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 7261,
@@ -34405,14 +31948,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 17,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 7262,
@@ -34424,14 +31965,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7263,
@@ -34443,14 +31982,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 7264,
@@ -34462,7 +31999,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -34470,7 +32006,6 @@ export default [
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 7265,
@@ -34482,7 +32017,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -34490,7 +32024,6 @@ export default [
       DHT: 8,
       CRT: 26,
     },
-    hq: false,
   },
   {
     id: 7266,
@@ -34502,7 +32035,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -34510,7 +32042,6 @@ export default [
       DET: 11,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 7267,
@@ -34522,7 +32053,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -34530,7 +32060,6 @@ export default [
       DHT: 8,
       CRT: 38,
     },
-    hq: false,
   },
   {
     id: 7268,
@@ -34542,7 +32071,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -34550,7 +32078,6 @@ export default [
       CRT: 16,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 7269,
@@ -34562,7 +32089,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -34570,7 +32096,6 @@ export default [
       DHT: 3,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 7270,
@@ -34582,7 +32107,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -34590,7 +32114,6 @@ export default [
       DHT: 3,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7271,
@@ -34602,7 +32125,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -34610,7 +32132,6 @@ export default [
       DET: 12,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 7272,
@@ -34622,7 +32143,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -34630,7 +32150,6 @@ export default [
       DHT: 3,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 7273,
@@ -34642,7 +32161,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -34650,7 +32168,6 @@ export default [
       DHT: 3,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7274,
@@ -34662,14 +32179,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       CRT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 7275,
@@ -34681,14 +32196,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
       CRT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 7276,
@@ -34700,14 +32213,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       CRT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 7277,
@@ -34719,14 +32230,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
       DHT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 7278,
@@ -34738,14 +32247,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       CRT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 7279,
@@ -34757,14 +32264,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 17,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 7280,
@@ -34776,14 +32281,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7281,
@@ -34795,14 +32298,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7282,
@@ -34814,14 +32315,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       CRT: 12,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 7283,
@@ -34833,14 +32332,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 17,
       CRT: 12,
     },
-    hq: false,
   },
   {
     id: 7284,
@@ -34852,14 +32349,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
       TEN: 8,
       DHT: 12,
     },
-    hq: false,
   },
   {
     id: 7285,
@@ -34871,7 +32366,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 26,
       VIT: 30,
@@ -34880,7 +32374,6 @@ export default [
       PDMG: 49,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 7286,
@@ -34892,7 +32385,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -34901,7 +32393,6 @@ export default [
       PDMG: 49,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 7287,
@@ -34913,7 +32404,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -34922,7 +32412,6 @@ export default [
       PDMG: 49,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 7288,
@@ -34934,7 +32423,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -34943,7 +32431,6 @@ export default [
       PDMG: 49,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 7289,
@@ -34955,7 +32442,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -34964,7 +32450,6 @@ export default [
       PDMG: 49,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 7290,
@@ -34976,7 +32461,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -34985,7 +32469,6 @@ export default [
       DET: 20,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7291,
@@ -34997,7 +32480,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -35005,7 +32487,6 @@ export default [
       SPS: 28,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7292,
@@ -35017,7 +32498,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -35025,7 +32505,6 @@ export default [
       DET: 29,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7293,
@@ -35037,7 +32516,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -35046,7 +32524,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7360,
@@ -35065,7 +32542,6 @@ export default [
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7361,
@@ -35084,7 +32560,6 @@ export default [
       CRT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 7362,
@@ -35103,7 +32578,6 @@ export default [
       DET: 11,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7363,
@@ -35122,7 +32596,6 @@ export default [
       CRT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 7364,
@@ -35141,7 +32614,6 @@ export default [
       DET: 16,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7365,
@@ -35160,7 +32632,6 @@ export default [
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7366,
@@ -35179,7 +32650,6 @@ export default [
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 7367,
@@ -35198,7 +32668,6 @@ export default [
       CRT: 26,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 7368,
@@ -35217,7 +32686,6 @@ export default [
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 7369,
@@ -35236,7 +32704,6 @@ export default [
       CRT: 38,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 7370,
@@ -35255,7 +32722,6 @@ export default [
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7371,
@@ -35274,7 +32740,6 @@ export default [
       DET: 9,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 7372,
@@ -35293,7 +32758,6 @@ export default [
       DET: 11,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7373,
@@ -35312,7 +32776,6 @@ export default [
       CRT: 38,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 7374,
@@ -35331,7 +32794,6 @@ export default [
       DET: 16,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7375,
@@ -35350,7 +32812,6 @@ export default [
       DET: 19,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 7376,
@@ -35369,7 +32830,6 @@ export default [
       DET: 11,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7377,
@@ -35388,7 +32848,6 @@ export default [
       CRT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7378,
@@ -35407,7 +32866,6 @@ export default [
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7379,
@@ -35426,7 +32884,6 @@ export default [
       DET: 27,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 7380,
@@ -35445,7 +32902,6 @@ export default [
       CRT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7381,
@@ -35464,7 +32920,6 @@ export default [
       DET: 19,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 7382,
@@ -35483,7 +32938,6 @@ export default [
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 7383,
@@ -35502,7 +32956,6 @@ export default [
       CRT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7384,
@@ -35521,7 +32974,6 @@ export default [
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 7385,
@@ -35540,7 +32992,6 @@ export default [
       CRT: 26,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 7386,
@@ -35559,7 +33010,6 @@ export default [
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 7387,
@@ -35578,7 +33028,6 @@ export default [
       CRT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 7388,
@@ -35597,7 +33046,6 @@ export default [
       DET: 11,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 7389,
@@ -35616,7 +33064,6 @@ export default [
       CRT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7390,
@@ -35635,7 +33082,6 @@ export default [
       DET: 11,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 7391,
@@ -35654,7 +33100,6 @@ export default [
       PIE: 20,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 7392,
@@ -35673,7 +33118,6 @@ export default [
       CRT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 7393,
@@ -35692,7 +33136,6 @@ export default [
       PIE: 20,
       SPS: 38,
     },
-    hq: false,
   },
   {
     id: 7394,
@@ -35711,7 +33154,6 @@ export default [
       PIE: 12,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 7395,
@@ -35730,7 +33172,6 @@ export default [
       PIE: 9,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7396,
@@ -35749,7 +33190,6 @@ export default [
       DET: 16,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 7397,
@@ -35768,7 +33208,6 @@ export default [
       CRT: 38,
       SPS: 26,
     },
-    hq: false,
   },
   {
     id: 7398,
@@ -35787,7 +33226,6 @@ export default [
       CRT: 16,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 7399,
@@ -35806,7 +33244,6 @@ export default [
       CRT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 7400,
@@ -35825,7 +33262,6 @@ export default [
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7401,
@@ -35844,7 +33280,6 @@ export default [
       DET: 9,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 7402,
@@ -35863,7 +33298,6 @@ export default [
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7403,
@@ -35882,7 +33316,6 @@ export default [
       DET: 19,
       SPS: 38,
     },
-    hq: false,
   },
   {
     id: 7404,
@@ -35901,7 +33334,6 @@ export default [
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 7405,
@@ -35920,7 +33352,6 @@ export default [
       DET: 27,
       SPS: 26,
     },
-    hq: false,
   },
   {
     id: 7406,
@@ -35939,7 +33370,6 @@ export default [
       DET: 11,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 7407,
@@ -35958,7 +33388,6 @@ export default [
       DET: 12,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 7408,
@@ -35977,7 +33406,6 @@ export default [
       PIE: 12,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 7409,
@@ -35996,7 +33424,6 @@ export default [
       PIE: 20,
       CRT: 38,
     },
-    hq: false,
   },
   {
     id: 7410,
@@ -36015,7 +33442,6 @@ export default [
       PIE: 12,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 7411,
@@ -36034,7 +33460,6 @@ export default [
       DET: 19,
       SPS: 38,
     },
-    hq: false,
   },
   {
     id: 7412,
@@ -36053,7 +33478,6 @@ export default [
       DET: 16,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 7413,
@@ -36072,7 +33496,6 @@ export default [
       CRT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7414,
@@ -36084,14 +33507,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       CRT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7415,
@@ -36103,14 +33524,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       CRT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7416,
@@ -36122,14 +33541,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       CRT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 7417,
@@ -36141,14 +33558,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7418,
@@ -36160,14 +33575,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DET: 12,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7419,
@@ -36179,14 +33592,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DET: 12,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7420,
@@ -36198,14 +33609,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       CRT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7421,
@@ -36217,14 +33626,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       CRT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7422,
@@ -36236,14 +33643,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DET: 12,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 7423,
@@ -36255,14 +33660,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DET: 9,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 7424,
@@ -36274,14 +33677,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7425,
@@ -36293,14 +33694,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       CRT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 7426,
@@ -36312,14 +33711,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
       PIE: 9,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 7427,
@@ -36331,14 +33728,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
       CRT: 12,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 7428,
@@ -36350,14 +33745,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7429,
@@ -36369,14 +33762,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
       CRT: 17,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 7430,
@@ -36388,14 +33779,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       CRT: 17,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 7431,
@@ -36407,14 +33796,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DET: 12,
       SPS: 12,
     },
-    hq: false,
   },
   {
     id: 7432,
@@ -36426,14 +33813,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DET: 9,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 7433,
@@ -36445,14 +33830,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DET: 9,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 7434,
@@ -36464,14 +33847,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
       CRT: 8,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 7435,
@@ -36492,7 +33873,6 @@ export default [
       PDMG: 49,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 7436,
@@ -36513,7 +33893,6 @@ export default [
       PDMG: 49,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 7437,
@@ -36534,7 +33913,6 @@ export default [
       PDMG: 49,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 7438,
@@ -36555,7 +33933,6 @@ export default [
       PDMG: 49,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 7439,
@@ -36576,7 +33953,6 @@ export default [
       PDMG: 49,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 7440,
@@ -36596,7 +33972,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7441,
@@ -36616,7 +33991,6 @@ export default [
       SPS: 28,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7442,
@@ -36636,7 +34010,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7443,
@@ -36656,7 +34029,6 @@ export default [
       DET: 20,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7516,
@@ -36668,14 +34040,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7517,
@@ -36687,14 +34057,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7518,
@@ -36706,14 +34074,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       CRT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 7519,
@@ -36725,14 +34091,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7520,
@@ -36744,7 +34108,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -36752,7 +34115,6 @@ export default [
       DHT: 3,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7813,
@@ -36764,7 +34126,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 26,
       VIT: 30,
@@ -36773,7 +34134,6 @@ export default [
       PDMG: 49,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 7814,
@@ -36785,7 +34145,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -36794,7 +34153,6 @@ export default [
       PDMG: 49,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 7815,
@@ -36806,7 +34164,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -36815,7 +34172,6 @@ export default [
       PDMG: 49,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 7816,
@@ -36827,7 +34183,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -36836,7 +34191,6 @@ export default [
       PDMG: 49,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 7817,
@@ -36848,7 +34202,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -36857,7 +34210,6 @@ export default [
       PDMG: 49,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 7818,
@@ -36869,7 +34221,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       MND: 26,
@@ -36878,7 +34229,6 @@ export default [
       SPS: 20,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7819,
@@ -36890,7 +34240,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -36898,7 +34247,6 @@ export default [
       DET: 20,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7820,
@@ -36910,7 +34258,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -36918,7 +34265,6 @@ export default [
       DET: 29,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7821,
@@ -36930,7 +34276,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -36939,7 +34284,6 @@ export default [
       DET: 20,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7822,
@@ -36951,14 +34295,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
       CRT: 8,
       DET: 8,
     },
-    hq: false,
   },
   {
     id: 7823,
@@ -36970,7 +34312,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 11,
       MND: 11,
@@ -36978,7 +34319,6 @@ export default [
       DHT: 2,
       SPS: 8,
     },
-    hq: false,
   },
   {
     id: 7824,
@@ -36990,7 +34330,6 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 22,
       VIT: 25,
@@ -36999,7 +34338,6 @@ export default [
       PDMG: 46,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 7825,
@@ -37011,7 +34349,6 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -37020,7 +34357,6 @@ export default [
       PDMG: 46,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 7826,
@@ -37032,7 +34368,6 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -37041,7 +34376,6 @@ export default [
       PDMG: 46,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 7827,
@@ -37053,7 +34387,6 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 35,
@@ -37062,7 +34395,6 @@ export default [
       PDMG: 46,
       DLY: 3120,
     },
-    hq: false,
   },
   {
     id: 7828,
@@ -37074,7 +34406,6 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 35,
@@ -37083,7 +34414,6 @@ export default [
       PDMG: 46,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 7829,
@@ -37095,7 +34425,6 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -37103,7 +34432,6 @@ export default [
       SPS: 26,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 7830,
@@ -37115,7 +34443,6 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
@@ -37123,7 +34450,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 7831,
@@ -37135,7 +34461,6 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
@@ -37143,7 +34468,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 7832,
@@ -37155,7 +34479,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -37163,7 +34486,6 @@ export default [
       SPS: 37,
       MDMG: 69,
     },
-    hq: false,
   },
   {
     id: 7833,
@@ -37175,14 +34497,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 9,
       VIT: 10,
       TEN: 11,
       SKS: 7,
     },
-    hq: false,
   },
   {
     id: 7834,
@@ -37194,7 +34514,6 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 26,
       VIT: 30,
@@ -37203,7 +34522,6 @@ export default [
       PDMG: 49,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 7835,
@@ -37215,7 +34533,6 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -37224,7 +34541,6 @@ export default [
       PDMG: 49,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 7836,
@@ -37236,7 +34552,6 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -37245,7 +34560,6 @@ export default [
       PDMG: 49,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 7837,
@@ -37257,7 +34571,6 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -37266,7 +34579,6 @@ export default [
       PDMG: 49,
       DLY: 3120,
     },
-    hq: false,
   },
   {
     id: 7838,
@@ -37278,7 +34590,6 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -37287,7 +34598,6 @@ export default [
       PDMG: 49,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 7839,
@@ -37299,7 +34609,6 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -37308,7 +34617,6 @@ export default [
       SPS: 28,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7840,
@@ -37320,7 +34628,6 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -37328,7 +34635,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7841,
@@ -37340,7 +34646,6 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -37348,7 +34653,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7842,
@@ -37360,7 +34664,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -37369,7 +34672,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7843,
@@ -37381,14 +34683,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
       TEN: 12,
       SKS: 8,
     },
-    hq: false,
   },
   {
     id: 8304,
@@ -37400,14 +34700,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 8305,
@@ -37419,14 +34717,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       DET: 27,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 8306,
@@ -37438,14 +34734,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 23,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 8307,
@@ -37457,14 +34751,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       TEN: 26,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 8308,
@@ -37476,14 +34768,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8309,
@@ -37495,14 +34785,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 8310,
@@ -37514,14 +34802,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DET: 16,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8311,
@@ -37533,14 +34819,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       DHT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 8312,
@@ -37552,14 +34836,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DET: 16,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8313,
@@ -37571,14 +34853,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       DHT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 8314,
@@ -37590,14 +34870,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 8315,
@@ -37609,14 +34887,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 8316,
@@ -37628,7 +34904,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       DEX: 21,
@@ -37636,7 +34911,6 @@ export default [
       DET: 11,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 8317,
@@ -37648,7 +34922,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       DEX: 34,
@@ -37656,7 +34929,6 @@ export default [
       DHT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 8318,
@@ -37668,7 +34940,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       DEX: 21,
@@ -37676,7 +34947,6 @@ export default [
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 8319,
@@ -37688,7 +34958,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       DEX: 34,
@@ -37696,7 +34965,6 @@ export default [
       DHT: 26,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 8320,
@@ -37708,7 +34976,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       DEX: 21,
@@ -37716,7 +34983,6 @@ export default [
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 8321,
@@ -37728,7 +34994,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       DEX: 16,
@@ -37736,7 +35001,6 @@ export default [
       CRT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 8322,
@@ -37748,14 +35012,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DET: 16,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 8323,
@@ -37767,14 +35029,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
       DHT: 38,
       CRT: 26,
     },
-    hq: false,
   },
   {
     id: 8324,
@@ -37786,14 +35046,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 8325,
@@ -37805,14 +35063,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
       DHT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 8326,
@@ -37824,14 +35080,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 8327,
@@ -37843,14 +35097,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 8328,
@@ -37862,7 +35114,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -37870,7 +35121,6 @@ export default [
       DHT: 5,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 8329,
@@ -37882,7 +35132,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -37890,7 +35139,6 @@ export default [
       DET: 19,
       SPS: 38,
     },
-    hq: false,
   },
   {
     id: 8330,
@@ -37902,7 +35150,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -37910,7 +35157,6 @@ export default [
       DHT: 5,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 8331,
@@ -37922,7 +35168,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -37930,7 +35175,6 @@ export default [
       DHT: 8,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 8332,
@@ -37942,7 +35186,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -37950,7 +35193,6 @@ export default [
       DHT: 5,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 8333,
@@ -37962,7 +35204,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -37970,7 +35211,6 @@ export default [
       CRT: 12,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 8334,
@@ -37982,14 +35222,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DET: 11,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 8335,
@@ -38001,14 +35239,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
       DHT: 26,
       CRT: 38,
     },
-    hq: false,
   },
   {
     id: 8336,
@@ -38020,14 +35256,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DET: 11,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 8337,
@@ -38039,14 +35273,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
       DHT: 38,
       SPS: 26,
     },
-    hq: false,
   },
   {
     id: 8338,
@@ -38058,14 +35290,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 8339,
@@ -38077,14 +35307,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       CRT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 8340,
@@ -38096,7 +35324,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 26,
       VIT: 30,
@@ -38105,7 +35332,6 @@ export default [
       PDMG: 49,
       DLY: 1920,
     },
-    hq: false,
   },
   {
     id: 8341,
@@ -38117,7 +35343,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -38126,7 +35351,6 @@ export default [
       PDMG: 49,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 8342,
@@ -38138,7 +35362,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -38147,7 +35370,6 @@ export default [
       PDMG: 49,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 8343,
@@ -38159,7 +35381,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -38168,7 +35389,6 @@ export default [
       PDMG: 49,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 8344,
@@ -38180,7 +35400,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -38189,7 +35408,6 @@ export default [
       PDMG: 49,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 8345,
@@ -38201,7 +35419,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -38210,7 +35427,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 8346,
@@ -38222,7 +35438,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -38230,7 +35445,6 @@ export default [
       DET: 29,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 8347,
@@ -38242,7 +35456,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -38250,7 +35463,6 @@ export default [
       SPS: 28,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 8348,
@@ -38262,7 +35474,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -38271,7 +35482,6 @@ export default [
       SPS: 28,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 8349,
@@ -38283,14 +35493,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 11,
       VIT: 12,
       DET: 6,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 9232,
@@ -38302,7 +35510,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -38311,7 +35518,6 @@ export default [
       PDMG: 49,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9233,
@@ -38323,7 +35529,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -38332,7 +35537,6 @@ export default [
       PDMG: 49,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 9245,
@@ -38353,7 +35557,6 @@ export default [
       PDMG: 49,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9246,
@@ -38365,7 +35568,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -38374,7 +35576,6 @@ export default [
       PDMG: 49,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9251,
@@ -38386,7 +35587,6 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 35,
@@ -38395,7 +35595,6 @@ export default [
       PDMG: 46,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 9252,
@@ -38407,7 +35606,6 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -38416,7 +35614,6 @@ export default [
       PDMG: 49,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 9262,
@@ -38435,7 +35632,6 @@ export default [
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 9263,
@@ -38454,7 +35650,6 @@ export default [
       DET: 19,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 9264,
@@ -38473,7 +35668,6 @@ export default [
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 9265,
@@ -38492,7 +35686,6 @@ export default [
       DET: 27,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 9266,
@@ -38511,7 +35704,6 @@ export default [
       CRT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 9267,
@@ -38530,7 +35722,6 @@ export default [
       DET: 12,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 9943,
@@ -38542,14 +35733,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 9944,
@@ -38561,14 +35750,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       TEN: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 9945,
@@ -38580,14 +35767,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 9946,
@@ -38599,14 +35784,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       CRT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 9947,
@@ -38618,14 +35801,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 9948,
@@ -38637,14 +35818,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 9949,
@@ -38656,14 +35835,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 9950,
@@ -38675,14 +35852,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       CRT: 38,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 9951,
@@ -38694,14 +35869,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 9952,
@@ -38713,14 +35886,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       DHT: 38,
       CRT: 26,
     },
-    hq: false,
   },
   {
     id: 9953,
@@ -38732,14 +35903,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 9954,
@@ -38751,14 +35920,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       CRT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 9955,
@@ -38770,14 +35937,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 9956,
@@ -38789,14 +35954,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       DHT: 26,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 9957,
@@ -38808,14 +35971,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 23,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 9958,
@@ -38827,14 +35988,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 39,
       CRT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 9959,
@@ -38846,14 +36005,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 9960,
@@ -38865,14 +36022,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 9961,
@@ -38884,14 +36039,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 9962,
@@ -38903,14 +36056,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
       DHT: 26,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 9963,
@@ -38922,14 +36073,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DET: 16,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 9964,
@@ -38941,14 +36090,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
       DHT: 26,
       SKS: 38,
     },
-    hq: false,
   },
   {
     id: 9965,
@@ -38960,14 +36107,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 9966,
@@ -38979,14 +36124,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 9967,
@@ -38998,14 +36141,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 9968,
@@ -39017,14 +36158,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
       DHT: 38,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 9969,
@@ -39036,14 +36175,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 9970,
@@ -39055,14 +36192,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 34,
       VIT: 39,
       CRT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 9971,
@@ -39074,14 +36209,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 9972,
@@ -39093,14 +36226,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 9973,
@@ -39112,7 +36243,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -39120,7 +36250,6 @@ export default [
       DHT: 5,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 9974,
@@ -39132,7 +36261,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -39140,7 +36268,6 @@ export default [
       CRT: 38,
       SPS: 26,
     },
-    hq: false,
   },
   {
     id: 9975,
@@ -39152,7 +36279,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -39160,7 +36286,6 @@ export default [
       DHT: 5,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 9976,
@@ -39172,7 +36297,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       MND: 34,
@@ -39180,7 +36304,6 @@ export default [
       CRT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 9977,
@@ -39192,7 +36315,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -39200,7 +36322,6 @@ export default [
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 9978,
@@ -39212,7 +36333,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -39220,7 +36340,6 @@ export default [
       DET: 9,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 9979,
@@ -39232,14 +36351,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 16,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 9980,
@@ -39251,14 +36368,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
       DHT: 38,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 9981,
@@ -39270,14 +36385,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 9982,
@@ -39289,14 +36402,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 35,
       INT: 34,
       DHT: 26,
       CRT: 38,
     },
-    hq: false,
   },
   {
     id: 9983,
@@ -39308,14 +36419,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 16,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 9984,
@@ -39327,14 +36436,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9985,
@@ -39346,14 +36453,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 17,
       DHT: 12,
     },
-    hq: false,
   },
   {
     id: 9986,
@@ -39365,14 +36470,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9987,
@@ -39384,14 +36487,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       TEN: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9988,
@@ -39403,14 +36504,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 9989,
@@ -39422,14 +36521,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 9990,
@@ -39441,14 +36538,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 9991,
@@ -39460,14 +36555,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DHT: 12,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 9992,
@@ -39479,14 +36572,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 18,
       DET: 12,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 9993,
@@ -39498,14 +36589,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DET: 12,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 9994,
@@ -39517,14 +36606,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       DHT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 9995,
@@ -39536,14 +36623,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       CRT: 17,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 9996,
@@ -39555,14 +36640,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 16,
       VIT: 18,
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9997,
@@ -39574,7 +36657,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -39582,7 +36664,6 @@ export default [
       CRT: 12,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 9998,
@@ -39594,7 +36675,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -39602,7 +36682,6 @@ export default [
       DHT: 3,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 9999,
@@ -39614,7 +36693,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -39622,7 +36700,6 @@ export default [
       DHT: 3,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 10000,
@@ -39634,7 +36711,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       MND: 16,
@@ -39642,7 +36718,6 @@ export default [
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 10001,
@@ -39654,14 +36729,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 12,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 10002,
@@ -39673,14 +36746,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 12,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 10003,
@@ -39692,14 +36763,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       DHT: 12,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 10004,
@@ -39711,14 +36780,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       INT: 16,
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 10417,
@@ -39739,7 +36806,6 @@ export default [
       PDMG: 49,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10449,
@@ -39751,7 +36817,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -39760,7 +36825,6 @@ export default [
       PDMG: 49,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10450,
@@ -39772,7 +36836,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -39781,7 +36844,6 @@ export default [
       PDMG: 49,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10458,
@@ -39793,7 +36855,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -39802,7 +36863,6 @@ export default [
       PDMG: 49,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10479,
@@ -39823,7 +36883,6 @@ export default [
       PDMG: 49,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10511,
@@ -39835,7 +36894,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -39844,7 +36902,6 @@ export default [
       PDMG: 49,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10512,
@@ -39856,7 +36913,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -39865,7 +36921,6 @@ export default [
       PDMG: 49,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10520,
@@ -39877,7 +36932,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 42,
@@ -39886,7 +36940,6 @@ export default [
       PDMG: 49,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10541,
@@ -39906,7 +36959,6 @@ export default [
       DET: 29,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 10573,
@@ -39918,7 +36970,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -39927,7 +36978,6 @@ export default [
       CRT: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 10574,
@@ -39939,7 +36989,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -39948,7 +36997,6 @@ export default [
       DET: 29,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 10582,
@@ -39960,7 +37008,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -39969,7 +37016,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 11872,
@@ -40357,7 +37403,6 @@ export default [
       CRT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 12477,
@@ -40376,7 +37421,6 @@ export default [
       CRT: 38,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 12478,
@@ -40395,7 +37439,6 @@ export default [
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 12479,
@@ -40414,7 +37457,6 @@ export default [
       DET: 27,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 12480,
@@ -40433,7 +37475,6 @@ export default [
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 12481,
@@ -40452,7 +37493,6 @@ export default [
       CRT: 17,
       SKS: 12,
     },
-    hq: false,
   },
   {
     id: 12488,
@@ -40471,7 +37511,6 @@ export default [
       CRT: 16,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 12489,
@@ -40490,7 +37529,6 @@ export default [
       CRT: 26,
       DET: 27,
     },
-    hq: false,
   },
   {
     id: 12490,
@@ -40509,7 +37547,6 @@ export default [
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 12491,
@@ -40528,7 +37565,6 @@ export default [
       CRT: 38,
       SKS: 26,
     },
-    hq: false,
   },
   {
     id: 12492,
@@ -40547,7 +37583,6 @@ export default [
       DET: 16,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 12493,
@@ -40566,7 +37601,6 @@ export default [
       CRT: 12,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 12500,
@@ -40585,7 +37619,6 @@ export default [
       PIE: 12,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 12501,
@@ -40604,7 +37637,6 @@ export default [
       PIE: 29,
       SPS: 26,
     },
-    hq: false,
   },
   {
     id: 12502,
@@ -40623,7 +37655,6 @@ export default [
       CRT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 12503,
@@ -40642,7 +37673,6 @@ export default [
       DET: 19,
       SPS: 38,
     },
-    hq: false,
   },
   {
     id: 12504,
@@ -40661,7 +37691,6 @@ export default [
       CRT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 12505,
@@ -40680,7 +37709,6 @@ export default [
       PIE: 9,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 14888,
@@ -40692,7 +37720,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       MND: 37,
@@ -40701,7 +37728,6 @@ export default [
       SPS: 28,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 15495,
@@ -40713,7 +37739,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 19,
       DEX: 19,
@@ -40721,7 +37746,6 @@ export default [
       INT: 19,
       MND: 19,
     },
-    hq: false,
   },
   {
     id: 15496,
@@ -40733,7 +37757,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       DEX: 31,
@@ -40741,7 +37764,6 @@ export default [
       INT: 31,
       MND: 31,
     },
-    hq: false,
   },
   {
     id: 15499,
@@ -40753,7 +37775,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 19,
       DEX: 19,
@@ -40761,7 +37782,6 @@ export default [
       INT: 19,
       MND: 19,
     },
-    hq: false,
   },
   {
     id: 15500,
@@ -40773,7 +37793,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       DEX: 31,
@@ -40781,7 +37800,6 @@ export default [
       INT: 31,
       MND: 31,
     },
-    hq: false,
   },
   {
     id: 15503,
@@ -40793,7 +37811,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 19,
       DEX: 19,
@@ -40801,7 +37818,6 @@ export default [
       INT: 19,
       MND: 19,
     },
-    hq: false,
   },
   {
     id: 15504,
@@ -40813,7 +37829,6 @@ export default [
     jobCategory: 34,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       DEX: 31,
@@ -40821,7 +37836,6 @@ export default [
       INT: 31,
       MND: 31,
     },
-    hq: false,
   },
   {
     id: 20374,
@@ -40833,7 +37847,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -40842,7 +37855,6 @@ export default [
       PDMG: 49,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20375,
@@ -40854,7 +37866,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -40862,7 +37873,6 @@ export default [
       DET: 20,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 20376,
@@ -40874,7 +37884,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 42,
@@ -40883,7 +37892,6 @@ export default [
       PDMG: 49,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20377,
@@ -40895,7 +37903,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 38,
       INT: 37,
@@ -40903,7 +37910,6 @@ export default [
       SPS: 40,
       MDMG: 72,
     },
-    hq: false,
   },
   {
     id: 7162,
@@ -40915,14 +37921,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       DHT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 7163,
@@ -40934,14 +37938,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 46,
       TEN: 41,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 7164,
@@ -40953,14 +37955,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       TEN: 18,
       CRT: 25,
     },
-    hq: false,
   },
   {
     id: 7165,
@@ -40972,14 +37972,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 46,
       DHT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 7166,
@@ -40991,14 +37989,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       TEN: 18,
       DHT: 25,
     },
-    hq: false,
   },
   {
     id: 7167,
@@ -41010,14 +38006,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7168,
@@ -41029,14 +38023,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       TEN: 19,
       DHT: 13,
     },
-    hq: false,
   },
   {
     id: 7169,
@@ -41048,14 +38040,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       TEN: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 7170,
@@ -41067,14 +38057,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7171,
@@ -41086,14 +38074,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       TEN: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7172,
@@ -41105,14 +38091,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       DHT: 25,
       CRT: 18,
     },
-    hq: false,
   },
   {
     id: 7173,
@@ -41124,14 +38108,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 46,
       DET: 20,
       SKS: 41,
     },
-    hq: false,
   },
   {
     id: 7174,
@@ -41143,14 +38125,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       DHT: 25,
       CRT: 18,
     },
-    hq: false,
   },
   {
     id: 7175,
@@ -41162,14 +38142,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 46,
       DHT: 29,
       SKS: 41,
     },
-    hq: false,
   },
   {
     id: 7176,
@@ -41181,14 +38159,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       DET: 18,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 7177,
@@ -41200,14 +38176,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7178,
@@ -41219,7 +38193,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       DEX: 24,
@@ -41227,7 +38200,6 @@ export default [
       DHT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 7179,
@@ -41239,7 +38211,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       DEX: 39,
@@ -41247,7 +38218,6 @@ export default [
       CRT: 41,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 7180,
@@ -41259,7 +38229,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       DEX: 24,
@@ -41267,7 +38236,6 @@ export default [
       DHT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7181,
@@ -41279,7 +38247,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       DEX: 39,
@@ -41287,7 +38254,6 @@ export default [
       DET: 29,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 7182,
@@ -41299,7 +38265,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       DEX: 24,
@@ -41307,7 +38272,6 @@ export default [
       CRT: 18,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 7183,
@@ -41319,7 +38283,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       DEX: 18,
@@ -41327,7 +38290,6 @@ export default [
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7184,
@@ -41339,14 +38301,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7185,
@@ -41358,14 +38318,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7186,
@@ -41377,14 +38335,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 7187,
@@ -41396,14 +38352,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 7188,
@@ -41415,14 +38369,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 28,
       DHT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7189,
@@ -41434,14 +38386,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 39,
       VIT: 46,
       CRT: 41,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 7190,
@@ -41453,14 +38403,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 28,
       DHT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7191,
@@ -41472,14 +38420,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 39,
       VIT: 46,
       CRT: 41,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 7192,
@@ -41491,14 +38437,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 28,
       DHT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7193,
@@ -41510,14 +38454,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       CRT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 7194,
@@ -41529,14 +38471,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       CRT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 7195,
@@ -41548,14 +38488,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       DHT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 7196,
@@ -41567,14 +38505,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7197,
@@ -41586,14 +38522,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       DHT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7198,
@@ -41605,7 +38539,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 24,
@@ -41613,7 +38546,6 @@ export default [
       DHT: 5,
       SPS: 18,
     },
-    hq: false,
   },
   {
     id: 7199,
@@ -41625,7 +38557,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 41,
       MND: 39,
@@ -41633,7 +38564,6 @@ export default [
       DHT: 8,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 7200,
@@ -41645,7 +38575,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 24,
@@ -41653,7 +38582,6 @@ export default [
       DHT: 5,
       SPS: 18,
     },
-    hq: false,
   },
   {
     id: 7201,
@@ -41665,7 +38593,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 41,
       MND: 39,
@@ -41673,7 +38600,6 @@ export default [
       CRT: 41,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 7202,
@@ -41685,7 +38611,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 24,
@@ -41693,7 +38618,6 @@ export default [
       DHT: 5,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 7203,
@@ -41705,7 +38629,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -41713,7 +38636,6 @@ export default [
       DHT: 4,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7204,
@@ -41725,7 +38647,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -41733,7 +38654,6 @@ export default [
       CRT: 19,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 7205,
@@ -41745,7 +38665,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -41753,7 +38672,6 @@ export default [
       DHT: 4,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7206,
@@ -41765,7 +38683,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -41773,7 +38690,6 @@ export default [
       DET: 9,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 7207,
@@ -41785,7 +38701,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -41793,7 +38708,6 @@ export default [
       DHT: 4,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 7208,
@@ -41805,14 +38719,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 24,
       DHT: 25,
       CRT: 18,
     },
-    hq: false,
   },
   {
     id: 7209,
@@ -41824,14 +38736,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 41,
       INT: 39,
       DET: 29,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 7210,
@@ -41843,14 +38753,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 24,
       DHT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7211,
@@ -41862,14 +38770,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 41,
       INT: 39,
       CRT: 29,
       SPS: 41,
     },
-    hq: false,
   },
   {
     id: 7212,
@@ -41881,14 +38787,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 24,
       DHT: 25,
       CRT: 18,
     },
-    hq: false,
   },
   {
     id: 7213,
@@ -41900,14 +38804,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       DET: 13,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 7214,
@@ -41919,14 +38821,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7215,
@@ -41938,14 +38838,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7216,
@@ -41957,14 +38855,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       DHT: 19,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 7217,
@@ -41976,14 +38872,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       DHT: 19,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 7294,
@@ -41995,14 +38889,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 7295,
@@ -42014,14 +38906,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 46,
       TEN: 41,
       DHT: 29,
     },
-    hq: false,
   },
   {
     id: 7296,
@@ -42033,14 +38923,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       DHT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 7297,
@@ -42052,14 +38940,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 46,
       TEN: 41,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 7298,
@@ -42071,14 +38957,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       DHT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 7299,
@@ -42090,14 +38974,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       TEN: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7300,
@@ -42109,14 +38991,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 7301,
@@ -42128,14 +39008,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 7302,
@@ -42147,14 +39025,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       TEN: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 7303,
@@ -42166,14 +39042,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       TEN: 13,
       DHT: 19,
     },
-    hq: false,
   },
   {
     id: 7304,
@@ -42185,14 +39059,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       DHT: 18,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 7305,
@@ -42204,14 +39076,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 46,
       DHT: 41,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 7306,
@@ -42223,14 +39093,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       CRT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7307,
@@ -42242,14 +39110,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 46,
       CRT: 41,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 7308,
@@ -42261,14 +39127,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       VIT: 28,
       DHT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 7309,
@@ -42280,14 +39144,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 7310,
@@ -42299,7 +39161,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       DEX: 24,
@@ -42307,7 +39168,6 @@ export default [
       CRT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 7311,
@@ -42319,7 +39179,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       DEX: 39,
@@ -42327,7 +39186,6 @@ export default [
       CRT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 7312,
@@ -42339,7 +39197,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       DEX: 24,
@@ -42347,7 +39204,6 @@ export default [
       DET: 18,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 7313,
@@ -42359,7 +39215,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       DEX: 39,
@@ -42367,7 +39222,6 @@ export default [
       DHT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 7314,
@@ -42379,7 +39233,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 24,
       DEX: 24,
@@ -42387,7 +39240,6 @@ export default [
       DET: 12,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 7315,
@@ -42399,7 +39251,6 @@ export default [
     jobCategory: 102,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       DEX: 18,
@@ -42407,7 +39258,6 @@ export default [
       DHT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7316,
@@ -42419,14 +39269,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7317,
@@ -42438,14 +39286,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 7318,
@@ -42457,14 +39303,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DET: 9,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 7319,
@@ -42476,14 +39320,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7320,
@@ -42495,14 +39337,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 28,
       DHT: 18,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 7321,
@@ -42514,14 +39354,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 39,
       VIT: 46,
       CRT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 7322,
@@ -42533,14 +39371,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 28,
       DHT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 7323,
@@ -42552,14 +39388,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 39,
       VIT: 46,
       DET: 20,
       SKS: 41,
     },
-    hq: false,
   },
   {
     id: 7324,
@@ -42571,14 +39405,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 24,
       VIT: 28,
       DHT: 18,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 7325,
@@ -42590,14 +39422,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7326,
@@ -42609,14 +39439,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7327,
@@ -42628,14 +39456,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7328,
@@ -42647,14 +39473,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       DHT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7329,
@@ -42666,14 +39490,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       DHT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 7330,
@@ -42685,7 +39507,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 24,
@@ -42693,7 +39514,6 @@ export default [
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 7331,
@@ -42705,7 +39525,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 41,
       MND: 39,
@@ -42713,7 +39532,6 @@ export default [
       DHT: 8,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 7332,
@@ -42725,7 +39543,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 24,
@@ -42733,7 +39550,6 @@ export default [
       DET: 12,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 7333,
@@ -42745,7 +39561,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 41,
       MND: 39,
@@ -42753,7 +39568,6 @@ export default [
       DHT: 8,
       CRT: 41,
     },
-    hq: false,
   },
   {
     id: 7334,
@@ -42765,7 +39579,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 24,
@@ -42773,7 +39586,6 @@ export default [
       CRT: 18,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 7335,
@@ -42785,7 +39597,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -42793,7 +39604,6 @@ export default [
       DHT: 4,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7336,
@@ -42805,7 +39615,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -42813,7 +39622,6 @@ export default [
       DHT: 4,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7337,
@@ -42825,7 +39633,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -42833,7 +39640,6 @@ export default [
       DET: 13,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 7338,
@@ -42845,7 +39651,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -42853,7 +39658,6 @@ export default [
       DHT: 4,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 7339,
@@ -42865,7 +39669,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -42873,7 +39676,6 @@ export default [
       DHT: 4,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 7340,
@@ -42885,14 +39687,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 24,
       CRT: 25,
       SPS: 18,
     },
-    hq: false,
   },
   {
     id: 7341,
@@ -42904,14 +39704,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 41,
       INT: 39,
       CRT: 29,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 7342,
@@ -42923,14 +39721,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 24,
       CRT: 25,
       SPS: 18,
     },
-    hq: false,
   },
   {
     id: 7343,
@@ -42942,14 +39738,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 41,
       INT: 39,
       DHT: 29,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 7344,
@@ -42961,14 +39755,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 24,
       CRT: 25,
       SPS: 18,
     },
-    hq: false,
   },
   {
     id: 7345,
@@ -42980,14 +39772,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7346,
@@ -42999,14 +39789,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       CRT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7347,
@@ -43018,14 +39806,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       DHT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 7348,
@@ -43037,14 +39823,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       CRT: 13,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 7349,
@@ -43056,14 +39840,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       DHT: 19,
       CRT: 13,
     },
-    hq: false,
   },
   {
     id: 7350,
@@ -43075,14 +39857,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       TEN: 9,
       DHT: 13,
     },
-    hq: false,
   },
   {
     id: 7351,
@@ -43094,7 +39874,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 35,
@@ -43103,7 +39882,6 @@ export default [
       PDMG: 51,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 7352,
@@ -43115,7 +39893,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -43124,7 +39901,6 @@ export default [
       PDMG: 51,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 7353,
@@ -43136,7 +39912,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -43145,7 +39920,6 @@ export default [
       PDMG: 51,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 7354,
@@ -43157,7 +39931,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -43166,7 +39939,6 @@ export default [
       PDMG: 51,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 7355,
@@ -43178,7 +39950,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 42,
       VIT: 49,
@@ -43187,7 +39958,6 @@ export default [
       PDMG: 51,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 7356,
@@ -43199,7 +39969,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       MND: 42,
@@ -43208,7 +39977,6 @@ export default [
       DET: 22,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7357,
@@ -43220,7 +39988,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
@@ -43228,7 +39995,6 @@ export default [
       SPS: 31,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7358,
@@ -43240,7 +40006,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
@@ -43248,7 +40013,6 @@ export default [
       DET: 31,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7359,
@@ -43260,7 +40024,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       MND: 42,
@@ -43269,7 +40032,6 @@ export default [
       SPS: 44,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7863,
@@ -43281,14 +40043,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 35,
       PDMG: 51,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 7864,
@@ -43300,14 +40060,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
       PDMG: 51,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 7865,
@@ -43319,14 +40077,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
       PDMG: 51,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 7866,
@@ -43338,14 +40094,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
       PDMG: 51,
       DLY: 3120,
     },
-    hq: false,
   },
   {
     id: 7867,
@@ -43357,14 +40111,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 42,
       VIT: 49,
       PDMG: 51,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 7868,
@@ -43376,14 +40128,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       MND: 42,
       DHT: 9,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7869,
@@ -43395,13 +40145,11 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7870,
@@ -43413,13 +40161,11 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7871,
@@ -43431,14 +40177,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       MND: 42,
       DHT: 9,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7872,
@@ -43450,12 +40194,10 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
     },
-    hq: false,
   },
   {
     id: 8350,
@@ -43467,14 +40209,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DHT: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8351,
@@ -43486,14 +40226,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 8352,
@@ -43505,14 +40243,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       CRT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 8353,
@@ -43524,7 +40260,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
@@ -43532,7 +40267,6 @@ export default [
       CRT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8354,
@@ -43544,14 +40278,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 9010,
@@ -43563,14 +40295,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       TEN: 13,
       CRT: 9,
     },
-    hq: false,
   },
   {
     id: 9011,
@@ -43582,7 +40312,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 35,
@@ -43591,7 +40320,6 @@ export default [
       PDMG: 51,
       DLY: 2000,
     },
-    hq: false,
   },
   {
     id: 9012,
@@ -43603,7 +40331,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -43612,7 +40339,6 @@ export default [
       PDMG: 51,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 9013,
@@ -43624,7 +40350,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -43633,7 +40358,6 @@ export default [
       PDMG: 51,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 9014,
@@ -43645,7 +40369,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -43654,7 +40377,6 @@ export default [
       PDMG: 51,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 9015,
@@ -43666,7 +40388,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 42,
       VIT: 49,
@@ -43675,7 +40396,6 @@ export default [
       PDMG: 51,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 9016,
@@ -43687,7 +40407,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 42,
       VIT: 49,
@@ -43696,7 +40415,6 @@ export default [
       PDMG: 51,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 9017,
@@ -43708,7 +40426,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       MND: 42,
@@ -43717,7 +40434,6 @@ export default [
       CRT: 44,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 9018,
@@ -43729,7 +40445,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
@@ -43737,7 +40452,6 @@ export default [
       DET: 31,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 9019,
@@ -43749,7 +40463,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
@@ -43757,7 +40470,6 @@ export default [
       CRT: 44,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 9020,
@@ -43769,7 +40481,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       MND: 42,
@@ -43778,7 +40489,6 @@ export default [
       DET: 22,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 9026,
@@ -45078,7 +41788,6 @@ export default [
       CRT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 9094,
@@ -45097,7 +41806,6 @@ export default [
       DET: 20,
       SKS: 41,
     },
-    hq: false,
   },
   {
     id: 9095,
@@ -45116,7 +41824,6 @@ export default [
       DHT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9096,
@@ -45135,7 +41842,6 @@ export default [
       CRT: 41,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 9097,
@@ -45154,7 +41860,6 @@ export default [
       CRT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9098,
@@ -45173,7 +41878,6 @@ export default [
       DET: 13,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 9099,
@@ -45192,7 +41896,6 @@ export default [
       DHT: 25,
       CRT: 18,
     },
-    hq: false,
   },
   {
     id: 9100,
@@ -45211,7 +41914,6 @@ export default [
       DET: 29,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 9101,
@@ -45230,7 +41932,6 @@ export default [
       CRT: 18,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 9102,
@@ -45249,7 +41950,6 @@ export default [
       CRT: 29,
       SKS: 41,
     },
-    hq: false,
   },
   {
     id: 9103,
@@ -45268,7 +41968,6 @@ export default [
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 9104,
@@ -45287,7 +41986,6 @@ export default [
       DET: 9,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9105,
@@ -45306,7 +42004,6 @@ export default [
       DET: 12,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 9106,
@@ -45325,7 +42022,6 @@ export default [
       CRT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 9107,
@@ -45344,7 +42040,6 @@ export default [
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 9108,
@@ -45363,7 +42058,6 @@ export default [
       DET: 20,
       SKS: 41,
     },
-    hq: false,
   },
   {
     id: 9109,
@@ -45382,7 +42076,6 @@ export default [
       DHT: 25,
       CRT: 18,
     },
-    hq: false,
   },
   {
     id: 9110,
@@ -45401,7 +42094,6 @@ export default [
       CRT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 9111,
@@ -45420,7 +42112,6 @@ export default [
       DET: 18,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 9112,
@@ -45439,7 +42130,6 @@ export default [
       CRT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 9113,
@@ -45458,7 +42148,6 @@ export default [
       DET: 18,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 9114,
@@ -45477,7 +42166,6 @@ export default [
       CRT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 9115,
@@ -45496,7 +42184,6 @@ export default [
       DHT: 25,
       CRT: 18,
     },
-    hq: false,
   },
   {
     id: 9116,
@@ -45515,7 +42202,6 @@ export default [
       DET: 13,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 9117,
@@ -45534,7 +42220,6 @@ export default [
       CRT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 9118,
@@ -45553,7 +42238,6 @@ export default [
       DET: 29,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 9119,
@@ -45572,7 +42256,6 @@ export default [
       CRT: 18,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 9120,
@@ -45591,7 +42274,6 @@ export default [
       CRT: 29,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 9121,
@@ -45610,7 +42292,6 @@ export default [
       CRT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 9122,
@@ -45629,7 +42310,6 @@ export default [
       DHT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 9123,
@@ -45648,7 +42328,6 @@ export default [
       DET: 12,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 9124,
@@ -45667,7 +42346,6 @@ export default [
       DET: 20,
       SPS: 41,
     },
-    hq: false,
   },
   {
     id: 9125,
@@ -45686,7 +42364,6 @@ export default [
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 9126,
@@ -45705,7 +42382,6 @@ export default [
       DET: 29,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 9127,
@@ -45724,7 +42400,6 @@ export default [
       CRT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9128,
@@ -45743,7 +42418,6 @@ export default [
       DET: 9,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 9129,
@@ -45762,7 +42436,6 @@ export default [
       DET: 12,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 9130,
@@ -45781,7 +42454,6 @@ export default [
       CRT: 41,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 9131,
@@ -45800,7 +42472,6 @@ export default [
       DET: 12,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 9132,
@@ -45819,7 +42490,6 @@ export default [
       CRT: 41,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 9133,
@@ -45838,7 +42508,6 @@ export default [
       DET: 12,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 9134,
@@ -45857,7 +42526,6 @@ export default [
       CRT: 13,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 9135,
@@ -45876,7 +42544,6 @@ export default [
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 9136,
@@ -45895,7 +42562,6 @@ export default [
       CRT: 29,
       SPS: 41,
     },
-    hq: false,
   },
   {
     id: 9137,
@@ -45914,7 +42580,6 @@ export default [
       DET: 12,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 9138,
@@ -45933,7 +42598,6 @@ export default [
       CRT: 29,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 9139,
@@ -45952,7 +42616,6 @@ export default [
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 9140,
@@ -45971,7 +42634,6 @@ export default [
       CRT: 19,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 9141,
@@ -45990,7 +42652,6 @@ export default [
       CRT: 25,
       SPS: 18,
     },
-    hq: false,
   },
   {
     id: 9142,
@@ -46009,7 +42670,6 @@ export default [
       CRT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 9143,
@@ -46028,7 +42688,6 @@ export default [
       CRT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9144,
@@ -46047,7 +42706,6 @@ export default [
       DET: 20,
       SPS: 41,
     },
-    hq: false,
   },
   {
     id: 9145,
@@ -46066,7 +42724,6 @@ export default [
       CRT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9146,
@@ -46085,7 +42742,6 @@ export default [
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 9147,
@@ -46104,7 +42760,6 @@ export default [
       DHT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 9148,
@@ -46123,7 +42778,6 @@ export default [
       DET: 20,
       SKS: 41,
     },
-    hq: false,
   },
   {
     id: 9149,
@@ -46142,7 +42796,6 @@ export default [
       CRT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 9150,
@@ -46161,7 +42814,6 @@ export default [
       CRT: 41,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 9151,
@@ -46180,7 +42832,6 @@ export default [
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 9152,
@@ -46199,7 +42850,6 @@ export default [
       CRT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 9153,
@@ -46211,14 +42861,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DET: 9,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9154,
@@ -46230,14 +42878,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9155,
@@ -46249,14 +42895,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 9156,
@@ -46268,14 +42912,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9157,
@@ -46287,14 +42929,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       DET: 9,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9158,
@@ -46306,14 +42946,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9159,
@@ -46325,14 +42963,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 9160,
@@ -46344,14 +42980,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 21,
       CRT: 19,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 9161,
@@ -46363,14 +42997,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       DHT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 9162,
@@ -46382,14 +43014,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       DET: 13,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 9163,
@@ -46401,14 +43031,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       CRT: 13,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9164,
@@ -46420,14 +43048,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 18,
       VIT: 21,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 9165,
@@ -46439,14 +43065,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
       DET: 9,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 9166,
@@ -46458,14 +43082,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
       CRT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 9167,
@@ -46477,14 +43099,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 9168,
@@ -46496,14 +43116,12 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       MND: 18,
       CRT: 19,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 9169,
@@ -46515,14 +43133,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       DET: 13,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 9170,
@@ -46534,14 +43150,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       CRT: 19,
       SPS: 13,
     },
-    hq: false,
   },
   {
     id: 9171,
@@ -46553,14 +43167,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       CRT: 13,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 9172,
@@ -46572,14 +43184,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 19,
       INT: 18,
       CRT: 13,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 9173,
@@ -46591,14 +43201,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 12,
       VIT: 14,
       DET: 9,
       SKS: 9,
     },
-    hq: false,
   },
   {
     id: 9174,
@@ -46619,7 +43227,6 @@ export default [
       PDMG: 51,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 9175,
@@ -46640,7 +43247,6 @@ export default [
       PDMG: 51,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9176,
@@ -46661,7 +43267,6 @@ export default [
       PDMG: 51,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 9177,
@@ -46682,7 +43287,6 @@ export default [
       PDMG: 51,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 9178,
@@ -46703,7 +43307,6 @@ export default [
       PDMG: 51,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 9179,
@@ -46724,7 +43327,6 @@ export default [
       PDMG: 51,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9180,
@@ -46744,7 +43346,6 @@ export default [
       SPS: 31,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 9181,
@@ -46764,7 +43365,6 @@ export default [
       DET: 22,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 9182,
@@ -46784,7 +43384,6 @@ export default [
       SPS: 44,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 9183,
@@ -46804,7 +43403,6 @@ export default [
       SPS: 31,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 9247,
@@ -46816,7 +43414,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 42,
       VIT: 49,
@@ -46825,7 +43422,6 @@ export default [
       PDMG: 51,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9253,
@@ -46837,14 +43433,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 42,
       VIT: 49,
       PDMG: 51,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 9485,
@@ -47000,7 +43594,6 @@ export default [
       PDMG: 51,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10451,
@@ -47012,7 +43605,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -47021,7 +43613,6 @@ export default [
       PDMG: 51,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10459,
@@ -47033,7 +43624,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -47042,7 +43632,6 @@ export default [
       PDMG: 51,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10474,
@@ -47084,7 +43673,6 @@ export default [
       PDMG: 51,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10513,
@@ -47096,7 +43684,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 42,
       VIT: 49,
@@ -47105,7 +43692,6 @@ export default [
       PDMG: 51,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10521,
@@ -47117,7 +43703,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 42,
       VIT: 49,
@@ -47126,7 +43711,6 @@ export default [
       PDMG: 51,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10536,
@@ -47167,7 +43751,6 @@ export default [
       SPS: 31,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 10575,
@@ -47179,7 +43762,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       MND: 42,
@@ -47188,7 +43770,6 @@ export default [
       DET: 22,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 10583,
@@ -47200,7 +43781,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       MND: 42,
@@ -47209,7 +43789,6 @@ export default [
       SPS: 44,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 11916,
@@ -47442,7 +44021,6 @@ export default [
       CRT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 12483,
@@ -47461,7 +44039,6 @@ export default [
       CRT: 41,
       DET: 20,
     },
-    hq: false,
   },
   {
     id: 12484,
@@ -47480,7 +44057,6 @@ export default [
       CRT: 18,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 12485,
@@ -47499,7 +44075,6 @@ export default [
       CRT: 29,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 12486,
@@ -47518,7 +44093,6 @@ export default [
       DHT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 12487,
@@ -47537,7 +44111,6 @@ export default [
       DET: 13,
       SKS: 13,
     },
-    hq: false,
   },
   {
     id: 12494,
@@ -47556,7 +44129,6 @@ export default [
       CRT: 18,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 12495,
@@ -47575,7 +44147,6 @@ export default [
       DET: 29,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 12496,
@@ -47594,7 +44165,6 @@ export default [
       CRT: 25,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 12497,
@@ -47613,7 +44183,6 @@ export default [
       CRT: 29,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 12498,
@@ -47632,7 +44201,6 @@ export default [
       DET: 12,
       SKS: 25,
     },
-    hq: false,
   },
   {
     id: 12499,
@@ -47651,7 +44219,6 @@ export default [
       DHT: 13,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 12506,
@@ -47670,7 +44237,6 @@ export default [
       CRT: 18,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 12507,
@@ -47689,7 +44255,6 @@ export default [
       DET: 29,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 12508,
@@ -47708,7 +44273,6 @@ export default [
       CRT: 18,
       SPS: 25,
     },
-    hq: false,
   },
   {
     id: 12509,
@@ -47727,7 +44291,6 @@ export default [
       DET: 20,
       SPS: 41,
     },
-    hq: false,
   },
   {
     id: 12510,
@@ -47746,7 +44309,6 @@ export default [
       CRT: 25,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 12511,
@@ -47765,7 +44327,6 @@ export default [
       CRT: 19,
       DET: 9,
     },
-    hq: false,
   },
   {
     id: 15556,
@@ -48108,7 +44669,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
@@ -48117,7 +44677,6 @@ export default [
       PDMG: 51,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20381,
@@ -48129,7 +44688,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
@@ -48137,7 +44695,6 @@ export default [
       SPS: 31,
       MDMG: 75,
     },
-    hq: false,
   },
   {
     id: 7218,
@@ -48149,14 +44706,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 13,
       DET: 6,
     },
-    hq: false,
   },
   {
     id: 7219,
@@ -48168,7 +44723,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 32,
       VIT: 38,
@@ -48177,7 +44731,6 @@ export default [
       PDMG: 53,
       DLY: 2160,
     },
-    hq: false,
   },
   {
     id: 7220,
@@ -48189,7 +44742,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -48198,7 +44750,6 @@ export default [
       PDMG: 53,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 7221,
@@ -48210,7 +44761,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -48219,7 +44769,6 @@ export default [
       PDMG: 53,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 7222,
@@ -48231,7 +44780,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -48240,7 +44788,6 @@ export default [
       PDMG: 53,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 7223,
@@ -48252,7 +44799,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 53,
@@ -48261,7 +44807,6 @@ export default [
       PDMG: 53,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 7224,
@@ -48273,7 +44818,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -48282,7 +44826,6 @@ export default [
       SPS: 46,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 7225,
@@ -48294,7 +44837,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
@@ -48302,7 +44844,6 @@ export default [
       SPS: 46,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 7226,
@@ -48314,7 +44855,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
@@ -48322,7 +44862,6 @@ export default [
       SPS: 32,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 7227,
@@ -48334,7 +44873,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -48343,7 +44881,6 @@ export default [
       CRT: 46,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 8649,
@@ -48355,14 +44892,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 32,
       VIT: 38,
       PDMG: 53,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 8650,
@@ -48374,14 +44909,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
       PDMG: 53,
       DLY: 2720,
     },
-    hq: false,
   },
   {
     id: 8651,
@@ -48393,14 +44926,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
       PDMG: 53,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 8652,
@@ -48412,14 +44943,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
       PDMG: 53,
       DLY: 3120,
     },
-    hq: false,
   },
   {
     id: 8653,
@@ -48431,14 +44960,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 53,
       PDMG: 53,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 8654,
@@ -48450,14 +44977,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
       DHT: 9,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 8655,
@@ -48469,13 +44994,11 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 8656,
@@ -48487,13 +45010,11 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 8657,
@@ -48505,14 +45026,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
       DHT: 9,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 8658,
@@ -48524,12 +45043,10 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
     },
-    hq: false,
   },
   {
     id: 9249,
@@ -48541,7 +45058,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 53,
@@ -48550,7 +45066,6 @@ export default [
       PDMG: 53,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 9254,
@@ -48562,14 +45077,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 53,
       PDMG: 53,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 9548,
@@ -48581,14 +45094,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 13,
       VIT: 15,
       TEN: 13,
       CRT: 9,
     },
-    hq: false,
   },
   {
     id: 9549,
@@ -48600,7 +45111,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 32,
       VIT: 38,
@@ -48609,7 +45119,6 @@ export default [
       PDMG: 53,
       DLY: 2000,
     },
-    hq: false,
   },
   {
     id: 9550,
@@ -48621,7 +45130,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -48630,7 +45138,6 @@ export default [
       PDMG: 53,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 9551,
@@ -48642,7 +45149,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -48651,7 +45157,6 @@ export default [
       PDMG: 53,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 9552,
@@ -48663,7 +45168,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -48672,7 +45176,6 @@ export default [
       PDMG: 53,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 9553,
@@ -48684,7 +45187,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 53,
@@ -48693,7 +45195,6 @@ export default [
       PDMG: 53,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 9554,
@@ -48705,7 +45206,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 53,
@@ -48714,7 +45214,6 @@ export default [
       PDMG: 53,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 9555,
@@ -48726,7 +45225,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -48735,7 +45233,6 @@ export default [
       CRT: 46,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 9556,
@@ -48747,7 +45244,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
@@ -48755,7 +45251,6 @@ export default [
       DET: 32,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 9557,
@@ -48767,7 +45262,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
@@ -48775,7 +45269,6 @@ export default [
       CRT: 46,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 9558,
@@ -48787,7 +45280,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -48796,7 +45288,6 @@ export default [
       DET: 23,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 10452,
@@ -48808,7 +45299,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -48817,7 +45307,6 @@ export default [
       PDMG: 53,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10455,
@@ -48829,7 +45318,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -48838,7 +45326,6 @@ export default [
       PDMG: 53,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10514,
@@ -48850,7 +45337,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 53,
@@ -48859,7 +45345,6 @@ export default [
       PDMG: 53,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10517,
@@ -48871,7 +45356,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 53,
@@ -48880,7 +45364,6 @@ export default [
       PDMG: 53,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10576,
@@ -48892,7 +45375,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -48901,7 +45383,6 @@ export default [
       DET: 23,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 10579,
@@ -48913,7 +45394,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -48922,7 +45402,6 @@ export default [
       CRT: 46,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 10586,
@@ -50474,14 +46953,12 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
       PDMG: 53,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 20382,
@@ -50493,7 +46970,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 53,
@@ -50502,7 +46978,6 @@ export default [
       PDMG: 53,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20383,
@@ -50514,7 +46989,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
@@ -50522,7 +46996,6 @@ export default [
       SPS: 32,
       MDMG: 77,
     },
-    hq: false,
   },
   {
     id: 20388,
@@ -50575,14 +47048,12 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 26,
       VIT: 30,
       DHT: 18,
       CRT: 26,
     },
-    hq: false,
   },
   {
     id: 20461,
@@ -50594,14 +47065,12 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
       CRT: 30,
       DET: 30,
     },
-    hq: false,
   },
   {
     id: 20462,
@@ -50613,14 +47082,12 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 26,
       VIT: 30,
       CRT: 18,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 20463,
@@ -50632,14 +47099,12 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 42,
       VIT: 49,
       DET: 21,
       SKS: 42,
     },
-    hq: false,
   },
   {
     id: 20464,
@@ -50651,14 +47116,12 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 26,
       VIT: 30,
       DET: 18,
       SKS: 18,
     },
-    hq: false,
   },
   {
     id: 20465,
@@ -50670,14 +47133,12 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       INT: 26,
       DHT: 26,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 20466,
@@ -50689,14 +47150,12 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
       DET: 30,
       SPS: 30,
     },
-    hq: false,
   },
   {
     id: 20467,
@@ -50708,14 +47167,12 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       INT: 26,
       CRT: 18,
       SPS: 26,
     },
-    hq: false,
   },
   {
     id: 20468,
@@ -50727,14 +47184,12 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 44,
       INT: 42,
       DHT: 30,
       CRT: 42,
     },
-    hq: false,
   },
   {
     id: 20469,
@@ -50746,14 +47201,12 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       INT: 26,
       DHT: 18,
       CRT: 26,
     },
-    hq: false,
   },
   {
     id: 8582,
@@ -50765,14 +47218,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 19,
       CRT: 27,
     },
-    hq: false,
   },
   {
     id: 8583,
@@ -50784,14 +47235,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       TEN: 44,
       DHT: 31,
     },
-    hq: false,
   },
   {
     id: 8584,
@@ -50803,14 +47252,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       TEN: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8585,
@@ -50822,14 +47269,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       TEN: 31,
       DHT: 44,
     },
-    hq: false,
   },
   {
     id: 8586,
@@ -50841,14 +47286,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8587,
@@ -50860,14 +47303,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 20,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8588,
@@ -50879,14 +47320,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 14,
       DHT: 20,
     },
-    hq: false,
   },
   {
     id: 8589,
@@ -50898,14 +47337,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 20,
       DHT: 14,
     },
-    hq: false,
   },
   {
     id: 8590,
@@ -50917,14 +47354,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 20,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8591,
@@ -50936,14 +47371,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8592,
@@ -50955,14 +47388,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 27,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8593,
@@ -50974,14 +47405,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 8594,
@@ -50993,14 +47422,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 8595,
@@ -51012,14 +47439,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       CRT: 31,
       DET: 31,
     },
-    hq: false,
   },
   {
     id: 8596,
@@ -51031,14 +47456,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8597,
@@ -51050,14 +47473,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DET: 14,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8598,
@@ -51069,14 +47490,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 27,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8599,
@@ -51088,14 +47507,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       CRT: 31,
       DET: 31,
     },
-    hq: false,
   },
   {
     id: 8600,
@@ -51107,14 +47524,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       CRT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 8601,
@@ -51126,14 +47541,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 8602,
@@ -51145,14 +47558,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       CRT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 8603,
@@ -51164,14 +47575,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8604,
@@ -51183,14 +47592,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8605,
@@ -51202,14 +47609,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 20,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8606,
@@ -51221,14 +47626,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 14,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 8607,
@@ -51240,14 +47643,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 20,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8608,
@@ -51259,14 +47660,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8609,
@@ -51278,14 +47677,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       DHT: 31,
       SKS: 44,
     },
-    hq: false,
   },
   {
     id: 8610,
@@ -51297,14 +47694,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       CRT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 8611,
@@ -51316,14 +47711,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       DHT: 44,
       SKS: 31,
     },
-    hq: false,
   },
   {
     id: 8612,
@@ -51335,14 +47728,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 19,
       CRT: 27,
     },
-    hq: false,
   },
   {
     id: 8613,
@@ -51354,14 +47745,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       CRT: 14,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8614,
@@ -51373,14 +47762,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 20,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8615,
@@ -51392,14 +47779,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 20,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 8616,
@@ -51411,14 +47796,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 14,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8617,
@@ -51430,14 +47813,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 20,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8618,
@@ -51449,7 +47830,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
@@ -51457,7 +47837,6 @@ export default [
       DHT: 5,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8619,
@@ -51469,7 +47848,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -51477,7 +47855,6 @@ export default [
       DHT: 9,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 8620,
@@ -51489,7 +47866,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
@@ -51497,7 +47873,6 @@ export default [
       DET: 13,
       SPS: 27,
     },
-    hq: false,
   },
   {
     id: 8621,
@@ -51509,7 +47884,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -51517,7 +47891,6 @@ export default [
       DET: 31,
       SPS: 31,
     },
-    hq: false,
   },
   {
     id: 8622,
@@ -51529,7 +47902,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
@@ -51537,7 +47909,6 @@ export default [
       DHT: 5,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 8623,
@@ -51549,7 +47920,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -51557,7 +47927,6 @@ export default [
       DHT: 4,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8624,
@@ -51569,7 +47938,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -51577,7 +47945,6 @@ export default [
       CRT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8625,
@@ -51589,7 +47956,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -51597,7 +47963,6 @@ export default [
       DHT: 4,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 8626,
@@ -51609,7 +47974,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -51617,7 +47981,6 @@ export default [
       DHT: 4,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 8627,
@@ -51629,7 +47992,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -51637,7 +47999,6 @@ export default [
       DHT: 4,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8628,
@@ -51649,14 +48010,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       DET: 13,
       SPS: 27,
     },
-    hq: false,
   },
   {
     id: 8629,
@@ -51668,14 +48027,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
       CRT: 44,
       SPS: 31,
     },
-    hq: false,
   },
   {
     id: 8630,
@@ -51687,14 +48044,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 8631,
@@ -51706,14 +48061,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
       DHT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 8632,
@@ -51725,14 +48078,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       DHT: 19,
       SPS: 27,
     },
-    hq: false,
   },
   {
     id: 8633,
@@ -51744,14 +48095,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 20,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 8634,
@@ -51763,14 +48112,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 14,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 8635,
@@ -51782,14 +48129,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 14,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 8636,
@@ -51801,14 +48146,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DET: 14,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 8637,
@@ -51820,14 +48163,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 8638,
@@ -51839,14 +48180,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 16,
       TEN: 14,
       DHT: 9,
     },
-    hq: false,
   },
   {
     id: 8639,
@@ -51858,7 +48197,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 40,
@@ -51867,7 +48205,6 @@ export default [
       PDMG: 54,
       DLY: 2000,
     },
-    hq: false,
   },
   {
     id: 8640,
@@ -51879,7 +48216,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -51888,7 +48224,6 @@ export default [
       PDMG: 54,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 8641,
@@ -51900,7 +48235,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -51909,7 +48243,6 @@ export default [
       PDMG: 54,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 8642,
@@ -51921,7 +48254,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -51930,7 +48262,6 @@ export default [
       PDMG: 54,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 8643,
@@ -51942,7 +48273,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 48,
       VIT: 56,
@@ -51951,7 +48281,6 @@ export default [
       PDMG: 54,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 8644,
@@ -51963,7 +48292,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 48,
       VIT: 56,
@@ -51972,7 +48300,6 @@ export default [
       PDMG: 54,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 8645,
@@ -51984,7 +48311,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       MND: 48,
@@ -51993,7 +48319,6 @@ export default [
       CRT: 47,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 8646,
@@ -52005,7 +48330,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       INT: 48,
@@ -52013,7 +48337,6 @@ export default [
       CRT: 47,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 8647,
@@ -52025,7 +48348,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       INT: 48,
@@ -52033,7 +48355,6 @@ export default [
       SPS: 33,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 8648,
@@ -52045,7 +48366,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       MND: 48,
@@ -52054,7 +48374,6 @@ export default [
       SPS: 47,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 9021,
@@ -52066,14 +48385,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 20,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 9022,
@@ -52085,14 +48402,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 14,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 9023,
@@ -52104,14 +48419,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       CRT: 14,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 9024,
@@ -52123,7 +48436,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -52131,7 +48443,6 @@ export default [
       DHT: 4,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 9025,
@@ -52143,14 +48454,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       CRT: 14,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 9467,
@@ -52162,14 +48471,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9468,
@@ -52181,14 +48488,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       DHT: 31,
       DET: 31,
     },
-    hq: false,
   },
   {
     id: 9469,
@@ -52200,14 +48505,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       CRT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9470,
@@ -52219,14 +48522,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       CRT: 31,
       DET: 31,
     },
-    hq: false,
   },
   {
     id: 9471,
@@ -52238,14 +48539,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 9472,
@@ -52257,14 +48556,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       CRT: 14,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 9901,
@@ -52276,14 +48573,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DET: 19,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9902,
@@ -52295,14 +48590,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       CRT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 9903,
@@ -52314,14 +48607,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       TEN: 19,
       CRT: 27,
     },
-    hq: false,
   },
   {
     id: 9904,
@@ -52333,14 +48624,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       TEN: 44,
       SKS: 31,
     },
-    hq: false,
   },
   {
     id: 9905,
@@ -52352,14 +48641,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 9906,
@@ -52371,14 +48658,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 14,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 9907,
@@ -52390,14 +48675,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DET: 13,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 9908,
@@ -52409,14 +48692,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 31,
       CRT: 44,
     },
-    hq: false,
   },
   {
     id: 9909,
@@ -52428,14 +48709,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DET: 19,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9910,
@@ -52447,14 +48726,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 31,
       CRT: 44,
     },
-    hq: false,
   },
   {
     id: 9911,
@@ -52466,14 +48743,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 9912,
@@ -52485,14 +48760,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 14,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 9913,
@@ -52504,14 +48777,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DET: 19,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9914,
@@ -52523,14 +48794,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 31,
       CRT: 44,
     },
-    hq: false,
   },
   {
     id: 9915,
@@ -52542,14 +48811,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DET: 13,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 9916,
@@ -52561,14 +48828,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 31,
       CRT: 44,
     },
-    hq: false,
   },
   {
     id: 9917,
@@ -52580,14 +48845,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 9918,
@@ -52599,14 +48862,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 14,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 9919,
@@ -52618,14 +48879,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 19,
       CRT: 27,
     },
-    hq: false,
   },
   {
     id: 9920,
@@ -52637,14 +48896,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       CRT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 9921,
@@ -52656,14 +48913,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 9922,
@@ -52675,14 +48930,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       DET: 22,
       SKS: 44,
     },
-    hq: false,
   },
   {
     id: 9923,
@@ -52694,14 +48947,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       CRT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 9924,
@@ -52713,14 +48964,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 14,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 9925,
@@ -52732,14 +48981,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 9926,
@@ -52751,14 +48998,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       DHT: 44,
       CRT: 31,
     },
-    hq: false,
   },
   {
     id: 9927,
@@ -52770,14 +49015,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DET: 13,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 9928,
@@ -52789,14 +49032,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       DHT: 31,
       CRT: 44,
     },
-    hq: false,
   },
   {
     id: 9929,
@@ -52808,14 +49049,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DET: 19,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 9930,
@@ -52827,14 +49066,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 14,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 9931,
@@ -52846,7 +49083,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
@@ -52854,7 +49090,6 @@ export default [
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 9932,
@@ -52866,7 +49101,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -52874,7 +49108,6 @@ export default [
       DHT: 9,
       SPS: 44,
     },
-    hq: false,
   },
   {
     id: 9933,
@@ -52886,7 +49119,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
@@ -52894,7 +49126,6 @@ export default [
       CRT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 9934,
@@ -52906,7 +49137,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
@@ -52914,7 +49144,6 @@ export default [
       CRT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 9935,
@@ -52926,7 +49155,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
@@ -52934,7 +49162,6 @@ export default [
       DHT: 5,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 9936,
@@ -52946,7 +49173,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
@@ -52954,7 +49180,6 @@ export default [
       CRT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 9937,
@@ -52966,14 +49191,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       CRT: 27,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 9938,
@@ -52985,14 +49208,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
       CRT: 31,
       DET: 31,
     },
-    hq: false,
   },
   {
     id: 9939,
@@ -53004,14 +49225,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       DHT: 19,
       CRT: 27,
     },
-    hq: false,
   },
   {
     id: 9940,
@@ -53023,14 +49242,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
       DHT: 31,
       SPS: 44,
     },
-    hq: false,
   },
   {
     id: 9941,
@@ -53042,14 +49259,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       CRT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 9942,
@@ -53061,14 +49276,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 14,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 10460,
@@ -53080,7 +49293,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -53089,7 +49301,6 @@ export default [
       PDMG: 54,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10522,
@@ -53101,7 +49312,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 48,
       VIT: 56,
@@ -53110,7 +49320,6 @@ export default [
       PDMG: 54,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 10584,
@@ -53122,7 +49331,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       MND: 48,
@@ -53131,7 +49339,6 @@ export default [
       SPS: 47,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 11084,
@@ -53143,7 +49350,6 @@ export default [
     jobCategory: 38,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 34,
       VIT: 40,
@@ -53152,7 +49358,6 @@ export default [
       PDMG: 54,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 11085,
@@ -53164,7 +49369,6 @@ export default [
     jobCategory: 41,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -53173,7 +49377,6 @@ export default [
       PDMG: 54,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11086,
@@ -53185,7 +49388,6 @@ export default [
     jobCategory: 44,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -53194,7 +49396,6 @@ export default [
       PDMG: 54,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 11087,
@@ -53206,7 +49407,6 @@ export default [
     jobCategory: 47,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -53215,7 +49415,6 @@ export default [
       PDMG: 54,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 11088,
@@ -53227,7 +49426,6 @@ export default [
     jobCategory: 50,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 48,
       VIT: 56,
@@ -53236,7 +49434,6 @@ export default [
       PDMG: 54,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 11089,
@@ -53248,7 +49445,6 @@ export default [
     jobCategory: 93,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 48,
       VIT: 56,
@@ -53257,7 +49453,6 @@ export default [
       PDMG: 54,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 11090,
@@ -53269,7 +49464,6 @@ export default [
     jobCategory: 98,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -53278,7 +49472,6 @@ export default [
       PDMG: 54,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 11091,
@@ -53290,7 +49483,6 @@ export default [
     jobCategory: 96,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 48,
       VIT: 56,
@@ -53299,7 +49491,6 @@ export default [
       PDMG: 54,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11092,
@@ -53311,7 +49502,6 @@ export default [
     jobCategory: 53,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       MND: 48,
@@ -53319,7 +49509,6 @@ export default [
       DET: 24,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 11093,
@@ -53331,7 +49520,6 @@ export default [
     jobCategory: 55,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       INT: 48,
@@ -53339,7 +49527,6 @@ export default [
       SPS: 33,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 11094,
@@ -53351,7 +49538,6 @@ export default [
     jobCategory: 69,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       INT: 48,
@@ -53359,7 +49545,6 @@ export default [
       SPS: 47,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 11095,
@@ -53371,7 +49556,6 @@ export default [
     jobCategory: 29,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       MND: 48,
@@ -53379,7 +49563,6 @@ export default [
       DET: 34,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 11096,
@@ -53391,7 +49574,6 @@ export default [
     jobCategory: 99,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       MND: 48,
@@ -53399,7 +49581,6 @@ export default [
       DET: 34,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 11097,
@@ -53411,14 +49592,12 @@ export default [
     jobCategory: 38,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 14,
       VIT: 16,
       TEN: 14,
       DET: 7,
     },
-    hq: false,
   },
   {
     id: 11098,
@@ -53430,14 +49609,12 @@ export default [
     jobCategory: 59,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       CRT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 11099,
@@ -53449,14 +49626,12 @@ export default [
     jobCategory: 47,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 11100,
@@ -53468,14 +49643,12 @@ export default [
     jobCategory: 65,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       CRT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 11101,
@@ -53487,14 +49660,12 @@ export default [
     jobCategory: 66,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       CRT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 11102,
@@ -53506,14 +49677,12 @@ export default [
     jobCategory: 103,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 11103,
@@ -53525,14 +49694,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
       PIE: 14,
       SPS: 27,
     },
-    hq: false,
   },
   {
     id: 11104,
@@ -53544,14 +49711,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       DHT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 11105,
@@ -53563,14 +49728,12 @@ export default [
     jobCategory: 59,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 44,
       SKS: 31,
     },
-    hq: false,
   },
   {
     id: 11106,
@@ -53582,14 +49745,12 @@ export default [
     jobCategory: 47,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       CRT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 11107,
@@ -53601,14 +49762,12 @@ export default [
     jobCategory: 65,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 31,
       SKS: 44,
     },
-    hq: false,
   },
   {
     id: 11108,
@@ -53620,14 +49779,12 @@ export default [
     jobCategory: 66,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       DHT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 11109,
@@ -53639,14 +49796,12 @@ export default [
     jobCategory: 103,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       CRT: 44,
       SKS: 31,
     },
-    hq: false,
   },
   {
     id: 11110,
@@ -53658,14 +49813,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
       PIE: 34,
       CRT: 31,
     },
-    hq: false,
   },
   {
     id: 11111,
@@ -53677,14 +49830,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
       DHT: 44,
       SPS: 31,
     },
-    hq: false,
   },
   {
     id: 11112,
@@ -53696,14 +49847,12 @@ export default [
     jobCategory: 59,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 11113,
@@ -53715,14 +49864,12 @@ export default [
     jobCategory: 47,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 11114,
@@ -53734,14 +49881,12 @@ export default [
     jobCategory: 65,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 27,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 11115,
@@ -53753,14 +49898,12 @@ export default [
     jobCategory: 66,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 19,
       CRT: 27,
     },
-    hq: false,
   },
   {
     id: 11116,
@@ -53772,14 +49915,12 @@ export default [
     jobCategory: 103,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 27,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 11117,
@@ -53791,14 +49932,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
       PIE: 21,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 11118,
@@ -53810,14 +49949,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       CRT: 19,
       SPS: 27,
     },
-    hq: false,
   },
   {
     id: 11119,
@@ -53829,14 +49966,12 @@ export default [
     jobCategory: 59,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 14,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 11120,
@@ -53848,14 +49983,12 @@ export default [
     jobCategory: 47,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 20,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 11121,
@@ -53867,14 +50000,12 @@ export default [
     jobCategory: 65,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 20,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 11122,
@@ -53886,14 +50017,12 @@ export default [
     jobCategory: 66,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 11123,
@@ -53905,14 +50034,12 @@ export default [
     jobCategory: 103,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       CRT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 11124,
@@ -53924,14 +50051,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
       PIE: 15,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 11125,
@@ -53943,14 +50068,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       CRT: 14,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 11126,
@@ -53962,14 +50085,12 @@ export default [
     jobCategory: 59,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       TEN: 44,
       CRT: 31,
     },
-    hq: false,
   },
   {
     id: 11127,
@@ -53981,14 +50102,12 @@ export default [
     jobCategory: 47,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 11128,
@@ -54000,14 +50119,12 @@ export default [
     jobCategory: 65,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 45,
       VIT: 52,
       DHT: 31,
       SKS: 44,
     },
-    hq: false,
   },
   {
     id: 11129,
@@ -54019,14 +50136,12 @@ export default [
     jobCategory: 66,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       CRT: 31,
       DET: 31,
     },
-    hq: false,
   },
   {
     id: 11130,
@@ -54038,14 +50153,12 @@ export default [
     jobCategory: 103,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 45,
       VIT: 52,
       DHT: 44,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 11131,
@@ -54057,14 +50170,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       MND: 45,
       PIE: 34,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 11132,
@@ -54076,14 +50187,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 47,
       INT: 45,
       DHT: 31,
       CRT: 44,
     },
-    hq: false,
   },
   {
     id: 11133,
@@ -54095,14 +50204,12 @@ export default [
     jobCategory: 59,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 27,
       CRT: 19,
     },
-    hq: false,
   },
   {
     id: 11134,
@@ -54114,14 +50221,12 @@ export default [
     jobCategory: 47,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DET: 19,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 11135,
@@ -54133,14 +50238,12 @@ export default [
     jobCategory: 65,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 27,
       VIT: 32,
       DHT: 19,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 11136,
@@ -54152,14 +50255,12 @@ export default [
     jobCategory: 66,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 27,
       SKS: 19,
     },
-    hq: false,
   },
   {
     id: 11137,
@@ -54171,14 +50272,12 @@ export default [
     jobCategory: 103,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 27,
       VIT: 32,
       DHT: 19,
       SKS: 27,
     },
-    hq: false,
   },
   {
     id: 11138,
@@ -54190,14 +50289,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       MND: 27,
       DET: 19,
       SPS: 19,
     },
-    hq: false,
   },
   {
     id: 11139,
@@ -54209,14 +50306,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 29,
       INT: 27,
       DHT: 27,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 11873,
@@ -54459,14 +50554,12 @@ export default [
     jobCategory: 2,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 14,
       DHT: 20,
     },
-    hq: false,
   },
   {
     id: 12357,
@@ -54478,14 +50571,12 @@ export default [
     jobCategory: 2,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       TEN: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 12358,
@@ -54497,14 +50588,12 @@ export default [
     jobCategory: 2,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 14,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 12359,
@@ -54516,14 +50605,12 @@ export default [
     jobCategory: 2,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 14,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 12360,
@@ -54535,14 +50622,12 @@ export default [
     jobCategory: 2,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 14,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 12361,
@@ -54554,14 +50639,12 @@ export default [
     jobCategory: 2,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DHT: 20,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 12362,
@@ -54573,14 +50656,12 @@ export default [
     jobCategory: 2,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       DET: 10,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 12363,
@@ -54592,14 +50673,12 @@ export default [
     jobCategory: 2,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 21,
       VIT: 24,
       CRT: 14,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 12364,
@@ -54611,14 +50690,12 @@ export default [
     jobCategory: 105,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 20,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 12365,
@@ -54630,14 +50707,12 @@ export default [
     jobCategory: 105,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DET: 14,
       SKS: 14,
     },
-    hq: false,
   },
   {
     id: 12366,
@@ -54649,14 +50724,12 @@ export default [
     jobCategory: 105,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DHT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 12367,
@@ -54668,14 +50741,12 @@ export default [
     jobCategory: 105,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 21,
       VIT: 24,
       DET: 10,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 12368,
@@ -54687,14 +50758,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
       DET: 10,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 12369,
@@ -54706,14 +50775,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
       PIE: 15,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 12370,
@@ -54725,14 +50792,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
       PIE: 15,
       CRT: 14,
     },
-    hq: false,
   },
   {
     id: 12371,
@@ -54744,14 +50809,12 @@ export default [
     jobCategory: 64,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       MND: 21,
       PIE: 11,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 12372,
@@ -54763,14 +50826,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       CRT: 20,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 12373,
@@ -54782,14 +50843,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DHT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 12374,
@@ -54801,14 +50860,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       DET: 14,
       SPS: 14,
     },
-    hq: false,
   },
   {
     id: 12375,
@@ -54820,14 +50877,12 @@ export default [
     jobCategory: 63,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 22,
       INT: 21,
       CRT: 20,
       DET: 10,
     },
-    hq: false,
   },
   {
     id: 20384,
@@ -54839,7 +50894,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -54848,7 +50902,6 @@ export default [
       PDMG: 54,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20385,
@@ -54860,7 +50913,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       INT: 48,
@@ -54868,7 +50920,6 @@ export default [
       CRT: 47,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 20398,
@@ -54880,7 +50931,6 @@ export default [
     jobCategory: 111,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 48,
       VIT: 56,
@@ -54889,7 +50939,6 @@ export default [
       PDMG: 54,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20399,
@@ -54901,7 +50950,6 @@ export default [
     jobCategory: 112,
     equipLevel: 51,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 50,
       INT: 48,
@@ -54909,7 +50957,6 @@ export default [
       SPS: 47,
       MDMG: 78,
     },
-    hq: false,
   },
   {
     id: 9491,
@@ -54921,14 +50968,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 36,
       VIT: 43,
       PDMG: 56,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 9492,
@@ -54940,14 +50985,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 51,
       VIT: 60,
       PDMG: 56,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 9493,
@@ -54959,14 +51002,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 51,
       VIT: 60,
       PDMG: 56,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 9494,
@@ -54978,14 +51019,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 51,
       VIT: 60,
       PDMG: 56,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 9495,
@@ -54997,14 +51036,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 51,
       VIT: 60,
       PDMG: 56,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 9496,
@@ -55016,14 +51053,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 54,
       MND: 51,
       DHT: 10,
       MDMG: 80,
     },
-    hq: false,
   },
   {
     id: 9497,
@@ -55035,13 +51070,11 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 54,
       INT: 51,
       MDMG: 80,
     },
-    hq: false,
   },
   {
     id: 9498,
@@ -55053,13 +51086,11 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 54,
       INT: 51,
       MDMG: 80,
     },
-    hq: false,
   },
   {
     id: 9499,
@@ -55071,14 +51102,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 54,
       MND: 51,
       DHT: 10,
       MDMG: 80,
     },
-    hq: false,
   },
   {
     id: 9500,
@@ -55090,12 +51119,10 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 17,
     },
-    hq: false,
   },
   {
     id: 9501,
@@ -55107,14 +51134,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 51,
       VIT: 60,
       PDMG: 56,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 10587,
@@ -56707,14 +52732,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 20,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 8877,
@@ -56726,14 +52749,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       TEN: 47,
       DHT: 33,
     },
-    hq: false,
   },
   {
     id: 8878,
@@ -56745,14 +52766,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       TEN: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8879,
@@ -56764,14 +52783,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       TEN: 33,
       DHT: 47,
     },
-    hq: false,
   },
   {
     id: 8880,
@@ -56783,14 +52800,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8881,
@@ -56802,14 +52817,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8882,
@@ -56821,14 +52834,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       TEN: 15,
       DHT: 22,
     },
-    hq: false,
   },
   {
     id: 8883,
@@ -56840,14 +52851,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       TEN: 22,
       DHT: 15,
     },
-    hq: false,
   },
   {
     id: 8884,
@@ -56859,14 +52868,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       TEN: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 8885,
@@ -56878,14 +52885,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       TEN: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8886,
@@ -56897,14 +52902,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 29,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 8887,
@@ -56916,14 +52919,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 47,
       DET: 23,
     },
-    hq: false,
   },
   {
     id: 8888,
@@ -56935,14 +52936,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       CRT: 20,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 8889,
@@ -56954,14 +52953,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       CRT: 33,
       DET: 34,
     },
-    hq: false,
   },
   {
     id: 8890,
@@ -56973,14 +52970,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       CRT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8891,
@@ -56992,14 +52987,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 8892,
@@ -57011,14 +53004,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 29,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 8893,
@@ -57030,14 +53021,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       CRT: 33,
       DET: 34,
     },
-    hq: false,
   },
   {
     id: 8894,
@@ -57049,14 +53038,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       CRT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 8895,
@@ -57068,14 +53055,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 47,
       DET: 23,
     },
-    hq: false,
   },
   {
     id: 8896,
@@ -57087,14 +53072,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       CRT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 8897,
@@ -57106,14 +53089,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8898,
@@ -57125,14 +53106,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8899,
@@ -57144,14 +53123,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8900,
@@ -57163,14 +53140,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 15,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 8901,
@@ -57182,14 +53157,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8902,
@@ -57201,14 +53174,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8903,
@@ -57220,14 +53191,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DHT: 33,
       SKS: 47,
     },
-    hq: false,
   },
   {
     id: 8904,
@@ -57239,14 +53208,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       CRT: 20,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 8905,
@@ -57258,14 +53225,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DHT: 47,
       SKS: 33,
     },
-    hq: false,
   },
   {
     id: 8906,
@@ -57277,14 +53242,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 20,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 8907,
@@ -57296,14 +53259,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8908,
@@ -57315,14 +53276,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 8909,
@@ -57334,14 +53293,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 8910,
@@ -57353,14 +53310,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8911,
@@ -57372,14 +53327,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8912,
@@ -57391,7 +53344,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -57399,7 +53351,6 @@ export default [
       DHT: 6,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 8913,
@@ -57411,7 +53362,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       MND: 50,
@@ -57419,7 +53369,6 @@ export default [
       DHT: 9,
       DET: 23,
     },
-    hq: false,
   },
   {
     id: 8914,
@@ -57431,7 +53380,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -57439,7 +53387,6 @@ export default [
       DET: 14,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 8915,
@@ -57451,7 +53398,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       MND: 50,
@@ -57459,7 +53405,6 @@ export default [
       DET: 34,
       SPS: 33,
     },
-    hq: false,
   },
   {
     id: 8916,
@@ -57471,7 +53416,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -57479,7 +53423,6 @@ export default [
       DHT: 6,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 8917,
@@ -57491,7 +53434,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -57499,7 +53441,6 @@ export default [
       DHT: 4,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8918,
@@ -57511,7 +53452,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -57519,7 +53459,6 @@ export default [
       CRT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8919,
@@ -57531,7 +53470,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -57539,7 +53477,6 @@ export default [
       DHT: 4,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 8920,
@@ -57551,7 +53488,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -57559,7 +53495,6 @@ export default [
       DHT: 4,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 8921,
@@ -57571,7 +53506,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -57579,7 +53513,6 @@ export default [
       DHT: 4,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8922,
@@ -57591,14 +53524,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       DET: 14,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 8923,
@@ -57610,14 +53541,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       INT: 50,
       CRT: 47,
       SPS: 33,
     },
-    hq: false,
   },
   {
     id: 8924,
@@ -57629,14 +53558,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8925,
@@ -57648,14 +53575,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       INT: 50,
       DHT: 47,
       DET: 23,
     },
-    hq: false,
   },
   {
     id: 8926,
@@ -57667,14 +53592,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       DHT: 20,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 8927,
@@ -57686,14 +53609,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8928,
@@ -57705,14 +53626,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 15,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 8929,
@@ -57724,14 +53643,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 15,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 8930,
@@ -57743,14 +53660,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DET: 15,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 8931,
@@ -57762,14 +53677,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8932,
@@ -57781,14 +53694,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 18,
       TEN: 15,
       DHT: 10,
     },
-    hq: false,
   },
   {
     id: 8933,
@@ -57800,7 +53711,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 45,
@@ -57809,7 +53719,6 @@ export default [
       PDMG: 57,
       DLY: 2000,
     },
-    hq: false,
   },
   {
     id: 8934,
@@ -57821,7 +53730,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -57830,7 +53738,6 @@ export default [
       PDMG: 57,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 8935,
@@ -57842,7 +53749,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -57851,7 +53757,6 @@ export default [
       PDMG: 57,
       DLY: 3280,
     },
-    hq: false,
   },
   {
     id: 8936,
@@ -57863,7 +53768,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -57872,7 +53776,6 @@ export default [
       PDMG: 57,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 8937,
@@ -57884,7 +53787,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -57893,7 +53795,6 @@ export default [
       PDMG: 57,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 8938,
@@ -57905,7 +53806,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -57914,7 +53814,6 @@ export default [
       PDMG: 57,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 8939,
@@ -57926,7 +53825,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -57935,7 +53833,6 @@ export default [
       CRT: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 8940,
@@ -57947,7 +53844,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -57955,7 +53851,6 @@ export default [
       CRT: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 8941,
@@ -57967,7 +53862,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -57975,7 +53869,6 @@ export default [
       SPS: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 8942,
@@ -57987,7 +53880,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -57996,7 +53888,6 @@ export default [
       SPS: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 8943,
@@ -58008,14 +53899,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       TEN: 20,
       DHT: 29,
     },
-    hq: false,
   },
   {
     id: 8944,
@@ -58027,14 +53916,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 33,
       DET: 34,
     },
-    hq: false,
   },
   {
     id: 8945,
@@ -58046,14 +53933,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 8946,
@@ -58065,14 +53950,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       CRT: 47,
       DET: 23,
     },
-    hq: false,
   },
   {
     id: 8947,
@@ -58084,14 +53967,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       TEN: 29,
       DHT: 20,
     },
-    hq: false,
   },
   {
     id: 8948,
@@ -58103,14 +53984,12 @@ export default [
     jobCategory: 59,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       TEN: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8949,
@@ -58122,14 +54001,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       TEN: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8950,
@@ -58141,14 +54018,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8951,
@@ -58160,14 +54035,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 15,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 8952,
@@ -58179,14 +54052,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 15,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 8953,
@@ -58198,14 +54069,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 20,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 8954,
@@ -58217,14 +54086,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       CRT: 33,
       SKS: 47,
     },
-    hq: false,
   },
   {
     id: 8955,
@@ -58236,14 +54103,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8956,
@@ -58255,14 +54120,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 47,
       SKS: 33,
     },
-    hq: false,
   },
   {
     id: 8957,
@@ -58274,14 +54137,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       CRT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 8958,
@@ -58293,14 +54154,12 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8959,
@@ -58312,14 +54171,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 20,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 8960,
@@ -58331,14 +54188,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 47,
       SKS: 33,
     },
-    hq: false,
   },
   {
     id: 8961,
@@ -58350,14 +54205,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8962,
@@ -58369,14 +54222,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DET: 23,
       SKS: 47,
     },
-    hq: false,
   },
   {
     id: 8963,
@@ -58388,14 +54239,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 20,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 8964,
@@ -58407,14 +54256,12 @@ export default [
     jobCategory: 65,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       CRT: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 8965,
@@ -58426,14 +54273,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 15,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 8966,
@@ -58445,14 +54290,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DET: 15,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 8967,
@@ -58464,14 +54307,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       CRT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8968,
@@ -58483,14 +54324,12 @@ export default [
     jobCategory: 2,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8969,
@@ -58502,14 +54341,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       CRT: 20,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 8970,
@@ -58521,14 +54358,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DET: 34,
       SKS: 33,
     },
-    hq: false,
   },
   {
     id: 8971,
@@ -58540,14 +54375,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8972,
@@ -58559,14 +54392,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DHT: 33,
       CRT: 47,
     },
-    hq: false,
   },
   {
     id: 8973,
@@ -58578,14 +54409,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 8974,
@@ -58597,14 +54426,12 @@ export default [
     jobCategory: 66,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8975,
@@ -58616,14 +54443,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       CRT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8976,
@@ -58635,14 +54460,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8977,
@@ -58654,14 +54477,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 8978,
@@ -58673,14 +54494,12 @@ export default [
     jobCategory: 105,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DET: 11,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 8979,
@@ -58692,7 +54511,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -58700,7 +54518,6 @@ export default [
       DHT: 6,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 8980,
@@ -58712,7 +54529,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       MND: 50,
@@ -58720,7 +54536,6 @@ export default [
       CRT: 47,
       SPS: 33,
     },
-    hq: false,
   },
   {
     id: 8981,
@@ -58732,7 +54547,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -58740,7 +54554,6 @@ export default [
       DHT: 6,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 8982,
@@ -58752,7 +54565,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       MND: 50,
@@ -58760,7 +54572,6 @@ export default [
       DHT: 9,
       CRT: 33,
     },
-    hq: false,
   },
   {
     id: 8983,
@@ -58772,7 +54583,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
@@ -58780,7 +54590,6 @@ export default [
       DET: 14,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 8984,
@@ -58792,7 +54601,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -58800,7 +54608,6 @@ export default [
       DHT: 4,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 8985,
@@ -58812,7 +54619,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -58820,7 +54626,6 @@ export default [
       DHT: 4,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 8986,
@@ -58832,7 +54637,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -58840,7 +54644,6 @@ export default [
       DHT: 4,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8987,
@@ -58852,7 +54655,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -58860,7 +54662,6 @@ export default [
       DET: 15,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 8988,
@@ -58872,7 +54673,6 @@ export default [
     jobCategory: 64,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
@@ -58880,7 +54680,6 @@ export default [
       CRT: 15,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 8989,
@@ -58892,14 +54691,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       DHT: 29,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 8990,
@@ -58911,14 +54708,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       INT: 50,
       DHT: 33,
       SPS: 47,
     },
-    hq: false,
   },
   {
     id: 8991,
@@ -58930,14 +54725,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       CRT: 20,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 8992,
@@ -58949,14 +54742,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       INT: 50,
       CRT: 47,
       SPS: 33,
     },
-    hq: false,
   },
   {
     id: 8993,
@@ -58968,14 +54759,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 8994,
@@ -58987,14 +54776,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       CRT: 22,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 8995,
@@ -59006,14 +54793,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 8996,
@@ -59025,14 +54810,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 8997,
@@ -59044,14 +54827,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 8998,
@@ -59063,14 +54844,12 @@ export default [
     jobCategory: 63,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       CRT: 22,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 9473,
@@ -59082,14 +54861,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 9474,
@@ -59101,14 +54878,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DHT: 33,
       DET: 34,
     },
-    hq: false,
   },
   {
     id: 9475,
@@ -59120,14 +54895,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       CRT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 9476,
@@ -59139,14 +54912,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       CRT: 33,
       DET: 34,
     },
-    hq: false,
   },
   {
     id: 9477,
@@ -59158,14 +54929,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 9478,
@@ -59177,14 +54946,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       CRT: 15,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 9479,
@@ -59196,14 +54963,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       CRT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 9480,
@@ -59215,14 +54980,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       CRT: 47,
       SKS: 33,
     },
-    hq: false,
   },
   {
     id: 9481,
@@ -59234,14 +54997,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 20,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 9482,
@@ -59253,14 +55014,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DHT: 47,
       SKS: 33,
     },
-    hq: false,
   },
   {
     id: 9483,
@@ -59272,14 +55031,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 20,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 9484,
@@ -59291,14 +55048,12 @@ export default [
     jobCategory: 103,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 10461,
@@ -59310,7 +55065,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -59319,7 +55073,6 @@ export default [
       PDMG: 57,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10523,
@@ -59331,7 +55084,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -59340,7 +55092,6 @@ export default [
       PDMG: 57,
       DLY: 2480,
     },
-    hq: false,
   },
   {
     id: 10585,
@@ -59352,7 +55103,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -59361,7 +55111,6 @@ export default [
       SPS: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 11140,
@@ -59373,7 +55122,6 @@ export default [
     jobCategory: 38,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 45,
@@ -59382,7 +55130,6 @@ export default [
       PDMG: 57,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 11141,
@@ -59394,7 +55141,6 @@ export default [
     jobCategory: 41,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -59403,7 +55149,6 @@ export default [
       PDMG: 57,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 11142,
@@ -59415,7 +55160,6 @@ export default [
     jobCategory: 44,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -59424,7 +55168,6 @@ export default [
       PDMG: 57,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 11143,
@@ -59436,7 +55179,6 @@ export default [
     jobCategory: 47,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -59445,7 +55187,6 @@ export default [
       PDMG: 57,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 11144,
@@ -59457,7 +55198,6 @@ export default [
     jobCategory: 50,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -59466,7 +55206,6 @@ export default [
       PDMG: 57,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 11145,
@@ -59478,7 +55217,6 @@ export default [
     jobCategory: 93,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -59487,7 +55225,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11146,
@@ -59499,7 +55236,6 @@ export default [
     jobCategory: 98,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -59508,7 +55244,6 @@ export default [
       PDMG: 57,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 11147,
@@ -59520,7 +55255,6 @@ export default [
     jobCategory: 96,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -59529,7 +55263,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11148,
@@ -59541,7 +55274,6 @@ export default [
     jobCategory: 53,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -59549,7 +55281,6 @@ export default [
       DET: 25,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 11149,
@@ -59561,7 +55292,6 @@ export default [
     jobCategory: 55,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -59569,7 +55299,6 @@ export default [
       SPS: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 11150,
@@ -59581,7 +55310,6 @@ export default [
     jobCategory: 69,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -59589,7 +55317,6 @@ export default [
       SPS: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 11151,
@@ -59601,7 +55328,6 @@ export default [
     jobCategory: 29,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -59609,7 +55335,6 @@ export default [
       SPS: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 11152,
@@ -59621,7 +55346,6 @@ export default [
     jobCategory: 99,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -59629,7 +55353,6 @@ export default [
       SPS: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 11153,
@@ -59641,14 +55364,12 @@ export default [
     jobCategory: 38,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 15,
       VIT: 18,
       TEN: 10,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 11154,
@@ -59660,14 +55381,12 @@ export default [
     jobCategory: 59,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DET: 21,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 11155,
@@ -59679,14 +55398,12 @@ export default [
     jobCategory: 47,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DET: 14,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 11156,
@@ -59698,14 +55415,12 @@ export default [
     jobCategory: 65,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DET: 21,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 11157,
@@ -59717,14 +55432,12 @@ export default [
     jobCategory: 66,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 20,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 11158,
@@ -59736,14 +55449,12 @@ export default [
     jobCategory: 103,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 20,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 11159,
@@ -59755,14 +55466,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
       CRT: 20,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 11160,
@@ -59774,14 +55483,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 11161,
@@ -59793,14 +55500,12 @@ export default [
     jobCategory: 59,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 47,
       CRT: 33,
     },
-    hq: false,
   },
   {
     id: 11162,
@@ -59812,14 +55517,12 @@ export default [
     jobCategory: 47,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 33,
       CRT: 47,
     },
-    hq: false,
   },
   {
     id: 11163,
@@ -59831,14 +55534,12 @@ export default [
     jobCategory: 65,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 33,
       CRT: 47,
     },
-    hq: false,
   },
   {
     id: 11164,
@@ -59850,14 +55551,12 @@ export default [
     jobCategory: 66,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DHT: 47,
       CRT: 33,
     },
-    hq: false,
   },
   {
     id: 11165,
@@ -59869,14 +55568,12 @@ export default [
     jobCategory: 103,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DET: 23,
       SKS: 47,
     },
-    hq: false,
   },
   {
     id: 11166,
@@ -59888,14 +55585,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       MND: 50,
       PIE: 25,
       SPS: 47,
     },
-    hq: false,
   },
   {
     id: 11167,
@@ -59907,14 +55602,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       INT: 50,
       DHT: 33,
       DET: 34,
     },
-    hq: false,
   },
   {
     id: 11168,
@@ -59926,14 +55619,12 @@ export default [
     jobCategory: 59,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       TEN: 20,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 11169,
@@ -59945,14 +55636,12 @@ export default [
     jobCategory: 47,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       CRT: 20,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 11170,
@@ -59964,14 +55653,12 @@ export default [
     jobCategory: 65,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 11171,
@@ -59983,14 +55670,12 @@ export default [
     jobCategory: 66,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DET: 14,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 11172,
@@ -60002,14 +55687,12 @@ export default [
     jobCategory: 103,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 11173,
@@ -60021,14 +55704,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
       PIE: 22,
       CRT: 20,
     },
-    hq: false,
   },
   {
     id: 11174,
@@ -60040,14 +55721,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       DET: 21,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 11175,
@@ -60059,14 +55738,12 @@ export default [
     jobCategory: 59,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       TEN: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 11176,
@@ -60078,14 +55755,12 @@ export default [
     jobCategory: 47,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 15,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 11177,
@@ -60097,14 +55772,12 @@ export default [
     jobCategory: 65,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 11178,
@@ -60116,14 +55789,12 @@ export default [
     jobCategory: 66,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 15,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11179,
@@ -60135,14 +55806,12 @@ export default [
     jobCategory: 103,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 11180,
@@ -60154,14 +55823,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
       PIE: 17,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 11181,
@@ -60173,14 +55840,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 11182,
@@ -60192,14 +55857,12 @@ export default [
     jobCategory: 59,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 47,
       SKS: 33,
     },
-    hq: false,
   },
   {
     id: 11183,
@@ -60211,14 +55874,12 @@ export default [
     jobCategory: 47,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 33,
       CRT: 47,
     },
-    hq: false,
   },
   {
     id: 11184,
@@ -60230,14 +55891,12 @@ export default [
     jobCategory: 65,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 50,
       VIT: 59,
       DHT: 33,
       SKS: 47,
     },
-    hq: false,
   },
   {
     id: 11185,
@@ -60249,14 +55908,12 @@ export default [
     jobCategory: 66,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DET: 34,
       SKS: 33,
     },
-    hq: false,
   },
   {
     id: 11186,
@@ -60268,14 +55925,12 @@ export default [
     jobCategory: 103,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 50,
       VIT: 59,
       DHT: 47,
       CRT: 33,
     },
-    hq: false,
   },
   {
     id: 11187,
@@ -60287,14 +55942,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       MND: 50,
       PIE: 36,
       DET: 23,
     },
-    hq: false,
   },
   {
     id: 11188,
@@ -60306,14 +55959,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       INT: 50,
       DHT: 33,
       CRT: 47,
     },
-    hq: false,
   },
   {
     id: 11189,
@@ -60325,14 +55976,12 @@ export default [
     jobCategory: 59,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       CRT: 20,
       SKS: 29,
     },
-    hq: false,
   },
   {
     id: 11190,
@@ -60344,14 +55993,12 @@ export default [
     jobCategory: 47,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DHT: 29,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 11191,
@@ -60363,14 +56010,12 @@ export default [
     jobCategory: 65,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 31,
       VIT: 36,
       DET: 21,
       SKS: 20,
     },
-    hq: false,
   },
   {
     id: 11192,
@@ -60382,14 +56027,12 @@ export default [
     jobCategory: 66,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       DHT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 11193,
@@ -60401,14 +56044,12 @@ export default [
     jobCategory: 103,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 31,
       VIT: 36,
       CRT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 11194,
@@ -60420,14 +56061,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       MND: 31,
       CRT: 29,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 11195,
@@ -60439,14 +56078,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       CRT: 20,
       SPS: 29,
     },
-    hq: false,
   },
   {
     id: 11958,
@@ -60458,11 +56095,9 @@ export default [
     jobCategory: 33,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CRL: 57,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60475,12 +56110,10 @@ export default [
     jobCategory: 33,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 183,
       CRL: 57,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60493,11 +56126,9 @@ export default [
     jobCategory: 33,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CRL: 57,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60510,11 +56141,9 @@ export default [
     jobCategory: 33,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CRL: 57,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60527,11 +56156,9 @@ export default [
     jobCategory: 33,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CRL: 57,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60544,11 +56171,9 @@ export default [
     jobCategory: 32,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       PCP: 110,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60561,12 +56186,10 @@ export default [
     jobCategory: 32,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 110,
       PCP: 55,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60579,11 +56202,9 @@ export default [
     jobCategory: 32,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 82,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60596,11 +56217,9 @@ export default [
     jobCategory: 32,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 55,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60613,11 +56232,9 @@ export default [
     jobCategory: 32,
     equipLevel: 58,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       PCP: 55,
     },
-    hq: false,
     source: '生产制作',
   },
   {
@@ -60664,14 +56281,12 @@ export default [
     jobCategory: 2,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 12377,
@@ -60683,14 +56298,12 @@ export default [
     jobCategory: 2,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 12378,
@@ -60702,14 +56315,12 @@ export default [
     jobCategory: 2,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 15,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 12379,
@@ -60721,14 +56332,12 @@ export default [
     jobCategory: 2,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 12380,
@@ -60740,14 +56349,12 @@ export default [
     jobCategory: 2,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 12381,
@@ -60759,14 +56366,12 @@ export default [
     jobCategory: 2,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       CRT: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 12382,
@@ -60778,14 +56383,12 @@ export default [
     jobCategory: 2,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 12383,
@@ -60797,14 +56400,12 @@ export default [
     jobCategory: 2,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 23,
       VIT: 27,
       DET: 11,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 12384,
@@ -60816,14 +56417,12 @@ export default [
     jobCategory: 105,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       CRT: 22,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 12385,
@@ -60835,14 +56434,12 @@ export default [
     jobCategory: 105,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 12386,
@@ -60854,14 +56451,12 @@ export default [
     jobCategory: 105,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 15,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 12387,
@@ -60873,14 +56468,12 @@ export default [
     jobCategory: 105,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 23,
       VIT: 27,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 12388,
@@ -60892,14 +56485,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
       PIE: 17,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 12389,
@@ -60911,14 +56502,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
       PIE: 12,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 12390,
@@ -60930,14 +56519,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
       CRT: 15,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 12391,
@@ -60949,14 +56536,12 @@ export default [
     jobCategory: 64,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       MND: 23,
       DET: 11,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 12392,
@@ -60968,14 +56553,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       CRT: 15,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 12393,
@@ -60987,14 +56570,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DET: 15,
       SPS: 15,
     },
-    hq: false,
   },
   {
     id: 12394,
@@ -61006,14 +56587,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 22,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 12395,
@@ -61025,14 +56604,12 @@ export default [
     jobCategory: 63,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 24,
       INT: 23,
       DHT: 22,
       CRT: 15,
     },
-    hq: false,
   },
   {
     id: 20386,
@@ -61044,7 +56621,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61053,7 +56629,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20387,
@@ -61065,7 +56640,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -61073,7 +56647,6 @@ export default [
       CRT: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 20400,
@@ -61085,7 +56658,6 @@ export default [
     jobCategory: 111,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61094,7 +56666,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20401,
@@ -61106,7 +56677,6 @@ export default [
     jobCategory: 112,
     equipLevel: 53,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -61114,7 +56684,6 @@ export default [
       SPS: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23917,
@@ -61126,7 +56695,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 45,
@@ -61135,7 +56703,6 @@ export default [
       PDMG: 57,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 23918,
@@ -61147,7 +56714,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 45,
@@ -61156,7 +56722,6 @@ export default [
       PDMG: 57,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 23919,
@@ -61168,7 +56733,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 39,
       VIT: 45,
@@ -61177,7 +56741,6 @@ export default [
       PDMG: 57,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 23920,
@@ -61189,7 +56752,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61198,7 +56760,6 @@ export default [
       PDMG: 57,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 23921,
@@ -61210,7 +56771,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61219,7 +56779,6 @@ export default [
       PDMG: 57,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 23922,
@@ -61231,7 +56790,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61240,7 +56798,6 @@ export default [
       PDMG: 57,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 23923,
@@ -61252,7 +56809,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61261,7 +56817,6 @@ export default [
       PDMG: 57,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 23924,
@@ -61273,7 +56828,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61282,7 +56836,6 @@ export default [
       PDMG: 57,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 23925,
@@ -61294,7 +56847,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61303,7 +56855,6 @@ export default [
       PDMG: 57,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 23926,
@@ -61315,7 +56866,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61324,7 +56874,6 @@ export default [
       PDMG: 57,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 23927,
@@ -61336,7 +56885,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61345,7 +56893,6 @@ export default [
       PDMG: 57,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 23928,
@@ -61357,7 +56904,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61366,7 +56912,6 @@ export default [
       PDMG: 57,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 23929,
@@ -61378,7 +56923,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61387,7 +56931,6 @@ export default [
       PDMG: 57,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 23930,
@@ -61399,7 +56942,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61408,7 +56950,6 @@ export default [
       PDMG: 57,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 23931,
@@ -61420,7 +56961,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61429,7 +56969,6 @@ export default [
       PDMG: 57,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 23932,
@@ -61441,7 +56980,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61450,7 +56988,6 @@ export default [
       PDMG: 57,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 23933,
@@ -61462,7 +56999,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61471,7 +57007,6 @@ export default [
       PDMG: 57,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 23934,
@@ -61483,7 +57018,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61492,7 +57026,6 @@ export default [
       PDMG: 57,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 23935,
@@ -61504,7 +57037,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61513,7 +57045,6 @@ export default [
       PDMG: 57,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 23936,
@@ -61525,7 +57056,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61534,7 +57064,6 @@ export default [
       PDMG: 57,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 23937,
@@ -61546,7 +57075,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61555,7 +57083,6 @@ export default [
       PDMG: 57,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 23938,
@@ -61567,7 +57094,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61576,7 +57102,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 23939,
@@ -61588,7 +57113,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61597,7 +57121,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 23940,
@@ -61609,7 +57132,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 63,
@@ -61618,7 +57140,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 23941,
@@ -61630,7 +57151,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61638,7 +57158,6 @@ export default [
       SPS: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23942,
@@ -61650,7 +57169,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61658,7 +57176,6 @@ export default [
       SPS: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23943,
@@ -61670,7 +57187,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61678,7 +57194,6 @@ export default [
       SPS: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23944,
@@ -61690,7 +57205,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -61698,7 +57212,6 @@ export default [
       SPS: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23945,
@@ -61710,7 +57223,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -61718,7 +57230,6 @@ export default [
       SPS: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23946,
@@ -61730,7 +57241,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -61738,7 +57248,6 @@ export default [
       SPS: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23947,
@@ -61750,7 +57259,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -61758,7 +57266,6 @@ export default [
       DET: 25,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23948,
@@ -61770,7 +57277,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -61778,7 +57284,6 @@ export default [
       DET: 25,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23949,
@@ -61790,7 +57295,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -61798,7 +57302,6 @@ export default [
       DET: 25,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23950,
@@ -61810,7 +57313,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61818,7 +57320,6 @@ export default [
       CRT: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23951,
@@ -61830,7 +57331,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61838,7 +57338,6 @@ export default [
       CRT: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23952,
@@ -61850,7 +57349,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61858,7 +57356,6 @@ export default [
       CRT: 51,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23953,
@@ -61870,7 +57367,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61878,7 +57374,6 @@ export default [
       DET: 25,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23954,
@@ -61890,7 +57385,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61898,7 +57392,6 @@ export default [
       DET: 25,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23955,
@@ -61910,7 +57403,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       MND: 54,
@@ -61918,7 +57410,6 @@ export default [
       DET: 25,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23956,
@@ -61930,7 +57421,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61939,7 +57429,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 23957,
@@ -61951,7 +57440,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61960,7 +57448,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 23958,
@@ -61972,7 +57459,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 63,
@@ -61981,7 +57467,6 @@ export default [
       PDMG: 57,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 23959,
@@ -61993,7 +57478,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -62001,7 +57485,6 @@ export default [
       DET: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23960,
@@ -62013,7 +57496,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -62021,7 +57503,6 @@ export default [
       DET: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 23961,
@@ -62033,7 +57514,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 57,
       INT: 54,
@@ -62041,7 +57521,6 @@ export default [
       DET: 36,
       MDMG: 81,
     },
-    hq: false,
   },
   {
     id: 24551,
@@ -62053,11 +57532,9 @@ export default [
     jobCategory: 129,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       MDMG: 1,
     },
-    hq: false,
   },
   {
     id: 24552,
@@ -62069,14 +57546,12 @@ export default [
     jobCategory: 129,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       CRT: 29,
       SPS: 20,
     },
-    hq: false,
   },
   {
     id: 24553,
@@ -62088,14 +57563,12 @@ export default [
     jobCategory: 129,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       INT: 50,
       DHT: 33,
       DET: 34,
     },
-    hq: false,
   },
   {
     id: 24554,
@@ -62107,14 +57580,12 @@ export default [
     jobCategory: 129,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       CRT: 29,
       DET: 14,
     },
-    hq: false,
   },
   {
     id: 24555,
@@ -62126,14 +57597,12 @@ export default [
     jobCategory: 129,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 53,
       INT: 50,
       CRT: 47,
       DET: 23,
     },
-    hq: false,
   },
   {
     id: 24556,
@@ -62145,14 +57614,12 @@ export default [
     jobCategory: 129,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 32,
       INT: 31,
       DHT: 20,
       CRT: 29,
     },
-    hq: false,
   },
   {
     id: 10588,
@@ -63745,14 +59212,12 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 19,
       DET: 8,
       SKS: 15,
     },
-    hq: false,
   },
   {
     id: 9000,
@@ -63764,7 +59229,6 @@ export default [
     jobCategory: 38,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 41,
       VIT: 48,
@@ -63773,7 +59237,6 @@ export default [
       PDMG: 58,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 9001,
@@ -63785,7 +59248,6 @@ export default [
     jobCategory: 41,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 57,
       VIT: 67,
@@ -63794,7 +59256,6 @@ export default [
       PDMG: 58,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 9002,
@@ -63806,7 +59267,6 @@ export default [
     jobCategory: 44,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 57,
       VIT: 67,
@@ -63815,7 +59275,6 @@ export default [
       PDMG: 58,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 9003,
@@ -63827,7 +59286,6 @@ export default [
     jobCategory: 47,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 57,
       VIT: 67,
@@ -63836,7 +59294,6 @@ export default [
       PDMG: 58,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 9004,
@@ -63848,7 +59305,6 @@ export default [
     jobCategory: 50,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 57,
       VIT: 67,
@@ -63857,7 +59313,6 @@ export default [
       PDMG: 58,
       DLY: 3200,
     },
-    hq: false,
   },
   {
     id: 9005,
@@ -63869,7 +59324,6 @@ export default [
     jobCategory: 93,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 57,
       VIT: 67,
@@ -63878,7 +59332,6 @@ export default [
       PDMG: 58,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 9006,
@@ -63890,7 +59343,6 @@ export default [
     jobCategory: 53,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       MND: 57,
@@ -63899,7 +59351,6 @@ export default [
       SPS: 37,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 9007,
@@ -63911,7 +59362,6 @@ export default [
     jobCategory: 55,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       INT: 57,
@@ -63919,7 +59369,6 @@ export default [
       SPS: 53,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 9008,
@@ -63931,7 +59380,6 @@ export default [
     jobCategory: 69,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       INT: 57,
@@ -63939,7 +59387,6 @@ export default [
       SPS: 37,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 9009,
@@ -63951,7 +59398,6 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       MND: 57,
@@ -63960,7 +59406,6 @@ export default [
       CRT: 53,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 10054,
@@ -63972,14 +59417,12 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 41,
       VIT: 48,
       PDMG: 58,
       DLY: 2320,
     },
-    hq: false,
   },
   {
     id: 10055,
@@ -63991,14 +59434,12 @@ export default [
     jobCategory: 21,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 57,
       VIT: 67,
       PDMG: 58,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 10056,
@@ -64010,14 +59451,12 @@ export default [
     jobCategory: 22,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 57,
       VIT: 67,
       PDMG: 58,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 10057,
@@ -64029,14 +59468,12 @@ export default [
     jobCategory: 23,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 57,
       VIT: 67,
       PDMG: 58,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10058,
@@ -64048,14 +59485,12 @@ export default [
     jobCategory: 24,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 57,
       VIT: 67,
       PDMG: 58,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 10059,
@@ -64067,14 +59502,12 @@ export default [
     jobCategory: 25,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       MND: 57,
       DHT: 11,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 10060,
@@ -64086,13 +59519,11 @@ export default [
     jobCategory: 26,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       INT: 57,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 10061,
@@ -64104,13 +59535,11 @@ export default [
     jobCategory: 28,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       INT: 57,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 10062,
@@ -64122,14 +59551,12 @@ export default [
     jobCategory: 29,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       MND: 57,
       DHT: 11,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 10063,
@@ -64141,12 +59568,10 @@ export default [
     jobCategory: 20,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 16,
       VIT: 19,
     },
-    hq: false,
   },
   {
     id: 10064,
@@ -64158,14 +59583,12 @@ export default [
     jobCategory: 92,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 57,
       VIT: 67,
       PDMG: 58,
       DLY: 2400,
     },
-    hq: false,
   },
   {
     id: 10456,
@@ -64177,7 +59600,6 @@ export default [
     jobCategory: 98,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 57,
       VIT: 67,
@@ -64186,7 +59608,6 @@ export default [
       PDMG: 58,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 10518,
@@ -64198,7 +59619,6 @@ export default [
     jobCategory: 96,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 57,
       VIT: 67,
@@ -64207,7 +59627,6 @@ export default [
       PDMG: 58,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 10580,
@@ -64219,7 +59638,6 @@ export default [
     jobCategory: 99,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       MND: 57,
@@ -64228,7 +59646,6 @@ export default [
       CRT: 53,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 20975,
@@ -64240,7 +59657,6 @@ export default [
     jobCategory: 111,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 57,
       VIT: 64,
@@ -64249,7 +59665,6 @@ export default [
       PDMG: 58,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20976,
@@ -64261,7 +59676,6 @@ export default [
     jobCategory: 112,
     equipLevel: 50,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 58,
       INT: 57,
@@ -64269,7 +59683,6 @@ export default [
       CRT: 37,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 11196,
@@ -64281,7 +59694,6 @@ export default [
     jobCategory: 38,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 41,
       VIT: 46,
@@ -64290,7 +59702,6 @@ export default [
       PDMG: 58,
       DLY: 2080,
     },
-    hq: false,
   },
   {
     id: 11197,
@@ -64302,7 +59713,6 @@ export default [
     jobCategory: 41,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 58,
       VIT: 64,
@@ -64311,7 +59721,6 @@ export default [
       PDMG: 58,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 11198,
@@ -64323,7 +59732,6 @@ export default [
     jobCategory: 44,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 58,
       VIT: 64,
@@ -64332,7 +59740,6 @@ export default [
       PDMG: 58,
       DLY: 3440,
     },
-    hq: false,
   },
   {
     id: 11199,
@@ -64344,7 +59751,6 @@ export default [
     jobCategory: 47,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 58,
       VIT: 64,
@@ -64353,7 +59759,6 @@ export default [
       PDMG: 58,
       DLY: 3040,
     },
-    hq: false,
   },
   {
     id: 11200,
@@ -64365,7 +59770,6 @@ export default [
     jobCategory: 50,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 58,
       VIT: 64,
@@ -64374,7 +59778,6 @@ export default [
       PDMG: 58,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 11201,
@@ -64386,7 +59789,6 @@ export default [
     jobCategory: 93,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 58,
       VIT: 64,
@@ -64395,7 +59797,6 @@ export default [
       PDMG: 58,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11202,
@@ -64407,7 +59808,6 @@ export default [
     jobCategory: 98,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 58,
       VIT: 64,
@@ -64416,7 +59816,6 @@ export default [
       PDMG: 58,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 11203,
@@ -64428,7 +59827,6 @@ export default [
     jobCategory: 96,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 58,
       VIT: 64,
@@ -64437,7 +59835,6 @@ export default [
       PDMG: 58,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11204,
@@ -64449,7 +59846,6 @@ export default [
     jobCategory: 53,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 58,
       MND: 58,
@@ -64457,7 +59853,6 @@ export default [
       CRT: 37,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 11205,
@@ -64469,7 +59864,6 @@ export default [
     jobCategory: 55,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 58,
       INT: 58,
@@ -64477,7 +59871,6 @@ export default [
       SPS: 53,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 11206,
@@ -64489,7 +59882,6 @@ export default [
     jobCategory: 69,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 58,
       INT: 58,
@@ -64497,7 +59889,6 @@ export default [
       SPS: 37,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 11207,
@@ -64509,7 +59900,6 @@ export default [
     jobCategory: 29,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 58,
       MND: 58,
@@ -64517,7 +59907,6 @@ export default [
       SPS: 37,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 11208,
@@ -64529,7 +59918,6 @@ export default [
     jobCategory: 99,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 58,
       MND: 58,
@@ -64537,7 +59925,6 @@ export default [
       SPS: 37,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 11209,
@@ -64549,14 +59936,12 @@ export default [
     jobCategory: 38,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 17,
       VIT: 18,
       TEN: 11,
       DET: 11,
     },
-    hq: false,
   },
   {
     id: 11210,
@@ -64568,14 +59953,12 @@ export default [
     jobCategory: 59,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       DHT: 30,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 11211,
@@ -64587,14 +59970,12 @@ export default [
     jobCategory: 47,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       DHT: 30,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 11212,
@@ -64606,14 +59987,12 @@ export default [
     jobCategory: 65,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       DHT: 30,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 11213,
@@ -64625,14 +60004,12 @@ export default [
     jobCategory: 66,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 33,
       VIT: 37,
       DHT: 30,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 11214,
@@ -64644,14 +60021,12 @@ export default [
     jobCategory: 103,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 33,
       VIT: 37,
       DET: 22,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 11215,
@@ -64663,14 +60038,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 33,
       MND: 33,
       PIE: 23,
       SPS: 21,
     },
-    hq: false,
   },
   {
     id: 11216,
@@ -64682,14 +60055,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 33,
       INT: 33,
       DHT: 21,
       SPS: 30,
     },
-    hq: false,
   },
   {
     id: 11217,
@@ -64701,14 +60072,12 @@ export default [
     jobCategory: 59,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 60,
       CRT: 49,
       DET: 25,
     },
-    hq: false,
   },
   {
     id: 11218,
@@ -64720,14 +60089,12 @@ export default [
     jobCategory: 47,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 60,
       CRT: 34,
       SKS: 49,
     },
-    hq: false,
   },
   {
     id: 11219,
@@ -64739,14 +60106,12 @@ export default [
     jobCategory: 65,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 60,
       CRT: 34,
       DET: 36,
     },
-    hq: false,
   },
   {
     id: 11220,
@@ -64758,14 +60123,12 @@ export default [
     jobCategory: 66,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 60,
       DHT: 49,
       DET: 25,
     },
-    hq: false,
   },
   {
     id: 11221,
@@ -64777,14 +60140,12 @@ export default [
     jobCategory: 103,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 60,
       DHT: 34,
       CRT: 49,
     },
-    hq: false,
   },
   {
     id: 11222,
@@ -64796,14 +60157,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 54,
       MND: 54,
       PIE: 38,
       DET: 25,
     },
-    hq: false,
   },
   {
     id: 11223,
@@ -64815,14 +60174,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 54,
       INT: 54,
       DHT: 34,
       CRT: 49,
     },
-    hq: false,
   },
   {
     id: 11224,
@@ -64834,14 +60191,12 @@ export default [
     jobCategory: 59,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       CRT: 21,
       SKS: 30,
     },
-    hq: false,
   },
   {
     id: 11225,
@@ -64853,14 +60208,12 @@ export default [
     jobCategory: 47,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       DHT: 30,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 11226,
@@ -64872,14 +60225,12 @@ export default [
     jobCategory: 65,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       DHT: 21,
       SKS: 30,
     },
-    hq: false,
   },
   {
     id: 11227,
@@ -64891,14 +60242,12 @@ export default [
     jobCategory: 66,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 33,
       VIT: 37,
       DET: 22,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 11228,
@@ -64910,14 +60259,12 @@ export default [
     jobCategory: 103,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 33,
       VIT: 37,
       DHT: 30,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 11229,
@@ -64929,14 +60276,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 33,
       MND: 33,
       CRT: 21,
       SPS: 30,
     },
-    hq: false,
   },
   {
     id: 11230,
@@ -64948,14 +60293,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 33,
       INT: 33,
       CRT: 21,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 11231,
@@ -64967,14 +60310,12 @@ export default [
     jobCategory: 59,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       TEN: 16,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 11232,
@@ -64986,14 +60327,12 @@ export default [
     jobCategory: 47,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 11233,
@@ -65005,14 +60344,12 @@ export default [
     jobCategory: 65,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 11234,
@@ -65024,14 +60361,12 @@ export default [
     jobCategory: 66,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 11235,
@@ -65043,14 +60378,12 @@ export default [
     jobCategory: 103,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 11236,
@@ -65062,14 +60395,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       PIE: 12,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 11237,
@@ -65081,14 +60412,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       DHT: 23,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 11238,
@@ -65100,14 +60429,12 @@ export default [
     jobCategory: 59,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 60,
       DHT: 49,
       DET: 25,
     },
-    hq: false,
   },
   {
     id: 11239,
@@ -65119,14 +60446,12 @@ export default [
     jobCategory: 47,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 60,
       DHT: 49,
       SKS: 34,
     },
-    hq: false,
   },
   {
     id: 11240,
@@ -65138,14 +60463,12 @@ export default [
     jobCategory: 65,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 54,
       VIT: 60,
       DHT: 49,
       SKS: 34,
     },
-    hq: false,
   },
   {
     id: 11241,
@@ -65157,14 +60480,12 @@ export default [
     jobCategory: 66,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 60,
       CRT: 49,
       DET: 25,
     },
-    hq: false,
   },
   {
     id: 11242,
@@ -65176,14 +60497,12 @@ export default [
     jobCategory: 103,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 54,
       VIT: 60,
       CRT: 49,
       DET: 25,
     },
-    hq: false,
   },
   {
     id: 11243,
@@ -65195,14 +60514,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 54,
       MND: 54,
       PIE: 38,
       CRT: 34,
     },
-    hq: false,
   },
   {
     id: 11244,
@@ -65214,14 +60531,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 54,
       INT: 54,
       DHT: 49,
       SPS: 34,
     },
-    hq: false,
   },
   {
     id: 11245,
@@ -65233,14 +60548,12 @@ export default [
     jobCategory: 59,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       CRT: 21,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 11246,
@@ -65252,14 +60565,12 @@ export default [
     jobCategory: 47,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       DET: 22,
       SKS: 21,
     },
-    hq: false,
   },
   {
     id: 11247,
@@ -65271,14 +60582,12 @@ export default [
     jobCategory: 65,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 33,
       VIT: 37,
       DET: 16,
       SKS: 30,
     },
-    hq: false,
   },
   {
     id: 11248,
@@ -65290,14 +60599,12 @@ export default [
     jobCategory: 66,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 33,
       VIT: 37,
       CRT: 21,
       SKS: 30,
     },
-    hq: false,
   },
   {
     id: 11249,
@@ -65309,14 +60616,12 @@ export default [
     jobCategory: 103,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 33,
       VIT: 37,
       DHT: 30,
       CRT: 21,
     },
-    hq: false,
   },
   {
     id: 11250,
@@ -65328,14 +60633,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 33,
       MND: 33,
       DET: 22,
       SPS: 21,
     },
-    hq: false,
   },
   {
     id: 11251,
@@ -65347,14 +60650,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 33,
       INT: 33,
       CRT: 30,
       DET: 16,
     },
-    hq: false,
   },
   {
     id: 12396,
@@ -65366,14 +60667,12 @@ export default [
     jobCategory: 2,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 12397,
@@ -65385,14 +60684,12 @@ export default [
     jobCategory: 2,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 16,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 12398,
@@ -65404,14 +60701,12 @@ export default [
     jobCategory: 2,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 12399,
@@ -65423,14 +60718,12 @@ export default [
     jobCategory: 2,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       TEN: 23,
       DHT: 16,
     },
-    hq: false,
   },
   {
     id: 12400,
@@ -65442,14 +60735,12 @@ export default [
     jobCategory: 2,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 12401,
@@ -65461,14 +60752,12 @@ export default [
     jobCategory: 2,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 12402,
@@ -65480,14 +60769,12 @@ export default [
     jobCategory: 2,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       CRT: 16,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 12403,
@@ -65499,14 +60786,12 @@ export default [
     jobCategory: 2,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
       CRT: 23,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 12404,
@@ -65518,14 +60803,12 @@ export default [
     jobCategory: 105,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       CRT: 16,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 12405,
@@ -65537,14 +60820,12 @@ export default [
     jobCategory: 105,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 12406,
@@ -65556,14 +60837,12 @@ export default [
     jobCategory: 105,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 12407,
@@ -65575,14 +60854,12 @@ export default [
     jobCategory: 105,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 25,
       VIT: 27,
       DHT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 12408,
@@ -65594,14 +60871,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       PIE: 17,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 12409,
@@ -65613,14 +60888,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       CRT: 16,
       DET: 17,
     },
-    hq: false,
   },
   {
     id: 12410,
@@ -65632,14 +60905,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       DET: 12,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 12411,
@@ -65651,14 +60922,12 @@ export default [
     jobCategory: 64,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 25,
       PIE: 12,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 12412,
@@ -65670,14 +60939,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       DHT: 16,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 12413,
@@ -65689,14 +60956,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       CRT: 23,
       DET: 12,
     },
-    hq: false,
   },
   {
     id: 12414,
@@ -65708,14 +60973,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       CRT: 16,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 12415,
@@ -65727,14 +60990,12 @@ export default [
     jobCategory: 63,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       DHT: 16,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 12987,
@@ -65746,12 +61007,10 @@ export default [
     jobCategory: 59,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       VIT: 27,
     },
-    hq: false,
   },
   {
     id: 12988,
@@ -65763,13 +61022,11 @@ export default [
     jobCategory: 30,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 25,
       DEX: 25,
       VIT: 27,
     },
-    hq: false,
   },
   {
     id: 12989,
@@ -65781,13 +61038,11 @@ export default [
     jobCategory: 31,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 25,
       MND: 25,
     },
-    hq: false,
   },
   {
     id: 20402,
@@ -65799,7 +61054,6 @@ export default [
     jobCategory: 111,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 58,
       VIT: 64,
@@ -65808,7 +61062,6 @@ export default [
       PDMG: 58,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20403,
@@ -65820,7 +61073,6 @@ export default [
     jobCategory: 112,
     equipLevel: 55,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 58,
       INT: 58,
@@ -65828,7 +61080,6 @@ export default [
       DET: 27,
       MDMG: 82,
     },
-    hq: false,
   },
   {
     id: 10589,
@@ -67669,7 +62920,6 @@ export default [
     jobCategory: 38,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 46,
       VIT: 47,
@@ -67678,7 +62928,6 @@ export default [
       PDMG: 59,
       DLY: 2240,
     },
-    hq: false,
   },
   {
     id: 11253,
@@ -67690,7 +62939,6 @@ export default [
     jobCategory: 41,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 64,
       VIT: 66,
@@ -67699,7 +62947,6 @@ export default [
       PDMG: 59,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11254,
@@ -67711,7 +62958,6 @@ export default [
     jobCategory: 44,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 64,
       VIT: 66,
@@ -67720,7 +62966,6 @@ export default [
       PDMG: 59,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 11255,
@@ -67732,7 +62977,6 @@ export default [
     jobCategory: 47,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 64,
       VIT: 66,
@@ -67741,7 +62985,6 @@ export default [
       PDMG: 59,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 11256,
@@ -67753,7 +62996,6 @@ export default [
     jobCategory: 50,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 64,
       VIT: 66,
@@ -67762,7 +63004,6 @@ export default [
       PDMG: 59,
       DLY: 2800,
     },
-    hq: false,
   },
   {
     id: 11257,
@@ -67774,7 +63015,6 @@ export default [
     jobCategory: 93,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 64,
       VIT: 66,
@@ -67783,7 +63023,6 @@ export default [
       PDMG: 59,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 11258,
@@ -67795,7 +63034,6 @@ export default [
     jobCategory: 98,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 64,
       VIT: 66,
@@ -67804,7 +63042,6 @@ export default [
       PDMG: 59,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 11259,
@@ -67816,7 +63053,6 @@ export default [
     jobCategory: 96,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 64,
       VIT: 66,
@@ -67825,7 +63061,6 @@ export default [
       PDMG: 59,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11260,
@@ -67837,7 +63072,6 @@ export default [
     jobCategory: 53,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 59,
       MND: 64,
@@ -67845,7 +63079,6 @@ export default [
       CRT: 38,
       MDMG: 83,
     },
-    hq: false,
   },
   {
     id: 11261,
@@ -67857,7 +63090,6 @@ export default [
     jobCategory: 55,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 59,
       INT: 64,
@@ -67865,7 +63097,6 @@ export default [
       DET: 31,
       MDMG: 83,
     },
-    hq: false,
   },
   {
     id: 11262,
@@ -67877,7 +63108,6 @@ export default [
     jobCategory: 69,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 59,
       INT: 64,
@@ -67885,7 +63115,6 @@ export default [
       SPS: 54,
       MDMG: 83,
     },
-    hq: false,
   },
   {
     id: 11263,
@@ -67897,7 +63126,6 @@ export default [
     jobCategory: 29,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 59,
       MND: 64,
@@ -67905,7 +63133,6 @@ export default [
       DET: 31,
       MDMG: 83,
     },
-    hq: false,
   },
   {
     id: 11264,
@@ -67917,7 +63144,6 @@ export default [
     jobCategory: 99,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 59,
       MND: 64,
@@ -67925,7 +63151,6 @@ export default [
       DET: 31,
       MDMG: 83,
     },
-    hq: false,
   },
   {
     id: 11265,
@@ -67937,14 +63162,12 @@ export default [
     jobCategory: 38,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 18,
       VIT: 19,
       TEN: 15,
       SKS: 11,
     },
-    hq: false,
   },
   {
     id: 11266,
@@ -67956,14 +63179,12 @@ export default [
     jobCategory: 59,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       DHT: 31,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 11267,
@@ -67975,14 +63196,12 @@ export default [
     jobCategory: 47,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       CRT: 22,
       SKS: 31,
     },
-    hq: false,
   },
   {
     id: 11268,
@@ -67994,14 +63213,12 @@ export default [
     jobCategory: 65,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       DET: 26,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11269,
@@ -68013,14 +63230,12 @@ export default [
     jobCategory: 66,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 37,
       DET: 18,
       SKS: 31,
     },
-    hq: false,
   },
   {
     id: 11270,
@@ -68032,14 +63247,12 @@ export default [
     jobCategory: 103,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 37,
       DHT: 31,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 11271,
@@ -68051,14 +63264,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       MND: 37,
       PIE: 24,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 11272,
@@ -68070,14 +63281,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       INT: 37,
       CRT: 31,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 11273,
@@ -68089,14 +63298,12 @@ export default [
     jobCategory: 59,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 60,
       VIT: 61,
       DHT: 35,
       SKS: 50,
     },
-    hq: false,
   },
   {
     id: 11274,
@@ -68108,14 +63315,12 @@ export default [
     jobCategory: 47,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 60,
       VIT: 61,
       DHT: 35,
       CRT: 50,
     },
-    hq: false,
   },
   {
     id: 11275,
@@ -68127,14 +63332,12 @@ export default [
     jobCategory: 65,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 60,
       VIT: 61,
       DHT: 50,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 11276,
@@ -68146,14 +63349,12 @@ export default [
     jobCategory: 66,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 60,
       VIT: 61,
       DHT: 35,
       CRT: 50,
     },
-    hq: false,
   },
   {
     id: 11277,
@@ -68165,14 +63366,12 @@ export default [
     jobCategory: 103,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 60,
       VIT: 61,
       DET: 29,
       SKS: 50,
     },
-    hq: false,
   },
   {
     id: 11278,
@@ -68184,14 +63383,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 55,
       MND: 60,
       PIE: 40,
       SPS: 35,
     },
-    hq: false,
   },
   {
     id: 11279,
@@ -68203,14 +63400,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 55,
       INT: 60,
       DHT: 50,
       CRT: 35,
     },
-    hq: false,
   },
   {
     id: 11280,
@@ -68222,14 +63417,12 @@ export default [
     jobCategory: 59,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       TEN: 22,
       DET: 26,
     },
-    hq: false,
   },
   {
     id: 11281,
@@ -68241,14 +63434,12 @@ export default [
     jobCategory: 47,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       DET: 26,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11282,
@@ -68260,14 +63451,12 @@ export default [
     jobCategory: 65,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       DHT: 22,
       SKS: 31,
     },
-    hq: false,
   },
   {
     id: 11283,
@@ -68279,14 +63468,12 @@ export default [
     jobCategory: 66,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 37,
       DHT: 31,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 11284,
@@ -68298,14 +63485,12 @@ export default [
     jobCategory: 103,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 37,
       DHT: 22,
       DET: 26,
     },
-    hq: false,
   },
   {
     id: 11285,
@@ -68317,14 +63502,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       MND: 37,
       CRT: 22,
       DET: 26,
     },
-    hq: false,
   },
   {
     id: 11286,
@@ -68336,14 +63519,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       INT: 37,
       DET: 18,
       SPS: 31,
     },
-    hq: false,
   },
   {
     id: 11287,
@@ -68355,14 +63536,12 @@ export default [
     jobCategory: 59,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       TEN: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 11288,
@@ -68374,14 +63553,12 @@ export default [
     jobCategory: 47,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       DHT: 23,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 11289,
@@ -68393,14 +63570,12 @@ export default [
     jobCategory: 65,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 11290,
@@ -68412,14 +63587,12 @@ export default [
     jobCategory: 66,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 28,
       VIT: 28,
       DHT: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 11291,
@@ -68431,14 +63604,12 @@ export default [
     jobCategory: 103,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 28,
       VIT: 28,
       DHT: 16,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 11292,
@@ -68450,14 +63621,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 28,
       DET: 13,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 11293,
@@ -68469,14 +63638,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 28,
       DET: 19,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 11294,
@@ -68488,14 +63655,12 @@ export default [
     jobCategory: 59,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 60,
       VIT: 61,
       CRT: 50,
       SKS: 35,
     },
-    hq: false,
   },
   {
     id: 11295,
@@ -68507,14 +63672,12 @@ export default [
     jobCategory: 47,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 60,
       VIT: 61,
       DHT: 50,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 11296,
@@ -68526,14 +63689,12 @@ export default [
     jobCategory: 65,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 60,
       VIT: 61,
       DHT: 50,
       DET: 29,
     },
-    hq: false,
   },
   {
     id: 11297,
@@ -68545,14 +63706,12 @@ export default [
     jobCategory: 66,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 60,
       VIT: 61,
       DHT: 35,
       SKS: 50,
     },
-    hq: false,
   },
   {
     id: 11298,
@@ -68564,14 +63723,12 @@ export default [
     jobCategory: 103,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 60,
       VIT: 61,
       DHT: 50,
       CRT: 35,
     },
-    hq: false,
   },
   {
     id: 11299,
@@ -68583,14 +63740,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 55,
       MND: 60,
       PIE: 28,
       CRT: 50,
     },
-    hq: false,
   },
   {
     id: 11300,
@@ -68602,14 +63757,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 55,
       INT: 60,
       DHT: 35,
       DET: 41,
     },
-    hq: false,
   },
   {
     id: 11301,
@@ -68621,14 +63774,12 @@ export default [
     jobCategory: 59,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       DHT: 31,
       DET: 18,
     },
-    hq: false,
   },
   {
     id: 11302,
@@ -68640,14 +63791,12 @@ export default [
     jobCategory: 47,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       DHT: 31,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 11303,
@@ -68659,14 +63808,12 @@ export default [
     jobCategory: 65,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 37,
       VIT: 37,
       CRT: 31,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11304,
@@ -68678,14 +63825,12 @@ export default [
     jobCategory: 66,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 37,
       CRT: 22,
       DET: 26,
     },
-    hq: false,
   },
   {
     id: 11305,
@@ -68697,14 +63842,12 @@ export default [
     jobCategory: 103,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 37,
       VIT: 37,
       CRT: 31,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11306,
@@ -68716,14 +63859,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       MND: 37,
       PIE: 17,
       SPS: 31,
     },
-    hq: false,
   },
   {
     id: 11307,
@@ -68735,14 +63876,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       INT: 37,
       DHT: 31,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 12416,
@@ -68754,14 +63893,12 @@ export default [
     jobCategory: 2,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       TEN: 16,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 12417,
@@ -68773,14 +63910,12 @@ export default [
     jobCategory: 2,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 12418,
@@ -68792,14 +63927,12 @@ export default [
     jobCategory: 2,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       DHT: 23,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 12419,
@@ -68811,14 +63944,12 @@ export default [
     jobCategory: 2,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 12420,
@@ -68830,14 +63961,12 @@ export default [
     jobCategory: 2,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       CRT: 16,
       DET: 19,
     },
-    hq: false,
   },
   {
     id: 12421,
@@ -68849,14 +63978,12 @@ export default [
     jobCategory: 2,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       CRT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 12422,
@@ -68868,14 +63995,12 @@ export default [
     jobCategory: 2,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       CRT: 16,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 12423,
@@ -68887,14 +64012,12 @@ export default [
     jobCategory: 2,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 28,
       VIT: 28,
       DHT: 23,
       SKS: 16,
     },
-    hq: false,
   },
   {
     id: 12424,
@@ -68906,14 +64029,12 @@ export default [
     jobCategory: 105,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 28,
       VIT: 28,
       CRT: 23,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 12425,
@@ -68925,14 +64046,12 @@ export default [
     jobCategory: 105,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 28,
       VIT: 28,
       DHT: 16,
       CRT: 23,
     },
-    hq: false,
   },
   {
     id: 12426,
@@ -68944,14 +64063,12 @@ export default [
     jobCategory: 105,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 28,
       VIT: 28,
       DHT: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 12427,
@@ -68963,14 +64080,12 @@ export default [
     jobCategory: 105,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 28,
       VIT: 28,
       DET: 13,
       SKS: 23,
     },
-    hq: false,
   },
   {
     id: 12428,
@@ -68982,14 +64097,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 28,
       DET: 19,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 12429,
@@ -69001,14 +64114,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 28,
       PIE: 18,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 12430,
@@ -69020,14 +64131,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 28,
       CRT: 23,
       SPS: 16,
     },
-    hq: false,
   },
   {
     id: 12431,
@@ -69039,14 +64148,12 @@ export default [
     jobCategory: 64,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       MND: 28,
       PIE: 18,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 12432,
@@ -69058,14 +64165,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 28,
       DHT: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 12433,
@@ -69077,14 +64182,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 28,
       DET: 13,
       SPS: 23,
     },
-    hq: false,
   },
   {
     id: 12434,
@@ -69096,14 +64199,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 28,
       CRT: 23,
       DET: 13,
     },
-    hq: false,
   },
   {
     id: 12435,
@@ -69115,14 +64216,12 @@ export default [
     jobCategory: 63,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 25,
       INT: 28,
       DHT: 23,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 20404,
@@ -69134,7 +64233,6 @@ export default [
     jobCategory: 111,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 64,
       VIT: 66,
@@ -69143,7 +64241,6 @@ export default [
       PDMG: 59,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20405,
@@ -69155,7 +64252,6 @@ export default [
     jobCategory: 112,
     equipLevel: 57,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 59,
       INT: 64,
@@ -69163,7 +64259,6 @@ export default [
       SPS: 38,
       MDMG: 83,
     },
-    hq: false,
   },
   {
     id: 10590,
@@ -70756,7 +65851,6 @@ export default [
     jobCategory: 38,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 51,
       VIT: 48,
@@ -70765,7 +65859,6 @@ export default [
       PDMG: 60,
       DLY: 2160,
     },
-    hq: false,
   },
   {
     id: 11309,
@@ -70777,7 +65870,6 @@ export default [
     jobCategory: 41,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 71,
       VIT: 67,
@@ -70786,7 +65878,6 @@ export default [
       PDMG: 60,
       DLY: 2560,
     },
-    hq: false,
   },
   {
     id: 11310,
@@ -70798,7 +65889,6 @@ export default [
     jobCategory: 44,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 71,
       VIT: 67,
@@ -70807,7 +65897,6 @@ export default [
       PDMG: 60,
       DLY: 3360,
     },
-    hq: false,
   },
   {
     id: 11311,
@@ -70819,7 +65908,6 @@ export default [
     jobCategory: 47,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 71,
       VIT: 67,
@@ -70828,7 +65916,6 @@ export default [
       PDMG: 60,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 11312,
@@ -70840,7 +65927,6 @@ export default [
     jobCategory: 50,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 71,
       VIT: 67,
@@ -70849,7 +65935,6 @@ export default [
       PDMG: 60,
       DLY: 2880,
     },
-    hq: false,
   },
   {
     id: 11313,
@@ -70861,7 +65946,6 @@ export default [
     jobCategory: 93,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 71,
       VIT: 67,
@@ -70870,7 +65954,6 @@ export default [
       PDMG: 60,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11314,
@@ -70882,7 +65965,6 @@ export default [
     jobCategory: 98,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 71,
       VIT: 67,
@@ -70891,7 +65973,6 @@ export default [
       PDMG: 60,
       DLY: 2960,
     },
-    hq: false,
   },
   {
     id: 11315,
@@ -70903,7 +65984,6 @@ export default [
     jobCategory: 96,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 71,
       VIT: 67,
@@ -70912,7 +65992,6 @@ export default [
       PDMG: 60,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 11316,
@@ -70924,7 +66003,6 @@ export default [
     jobCategory: 53,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       MND: 71,
@@ -70932,7 +66010,6 @@ export default [
       DET: 36,
       MDMG: 84,
     },
-    hq: false,
   },
   {
     id: 11317,
@@ -70944,7 +66021,6 @@ export default [
     jobCategory: 55,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       INT: 71,
@@ -70952,7 +66028,6 @@ export default [
       SPS: 39,
       MDMG: 84,
     },
-    hq: false,
   },
   {
     id: 11318,
@@ -70964,7 +66039,6 @@ export default [
     jobCategory: 69,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       INT: 71,
@@ -70972,7 +66046,6 @@ export default [
       DET: 52,
       MDMG: 84,
     },
-    hq: false,
   },
   {
     id: 11319,
@@ -70984,7 +66057,6 @@ export default [
     jobCategory: 29,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       MND: 71,
@@ -70992,7 +66064,6 @@ export default [
       SPS: 39,
       MDMG: 84,
     },
-    hq: false,
   },
   {
     id: 11320,
@@ -71004,7 +66075,6 @@ export default [
     jobCategory: 99,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       MND: 71,
@@ -71012,7 +66082,6 @@ export default [
       SPS: 39,
       MDMG: 84,
     },
-    hq: false,
   },
   {
     id: 11321,
@@ -71024,14 +66093,12 @@ export default [
     jobCategory: 38,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 20,
       VIT: 19,
       TEN: 11,
       CRT: 16,
     },
-    hq: false,
   },
   {
     id: 11322,
@@ -71043,14 +66110,12 @@ export default [
     jobCategory: 59,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       DET: 29,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11323,
@@ -71062,14 +66127,12 @@ export default [
     jobCategory: 47,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       DHT: 32,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11324,
@@ -71081,14 +66144,12 @@ export default [
     jobCategory: 65,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       DHT: 22,
       CRT: 32,
     },
-    hq: false,
   },
   {
     id: 11325,
@@ -71100,14 +66161,12 @@ export default [
     jobCategory: 66,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 40,
       VIT: 38,
       DHT: 32,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 11326,
@@ -71119,14 +66178,12 @@ export default [
     jobCategory: 103,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 40,
       VIT: 38,
       CRT: 22,
       SKS: 32,
     },
-    hq: false,
   },
   {
     id: 11327,
@@ -71138,14 +66195,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       MND: 40,
       PIE: 18,
       CRT: 32,
     },
-    hq: false,
   },
   {
     id: 11328,
@@ -71157,14 +66212,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       INT: 40,
       DET: 29,
       SPS: 22,
     },
-    hq: false,
   },
   {
     id: 11329,
@@ -71176,14 +66229,12 @@ export default [
     jobCategory: 59,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 66,
       VIT: 62,
       TEN: 36,
       DHT: 51,
     },
-    hq: false,
   },
   {
     id: 11330,
@@ -71195,14 +66246,12 @@ export default [
     jobCategory: 47,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 66,
       VIT: 62,
       DET: 33,
       SKS: 51,
     },
-    hq: false,
   },
   {
     id: 11331,
@@ -71214,14 +66263,12 @@ export default [
     jobCategory: 65,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 66,
       VIT: 62,
       DHT: 51,
       SKS: 36,
     },
-    hq: false,
   },
   {
     id: 11332,
@@ -71233,14 +66280,12 @@ export default [
     jobCategory: 66,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 66,
       VIT: 62,
       DET: 48,
       SKS: 36,
     },
-    hq: false,
   },
   {
     id: 11333,
@@ -71252,14 +66297,12 @@ export default [
     jobCategory: 103,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 66,
       VIT: 62,
       DET: 48,
       SKS: 36,
     },
-    hq: false,
   },
   {
     id: 11334,
@@ -71271,14 +66314,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 56,
       MND: 66,
       CRT: 36,
       DET: 48,
     },
-    hq: false,
   },
   {
     id: 11335,
@@ -71290,14 +66331,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 56,
       INT: 66,
       CRT: 36,
       SPS: 51,
     },
-    hq: false,
   },
   {
     id: 11336,
@@ -71309,14 +66348,12 @@ export default [
     jobCategory: 59,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       DHT: 32,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 11337,
@@ -71328,14 +66365,12 @@ export default [
     jobCategory: 47,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       DHT: 22,
       SKS: 32,
     },
-    hq: false,
   },
   {
     id: 11338,
@@ -71347,14 +66382,12 @@ export default [
     jobCategory: 65,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       DHT: 32,
       CRT: 22,
     },
-    hq: false,
   },
   {
     id: 11339,
@@ -71366,14 +66399,12 @@ export default [
     jobCategory: 66,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 40,
       VIT: 38,
       DHT: 32,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 11340,
@@ -71385,14 +66416,12 @@ export default [
     jobCategory: 103,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 40,
       VIT: 38,
       DHT: 32,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 11341,
@@ -71404,14 +66433,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       MND: 40,
       PIE: 18,
       SPS: 32,
     },
-    hq: false,
   },
   {
     id: 11342,
@@ -71423,14 +66450,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       INT: 40,
       DHT: 22,
       CRT: 32,
     },
-    hq: false,
   },
   {
     id: 11343,
@@ -71442,14 +66467,12 @@ export default [
     jobCategory: 59,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       DET: 15,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 11344,
@@ -71461,14 +66484,12 @@ export default [
     jobCategory: 47,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       DHT: 24,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 11345,
@@ -71480,14 +66501,12 @@ export default [
     jobCategory: 65,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       DET: 15,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 11346,
@@ -71499,14 +66518,12 @@ export default [
     jobCategory: 66,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 30,
       VIT: 29,
       DHT: 24,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 11347,
@@ -71518,14 +66535,12 @@ export default [
     jobCategory: 103,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 30,
       VIT: 29,
       DHT: 17,
       SKS: 24,
     },
-    hq: false,
   },
   {
     id: 11348,
@@ -71537,14 +66552,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       MND: 30,
       PIE: 19,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 11349,
@@ -71556,14 +66569,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       INT: 30,
       CRT: 17,
       SPS: 24,
     },
-    hq: false,
   },
   {
     id: 11350,
@@ -71575,14 +66586,12 @@ export default [
     jobCategory: 59,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 66,
       VIT: 62,
       CRT: 51,
       DET: 33,
     },
-    hq: false,
   },
   {
     id: 11351,
@@ -71594,14 +66603,12 @@ export default [
     jobCategory: 47,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 66,
       VIT: 62,
       DHT: 51,
       CRT: 36,
     },
-    hq: false,
   },
   {
     id: 11352,
@@ -71613,14 +66620,12 @@ export default [
     jobCategory: 65,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 66,
       VIT: 62,
       CRT: 51,
       DET: 33,
     },
-    hq: false,
   },
   {
     id: 11353,
@@ -71632,14 +66637,12 @@ export default [
     jobCategory: 66,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 66,
       VIT: 62,
       CRT: 51,
       DET: 33,
     },
-    hq: false,
   },
   {
     id: 11354,
@@ -71651,14 +66654,12 @@ export default [
     jobCategory: 103,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 66,
       VIT: 62,
       DHT: 51,
       SKS: 36,
     },
-    hq: false,
   },
   {
     id: 11355,
@@ -71670,14 +66671,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 56,
       MND: 66,
       PIE: 42,
       SPS: 36,
     },
-    hq: false,
   },
   {
     id: 11356,
@@ -71689,14 +66688,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 56,
       INT: 66,
       DHT: 51,
       SPS: 36,
     },
-    hq: false,
   },
   {
     id: 11357,
@@ -71708,14 +66705,12 @@ export default [
     jobCategory: 59,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       TEN: 32,
       DHT: 22,
     },
-    hq: false,
   },
   {
     id: 11358,
@@ -71727,14 +66722,12 @@ export default [
     jobCategory: 47,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       DET: 29,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11359,
@@ -71746,14 +66739,12 @@ export default [
     jobCategory: 65,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 40,
       VIT: 38,
       DHT: 22,
       SKS: 32,
     },
-    hq: false,
   },
   {
     id: 11360,
@@ -71765,14 +66756,12 @@ export default [
     jobCategory: 66,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 40,
       VIT: 38,
       DHT: 32,
       SKS: 22,
     },
-    hq: false,
   },
   {
     id: 11361,
@@ -71784,14 +66773,12 @@ export default [
     jobCategory: 103,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 40,
       VIT: 38,
       DHT: 22,
       CRT: 32,
     },
-    hq: false,
   },
   {
     id: 11362,
@@ -71803,14 +66790,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       MND: 40,
       DET: 21,
       SPS: 32,
     },
-    hq: false,
   },
   {
     id: 11363,
@@ -71822,14 +66807,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 34,
       INT: 40,
       DHT: 32,
       DET: 21,
     },
-    hq: false,
   },
   {
     id: 12436,
@@ -71841,14 +66824,12 @@ export default [
     jobCategory: 2,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       CRT: 17,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 12437,
@@ -71860,14 +66841,12 @@ export default [
     jobCategory: 2,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       TEN: 17,
       DHT: 24,
     },
-    hq: false,
   },
   {
     id: 12438,
@@ -71879,14 +66858,12 @@ export default [
     jobCategory: 2,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       DHT: 24,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 12439,
@@ -71898,14 +66875,12 @@ export default [
     jobCategory: 2,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       DHT: 17,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 12440,
@@ -71917,14 +66892,12 @@ export default [
     jobCategory: 2,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       DHT: 17,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 12441,
@@ -71936,14 +66909,12 @@ export default [
     jobCategory: 2,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       DHT: 24,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 12442,
@@ -71955,14 +66926,12 @@ export default [
     jobCategory: 2,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       CRT: 24,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 12443,
@@ -71974,14 +66943,12 @@ export default [
     jobCategory: 2,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 30,
       VIT: 29,
       DET: 22,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 12444,
@@ -71993,14 +66960,12 @@ export default [
     jobCategory: 105,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 30,
       VIT: 29,
       CRT: 24,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 12445,
@@ -72012,14 +66977,12 @@ export default [
     jobCategory: 105,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 30,
       VIT: 29,
       DHT: 24,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 12446,
@@ -72031,14 +66994,12 @@ export default [
     jobCategory: 105,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 30,
       VIT: 29,
       DHT: 24,
       SKS: 17,
     },
-    hq: false,
   },
   {
     id: 12447,
@@ -72050,14 +67011,12 @@ export default [
     jobCategory: 105,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 30,
       VIT: 29,
       DHT: 24,
       CRT: 17,
     },
-    hq: false,
   },
   {
     id: 12448,
@@ -72069,14 +67028,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       MND: 30,
       CRT: 24,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 12449,
@@ -72088,14 +67045,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       MND: 30,
       PIE: 19,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 12450,
@@ -72107,14 +67062,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       MND: 30,
       PIE: 19,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 12451,
@@ -72126,14 +67079,12 @@ export default [
     jobCategory: 64,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       MND: 30,
       PIE: 14,
       DET: 22,
     },
-    hq: false,
   },
   {
     id: 12452,
@@ -72145,14 +67096,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       INT: 30,
       DHT: 24,
       DET: 15,
     },
-    hq: false,
   },
   {
     id: 12453,
@@ -72164,14 +67113,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       INT: 30,
       DHT: 24,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 12454,
@@ -72183,14 +67130,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       INT: 30,
       DET: 22,
       SPS: 17,
     },
-    hq: false,
   },
   {
     id: 12455,
@@ -72202,14 +67147,12 @@ export default [
     jobCategory: 63,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 26,
       INT: 30,
       DHT: 17,
       CRT: 24,
     },
-    hq: false,
   },
   {
     id: 20406,
@@ -72221,7 +67164,6 @@ export default [
     jobCategory: 111,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 71,
       VIT: 67,
@@ -72230,7 +67172,6 @@ export default [
       PDMG: 60,
       DLY: 2640,
     },
-    hq: false,
   },
   {
     id: 20407,
@@ -72242,7 +67183,6 @@ export default [
     jobCategory: 112,
     equipLevel: 59,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 60,
       INT: 71,
@@ -72250,6 +67190,5 @@ export default [
       DET: 36,
       MDMG: 84,
     },
-    hq: false,
   },
 ];

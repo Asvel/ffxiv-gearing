@@ -14,8 +14,8 @@ export interface Gear extends GearBase {
   role: number,
   equipLevel: number,
   materiaSlot: number,
-  materiaAdvanced: boolean
-  hq: boolean,
+  materiaAdvanced?: true,
+  hq?: true,
   source: string,
 }
 export interface Food extends GearBase {

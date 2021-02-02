@@ -9,14 +9,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -29,14 +27,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       TEN: 225,
       DET: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -49,14 +45,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 97,
       DET: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -69,14 +63,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       TEN: 225,
       CRT: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -89,14 +81,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 138,
       SKS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -109,14 +99,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -129,14 +117,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       DHT: 225,
       CRT: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -149,14 +135,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       DHT: 97,
       DET: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -169,14 +153,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       CRT: 157,
       SKS: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -189,14 +171,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       DHT: 138,
       SKS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -209,14 +189,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       TEN: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -229,14 +207,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       TEN: 157,
       CRT: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -249,14 +225,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       DET: 138,
       SKS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -269,14 +243,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       TEN: 157,
       SKS: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -289,14 +261,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -309,14 +279,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       DHT: 97,
       SKS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -329,14 +297,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       CRT: 157,
       DET: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -349,14 +315,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -369,14 +333,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       DHT: 225,
       SKS: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -389,14 +351,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 97,
       DET: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -409,14 +369,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       CRT: 138,
       SKS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -429,14 +387,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 206,
       VIT: 209,
       DHT: 225,
       DET: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -449,14 +405,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       CRT: 97,
       SKS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -469,14 +423,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 206,
       VIT: 209,
       DHT: 157,
       CRT: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -489,14 +441,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       CRT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -509,14 +459,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       PIE: 138,
       SPS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -529,14 +477,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       MND: 206,
       CRT: 157,
       SPS: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -549,14 +495,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       PIE: 138,
       CRT: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -569,14 +513,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       MND: 206,
       PIE: 157,
       SPS: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -589,14 +531,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       CRT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -609,14 +549,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       CRT: 97,
       SPS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -629,14 +567,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       INT: 206,
       DHT: 225,
       DET: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -649,14 +585,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       DHT: 97,
       CRT: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -669,14 +603,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       INT: 206,
       DET: 157,
       SPS: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -689,14 +621,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       DHT: 138,
       CRT: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -709,14 +639,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       DHT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -729,14 +657,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       INT: 206,
       CRT: 225,
       SPS: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -749,14 +675,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       DHT: 97,
       SPS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -769,14 +693,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       INT: 206,
       DHT: 157,
       DET: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -789,14 +711,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       CRT: 138,
       SPS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -809,14 +729,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       PIE: 138,
       SPS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -829,14 +747,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       MND: 206,
       CRT: 225,
       DET: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -849,14 +765,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       PIE: 97,
       DET: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -869,14 +783,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       MND: 206,
       PIE: 157,
       CRT: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -889,14 +801,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       DET: 138,
       SPS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -909,14 +819,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       CRT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -929,14 +837,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 206,
       VIT: 209,
       DHT: 225,
       SKS: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -949,14 +855,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       CRT: 97,
       SKS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -969,14 +873,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 206,
       VIT: 209,
       DHT: 225,
       CRT: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -989,14 +891,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       CRT: 97,
       DET: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1009,14 +909,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       TEN: 138,
       CRT: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1029,14 +927,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       TEN: 225,
       DET: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1049,14 +945,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 97,
       SKS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1069,14 +963,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       CRT: 157,
       DET: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1089,14 +981,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       TEN: 138,
       SKS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1109,14 +999,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       DHT: 97,
       SKS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1129,14 +1017,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 206,
       VIT: 209,
       CRT: 225,
       DET: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1149,14 +1035,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       DHT: 138,
       SKS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1169,14 +1053,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 206,
       VIT: 209,
       CRT: 157,
       DET: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1189,14 +1071,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 127,
       VIT: 128,
       CRT: 138,
       SKS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1209,14 +1089,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       PIE: 138,
       CRT: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1229,14 +1107,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       MND: 206,
       DET: 157,
       SPS: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1249,14 +1125,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       PIE: 97,
       DET: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1269,14 +1143,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       MND: 206,
       CRT: 157,
       SPS: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1289,14 +1161,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       MND: 127,
       PIE: 97,
       DET: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1309,14 +1179,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       DET: 97,
       SKS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1329,14 +1197,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       DHT: 225,
       SKS: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1349,14 +1215,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       CRT: 138,
       DET: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1369,14 +1233,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 206,
       VIT: 209,
       CRT: 157,
       DET: 225,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1389,14 +1251,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 127,
       VIT: 128,
       DHT: 138,
       SKS: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1409,14 +1269,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       DHT: 97,
       CRT: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1429,14 +1287,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       INT: 206,
       CRT: 225,
       DET: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1449,14 +1305,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       DHT: 97,
       SPS: 138,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1469,14 +1323,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 188,
       INT: 206,
       CRT: 225,
       DET: 157,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1489,14 +1341,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 116,
       INT: 127,
       DHT: 138,
       CRT: 97,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1509,7 +1359,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 159,
       VIT: 161,
@@ -1518,7 +1367,6 @@ export default [
       PDMG: 93,
       DLY: 2240,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1531,7 +1379,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -1540,7 +1387,6 @@ export default [
       PDMG: 93,
       DLY: 2560,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1553,7 +1399,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -1562,7 +1407,6 @@ export default [
       PDMG: 93,
       DLY: 3360,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1575,7 +1419,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -1584,7 +1427,6 @@ export default [
       PDMG: 93,
       DLY: 2800,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1597,7 +1439,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -1606,7 +1447,6 @@ export default [
       PDMG: 93,
       DLY: 3040,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1619,7 +1459,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -1628,7 +1467,6 @@ export default [
       PDMG: 93,
       DLY: 2560,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1641,7 +1479,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -1650,7 +1487,6 @@ export default [
       PDMG: 93,
       DLY: 2960,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1663,7 +1499,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -1672,7 +1507,6 @@ export default [
       PDMG: 93,
       DLY: 2640,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1685,7 +1519,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 202,
       MND: 222,
@@ -1693,7 +1526,6 @@ export default [
       DET: 169,
       MDMG: 126,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1706,7 +1538,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 202,
       INT: 222,
@@ -1714,7 +1545,6 @@ export default [
       CRT: 242,
       MDMG: 126,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1727,7 +1557,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 202,
       INT: 222,
@@ -1735,7 +1564,6 @@ export default [
       SPS: 169,
       MDMG: 126,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1748,7 +1576,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 202,
       MND: 222,
@@ -1756,7 +1583,6 @@ export default [
       CRT: 242,
       MDMG: 126,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1769,7 +1595,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 202,
       MND: 222,
@@ -1777,7 +1602,6 @@ export default [
       SPS: 169,
       MDMG: 126,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1790,7 +1614,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -1799,7 +1622,6 @@ export default [
       PDMG: 93,
       DLY: 2640,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1812,7 +1634,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 202,
       INT: 222,
@@ -1820,7 +1641,6 @@ export default [
       SPS: 169,
       MDMG: 126,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -1833,14 +1653,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 63,
       VIT: 64,
       CRT: 48,
       SKS: 69,
     },
-    hq: false,
     source: '职业套',
   },
   {
@@ -3134,11 +2952,9 @@ export default [
     jobCategory: 34,
     equipLevel: 1,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 96,
     },
-    hq: false,
   },
   {
     id: 30068,
@@ -3535,7 +3351,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 63,
       VIT: 64,
@@ -3556,7 +3371,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 159,
       VIT: 161,
@@ -3579,7 +3393,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -3602,7 +3415,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -3625,7 +3437,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -3648,7 +3459,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -3671,7 +3481,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -3694,7 +3503,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -3717,7 +3525,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -3740,7 +3547,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -3762,7 +3568,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -3784,7 +3589,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -3806,7 +3610,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -3828,7 +3631,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -3850,7 +3652,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -3873,7 +3674,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -3895,7 +3695,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 63,
       VIT: 64,
@@ -3916,7 +3715,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 159,
       VIT: 161,
@@ -3939,7 +3737,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -3962,7 +3759,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -3985,7 +3781,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -4008,7 +3803,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -4031,7 +3825,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -4054,7 +3847,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -4077,7 +3869,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -4100,7 +3891,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -4122,7 +3912,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -4144,7 +3933,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -4166,7 +3954,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -4188,7 +3975,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -4210,7 +3996,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -4233,7 +4018,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -4255,7 +4039,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 63,
       VIT: 64,
@@ -4276,7 +4059,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 159,
       VIT: 161,
@@ -4299,7 +4081,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -4322,7 +4103,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -4345,7 +4125,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -4368,7 +4147,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -4391,7 +4169,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -4414,7 +4191,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -4437,7 +4213,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 222,
       VIT: 225,
@@ -4460,7 +4235,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -4482,7 +4256,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -4504,7 +4277,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -4526,7 +4298,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -4548,7 +4319,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 222,
@@ -4570,7 +4340,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 222,
       VIT: 225,
@@ -4593,7 +4362,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 222,
@@ -4615,7 +4383,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 63,
       VIT: 64,
@@ -4636,7 +4403,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 169,
       VIT: 174,
@@ -4645,7 +4411,6 @@ export default [
       PDMG: 95,
       DLY: 2240,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4658,7 +4423,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 237,
       VIT: 243,
@@ -4667,7 +4431,6 @@ export default [
       PDMG: 95,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4680,7 +4443,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 237,
       VIT: 243,
@@ -4689,7 +4451,6 @@ export default [
       PDMG: 95,
       DLY: 3360,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4702,7 +4463,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 237,
       VIT: 243,
@@ -4711,7 +4471,6 @@ export default [
       PDMG: 95,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4724,7 +4483,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 237,
       VIT: 243,
@@ -4733,7 +4491,6 @@ export default [
       PDMG: 95,
       DLY: 3040,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4746,7 +4503,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 237,
       VIT: 243,
@@ -4755,7 +4511,6 @@ export default [
       PDMG: 95,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4768,7 +4523,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 237,
       VIT: 243,
@@ -4777,7 +4531,6 @@ export default [
       PDMG: 95,
       DLY: 2960,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4790,7 +4543,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 237,
       VIT: 243,
@@ -4799,7 +4551,6 @@ export default [
       PDMG: 95,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4812,7 +4563,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 237,
@@ -4820,7 +4570,6 @@ export default [
       SPS: 251,
       MDMG: 128,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4833,7 +4582,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 237,
@@ -4841,7 +4589,6 @@ export default [
       SPS: 175,
       MDMG: 128,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4854,7 +4601,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 237,
@@ -4862,7 +4608,6 @@ export default [
       DET: 251,
       MDMG: 128,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4875,7 +4620,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 237,
@@ -4883,7 +4627,6 @@ export default [
       DET: 175,
       MDMG: 128,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4896,7 +4639,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 237,
@@ -4904,7 +4646,6 @@ export default [
       DET: 175,
       MDMG: 128,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4917,7 +4658,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 237,
       VIT: 243,
@@ -4926,7 +4666,6 @@ export default [
       PDMG: 95,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4939,7 +4678,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 237,
@@ -4947,7 +4685,6 @@ export default [
       SPS: 175,
       MDMG: 128,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4960,14 +4697,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 68,
       VIT: 69,
       TEN: 50,
       DET: 72,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -4980,14 +4715,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       CRT: 143,
       DET: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5000,14 +4733,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       DET: 233,
       SKS: 163,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5020,14 +4751,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       TEN: 143,
       SKS: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5040,14 +4769,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       CRT: 233,
       DET: 163,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5060,14 +4787,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       TEN: 143,
       CRT: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5080,14 +4805,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       CRT: 107,
       SKS: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5100,14 +4823,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       DHT: 143,
       DET: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5120,14 +4841,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       CRT: 163,
       SKS: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5140,14 +4859,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       CRT: 143,
       SKS: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5160,14 +4877,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       DHT: 163,
       CRT: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5180,14 +4895,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       DET: 143,
       SKS: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5200,14 +4913,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       CRT: 75,
       DET: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5220,14 +4931,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       DHT: 143,
       DET: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5240,14 +4949,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       DET: 163,
       SKS: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5260,14 +4967,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       DHT: 143,
       CRT: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5280,14 +4985,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       CRT: 233,
       SKS: 163,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5300,14 +5003,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 136,
       VIT: 139,
       CRT: 100,
       SKS: 143,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5320,14 +5021,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       DHT: 107,
       DET: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5340,14 +5039,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 136,
       VIT: 139,
       DET: 143,
       SKS: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5360,14 +5057,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 220,
       VIT: 226,
       DHT: 163,
       CRT: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5380,14 +5075,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 136,
       VIT: 139,
       CRT: 100,
       SKS: 143,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5400,14 +5093,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 220,
       VIT: 226,
       DET: 163,
       SKS: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5420,14 +5111,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 136,
       VIT: 139,
       CRT: 100,
       SKS: 143,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5440,14 +5129,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 102,
       VIT: 104,
       DHT: 107,
       SKS: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5460,14 +5147,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 136,
       VIT: 139,
       DHT: 100,
       SKS: 143,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5480,14 +5165,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 220,
       VIT: 226,
       CRT: 163,
       SKS: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5500,14 +5183,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 136,
       VIT: 139,
       CRT: 143,
       DET: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5520,14 +5201,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 220,
       VIT: 226,
       DHT: 163,
       SKS: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5540,14 +5219,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 136,
       VIT: 139,
       CRT: 143,
       SKS: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5560,14 +5237,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 102,
       VIT: 104,
       DHT: 75,
       DET: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5580,14 +5255,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 125,
       MND: 136,
       PIE: 143,
       DET: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5600,14 +5273,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 220,
       PIE: 163,
       CRT: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5620,14 +5291,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 125,
       MND: 136,
       PIE: 100,
       CRT: 143,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5640,14 +5309,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       MND: 220,
       PIE: 163,
       DET: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5660,14 +5327,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 125,
       MND: 136,
       CRT: 143,
       SPS: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5680,14 +5345,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       MND: 102,
       PIE: 107,
       DET: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5700,14 +5363,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 125,
       INT: 136,
       DHT: 143,
       DET: 100,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5720,14 +5381,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 220,
       CRT: 163,
       SPS: 233,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5740,14 +5399,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 125,
       INT: 136,
       DHT: 100,
       CRT: 143,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5760,14 +5417,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 203,
       INT: 220,
       CRT: 233,
       DET: 163,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5780,14 +5435,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 125,
       INT: 136,
       DHT: 100,
       SPS: 143,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5800,14 +5453,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       INT: 102,
       CRT: 107,
       DET: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5820,14 +5471,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       CRT: 75,
       SKS: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5840,14 +5489,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       DHT: 75,
       SKS: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5860,14 +5507,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 102,
       VIT: 104,
       DHT: 75,
       CRT: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5880,14 +5525,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       MND: 102,
       PIE: 75,
       CRT: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5900,14 +5543,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       INT: 102,
       DHT: 107,
       SPS: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5920,14 +5561,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       TEN: 75,
       DET: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5940,14 +5579,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       DHT: 107,
       CRT: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5960,14 +5597,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 102,
       VIT: 104,
       DET: 75,
       SKS: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -5980,14 +5615,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       MND: 102,
       PIE: 107,
       CRT: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6000,14 +5633,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       INT: 102,
       CRT: 107,
       SPS: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6020,14 +5651,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       TEN: 107,
       DET: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6040,14 +5669,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       DET: 75,
       SKS: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6060,14 +5687,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 102,
       VIT: 104,
       DET: 107,
       SKS: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6080,14 +5705,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       MND: 102,
       DET: 75,
       SPS: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6100,14 +5723,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       INT: 102,
       DHT: 107,
       DET: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6120,14 +5741,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       CRT: 75,
       SKS: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6140,14 +5759,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 102,
       VIT: 104,
       DHT: 75,
       CRT: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6160,14 +5777,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 102,
       VIT: 104,
       DHT: 107,
       CRT: 75,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6180,14 +5795,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       MND: 102,
       CRT: 75,
       SPS: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6200,14 +5813,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 94,
       INT: 102,
       DHT: 75,
       CRT: 107,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
   },
   {
@@ -6220,12 +5831,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 433,
       CRL: 232,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6238,12 +5847,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 433,
       CRL: 232,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6256,12 +5863,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 433,
       CRL: 232,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6274,12 +5879,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 433,
       CRL: 232,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6292,12 +5895,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 433,
       CRL: 232,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6310,12 +5911,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 433,
       CRL: 232,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6328,12 +5927,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 433,
       CRL: 232,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6346,12 +5943,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 433,
       CRL: 232,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6364,13 +5959,11 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 372,
       PCP: 213,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -6383,13 +5976,11 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 372,
       PCP: 213,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -6402,13 +5993,11 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 372,
       PCP: 213,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -6421,12 +6010,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6439,13 +6026,11 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 371,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6458,12 +6043,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6476,12 +6059,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6494,12 +6075,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6512,12 +6091,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6530,13 +6107,11 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 371,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6549,12 +6124,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6567,12 +6140,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6585,12 +6156,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6603,12 +6172,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6621,13 +6188,11 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 371,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6640,12 +6205,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6658,12 +6221,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6676,12 +6237,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6694,12 +6253,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6712,13 +6269,11 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 371,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6731,12 +6286,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6749,12 +6302,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6767,12 +6318,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6785,12 +6334,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6803,13 +6350,11 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 371,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6822,12 +6367,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6840,12 +6383,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6858,12 +6399,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6876,12 +6415,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6894,13 +6431,11 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 371,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6913,12 +6448,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6931,12 +6464,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6949,12 +6480,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6967,12 +6496,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -6985,13 +6512,11 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 371,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7004,12 +6529,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7022,12 +6545,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7040,12 +6561,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7058,12 +6577,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7076,13 +6593,11 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 371,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7095,12 +6610,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7113,12 +6626,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7131,12 +6642,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 17,
       CRL: 116,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -7149,12 +6658,10 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       PCP: 213,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7167,14 +6674,12 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 5,
       GTH: 213,
       PCP: 106,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7187,13 +6692,11 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 5,
       GTH: 159,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7206,14 +6709,12 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 5,
       GTH: 106,
       PCP: 11,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7226,13 +6727,11 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 11,
       PCP: 106,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7245,12 +6744,10 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       PCP: 213,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7263,14 +6760,12 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 5,
       GTH: 213,
       PCP: 106,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7283,13 +6778,11 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 5,
       GTH: 159,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7302,14 +6795,12 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 5,
       GTH: 106,
       PCP: 11,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7322,13 +6813,11 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 11,
       PCP: 106,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7341,12 +6830,10 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       PCP: 213,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7359,14 +6846,12 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 5,
       GTH: 213,
       PCP: 106,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7379,13 +6864,11 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 5,
       GTH: 159,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7398,14 +6881,12 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 5,
       GTH: 106,
       PCP: 11,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7418,13 +6899,11 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 11,
       PCP: 106,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -7437,14 +6916,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       CRT: 233,
       DET: 163,
     },
-    hq: false,
     source: '优雷卡/兵武塔',
   },
   {
@@ -7457,14 +6934,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       DHT: 163,
       CRT: 233,
     },
-    hq: false,
     source: '优雷卡/兵武塔',
   },
   {
@@ -7477,14 +6952,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 226,
       DHT: 163,
       CRT: 233,
     },
-    hq: false,
     source: '优雷卡/兵武塔',
   },
   {
@@ -7497,14 +6970,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 220,
       VIT: 226,
       DHT: 233,
       CRT: 163,
     },
-    hq: false,
     source: '优雷卡/兵武塔',
   },
   {
@@ -7517,14 +6988,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 220,
       VIT: 226,
       DHT: 163,
       CRT: 233,
     },
-    hq: false,
     source: '优雷卡/兵武塔',
   },
   {
@@ -7537,14 +7006,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 328,
       INT: 356,
       DHT: 376,
       CRT: 263,
     },
-    hq: false,
     source: '优雷卡/兵武塔',
   },
   {
@@ -7557,14 +7024,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 328,
       MND: 356,
       PIE: 376,
       DET: 263,
     },
-    hq: false,
     source: '优雷卡/兵武塔',
   },
   {
@@ -7577,7 +7042,6 @@ export default [
     jobCategory: 149,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 237,
       VIT: 243,
@@ -7586,7 +7050,6 @@ export default [
       PDMG: 95,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
     patch: '5.0',
   },
@@ -7600,7 +7063,6 @@ export default [
     jobCategory: 150,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 237,
       VIT: 243,
@@ -7609,7 +7071,6 @@ export default [
       PDMG: 95,
       DLY: 3120,
     },
-    hq: false,
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
     patch: '5.0',
   },
@@ -7623,7 +7084,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 181,
       VIT: 188,
@@ -7632,7 +7092,6 @@ export default [
       PDMG: 96,
       DLY: 2240,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7645,7 +7104,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 253,
       VIT: 263,
@@ -7654,7 +7112,6 @@ export default [
       PDMG: 96,
       DLY: 2560,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7667,7 +7124,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 253,
       VIT: 263,
@@ -7676,7 +7132,6 @@ export default [
       PDMG: 96,
       DLY: 3360,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7689,7 +7144,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 253,
       VIT: 263,
@@ -7698,7 +7152,6 @@ export default [
       PDMG: 96,
       DLY: 2800,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7711,7 +7164,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 253,
       VIT: 263,
@@ -7720,7 +7172,6 @@ export default [
       PDMG: 96,
       DLY: 3040,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7733,7 +7184,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 253,
       VIT: 263,
@@ -7742,7 +7192,6 @@ export default [
       PDMG: 96,
       DLY: 2560,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7755,7 +7204,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 253,
       VIT: 263,
@@ -7764,7 +7212,6 @@ export default [
       PDMG: 96,
       DLY: 2960,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7777,7 +7224,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 253,
       VIT: 263,
@@ -7786,7 +7232,6 @@ export default [
       PDMG: 96,
       DLY: 2640,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7799,7 +7244,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 236,
       MND: 253,
@@ -7807,7 +7251,6 @@ export default [
       SPS: 181,
       MDMG: 130,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7820,7 +7263,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 236,
       INT: 253,
@@ -7828,7 +7270,6 @@ export default [
       SPS: 258,
       MDMG: 130,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7841,7 +7282,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 236,
       INT: 253,
@@ -7849,7 +7289,6 @@ export default [
       SPS: 258,
       MDMG: 130,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7862,7 +7301,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 236,
       MND: 253,
@@ -7870,7 +7308,6 @@ export default [
       CRT: 258,
       MDMG: 130,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7883,7 +7320,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 236,
       MND: 253,
@@ -7891,7 +7327,6 @@ export default [
       SPS: 258,
       MDMG: 130,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7904,7 +7339,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 253,
       VIT: 263,
@@ -7913,7 +7347,6 @@ export default [
       PDMG: 96,
       DLY: 2640,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7926,7 +7359,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 236,
       INT: 253,
@@ -7934,7 +7366,6 @@ export default [
       DET: 181,
       MDMG: 130,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7947,14 +7378,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 72,
       VIT: 75,
       TEN: 52,
       CRT: 74,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7967,14 +7396,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       CRT: 103,
       SKS: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -7987,14 +7414,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 235,
       VIT: 244,
       DET: 168,
       SKS: 240,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8007,14 +7432,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       TEN: 148,
       SKS: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8027,14 +7450,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 235,
       VIT: 244,
       CRT: 240,
       DET: 168,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8047,14 +7468,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       CRT: 148,
       DET: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8067,14 +7486,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       TEN: 111,
       DET: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8087,14 +7504,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       DHT: 103,
       SKS: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8107,14 +7522,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 235,
       VIT: 244,
       DHT: 240,
       DET: 168,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8127,14 +7540,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       DHT: 103,
       SKS: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8147,14 +7558,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 235,
       VIT: 244,
       CRT: 168,
       SKS: 240,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8167,14 +7576,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       DET: 148,
       SKS: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8187,14 +7594,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       CRT: 77,
       SKS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8207,14 +7612,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       DHT: 148,
       DET: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8227,14 +7630,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 235,
       VIT: 244,
       CRT: 168,
       DET: 240,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8247,14 +7648,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       DHT: 148,
       CRT: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8267,14 +7666,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 235,
       VIT: 244,
       DET: 168,
       SKS: 240,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8287,14 +7684,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 145,
       VIT: 150,
       CRT: 103,
       DET: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8307,14 +7702,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       DHT: 111,
       CRT: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8327,14 +7720,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 145,
       VIT: 150,
       DET: 148,
       SKS: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8347,14 +7738,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 235,
       VIT: 244,
       DHT: 168,
       CRT: 240,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8367,14 +7756,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 145,
       VIT: 150,
       DET: 148,
       SKS: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8387,14 +7774,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 235,
       VIT: 244,
       CRT: 240,
       SKS: 168,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8407,14 +7792,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 145,
       VIT: 150,
       DHT: 103,
       DET: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8427,14 +7810,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 108,
       VIT: 113,
       CRT: 111,
       SKS: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8447,14 +7828,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 145,
       VIT: 150,
       DET: 103,
       SKS: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8467,14 +7846,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 235,
       VIT: 244,
       DHT: 240,
       CRT: 168,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8487,14 +7864,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 145,
       VIT: 150,
       DET: 103,
       SKS: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8507,14 +7882,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 235,
       VIT: 244,
       CRT: 240,
       SKS: 168,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8527,14 +7900,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 145,
       VIT: 150,
       DET: 103,
       SKS: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8547,14 +7918,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 108,
       VIT: 113,
       DHT: 77,
       CRT: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8567,14 +7936,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 135,
       MND: 145,
       PIE: 148,
       DET: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8587,14 +7954,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 235,
       CRT: 240,
       SPS: 168,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8607,14 +7972,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 135,
       MND: 145,
       PIE: 103,
       DET: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8627,14 +7990,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 235,
       PIE: 240,
       CRT: 168,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8647,14 +8008,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 135,
       MND: 145,
       PIE: 148,
       DET: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8667,14 +8026,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       MND: 108,
       PIE: 77,
       SPS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8687,14 +8044,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 135,
       INT: 145,
       CRT: 148,
       DET: 103,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8707,14 +8062,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 235,
       DHT: 240,
       CRT: 168,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8727,14 +8080,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 135,
       INT: 145,
       CRT: 103,
       SPS: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8747,14 +8098,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 235,
       DHT: 168,
       DET: 240,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8767,14 +8116,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 135,
       INT: 145,
       CRT: 103,
       SPS: 148,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8787,14 +8134,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       INT: 108,
       DHT: 111,
       SPS: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8807,14 +8152,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       CRT: 77,
       SKS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8827,14 +8170,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       DHT: 111,
       DET: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8847,14 +8188,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 108,
       VIT: 113,
       CRT: 111,
       DET: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8867,14 +8206,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       MND: 108,
       PIE: 77,
       CRT: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8887,14 +8224,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       INT: 108,
       CRT: 77,
       DET: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8907,14 +8242,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       TEN: 111,
       SKS: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8927,14 +8260,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       CRT: 77,
       SKS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8947,14 +8278,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 108,
       VIT: 113,
       DHT: 77,
       SKS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8967,14 +8296,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       MND: 108,
       CRT: 77,
       DET: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -8987,14 +8314,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       INT: 108,
       CRT: 77,
       SPS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9007,14 +8332,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       CRT: 77,
       SKS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9027,14 +8350,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       DHT: 111,
       CRT: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9047,14 +8368,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 108,
       VIT: 113,
       DET: 77,
       SKS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9067,14 +8386,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       MND: 108,
       PIE: 77,
       SPS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9087,14 +8404,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       INT: 108,
       DHT: 111,
       DET: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9107,14 +8422,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       TEN: 111,
       DET: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9127,14 +8440,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 108,
       VIT: 113,
       DET: 77,
       SKS: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9147,14 +8458,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 108,
       VIT: 113,
       DHT: 77,
       CRT: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9167,14 +8476,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       MND: 108,
       PIE: 77,
       DET: 111,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9187,14 +8494,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 101,
       INT: 108,
       CRT: 111,
       SPS: 77,
     },
-    hq: false,
     source: '点数/真理→兵团',
   },
   {
@@ -9207,14 +8512,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       TEN: 104,
       CRT: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9227,14 +8530,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 252,
       CRT: 242,
       SKS: 169,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9247,14 +8548,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       CRT: 104,
       DET: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9267,14 +8566,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 252,
       TEN: 242,
       CRT: 169,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9287,14 +8584,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       TEN: 104,
       SKS: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9307,14 +8602,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       TEN: 78,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9327,14 +8620,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       CRT: 149,
       DET: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9347,14 +8638,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 252,
       CRT: 169,
       SKS: 242,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9367,14 +8656,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       DHT: 149,
       DET: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9387,14 +8674,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 252,
       DHT: 242,
       DET: 169,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9407,14 +8692,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       CRT: 149,
       DET: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9427,14 +8710,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       DET: 112,
       SKS: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9447,14 +8728,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       DET: 104,
       SKS: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9467,14 +8746,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 252,
       DHT: 169,
       SKS: 242,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9487,14 +8764,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       DET: 104,
       SKS: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9507,14 +8782,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 252,
       DHT: 242,
       SKS: 169,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9527,14 +8800,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 155,
       DET: 104,
       SKS: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9547,14 +8818,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       CRT: 112,
       DET: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9567,14 +8836,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 155,
       DHT: 149,
       DET: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9587,14 +8854,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 242,
       VIT: 252,
       DHT: 169,
       SKS: 242,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9607,14 +8872,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 155,
       CRT: 104,
       SKS: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9627,14 +8890,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 242,
       VIT: 252,
       CRT: 242,
       SKS: 169,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9647,14 +8908,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 155,
       CRT: 149,
       DET: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9667,14 +8926,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 112,
       VIT: 116,
       DHT: 78,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9687,14 +8944,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 155,
       CRT: 104,
       DET: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9707,14 +8962,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 242,
       VIT: 252,
       DHT: 169,
       SKS: 242,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9727,14 +8980,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 155,
       CRT: 104,
       DET: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9747,14 +8998,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 242,
       VIT: 252,
       DHT: 169,
       DET: 242,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9767,14 +9016,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 155,
       DHT: 149,
       DET: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9787,14 +9034,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 112,
       VIT: 116,
       DHT: 112,
       SKS: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9807,14 +9052,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 139,
       MND: 149,
       PIE: 104,
       CRT: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9827,14 +9070,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 227,
       MND: 242,
       PIE: 242,
       CRT: 169,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9847,14 +9088,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 139,
       MND: 149,
       PIE: 149,
       CRT: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9867,14 +9106,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 227,
       MND: 242,
       DET: 169,
       SPS: 242,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9887,14 +9124,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 139,
       MND: 149,
       CRT: 104,
       SPS: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9907,14 +9142,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       MND: 112,
       PIE: 78,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9927,14 +9160,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 139,
       INT: 149,
       DHT: 149,
       CRT: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9947,14 +9178,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 227,
       INT: 242,
       DET: 242,
       SPS: 169,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9967,14 +9196,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 139,
       INT: 149,
       DHT: 104,
       CRT: 149,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -9987,14 +9214,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 227,
       INT: 242,
       CRT: 242,
       SPS: 169,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10007,14 +9232,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 139,
       INT: 149,
       DET: 149,
       SPS: 104,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10027,14 +9250,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       INT: 112,
       DHT: 78,
       DET: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10047,14 +9268,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       DET: 112,
       SKS: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10067,14 +9286,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       DHT: 78,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10087,14 +9304,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 112,
       VIT: 116,
       DET: 78,
       SKS: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10107,14 +9322,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       MND: 112,
       PIE: 112,
       DET: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10127,14 +9340,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       INT: 112,
       DHT: 78,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10147,14 +9358,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       CRT: 78,
       SKS: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10167,14 +9376,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       DET: 112,
       SKS: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10187,14 +9394,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 112,
       VIT: 116,
       DHT: 112,
       DET: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10207,14 +9412,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       MND: 112,
       PIE: 112,
       DET: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10227,14 +9430,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       INT: 112,
       DHT: 78,
       DET: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10247,14 +9448,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       DET: 112,
       SKS: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10267,14 +9466,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       DET: 112,
       SKS: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10287,14 +9484,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 112,
       VIT: 116,
       DHT: 78,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10307,14 +9502,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       MND: 112,
       CRT: 112,
       DET: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10327,14 +9520,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       INT: 112,
       CRT: 78,
       SPS: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10347,14 +9538,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       TEN: 78,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10367,14 +9556,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 112,
       VIT: 116,
       DHT: 112,
       SKS: 78,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10387,14 +9574,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 112,
       VIT: 116,
       CRT: 78,
       DET: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10407,14 +9592,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       MND: 112,
       PIE: 78,
       SPS: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -10427,14 +9610,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 105,
       INT: 112,
       DET: 78,
       SPS: 112,
     },
-    hq: false,
     source: '迷宫挑战/斯卡拉遗迹',
   },
   {
@@ -12031,14 +11212,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       CRT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12051,14 +11230,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
       CRT: 244,
       DET: 171,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12071,14 +11248,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       TEN: 150,
       DET: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12091,14 +11266,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
       TEN: 171,
       SKS: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12111,14 +11284,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12131,14 +11302,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       DET: 113,
       SKS: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12151,14 +11320,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       DHT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12171,14 +11338,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
       CRT: 244,
       DET: 171,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12191,14 +11356,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       DET: 150,
       SKS: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12211,14 +11374,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
       CRT: 171,
       SKS: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12231,14 +11392,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       DHT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12251,14 +11410,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       DHT: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12271,14 +11428,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       CRT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12291,14 +11446,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
       DHT: 171,
       DET: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12311,14 +11464,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12331,14 +11482,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
       DET: 171,
       SKS: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12351,14 +11500,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 153,
       VIT: 160,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12371,14 +11518,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       DHT: 113,
       SKS: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12391,14 +11536,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 153,
       VIT: 160,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12411,14 +11554,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 249,
       VIT: 260,
       CRT: 171,
       DET: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12431,14 +11572,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 153,
       VIT: 160,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12451,14 +11590,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 249,
       VIT: 260,
       DET: 244,
       SKS: 171,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12471,14 +11608,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 153,
       VIT: 160,
       CRT: 105,
       DET: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12491,14 +11626,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       DHT: 79,
       SKS: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12511,14 +11644,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 153,
       VIT: 160,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12531,14 +11662,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 249,
       VIT: 260,
       CRT: 171,
       DET: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12551,14 +11680,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 153,
       VIT: 160,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12571,14 +11698,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 249,
       VIT: 260,
       CRT: 244,
       DET: 171,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12591,14 +11716,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 153,
       VIT: 160,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12611,14 +11734,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       CRT: 79,
       DET: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12631,14 +11752,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 144,
       MND: 153,
       PIE: 150,
       SPS: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12651,14 +11770,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       MND: 249,
       CRT: 244,
       SPS: 171,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12671,14 +11788,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 144,
       MND: 153,
       PIE: 105,
       SPS: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12691,14 +11806,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       MND: 249,
       CRT: 171,
       DET: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12711,14 +11824,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 144,
       MND: 153,
       PIE: 150,
       CRT: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12731,14 +11842,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       PIE: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12751,14 +11860,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 144,
       INT: 153,
       DHT: 105,
       SPS: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12771,14 +11878,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       INT: 249,
       CRT: 171,
       SPS: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12791,14 +11896,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 144,
       INT: 153,
       DHT: 105,
       DET: 150,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12811,14 +11914,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       INT: 249,
       CRT: 171,
       SPS: 244,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12831,14 +11932,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 144,
       INT: 153,
       DHT: 150,
       DET: 105,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12851,14 +11950,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       CRT: 79,
       SPS: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12871,14 +11968,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       TEN: 113,
       CRT: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12891,14 +11986,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       CRT: 79,
       SKS: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12911,14 +12004,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       DHT: 79,
       CRT: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12931,14 +12022,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       PIE: 79,
       SPS: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12951,14 +12040,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       DHT: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12971,14 +12058,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       TEN: 79,
       CRT: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -12991,14 +12076,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       DHT: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13011,14 +12094,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       CRT: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13031,14 +12112,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       PIE: 79,
       SPS: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13051,14 +12130,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       CRT: 79,
       SPS: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13071,14 +12148,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       TEN: 79,
       CRT: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13091,14 +12166,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       DHT: 79,
       SKS: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13111,14 +12184,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       DHT: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13131,14 +12202,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       PIE: 113,
       CRT: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13151,14 +12220,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       DHT: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13171,14 +12238,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       TEN: 79,
       DET: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13191,14 +12256,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       CRT: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13211,14 +12274,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       DHT: 113,
       SKS: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13231,14 +12292,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       CRT: 113,
       DET: 79,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13251,14 +12310,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       DHT: 79,
       CRT: 113,
     },
-    hq: false,
     source: '大型任务/德尔塔幻境',
   },
   {
@@ -13271,7 +12328,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
@@ -13291,7 +12347,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
@@ -13311,7 +12366,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 249,
       VIT: 260,
@@ -13331,7 +12385,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 249,
       VIT: 260,
@@ -13351,7 +12404,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 249,
       VIT: 260,
@@ -13371,7 +12423,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       MND: 249,
@@ -13391,7 +12442,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       INT: 249,
@@ -13598,7 +12648,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 131,
@@ -13616,7 +12665,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 417,
@@ -13635,7 +12683,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 131,
@@ -13653,7 +12700,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CMS: 19,
       CRL: 131,
@@ -13671,7 +12717,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CMS: 19,
       CRL: 131,
@@ -13689,7 +12734,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       PCP: 247,
@@ -13707,7 +12751,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 5,
@@ -13727,7 +12770,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 5,
@@ -13746,7 +12788,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 5,
@@ -13766,7 +12807,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 12,
@@ -13785,7 +12825,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 191,
       VIT: 200,
@@ -13794,7 +12833,6 @@ export default [
       PDMG: 97,
       DLY: 2240,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13807,7 +12845,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 268,
       VIT: 280,
@@ -13816,7 +12853,6 @@ export default [
       PDMG: 97,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13829,7 +12865,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 268,
       VIT: 280,
@@ -13838,7 +12873,6 @@ export default [
       PDMG: 97,
       DLY: 3360,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13851,7 +12885,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 268,
       VIT: 280,
@@ -13860,7 +12893,6 @@ export default [
       PDMG: 97,
       DLY: 2800,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13873,7 +12905,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 268,
       VIT: 280,
@@ -13882,7 +12913,6 @@ export default [
       PDMG: 97,
       DLY: 3040,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13895,7 +12925,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 268,
       VIT: 280,
@@ -13904,7 +12933,6 @@ export default [
       PDMG: 97,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13917,7 +12945,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 268,
       VIT: 280,
@@ -13926,7 +12953,6 @@ export default [
       PDMG: 97,
       DLY: 2960,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13939,7 +12965,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 268,
       VIT: 280,
@@ -13948,7 +12973,6 @@ export default [
       PDMG: 97,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13961,7 +12985,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 252,
       MND: 268,
@@ -13969,7 +12992,6 @@ export default [
       CRT: 184,
       MDMG: 131,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -13982,7 +13004,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 252,
       INT: 268,
@@ -13990,7 +13011,6 @@ export default [
       CRT: 184,
       MDMG: 131,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -14003,7 +13023,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 252,
       INT: 268,
@@ -14011,7 +13030,6 @@ export default [
       SPS: 184,
       MDMG: 131,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -14024,7 +13042,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 252,
       MND: 268,
@@ -14032,7 +13049,6 @@ export default [
       CRT: 184,
       MDMG: 131,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -14045,7 +13061,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 252,
       MND: 268,
@@ -14053,7 +13068,6 @@ export default [
       CRT: 263,
       MDMG: 131,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -14066,7 +13080,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 268,
       VIT: 280,
@@ -14075,7 +13088,6 @@ export default [
       PDMG: 97,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -14088,7 +13100,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 252,
       INT: 268,
@@ -14096,7 +13107,6 @@ export default [
       SPS: 263,
       MDMG: 131,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -14109,14 +13119,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 77,
       VIT: 80,
       TEN: 53,
       CRT: 75,
     },
-    hq: false,
     source: '歼殛战/豪神',
   },
   {
@@ -14129,14 +13137,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       TEN: 79,
       SKS: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14149,14 +13155,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       DHT: 113,
       CRT: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14169,14 +13173,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       DHT: 79,
       SKS: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14189,14 +13191,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       PIE: 79,
       DET: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14209,14 +13209,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       CRT: 113,
       SPS: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14229,14 +13227,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       TEN: 79,
       DET: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14249,14 +13245,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       CRT: 79,
       SKS: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14269,14 +13263,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       DHT: 113,
       CRT: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14289,14 +13281,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       CRT: 79,
       SPS: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14309,14 +13299,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       DHT: 113,
       CRT: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14329,14 +13317,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       TEN: 79,
       DET: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14349,14 +13335,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       DET: 79,
       SKS: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14369,14 +13353,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       CRT: 79,
       DET: 113,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14389,14 +13371,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       DET: 113,
       SPS: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14409,14 +13389,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       CRT: 113,
       DET: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14429,14 +13407,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       CRT: 113,
       SKS: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14449,14 +13425,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 120,
       DHT: 113,
       CRT: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14469,14 +13443,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 115,
       VIT: 120,
       DET: 113,
       SKS: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14489,14 +13461,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       MND: 115,
       PIE: 113,
       CRT: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14509,14 +13479,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 108,
       INT: 115,
       DHT: 113,
       SPS: 79,
     },
-    hq: false,
     source: '歼殛战/美神',
   },
   {
@@ -14730,14 +13698,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       CRT: 152,
       SKS: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14750,14 +13716,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 256,
       VIT: 268,
       TEN: 173,
       DET: 247,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14770,14 +13734,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       CRT: 106,
       SKS: 152,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14790,14 +13752,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 256,
       VIT: 268,
       TEN: 173,
       CRT: 247,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14810,14 +13770,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       TEN: 152,
       CRT: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14830,14 +13788,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       CRT: 80,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14850,14 +13806,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       CRT: 152,
       DET: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14870,14 +13824,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 256,
       VIT: 268,
       DHT: 247,
       CRT: 173,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14890,14 +13842,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       CRT: 152,
       SKS: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14910,14 +13860,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 256,
       VIT: 268,
       DET: 247,
       SKS: 173,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14930,14 +13878,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       DHT: 106,
       CRT: 152,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14950,14 +13896,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       CRT: 80,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14970,14 +13914,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       DHT: 152,
       SKS: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -14990,14 +13932,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 256,
       VIT: 268,
       CRT: 247,
       DET: 173,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15010,14 +13950,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       DHT: 106,
       DET: 152,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15030,14 +13968,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 256,
       VIT: 268,
       CRT: 173,
       SKS: 247,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15050,14 +13986,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 158,
       VIT: 165,
       DHT: 152,
       DET: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15070,14 +14004,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       CRT: 80,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15090,14 +14022,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 158,
       VIT: 165,
       CRT: 152,
       DET: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15110,14 +14040,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 256,
       VIT: 268,
       DHT: 247,
       SKS: 173,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15130,14 +14058,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 158,
       VIT: 165,
       DHT: 152,
       DET: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15150,14 +14076,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 256,
       VIT: 268,
       CRT: 247,
       SKS: 173,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15170,14 +14094,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 158,
       VIT: 165,
       DHT: 152,
       CRT: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15190,14 +14112,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 118,
       VIT: 124,
       DET: 80,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15210,14 +14130,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 158,
       VIT: 165,
       DHT: 152,
       CRT: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15230,14 +14148,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 256,
       VIT: 268,
       CRT: 247,
       DET: 173,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15250,14 +14166,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 158,
       VIT: 165,
       DHT: 152,
       DET: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15270,14 +14184,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 256,
       VIT: 268,
       CRT: 173,
       SKS: 247,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15290,14 +14202,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 158,
       VIT: 165,
       DHT: 106,
       DET: 152,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15310,14 +14220,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 118,
       VIT: 124,
       CRT: 80,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15330,14 +14238,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 149,
       MND: 158,
       PIE: 152,
       CRT: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15350,14 +14256,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 241,
       MND: 256,
       PIE: 173,
       SPS: 247,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15370,14 +14274,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 149,
       MND: 158,
       PIE: 152,
       DET: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15390,14 +14292,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 241,
       MND: 256,
       PIE: 173,
       SPS: 247,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15410,14 +14310,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 149,
       MND: 158,
       CRT: 106,
       SPS: 152,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15430,14 +14328,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       MND: 118,
       CRT: 114,
       DET: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15450,14 +14346,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 149,
       INT: 158,
       DHT: 106,
       CRT: 152,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15470,14 +14364,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 241,
       INT: 256,
       DET: 247,
       SPS: 173,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15490,14 +14382,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 149,
       INT: 158,
       DET: 152,
       SPS: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15510,14 +14400,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 241,
       INT: 256,
       CRT: 247,
       SPS: 173,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15530,14 +14418,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 149,
       INT: 158,
       DHT: 152,
       CRT: 106,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15550,14 +14436,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       INT: 118,
       DET: 80,
       SPS: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15570,14 +14454,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       TEN: 80,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15590,14 +14472,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       DHT: 80,
       CRT: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15610,14 +14490,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 118,
       VIT: 124,
       CRT: 80,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15630,14 +14508,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       MND: 118,
       PIE: 80,
       CRT: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15650,14 +14526,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       INT: 118,
       DHT: 80,
       CRT: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15670,14 +14544,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       CRT: 114,
       SKS: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15690,14 +14562,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       CRT: 80,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15710,14 +14580,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 118,
       VIT: 124,
       CRT: 114,
       SKS: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15730,14 +14598,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       MND: 118,
       CRT: 114,
       SPS: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15750,14 +14616,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       INT: 118,
       DET: 114,
       SPS: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15770,14 +14634,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       CRT: 114,
       SKS: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15790,14 +14652,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       CRT: 114,
       SKS: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15810,14 +14670,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 118,
       VIT: 124,
       DHT: 80,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15830,14 +14688,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       MND: 118,
       PIE: 114,
       DET: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15850,14 +14706,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       INT: 118,
       DHT: 114,
       CRT: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15870,14 +14724,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       CRT: 80,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15890,14 +14742,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 124,
       DHT: 114,
       DET: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15910,14 +14760,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 118,
       VIT: 124,
       DHT: 114,
       DET: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15930,14 +14778,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       MND: 118,
       CRT: 80,
       SPS: 114,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -15950,14 +14796,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 111,
       INT: 118,
       CRT: 114,
       DET: 80,
     },
-    hq: false,
     source: '迷宫挑战/狱之盖、无限回廊',
   },
   {
@@ -16150,7 +14994,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 214,
@@ -16159,7 +15002,6 @@ export default [
       PDMG: 98,
       DLY: 2240,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16172,7 +15014,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 284,
       VIT: 299,
@@ -16181,7 +15022,6 @@ export default [
       PDMG: 98,
       DLY: 2560,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16194,7 +15034,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 284,
       VIT: 299,
@@ -16203,7 +15042,6 @@ export default [
       PDMG: 98,
       DLY: 3360,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16216,7 +15054,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 284,
       VIT: 299,
@@ -16225,7 +15062,6 @@ export default [
       PDMG: 98,
       DLY: 2800,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16238,7 +15074,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 284,
       VIT: 299,
@@ -16247,7 +15082,6 @@ export default [
       PDMG: 98,
       DLY: 3040,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16260,7 +15094,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 284,
       VIT: 299,
@@ -16269,7 +15102,6 @@ export default [
       PDMG: 98,
       DLY: 2560,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16282,7 +15114,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 284,
       VIT: 299,
@@ -16291,7 +15122,6 @@ export default [
       PDMG: 98,
       DLY: 2960,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16304,7 +15134,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 284,
       VIT: 299,
@@ -16313,7 +15142,6 @@ export default [
       PDMG: 98,
       DLY: 2640,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16326,7 +15154,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 269,
       MND: 284,
@@ -16334,7 +15161,6 @@ export default [
       CRT: 188,
       MDMG: 132,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16347,7 +15173,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 269,
       INT: 284,
@@ -16355,7 +15180,6 @@ export default [
       DET: 268,
       MDMG: 132,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16368,7 +15192,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 269,
       INT: 284,
@@ -16376,7 +15199,6 @@ export default [
       SPS: 188,
       MDMG: 132,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16389,7 +15211,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 269,
       MND: 284,
@@ -16397,7 +15218,6 @@ export default [
       SPS: 188,
       MDMG: 132,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16410,7 +15230,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 269,
       MND: 284,
@@ -16418,7 +15237,6 @@ export default [
       DET: 268,
       MDMG: 132,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16431,7 +15249,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 284,
       VIT: 299,
@@ -16440,7 +15257,6 @@ export default [
       PDMG: 98,
       DLY: 2640,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16453,7 +15269,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 269,
       INT: 284,
@@ -16461,7 +15276,6 @@ export default [
       CRT: 268,
       MDMG: 132,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16474,14 +15288,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 81,
       VIT: 85,
       TEN: 54,
       DET: 77,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16494,14 +15306,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       TEN: 107,
       DET: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16514,14 +15324,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       TEN: 249,
       CRT: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16534,14 +15342,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       DET: 153,
       SKS: 107,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16554,14 +15360,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       CRT: 249,
       SKS: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16574,14 +15378,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       CRT: 107,
       DET: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16594,14 +15396,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       CRT: 80,
       DET: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16614,14 +15414,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       DHT: 153,
       CRT: 107,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16634,14 +15432,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       DHT: 174,
       DET: 249,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16654,14 +15450,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       CRT: 107,
       SKS: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16674,14 +15468,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       DHT: 174,
       DET: 249,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16694,14 +15486,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       CRT: 107,
       DET: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16714,14 +15504,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       DET: 80,
       SKS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16734,14 +15522,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       CRT: 107,
       SKS: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16754,14 +15540,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       DHT: 174,
       DET: 249,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16774,14 +15558,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       DHT: 107,
       CRT: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16794,14 +15576,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       DET: 249,
       SKS: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16814,14 +15594,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       CRT: 153,
       DET: 107,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16834,14 +15612,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       DHT: 115,
       CRT: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16854,14 +15630,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       DHT: 107,
       SKS: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16874,14 +15648,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 264,
       VIT: 278,
       DET: 249,
       SKS: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16894,14 +15666,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       DHT: 107,
       CRT: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16914,14 +15684,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 264,
       VIT: 278,
       CRT: 174,
       DET: 249,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16934,14 +15702,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       DHT: 107,
       SKS: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16954,14 +15720,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 122,
       VIT: 128,
       CRT: 115,
       DET: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16974,14 +15738,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       CRT: 153,
       SKS: 107,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -16994,14 +15756,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 264,
       VIT: 278,
       DHT: 249,
       DET: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17014,14 +15774,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       CRT: 107,
       SKS: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17034,14 +15792,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 264,
       VIT: 278,
       DHT: 249,
       SKS: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17054,14 +15810,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       CRT: 107,
       DET: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17074,14 +15828,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 122,
       VIT: 128,
       DHT: 80,
       SKS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17094,14 +15846,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       MND: 162,
       PIE: 107,
       CRT: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17114,14 +15864,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 250,
       MND: 264,
       PIE: 249,
       SPS: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17134,14 +15882,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       MND: 162,
       DET: 153,
       SPS: 107,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17154,14 +15900,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 250,
       MND: 264,
       PIE: 249,
       SPS: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17174,14 +15918,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       MND: 162,
       PIE: 107,
       CRT: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17194,14 +15936,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       MND: 122,
       PIE: 115,
       CRT: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17214,14 +15954,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       INT: 162,
       CRT: 107,
       SPS: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17234,14 +15972,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 250,
       INT: 264,
       DHT: 249,
       SPS: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17254,14 +15990,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       INT: 162,
       CRT: 107,
       DET: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17274,14 +16008,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 250,
       INT: 264,
       DHT: 249,
       SPS: 174,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17294,14 +16026,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       INT: 162,
       CRT: 107,
       DET: 153,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17314,14 +16044,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       INT: 122,
       DHT: 115,
       CRT: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17334,14 +16062,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       TEN: 115,
       DET: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17354,14 +16080,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       DHT: 115,
       SKS: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17374,14 +16098,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 122,
       VIT: 128,
       DET: 80,
       SKS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17394,14 +16116,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       MND: 122,
       PIE: 115,
       DET: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17414,14 +16134,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       INT: 122,
       DET: 80,
       SPS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17434,14 +16152,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       TEN: 115,
       SKS: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17454,14 +16170,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       DHT: 115,
       CRT: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17474,14 +16188,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 122,
       VIT: 128,
       CRT: 80,
       SKS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17494,14 +16206,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       MND: 122,
       CRT: 80,
       SPS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17514,14 +16224,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       INT: 122,
       DHT: 80,
       SPS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17534,14 +16242,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       CRT: 115,
       DET: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17554,14 +16260,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       CRT: 80,
       DET: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17574,14 +16278,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 122,
       VIT: 128,
       DHT: 80,
       CRT: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17594,14 +16296,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       MND: 122,
       PIE: 115,
       SPS: 80,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17614,14 +16314,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       INT: 122,
       CRT: 80,
       DET: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17634,14 +16332,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       CRT: 80,
       SKS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17654,14 +16350,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       DHT: 80,
       SKS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17674,14 +16368,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 122,
       VIT: 128,
       CRT: 80,
       DET: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17694,14 +16386,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       MND: 122,
       CRT: 80,
       DET: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17714,14 +16404,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       INT: 122,
       CRT: 80,
       SPS: 115,
     },
-    hq: false,
     source: '点数/万物→兵团',
   },
   {
@@ -17734,14 +16422,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       TEN: 153,
       CRT: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17754,14 +16440,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       DET: 174,
       SKS: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17774,14 +16458,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       CRT: 153,
       DET: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17794,14 +16476,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       TEN: 249,
       DET: 174,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17814,14 +16494,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       TEN: 107,
       SKS: 153,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17834,14 +16512,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       TEN: 115,
       SKS: 80,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17854,14 +16530,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       DET: 153,
       SKS: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17874,14 +16548,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       DET: 174,
       SKS: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17894,14 +16566,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       DHT: 107,
       CRT: 153,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17914,14 +16584,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       DHT: 174,
       CRT: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17934,14 +16602,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       DHT: 153,
       SKS: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17954,14 +16620,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       DHT: 80,
       CRT: 115,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17974,14 +16638,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       DHT: 107,
       DET: 153,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -17994,14 +16656,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       DHT: 174,
       SKS: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18014,14 +16674,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       DET: 107,
       SKS: 153,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18034,14 +16692,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 264,
       VIT: 278,
       CRT: 249,
       DET: 174,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18054,14 +16710,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 162,
       VIT: 171,
       CRT: 153,
       SKS: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18074,14 +16728,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 122,
       VIT: 128,
       DHT: 80,
       DET: 115,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18094,14 +16746,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       DHT: 107,
       CRT: 153,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18114,14 +16764,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 264,
       VIT: 278,
       CRT: 249,
       DET: 174,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18134,14 +16782,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       CRT: 153,
       DET: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18154,14 +16800,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 264,
       VIT: 278,
       DHT: 174,
       SKS: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18174,14 +16818,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       DHT: 107,
       CRT: 153,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18194,14 +16836,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 122,
       VIT: 128,
       CRT: 115,
       SKS: 80,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18214,14 +16854,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       DHT: 153,
       DET: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18234,14 +16872,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 264,
       VIT: 278,
       CRT: 174,
       DET: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18254,14 +16890,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       DHT: 153,
       SKS: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18274,14 +16908,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 264,
       VIT: 278,
       CRT: 249,
       DET: 174,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18294,14 +16926,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 162,
       VIT: 171,
       DET: 153,
       SKS: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18314,14 +16944,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 122,
       VIT: 128,
       DET: 80,
       SKS: 115,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18334,14 +16962,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       MND: 162,
       PIE: 153,
       DET: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18354,14 +16980,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 250,
       MND: 264,
       PIE: 174,
       DET: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18374,14 +16998,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       MND: 162,
       PIE: 153,
       CRT: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18394,14 +17016,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 250,
       MND: 264,
       DET: 174,
       SPS: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18414,14 +17034,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       MND: 162,
       DET: 107,
       SPS: 153,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18434,14 +17052,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       MND: 122,
       PIE: 80,
       DET: 115,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18454,14 +17070,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       INT: 162,
       DHT: 153,
       DET: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18474,14 +17088,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 250,
       INT: 264,
       CRT: 249,
       SPS: 174,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18494,14 +17106,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       INT: 162,
       DHT: 153,
       DET: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18514,14 +17124,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 250,
       INT: 264,
       DHT: 174,
       CRT: 249,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18534,14 +17142,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 154,
       INT: 162,
       CRT: 153,
       SPS: 107,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18554,14 +17160,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 115,
       INT: 122,
       DHT: 80,
       DET: 115,
     },
-    hq: false,
     source: '团队任务/拉巴纳斯塔',
   },
   {
@@ -18574,12 +17178,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18592,12 +17194,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18610,12 +17210,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18628,12 +17226,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18646,12 +17242,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18664,12 +17258,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18682,12 +17274,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18700,12 +17290,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18718,13 +17306,11 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 461,
       PCP: 264,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -18737,13 +17323,11 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 461,
       PCP: 264,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -18756,13 +17340,11 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 461,
       PCP: 264,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -18775,12 +17357,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18793,13 +17373,11 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 440,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18812,12 +17390,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18830,12 +17406,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18848,12 +17422,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18866,12 +17438,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18884,13 +17454,11 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 440,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18903,12 +17471,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18921,12 +17487,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18939,12 +17503,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18957,12 +17519,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18975,13 +17535,11 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 440,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -18994,12 +17552,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19012,12 +17568,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19030,12 +17584,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19048,12 +17600,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19066,13 +17616,11 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 440,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19085,12 +17633,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19103,12 +17649,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19121,12 +17665,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19139,12 +17681,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19157,13 +17697,11 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 440,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19176,12 +17714,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19194,12 +17730,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19212,12 +17746,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19230,12 +17762,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19248,13 +17778,11 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 440,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19267,12 +17795,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19285,12 +17811,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19303,12 +17827,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19321,12 +17843,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19339,13 +17859,11 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 440,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19358,12 +17876,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19376,12 +17892,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19394,12 +17908,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19412,12 +17924,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19430,13 +17940,11 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 440,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19449,12 +17957,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 6,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19467,12 +17973,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19485,12 +17989,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 29,
       CRL: 138,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19503,12 +18005,10 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       PCP: 264,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19521,14 +18021,12 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
       GTH: 264,
       PCP: 132,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19541,13 +18039,11 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 6,
       GTH: 198,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19560,14 +18056,12 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
       GTH: 132,
       PCP: 13,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19580,13 +18074,11 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 13,
       PCP: 132,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19599,12 +18091,10 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       PCP: 264,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19617,14 +18107,12 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
       GTH: 264,
       PCP: 132,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19637,13 +18125,11 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 6,
       GTH: 198,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19656,14 +18142,12 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
       GTH: 132,
       PCP: 13,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19676,13 +18160,11 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 13,
       PCP: 132,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19695,12 +18177,10 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       PCP: 264,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19713,14 +18193,12 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
       GTH: 264,
       PCP: 132,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19733,13 +18211,11 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 6,
       GTH: 198,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19752,14 +18228,12 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
       GTH: 132,
       PCP: 13,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19772,13 +18246,11 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 13,
       PCP: 132,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19791,12 +18263,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19809,12 +18279,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19827,12 +18295,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19845,12 +18311,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19863,12 +18327,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19881,12 +18343,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19899,12 +18359,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19917,12 +18375,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 514,
       CRL: 276,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -19935,12 +18391,10 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 264,
       PCP: 461,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -19953,12 +18407,10 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GTH: 264,
       PCP: 461,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -20754,7 +19206,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 209,
       VIT: 220,
@@ -20763,7 +19214,6 @@ export default [
       PDMG: 98,
       DLY: 2240,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20776,7 +19226,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -20785,7 +19234,6 @@ export default [
       PDMG: 98,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20798,7 +19246,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -20807,7 +19254,6 @@ export default [
       PDMG: 98,
       DLY: 3360,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20820,7 +19266,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -20829,7 +19274,6 @@ export default [
       PDMG: 98,
       DLY: 2800,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20842,7 +19286,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 308,
@@ -20851,7 +19294,6 @@ export default [
       PDMG: 98,
       DLY: 3040,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20864,7 +19306,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 308,
@@ -20873,7 +19314,6 @@ export default [
       PDMG: 98,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20886,7 +19326,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -20895,7 +19334,6 @@ export default [
       PDMG: 98,
       DLY: 2960,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20908,7 +19346,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 308,
@@ -20917,7 +19354,6 @@ export default [
       PDMG: 98,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20930,7 +19366,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       MND: 293,
@@ -20938,7 +19373,6 @@ export default [
       SPS: 189,
       MDMG: 133,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20951,7 +19385,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       INT: 293,
@@ -20959,7 +19392,6 @@ export default [
       SPS: 270,
       MDMG: 133,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20972,7 +19404,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       INT: 293,
@@ -20980,7 +19411,6 @@ export default [
       DET: 189,
       MDMG: 133,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -20993,7 +19423,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       MND: 293,
@@ -21001,7 +19430,6 @@ export default [
       CRT: 189,
       MDMG: 133,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -21014,7 +19442,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       MND: 293,
@@ -21022,7 +19449,6 @@ export default [
       CRT: 270,
       MDMG: 133,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -21035,7 +19461,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -21044,7 +19469,6 @@ export default [
       PDMG: 98,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -21057,7 +19481,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       INT: 293,
@@ -21065,7 +19488,6 @@ export default [
       SPS: 189,
       MDMG: 133,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -21078,14 +19500,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 84,
       VIT: 88,
       TEN: 54,
       CRT: 77,
     },
-    hq: false,
     source: '歼殛战/神龙',
   },
   {
@@ -21098,7 +19518,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 209,
       VIT: 220,
@@ -21107,7 +19526,6 @@ export default [
       PDMG: 98,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21120,7 +19538,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -21129,7 +19546,6 @@ export default [
       PDMG: 98,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21142,7 +19558,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -21151,7 +19566,6 @@ export default [
       PDMG: 98,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21164,7 +19578,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -21173,7 +19586,6 @@ export default [
       PDMG: 98,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21186,7 +19598,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 308,
@@ -21195,7 +19606,6 @@ export default [
       PDMG: 98,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21208,7 +19618,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 308,
@@ -21217,7 +19626,6 @@ export default [
       PDMG: 98,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21230,7 +19638,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -21239,7 +19646,6 @@ export default [
       PDMG: 98,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21252,7 +19658,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 308,
@@ -21261,7 +19666,6 @@ export default [
       PDMG: 98,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21274,7 +19678,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       MND: 293,
@@ -21282,7 +19685,6 @@ export default [
       SPS: 270,
       MDMG: 133,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21295,7 +19697,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       INT: 293,
@@ -21303,7 +19704,6 @@ export default [
       SPS: 270,
       MDMG: 133,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21316,7 +19716,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       INT: 293,
@@ -21324,7 +19723,6 @@ export default [
       DET: 189,
       MDMG: 133,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21337,7 +19735,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       MND: 293,
@@ -21345,7 +19742,6 @@ export default [
       DET: 189,
       MDMG: 133,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21358,7 +19754,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       MND: 293,
@@ -21366,7 +19761,6 @@ export default [
       SPS: 270,
       MDMG: 133,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21379,7 +19773,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -21388,7 +19781,6 @@ export default [
       PDMG: 98,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21401,7 +19793,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 278,
       INT: 293,
@@ -21409,7 +19800,6 @@ export default [
       DET: 189,
       MDMG: 133,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21422,14 +19812,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 84,
       VIT: 88,
       TEN: 77,
       DET: 54,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21442,14 +19830,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       DET: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21462,14 +19848,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       CRT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21482,14 +19866,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       CRT: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21502,14 +19884,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       TEN: 176,
       SKS: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21522,14 +19902,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       TEN: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21542,14 +19920,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       CRT: 108,
       DET: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21562,14 +19938,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       CRT: 251,
       SKS: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21582,14 +19956,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       CRT: 108,
       SKS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21602,14 +19974,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       DHT: 251,
       DET: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21622,14 +19992,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       DET: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21642,14 +20010,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       DET: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21662,14 +20028,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       CRT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21682,14 +20046,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       CRT: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21702,14 +20064,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       TEN: 176,
       SKS: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21722,14 +20082,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       TEN: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21742,14 +20100,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       DET: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21762,14 +20118,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       DHT: 176,
       CRT: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21782,14 +20136,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       DHT: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21802,14 +20154,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       DET: 176,
       SKS: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21822,14 +20172,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       DHT: 155,
       CRT: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21842,14 +20190,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       CRT: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21862,14 +20208,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 272,
       VIT: 286,
       DHT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21882,14 +20226,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       DET: 108,
       SKS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21902,14 +20244,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 272,
       VIT: 286,
       CRT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21922,14 +20262,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       DHT: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21942,14 +20280,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       CRT: 155,
       SPS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21962,14 +20298,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       MND: 272,
       PIE: 251,
       DET: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -21982,14 +20316,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       PIE: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22002,14 +20334,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       MND: 272,
       PIE: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22022,14 +20352,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       CRT: 155,
       SPS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22042,14 +20370,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       CRT: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22062,14 +20388,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       INT: 272,
       CRT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22082,14 +20406,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       DHT: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22102,14 +20424,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       INT: 272,
       DHT: 251,
       DET: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22122,14 +20442,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       CRT: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22142,14 +20460,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       CRT: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22162,14 +20478,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       INT: 272,
       CRT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22182,14 +20496,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       DHT: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22202,14 +20514,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       INT: 272,
       DHT: 251,
       DET: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22222,14 +20532,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       CRT: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22242,14 +20550,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       CRT: 155,
       SPS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22262,14 +20568,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       MND: 272,
       PIE: 251,
       DET: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22282,14 +20586,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       PIE: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22302,14 +20604,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       MND: 272,
       PIE: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22322,14 +20622,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       CRT: 155,
       SPS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22342,14 +20640,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       DHT: 108,
       CRT: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22362,14 +20658,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 272,
       VIT: 286,
       DHT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22382,14 +20676,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       DHT: 155,
       CRT: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22402,14 +20694,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 272,
       VIT: 286,
       DET: 176,
       SKS: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22422,14 +20712,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       DHT: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22442,14 +20730,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       DET: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22462,14 +20748,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       CRT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22482,14 +20766,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       CRT: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22502,14 +20784,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       TEN: 176,
       SKS: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22522,14 +20802,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       TEN: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22542,14 +20820,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       CRT: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22562,14 +20838,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 272,
       VIT: 286,
       DHT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22582,14 +20856,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       DET: 108,
       SKS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22602,14 +20874,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 272,
       VIT: 286,
       CRT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22622,14 +20892,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 167,
       VIT: 176,
       DHT: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22642,14 +20910,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       CRT: 155,
       SPS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22662,14 +20928,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       MND: 272,
       PIE: 251,
       DET: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22682,14 +20946,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       PIE: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22702,14 +20964,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       MND: 272,
       PIE: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22722,14 +20982,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       MND: 167,
       CRT: 155,
       SPS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22742,14 +21000,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       CRT: 108,
       DET: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22762,14 +21018,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       CRT: 251,
       SKS: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22782,14 +21036,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       CRT: 108,
       SKS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22802,14 +21054,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 286,
       DHT: 251,
       DET: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22822,14 +21072,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 167,
       VIT: 176,
       DET: 155,
       SKS: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22842,14 +21090,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       CRT: 155,
       DET: 108,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22862,14 +21108,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       INT: 272,
       CRT: 176,
       DET: 251,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22882,14 +21126,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       DHT: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22902,14 +21144,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 258,
       INT: 272,
       DHT: 251,
       DET: 176,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22922,14 +21162,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 159,
       INT: 167,
       CRT: 108,
       SPS: 155,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -22942,7 +21180,6 @@ export default [
     jobCategory: 149,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 308,
@@ -22951,7 +21188,6 @@ export default [
       PDMG: 98,
       DLY: 2800,
     },
-    hq: false,
     source: '生产制作',
     patch: '5.2',
   },
@@ -22965,7 +21201,6 @@ export default [
     jobCategory: 150,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 308,
@@ -22974,7 +21209,6 @@ export default [
       PDMG: 98,
       DLY: 3120,
     },
-    hq: false,
     source: '生产制作',
     patch: '5.2',
   },
@@ -22988,7 +21222,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 215,
       VIT: 228,
@@ -22997,7 +21230,6 @@ export default [
       PDMG: 99,
       DLY: 2240,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23010,7 +21242,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -23019,7 +21250,6 @@ export default [
       PDMG: 99,
       DLY: 2560,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23032,7 +21262,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -23041,7 +21270,6 @@ export default [
       PDMG: 99,
       DLY: 3360,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23054,7 +21282,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -23063,7 +21290,6 @@ export default [
       PDMG: 99,
       DLY: 2800,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23076,7 +21302,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 301,
       VIT: 319,
@@ -23085,7 +21310,6 @@ export default [
       PDMG: 99,
       DLY: 3040,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23098,7 +21322,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 301,
       VIT: 319,
@@ -23107,7 +21330,6 @@ export default [
       PDMG: 99,
       DLY: 2560,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23120,7 +21342,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -23129,7 +21350,6 @@ export default [
       PDMG: 99,
       DLY: 2960,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23142,7 +21362,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 301,
       VIT: 319,
@@ -23151,7 +21370,6 @@ export default [
       PDMG: 99,
       DLY: 2640,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23164,7 +21382,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       MND: 301,
@@ -23172,7 +21389,6 @@ export default [
       CRT: 191,
       MDMG: 134,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23185,7 +21401,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       INT: 301,
@@ -23193,7 +21408,6 @@ export default [
       DET: 273,
       MDMG: 134,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23206,7 +21420,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       INT: 301,
@@ -23214,7 +21427,6 @@ export default [
       SPS: 191,
       MDMG: 134,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23227,7 +21439,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       MND: 301,
@@ -23235,7 +21446,6 @@ export default [
       SPS: 191,
       MDMG: 134,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23248,7 +21458,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       MND: 301,
@@ -23256,7 +21465,6 @@ export default [
       DET: 273,
       MDMG: 134,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23269,7 +21477,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -23278,7 +21485,6 @@ export default [
       PDMG: 99,
       DLY: 2640,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23291,7 +21497,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       INT: 301,
@@ -23299,7 +21504,6 @@ export default [
       CRT: 273,
       MDMG: 134,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23312,14 +21516,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 86,
       VIT: 91,
       TEN: 55,
       DET: 78,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23332,14 +21534,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       TEN: 109,
       DET: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23352,14 +21552,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       TEN: 253,
       CRT: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23372,14 +21570,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23392,14 +21588,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       CRT: 253,
       SKS: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23412,14 +21606,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23432,14 +21624,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 82,
       DET: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23452,14 +21642,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 156,
       CRT: 109,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23472,14 +21660,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DHT: 177,
       DET: 253,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23492,14 +21678,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23512,14 +21696,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DHT: 177,
       DET: 253,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23532,14 +21714,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23552,14 +21732,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DET: 82,
       SKS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23572,14 +21750,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23592,14 +21768,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DHT: 177,
       DET: 253,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23612,14 +21786,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 109,
       CRT: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23632,14 +21804,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DET: 253,
       SKS: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23652,14 +21822,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 156,
       DET: 109,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23672,14 +21840,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DHT: 117,
       CRT: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23692,14 +21858,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23712,14 +21876,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       DET: 253,
       SKS: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23732,14 +21894,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 109,
       CRT: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23752,14 +21912,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23772,14 +21930,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23792,14 +21948,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       CRT: 117,
       DET: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23812,14 +21966,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       CRT: 156,
       SKS: 109,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23832,14 +21984,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       DHT: 253,
       DET: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23852,14 +22002,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       CRT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23872,14 +22020,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       DHT: 253,
       SKS: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23892,14 +22038,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23912,14 +22056,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       DHT: 82,
       SKS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23932,14 +22074,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       PIE: 109,
       CRT: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23952,14 +22092,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 253,
       SPS: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23972,14 +22110,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       DET: 156,
       SPS: 109,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -23992,14 +22128,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 253,
       SPS: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24012,14 +22146,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       PIE: 109,
       CRT: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24032,14 +22164,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       PIE: 117,
       CRT: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24052,14 +22182,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 109,
       SPS: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24072,14 +22200,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       DHT: 253,
       SPS: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24092,14 +22218,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24112,14 +22236,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       DHT: 253,
       SPS: 177,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24132,14 +22254,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24152,14 +22272,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       DHT: 117,
       CRT: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24172,14 +22290,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       TEN: 117,
       DET: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24192,14 +22308,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DHT: 117,
       SKS: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24212,14 +22326,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       DET: 82,
       SKS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24232,14 +22344,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       PIE: 117,
       DET: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24252,14 +22362,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       DET: 82,
       SPS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24272,14 +22380,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       TEN: 117,
       SKS: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24292,14 +22398,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DHT: 117,
       CRT: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24312,14 +22416,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       CRT: 82,
       SKS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24332,14 +22434,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       CRT: 82,
       SPS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24352,14 +22452,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       DHT: 82,
       SPS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24372,14 +22470,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 117,
       DET: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24392,14 +22488,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 82,
       DET: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24412,14 +22506,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       DHT: 82,
       CRT: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24432,14 +22524,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       PIE: 117,
       SPS: 82,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24452,14 +22542,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       CRT: 82,
       DET: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24472,14 +22560,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 82,
       SKS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24492,14 +22578,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DHT: 82,
       SKS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24512,14 +22596,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       CRT: 82,
       DET: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24532,14 +22614,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       CRT: 82,
       DET: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24552,14 +22632,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       CRT: 82,
       SPS: 117,
     },
-    hq: false,
     source: '点数强化/万物→兵团',
   },
   {
@@ -24572,14 +22650,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24592,14 +22668,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DET: 177,
       SKS: 253,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24612,14 +22686,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       TEN: 109,
       SKS: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24632,14 +22704,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       TEN: 253,
       DET: 177,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24652,14 +22722,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24672,14 +22740,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 82,
       SKS: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24692,14 +22758,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24712,14 +22776,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       CRT: 253,
       DET: 177,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24732,14 +22794,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 156,
       CRT: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24752,14 +22812,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DHT: 177,
       SKS: 253,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24772,14 +22830,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 109,
       CRT: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24792,14 +22848,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 117,
       DET: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24812,14 +22866,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 156,
       CRT: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24832,14 +22884,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24852,14 +22902,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 156,
       SKS: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24872,14 +22920,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DHT: 253,
       CRT: 177,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24892,14 +22938,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24912,14 +22956,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 117,
       DET: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24932,14 +22974,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       CRT: 156,
       SKS: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24952,14 +22992,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       CRT: 253,
       DET: 177,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24972,14 +23010,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -24992,14 +23028,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       DHT: 253,
       DET: 177,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25012,14 +23046,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25032,14 +23064,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       DET: 82,
       SKS: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25052,14 +23082,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 156,
       DET: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25072,14 +23100,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       CRT: 253,
       SKS: 177,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25092,14 +23118,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25112,14 +23136,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25132,14 +23154,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 156,
       CRT: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25152,14 +23172,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       DHT: 82,
       DET: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25172,14 +23190,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25192,14 +23208,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 253,
       CRT: 177,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25212,14 +23226,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       PIE: 109,
       SPS: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25232,14 +23244,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 177,
       CRT: 253,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25252,14 +23262,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       DET: 109,
       SPS: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25272,14 +23280,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       PIE: 82,
       SPS: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25292,14 +23298,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       DET: 156,
       SPS: 109,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25312,14 +23316,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       DHT: 177,
       CRT: 253,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25332,14 +23334,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       DHT: 109,
       SPS: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25352,14 +23352,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       DET: 177,
       SPS: 253,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25372,14 +23370,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       DHT: 109,
       CRT: 156,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25392,14 +23388,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       DET: 117,
       SPS: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25412,14 +23406,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DET: 117,
       SKS: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25432,14 +23424,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DHT: 82,
       CRT: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25452,14 +23442,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       CRT: 82,
       DET: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25472,14 +23460,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       PIE: 82,
       CRT: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25492,14 +23478,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       CRT: 117,
       DET: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25512,14 +23496,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 117,
       DET: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25532,14 +23514,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       CRT: 117,
       DET: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25552,14 +23532,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       DHT: 117,
       SKS: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25572,14 +23550,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       PIE: 117,
       DET: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25592,14 +23568,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       CRT: 117,
       SPS: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25612,14 +23586,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       TEN: 82,
       CRT: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25632,14 +23604,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DET: 82,
       SKS: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25652,14 +23622,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       CRT: 82,
       DET: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25672,14 +23640,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       PIE: 82,
       DET: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25692,14 +23658,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       DHT: 82,
       CRT: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25712,14 +23676,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       TEN: 117,
       SKS: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25732,14 +23694,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 129,
       VIT: 137,
       DHT: 82,
       CRT: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25752,14 +23712,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 129,
       VIT: 137,
       DHT: 117,
       CRT: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25772,14 +23730,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       MND: 129,
       PIE: 117,
       SPS: 82,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25792,14 +23748,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 123,
       INT: 129,
       DHT: 82,
       DET: 117,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -25812,7 +23766,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 215,
       VIT: 228,
@@ -25821,7 +23774,6 @@ export default [
       PDMG: 99,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -25834,7 +23786,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -25843,7 +23794,6 @@ export default [
       PDMG: 99,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -25856,7 +23806,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -25865,7 +23814,6 @@ export default [
       PDMG: 99,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -25878,7 +23826,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -25887,7 +23834,6 @@ export default [
       PDMG: 99,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -25900,7 +23846,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 301,
       VIT: 319,
@@ -25909,7 +23854,6 @@ export default [
       PDMG: 99,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -25922,7 +23866,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 301,
       VIT: 319,
@@ -25931,7 +23874,6 @@ export default [
       PDMG: 99,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -25944,7 +23886,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -25953,7 +23894,6 @@ export default [
       PDMG: 99,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -25966,7 +23906,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 301,
       VIT: 319,
@@ -25975,7 +23914,6 @@ export default [
       PDMG: 99,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -25988,7 +23926,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       MND: 301,
@@ -25996,7 +23933,6 @@ export default [
       SPS: 273,
       MDMG: 134,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26009,7 +23945,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       INT: 301,
@@ -26017,7 +23952,6 @@ export default [
       SPS: 273,
       MDMG: 134,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26030,7 +23964,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       INT: 301,
@@ -26038,7 +23971,6 @@ export default [
       DET: 191,
       MDMG: 134,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26051,7 +23983,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       MND: 301,
@@ -26059,7 +23990,6 @@ export default [
       DET: 191,
       MDMG: 134,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26072,7 +24002,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       MND: 301,
@@ -26080,7 +24009,6 @@ export default [
       SPS: 273,
       MDMG: 134,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26093,7 +24021,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 319,
@@ -26102,7 +24029,6 @@ export default [
       PDMG: 99,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26115,7 +24041,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 287,
       INT: 301,
@@ -26123,7 +24048,6 @@ export default [
       DET: 191,
       MDMG: 134,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26136,14 +24060,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 86,
       VIT: 91,
       TEN: 78,
       DET: 55,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26156,14 +24078,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26176,14 +24096,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26196,14 +24114,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26216,14 +24132,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       TEN: 177,
       SKS: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26236,14 +24150,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       TEN: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26256,14 +24168,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26276,14 +24186,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       CRT: 253,
       SKS: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26296,14 +24204,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26316,14 +24222,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DHT: 253,
       DET: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26336,14 +24240,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26356,14 +24258,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26376,14 +24276,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26396,14 +24294,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26416,14 +24312,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       TEN: 177,
       SKS: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26436,14 +24330,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       TEN: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26456,14 +24348,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26476,14 +24366,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DHT: 177,
       CRT: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26496,14 +24384,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26516,14 +24402,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DET: 177,
       SKS: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26536,14 +24420,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DHT: 156,
       CRT: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26556,14 +24438,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       CRT: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26576,14 +24456,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       DHT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26596,14 +24474,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DET: 109,
       SKS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26616,14 +24492,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26636,14 +24510,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26656,14 +24528,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       CRT: 156,
       SPS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26676,14 +24546,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 253,
       DET: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26696,14 +24564,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       PIE: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26716,14 +24582,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26736,14 +24600,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       CRT: 156,
       SPS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26756,14 +24618,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26776,14 +24636,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26796,14 +24654,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       DHT: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26816,14 +24672,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       DHT: 253,
       DET: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26836,14 +24690,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26856,14 +24708,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26876,14 +24726,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26896,14 +24744,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       DHT: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26916,14 +24762,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       DHT: 253,
       DET: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26936,14 +24780,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26956,14 +24798,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       CRT: 156,
       SPS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26976,14 +24816,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 253,
       DET: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -26996,14 +24834,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       PIE: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27016,14 +24852,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27036,14 +24870,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       CRT: 156,
       SPS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27056,14 +24888,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 109,
       CRT: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27076,14 +24906,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       DHT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27096,14 +24924,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 156,
       CRT: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27116,14 +24942,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       DET: 177,
       SKS: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27136,14 +24960,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27156,14 +24978,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27176,14 +24996,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27196,14 +25014,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27216,14 +25032,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       TEN: 177,
       SKS: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27236,14 +25050,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       TEN: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27256,14 +25068,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       CRT: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27276,14 +25086,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       DHT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27296,14 +25104,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DET: 109,
       SKS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27316,14 +25122,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 280,
       VIT: 296,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27336,14 +25140,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 172,
       VIT: 182,
       DHT: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27356,14 +25158,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       CRT: 156,
       SPS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27376,14 +25176,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 253,
       DET: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27396,14 +25194,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       PIE: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27416,14 +25212,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       MND: 280,
       PIE: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27436,14 +25230,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 172,
       CRT: 156,
       SPS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27456,14 +25248,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       DET: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27476,14 +25266,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       CRT: 253,
       SKS: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27496,14 +25284,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       CRT: 109,
       SKS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27516,14 +25302,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 280,
       VIT: 296,
       DHT: 253,
       DET: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27536,14 +25320,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 172,
       VIT: 182,
       DET: 156,
       SKS: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27556,14 +25338,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 156,
       DET: 109,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27576,14 +25356,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       CRT: 177,
       DET: 253,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27596,14 +25374,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       DHT: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27616,14 +25392,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 266,
       INT: 280,
       DHT: 253,
       DET: 177,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -27636,14 +25410,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 172,
       CRT: 109,
       SPS: 156,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -28017,7 +25789,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CP: 7,
       CRL: 145,
@@ -28035,7 +25806,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 464,
@@ -28054,7 +25824,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CP: 7,
       CRL: 145,
@@ -28072,7 +25841,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CMS: 22,
       CRL: 145,
@@ -28090,7 +25858,6 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       CMS: 22,
       CRL: 145,
@@ -28108,7 +25875,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 18,
       PCP: 281,
@@ -28126,7 +25892,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
@@ -28146,7 +25911,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 6,
@@ -28165,7 +25929,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
@@ -28185,7 +25948,6 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 14,
@@ -28204,7 +25966,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 234,
@@ -28213,7 +25974,6 @@ export default [
       PDMG: 100,
       DLY: 2240,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28226,7 +25986,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28235,7 +25994,6 @@ export default [
       PDMG: 100,
       DLY: 2560,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28248,7 +26006,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28257,7 +26014,6 @@ export default [
       PDMG: 100,
       DLY: 3360,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28270,7 +26026,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28279,7 +26034,6 @@ export default [
       PDMG: 100,
       DLY: 2800,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28292,7 +26046,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -28301,7 +26054,6 @@ export default [
       PDMG: 100,
       DLY: 3040,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28314,7 +26066,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -28323,7 +26074,6 @@ export default [
       PDMG: 100,
       DLY: 2560,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28336,7 +26086,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28345,7 +26094,6 @@ export default [
       PDMG: 100,
       DLY: 2960,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28358,7 +26106,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -28367,7 +26114,6 @@ export default [
       PDMG: 100,
       DLY: 2640,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28380,7 +26126,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -28388,7 +26133,6 @@ export default [
       DET: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28401,7 +26145,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -28409,7 +26152,6 @@ export default [
       CRT: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28422,7 +26164,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -28430,7 +26171,6 @@ export default [
       DET: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28443,7 +26183,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -28451,7 +26190,6 @@ export default [
       CRT: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28464,7 +26202,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -28472,7 +26209,6 @@ export default [
       SPS: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28485,7 +26221,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28494,7 +26229,6 @@ export default [
       PDMG: 100,
       DLY: 2640,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28507,7 +26241,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -28515,7 +26248,6 @@ export default [
       DET: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28528,14 +26260,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 88,
       VIT: 94,
       TEN: 80,
       DET: 56,
     },
-    hq: false,
     source: '零式/德尔塔幻境',
   },
   {
@@ -28548,7 +26278,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 234,
@@ -28557,7 +26286,6 @@ export default [
       PDMG: 100,
       DLY: 2240,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28570,7 +26298,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28579,7 +26306,6 @@ export default [
       PDMG: 100,
       DLY: 2560,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28592,7 +26318,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28601,7 +26326,6 @@ export default [
       PDMG: 100,
       DLY: 3360,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28614,7 +26338,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28623,7 +26346,6 @@ export default [
       PDMG: 100,
       DLY: 2800,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28636,7 +26358,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -28645,7 +26366,6 @@ export default [
       PDMG: 100,
       DLY: 3040,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28658,7 +26378,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -28667,7 +26386,6 @@ export default [
       PDMG: 100,
       DLY: 2560,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28680,7 +26398,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28689,7 +26406,6 @@ export default [
       PDMG: 100,
       DLY: 2960,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28702,7 +26418,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -28711,7 +26426,6 @@ export default [
       PDMG: 100,
       DLY: 2640,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28724,7 +26438,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -28732,7 +26445,6 @@ export default [
       DET: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28745,7 +26457,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -28753,7 +26464,6 @@ export default [
       CRT: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28766,7 +26476,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -28774,7 +26483,6 @@ export default [
       DET: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28787,7 +26495,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -28795,7 +26502,6 @@ export default [
       CRT: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28808,7 +26514,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -28816,7 +26521,6 @@ export default [
       SPS: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28829,7 +26533,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28838,7 +26541,6 @@ export default [
       PDMG: 100,
       DLY: 2640,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28851,7 +26553,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -28859,7 +26560,6 @@ export default [
       DET: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28872,14 +26572,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 88,
       VIT: 94,
       TEN: 80,
       DET: 56,
     },
-    hq: false,
     source: '绝境战/巴哈姆特',
   },
   {
@@ -28892,7 +26590,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 220,
       VIT: 234,
@@ -28901,7 +26598,6 @@ export default [
       PDMG: 100,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -28914,7 +26610,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28923,7 +26618,6 @@ export default [
       PDMG: 100,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -28936,7 +26630,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28945,7 +26638,6 @@ export default [
       PDMG: 100,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -28958,7 +26650,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -28967,7 +26658,6 @@ export default [
       PDMG: 100,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -28980,7 +26670,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -28989,7 +26678,6 @@ export default [
       PDMG: 100,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29002,7 +26690,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -29011,7 +26698,6 @@ export default [
       PDMG: 100,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29024,7 +26710,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -29033,7 +26718,6 @@ export default [
       PDMG: 100,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29046,7 +26730,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 308,
       VIT: 328,
@@ -29055,7 +26738,6 @@ export default [
       PDMG: 100,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29068,7 +26750,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -29076,7 +26757,6 @@ export default [
       SPS: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29089,7 +26769,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -29097,7 +26776,6 @@ export default [
       SPS: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29110,7 +26788,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -29118,7 +26795,6 @@ export default [
       DET: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29131,7 +26807,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -29139,7 +26814,6 @@ export default [
       DET: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29152,7 +26826,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       MND: 308,
@@ -29160,7 +26833,6 @@ export default [
       SPS: 280,
       MDMG: 135,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29173,7 +26845,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 308,
       VIT: 328,
@@ -29182,7 +26853,6 @@ export default [
       PDMG: 100,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29195,7 +26865,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 295,
       INT: 308,
@@ -29203,7 +26872,6 @@ export default [
       DET: 196,
       MDMG: 135,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29216,14 +26884,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 88,
       VIT: 94,
       TEN: 80,
       DET: 56,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29236,14 +26902,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DET: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29256,14 +26920,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29276,14 +26938,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29296,14 +26956,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       TEN: 182,
       SKS: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29316,14 +26974,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       TEN: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29336,14 +26992,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 112,
       DET: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29356,14 +27010,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       CRT: 260,
       SKS: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29376,14 +27028,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 112,
       SKS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29396,14 +27046,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       DHT: 260,
       DET: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29416,14 +27064,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DET: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29436,14 +27082,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DET: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29456,14 +27100,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29476,14 +27118,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29496,14 +27136,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       TEN: 182,
       SKS: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29516,14 +27154,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       TEN: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29536,14 +27172,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DET: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29556,14 +27190,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       DHT: 182,
       CRT: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29576,14 +27208,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DHT: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29596,14 +27226,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       DET: 182,
       SKS: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29616,14 +27244,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DHT: 160,
       CRT: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29636,14 +27262,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       CRT: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29656,14 +27280,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       DHT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29676,14 +27298,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DET: 112,
       SKS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29696,14 +27316,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29716,14 +27334,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DHT: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29736,14 +27352,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       CRT: 160,
       SPS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29756,14 +27370,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       MND: 286,
       PIE: 260,
       DET: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29776,14 +27388,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       PIE: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29796,14 +27406,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       MND: 286,
       PIE: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29816,14 +27424,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       CRT: 160,
       SPS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29836,14 +27442,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       CRT: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29856,14 +27460,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       INT: 286,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29876,14 +27478,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       DHT: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29896,14 +27496,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       INT: 286,
       DHT: 260,
       DET: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29916,14 +27514,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       CRT: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29936,14 +27532,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       CRT: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29956,14 +27550,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       INT: 286,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29976,14 +27568,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       DHT: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -29996,14 +27586,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       INT: 286,
       DHT: 260,
       DET: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30016,14 +27604,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       CRT: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30036,14 +27622,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       CRT: 160,
       SPS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30056,14 +27640,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       MND: 286,
       PIE: 260,
       DET: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30076,14 +27658,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       PIE: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30096,14 +27676,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       MND: 286,
       PIE: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30116,14 +27694,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       CRT: 160,
       SPS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30136,14 +27712,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DHT: 112,
       CRT: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30156,14 +27730,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       DHT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30176,14 +27748,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DHT: 160,
       CRT: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30196,14 +27766,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       DET: 182,
       SKS: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30216,14 +27784,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DHT: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30236,14 +27802,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DET: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30256,14 +27820,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30276,14 +27838,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30296,14 +27856,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       TEN: 182,
       SKS: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30316,14 +27874,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       TEN: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30336,14 +27892,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       CRT: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30356,14 +27910,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       DHT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30376,14 +27928,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DET: 112,
       SKS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30396,14 +27946,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30416,14 +27964,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DHT: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30436,14 +27982,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       CRT: 160,
       SPS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30456,14 +28000,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       MND: 286,
       PIE: 260,
       DET: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30476,14 +28018,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       PIE: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30496,14 +28036,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       MND: 286,
       PIE: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30516,14 +28054,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       CRT: 160,
       SPS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30536,14 +28072,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 112,
       DET: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30556,14 +28090,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       CRT: 260,
       SKS: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30576,14 +28108,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 112,
       SKS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30596,14 +28126,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       DHT: 260,
       DET: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30616,14 +28144,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DET: 160,
       SKS: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30636,14 +28162,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       CRT: 160,
       DET: 112,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30656,14 +28180,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       INT: 286,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30676,14 +28198,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       DHT: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30696,14 +28216,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       INT: 286,
       DHT: 260,
       DET: 182,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30716,14 +28234,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       CRT: 112,
       SPS: 160,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -30736,14 +28252,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       TEN: 112,
       SKS: 160,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30756,14 +28270,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       TEN: 260,
       CRT: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30776,14 +28288,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DET: 160,
       SKS: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30796,14 +28306,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       TEN: 260,
       DET: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30816,14 +28324,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 160,
       SKS: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30836,14 +28342,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       DET: 84,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30856,14 +28360,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 160,
       DET: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30876,14 +28378,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       DHT: 182,
       SKS: 260,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30896,14 +28396,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       CRT: 112,
       DET: 160,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30916,14 +28414,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       CRT: 182,
       SKS: 260,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30936,14 +28432,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DET: 160,
       SKS: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30956,14 +28450,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       DHT: 84,
       CRT: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30976,14 +28468,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DHT: 160,
       SKS: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -30996,14 +28486,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       CRT: 260,
       DET: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31016,14 +28504,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DHT: 112,
       SKS: 160,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31036,14 +28522,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 286,
       VIT: 305,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31056,14 +28540,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 176,
       VIT: 188,
       DHT: 112,
       SKS: 160,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31076,14 +28558,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       CRT: 120,
       SKS: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31096,14 +28576,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DHT: 160,
       DET: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31116,14 +28594,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       CRT: 260,
       SKS: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31136,14 +28612,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DHT: 160,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31156,14 +28630,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       DHT: 182,
       SKS: 260,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31176,14 +28648,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       CRT: 160,
       SKS: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31196,14 +28666,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 132,
       VIT: 141,
       DHT: 84,
       CRT: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31216,14 +28684,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DET: 112,
       SKS: 160,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31236,14 +28702,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       CRT: 260,
       SKS: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31256,14 +28720,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       DET: 112,
       SKS: 160,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31276,14 +28738,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 286,
       VIT: 305,
       DHT: 260,
       CRT: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31296,14 +28756,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 176,
       VIT: 188,
       CRT: 112,
       DET: 160,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31316,14 +28774,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 132,
       VIT: 141,
       DHT: 84,
       CRT: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31336,14 +28792,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       PIE: 160,
       SPS: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31356,14 +28810,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       MND: 286,
       CRT: 260,
       DET: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31376,14 +28828,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       PIE: 160,
       CRT: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31396,14 +28846,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       MND: 286,
       CRT: 182,
       DET: 260,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31416,14 +28864,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       MND: 176,
       PIE: 160,
       DET: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31436,14 +28882,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       MND: 132,
       PIE: 120,
       SPS: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31456,14 +28900,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       DHT: 112,
       SPS: 160,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31476,14 +28918,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       INT: 286,
       DHT: 260,
       SPS: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31496,14 +28936,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       CRT: 160,
       DET: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31516,14 +28954,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 274,
       INT: 286,
       CRT: 260,
       SPS: 182,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31536,14 +28972,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 169,
       INT: 176,
       DHT: 160,
       DET: 112,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31556,14 +28990,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       INT: 132,
       CRT: 84,
       SPS: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31576,14 +29008,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       CRT: 120,
       SKS: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31596,14 +29026,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       CRT: 120,
       SKS: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31616,14 +29044,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 132,
       VIT: 141,
       DHT: 84,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31636,14 +29062,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       MND: 132,
       PIE: 84,
       SPS: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31656,14 +29080,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       INT: 132,
       DHT: 120,
       DET: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31676,14 +29098,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       CRT: 84,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31696,14 +29116,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       DHT: 120,
       DET: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31716,14 +29134,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 132,
       VIT: 141,
       CRT: 120,
       DET: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31736,14 +29152,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       MND: 132,
       CRT: 84,
       SPS: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31756,14 +29170,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       INT: 132,
       DHT: 84,
       CRT: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31776,14 +29188,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       TEN: 84,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31796,14 +29206,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       DHT: 120,
       SKS: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31816,14 +29224,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 132,
       VIT: 141,
       DHT: 84,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31836,14 +29242,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       MND: 132,
       PIE: 120,
       CRT: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31856,14 +29260,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       INT: 132,
       DET: 120,
       SPS: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31876,14 +29278,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       CRT: 84,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31896,14 +29296,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 132,
       VIT: 141,
       DHT: 84,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31916,14 +29314,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 132,
       VIT: 141,
       DHT: 84,
       CRT: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31936,14 +29332,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       MND: 132,
       CRT: 120,
       SPS: 84,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -31956,14 +29350,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 127,
       INT: 132,
       CRT: 84,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/岩燕庙',
   },
   {
@@ -32177,14 +29569,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       TEN: 114,
       SKS: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32197,14 +29587,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       CRT: 265,
       SKS: 186,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32217,14 +29605,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       TEN: 163,
       DET: 114,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32237,14 +29623,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       CRT: 265,
       SKS: 186,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32257,14 +29641,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32277,14 +29659,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       TEN: 86,
       DET: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32297,14 +29677,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DHT: 114,
       CRT: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32317,14 +29695,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       DET: 186,
       SKS: 265,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32337,14 +29713,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32357,14 +29731,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       DHT: 186,
       DET: 265,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32377,14 +29749,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 114,
       SKS: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32397,14 +29767,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       DHT: 122,
       DET: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32417,14 +29785,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DET: 114,
       SKS: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32437,14 +29803,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       DHT: 265,
       SKS: 186,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32457,14 +29821,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32477,14 +29839,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       DHT: 186,
       CRT: 265,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32497,14 +29857,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 114,
       SKS: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32517,14 +29875,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       CRT: 122,
       DET: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32537,14 +29893,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DET: 114,
       SKS: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32557,14 +29911,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       DHT: 265,
       SKS: 186,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32577,14 +29929,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DHT: 114,
       DET: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32597,14 +29947,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       DHT: 186,
       CRT: 265,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32617,14 +29965,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32637,14 +29983,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 135,
       VIT: 145,
       DET: 86,
       SKS: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32657,14 +30001,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DHT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32677,14 +30019,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       DET: 186,
       SKS: 265,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32697,14 +30037,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32717,14 +30055,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       DHT: 265,
       DET: 186,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32737,14 +30073,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32757,14 +30091,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 135,
       VIT: 145,
       DHT: 86,
       CRT: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32777,14 +30109,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       PIE: 163,
       CRT: 114,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32797,14 +30127,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
       DET: 186,
       SPS: 265,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32817,14 +30145,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       PIE: 114,
       CRT: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32837,14 +30163,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
       PIE: 265,
       SPS: 186,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32857,14 +30181,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32877,14 +30199,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       MND: 135,
       DET: 86,
       SPS: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32897,14 +30217,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       DHT: 114,
       DET: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32917,14 +30235,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
       CRT: 265,
       SPS: 186,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32937,14 +30253,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32957,14 +30271,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
       DHT: 186,
       SPS: 265,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32977,14 +30289,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       DHT: 163,
       CRT: 114,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -32997,14 +30307,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       INT: 135,
       DET: 86,
       SPS: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33017,14 +30325,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       TEN: 86,
       CRT: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33037,14 +30343,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       CRT: 86,
       DET: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33057,14 +30361,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 135,
       VIT: 145,
       DET: 86,
       SKS: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33077,14 +30379,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       MND: 135,
       PIE: 122,
       SPS: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33097,14 +30397,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       INT: 135,
       CRT: 86,
       DET: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33117,14 +30415,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       TEN: 122,
       CRT: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33137,14 +30433,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       DHT: 86,
       DET: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33157,14 +30451,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 135,
       VIT: 145,
       DET: 122,
       SKS: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33177,14 +30469,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       MND: 135,
       CRT: 86,
       DET: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33197,14 +30487,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       INT: 135,
       DHT: 122,
       DET: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33217,14 +30505,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       CRT: 122,
       SKS: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33237,14 +30523,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       DHT: 122,
       SKS: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33257,14 +30541,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 135,
       VIT: 145,
       CRT: 122,
       SKS: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33277,14 +30559,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       MND: 135,
       PIE: 86,
       CRT: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33297,14 +30577,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       INT: 135,
       CRT: 122,
       SPS: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33317,14 +30595,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       DET: 86,
       SKS: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33337,14 +30613,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 135,
       VIT: 145,
       CRT: 122,
       SKS: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33357,14 +30631,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 135,
       VIT: 145,
       DHT: 122,
       CRT: 86,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33377,14 +30649,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       MND: 135,
       DET: 86,
       SPS: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -33397,14 +30667,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 130,
       INT: 135,
       DHT: 86,
       SPS: 122,
     },
-    hq: false,
     source: '大型任务/西格玛幻境',
   },
   {
@@ -35001,7 +32269,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
@@ -35021,7 +32288,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
@@ -35041,7 +32307,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
@@ -35061,7 +32326,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
@@ -35081,7 +32345,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
@@ -35101,7 +32364,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
@@ -35121,7 +32383,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
@@ -35141,14 +32402,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35161,14 +32420,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       CRT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35181,14 +32438,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35201,14 +32456,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       TEN: 186,
       SKS: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35221,14 +32474,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       TEN: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35241,14 +32492,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35261,14 +32510,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       CRT: 265,
       SKS: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35281,14 +32528,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 114,
       SKS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35301,14 +32546,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       DHT: 265,
       DET: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35321,14 +32564,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35341,14 +32582,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35361,14 +32600,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       CRT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35381,14 +32618,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35401,14 +32636,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       TEN: 186,
       SKS: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35421,14 +32654,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       TEN: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35441,14 +32672,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35461,14 +32690,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       DHT: 186,
       CRT: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35481,14 +32708,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DHT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35501,14 +32726,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       DET: 186,
       SKS: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35521,14 +32744,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DHT: 163,
       CRT: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35541,14 +32762,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       CRT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35561,14 +32780,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       DHT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35581,14 +32798,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DET: 114,
       SKS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35601,14 +32816,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       CRT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35621,14 +32834,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DHT: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35641,14 +32852,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       CRT: 163,
       SPS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35661,14 +32870,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
       PIE: 265,
       DET: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35681,14 +32888,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       PIE: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35701,14 +32906,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
       PIE: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35721,14 +32924,12 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       CRT: 163,
       SPS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35741,14 +32942,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35761,14 +32960,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
       CRT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35781,14 +32978,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       DHT: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35801,14 +32996,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
       DHT: 265,
       DET: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35821,14 +33014,12 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       CRT: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35841,14 +33032,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35861,14 +33050,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
       CRT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35881,14 +33068,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       DHT: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35901,14 +33086,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
       DHT: 265,
       DET: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35921,14 +33104,12 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       CRT: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35941,14 +33122,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       CRT: 163,
       SPS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35961,14 +33140,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
       PIE: 265,
       DET: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -35981,14 +33158,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       PIE: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36001,14 +33176,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
       PIE: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36021,14 +33194,12 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       CRT: 163,
       SPS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36041,14 +33212,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DHT: 114,
       CRT: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36061,14 +33230,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       DHT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36081,14 +33248,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DHT: 163,
       CRT: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36101,14 +33266,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       DET: 186,
       SKS: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36121,14 +33284,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DHT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36141,14 +33302,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36161,14 +33320,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       CRT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36181,14 +33338,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36201,14 +33356,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       TEN: 186,
       SKS: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36221,14 +33374,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       TEN: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36241,14 +33392,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       CRT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36261,14 +33410,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       DHT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36281,14 +33428,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DET: 114,
       SKS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36301,14 +33446,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 293,
       VIT: 314,
       CRT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36321,14 +33464,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 193,
       DHT: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36341,14 +33482,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       CRT: 163,
       SPS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36361,14 +33500,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
       PIE: 265,
       DET: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36381,14 +33518,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       PIE: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36401,14 +33536,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       MND: 293,
       PIE: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36421,14 +33554,12 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 180,
       CRT: 163,
       SPS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36441,14 +33572,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36461,14 +33590,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       CRT: 265,
       SKS: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36481,14 +33608,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       CRT: 114,
       SKS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36501,14 +33626,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 293,
       VIT: 314,
       DHT: 265,
       DET: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36521,14 +33644,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 193,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36541,14 +33662,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36561,14 +33680,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
       CRT: 186,
       DET: 265,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36581,14 +33698,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       DHT: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36601,14 +33716,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 282,
       INT: 293,
       DHT: 265,
       DET: 186,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36621,14 +33734,12 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 180,
       CRT: 114,
       SPS: 163,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -36641,12 +33752,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36659,12 +33768,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36677,12 +33784,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36695,12 +33800,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36713,12 +33816,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36731,12 +33832,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36749,12 +33848,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36767,12 +33864,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36785,13 +33880,11 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 521,
       PCP: 298,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -36804,13 +33897,11 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 521,
       PCP: 298,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -36823,13 +33914,11 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 521,
       PCP: 298,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -36842,12 +33931,10 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 7,
       CRL: 152,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36860,13 +33947,11 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 4,
       CMS: 487,
       CRL: 152,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36879,12 +33964,10 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 7,
       CRL: 152,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36897,12 +33980,10 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 23,
       CRL: 152,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36915,12 +33996,10 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 23,
       CRL: 152,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -36933,12 +34012,10 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       PCP: 298,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -36951,14 +34028,12 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
       GTH: 298,
       PCP: 149,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -36971,13 +34046,11 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GP: 6,
       GTH: 223,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -36990,14 +34063,12 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 27,
       GP: 6,
       GTH: 149,
       PCP: 15,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -37010,13 +34081,11 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 16,
       GTH: 15,
       PCP: 149,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -37029,11 +34098,9 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CRL: 152,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -37046,12 +34113,10 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 50,
       CMS: 10,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -37064,12 +34129,10 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 50,
       CMS: 10,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -37082,12 +34145,10 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 50,
       CMS: 10,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -37100,12 +34161,10 @@ export default [
     jobCategory: 33,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CP: 26,
       CRL: 18,
     },
-    hq: false,
     source: '巧手黄票',
   },
   {
@@ -37118,11 +34177,9 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       PCP: 74,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -37135,11 +34192,9 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 74,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -37152,11 +34207,9 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 74,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -37169,11 +34222,9 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 74,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -37186,11 +34237,9 @@ export default [
     jobCategory: 32,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       GP: 39,
     },
-    hq: false,
     source: '大地黄票',
   },
   {
@@ -37203,12 +34252,10 @@ export default [
     jobCategory: 9,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37221,12 +34268,10 @@ export default [
     jobCategory: 10,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37239,12 +34284,10 @@ export default [
     jobCategory: 11,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37257,12 +34300,10 @@ export default [
     jobCategory: 12,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37275,12 +34316,10 @@ export default [
     jobCategory: 13,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37293,12 +34332,10 @@ export default [
     jobCategory: 14,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37311,12 +34348,10 @@ export default [
     jobCategory: 15,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37329,12 +34364,10 @@ export default [
     jobCategory: 16,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       CMS: 568,
       CRL: 305,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37347,13 +34380,11 @@ export default [
     jobCategory: 17,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 521,
       PCP: 298,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37366,13 +34397,11 @@ export default [
     jobCategory: 18,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 521,
       PCP: 298,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37385,13 +34414,11 @@ export default [
     jobCategory: 19,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 37,
       GTH: 521,
       PCP: 298,
     },
-    hq: false,
     source: '成就/笔记完成度',
   },
   {
@@ -37404,7 +34431,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 249,
@@ -37413,7 +34439,6 @@ export default [
       PDMG: 101,
       DLY: 2240,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37426,7 +34451,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37435,7 +34459,6 @@ export default [
       PDMG: 101,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37448,7 +34471,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37457,7 +34479,6 @@ export default [
       PDMG: 101,
       DLY: 3360,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37470,7 +34491,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37479,7 +34499,6 @@ export default [
       PDMG: 101,
       DLY: 2800,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37492,7 +34511,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 323,
       VIT: 348,
@@ -37501,7 +34519,6 @@ export default [
       PDMG: 101,
       DLY: 3040,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37514,7 +34531,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 323,
       VIT: 348,
@@ -37523,7 +34539,6 @@ export default [
       PDMG: 101,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37536,7 +34551,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37545,7 +34559,6 @@ export default [
       PDMG: 101,
       DLY: 2960,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37558,7 +34571,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 323,
       VIT: 348,
@@ -37567,7 +34579,6 @@ export default [
       PDMG: 101,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37580,7 +34591,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       MND: 323,
@@ -37588,7 +34598,6 @@ export default [
       DET: 204,
       MDMG: 137,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37601,7 +34610,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       INT: 323,
@@ -37609,7 +34617,6 @@ export default [
       SPS: 204,
       MDMG: 137,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37622,7 +34629,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       INT: 323,
@@ -37630,7 +34636,6 @@ export default [
       DET: 204,
       MDMG: 137,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37643,7 +34648,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       MND: 323,
@@ -37651,7 +34655,6 @@ export default [
       DET: 292,
       MDMG: 137,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37664,7 +34667,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       MND: 323,
@@ -37672,7 +34674,6 @@ export default [
       DET: 292,
       MDMG: 137,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37685,7 +34686,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37694,7 +34694,6 @@ export default [
       PDMG: 101,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37707,7 +34706,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       INT: 323,
@@ -37715,7 +34713,6 @@ export default [
       SPS: 204,
       MDMG: 137,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37728,14 +34725,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 92,
       VIT: 99,
       CRT: 58,
       SKS: 83,
     },
-    hq: false,
     source: '歼殛战/白虎',
   },
   {
@@ -37748,7 +34743,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 249,
@@ -37757,7 +34751,6 @@ export default [
       PDMG: 101,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37770,7 +34763,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37779,7 +34771,6 @@ export default [
       PDMG: 101,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37792,7 +34783,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37801,7 +34791,6 @@ export default [
       PDMG: 101,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37814,7 +34803,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37823,7 +34811,6 @@ export default [
       PDMG: 101,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37836,7 +34823,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 323,
       VIT: 348,
@@ -37845,7 +34831,6 @@ export default [
       PDMG: 101,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37858,7 +34843,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 323,
       VIT: 348,
@@ -37867,7 +34851,6 @@ export default [
       PDMG: 101,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37880,7 +34863,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -37889,7 +34871,6 @@ export default [
       PDMG: 101,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37902,7 +34883,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 323,
       VIT: 348,
@@ -37911,7 +34891,6 @@ export default [
       PDMG: 101,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37924,7 +34903,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       MND: 323,
@@ -37932,7 +34910,6 @@ export default [
       SPS: 292,
       MDMG: 137,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37945,7 +34922,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       INT: 323,
@@ -37953,7 +34929,6 @@ export default [
       SPS: 292,
       MDMG: 137,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37966,7 +34941,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       INT: 323,
@@ -37974,7 +34948,6 @@ export default [
       DET: 204,
       MDMG: 137,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -37987,7 +34960,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       MND: 323,
@@ -37995,7 +34967,6 @@ export default [
       DET: 204,
       MDMG: 137,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -38008,7 +34979,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       MND: 323,
@@ -38016,7 +34986,6 @@ export default [
       SPS: 292,
       MDMG: 137,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -38029,7 +34998,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 323,
       VIT: 348,
@@ -38038,7 +35006,6 @@ export default [
       PDMG: 101,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -38051,7 +35018,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 313,
       INT: 323,
@@ -38059,7 +35025,6 @@ export default [
       DET: 204,
       MDMG: 137,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -38072,14 +35037,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 92,
       VIT: 99,
       TEN: 83,
       DET: 58,
     },
-    hq: false,
     source: '优雷卡/常风之地',
   },
   {
@@ -38092,14 +35055,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       TEN: 117,
       DET: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38112,14 +35073,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 300,
       VIT: 323,
       DET: 271,
       SKS: 190,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38132,14 +35091,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       TEN: 117,
       CRT: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38152,14 +35109,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 300,
       VIT: 323,
       TEN: 271,
       CRT: 190,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38172,14 +35127,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       TEN: 117,
       SKS: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38192,14 +35145,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       CRT: 125,
       DET: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38212,14 +35163,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       DHT: 167,
       CRT: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38232,14 +35181,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 300,
       VIT: 323,
       CRT: 190,
       SKS: 271,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38252,14 +35199,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       CRT: 167,
       SKS: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38272,14 +35217,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 300,
       VIT: 323,
       CRT: 271,
       DET: 190,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38292,14 +35235,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       DHT: 117,
       DET: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38312,14 +35253,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       DHT: 125,
       CRT: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38332,14 +35271,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       DHT: 167,
       DET: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38352,14 +35289,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 300,
       VIT: 323,
       CRT: 271,
       DET: 190,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38372,14 +35307,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       DHT: 117,
       CRT: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38392,14 +35325,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 300,
       VIT: 323,
       DHT: 271,
       SKS: 190,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38412,14 +35343,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 185,
       VIT: 199,
       CRT: 167,
       DET: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38432,14 +35361,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       DET: 88,
       SKS: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38452,14 +35379,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 185,
       VIT: 199,
       CRT: 117,
       DET: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38472,14 +35397,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 300,
       VIT: 323,
       CRT: 190,
       SKS: 271,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38492,14 +35415,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 185,
       VIT: 199,
       CRT: 167,
       SKS: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38512,14 +35433,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 300,
       VIT: 323,
       DHT: 190,
       DET: 271,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38532,14 +35451,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 185,
       VIT: 199,
       DHT: 167,
       CRT: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38552,14 +35469,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 138,
       VIT: 149,
       DHT: 88,
       CRT: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38572,14 +35487,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 185,
       VIT: 199,
       DHT: 167,
       DET: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38592,14 +35505,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 300,
       VIT: 323,
       CRT: 271,
       SKS: 190,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38612,14 +35523,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 185,
       VIT: 199,
       DET: 117,
       SKS: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38632,14 +35541,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 300,
       VIT: 323,
       CRT: 190,
       DET: 271,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38652,14 +35559,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 185,
       VIT: 199,
       CRT: 167,
       SKS: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38672,14 +35577,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 138,
       VIT: 149,
       DHT: 125,
       DET: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38692,14 +35595,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 179,
       MND: 185,
       PIE: 167,
       SPS: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38712,14 +35613,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 291,
       MND: 300,
       CRT: 271,
       SPS: 190,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38732,14 +35631,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 179,
       MND: 185,
       PIE: 117,
       DET: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38752,14 +35649,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 291,
       MND: 300,
       CRT: 190,
       SPS: 271,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38772,14 +35667,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 179,
       MND: 185,
       PIE: 167,
       DET: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38792,14 +35685,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       MND: 138,
       CRT: 88,
       DET: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38812,14 +35703,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 179,
       INT: 185,
       DET: 117,
       SPS: 167,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38832,14 +35721,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 291,
       INT: 300,
       DHT: 190,
       CRT: 271,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38852,14 +35739,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 179,
       INT: 185,
       DET: 167,
       SPS: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38872,14 +35757,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 291,
       INT: 300,
       DET: 271,
       SPS: 190,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38892,14 +35775,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 179,
       INT: 185,
       CRT: 167,
       DET: 117,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38912,14 +35793,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       INT: 138,
       DHT: 125,
       CRT: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38932,14 +35811,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       TEN: 125,
       DET: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38952,14 +35829,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       DHT: 88,
       SKS: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38972,14 +35847,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 138,
       VIT: 149,
       DHT: 125,
       SKS: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -38992,14 +35865,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       MND: 138,
       PIE: 88,
       DET: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39012,14 +35883,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       INT: 138,
       DET: 125,
       SPS: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39032,14 +35901,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       CRT: 125,
       SKS: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39052,14 +35919,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       CRT: 125,
       SKS: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39072,14 +35937,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 138,
       VIT: 149,
       CRT: 88,
       DET: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39092,14 +35955,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       MND: 138,
       CRT: 88,
       SPS: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39112,14 +35973,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       INT: 138,
       CRT: 125,
       DET: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39132,14 +35991,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       DET: 88,
       SKS: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39152,14 +36009,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       CRT: 88,
       DET: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39172,14 +36027,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 138,
       VIT: 149,
       DET: 88,
       SKS: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39192,14 +36045,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       MND: 138,
       CRT: 125,
       DET: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39212,14 +36063,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       INT: 138,
       CRT: 88,
       DET: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39232,14 +36081,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       TEN: 125,
       DET: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39252,14 +36099,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 138,
       VIT: 149,
       DHT: 125,
       DET: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39272,14 +36117,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 138,
       VIT: 149,
       CRT: 125,
       DET: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39292,14 +36135,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       MND: 138,
       CRT: 125,
       SPS: 88,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39312,14 +36153,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 134,
       INT: 138,
       DET: 88,
       SPS: 125,
     },
-    hq: false,
     source: '迷宫挑战/终末焦土、植物园',
   },
   {
@@ -39332,7 +36171,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 256,
@@ -39341,7 +36179,6 @@ export default [
       PDMG: 102,
       DLY: 2240,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39354,7 +36191,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -39363,7 +36199,6 @@ export default [
       PDMG: 102,
       DLY: 2560,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39376,7 +36211,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -39385,7 +36219,6 @@ export default [
       PDMG: 102,
       DLY: 3360,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39398,7 +36231,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -39407,7 +36239,6 @@ export default [
       PDMG: 102,
       DLY: 2800,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39420,7 +36251,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -39429,7 +36259,6 @@ export default [
       PDMG: 102,
       DLY: 3040,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39442,7 +36271,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -39451,7 +36279,6 @@ export default [
       PDMG: 102,
       DLY: 2560,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39464,7 +36291,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -39473,7 +36299,6 @@ export default [
       PDMG: 102,
       DLY: 2960,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39486,7 +36311,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -39495,7 +36319,6 @@ export default [
       PDMG: 102,
       DLY: 2640,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39508,7 +36331,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -39516,7 +36338,6 @@ export default [
       DET: 298,
       MDMG: 138,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39529,7 +36350,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -39537,7 +36357,6 @@ export default [
       DET: 209,
       MDMG: 138,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39550,7 +36369,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -39558,7 +36376,6 @@ export default [
       SPS: 298,
       MDMG: 138,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39571,7 +36388,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -39579,7 +36395,6 @@ export default [
       SPS: 298,
       MDMG: 138,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39592,7 +36407,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -39600,7 +36414,6 @@ export default [
       SPS: 209,
       MDMG: 138,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39613,7 +36426,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -39622,7 +36434,6 @@ export default [
       PDMG: 102,
       DLY: 2640,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39635,7 +36446,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -39643,7 +36453,6 @@ export default [
       SPS: 298,
       MDMG: 138,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39656,14 +36465,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 94,
       VIT: 102,
       TEN: 60,
       CRT: 85,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39676,14 +36483,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DET: 171,
       SKS: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39696,14 +36501,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       CRT: 277,
       DET: 194,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39716,14 +36519,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       TEN: 171,
       SKS: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39736,14 +36537,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       CRT: 194,
       SKS: 277,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39756,14 +36555,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       CRT: 119,
       DET: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39776,14 +36573,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       TEN: 128,
       SKS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39796,14 +36591,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DHT: 119,
       DET: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39816,14 +36609,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       DHT: 194,
       CRT: 277,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39836,14 +36627,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DHT: 171,
       SKS: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39856,14 +36645,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       CRT: 194,
       SKS: 277,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39876,14 +36663,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DET: 119,
       SKS: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39896,14 +36681,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       DET: 128,
       SKS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39916,14 +36699,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DHT: 171,
       SKS: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39936,14 +36717,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       DET: 194,
       SKS: 277,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39956,14 +36735,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DET: 171,
       SKS: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39976,14 +36753,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       CRT: 277,
       DET: 194,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -39996,14 +36771,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DHT: 119,
       SKS: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40016,14 +36789,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       DHT: 90,
       CRT: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40036,14 +36807,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       DHT: 119,
       DET: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40056,14 +36825,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
       DET: 194,
       SKS: 277,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40076,14 +36843,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       CRT: 171,
       DET: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40096,14 +36861,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
       DHT: 277,
       CRT: 194,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40116,14 +36879,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       CRT: 171,
       SKS: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40136,14 +36897,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
       CRT: 90,
       SKS: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40156,14 +36915,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       DHT: 119,
       SKS: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40176,14 +36933,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
       CRT: 277,
       DET: 194,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40196,14 +36951,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       DHT: 171,
       CRT: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40216,14 +36969,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
       DET: 194,
       SKS: 277,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40236,14 +36987,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       DHT: 119,
       DET: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40256,14 +37005,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
       CRT: 90,
       SKS: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40276,14 +37023,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
       CRT: 171,
       DET: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40296,14 +37041,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       MND: 307,
       PIE: 194,
       DET: 277,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40316,14 +37059,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
       PIE: 171,
       CRT: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40336,14 +37077,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       MND: 307,
       DET: 194,
       SPS: 277,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40356,14 +37095,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
       PIE: 119,
       CRT: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40376,14 +37113,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
       CRT: 128,
       SPS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40396,14 +37131,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
       DHT: 119,
       SPS: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40416,14 +37149,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       INT: 307,
       DET: 277,
       SPS: 194,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40436,14 +37167,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
       CRT: 171,
       DET: 119,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40456,14 +37185,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       INT: 307,
       DHT: 277,
       CRT: 194,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40476,14 +37203,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
       DHT: 119,
       DET: 171,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40496,14 +37221,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
       DHT: 90,
       DET: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40516,14 +37239,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       CRT: 128,
       SKS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40536,14 +37257,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       CRT: 128,
       DET: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40556,14 +37275,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
       CRT: 128,
       SKS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40576,14 +37293,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
       CRT: 90,
       SPS: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40596,14 +37311,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
       CRT: 128,
       SPS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40616,14 +37329,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       CRT: 90,
       DET: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40636,14 +37347,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       CRT: 90,
       DET: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40656,14 +37365,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
       DHT: 90,
       SKS: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40676,14 +37383,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
       CRT: 128,
       DET: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40696,14 +37401,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
       DHT: 90,
       DET: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40716,14 +37419,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       TEN: 90,
       SKS: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40736,14 +37437,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       CRT: 90,
       SKS: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40756,14 +37455,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
       DHT: 90,
       DET: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40776,14 +37473,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
       PIE: 128,
       SPS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40796,14 +37491,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
       CRT: 90,
       SPS: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40816,14 +37509,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       DET: 90,
       SKS: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40836,14 +37527,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       DET: 128,
       SKS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40856,14 +37545,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
       CRT: 128,
       SKS: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40876,14 +37563,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
       PIE: 90,
       DET: 128,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40896,14 +37581,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
       DHT: 128,
       CRT: 90,
     },
-    hq: false,
     source: '点数/虚构→诗学',
   },
   {
@@ -40916,14 +37599,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       TEN: 171,
       SKS: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -40936,14 +37617,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       CRT: 194,
       SKS: 277,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -40956,14 +37635,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       TEN: 171,
       DET: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -40976,14 +37653,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       DET: 194,
       SKS: 277,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -40996,14 +37671,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DET: 171,
       SKS: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41016,14 +37689,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       TEN: 128,
       DET: 90,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41036,14 +37707,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       CRT: 171,
       DET: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41056,14 +37725,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       DHT: 194,
       SKS: 277,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41076,14 +37743,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DHT: 171,
       CRT: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41096,14 +37761,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       DHT: 194,
       SKS: 277,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41116,14 +37779,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       CRT: 119,
       DET: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41136,14 +37797,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       CRT: 128,
       SKS: 90,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41156,14 +37815,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       CRT: 119,
       SKS: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41176,14 +37833,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       DHT: 194,
       CRT: 277,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41196,14 +37851,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DHT: 119,
       DET: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41216,14 +37869,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
       DET: 194,
       SKS: 277,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41236,14 +37887,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
       DHT: 171,
       CRT: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41256,14 +37905,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
       CRT: 90,
       DET: 128,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41276,14 +37923,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       DET: 119,
       SKS: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41296,14 +37941,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
       DHT: 277,
       SKS: 194,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41316,14 +37959,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       DHT: 119,
       CRT: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41336,14 +37977,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
       CRT: 277,
       DET: 194,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41356,14 +37995,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       DHT: 171,
       SKS: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41376,14 +38013,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
       DET: 128,
       SKS: 90,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41396,14 +38031,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       CRT: 119,
       SKS: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41416,14 +38049,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
       DHT: 277,
       DET: 194,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41436,14 +38067,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       CRT: 171,
       DET: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41456,14 +38085,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
       DHT: 194,
       CRT: 277,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41476,14 +38103,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
       DET: 119,
       SKS: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41496,14 +38121,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
       DHT: 90,
       CRT: 128,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41516,14 +38139,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
       PIE: 171,
       DET: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41536,14 +38157,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       MND: 307,
       DET: 277,
       SPS: 194,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41556,14 +38175,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
       CRT: 119,
       SPS: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41576,14 +38193,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       MND: 307,
       PIE: 277,
       CRT: 194,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41596,14 +38211,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
       CRT: 119,
       DET: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41616,14 +38229,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
       PIE: 90,
       DET: 128,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41636,14 +38247,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
       CRT: 171,
       DET: 119,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41656,14 +38265,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       INT: 307,
       CRT: 277,
       SPS: 194,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41676,14 +38283,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
       DHT: 119,
       SPS: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41696,14 +38301,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       INT: 307,
       DHT: 277,
       DET: 194,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41716,14 +38319,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
       DHT: 119,
       CRT: 171,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41736,14 +38337,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
       CRT: 90,
       SPS: 128,
     },
-    hq: false,
     source: '团队任务/大灯塔',
   },
   {
@@ -41756,7 +38355,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 256,
@@ -41765,7 +38363,6 @@ export default [
       PDMG: 102,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41778,7 +38375,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -41787,7 +38383,6 @@ export default [
       PDMG: 102,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41800,7 +38395,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -41809,7 +38403,6 @@ export default [
       PDMG: 102,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41822,7 +38415,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -41831,7 +38423,6 @@ export default [
       PDMG: 102,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41844,7 +38435,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -41853,7 +38443,6 @@ export default [
       PDMG: 102,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41866,7 +38455,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -41875,7 +38463,6 @@ export default [
       PDMG: 102,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41888,7 +38475,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -41897,7 +38483,6 @@ export default [
       PDMG: 102,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41910,7 +38495,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -41919,7 +38503,6 @@ export default [
       PDMG: 102,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41932,7 +38515,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -41940,7 +38522,6 @@ export default [
       SPS: 298,
       MDMG: 138,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41953,7 +38534,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -41961,7 +38541,6 @@ export default [
       SPS: 298,
       MDMG: 138,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41974,7 +38553,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -41982,7 +38560,6 @@ export default [
       DET: 209,
       MDMG: 138,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -41995,7 +38572,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -42003,7 +38579,6 @@ export default [
       DET: 209,
       MDMG: 138,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -42016,7 +38591,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -42024,7 +38598,6 @@ export default [
       SPS: 298,
       MDMG: 138,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -42037,7 +38610,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -42046,7 +38618,6 @@ export default [
       PDMG: 102,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -42059,7 +38630,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -42067,7 +38637,6 @@ export default [
       DET: 209,
       MDMG: 138,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -42080,14 +38649,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 94,
       VIT: 102,
       TEN: 85,
       DET: 60,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -42100,7 +38667,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 256,
@@ -42122,7 +38688,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -42144,7 +38709,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -42166,7 +38730,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -42188,7 +38751,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -42210,7 +38772,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -42232,7 +38793,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -42254,7 +38814,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -42276,7 +38835,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -42297,7 +38855,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -42318,7 +38875,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -42339,7 +38895,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -42360,7 +38915,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       MND: 330,
@@ -42381,7 +38935,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -42403,7 +38956,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 322,
       INT: 330,
@@ -42424,7 +38976,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 94,
       VIT: 102,
@@ -42444,7 +38995,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42464,7 +39014,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
@@ -42484,7 +39033,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42504,7 +39052,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
@@ -42524,7 +39071,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42544,7 +39090,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -42564,7 +39109,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42584,7 +39128,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
@@ -42604,7 +39147,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42624,7 +39166,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
@@ -42644,7 +39185,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42664,7 +39204,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -42684,7 +39223,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42704,7 +39242,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
@@ -42724,7 +39261,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42744,7 +39280,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 307,
       VIT: 333,
@@ -42764,7 +39299,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 189,
       VIT: 205,
@@ -42784,7 +39318,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -42804,7 +39337,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
@@ -42824,7 +39356,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
@@ -42844,7 +39375,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
@@ -42864,7 +39394,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
@@ -42884,7 +39413,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
@@ -42904,7 +39432,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
@@ -42924,7 +39451,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
@@ -42944,7 +39470,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
@@ -42964,7 +39489,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
@@ -42984,7 +39508,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 307,
       VIT: 333,
@@ -43004,7 +39527,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 189,
       VIT: 205,
@@ -43024,7 +39546,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
@@ -43044,7 +39565,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
@@ -43064,7 +39584,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       MND: 307,
@@ -43084,7 +39603,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
@@ -43104,7 +39622,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       MND: 307,
@@ -43124,7 +39641,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       MND: 189,
@@ -43144,7 +39660,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
@@ -43164,7 +39679,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
@@ -43184,7 +39698,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       INT: 307,
@@ -43204,7 +39717,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
@@ -43224,7 +39736,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 299,
       INT: 307,
@@ -43244,7 +39755,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 184,
       INT: 189,
@@ -43264,7 +39774,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
@@ -43284,7 +39793,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -43304,7 +39812,6 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -43324,7 +39831,6 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
@@ -43344,7 +39850,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
@@ -43364,7 +39869,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
@@ -43384,7 +39888,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -43404,7 +39907,6 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -43424,7 +39926,6 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
@@ -43444,7 +39945,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
@@ -43464,7 +39964,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
@@ -43484,7 +39983,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -43504,7 +40002,6 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -43524,7 +40021,6 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
@@ -43544,7 +40040,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
@@ -43564,7 +40059,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
@@ -43584,7 +40078,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -43604,7 +40097,6 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 142,
       VIT: 154,
@@ -43624,7 +40116,6 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 142,
       VIT: 154,
@@ -43644,7 +40135,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       MND: 142,
@@ -43664,7 +40154,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 138,
       INT: 142,
@@ -43684,7 +40173,6 @@ export default [
     jobCategory: 149,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 358,
@@ -43693,7 +40181,6 @@ export default [
       PDMG: 102,
       DLY: 2800,
     },
-    hq: false,
     source: '点数/虚构→诗学',
     patch: '5.0',
   },
@@ -43707,7 +40194,6 @@ export default [
     jobCategory: 150,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 358,
@@ -43716,7 +40202,6 @@ export default [
       PDMG: 102,
       DLY: 3120,
     },
-    hq: false,
     source: '点数/虚构→诗学',
     patch: '5.0',
   },
@@ -43730,7 +40215,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 264,
@@ -43739,7 +40223,6 @@ export default [
       PDMG: 103,
       DLY: 2240,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43752,7 +40235,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -43761,7 +40243,6 @@ export default [
       PDMG: 103,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43774,7 +40255,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -43783,7 +40263,6 @@ export default [
       PDMG: 103,
       DLY: 3360,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43796,7 +40275,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -43805,7 +40283,6 @@ export default [
       PDMG: 103,
       DLY: 2800,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43818,7 +40295,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -43827,7 +40303,6 @@ export default [
       PDMG: 103,
       DLY: 3040,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43840,7 +40315,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -43849,7 +40323,6 @@ export default [
       PDMG: 103,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43862,7 +40335,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -43871,7 +40343,6 @@ export default [
       PDMG: 103,
       DLY: 2960,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43884,7 +40355,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -43893,7 +40363,6 @@ export default [
       PDMG: 103,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43906,7 +40375,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -43914,7 +40382,6 @@ export default [
       CRT: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43927,7 +40394,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -43935,7 +40401,6 @@ export default [
       DET: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43948,7 +40413,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -43956,7 +40420,6 @@ export default [
       CRT: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43969,7 +40432,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -43977,7 +40439,6 @@ export default [
       CRT: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -43990,7 +40451,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -43998,7 +40458,6 @@ export default [
       CRT: 305,
       MDMG: 139,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -44011,7 +40470,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44020,7 +40478,6 @@ export default [
       PDMG: 103,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -44033,7 +40490,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -44041,7 +40497,6 @@ export default [
       DET: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -44054,14 +40509,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 97,
       VIT: 105,
       DET: 61,
       SKS: 87,
     },
-    hq: false,
     source: '歼殛战/月读',
   },
   {
@@ -44074,7 +40527,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 264,
@@ -44083,7 +40535,6 @@ export default [
       PDMG: 103,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44096,7 +40547,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44105,7 +40555,6 @@ export default [
       PDMG: 103,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44118,7 +40567,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44127,7 +40575,6 @@ export default [
       PDMG: 103,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44140,7 +40587,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44149,7 +40595,6 @@ export default [
       PDMG: 103,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44162,7 +40607,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -44171,7 +40615,6 @@ export default [
       PDMG: 103,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44184,7 +40627,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -44193,7 +40635,6 @@ export default [
       PDMG: 103,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44206,7 +40647,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44215,7 +40655,6 @@ export default [
       PDMG: 103,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44228,7 +40667,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -44237,7 +40675,6 @@ export default [
       PDMG: 103,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44250,7 +40687,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -44258,7 +40694,6 @@ export default [
       SPS: 305,
       MDMG: 139,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44271,7 +40706,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -44279,7 +40713,6 @@ export default [
       SPS: 305,
       MDMG: 139,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44292,7 +40725,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -44300,7 +40732,6 @@ export default [
       DET: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44313,7 +40744,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -44321,7 +40751,6 @@ export default [
       DET: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44334,7 +40763,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -44342,7 +40770,6 @@ export default [
       SPS: 305,
       MDMG: 139,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44355,7 +40782,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44364,7 +40790,6 @@ export default [
       PDMG: 103,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44377,7 +40802,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -44385,7 +40809,6 @@ export default [
       DET: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44398,14 +40821,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 97,
       VIT: 105,
       TEN: 87,
       DET: 61,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -44418,7 +40839,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 242,
       VIT: 264,
@@ -44427,7 +40847,6 @@ export default [
       PDMG: 103,
       DLY: 2240,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44440,7 +40859,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44449,7 +40867,6 @@ export default [
       PDMG: 103,
       DLY: 2560,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44462,7 +40879,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44471,7 +40887,6 @@ export default [
       PDMG: 103,
       DLY: 3360,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44484,7 +40899,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44493,7 +40907,6 @@ export default [
       PDMG: 103,
       DLY: 2800,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44506,7 +40919,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -44515,7 +40927,6 @@ export default [
       PDMG: 103,
       DLY: 3040,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44528,7 +40939,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -44537,7 +40947,6 @@ export default [
       PDMG: 103,
       DLY: 2560,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44550,7 +40959,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44559,7 +40967,6 @@ export default [
       PDMG: 103,
       DLY: 2960,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44572,7 +40979,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -44581,7 +40987,6 @@ export default [
       PDMG: 103,
       DLY: 2640,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44594,7 +40999,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -44602,7 +41006,6 @@ export default [
       DET: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44615,7 +41018,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -44623,7 +41025,6 @@ export default [
       SPS: 305,
       MDMG: 139,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44636,7 +41037,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -44644,7 +41044,6 @@ export default [
       DET: 305,
       MDMG: 139,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44657,7 +41056,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -44665,7 +41063,6 @@ export default [
       SPS: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44678,7 +41075,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       MND: 339,
@@ -44686,7 +41082,6 @@ export default [
       DET: 305,
       MDMG: 139,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44699,7 +41094,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44708,7 +41102,6 @@ export default [
       PDMG: 103,
       DLY: 2640,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44721,7 +41114,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 332,
       INT: 339,
@@ -44729,7 +41121,6 @@ export default [
       SPS: 213,
       MDMG: 139,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44742,14 +41133,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 97,
       VIT: 105,
       TEN: 87,
       SKS: 61,
     },
-    hq: false,
     source: '天之御柱',
   },
   {
@@ -44762,7 +41151,6 @@ export default [
     jobCategory: 149,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 339,
       VIT: 369,
@@ -44771,7 +41159,6 @@ export default [
       PDMG: 103,
       DLY: 2800,
     },
-    hq: false,
     source: '天之御柱',
     patch: '5.0',
   },
@@ -44785,7 +41172,6 @@ export default [
     jobCategory: 150,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 339,
       VIT: 369,
@@ -44794,7 +41180,6 @@ export default [
       PDMG: 103,
       DLY: 3120,
     },
-    hq: false,
     source: '天之御柱',
     patch: '5.0',
   },
@@ -44808,7 +41193,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 248,
       VIT: 271,
@@ -44817,7 +41201,6 @@ export default [
       PDMG: 104,
       DLY: 2240,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -44830,7 +41213,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -44839,7 +41221,6 @@ export default [
       PDMG: 104,
       DLY: 2560,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -44852,7 +41233,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -44861,7 +41241,6 @@ export default [
       PDMG: 104,
       DLY: 3360,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -44874,7 +41253,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -44883,7 +41261,6 @@ export default [
       PDMG: 104,
       DLY: 2800,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -44896,7 +41273,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 347,
       VIT: 380,
@@ -44905,7 +41281,6 @@ export default [
       PDMG: 104,
       DLY: 3040,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -44918,7 +41293,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 347,
       VIT: 380,
@@ -44927,7 +41301,6 @@ export default [
       PDMG: 104,
       DLY: 2560,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -44940,7 +41313,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -44949,7 +41321,6 @@ export default [
       PDMG: 104,
       DLY: 2960,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -44962,7 +41333,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 347,
       VIT: 380,
@@ -44971,7 +41341,6 @@ export default [
       PDMG: 104,
       DLY: 2640,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -44984,7 +41353,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       MND: 347,
@@ -44992,7 +41360,6 @@ export default [
       DET: 311,
       MDMG: 140,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45005,7 +41372,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       INT: 347,
@@ -45013,7 +41379,6 @@ export default [
       DET: 218,
       MDMG: 140,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45026,7 +41391,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       INT: 347,
@@ -45034,7 +41398,6 @@ export default [
       SPS: 311,
       MDMG: 140,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45047,7 +41410,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       MND: 347,
@@ -45055,7 +41417,6 @@ export default [
       SPS: 311,
       MDMG: 140,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45068,7 +41429,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       MND: 347,
@@ -45076,7 +41436,6 @@ export default [
       SPS: 218,
       MDMG: 140,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45089,7 +41448,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -45098,7 +41456,6 @@ export default [
       PDMG: 104,
       DLY: 2640,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45111,7 +41468,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       INT: 347,
@@ -45119,7 +41475,6 @@ export default [
       SPS: 311,
       MDMG: 140,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45132,14 +41487,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 99,
       VIT: 109,
       TEN: 62,
       CRT: 89,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45152,14 +41505,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DET: 178,
       SKS: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45172,14 +41523,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       CRT: 289,
       DET: 202,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45192,14 +41541,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       TEN: 178,
       SKS: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45212,14 +41559,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       CRT: 202,
       SKS: 289,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45232,14 +41577,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       CRT: 125,
       DET: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45252,14 +41595,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       TEN: 133,
       SKS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45272,14 +41613,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DHT: 125,
       DET: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45292,14 +41631,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       DHT: 202,
       CRT: 289,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45312,14 +41649,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DHT: 178,
       SKS: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45332,14 +41667,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       CRT: 202,
       SKS: 289,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45352,14 +41685,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DET: 125,
       SKS: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45372,14 +41703,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DET: 133,
       SKS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45392,14 +41721,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DHT: 178,
       SKS: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45412,14 +41739,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       DET: 202,
       SKS: 289,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45432,14 +41757,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DET: 178,
       SKS: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45452,14 +41775,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       CRT: 289,
       DET: 202,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45472,14 +41793,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DHT: 125,
       SKS: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45492,14 +41811,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DHT: 93,
       CRT: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45512,14 +41829,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       DHT: 125,
       DET: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45532,14 +41847,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 322,
       VIT: 353,
       DET: 202,
       SKS: 289,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45552,14 +41865,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       CRT: 178,
       DET: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45572,14 +41883,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 322,
       VIT: 353,
       DHT: 289,
       CRT: 202,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45592,14 +41901,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       CRT: 178,
       SKS: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45612,14 +41919,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       CRT: 93,
       SKS: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45632,14 +41937,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       DHT: 125,
       SKS: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45652,14 +41955,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 322,
       VIT: 353,
       CRT: 289,
       DET: 202,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45672,14 +41973,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       DHT: 178,
       CRT: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45692,14 +41991,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 322,
       VIT: 353,
       DET: 202,
       SKS: 289,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45712,14 +42009,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       DHT: 125,
       DET: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45732,14 +42027,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       CRT: 93,
       SKS: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45752,14 +42045,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       MND: 198,
       CRT: 178,
       DET: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45772,14 +42063,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 317,
       MND: 322,
       PIE: 202,
       DET: 289,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45792,14 +42081,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       MND: 198,
       PIE: 178,
       CRT: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45812,14 +42099,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 317,
       MND: 322,
       DET: 202,
       SPS: 289,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45832,14 +42117,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       MND: 198,
       PIE: 125,
       CRT: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45852,14 +42135,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       CRT: 133,
       SPS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45872,14 +42153,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       INT: 198,
       DHT: 125,
       SPS: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45892,14 +42171,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 317,
       INT: 322,
       DET: 289,
       SPS: 202,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45912,14 +42189,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       INT: 198,
       CRT: 178,
       DET: 125,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45932,14 +42207,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 317,
       INT: 322,
       DHT: 289,
       CRT: 202,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45952,14 +42225,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       INT: 198,
       DHT: 125,
       DET: 178,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45972,14 +42243,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       DHT: 93,
       DET: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -45992,14 +42261,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 133,
       SKS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46012,14 +42279,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 133,
       DET: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46032,14 +42297,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       CRT: 133,
       SKS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46052,14 +42315,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       CRT: 93,
       SPS: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46072,14 +42333,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       CRT: 133,
       SPS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46092,14 +42351,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 93,
       DET: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46112,14 +42369,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 93,
       DET: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46132,14 +42387,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       DHT: 93,
       SKS: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46152,14 +42405,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       CRT: 133,
       DET: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46172,14 +42423,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       DHT: 93,
       DET: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46192,14 +42441,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       TEN: 93,
       SKS: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46212,14 +42459,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 93,
       SKS: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46232,14 +42477,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       DHT: 93,
       DET: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46252,14 +42495,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       PIE: 133,
       SPS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46272,14 +42513,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       CRT: 93,
       SPS: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46292,14 +42531,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DET: 93,
       SKS: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46312,14 +42549,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DET: 133,
       SKS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46332,14 +42567,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       CRT: 133,
       SKS: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46352,14 +42585,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       PIE: 93,
       DET: 133,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46372,14 +42603,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       DHT: 133,
       CRT: 93,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
   },
   {
@@ -46392,14 +42621,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       TEN: 178,
       CRT: 125,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46412,14 +42639,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       DET: 289,
       SKS: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46432,14 +42657,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       CRT: 178,
       DET: 125,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46452,14 +42675,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       CRT: 202,
       DET: 289,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46472,14 +42693,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       TEN: 178,
       SKS: 125,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46492,14 +42711,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 133,
       SKS: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46512,14 +42729,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       CRT: 125,
       SKS: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46532,14 +42747,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       DET: 289,
       SKS: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46552,14 +42765,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       CRT: 125,
       DET: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46572,14 +42783,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       DHT: 289,
       DET: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46592,14 +42801,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DHT: 125,
       CRT: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46612,14 +42819,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DHT: 93,
       CRT: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46632,14 +42837,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       CRT: 125,
       DET: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46652,14 +42855,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       DHT: 202,
       CRT: 289,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46672,14 +42873,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       CRT: 125,
       DET: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46692,14 +42891,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 322,
       VIT: 353,
       DHT: 202,
       SKS: 289,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46712,14 +42909,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 198,
       VIT: 217,
       DHT: 178,
       DET: 125,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46732,14 +42927,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DET: 93,
       SKS: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46752,14 +42945,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       CRT: 125,
       SKS: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46772,14 +42963,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 322,
       VIT: 353,
       DHT: 202,
       CRT: 289,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46792,14 +42981,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       DHT: 125,
       SKS: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46812,14 +42999,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 322,
       VIT: 353,
       DET: 289,
       SKS: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46832,14 +43017,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       DHT: 178,
       DET: 125,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46852,14 +43035,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       DET: 133,
       SKS: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46872,14 +43053,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       CRT: 178,
       DET: 125,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46892,14 +43071,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 322,
       VIT: 353,
       DET: 289,
       SKS: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46912,14 +43089,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       DET: 125,
       SKS: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46932,14 +43107,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 322,
       VIT: 353,
       DHT: 289,
       CRT: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46952,14 +43125,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 198,
       VIT: 217,
       CRT: 125,
       SKS: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46972,14 +43143,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       DHT: 93,
       CRT: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -46992,14 +43161,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       MND: 198,
       PIE: 125,
       SPS: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47012,14 +43179,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 317,
       MND: 322,
       CRT: 289,
       SPS: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47032,14 +43197,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       MND: 198,
       DET: 178,
       SPS: 125,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47052,14 +43215,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 317,
       MND: 322,
       PIE: 289,
       CRT: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47072,14 +43233,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       MND: 198,
       DET: 125,
       SPS: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47092,14 +43251,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       PIE: 93,
       DET: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47112,14 +43269,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       INT: 198,
       CRT: 125,
       DET: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47132,14 +43287,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 317,
       INT: 322,
       DHT: 289,
       CRT: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47152,14 +43305,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       INT: 198,
       DHT: 125,
       SPS: 178,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47172,14 +43323,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 317,
       INT: 322,
       DET: 289,
       SPS: 202,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47192,14 +43341,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 195,
       INT: 198,
       CRT: 178,
       SPS: 125,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47212,14 +43359,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       CRT: 93,
       SPS: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47232,14 +43377,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       TEN: 93,
       SKS: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47252,14 +43395,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DET: 93,
       SKS: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47272,14 +43413,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       CRT: 93,
       DET: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47292,14 +43431,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       PIE: 133,
       DET: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47312,14 +43449,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       DHT: 133,
       DET: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47332,14 +43467,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       TEN: 133,
       CRT: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47352,14 +43485,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DHT: 133,
       SKS: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47372,14 +43503,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       CRT: 93,
       DET: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47392,14 +43521,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       PIE: 133,
       SPS: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47412,14 +43539,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       CRT: 93,
       SPS: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47432,14 +43557,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 133,
       SKS: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47452,14 +43575,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       DHT: 93,
       DET: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47472,14 +43593,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       DET: 93,
       SKS: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47492,14 +43611,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       CRT: 93,
       DET: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47512,14 +43629,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       DHT: 133,
       DET: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47532,14 +43647,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 93,
       DET: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47552,14 +43665,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 149,
       VIT: 163,
       CRT: 93,
       SKS: 133,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47572,14 +43683,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 149,
       VIT: 163,
       DHT: 133,
       DET: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47592,14 +43701,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       MND: 149,
       CRT: 133,
       SPS: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47612,14 +43719,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 147,
       INT: 149,
       DET: 133,
       SPS: 93,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -47632,7 +43737,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 248,
       VIT: 271,
@@ -47641,7 +43745,6 @@ export default [
       PDMG: 104,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47654,7 +43757,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -47663,7 +43765,6 @@ export default [
       PDMG: 104,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47676,7 +43777,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -47685,7 +43785,6 @@ export default [
       PDMG: 104,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47698,7 +43797,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -47707,7 +43805,6 @@ export default [
       PDMG: 104,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47720,7 +43817,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 347,
       VIT: 380,
@@ -47729,7 +43825,6 @@ export default [
       PDMG: 104,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47742,7 +43837,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 347,
       VIT: 380,
@@ -47751,7 +43845,6 @@ export default [
       PDMG: 104,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47764,7 +43857,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -47773,7 +43865,6 @@ export default [
       PDMG: 104,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47786,7 +43877,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 347,
       VIT: 380,
@@ -47795,7 +43885,6 @@ export default [
       PDMG: 104,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47808,7 +43897,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       MND: 347,
@@ -47816,7 +43904,6 @@ export default [
       SPS: 311,
       MDMG: 140,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47829,7 +43916,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       INT: 347,
@@ -47837,7 +43923,6 @@ export default [
       SPS: 311,
       MDMG: 140,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47850,7 +43935,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       INT: 347,
@@ -47858,7 +43942,6 @@ export default [
       DET: 218,
       MDMG: 140,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47871,7 +43954,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       MND: 347,
@@ -47879,7 +43961,6 @@ export default [
       DET: 218,
       MDMG: 140,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47892,7 +43973,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       MND: 347,
@@ -47900,7 +43980,6 @@ export default [
       SPS: 311,
       MDMG: 140,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47913,7 +43992,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -47922,7 +44000,6 @@ export default [
       PDMG: 104,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47935,7 +44012,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 342,
       INT: 347,
@@ -47943,7 +44019,6 @@ export default [
       DET: 218,
       MDMG: 140,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -47956,14 +44031,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 99,
       VIT: 109,
       TEN: 89,
       DET: 62,
     },
-    hq: false,
     source: '优雷卡/恒冰之地',
   },
   {
@@ -48575,7 +44648,6 @@ export default [
     jobCategory: 149,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 347,
       VIT: 380,
@@ -48584,7 +44656,6 @@ export default [
       PDMG: 104,
       DLY: 2800,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
     patch: '5.0',
   },
@@ -48598,7 +44669,6 @@ export default [
     jobCategory: 150,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 347,
       VIT: 380,
@@ -48607,7 +44677,6 @@ export default [
       PDMG: 104,
       DLY: 3120,
     },
-    hq: false,
     source: '点数强化/虚构→诗学',
     patch: '5.0',
   },
@@ -48621,7 +44690,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 254,
       VIT: 279,
@@ -48630,7 +44698,6 @@ export default [
       PDMG: 105,
       DLY: 2240,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48643,7 +44710,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -48652,7 +44718,6 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48665,7 +44730,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -48674,7 +44738,6 @@ export default [
       PDMG: 105,
       DLY: 3360,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48687,7 +44750,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -48696,7 +44758,6 @@ export default [
       PDMG: 105,
       DLY: 2800,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48709,7 +44770,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -48718,7 +44778,6 @@ export default [
       PDMG: 105,
       DLY: 3040,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48731,7 +44790,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -48740,7 +44798,6 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48753,7 +44810,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -48762,7 +44818,6 @@ export default [
       PDMG: 105,
       DLY: 2960,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48775,7 +44830,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -48784,7 +44838,6 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48797,7 +44850,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -48805,7 +44857,6 @@ export default [
       SPS: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48818,7 +44869,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -48826,7 +44876,6 @@ export default [
       SPS: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48839,7 +44888,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -48847,7 +44895,6 @@ export default [
       DET: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48860,7 +44907,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -48868,7 +44914,6 @@ export default [
       CRT: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48881,7 +44926,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -48889,7 +44933,6 @@ export default [
       DET: 223,
       MDMG: 141,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48902,7 +44945,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -48911,7 +44953,6 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48924,7 +44965,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -48932,7 +44972,6 @@ export default [
       DET: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48945,14 +44984,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 101,
       VIT: 112,
       CRT: 64,
       DET: 91,
     },
-    hq: false,
     source: '零式/西格玛幻境',
   },
   {
@@ -48965,7 +45002,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 254,
       VIT: 279,
@@ -48974,7 +45010,6 @@ export default [
       PDMG: 105,
       DLY: 2240,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -48987,7 +45022,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -48996,7 +45030,6 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49009,7 +45042,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49018,7 +45050,6 @@ export default [
       PDMG: 105,
       DLY: 3360,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49031,7 +45062,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49040,7 +45070,6 @@ export default [
       PDMG: 105,
       DLY: 2800,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49053,7 +45082,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -49062,7 +45090,6 @@ export default [
       PDMG: 105,
       DLY: 3040,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49075,7 +45102,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -49084,7 +45110,6 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49097,7 +45122,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49106,7 +45130,6 @@ export default [
       PDMG: 105,
       DLY: 2960,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49119,7 +45142,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -49128,7 +45150,6 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49141,7 +45162,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -49149,7 +45169,6 @@ export default [
       SPS: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49162,7 +45181,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -49170,7 +45188,6 @@ export default [
       SPS: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49183,7 +45200,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -49191,7 +45207,6 @@ export default [
       DET: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49204,7 +45219,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -49212,7 +45226,6 @@ export default [
       CRT: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49225,7 +45238,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -49233,7 +45245,6 @@ export default [
       DET: 223,
       MDMG: 141,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49246,7 +45257,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49255,7 +45265,6 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49268,7 +45277,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 3,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -49276,7 +45284,6 @@ export default [
       DET: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49289,14 +45296,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 101,
       VIT: 112,
       CRT: 64,
       DET: 91,
     },
-    hq: false,
     source: '绝境战/究极神兵',
   },
   {
@@ -49309,7 +45314,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 254,
       VIT: 279,
@@ -49318,7 +45322,6 @@ export default [
       PDMG: 105,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49331,7 +45334,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49340,7 +45342,6 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49353,7 +45354,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49362,7 +45362,6 @@ export default [
       PDMG: 105,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49375,7 +45374,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49384,7 +45382,6 @@ export default [
       PDMG: 105,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49397,7 +45394,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -49406,7 +45402,6 @@ export default [
       PDMG: 105,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49419,7 +45414,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -49428,7 +45422,6 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49441,7 +45434,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49450,7 +45442,6 @@ export default [
       PDMG: 105,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49463,7 +45454,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 355,
       VIT: 391,
@@ -49472,7 +45462,6 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49485,7 +45474,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -49493,7 +45481,6 @@ export default [
       SPS: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49506,7 +45493,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -49514,7 +45500,6 @@ export default [
       SPS: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49527,7 +45512,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -49535,7 +45519,6 @@ export default [
       DET: 223,
       MDMG: 141,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49548,7 +45531,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -49556,7 +45538,6 @@ export default [
       DET: 223,
       MDMG: 141,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49569,7 +45550,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       MND: 355,
@@ -49577,7 +45557,6 @@ export default [
       SPS: 318,
       MDMG: 141,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49590,7 +45569,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 355,
       VIT: 391,
@@ -49599,7 +45577,6 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49612,7 +45589,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 352,
       INT: 355,
@@ -49620,7 +45596,6 @@ export default [
       DET: 223,
       MDMG: 141,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49633,14 +45608,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 101,
       VIT: 112,
       TEN: 91,
       DET: 64,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -49653,14 +45626,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       TEN: 182,
       DET: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49673,14 +45644,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 363,
       CRT: 295,
       DET: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49693,14 +45662,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       CRT: 127,
       SKS: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49713,14 +45680,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 363,
       TEN: 207,
       CRT: 295,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49733,14 +45698,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       CRT: 182,
       SKS: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49753,14 +45716,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       CRT: 95,
       SKS: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49773,14 +45734,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       CRT: 182,
       DET: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49793,14 +45752,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 363,
       DHT: 207,
       CRT: 295,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49813,14 +45770,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       DET: 127,
       SKS: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49833,14 +45788,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 363,
       DHT: 207,
       CRT: 295,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49853,14 +45806,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       CRT: 127,
       SKS: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49873,14 +45824,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       DHT: 95,
       DET: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49893,14 +45842,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       CRT: 182,
       DET: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49913,14 +45860,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 363,
       DHT: 207,
       DET: 295,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49933,14 +45878,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       DHT: 182,
       SKS: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49953,14 +45896,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 330,
       VIT: 363,
       CRT: 295,
       DET: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49973,14 +45914,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 203,
       VIT: 223,
       CRT: 182,
       DET: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -49993,14 +45932,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       DHT: 136,
       SKS: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50013,14 +45950,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 203,
       VIT: 223,
       DHT: 182,
       DET: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50033,14 +45968,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 363,
       DHT: 295,
       CRT: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50053,14 +45986,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 203,
       VIT: 223,
       CRT: 182,
       SKS: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50073,14 +46004,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 363,
       CRT: 295,
       DET: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50093,14 +46022,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 203,
       VIT: 223,
       CRT: 127,
       SKS: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50113,14 +46040,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 152,
       VIT: 168,
       CRT: 136,
       DET: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50133,14 +46058,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 203,
       VIT: 223,
       CRT: 127,
       SKS: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50153,14 +46076,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 363,
       CRT: 295,
       DET: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50173,14 +46094,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 203,
       VIT: 223,
       DHT: 127,
       DET: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50193,14 +46112,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 330,
       VIT: 363,
       DHT: 295,
       CRT: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50213,14 +46130,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 203,
       VIT: 223,
       CRT: 182,
       SKS: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50233,14 +46148,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 152,
       VIT: 168,
       CRT: 136,
       DET: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50253,14 +46166,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 201,
       MND: 203,
       PIE: 127,
       DET: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50273,14 +46184,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 327,
       MND: 330,
       DET: 295,
       SPS: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50293,14 +46202,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 201,
       MND: 203,
       PIE: 182,
       DET: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50313,14 +46220,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 327,
       MND: 330,
       PIE: 295,
       SPS: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50333,14 +46238,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 201,
       MND: 203,
       CRT: 182,
       DET: 127,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50353,14 +46256,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       MND: 152,
       DET: 95,
       SPS: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50373,14 +46274,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 201,
       INT: 203,
       CRT: 127,
       SPS: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50393,14 +46292,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 327,
       INT: 330,
       DHT: 295,
       SPS: 207,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50413,14 +46310,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 201,
       INT: 203,
       DHT: 127,
       CRT: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50433,14 +46328,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 327,
       INT: 330,
       DHT: 207,
       DET: 295,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50453,14 +46346,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 201,
       INT: 203,
       DET: 127,
       SPS: 182,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50473,14 +46364,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       INT: 152,
       DHT: 136,
       CRT: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50493,14 +46382,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       TEN: 95,
       SKS: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50513,14 +46400,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       DET: 136,
       SKS: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50533,14 +46418,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 152,
       VIT: 168,
       DHT: 136,
       SKS: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50553,14 +46436,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       MND: 152,
       PIE: 136,
       SPS: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50573,14 +46454,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       INT: 152,
       DET: 136,
       SPS: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50593,14 +46472,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       TEN: 136,
       CRT: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50613,14 +46490,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       DHT: 95,
       CRT: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50633,14 +46508,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 152,
       VIT: 168,
       CRT: 136,
       DET: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50653,14 +46526,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       MND: 152,
       CRT: 136,
       SPS: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50673,14 +46544,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       INT: 152,
       DHT: 136,
       DET: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50693,14 +46562,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       TEN: 136,
       DET: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50713,14 +46580,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       DET: 95,
       SKS: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50733,14 +46598,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 152,
       VIT: 168,
       DET: 136,
       SKS: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50753,14 +46616,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       MND: 152,
       PIE: 136,
       CRT: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50773,14 +46634,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       INT: 152,
       DHT: 95,
       CRT: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50793,14 +46652,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       CRT: 95,
       DET: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50813,14 +46670,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 152,
       VIT: 168,
       CRT: 136,
       DET: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50833,14 +46688,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 152,
       VIT: 168,
       DHT: 95,
       CRT: 136,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50853,14 +46706,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       MND: 152,
       PIE: 136,
       CRT: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50873,14 +46724,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 151,
       INT: 152,
       DHT: 136,
       SPS: 95,
     },
-    hq: false,
     source: '迷宫挑战/国境战线',
   },
   {
@@ -50893,14 +46742,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       CRT: 130,
       SKS: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -50913,14 +46760,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       TEN: 301,
       CRT: 211,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -50933,14 +46778,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       TEN: 130,
       CRT: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -50953,14 +46796,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       TEN: 211,
       DET: 301,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -50973,14 +46814,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       CRT: 185,
       DET: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -50993,14 +46832,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       DET: 139,
       SKS: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51013,14 +46850,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       DHT: 130,
       SKS: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51033,14 +46868,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       CRT: 211,
       DET: 301,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51053,14 +46886,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       CRT: 185,
       DET: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51073,14 +46904,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       DHT: 211,
       SKS: 301,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51093,14 +46922,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       DET: 185,
       SKS: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51113,14 +46940,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       CRT: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51133,14 +46958,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       DHT: 130,
       DET: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51153,14 +46976,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       DHT: 211,
       CRT: 301,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51173,14 +46994,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       DET: 130,
       SKS: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51193,14 +47012,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       DHT: 301,
       SKS: 211,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51213,14 +47030,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       DET: 185,
       SKS: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51233,14 +47048,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       CRT: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51253,14 +47066,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       CRT: 185,
       DET: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51273,14 +47084,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
       DET: 301,
       SKS: 211,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51293,14 +47102,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       DET: 130,
       SKS: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51313,14 +47120,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
       DHT: 301,
       CRT: 211,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51333,14 +47138,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       DET: 185,
       SKS: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51353,14 +47156,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 156,
       VIT: 172,
       DHT: 139,
       SKS: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51373,14 +47174,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       CRT: 185,
       DET: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51393,14 +47192,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
       DHT: 211,
       DET: 301,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51413,14 +47210,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       CRT: 185,
       DET: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51433,14 +47228,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
       DET: 301,
       SKS: 211,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51453,14 +47246,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       DHT: 185,
       DET: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51473,14 +47264,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 156,
       VIT: 172,
       DHT: 139,
       SKS: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51493,14 +47282,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       MND: 208,
       PIE: 130,
       CRT: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51513,14 +47300,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       MND: 337,
       DET: 211,
       SPS: 301,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51533,14 +47318,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       MND: 208,
       PIE: 185,
       SPS: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51553,14 +47336,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       MND: 337,
       CRT: 211,
       DET: 301,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51573,14 +47354,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       MND: 208,
       DET: 130,
       SPS: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51593,14 +47372,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       MND: 156,
       CRT: 139,
       SPS: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51613,14 +47390,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       INT: 208,
       DHT: 185,
       SPS: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51633,14 +47408,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       INT: 337,
       DHT: 211,
       SPS: 301,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51653,14 +47426,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       INT: 208,
       CRT: 130,
       DET: 185,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51673,14 +47444,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       INT: 337,
       CRT: 301,
       SPS: 211,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51693,14 +47462,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       INT: 208,
       DET: 185,
       SPS: 130,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51713,14 +47480,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       INT: 156,
       DHT: 139,
       CRT: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51733,14 +47498,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       CRT: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51753,14 +47516,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       DHT: 97,
       SKS: 139,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51773,14 +47534,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 156,
       VIT: 172,
       CRT: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51793,14 +47552,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       MND: 156,
       PIE: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51813,14 +47570,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       INT: 156,
       DHT: 97,
       DET: 139,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51833,14 +47588,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       TEN: 97,
       DET: 139,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51853,14 +47606,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       CRT: 97,
       SKS: 139,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51873,14 +47624,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 156,
       VIT: 172,
       DHT: 97,
       SKS: 139,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51893,14 +47642,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       MND: 156,
       PIE: 97,
       SPS: 139,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51913,14 +47660,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       INT: 156,
       CRT: 97,
       SPS: 139,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51933,14 +47678,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       CRT: 139,
       SKS: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51953,14 +47696,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       CRT: 97,
       DET: 139,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51973,14 +47714,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 156,
       VIT: 172,
       CRT: 139,
       SKS: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -51993,14 +47732,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       MND: 156,
       PIE: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -52013,14 +47750,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       INT: 156,
       CRT: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -52033,14 +47768,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       CRT: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -52053,14 +47786,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 156,
       VIT: 172,
       DHT: 139,
       CRT: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -52073,14 +47804,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 156,
       VIT: 172,
       DHT: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -52093,14 +47822,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       MND: 156,
       CRT: 139,
       DET: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -52113,14 +47840,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 155,
       INT: 156,
       DET: 139,
       SPS: 97,
     },
-    hq: false,
     source: '大型任务/阿尔法幻境',
   },
   {
@@ -53717,7 +49442,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
@@ -53737,7 +49461,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
@@ -53757,7 +49480,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
@@ -53777,7 +49499,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
@@ -53797,7 +49518,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
@@ -53817,7 +49537,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       MND: 337,
@@ -53837,7 +49556,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       INT: 337,
@@ -53857,7 +49575,6 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 259,
       VIT: 287,
@@ -53866,7 +49583,6 @@ export default [
       PDMG: 105,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -53879,7 +49595,6 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 363,
       VIT: 402,
@@ -53888,7 +49603,6 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -53901,7 +49615,6 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 363,
       VIT: 402,
@@ -53910,7 +49623,6 @@ export default [
       PDMG: 105,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -53923,7 +49635,6 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 363,
       VIT: 402,
@@ -53932,7 +49643,6 @@ export default [
       PDMG: 105,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -53945,7 +49655,6 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 363,
       VIT: 402,
@@ -53954,7 +49663,6 @@ export default [
       PDMG: 105,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -53967,7 +49675,6 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 363,
       VIT: 402,
@@ -53976,7 +49683,6 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -53989,7 +49695,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 363,
       VIT: 402,
@@ -53998,7 +49703,6 @@ export default [
       PDMG: 105,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54011,7 +49715,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 363,
       VIT: 402,
@@ -54020,7 +49723,6 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54033,7 +49735,6 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 362,
       MND: 363,
@@ -54041,7 +49742,6 @@ export default [
       SPS: 324,
       MDMG: 142,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54054,7 +49754,6 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 362,
       INT: 363,
@@ -54062,7 +49761,6 @@ export default [
       SPS: 324,
       MDMG: 142,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54075,7 +49773,6 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 362,
       INT: 363,
@@ -54083,7 +49780,6 @@ export default [
       DET: 227,
       MDMG: 142,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54096,7 +49792,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 362,
       MND: 363,
@@ -54104,7 +49799,6 @@ export default [
       DET: 227,
       MDMG: 142,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54117,7 +49811,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 362,
       MND: 363,
@@ -54125,7 +49818,6 @@ export default [
       SPS: 324,
       MDMG: 142,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54138,7 +49830,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 363,
       VIT: 402,
@@ -54147,7 +49838,6 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54160,7 +49850,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 362,
       INT: 363,
@@ -54168,7 +49857,6 @@ export default [
       DET: 227,
       MDMG: 142,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54181,14 +49869,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 104,
       VIT: 115,
       TEN: 93,
       DET: 65,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54201,14 +49887,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       TEN: 130,
       DET: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54221,14 +49905,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       DET: 301,
       SKS: 211,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54241,14 +49923,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       CRT: 185,
       SKS: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54261,14 +49941,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       CRT: 301,
       DET: 211,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54281,14 +49959,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       TEN: 185,
       DET: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54301,14 +49977,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       CRT: 130,
       DET: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54321,14 +49995,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       DHT: 301,
       SKS: 211,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54341,14 +50013,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       DET: 185,
       SKS: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54361,14 +50031,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       DHT: 211,
       CRT: 301,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54381,14 +50049,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       DHT: 130,
       SKS: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54401,14 +50067,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       CRT: 185,
       DET: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54421,14 +50085,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       DHT: 211,
       SKS: 301,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54441,14 +50103,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       CRT: 185,
       SKS: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54461,14 +50121,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 337,
       VIT: 374,
       DET: 301,
       SKS: 211,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54481,14 +50139,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 208,
       VIT: 230,
       CRT: 130,
       DET: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54501,14 +50157,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       DHT: 185,
       CRT: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54521,14 +50175,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
       DHT: 301,
       SKS: 211,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54541,14 +50193,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       DHT: 185,
       CRT: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54561,14 +50211,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
       CRT: 211,
       DET: 301,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54581,14 +50229,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       CRT: 130,
       SKS: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54601,14 +50247,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       DHT: 130,
       DET: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54621,14 +50265,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
       CRT: 211,
       DET: 301,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54641,14 +50283,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       DHT: 185,
       DET: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54661,14 +50301,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 337,
       VIT: 374,
       DHT: 211,
       SKS: 301,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54681,14 +50319,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 208,
       VIT: 230,
       DHT: 130,
       SKS: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54701,14 +50337,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       MND: 208,
       DET: 130,
       SPS: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54721,14 +50355,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       MND: 337,
       CRT: 301,
       DET: 211,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54741,14 +50373,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       MND: 208,
       PIE: 130,
       DET: 185,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54761,14 +50391,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       MND: 337,
       PIE: 301,
       DET: 211,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54781,14 +50409,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       MND: 208,
       CRT: 185,
       DET: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54801,14 +50427,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       INT: 208,
       DHT: 185,
       CRT: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54821,14 +50445,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       INT: 337,
       DHT: 211,
       CRT: 301,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54841,14 +50463,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       INT: 208,
       DET: 185,
       SPS: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54861,14 +50481,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 336,
       INT: 337,
       CRT: 301,
       DET: 211,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54881,14 +50499,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 207,
       INT: 208,
       DHT: 185,
       DET: 130,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -54901,7 +50517,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 266,
       VIT: 296,
@@ -54910,7 +50525,6 @@ export default [
       PDMG: 106,
       DLY: 2240,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -54923,7 +50537,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
@@ -54932,7 +50545,6 @@ export default [
       PDMG: 106,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -54945,7 +50557,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
@@ -54954,7 +50565,6 @@ export default [
       PDMG: 106,
       DLY: 3360,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -54967,7 +50577,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
@@ -54976,7 +50585,6 @@ export default [
       PDMG: 106,
       DLY: 2800,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -54989,7 +50597,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 372,
       VIT: 414,
@@ -54998,7 +50605,6 @@ export default [
       PDMG: 106,
       DLY: 3040,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55011,7 +50617,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 372,
       VIT: 414,
@@ -55020,7 +50625,6 @@ export default [
       PDMG: 106,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55033,7 +50637,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
@@ -55042,7 +50645,6 @@ export default [
       PDMG: 106,
       DLY: 2960,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55055,7 +50657,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 372,
       VIT: 414,
@@ -55064,7 +50665,6 @@ export default [
       PDMG: 106,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55077,7 +50677,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       MND: 372,
@@ -55085,7 +50684,6 @@ export default [
       CRT: 330,
       MDMG: 143,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55098,7 +50696,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       INT: 372,
@@ -55106,7 +50703,6 @@ export default [
       SPS: 330,
       MDMG: 143,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55119,7 +50715,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       INT: 372,
@@ -55127,7 +50722,6 @@ export default [
       CRT: 330,
       MDMG: 143,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55140,7 +50734,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       MND: 372,
@@ -55148,7 +50741,6 @@ export default [
       DET: 330,
       MDMG: 143,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55161,7 +50753,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       MND: 372,
@@ -55169,7 +50760,6 @@ export default [
       SPS: 231,
       MDMG: 143,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55182,7 +50772,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
@@ -55191,7 +50780,6 @@ export default [
       PDMG: 106,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55204,7 +50792,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       INT: 372,
@@ -55212,7 +50799,6 @@ export default [
       SPS: 231,
       MDMG: 143,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55225,14 +50811,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 106,
       VIT: 118,
       TEN: 66,
       CRT: 94,
     },
-    hq: false,
     source: '歼殛战/朱雀',
   },
   {
@@ -55245,14 +50829,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 266,
       VIT: 296,
       PDMG: 106,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55265,14 +50847,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
       PDMG: 106,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55285,14 +50865,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
       PDMG: 106,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55305,14 +50883,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
       PDMG: 106,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55325,14 +50901,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 372,
       VIT: 414,
       PDMG: 106,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55345,14 +50919,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 372,
       VIT: 414,
       PDMG: 106,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55365,14 +50937,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
       PDMG: 106,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55385,14 +50955,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 372,
       VIT: 414,
       PDMG: 106,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55405,13 +50973,11 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       MND: 372,
       MDMG: 143,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55424,13 +50990,11 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       INT: 372,
       MDMG: 143,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55443,13 +51007,11 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       INT: 372,
       MDMG: 143,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55462,13 +51024,11 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       MND: 372,
       MDMG: 143,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55481,13 +51041,11 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       MND: 372,
       MDMG: 143,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55500,14 +51058,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 372,
       VIT: 414,
       PDMG: 106,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55520,13 +51076,11 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 373,
       INT: 372,
       MDMG: 143,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -55539,12 +51093,10 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 106,
       VIT: 118,
     },
-    hq: false,
     source: '优雷卡/涌火之地',
   },
   {
@@ -57265,7 +52817,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 304,
@@ -57274,7 +52825,6 @@ export default [
       PDMG: 107,
       DLY: 2240,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57287,7 +52837,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -57296,7 +52845,6 @@ export default [
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57309,7 +52857,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -57318,7 +52865,6 @@ export default [
       PDMG: 107,
       DLY: 3360,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57331,7 +52877,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -57340,7 +52885,6 @@ export default [
       PDMG: 107,
       DLY: 2800,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57353,7 +52897,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -57362,7 +52905,6 @@ export default [
       PDMG: 107,
       DLY: 3040,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57375,7 +52917,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -57384,7 +52925,6 @@ export default [
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57397,7 +52937,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -57406,7 +52945,6 @@ export default [
       PDMG: 107,
       DLY: 2960,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57419,7 +52957,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -57428,7 +52965,6 @@ export default [
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57441,7 +52977,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -57449,7 +52984,6 @@ export default [
       SPS: 236,
       MDMG: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57462,7 +52996,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -57470,7 +53003,6 @@ export default [
       DET: 236,
       MDMG: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57483,7 +53015,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -57491,7 +53022,6 @@ export default [
       DET: 236,
       MDMG: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57504,7 +53034,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -57512,7 +53041,6 @@ export default [
       SPS: 337,
       MDMG: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57525,7 +53053,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -57533,7 +53060,6 @@ export default [
       CRT: 337,
       MDMG: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57546,7 +53072,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -57555,7 +53080,6 @@ export default [
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57568,7 +53092,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -57576,7 +53099,6 @@ export default [
       CRT: 337,
       MDMG: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57589,14 +53111,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 109,
       VIT: 122,
       TEN: 67,
       DET: 96,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57609,14 +53129,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       TEN: 193,
       CRT: 135,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57629,14 +53147,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 313,
       DET: 219,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57649,14 +53165,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       TEN: 135,
       SKS: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57669,14 +53183,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 313,
       SKS: 219,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57689,14 +53201,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DET: 135,
       SKS: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57709,14 +53219,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       TEN: 101,
       CRT: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57729,14 +53237,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DET: 135,
       SKS: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57749,14 +53255,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 313,
       DET: 219,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57769,14 +53273,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57789,14 +53291,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 219,
       SKS: 313,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57809,14 +53309,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57829,14 +53327,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 144,
       SKS: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57849,14 +53345,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57869,14 +53363,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DET: 313,
       SKS: 219,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57889,14 +53381,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 193,
       CRT: 135,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57909,14 +53399,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 313,
       SKS: 219,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57929,14 +53417,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 193,
       CRT: 135,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57949,14 +53435,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DET: 144,
       SKS: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57969,14 +53453,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -57989,14 +53471,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 219,
       DET: 313,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58009,14 +53489,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58029,14 +53507,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       CRT: 219,
       SKS: 313,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58049,14 +53525,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       CRT: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58069,14 +53543,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       CRT: 144,
       DET: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58089,14 +53561,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DET: 135,
       SKS: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58109,14 +53579,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 313,
       CRT: 219,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58129,14 +53597,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 193,
       DET: 135,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58149,14 +53615,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 219,
       DET: 313,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58169,14 +53633,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58189,14 +53651,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       CRT: 144,
       SKS: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58209,14 +53669,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       CRT: 193,
       SPS: 135,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58229,14 +53687,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       PIE: 219,
       DET: 313,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58249,14 +53705,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       DET: 135,
       SPS: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58269,14 +53723,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       PIE: 219,
       SPS: 313,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58289,14 +53741,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58309,14 +53759,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       CRT: 144,
       DET: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58329,14 +53777,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DET: 135,
       SPS: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58349,14 +53795,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       DHT: 219,
       DET: 313,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58369,14 +53813,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DET: 135,
       SPS: 193,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58389,14 +53831,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       DHT: 313,
       CRT: 219,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58409,14 +53849,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       CRT: 193,
       DET: 135,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58429,14 +53867,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       DHT: 101,
       CRT: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58449,14 +53885,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DET: 144,
       SKS: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58469,14 +53903,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 101,
       SKS: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58489,14 +53921,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       CRT: 144,
       DET: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58509,14 +53939,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       PIE: 101,
       CRT: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58529,14 +53957,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       DET: 144,
       SPS: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58549,14 +53975,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       TEN: 101,
       SKS: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58569,14 +53993,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DHT: 144,
       DET: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58589,14 +54011,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DHT: 101,
       SKS: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58609,14 +54029,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       DET: 144,
       SPS: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58629,14 +54047,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       DHT: 101,
       CRT: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58649,14 +54065,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 101,
       DET: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58669,14 +54083,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DET: 101,
       SKS: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58689,14 +54101,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DET: 101,
       SKS: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58709,14 +54119,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       PIE: 144,
       CRT: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58729,14 +54137,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       DHT: 101,
       SPS: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58749,14 +54155,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       TEN: 144,
       DET: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58769,14 +54173,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 144,
       SKS: 101,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58789,14 +54191,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DHT: 101,
       CRT: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58809,14 +54209,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       DET: 101,
       SPS: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58829,14 +54227,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       CRT: 101,
       DET: 144,
     },
-    hq: false,
     source: '点数/创世→诗学',
   },
   {
@@ -58849,14 +54245,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DET: 193,
       SKS: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -58869,14 +54263,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       TEN: 313,
       SKS: 219,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -58889,14 +54281,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 193,
       DET: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -58909,14 +54299,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 219,
       DET: 313,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -58929,14 +54317,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 193,
       DET: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -58949,14 +54335,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       TEN: 101,
       DET: 144,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -58969,14 +54353,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       CRT: 193,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -58989,14 +54371,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 313,
       CRT: 219,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59009,14 +54389,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59029,14 +54407,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 219,
       CRT: 313,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59049,14 +54425,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59069,14 +54443,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DHT: 101,
       DET: 144,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59089,14 +54461,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 193,
       DET: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59109,14 +54479,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 313,
       CRT: 219,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59129,14 +54497,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59149,14 +54515,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 313,
       CRT: 219,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59169,14 +54533,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 193,
       DET: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59189,14 +54551,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DHT: 144,
       SKS: 101,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59209,14 +54569,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 193,
       CRT: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59229,14 +54587,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 219,
       CRT: 313,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59249,14 +54605,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59269,14 +54623,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 219,
       CRT: 313,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59289,14 +54641,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DET: 135,
       SKS: 193,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59309,14 +54659,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DHT: 144,
       SKS: 101,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59329,14 +54677,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       CRT: 193,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59349,14 +54695,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       CRT: 219,
       DET: 313,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59369,14 +54713,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59389,14 +54731,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       CRT: 313,
       DET: 219,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59409,14 +54749,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59429,14 +54767,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DHT: 101,
       DET: 144,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59449,14 +54785,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59469,14 +54803,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       PIE: 219,
       CRT: 313,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59489,14 +54821,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       PIE: 193,
       CRT: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59509,14 +54839,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       DET: 313,
       SPS: 219,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59529,14 +54857,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       PIE: 193,
       CRT: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59549,14 +54875,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       PIE: 144,
       SPS: 101,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59569,14 +54893,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 135,
       CRT: 193,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59589,14 +54911,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       CRT: 219,
       SPS: 313,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59609,14 +54929,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 193,
       SPS: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59629,14 +54947,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       CRT: 313,
       DET: 219,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59649,14 +54965,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DET: 193,
       SPS: 135,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59669,14 +54983,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       DHT: 101,
       DET: 144,
     },
-    hq: false,
     source: '团队任务/修道院',
   },
   {
@@ -59689,14 +55001,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 304,
       PDMG: 107,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59709,14 +55019,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59729,14 +55037,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
       PDMG: 107,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59749,14 +55055,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
       PDMG: 107,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59769,14 +55073,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
       PDMG: 107,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59789,14 +55091,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59809,14 +55109,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
       PDMG: 107,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59829,14 +55127,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59849,13 +55145,11 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
       MDMG: 144,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59868,13 +55162,11 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
       MDMG: 144,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59887,13 +55179,11 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
       MDMG: 144,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59906,13 +55196,11 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
       MDMG: 144,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59925,13 +55213,11 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
       MDMG: 144,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59944,14 +55230,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59964,13 +55248,11 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
       MDMG: 144,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -59983,12 +55265,10 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 109,
       VIT: 122,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60001,14 +55281,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       TEN: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60021,14 +55299,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       TEN: 219,
       DET: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60041,14 +55317,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DET: 193,
       SKS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60061,14 +55335,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       TEN: 219,
       SKS: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60081,14 +55353,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       TEN: 193,
       CRT: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60101,14 +55371,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60121,14 +55389,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 219,
       DET: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60141,14 +55407,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60161,14 +55425,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 313,
       DET: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60181,14 +55443,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60201,14 +55461,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60221,14 +55479,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 313,
       SKS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60241,14 +55497,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DET: 193,
       SKS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60261,14 +55515,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DET: 313,
       SKS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60281,14 +55533,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60301,14 +55551,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60321,14 +55569,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 313,
       SKS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60341,14 +55587,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 193,
       CRT: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60361,14 +55605,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 313,
       DET: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60381,14 +55623,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60401,14 +55641,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60421,14 +55659,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 219,
       SKS: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60441,14 +55677,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60461,14 +55695,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 313,
       SKS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60481,14 +55713,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60501,14 +55731,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       PIE: 193,
       SPS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60521,14 +55749,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       CRT: 219,
       SPS: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60541,14 +55767,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       PIE: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60561,14 +55785,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       PIE: 219,
       CRT: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60581,14 +55803,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       CRT: 135,
       SPS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60601,14 +55821,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 193,
       SPS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60621,14 +55839,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       DHT: 313,
       SPS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60641,14 +55857,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 135,
       CRT: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60661,14 +55875,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       DET: 313,
       SPS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60681,14 +55893,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60701,14 +55911,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       TEN: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60721,14 +55929,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       TEN: 219,
       DET: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60741,14 +55947,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DET: 193,
       SKS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60761,14 +55965,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       TEN: 219,
       SKS: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60781,14 +55983,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       TEN: 193,
       CRT: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60801,14 +56001,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60821,14 +56019,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 219,
       DET: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60841,14 +56037,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60861,14 +56055,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 313,
       DET: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60881,14 +56073,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60901,14 +56091,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60921,14 +56109,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 313,
       SKS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60941,14 +56127,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DET: 193,
       SKS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60961,14 +56145,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DET: 313,
       SKS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -60981,14 +56163,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61001,14 +56181,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61021,14 +56199,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 313,
       SKS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61041,14 +56217,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 193,
       CRT: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61061,14 +56235,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 313,
       DET: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61081,14 +56253,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61101,14 +56271,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61121,14 +56289,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 219,
       SKS: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61141,14 +56307,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61161,14 +56325,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 313,
       SKS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61181,14 +56343,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61201,14 +56361,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       PIE: 193,
       SPS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61221,14 +56379,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       CRT: 219,
       SPS: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61241,14 +56397,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       PIE: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61261,14 +56415,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       PIE: 219,
       CRT: 313,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61281,14 +56433,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       CRT: 135,
       SPS: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61301,14 +56451,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 193,
       SPS: 135,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61321,14 +56469,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       DHT: 313,
       SPS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61341,14 +56487,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 135,
       CRT: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61361,14 +56505,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       DET: 313,
       SPS: 219,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61381,14 +56523,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 5,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -61401,7 +56541,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 304,
@@ -61423,7 +56562,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -61445,7 +56583,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -61467,7 +56604,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -61489,7 +56625,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -61511,7 +56646,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -61533,7 +56667,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -61555,7 +56688,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -61577,7 +56709,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -61598,7 +56729,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -61619,7 +56749,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -61640,7 +56769,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -61661,7 +56789,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -61682,7 +56809,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -61704,7 +56830,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -61725,7 +56850,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 109,
       VIT: 122,
@@ -61745,7 +56869,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -61765,7 +56888,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
@@ -61785,7 +56907,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -61805,7 +56926,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
@@ -61825,7 +56945,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -61845,7 +56964,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -61865,7 +56983,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -61885,7 +57002,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
@@ -61905,7 +57021,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -61925,7 +57040,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
@@ -61945,7 +57059,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -61965,7 +57078,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -61985,7 +57097,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -62005,7 +57116,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
@@ -62025,7 +57135,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -62045,7 +57154,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
@@ -62065,7 +57173,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
@@ -62085,7 +57192,6 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62105,7 +57211,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
@@ -62125,7 +57230,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
@@ -62145,7 +57249,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
@@ -62165,7 +57268,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
@@ -62185,7 +57287,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
@@ -62205,7 +57306,6 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
@@ -62225,7 +57325,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
@@ -62245,7 +57344,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
@@ -62265,7 +57363,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
@@ -62285,7 +57382,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
@@ -62305,7 +57401,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
@@ -62325,7 +57420,6 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
@@ -62345,7 +57439,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
@@ -62365,7 +57458,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
@@ -62385,7 +57477,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
@@ -62405,7 +57496,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
@@ -62425,7 +57515,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
@@ -62445,7 +57534,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
@@ -62465,7 +57553,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
@@ -62485,7 +57572,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
@@ -62505,7 +57591,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
@@ -62525,7 +57610,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
@@ -62545,7 +57629,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
@@ -62565,7 +57648,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
@@ -62585,7 +57667,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62605,7 +57686,6 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62625,7 +57705,6 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
@@ -62645,7 +57724,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
@@ -62665,7 +57743,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
@@ -62685,7 +57762,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62705,7 +57781,6 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62725,7 +57800,6 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
@@ -62745,7 +57819,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
@@ -62765,7 +57838,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
@@ -62785,7 +57857,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62805,7 +57876,6 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62825,7 +57895,6 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
@@ -62845,7 +57914,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
@@ -62865,7 +57933,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
@@ -62885,7 +57952,6 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62905,7 +57971,6 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
@@ -62925,7 +57990,6 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
@@ -62945,7 +58009,6 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
@@ -62965,7 +58028,6 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
@@ -62985,7 +58047,6 @@ export default [
     jobCategory: 38,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 272,
       VIT: 304,
@@ -62994,7 +58055,6 @@ export default [
       PDMG: 107,
       DLY: 2240,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63008,7 +58068,6 @@ export default [
     jobCategory: 41,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -63017,7 +58076,6 @@ export default [
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63031,7 +58089,6 @@ export default [
     jobCategory: 44,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -63040,7 +58097,6 @@ export default [
       PDMG: 107,
       DLY: 3360,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63054,7 +58110,6 @@ export default [
     jobCategory: 47,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -63063,7 +58118,6 @@ export default [
       PDMG: 107,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63077,7 +58131,6 @@ export default [
     jobCategory: 50,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -63086,7 +58139,6 @@ export default [
       PDMG: 107,
       DLY: 3040,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63100,7 +58152,6 @@ export default [
     jobCategory: 93,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -63109,7 +58160,6 @@ export default [
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63123,7 +58173,6 @@ export default [
     jobCategory: 98,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -63132,7 +58181,6 @@ export default [
       PDMG: 107,
       DLY: 2960,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63146,7 +58194,6 @@ export default [
     jobCategory: 96,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -63155,7 +58202,6 @@ export default [
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63169,7 +58215,6 @@ export default [
     jobCategory: 53,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -63177,7 +58222,6 @@ export default [
       SPS: 236,
       MDMG: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63191,7 +58235,6 @@ export default [
     jobCategory: 55,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -63199,7 +58242,6 @@ export default [
       CRT: 337,
       MDMG: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63213,7 +58255,6 @@ export default [
     jobCategory: 69,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -63221,7 +58262,6 @@ export default [
       SPS: 337,
       MDMG: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63235,7 +58275,6 @@ export default [
     jobCategory: 29,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -63243,7 +58282,6 @@ export default [
       DET: 337,
       MDMG: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63257,7 +58295,6 @@ export default [
     jobCategory: 99,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       MND: 381,
@@ -63265,7 +58302,6 @@ export default [
       DET: 236,
       MDMG: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63279,7 +58315,6 @@ export default [
     jobCategory: 111,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -63288,7 +58323,6 @@ export default [
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63302,7 +58336,6 @@ export default [
     jobCategory: 112,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 384,
       INT: 381,
@@ -63310,7 +58343,6 @@ export default [
       SPS: 337,
       MDMG: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63324,7 +58356,6 @@ export default [
     jobCategory: 149,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -63333,7 +58364,6 @@ export default [
       PDMG: 107,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63347,7 +58377,6 @@ export default [
     jobCategory: 150,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -63356,7 +58385,6 @@ export default [
       PDMG: 107,
       DLY: 3120,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63370,14 +58398,12 @@ export default [
     jobCategory: 38,
     equipLevel: 71,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 109,
       VIT: 122,
       TEN: 67,
       CRT: 96,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63391,14 +58417,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63412,14 +58436,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       TEN: 313,
       DET: 219,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63433,14 +58455,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63454,14 +58474,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       TEN: 219,
       CRT: 313,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63475,14 +58493,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63496,14 +58512,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 101,
       SKS: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63517,14 +58531,12 @@ export default [
     jobCategory: 47,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63538,14 +58550,12 @@ export default [
     jobCategory: 47,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 313,
       DET: 219,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63559,14 +58569,12 @@ export default [
     jobCategory: 47,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63580,14 +58588,12 @@ export default [
     jobCategory: 47,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DHT: 313,
       CRT: 219,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63601,14 +58607,12 @@ export default [
     jobCategory: 47,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63622,14 +58626,12 @@ export default [
     jobCategory: 47,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DHT: 144,
       DET: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63643,14 +58645,12 @@ export default [
     jobCategory: 65,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63664,14 +58664,12 @@ export default [
     jobCategory: 65,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       CRT: 313,
       DET: 219,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63685,14 +58683,12 @@ export default [
     jobCategory: 65,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       DHT: 135,
       CRT: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63706,14 +58702,12 @@ export default [
     jobCategory: 65,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 353,
       VIT: 396,
       DET: 313,
       SKS: 219,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63727,14 +58721,12 @@ export default [
     jobCategory: 65,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 218,
       VIT: 244,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63748,14 +58740,12 @@ export default [
     jobCategory: 65,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DHT: 101,
       CRT: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63769,14 +58759,12 @@ export default [
     jobCategory: 66,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 193,
       CRT: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63790,14 +58778,12 @@ export default [
     jobCategory: 66,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 219,
       CRT: 313,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63811,14 +58797,12 @@ export default [
     jobCategory: 66,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 193,
       SKS: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63832,14 +58816,12 @@ export default [
     jobCategory: 66,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       CRT: 219,
       DET: 313,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63853,14 +58835,12 @@ export default [
     jobCategory: 66,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63874,14 +58854,12 @@ export default [
     jobCategory: 66,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DHT: 101,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63895,14 +58873,12 @@ export default [
     jobCategory: 103,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       SKS: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63916,14 +58892,12 @@ export default [
     jobCategory: 103,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       CRT: 313,
       DET: 219,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63937,14 +58911,12 @@ export default [
     jobCategory: 103,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       DHT: 135,
       DET: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63958,14 +58930,12 @@ export default [
     jobCategory: 103,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 353,
       VIT: 396,
       DHT: 219,
       CRT: 313,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -63979,14 +58949,12 @@ export default [
     jobCategory: 103,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 218,
       VIT: 244,
       CRT: 135,
       DET: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64000,14 +58968,12 @@ export default [
     jobCategory: 103,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DET: 101,
       SKS: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64021,14 +58987,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       CRT: 193,
       SPS: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64042,14 +59006,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       PIE: 219,
       CRT: 313,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64063,14 +59025,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       CRT: 193,
       SPS: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64084,14 +59044,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       MND: 353,
       CRT: 313,
       DET: 219,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64105,14 +59063,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       MND: 218,
       PIE: 193,
       CRT: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64126,14 +59082,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       PIE: 101,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64147,14 +59101,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       CRT: 193,
       DET: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64168,14 +59120,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       DHT: 219,
       CRT: 313,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64189,14 +59139,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DET: 193,
       SPS: 135,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64210,14 +59158,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 356,
       INT: 353,
       DHT: 219,
       DET: 313,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64231,14 +59177,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 219,
       INT: 218,
       DHT: 135,
       CRT: 193,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64252,14 +59196,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       DHT: 144,
       DET: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64273,14 +59215,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 144,
       SKS: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64294,14 +59234,12 @@ export default [
     jobCategory: 84,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DHT: 101,
       CRT: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64315,14 +59253,12 @@ export default [
     jobCategory: 105,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DHT: 101,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64336,14 +59272,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       PIE: 101,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64357,14 +59291,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       CRT: 101,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64378,14 +59310,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       TEN: 101,
       CRT: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64399,14 +59329,12 @@ export default [
     jobCategory: 84,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 101,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64420,14 +59348,12 @@ export default [
     jobCategory: 105,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DHT: 101,
       CRT: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64441,14 +59367,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       PIE: 144,
       CRT: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64462,14 +59386,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       DHT: 144,
       DET: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64483,14 +59405,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 144,
       SKS: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64504,14 +59424,12 @@ export default [
     jobCategory: 84,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       CRT: 101,
       SKS: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64525,14 +59443,12 @@ export default [
     jobCategory: 105,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       CRT: 144,
       DET: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64546,14 +59462,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       DET: 101,
       SPS: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64567,14 +59481,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       CRT: 144,
       SPS: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64588,14 +59500,12 @@ export default [
     jobCategory: 59,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       TEN: 144,
       CRT: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64609,14 +59519,12 @@ export default [
     jobCategory: 84,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 163,
       VIT: 183,
       DHT: 101,
       CRT: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64630,14 +59538,12 @@ export default [
     jobCategory: 105,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 163,
       VIT: 183,
       DET: 144,
       SKS: 101,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64651,14 +59557,12 @@ export default [
     jobCategory: 64,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       MND: 163,
       CRT: 101,
       SPS: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64672,14 +59576,12 @@ export default [
     jobCategory: 89,
     equipLevel: 71,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 164,
       INT: 163,
       DHT: 101,
       SPS: 144,
     },
-    hq: false,
     source: '迷宫挑战/水滩村',
     patch: '5.0',
   },
@@ -64877,7 +59779,6 @@ export default [
     jobCategory: 149,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 381,
       VIT: 426,
@@ -64886,7 +59787,6 @@ export default [
       PDMG: 107,
       DLY: 2800,
     },
-    hq: false,
     source: '点数/创世→诗学',
     patch: '5.0',
   },
@@ -64900,7 +59800,6 @@ export default [
     jobCategory: 150,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 381,
       VIT: 426,
@@ -64909,7 +59808,6 @@ export default [
       PDMG: 107,
       DLY: 3120,
     },
-    hq: false,
     source: '点数/创世→诗学',
     patch: '5.0',
   },
@@ -64923,7 +59821,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 279,
       VIT: 313,
@@ -64932,7 +59829,6 @@ export default [
       PDMG: 107,
       DLY: 2240,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -64945,7 +59841,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
@@ -64954,7 +59849,6 @@ export default [
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -64967,7 +59861,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
@@ -64976,7 +59869,6 @@ export default [
       PDMG: 107,
       DLY: 3360,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -64989,7 +59881,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
@@ -64998,7 +59889,6 @@ export default [
       PDMG: 107,
       DLY: 2800,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65011,7 +59901,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 390,
       VIT: 438,
@@ -65020,7 +59909,6 @@ export default [
       PDMG: 107,
       DLY: 3040,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65033,7 +59921,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 390,
       VIT: 438,
@@ -65042,7 +59929,6 @@ export default [
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65055,7 +59941,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
@@ -65064,7 +59949,6 @@ export default [
       PDMG: 107,
       DLY: 2960,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65077,7 +59961,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 390,
       VIT: 438,
@@ -65086,7 +59969,6 @@ export default [
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65099,7 +59981,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       MND: 390,
@@ -65107,7 +59988,6 @@ export default [
       DET: 240,
       MDMG: 145,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65120,7 +60000,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       INT: 390,
@@ -65128,7 +60007,6 @@ export default [
       SPS: 343,
       MDMG: 145,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65141,7 +60019,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       INT: 390,
@@ -65149,7 +60026,6 @@ export default [
       DET: 240,
       MDMG: 145,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65162,7 +60038,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       MND: 390,
@@ -65170,7 +60045,6 @@ export default [
       CRT: 343,
       MDMG: 145,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65183,7 +60057,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       MND: 390,
@@ -65191,7 +60064,6 @@ export default [
       DET: 343,
       MDMG: 145,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65204,7 +60076,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
@@ -65213,7 +60084,6 @@ export default [
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65226,7 +60096,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       INT: 390,
@@ -65234,7 +60103,6 @@ export default [
       DET: 343,
       MDMG: 145,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65247,14 +60115,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 111,
       VIT: 125,
       TEN: 69,
       CRT: 98,
     },
-    hq: false,
     source: '歼殛战/青龙',
   },
   {
@@ -65267,14 +60133,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 279,
       VIT: 313,
       PDMG: 107,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65287,14 +60151,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65307,14 +60169,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
       PDMG: 107,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65327,14 +60187,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
       PDMG: 107,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65347,14 +60205,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 390,
       VIT: 438,
       PDMG: 107,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65367,14 +60223,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 390,
       VIT: 438,
       PDMG: 107,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65387,14 +60241,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
       PDMG: 107,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65407,14 +60259,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 390,
       VIT: 438,
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65427,13 +60277,11 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       MND: 390,
       MDMG: 145,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65446,13 +60294,11 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       INT: 390,
       MDMG: 145,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65465,13 +60311,11 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       INT: 390,
       MDMG: 145,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65484,13 +60328,11 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       MND: 390,
       MDMG: 145,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65503,13 +60345,11 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       MND: 390,
       MDMG: 145,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65522,14 +60362,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 390,
       VIT: 438,
       PDMG: 107,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65542,13 +60380,11 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 395,
       INT: 390,
       MDMG: 145,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -65561,12 +60397,10 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 111,
       VIT: 125,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -67287,7 +62121,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 285,
       VIT: 322,
@@ -67296,7 +62129,6 @@ export default [
       PDMG: 108,
       DLY: 2240,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67309,7 +62141,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -67318,7 +62149,6 @@ export default [
       PDMG: 108,
       DLY: 2560,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67331,7 +62161,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -67340,7 +62169,6 @@ export default [
       PDMG: 108,
       DLY: 3360,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67353,7 +62181,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -67362,7 +62189,6 @@ export default [
       PDMG: 108,
       DLY: 2800,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67375,7 +62201,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
@@ -67384,7 +62209,6 @@ export default [
       PDMG: 108,
       DLY: 3040,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67397,7 +62221,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
@@ -67406,7 +62229,6 @@ export default [
       PDMG: 108,
       DLY: 2560,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67419,7 +62241,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -67428,7 +62249,6 @@ export default [
       PDMG: 108,
       DLY: 2960,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67441,7 +62261,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
@@ -67450,7 +62269,6 @@ export default [
       PDMG: 108,
       DLY: 2640,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67463,7 +62281,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
@@ -67471,7 +62288,6 @@ export default [
       SPS: 245,
       MDMG: 146,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67484,7 +62300,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
@@ -67492,7 +62307,6 @@ export default [
       DET: 245,
       MDMG: 146,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67505,7 +62319,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
@@ -67513,7 +62326,6 @@ export default [
       DET: 245,
       MDMG: 146,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67526,7 +62338,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
@@ -67534,7 +62345,6 @@ export default [
       SPS: 350,
       MDMG: 146,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67547,7 +62357,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
@@ -67555,7 +62364,6 @@ export default [
       CRT: 350,
       MDMG: 146,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67568,7 +62376,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -67577,7 +62384,6 @@ export default [
       PDMG: 108,
       DLY: 2640,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67590,7 +62396,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
@@ -67598,7 +62403,6 @@ export default [
       CRT: 350,
       MDMG: 146,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67611,14 +62415,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 114,
       VIT: 129,
       TEN: 70,
       DET: 100,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67631,14 +62433,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       TEN: 200,
       CRT: 140,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67651,14 +62451,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 325,
       DET: 227,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67671,14 +62469,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       TEN: 140,
       SKS: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67691,14 +62487,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 325,
       SKS: 227,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67711,14 +62505,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DET: 140,
       SKS: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67731,14 +62523,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 105,
       CRT: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67751,14 +62541,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DET: 140,
       SKS: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67771,14 +62559,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 325,
       DET: 227,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67791,14 +62577,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 140,
       DET: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67811,14 +62595,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 227,
       SKS: 325,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67831,14 +62613,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 140,
       DET: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67851,14 +62631,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67871,14 +62649,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       CRT: 140,
       SKS: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67891,14 +62667,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       DET: 325,
       SKS: 227,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67911,14 +62685,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 200,
       CRT: 140,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67931,14 +62703,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 325,
       SKS: 227,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67951,14 +62721,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 200,
       CRT: 140,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67971,14 +62739,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DET: 150,
       SKS: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -67991,14 +62757,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 200,
       SKS: 140,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68011,14 +62775,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       DHT: 227,
       DET: 325,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68031,14 +62793,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 200,
       SKS: 140,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68051,14 +62811,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       CRT: 227,
       SKS: 325,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68071,14 +62829,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DHT: 140,
       CRT: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68091,14 +62847,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68111,14 +62865,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DET: 140,
       SKS: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68131,14 +62883,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       DHT: 325,
       CRT: 227,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68151,14 +62901,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68171,14 +62919,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       DHT: 227,
       DET: 325,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68191,14 +62937,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 140,
       DET: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68211,14 +62955,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       CRT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68231,14 +62973,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       CRT: 200,
       SPS: 140,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68251,14 +62991,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       MND: 371,
       PIE: 227,
       DET: 325,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68271,14 +63009,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       DET: 140,
       SPS: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68291,14 +63027,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       MND: 371,
       PIE: 227,
       SPS: 325,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68311,14 +63045,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       CRT: 140,
       DET: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68331,14 +63063,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68351,14 +63081,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       DET: 140,
       SPS: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68371,14 +63099,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       INT: 371,
       DHT: 227,
       DET: 325,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68391,14 +63117,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       DET: 140,
       SPS: 200,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68411,14 +63135,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       INT: 371,
       DHT: 325,
       CRT: 227,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68431,14 +63153,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68451,14 +63171,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68471,14 +63189,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DET: 150,
       SKS: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68491,14 +63207,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68511,14 +63225,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68531,14 +63243,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       PIE: 105,
       CRT: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68551,14 +63261,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DET: 150,
       SPS: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68571,14 +63279,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 105,
       SKS: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68591,14 +63297,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DHT: 150,
       DET: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68611,14 +63315,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68631,14 +63333,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       DET: 150,
       SPS: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68651,14 +63351,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68671,14 +63369,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 105,
       DET: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68691,14 +63387,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DET: 105,
       SKS: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68711,14 +63405,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DET: 105,
       SKS: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68731,14 +63423,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       PIE: 150,
       CRT: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68751,14 +63441,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DHT: 105,
       SPS: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68771,14 +63459,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 150,
       DET: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68791,14 +63477,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68811,14 +63495,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68831,14 +63513,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       DET: 105,
       SPS: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68851,14 +63531,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       CRT: 105,
       DET: 150,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
   },
   {
@@ -68871,14 +63549,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -68891,14 +63567,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 227,
       SKS: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -68911,14 +63585,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       TEN: 200,
       DET: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -68931,14 +63603,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       TEN: 325,
       SKS: 227,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -68951,14 +63621,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       TEN: 140,
       DET: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -68971,14 +63639,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 105,
       SKS: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -68991,14 +63657,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 200,
       DET: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69011,14 +63675,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 227,
       SKS: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69031,14 +63693,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69051,14 +63711,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 227,
       DET: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69071,14 +63729,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DET: 200,
       SKS: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69091,14 +63747,12 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69111,14 +63765,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 200,
       SKS: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69131,14 +63783,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       DHT: 227,
       CRT: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69151,14 +63801,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       CRT: 140,
       SKS: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69171,14 +63819,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 227,
       DET: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69191,14 +63837,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DET: 200,
       SKS: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69211,14 +63855,12 @@ export default [
     jobCategory: 65,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69231,14 +63873,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69251,14 +63891,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       DHT: 325,
       CRT: 227,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69271,14 +63909,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DET: 140,
       SKS: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69291,14 +63927,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       CRT: 227,
       DET: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69311,14 +63945,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DHT: 140,
       SKS: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69331,14 +63963,12 @@ export default [
     jobCategory: 66,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       CRT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69351,14 +63981,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 140,
       DET: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69371,14 +63999,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       CRT: 325,
       DET: 227,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69391,14 +64017,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DHT: 140,
       SKS: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69411,14 +64035,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       CRT: 227,
       DET: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69431,14 +64053,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DHT: 140,
       DET: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69451,14 +64071,12 @@ export default [
     jobCategory: 103,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 150,
       DET: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69471,14 +64089,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       PIE: 200,
       SPS: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69491,14 +64107,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       MND: 371,
       CRT: 227,
       SPS: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69511,14 +64125,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       CRT: 140,
       DET: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69531,14 +64143,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       MND: 371,
       PIE: 227,
       CRT: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69551,14 +64161,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       DET: 140,
       SPS: 200,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69571,14 +64179,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       PIE: 150,
       DET: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69591,14 +64197,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       DHT: 200,
       CRT: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69611,14 +64215,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       INT: 371,
       CRT: 325,
       DET: 227,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69631,14 +64233,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       DHT: 200,
       SPS: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69651,14 +64251,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       INT: 371,
       DHT: 227,
       DET: 325,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69671,14 +64269,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       CRT: 200,
       SPS: 140,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69691,14 +64287,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       CRT: 105,
       DET: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69711,14 +64305,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69731,14 +64323,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DET: 105,
       SKS: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69751,14 +64341,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69771,14 +64359,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       CRT: 105,
       SPS: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69791,14 +64377,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69811,14 +64395,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 105,
       DET: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69831,14 +64413,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DHT: 150,
       CRT: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69851,14 +64431,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69871,14 +64449,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69891,14 +64467,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DHT: 150,
       SPS: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69911,14 +64485,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DET: 150,
       SKS: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69931,14 +64503,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DHT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69951,14 +64521,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69971,14 +64539,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       CRT: 105,
       DET: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -69991,14 +64557,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DHT: 105,
       DET: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -70011,14 +64575,12 @@ export default [
     jobCategory: 59,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -70031,14 +64593,12 @@ export default [
     jobCategory: 84,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -70051,14 +64611,12 @@ export default [
     jobCategory: 105,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -70071,14 +64629,12 @@ export default [
     jobCategory: 64,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       PIE: 150,
       CRT: 105,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -70091,14 +64647,12 @@ export default [
     jobCategory: 89,
     equipLevel: 70,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -70111,14 +64665,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 285,
       VIT: 322,
       PDMG: 108,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70131,14 +64683,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
       PDMG: 108,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70151,14 +64701,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
       PDMG: 108,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70171,14 +64719,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
       PDMG: 108,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70191,14 +64737,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
       PDMG: 108,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70211,14 +64755,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
       PDMG: 108,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70231,14 +64773,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
       PDMG: 108,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70251,14 +64791,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
       PDMG: 108,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70271,13 +64809,11 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
       MDMG: 146,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70290,13 +64826,11 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
       MDMG: 146,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70309,13 +64843,11 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
       MDMG: 146,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70328,13 +64860,11 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
       MDMG: 146,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70347,13 +64877,11 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
       MDMG: 146,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70366,14 +64894,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
       PDMG: 108,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70386,13 +64912,11 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
       MDMG: 146,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70405,12 +64929,10 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 114,
       VIT: 129,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -70423,7 +64945,6 @@ export default [
     jobCategory: 38,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 285,
       VIT: 322,
@@ -70432,7 +64953,6 @@ export default [
       PDMG: 108,
       DLY: 2240,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70446,7 +64966,6 @@ export default [
     jobCategory: 41,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -70455,7 +64974,6 @@ export default [
       PDMG: 108,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70469,7 +64987,6 @@ export default [
     jobCategory: 44,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -70478,7 +64995,6 @@ export default [
       PDMG: 108,
       DLY: 3360,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70492,7 +65008,6 @@ export default [
     jobCategory: 47,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -70501,7 +65016,6 @@ export default [
       PDMG: 108,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70515,7 +65029,6 @@ export default [
     jobCategory: 50,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
@@ -70524,7 +65037,6 @@ export default [
       PDMG: 108,
       DLY: 3040,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70538,7 +65050,6 @@ export default [
     jobCategory: 93,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
@@ -70547,7 +65058,6 @@ export default [
       PDMG: 108,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70561,7 +65071,6 @@ export default [
     jobCategory: 98,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -70570,7 +65079,6 @@ export default [
       PDMG: 108,
       DLY: 2960,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70584,7 +65092,6 @@ export default [
     jobCategory: 96,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
@@ -70593,7 +65100,6 @@ export default [
       PDMG: 108,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70607,7 +65113,6 @@ export default [
     jobCategory: 53,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
@@ -70615,7 +65120,6 @@ export default [
       SPS: 245,
       MDMG: 146,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70629,7 +65133,6 @@ export default [
     jobCategory: 55,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
@@ -70637,7 +65140,6 @@ export default [
       SPS: 350,
       MDMG: 146,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70651,7 +65153,6 @@ export default [
     jobCategory: 69,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
@@ -70659,7 +65160,6 @@ export default [
       SPS: 245,
       MDMG: 146,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70673,7 +65173,6 @@ export default [
     jobCategory: 29,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
@@ -70681,7 +65180,6 @@ export default [
       SPS: 245,
       MDMG: 146,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70695,7 +65193,6 @@ export default [
     jobCategory: 99,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       MND: 399,
@@ -70703,7 +65200,6 @@ export default [
       DET: 350,
       MDMG: 146,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70717,7 +65213,6 @@ export default [
     jobCategory: 111,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -70726,7 +65221,6 @@ export default [
       PDMG: 108,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70740,7 +65234,6 @@ export default [
     jobCategory: 112,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 406,
       INT: 399,
@@ -70748,7 +65241,6 @@ export default [
       DET: 245,
       MDMG: 146,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70762,7 +65254,6 @@ export default [
     jobCategory: 149,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -70771,7 +65262,6 @@ export default [
       PDMG: 108,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70785,7 +65275,6 @@ export default [
     jobCategory: 150,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
@@ -70794,7 +65283,6 @@ export default [
       PDMG: 108,
       DLY: 3120,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70808,14 +65296,12 @@ export default [
     jobCategory: 38,
     equipLevel: 73,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 114,
       VIT: 129,
       TEN: 100,
       DET: 70,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70829,14 +65315,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       CRT: 140,
       SKS: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70850,14 +65334,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       TEN: 325,
       CRT: 227,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70871,14 +65353,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       TEN: 140,
       DET: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70892,14 +65372,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 227,
       DET: 325,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70913,14 +65391,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70934,14 +65410,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 150,
       CRT: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70955,14 +65429,12 @@ export default [
     jobCategory: 47,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 140,
       CRT: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70976,14 +65448,12 @@ export default [
     jobCategory: 47,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       DHT: 227,
       DET: 325,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -70997,14 +65467,12 @@ export default [
     jobCategory: 47,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DET: 140,
       SKS: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71018,14 +65486,12 @@ export default [
     jobCategory: 47,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       DHT: 325,
       CRT: 227,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71039,14 +65505,12 @@ export default [
     jobCategory: 47,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       CRT: 200,
       SKS: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71060,14 +65524,12 @@ export default [
     jobCategory: 47,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DHT: 105,
       DET: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71081,14 +65543,12 @@ export default [
     jobCategory: 65,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 200,
       SKS: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71102,14 +65562,12 @@ export default [
     jobCategory: 65,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       CRT: 325,
       DET: 227,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71123,14 +65581,12 @@ export default [
     jobCategory: 65,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       DHT: 140,
       CRT: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71144,14 +65600,12 @@ export default [
     jobCategory: 65,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 371,
       VIT: 419,
       DHT: 325,
       SKS: 227,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71165,14 +65619,12 @@ export default [
     jobCategory: 65,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 228,
       VIT: 258,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71186,14 +65638,12 @@ export default [
     jobCategory: 65,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DET: 150,
       SKS: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71207,14 +65657,12 @@ export default [
     jobCategory: 66,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DHT: 200,
       DET: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71228,14 +65676,12 @@ export default [
     jobCategory: 66,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       DHT: 325,
       CRT: 227,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71249,14 +65695,12 @@ export default [
     jobCategory: 66,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 200,
       SKS: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71270,14 +65714,12 @@ export default [
     jobCategory: 66,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       DET: 325,
       SKS: 227,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71291,14 +65733,12 @@ export default [
     jobCategory: 66,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71312,14 +65752,12 @@ export default [
     jobCategory: 66,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 150,
       CRT: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71333,14 +65771,12 @@ export default [
     jobCategory: 103,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DHT: 200,
       SKS: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71354,14 +65790,12 @@ export default [
     jobCategory: 103,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       DHT: 227,
       CRT: 325,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71375,14 +65809,12 @@ export default [
     jobCategory: 103,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       DET: 140,
       SKS: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71396,14 +65828,12 @@ export default [
     jobCategory: 103,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 371,
       VIT: 419,
       CRT: 325,
       DET: 227,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71417,14 +65847,12 @@ export default [
     jobCategory: 103,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 228,
       VIT: 258,
       CRT: 140,
       DET: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71438,14 +65866,12 @@ export default [
     jobCategory: 103,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 150,
       CRT: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71459,14 +65885,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       DET: 140,
       SPS: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71480,14 +65904,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       MND: 371,
       PIE: 227,
       CRT: 325,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71501,14 +65923,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       CRT: 200,
       DET: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71522,14 +65942,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       MND: 371,
       PIE: 325,
       CRT: 227,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71543,14 +65961,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       MND: 228,
       PIE: 200,
       SPS: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71564,14 +65980,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       DET: 150,
       SPS: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71585,14 +65999,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       DHT: 200,
       DET: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71606,14 +66018,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       INT: 371,
       DHT: 227,
       CRT: 325,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71627,14 +66037,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       DET: 200,
       SPS: 140,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71648,14 +66056,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 377,
       INT: 371,
       DHT: 227,
       DET: 325,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71669,14 +66075,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 232,
       INT: 228,
       DHT: 140,
       CRT: 200,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71690,14 +66094,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DET: 150,
       SPS: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71711,14 +66113,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 105,
       SKS: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71732,14 +66132,12 @@ export default [
     jobCategory: 84,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71753,14 +66151,12 @@ export default [
     jobCategory: 105,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 105,
       DET: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71774,14 +66170,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       PIE: 150,
       DET: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71795,14 +66189,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71816,14 +66208,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 150,
       DET: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71837,14 +66227,12 @@ export default [
     jobCategory: 84,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       DHT: 150,
       SKS: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71858,14 +66246,12 @@ export default [
     jobCategory: 105,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71879,14 +66265,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       PIE: 105,
       CRT: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71900,14 +66284,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DHT: 105,
       SPS: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71921,14 +66303,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 105,
       SKS: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71942,14 +66322,12 @@ export default [
     jobCategory: 84,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 105,
       DET: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71963,14 +66341,12 @@ export default [
     jobCategory: 105,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DHT: 105,
       CRT: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -71984,14 +66360,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -72005,14 +66379,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       CRT: 105,
       SPS: 150,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -72026,14 +66398,12 @@ export default [
     jobCategory: 59,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       TEN: 150,
       DET: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -72047,14 +66417,12 @@ export default [
     jobCategory: 84,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 171,
       VIT: 193,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -72068,14 +66436,12 @@ export default [
     jobCategory: 105,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 171,
       VIT: 193,
       DET: 150,
       SKS: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -72089,14 +66455,12 @@ export default [
     jobCategory: 64,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       MND: 171,
       CRT: 150,
       DET: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -72110,14 +66474,12 @@ export default [
     jobCategory: 89,
     equipLevel: 73,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 174,
       INT: 171,
       DET: 150,
       SPS: 105,
     },
-    hq: false,
     source: '迷宫挑战/水妖幻园',
     patch: '5.0',
   },
@@ -72730,7 +67092,6 @@ export default [
     jobCategory: 149,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 399,
       VIT: 451,
@@ -72739,7 +67100,6 @@ export default [
       PDMG: 108,
       DLY: 2800,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
     patch: '5.0',
   },
@@ -72753,7 +67113,6 @@ export default [
     jobCategory: 150,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 399,
       VIT: 451,
@@ -72762,7 +67121,6 @@ export default [
       PDMG: 108,
       DLY: 3120,
     },
-    hq: false,
     source: '点数强化/创世→诗学',
     patch: '5.0',
   },
@@ -74484,7 +68842,6 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 288,
       VIT: 325,
@@ -74493,7 +68850,6 @@ export default [
       PDMG: 109,
       DLY: 2240,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74506,7 +68862,6 @@ export default [
     jobCategory: 41,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
@@ -74515,7 +68870,6 @@ export default [
       PDMG: 109,
       DLY: 2560,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74528,7 +68882,6 @@ export default [
     jobCategory: 44,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
@@ -74537,7 +68890,6 @@ export default [
       PDMG: 109,
       DLY: 3360,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74550,7 +68902,6 @@ export default [
     jobCategory: 47,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
@@ -74559,7 +68910,6 @@ export default [
       PDMG: 109,
       DLY: 2800,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74572,7 +68922,6 @@ export default [
     jobCategory: 50,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
@@ -74581,7 +68930,6 @@ export default [
       PDMG: 109,
       DLY: 3040,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74594,7 +68942,6 @@ export default [
     jobCategory: 93,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
@@ -74603,7 +68950,6 @@ export default [
       PDMG: 109,
       DLY: 2560,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74616,7 +68962,6 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
@@ -74625,7 +68970,6 @@ export default [
       PDMG: 109,
       DLY: 2960,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74638,7 +68982,6 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
@@ -74647,7 +68990,6 @@ export default [
       PDMG: 109,
       DLY: 2640,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74660,7 +69002,6 @@ export default [
     jobCategory: 53,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
@@ -74668,7 +69009,6 @@ export default [
       SPS: 356,
       MDMG: 147,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74681,7 +69021,6 @@ export default [
     jobCategory: 55,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
@@ -74689,7 +69028,6 @@ export default [
       SPS: 356,
       MDMG: 147,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74702,7 +69040,6 @@ export default [
     jobCategory: 69,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
@@ -74710,7 +69047,6 @@ export default [
       DET: 249,
       MDMG: 147,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74723,7 +69059,6 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
@@ -74731,7 +69066,6 @@ export default [
       SPS: 249,
       MDMG: 147,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74744,7 +69078,6 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
@@ -74752,7 +69085,6 @@ export default [
       DET: 249,
       MDMG: 147,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74765,7 +69097,6 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
@@ -74774,7 +69105,6 @@ export default [
       PDMG: 109,
       DLY: 2640,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74787,7 +69117,6 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
@@ -74795,7 +69124,6 @@ export default [
       DET: 249,
       MDMG: 147,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74808,14 +69136,12 @@ export default [
     jobCategory: 38,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 130,
       CRT: 102,
       DET: 71,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
   },
   {
@@ -74828,14 +69154,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 288,
       VIT: 325,
       PDMG: 109,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -74848,14 +69172,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -74868,14 +69190,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -74888,14 +69208,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -74908,14 +69226,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -74928,14 +69244,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -74948,14 +69262,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -74968,14 +69280,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -74988,13 +69298,11 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75007,13 +69315,11 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75026,13 +69332,11 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75045,13 +69349,11 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75064,13 +69366,11 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75083,14 +69383,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75103,13 +69401,11 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75122,12 +69418,10 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 130,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75140,14 +69434,12 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 288,
       VIT: 325,
       PDMG: 109,
       DLY: 2240,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75160,14 +69452,12 @@ export default [
     jobCategory: 21,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75180,14 +69470,12 @@ export default [
     jobCategory: 22,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 3360,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75200,14 +69488,12 @@ export default [
     jobCategory: 23,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2800,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75220,14 +69506,12 @@ export default [
     jobCategory: 24,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 3040,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75240,14 +69524,12 @@ export default [
     jobCategory: 92,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2560,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75260,14 +69542,12 @@ export default [
     jobCategory: 98,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2960,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75280,14 +69560,12 @@ export default [
     jobCategory: 96,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75300,13 +69578,11 @@ export default [
     jobCategory: 25,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75319,13 +69595,11 @@ export default [
     jobCategory: 26,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75338,13 +69612,11 @@ export default [
     jobCategory: 28,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75357,13 +69629,11 @@ export default [
     jobCategory: 29,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75376,13 +69646,11 @@ export default [
     jobCategory: 99,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75395,14 +69663,12 @@ export default [
     jobCategory: 111,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
       PDMG: 109,
       DLY: 2640,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75415,13 +69681,11 @@ export default [
     jobCategory: 112,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 403,
       MDMG: 147,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75434,12 +69698,10 @@ export default [
     jobCategory: 20,
     equipLevel: 70,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 115,
       VIT: 130,
     },
-    hq: false,
     source: '优雷卡/丰水之地',
   },
   {
@@ -75452,7 +69714,6 @@ export default [
     jobCategory: 149,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 403,
       VIT: 455,
@@ -75461,7 +69722,6 @@ export default [
       PDMG: 109,
       DLY: 2800,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
     patch: '5.0',
   },
@@ -75475,7 +69735,6 @@ export default [
     jobCategory: 150,
     equipLevel: 70,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 403,
       VIT: 455,
@@ -75484,7 +69743,6 @@ export default [
       PDMG: 109,
       DLY: 3120,
     },
-    hq: false,
     source: '零式/阿尔法幻境',
     patch: '5.0',
   },
@@ -75498,7 +69756,6 @@ export default [
     jobCategory: 38,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 289,
       VIT: 325,
@@ -75507,7 +69764,6 @@ export default [
       PDMG: 110,
       DLY: 2240,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75521,7 +69777,6 @@ export default [
     jobCategory: 41,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 405,
       VIT: 455,
@@ -75530,7 +69785,6 @@ export default [
       PDMG: 110,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75544,7 +69798,6 @@ export default [
     jobCategory: 44,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 405,
       VIT: 455,
@@ -75553,7 +69806,6 @@ export default [
       PDMG: 110,
       DLY: 3360,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75567,7 +69819,6 @@ export default [
     jobCategory: 47,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 405,
       VIT: 455,
@@ -75576,7 +69827,6 @@ export default [
       PDMG: 110,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75590,7 +69840,6 @@ export default [
     jobCategory: 50,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 405,
       VIT: 455,
@@ -75599,7 +69848,6 @@ export default [
       PDMG: 110,
       DLY: 3040,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75613,7 +69861,6 @@ export default [
     jobCategory: 93,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 405,
       VIT: 455,
@@ -75622,7 +69869,6 @@ export default [
       PDMG: 110,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75636,7 +69882,6 @@ export default [
     jobCategory: 98,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 405,
       VIT: 455,
@@ -75645,7 +69890,6 @@ export default [
       PDMG: 110,
       DLY: 2960,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75659,7 +69903,6 @@ export default [
     jobCategory: 96,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 405,
       VIT: 455,
@@ -75668,7 +69911,6 @@ export default [
       PDMG: 110,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75682,7 +69924,6 @@ export default [
     jobCategory: 53,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 405,
@@ -75690,7 +69931,6 @@ export default [
       DET: 252,
       MDMG: 148,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75704,7 +69944,6 @@ export default [
     jobCategory: 55,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 405,
@@ -75712,7 +69951,6 @@ export default [
       DET: 360,
       MDMG: 148,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75726,7 +69964,6 @@ export default [
     jobCategory: 69,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 405,
@@ -75734,7 +69971,6 @@ export default [
       CRT: 252,
       MDMG: 148,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75748,7 +69984,6 @@ export default [
     jobCategory: 29,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 405,
@@ -75756,7 +69991,6 @@ export default [
       DET: 252,
       MDMG: 148,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75770,7 +70004,6 @@ export default [
     jobCategory: 99,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       MND: 405,
@@ -75778,7 +70011,6 @@ export default [
       DET: 252,
       MDMG: 148,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75792,7 +70024,6 @@ export default [
     jobCategory: 111,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 405,
       VIT: 455,
@@ -75801,7 +70032,6 @@ export default [
       PDMG: 110,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75815,7 +70045,6 @@ export default [
     jobCategory: 112,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 410,
       INT: 405,
@@ -75823,7 +70052,6 @@ export default [
       DET: 252,
       MDMG: 148,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75837,7 +70065,6 @@ export default [
     jobCategory: 149,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 405,
       VIT: 455,
@@ -75846,7 +70073,6 @@ export default [
       PDMG: 110,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75860,7 +70086,6 @@ export default [
     jobCategory: 150,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 405,
       VIT: 455,
@@ -75869,7 +70094,6 @@ export default [
       PDMG: 110,
       DLY: 3120,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75883,14 +70107,12 @@ export default [
     jobCategory: 38,
     equipLevel: 75,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 116,
       VIT: 130,
       TEN: 103,
       CRT: 72,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75904,14 +70126,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       TEN: 205,
       SKS: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75925,14 +70145,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 376,
       VIT: 423,
       CRT: 234,
       DET: 334,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75946,14 +70164,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       TEN: 144,
       CRT: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75967,14 +70183,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 376,
       VIT: 423,
       CRT: 234,
       DET: 334,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -75988,14 +70202,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       DET: 205,
       SKS: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76009,14 +70221,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       TEN: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76030,14 +70240,12 @@ export default [
     jobCategory: 47,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       CRT: 205,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76051,14 +70259,12 @@ export default [
     jobCategory: 47,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 376,
       VIT: 423,
       DHT: 334,
       DET: 234,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76072,14 +70278,12 @@ export default [
     jobCategory: 47,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       DHT: 144,
       CRT: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76093,14 +70297,12 @@ export default [
     jobCategory: 47,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 376,
       VIT: 423,
       CRT: 234,
       SKS: 334,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76114,14 +70316,12 @@ export default [
     jobCategory: 47,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       DHT: 205,
       SKS: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76135,14 +70335,12 @@ export default [
     jobCategory: 47,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       CRT: 154,
       DET: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76156,14 +70354,12 @@ export default [
     jobCategory: 65,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       DHT: 205,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76177,14 +70373,12 @@ export default [
     jobCategory: 65,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 376,
       VIT: 423,
       CRT: 334,
       DET: 234,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76198,14 +70392,12 @@ export default [
     jobCategory: 65,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       DHT: 205,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76219,14 +70411,12 @@ export default [
     jobCategory: 65,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 376,
       VIT: 423,
       DHT: 234,
       CRT: 334,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76240,14 +70430,12 @@ export default [
     jobCategory: 65,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 231,
       VIT: 260,
       CRT: 144,
       SKS: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76261,14 +70449,12 @@ export default [
     jobCategory: 65,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       DET: 108,
       SKS: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76282,14 +70468,12 @@ export default [
     jobCategory: 66,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 231,
       VIT: 260,
       DHT: 205,
       SKS: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76303,14 +70487,12 @@ export default [
     jobCategory: 66,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 376,
       VIT: 423,
       DHT: 234,
       CRT: 334,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76324,14 +70506,12 @@ export default [
     jobCategory: 66,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 231,
       VIT: 260,
       DHT: 144,
       DET: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76345,14 +70525,12 @@ export default [
     jobCategory: 66,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 376,
       VIT: 423,
       CRT: 334,
       DET: 234,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76366,14 +70544,12 @@ export default [
     jobCategory: 66,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 231,
       VIT: 260,
       DET: 144,
       SKS: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76387,14 +70563,12 @@ export default [
     jobCategory: 66,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 173,
       VIT: 195,
       DHT: 154,
       CRT: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76408,14 +70582,12 @@ export default [
     jobCategory: 103,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 231,
       VIT: 260,
       DHT: 205,
       CRT: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76429,14 +70601,12 @@ export default [
     jobCategory: 103,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 376,
       VIT: 423,
       DHT: 334,
       SKS: 234,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76450,14 +70620,12 @@ export default [
     jobCategory: 103,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 231,
       VIT: 260,
       DHT: 144,
       DET: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76471,14 +70639,12 @@ export default [
     jobCategory: 103,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 376,
       VIT: 423,
       DHT: 334,
       CRT: 234,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76492,14 +70658,12 @@ export default [
     jobCategory: 103,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 231,
       VIT: 260,
       DET: 144,
       SKS: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76513,14 +70677,12 @@ export default [
     jobCategory: 103,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 173,
       VIT: 195,
       DHT: 108,
       CRT: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76534,14 +70696,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       MND: 231,
       CRT: 205,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76555,14 +70715,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 381,
       MND: 376,
       PIE: 234,
       SPS: 334,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76576,14 +70734,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       MND: 231,
       PIE: 205,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76597,14 +70753,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 381,
       MND: 376,
       CRT: 334,
       SPS: 234,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76618,14 +70772,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       MND: 231,
       CRT: 144,
       SPS: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76639,14 +70791,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 173,
       PIE: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76660,14 +70810,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       INT: 231,
       DHT: 205,
       SPS: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76681,14 +70829,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 381,
       INT: 376,
       CRT: 334,
       SPS: 234,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76702,14 +70848,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       INT: 231,
       DHT: 205,
       DET: 144,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76723,14 +70867,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 381,
       INT: 376,
       DHT: 334,
       CRT: 234,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76744,14 +70886,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 234,
       INT: 231,
       DHT: 144,
       DET: 205,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76765,14 +70905,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 173,
       DHT: 154,
       SPS: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76786,14 +70924,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       CRT: 154,
       SKS: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76807,14 +70943,12 @@ export default [
     jobCategory: 84,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       DHT: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76828,14 +70962,12 @@ export default [
     jobCategory: 105,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 173,
       VIT: 195,
       DET: 108,
       SKS: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76849,14 +70981,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 173,
       PIE: 108,
       CRT: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76870,14 +71000,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 173,
       CRT: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76891,14 +71019,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       TEN: 154,
       SKS: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76912,14 +71038,12 @@ export default [
     jobCategory: 84,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       CRT: 108,
       SKS: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76933,14 +71057,12 @@ export default [
     jobCategory: 105,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 173,
       VIT: 195,
       CRT: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76954,14 +71076,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 173,
       CRT: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76975,14 +71095,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 173,
       DET: 154,
       SPS: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -76996,14 +71114,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       CRT: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77017,14 +71133,12 @@ export default [
     jobCategory: 84,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       CRT: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77038,14 +71152,12 @@ export default [
     jobCategory: 105,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 173,
       VIT: 195,
       CRT: 154,
       DET: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77059,14 +71171,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 173,
       PIE: 154,
       CRT: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77080,14 +71190,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 173,
       CRT: 108,
       SPS: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77101,14 +71209,12 @@ export default [
     jobCategory: 59,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       DET: 108,
       SKS: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77122,14 +71228,12 @@ export default [
     jobCategory: 84,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 173,
       VIT: 195,
       DHT: 154,
       DET: 108,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77143,14 +71247,12 @@ export default [
     jobCategory: 105,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 173,
       VIT: 195,
       DHT: 108,
       DET: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77164,14 +71266,12 @@ export default [
     jobCategory: 64,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 173,
       DET: 108,
       SPS: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -77185,14 +71285,12 @@ export default [
     jobCategory: 89,
     equipLevel: 75,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 173,
       DET: 108,
       SPS: 154,
     },
-    hq: false,
     source: '迷宫挑战/神影洞',
     patch: '5.0',
   },
@@ -78914,7 +73012,6 @@ export default [
     jobCategory: 38,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 295,
       VIT: 326,
@@ -78923,7 +73020,6 @@ export default [
       PDMG: 111,
       DLY: 2240,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -78937,7 +73033,6 @@ export default [
     jobCategory: 41,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 413,
       VIT: 456,
@@ -78946,7 +73041,6 @@ export default [
       PDMG: 111,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -78960,7 +73054,6 @@ export default [
     jobCategory: 44,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 413,
       VIT: 456,
@@ -78969,7 +73062,6 @@ export default [
       PDMG: 111,
       DLY: 3360,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -78983,7 +73075,6 @@ export default [
     jobCategory: 47,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 413,
       VIT: 456,
@@ -78992,7 +73083,6 @@ export default [
       PDMG: 111,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79006,7 +73096,6 @@ export default [
     jobCategory: 50,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 413,
       VIT: 456,
@@ -79015,7 +73104,6 @@ export default [
       PDMG: 111,
       DLY: 3040,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79029,7 +73117,6 @@ export default [
     jobCategory: 93,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 413,
       VIT: 456,
@@ -79038,7 +73125,6 @@ export default [
       PDMG: 111,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79052,7 +73138,6 @@ export default [
     jobCategory: 98,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 413,
       VIT: 456,
@@ -79061,7 +73146,6 @@ export default [
       PDMG: 111,
       DLY: 2960,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79075,7 +73159,6 @@ export default [
     jobCategory: 96,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 413,
       VIT: 456,
@@ -79084,7 +73167,6 @@ export default [
       PDMG: 111,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79098,7 +73180,6 @@ export default [
     jobCategory: 53,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       MND: 413,
@@ -79106,7 +73187,6 @@ export default [
       SPS: 379,
       MDMG: 150,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79120,7 +73200,6 @@ export default [
     jobCategory: 55,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       INT: 413,
@@ -79128,7 +73207,6 @@ export default [
       DET: 266,
       MDMG: 150,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79142,7 +73220,6 @@ export default [
     jobCategory: 69,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       INT: 413,
@@ -79150,7 +73227,6 @@ export default [
       DET: 266,
       MDMG: 150,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79164,7 +73240,6 @@ export default [
     jobCategory: 29,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       MND: 413,
@@ -79172,7 +73247,6 @@ export default [
       CRT: 266,
       MDMG: 150,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79186,7 +73260,6 @@ export default [
     jobCategory: 99,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       MND: 413,
@@ -79194,7 +73267,6 @@ export default [
       DET: 266,
       MDMG: 150,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79208,7 +73280,6 @@ export default [
     jobCategory: 111,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 413,
       VIT: 456,
@@ -79217,7 +73288,6 @@ export default [
       PDMG: 111,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79231,7 +73301,6 @@ export default [
     jobCategory: 112,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       INT: 413,
@@ -79239,7 +73308,6 @@ export default [
       DET: 379,
       MDMG: 150,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79253,7 +73321,6 @@ export default [
     jobCategory: 149,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 413,
       VIT: 456,
@@ -79262,7 +73329,6 @@ export default [
       PDMG: 111,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79276,7 +73342,6 @@ export default [
     jobCategory: 150,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 413,
       VIT: 456,
@@ -79285,7 +73350,6 @@ export default [
       PDMG: 111,
       DLY: 3120,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79299,14 +73363,12 @@ export default [
     jobCategory: 38,
     equipLevel: 77,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 118,
       VIT: 130,
       DET: 76,
       SKS: 108,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79320,14 +73382,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       TEN: 217,
       DET: 152,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79341,14 +73401,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 383,
       VIT: 424,
       TEN: 247,
       CRT: 352,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79362,14 +73420,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       CRT: 152,
       DET: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79383,14 +73439,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 383,
       VIT: 424,
       CRT: 352,
       SKS: 247,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79404,14 +73458,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       TEN: 217,
       CRT: 152,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79425,14 +73477,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       TEN: 114,
       DET: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79446,14 +73496,12 @@ export default [
     jobCategory: 47,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       DHT: 152,
       CRT: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79467,14 +73515,12 @@ export default [
     jobCategory: 47,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 383,
       VIT: 424,
       DHT: 247,
       DET: 352,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79488,14 +73534,12 @@ export default [
     jobCategory: 47,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       DET: 152,
       SKS: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79509,14 +73553,12 @@ export default [
     jobCategory: 47,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 383,
       VIT: 424,
       DHT: 247,
       CRT: 352,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79530,14 +73572,12 @@ export default [
     jobCategory: 47,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       DHT: 217,
       DET: 152,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79551,14 +73591,12 @@ export default [
     jobCategory: 47,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       DET: 163,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79572,14 +73610,12 @@ export default [
     jobCategory: 65,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       DHT: 217,
       DET: 152,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79593,14 +73629,12 @@ export default [
     jobCategory: 65,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 383,
       VIT: 424,
       DHT: 247,
       SKS: 352,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79614,14 +73648,12 @@ export default [
     jobCategory: 65,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       DHT: 152,
       DET: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79635,14 +73667,12 @@ export default [
     jobCategory: 65,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 383,
       VIT: 424,
       CRT: 352,
       DET: 247,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79656,14 +73686,12 @@ export default [
     jobCategory: 65,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 236,
       VIT: 261,
       DHT: 152,
       SKS: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79677,14 +73705,12 @@ export default [
     jobCategory: 65,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       CRT: 114,
       SKS: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79698,14 +73724,12 @@ export default [
     jobCategory: 66,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 236,
       VIT: 261,
       CRT: 152,
       SKS: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79719,14 +73743,12 @@ export default [
     jobCategory: 66,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 383,
       VIT: 424,
       DHT: 352,
       DET: 247,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79740,14 +73762,12 @@ export default [
     jobCategory: 66,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 236,
       VIT: 261,
       DHT: 152,
       CRT: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79761,14 +73781,12 @@ export default [
     jobCategory: 66,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 383,
       VIT: 424,
       DHT: 247,
       DET: 352,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79782,14 +73800,12 @@ export default [
     jobCategory: 66,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 236,
       VIT: 261,
       DET: 152,
       SKS: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79803,14 +73819,12 @@ export default [
     jobCategory: 66,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 177,
       VIT: 196,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79824,14 +73838,12 @@ export default [
     jobCategory: 103,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 236,
       VIT: 261,
       CRT: 217,
       SKS: 152,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79845,14 +73857,12 @@ export default [
     jobCategory: 103,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 383,
       VIT: 424,
       DET: 247,
       SKS: 352,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79866,14 +73876,12 @@ export default [
     jobCategory: 103,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 236,
       VIT: 261,
       CRT: 152,
       DET: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79887,14 +73895,12 @@ export default [
     jobCategory: 103,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 383,
       VIT: 424,
       DHT: 352,
       CRT: 247,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79908,14 +73914,12 @@ export default [
     jobCategory: 103,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 236,
       VIT: 261,
       DHT: 152,
       DET: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79929,14 +73933,12 @@ export default [
     jobCategory: 103,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 177,
       VIT: 196,
       DHT: 114,
       CRT: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79950,14 +73952,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       MND: 236,
       DET: 152,
       SPS: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79971,14 +73971,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 381,
       MND: 383,
       PIE: 352,
       CRT: 247,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -79992,14 +73990,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       MND: 236,
       DET: 217,
       SPS: 152,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80013,14 +74009,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 381,
       MND: 383,
       PIE: 247,
       CRT: 352,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80034,14 +74028,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       MND: 236,
       CRT: 152,
       DET: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80055,14 +74047,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 177,
       PIE: 163,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80076,14 +74066,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       INT: 236,
       DHT: 152,
       SPS: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80097,14 +74085,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 381,
       INT: 383,
       DHT: 352,
       DET: 247,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80118,14 +74104,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       INT: 236,
       DHT: 217,
       CRT: 152,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80139,14 +74123,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 381,
       INT: 383,
       DHT: 352,
       SPS: 247,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80160,14 +74142,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       INT: 236,
       CRT: 152,
       SPS: 217,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80181,14 +74161,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 177,
       DHT: 163,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80202,14 +74180,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       TEN: 163,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80223,14 +74199,12 @@ export default [
     jobCategory: 84,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       CRT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80244,14 +74218,12 @@ export default [
     jobCategory: 105,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 177,
       VIT: 196,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80265,14 +74237,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 177,
       PIE: 163,
       CRT: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80286,14 +74256,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 177,
       CRT: 114,
       SPS: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80307,14 +74275,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80328,14 +74294,12 @@ export default [
     jobCategory: 84,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       CRT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80349,14 +74313,12 @@ export default [
     jobCategory: 105,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 177,
       VIT: 196,
       DHT: 114,
       CRT: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80370,14 +74332,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 177,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80391,14 +74351,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 177,
       DET: 114,
       SPS: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80412,14 +74370,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       TEN: 114,
       CRT: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80433,14 +74389,12 @@ export default [
     jobCategory: 84,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80454,14 +74408,12 @@ export default [
     jobCategory: 105,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 177,
       VIT: 196,
       DHT: 163,
       CRT: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80475,14 +74427,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 177,
       PIE: 114,
       SPS: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80496,14 +74446,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 177,
       CRT: 163,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80517,14 +74465,12 @@ export default [
     jobCategory: 59,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       CRT: 114,
       DET: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80538,14 +74484,12 @@ export default [
     jobCategory: 84,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 177,
       VIT: 196,
       DHT: 114,
       DET: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80559,14 +74503,12 @@ export default [
     jobCategory: 105,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 177,
       VIT: 196,
       DHT: 163,
       SKS: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80580,14 +74522,12 @@ export default [
     jobCategory: 64,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 177,
       DET: 163,
       SPS: 114,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -80601,14 +74541,12 @@ export default [
     jobCategory: 89,
     equipLevel: 77,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 177,
       DHT: 114,
       DET: 163,
     },
-    hq: false,
     source: '迷宫挑战/马利卡大井',
     patch: '5.0',
   },
@@ -82330,7 +76268,6 @@ export default [
     jobCategory: 38,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 301,
       VIT: 326,
@@ -82339,7 +76276,6 @@ export default [
       PDMG: 112,
       DLY: 2240,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82353,7 +76289,6 @@ export default [
     jobCategory: 41,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 421,
       VIT: 457,
@@ -82362,7 +76297,6 @@ export default [
       PDMG: 112,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82376,7 +76310,6 @@ export default [
     jobCategory: 44,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 421,
       VIT: 457,
@@ -82385,7 +76318,6 @@ export default [
       PDMG: 112,
       DLY: 3360,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82399,7 +76331,6 @@ export default [
     jobCategory: 47,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 421,
       VIT: 457,
@@ -82408,7 +76339,6 @@ export default [
       PDMG: 112,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82422,7 +76352,6 @@ export default [
     jobCategory: 50,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 421,
       VIT: 457,
@@ -82431,7 +76360,6 @@ export default [
       PDMG: 112,
       DLY: 3040,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82445,7 +76373,6 @@ export default [
     jobCategory: 93,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 421,
       VIT: 457,
@@ -82454,7 +76381,6 @@ export default [
       PDMG: 112,
       DLY: 2560,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82468,7 +76394,6 @@ export default [
     jobCategory: 98,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 421,
       VIT: 457,
@@ -82477,7 +76402,6 @@ export default [
       PDMG: 112,
       DLY: 2960,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82491,7 +76415,6 @@ export default [
     jobCategory: 96,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 421,
       VIT: 457,
@@ -82500,7 +76423,6 @@ export default [
       PDMG: 112,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82514,7 +76436,6 @@ export default [
     jobCategory: 53,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       MND: 421,
@@ -82522,7 +76443,6 @@ export default [
       SPS: 399,
       MDMG: 152,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82536,7 +76456,6 @@ export default [
     jobCategory: 55,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       INT: 421,
@@ -82544,7 +76463,6 @@ export default [
       CRT: 280,
       MDMG: 152,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82558,7 +76476,6 @@ export default [
     jobCategory: 69,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       INT: 421,
@@ -82566,7 +76483,6 @@ export default [
       DET: 399,
       MDMG: 152,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82580,7 +76496,6 @@ export default [
     jobCategory: 29,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       MND: 421,
@@ -82588,7 +76503,6 @@ export default [
       SPS: 399,
       MDMG: 152,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82602,7 +76516,6 @@ export default [
     jobCategory: 99,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       MND: 421,
@@ -82610,7 +76523,6 @@ export default [
       SPS: 399,
       MDMG: 152,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82624,7 +76536,6 @@ export default [
     jobCategory: 111,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 421,
       VIT: 457,
@@ -82633,7 +76544,6 @@ export default [
       PDMG: 112,
       DLY: 2640,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82647,7 +76557,6 @@ export default [
     jobCategory: 112,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 411,
       INT: 421,
@@ -82655,7 +76564,6 @@ export default [
       SPS: 399,
       MDMG: 152,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82669,7 +76577,6 @@ export default [
     jobCategory: 149,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 421,
       VIT: 457,
@@ -82678,7 +76585,6 @@ export default [
       PDMG: 112,
       DLY: 2800,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82692,7 +76598,6 @@ export default [
     jobCategory: 150,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 421,
       VIT: 457,
@@ -82701,7 +76606,6 @@ export default [
       PDMG: 112,
       DLY: 3120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82715,14 +76619,12 @@ export default [
     jobCategory: 38,
     equipLevel: 79,
     materiaSlot: 0,
-    materiaAdvanced: false,
     stats: {
       STR: 120,
       VIT: 131,
       TEN: 80,
       DET: 114,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82736,14 +76638,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       TEN: 160,
       SKS: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82757,14 +76657,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 391,
       VIT: 424,
       CRT: 371,
       DET: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82778,14 +76676,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       TEN: 228,
       DET: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82799,14 +76695,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 391,
       VIT: 424,
       TEN: 260,
       CRT: 371,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82820,14 +76714,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       CRT: 228,
       SKS: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82841,14 +76733,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       TEN: 171,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82862,14 +76752,12 @@ export default [
     jobCategory: 47,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       DHT: 228,
       DET: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82883,14 +76771,12 @@ export default [
     jobCategory: 47,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 391,
       VIT: 424,
       CRT: 260,
       SKS: 371,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82904,14 +76790,12 @@ export default [
     jobCategory: 47,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       DET: 228,
       SKS: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82925,14 +76809,12 @@ export default [
     jobCategory: 47,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 391,
       VIT: 424,
       DHT: 371,
       CRT: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82946,14 +76828,12 @@ export default [
     jobCategory: 47,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       CRT: 160,
       DET: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82967,14 +76847,12 @@ export default [
     jobCategory: 47,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       CRT: 171,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -82988,14 +76866,12 @@ export default [
     jobCategory: 65,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       CRT: 160,
       SKS: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83009,14 +76885,12 @@ export default [
     jobCategory: 65,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 391,
       VIT: 424,
       CRT: 260,
       SKS: 371,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83030,14 +76904,12 @@ export default [
     jobCategory: 65,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       DHT: 228,
       DET: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83051,14 +76923,12 @@ export default [
     jobCategory: 65,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 391,
       VIT: 424,
       CRT: 371,
       SKS: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83072,14 +76942,12 @@ export default [
     jobCategory: 65,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       STR: 240,
       VIT: 261,
       DHT: 228,
       DET: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83093,14 +76961,12 @@ export default [
     jobCategory: 65,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       DHT: 120,
       DET: 171,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83114,14 +76980,12 @@ export default [
     jobCategory: 66,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 240,
       VIT: 261,
       CRT: 160,
       SKS: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83135,14 +76999,12 @@ export default [
     jobCategory: 66,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 391,
       VIT: 424,
       DHT: 260,
       DET: 371,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83156,14 +77018,12 @@ export default [
     jobCategory: 66,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 240,
       VIT: 261,
       CRT: 228,
       DET: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83177,14 +77037,12 @@ export default [
     jobCategory: 66,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 391,
       VIT: 424,
       DHT: 260,
       CRT: 371,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83198,14 +77056,12 @@ export default [
     jobCategory: 66,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 240,
       VIT: 261,
       DET: 160,
       SKS: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83219,14 +77075,12 @@ export default [
     jobCategory: 66,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 196,
       DET: 171,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83240,14 +77094,12 @@ export default [
     jobCategory: 103,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 240,
       VIT: 261,
       DET: 160,
       SKS: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83261,14 +77113,12 @@ export default [
     jobCategory: 103,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 391,
       VIT: 424,
       DHT: 371,
       DET: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83282,14 +77132,12 @@ export default [
     jobCategory: 103,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 240,
       VIT: 261,
       CRT: 228,
       SKS: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83303,14 +77151,12 @@ export default [
     jobCategory: 103,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 391,
       VIT: 424,
       CRT: 371,
       DET: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83324,14 +77170,12 @@ export default [
     jobCategory: 103,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       DEX: 240,
       VIT: 261,
       DHT: 228,
       DET: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83345,14 +77189,12 @@ export default [
     jobCategory: 103,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 196,
       DHT: 120,
       SKS: 171,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83366,14 +77208,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       MND: 240,
       DET: 160,
       SPS: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83387,14 +77227,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 382,
       MND: 391,
       PIE: 371,
       DET: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83408,14 +77246,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       MND: 240,
       DET: 228,
       SPS: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83429,14 +77265,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 382,
       MND: 391,
       PIE: 371,
       DET: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83450,14 +77284,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       MND: 240,
       CRT: 160,
       DET: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83471,14 +77303,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 180,
       PIE: 171,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83492,14 +77322,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       INT: 240,
       DET: 160,
       SPS: 228,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83513,14 +77341,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 382,
       INT: 391,
       CRT: 371,
       DET: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83534,14 +77360,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       INT: 240,
       CRT: 228,
       SPS: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83555,14 +77379,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 382,
       INT: 391,
       DET: 371,
       SPS: 260,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83576,14 +77398,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 2,
-    materiaAdvanced: false,
     stats: {
       VIT: 235,
       INT: 240,
       DHT: 228,
       CRT: 160,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83597,14 +77417,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 180,
       DET: 171,
       SPS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83618,14 +77436,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       CRT: 171,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83639,14 +77455,12 @@ export default [
     jobCategory: 84,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       CRT: 171,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83660,14 +77474,12 @@ export default [
     jobCategory: 105,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 196,
       CRT: 171,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83681,14 +77493,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 180,
       PIE: 171,
       SPS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83702,14 +77512,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 180,
       DHT: 171,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83723,14 +77531,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       CRT: 120,
       DET: 171,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83744,14 +77550,12 @@ export default [
     jobCategory: 84,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       DHT: 171,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83765,14 +77569,12 @@ export default [
     jobCategory: 105,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 196,
       DHT: 171,
       CRT: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83786,14 +77588,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 180,
       CRT: 120,
       SPS: 171,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83807,14 +77607,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 180,
       DHT: 171,
       SPS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83828,14 +77626,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       TEN: 171,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83849,14 +77645,12 @@ export default [
     jobCategory: 84,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       DHT: 171,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83870,14 +77664,12 @@ export default [
     jobCategory: 105,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 196,
       DHT: 120,
       DET: 171,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83891,14 +77683,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 180,
       PIE: 120,
       CRT: 171,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83912,14 +77702,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 180,
       DHT: 120,
       DET: 171,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83933,14 +77721,12 @@ export default [
     jobCategory: 59,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       DET: 171,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83954,14 +77740,12 @@ export default [
     jobCategory: 84,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       STR: 180,
       VIT: 196,
       DET: 171,
       SKS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83975,14 +77759,12 @@ export default [
     jobCategory: 105,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       DEX: 180,
       VIT: 196,
       DHT: 171,
       CRT: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -83996,14 +77778,12 @@ export default [
     jobCategory: 64,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       MND: 180,
       CRT: 171,
       DET: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },
@@ -84017,14 +77797,12 @@ export default [
     jobCategory: 89,
     equipLevel: 79,
     materiaSlot: 1,
-    materiaAdvanced: false,
     stats: {
       VIT: 176,
       INT: 180,
       DHT: 171,
       SPS: 120,
     },
-    hq: false,
     source: '迷宫挑战/格鲁格火山',
     patch: '5.0',
   },

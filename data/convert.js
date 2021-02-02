@@ -163,9 +163,9 @@ const gears = Item
       jobCategory,
       equipLevel,
       materiaSlot: Number(x['MateriaSlotCount']),
-      materiaAdvanced: x['IsAdvancedMeldingPermitted'] === 'True',
+      materiaAdvanced: x['IsAdvancedMeldingPermitted'] === 'True' ? true : undefined,
       stats,
-      hq: x['CanBeHq'] === 'True',
+      hq: x['CanBeHq'] === 'True' ? true : undefined,
       source: sourceOfId[x['#']],
       patch: patches[patchIds[x['#']]],
     };
