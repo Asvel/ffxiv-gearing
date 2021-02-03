@@ -56,9 +56,12 @@ mst.onSnapshot(store, snapshot => {
     archive.save(snapshot);
   }
 });
-// onPatch(store, patch => console.log(patch));
 
 require('./gearset');
 
 (window as any).store = store;
-(window as any).G = G;
+(window as any).game = G;
+if (process.env.NODE_ENV === 'production') {
+  mst.unprotect(store);  // Allow users manipulate store in browser console if they want.
+  console.log('You can access window.store for data store of this app, and window.game for ffxiv related constants.');
+}

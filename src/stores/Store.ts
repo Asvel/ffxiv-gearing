@@ -375,7 +375,7 @@ export const Store = mst.types
       }
     },
     unprotect(): void {
-      setTimeout(() => mst.unprotect(self), 0);
+      mst.unprotect(self);
     },
   }))
   .actions(self => ({
