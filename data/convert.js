@@ -24,7 +24,7 @@ function loadExd(filename) {
 }
 
 const versions = {
-  data: '5.4',
+  data: '5.45',
   released: '5.31',  // released version of chinese datacenter
 };
 
@@ -50,6 +50,8 @@ const patchIds = require('./in/Item.json');
 const patches = {
   71: '5.35',
   72: '5.4',
+  73: '5.41',
+  74: '5.45',
 };
 
 const sourceOfId = {};
@@ -172,7 +174,7 @@ const gears = Item
         if (!craft && !gather) ret.jobCategory = 34;
       }
     }
-    if (ret.jobCategory === 63 && ret.equipLevel > 60) {  // 青魔并不能装备高等级装备
+    if (ret.jobCategory === 63 && ret.equipLevel > 70) {  // 青魔并不能装备高等级装备
       ret.jobCategory = 89;
     }
 
