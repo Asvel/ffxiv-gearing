@@ -184,6 +184,7 @@ const GearRow = mobxReact.observer<{
 });
 
 const GearMenu = mobxReact.observer<{ gear: IGearUnion, toggle: () => void }>(({ gear, toggle }) => {
+  const store = useStore();
   return (
     <div className="gear-menu card">
       <RippleLazy>
@@ -193,11 +194,18 @@ const GearMenu = mobxReact.observer<{ gear: IGearUnion, toggle: () => void }>(({
             component="div"
             data-clipboard-text={gear.name}
             onClick={toggle}
-            children="复制道具名"
-          />
+          >
+            复制道具名
+            {!gear.isFood && gear.source && (store.setting.gearDisplayName === 'source' || !gear.isInstalled) && (
+              '：' + gear.name
+            )}
+          </Clipboard>
         </div>
       </RippleLazy>
       <div className="gear-menu_divider" />
+      {!gear.isFood && gear.source && (store.setting.gearDisplayName === 'name' && gear.isInstalled) && (
+        <div className="gear-menu_item">获取途径：{gear.source}</div>
+      )}
       {gear.stats.PDMG !== undefined && <div className="gear-menu_item">物理基本性能：{gear.stats.PDMG}</div>}
       {gear.stats.MDMG !== undefined && <div className="gear-menu_item">魔法基本性能：{gear.stats.MDMG}</div>}
       {gear.stats.DLY !== undefined && (

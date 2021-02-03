@@ -307,7 +307,7 @@ export const Condition = mobxReact.observer(() => {
               <div className="setting card">
                 <div className="setting_section">
                   <span className="setting_title">装备名显示方式</span>
-                  <span className="setting_sub">国服未实装的装备总会显示为装备来源</span>
+                  <span className="setting_sub">国服未实装的装备总会显示为获取途径</span>
                 </div>
                 <div className="setting_controls">
                   <Radio
@@ -316,7 +316,7 @@ export const Condition = mobxReact.observer(() => {
                     onChange={() => store.setting.setGearDisplayName('name')}
                   />
                   <Radio
-                    label="显示装备来源"
+                    label="显示获取途径"
                     checked={store.setting.gearDisplayName === 'source'}
                     onChange={() => store.setting.setGearDisplayName('source')}
                   />
