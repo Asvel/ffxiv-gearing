@@ -66939,7 +66939,7 @@ export default [
     stats: {
       MDMG: 1,
     },
-    source: '职业任务',
+    source: '假面狂欢',
     patch: '5.45',
   },
   {
@@ -66974,7 +66974,7 @@ export default [
       DHT: 140,
       CRT: 200,
     },
-    source: '同盟徽章',
+    source: '职业任务',
     patch: '5.45',
   },
   {
@@ -66993,7 +66993,7 @@ export default [
       DHT: 325,
       CRT: 227,
     },
-    source: '同盟徽章',
+    source: '职业任务',
     patch: '5.45',
   },
   {
@@ -67012,7 +67012,7 @@ export default [
       DHT: 200,
       DET: 140,
     },
-    source: '同盟徽章',
+    source: '职业任务',
     patch: '5.45',
   },
   {
@@ -67031,7 +67031,7 @@ export default [
       CRT: 325,
       DET: 227,
     },
-    source: '同盟徽章',
+    source: '职业任务',
     patch: '5.45',
   },
   {
@@ -67050,7 +67050,7 @@ export default [
       CRT: 140,
       SPS: 200,
     },
-    source: '同盟徽章',
+    source: '职业任务',
     patch: '5.45',
   },
   {
