@@ -561,3 +561,5 @@ export const syncLevelIsPopular: { [index: number]: boolean } = {
   435: true,  // Unreal Trials
 };
 export const syncLevelOfJobLevels = { 50: 130, 60: 270, 70: 400, 80: 530 };
+
+export const bluMdmgAdditions = require('../data/out/bluMdmgAdditions').default as number[];

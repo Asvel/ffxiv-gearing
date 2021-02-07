@@ -339,6 +339,9 @@ for (const item of Item) {
   }
 }
 
+const bluMdmgAdditions = fs.readFileSync('./in/bluMdmgAdditions.txt', 'utf8')
+  .split(/\r?\n/).map(x => parseInt(x, 10)).filter(x => !Number.isNaN(x));
+
 const sourcesMissingIds = Object.keys(sourcesMissing).map(x => Number(x)).sort((a, b) => a - b);
 if (sourcesMissingIds.length > 0) {
   const output = ['-----'];
@@ -364,3 +367,4 @@ fs.writeFileSync('./out/slotCaps.js', stringify(slotCaps));
 fs.writeFileSync('./out/roleCaps.js', stringify(roleCaps));
 fs.writeFileSync('./out/syncLevels.js', stringify(syncLevels).replace(/'/g, ''));
 fs.writeFileSync('./out/lodestoneIds.js', stringify(lodestoneIds).replace(/null,/g, ','));
+fs.writeFileSync('./out/bluMdmgAdditions.js', stringify(bluMdmgAdditions));

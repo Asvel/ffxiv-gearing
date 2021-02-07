@@ -220,7 +220,8 @@ export const Store = mst.types
       const dhtChance = floor(550 * (DHT! - sub) / div) / 1000;
       const tenDamage = floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
       const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
-        ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0);
+        ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0) +
+        (self.job === 'BLU' ? G.bluMdmgAdditions[self.equippedStats['INT']! - self.baseStats['INT']!] ?? 0 : 0);
       const mainDamage = floor((mainStat === 'VIT' ? levelMod.apTank : levelMod.ap) *
         (floor((self.equippedStats[attackMainStat] ?? 0) * (partyBonus ?? 1.05)) - main) / main + 100) / 100;
       const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier *
