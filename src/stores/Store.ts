@@ -211,12 +211,12 @@ export const Store = mst.types
       const { statModifiers, mainStat, traitDamageMultiplier, partyBonus } = self.schema;
       if (statModifiers === undefined || mainStat === undefined || traitDamageMultiplier === undefined) return;
       const levelMod = G.jobLevelModifiers[self.jobLevel];
-      const { main, sub, div } = levelMod;
+      const { main, sub, div, det, detTrunc } = levelMod;
       const { CRT, DET, DHT, TEN, SKS, SPS, VIT, PIE, PDMG, MDMG } = self.equippedStats;
       const attackMainStat = mainStat === 'VIT' ? 'STR' : mainStat;
       const crtChance = floor(200 * (CRT! - sub) / div + 50) / 1000;
       const crtDamage = floor(200 * (CRT! - sub) / div + 1400) / 1000;
-      const detDamage = floor(130 * (DET! - main) / div + 1000) / 1000;
+      const detDamage = floor((130 * (DET! - main) / det + 1000) / detTrunc) * detTrunc / 1000;
       const dhtChance = floor(550 * (DHT! - sub) / div) / 1000;
       const tenDamage = floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
       const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
@@ -237,7 +237,7 @@ export const Store = mst.types
     get equippedTiers(): { [index in G.Stat]?: { prev: number, next: number } } | undefined {
       const { statModifiers } = self.schema;
       if (statModifiers === undefined) return;
-      const { main, sub, div } = G.jobLevelModifiers[self.jobLevel];
+      const { main, sub, div, det, detTrunc } = G.jobLevelModifiers[self.jobLevel];
       const { CRT, DET, DHT, TEN, SKS, SPS, PIE } = self.equippedStats;
       function calcTier(value: number, multiplier: number) {
         if (Number.isNaN(value)) return undefined;
@@ -255,7 +255,7 @@ export const Store = mst.types
       }
       return {
         CRT: calcTier(CRT! - sub, div / 200),
-        DET: calcTier(DET! - main, div / 130),
+        DET: calcTier(DET! - main, det / 130 * detTrunc),
         DHT: calcTier(DHT! - sub, div / 550),
         TEN: calcTier(TEN! - sub, div / 100),
         SKS: calcGcdTier(SKS! - sub, div / 130, (statModifiers.gcd ?? 100) / 1000),
