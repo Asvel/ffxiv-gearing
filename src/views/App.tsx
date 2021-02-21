@@ -2,10 +2,11 @@ import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { IStore } from '../stores';
 import { StoreContext } from './components/contexts';
-import { Slot, SlotCompact } from './slot';
-import { Condition } from './condition';
-import { Summary } from './summary';
-import { About } from './about';
+import { Slot } from './Slot';
+import { SlotCompact } from './SlotCompact';
+import { Condition } from './Condition';
+import { Summary } from './Summary';
+import { About } from './About';
 
 export const App = mobxReact.observer<{ store: IStore }>(({ store }) => {
   return store.isLoading ? null : (

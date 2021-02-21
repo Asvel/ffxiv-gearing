@@ -124,9 +124,18 @@ svg {
   }
 }
 
-@import "./job-selector";
-@import "./slot";
-@import "./materia";
-@import "./condition";
-@import "./summary";
-@import "./about";
+@import "./JobSelector";
+@import "./Slot";
+@import "./Materia";
+@import "./Condition";
+@import "./Summary";
+@import "./About";
+
+@import "./LevelSyncPanel";
+@import "./MateriaOverallPanel";
+@import "./SharePanel";
+@import "./ImportPanel";
+@import "./SettingPanel";
+@import "./GearMenu";
+@import "./MateriaPanel";
+@import "./ClanPanel";

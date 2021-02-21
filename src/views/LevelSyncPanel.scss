@@ -1,0 +1,45 @@
+@use "./components/mixins" as *;
+
+.level-sync {
+  @include elevation(4);
+  .rmwc-collapsible-list__children {
+    transition: none;
+  }
+}
+.level-sync_group {
+  font-weight: bold;
+}
+.level-sync_group-icon {
+  width: 24px;
+}
+.level-sync_levels {
+  width: 288px;
+  margin: 0 4px;
+}
+.level-sync_level {
+  display: inline-block;
+  width: 48px;
+  line-height: 36px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 4px;
+  cursor: pointer;
+  &.-popular {
+    font-weight: bold;
+  }
+  &.-selected {
+    background-color: rgba($primary, .08);
+    .app-high-saturation & {
+      background-color: rgba($primary, .16);
+    }
+  }
+}
+.level-sync_job-level-sync {
+  @extend .level-sync_level;
+  float: right;
+  width: auto;
+  padding: 0 12px;
+}
+.level-sync_cancel {
+  margin: 5px 8px 0;
+}

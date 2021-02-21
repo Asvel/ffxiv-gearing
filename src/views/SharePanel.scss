@@ -1,0 +1,29 @@
+@use "./components/mixins" as *;
+
+.share {
+  min-width: 300px;
+  padding: 16px;
+  line-height: 20px;
+  @include elevation(4);
+}
+.share_url {
+  display: block;
+  font-size: 12px;
+  color: $primary;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.share_tip {
+  margin-top: 4px;
+  margin-bottom: -2px;
+  font-size: 12px;
+  font-style: italic;
+}
+.share_copy {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  height: 34px;
+}

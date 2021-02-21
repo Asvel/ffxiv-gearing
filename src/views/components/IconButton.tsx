@@ -3,7 +3,7 @@ import * as classNames from 'classnames';
 import { RippleLazy } from './RippleLazy';
 import { Icon } from './Icon';
 
-interface IconButtonProps extends React.HTMLProps<HTMLButtonElement> {
+export interface IconButtonProps extends React.HTMLProps<HTMLButtonElement> {
   icon: string,
 }
 

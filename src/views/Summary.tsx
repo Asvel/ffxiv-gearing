@@ -5,9 +5,9 @@ import { Button } from '@rmwc/button';
 import { Tooltip } from '@rmwc/tooltip';
 import * as G from '../game';
 import { useStore } from './components/contexts';
-import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 import { Dropdown } from './components/Dropdown';
+import { ClanPanel } from './ClanPanel';
 
 export const Summary = mobxReact.observer(() => {
   const store = useStore();
@@ -22,33 +22,7 @@ export const Summary = mobxReact.observer(() => {
               {store.raceName} - {store.clanName}
             </Button>
           )}
-          popper={({ toggle }) => (
-            <div className="clan card">
-              <table>
-                <tbody>
-                {G.races.map((raceName, i) => (
-                  <tr key={i}>
-                    <td className="clan_race">{raceName}</td>
-                    {[i * 2, i * 2 + 1].map(clan => (
-                      <td key={clan}>
-                        <RippleLazy>
-                          <div
-                            className="clan_item"
-                            onClick={() => {
-                              store.setClan(clan);
-                              toggle();
-                            }}
-                            children={G.clans[clan]}
-                          />
-                        </RippleLazy>
-                      </td>
-                    ))}
-                  </tr>
-                ))}
-                </tbody>
-              </table>
-            </div>
-          )}
+          popper={ClanPanel}
           placement="top-start"
           modifiers={[{ name: 'offset', options: { offset: [-8, 0] } }]}
           strategy="fixed"

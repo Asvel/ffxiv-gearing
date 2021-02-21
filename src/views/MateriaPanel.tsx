@@ -3,40 +3,12 @@ import * as classNames from 'classnames';
 import * as G from '../game';
 import { IMateria } from '../stores';
 import { useStore } from './components/contexts';
-import { Dropdown } from './components/Dropdown';
+import { DropdownPopperProps } from './components/Dropdown';
 
-export const Materia = mobxReact.observer<{ materia: IMateria }>(({ materia }) => {
-  const store = useStore();
-  return (
-    <Dropdown
-      label={({ ref, expanded, toggle }) => (
-        <span
-          ref={ref}
-          className={classNames(
-            'gears_materia',
-            materia.isAdvanced ? '-advanced' : '-normal',
-            expanded && '-active',
-          )}
-          onClick={store.isViewing ? undefined : toggle}
-          onContextMenu={store.isViewing ? undefined : e => {
-            if (!document.getSelection()?.toString()) {
-              e.preventDefault();
-              materia.meld(undefined);
-            }
-          }}
-          children={materia.name}
-        />
-      )}
-      popper={({ labelElement }) => (
-        <MateriaPanel materia={materia} labelElement={labelElement} />
-      )}
-      placement="bottom-start"
-      modifiers={[{ name: 'offset', options: { offset: [-104 - materia.index * 50, 0] } }]}
-    />
-  );
-});
-
-const MateriaPanel = mobxReact.observer<{ materia: IMateria, labelElement: HTMLElement | null }>(({ materia, labelElement }) => {
+export const MateriaPanel = mobxReact.observer<{
+  materia: IMateria,
+  labelElement: DropdownPopperProps['labelElement'],
+}>(({ materia, labelElement }) => {
   const store = useStore();
   return (
     <table className="materias table card">

@@ -1,0 +1,27 @@
+@use "./components/mixins" as *;
+
+.setting {
+  min-width: 500px;
+  padding: 8px 16px 10px;
+  line-height: 20px;
+  @include elevation(4);
+}
+.setting_section {
+  margin-top: 8px;
+}
+.setting_title {
+  font-weight: bold;
+}
+.setting_sub {
+  margin-left: 6px;
+  font-size: 12px;
+  line-height: 1;
+  vertical-align: -1px;
+  color: #00000099;
+}
+.setting_controls {
+  margin-left: -9px;
+  > .mdc-form-field {
+    margin-right: 20px;
+  }
+}

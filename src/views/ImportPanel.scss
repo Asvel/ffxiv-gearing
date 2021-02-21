@@ -1,0 +1,28 @@
+@use "./components/mixins" as *;
+
+.import {
+  padding: 16px;
+  line-height: 20px;
+  @include elevation(4);
+}
+.import_title {
+  font-weight: bold;
+}
+.import_bookmarklet {
+  display: block;
+  text-align: center;
+  margin: 8px 0;
+  padding: 8px;
+  color: $primary;
+  text-decoration: none;
+  border: 1px dashed #6200ee99;
+  border-radius: 4px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.import_warn {
+  margin-top: 4px;
+  font-weight: bold;
+  color: #721c24;
+}

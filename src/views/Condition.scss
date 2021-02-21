@@ -1,0 +1,75 @@
+@use "./components/mixins" as *;
+
+.condition {
+  margin-top: 10px;
+}
+.condition_divider {
+  display: inline-block;
+  margin: 9px 0;
+  height: 24px;
+  width: 1px;
+  background-color: #0000001f;
+  vertical-align: top;
+}
+.condition_right {
+  float: right;
+}
+.condition_job {
+  display: inline-block;
+  padding: 0 12px;
+  margin: 4px;
+  line-height: 34px;
+  border-radius: 4px;
+  vertical-align: top;
+}
+.condition_job-icon {
+  width: 20px;
+  padding-bottom: 2px;
+  margin-left: -2px;
+}
+.condition_level {
+  display: inline-block;
+  padding: 0 16px;
+  line-height: 42px;
+  vertical-align: top;
+}
+.condition_level-value {
+  margin-right: 2px;
+}
+.condition_level-input {
+  width: 36px;
+  height: auto;
+  & > input {
+    padding: 6px 0 3px !important;
+    font-size: 14px;
+    text-align: center;
+  }
+  &:not(.mdc-text-field--disabled) {
+    background-color: transparent;
+  }
+}
+.condition_level-separator {
+  margin: 0 4px;
+}
+.condition_button {
+  height: 34px;
+  min-width: 48px;
+  margin: 4px 8px;
+  vertical-align: top;
+  + .condition_button {
+    margin-left: -4px;
+  }
+}
+.condition_text {
+  padding: 0 16px;
+  line-height: 42px;
+  vertical-align: top;
+}
+.condition_setting {
+  margin-right: 6px;  // text to divider 16px
+}
+
+.condition_level-sync-icon {
+  width: 14px;
+  vertical-align: -2px;
+}

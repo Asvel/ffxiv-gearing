@@ -1,0 +1,21 @@
+@use "./components/mixins" as *;
+
+.clan {
+  padding: 8px;
+  @include elevation(8);
+}
+.clan_race {
+  text-align: right;
+  font-weight: bold;
+  padding: 0 8px;
+}
+.clan_item {
+  padding: 0 8px;
+  line-height: 34px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 4px;
+  td:not(:first-child) > & {
+    margin-left: -2px;
+  }
+}

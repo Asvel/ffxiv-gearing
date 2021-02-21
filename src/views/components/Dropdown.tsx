@@ -84,7 +84,7 @@ const DropdownPopper = mobxReact.observer<any>(props => {
       style={popperInstance.styles.popper}
       {...popperInstance.attributes.popper}
       onClick={e => e.stopPropagation()}
-      children={popper({ toggle, labelElement })}
+      children={React.createElement(popper, { toggle, labelElement })}
     />
   ), popperContainer);
 });
