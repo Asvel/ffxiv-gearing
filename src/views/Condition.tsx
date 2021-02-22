@@ -159,7 +159,7 @@ const ConditionLevelInput = mobxReact.observer<{
     };
     // FIXME: use onWheel when https://github.com/facebook/react/issues/14856 fix
     const input = inputRef.current!;
-    input.addEventListener('wheel', handleWheel);
+    input.addEventListener('wheel', handleWheel, { passive: false });
     return () => input.removeEventListener('wheel', handleWheel);
   }, []);
   return (

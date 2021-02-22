@@ -300,7 +300,7 @@ for (const i of Object.keys(statAbbrs)) {
   roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][26 + j], 10));
 }
 
-const levelGroupBasis = [1, 50, 150, 290, 430];
+const levelGroupBasis = [1, 70, 136, 255, 340, 385, 401, 470];
 const levelGroupIds = [];
 const levelGroupLast = levelGroupBasis[levelGroupBasis.length - 1];
 let groupId = 0;
@@ -314,7 +314,7 @@ const gearGroups = [];
 const groupedGears = [];
 for (const gear of gears) {
   let groupId = levelGroupIds[gear.level];
-  if ((gear.id >= 10337 && gear.id <= 10344) || gear.id === 17726) {  // 专家证、渔叉跟随最新分组加载， TODO: 放到food.js里
+  if ((gear.id >= 10337 && gear.id <= 10344) || gear.id === 17726) {  // 专家证、渔叉跟随最新分组加载
     groupId = levelGroupLast;
   }
   gearGroups[gear.id] = groupId;
@@ -341,6 +341,9 @@ for (const item of Item) {
 const bluMdmgAdditions = fs.readFileSync('./in/bluMdmgAdditions.txt', 'utf8')
   .split(/\r?\n/).map(x => parseInt(x, 10)).filter(x => !Number.isNaN(x));
 
+fs.rmdirSync('./out', { recursive: true });
+fs.mkdirSync('./out');
+
 const sourcesMissingIds = Object.keys(sourcesMissing).map(x => Number(x)).sort((a, b) => a - b);
 if (sourcesMissingIds.length > 0) {
   const output = ['-----'];
@@ -349,17 +352,16 @@ if (sourcesMissingIds.length > 0) {
     if (x + 1 !== sourcesMissingIds[i + 1]) output.push(output[0]);
   });
   fs.writeFileSync('./out/sourcesMissing.txt', output.join('\n'));
-} else {
-  fs.unlink('./out/sourcesMissing.txt', () => {});  // ignore error
 }
 
 fs.writeFileSync('./out/versions.ts', stringify(versions).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroupBasis.js', stringify(levelGroupBasis).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroups.js', stringify(gearGroups).replace(/null,/g, ','));
 for (const groupId of levelGroupBasis) {
-  fs.writeFileSync(`./out/gears-${groupId}.js`, stringify(groupedGears[groupId]));
+  fs.writeFileSync(`./out/gears-${groupId === levelGroupLast ? 'recent' : groupId}.js`,
+    stringify(groupedGears[groupId]));
 }
-fs.writeFileSync('./out/gears-food.js', stringify(foods));
+fs.writeFileSync('./out/foods.js', stringify(foods));
 fs.writeFileSync('./out/jobCategories.js', stringify(jobCategoriesUsed).replace(/null,/g, ','));
 fs.writeFileSync('./out/levelCaps.js', stringify(levelCaps));
 fs.writeFileSync('./out/slotCaps.js', stringify(slotCaps));

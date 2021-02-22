@@ -2,8 +2,8 @@ import * as ReactDOM from 'react-dom';
 import * as mobx from 'mobx';
 import { store } from './stores';
 import { App } from './views/App';
-import 'sanitize.css/evergreen.css';
-import 'sanitize.css/forms.evergreen.css';
+import './views/components/sanitize.scss';
+import './views/components/material.scss';
 import './views/app.scss';
 
 mobx.autorun(() => {

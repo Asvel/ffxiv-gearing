@@ -1,0 +1,52 @@
+@use "../../../node_modules/@material/feature-targeting";
+@use "../../../node_modules/@material/theme/variables" with ( $secondary: #6200ee );
+@use "../../../node_modules/@material/ripple/mixins" as ripple;
+@use "../../../node_modules/@material/button/mixins" as button;
+@use "../../../node_modules/@material/icon-button/mixins" as icon-button;
+@use "../../../node_modules/@material/tab-bar/mixins" as tab-bar;
+@use "../../../node_modules/@material/tab-scroller/mixins" as tab-scroller;
+@use "../../../node_modules/@material/tab-indicator/mixins" as tab-indicator;
+@use "../../../node_modules/@material/tab/mixins" as tab;
+@use "../../../node_modules/@material/list/mixins" as list;
+@use "../../../node_modules/@material/line-ripple/mixins" as line-ripple;
+@use "../../../node_modules/@material/textfield/mixins" as textfield;  // only use line-ripple, skip others
+@use "../../../node_modules/@material/form-field/mixins" as form-field;
+@use "../../../node_modules/@material/radio/mixins" as radio;
+@use "../../../node_modules/@material/switch/mixins" as switch;
+
+@include ripple.common(feature-targeting.without(typography));
+@include ripple.core-styles(feature-targeting.without(typography));
+@include button.core-styles(feature-targeting.without(typography));
+@include button.theme-baseline(feature-targeting.without(typography));
+@include icon-button.core-styles(feature-targeting.without(typography));
+@include tab-bar.core-styles(feature-targeting.without(typography));
+@include tab-scroller.core-styles(feature-targeting.without(typography));
+@include tab-indicator.core-styles(feature-targeting.without(typography));
+@include tab.core-styles(feature-targeting.without(typography));
+@include list.core-styles(feature-targeting.without(typography));
+@include line-ripple.core-styles(feature-targeting.without(typography));
+@include textfield.core-styles(feature-targeting.without(typography));
+@include form-field.core-styles(feature-targeting.without(typography));
+@include radio.core-styles(feature-targeting.without(typography));
+@include switch.core-styles(feature-targeting.without(typography));
+@import "../../../node_modules/@rmwc/list/collapsible-list";
+@import "../../../node_modules/@rmwc/tooltip/tooltip";
+
+.mdc-ripple-surface {
+  cursor: pointer;
+}
+.mdc-button {
+  font-weight: normal;
+  user-select: auto;
+}
+.mdc-icon-button {
+  svg {
+    vertical-align: top;
+  }
+}
+.mdc-icon-button--dense {
+  @include icon-button.icon-size(15px, 15px, 5px, feature-targeting.without(typography));
+}
+.mdc-form-field label {
+  cursor: pointer;
+}

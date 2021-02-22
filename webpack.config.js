@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const { createLoader } = require('simple-functional-loader');
@@ -6,12 +5,13 @@ const { createLoader } = require('simple-functional-loader');
 module.exports = function (env, argv) {
   const prod = argv && argv.mode === 'production';
   return [{
+    name: argv.analyze ? 'main' : undefined,
     mode: prod ? 'production' : 'development',
     entry: './src/index.tsx',
     output: {
-      filename: prod ? '[name].[contenthash].bundle.js' : '[name].bundle.js',
-      chunkFilename: prod ? '[name].[contenthash].bundle.js' : '[name].bundle.js',
-      hashDigestLength: 8,
+      filename: prod ? '[name].[contenthash].js' : '[name].bundle.js',
+      chunkFilename: prod ? '[name].[contenthash].js' : '[name].bundle.js',
+      hashDigestLength: 10,
     },
     resolve: {
       extensions: ['.ts', '.tsx', '.js'],
@@ -62,7 +62,7 @@ module.exports = function (env, argv) {
               options: {
                 postcssOptions: {
                   plugins: [
-                    'postcss-preset-env',
+                    ['postcss-preset-env', { features: { 'case-insensitive-attributes': false } }],
                     prod && 'cssnano',
                   ].filter(Boolean),
                 },
@@ -94,15 +94,40 @@ module.exports = function (env, argv) {
       }),
     ],
     optimization: {
-      // splitChunks: {
-      //   cacheGroups: {
-      //     commons: {
-      //       test: /[\\/]node_modules[\\/]/,
-      //       name: 'vendor',
-      //       chunks: 'all',
-      //     },
-      //   },
-      // },
+      concatenateModules: prod && !argv.analyze,
+      splitChunks: {
+        chunks: 'initial',
+        cacheGroups: {
+          defaultVendors: false,
+          default: false,
+          essentialVendors: {
+            test: module => [
+              new RegExp(`[\\\\/]node_modules[\\\\/](${[
+                'react', 'react-dom', 'scheduler', 'object-assign',
+                'mobx', 'mobx-state-tree', 'mobx-react-lite',
+                'classnames', 'style-loader', 'css-loader',
+                '@popperjs', 'react-popper', 'react-fast-compare',
+              ].join('|')})[\\\\/]`),
+              /[\\/]sanitize\.scss$/,
+            ].some(r => r.test(module.resource)),
+            name: 'vendor-essential',
+            priority: 1,
+          },
+          restVendors: {
+            test: module => [
+              /[\\/]node_modules[\\/]/,
+              /[\\/]img[\\/]/,
+              /[\\/]material\.scss$/,
+              /[\\/]BigInteger\.js$/,
+            ].some(r => r.test(module.resource)),
+            name: 'vendor-rest',
+          },
+          data: {
+            test: /[\\/]data[\\/]out[\\/]/,
+            name: 'data',
+          },
+        },
+      },
     },
     devtool: !prod && 'cheap-source-map',
     stats: {
@@ -122,16 +147,16 @@ module.exports = function (env, argv) {
     entry: './src/import.js',
     output: {
       filename: 'import.js',
-      chunkFilename: '[name].[contenthash].bundle.js',
-      hashDigestLength: 8,
+      chunkFilename: '[name].[contenthash].js',
+      hashDigestLength: 10,
     },
     stats: 'errors-warnings',
   }, {
     mode: prod ? 'production' : 'none',
     entry: './src/lodestone.js',
     output: {
-      filename: prod ? 'lodestone.[contenthash].bundle.js' : 'lodestone.bundle.js',
-      hashDigestLength: 8,
+      filename: prod ? 'lodestone.[contenthash].js' : 'lodestone.bundle.js',
+      hashDigestLength: 10,
     },
     plugins: [
       new HtmlWebpackPlugin({
@@ -141,9 +166,4 @@ module.exports = function (env, argv) {
     ],
     stats: 'errors-warnings',
   }];
-};
-
-const { toPath } = webpack.Template;
-webpack.Template.toPath = function (str) {
-  return toPath(str).replace(/(gears-\d+)-json$/, '$1');
 };

@@ -2,6 +2,14 @@ import * as mobx from 'mobx';
 import * as G from '../game';
 
 export const gearData = mobx.observable.map<G.GearId, G.GearBase>({}, { deep: false });
+mobx.runInAction(() => {
+  for (const item of require('../../data/out/foods').default as G.GearBase[]) {
+    gearData.set(item.id, item);
+  }
+  for (const item of require('../../data/out/gears-recent').default as G.GearBase[]) {
+    gearData.set(item.id, item);
+  }
+});
 
 const gearDataLoadStatus = mobx.observable.map<string | number, 'loading' | 'finished'>({});  // TODO: handle failures
 export const gearDataLoading = mobx.computed(() => {
@@ -14,8 +22,8 @@ export const gearDataLoading = mobx.computed(() => {
 export const loadGearData = async (groupId: string | number) => {
   if (groupId === undefined || gearDataLoadStatus.has(groupId)) return;
   mobx.runInAction(() => gearDataLoadStatus.set(groupId, 'loading'));
-  const data = (await import(/* webpackChunkName: "[request]" */`../../data/out/gears-${groupId}`)).default as
-    G.GearBase[];
+  const data = (await import(/* webpackChunkName: "[request]" */`../../data/out/gears-${groupId}`))
+    .default as G.GearBase[];
   console.debug(`Load gears-${groupId}.`);
   mobx.runInAction(() => {
     for (const item of data) {
@@ -39,14 +47,16 @@ export const loadGearDataOfLevelRange = (minLevel: number, maxLevel: number) => 
     i++;
   }
 };
+gearDataLoadStatus.set(gearGroupBasis[gearGroupBasis.length - 1], 'finished');
 
 export const gearDataOrdered = mobx.observable.box([] as G.GearBase[], { deep: false });
-mobx.reaction(() => gearDataLoading.get(), () => {
-  gearDataOrdered.set(Array.from(gearData.values()).sort((a, b) => {
-    const k = a.level - b.level;
-    return k !== 0 ? k : a.id - b.id;
-  }));
+mobx.autorun(() => {
+  if (!gearDataLoading.get()) {
+    mobx.runInAction(() => {
+      gearDataOrdered.set(Array.from(gearData.values()).sort((a, b) => {
+        const k = a.level - b.level;
+        return k !== 0 ? k : a.id - b.id;
+      }));
+    });
+  }
 });
-
-loadGearData('food');
-loadGearData(gearGroupBasis[gearGroupBasis.length - 1]);
