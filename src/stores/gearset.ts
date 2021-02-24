@@ -10,7 +10,7 @@ import { Store, IStore, gearData, gearDataLoading, loadGearDataOfGearId, store }
 const gearsetStore = mobx.observable.box<G.Gearset>(undefined, { deep: false });
 mobx.autorun(() => {  // gearsetStore react to main store
   const gearset = gearsetStore.get();
-  if (gearset === undefined) return;
+  if (gearset === undefined || window.location.search === '') return;
   if (gearDataLoading.get()) return;
   const snapshot: mst.SnapshotIn<IStore> = {
     mode: 'view',
@@ -61,7 +61,7 @@ parseQuery();
 window.addEventListener('popstate', mobx.action(() => {
   const archiveData = archive.load();
   if (archiveData !== undefined) {
-    mst.applySnapshot(store, archive.load());
+    mst.applySnapshot(store, archiveData);
   } else {
     mst.applySnapshot(store, mst.getSnapshot(Store.create()));
     parseQuery();
