@@ -165,5 +165,12 @@ module.exports = function (env, argv) {
       }),
     ],
     stats: 'errors-warnings',
+  }, {
+    mode: prod ? 'production' : 'none',
+    entry: './src/serviceworker.js',
+    output: {
+      filename: 'serviceworker.js',
+    },
+    stats: 'errors-warnings',
   }];
 };

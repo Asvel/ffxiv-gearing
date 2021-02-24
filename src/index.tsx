@@ -15,3 +15,5 @@ mobx.autorun(() => {
 const container = document.createElement('div');
 document.body.appendChild(container);
 ReactDOM.render(<App store={store} />, container);
+
+navigator.serviceWorker?.register('./serviceworker.js');

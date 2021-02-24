@@ -14,6 +14,7 @@ module.exports = {
     'no-restricted-globals': ['error', ...require('confusing-browser-globals')],
     'complexity': 'off',
     'max-depth': 'off',
+    'max-nested-callbacks': 'off',
     'prefer-const': ['error', { 'destructuring': 'all' }],
     'prefer-exponentiation-operator': 'error',
     'react/jsx-uses-react': 'off',
