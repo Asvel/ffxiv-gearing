@@ -1,6 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const { createLoader } = require('simple-functional-loader');
 
 module.exports = function (env, argv) {
   const prod = argv && argv.mode === 'production';
@@ -22,17 +21,23 @@ module.exports = function (env, argv) {
           test: /\.tsx?$/,
           exclude: /node_modules/,
           use: [
-            createLoader(function(source) {
-              // Keep react component display name
-              return source.replace(
-                /([\r\n](?:export )?)const (.+?) = (.+?)\(\((.*?)\) => {([\r\n])/g,
-                '$1const $2 = $3(function $2($4) {$5',
-              );
-            }),
-            prod && createLoader(function(source) {
-              // Remove console.debug(...)
-              return source.replace(/([\r\n])\s*console\.debug\(.+?\);/g, '$1');
-            }),
+            {
+              loader: 'simple-functional-loader',
+              ident: 'keep-react-component-display-name',
+              options: {
+                processor: source => source.replace(
+                  /([\r\n](?:export )?)const (.+?) = (.+?)\(\((.*?)\) => {([\r\n])/g,
+                  '$1const $2 = $3(function $2($4) {$5',
+                ),
+              },
+            },
+            prod && {
+              loader: 'simple-functional-loader',
+              ident: 'remove-console-debug',
+              options: {
+                processor: source => source.replace(/([\r\n])\s*console\.debug\(.+?\);/g, '$1'),
+              },
+            },
             {
               loader: 'ts-loader',
               options: {
@@ -46,11 +51,14 @@ module.exports = function (env, argv) {
         },
         {
           test: /node_modules[\\\/]@material[\\\/]ripple[\\\/]foundation\.js$/,
-          use:
-            createLoader(function(source) {
+          use: {
+            loader: 'simple-functional-loader',
+            ident: 'mdc-ripple-fix',
+            options: {
               // mdc-ripple should not force using even number ripple size.
-              return source.replace('initialSize - 1;', 'initialSize;');
-            }),
+              processor: source => source.replace('initialSize - 1;', 'initialSize;'),
+            },
+          },
         },
         {
           test: /\.s?css$/,
