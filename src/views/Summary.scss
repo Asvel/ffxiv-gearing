@@ -3,6 +3,7 @@
 .summary {
   display: flex;
   align-items: flex-end;
+  overflow: visible;
   @media (min-width: 1080px) {
     .app-edit & {
       position: fixed;
@@ -97,6 +98,7 @@
   white-space: nowrap;
   &.-tip {
     text-decoration: underline dotted;
+    cursor: default;
   }
   + .summary_stat-name {
     display: none;

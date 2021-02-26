@@ -2,7 +2,6 @@ import * as React from 'react';
 import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
-import { Tooltip } from '@rmwc/tooltip';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { Icon } from './components/Icon';
@@ -46,14 +45,12 @@ export const Summary = mobxReact.observer(() => {
         {effects && !(store.job === 'BLU' && store.jobLevel > 60) && (
           <span className="summary_stat summary_damage">
             {effects.damage.toFixed(5)}
-            <Tooltip
-              content="包括食物和组队加成，不包括其他任何手动施放的增益（如爆发药、连环计、天语、以太复制等）"
-              showArrow
-            >
-              <span className="summary_damage-tip">
-                <Icon name="help" />
-              </span>
-            </Tooltip>
+            <span
+              className="summary_damage-tip"
+              aria-label="包括食物和组队加成，不包括其他任何手动施放的增益（如爆发药、连环计、天语、以太复制等）"
+              role="tooltip"
+              children={<Icon name="help" />}
+            />
             <div className="summary_stat-name">每威力伤害期望</div>
           </span>
         )}
@@ -71,15 +68,12 @@ export const Summary = mobxReact.observer(() => {
           {effects && (
             <>
               {(stat === 'SKS' || stat === 'SPS') && (
-                <Tooltip
-                  content={store.schema.statModifiers?.gcdReason ?? ''}
-                  showArrow
-                  open={store.schema.statModifiers?.gcdReason === undefined ? false : undefined}
-                >
-                  <div className={classNames('summary_stat-effect', store.schema.statModifiers?.gcdReason && '-tip')}>
-                    {effects.gcd.toFixed(2) + 's'}
-                  </div>
-                </Tooltip>
+                <div
+                  className={classNames('summary_stat-effect', store.schema.statModifiers?.gcdReason && '-tip')}
+                  aria-label={store.schema.statModifiers?.gcdReason}
+                  role="tooltip"
+                  children={effects.gcd.toFixed(2) + 's'}
+                />
               )}
               {stat === 'VIT' && (
                 <div className="summary_stat-effect summary_stat-effect-hp">

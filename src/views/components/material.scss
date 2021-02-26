@@ -30,7 +30,7 @@
 @include radio.core-styles(feature-targeting.without(typography));
 @include switch.core-styles(feature-targeting.without(typography));
 @import "../../../node_modules/@rmwc/list/collapsible-list";
-@import "../../../node_modules/@rmwc/tooltip/tooltip";
+@import "./microtip.css";
 
 .mdc-ripple-surface {
   cursor: pointer;
