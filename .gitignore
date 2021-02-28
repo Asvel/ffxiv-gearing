@@ -6,5 +6,5 @@ yarn-error.log
 /dist/
 
 # Fetched data
-/data/in/*.csv
-/data/in/*.json
+/data/in/*.*
+!/data/in/bluMdmgAdditions.txt

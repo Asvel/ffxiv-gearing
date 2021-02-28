@@ -12,7 +12,7 @@ const resources = {
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/ItemLevel.csv': '',
   'https://raw.githubusercontent.com/thewakingsands/ffxiv-datamining-cn/master/Item.csv': 'Item.cn.csv',
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining-patches/master/patchdata/Item.json': 'Item.json',
-  'https://ffxiv.es.exdreams.net/equip_item_detail.en.json': 'oretools-data-en.json',
+  'https://raw.githubusercontent.com/Asvel/ffxiv-lodestone-item-id/master/lodestone-item-id.txt': '',
 };
 
 for (let [ url, path ] of Object.entries(resources)) {

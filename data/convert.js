@@ -94,11 +94,6 @@ const jobCategories = ClassJobCategory.map(line => {
   }
   return Object.keys(ret).length > 0 ? ret : undefined;
 });
-
-const jobCategoriesUsed = [];
-const levelsUsed = {};
-const sourcesMissing = {};
-
 jobCategories[2] = { PLD: true, WAR: true, DRK: true, GNB: true, MNK: true, DRG: true, SAM: true };
 const jobCategoryOfMainStats = {
   'STR': 2,
@@ -108,6 +103,14 @@ const jobCategoryOfMainStats = {
   'STR,DEX': 30,
   'INT,MND': 31,
 };
+
+const lodestoneIds = [undefined, ...fs.readFileSync('./in/lodestone-item-id.txt', 'utf8')
+  .split(/\r?\n/).map(x => x || undefined)];
+
+const jobCategoriesUsed = [];
+const levelsUsed = {};
+const lodestoneIdsUsed = [];
+const sourcesMissing = {};
 
 const gears = Item
   .map((x, index) => {
@@ -179,6 +182,7 @@ const gears = Item
 
     jobCategoriesUsed[ret.jobCategory] = jobCategories[ret.jobCategory];
     levelsUsed[ret.level] = true;
+    lodestoneIdsUsed[ret.id] = lodestoneIds[ret.id];
     if (ret.source === undefined && ret.slot !== 17 && (ret.equipLevel >= 50)) {
       sourcesMissing[ret.id] = `${ret.level}${ret.hq ? 'HQ' : ''}  ${ret.name}`;
     }
@@ -247,6 +251,7 @@ const foods = Item
     }
     ret.jobCategory = jobCategoryMap[Object.keys(jobs).sort().join(',')];
     if (ret.jobCategory === undefined) debugger;
+    lodestoneIdsUsed[ret.id] = lodestoneIds[ret.id];
 
     return ret;
   })
@@ -322,22 +327,6 @@ for (const gear of gears) {
   groupedGears[groupId].push(gear);
 }
 
-const oretoolsData = require('./in/oretools-data-en.json');
-const nameToLodestoneId = {};
-for (const group of Object.values(oretoolsData.data)) {
-  for (const item of group) {
-    if (item.name in nameToLodestoneId) debugger;
-    nameToLodestoneId[item.name] = item.id;
-  }
-}
-const lodestoneIds = [];
-for (const item of Item) {
-  const name = item['Name'];
-  if (name in nameToLodestoneId) {
-    lodestoneIds[Number(item['#'])] = nameToLodestoneId[name];
-  }
-}
-
 const bluMdmgAdditions = fs.readFileSync('./in/bluMdmgAdditions.txt', 'utf8')
   .split(/\r?\n/).map(x => parseInt(x, 10)).filter(x => !Number.isNaN(x));
 
@@ -367,5 +356,5 @@ fs.writeFileSync('./out/levelCaps.js', stringify(levelCaps));
 fs.writeFileSync('./out/slotCaps.js', stringify(slotCaps));
 fs.writeFileSync('./out/roleCaps.js', stringify(roleCaps));
 fs.writeFileSync('./out/syncLevels.js', stringify(syncLevels).replace(/'/g, ''));
-fs.writeFileSync('./out/lodestoneIds.js', stringify(lodestoneIds).replace(/null,/g, ','));
+fs.writeFileSync('./out/lodestoneIds.js', stringify(lodestoneIdsUsed).replace(/null,/g, ','));
 fs.writeFileSync('./out/bluMdmgAdditions.js', stringify(bluMdmgAdditions));
