@@ -54,7 +54,7 @@
         'mat_quality': 'PCP',
         'mat_gp': 'GP',
       };
-      const lodestoneIds = (await import(/* webpackChunkName: "import.ore" */'../data/out/lodestoneIds')).default;
+      const lodestoneIds = (await import(/* webpackChunkName: "lodestone-id" */'../data/out/lodestoneIds')).default;
       const lodestoneIdToItemId = {};
       for (let i = 0; i < lodestoneIds.length; i++) {
         if (lodestoneIds[i] !== undefined) {

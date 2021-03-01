@@ -12,7 +12,7 @@
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --mode=production",
-    "analyze": "webpack --mode=production --analyze --config-name main",
+    "analyze": "webpack --mode=production --analyze",
     "publish": "node publish.js",
     "data-fetch": "node data/fetch.js",
     "data-convert": "node data/convert.js",

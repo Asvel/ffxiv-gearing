@@ -3,10 +3,24 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 module.exports = function (env, argv) {
   const prod = argv && argv.mode === 'production';
-  return [{
-    name: argv.analyze ? 'main' : undefined,
+  return {
     mode: prod ? 'production' : 'development',
-    entry: './src/index.tsx',
+    entry: {
+      main: {
+        import: './src/index.tsx',
+      },
+      import: {
+        import: './src/import.js',
+        filename: 'import.js',
+      },
+      lodestone: {
+        import: './src/lodestone.js',
+      },
+      serviceworker: {
+        import: './src/serviceworker.js',
+        filename: 'serviceworker.js',
+      },
+    },
     output: {
       filename: prod ? '[name].[contenthash].js' : '[name].bundle.js',
       chunkFilename: prod ? '[name].[contenthash].js' : '[name].bundle.js',
@@ -93,6 +107,12 @@ module.exports = function (env, argv) {
       new HtmlWebpackPlugin({
         template: './src/index.html',
         favicon: './img/favicon.ico',
+        chunks: ['main'],
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'lodestone.html',
+        title: 'Redirecting...',
+        chunks: ['lodestone'],
       }),
       new ForkTsCheckerWebpackPlugin({
         async: !prod,
@@ -131,7 +151,7 @@ module.exports = function (env, argv) {
             name: 'vendor-rest',
           },
           data: {
-            test: /[\\/]data[\\/]out[\\/]/,
+            test: /[\\/]data[\\/]out[\\/](?!lodestoneIds\.js$).+/,
             name: 'data',
           },
         },
@@ -150,35 +170,5 @@ module.exports = function (env, argv) {
       injectHot: false,
       static: false,
     },
-  }, {
-    mode: prod ? 'production' : 'none',
-    entry: './src/import.js',
-    output: {
-      filename: 'import.js',
-      chunkFilename: '[name].[contenthash].js',
-      hashDigestLength: 10,
-    },
-    stats: 'errors-warnings',
-  }, {
-    mode: prod ? 'production' : 'none',
-    entry: './src/lodestone.js',
-    output: {
-      filename: prod ? 'lodestone.[contenthash].js' : 'lodestone.bundle.js',
-      hashDigestLength: 10,
-    },
-    plugins: [
-      new HtmlWebpackPlugin({
-        filename: 'lodestone.html',
-        title: 'Redirecting...',
-      }),
-    ],
-    stats: 'errors-warnings',
-  }, {
-    mode: prod ? 'production' : 'none',
-    entry: './src/serviceworker.js',
-    output: {
-      filename: 'serviceworker.js',
-    },
-    stats: 'errors-warnings',
-  }];
+  };
 };
