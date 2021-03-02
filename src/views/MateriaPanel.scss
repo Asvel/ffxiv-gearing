@@ -17,6 +17,7 @@
   }
 }
 .materias_stat-name {
+  text-align: center;
   border-right: $table-border;
 }
 .materias_row {
@@ -44,6 +45,7 @@
 td.materias_meldable {
   text-align: right;
   padding-right: 0;
+  min-width: 40px;
   &.-overflowed {
     color: #dc3545;
     font-weight: bold;

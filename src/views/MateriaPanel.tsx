@@ -26,7 +26,7 @@ export const MateriaPanel = mobxReact.observer<{
           >
             {materia.gear.currentMeldableStats[stat]}
           </td>
-          <td className="materias_stat-name">{G.statNames[stat]}</td>
+          <td className="materias_stat-name">{G.materiaStatNames[stat].slice(0, 2)}</td>
           {materia.meldableGrades.map(grade => (
             <td
               key={grade}
