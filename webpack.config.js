@@ -157,12 +157,15 @@ module.exports = function (env, argv) {
         },
       },
     },
-    devtool: !prod && 'cheap-source-map',
+    performance: {
+      hints: false,
+    },
     stats: {
       preset: 'errors-warnings',
       builtAt: true,
       timings: true,
     },
+    devtool: !prod && 'cheap-source-map',
     devServer: {
       hot: false,
       liveReload: false,
