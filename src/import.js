@@ -91,7 +91,8 @@
         foodIdToItemId[food.id] = food.item;
       }
       for (const [ slot, gear ] of Object.entries(state.gearsets.gearset)) {
-        let { id } = gear || {};
+        if (!gear) continue;
+        let id = gear.baseItemId || gear.id;
         if (id) {
           if (slot === 'food') id = foodIdToItemId[id];
           let materiaKey = id;

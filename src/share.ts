@@ -87,6 +87,10 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
   let maxMateriaCode = 0;
 
   for (const { id, materias } of gears) {
+    if (!(id > 0)) {
+      console.warn(`share.stringify: gear id ${id} invalid.`);
+      continue;
+    }
     if (id < minGearId) {
       minGearId = id;
     }
