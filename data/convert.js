@@ -24,7 +24,7 @@ function loadExd(filename) {
 }
 
 const versions = {
-  data: '5.45',
+  data: '5.5',
   released: '5.4',  // released version of chinese datacenter
 };
 
@@ -50,6 +50,7 @@ const patchIds = require('./in/Item.json');
 const patches = {
   73: '5.41',
   74: '5.45',
+  75: '5.5',
 };
 
 const sourceOfId = {};
