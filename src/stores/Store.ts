@@ -32,6 +32,7 @@ export const Store = mst.types
     },
     get filteredIds(): G.GearId[] {
       console.debug('filteredIds');
+      if (self.job === undefined) return [];
       if (self.mode === 'view') {
         return Array.from(self.gears.keys(), id => Number(id) as G.GearId);
       }
@@ -385,7 +386,7 @@ export const Store = mst.types
         loadGearDataOfGearId(Math.abs(gearId as G.GearId));
       }
       mobx.autorun(() => loadGearDataOfLevelRange(self.minLevel, self.maxLevel));
-      mobx.reaction(() => self.job && self.filteredIds, self.createGears);
+      mobx.reaction(() => self.filteredIds, self.createGears, { fireImmediately: true });
       mobx.reaction(() => self.autoSelectScheduled && self.groupedGears, self.autoSelect);
     },
   }));
