@@ -61,7 +61,7 @@ export const Food = mst.types
       return Math.max(0.2, (this.utilization / 100) ** 2);
     },
     get isInstalled(): boolean {
-      return !(this.patch > G.versions.released);
+      return !(this.patch > G.patches.current);
     },
     get isEquipped(): boolean {
       const store = mst.getParentOfType(self, Store);

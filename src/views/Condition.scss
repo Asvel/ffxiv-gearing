@@ -29,7 +29,7 @@
 }
 .condition_level {
   display: inline-block;
-  padding: 0 16px;
+  padding-left: 16px;
   line-height: 42px;
   vertical-align: top;
 }
@@ -64,6 +64,10 @@
   padding: 0 16px;
   line-height: 42px;
   vertical-align: top;
+}
+.condition_filter {
+  margin-left: 6px;
+  margin-right: 6px;  // text to divider 16px
 }
 .condition_setting {
   margin-right: 6px;  // text to divider 16px

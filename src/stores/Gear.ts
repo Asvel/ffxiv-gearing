@@ -90,11 +90,19 @@ export const Gear = mst.types
       return ret;
     },
     get isInstalled(): boolean {
-      return !(this.patch > G.versions.released);
+      return !(this.patch > G.patches.current);
     },
     get isEquipped(): boolean {
       const store = mst.getParentOfType(self, Store);
       return store.equippedGears.get(this.slot.toString()) === self;
+    },
+    get isMelded(): boolean {
+      for (const materia of self.materias) {
+        if (materia.stat !== undefined) {
+          return true;
+        }
+      }
+      return false;
     },
   }))
   .actions(self => ({

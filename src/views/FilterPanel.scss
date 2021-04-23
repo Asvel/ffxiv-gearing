@@ -1,0 +1,32 @@
+@use "./components/mixins" as *;
+
+.filter {
+  min-width: 500px;
+  padding: 16px 16px;
+  line-height: 20px;
+  @include elevation(4);
+}
+.filter_section {
+  margin-bottom: 3px;
+  &:not(:first-child) {
+    margin-top: 20px;
+  }
+}
+.filter_title {
+  font-weight: bold;
+}
+.filter_sub {
+  margin-left: 6px;
+  font-size: 12px;
+  line-height: 1;
+  vertical-align: -1px;
+  color: #00000099;
+}
+.filter_controls {
+  margin-left: -9px;
+  > .mdc-form-field {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: -6px;
+  }
+}

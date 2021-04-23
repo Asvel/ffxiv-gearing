@@ -7,7 +7,7 @@ import { GearRow } from './GearRow';
 export const Slot = mobxReact.observer<{ slot: G.SlotSchema }>(({ slot }) => {
   const store = useStore();
   const groupedGears = store.groupedGears[slot.slot];
-  return (
+  return store.filterFocus === 'comparable' && !(groupedGears?.length > 1) ? null : (
     <table className="gears_slot table card">
       <thead>
       <tr>

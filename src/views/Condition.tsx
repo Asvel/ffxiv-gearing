@@ -8,6 +8,7 @@ import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 import { Dropdown } from './components/Dropdown';
 import { JobSelector } from './JobSelector';
+import { FilterPanel } from './FilterPanel';
 import { LevelSyncPanel } from './LevelSyncPanel';
 import { MateriaOverallPanel } from './MateriaOverallPanel';
 import { SharePanel } from './SharePanel';
@@ -57,6 +58,15 @@ export const Condition = mobxReact.observer(() => {
           </span>
           品级
         </span>
+      )}
+      {editing && (
+        <Dropdown
+          label={({ ref, toggle }) => (
+            <Button ref={ref} className="condition_button condition_filter" onClick={toggle}>筛选</Button>
+          )}
+          popper={FilterPanel}
+          placement="bottom-start"
+        />
       )}
       {(editing || viewing) && <span className="condition_divider" />}
       {viewing && store.schema.levelSyncable && store.syncLevelText !== undefined && (
@@ -130,7 +140,7 @@ export const Condition = mobxReact.observer(() => {
           />
         )}
         <span className="condition_divider" />
-        <span className="condition_text">数据版本 {G.versions.data}</span>
+        <span className="condition_text">数据版本 {G.patches.data}</span>
       </span>
       {(store.job === undefined || expandedPanel === 'job') && <JobSelector />}
     </div>

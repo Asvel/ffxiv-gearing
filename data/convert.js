@@ -23,11 +23,6 @@ function loadExd(filename) {
   });
 }
 
-const versions = {
-  data: '5.5',
-  released: '5.4',  // released version of chinese datacenter
-};
-
 const statAbbrs = {
   1: 'STR', 2: 'DEX', 4: 'INT', 5: 'MND', 3: 'VIT',
   27: 'CRT', 22: 'DHT', 44: 'DET', 45: 'SKS', 46: 'SPS', 19: 'TEN', 6: 'PIE',
@@ -46,11 +41,17 @@ const jobs = [
   'MIN', 'BTN', 'FSH',
 ];
 
-const patchIds = require('./in/Item.json');
-const patches = {
+const itemPatchIds = require('./in/Item.json');
+const patchOfId = {
   73: '5.41',
   74: '5.45',
   75: '5.5',
+};
+
+const patches = {
+  data: Object.values(patchOfId).slice(-1)[0],
+  next: '5.45',
+  current: '5.4',  // CN server
 };
 
 const sourceOfId = {};
@@ -132,7 +133,7 @@ const gears = Item
     ret.source = sourceOfId[x['#']];
     ret.obsolete = (ret.rarity === 7 && ret.source !== '危命任务' && !(ret.slot >= 9 && ret.slot <= 12)) ||
       ret.source?.endsWith('已废弃') || ret.source === '旧空岛' ? true : undefined;
-    ret.patch = patches[patchIds[x['#']]];
+    ret.patch = patchOfId[itemPatchIds[x['#']]];
 
     // stats
     const rawStats = {};
@@ -211,7 +212,7 @@ const foods = Item
     ret.stats = {};
     ret.statRates = {};
     ret.statMain = statAbbrs[itemFood['BaseParam[0]']];
-    ret.patch = patches[patchIds[x['#']]];
+    ret.patch = patchOfId[itemPatchIds[x['#']]];
 
     // stats
     for (const i of [0, 1, 2]) {
@@ -260,7 +261,7 @@ const foods = Item
 const bestFoods = [];
 for (const food of foods.slice().reverse()) {
   if (food.id === 4745) continue;  // 唯一的直击信仰食物，各只加1，应该并不会有人想吃它
-  if (food.patch > versions.released) {
+  if (food.patch > patches.current) {
     food.best = true;
     continue;
   }
@@ -343,7 +344,7 @@ if (sourcesMissingIds.length > 0) {
   fs.writeFileSync('./out/sourcesMissing.txt', output.join('\n'));
 }
 
-fs.writeFileSync('./out/versions.ts', stringify(versions).replace(/null,/g, ','));
+fs.writeFileSync('./out/patches.ts', stringify(patches).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroupBasis.js', stringify(levelGroupBasis).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroups.js', stringify(gearGroups).replace(/null,/g, ','));
 for (const groupId of levelGroupBasis) {

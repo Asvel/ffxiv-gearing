@@ -35,8 +35,8 @@ export interface Gearset {
   }[],
 }
 
-import versions from '../data/out/versions';
-export { versions };
+import patches from '../data/out/patches';
+export { patches };
 
 export const statNames = {
   STR: '力量', DEX: '灵巧', INT: '智力', MND: '精神', VIT: '耐力',
