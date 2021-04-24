@@ -30,6 +30,7 @@
 @include radio.core-styles(feature-targeting.without(typography));
 @include switch.core-styles(feature-targeting.without(typography));
 @import "../../../node_modules/@rmwc/list/collapsible-list";
+@import "../../../node_modules/@rmwc/badge/badge";
 @import "./microtip.css";
 
 .mdc-ripple-surface {
@@ -49,4 +50,7 @@
 }
 .mdc-form-field label {
   cursor: pointer;
+}
+.rmwc-badge {
+  background: #dc004e;
 }

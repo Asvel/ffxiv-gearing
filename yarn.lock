@@ -376,6 +376,14 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.6.0.tgz#f022195afdfc942e088ee2101285a1d31c7d727f"
   integrity sha512-cPqjjzuFWNK3BSKLm0abspP0sp/IGOli4p5I5fKFAzdS8fvjdOwDCfZqAaIiXd9lPkOWi3SUUfZof3hEb7J/uw==
 
+"@rmwc/badge@^6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@rmwc/badge/-/badge-6.1.4.tgz#ce0ba8c8b6764956daaeb33140beb2e251ff0b59"
+  integrity sha512-ci+3hZsmgt7dwfGMyZEjuU4PADuPrVT7sg4++YcxOi+dcNZzkfgYxaB7vOSNHgO+K3oFNVWiK1TZqmNO2HX9PQ==
+  dependencies:
+    "@rmwc/base" "^6.1.4"
+    "@rmwc/types" "^6.0.5"
+
 "@rmwc/base@^6.0.14", "@rmwc/base@^6.1.4":
   version "6.1.4"
   resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.1.4.tgz#0e6a132eee28e0f0e1dd409fc917b8b035754a02"

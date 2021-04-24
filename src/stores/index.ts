@@ -19,6 +19,8 @@ export function ceil(value: number) {
 
 export { Setting } from './Setting';
 export type { ISetting } from './Setting';
+export { Promotion } from './Promotion';
+export type { IPromotion } from './Promotion';
 export { Materia } from './Materia';
 export type { IMateria } from './Materia';
 export { Gear } from './Gear';

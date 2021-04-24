@@ -7,6 +7,7 @@ import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
 import { Dropdown } from './components/Dropdown';
+import { BadgeButton } from './components/BadgeButton';
 import { JobSelector } from './JobSelector';
 import { FilterPanel } from './FilterPanel';
 import { LevelSyncPanel } from './LevelSyncPanel';
@@ -62,7 +63,13 @@ export const Condition = mobxReact.observer(() => {
       {editing && (
         <Dropdown
           label={({ ref, toggle }) => (
-            <Button ref={ref} className="condition_button condition_filter" onClick={toggle}>筛选</Button>
+            <BadgeButton
+              ref={ref}
+              className="condition_button condition_filter"
+              promotion="filter"
+              onClick={toggle}
+              children="筛选"
+            />
           )}
           popper={FilterPanel}
           placement="bottom-start"

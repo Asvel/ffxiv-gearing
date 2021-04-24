@@ -2,7 +2,7 @@ import * as mobx from 'mobx';
 import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as share from '../share';
-import { floor, ceil, ISetting, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
+import { floor, ceil, ISetting, Promotion, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
   gearDataOrdered, gearDataLoading, loadGearDataOfGearId, loadGearDataOfLevelRange } from '.';
 
 const globalClanKey = 'ffxiv-gearing-clan';
@@ -28,6 +28,7 @@ export const Store = mst.types
     equippedGears: mst.types.map(GearUnionReference),
   })
   .volatile(() => ({
+    promotion: Promotion.create(),
     clan: Number(localStorage.getItem(globalClanKey)) || 0,
     autoSelectScheduled: false,
   }))
