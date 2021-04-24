@@ -38,6 +38,9 @@
 
 支持从一些其他配装器导入配装。
 
+## 更新记录
+
+[CHANGELOG.md](CHANGELOG.md)
 
 ## 反馈途径
 
