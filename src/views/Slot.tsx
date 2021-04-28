@@ -1,4 +1,5 @@
 import * as mobxReact from 'mobx-react-lite';
+import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
 import * as G from '../game';
 import { useStore } from './components/contexts';
@@ -23,7 +24,7 @@ export const Slot = mobxReact.observer<{ slot: G.SlotSchema }>(({ slot }) => {
         </th>
         <th className="gears_materias">{slot.slot === -1 ? '利用率' : '魔晶石'}</th>
         {store.schema.stats.map(stat => (
-          <th key={stat} className="gears_stat">
+          <th key={stat} className={classNames('gears_stat', store.schema.skeletonGears && '-skeleton')}>
             {G.statNames[stat]}
           </th>
         ))}
