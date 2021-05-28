@@ -1,47 +1,71 @@
 import * as BI from './utils/BigInteger';
-import * as G from './game';
+import type * as G from './game';
 
-const permanentIndexes: { job: G.Job, stats: G.Stat[] }[] = [
-  { job: 'PLD', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
-  { job: 'WAR', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
-  { job: 'DRK', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
-  { job: 'GNB', stats: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
-  { job: 'WHM', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
-  { job: 'SCH', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
-  { job: 'AST', stats: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
-  { job: 'MNK', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
-  { job: 'DRG', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
-  { job: 'NIN', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
-  { job: 'SAM', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
-  { job: 'BRD', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
-  { job: 'MCH', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
-  { job: 'DNC', stats: ['CRT', 'DET', 'DHT', 'SKS'] },
-  { job: 'BLM', stats: ['CRT', 'DET', 'DHT', 'SPS'] },
-  { job: 'SMN', stats: ['CRT', 'DET', 'DHT', 'SPS'] },
-  { job: 'RDM', stats: ['CRT', 'DET', 'DHT', 'SPS'] },
-  { job: 'BLU', stats: ['CRT', 'DET', 'DHT', 'SPS'] },
-  { job: 'CRP', stats: ['CMS', 'CRL', 'CP'] },
-  { job: 'BSM', stats: ['CMS', 'CRL', 'CP'] },
-  { job: 'ARM', stats: ['CMS', 'CRL', 'CP'] },
-  { job: 'GSM', stats: ['CMS', 'CRL', 'CP'] },
-  { job: 'LTW', stats: ['CMS', 'CRL', 'CP'] },
-  { job: 'WVR', stats: ['CMS', 'CRL', 'CP'] },
-  { job: 'ALC', stats: ['CMS', 'CRL', 'CP'] },
-  { job: 'CUL', stats: ['CMS', 'CRL', 'CP'] },
-  { job: 'MIN', stats: ['GTH', 'PCP', 'GP'] },
-  { job: 'BTN', stats: ['GTH', 'PCP', 'GP'] },
-  { job: 'FSH', stats: ['GTH', 'PCP', 'GP'] },
-];
-
-const toIndex: { [index in G.Job]?: { index: number, stats: { [index in G.Stat]?: number } } } = {};
-for (let index = 0; index < permanentIndexes.length; index++) {
-  const item = permanentIndexes[index];
-  const stats: { [index in G.Stat]?: number } = {};
-  for (let j = 0; j < item.stats.length; j++) {
-    stats[item.stats[j]] = j;
+const reverseMapping = <T>(map: T[]) => {
+  const ret: any = {};
+  for (let index = 0; index < map.length; index++) {
+    ret[map[index]] = index;
   }
-  toIndex[item.job] = { index, stats };
+  return ret as T extends number ? { [index: number]: number } : { [index: string]: number };
+};
+
+const jobDecode: { job: G.Job, statDecode: G.Stat[] }[] = [
+  { job: 'PLD', statDecode: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
+  { job: 'WAR', statDecode: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
+  { job: 'DRK', statDecode: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
+  { job: 'GNB', statDecode: ['CRT', 'DET', 'DHT', 'SKS', 'TEN'] },
+  { job: 'WHM', statDecode: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
+  { job: 'SCH', statDecode: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
+  { job: 'AST', statDecode: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
+  { job: 'MNK', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'DRG', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'NIN', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'SAM', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'BRD', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'MCH', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'DNC', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'BLM', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
+  { job: 'SMN', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
+  { job: 'RDM', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
+  { job: 'BLU', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
+  { job: 'CRP', statDecode: ['CMS', 'CRL', 'CP'] },
+  { job: 'BSM', statDecode: ['CMS', 'CRL', 'CP'] },
+  { job: 'ARM', statDecode: ['CMS', 'CRL', 'CP'] },
+  { job: 'GSM', statDecode: ['CMS', 'CRL', 'CP'] },
+  { job: 'LTW', statDecode: ['CMS', 'CRL', 'CP'] },
+  { job: 'WVR', statDecode: ['CMS', 'CRL', 'CP'] },
+  { job: 'ALC', statDecode: ['CMS', 'CRL', 'CP'] },
+  { job: 'CUL', statDecode: ['CMS', 'CRL', 'CP'] },
+  { job: 'MIN', statDecode: ['GTH', 'PCP', 'GP'] },
+  { job: 'BTN', statDecode: ['GTH', 'PCP', 'GP'] },
+  { job: 'FSH', statDecode: ['GTH', 'PCP', 'GP'] },
+];
+const jobEncode: { [index in G.Job]?: { index: number, statEncode: { [index in G.Stat]?: number } } } = {};
+for (let index = 0; index < jobDecode.length; index++) {
+  const item = jobDecode[index];
+  const statEncode = reverseMapping(item.statDecode);
+  jobEncode[item.job] = { index, statEncode };
 }
+
+const jobLevelDecode: G.JobLevel[] = [50, 60, 70, 80];
+const jobLevelEncode = reverseMapping(jobLevelDecode);
+
+enum GearType {
+  // NormalWithoutMateria = 0,
+  // NormalWith1Materia = 1,
+  // NormalWith2Materia = 2,
+  // NormalWith3Materia = 3,
+  // NormalWith4Materia = 4,
+  // NormalWith5Materia = 5,
+  Special = 6,
+  Customizable = 7,
+}
+
+const specialGearDecode = [
+  10337, 10338, 10339, 10340, 10341, 10342, 10343, 10344,  // Soul of the Crafter
+  17726,  // Spearfishing Gig
+] as G.GearId[];
+const specialGearEncode = reverseMapping(specialGearDecode);
 
 class Ranges {
   public version = 77;
@@ -49,96 +73,201 @@ class Ranges {
   public jobLevel = 0;
   public syncLevel = 0;
   public gearId = 0;
+  public gearType = 0;
   public materiaSlot = 0;
   public materiaStat = 0;
   public materiaGrade = 0;
   public materiaCode = 0;
+  public specialGear = 0;
+  public customStat = 0;
   private _version = 1;
   public useVersion(version: number) {
     this._version = version;
-    if (version === 1 || version === 2) {
-      this.job = 29;  // permanentIndexes.length,
+    if (version >= 1) {
+      this.job = 29;  // jobDecode.length
       this.jobLevel = 80;
       this.gearId = 50000;
       this.materiaSlot = 6;
       this.materiaGrade = 8;
     }
-    if (version === 2) {
+    if (version >= 2) {
       this.syncLevel = 540;
+    }
+    if (version >= 3) {
+      this.jobLevel = 4;  // jobLevelDecode.length
+      this.gearType = 8;  // gearTypes.length
+      this.specialGear = 9;  // specialGearDecode.length
+      this.customStat = 1001;
     }
   }
   public useJob(job: G.Job) {
-    this.materiaStat = permanentIndexes[toIndex[job]!.index].stats.length;  // TODO: versoin
-    this.materiaCode = this.materiaStat * this.materiaGrade + 1;
+    this.materiaStat = jobDecode[jobEncode[job]!.index].statDecode.length;  // TODO: version
+    if (this._version <= 2) {
+      this.materiaCode = this.materiaStat * this.materiaGrade + 1;
+    }
   }
 }
 
 export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): string {
-  const version = 2;
+  const version = 3;
   const ranges = new Ranges();
   ranges.useVersion(version);
   ranges.useJob(job);
 
-  const gearCodes: { id: number, materias: number[] }[] = [];
-  const materiaCodeSet: { [index: string]: number } = {};
+  const { statEncode } = jobEncode[job]!;
 
-  let minGearId = Infinity;
-  let maxGearId = 0;
-  let maxMateriaCode = 0;
+  const gearTypeEncode: number[] = [];
+  const materiaEncode: number[][] = [];  // materiaEncode[grade][statIndex]
+  let hasInvalidMateria = false;
+  materiaEncode[ranges.materiaGrade] = [];
+  for (const { id, materias } of gears) {
+    if (id in specialGearEncode) {
+      gearTypeEncode[GearType.Special] = 1;
+    } else {
+      gearTypeEncode[materias.length] = 1;
+      for (const materia of materias) {
+        if (materia !== null && statEncode[materia[0]] !== undefined) {
+          materiaEncode[materia[1]] ??= [];
+          materiaEncode[materia[1]][statEncode[materia[0]]!] = 1;
+        } else {
+          hasInvalidMateria = true;
+        }
+      }
+    }
+  }
 
+  let gearTypeRange = 0;
+  for (let i = 0; i < ranges.gearType; i++) {
+    if (gearTypeEncode[i] !== undefined) {
+      gearTypeEncode[i] = gearTypeRange;
+      gearTypeRange += 1;
+    }
+  }
+
+  let materiaRange = 0;
+  for (let grade = ranges.materiaGrade; grade >= 1; grade--) {
+    if (materiaEncode[grade] === undefined) continue;
+    for (let statIndex = 0; statIndex < ranges.materiaStat; statIndex++) {
+      if (materiaEncode[grade][statIndex] !== undefined) {
+        materiaEncode[grade][statIndex] = materiaRange;
+        materiaRange += 1;
+      }
+    }
+  }
+  if (hasInvalidMateria) {
+    materiaRange += 1;
+  }
+
+  let minMateriaGrade = 0;
+  // eslint-disable-next-line no-unmodified-loop-condition
+  while (!hasInvalidMateria && materiaEncode[minMateriaGrade] === undefined) minMateriaGrade++;
+
+  const gearCodes: { id: G.GearId, materias: number[] }[] = [];
+  const specialGears: G.GearId[] = [];
   for (const { id, materias } of gears) {
     if (!(id > 0)) {
       console.warn(`share.stringify: gear id ${id} invalid.`);
       continue;
     }
-    if (id < minGearId) {
-      minGearId = id;
-    }
-    if (id > maxGearId) {
-      maxGearId = id;
-    }
-    const materiaCodes = [];
-    for (const materia of materias) {
-      const statToIndex = toIndex[job]!.stats;
-      const materiaCode = materia === null || statToIndex[materia[0]] === undefined ? 0 :
-        statToIndex[materia[0]]! * ranges.materiaGrade + (materia[1] - 1) + 1;
-      if (materiaCodeSet[materiaCode] === undefined) {
-        materiaCodeSet[materiaCode] = maxMateriaCode++;
+    if (id in specialGearEncode) {
+      specialGears.push(id);
+    } else {
+      const materiaCodes = [];
+      for (const materia of materias) {
+        materiaCodes.push(materia === null || statEncode[materia[0]] === undefined
+          ? materiaRange - 1  // use the largest materia code for empty slot
+          : materiaEncode[materia[1]][statEncode[materia[0]]!]);
       }
-      materiaCodes.push(materiaCodeSet[materiaCode]);
+      gearCodes.push({ id, materias: materiaCodes });
     }
-    gearCodes.push({ id, materias: materiaCodes });
   }
+  if (gearCodes.length === 0 && specialGears.length === 0) return '';
 
-  if (gearCodes.length === 0) return '';
-  gearCodes.reverse();
+  // try to preserve the original order of left ring and right ring
+  // this may mismatch other slots in some cases, but these order won't affect anything
+  let ringIndex = gearCodes.length - 1;
+  while (gearCodes[ringIndex]?.materias.length === 0) ringIndex--;
+  const ringsInversed = gearCodes[ringIndex - 1]?.id > gearCodes[ringIndex ]?.id;
 
-  const materiaCodes: number[] = [];
-  for (const materiaCode of Object.keys(materiaCodeSet)) {
-    materiaCodes[materiaCodeSet[materiaCode]] = parseInt(materiaCode, 10);
+  gearCodes.sort((a, b) => a.id - b.id);
+
+  let gearIdDeltaRange = 0;
+  for (let i = 1; i < gearCodes.length; i++) {
+    const delta = gearCodes[i].id - gearCodes[i - 1].id;
+    if (delta > gearIdDeltaRange) {
+      gearIdDeltaRange = delta;
+    }
+  }
+  gearIdDeltaRange += 1;
+
+  let gearIdDeltaDirection = 1;
+  if (gearCodes.length > 1) {
+    // reverse pack order in two case:
+    // delta range is too large to be encoded into the first gear id
+    // the first delta is smaller than the last, encode small value earlier can slightly shorten encoded string
+    if (gearIdDeltaRange >= gearCodes[0].id ||
+      gearCodes[1].id - gearCodes[0].id < gearCodes[gearCodes.length - 1].id - gearCodes[gearCodes.length - 2].id) {
+      gearIdDeltaDirection = -1;
+      gearCodes.reverse();
+    }
+    // the last id delta might be 0, it could break endding detect when decode
+    // so we always increase it by 1, but do this can make it larger than delta range
+    if (gearCodes[gearCodes.length - 1].id - gearCodes[gearCodes.length - 2].id ===
+      gearIdDeltaDirection * gearIdDeltaRange - 1) {
+      gearIdDeltaRange += 1;
+    }
   }
 
   let result: BI.BigInteger = 0;
   const write = (value: number, range: number) => {
+    console.debug('write', value, range);
     result = BI.add(BI.multiply(result, range), value);
   };
+  const writeBoolean = (value: boolean) => write(value ? 1 : 0, 2);
 
-  for (const gear of gearCodes) {
-    write(gear.id - minGearId, maxGearId - minGearId + 1);
-    for (const materiaCodeIndex of gear.materias) {
-      write(materiaCodeIndex, materiaCodes.length);
+  for (let i = gearCodes.length - 1; i >= 0; i--) {
+    const { id, materias } = gearCodes[i];
+    if (i > 0) {
+      const delta = (id - gearCodes[i - 1].id) * gearIdDeltaDirection;
+      write(delta + (i === gearCodes.length - 1 ? 1 : 0), gearIdDeltaRange);
+    } else {
+      writeBoolean(ringsInversed);
+      writeBoolean(gearIdDeltaDirection === 1);
+      write(gearIdDeltaRange, id);
+      write(id, ranges.gearId);
     }
-    write(gear.materias.length, ranges.materiaSlot);
+    for (let i = materias.length - 1; i >= 0; i--) {
+      write(materias[i], materiaRange);
+    }
+    write(gearTypeEncode[materias.length], gearTypeRange);
   }
-  write(minGearId, maxGearId);
-  write(maxGearId, ranges.gearId);
-  for (const materiaCode of materiaCodes) {
-    write(materiaCode, ranges.materiaCode);
+
+  for (const id of specialGears) {
+    write(specialGearEncode[id], ranges.specialGear);
+    write(gearTypeEncode[GearType.Special], gearTypeRange);
   }
-  write(materiaCodes.length, ranges.materiaCode);
-  write(syncLevel ?? 0, ranges.syncLevel);
-  write(jobLevel - 1, ranges.jobLevel);
-  write(toIndex[job]!.index, ranges.job);
+
+  for (let grade = minMateriaGrade; grade <= ranges.materiaGrade; grade++) {
+    if (grade === 0) continue;
+    for (let statIndex = ranges.materiaStat - 1; statIndex >= 0; statIndex--) {
+      writeBoolean(materiaEncode[grade]?.[statIndex] !== undefined);
+    }
+  }
+  write(minMateriaGrade, ranges.materiaGrade + 1);
+
+  for (let i = ranges.gearType - 1; i >= 0; i--) {
+    writeBoolean(gearTypeEncode[i] !== undefined);
+  }
+
+  if (syncLevel !== undefined || jobLevel !== jobLevelDecode[ranges.jobLevel - 1]) {
+    write(syncLevel ?? 0, ranges.syncLevel);
+    write(jobLevelEncode[jobLevel], ranges.jobLevel);
+    writeBoolean(true);
+  } else {
+    writeBoolean(false);
+  }
+
+  write(jobEncode[job]!.index, ranges.job);
   write(version, ranges.version);
 
   return BI.toString(result, 62);
@@ -151,14 +280,87 @@ export function parse(s: string): G.Gearset {
     input = BI.divide(input, range);
     return ret as number;
   };
+  const readBoolean = () => read(2) === 1;
 
   const ranges = new Ranges();
 
   const version = read(ranges.version);
+  if (version < 3) return parseV1V2(version, input);
   ranges.useVersion(version);
 
-  const job = permanentIndexes[read(ranges.job)];  // FIXME
-  ranges.useJob(job.job);
+  const { job, statDecode } = jobDecode[read(ranges.job)];
+  ranges.useJob(job);
+
+  const synced = readBoolean();
+  const jobLevel = jobLevelDecode[synced ? read(ranges.jobLevel) : ranges.jobLevel - 1];
+  const syncLevel = synced && read(ranges.syncLevel) || undefined;
+
+  const gearTypeDecode: number[] = [];
+  for (let i = 0; i < ranges.gearType; i++) {
+    if (readBoolean()) {
+      gearTypeDecode.push(i);
+    }
+  }
+
+  const minMateriaGrade = read(ranges.materiaGrade + 1);
+  const materiaDecode: G.GearsetMaterias = [];
+  for (let grade = ranges.materiaGrade; grade >= minMateriaGrade; grade--) {
+    if (grade === 0) continue;
+    for (let statIndex = 0; statIndex < ranges.materiaStat; statIndex++) {
+      if (readBoolean()) {
+        materiaDecode.push([statDecode[statIndex], grade as G.MateriaGrade]);
+      }
+    }
+  }
+  if (minMateriaGrade === 0) {
+    materiaDecode.push(null);
+  }
+
+  const gears: G.Gearset['gears'] = [];
+  let gearIdDeltaRange = 0;
+  let gearIdDeltaDirection = 0;
+  let ringsInversed = false;
+  let id = -1;
+  while (input !== 0) {  // eslint-disable-line no-unmodified-loop-condition
+    const gearType = gearTypeDecode[read(gearTypeDecode.length)];
+    const materias: G.GearsetMaterias = [];
+    if (gearType === GearType.Special) {
+      const id = specialGearDecode[read(ranges.specialGear)];
+      gears.push({ id, materias });
+      continue;
+    }
+    for (let i = 0; i < gearType; i++) {
+      materias[i] = materiaDecode[read(materiaDecode.length)];
+    }
+    if (id === -1) {
+      id = read(ranges.gearId);
+      gearIdDeltaRange = read(id);
+      gearIdDeltaDirection = readBoolean() ? 1 : -1;
+      ringsInversed = readBoolean();
+    } else {
+      id += (read(gearIdDeltaRange) - (input === 0 ? 1 : 0)) * gearIdDeltaDirection;
+    }
+    gears.push({ id: id as G.GearId, materias });
+  }
+  if (ringsInversed !== (gearIdDeltaDirection === -1)) {
+    gears.reverse();
+  }
+
+  return { job, jobLevel, syncLevel, gears };
+}
+
+function parseV1V2(version: number, input: BI.BigInteger): G.Gearset {
+  const read = (range: number): number => {
+    const ret = BI.remainder(input, range);
+    input = BI.divide(input, range); // eslint-disable-line no-param-reassign
+    return ret as number;
+  };
+
+  const ranges = new Ranges();
+  ranges.useVersion(version);
+
+  const { job, statDecode } = jobDecode[read(ranges.job)];
+  ranges.useJob(job);
 
   let jobLevel = read(ranges.jobLevel) + 1 as G.JobLevel;
   if (version === 1) jobLevel = 80;  // job level not used and may incorrect in old version
@@ -169,7 +371,7 @@ export function parse(s: string): G.Gearset {
     if (materiaCode > 0) {
       materiaCode -= 1;
       const grade = materiaCode % ranges.materiaGrade + 1;
-      const stat = job.stats[Math.floor(materiaCode / ranges.materiaGrade + 1e-7)];
+      const stat = statDecode[Math.floor(materiaCode / ranges.materiaGrade + 1e-7)];
       return [stat, grade] as [G.Stat, G.MateriaGrade];
     } else {
       return null;
@@ -189,8 +391,8 @@ export function parse(s: string): G.Gearset {
     gears.push({ id: minGearId as G.GearId, materias: [] });
   }
 
-  return { job: job.job, jobLevel, syncLevel, gears };
+  return { job, jobLevel, syncLevel, gears };
 }
 
-// const s = '2MFHiPtChpG469X2Q6XmJZFl7sznjKmbdsyoJ667Ge5It';
+// const s = '1OUOJLa40M28M25Zx9onPbVFINb9tatYuSsZ';
 // console.assert(stringify(parse(s)) === s);

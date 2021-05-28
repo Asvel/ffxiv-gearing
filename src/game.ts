@@ -31,9 +31,10 @@ export interface Gearset {
   syncLevel?: number,
   gears: {
     id: GearId,
-    materias: ([Stat, MateriaGrade] | null)[]
+    materias: GearsetMaterias,
   }[],
 }
+export type GearsetMaterias = ([Stat, MateriaGrade] | null)[];
 
 import patches from '../data/out/patches';
 export { patches };
