@@ -286,7 +286,8 @@ export const Store = mst.types
         if (gear === undefined) continue;
         gears.push({
           id: gear.data.id,
-          materias: !gear.isFood ? gear.materias.map(m => m.stat !== undefined ? [m.stat, m.grade!] : null) : [],
+          materias: gear.isFood || gear.syncedLevel !== undefined ? [] :
+            gear.materias.map(m => m.stat !== undefined ? [m.stat, m.grade!] : null),
         });
       }
       return share.stringify({
