@@ -13339,6 +13339,7 @@ export default [
       VIT: 197,
       DET: 177,
     },
+    source: '预约特典',
     patch: '5.5',
   },
   {

@@ -183,7 +183,7 @@ const gears = Item
     jobCategoriesUsed[ret.jobCategory] = jobCategories[ret.jobCategory];
     levelsUsed[ret.level] = true;
     lodestoneIdsUsed[ret.id] = lodestoneIds[ret.id];
-    if (ret.source === undefined && ret.slot !== 17 && (ret.equipLevel >= 50)) {
+    if (ret.source === undefined && ret.slot !== 17 && (ret.equipLevel >= 50 || ret.patch !== undefined)) {
       sourcesMissing[ret.id] = `${ret.level}${ret.hq ? 'HQ' : ''}  ${ret.name}`;
     }
     return ret;
