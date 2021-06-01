@@ -107,8 +107,8 @@ export const GearRow = mobxReact.observer<{
                 gear.statHighlights[stat] && '-full',
                 store.schema.skeletonGears && !gear.isFood && gear.slot !== 17 && '-skeleton',
               )}
-              children={(gear.isFood || gear.customizable || store.setting.displayMeldedStats ?
-                gear.stats : gear.bareStats)[stat]}
+              children={(gear.isFood || gear.customizable || gear.syncedLevel !== undefined ||
+                store.setting.displayMeldedStats ? gear.stats : gear.bareStats)[stat]}
             />
           )}
           {store.schema.skeletonGears && !gear.isFood && gear.materias.length > 0 && (
