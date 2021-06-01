@@ -150,6 +150,9 @@ const gears = Item
         ret.stats[statAbbrs[k]] = rawStats[k];
       }
     }
+    if (ret.rarity === 4 && ret.level > 1 && ret.stats['VIT'] > 0 && Object.keys(ret.stats).length === 2) {
+      ret.customizable = true;
+    }
     if (rawStats[12] > 0 && ('STR' in ret.stats || 'DEX' in ret.stats)) {
       ret.stats['PDMG'] = rawStats[12];
       ret.stats['DLY'] = Number(x['Delay<ms>']);  // 攻击间隔不会有 HQ 附加值

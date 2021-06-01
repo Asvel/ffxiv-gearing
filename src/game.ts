@@ -17,6 +17,7 @@ export interface Gear extends GearBase {
   materiaSlot: number,
   materiaAdvanced?: true,
   hq?: true,
+  customizable?: true,
   source: string,
 }
 export interface Food extends GearBase {
@@ -32,6 +33,7 @@ export interface Gearset {
   gears: {
     id: GearId,
     materias: GearsetMaterias,
+    customStats?: Stats,
   }[],
 }
 export type GearsetMaterias = ([Stat, MateriaGrade] | null)[];
@@ -101,6 +103,8 @@ export const baseStats: { [index in Stat]?: 'main' | 'sub' | number } = {
   CRT: 'sub', DHT: 'sub', DET: 'main', SKS: 'sub', SPS: 'sub', TEN: 'sub', PIE: 'main',
   CMS: 0, CRL: 0, CP: 180, GTH: 0, PCP: 0, GP: 400,
 };
+
+export const customStatMax = 1000;
 
 const statSchemas: { [index: string]: Stat[] } = {
   tank: ['STR', 'CRT', 'DET', 'DHT', 'SKS', 'TEN', 'VIT'],

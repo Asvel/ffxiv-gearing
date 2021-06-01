@@ -38,15 +38,6 @@
 }
 .condition_level-input {
   width: 36px;
-  height: auto;
-  & > input {
-    padding: 6px 0 3px !important;
-    font-size: 14px;
-    text-align: center;
-  }
-  &:not(.mdc-text-field--disabled) {
-    background-color: transparent;
-  }
 }
 .condition_level-separator {
   margin: 0 4px;

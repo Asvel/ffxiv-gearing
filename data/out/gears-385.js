@@ -328,6 +328,7 @@ export default [
       DLY: 2240,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24072,
@@ -346,6 +347,7 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24073,
@@ -364,6 +366,7 @@ export default [
       DLY: 3360,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24074,
@@ -382,6 +385,7 @@ export default [
       DLY: 2800,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24075,
@@ -400,6 +404,7 @@ export default [
       DLY: 3040,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24076,
@@ -418,6 +423,7 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24077,
@@ -436,6 +442,7 @@ export default [
       DLY: 2960,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24078,
@@ -454,6 +461,7 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24079,
@@ -471,6 +479,7 @@ export default [
       MDMG: 143,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24080,
@@ -488,6 +497,7 @@ export default [
       MDMG: 143,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24081,
@@ -505,6 +515,7 @@ export default [
       MDMG: 143,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24082,
@@ -522,6 +533,7 @@ export default [
       MDMG: 143,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24083,
@@ -539,6 +551,7 @@ export default [
       MDMG: 143,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24084,
@@ -557,6 +570,7 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24085,
@@ -574,6 +588,7 @@ export default [
       MDMG: 143,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 24086,
@@ -590,6 +605,7 @@ export default [
       VIT: 118,
     },
     source: '优雷卡/涌火之地',
+    customizable: true,
   },
   {
     id: 25628,
@@ -4498,6 +4514,7 @@ export default [
       DLY: 2240,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24644,
@@ -4516,6 +4533,7 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24645,
@@ -4534,6 +4552,7 @@ export default [
       DLY: 3360,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24646,
@@ -4552,6 +4571,7 @@ export default [
       DLY: 2800,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24647,
@@ -4570,6 +4590,7 @@ export default [
       DLY: 3040,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24648,
@@ -4588,6 +4609,7 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24649,
@@ -4606,6 +4628,7 @@ export default [
       DLY: 2960,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24650,
@@ -4624,6 +4647,7 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24651,
@@ -4641,6 +4665,7 @@ export default [
       MDMG: 144,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24652,
@@ -4658,6 +4683,7 @@ export default [
       MDMG: 144,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24653,
@@ -4675,6 +4701,7 @@ export default [
       MDMG: 144,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24654,
@@ -4692,6 +4719,7 @@ export default [
       MDMG: 144,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24655,
@@ -4709,6 +4737,7 @@ export default [
       MDMG: 144,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24656,
@@ -4727,6 +4756,7 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24657,
@@ -4744,6 +4774,7 @@ export default [
       MDMG: 144,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24658,
@@ -4760,6 +4791,7 @@ export default [
       VIT: 122,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24723,
@@ -9540,6 +9572,7 @@ export default [
       DLY: 2240,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24660,
@@ -9558,6 +9591,7 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24661,
@@ -9576,6 +9610,7 @@ export default [
       DLY: 3360,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24662,
@@ -9594,6 +9629,7 @@ export default [
       DLY: 2800,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24663,
@@ -9612,6 +9648,7 @@ export default [
       DLY: 3040,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24664,
@@ -9630,6 +9667,7 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24665,
@@ -9648,6 +9686,7 @@ export default [
       DLY: 2960,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24666,
@@ -9666,6 +9705,7 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24667,
@@ -9683,6 +9723,7 @@ export default [
       MDMG: 145,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24668,
@@ -9700,6 +9741,7 @@ export default [
       MDMG: 145,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24669,
@@ -9717,6 +9759,7 @@ export default [
       MDMG: 145,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24670,
@@ -9734,6 +9777,7 @@ export default [
       MDMG: 145,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24671,
@@ -9751,6 +9795,7 @@ export default [
       MDMG: 145,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24672,
@@ -9769,6 +9814,7 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24673,
@@ -9786,6 +9832,7 @@ export default [
       MDMG: 145,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24674,
@@ -9802,6 +9849,7 @@ export default [
       VIT: 125,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 25788,
@@ -13992,6 +14040,7 @@ export default [
       DLY: 2240,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24676,
@@ -14010,6 +14059,7 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24677,
@@ -14028,6 +14078,7 @@ export default [
       DLY: 3360,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24678,
@@ -14046,6 +14097,7 @@ export default [
       DLY: 2800,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24679,
@@ -14064,6 +14116,7 @@ export default [
       DLY: 3040,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24680,
@@ -14082,6 +14135,7 @@ export default [
       DLY: 2560,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24681,
@@ -14100,6 +14154,7 @@ export default [
       DLY: 2960,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24682,
@@ -14118,6 +14173,7 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24683,
@@ -14135,6 +14191,7 @@ export default [
       MDMG: 146,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24684,
@@ -14152,6 +14209,7 @@ export default [
       MDMG: 146,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24685,
@@ -14169,6 +14227,7 @@ export default [
       MDMG: 146,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24686,
@@ -14186,6 +14245,7 @@ export default [
       MDMG: 146,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24687,
@@ -14203,6 +14263,7 @@ export default [
       MDMG: 146,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24688,
@@ -14221,6 +14282,7 @@ export default [
       DLY: 2640,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24689,
@@ -14238,6 +14300,7 @@ export default [
       MDMG: 146,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 24690,
@@ -14254,6 +14317,7 @@ export default [
       VIT: 129,
     },
     source: '优雷卡/丰水之地',
+    customizable: true,
   },
   {
     id: 25868,

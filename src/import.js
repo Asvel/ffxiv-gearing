@@ -92,7 +92,19 @@
       }
       for (const [ slot, gear ] of Object.entries(state.gearsets.gearset)) {
         if (!gear) continue;
-        let id = gear.baseItemId || gear.id;
+        let { id } = gear;
+        let customStats = undefined;
+        if (gear.baseItemId) {
+          id = gear.baseItemId;
+          customStats = {};
+          for (let i = 0; i <= 6; i++) {
+            const stat = materiaTypes[gear[`param${i}`]];
+            const value = gear[`param${i}Value`];
+            if (stat !== undefined && value > 0) {
+              customStats[stat] = value;
+            }
+          }
+        }
         if (id) {
           if (slot === 'food') id = foodIdToItemId[id];
           let materiaKey = id;
@@ -108,7 +120,7 @@
               }
             }
           }
-          data.gears.push({ id, materias });
+          data.gears.push({ id, materias, customStats });
         }
       }
       data.job = state.jobs.currentJob.abbrev;
@@ -151,6 +163,6 @@
       prompt('Open this url to import.', importUrl);
     }
   } else {
-    alert('No compatible data found on this site.');
+    alert('No supported data found on this site.');
   }
 })();

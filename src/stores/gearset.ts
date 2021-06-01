@@ -26,7 +26,8 @@ mobx.autorun(() => {  // gearsetStore react to main store
       const id = snapshot.equippedGears![slot] === undefined ? g.id : -g.id as G.GearId;
       const materias = g.materias.map(m =>
         ({ stat: m === null ? undefined : m[0], grade: m === null ? undefined : m[1] }));
-      snapshot.gears![id] = { id, materias };
+      const customStats = g.customStats as { [index: string]: number };
+      snapshot.gears![id] = { id, materias, customStats };
       snapshot.equippedGears![id > 0 ? slot : -slot] = id;
     }
   }

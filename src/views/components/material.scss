@@ -36,6 +36,7 @@
 .mdc-ripple-surface {
   cursor: pointer;
 }
+
 .mdc-button {
   font-weight: normal;
   user-select: auto;
@@ -48,9 +49,22 @@
 .mdc-icon-button--dense {
   @include icon-button.icon-size(15px, 15px, 5px, feature-targeting.without(typography));
 }
+
 .mdc-form-field label {
   cursor: pointer;
 }
+.mdc-text-field--compact {
+  height: auto;
+  & > input {
+    padding: 5px 0 3px !important;
+    font-size: 14px;
+    text-align: center;
+  }
+  &:not(.mdc-text-field--disabled) {
+    background-color: transparent;
+  }
+}
+
 .rmwc-badge {
   background: #dc004e;
 }

@@ -182,7 +182,7 @@ const ConditionLevelInput = mobxReact.observer<{
   return (
     <TextField
       inputRef={inputRef}
-      className="condition_level-input"
+      className="condition_level-input mdc-text-field--compact"
       value={inputValue}
       onFocus={() => inputRef.current?.select()}
       onBlur={() => onChange(parseInt(inputValue, 10) || 0)}

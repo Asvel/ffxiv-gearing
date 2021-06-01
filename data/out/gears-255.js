@@ -3188,6 +3188,7 @@ export default [
       DLY: 2240,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15238,
@@ -3206,6 +3207,7 @@ export default [
       DLY: 2560,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15239,
@@ -3224,6 +3226,7 @@ export default [
       DLY: 3440,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15240,
@@ -3242,6 +3245,7 @@ export default [
       DLY: 2880,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15241,
@@ -3260,6 +3264,7 @@ export default [
       DLY: 3040,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15242,
@@ -3278,6 +3283,7 @@ export default [
       DLY: 2480,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15243,
@@ -3296,6 +3302,7 @@ export default [
       DLY: 2960,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15244,
@@ -3314,6 +3321,7 @@ export default [
       DLY: 2480,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15245,
@@ -3331,6 +3339,7 @@ export default [
       MDMG: 113,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15246,
@@ -3348,6 +3357,7 @@ export default [
       MDMG: 113,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15247,
@@ -3365,6 +3375,7 @@ export default [
       MDMG: 113,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15248,
@@ -3382,6 +3393,7 @@ export default [
       MDMG: 113,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15249,
@@ -3399,6 +3411,7 @@ export default [
       MDMG: 113,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15250,
@@ -3415,6 +3428,7 @@ export default [
       VIT: 54,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16251,
@@ -10565,6 +10579,7 @@ export default [
       DLY: 2240,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15252,
@@ -10583,6 +10598,7 @@ export default [
       DLY: 2560,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15253,
@@ -10601,6 +10617,7 @@ export default [
       DLY: 3440,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15254,
@@ -10619,6 +10636,7 @@ export default [
       DLY: 2880,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15255,
@@ -10637,6 +10655,7 @@ export default [
       DLY: 3040,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15256,
@@ -10655,6 +10674,7 @@ export default [
       DLY: 2480,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15257,
@@ -10673,6 +10693,7 @@ export default [
       DLY: 2960,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15258,
@@ -10691,6 +10712,7 @@ export default [
       DLY: 2480,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15259,
@@ -10708,6 +10730,7 @@ export default [
       MDMG: 114,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15260,
@@ -10725,6 +10748,7 @@ export default [
       MDMG: 114,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15261,
@@ -10742,6 +10766,7 @@ export default [
       MDMG: 114,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15262,
@@ -10759,6 +10784,7 @@ export default [
       MDMG: 114,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15263,
@@ -10776,6 +10802,7 @@ export default [
       MDMG: 114,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 15264,
@@ -10792,6 +10819,7 @@ export default [
       VIT: 58,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16327,
@@ -16955,6 +16983,7 @@ export default [
       DLY: 2240,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16051,
@@ -16973,6 +17002,7 @@ export default [
       DLY: 2560,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16052,
@@ -16991,6 +17021,7 @@ export default [
       DLY: 3440,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16053,
@@ -17009,6 +17040,7 @@ export default [
       DLY: 2880,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16054,
@@ -17027,6 +17059,7 @@ export default [
       DLY: 3040,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16055,
@@ -17045,6 +17078,7 @@ export default [
       DLY: 2480,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16056,
@@ -17063,6 +17097,7 @@ export default [
       DLY: 2960,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16057,
@@ -17081,6 +17116,7 @@ export default [
       DLY: 2480,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16058,
@@ -17098,6 +17134,7 @@ export default [
       MDMG: 115,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16059,
@@ -17115,6 +17152,7 @@ export default [
       MDMG: 115,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16060,
@@ -17132,6 +17170,7 @@ export default [
       MDMG: 115,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16061,
@@ -17149,6 +17188,7 @@ export default [
       MDMG: 115,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16062,
@@ -17166,6 +17206,7 @@ export default [
       MDMG: 115,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16063,
@@ -17182,6 +17223,7 @@ export default [
       VIT: 61,
     },
     source: '魂武',
+    customizable: true,
   },
   {
     id: 16465,

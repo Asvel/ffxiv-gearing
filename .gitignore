@@ -8,3 +8,4 @@ yarn-error.log
 # Fetched data
 /data/in/*.*
 !/data/in/bluMdmgAdditions.txt
+!/data/in/sources.txt

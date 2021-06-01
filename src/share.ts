@@ -115,14 +115,17 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
   ranges.useJob(job);
 
   const { statEncode } = jobEncode[job]!;
+  const { statDecode } = jobDecode[jobEncode[job]!.index];
 
   const gearTypeEncode: number[] = [];
   const materiaEncode: number[][] = [];  // materiaEncode[grade][statIndex]
   let hasInvalidMateria = false;
   materiaEncode[ranges.materiaGrade] = [];
-  for (const { id, materias } of gears) {
+  for (const { id, materias, customStats } of gears) {
     if (id in specialGearEncode) {
       gearTypeEncode[GearType.Special] = 1;
+    } else if (customStats !== undefined) {
+      gearTypeEncode[GearType.Customizable] = 1;
     } else {
       gearTypeEncode[materias.length] = 1;
       for (const materia of materias) {
@@ -162,9 +165,9 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
   // eslint-disable-next-line no-unmodified-loop-condition
   while (!hasInvalidMateria && materiaEncode[minMateriaGrade] === undefined) minMateriaGrade++;
 
-  const gearCodes: { id: G.GearId, materias: number[] }[] = [];
+  const gearCodes: { id: G.GearId, materias: number[], customStats?: G.Stats }[] = [];
   const specialGears: G.GearId[] = [];
-  for (const { id, materias } of gears) {
+  for (const { id, materias, customStats } of gears) {
     if (!(id > 0)) {
       console.warn(`share.stringify: gear id ${id} invalid.`);
       continue;
@@ -178,7 +181,7 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
           ? materiaRange - 1  // use the largest materia code for empty slot
           : materiaEncode[materia[1]][statEncode[materia[0]]!]);
       }
-      gearCodes.push({ id, materias: materiaCodes });
+      gearCodes.push({ id, materias: materiaCodes, customStats });
     }
   }
   if (gearCodes.length === 0 && specialGears.length === 0) return '';
@@ -220,13 +223,13 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
 
   let result: BI.BigInteger = 0;
   const write = (value: number, range: number) => {
-    console.debug('write', value, range);
-    result = BI.add(BI.multiply(result, range), value);
+    // console.debug('write', value, range);
+    result = BI.add(BI.multiply(result, range), value < range ? value : range - 1);
   };
   const writeBoolean = (value: boolean) => write(value ? 1 : 0, 2);
 
   for (let i = gearCodes.length - 1; i >= 0; i--) {
-    const { id, materias } = gearCodes[i];
+    const { id, materias, customStats } = gearCodes[i];
     if (i > 0) {
       const delta = (id - gearCodes[i - 1].id) * gearIdDeltaDirection;
       write(delta + (i === gearCodes.length - 1 ? 1 : 0), gearIdDeltaRange);
@@ -236,10 +239,16 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
       write(gearIdDeltaRange, id);
       write(id, ranges.gearId);
     }
-    for (let i = materias.length - 1; i >= 0; i--) {
-      write(materias[i], materiaRange);
+    if (customStats !== undefined) {
+      for (let i = statDecode.length - 1; i >= 0; i--) {
+        write(customStats[statDecode[i]] ?? 0, ranges.customStat);
+      }
+    } else {
+      for (let i = materias.length - 1; i >= 0; i--) {
+        write(materias[i], materiaRange);
+      }
     }
-    write(gearTypeEncode[materias.length], gearTypeRange);
+    write(gearTypeEncode[customStats === undefined ? materias.length : GearType.Customizable], gearTypeRange);
   }
 
   for (const id of specialGears) {
@@ -324,13 +333,24 @@ export function parse(s: string): G.Gearset {
   while (input !== 0) {  // eslint-disable-line no-unmodified-loop-condition
     const gearType = gearTypeDecode[read(gearTypeDecode.length)];
     const materias: G.GearsetMaterias = [];
+    let customStats: G.Stats | undefined;
     if (gearType === GearType.Special) {
       const id = specialGearDecode[read(ranges.specialGear)];
       gears.push({ id, materias });
       continue;
     }
-    for (let i = 0; i < gearType; i++) {
-      materias[i] = materiaDecode[read(materiaDecode.length)];
+    if (gearType === GearType.Customizable) {
+      customStats = {};
+      for (const stat of statDecode) {
+        const value = read(ranges.customStat);
+        if (value > 0) {
+          customStats[stat] = value;
+        }
+      }
+    } else {
+      for (let i = 0; i < gearType; i++) {
+        materias[i] = materiaDecode[read(materiaDecode.length)];
+      }
     }
     if (id === -1) {
       id = read(ranges.gearId);
@@ -340,7 +360,7 @@ export function parse(s: string): G.Gearset {
     } else {
       id += (read(gearIdDeltaRange) - (input === 0 ? 1 : 0)) * gearIdDeltaDirection;
     }
-    gears.push({ id: id as G.GearId, materias });
+    gears.push({ id: id as G.GearId, materias, customStats });
   }
   if (ringsInversed !== (gearIdDeltaDirection === -1)) {
     gears.reverse();

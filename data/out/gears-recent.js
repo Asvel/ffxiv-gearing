@@ -28641,6 +28641,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32670,
@@ -28660,6 +28661,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32671,
@@ -28679,6 +28681,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32672,
@@ -28698,6 +28701,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32673,
@@ -28717,6 +28721,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32674,
@@ -28736,6 +28741,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32675,
@@ -28755,6 +28761,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32676,
@@ -28774,6 +28781,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32677,
@@ -28792,6 +28800,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32678,
@@ -28810,6 +28819,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32679,
@@ -28828,6 +28838,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32680,
@@ -28846,6 +28857,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32681,
@@ -28864,6 +28876,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32682,
@@ -28883,6 +28896,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32683,
@@ -28901,6 +28915,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32684,
@@ -28920,6 +28935,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32685,
@@ -28939,6 +28955,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32686,
@@ -28956,6 +28973,7 @@ export default [
     },
     source: '义军武器',
     patch: '5.45',
+    customizable: true,
   },
   {
     id: 32418,

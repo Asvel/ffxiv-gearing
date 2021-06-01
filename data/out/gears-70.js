@@ -27869,6 +27869,7 @@ export default [
       DLY: 2320,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 7864,
@@ -27887,6 +27888,7 @@ export default [
       DLY: 2720,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 7865,
@@ -27905,6 +27907,7 @@ export default [
       DLY: 3440,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 7866,
@@ -27923,6 +27926,7 @@ export default [
       DLY: 3120,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 7867,
@@ -27941,6 +27945,7 @@ export default [
       DLY: 3280,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 7868,
@@ -27976,6 +27981,7 @@ export default [
       MDMG: 75,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 7870,
@@ -27993,6 +27999,7 @@ export default [
       MDMG: 75,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 7871,
@@ -28027,6 +28034,7 @@ export default [
       VIT: 14,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 8350,
@@ -31444,6 +31452,7 @@ export default [
       DLY: 2480,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9485,
@@ -32968,6 +32977,7 @@ export default [
       DLY: 2320,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 8650,
@@ -32986,6 +32996,7 @@ export default [
       DLY: 2720,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 8651,
@@ -33004,6 +33015,7 @@ export default [
       DLY: 3440,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 8652,
@@ -33022,6 +33034,7 @@ export default [
       DLY: 3120,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 8653,
@@ -33040,6 +33053,7 @@ export default [
       DLY: 3280,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 8654,
@@ -33075,6 +33089,7 @@ export default [
       MDMG: 77,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 8656,
@@ -33092,6 +33107,7 @@ export default [
       MDMG: 77,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 8657,
@@ -33126,6 +33142,7 @@ export default [
       VIT: 15,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9249,
@@ -33164,6 +33181,7 @@ export default [
       DLY: 2480,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9548,
@@ -39371,6 +39389,7 @@ export default [
       DLY: 2320,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9492,
@@ -39389,6 +39408,7 @@ export default [
       DLY: 2640,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9493,
@@ -39407,6 +39427,7 @@ export default [
       DLY: 3440,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9494,
@@ -39425,6 +39446,7 @@ export default [
       DLY: 2960,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9495,
@@ -39443,6 +39465,7 @@ export default [
       DLY: 3040,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9496,
@@ -39478,6 +39501,7 @@ export default [
       MDMG: 80,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9498,
@@ -39495,6 +39519,7 @@ export default [
       MDMG: 80,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9499,
@@ -39529,6 +39554,7 @@ export default [
       VIT: 17,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 9501,
@@ -39547,6 +39573,7 @@ export default [
       DLY: 2400,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10587,
@@ -48117,6 +48144,7 @@ export default [
       DLY: 2320,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10055,
@@ -48135,6 +48163,7 @@ export default [
       DLY: 2640,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10056,
@@ -48153,6 +48182,7 @@ export default [
       DLY: 3440,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10057,
@@ -48171,6 +48201,7 @@ export default [
       DLY: 2960,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10058,
@@ -48189,6 +48220,7 @@ export default [
       DLY: 3040,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10059,
@@ -48224,6 +48256,7 @@ export default [
       MDMG: 82,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10061,
@@ -48241,6 +48274,7 @@ export default [
       MDMG: 82,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10062,
@@ -48275,6 +48309,7 @@ export default [
       VIT: 19,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10064,
@@ -48293,6 +48328,7 @@ export default [
       DLY: 2400,
     },
     source: '古武',
+    customizable: true,
   },
   {
     id: 10456,

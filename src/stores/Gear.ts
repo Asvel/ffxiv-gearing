@@ -8,6 +8,7 @@ export const Gear = mst.types
   .model('Gear', {
     id: mst.types.identifierNumber as mst.ISimpleType<G.GearId>,
     materias: mst.types.optional(mst.types.array(Materia), []),
+    customStats: mst.types.maybe(mst.types.map(mst.types.number)),
   })
   .views(self => ({
     get data() {
@@ -25,6 +26,7 @@ export const Gear = mst.types
     get materiaSlot() { return self.data.materiaSlot; },
     get materiaAdvanced() { return self.data.materiaAdvanced; },
     get hq() { return self.data.hq; },
+    get customizable() { return self.data.customizable; },
     get source() { return self.data.source; },
     get patch() { return self.data.patch; },
     get color(): GearColor {
@@ -54,16 +56,20 @@ export const Gear = mst.types
     },
     get stats(): G.Stats {
       let stats: G.Stats = {};
+      let bareStats = this.bareStats;
+      if (this.customizable) {
+        bareStats = { ...bareStats, ...self.customStats!.toJSON() };
+      }
       if (this.syncedLevel !== undefined) {
         const caps = G.getCaps(self.data, this.syncedLevel);
-        for (const stat of Object.keys(this.bareStats) as G.Stat[]) {
-          stats[stat] = Math.min(this.bareStats[stat] ?? 0, caps[stat]!);
+        for (const stat of Object.keys(bareStats) as G.Stat[]) {
+          stats[stat] = Math.min(bareStats[stat] ?? 0, caps[stat]!);
         }
       } else if (this.materiaSlot === 0) {
-        stats = this.bareStats;
+        stats = bareStats;
       } else {
-        for (const stat of Object.keys(this.bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
-          stats[stat] = Math.min((this.bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0), this.caps[stat]);
+        for (const stat of Object.keys(bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
+          stats[stat] = Math.min((bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0), this.caps[stat]);
         }
       }
       return stats;
@@ -106,6 +112,13 @@ export const Gear = mst.types
     },
   }))
   .actions(self => ({
+    setCustomStat(stat: G.Stat, value: number) {
+      if (value > 0) {
+        self.customStats!.set(stat, value <= G.customStatMax ? value : G.customStatMax);
+      } else {
+        self.customStats!.delete(stat);
+      }
+    },
     afterCreate(): void {
       const materiaSlot = self.materiaAdvanced ? 5 : self.materiaSlot;
       if (self.materias.length > materiaSlot) {
@@ -114,8 +127,17 @@ export const Gear = mst.types
       if (self.materias.length < materiaSlot) {
         self.materias.push(...new Array(materiaSlot - self.materias.length).fill({}));
       }
+      if (self.customizable && self.customStats === undefined) {
+        self.customStats = {} as any;
+      }
     },
-  }));
+  }))
+  .postProcessSnapshot(snapshot => {
+    if (snapshot.customStats === undefined) {
+      delete snapshot.customStats;
+    }
+    return snapshot;
+  });
 
 const rarityColors: { [index: number]: GearColor } = {
   1: 'white',
