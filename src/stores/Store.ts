@@ -361,7 +361,7 @@ export const Store = mst.types
       let maxLevel = -Infinity;
       for (const slot of self.schema.slots) {
         const gear = self.equippedGears.get(slot.slot.toString());
-        if (gear !== undefined && slot.levelWeight !== 0) {
+        if (gear !== undefined && slot.levelWeight !== 0 && gear.id !== 17726) {  // 17726: Spearfishing Gig
           if (gear.level < minLevel) minLevel = gear.level;
           if (gear.level > maxLevel) maxLevel = gear.level;
         }
