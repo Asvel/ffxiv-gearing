@@ -45,6 +45,7 @@ const itemPatchIds = require('./in/Item.json');
 const patchOfId = {
   74: '5.45',
   75: '5.5',
+  76: '5.55',
 };
 
 const patches = {
@@ -333,8 +334,9 @@ for (const gear of gears) {
 const bluMdmgAdditions = fs.readFileSync('./in/bluMdmgAdditions.txt', 'utf8')
   .split(/\r?\n/).map(x => parseInt(x, 10)).filter(x => !Number.isNaN(x));
 
-fs.rmdirSync('./out', { recursive: true });
-fs.mkdirSync('./out');
+for (const filename of fs.readdirSync('./out')) {
+  fs.unlinkSync(`./out/${filename}`);
+}
 
 const sourcesMissingIds = Object.keys(sourcesMissing).map(x => Number(x)).sort((a, b) => a - b);
 if (sourcesMissingIds.length > 0) {
