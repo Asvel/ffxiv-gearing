@@ -17,6 +17,7 @@ shell.exec('git checkout -f gh-pages');
 shell.exec('git pull');
 shell.rm('-rf', '!(.git)');
 shell.cp('../dist/*', '.');
+shell.touch('.nojekyll');
 
 shell.exec('git add -A');
 shell.exec('git commit -m "Publish"');
