@@ -1,3 +1,4 @@
+import * as mobx from 'mobx';
 import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import { ISetting, Materia, Store, gearData } from '.';
@@ -119,7 +120,7 @@ export const Gear = mst.types
         self.customStats!.delete(stat);
       }
     },
-    afterCreate(): void {
+    initialize() {
       const materiaSlot = self.materiaAdvanced ? 5 : self.materiaSlot;
       if (self.materias.length > materiaSlot) {
         self.materias.splice(0, materiaSlot, 5);  // 5 means all
@@ -130,6 +131,9 @@ export const Gear = mst.types
       if (self.customizable && self.customStats === undefined) {
         self.customStats = {} as any;
       }
+    },
+    afterCreate(): void {
+      mobx.when(() => gearData.has(Math.abs(self.id)), this.initialize);
     },
   }))
   .postProcessSnapshot(snapshot => {
