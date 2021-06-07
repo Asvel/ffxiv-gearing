@@ -43,3 +43,9 @@
   opacity: 0.08;
   pointer-events: none;
 }
+
+.job-select-panel {
+  min-width: 810px;
+  padding-top: 16px;
+  @include elevation(4);
+}

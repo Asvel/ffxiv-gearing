@@ -18,9 +18,6 @@ import { SettingPanel } from './SettingPanel';
 
 export const Condition = mobxReact.observer(() => {
   const store = useStore();
-  type ExpandedPanel = 'job' | 'materia' | null;  // FIXME
-  const [ expandedPanel, setExpandedPanel ] = React.useState<ExpandedPanel>(null);
-  const toggleExpandedPanel = (panel: ExpandedPanel) => setExpandedPanel(v => v === panel ? null : panel);
   const welcoming = store.job === undefined;
   const editing = !store.isViewing && store.job !== undefined;
   const viewing = store.isViewing && store.job !== undefined;
@@ -30,12 +27,23 @@ export const Condition = mobxReact.observer(() => {
         <span className="condition_job -empty">选择一个职业开始配装</span>
       )}
       {editing && (
-        <RippleLazy>
-          <span className="condition_job" onClick={() => toggleExpandedPanel('job')}>
-            <Icon className="condition_job-icon" name={'jobs/' + store.job} />
-            <span className="condition_job-name">{store.schema.name}</span>
-          </span>
-        </RippleLazy>
+        <Dropdown
+          label={({ ref, toggle }) => (
+            <RippleLazy>
+              <span ref={ref} className="condition_job" onClick={toggle}>
+                <Icon className="condition_job-icon" name={'jobs/' + store.job} />
+                <span className="condition_job-name">{store.schema.name}</span>
+              </span>
+            </RippleLazy>
+          )}
+          popper={() => (
+            <div className="job-select-panel card">
+              <JobSelector />
+            </div>
+          )}
+          placement="bottom-start"
+          modifiers={[{ name: 'offset', options: { offset: [-4, 0] } }]}
+        />
       )}
       {viewing && (
         <span className="condition_job">
@@ -149,7 +157,7 @@ export const Condition = mobxReact.observer(() => {
         <span className="condition_divider" />
         <span className="condition_text">数据版本 {G.patches.data}</span>
       </span>
-      {(store.job === undefined || expandedPanel === 'job') && <JobSelector />}
+      {welcoming && <JobSelector />}
     </div>
   );
 });
