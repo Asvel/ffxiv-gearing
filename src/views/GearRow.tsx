@@ -139,12 +139,13 @@ const CustomStatInput = mobxReact.observer<{
     setInputValue(displayValue?.toString() ?? '');
     setPrevDisplayValue(displayValue);
   }
-  const inputRef = React.useRef<HTMLInputElement>(null);
   return (
     <TextField
-      inputRef={inputRef}
       className="gears_custom-stat-input mdc-text-field--compact"
       value={inputValue}
+      onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+        setInputValue(e.target.value);
+      }}
       onFocus={e => {
         e.target.value = editValue?.toString() ?? '';
         setInputValue(e.target.value);
@@ -154,8 +155,14 @@ const CustomStatInput = mobxReact.observer<{
         setPrevDisplayValue(-1);
         onChange(parseInt(inputValue, 10));
       }}
-      onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInputValue(e.target.value)}
-      onClick={e => e.stopPropagation()}
+      onClick={e => {
+        e.stopPropagation();
+      }}
+      onKeyPress={e => {
+        if (e.key === 'Enter') {
+          (e.target as HTMLInputElement).blur();
+        }
+      }}
     />
   );
 });
