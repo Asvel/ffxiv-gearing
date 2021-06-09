@@ -381,7 +381,7 @@ export const jobSchemas = {
       { slot: 13, name: '武器', levelWeight: 0, uiGroup: 'weapon' },
       ...slotSchemaCommon,
     ],
-    defaultItemLevel: [385, 400],
+    defaultItemLevel: [390, 400],
     jobLevel: 70,
     levelSyncable: true,
     statModifiers: { INT: 115, VIT: 100, hp: 105 },

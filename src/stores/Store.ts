@@ -229,10 +229,11 @@ export const Store = mst.types
       const { main, sub, div, det, detTrunc } = levelMod;
       const { CRT, DET, DHT, TEN, SKS, SPS, VIT, PIE, PDMG, MDMG } = self.equippedStats;
       const attackMainStat = mainStat === 'VIT' ? 'STR' : mainStat;
-      const crtChance = floor(200 * (CRT! - sub) / div + 50) / 1000;
+      const bluAetherialMimicry = self.job === 'BLU' ? 200 : 0;
+      const crtChance = floor(200 * (CRT! - sub) / div + 50 + bluAetherialMimicry) / 1000;
       const crtDamage = floor(200 * (CRT! - sub) / div + 1400) / 1000;
       const detDamage = floor((130 * (DET! - main) / det + 1000) / detTrunc) * detTrunc / 1000;
-      const dhtChance = floor(550 * (DHT! - sub) / div) / 1000;
+      const dhtChance = floor(550 * (DHT! - sub) / div + bluAetherialMimicry) / 1000;
       const tenDamage = floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
       const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
         ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0) +
