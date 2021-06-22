@@ -48,7 +48,7 @@ const patchOfId = {
 };
 
 const patches = {
-  data: Object.values(patchOfId).slice(-1)[0],
+  data: '5.57',
   next: '5.5',
   current: '5.45',  // CN server
 };
