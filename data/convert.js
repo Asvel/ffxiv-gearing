@@ -43,14 +43,13 @@ const jobs = [
 
 const itemPatchIds = require('./in/Item.json');
 const patchOfId = {
-  75: '5.5',
   76: '5.55',
 };
 
 const patches = {
   data: '5.58',
-  next: '5.5',
-  current: '5.45',  // CN server
+  next: '5.55',
+  current: '5.5',  // CN server
 };
 
 const sourceOfId = {};

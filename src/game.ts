@@ -152,7 +152,7 @@ const slotSchemaCrafting = [
   slotSchemaGathering[slotSchemaGathering.length - 1],
 ];
 
-const defaultItemLevelCombat = [510, 535];
+const defaultItemLevelCombat = [520, 535];
 const defaultItemLevelCrafting = [490, 510];
 const defaultItemLevelGathering = defaultItemLevelCrafting;
 
@@ -496,13 +496,7 @@ export type Job = keyof typeof jobSchemas;
 export const jobCategories = require('../data/out/jobCategories').default as { [index in Job]?: boolean }[];
 
 export const statHighlight: { [index in Stat]?: boolean } = {
-  PIE: true,
-  TEN: true,
-  DHT: true,
-  CRT: true,
-  DET: true,
-  SKS: true,
-  SPS: true,
+  PIE: true, TEN: true, DHT: true, CRT: true, DET: true, SKS: true, SPS: true,
 };
 
 export const materias: { [index in Stat]?: number[] } = {
