@@ -4419,7 +4419,7 @@ export default [
     stats: {
       MDMG: 1,
     },
-    source: '假面狂欢',
+    source: '职业任务',
   },
   {
     id: 24832,
