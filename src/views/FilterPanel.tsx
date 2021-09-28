@@ -9,6 +9,7 @@ export const FilterPanel = mobxReact.observer(() => {
     <div className="filter card">
       <div className="filter_section">
         <span className="filter_title">实装版本</span>
+        <span className="filter_sub">当前时间点国服和国际服的装备已经没有差别（直到国际服更新6.0）</span>
       </div>
       <div className="filter_controls">
         <Radio
@@ -17,12 +18,14 @@ export const FilterPanel = mobxReact.observer(() => {
           onChange={() => store.setFilterPatch('all')}
         />
         <Radio
-          label={`显示国服已实装和即将实装的项目（≤${G.patches.next}）`}
+          // label={`显示国服已实装和即将实装的项目（≤${G.patches.next}）`}
+          label={`显示国服已实装和即将实装的项目`}
           checked={store.filterPatch === 'next'}
           onChange={() => store.setFilterPatch('next')}
         />
         <Radio
-          label={`只显示国服已实装的项目（≤${G.patches.current}）`}
+          // label={`只显示国服已实装的项目（≤${G.patches.current}）`}
+          label={`只显示国服已实装的项目`}
           checked={store.filterPatch === 'current'}
           onChange={() => store.setFilterPatch('current')}
         />
