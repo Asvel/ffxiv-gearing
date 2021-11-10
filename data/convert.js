@@ -48,7 +48,7 @@ const patchOfId = {
 const patches = {
   data: '5.58',
   next: '5.58',
-  current: '5.55',  // CN server
+  current: '5.57',  // CN server
 };
 
 const sourceOfId = {};

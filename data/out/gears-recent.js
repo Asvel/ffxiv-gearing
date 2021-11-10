@@ -10558,7 +10558,7 @@ export default [
   },
   {
     id: 32580,
-    name: '世传御敌手甲',
+    name: '世传御敌手铠',
     level: 485,
     rarity: 2,
     slot: 5,
@@ -10666,7 +10666,7 @@ export default [
   },
   {
     id: 32586,
-    name: '世传制敌手甲',
+    name: '世传制敌手铠',
     level: 485,
     rarity: 2,
     slot: 5,
@@ -10774,7 +10774,7 @@ export default [
   },
   {
     id: 32592,
-    name: '世传强袭手甲',
+    name: '世传强袭手铠',
     level: 485,
     rarity: 2,
     slot: 5,
@@ -10882,7 +10882,7 @@ export default [
   },
   {
     id: 32598,
-    name: '世传精准手甲',
+    name: '世传精准手铠',
     level: 485,
     rarity: 2,
     slot: 5,
@@ -10990,7 +10990,7 @@ export default [
   },
   {
     id: 32604,
-    name: '世传游击手甲',
+    name: '世传游击手铠',
     level: 485,
     rarity: 2,
     slot: 5,
@@ -24040,7 +24040,7 @@ export default [
   },
   {
     id: 31833,
-    name: '总督御敌手甲',
+    name: '总督御敌手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -24160,7 +24160,7 @@ export default [
   },
   {
     id: 31839,
-    name: '总督制敌手甲',
+    name: '总督制敌手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -26744,7 +26744,7 @@ export default [
   },
   {
     id: 32725,
-    name: '裁决御敌手甲',
+    name: '裁决御敌手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -26834,7 +26834,7 @@ export default [
   },
   {
     id: 32730,
-    name: '裁决制敌手甲',
+    name: '裁决制敌手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -26924,7 +26924,7 @@ export default [
   },
   {
     id: 32735,
-    name: '裁决强袭手甲',
+    name: '裁决强袭手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -27014,7 +27014,7 @@ export default [
   },
   {
     id: 32740,
-    name: '裁决精准手甲',
+    name: '裁决精准手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -27104,7 +27104,7 @@ export default [
   },
   {
     id: 32745,
-    name: '裁决游击手甲',
+    name: '裁决游击手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -27374,7 +27374,7 @@ export default [
   },
   {
     id: 32760,
-    name: '改良型裁决御敌手甲',
+    name: '改良型裁决御敌手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -27464,7 +27464,7 @@ export default [
   },
   {
     id: 32765,
-    name: '改良型裁决制敌手甲',
+    name: '改良型裁决制敌手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -27554,7 +27554,7 @@ export default [
   },
   {
     id: 32770,
-    name: '改良型裁决强袭手甲',
+    name: '改良型裁决强袭手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -27644,7 +27644,7 @@ export default [
   },
   {
     id: 32775,
-    name: '改良型裁决精准手甲',
+    name: '改良型裁决精准手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -27734,7 +27734,7 @@ export default [
   },
   {
     id: 32780,
-    name: '改良型裁决游击手甲',
+    name: '改良型裁决游击手铠',
     level: 510,
     rarity: 2,
     slot: 5,
@@ -30663,7 +30663,7 @@ export default [
   },
   {
     id: 33379,
-    name: '改良型总督御敌手甲',
+    name: '改良型总督御敌手铠',
     level: 520,
     rarity: 2,
     slot: 5,
@@ -30777,7 +30777,7 @@ export default [
   },
   {
     id: 33385,
-    name: '改良型总督制敌手甲',
+    name: '改良型总督制敌手铠',
     level: 520,
     rarity: 2,
     slot: 5,
