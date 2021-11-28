@@ -4,7 +4,7 @@ import './views/components/sanitize.scss';
 import './views/components/material.scss';
 import { store } from './stores';
 import { App } from './views/App';
-import './views/app.scss';
+import './views/App.scss';
 
 mobx.autorun(() => {
   if (store.job !== undefined && !store.isLoading) {
