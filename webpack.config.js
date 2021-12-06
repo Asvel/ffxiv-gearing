@@ -167,11 +167,27 @@ module.exports = function (env, argv) {
     },
     devtool: !prod && 'cheap-source-map',
     devServer: {
+      client: false,
       hot: false,
       liveReload: false,
-      injectClient: false,
-      injectHot: false,
       static: false,
     },
   };
 };
+
+// suppress sass slash division warning (ignoreWarnings not work for this)
+// TODO: remove this hack if upgraded RMWC to newer version
+{
+  const sassLoaderUtils = require('sass-loader/dist/utils');
+  const { getSassOptions } = sassLoaderUtils;
+  sassLoaderUtils.getSassOptions = async function () {
+    const options = await getSassOptions.apply(this, arguments);
+    const { warn } = options.logger;
+    options.logger.warn = function (message) {
+      if (message?.startsWith('Using / for division outside of calc() is deprecated')) return;
+      if (message?.endsWith('repetitive deprecation warnings omitted.')) return;
+      return warn.apply(this, arguments);
+    };
+    return options;
+  };
+}
