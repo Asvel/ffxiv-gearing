@@ -39,6 +39,8 @@ export const GearRow = mobxReact.observer<{
       onClick={store.isViewing ? undefined : e => {
         // when dropdown open, clicking on a row usually intends to close dropdown
         if ((e.nativeEvent as any)._isClosingDropdown) return;
+        // when input just lost focus, this click probably intends to cancel focus
+        if (e.timeStamp - lastInputBlurTime < 200) return;
         store.equip(gear);
       }}
     >
@@ -165,4 +167,11 @@ const CustomStatInput = mobxReact.observer<{
       }}
     />
   );
+});
+
+let lastInputBlurTime = 0;
+window.addEventListener('focusout', e => {
+  if ((e.target as Element)?.tagName === 'INPUT') {
+    lastInputBlurTime = e.timeStamp;
+  }
 });
