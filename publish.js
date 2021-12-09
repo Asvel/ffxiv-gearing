@@ -15,7 +15,7 @@ shell.cp('-r', '../.git', '.');
 
 shell.exec('git checkout -f gh-pages');
 shell.exec('git pull');
-shell.rm('-rf', '!(.git)');
+shell.rm('-rf', '!(.git|shb)');
 shell.cp('../dist/*', '.');
 shell.touch('.nojekyll');
 
