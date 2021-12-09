@@ -1,4 +1,4 @@
-import * as BI from './utils/BigInteger';
+import * as base62 from './utils/base62';
 import type * as G from './game';
 
 const reverseMapping = <T>(map: T[]) => {
@@ -221,10 +221,10 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
     }
   }
 
-  let result: BI.BigInteger = 0;
+  let result = 0n;
   const write = (value: number, range: number) => {
     // console.debug('write', value, range);
-    result = BI.add(BI.multiply(result, range), value < range ? value : range - 1);
+    result = result * BigInt(range) + BigInt(value < range ? value : range - 1);
   };
   const writeBoolean = (value: boolean) => write(value ? 1 : 0, 2);
 
@@ -279,15 +279,16 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
   write(jobEncode[job]!.index, ranges.job);
   write(version, ranges.version);
 
-  return BI.toString(result, 62);
+  return base62.encode(result);
 }
 
 export function parse(s: string): G.Gearset {
-  let input = BI.parseInt(s, 62);
+  let input = base62.decode(s);
   const read = (range: number): number => {
-    const ret = BI.remainder(input, range);
-    input = BI.divide(input, range);
-    return ret as number;
+    const rangeBI = BigInt(range);
+    const ret = input % rangeBI;
+    input = input / rangeBI;
+    return Number(ret);
   };
   const readBoolean = () => read(2) === 1;
 
@@ -330,7 +331,7 @@ export function parse(s: string): G.Gearset {
   let gearIdDeltaDirection = 0;
   let ringsInversed = false;
   let id = -1;
-  while (input !== 0) {  // eslint-disable-line no-unmodified-loop-condition
+  while (input !== 0n) {  // eslint-disable-line no-unmodified-loop-condition
     const gearType = gearTypeDecode[read(gearTypeDecode.length)];
     const materias: G.GearsetMaterias = [];
     let customStats: G.Stats | undefined;
@@ -358,7 +359,7 @@ export function parse(s: string): G.Gearset {
       gearIdDeltaDirection = readBoolean() ? 1 : -1;
       ringsInversed = readBoolean();
     } else {
-      id += (read(gearIdDeltaRange) - (input === 0 ? 1 : 0)) * gearIdDeltaDirection;
+      id += (read(gearIdDeltaRange) - (input === 0n ? 1 : 0)) * gearIdDeltaDirection;
     }
     gears.push({ id: id as G.GearId, materias, customStats });
   }
@@ -369,11 +370,12 @@ export function parse(s: string): G.Gearset {
   return { job, jobLevel, syncLevel, gears };
 }
 
-function parseV1V2(version: number, input: BI.BigInteger): G.Gearset {
+function parseV1V2(version: number, input: bigint): G.Gearset {
   const read = (range: number): number => {
-    const ret = BI.remainder(input, range);
-    input = BI.divide(input, range); // eslint-disable-line no-param-reassign
-    return ret as number;
+    const rangeBI = BigInt(range);
+    const ret = input % rangeBI;
+    input = input % rangeBI; // eslint-disable-line no-param-reassign
+    return Number(ret);
   };
 
   const ranges = new Ranges();
@@ -401,7 +403,7 @@ function parseV1V2(version: number, input: BI.BigInteger): G.Gearset {
   const maxGearId = read(ranges.gearId);
   const minGearId = read(maxGearId);
   const gears: G.Gearset['gears'] = [];
-  while (input !== 0) {  // eslint-disable-line no-unmodified-loop-condition
+  while (input !== 0n) {  // eslint-disable-line no-unmodified-loop-condition
     const materias = Array.from({ length: read(ranges.materiaSlot) },
       () => materiaCodes[read(materiaCodes.length)]).reverse();
     const id = (read(maxGearId - minGearId + 1) + minGearId) as G.GearId;
@@ -414,5 +416,5 @@ function parseV1V2(version: number, input: BI.BigInteger): G.Gearset {
   return { job, jobLevel, syncLevel, gears };
 }
 
-// const s = '1OUOJLa40M28M25Zx9onPbVFINb9tatYuSsZ';
-// console.assert(stringify(parse(s)) === s);
+const s = '1OUOJLa40M28M25Zx9onPbVFINb9tatYuSsZ';
+console.assert(stringify(parse(s)) === s);

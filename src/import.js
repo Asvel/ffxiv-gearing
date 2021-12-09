@@ -93,7 +93,7 @@
       for (const [ slot, gear ] of Object.entries(state.gearsets.gearset)) {
         if (!gear) continue;
         let { id } = gear;
-        let customStats = undefined;
+        let customStats;
         if (gear.baseItemId) {
           id = gear.baseItemId;
           customStats = {};

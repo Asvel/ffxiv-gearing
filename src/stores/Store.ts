@@ -45,7 +45,7 @@ export const Store = mst.types
       const unobservableEquippedGears = mobx.untracked(() => self.equippedGears.toJSON());
       const ret: G.GearId[] = [];
       for (const gear of gearDataOrdered.get()) {
-        const { job, minLevel, maxLevel, filterPatch, filterFocus } = self;
+        const { job, minLevel, maxLevel, filterPatch } = self;
         if (
           G.jobCategories[gear.jobCategory][job!] &&
           (filterPatch === 'all' ||
