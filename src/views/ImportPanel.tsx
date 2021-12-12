@@ -9,7 +9,7 @@ export const ImportPanel = mobxReact.observer(() => {
       <a
         ref={r => r?.setAttribute('href', encodeURI(
           `javascript:void(document.body.appendChild(document.createElement('script')).src='`
-          + window.location.origin + window.location.pathname + `import.js?'+Math.random())`))}
+          + window.location.origin + window.location.pathname.replace('shb/', '') + `import.js?'+Math.random())`))}
         className="import_bookmarklet"
         onClick={e => e.preventDefault()}
         children="导入配装"
