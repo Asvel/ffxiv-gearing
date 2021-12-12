@@ -8,7 +8,7 @@ export const About = mobxReact.observer(() => {
       <span className="about_separator">·</span>
       <a
         className="about_link"
-        href="https://github.com/Asvel/ffxiv-gearing/blob/master/CHANGELOG.md"
+        href="https://github.com/Asvel/ffxiv-gearing/blob/shadowbringers/CHANGELOG.md"
         target="_blank"
         children="更新记录"
       />
