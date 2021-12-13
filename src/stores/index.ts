@@ -36,22 +36,7 @@ export { gearData, gearDataOrdered, gearDataLoading,
 
 import { Setting, Store } from '.';
 
-// export const store = Store.create(archive.load(), { setting: Setting.create() });
-// TODO: delete this old store structure compatible code
-const _archive = archive.load() as any;
-if (_archive?.condition) {
-  Object.assign(_archive, _archive.condition);
-  delete _archive.condition;
-  archive.save(_archive);
-}
-// TODO: delete this bug fix compatible code
-if (_archive && typeof Object.values(_archive.equippedGears)[0] === 'string') {
-  for (const [ key, value ] of Object.entries(_archive.equippedGears)) {
-    _archive.equippedGears[key] = Number(value);
-  }
-  archive.save(_archive);
-}
-export const store = Store.create(_archive, { setting: Setting.create() });
+export const store = Store.create(archive.load(), { setting: Setting.create() });
 
 mst.onSnapshot(store, snapshot => {
   if (snapshot.job !== undefined && snapshot.mode !== 'view') {

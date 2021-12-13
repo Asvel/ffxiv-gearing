@@ -370,51 +370,5 @@ export function parse(s: string): G.Gearset | 'legacy' {
   return { job, jobLevel, syncLevel, gears };
 }
 
-function parseV1V2(version: number, input: bigint): G.Gearset {
-  const read = (range: number): number => {
-    const rangeBI = BigInt(range);
-    const ret = input % rangeBI;
-    input = input % rangeBI; // eslint-disable-line no-param-reassign
-    return Number(ret);
-  };
-
-  const ranges = new Ranges();
-  ranges.useVersion(version);
-
-  const { job, statDecode } = jobDecode[read(ranges.job)];
-  ranges.useJob(job);
-
-  let jobLevel = read(ranges.jobLevel) + 1 as G.JobLevel;
-  if (version === 1) jobLevel = 80;  // job level not used and may incorrect in old version
-  const syncLevel = version >= 2 && read(ranges.syncLevel) || undefined;
-
-  const materiaCodes = Array.from({ length: read(ranges.materiaCode) }, () => {
-    let materiaCode = read(ranges.materiaCode);
-    if (materiaCode > 0) {
-      materiaCode -= 1;
-      const grade = materiaCode % ranges.materiaGrade + 1;
-      const stat = statDecode[Math.floor(materiaCode / ranges.materiaGrade + 1e-7)];
-      return [stat, grade] as [G.Stat, G.MateriaGrade];
-    } else {
-      return null;
-    }
-  }).reverse();
-
-  const maxGearId = read(ranges.gearId);
-  const minGearId = read(maxGearId);
-  const gears: G.Gearset['gears'] = [];
-  while (input !== 0n) {  // eslint-disable-line no-unmodified-loop-condition
-    const materias = Array.from({ length: read(ranges.materiaSlot) },
-      () => materiaCodes[read(materiaCodes.length)]).reverse();
-    const id = (read(maxGearId - minGearId + 1) + minGearId) as G.GearId;
-    gears.push({ id, materias });
-  }
-  if (gears.find(g => g.id === minGearId) === undefined) {
-    gears.push({ id: minGearId as G.GearId, materias: [] });
-  }
-
-  return { job, jobLevel, syncLevel, gears };
-}
-
 // const s = '1OUOJLa40M28M25Zx9onPbVFINb9tatYuSsZ';
 // console.assert(stringify(parse(s)) === s);
