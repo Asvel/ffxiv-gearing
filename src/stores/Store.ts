@@ -16,7 +16,7 @@ export const Store = mst.types
   .model('Store', {
     mode: mst.types.optional(mst.types.string as mst.ISimpleType<Mode>, 'edit'),
     job: mst.types.maybe(mst.types.string as mst.ISimpleType<G.Job>),
-    jobLevel: mst.types.optional(mst.types.number as mst.ISimpleType<G.JobLevel>, 80),
+    jobLevel: mst.types.optional(mst.types.number as mst.ISimpleType<G.JobLevel>, 90),
     minLevel: mst.types.optional(mst.types.number, 0),
     maxLevel: mst.types.optional(mst.types.number, 0),
     syncLevel: mst.types.maybe(mst.types.number),
@@ -108,7 +108,6 @@ export const Store = mst.types
           stats[stat] = baseStat;
         } else {
           stats[stat] = floor(levelModifier[baseStat] * (this.schema.statModifiers[stat] ?? 100) / 100) +
-            (!this.schema.noMainStatTrait && stat === this.schema.mainStat ? levelModifier.mainTrait : 0) +
             (G.clanStats[stat]?.[self.clan] ?? 0);
         }
       }
@@ -232,7 +231,7 @@ export const Store = mst.types
       const bluAetherialMimicry = self.job === 'BLU' ? 200 : 0;
       const crtChance = floor(200 * (CRT! - sub) / div + 50 + bluAetherialMimicry) / 1000;
       const crtDamage = floor(200 * (CRT! - sub) / div + 1400) / 1000;
-      const detDamage = floor((130 * (DET! - main) / det + 1000) / detTrunc) * detTrunc / 1000;
+      const detDamage = floor((140 * (DET! - main) / det + 1000) / detTrunc) * detTrunc / 1000;
       const dhtChance = floor(550 * (DHT! - sub) / div + bluAetherialMimicry) / 1000;
       const tenDamage = floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
       const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
@@ -271,7 +270,7 @@ export const Store = mst.types
       }
       return {
         CRT: calcTier(CRT! - sub, div / 200),
-        DET: calcTier(DET! - main, det / 130 * detTrunc),
+        DET: calcTier(DET! - main, det / 140 * detTrunc),
         DHT: calcTier(DHT! - sub, div / 550),
         TEN: calcTier(TEN! - sub, div / 100),
         SKS: calcGcdTier(SKS! - sub, div / 130, (statModifiers.gcd ?? 100) / 1000),

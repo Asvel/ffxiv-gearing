@@ -27,6 +27,18 @@
   padding-bottom: 2px;
   margin-left: -2px;
 }
+.condition_tip {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 34px;
+  color: #00000099;
+  text-decoration: none;
+  vertical-align: top;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 .condition_level {
   display: inline-block;
   padding-left: 16px;

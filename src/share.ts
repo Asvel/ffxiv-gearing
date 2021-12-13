@@ -17,10 +17,12 @@ const jobDecode: { job: G.Job, statDecode: G.Stat[] }[] = [
   { job: 'WHM', statDecode: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
   { job: 'SCH', statDecode: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
   { job: 'AST', statDecode: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
+  { job: 'SGE', statDecode: ['CRT', 'DET', 'DHT', 'SPS', 'PIE'] },
   { job: 'MNK', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'DRG', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'NIN', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'SAM', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'RPR', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'BRD', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'MCH', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'DNC', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
@@ -47,7 +49,7 @@ for (let index = 0; index < jobDecode.length; index++) {
   jobEncode[item.job] = { index, statEncode };
 }
 
-const jobLevelDecode: G.JobLevel[] = [50, 60, 70, 80];
+const jobLevelDecode: G.JobLevel[] = [50, 60, 70, 80, 90];
 const jobLevelEncode = reverseMapping(jobLevelDecode);
 
 enum GearType {
@@ -72,44 +74,35 @@ class Ranges {
   public job = 0;
   public jobLevel = 0;
   public syncLevel = 0;
-  public gearId = 0;
   public gearType = 0;
+  public gearId = 0;
   public materiaSlot = 0;
   public materiaStat = 0;
   public materiaGrade = 0;
-  public materiaCode = 0;
   public specialGear = 0;
   public customStat = 0;
-  private _version = 1;
+  private _version = 4;
   public useVersion(version: number) {
     this._version = version;
-    if (version >= 1) {
-      this.job = 29;  // jobDecode.length
-      this.jobLevel = 80;
+    if (version >= 4) {
+      this.job = 31;  // jobDecode.length
+      this.jobLevel = 5;  // jobLevelDecode.length
+      this.syncLevel = 670;
+      this.gearType = 8;  // gearTypes.length
       this.gearId = 50000;
       this.materiaSlot = 6;
-      this.materiaGrade = 8;
-    }
-    if (version >= 2) {
-      this.syncLevel = 540;
-    }
-    if (version >= 3) {
-      this.jobLevel = 4;  // jobLevelDecode.length
-      this.gearType = 8;  // gearTypes.length
+      this.materiaGrade = 10;
       this.specialGear = 9;  // specialGearDecode.length
       this.customStat = 1001;
     }
   }
   public useJob(job: G.Job) {
     this.materiaStat = jobDecode[jobEncode[job]!.index].statDecode.length;  // TODO: version
-    if (this._version <= 2) {
-      this.materiaCode = this.materiaStat * this.materiaGrade + 1;
-    }
   }
 }
 
 export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): string {
-  const version = 3;
+  const version = 4;
   const ranges = new Ranges();
   ranges.useVersion(version);
   ranges.useJob(job);

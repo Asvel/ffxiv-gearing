@@ -12,6 +12,7 @@ function stringify(obj) {
 function loadExd(filename) {
   const data = Papa.parse(fs.readFileSync('./in/' + filename, 'utf8')).data;
   const fields = data[1];
+  if (filename === 'ClassJobCategory.csv') fields.splice(41, 2, 'RPR', 'SGE');  // FIXME
   return data.slice(3, -1).map(line => {
     const ret = {};
     for (let i = 0; i < line.length; i++) {
@@ -33,8 +34,8 @@ const statAbbrs = {
 
 const jobs = [
   'PLD', 'WAR', 'DRK', 'GNB',
-  'WHM', 'SCH', 'AST',
-  'MNK', 'DRG', 'NIN', 'SAM',
+  'WHM', 'SCH', 'AST', 'SGE',
+  'MNK', 'DRG', 'NIN', 'SAM', 'RPR',
   'BRD', 'MCH', 'DNC',
   'BLM', 'SMN', 'RDM', 'BLU',
   'CRP', 'BSM', 'ARM', 'GSM', 'LTW', 'WVR', 'ALC', 'CUL',
@@ -43,11 +44,12 @@ const jobs = [
 
 const itemPatchIds = require('./in/Item.json');
 const patchOfId = {
+  77: '6.0',
 };
 
 const patches = {
-  data: '5.58',
-  next: '5.58',
+  data: '6.0',
+  next: '6.0',
   current: '5.57',  // CN server
 };
 
@@ -92,7 +94,7 @@ const jobCategories = ClassJobCategory.map(line => {
   }
   return Object.keys(ret).length > 0 ? ret : undefined;
 });
-jobCategories[2] = { PLD: true, WAR: true, DRK: true, GNB: true, MNK: true, DRG: true, SAM: true };
+jobCategories[2] = { PLD: true, WAR: true, DRK: true, GNB: true, MNK: true, DRG: true, SAM: true, RPR: true };
 const jobCategoryOfMainStats = {
   'STR': 2,
   'DEX': 105,
@@ -144,7 +146,7 @@ const gears = Item
     rawStats[12] = (rawStats[12] ?? 0) + Number(x['Damage{Phys}']);
     rawStats[13] = (rawStats[13] ?? 0) + Number(x['Damage{Mag}']);
     for (const k of Object.keys(rawStats)) {
-      if (rawStats[k] > 0 && k in statAbbrs && k !== '12' && k !== '13') {
+      if (rawStats[k] >= 0 && k in statAbbrs && k !== '12' && k !== '13') {
         ret.stats[statAbbrs[k]] = rawStats[k];
       }
     }
@@ -184,7 +186,7 @@ const gears = Item
     jobCategoriesUsed[ret.jobCategory] = jobCategories[ret.jobCategory];
     levelsUsed[ret.level] = true;
     lodestoneIdsUsed[ret.id] = lodestoneIds[ret.id];
-    if (ret.source === undefined && ret.slot !== 17 && (ret.equipLevel >= 50 || ret.patch !== undefined)) {
+    if (ret.source === undefined && ret.slot !== 17 && ret.equipLevel >= 50) {
       sourcesMissing[ret.id] = `${ret.level}${ret.hq ? 'HQ' : ''}  ${ret.name}`;
     }
     return ret;
@@ -240,14 +242,15 @@ const foods = Item
       ['PLD', 'WAR', 'DRK', 'GNB'].forEach(j => jobs[j] = true);
     }
     if ('PIE' in ret.stats) {
-      ['WHM', 'SCH', 'AST'].forEach(j => jobs[j] = true);
+      ['WHM', 'SCH', 'AST', 'SGE'].forEach(j => jobs[j] = true);
     }
     if (Object.keys(jobs).length === 0) {
       if (!('SPS' in ret.stats)) {
-        ['PLD', 'WAR', 'DRK', 'GNB', 'MNK', 'DRG', 'NIN', 'SAM', 'BRD', 'MCH', 'DNC'].forEach(j => jobs[j] = true);
+        ['PLD', 'WAR', 'DRK', 'GNB', 'MNK', 'DRG', 'NIN', 'SAM', 'RPR', 'BRD', 'MCH', 'DNC']
+          .forEach(j => jobs[j] = true);
       }
       if (!('SKS' in ret.stats)) {
-        ['WHM', 'SCH', 'AST', 'BLM', 'SMN', 'RDM', 'BLU'].forEach(j => jobs[j] = true);
+        ['WHM', 'SCH', 'AST', 'SGE', 'BLM', 'SMN', 'RDM', 'BLU'].forEach(j => jobs[j] = true);
       }
     }
     ret.jobCategory = jobCategoryMap[Object.keys(jobs).sort().join(',')];
@@ -261,7 +264,7 @@ const foods = Item
 const bestFoods = [];
 for (const food of foods.slice().reverse()) {
   if (food.id === 4745) continue;  // 唯一的直击信仰食物，各只加1，应该并不会有人想吃它
-  if (food.patch > patches.current) {
+  if (food.patch > '6.0' /* patches.current */) {  // 不强制显示6.0版本的新食物和6.0之前的国服已实装范围内的最优食物
     food.best = true;
     continue;
   }

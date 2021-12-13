@@ -27,6 +27,11 @@ export const Condition = mobxReact.observer(() => {
       {welcoming && (
         <span className="condition_job -empty">选择一个职业开始配装</span>
       )}
+      {welcoming && (
+        <a className="condition_tip" href="./shb/">
+          此工具已适配至《晓月之终途》资料片，如需使用《暗影之逆焰》版本请点击此处
+        </a>
+      )}
       {editing && (
         <Dropdown
           label={({ ref, toggle }) => (
