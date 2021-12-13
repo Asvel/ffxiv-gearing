@@ -5,7 +5,7 @@ import * as share from '../share';
 import { floor, ceil, ISetting, Promotion, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
   gearDataOrdered, gearDataLoading, loadGearDataOfGearId, loadGearDataOfLevelRange } from '.';
 
-const globalClanKey = 'ffxiv-gearing-clan';
+const globalClanKey = 'ffxiv-gearing.ew.clan';
 
 export type Mode = 'edit' | 'view';
 

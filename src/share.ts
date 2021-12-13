@@ -282,7 +282,7 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
   return base62.encode(result);
 }
 
-export function parse(s: string): G.Gearset {
+export function parse(s: string): G.Gearset | 'legacy' {
   let input = base62.decode(s);
   const read = (range: number): number => {
     const rangeBI = BigInt(range);
@@ -295,7 +295,7 @@ export function parse(s: string): G.Gearset {
   const ranges = new Ranges();
 
   const version = read(ranges.version);
-  if (version < 3) return parseV1V2(version, input);
+  if (version < 4) return 'legacy';
   ranges.useVersion(version);
 
   const { job, statDecode } = jobDecode[read(ranges.job)];
@@ -416,5 +416,5 @@ function parseV1V2(version: number, input: bigint): G.Gearset {
   return { job, jobLevel, syncLevel, gears };
 }
 
-const s = '1OUOJLa40M28M25Zx9onPbVFINb9tatYuSsZ';
-console.assert(stringify(parse(s)) === s);
+// const s = '1OUOJLa40M28M25Zx9onPbVFINb9tatYuSsZ';
+// console.assert(stringify(parse(s)) === s);

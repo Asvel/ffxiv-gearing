@@ -1,3 +1,4 @@
+import './migrate';
 import * as ReactDOM from 'react-dom';
 import * as mobx from 'mobx';
 import './views/components/sanitize.scss';

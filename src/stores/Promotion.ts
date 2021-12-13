@@ -1,6 +1,6 @@
 import * as mst from 'mobx-state-tree';
 
-const storageKey = 'ffxiv-gearing-promotion';
+const storageKey = 'ffxiv-gearing.ew.promotion';
 
 export const Promotion = mst.types
   .model({
