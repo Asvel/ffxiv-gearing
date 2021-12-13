@@ -389,7 +389,7 @@ export const Store = mst.types
         let lastMeldable = gears[gears.length - 1];
         if (lastMeldable === undefined || lastMeldable.isFood || lastMeldable.slot === 17) continue;
         for (let i = gears.length - 1; i >= 0; i--) {
-          if ((gears[i] as IGear).materias.length > 0) {
+          if ((gears[i] as IGear).materiaSlot > 0) {
             lastMeldable = gears[i];
             break;
           }
