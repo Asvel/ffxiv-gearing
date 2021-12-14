@@ -14,20 +14,20 @@ export const JobSelector = mobxReact.observer(() => {
           <JobItem job="DRK" />
           <JobItem job="GNB" />
         </JobGroup>
-        <JobGroup name="治疗职业">
-          <JobItem job="WHM" />
-          <JobItem job="SCH" />
-          <JobItem job="AST" />
-          <JobItem job="SGE" />
-        </JobGroup>
-      </div>
-      <div className="job-selector_column">
         <JobGroup name="近战职业">
           <JobItem job="MNK" />
           <JobItem job="DRG" />
           <JobItem job="NIN" />
           <JobItem job="SAM" />
           <JobItem job="RPR" />
+        </JobGroup>
+      </div>
+      <div className="job-selector_column">
+        <JobGroup name="治疗职业">
+          <JobItem job="WHM" />
+          <JobItem job="SCH" />
+          <JobItem job="AST" />
+          <JobItem job="SGE" />
         </JobGroup>
         <JobGroup name="远程物理职业">
           <JobItem job="BRD" />
