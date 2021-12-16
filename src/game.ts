@@ -542,7 +542,7 @@ export const materiaGrades: MateriaGrade[] = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
 export const materiaGradesAdvanced: MateriaGrade[] = [9, 7, 5, 4, 3, 2, 1];
 export const materiaGradeRequiredLevels: number[] = [15, 30, 45, 70, 160, 290, 420, 420, 560, 560];
 export const materiaSuccessRates: number[][] = [
-  [90, 82, 70, 58, 17, 17, 17, 17, 17],
+  [90, 82, 70, 58, 17, 17, 17, 17, 17, 17],
   [48, 44, 38, 32, 10, 0, 10, 0, 10, 0],
   [28, 26, 22, 20, 7, 0, 7, 0, 7, 0],
   [16, 16, 14, 12, 5, 0, 5, 0, 5, 0],
