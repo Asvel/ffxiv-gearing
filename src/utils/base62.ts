@@ -7,16 +7,16 @@ for (let i = 0; i < charset.length; i++) {
 export function encode(n: bigint): string {
   let ret = '';
   do {
-    ret = charset[n % 62n as any] + ret;
-    n = n / 62n;  // eslint-disable-line no-param-reassign
+    ret = charset[n % BigInt(62) as any] + ret;
+    n = n / BigInt(62);  // eslint-disable-line no-param-reassign
   } while (n > 0);
   return ret;
 }
 
 export function decode(s: string): bigint {
-  let ret = 0n;
+  let ret = BigInt(0);
   for (const char of s) {
-    ret = ret * 62n + charCodeToValue[char.charCodeAt(0)];
+    ret = ret * BigInt(62) + charCodeToValue[char.charCodeAt(0)];
   }
   return ret;
 }
