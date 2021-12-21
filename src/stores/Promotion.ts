@@ -5,6 +5,7 @@ const storageKey = 'ffxiv-gearing.ew.promotion';
 export const Promotion = mst.types
   .model({
     filter: mst.types.optional(mst.types.boolean, true),
+    legacyLink: mst.types.optional(mst.types.boolean, true),
   })
   .views(self => ({
     get(name: string): boolean {

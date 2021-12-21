@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as mobx from 'mobx';
 import * as mobxReact from 'mobx-react-lite';
+import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
 import { TextField } from '@rmwc/textfield';
 import * as G from '../game';
@@ -28,9 +29,13 @@ export const Condition = mobxReact.observer(() => {
         <span className="condition_job -empty">选择一个职业开始配装</span>
       )}
       {welcoming && (
-        <a className="condition_tip" href="./shb/">
-          此工具已适配至《晓月之终途》资料片，如需使用《暗影之逆焰》版本请点击此处
-        </a>
+        <a
+          className={classNames('condition_tip', store.promotion.get('legacyLink') && '-highlight')}
+          href="./shb/"
+          children="此工具已适配至《晓月之终途》资料片，如需使用《暗影之逆焰》版本请点击此处"
+          onClick={store.promotion.get('legacyLink') ? () => store.promotion.off('legacyLink') : undefined}
+          onMouseLeave={store.promotion.get('legacyLink') ? () => store.promotion.off('legacyLink') : undefined}
+        />
       )}
       {editing && (
         <Dropdown

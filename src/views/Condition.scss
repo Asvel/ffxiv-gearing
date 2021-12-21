@@ -38,6 +38,10 @@
   &:hover {
     text-decoration: underline;
   }
+  &.-highlight {
+    font-weight: bold;
+    color: #b00020;
+  }
 }
 .condition_level {
   display: inline-block;
