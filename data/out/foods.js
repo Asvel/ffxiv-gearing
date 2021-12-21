@@ -5098,7 +5098,7 @@ export default [
   },
   {
     id: 36044,
-    name: 'Beet Soup',
+    name: 'Wine-dark Soup',
     level: 533,
     slot: -1,
     jobCategory: 64,

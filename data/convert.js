@@ -45,10 +45,11 @@ const jobs = [
 const itemPatchIds = require('./in/Item.json');
 const patchOfId = {
   77: '6.0',
+  78: '6.01',
 };
 
 const patches = {
-  data: '6.0',
+  data: '6.01',
   next: '6.0',
   current: '5.57',  // CN server
 };
