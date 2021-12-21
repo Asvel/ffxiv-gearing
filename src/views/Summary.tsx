@@ -47,11 +47,14 @@ export const Summary = mobxReact.observer(() => {
             {effects.damage.toFixed(5)}
             <span
               className="summary_damage-tip"
-              aria-label="并不太对的伤害期望，勉强能比一比副属性"
+              aria-label={store.job !== 'BLU'
+                ? '包括食物和组队加成，不包括其他任何手动施放的增益（如爆发药、连环计、身形、天语等）'
+                : '包括食物和组队加成，包括“以太复制：进攻”，不包括其他手动施放的增益'
+              }
               role="tooltip"
               children={<Icon name="help" />}
             />
-            <div className="summary_stat-name">假的伤害期望</div>
+            <div className="summary_stat-name">每威力伤害期望</div>
           </span>
         )}
       </span>
