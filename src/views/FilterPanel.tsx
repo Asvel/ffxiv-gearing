@@ -18,14 +18,12 @@ export const FilterPanel = mobxReact.observer(() => {
           onChange={() => store.setFilterPatch('all')}
         />
         <Radio
-          // label={`显示国服已实装和即将实装的项目（≤${G.patches.next}）`}
-          label={`显示国服已实装和即将实装的项目`}
+          label={`显示国服已实装和即将实装的项目（≤${G.patches.next}）`}
           checked={store.filterPatch === 'next'}
           onChange={() => store.setFilterPatch('next')}
         />
         <Radio
-          // label={`只显示国服已实装的项目（≤${G.patches.current}）`}
-          label={`只显示国服已实装的项目`}
+          label={`只显示国服已实装的项目（≤${G.patches.current}）`}
           checked={store.filterPatch === 'current'}
           onChange={() => store.setFilterPatch('current')}
         />
