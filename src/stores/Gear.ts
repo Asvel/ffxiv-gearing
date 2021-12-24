@@ -109,7 +109,7 @@ export const Gear = mst.types
           return true;
         }
       }
-      return false;
+      return self.customStats !== undefined && self.customStats.size > 0;
     },
   }))
   .actions(self => ({
