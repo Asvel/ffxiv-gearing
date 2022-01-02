@@ -153,7 +153,6 @@ module.exports = function (env, argv) {
               /[\\/]node_modules[\\/]/,
               /[\\/]img[\\/]/,
               /[\\/]material\.scss$/,
-              /[\\/]BigInteger\.js$/,
             ].some(r => r.test(module.resource)),
             name: 'vendor-rest',
           },
