@@ -46,10 +46,11 @@ const itemPatchIds = require('./in/Item.json');
 const patchOfId = {
   77: '6.0',
   78: '6.01',
+  79: '6.05',
 };
 
 const patches = {
-  data: '6.01',
+  data: '6.05',
   next: '6.0',
   current: '5.57',  // CN server
 };
@@ -310,7 +311,7 @@ for (const i of Object.keys(statAbbrs)) {
   roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][26 + j], 10));
 }
 
-const levelGroupBasis = [1, 70, 136, 255, 340, 385, 401, 470];
+const levelGroupBasis = [1, 70, 136, 255, 340, 385, 401, 470, 560];
 const levelGroupIds = [];
 const levelGroupLast = levelGroupBasis[levelGroupBasis.length - 1];
 let groupId = 0;
