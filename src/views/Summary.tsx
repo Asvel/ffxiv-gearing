@@ -32,7 +32,7 @@ export const Summary = mobxReact.observer(() => {
       </span>
       <span className="summary_divider" />
       <span className="summary_middle">
-        {!store.isViewing && effects && (
+        {effects && (
           <Button
             className="summary_tiers-toggle"
             children={`${tiersVisible ? '隐藏' : '显示'}阈值(差值)`}
