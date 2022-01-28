@@ -43,6 +43,7 @@ const jobs = [
 ];
 
 const itemPatchIds = require('./in/Item.json');
+for (let i = 34965; i <= 35019; i++) itemPatchIds[i] = 78;  // temporary fix of ffxiv-datamining-patches data incorrect
 const patchOfId = {
   77: '6.0',
   78: '6.01',
@@ -50,9 +51,9 @@ const patchOfId = {
 };
 
 const patches = {
-  data: '6.05',
+  data: '6.08',
   next: '6.0',
-  current: '5.57',  // CN server
+  current: '5.58',  // CN server
 };
 
 const sourceOfId = {};
