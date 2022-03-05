@@ -92,7 +92,7 @@ export const Summary = mobxReact.observer(() => {
                 <div className="summary_stat-effect">
                   {effects.mp}<span className="summary_stat-small">MP</span>/3s
                 </div>
-              ) && false /* FIXME */}
+              )}
             </>
           )}
           <div className="summary_stat-name">{G.statNames[stat]}</div>
