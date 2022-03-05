@@ -248,7 +248,7 @@ export const Store = mst.types
       const ssDamage = floor(130 * ((SKS ?? SPS)! - sub) / div + 1000) / 1000;
       const hp = floor(levelMod.hp * statModifiers.hp / 100 +
         (mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) * (VIT! - main));
-      const mp = floor(200 + ((PIE ?? main) - main) / 22);
+      const mp = floor(150 * ((PIE ?? main) - main) / div + 200);
       return { crtChance, crtDamage, detDamage, dhtChance, tenDamage, damage, gcd, ssDamage, hp, mp };
     },
     get equippedTiers(): { [index in G.Stat]?: { prev: number, next: number } } | undefined {
@@ -277,7 +277,7 @@ export const Store = mst.types
         TEN: calcTier(TEN! - sub, div / 100),
         SKS: calcGcdTier(SKS! - sub, div / 130, (statModifiers.gcd ?? 100) / 1000),
         SPS: calcGcdTier(SPS! - sub, div / 130, (statModifiers.gcd ?? 100) / 1000),
-        PIE: calcTier(PIE! - main, 22),
+        PIE: calcTier(PIE! - main, div / 150),
       };
     },
     get share(): string {
