@@ -53456,7 +53456,7 @@ export default [
   },
   {
     id: 35756,
-    name: 'Padjali War Scythe',
+    name: '角尊战镰',
     level: 235,
     rarity: 2,
     slot: 13,
@@ -53477,7 +53477,7 @@ export default [
   },
   {
     id: 35774,
-    name: 'Padjali Milpreves',
+    name: '角尊蛇石针',
     level: 235,
     rarity: 2,
     slot: 13,

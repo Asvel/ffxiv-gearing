@@ -3166,7 +3166,7 @@ export default [
   },
   {
     id: 35757,
-    name: 'Kinna Sickle',
+    name: '闪熠夺命镰',
     level: 255,
     rarity: 3,
     slot: 13,
@@ -3187,7 +3187,7 @@ export default [
   },
   {
     id: 35775,
-    name: 'Kinna Milpreves',
+    name: '闪熠蛇石针',
     level: 255,
     rarity: 3,
     slot: 13,
@@ -32926,7 +32926,7 @@ export default [
   },
   {
     id: 35758,
-    name: 'Naigama of the Crimson Lotus',
+    name: '红莲薙镰',
     level: 300,
     rarity: 2,
     slot: 13,
@@ -32947,7 +32947,7 @@ export default [
   },
   {
     id: 35776,
-    name: 'Dzi of the Crimson Lotus',
+    name: '红莲天珠',
     level: 300,
     rarity: 2,
     slot: 13,

@@ -7889,7 +7889,7 @@ export default [
   },
   {
     id: 35754,
-    name: 'Death Scythe',
+    name: '死亡镰刀',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -7907,7 +7907,7 @@ export default [
   },
   {
     id: 35755,
-    name: 'Hellhound Scythe',
+    name: '地狱犬镰刀',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -7925,7 +7925,7 @@ export default [
   },
   {
     id: 35773,
-    name: 'Hellhound Pendulums',
+    name: '地狱犬振空摆',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -7942,7 +7942,7 @@ export default [
   },
   {
     id: 36335,
-    name: 'Blackbosom Void Reaper',
+    name: '漆黑的虚无巨镰',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -54826,7 +54826,7 @@ export default [
   },
   {
     id: 13808,
-    name: '亚拉戈重足铠（复制品）',
+    name: '亚拉戈重锁甲靴（复制品）',
     level: 50,
     rarity: 3,
     slot: 8,

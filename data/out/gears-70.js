@@ -10895,7 +10895,7 @@ export default [
   },
   {
     id: 3951,
-    name: '亚拉戈重足铠',
+    name: '亚拉戈重锁甲靴',
     level: 90,
     rarity: 3,
     slot: 8,

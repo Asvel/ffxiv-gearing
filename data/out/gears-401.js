@@ -1622,7 +1622,7 @@ export default [
   },
   {
     id: 35765,
-    name: 'Bluespirit Sickle',
+    name: '灵青夺命镰',
     level: 403,
     rarity: 1,
     slot: 13,
@@ -1645,7 +1645,7 @@ export default [
   },
   {
     id: 35783,
-    name: 'Bluespirit Wings',
+    name: '灵青飞翼',
     level: 403,
     rarity: 1,
     slot: 13,
@@ -4079,7 +4079,7 @@ export default [
   },
   {
     id: 35766,
-    name: "Ravel Keeper's Sickle",
+    name: '奇坦那守卫者夺命镰',
     level: 406,
     rarity: 2,
     slot: 13,
@@ -4100,7 +4100,7 @@ export default [
   },
   {
     id: 35784,
-    name: "Ravel Keeper's Wings",
+    name: '奇坦那守卫者飞翼',
     level: 406,
     rarity: 2,
     slot: 13,
@@ -5741,7 +5741,7 @@ export default [
   },
   {
     id: 35767,
-    name: 'Titanbronze Zaghnal',
+    name: '钛铜扎戈斧镰',
     level: 409,
     rarity: 1,
     slot: 13,
@@ -5764,7 +5764,7 @@ export default [
   },
   {
     id: 35785,
-    name: 'Titanbronze Pendulums',
+    name: '钛铜振空摆',
     level: 409,
     rarity: 1,
     slot: 13,
@@ -7254,7 +7254,7 @@ export default [
   },
   {
     id: 35768,
-    name: 'Nabaath Zaghnal',
+    name: '拿巴示艾兰扎戈斧镰',
     level: 412,
     rarity: 2,
     slot: 13,
@@ -7275,7 +7275,7 @@ export default [
   },
   {
     id: 35786,
-    name: 'Nabaath Pendulums',
+    name: '拿巴示艾兰振空摆',
     level: 412,
     rarity: 2,
     slot: 13,
@@ -8916,7 +8916,7 @@ export default [
   },
   {
     id: 35769,
-    name: 'Dwarven Mythril War Scythe',
+    name: '矮人银战镰',
     level: 415,
     rarity: 1,
     slot: 13,
@@ -8939,7 +8939,7 @@ export default [
   },
   {
     id: 35787,
-    name: 'Dwarven Mythril Milpreves',
+    name: '矮人银蛇石针',
     level: 415,
     rarity: 1,
     slot: 13,
@@ -10429,7 +10429,7 @@ export default [
   },
   {
     id: 35770,
-    name: 'War Scythe of the Forgiven',
+    name: '宽恕战镰',
     level: 418,
     rarity: 2,
     slot: 13,
@@ -10450,7 +10450,7 @@ export default [
   },
   {
     id: 35788,
-    name: "The Forgiven's Pendulums",
+    name: '宽恕振空摆',
     level: 418,
     rarity: 2,
     slot: 13,
@@ -10470,7 +10470,7 @@ export default [
   },
   {
     id: 25218,
-    name: '旧化的次序之剑',
+    name: '次序之剑',
     level: 430,
     rarity: 3,
     slot: 1,
@@ -10490,7 +10490,7 @@ export default [
   },
   {
     id: 25219,
-    name: '旧化的神之手',
+    name: '神之手',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10510,7 +10510,7 @@ export default [
   },
   {
     id: 25220,
-    name: '旧化的尚戈神斧',
+    name: '尚戈神斧',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10530,7 +10530,7 @@ export default [
   },
   {
     id: 25221,
-    name: '旧化的三尖神枪',
+    name: '三尖神枪',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10550,7 +10550,7 @@ export default [
   },
   {
     id: 25222,
-    name: '旧化的必中之弓',
+    name: '必中之弓',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10570,7 +10570,7 @@ export default [
   },
   {
     id: 25223,
-    name: '旧化的丙子椒林剑',
+    name: '丙子椒林剑',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10590,7 +10590,7 @@ export default [
   },
   {
     id: 25224,
-    name: '旧化的暗影使者',
+    name: '暗影使者',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10610,7 +10610,7 @@ export default [
   },
   {
     id: 25225,
-    name: '旧化的北落师门',
+    name: '北落师门',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10630,7 +10630,7 @@ export default [
   },
   {
     id: 25226,
-    name: '旧化的慈悲之雨杖',
+    name: '慈悲之雨杖',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10649,7 +10649,7 @@ export default [
   },
   {
     id: 25227,
-    name: '旧化的喀章嘎天杖',
+    name: '喀章嘎天杖',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10668,7 +10668,7 @@ export default [
   },
   {
     id: 25228,
-    name: '旧化的天象论',
+    name: '天象论',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10687,7 +10687,7 @@ export default [
   },
   {
     id: 25229,
-    name: '旧化的物理学',
+    name: '物理学',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10706,7 +10706,7 @@ export default [
   },
   {
     id: 25230,
-    name: '旧化的南河三天仪',
+    name: '南河三天仪',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10725,7 +10725,7 @@ export default [
   },
   {
     id: 25231,
-    name: '旧化的童子切安纲',
+    name: '童子切安纲',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10745,7 +10745,7 @@ export default [
   },
   {
     id: 25232,
-    name: '旧化的埃涅阿斯',
+    name: '埃涅阿斯',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10764,7 +10764,7 @@ export default [
   },
   {
     id: 25233,
-    name: '旧化的雄狮之心',
+    name: '雄狮之心',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10784,7 +10784,7 @@ export default [
   },
   {
     id: 25234,
-    name: '旧化的黑天轮',
+    name: '黑天轮',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -10804,7 +10804,7 @@ export default [
   },
   {
     id: 25235,
-    name: '旧化的吉祥海云盾',
+    name: '吉祥海云盾',
     level: 430,
     rarity: 3,
     slot: 2,
@@ -13997,7 +13997,7 @@ export default [
   },
   {
     id: 36643,
-    name: 'Demon Slicer',
+    name: '恶魔切割者',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -14018,7 +14018,7 @@ export default [
   },
   {
     id: 36644,
-    name: "Harvester's Blinder",
+    name: '丰耕眼罩',
     level: 430,
     rarity: 3,
     slot: 3,
@@ -14037,7 +14037,7 @@ export default [
   },
   {
     id: 36645,
-    name: "Harvester's Coat",
+    name: '丰耕外套',
     level: 430,
     rarity: 3,
     slot: 4,
@@ -14056,7 +14056,7 @@ export default [
   },
   {
     id: 36646,
-    name: "Harvester's Dressing",
+    name: '丰耕缠手带',
     level: 430,
     rarity: 3,
     slot: 5,
@@ -14075,7 +14075,7 @@ export default [
   },
   {
     id: 36647,
-    name: "Harvester's Trousers",
+    name: '丰耕软甲裤',
     level: 430,
     rarity: 3,
     slot: 7,
@@ -14094,7 +14094,7 @@ export default [
   },
   {
     id: 36648,
-    name: "Harvester's Boots",
+    name: '丰耕筒靴',
     level: 430,
     rarity: 3,
     slot: 8,
@@ -14113,7 +14113,7 @@ export default [
   },
   {
     id: 36649,
-    name: 'Horkos',
+    name: '誓约之刺',
     level: 430,
     rarity: 3,
     slot: 13,
@@ -14133,7 +14133,7 @@ export default [
   },
   {
     id: 36650,
-    name: "Therapeutes's Spectacles",
+    name: '疗救眼镜',
     level: 430,
     rarity: 3,
     slot: 3,
@@ -14152,7 +14152,7 @@ export default [
   },
   {
     id: 36651,
-    name: "Therapeutes's Chasuble",
+    name: '疗救长袍',
     level: 430,
     rarity: 3,
     slot: 4,
@@ -14171,7 +14171,7 @@ export default [
   },
   {
     id: 36652,
-    name: "Therapeutes's Gloves",
+    name: '疗救手套',
     level: 430,
     rarity: 3,
     slot: 5,
@@ -14190,7 +14190,7 @@ export default [
   },
   {
     id: 36653,
-    name: "Therapeutes's Waistwrap",
+    name: '疗救皮裙',
     level: 430,
     rarity: 3,
     slot: 7,
@@ -14209,7 +14209,7 @@ export default [
   },
   {
     id: 36654,
-    name: "Therapeutes's Boots",
+    name: '疗救筒靴',
     level: 430,
     rarity: 3,
     slot: 8,

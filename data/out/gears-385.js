@@ -2230,7 +2230,7 @@ export default [
   },
   {
     id: 35760,
-    name: 'Deepgold War Scythe',
+    name: '深金战镰',
     level: 385,
     rarity: 1,
     slot: 13,
@@ -2253,7 +2253,7 @@ export default [
   },
   {
     id: 35778,
-    name: 'Stonegold Milpreves',
+    name: '石金蛇石针',
     level: 385,
     rarity: 1,
     slot: 13,
@@ -2275,7 +2275,7 @@ export default [
   },
   {
     id: 36015,
-    name: "Bookwyrm's Spectacles",
+    name: '书龙眼镜',
     level: 385,
     rarity: 1,
     slot: 3,
@@ -2294,7 +2294,7 @@ export default [
   },
   {
     id: 36016,
-    name: "Bookwyrm's Chasuble",
+    name: '书龙长袍',
     level: 385,
     rarity: 1,
     slot: 4,
@@ -2313,7 +2313,7 @@ export default [
   },
   {
     id: 36017,
-    name: "Bookwyrm's Gloves",
+    name: '书龙手套',
     level: 385,
     rarity: 1,
     slot: 5,
@@ -2332,7 +2332,7 @@ export default [
   },
   {
     id: 36018,
-    name: "Bookwyrm's Waistwrap",
+    name: '书龙皮裙',
     level: 385,
     rarity: 1,
     slot: 7,
@@ -2351,7 +2351,7 @@ export default [
   },
   {
     id: 36019,
-    name: "Bookwyrm's Boots",
+    name: '书龙筒靴',
     level: 385,
     rarity: 1,
     slot: 8,
@@ -2370,7 +2370,7 @@ export default [
   },
   {
     id: 36020,
-    name: 'Muzhik Blinder',
+    name: '勇耕眼罩',
     level: 385,
     rarity: 1,
     slot: 3,
@@ -2389,7 +2389,7 @@ export default [
   },
   {
     id: 36021,
-    name: 'Muzhik Coat',
+    name: '勇耕外套',
     level: 385,
     rarity: 1,
     slot: 4,
@@ -2408,7 +2408,7 @@ export default [
   },
   {
     id: 36022,
-    name: 'Muzhik Field Dressing',
+    name: '勇耕缠手带',
     level: 385,
     rarity: 1,
     slot: 5,
@@ -2427,7 +2427,7 @@ export default [
   },
   {
     id: 36023,
-    name: 'Muzhik Trousers',
+    name: '勇耕软甲裤',
     level: 385,
     rarity: 1,
     slot: 7,
@@ -2446,7 +2446,7 @@ export default [
   },
   {
     id: 36024,
-    name: 'Muzhik Boots',
+    name: '勇耕筒靴',
     level: 385,
     rarity: 1,
     slot: 8,
@@ -9471,7 +9471,7 @@ export default [
   },
   {
     id: 35762,
-    name: 'Lakeland Scythe',
+    name: '雷克兰德镰刀',
     level: 390,
     rarity: 2,
     slot: 13,
@@ -9492,7 +9492,7 @@ export default [
   },
   {
     id: 35780,
-    name: 'Lakeland Wings',
+    name: '雷克兰德飞翼',
     level: 390,
     rarity: 2,
     slot: 13,
@@ -11741,7 +11741,7 @@ export default [
   },
   {
     id: 35763,
-    name: 'Deepgold Sickle',
+    name: '深金夺命镰',
     level: 395,
     rarity: 1,
     slot: 13,
@@ -11764,7 +11764,7 @@ export default [
   },
   {
     id: 35781,
-    name: 'Stonegold Syrinxi',
+    name: '石金注射管',
     level: 395,
     rarity: 1,
     slot: 13,
@@ -16894,7 +16894,7 @@ export default [
   },
   {
     id: 35761,
-    name: 'Augmented Scaevan Magitek Scythe',
+    name: '改良型斯卡艾瓦魔导镰刀',
     level: 400,
     rarity: 3,
     slot: 13,
@@ -16915,7 +16915,7 @@ export default [
   },
   {
     id: 35764,
-    name: 'Fae Sickle',
+    name: '妖灵夺命镰',
     level: 400,
     rarity: 2,
     slot: 13,
@@ -16936,7 +16936,7 @@ export default [
   },
   {
     id: 35779,
-    name: 'Augmented Scaevan Magitek Wings',
+    name: '改良型斯卡艾瓦魔导飞翼',
     level: 400,
     rarity: 3,
     slot: 13,
@@ -16956,7 +16956,7 @@ export default [
   },
   {
     id: 35782,
-    name: 'Fae Milpreves',
+    name: '妖灵蛇石针',
     level: 400,
     rarity: 2,
     slot: 13,

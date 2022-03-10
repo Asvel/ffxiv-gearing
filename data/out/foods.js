@@ -4962,7 +4962,7 @@ export default [
   },
   {
     id: 36036,
-    name: 'Archon Loaf',
+    name: '贤人面包',
     level: 520,
     slot: -1,
     jobCategory: 30,
@@ -4979,7 +4979,7 @@ export default [
   },
   {
     id: 36037,
-    name: 'Zurek',
+    name: '裸麦酸汤',
     level: 520,
     slot: -1,
     jobCategory: 64,
@@ -4996,7 +4996,7 @@ export default [
   },
   {
     id: 36038,
-    name: 'Amra Salad',
+    name: '庵摩罗果沙拉',
     level: 525,
     slot: -1,
     jobCategory: 59,
@@ -5013,7 +5013,7 @@ export default [
   },
   {
     id: 36039,
-    name: 'Amra Lassi',
+    name: '庵摩罗果酸奶昔',
     level: 525,
     slot: -1,
     jobCategory: 34,
@@ -5030,7 +5030,7 @@ export default [
   },
   {
     id: 36040,
-    name: "Island Miq'abob",
+    name: '猫魅风味岛萃烤串',
     level: 525,
     slot: -1,
     jobCategory: 31,
@@ -5047,7 +5047,7 @@ export default [
   },
   {
     id: 36041,
-    name: 'King Crab Cake',
+    name: '炸帝王蟹饼',
     level: 530,
     slot: -1,
     jobCategory: 34,
@@ -5064,7 +5064,7 @@ export default [
   },
   {
     id: 36042,
-    name: 'Ukha',
+    name: '鱼蔬清汤',
     level: 530,
     slot: -1,
     jobCategory: 59,
@@ -5081,7 +5081,7 @@ export default [
   },
   {
     id: 36043,
-    name: 'Borscht',
+    name: '红菜汤',
     level: 530,
     slot: -1,
     jobCategory: 34,
@@ -5098,7 +5098,7 @@ export default [
   },
   {
     id: 36044,
-    name: 'Wine-dark Soup',
+    name: '奶油紫汤',
     level: 533,
     slot: -1,
     jobCategory: 64,
@@ -5115,7 +5115,7 @@ export default [
   },
   {
     id: 36045,
-    name: 'Glory Be Soup',
+    name: '皇帝浓汤',
     level: 533,
     slot: -1,
     jobCategory: 31,
@@ -5132,7 +5132,7 @@ export default [
   },
   {
     id: 36046,
-    name: 'Happiness Juice',
+    name: '开心汁',
     level: 527,
     slot: -1,
     jobCategory: 33,
@@ -5150,7 +5150,7 @@ export default [
   },
   {
     id: 36047,
-    name: 'Carrot Nibbles',
+    name: '胡萝卜丝',
     level: 527,
     slot: -1,
     jobCategory: 32,
@@ -5168,7 +5168,7 @@ export default [
   },
   {
     id: 36048,
-    name: 'Hamsa Curry',
+    name: '桓娑咖喱',
     level: 539,
     slot: -1,
     jobCategory: 59,
@@ -5188,7 +5188,7 @@ export default [
   },
   {
     id: 36049,
-    name: 'Karniyarik',
+    name: '茄子镶桓娑肉',
     level: 539,
     slot: -1,
     jobCategory: 59,
@@ -5208,7 +5208,7 @@ export default [
   },
   {
     id: 36050,
-    name: 'Spicy Shakshouka',
+    name: '辣味茄汁焗蛋',
     level: 539,
     slot: -1,
     jobCategory: 31,
@@ -5228,7 +5228,7 @@ export default [
   },
   {
     id: 36051,
-    name: 'Lentil Curry',
+    name: '小扁豆咖喱',
     level: 539,
     slot: -1,
     jobCategory: 31,
@@ -5248,7 +5248,7 @@ export default [
   },
   {
     id: 36052,
-    name: 'Skyr',
+    name: '北洋酸奶',
     level: 539,
     slot: -1,
     jobCategory: 64,
@@ -5268,7 +5268,7 @@ export default [
   },
   {
     id: 36053,
-    name: 'Giant Haddock Dip',
+    name: '巨人鱼子泥沙拉',
     level: 540,
     slot: -1,
     jobCategory: 33,
@@ -5286,7 +5286,7 @@ export default [
   },
   {
     id: 36054,
-    name: 'Yakow Moussaka',
+    name: '亚考牛慕沙卡',
     level: 540,
     slot: -1,
     jobCategory: 32,
@@ -5304,7 +5304,7 @@ export default [
   },
   {
     id: 36055,
-    name: "Philosopher's Sandwich",
+    name: '贤人三明治',
     level: 545,
     slot: -1,
     jobCategory: 31,
@@ -5323,7 +5323,7 @@ export default [
   },
   {
     id: 36056,
-    name: 'Salted Thavnairian Cod',
+    name: '盐烤浅滩鳕鱼',
     level: 545,
     slot: -1,
     jobCategory: 64,
@@ -5342,7 +5342,7 @@ export default [
   },
   {
     id: 36057,
-    name: 'Coconut Cod Chowder',
+    name: '椰香鱼羹',
     level: 545,
     slot: -1,
     jobCategory: 34,
@@ -5362,7 +5362,7 @@ export default [
   },
   {
     id: 36058,
-    name: 'The Noodles of Elpis',
+    name: '厄尔庇斯之面',
     level: 545,
     slot: -1,
     jobCategory: 34,
@@ -5381,7 +5381,7 @@ export default [
   },
   {
     id: 36059,
-    name: 'Giant Popoto Pancakes',
+    name: '巨人新薯煎饼',
     level: 545,
     slot: -1,
     jobCategory: 59,
@@ -5400,7 +5400,7 @@ export default [
   },
   {
     id: 36060,
-    name: 'Tsai tou Vounou',
+    name: '高山茶',
     level: 554,
     slot: -1,
     jobCategory: 33,
@@ -5418,7 +5418,7 @@ export default [
   },
   {
     id: 36061,
-    name: 'Sideritis Cookie',
+    name: '高山茶饼干',
     level: 554,
     slot: -1,
     jobCategory: 32,
@@ -5436,7 +5436,7 @@ export default [
   },
   {
     id: 36062,
-    name: 'Elpis Deipnon',
+    name: '厄尔庇斯佳肴',
     level: 560,
     slot: -1,
     jobCategory: 59,
@@ -5456,7 +5456,7 @@ export default [
   },
   {
     id: 36063,
-    name: 'Baked Alien Soup',
+    name: '星外洋葱汤',
     level: 560,
     slot: -1,
     jobCategory: 30,
@@ -5476,7 +5476,7 @@ export default [
   },
   {
     id: 36064,
-    name: 'Sykon Salad',
+    name: '无花果沙拉',
     level: 560,
     slot: -1,
     jobCategory: 31,
@@ -5496,7 +5496,7 @@ export default [
   },
   {
     id: 36065,
-    name: 'Sykon Compote',
+    name: '无花果蜜饯',
     level: 560,
     slot: -1,
     jobCategory: 64,
@@ -5516,7 +5516,7 @@ export default [
   },
   {
     id: 36066,
-    name: 'Sykon Bavarois',
+    name: '无花果冻糕',
     level: 560,
     slot: -1,
     jobCategory: 34,

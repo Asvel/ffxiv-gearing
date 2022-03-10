@@ -144,7 +144,7 @@ export default [
   },
   {
     id: 33947,
-    name: 'Reverence Coronet',
+    name: '敬虔战冠',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -163,7 +163,7 @@ export default [
   },
   {
     id: 33948,
-    name: 'Reverence Cuirass',
+    name: '敬虔胸甲',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -182,7 +182,7 @@ export default [
   },
   {
     id: 33949,
-    name: 'Reverence Gauntlets',
+    name: '敬虔手铠',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -201,7 +201,7 @@ export default [
   },
   {
     id: 33950,
-    name: 'Reverence Skirt',
+    name: '敬虔短裙',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -220,7 +220,7 @@ export default [
   },
   {
     id: 33951,
-    name: 'Reverence Sollerets',
+    name: '敬虔锁甲靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -239,7 +239,7 @@ export default [
   },
   {
     id: 33952,
-    name: "Anchorite's Flame",
+    name: '避世之火',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -258,7 +258,7 @@ export default [
   },
   {
     id: 33953,
-    name: "Anchorite's Cyclas",
+    name: '避世斗服',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -277,7 +277,7 @@ export default [
   },
   {
     id: 33954,
-    name: "Anchorite's Vambraces",
+    name: '避世臂甲',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -296,7 +296,7 @@ export default [
   },
   {
     id: 33955,
-    name: "Anchorite's Gaskins",
+    name: '避世束膝裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -315,7 +315,7 @@ export default [
   },
   {
     id: 33956,
-    name: "Anchorite's Greaves",
+    name: '避世胫甲',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -334,7 +334,7 @@ export default [
   },
   {
     id: 33957,
-    name: "Pummeler's Burgeonet",
+    name: '殴击轻盔',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -353,7 +353,7 @@ export default [
   },
   {
     id: 33958,
-    name: "Pummeler's Vest",
+    name: '殴击坎肩',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -372,7 +372,7 @@ export default [
   },
   {
     id: 33959,
-    name: "Pummeler's Gauntlets",
+    name: '殴击手铠',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -391,7 +391,7 @@ export default [
   },
   {
     id: 33960,
-    name: "Pummeler's Cuisses",
+    name: '殴击腿甲',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -410,7 +410,7 @@ export default [
   },
   {
     id: 33961,
-    name: "Pummeler's Boots",
+    name: '殴击战靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -429,7 +429,7 @@ export default [
   },
   {
     id: 33962,
-    name: 'Tiamat Armet',
+    name: '暗龙战盔',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -448,7 +448,7 @@ export default [
   },
   {
     id: 33963,
-    name: 'Tiamat Mail',
+    name: '暗龙战铠',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -467,7 +467,7 @@ export default [
   },
   {
     id: 33964,
-    name: 'Tiamat Gauntlets',
+    name: '暗龙手铠',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -486,7 +486,7 @@ export default [
   },
   {
     id: 33965,
-    name: 'Tiamat Trousers',
+    name: '暗龙战铠',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -505,7 +505,7 @@ export default [
   },
   {
     id: 33966,
-    name: 'Tiamat Greaves',
+    name: '暗龙胫甲',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -524,7 +524,7 @@ export default [
   },
   {
     id: 33967,
-    name: 'Brioso Chapeau',
+    name: '蓬勃礼帽',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -543,7 +543,7 @@ export default [
   },
   {
     id: 33968,
-    name: 'Brioso Gilet',
+    name: '蓬勃背心',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -562,7 +562,7 @@ export default [
   },
   {
     id: 33969,
-    name: 'Brioso Halfgloves',
+    name: '蓬勃半指手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -581,7 +581,7 @@ export default [
   },
   {
     id: 33970,
-    name: 'Brioso Bottoms',
+    name: '蓬勃打底裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -600,7 +600,7 @@ export default [
   },
   {
     id: 33971,
-    name: 'Brioso Shoes',
+    name: '蓬勃皮靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -619,7 +619,7 @@ export default [
   },
   {
     id: 33972,
-    name: 'Theophany Circlet',
+    name: '显灵头冠',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -638,7 +638,7 @@ export default [
   },
   {
     id: 33973,
-    name: 'Theophany Robe',
+    name: '显灵长袍',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -657,7 +657,7 @@ export default [
   },
   {
     id: 33974,
-    name: 'Theophany Shortgloves',
+    name: '显灵短手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -676,7 +676,7 @@ export default [
   },
   {
     id: 33975,
-    name: 'Theophany Skirt',
+    name: '显灵短裙',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -695,7 +695,7 @@ export default [
   },
   {
     id: 33976,
-    name: 'Theophany Thighboots',
+    name: '显灵长靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -714,7 +714,7 @@ export default [
   },
   {
     id: 33977,
-    name: "Spaekona's Petasos",
+    name: '命巫阔边帽',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -733,7 +733,7 @@ export default [
   },
   {
     id: 33978,
-    name: "Spaekona's Coat",
+    name: '命巫长袍',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -752,7 +752,7 @@ export default [
   },
   {
     id: 33979,
-    name: "Spaekona's Wrist Torques",
+    name: '命巫腕环',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -771,7 +771,7 @@ export default [
   },
   {
     id: 33980,
-    name: "Spaekona's Skirt",
+    name: '命巫长裙',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -790,7 +790,7 @@ export default [
   },
   {
     id: 33981,
-    name: "Spaekona's Shoes",
+    name: '命巫皮靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -809,7 +809,7 @@ export default [
   },
   {
     id: 33982,
-    name: "Convoker's Horn",
+    name: '召聚长角',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -828,7 +828,7 @@ export default [
   },
   {
     id: 33983,
-    name: "Convoker's Coat",
+    name: '召聚长衣',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -847,7 +847,7 @@ export default [
   },
   {
     id: 33984,
-    name: "Convoker's Gloves",
+    name: '召聚手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -866,7 +866,7 @@ export default [
   },
   {
     id: 33985,
-    name: "Convoker's Trousers",
+    name: '召聚软甲裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -885,7 +885,7 @@ export default [
   },
   {
     id: 33986,
-    name: "Convoker's Thighboots",
+    name: '召聚长靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -904,7 +904,7 @@ export default [
   },
   {
     id: 33987,
-    name: "Academic's Mortarboard",
+    name: '学究方帽',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -923,7 +923,7 @@ export default [
   },
   {
     id: 33988,
-    name: "Academic's Coat",
+    name: '学究外套',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -942,7 +942,7 @@ export default [
   },
   {
     id: 33989,
-    name: "Academic's Gloves",
+    name: '学究手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -961,7 +961,7 @@ export default [
   },
   {
     id: 33990,
-    name: "Academic's Breeches",
+    name: '学究马裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -980,7 +980,7 @@ export default [
   },
   {
     id: 33991,
-    name: "Academic's Longboots",
+    name: '学究长靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -999,7 +999,7 @@ export default [
   },
   {
     id: 33992,
-    name: 'Hachiya Somen',
+    name: '蜂屋总面',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1018,7 +1018,7 @@ export default [
   },
   {
     id: 33993,
-    name: 'Hachiya Chainmail',
+    name: '蜂屋锁帷子',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1037,7 +1037,7 @@ export default [
   },
   {
     id: 33994,
-    name: 'Hachiya Tekko',
+    name: '蜂屋手甲',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1056,7 +1056,7 @@ export default [
   },
   {
     id: 33995,
-    name: 'Hachiya Tsutsu-hakama',
+    name: '蜂屋筒袴',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1075,7 +1075,7 @@ export default [
   },
   {
     id: 33996,
-    name: 'Hachiya Zori',
+    name: '蜂屋草履',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1094,7 +1094,7 @@ export default [
   },
   {
     id: 33997,
-    name: 'Ignominy Burgeonet',
+    name: '无誉轻盔',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1113,7 +1113,7 @@ export default [
   },
   {
     id: 33998,
-    name: 'Ignominy Cuirass',
+    name: '无誉胸甲',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1132,7 +1132,7 @@ export default [
   },
   {
     id: 33999,
-    name: 'Ignominy Gauntlets',
+    name: '无誉手铠',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1151,7 +1151,7 @@ export default [
   },
   {
     id: 34000,
-    name: 'Ignominy Trousers',
+    name: '无誉软甲裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1170,7 +1170,7 @@ export default [
   },
   {
     id: 34001,
-    name: 'Ignominy Sollerets',
+    name: '无誉锁甲靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1189,7 +1189,7 @@ export default [
   },
   {
     id: 34002,
-    name: "Pioneer's Scope",
+    name: '先锋目镜',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1208,7 +1208,7 @@ export default [
   },
   {
     id: 34003,
-    name: "Pioneer's Coat",
+    name: '先锋外套',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1227,7 +1227,7 @@ export default [
   },
   {
     id: 34004,
-    name: "Pioneer's Gloves",
+    name: '先锋手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1246,7 +1246,7 @@ export default [
   },
   {
     id: 34005,
-    name: "Pioneer's Bottoms",
+    name: '先锋打底裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1265,7 +1265,7 @@ export default [
   },
   {
     id: 34006,
-    name: "Pioneer's Boots",
+    name: '先锋筒靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1284,7 +1284,7 @@ export default [
   },
   {
     id: 34007,
-    name: 'Astronomia Turban',
+    name: '天文包头巾',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1303,7 +1303,7 @@ export default [
   },
   {
     id: 34008,
-    name: 'Astronomia Chiton',
+    name: '天文长衣',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1322,7 +1322,7 @@ export default [
   },
   {
     id: 34009,
-    name: 'Astronomia Armlets',
+    name: '天文护臂',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1341,7 +1341,7 @@ export default [
   },
   {
     id: 34010,
-    name: 'Astronomia Pantaloons',
+    name: '天文喇叭裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1360,7 +1360,7 @@ export default [
   },
   {
     id: 34011,
-    name: 'Astronomia Sandals',
+    name: '天文凉鞋',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1379,7 +1379,7 @@ export default [
   },
   {
     id: 34012,
-    name: 'Saotome Hanbo',
+    name: '早乙女半颊',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1398,7 +1398,7 @@ export default [
   },
   {
     id: 34013,
-    name: 'Saotome Jin-baori',
+    name: '早乙女阵羽织',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1417,7 +1417,7 @@ export default [
   },
   {
     id: 34014,
-    name: 'Saotome Kote',
+    name: '早乙女篭手',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1436,7 +1436,7 @@ export default [
   },
   {
     id: 34015,
-    name: 'Saotome Hakama',
+    name: '早乙女袴',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1455,7 +1455,7 @@ export default [
   },
   {
     id: 34016,
-    name: 'Saotome Sune-ate',
+    name: '早乙女护胫',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1474,7 +1474,7 @@ export default [
   },
   {
     id: 34017,
-    name: 'Atrophy Chapeau',
+    name: '促衰礼帽',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1493,7 +1493,7 @@ export default [
   },
   {
     id: 34018,
-    name: 'Atrophy Bliaud',
+    name: '促衰外袍',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1512,7 +1512,7 @@ export default [
   },
   {
     id: 34019,
-    name: 'Atrophy Gloves',
+    name: '促衰手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1531,7 +1531,7 @@ export default [
   },
   {
     id: 34020,
-    name: 'Atrophy Bottoms',
+    name: '促衰打底裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1550,7 +1550,7 @@ export default [
   },
   {
     id: 34021,
-    name: 'Atrophy Thighboots',
+    name: '促衰长靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1569,7 +1569,7 @@ export default [
   },
   {
     id: 34022,
-    name: 'Allegiance Blinder',
+    name: '忠卫眼罩',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1588,7 +1588,7 @@ export default [
   },
   {
     id: 34023,
-    name: 'Allegiance Coat',
+    name: '忠卫长衣',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1607,7 +1607,7 @@ export default [
   },
   {
     id: 34024,
-    name: 'Allegiance Gloves',
+    name: '忠卫手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1626,7 +1626,7 @@ export default [
   },
   {
     id: 34025,
-    name: 'Allegiance Trousers',
+    name: '忠卫软甲裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1645,7 +1645,7 @@ export default [
   },
   {
     id: 34026,
-    name: 'Allegiance Longboots',
+    name: '忠卫长靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1664,7 +1664,7 @@ export default [
   },
   {
     id: 34027,
-    name: 'Etoile Headdress',
+    name: '明星头饰',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1683,7 +1683,7 @@ export default [
   },
   {
     id: 34028,
-    name: 'Etoile Longcoat',
+    name: '明星作战服',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1702,7 +1702,7 @@ export default [
   },
   {
     id: 34029,
-    name: 'Etoile Halfgloves',
+    name: '明星半指手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1721,7 +1721,7 @@ export default [
   },
   {
     id: 34030,
-    name: 'Etoile Bottoms',
+    name: '明星打底裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1740,7 +1740,7 @@ export default [
   },
   {
     id: 34031,
-    name: 'Etoile Dress Boots',
+    name: '明星礼靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1759,7 +1759,7 @@ export default [
   },
   {
     id: 34032,
-    name: "Didact's Visor",
+    name: '说教面罩',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1778,7 +1778,7 @@ export default [
   },
   {
     id: 34033,
-    name: "Didact's Coat",
+    name: '说教长衣',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1797,7 +1797,7 @@ export default [
   },
   {
     id: 34034,
-    name: "Didact's Gloves",
+    name: '说教手套',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1816,7 +1816,7 @@ export default [
   },
   {
     id: 34035,
-    name: "Didact's Gaskins",
+    name: '说教束膝裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1835,7 +1835,7 @@ export default [
   },
   {
     id: 34036,
-    name: "Didact's Boots",
+    name: '说教筒靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1854,7 +1854,7 @@ export default [
   },
   {
     id: 34037,
-    name: "Reaper's Chapeau",
+    name: '丰获礼帽',
     level: 560,
     rarity: 3,
     slot: 3,
@@ -1873,7 +1873,7 @@ export default [
   },
   {
     id: 34038,
-    name: "Reaper's Corselet",
+    name: '丰获护甲',
     level: 560,
     rarity: 3,
     slot: 4,
@@ -1892,7 +1892,7 @@ export default [
   },
   {
     id: 34039,
-    name: "Reaper's Armguards",
+    name: '丰获护臂',
     level: 560,
     rarity: 3,
     slot: 5,
@@ -1911,7 +1911,7 @@ export default [
   },
   {
     id: 34040,
-    name: "Reaper's Poleyns",
+    name: '丰获护膝裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -1930,7 +1930,7 @@ export default [
   },
   {
     id: 34041,
-    name: "Reaper's Boots",
+    name: '丰获短靴',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -1949,7 +1949,7 @@ export default [
   },
   {
     id: 34042,
-    name: 'Lightbringer',
+    name: '光明使者',
     level: 560,
     rarity: 3,
     slot: 1,
@@ -1970,7 +1970,7 @@ export default [
   },
   {
     id: 34043,
-    name: 'Burning Fists',
+    name: '烈焰拳套',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -1991,7 +1991,7 @@ export default [
   },
   {
     id: 34044,
-    name: 'Gigantaxe',
+    name: '巨人之斧',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2012,7 +2012,7 @@ export default [
   },
   {
     id: 34045,
-    name: "Abel's Lance",
+    name: '亚伯之枪',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2033,7 +2033,7 @@ export default [
   },
   {
     id: 34046,
-    name: "Perseus's Bow",
+    name: '珀尔修斯之弓',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2054,7 +2054,7 @@ export default [
   },
   {
     id: 34047,
-    name: 'Mutsunokami',
+    name: '陆奥守',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2075,7 +2075,7 @@ export default [
   },
   {
     id: 34048,
-    name: 'Chaosbringer',
+    name: '混沌使者',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2096,7 +2096,7 @@ export default [
   },
   {
     id: 34049,
-    name: 'Ataktos',
+    name: '失规乱矩',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2117,7 +2117,7 @@ export default [
   },
   {
     id: 34050,
-    name: 'Xoanon',
+    name: '遂古木雕杖',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2137,7 +2137,7 @@ export default [
   },
   {
     id: 34051,
-    name: "Asura's Rod",
+    name: '阿修罗之杖',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2157,7 +2157,7 @@ export default [
   },
   {
     id: 34052,
-    name: 'Abraxas',
+    name: '驱邪守护神',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2177,7 +2177,7 @@ export default [
   },
   {
     id: 34053,
-    name: 'Epeolatry',
+    name: '敬语崇言',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2197,7 +2197,7 @@ export default [
   },
   {
     id: 34054,
-    name: 'Diana',
+    name: '狄安娜',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2217,7 +2217,7 @@ export default [
   },
   {
     id: 34055,
-    name: 'Murasame',
+    name: '村雨',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2238,7 +2238,7 @@ export default [
   },
   {
     id: 34056,
-    name: 'Wild Rose',
+    name: '野玫瑰',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2258,7 +2258,7 @@ export default [
   },
   {
     id: 34057,
-    name: 'Hyperion',
+    name: '亥伯龙',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2279,7 +2279,7 @@ export default [
   },
   {
     id: 34058,
-    name: 'Terpsichore',
+    name: '忒耳普西科瑞',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2300,7 +2300,7 @@ export default [
   },
   {
     id: 34059,
-    name: 'Hagneia',
+    name: '无垢',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2320,7 +2320,7 @@ export default [
   },
   {
     id: 34060,
-    name: 'Death Sickle',
+    name: '死亡夺命镰',
     level: 560,
     rarity: 3,
     slot: 13,
@@ -2341,7 +2341,7 @@ export default [
   },
   {
     id: 34061,
-    name: "Hero's Shield",
+    name: '英雄之盾',
     level: 560,
     rarity: 3,
     slot: 2,
@@ -2360,7 +2360,7 @@ export default [
   },
   {
     id: 34830,
-    name: 'The Last Earring of Fending',
+    name: '终迹御敌耳坠',
     level: 560,
     rarity: 2,
     slot: 9,
@@ -2379,7 +2379,7 @@ export default [
   },
   {
     id: 34831,
-    name: 'The Last Earring of Slaying',
+    name: '终迹强攻耳坠',
     level: 560,
     rarity: 2,
     slot: 9,
@@ -2398,7 +2398,7 @@ export default [
   },
   {
     id: 34832,
-    name: 'The Last Earring of Aiming',
+    name: '终迹精准耳坠',
     level: 560,
     rarity: 2,
     slot: 9,
@@ -2417,7 +2417,7 @@ export default [
   },
   {
     id: 34833,
-    name: 'The Last Earring of Healing',
+    name: '终迹治愈耳坠',
     level: 560,
     rarity: 2,
     slot: 9,
@@ -2436,7 +2436,7 @@ export default [
   },
   {
     id: 34834,
-    name: 'The Last Earring of Casting',
+    name: '终迹咏咒耳坠',
     level: 560,
     rarity: 2,
     slot: 9,
@@ -2455,7 +2455,7 @@ export default [
   },
   {
     id: 34835,
-    name: 'The Last Necklace of Fending',
+    name: '终迹御敌项环',
     level: 560,
     rarity: 2,
     slot: 10,
@@ -2474,7 +2474,7 @@ export default [
   },
   {
     id: 34836,
-    name: 'The Last Necklace of Slaying',
+    name: '终迹强攻项环',
     level: 560,
     rarity: 2,
     slot: 10,
@@ -2493,7 +2493,7 @@ export default [
   },
   {
     id: 34837,
-    name: 'The Last Necklace of Aiming',
+    name: '终迹精准项环',
     level: 560,
     rarity: 2,
     slot: 10,
@@ -2512,7 +2512,7 @@ export default [
   },
   {
     id: 34838,
-    name: 'The Last Necklace of Healing',
+    name: '终迹治愈项环',
     level: 560,
     rarity: 2,
     slot: 10,
@@ -2531,7 +2531,7 @@ export default [
   },
   {
     id: 34839,
-    name: 'The Last Necklace of Casting',
+    name: '终迹咏咒项环',
     level: 560,
     rarity: 2,
     slot: 10,
@@ -2550,7 +2550,7 @@ export default [
   },
   {
     id: 34840,
-    name: 'The Last Bracelet of Fending',
+    name: '终迹御敌手环',
     level: 560,
     rarity: 2,
     slot: 11,
@@ -2569,7 +2569,7 @@ export default [
   },
   {
     id: 34841,
-    name: 'The Last Bracelet of Slaying',
+    name: '终迹强攻手环',
     level: 560,
     rarity: 2,
     slot: 11,
@@ -2588,7 +2588,7 @@ export default [
   },
   {
     id: 34842,
-    name: 'The Last Bracelet of Aiming',
+    name: '终迹精准手环',
     level: 560,
     rarity: 2,
     slot: 11,
@@ -2607,7 +2607,7 @@ export default [
   },
   {
     id: 34843,
-    name: 'The Last Bracelet of Healing',
+    name: '终迹治愈手环',
     level: 560,
     rarity: 2,
     slot: 11,
@@ -2626,7 +2626,7 @@ export default [
   },
   {
     id: 34844,
-    name: 'The Last Bracelet of Casting',
+    name: '终迹咏咒手环',
     level: 560,
     rarity: 2,
     slot: 11,
@@ -2645,7 +2645,7 @@ export default [
   },
   {
     id: 34845,
-    name: 'The Last Ring of Fending',
+    name: '终迹御敌指环',
     level: 560,
     rarity: 2,
     slot: 12,
@@ -2664,7 +2664,7 @@ export default [
   },
   {
     id: 34846,
-    name: 'The Last Ring of Slaying',
+    name: '终迹强攻指环',
     level: 560,
     rarity: 2,
     slot: 12,
@@ -2683,7 +2683,7 @@ export default [
   },
   {
     id: 34847,
-    name: 'The Last Ring of Aiming',
+    name: '终迹精准指环',
     level: 560,
     rarity: 2,
     slot: 12,
@@ -2702,7 +2702,7 @@ export default [
   },
   {
     id: 34848,
-    name: 'The Last Ring of Healing',
+    name: '终迹治愈指环',
     level: 560,
     rarity: 2,
     slot: 12,
@@ -2721,7 +2721,7 @@ export default [
   },
   {
     id: 34849,
-    name: 'The Last Ring of Casting',
+    name: '终迹咏咒指环',
     level: 560,
     rarity: 2,
     slot: 12,
@@ -2740,7 +2740,7 @@ export default [
   },
   {
     id: 35383,
-    name: 'Chondrite Saw',
+    name: '球粒陨石手锯',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2759,7 +2759,7 @@ export default [
   },
   {
     id: 35384,
-    name: 'Chondrite Cross-pein Hammer',
+    name: '球粒陨石横头锤',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2778,7 +2778,7 @@ export default [
   },
   {
     id: 35385,
-    name: 'Chondrite Raising Hammer',
+    name: '球粒陨石圆头锤',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2797,7 +2797,7 @@ export default [
   },
   {
     id: 35386,
-    name: 'Chondrite Lapidary Hammer',
+    name: '球粒陨石工艺锤',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2816,7 +2816,7 @@ export default [
   },
   {
     id: 35387,
-    name: 'Chondrite Round Knife',
+    name: '球粒陨石圆革刀',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2835,7 +2835,7 @@ export default [
   },
   {
     id: 35388,
-    name: 'Chondrite Needle',
+    name: '球粒陨石缝针',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2854,7 +2854,7 @@ export default [
   },
   {
     id: 35389,
-    name: 'Chondrite Alembic',
+    name: '球粒陨石蒸馏器',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2873,7 +2873,7 @@ export default [
   },
   {
     id: 35390,
-    name: 'Chondrite Bomb Frypan',
+    name: '球粒陨石爆弹怪煎锅',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2892,7 +2892,7 @@ export default [
   },
   {
     id: 35391,
-    name: 'Chondrite Pickaxe',
+    name: '球粒陨石鹤嘴锄',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2912,7 +2912,7 @@ export default [
   },
   {
     id: 35392,
-    name: 'Chondrite Hatchet',
+    name: '球粒陨石手斧',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2932,7 +2932,7 @@ export default [
   },
   {
     id: 35393,
-    name: 'Integral Fishing Rod',
+    name: '完满木钓竿',
     level: 560,
     rarity: 1,
     slot: 1,
@@ -2952,7 +2952,7 @@ export default [
   },
   {
     id: 35394,
-    name: 'Chondrite Claw Hammer',
+    name: '球粒陨石羊角锤',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -2971,7 +2971,7 @@ export default [
   },
   {
     id: 35395,
-    name: 'Chondrite File',
+    name: '球粒陨石锉刀',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -2990,7 +2990,7 @@ export default [
   },
   {
     id: 35396,
-    name: 'Chondrite Pliers',
+    name: '球粒陨石手钳',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -3009,7 +3009,7 @@ export default [
   },
   {
     id: 35397,
-    name: 'Integral Grinding Wheel',
+    name: '完满木泥岩砂轮机',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -3028,7 +3028,7 @@ export default [
   },
   {
     id: 35398,
-    name: 'Chondrite Awl',
+    name: '球粒陨石平斩',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -3047,7 +3047,7 @@ export default [
   },
   {
     id: 35399,
-    name: 'Integral Spinning Wheel',
+    name: '完满木纺车',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -3066,7 +3066,7 @@ export default [
   },
   {
     id: 35400,
-    name: 'Chondrite Mortar',
+    name: '球粒陨石研钵',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -3085,7 +3085,7 @@ export default [
   },
   {
     id: 35401,
-    name: 'Chondrite Culinary Knife',
+    name: '球粒陨石厨刀',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -3104,7 +3104,7 @@ export default [
   },
   {
     id: 35402,
-    name: 'Chondrite Sledgehammer',
+    name: '球粒陨石碎石锤',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -3123,7 +3123,7 @@ export default [
   },
   {
     id: 35403,
-    name: 'Chondrite Garden Scythe',
+    name: '球粒陨石园艺镰',
     level: 560,
     rarity: 1,
     slot: 2,
@@ -3142,7 +3142,7 @@ export default [
   },
   {
     id: 35434,
-    name: 'AR-Caean Velvet Work Cap of Crafting',
+    name: '迷彩绒巧匠工作帽',
     level: 560,
     rarity: 1,
     slot: 3,
@@ -3161,7 +3161,7 @@ export default [
   },
   {
     id: 35435,
-    name: 'AR-Caean Velvet Work Shirt of Crafting',
+    name: '迷彩绒巧匠工作衫',
     level: 560,
     rarity: 1,
     slot: 4,
@@ -3181,7 +3181,7 @@ export default [
   },
   {
     id: 35436,
-    name: 'Ophiotauroskin Halfgloves of Crafting',
+    name: '蛇牛革巧匠半指手套',
     level: 560,
     rarity: 1,
     slot: 5,
@@ -3200,7 +3200,7 @@ export default [
   },
   {
     id: 35437,
-    name: 'AR-Caean Velvet Hose of Crafting',
+    name: '迷彩绒巧匠骑兵裤',
     level: 560,
     rarity: 1,
     slot: 7,
@@ -3219,7 +3219,7 @@ export default [
   },
   {
     id: 35438,
-    name: 'Ophiotauroskin Work Boots of Crafting',
+    name: '蛇牛革巧匠工作靴',
     level: 560,
     rarity: 1,
     slot: 8,
@@ -3238,7 +3238,7 @@ export default [
   },
   {
     id: 35439,
-    name: "AR-Caean Velvet Trapper's Hat of Gathering",
+    name: '迷彩绒大地狩猎帽',
     level: 560,
     rarity: 1,
     slot: 3,
@@ -3257,7 +3257,7 @@ export default [
   },
   {
     id: 35440,
-    name: 'AR-Caean Velvet Jacket of Gathering',
+    name: '迷彩绒大地短衣',
     level: 560,
     rarity: 1,
     slot: 4,
@@ -3278,7 +3278,7 @@ export default [
   },
   {
     id: 35441,
-    name: 'Ophiotauroskin Halfgloves of Gathering',
+    name: '蛇牛革大地半指手套',
     level: 560,
     rarity: 1,
     slot: 5,
@@ -3298,7 +3298,7 @@ export default [
   },
   {
     id: 35442,
-    name: 'AR-Caean Velvet Culottes of Gathering',
+    name: '迷彩绒大地及膝裤',
     level: 560,
     rarity: 1,
     slot: 7,
@@ -3319,7 +3319,7 @@ export default [
   },
   {
     id: 35443,
-    name: 'Ophiotauroskin Boots of Gathering',
+    name: '蛇牛革大地矮靴',
     level: 560,
     rarity: 1,
     slot: 8,
@@ -3339,7 +3339,7 @@ export default [
   },
   {
     id: 35460,
-    name: 'Integral Earrings of Crafting',
+    name: '完满木巧匠耳坠',
     level: 560,
     rarity: 1,
     slot: 9,
@@ -3358,7 +3358,7 @@ export default [
   },
   {
     id: 35461,
-    name: 'Integral Necklace of Crafting',
+    name: '完满木巧匠项链',
     level: 560,
     rarity: 1,
     slot: 10,
@@ -3377,7 +3377,7 @@ export default [
   },
   {
     id: 35462,
-    name: 'Integral Bracelet of Crafting',
+    name: '完满木巧匠手镯',
     level: 560,
     rarity: 1,
     slot: 11,
@@ -3396,7 +3396,7 @@ export default [
   },
   {
     id: 35463,
-    name: 'Integral Ring of Crafting',
+    name: '完满木巧匠指环',
     level: 560,
     rarity: 1,
     slot: 12,
@@ -3415,7 +3415,7 @@ export default [
   },
   {
     id: 35464,
-    name: 'Ophiotauroskin Earrings of Gathering',
+    name: '蛇牛革大地耳坠',
     level: 560,
     rarity: 1,
     slot: 9,
@@ -3433,7 +3433,7 @@ export default [
   },
   {
     id: 35465,
-    name: 'Ophiotauroskin Necklace of Gathering',
+    name: '蛇牛革大地项链',
     level: 560,
     rarity: 1,
     slot: 10,
@@ -3451,7 +3451,7 @@ export default [
   },
   {
     id: 35466,
-    name: 'Ophiotauroskin Wristband of Gathering',
+    name: '蛇牛革大地手环',
     level: 560,
     rarity: 1,
     slot: 11,
@@ -3469,7 +3469,7 @@ export default [
   },
   {
     id: 35467,
-    name: 'Ophiotauroskin Ring of Gathering',
+    name: '蛇牛革大地指环',
     level: 560,
     rarity: 1,
     slot: 12,
@@ -3487,7 +3487,7 @@ export default [
   },
   {
     id: 34850,
-    name: 'Moonward Longsword',
+    name: '月卫长剑',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -3508,7 +3508,7 @@ export default [
   },
   {
     id: 34851,
-    name: 'Moonward Bladed Tonfa',
+    name: '月卫旋棍刀',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3529,7 +3529,7 @@ export default [
   },
   {
     id: 34852,
-    name: 'Moonward War Axe',
+    name: '月卫战斧',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3550,7 +3550,7 @@ export default [
   },
   {
     id: 34853,
-    name: 'Moonward Bident',
+    name: '月卫双尖枪',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3571,7 +3571,7 @@ export default [
   },
   {
     id: 34854,
-    name: 'Moonward Harp Bow',
+    name: '月卫竖琴弓',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3592,7 +3592,7 @@ export default [
   },
   {
     id: 34855,
-    name: 'Moonward Ninja Blades',
+    name: '月卫忍者刀',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3613,7 +3613,7 @@ export default [
   },
   {
     id: 34856,
-    name: 'Moonward Zweihander',
+    name: '月卫双手剑',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3634,7 +3634,7 @@ export default [
   },
   {
     id: 34857,
-    name: 'Moonward Arquebus',
+    name: '月卫明火枪',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3655,7 +3655,7 @@ export default [
   },
   {
     id: 34858,
-    name: 'Moonward Wand',
+    name: '月卫幻杖',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3675,7 +3675,7 @@ export default [
   },
   {
     id: 34859,
-    name: 'Moonward Rod',
+    name: '月卫咒杖',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3695,7 +3695,7 @@ export default [
   },
   {
     id: 34860,
-    name: 'Moonward Grimoire',
+    name: '月卫魔导书',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3715,7 +3715,7 @@ export default [
   },
   {
     id: 34861,
-    name: 'Moonward Codex',
+    name: '月卫魔导典',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3735,7 +3735,7 @@ export default [
   },
   {
     id: 34862,
-    name: 'Moonward Torquetum',
+    name: '月卫黄道仪',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3755,7 +3755,7 @@ export default [
   },
   {
     id: 34863,
-    name: 'Moonward Samurai Blade',
+    name: '月卫武士刀',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3776,7 +3776,7 @@ export default [
   },
   {
     id: 34864,
-    name: 'Moonward Rapier',
+    name: '月卫刺剑',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3796,7 +3796,7 @@ export default [
   },
   {
     id: 34865,
-    name: 'Moonward Gunblade',
+    name: '月卫枪刃',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3817,7 +3817,7 @@ export default [
   },
   {
     id: 34866,
-    name: 'Moonward Tathlums',
+    name: '月卫环刃',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3838,7 +3838,7 @@ export default [
   },
   {
     id: 34867,
-    name: 'Moonward Milpreves',
+    name: '月卫蛇石针',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3858,7 +3858,7 @@ export default [
   },
   {
     id: 34868,
-    name: 'Moonward Crux',
+    name: '月卫大镰',
     level: 570,
     rarity: 3,
     slot: 13,
@@ -3879,7 +3879,7 @@ export default [
   },
   {
     id: 34869,
-    name: 'Moonward Kite Shield',
+    name: '月卫鸢盾',
     level: 570,
     rarity: 3,
     slot: 2,
@@ -3898,7 +3898,7 @@ export default [
   },
   {
     id: 34870,
-    name: 'Moonward Circlet of Fending',
+    name: '月卫御敌头冠',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -3917,7 +3917,7 @@ export default [
   },
   {
     id: 34871,
-    name: 'Moonward Mail of Fending',
+    name: '月卫御敌战铠',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -3936,7 +3936,7 @@ export default [
   },
   {
     id: 34872,
-    name: 'Moonward Gauntlets of Fending',
+    name: '月卫御敌手铠',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -3955,7 +3955,7 @@ export default [
   },
   {
     id: 34873,
-    name: 'Moonward Hose of Fending',
+    name: '月卫御敌骑兵裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -3974,7 +3974,7 @@ export default [
   },
   {
     id: 34874,
-    name: 'Moonward Sollerets of Fending',
+    name: '月卫御敌锁甲靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -3993,7 +3993,7 @@ export default [
   },
   {
     id: 34875,
-    name: 'Moonward Circlet of Maiming',
+    name: '月卫制敌头冠',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -4012,7 +4012,7 @@ export default [
   },
   {
     id: 34876,
-    name: 'Moonward Mail of Maiming',
+    name: '月卫制敌战铠',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -4031,7 +4031,7 @@ export default [
   },
   {
     id: 34877,
-    name: 'Moonward Gauntlets of Maiming',
+    name: '月卫制敌手铠',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -4050,7 +4050,7 @@ export default [
   },
   {
     id: 34878,
-    name: 'Moonward Hose of Maiming',
+    name: '月卫制敌骑兵裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -4069,7 +4069,7 @@ export default [
   },
   {
     id: 34879,
-    name: 'Moonward Sollerets of Maiming',
+    name: '月卫制敌锁甲靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -4088,7 +4088,7 @@ export default [
   },
   {
     id: 34880,
-    name: 'Moonward Veil of Striking',
+    name: '月卫强袭面纱',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -4107,7 +4107,7 @@ export default [
   },
   {
     id: 34881,
-    name: 'Moonward Cloak of Striking',
+    name: '月卫强袭斗篷',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -4126,7 +4126,7 @@ export default [
   },
   {
     id: 34882,
-    name: 'Moonward Armguards of Striking',
+    name: '月卫强袭护臂',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -4145,7 +4145,7 @@ export default [
   },
   {
     id: 34883,
-    name: 'Moonward Gaskins of Striking',
+    name: '月卫强袭束膝裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -4164,7 +4164,7 @@ export default [
   },
   {
     id: 34884,
-    name: 'Moonward Boots of Striking',
+    name: '月卫强袭筒靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -4183,7 +4183,7 @@ export default [
   },
   {
     id: 34885,
-    name: 'Moonward Hat of Aiming',
+    name: '月卫精准狩猎帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -4202,7 +4202,7 @@ export default [
   },
   {
     id: 34886,
-    name: 'Moonward Vest of Aiming',
+    name: '月卫精准坎肩',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -4221,7 +4221,7 @@ export default [
   },
   {
     id: 34887,
-    name: 'Moonward Armlets of Aiming',
+    name: '月卫精准护臂',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -4240,7 +4240,7 @@ export default [
   },
   {
     id: 34888,
-    name: 'Moonward Breeches of Aiming',
+    name: '月卫精准马裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -4259,7 +4259,7 @@ export default [
   },
   {
     id: 34889,
-    name: 'Moonward Boots of Aiming',
+    name: '月卫精准筒靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -4278,7 +4278,7 @@ export default [
   },
   {
     id: 34890,
-    name: 'Moonward Veil of Scouting',
+    name: '月卫游击面纱',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -4297,7 +4297,7 @@ export default [
   },
   {
     id: 34891,
-    name: 'Moonward Cloak of Scouting',
+    name: '月卫游击斗篷',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -4316,7 +4316,7 @@ export default [
   },
   {
     id: 34892,
-    name: 'Moonward Armguards of Scouting',
+    name: '月卫游击护臂',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -4335,7 +4335,7 @@ export default [
   },
   {
     id: 34893,
-    name: 'Moonward Gaskins of Scouting',
+    name: '月卫游击束膝裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -4354,7 +4354,7 @@ export default [
   },
   {
     id: 34894,
-    name: 'Moonward Boots of Scouting',
+    name: '月卫游击筒靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -4373,7 +4373,7 @@ export default [
   },
   {
     id: 34895,
-    name: 'Moonward Hairpin of Healing',
+    name: '月卫治愈发夹',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -4392,7 +4392,7 @@ export default [
   },
   {
     id: 34896,
-    name: 'Moonward Top of Healing',
+    name: '月卫治愈上装',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -4411,7 +4411,7 @@ export default [
   },
   {
     id: 34897,
-    name: 'Moonward Armlets of Healing',
+    name: '月卫治愈护臂',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -4430,7 +4430,7 @@ export default [
   },
   {
     id: 34898,
-    name: 'Moonward Bottoms of Healing',
+    name: '月卫治愈打底裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -4449,7 +4449,7 @@ export default [
   },
   {
     id: 34899,
-    name: 'Moonward Boots of Healing',
+    name: '月卫治愈筒靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -4468,7 +4468,7 @@ export default [
   },
   {
     id: 34900,
-    name: 'Moonward Hairpin of Casting',
+    name: '月卫咏咒发夹',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -4487,7 +4487,7 @@ export default [
   },
   {
     id: 34901,
-    name: 'Moonward Top of Casting',
+    name: '月卫咏咒上装',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -4506,7 +4506,7 @@ export default [
   },
   {
     id: 34902,
-    name: 'Moonward Armlets of Casting',
+    name: '月卫咏咒护臂',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -4525,7 +4525,7 @@ export default [
   },
   {
     id: 34903,
-    name: 'Moonward Bottoms of Casting',
+    name: '月卫咏咒打底裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -4544,7 +4544,7 @@ export default [
   },
   {
     id: 34904,
-    name: 'Moonward Boots of Casting',
+    name: '月卫咏咒筒靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -4563,7 +4563,7 @@ export default [
   },
   {
     id: 34905,
-    name: 'Moonward Earring of Fending',
+    name: '月卫御敌耳坠',
     level: 570,
     rarity: 3,
     slot: 9,
@@ -4582,7 +4582,7 @@ export default [
   },
   {
     id: 34906,
-    name: 'Moonward Earring of Slaying',
+    name: '月卫强攻耳坠',
     level: 570,
     rarity: 3,
     slot: 9,
@@ -4601,7 +4601,7 @@ export default [
   },
   {
     id: 34907,
-    name: 'Moonward Earring of Aiming',
+    name: '月卫精准耳坠',
     level: 570,
     rarity: 3,
     slot: 9,
@@ -4620,7 +4620,7 @@ export default [
   },
   {
     id: 34908,
-    name: 'Moonward Earring of Healing',
+    name: '月卫治愈耳坠',
     level: 570,
     rarity: 3,
     slot: 9,
@@ -4639,7 +4639,7 @@ export default [
   },
   {
     id: 34909,
-    name: 'Moonward Earring of Casting',
+    name: '月卫咏咒耳坠',
     level: 570,
     rarity: 3,
     slot: 9,
@@ -4658,7 +4658,7 @@ export default [
   },
   {
     id: 34910,
-    name: 'Moonward Necklace of Fending',
+    name: '月卫御敌项链',
     level: 570,
     rarity: 3,
     slot: 10,
@@ -4677,7 +4677,7 @@ export default [
   },
   {
     id: 34911,
-    name: 'Moonward Necklace of Slaying',
+    name: '月卫强攻项链',
     level: 570,
     rarity: 3,
     slot: 10,
@@ -4696,7 +4696,7 @@ export default [
   },
   {
     id: 34912,
-    name: 'Moonward Necklace of Aiming',
+    name: '月卫精准项链',
     level: 570,
     rarity: 3,
     slot: 10,
@@ -4715,7 +4715,7 @@ export default [
   },
   {
     id: 34913,
-    name: 'Moonward Necklace of Healing',
+    name: '月卫治愈项链',
     level: 570,
     rarity: 3,
     slot: 10,
@@ -4734,7 +4734,7 @@ export default [
   },
   {
     id: 34914,
-    name: 'Moonward Necklace of Casting',
+    name: '月卫咏咒项链',
     level: 570,
     rarity: 3,
     slot: 10,
@@ -4753,7 +4753,7 @@ export default [
   },
   {
     id: 34915,
-    name: 'Moonward Bracelet of Fending',
+    name: '月卫御敌手环',
     level: 570,
     rarity: 3,
     slot: 11,
@@ -4772,7 +4772,7 @@ export default [
   },
   {
     id: 34916,
-    name: 'Moonward Bracelet of Slaying',
+    name: '月卫强攻手环',
     level: 570,
     rarity: 3,
     slot: 11,
@@ -4791,7 +4791,7 @@ export default [
   },
   {
     id: 34917,
-    name: 'Moonward Bracelet of Aiming',
+    name: '月卫精准手环',
     level: 570,
     rarity: 3,
     slot: 11,
@@ -4810,7 +4810,7 @@ export default [
   },
   {
     id: 34918,
-    name: 'Moonward Bracelet of Healing',
+    name: '月卫治愈手环',
     level: 570,
     rarity: 3,
     slot: 11,
@@ -4829,7 +4829,7 @@ export default [
   },
   {
     id: 34919,
-    name: 'Moonward Bracelet of Casting',
+    name: '月卫咏咒手环',
     level: 570,
     rarity: 3,
     slot: 11,
@@ -4848,7 +4848,7 @@ export default [
   },
   {
     id: 34920,
-    name: 'Moonward Ring of Fending',
+    name: '月卫御敌指环',
     level: 570,
     rarity: 3,
     slot: 12,
@@ -4867,7 +4867,7 @@ export default [
   },
   {
     id: 34921,
-    name: 'Moonward Ring of Slaying',
+    name: '月卫强攻指环',
     level: 570,
     rarity: 3,
     slot: 12,
@@ -4886,7 +4886,7 @@ export default [
   },
   {
     id: 34922,
-    name: 'Moonward Ring of Aiming',
+    name: '月卫精准指环',
     level: 570,
     rarity: 3,
     slot: 12,
@@ -4905,7 +4905,7 @@ export default [
   },
   {
     id: 34923,
-    name: 'Moonward Ring of Healing',
+    name: '月卫治愈指环',
     level: 570,
     rarity: 3,
     slot: 12,
@@ -4924,7 +4924,7 @@ export default [
   },
   {
     id: 34924,
-    name: 'Moonward Ring of Casting',
+    name: '月卫咏咒指环',
     level: 570,
     rarity: 3,
     slot: 12,
@@ -4943,7 +4943,7 @@ export default [
   },
   {
     id: 35468,
-    name: "Millsoph's Saw",
+    name: '林木专业专用手锯',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -4960,7 +4960,7 @@ export default [
   },
   {
     id: 35469,
-    name: "Forgesoph's Hammer",
+    name: '冶金专业专用锤',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -4977,7 +4977,7 @@ export default [
   },
   {
     id: 35470,
-    name: "Hammersoph's Beetle",
+    name: '板甲专业专用锤',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -4994,7 +4994,7 @@ export default [
   },
   {
     id: 35471,
-    name: "Gemsoph's Mallet",
+    name: '宝石专业专用工艺锤',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -5011,7 +5011,7 @@ export default [
   },
   {
     id: 35472,
-    name: "Hidesoph's Knife",
+    name: '皮革专业专用革刀',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -5028,7 +5028,7 @@ export default [
   },
   {
     id: 35473,
-    name: "Boltsoph's Needle",
+    name: '衣装专业专用缝针',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -5045,7 +5045,7 @@ export default [
   },
   {
     id: 35474,
-    name: "Cauldronsoph's Alembic",
+    name: '炼化专业专用蒸馏器',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -5062,7 +5062,7 @@ export default [
   },
   {
     id: 35475,
-    name: "Galleysoph's Frypan",
+    name: '营养专业专用煎锅',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -5079,7 +5079,7 @@ export default [
   },
   {
     id: 35476,
-    name: "Minesoph's Pickaxe",
+    name: '地质专业专用鹤嘴锄',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -5097,7 +5097,7 @@ export default [
   },
   {
     id: 35477,
-    name: "Fieldsoph's Hatchet",
+    name: '田野专业专用手斧',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -5115,7 +5115,7 @@ export default [
   },
   {
     id: 35478,
-    name: "Tacklesoph's Rod",
+    name: '海洋专业专用钓竿',
     level: 570,
     rarity: 3,
     slot: 1,
@@ -5133,7 +5133,7 @@ export default [
   },
   {
     id: 35479,
-    name: "Millsoph's Bandana",
+    name: '林木专业专用头巾',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5150,7 +5150,7 @@ export default [
   },
   {
     id: 35480,
-    name: "Millsoph's Apron",
+    name: '林木专业专用围裙装',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5168,7 +5168,7 @@ export default [
   },
   {
     id: 35481,
-    name: "Millsoph's Gloves",
+    name: '林木专业专用手套',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5185,7 +5185,7 @@ export default [
   },
   {
     id: 35482,
-    name: "Millsoph's Breeches",
+    name: '林木专业专用马裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5202,7 +5202,7 @@ export default [
   },
   {
     id: 35483,
-    name: "Millsoph's Gaiters",
+    name: '林木专业专用高跟鞋',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5219,7 +5219,7 @@ export default [
   },
   {
     id: 35484,
-    name: "Forgesoph's Goggles",
+    name: '冶金专业专用护目镜',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5236,7 +5236,7 @@ export default [
   },
   {
     id: 35485,
-    name: "Forgesoph's Apron",
+    name: '冶金专业专用围裙装',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5254,7 +5254,7 @@ export default [
   },
   {
     id: 35486,
-    name: "Forgesoph's Work Gloves",
+    name: '冶金专业专用工作手套',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5271,7 +5271,7 @@ export default [
   },
   {
     id: 35487,
-    name: "Forgesoph's Trousers",
+    name: '冶金专业专用软甲裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5288,7 +5288,7 @@ export default [
   },
   {
     id: 35488,
-    name: "Forgesoph's Boots",
+    name: '冶金专业专用短靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5305,7 +5305,7 @@ export default [
   },
   {
     id: 35489,
-    name: "Hammersoph's Visor",
+    name: '板甲专业专用面罩',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5322,7 +5322,7 @@ export default [
   },
   {
     id: 35490,
-    name: "Hammersoph's Apron",
+    name: '板甲专业专用围裙装',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5340,7 +5340,7 @@ export default [
   },
   {
     id: 35491,
-    name: "Hammersoph's Work Gloves",
+    name: '板甲专业专用工作手套',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5357,7 +5357,7 @@ export default [
   },
   {
     id: 35492,
-    name: "Hammersoph's Trousers",
+    name: '板甲专业专用软甲裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5374,7 +5374,7 @@ export default [
   },
   {
     id: 35493,
-    name: "Hammersoph's Workboots",
+    name: '板甲专业专用工作筒靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5391,7 +5391,7 @@ export default [
   },
   {
     id: 35494,
-    name: "Gemsoph's Hat",
+    name: '宝石专业专用帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5408,7 +5408,7 @@ export default [
   },
   {
     id: 35495,
-    name: "Gemsoph's Vest",
+    name: '宝石专业专用坎肩',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5426,7 +5426,7 @@ export default [
   },
   {
     id: 35496,
-    name: "Gemsoph's Wristdresses",
+    name: '宝石专业专用腕带',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5443,7 +5443,7 @@ export default [
   },
   {
     id: 35497,
-    name: "Gemsoph's Trousers",
+    name: '宝石专业专用软甲裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5460,7 +5460,7 @@ export default [
   },
   {
     id: 35498,
-    name: "Gemsoph's Thighboots",
+    name: '宝石专业专用长靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5477,7 +5477,7 @@ export default [
   },
   {
     id: 35499,
-    name: "Hidesoph's Cap",
+    name: '皮革专业专用无檐帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5494,7 +5494,7 @@ export default [
   },
   {
     id: 35500,
-    name: "Hidesoph's Apron",
+    name: '皮革专业专用围裙装',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5512,7 +5512,7 @@ export default [
   },
   {
     id: 35501,
-    name: "Hidesoph's Gloves",
+    name: '皮革专业专用护臂',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5529,7 +5529,7 @@ export default [
   },
   {
     id: 35502,
-    name: "Hidesoph's Kecks",
+    name: '皮革专业专用腿套',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5546,7 +5546,7 @@ export default [
   },
   {
     id: 35503,
-    name: "Hidesoph's Boots",
+    name: '皮革专业专用筒靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5563,7 +5563,7 @@ export default [
   },
   {
     id: 35504,
-    name: "Boltsoph's Hat",
+    name: '衣装专业专用帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5580,7 +5580,7 @@ export default [
   },
   {
     id: 35505,
-    name: "Boltsoph's Swallowtail",
+    name: '衣装专业专用燕尾服',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5598,7 +5598,7 @@ export default [
   },
   {
     id: 35506,
-    name: "Boltsoph's Cuffs",
+    name: '衣装专业专用护袖',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5615,7 +5615,7 @@ export default [
   },
   {
     id: 35507,
-    name: "Boltsoph's Slacks",
+    name: '衣装专业专用礼裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5632,7 +5632,7 @@ export default [
   },
   {
     id: 35508,
-    name: "Boltsoph's Boots",
+    name: '衣装专业专用皮靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5649,7 +5649,7 @@ export default [
   },
   {
     id: 35509,
-    name: "Cauldronsoph's Hat",
+    name: '炼化专业专用帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5666,7 +5666,7 @@ export default [
   },
   {
     id: 35510,
-    name: "Cauldronsoph's Mantle",
+    name: '炼化专业专用斗篷',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5684,7 +5684,7 @@ export default [
   },
   {
     id: 35511,
-    name: "Cauldronsoph's Gloves",
+    name: '炼化专业专用手套',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5701,7 +5701,7 @@ export default [
   },
   {
     id: 35512,
-    name: "Cauldronsoph's Kecks",
+    name: '炼化专业专用腿套',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5718,7 +5718,7 @@ export default [
   },
   {
     id: 35513,
-    name: "Cauldronsoph's Shoes",
+    name: '炼化专业专用鞋',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5735,7 +5735,7 @@ export default [
   },
   {
     id: 35514,
-    name: "Galleysoph's Cap",
+    name: '营养专业专用无檐帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5752,7 +5752,7 @@ export default [
   },
   {
     id: 35515,
-    name: "Galleysoph's Apron",
+    name: '营养专业专用围裙装',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5770,7 +5770,7 @@ export default [
   },
   {
     id: 35516,
-    name: "Galleysoph's Mittens",
+    name: '营养专业专用连指手套',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5787,7 +5787,7 @@ export default [
   },
   {
     id: 35517,
-    name: "Galleysoph's Trousers",
+    name: '营养专业专用软甲裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5804,7 +5804,7 @@ export default [
   },
   {
     id: 35518,
-    name: "Galleysoph's Shoes",
+    name: '营养专业专用鞋',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5821,7 +5821,7 @@ export default [
   },
   {
     id: 35519,
-    name: "Minesoph's Helmet",
+    name: '地质专业专用头灯帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5838,7 +5838,7 @@ export default [
   },
   {
     id: 35520,
-    name: "Minesoph's Work Shirt",
+    name: '地质专业专用工作衫',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5857,7 +5857,7 @@ export default [
   },
   {
     id: 35521,
-    name: "Minesoph's Work Gloves",
+    name: '地质专业专用工作手套',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5875,7 +5875,7 @@ export default [
   },
   {
     id: 35522,
-    name: "Minesoph's Slops",
+    name: '地质专业专用工作裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5894,7 +5894,7 @@ export default [
   },
   {
     id: 35523,
-    name: "Minesoph's Workboots",
+    name: '地质专业专用工作靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -5912,7 +5912,7 @@ export default [
   },
   {
     id: 35524,
-    name: "Fieldsoph's Hood",
+    name: '田野专业专用兜帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -5929,7 +5929,7 @@ export default [
   },
   {
     id: 35525,
-    name: "Fieldsoph's Shirt",
+    name: '田野专业专用衬衫',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -5948,7 +5948,7 @@ export default [
   },
   {
     id: 35526,
-    name: "Fieldsoph's Gloves",
+    name: '田野专业专用手套',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -5966,7 +5966,7 @@ export default [
   },
   {
     id: 35527,
-    name: "Fieldsoph's Slops",
+    name: '田野专业专用工作裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -5985,7 +5985,7 @@ export default [
   },
   {
     id: 35528,
-    name: "Fieldsoph's Crakows",
+    name: '田野专业专用尖头靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -6003,7 +6003,7 @@ export default [
   },
   {
     id: 35529,
-    name: "Tacklesoph's Hat",
+    name: '海洋专业专用帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -6020,7 +6020,7 @@ export default [
   },
   {
     id: 35530,
-    name: "Tacklesoph's Jacket",
+    name: '海洋专业专用外套',
     level: 570,
     rarity: 3,
     slot: 4,
@@ -6039,7 +6039,7 @@ export default [
   },
   {
     id: 35531,
-    name: "Tacklesoph's Work Gloves",
+    name: '海洋专业专用工作手套',
     level: 570,
     rarity: 3,
     slot: 5,
@@ -6057,7 +6057,7 @@ export default [
   },
   {
     id: 35532,
-    name: "Tacklesoph's Slops",
+    name: '海洋专业专用工作裤',
     level: 570,
     rarity: 3,
     slot: 7,
@@ -6076,7 +6076,7 @@ export default [
   },
   {
     id: 35533,
-    name: "Tacklesoph's Workboots",
+    name: '海洋专业专用工作靴',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -6094,7 +6094,7 @@ export default [
   },
   {
     id: 34925,
-    name: 'Bastard Sword of Divine Light',
+    name: '圣光手半剑',
     level: 580,
     rarity: 3,
     slot: 1,
@@ -6115,7 +6115,7 @@ export default [
   },
   {
     id: 34926,
-    name: 'Sainti of Divine Light',
+    name: '圣光圣徒',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6136,7 +6136,7 @@ export default [
   },
   {
     id: 34927,
-    name: 'Labrys of Divine Light',
+    name: '圣光双刃斧',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6157,7 +6157,7 @@ export default [
   },
   {
     id: 34928,
-    name: 'Partisan of Divine Light',
+    name: '圣光游击枪',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6178,7 +6178,7 @@ export default [
   },
   {
     id: 34929,
-    name: 'Longbow of Divine Light',
+    name: '圣光长弓',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6199,7 +6199,7 @@ export default [
   },
   {
     id: 34930,
-    name: 'Daggers of Divine Light',
+    name: '圣光小刀',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6220,7 +6220,7 @@ export default [
   },
   {
     id: 34931,
-    name: 'Greatsword of Divine Light',
+    name: '圣光巨剑',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6241,7 +6241,7 @@ export default [
   },
   {
     id: 34932,
-    name: 'Pistol of Divine Light',
+    name: '圣光手枪',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6262,7 +6262,7 @@ export default [
   },
   {
     id: 34933,
-    name: 'Cane of Divine Light',
+    name: '圣光牧杖',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6282,7 +6282,7 @@ export default [
   },
   {
     id: 34934,
-    name: 'Rod of Divine Light',
+    name: '圣光咒杖',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6302,7 +6302,7 @@ export default [
   },
   {
     id: 34935,
-    name: 'Grimoire of Divine Light',
+    name: '圣光魔导书',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6322,7 +6322,7 @@ export default [
   },
   {
     id: 34936,
-    name: 'Codex of Divine Light',
+    name: '圣光魔导典',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6342,7 +6342,7 @@ export default [
   },
   {
     id: 34937,
-    name: 'Torquetum of Divine Light',
+    name: '圣光黄道仪',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6362,7 +6362,7 @@ export default [
   },
   {
     id: 34938,
-    name: 'Blade of Divine Light',
+    name: '圣光武士刀',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6383,7 +6383,7 @@ export default [
   },
   {
     id: 34939,
-    name: 'Foil of Divine Light',
+    name: '圣光花剑',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6403,7 +6403,7 @@ export default [
   },
   {
     id: 34940,
-    name: 'Gunblade of Divine Light',
+    name: '圣光枪刃',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6424,7 +6424,7 @@ export default [
   },
   {
     id: 34941,
-    name: 'Tathlums of Divine Light',
+    name: '圣光环刃',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6445,7 +6445,7 @@ export default [
   },
   {
     id: 34942,
-    name: 'Wings of Divine Light',
+    name: '圣光飞翼',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6465,7 +6465,7 @@ export default [
   },
   {
     id: 34943,
-    name: 'War Scythe of Divine Light',
+    name: '圣光战镰',
     level: 580,
     rarity: 3,
     slot: 13,
@@ -6486,7 +6486,7 @@ export default [
   },
   {
     id: 34944,
-    name: 'Shield of Divine Light',
+    name: '圣光盾',
     level: 580,
     rarity: 3,
     slot: 2,
@@ -6505,7 +6505,7 @@ export default [
   },
   {
     id: 34945,
-    name: 'Eternal Dark Earrings of Fending',
+    name: '永暗御敌耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -6524,7 +6524,7 @@ export default [
   },
   {
     id: 34946,
-    name: 'Eternal Dark Earrings of Slaying',
+    name: '永暗强攻耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -6543,7 +6543,7 @@ export default [
   },
   {
     id: 34947,
-    name: 'Eternal Dark Earrings of Aiming',
+    name: '永暗精准耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -6562,7 +6562,7 @@ export default [
   },
   {
     id: 34948,
-    name: 'Eternal Dark Earrings of Healing',
+    name: '永暗治愈耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -6581,7 +6581,7 @@ export default [
   },
   {
     id: 34949,
-    name: 'Eternal Dark Earrings of Casting',
+    name: '永暗咏咒耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -6600,7 +6600,7 @@ export default [
   },
   {
     id: 34950,
-    name: 'Eternal Dark Necklace of Fending',
+    name: '永暗御敌项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -6619,7 +6619,7 @@ export default [
   },
   {
     id: 34951,
-    name: 'Eternal Dark Necklace of Slaying',
+    name: '永暗强攻项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -6638,7 +6638,7 @@ export default [
   },
   {
     id: 34952,
-    name: 'Eternal Dark Necklace of Aiming',
+    name: '永暗精准项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -6657,7 +6657,7 @@ export default [
   },
   {
     id: 34953,
-    name: 'Eternal Dark Necklace of Healing',
+    name: '永暗治愈项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -6676,7 +6676,7 @@ export default [
   },
   {
     id: 34954,
-    name: 'Eternal Dark Necklace of Casting',
+    name: '永暗咏咒项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -6695,7 +6695,7 @@ export default [
   },
   {
     id: 34955,
-    name: 'Eternal Dark Bracelets of Fending',
+    name: '永暗御敌手环',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -6714,7 +6714,7 @@ export default [
   },
   {
     id: 34956,
-    name: 'Eternal Dark Bracelets of Slaying',
+    name: '永暗强攻手环',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -6733,7 +6733,7 @@ export default [
   },
   {
     id: 34957,
-    name: 'Eternal Dark Bracelets of Aiming',
+    name: '永暗精准手环',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -6752,7 +6752,7 @@ export default [
   },
   {
     id: 34958,
-    name: 'Eternal Dark Bracelets of Healing',
+    name: '永暗治愈手环',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -6771,7 +6771,7 @@ export default [
   },
   {
     id: 34959,
-    name: 'Eternal Dark Bracelets of Casting',
+    name: '永暗咏咒手环',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -6790,7 +6790,7 @@ export default [
   },
   {
     id: 34960,
-    name: 'Eternal Dark Ring of Fending',
+    name: '永暗御敌指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -6809,7 +6809,7 @@ export default [
   },
   {
     id: 34961,
-    name: 'Eternal Dark Ring of Slaying',
+    name: '永暗强攻指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -6828,7 +6828,7 @@ export default [
   },
   {
     id: 34962,
-    name: 'Eternal Dark Ring of Aiming',
+    name: '永暗精准指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -6847,7 +6847,7 @@ export default [
   },
   {
     id: 34963,
-    name: 'Eternal Dark Ring of Healing',
+    name: '永暗治愈指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -6866,7 +6866,7 @@ export default [
   },
   {
     id: 34964,
-    name: 'Eternal Dark Ring of Casting',
+    name: '永暗咏咒指环',
     level: 580,
     rarity: 3,
     slot: 12,

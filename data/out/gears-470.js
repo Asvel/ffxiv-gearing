@@ -9489,7 +9489,7 @@ export default [
   },
   {
     id: 35320,
-    name: 'High Durium Saw',
+    name: '辉翠银手锯',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9508,7 +9508,7 @@ export default [
   },
   {
     id: 35321,
-    name: 'High Durium Cross-pein Hammer',
+    name: '辉翠银横头锤',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9527,7 +9527,7 @@ export default [
   },
   {
     id: 35322,
-    name: 'High Durium Raising Hammer',
+    name: '辉翠银圆头锤',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9546,7 +9546,7 @@ export default [
   },
   {
     id: 35323,
-    name: 'High Durium Lapidary Hammer',
+    name: '辉翠银工艺锤',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9565,7 +9565,7 @@ export default [
   },
   {
     id: 35324,
-    name: 'High Durium Creasing Knife',
+    name: '辉翠银制革刀',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9584,7 +9584,7 @@ export default [
   },
   {
     id: 35325,
-    name: 'High Durium Needle',
+    name: '辉翠银缝针',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9603,7 +9603,7 @@ export default [
   },
   {
     id: 35326,
-    name: 'High Durium Alembic',
+    name: '辉翠银蒸馏器',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9622,7 +9622,7 @@ export default [
   },
   {
     id: 35327,
-    name: 'High Durium Namazu Frypan',
+    name: '辉翠银鲶鱼精煎锅',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9641,7 +9641,7 @@ export default [
   },
   {
     id: 35328,
-    name: 'High Durium Pickaxe',
+    name: '辉翠银鹤嘴锄',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9661,7 +9661,7 @@ export default [
   },
   {
     id: 35329,
-    name: 'High Durium Hatchet',
+    name: '辉翠银手斧',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9681,7 +9681,7 @@ export default [
   },
   {
     id: 35330,
-    name: 'Horse Chestnut Fishing Rod',
+    name: '马栗木钓竿',
     level: 480,
     rarity: 1,
     slot: 1,
@@ -9701,7 +9701,7 @@ export default [
   },
   {
     id: 35331,
-    name: 'High Durium Claw Hammer',
+    name: '辉翠银羊角锤',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9720,7 +9720,7 @@ export default [
   },
   {
     id: 35332,
-    name: 'High Durium File',
+    name: '辉翠银锉刀',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9739,7 +9739,7 @@ export default [
   },
   {
     id: 35333,
-    name: 'High Durium Pliers',
+    name: '辉翠银手钳',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9758,7 +9758,7 @@ export default [
   },
   {
     id: 35334,
-    name: 'Horse Chestnut Grinding Wheel',
+    name: '马栗木泥岩砂轮机',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9777,7 +9777,7 @@ export default [
   },
   {
     id: 35335,
-    name: 'High Durium Awl',
+    name: '辉翠银平斩',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9796,7 +9796,7 @@ export default [
   },
   {
     id: 35336,
-    name: 'Horse Chestnut Spinning Wheel',
+    name: '马栗木纺车',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9815,7 +9815,7 @@ export default [
   },
   {
     id: 35337,
-    name: 'High Durium Mortar',
+    name: '辉翠银研钵',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9834,7 +9834,7 @@ export default [
   },
   {
     id: 35338,
-    name: 'High Durium Culinary Knife',
+    name: '辉翠银厨刀',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9853,7 +9853,7 @@ export default [
   },
   {
     id: 35339,
-    name: 'High Durium Sledgehammer',
+    name: '辉翠银碎石锤',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9872,7 +9872,7 @@ export default [
   },
   {
     id: 35340,
-    name: 'High Durium Garden Scythe',
+    name: '辉翠银镰刀',
     level: 480,
     rarity: 1,
     slot: 2,
@@ -9891,7 +9891,7 @@ export default [
   },
   {
     id: 35404,
-    name: 'Darkhempen Hat',
+    name: '黑麻帽',
     level: 480,
     rarity: 1,
     slot: 3,
@@ -9910,7 +9910,7 @@ export default [
   },
   {
     id: 35405,
-    name: 'Darkhempen Dogi',
+    name: '黑麻胴着',
     level: 480,
     rarity: 1,
     slot: 4,
@@ -9930,7 +9930,7 @@ export default [
   },
   {
     id: 35406,
-    name: 'Gajaskin Handekko',
+    name: '伽迦象革半手甲',
     level: 480,
     rarity: 1,
     slot: 5,
@@ -9949,7 +9949,7 @@ export default [
   },
   {
     id: 35407,
-    name: 'Darkhempen Momohiki',
+    name: '黑麻束裤',
     level: 480,
     rarity: 1,
     slot: 7,
@@ -9968,7 +9968,7 @@ export default [
   },
   {
     id: 35408,
-    name: 'Gajaskin Tabi',
+    name: '伽迦象革足袋',
     level: 480,
     rarity: 1,
     slot: 8,
@@ -9987,7 +9987,7 @@ export default [
   },
   {
     id: 35409,
-    name: 'Horse Chestnut Kasa',
+    name: '马栗木笠',
     level: 480,
     rarity: 1,
     slot: 3,
@@ -10006,7 +10006,7 @@ export default [
   },
   {
     id: 35410,
-    name: 'Darkhempen Tabigoromo',
+    name: '黑麻旅衣',
     level: 480,
     rarity: 1,
     slot: 4,
@@ -10027,7 +10027,7 @@ export default [
   },
   {
     id: 35411,
-    name: 'Gajaskin Tekko',
+    name: '伽迦象革手甲',
     level: 480,
     rarity: 1,
     slot: 5,
@@ -10047,7 +10047,7 @@ export default [
   },
   {
     id: 35412,
-    name: 'Darkhempen Kyakui',
+    name: '黑麻软裤',
     level: 480,
     rarity: 1,
     slot: 7,
@@ -10068,7 +10068,7 @@ export default [
   },
   {
     id: 35413,
-    name: 'Gajaskin Zori',
+    name: '伽迦象革草履',
     level: 480,
     rarity: 1,
     slot: 8,
@@ -10088,7 +10088,7 @@ export default [
   },
   {
     id: 35444,
-    name: 'Ametrine Ear Cuffs of Crafting',
+    name: '紫黄晶巧匠耳夹',
     level: 480,
     rarity: 1,
     slot: 9,
@@ -10107,7 +10107,7 @@ export default [
   },
   {
     id: 35445,
-    name: 'Ametrine Necklace of Crafting',
+    name: '紫黄晶巧匠项链',
     level: 480,
     rarity: 1,
     slot: 10,
@@ -10126,7 +10126,7 @@ export default [
   },
   {
     id: 35446,
-    name: 'Ametrine Armillae of Crafting',
+    name: '紫黄晶巧匠腕环',
     level: 480,
     rarity: 1,
     slot: 11,
@@ -10145,7 +10145,7 @@ export default [
   },
   {
     id: 35447,
-    name: 'Ametrine Ring of Crafting',
+    name: '紫黄晶巧匠指环',
     level: 480,
     rarity: 1,
     slot: 12,
@@ -10164,7 +10164,7 @@ export default [
   },
   {
     id: 35448,
-    name: 'Horse Chestnut Earrings of Gathering',
+    name: '马栗木大地耳坠',
     level: 480,
     rarity: 1,
     slot: 9,
@@ -10182,7 +10182,7 @@ export default [
   },
   {
     id: 35449,
-    name: 'Horse Chestnut Necklace of Gathering',
+    name: '马栗木大地项链',
     level: 480,
     rarity: 1,
     slot: 10,
@@ -10200,7 +10200,7 @@ export default [
   },
   {
     id: 35450,
-    name: 'Horse Chestnut Bracelet of Gathering',
+    name: '马栗木大地手镯',
     level: 480,
     rarity: 1,
     slot: 11,
@@ -10218,7 +10218,7 @@ export default [
   },
   {
     id: 35451,
-    name: 'Horse Chestnut Ring of Gathering',
+    name: '马栗木大地指环',
     level: 480,
     rarity: 1,
     slot: 12,
@@ -22630,7 +22630,7 @@ export default [
   },
   {
     id: 36613,
-    name: 'Augmented Crystarium Milpreves',
+    name: '改良型水晶都蛇石针',
     level: 500,
     rarity: 3,
     slot: 13,
@@ -22650,7 +22650,7 @@ export default [
   },
   {
     id: 36614,
-    name: 'Augmented Crystarium War Scythe',
+    name: '改良型水晶都战镰',
     level: 500,
     rarity: 3,
     slot: 13,
@@ -29496,7 +29496,7 @@ export default [
   },
   {
     id: 34080,
-    name: 'High Durium Sword',
+    name: '辉翠银剑',
     level: 515,
     rarity: 1,
     slot: 1,
@@ -29519,7 +29519,7 @@ export default [
   },
   {
     id: 34081,
-    name: 'High Durium Knuckles',
+    name: '辉翠银拳套',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29542,7 +29542,7 @@ export default [
   },
   {
     id: 34082,
-    name: 'High Durium Axe',
+    name: '辉翠银战斧',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29565,7 +29565,7 @@ export default [
   },
   {
     id: 34083,
-    name: 'Horse Chestnut Spear',
+    name: '马栗木长枪',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29588,7 +29588,7 @@ export default [
   },
   {
     id: 34084,
-    name: 'Horse Chestnut Longbow',
+    name: '马栗木长弓',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29611,7 +29611,7 @@ export default [
   },
   {
     id: 34085,
-    name: 'High Durium Cleavers',
+    name: '辉翠银屠刀',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29634,7 +29634,7 @@ export default [
   },
   {
     id: 34086,
-    name: 'High Durium Guillotine',
+    name: '辉翠银断头剑',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29657,7 +29657,7 @@ export default [
   },
   {
     id: 34087,
-    name: 'High Durium Pistol',
+    name: '辉翠银短铳',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29680,7 +29680,7 @@ export default [
   },
   {
     id: 34088,
-    name: 'Horse Chestnut Cane',
+    name: '马栗木牧杖',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29702,7 +29702,7 @@ export default [
   },
   {
     id: 34089,
-    name: 'Horse Chestnut Rod',
+    name: '马栗木咒杖',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29724,7 +29724,7 @@ export default [
   },
   {
     id: 34090,
-    name: 'Gaja Grimoire',
+    name: '伽迦象革魔导书',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29746,7 +29746,7 @@ export default [
   },
   {
     id: 34091,
-    name: 'Gaja Codex',
+    name: '伽迦象革魔导典',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29768,7 +29768,7 @@ export default [
   },
   {
     id: 34092,
-    name: 'High Durium Planisphere',
+    name: '辉翠银天星盘',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29790,7 +29790,7 @@ export default [
   },
   {
     id: 34093,
-    name: 'High Durium Katana',
+    name: '辉翠银武士刀',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29813,7 +29813,7 @@ export default [
   },
   {
     id: 34094,
-    name: 'High Durium Rapier',
+    name: '辉翠银刺剑',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29835,7 +29835,7 @@ export default [
   },
   {
     id: 34095,
-    name: 'High Durium Manatrigger',
+    name: '辉翠银魔机刃',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29858,7 +29858,7 @@ export default [
   },
   {
     id: 34096,
-    name: 'High Durium Tathlums',
+    name: '辉翠银环刃',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29881,7 +29881,7 @@ export default [
   },
   {
     id: 34097,
-    name: 'High Durium Milpreves',
+    name: '辉翠银蛇石针',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29903,7 +29903,7 @@ export default [
   },
   {
     id: 34098,
-    name: 'High Durium Sickle',
+    name: '辉翠银夺命镰',
     level: 515,
     rarity: 1,
     slot: 13,
@@ -29926,7 +29926,7 @@ export default [
   },
   {
     id: 34099,
-    name: 'High Durium Shield',
+    name: '辉翠银盾',
     level: 515,
     rarity: 1,
     slot: 2,
@@ -29946,7 +29946,7 @@ export default [
   },
   {
     id: 34100,
-    name: 'High Durium Helm of Fending',
+    name: '辉翠银御敌头盔',
     level: 515,
     rarity: 1,
     slot: 3,
@@ -29967,7 +29967,7 @@ export default [
   },
   {
     id: 34101,
-    name: 'Gajaskin Coat of Fending',
+    name: '伽迦象革御敌长衣',
     level: 515,
     rarity: 1,
     slot: 4,
@@ -29988,7 +29988,7 @@ export default [
   },
   {
     id: 34102,
-    name: 'High Durium Armguards of Fending',
+    name: '辉翠银御敌护臂',
     level: 515,
     rarity: 1,
     slot: 5,
@@ -30009,7 +30009,7 @@ export default [
   },
   {
     id: 34103,
-    name: 'Darkhempen Trousers of Fending',
+    name: '黑麻御敌软甲裤',
     level: 515,
     rarity: 1,
     slot: 7,
@@ -30030,7 +30030,7 @@ export default [
   },
   {
     id: 34104,
-    name: 'Gajaskin Boots of Fending',
+    name: '伽迦象革御敌长靴',
     level: 515,
     rarity: 1,
     slot: 8,
@@ -30051,7 +30051,7 @@ export default [
   },
   {
     id: 34105,
-    name: 'High Durium Visor of Maiming',
+    name: '辉翠银制敌面罩',
     level: 515,
     rarity: 1,
     slot: 3,
@@ -30072,7 +30072,7 @@ export default [
   },
   {
     id: 34106,
-    name: 'Gajaskin Vest of Maiming',
+    name: '伽迦象革制敌坎肩',
     level: 515,
     rarity: 1,
     slot: 4,
@@ -30093,7 +30093,7 @@ export default [
   },
   {
     id: 34107,
-    name: 'High Durium Armguards of Maiming',
+    name: '辉翠银制敌护臂',
     level: 515,
     rarity: 1,
     slot: 5,
@@ -30114,7 +30114,7 @@ export default [
   },
   {
     id: 34108,
-    name: 'Darkhempen Trousers of Maiming',
+    name: '黑麻制敌软甲裤',
     level: 515,
     rarity: 1,
     slot: 7,
@@ -30135,7 +30135,7 @@ export default [
   },
   {
     id: 34109,
-    name: 'Gajaskin Boots of Maiming',
+    name: '伽迦象革制敌长靴',
     level: 515,
     rarity: 1,
     slot: 8,
@@ -30156,7 +30156,7 @@ export default [
   },
   {
     id: 34110,
-    name: 'High Durium Visor of Striking',
+    name: '辉翠银强袭面罩',
     level: 515,
     rarity: 1,
     slot: 3,
@@ -30177,7 +30177,7 @@ export default [
   },
   {
     id: 34111,
-    name: 'Gajaskin Vest of Striking',
+    name: '伽迦象革强袭坎肩',
     level: 515,
     rarity: 1,
     slot: 4,
@@ -30198,7 +30198,7 @@ export default [
   },
   {
     id: 34112,
-    name: 'Fingerless Gajaskin Gloves of Striking',
+    name: '伽迦象革强袭半指护手',
     level: 515,
     rarity: 1,
     slot: 5,
@@ -30219,7 +30219,7 @@ export default [
   },
   {
     id: 34113,
-    name: 'Darkhempen Skirt of Striking',
+    name: '黑麻强袭短裙',
     level: 515,
     rarity: 1,
     slot: 7,
@@ -30240,7 +30240,7 @@ export default [
   },
   {
     id: 34114,
-    name: 'Gajaskin Shoes of Striking',
+    name: '伽迦象革强袭皮靴',
     level: 515,
     rarity: 1,
     slot: 8,
@@ -30261,7 +30261,7 @@ export default [
   },
   {
     id: 34115,
-    name: 'High Durium Visor of Aiming',
+    name: '辉翠银精准面罩',
     level: 515,
     rarity: 1,
     slot: 3,
@@ -30282,7 +30282,7 @@ export default [
   },
   {
     id: 34116,
-    name: 'Gajaskin Jacket of Aiming',
+    name: '伽迦象革精准短衣',
     level: 515,
     rarity: 1,
     slot: 4,
@@ -30303,7 +30303,7 @@ export default [
   },
   {
     id: 34117,
-    name: 'High Durium Armguards of Aiming',
+    name: '辉翠银精准护臂',
     level: 515,
     rarity: 1,
     slot: 5,
@@ -30324,7 +30324,7 @@ export default [
   },
   {
     id: 34118,
-    name: 'Darkhempen Trousers of Aiming',
+    name: '黑麻精准软甲裤',
     level: 515,
     rarity: 1,
     slot: 7,
@@ -30345,7 +30345,7 @@ export default [
   },
   {
     id: 34119,
-    name: 'Gajaskin Shoes of Aiming',
+    name: '伽迦象革精准皮靴',
     level: 515,
     rarity: 1,
     slot: 8,
@@ -30366,7 +30366,7 @@ export default [
   },
   {
     id: 34120,
-    name: 'High Durium Helm of Scouting',
+    name: '辉翠银游击头盔',
     level: 515,
     rarity: 1,
     slot: 3,
@@ -30387,7 +30387,7 @@ export default [
   },
   {
     id: 34121,
-    name: 'Gajaskin Vest of Scouting',
+    name: '伽迦象革游击坎肩',
     level: 515,
     rarity: 1,
     slot: 4,
@@ -30408,7 +30408,7 @@ export default [
   },
   {
     id: 34122,
-    name: 'Fingerless Gajaskin Gloves of Scouting',
+    name: '伽迦象革游击半指护手',
     level: 515,
     rarity: 1,
     slot: 5,
@@ -30429,7 +30429,7 @@ export default [
   },
   {
     id: 34123,
-    name: 'Darkhempen Skirt of Scouting',
+    name: '黑麻游击短裙',
     level: 515,
     rarity: 1,
     slot: 7,
@@ -30450,7 +30450,7 @@ export default [
   },
   {
     id: 34124,
-    name: 'Gajaskin Shoes of Scouting',
+    name: '伽迦象革游击皮靴',
     level: 515,
     rarity: 1,
     slot: 8,
@@ -30471,7 +30471,7 @@ export default [
   },
   {
     id: 34125,
-    name: 'Gajaskin Circlet of Healing',
+    name: '伽迦象革治愈头冠',
     level: 515,
     rarity: 1,
     slot: 3,
@@ -30492,7 +30492,7 @@ export default [
   },
   {
     id: 34126,
-    name: 'Darkhempen Coat of Healing',
+    name: '黑麻治愈长衣',
     level: 515,
     rarity: 1,
     slot: 4,
@@ -30513,7 +30513,7 @@ export default [
   },
   {
     id: 34127,
-    name: 'Fingerless Darkhempen Gloves of Healing',
+    name: '黑麻治愈半指护手',
     level: 515,
     rarity: 1,
     slot: 5,
@@ -30534,7 +30534,7 @@ export default [
   },
   {
     id: 34128,
-    name: 'Darkhempen Bottoms of Healing',
+    name: '黑麻治愈打底裤',
     level: 515,
     rarity: 1,
     slot: 7,
@@ -30555,7 +30555,7 @@ export default [
   },
   {
     id: 34129,
-    name: 'Gajaskin Boots of Healing',
+    name: '伽迦象革治愈高筒靴',
     level: 515,
     rarity: 1,
     slot: 8,
@@ -30576,7 +30576,7 @@ export default [
   },
   {
     id: 34130,
-    name: 'Gajaskin Circlet of Casting',
+    name: '伽迦象革咏咒头冠',
     level: 515,
     rarity: 1,
     slot: 3,
@@ -30597,7 +30597,7 @@ export default [
   },
   {
     id: 34131,
-    name: 'Darkhempen Coat of Casting',
+    name: '黑麻咏咒长衣',
     level: 515,
     rarity: 1,
     slot: 4,
@@ -30618,7 +30618,7 @@ export default [
   },
   {
     id: 34132,
-    name: 'Fingerless Darkhempen Gloves of Casting',
+    name: '黑麻咏咒半指护手',
     level: 515,
     rarity: 1,
     slot: 5,
@@ -30639,7 +30639,7 @@ export default [
   },
   {
     id: 34133,
-    name: 'Darkhempen Bottoms of Casting',
+    name: '黑麻咏咒打底裤',
     level: 515,
     rarity: 1,
     slot: 7,
@@ -30660,7 +30660,7 @@ export default [
   },
   {
     id: 34134,
-    name: 'Gajaskin Boots of Casting',
+    name: '伽迦象革咏咒高筒靴',
     level: 515,
     rarity: 1,
     slot: 8,
@@ -30681,7 +30681,7 @@ export default [
   },
   {
     id: 34135,
-    name: 'Ametrine Earrings of Fending',
+    name: '紫黄晶御敌耳坠',
     level: 515,
     rarity: 1,
     slot: 9,
@@ -30702,7 +30702,7 @@ export default [
   },
   {
     id: 34136,
-    name: 'Ametrine Earrings of Slaying',
+    name: '紫黄晶强攻耳坠',
     level: 515,
     rarity: 1,
     slot: 9,
@@ -30723,7 +30723,7 @@ export default [
   },
   {
     id: 34137,
-    name: 'Ametrine Earrings of Aiming',
+    name: '紫黄晶精准耳坠',
     level: 515,
     rarity: 1,
     slot: 9,
@@ -30744,7 +30744,7 @@ export default [
   },
   {
     id: 34138,
-    name: 'Ametrine Earrings of Healing',
+    name: '紫黄晶治愈耳坠',
     level: 515,
     rarity: 1,
     slot: 9,
@@ -30765,7 +30765,7 @@ export default [
   },
   {
     id: 34139,
-    name: 'Ametrine Earrings of Casting',
+    name: '紫黄晶咏咒耳坠',
     level: 515,
     rarity: 1,
     slot: 9,
@@ -30786,7 +30786,7 @@ export default [
   },
   {
     id: 34140,
-    name: 'Ametrine Choker of Fending',
+    name: '紫黄晶御敌项环',
     level: 515,
     rarity: 1,
     slot: 10,
@@ -30807,7 +30807,7 @@ export default [
   },
   {
     id: 34141,
-    name: 'Ametrine Choker of Slaying',
+    name: '紫黄晶强攻项环',
     level: 515,
     rarity: 1,
     slot: 10,
@@ -30828,7 +30828,7 @@ export default [
   },
   {
     id: 34142,
-    name: 'Ametrine Choker of Aiming',
+    name: '紫黄晶精准项环',
     level: 515,
     rarity: 1,
     slot: 10,
@@ -30849,7 +30849,7 @@ export default [
   },
   {
     id: 34143,
-    name: 'Ametrine Choker of Healing',
+    name: '紫黄晶治愈项环',
     level: 515,
     rarity: 1,
     slot: 10,
@@ -30870,7 +30870,7 @@ export default [
   },
   {
     id: 34144,
-    name: 'Ametrine Choker of Casting',
+    name: '紫黄晶咏咒项环',
     level: 515,
     rarity: 1,
     slot: 10,
@@ -30891,7 +30891,7 @@ export default [
   },
   {
     id: 34145,
-    name: 'Ametrine Bracelet of Fending',
+    name: '紫黄晶御敌手环',
     level: 515,
     rarity: 1,
     slot: 11,
@@ -30912,7 +30912,7 @@ export default [
   },
   {
     id: 34146,
-    name: 'Ametrine Bracelet of Slaying',
+    name: '紫黄晶强攻手环',
     level: 515,
     rarity: 1,
     slot: 11,
@@ -30933,7 +30933,7 @@ export default [
   },
   {
     id: 34147,
-    name: 'Ametrine Bracelet of Aiming',
+    name: '紫黄晶精准手环',
     level: 515,
     rarity: 1,
     slot: 11,
@@ -30954,7 +30954,7 @@ export default [
   },
   {
     id: 34148,
-    name: 'Ametrine Bracelet of Healing',
+    name: '紫黄晶治愈手环',
     level: 515,
     rarity: 1,
     slot: 11,
@@ -30975,7 +30975,7 @@ export default [
   },
   {
     id: 34149,
-    name: 'Ametrine Bracelet of Casting',
+    name: '紫黄晶咏咒手环',
     level: 515,
     rarity: 1,
     slot: 11,
@@ -30996,7 +30996,7 @@ export default [
   },
   {
     id: 34150,
-    name: 'Ametrine Ring of Fending',
+    name: '紫黄晶御敌指环',
     level: 515,
     rarity: 1,
     slot: 12,
@@ -31017,7 +31017,7 @@ export default [
   },
   {
     id: 34151,
-    name: 'Ametrine Ring of Slaying',
+    name: '紫黄晶强攻指环',
     level: 515,
     rarity: 1,
     slot: 12,
@@ -31038,7 +31038,7 @@ export default [
   },
   {
     id: 34152,
-    name: 'Ametrine Ring of Aiming',
+    name: '紫黄晶精准指环',
     level: 515,
     rarity: 1,
     slot: 12,
@@ -31059,7 +31059,7 @@ export default [
   },
   {
     id: 34153,
-    name: 'Ametrine Ring of Healing',
+    name: '紫黄晶治愈指环',
     level: 515,
     rarity: 1,
     slot: 12,
@@ -31080,7 +31080,7 @@ export default [
   },
   {
     id: 34154,
-    name: 'Ametrine Ring of Casting',
+    name: '紫黄晶咏咒指环',
     level: 515,
     rarity: 1,
     slot: 12,
@@ -34827,7 +34827,7 @@ export default [
   },
   {
     id: 34155,
-    name: 'Monstrorum Falchion',
+    name: '异怪弯刃刀',
     level: 520,
     rarity: 2,
     slot: 1,
@@ -34848,7 +34848,7 @@ export default [
   },
   {
     id: 34156,
-    name: 'Monstrorum Claws',
+    name: '异怪爪',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -34869,7 +34869,7 @@ export default [
   },
   {
     id: 34157,
-    name: 'Monstrorum Battleaxe',
+    name: '异怪战斧',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -34890,7 +34890,7 @@ export default [
   },
   {
     id: 34158,
-    name: 'Monstrorum Fork',
+    name: '异怪战叉',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -34911,7 +34911,7 @@ export default [
   },
   {
     id: 34159,
-    name: 'Monstrorum Longbow',
+    name: '异怪长弓',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -34932,7 +34932,7 @@ export default [
   },
   {
     id: 34160,
-    name: 'Monstrorum Knives',
+    name: '异怪匕首',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -34953,7 +34953,7 @@ export default [
   },
   {
     id: 34161,
-    name: 'Monstrorum Greatsword',
+    name: '异怪巨剑',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -34974,7 +34974,7 @@ export default [
   },
   {
     id: 34162,
-    name: 'Monstrorum Pistol',
+    name: '异怪手枪',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -34995,7 +34995,7 @@ export default [
   },
   {
     id: 34163,
-    name: 'Monstrorum Signum',
+    name: '异怪符杖',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35015,7 +35015,7 @@ export default [
   },
   {
     id: 34164,
-    name: 'Monstrorum Rod',
+    name: '异怪咒杖',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35035,7 +35035,7 @@ export default [
   },
   {
     id: 34165,
-    name: 'Monstrorum Grimoire',
+    name: '异怪魔导书',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35055,7 +35055,7 @@ export default [
   },
   {
     id: 34166,
-    name: 'Monstrorum Codex',
+    name: '异怪魔导典',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35075,7 +35075,7 @@ export default [
   },
   {
     id: 34167,
-    name: 'Monstrorum Astrometer',
+    name: '异怪量天仪',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35095,7 +35095,7 @@ export default [
   },
   {
     id: 34168,
-    name: 'Monstrorum Katana',
+    name: '异怪武士刀',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35116,7 +35116,7 @@ export default [
   },
   {
     id: 34169,
-    name: 'Monstrorum Foil',
+    name: '异怪花剑',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35136,7 +35136,7 @@ export default [
   },
   {
     id: 34170,
-    name: 'Monstrorum Gunblade',
+    name: '异怪枪刃',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35157,7 +35157,7 @@ export default [
   },
   {
     id: 34171,
-    name: 'Monstrorum War Quoits',
+    name: '异怪战轮',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35178,7 +35178,7 @@ export default [
   },
   {
     id: 34172,
-    name: 'Monstrorum Syrinxi',
+    name: '异怪注射管',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35198,7 +35198,7 @@ export default [
   },
   {
     id: 34173,
-    name: 'Monstrorum Sickle',
+    name: '异怪夺命镰',
     level: 520,
     rarity: 2,
     slot: 13,
@@ -35219,7 +35219,7 @@ export default [
   },
   {
     id: 34174,
-    name: 'Monstrorum Shield',
+    name: '异怪盾',
     level: 520,
     rarity: 2,
     slot: 2,
@@ -35238,7 +35238,7 @@ export default [
   },
   {
     id: 34175,
-    name: 'Manusya Helm of Fending',
+    name: '人趣御敌头盔',
     level: 520,
     rarity: 2,
     slot: 3,
@@ -35257,7 +35257,7 @@ export default [
   },
   {
     id: 34176,
-    name: 'Manusya Coat of Fending',
+    name: '人趣御敌长衣',
     level: 520,
     rarity: 2,
     slot: 4,
@@ -35276,7 +35276,7 @@ export default [
   },
   {
     id: 34177,
-    name: 'Manusya Gauntlets of Fending',
+    name: '人趣御敌手铠',
     level: 520,
     rarity: 2,
     slot: 5,
@@ -35295,7 +35295,7 @@ export default [
   },
   {
     id: 34178,
-    name: 'Manusya Trousers of Fending',
+    name: '人趣御敌软甲裤',
     level: 520,
     rarity: 2,
     slot: 7,
@@ -35314,7 +35314,7 @@ export default [
   },
   {
     id: 34179,
-    name: 'Manusya Sabatons of Fending',
+    name: '人趣御敌铠靴',
     level: 520,
     rarity: 2,
     slot: 8,
@@ -35333,7 +35333,7 @@ export default [
   },
   {
     id: 34180,
-    name: 'Manusya Visor of Maiming',
+    name: '人趣制敌面罩',
     level: 520,
     rarity: 2,
     slot: 3,
@@ -35352,7 +35352,7 @@ export default [
   },
   {
     id: 34181,
-    name: 'Manusya Mail of Maiming',
+    name: '人趣制敌战铠',
     level: 520,
     rarity: 2,
     slot: 4,
@@ -35371,7 +35371,7 @@ export default [
   },
   {
     id: 34182,
-    name: 'Manusya Gloves of Maiming',
+    name: '人趣制敌手套',
     level: 520,
     rarity: 2,
     slot: 5,
@@ -35390,7 +35390,7 @@ export default [
   },
   {
     id: 34183,
-    name: 'Manusya Trousers of Maiming',
+    name: '人趣制敌软甲裤',
     level: 520,
     rarity: 2,
     slot: 7,
@@ -35409,7 +35409,7 @@ export default [
   },
   {
     id: 34184,
-    name: 'Manusya Sabatons of Maiming',
+    name: '人趣制敌铠靴',
     level: 520,
     rarity: 2,
     slot: 8,
@@ -35428,7 +35428,7 @@ export default [
   },
   {
     id: 34185,
-    name: 'Manusya Helm of Striking',
+    name: '人趣强袭头盔',
     level: 520,
     rarity: 2,
     slot: 3,
@@ -35447,7 +35447,7 @@ export default [
   },
   {
     id: 34186,
-    name: 'Manusya Jacket of Striking',
+    name: '人趣强袭短衣',
     level: 520,
     rarity: 2,
     slot: 4,
@@ -35466,7 +35466,7 @@ export default [
   },
   {
     id: 34187,
-    name: 'Manusya Gauntlets of Striking',
+    name: '人趣强袭手铠',
     level: 520,
     rarity: 2,
     slot: 5,
@@ -35485,7 +35485,7 @@ export default [
   },
   {
     id: 34188,
-    name: 'Manusya Sarouel of Striking',
+    name: '人趣强袭垮裤',
     level: 520,
     rarity: 2,
     slot: 7,
@@ -35504,7 +35504,7 @@ export default [
   },
   {
     id: 34189,
-    name: 'Manusya Greaves of Striking',
+    name: '人趣强袭胫甲',
     level: 520,
     rarity: 2,
     slot: 8,
@@ -35523,7 +35523,7 @@ export default [
   },
   {
     id: 34190,
-    name: 'Manusya Helm of Aiming',
+    name: '人趣精准头盔',
     level: 520,
     rarity: 2,
     slot: 3,
@@ -35542,7 +35542,7 @@ export default [
   },
   {
     id: 34191,
-    name: 'Manusya Coat of Aiming',
+    name: '人趣精准长衣',
     level: 520,
     rarity: 2,
     slot: 4,
@@ -35561,7 +35561,7 @@ export default [
   },
   {
     id: 34192,
-    name: 'Manusya Gauntlets of Aiming',
+    name: '人趣精准手铠',
     level: 520,
     rarity: 2,
     slot: 5,
@@ -35580,7 +35580,7 @@ export default [
   },
   {
     id: 34193,
-    name: 'Manusya Trousers of Aiming',
+    name: '人趣精准软甲裤',
     level: 520,
     rarity: 2,
     slot: 7,
@@ -35599,7 +35599,7 @@ export default [
   },
   {
     id: 34194,
-    name: 'Manusya Sabatons of Aiming',
+    name: '人趣精准铠靴',
     level: 520,
     rarity: 2,
     slot: 8,
@@ -35618,7 +35618,7 @@ export default [
   },
   {
     id: 34195,
-    name: 'Manusya Visor of Scouting',
+    name: '人趣游击面罩',
     level: 520,
     rarity: 2,
     slot: 3,
@@ -35637,7 +35637,7 @@ export default [
   },
   {
     id: 34196,
-    name: 'Manusya Chestpiece of Scouting',
+    name: '人趣游击胸衣',
     level: 520,
     rarity: 2,
     slot: 4,
@@ -35656,7 +35656,7 @@ export default [
   },
   {
     id: 34197,
-    name: 'Manusya Gauntlets of Scouting',
+    name: '人趣游击手铠',
     level: 520,
     rarity: 2,
     slot: 5,
@@ -35675,7 +35675,7 @@ export default [
   },
   {
     id: 34198,
-    name: 'Manusya Trousers of Scouting',
+    name: '人趣游击软甲裤',
     level: 520,
     rarity: 2,
     slot: 7,
@@ -35694,7 +35694,7 @@ export default [
   },
   {
     id: 34199,
-    name: 'Manusya Sabatons of Scouting',
+    name: '人趣游击铠靴',
     level: 520,
     rarity: 2,
     slot: 8,
@@ -35713,7 +35713,7 @@ export default [
   },
   {
     id: 34200,
-    name: 'Manusya Mask of Healing',
+    name: '人趣治愈面具',
     level: 520,
     rarity: 2,
     slot: 3,
@@ -35732,7 +35732,7 @@ export default [
   },
   {
     id: 34201,
-    name: 'Manusya Chestpiece of Healing',
+    name: '人趣治愈胸衣',
     level: 520,
     rarity: 2,
     slot: 4,
@@ -35751,7 +35751,7 @@ export default [
   },
   {
     id: 34202,
-    name: 'Manusya Gauntlets of Healing',
+    name: '人趣治愈手铠',
     level: 520,
     rarity: 2,
     slot: 5,
@@ -35770,7 +35770,7 @@ export default [
   },
   {
     id: 34203,
-    name: 'Manusya Trousers of Healing',
+    name: '人趣治愈软甲裤',
     level: 520,
     rarity: 2,
     slot: 7,
@@ -35789,7 +35789,7 @@ export default [
   },
   {
     id: 34204,
-    name: 'Manusya Sabatons of Healing',
+    name: '人趣治愈铠靴',
     level: 520,
     rarity: 2,
     slot: 8,
@@ -35808,7 +35808,7 @@ export default [
   },
   {
     id: 34205,
-    name: 'Manusya Mask of Casting',
+    name: '人趣咏咒面具',
     level: 520,
     rarity: 2,
     slot: 3,
@@ -35827,7 +35827,7 @@ export default [
   },
   {
     id: 34206,
-    name: 'Manusya Jacket of Casting',
+    name: '人趣咏咒短衣',
     level: 520,
     rarity: 2,
     slot: 4,
@@ -35846,7 +35846,7 @@ export default [
   },
   {
     id: 34207,
-    name: 'Manusya Gauntlets of Casting',
+    name: '人趣咏咒手铠',
     level: 520,
     rarity: 2,
     slot: 5,
@@ -35865,7 +35865,7 @@ export default [
   },
   {
     id: 34208,
-    name: 'Manusya Sarouel of Casting',
+    name: '人趣咏咒垮裤',
     level: 520,
     rarity: 2,
     slot: 7,
@@ -35884,7 +35884,7 @@ export default [
   },
   {
     id: 34209,
-    name: 'Manusya Greaves of Casting',
+    name: '人趣咏咒胫甲',
     level: 520,
     rarity: 2,
     slot: 8,
@@ -35903,7 +35903,7 @@ export default [
   },
   {
     id: 34210,
-    name: 'Manusya Earrings of Fending',
+    name: '人趣御敌耳坠',
     level: 520,
     rarity: 2,
     slot: 9,
@@ -35922,7 +35922,7 @@ export default [
   },
   {
     id: 34211,
-    name: 'Manusya Earrings of Slaying',
+    name: '人趣强攻耳坠',
     level: 520,
     rarity: 2,
     slot: 9,
@@ -35941,7 +35941,7 @@ export default [
   },
   {
     id: 34212,
-    name: 'Manusya Earrings of Aiming',
+    name: '人趣精准耳坠',
     level: 520,
     rarity: 2,
     slot: 9,
@@ -35960,7 +35960,7 @@ export default [
   },
   {
     id: 34213,
-    name: 'Manusya Earrings of Healing',
+    name: '人趣治愈耳坠',
     level: 520,
     rarity: 2,
     slot: 9,
@@ -35979,7 +35979,7 @@ export default [
   },
   {
     id: 34214,
-    name: 'Manusya Earrings of Casting',
+    name: '人趣咏咒耳坠',
     level: 520,
     rarity: 2,
     slot: 9,
@@ -35998,7 +35998,7 @@ export default [
   },
   {
     id: 34215,
-    name: 'Manusya Choker of Fending',
+    name: '人趣御敌项环',
     level: 520,
     rarity: 2,
     slot: 10,
@@ -36017,7 +36017,7 @@ export default [
   },
   {
     id: 34216,
-    name: 'Manusya Choker of Slaying',
+    name: '人趣强攻项环',
     level: 520,
     rarity: 2,
     slot: 10,
@@ -36036,7 +36036,7 @@ export default [
   },
   {
     id: 34217,
-    name: 'Manusya Choker of Aiming',
+    name: '人趣精准项环',
     level: 520,
     rarity: 2,
     slot: 10,
@@ -36055,7 +36055,7 @@ export default [
   },
   {
     id: 34218,
-    name: 'Manusya Choker of Healing',
+    name: '人趣治愈项环',
     level: 520,
     rarity: 2,
     slot: 10,
@@ -36074,7 +36074,7 @@ export default [
   },
   {
     id: 34219,
-    name: 'Manusya Choker of Casting',
+    name: '人趣咏咒项环',
     level: 520,
     rarity: 2,
     slot: 10,
@@ -36093,7 +36093,7 @@ export default [
   },
   {
     id: 34220,
-    name: 'Manusya Amulet of Fending',
+    name: '人趣御敌手镯',
     level: 520,
     rarity: 2,
     slot: 11,
@@ -36112,7 +36112,7 @@ export default [
   },
   {
     id: 34221,
-    name: 'Manusya Amulet of Slaying',
+    name: '人趣强攻手镯',
     level: 520,
     rarity: 2,
     slot: 11,
@@ -36131,7 +36131,7 @@ export default [
   },
   {
     id: 34222,
-    name: 'Manusya Amulet of Aiming',
+    name: '人趣精准手镯',
     level: 520,
     rarity: 2,
     slot: 11,
@@ -36150,7 +36150,7 @@ export default [
   },
   {
     id: 34223,
-    name: 'Manusya Amulet of Healing',
+    name: '人趣治愈手镯',
     level: 520,
     rarity: 2,
     slot: 11,
@@ -36169,7 +36169,7 @@ export default [
   },
   {
     id: 34224,
-    name: 'Manusya Amulet of Casting',
+    name: '人趣咏咒手镯',
     level: 520,
     rarity: 2,
     slot: 11,
@@ -36188,7 +36188,7 @@ export default [
   },
   {
     id: 34225,
-    name: 'Manusya Ring of Fending',
+    name: '人趣御敌指环',
     level: 520,
     rarity: 2,
     slot: 12,
@@ -36207,7 +36207,7 @@ export default [
   },
   {
     id: 34226,
-    name: 'Manusya Ring of Slaying',
+    name: '人趣强攻指环',
     level: 520,
     rarity: 2,
     slot: 12,
@@ -36226,7 +36226,7 @@ export default [
   },
   {
     id: 34227,
-    name: 'Manusya Ring of Aiming',
+    name: '人趣精准指环',
     level: 520,
     rarity: 2,
     slot: 12,
@@ -36245,7 +36245,7 @@ export default [
   },
   {
     id: 34228,
-    name: 'Manusya Ring of Healing',
+    name: '人趣治愈指环',
     level: 520,
     rarity: 2,
     slot: 12,
@@ -36264,7 +36264,7 @@ export default [
   },
   {
     id: 34229,
-    name: 'Manusya Ring of Casting',
+    name: '人趣咏咒指环',
     level: 520,
     rarity: 2,
     slot: 12,
@@ -36283,7 +36283,7 @@ export default [
   },
   {
     id: 35341,
-    name: 'Bismuth Saw',
+    name: '铋金手锯',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36302,7 +36302,7 @@ export default [
   },
   {
     id: 35342,
-    name: 'Bismuth Cross-pein Hammer',
+    name: '铋金横头锤',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36321,7 +36321,7 @@ export default [
   },
   {
     id: 35343,
-    name: 'Bismuth Raising Hammer',
+    name: '铋金圆头锤',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36340,7 +36340,7 @@ export default [
   },
   {
     id: 35344,
-    name: 'Bismuth Lapidary Hammer',
+    name: '铋金工艺锤',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36359,7 +36359,7 @@ export default [
   },
   {
     id: 35345,
-    name: 'Bismuth Round Knife',
+    name: '铋金圆革刀',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36378,7 +36378,7 @@ export default [
   },
   {
     id: 35346,
-    name: 'Phrygian Needle',
+    name: '弗里金缝针',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36397,7 +36397,7 @@ export default [
   },
   {
     id: 35347,
-    name: 'Bismuth Alembic',
+    name: '铋金蒸馏器',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36416,7 +36416,7 @@ export default [
   },
   {
     id: 35348,
-    name: 'Bismuth Fat Cat Frypan',
+    name: '铋金猫小胖煎锅',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36435,7 +36435,7 @@ export default [
   },
   {
     id: 35349,
-    name: 'Bismuth Pickaxe',
+    name: '铋金鹤嘴锄',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36455,7 +36455,7 @@ export default [
   },
   {
     id: 35350,
-    name: 'Bismuth Hatchet',
+    name: '铋金手斧',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36475,7 +36475,7 @@ export default [
   },
   {
     id: 35351,
-    name: 'Red Pine Fishing Rod',
+    name: '红松木钓竿',
     level: 520,
     rarity: 1,
     slot: 1,
@@ -36495,7 +36495,7 @@ export default [
   },
   {
     id: 35352,
-    name: 'Bismuth Claw Hammer',
+    name: '铋金羊角锤',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36514,7 +36514,7 @@ export default [
   },
   {
     id: 35353,
-    name: 'Bismuth File',
+    name: '铋金锉刀',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36533,7 +36533,7 @@ export default [
   },
   {
     id: 35354,
-    name: 'Bismuth Pliers',
+    name: '铋金手钳',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36552,7 +36552,7 @@ export default [
   },
   {
     id: 35355,
-    name: 'Red Pine Grinding Wheel',
+    name: '红松木泥岩砂轮机',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36571,7 +36571,7 @@ export default [
   },
   {
     id: 35356,
-    name: 'Bismuth Awl',
+    name: '铋金平斩',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36590,7 +36590,7 @@ export default [
   },
   {
     id: 35357,
-    name: 'Red Pine Spinning Wheel',
+    name: '红松木纺车',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36609,7 +36609,7 @@ export default [
   },
   {
     id: 35358,
-    name: 'Bismuth Mortar',
+    name: '铋金研钵',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36628,7 +36628,7 @@ export default [
   },
   {
     id: 35359,
-    name: 'Bismuth Culinary Knife',
+    name: '铋金厨刀',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36647,7 +36647,7 @@ export default [
   },
   {
     id: 35360,
-    name: 'Bismuth Sledgehammer',
+    name: '铋金碎石锤',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36666,7 +36666,7 @@ export default [
   },
   {
     id: 35361,
-    name: 'Bismuth Garden Scythe',
+    name: '铋金园艺镰',
     level: 520,
     rarity: 1,
     slot: 2,
@@ -36685,7 +36685,7 @@ export default [
   },
   {
     id: 35414,
-    name: 'Snow Linen Turban of Crafting',
+    name: '雪亚麻布巧匠包头巾',
     level: 520,
     rarity: 1,
     slot: 3,
@@ -36704,7 +36704,7 @@ export default [
   },
   {
     id: 35415,
-    name: 'Snow Linen Doublet of Crafting',
+    name: '雪亚麻布巧匠工作坎肩',
     level: 520,
     rarity: 1,
     slot: 4,
@@ -36724,7 +36724,7 @@ export default [
   },
   {
     id: 35416,
-    name: 'Saigaskin Gloves of Crafting',
+    name: '赛加羚羊革巧匠手套',
     level: 520,
     rarity: 1,
     slot: 5,
@@ -36743,7 +36743,7 @@ export default [
   },
   {
     id: 35417,
-    name: 'Snow Linen Bottoms of Crafting',
+    name: '雪亚麻布巧匠打底裤',
     level: 520,
     rarity: 1,
     slot: 7,
@@ -36762,7 +36762,7 @@ export default [
   },
   {
     id: 35418,
-    name: 'Saigaskin Shoes of Crafting',
+    name: '赛加羚羊革巧匠皮鞋',
     level: 520,
     rarity: 1,
     slot: 8,
@@ -36781,7 +36781,7 @@ export default [
   },
   {
     id: 35419,
-    name: 'Snow Linen Turban of Gathering',
+    name: '雪亚麻布大地包头巾',
     level: 520,
     rarity: 1,
     slot: 3,
@@ -36800,7 +36800,7 @@ export default [
   },
   {
     id: 35420,
-    name: 'Snow Linen Coat of Gathering',
+    name: '雪亚麻布大地外套',
     level: 520,
     rarity: 1,
     slot: 4,
@@ -36821,7 +36821,7 @@ export default [
   },
   {
     id: 35421,
-    name: 'Saigaskin Halfgloves of Gathering',
+    name: '赛加羚羊革大地手套',
     level: 520,
     rarity: 1,
     slot: 5,
@@ -36841,7 +36841,7 @@ export default [
   },
   {
     id: 35422,
-    name: 'Snow Linen Bottoms of Gathering',
+    name: '雪亚麻布大地打底裤',
     level: 520,
     rarity: 1,
     slot: 7,
@@ -36862,7 +36862,7 @@ export default [
   },
   {
     id: 35423,
-    name: 'Saigaskin Sandals of Gathering',
+    name: '赛加羚羊革大地皮鞋',
     level: 520,
     rarity: 1,
     slot: 8,
@@ -37864,7 +37864,7 @@ export default [
   },
   {
     id: 34230,
-    name: 'High Durium Longsword',
+    name: '辉翠银长剑',
     level: 525,
     rarity: 1,
     slot: 1,
@@ -37887,7 +37887,7 @@ export default [
   },
   {
     id: 34231,
-    name: 'High Durium Cesti',
+    name: '辉翠银钢拳',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -37910,7 +37910,7 @@ export default [
   },
   {
     id: 34232,
-    name: 'High Durium Bhuj',
+    name: '辉翠银长刃斧',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -37933,7 +37933,7 @@ export default [
   },
   {
     id: 34233,
-    name: 'Palm Halberd',
+    name: '棕榈战戟',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -37956,7 +37956,7 @@ export default [
   },
   {
     id: 34234,
-    name: 'Palm Longbow',
+    name: '棕榈长弓',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -37979,7 +37979,7 @@ export default [
   },
   {
     id: 34235,
-    name: 'High Durium Knives',
+    name: '辉翠银匕首',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38002,7 +38002,7 @@ export default [
   },
   {
     id: 34236,
-    name: 'High Durium Greatsword',
+    name: '辉翠银巨剑',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38025,7 +38025,7 @@ export default [
   },
   {
     id: 34237,
-    name: 'High Durium Musketoon',
+    name: '辉翠银火枪',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38048,7 +38048,7 @@ export default [
   },
   {
     id: 34238,
-    name: 'Palm Crook',
+    name: '棕榈手杖',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38070,7 +38070,7 @@ export default [
   },
   {
     id: 34239,
-    name: 'Pewter Rod',
+    name: '白镴咒杖',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38092,7 +38092,7 @@ export default [
   },
   {
     id: 34240,
-    name: 'Luncheon Toadskin Grimoire',
+    name: '山鸡革魔导书',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38114,7 +38114,7 @@ export default [
   },
   {
     id: 34241,
-    name: 'Luncheon Toadskin Codex',
+    name: '山鸡革魔导典',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38136,7 +38136,7 @@ export default [
   },
   {
     id: 34242,
-    name: 'Pewter Astrometer',
+    name: '白镴量天仪',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38158,7 +38158,7 @@ export default [
   },
   {
     id: 34243,
-    name: 'High Durium Uchigatana',
+    name: '辉翠银打刀',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38181,7 +38181,7 @@ export default [
   },
   {
     id: 34244,
-    name: 'Pewter Rapier',
+    name: '白镴刺剑',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38203,7 +38203,7 @@ export default [
   },
   {
     id: 34245,
-    name: 'High Durium Bayonet',
+    name: '辉翠银刺刀',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38226,7 +38226,7 @@ export default [
   },
   {
     id: 34246,
-    name: 'High Durium Glaives',
+    name: '辉翠银轮刃',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38249,7 +38249,7 @@ export default [
   },
   {
     id: 34247,
-    name: 'Pewter Pendulums',
+    name: '白镴振空摆',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38271,7 +38271,7 @@ export default [
   },
   {
     id: 34248,
-    name: 'High Durium War Scythe',
+    name: '辉翠银战镰',
     level: 525,
     rarity: 1,
     slot: 13,
@@ -38294,7 +38294,7 @@ export default [
   },
   {
     id: 34249,
-    name: 'High Durium Kite Shield',
+    name: '辉翠银鸢盾',
     level: 525,
     rarity: 1,
     slot: 2,
@@ -38314,7 +38314,7 @@ export default [
   },
   {
     id: 34250,
-    name: 'Pewter Circlet of Fending',
+    name: '白镴御敌头冠',
     level: 525,
     rarity: 1,
     slot: 3,
@@ -38335,7 +38335,7 @@ export default [
   },
   {
     id: 34251,
-    name: 'High Durium Armor of Fending',
+    name: '辉翠银御敌战甲',
     level: 525,
     rarity: 1,
     slot: 4,
@@ -38356,7 +38356,7 @@ export default [
   },
   {
     id: 34252,
-    name: 'High Durium Gauntlets of Fending',
+    name: '辉翠银御敌手铠',
     level: 525,
     rarity: 1,
     slot: 5,
@@ -38377,7 +38377,7 @@ export default [
   },
   {
     id: 34253,
-    name: 'Luncheon Toadskin Hose of Fending',
+    name: '山鸡革御敌骑兵裤',
     level: 525,
     rarity: 1,
     slot: 7,
@@ -38398,7 +38398,7 @@ export default [
   },
   {
     id: 34254,
-    name: 'High Durium Sollerets of Fending',
+    name: '辉翠银御敌锁甲靴',
     level: 525,
     rarity: 1,
     slot: 8,
@@ -38419,7 +38419,7 @@ export default [
   },
   {
     id: 34255,
-    name: 'Pewter Circlet of Maiming',
+    name: '白镴制敌头冠',
     level: 525,
     rarity: 1,
     slot: 3,
@@ -38440,7 +38440,7 @@ export default [
   },
   {
     id: 34256,
-    name: 'High Durium Armor of Maiming',
+    name: '辉翠银制敌战甲',
     level: 525,
     rarity: 1,
     slot: 4,
@@ -38461,7 +38461,7 @@ export default [
   },
   {
     id: 34257,
-    name: 'High Durium Gauntlets of Maiming',
+    name: '辉翠银制敌手铠',
     level: 525,
     rarity: 1,
     slot: 5,
@@ -38482,7 +38482,7 @@ export default [
   },
   {
     id: 34258,
-    name: 'Luncheon Toadskin Hose of Maiming',
+    name: '山鸡革制敌骑兵裤',
     level: 525,
     rarity: 1,
     slot: 7,
@@ -38503,7 +38503,7 @@ export default [
   },
   {
     id: 34259,
-    name: 'High Durium Sollerets of Maiming',
+    name: '辉翠银制敌锁甲靴',
     level: 525,
     rarity: 1,
     slot: 8,
@@ -38524,7 +38524,7 @@ export default [
   },
   {
     id: 34260,
-    name: 'Almasty Serge Headband of Striking',
+    name: '阿尔马斯提强袭头带',
     level: 525,
     rarity: 1,
     slot: 3,
@@ -38545,7 +38545,7 @@ export default [
   },
   {
     id: 34261,
-    name: 'Luncheon Toadskin Jacket of Striking',
+    name: '山鸡革强袭短衣',
     level: 525,
     rarity: 1,
     slot: 4,
@@ -38566,7 +38566,7 @@ export default [
   },
   {
     id: 34262,
-    name: 'Luncheon Toadskin Gloves of Striking',
+    name: '山鸡革强袭手套',
     level: 525,
     rarity: 1,
     slot: 5,
@@ -38587,7 +38587,7 @@ export default [
   },
   {
     id: 34263,
-    name: 'Luncheon Toadskin Hose of Striking',
+    name: '山鸡革强袭骑兵裤',
     level: 525,
     rarity: 1,
     slot: 7,
@@ -38608,7 +38608,7 @@ export default [
   },
   {
     id: 34264,
-    name: 'Luncheon Toadskin Boots of Striking',
+    name: '山鸡革强袭短靴',
     level: 525,
     rarity: 1,
     slot: 8,
@@ -38629,7 +38629,7 @@ export default [
   },
   {
     id: 34265,
-    name: 'Almasty Serge Hat of Aiming',
+    name: '阿尔马斯提精准狩猎帽',
     level: 525,
     rarity: 1,
     slot: 3,
@@ -38650,7 +38650,7 @@ export default [
   },
   {
     id: 34266,
-    name: 'Almasty Serge Coat of Aiming',
+    name: '阿尔马斯提精准外套',
     level: 525,
     rarity: 1,
     slot: 4,
@@ -38671,7 +38671,7 @@ export default [
   },
   {
     id: 34267,
-    name: 'Almasty Serge Gloves of Aiming',
+    name: '阿尔马斯提精准手套',
     level: 525,
     rarity: 1,
     slot: 5,
@@ -38692,7 +38692,7 @@ export default [
   },
   {
     id: 34268,
-    name: 'Luncheon Toadskin Hose of Aiming',
+    name: '山鸡革精准骑兵裤',
     level: 525,
     rarity: 1,
     slot: 7,
@@ -38713,7 +38713,7 @@ export default [
   },
   {
     id: 34269,
-    name: 'Luncheon Toadskin Thighboots of Aiming',
+    name: '山鸡革精准高筒靴',
     level: 525,
     rarity: 1,
     slot: 8,
@@ -38734,7 +38734,7 @@ export default [
   },
   {
     id: 34270,
-    name: 'Almasty Serge Headband of Scouting',
+    name: '阿尔马斯提游击头带',
     level: 525,
     rarity: 1,
     slot: 3,
@@ -38755,7 +38755,7 @@ export default [
   },
   {
     id: 34271,
-    name: 'Luncheon Toadskin Jacket of Scouting',
+    name: '山鸡革游击短衣',
     level: 525,
     rarity: 1,
     slot: 4,
@@ -38776,7 +38776,7 @@ export default [
   },
   {
     id: 34272,
-    name: 'Luncheon Toadskin Gloves of Scouting',
+    name: '山鸡革游击手套',
     level: 525,
     rarity: 1,
     slot: 5,
@@ -38797,7 +38797,7 @@ export default [
   },
   {
     id: 34273,
-    name: 'Luncheon Toadskin Hose of Scouting',
+    name: '山鸡革游击骑兵裤',
     level: 525,
     rarity: 1,
     slot: 7,
@@ -38818,7 +38818,7 @@ export default [
   },
   {
     id: 34274,
-    name: 'Luncheon Toadskin Thighboots of Scouting',
+    name: '山鸡革游击高筒靴',
     level: 525,
     rarity: 1,
     slot: 8,
@@ -38839,7 +38839,7 @@ export default [
   },
   {
     id: 34275,
-    name: 'Almasty Serge Hat of Healing',
+    name: '阿尔马斯提治愈无檐帽',
     level: 525,
     rarity: 1,
     slot: 3,
@@ -38860,7 +38860,7 @@ export default [
   },
   {
     id: 34276,
-    name: 'Almasty Serge Coat of Healing',
+    name: '阿尔马斯提治愈外套',
     level: 525,
     rarity: 1,
     slot: 4,
@@ -38881,7 +38881,7 @@ export default [
   },
   {
     id: 34277,
-    name: 'Almasty Serge Gloves of Healing',
+    name: '阿尔马斯提治愈手套',
     level: 525,
     rarity: 1,
     slot: 5,
@@ -38902,7 +38902,7 @@ export default [
   },
   {
     id: 34278,
-    name: 'Luncheon Toadskin Hose of Healing',
+    name: '山鸡革治愈骑兵裤',
     level: 525,
     rarity: 1,
     slot: 7,
@@ -38923,7 +38923,7 @@ export default [
   },
   {
     id: 34279,
-    name: 'Luncheon Toadskin Thighboots of Healing',
+    name: '山鸡革治愈高筒靴',
     level: 525,
     rarity: 1,
     slot: 8,
@@ -38944,7 +38944,7 @@ export default [
   },
   {
     id: 34280,
-    name: 'Almasty Serge Hat of Casting',
+    name: '阿尔马斯提咏咒礼帽',
     level: 525,
     rarity: 1,
     slot: 3,
@@ -38965,7 +38965,7 @@ export default [
   },
   {
     id: 34281,
-    name: 'Almasty Serge Coat of Casting',
+    name: '阿尔马斯提咏咒外套',
     level: 525,
     rarity: 1,
     slot: 4,
@@ -38986,7 +38986,7 @@ export default [
   },
   {
     id: 34282,
-    name: 'Almasty Serge Gloves of Casting',
+    name: '阿尔马斯提咏咒手套',
     level: 525,
     rarity: 1,
     slot: 5,
@@ -39007,7 +39007,7 @@ export default [
   },
   {
     id: 34283,
-    name: 'Luncheon Toadskin Hose of Casting',
+    name: '山鸡革咏咒骑兵裤',
     level: 525,
     rarity: 1,
     slot: 7,
@@ -39028,7 +39028,7 @@ export default [
   },
   {
     id: 34284,
-    name: 'Luncheon Toadskin Thighboots of Casting',
+    name: '山鸡革咏咒高筒靴',
     level: 525,
     rarity: 1,
     slot: 8,
@@ -39049,7 +39049,7 @@ export default [
   },
   {
     id: 34285,
-    name: 'Palm Ear Cuffs of Fending',
+    name: '棕榈御敌耳夹',
     level: 525,
     rarity: 1,
     slot: 9,
@@ -39070,7 +39070,7 @@ export default [
   },
   {
     id: 34286,
-    name: 'Palm Ear Cuffs of Slaying',
+    name: '棕榈强攻耳夹',
     level: 525,
     rarity: 1,
     slot: 9,
@@ -39091,7 +39091,7 @@ export default [
   },
   {
     id: 34287,
-    name: 'Palm Ear Cuffs of Aiming',
+    name: '棕榈精准耳夹',
     level: 525,
     rarity: 1,
     slot: 9,
@@ -39112,7 +39112,7 @@ export default [
   },
   {
     id: 34288,
-    name: 'Palm Ear Cuffs of Healing',
+    name: '棕榈治愈耳夹',
     level: 525,
     rarity: 1,
     slot: 9,
@@ -39133,7 +39133,7 @@ export default [
   },
   {
     id: 34289,
-    name: 'Palm Ear Cuffs of Casting',
+    name: '棕榈咏咒耳夹',
     level: 525,
     rarity: 1,
     slot: 9,
@@ -39154,7 +39154,7 @@ export default [
   },
   {
     id: 34290,
-    name: 'Pewter Choker of Fending',
+    name: '白镴御敌项环',
     level: 525,
     rarity: 1,
     slot: 10,
@@ -39175,7 +39175,7 @@ export default [
   },
   {
     id: 34291,
-    name: 'Pewter Choker of Slaying',
+    name: '白镴强攻项环',
     level: 525,
     rarity: 1,
     slot: 10,
@@ -39196,7 +39196,7 @@ export default [
   },
   {
     id: 34292,
-    name: 'Pewter Choker of Aiming',
+    name: '白镴精准项环',
     level: 525,
     rarity: 1,
     slot: 10,
@@ -39217,7 +39217,7 @@ export default [
   },
   {
     id: 34293,
-    name: 'Pewter Choker of Healing',
+    name: '白镴治愈项环',
     level: 525,
     rarity: 1,
     slot: 10,
@@ -39238,7 +39238,7 @@ export default [
   },
   {
     id: 34294,
-    name: 'Pewter Choker of Casting',
+    name: '白镴咏咒项环',
     level: 525,
     rarity: 1,
     slot: 10,
@@ -39259,7 +39259,7 @@ export default [
   },
   {
     id: 34295,
-    name: 'Palm Bracelets of Fending',
+    name: '棕榈御敌手环',
     level: 525,
     rarity: 1,
     slot: 11,
@@ -39280,7 +39280,7 @@ export default [
   },
   {
     id: 34296,
-    name: 'Palm Bracelets of Slaying',
+    name: '棕榈强攻手环',
     level: 525,
     rarity: 1,
     slot: 11,
@@ -39301,7 +39301,7 @@ export default [
   },
   {
     id: 34297,
-    name: 'Palm Bracelets of Aiming',
+    name: '棕榈精准手环',
     level: 525,
     rarity: 1,
     slot: 11,
@@ -39322,7 +39322,7 @@ export default [
   },
   {
     id: 34298,
-    name: 'Palm Bracelets of Healing',
+    name: '棕榈治愈手环',
     level: 525,
     rarity: 1,
     slot: 11,
@@ -39343,7 +39343,7 @@ export default [
   },
   {
     id: 34299,
-    name: 'Palm Bracelets of Casting',
+    name: '棕榈咏咒手环',
     level: 525,
     rarity: 1,
     slot: 11,
@@ -39364,7 +39364,7 @@ export default [
   },
   {
     id: 34300,
-    name: 'Pewter Ring of Fending',
+    name: '白镴御敌指环',
     level: 525,
     rarity: 1,
     slot: 12,
@@ -39385,7 +39385,7 @@ export default [
   },
   {
     id: 34301,
-    name: 'Pewter Ring of Slaying',
+    name: '白镴强攻指环',
     level: 525,
     rarity: 1,
     slot: 12,
@@ -39406,7 +39406,7 @@ export default [
   },
   {
     id: 34302,
-    name: 'Pewter Ring of Aiming',
+    name: '白镴精准指环',
     level: 525,
     rarity: 1,
     slot: 12,
@@ -39427,7 +39427,7 @@ export default [
   },
   {
     id: 34303,
-    name: 'Pewter Ring of Healing',
+    name: '白镴治愈指环',
     level: 525,
     rarity: 1,
     slot: 12,
@@ -39448,7 +39448,7 @@ export default [
   },
   {
     id: 34304,
-    name: 'Pewter Ring of Casting',
+    name: '白镴咏咒指环',
     level: 525,
     rarity: 1,
     slot: 12,
@@ -42053,7 +42053,7 @@ export default [
   },
   {
     id: 34305,
-    name: 'Imperial Magitek Sword',
+    name: '帝国魔导剑',
     level: 530,
     rarity: 2,
     slot: 1,
@@ -42074,7 +42074,7 @@ export default [
   },
   {
     id: 34306,
-    name: 'Imperial Magitek Baghnakhs',
+    name: '帝国魔导虎爪',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42095,7 +42095,7 @@ export default [
   },
   {
     id: 34307,
-    name: 'Imperial Magitek Axe',
+    name: '帝国魔导战斧',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42116,7 +42116,7 @@ export default [
   },
   {
     id: 34308,
-    name: 'Imperial Magitek Spear',
+    name: '帝国魔导长枪',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42137,7 +42137,7 @@ export default [
   },
   {
     id: 34309,
-    name: 'Imperial Magitek Bow',
+    name: '帝国魔导弓',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42158,7 +42158,7 @@ export default [
   },
   {
     id: 34310,
-    name: 'Imperial Magitek Cleavers',
+    name: '帝国魔导屠刀',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42179,7 +42179,7 @@ export default [
   },
   {
     id: 34311,
-    name: 'Imperial Magitek Guillotine',
+    name: '帝国魔导断头剑',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42200,7 +42200,7 @@ export default [
   },
   {
     id: 34312,
-    name: 'Imperial Magitek Handgonne',
+    name: '帝国魔导手炮',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42221,7 +42221,7 @@ export default [
   },
   {
     id: 34313,
-    name: 'Imperial Magitek Cane',
+    name: '帝国魔导牧杖',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42241,7 +42241,7 @@ export default [
   },
   {
     id: 34314,
-    name: 'Imperial Magitek Rod',
+    name: '帝国魔导咒杖',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42261,7 +42261,7 @@ export default [
   },
   {
     id: 34315,
-    name: 'Imperial Magitek Index',
+    name: '帝国魔导魔导书',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42281,7 +42281,7 @@ export default [
   },
   {
     id: 34316,
-    name: 'Imperial Magitek Codex',
+    name: '帝国魔导魔导典',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42301,7 +42301,7 @@ export default [
   },
   {
     id: 34317,
-    name: 'Imperial Magitek Planisphere',
+    name: '帝国魔导天星盘',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42321,7 +42321,7 @@ export default [
   },
   {
     id: 34318,
-    name: 'Imperial Magitek Samurai Blade',
+    name: '帝国魔导武士刀',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42342,7 +42342,7 @@ export default [
   },
   {
     id: 34319,
-    name: 'Imperial Magitek Tuck',
+    name: '帝国魔导刺剑',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42362,7 +42362,7 @@ export default [
   },
   {
     id: 34320,
-    name: 'Imperial Magitek Sawback',
+    name: '帝国魔导锯刃',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42383,7 +42383,7 @@ export default [
   },
   {
     id: 34321,
-    name: 'Imperial Magitek Glaives',
+    name: '帝国魔导轮刃',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42404,7 +42404,7 @@ export default [
   },
   {
     id: 34322,
-    name: 'Imperial Magitek Wings',
+    name: '帝国魔导飞翼',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42424,7 +42424,7 @@ export default [
   },
   {
     id: 34323,
-    name: 'Imperial Magitek War Scythe',
+    name: '帝国魔导战镰',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -42445,7 +42445,7 @@ export default [
   },
   {
     id: 34324,
-    name: 'Imperial Magitek Shield',
+    name: '帝国魔导盾',
     level: 530,
     rarity: 2,
     slot: 2,
@@ -42464,7 +42464,7 @@ export default [
   },
   {
     id: 34325,
-    name: 'Imperial Cap of Fending',
+    name: '帝国御敌军帽',
     level: 530,
     rarity: 2,
     slot: 3,
@@ -42483,7 +42483,7 @@ export default [
   },
   {
     id: 34326,
-    name: 'Imperial Coat of Fending',
+    name: '帝国御敌长衣',
     level: 530,
     rarity: 2,
     slot: 4,
@@ -42502,7 +42502,7 @@ export default [
   },
   {
     id: 34327,
-    name: 'Imperial Gloves of Fending',
+    name: '帝国御敌手套',
     level: 530,
     rarity: 2,
     slot: 5,
@@ -42521,7 +42521,7 @@ export default [
   },
   {
     id: 34328,
-    name: 'Imperial Breeches of Fending',
+    name: '帝国御敌马裤',
     level: 530,
     rarity: 2,
     slot: 7,
@@ -42540,7 +42540,7 @@ export default [
   },
   {
     id: 34329,
-    name: 'Imperial Boots of Fending',
+    name: '帝国御敌筒靴',
     level: 530,
     rarity: 2,
     slot: 8,
@@ -42559,7 +42559,7 @@ export default [
   },
   {
     id: 34330,
-    name: 'Imperial Cap of Maiming',
+    name: '帝国制敌军帽',
     level: 530,
     rarity: 2,
     slot: 3,
@@ -42578,7 +42578,7 @@ export default [
   },
   {
     id: 34331,
-    name: 'Imperial Coat of Maiming',
+    name: '帝国制敌长衣',
     level: 530,
     rarity: 2,
     slot: 4,
@@ -42597,7 +42597,7 @@ export default [
   },
   {
     id: 34332,
-    name: 'Imperial Gloves of Maiming',
+    name: '帝国制敌手套',
     level: 530,
     rarity: 2,
     slot: 5,
@@ -42616,7 +42616,7 @@ export default [
   },
   {
     id: 34333,
-    name: 'Imperial Longkilt of Maiming',
+    name: '帝国制敌长裙',
     level: 530,
     rarity: 2,
     slot: 7,
@@ -42635,7 +42635,7 @@ export default [
   },
   {
     id: 34334,
-    name: 'Imperial Boots of Maiming',
+    name: '帝国制敌筒靴',
     level: 530,
     rarity: 2,
     slot: 8,
@@ -42654,7 +42654,7 @@ export default [
   },
   {
     id: 34335,
-    name: 'Imperial Ushanka of Striking',
+    name: '帝国强袭毛帽',
     level: 530,
     rarity: 2,
     slot: 3,
@@ -42673,7 +42673,7 @@ export default [
   },
   {
     id: 34336,
-    name: 'Imperial Coat of Striking',
+    name: '帝国强袭长衣',
     level: 530,
     rarity: 2,
     slot: 4,
@@ -42692,7 +42692,7 @@ export default [
   },
   {
     id: 34337,
-    name: 'Imperial Gloves of Striking',
+    name: '帝国强袭手套',
     level: 530,
     rarity: 2,
     slot: 5,
@@ -42711,7 +42711,7 @@ export default [
   },
   {
     id: 34338,
-    name: 'Imperial Breeches of Striking',
+    name: '帝国强袭马裤',
     level: 530,
     rarity: 2,
     slot: 7,
@@ -42730,7 +42730,7 @@ export default [
   },
   {
     id: 34339,
-    name: 'Imperial Boots of Striking',
+    name: '帝国强袭筒靴',
     level: 530,
     rarity: 2,
     slot: 8,
@@ -42749,7 +42749,7 @@ export default [
   },
   {
     id: 34340,
-    name: 'Imperial Cap of Aiming',
+    name: '帝国精准军帽',
     level: 530,
     rarity: 2,
     slot: 3,
@@ -42768,7 +42768,7 @@ export default [
   },
   {
     id: 34341,
-    name: 'Imperial Coat of Aiming',
+    name: '帝国精准长衣',
     level: 530,
     rarity: 2,
     slot: 4,
@@ -42787,7 +42787,7 @@ export default [
   },
   {
     id: 34342,
-    name: 'Imperial Gloves of Aiming',
+    name: '帝国精准手套',
     level: 530,
     rarity: 2,
     slot: 5,
@@ -42806,7 +42806,7 @@ export default [
   },
   {
     id: 34343,
-    name: 'Imperial Breeches of Aiming',
+    name: '帝国精准马裤',
     level: 530,
     rarity: 2,
     slot: 7,
@@ -42825,7 +42825,7 @@ export default [
   },
   {
     id: 34344,
-    name: 'Imperial Boots of Aiming',
+    name: '帝国精准筒靴',
     level: 530,
     rarity: 2,
     slot: 8,
@@ -42844,7 +42844,7 @@ export default [
   },
   {
     id: 34345,
-    name: 'Imperial Hood of Scouting',
+    name: '帝国游击兜帽',
     level: 530,
     rarity: 2,
     slot: 3,
@@ -42863,7 +42863,7 @@ export default [
   },
   {
     id: 34346,
-    name: 'Imperial Coat of Scouting',
+    name: '帝国游击长衣',
     level: 530,
     rarity: 2,
     slot: 4,
@@ -42882,7 +42882,7 @@ export default [
   },
   {
     id: 34347,
-    name: 'Imperial Gloves of Scouting',
+    name: '帝国游击手套',
     level: 530,
     rarity: 2,
     slot: 5,
@@ -42901,7 +42901,7 @@ export default [
   },
   {
     id: 34348,
-    name: 'Imperial Breeches of Scouting',
+    name: '帝国游击马裤',
     level: 530,
     rarity: 2,
     slot: 7,
@@ -42920,7 +42920,7 @@ export default [
   },
   {
     id: 34349,
-    name: 'Imperial Boots of Scouting',
+    name: '帝国游击筒靴',
     level: 530,
     rarity: 2,
     slot: 8,
@@ -42939,7 +42939,7 @@ export default [
   },
   {
     id: 34350,
-    name: 'Imperial Ushanka of Healing',
+    name: '帝国治愈毛帽',
     level: 530,
     rarity: 2,
     slot: 3,
@@ -42958,7 +42958,7 @@ export default [
   },
   {
     id: 34351,
-    name: 'Imperial Coat of Healing',
+    name: '帝国治愈长衣',
     level: 530,
     rarity: 2,
     slot: 4,
@@ -42977,7 +42977,7 @@ export default [
   },
   {
     id: 34352,
-    name: 'Imperial Gloves of Healing',
+    name: '帝国治愈手套',
     level: 530,
     rarity: 2,
     slot: 5,
@@ -42996,7 +42996,7 @@ export default [
   },
   {
     id: 34353,
-    name: 'Imperial Longkilt of Healing',
+    name: '帝国治愈长裙',
     level: 530,
     rarity: 2,
     slot: 7,
@@ -43015,7 +43015,7 @@ export default [
   },
   {
     id: 34354,
-    name: 'Imperial Boots of Healing',
+    name: '帝国治愈筒靴',
     level: 530,
     rarity: 2,
     slot: 8,
@@ -43034,7 +43034,7 @@ export default [
   },
   {
     id: 34355,
-    name: 'Imperial Ushanka of Casting',
+    name: '帝国咏咒毛帽',
     level: 530,
     rarity: 2,
     slot: 3,
@@ -43053,7 +43053,7 @@ export default [
   },
   {
     id: 34356,
-    name: 'Imperial Coat of Casting',
+    name: '帝国咏咒长衣',
     level: 530,
     rarity: 2,
     slot: 4,
@@ -43072,7 +43072,7 @@ export default [
   },
   {
     id: 34357,
-    name: 'Imperial Gloves of Casting',
+    name: '帝国咏咒手套',
     level: 530,
     rarity: 2,
     slot: 5,
@@ -43091,7 +43091,7 @@ export default [
   },
   {
     id: 34358,
-    name: 'Imperial Bottoms of Casting',
+    name: '帝国咏咒打底裤',
     level: 530,
     rarity: 2,
     slot: 7,
@@ -43110,7 +43110,7 @@ export default [
   },
   {
     id: 34359,
-    name: 'Imperial Boots of Casting',
+    name: '帝国咏咒筒靴',
     level: 530,
     rarity: 2,
     slot: 8,
@@ -43129,7 +43129,7 @@ export default [
   },
   {
     id: 34360,
-    name: 'Imperial Earring of Fending',
+    name: '帝国御敌耳坠',
     level: 530,
     rarity: 2,
     slot: 9,
@@ -43148,7 +43148,7 @@ export default [
   },
   {
     id: 34361,
-    name: 'Imperial Earring of Slaying',
+    name: '帝国强攻耳坠',
     level: 530,
     rarity: 2,
     slot: 9,
@@ -43167,7 +43167,7 @@ export default [
   },
   {
     id: 34362,
-    name: 'Imperial Earring of Aiming',
+    name: '帝国精准耳坠',
     level: 530,
     rarity: 2,
     slot: 9,
@@ -43186,7 +43186,7 @@ export default [
   },
   {
     id: 34363,
-    name: 'Imperial Earring of Healing',
+    name: '帝国治愈耳坠',
     level: 530,
     rarity: 2,
     slot: 9,
@@ -43205,7 +43205,7 @@ export default [
   },
   {
     id: 34364,
-    name: 'Imperial Earring of Casting',
+    name: '帝国咏咒耳坠',
     level: 530,
     rarity: 2,
     slot: 9,
@@ -43224,7 +43224,7 @@ export default [
   },
   {
     id: 34365,
-    name: 'Imperial Choker of Fending',
+    name: '帝国御敌项环',
     level: 530,
     rarity: 2,
     slot: 10,
@@ -43243,7 +43243,7 @@ export default [
   },
   {
     id: 34366,
-    name: 'Imperial Choker of Slaying',
+    name: '帝国强攻项环',
     level: 530,
     rarity: 2,
     slot: 10,
@@ -43262,7 +43262,7 @@ export default [
   },
   {
     id: 34367,
-    name: 'Imperial Choker of Aiming',
+    name: '帝国精准项环',
     level: 530,
     rarity: 2,
     slot: 10,
@@ -43281,7 +43281,7 @@ export default [
   },
   {
     id: 34368,
-    name: 'Imperial Choker of Healing',
+    name: '帝国治愈项环',
     level: 530,
     rarity: 2,
     slot: 10,
@@ -43300,7 +43300,7 @@ export default [
   },
   {
     id: 34369,
-    name: 'Imperial Choker of Casting',
+    name: '帝国咏咒项环',
     level: 530,
     rarity: 2,
     slot: 10,
@@ -43319,7 +43319,7 @@ export default [
   },
   {
     id: 34370,
-    name: 'Imperial Bracelet of Fending',
+    name: '帝国御敌手环',
     level: 530,
     rarity: 2,
     slot: 11,
@@ -43338,7 +43338,7 @@ export default [
   },
   {
     id: 34371,
-    name: 'Imperial Bracelet of Slaying',
+    name: '帝国强攻手环',
     level: 530,
     rarity: 2,
     slot: 11,
@@ -43357,7 +43357,7 @@ export default [
   },
   {
     id: 34372,
-    name: 'Imperial Bracelet of Aiming',
+    name: '帝国精准手环',
     level: 530,
     rarity: 2,
     slot: 11,
@@ -43376,7 +43376,7 @@ export default [
   },
   {
     id: 34373,
-    name: 'Imperial Bracelet of Healing',
+    name: '帝国治愈手环',
     level: 530,
     rarity: 2,
     slot: 11,
@@ -43395,7 +43395,7 @@ export default [
   },
   {
     id: 34374,
-    name: 'Imperial Bracelet of Casting',
+    name: '帝国咏咒手环',
     level: 530,
     rarity: 2,
     slot: 11,
@@ -43414,7 +43414,7 @@ export default [
   },
   {
     id: 34375,
-    name: 'Imperial Ring of Fending',
+    name: '帝国御敌指环',
     level: 530,
     rarity: 2,
     slot: 12,
@@ -43433,7 +43433,7 @@ export default [
   },
   {
     id: 34376,
-    name: 'Imperial Ring of Slaying',
+    name: '帝国强攻指环',
     level: 530,
     rarity: 2,
     slot: 12,
@@ -43452,7 +43452,7 @@ export default [
   },
   {
     id: 34377,
-    name: 'Imperial Ring of Aiming',
+    name: '帝国精准指环',
     level: 530,
     rarity: 2,
     slot: 12,
@@ -43471,7 +43471,7 @@ export default [
   },
   {
     id: 34378,
-    name: 'Imperial Ring of Healing',
+    name: '帝国治愈指环',
     level: 530,
     rarity: 2,
     slot: 12,
@@ -43490,7 +43490,7 @@ export default [
   },
   {
     id: 34379,
-    name: 'Imperial Ring of Casting',
+    name: '帝国咏咒指环',
     level: 530,
     rarity: 2,
     slot: 12,
@@ -43509,7 +43509,7 @@ export default [
   },
   {
     id: 35771,
-    name: "Augmented Cryptlurker's War Scythe",
+    name: '改良型圣堂潜行战镰',
     level: 530,
     rarity: 3,
     slot: 13,
@@ -43530,7 +43530,7 @@ export default [
   },
   {
     id: 35789,
-    name: "Augmented Cryptlurker's Pendulums",
+    name: '改良型圣堂潜行振空摆',
     level: 530,
     rarity: 3,
     slot: 13,
@@ -43550,7 +43550,7 @@ export default [
   },
   {
     id: 34380,
-    name: 'Bismuth Katzbalger',
+    name: '铋金斗剑',
     level: 533,
     rarity: 1,
     slot: 1,
@@ -43573,7 +43573,7 @@ export default [
   },
   {
     id: 34381,
-    name: 'Bismuth Tonfa',
+    name: '铋金旋棍',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43596,7 +43596,7 @@ export default [
   },
   {
     id: 34382,
-    name: 'Bismuth Axe',
+    name: '铋金战斧',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43619,7 +43619,7 @@ export default [
   },
   {
     id: 34383,
-    name: 'Red Pine Spear',
+    name: '红松木长枪',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43642,7 +43642,7 @@ export default [
   },
   {
     id: 34384,
-    name: 'Bismuth Bow',
+    name: '铋金弓',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43665,7 +43665,7 @@ export default [
   },
   {
     id: 34385,
-    name: 'Bismuth Daggers',
+    name: '铋金小刀',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43688,7 +43688,7 @@ export default [
   },
   {
     id: 34386,
-    name: 'Bismuth Greatsword',
+    name: '铋金巨剑',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43711,7 +43711,7 @@ export default [
   },
   {
     id: 34387,
-    name: 'Bismuth Blunderbuss',
+    name: '铋金雷火炮',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43734,7 +43734,7 @@ export default [
   },
   {
     id: 34388,
-    name: 'Red Pine Cane',
+    name: '红松木牧杖',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43756,7 +43756,7 @@ export default [
   },
   {
     id: 34389,
-    name: 'Phrygian Rod',
+    name: '弗里金咒杖',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43778,7 +43778,7 @@ export default [
   },
   {
     id: 34390,
-    name: 'Saigaskin Grimoire',
+    name: '赛加羚羊革魔导书',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43800,7 +43800,7 @@ export default [
   },
   {
     id: 34391,
-    name: 'Saigaskin Codex',
+    name: '赛加羚羊革魔导典',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43822,7 +43822,7 @@ export default [
   },
   {
     id: 34392,
-    name: 'Phrygian Orrery',
+    name: '弗里金太阳仪',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43844,7 +43844,7 @@ export default [
   },
   {
     id: 34393,
-    name: 'Bismuth Uchigatana',
+    name: '铋金打刀',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43867,7 +43867,7 @@ export default [
   },
   {
     id: 34394,
-    name: 'Phrygian Hanger',
+    name: '弗里金重刺剑',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43889,7 +43889,7 @@ export default [
   },
   {
     id: 34395,
-    name: 'Bismuth Gunblade',
+    name: '铋金枪刃',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43912,7 +43912,7 @@ export default [
   },
   {
     id: 34396,
-    name: 'Bismuth Chakrams',
+    name: '铋金圆月轮',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43935,7 +43935,7 @@ export default [
   },
   {
     id: 34397,
-    name: 'Phrygian Wings',
+    name: '弗里金飞翼',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43957,7 +43957,7 @@ export default [
   },
   {
     id: 34398,
-    name: 'Bismuth War Scythe',
+    name: '铋金战镰',
     level: 533,
     rarity: 1,
     slot: 13,
@@ -43980,7 +43980,7 @@ export default [
   },
   {
     id: 34399,
-    name: 'Bismuth Shield',
+    name: '铋金盾',
     level: 533,
     rarity: 1,
     slot: 2,
@@ -44000,7 +44000,7 @@ export default [
   },
   {
     id: 34400,
-    name: 'Bismuth Goggles of Fending',
+    name: '铋金御敌护目镜',
     level: 533,
     rarity: 1,
     slot: 3,
@@ -44021,7 +44021,7 @@ export default [
   },
   {
     id: 34401,
-    name: 'Saigaskin Coat of Fending',
+    name: '赛加羚羊革御敌长衣',
     level: 533,
     rarity: 1,
     slot: 4,
@@ -44042,7 +44042,7 @@ export default [
   },
   {
     id: 34402,
-    name: 'Saigaskin Armguards of Fending',
+    name: '赛加羚羊革御敌护臂',
     level: 533,
     rarity: 1,
     slot: 5,
@@ -44063,7 +44063,7 @@ export default [
   },
   {
     id: 34403,
-    name: 'Saigaskin Trousers of Fending',
+    name: '赛加羚羊革御敌软甲裤',
     level: 533,
     rarity: 1,
     slot: 7,
@@ -44084,7 +44084,7 @@ export default [
   },
   {
     id: 34404,
-    name: 'Saigaskin Boots of Fending',
+    name: '赛加羚羊革御敌筒靴',
     level: 533,
     rarity: 1,
     slot: 8,
@@ -44105,7 +44105,7 @@ export default [
   },
   {
     id: 34405,
-    name: 'Bismuth Headgear of Maiming',
+    name: '铋金制敌头甲',
     level: 533,
     rarity: 1,
     slot: 3,
@@ -44126,7 +44126,7 @@ export default [
   },
   {
     id: 34406,
-    name: 'Saigaskin Coat of Maiming',
+    name: '赛加羚羊革制敌长衣',
     level: 533,
     rarity: 1,
     slot: 4,
@@ -44147,7 +44147,7 @@ export default [
   },
   {
     id: 34407,
-    name: 'Saigaskin Armguards of Maiming',
+    name: '赛加羚羊革制敌护臂',
     level: 533,
     rarity: 1,
     slot: 5,
@@ -44168,7 +44168,7 @@ export default [
   },
   {
     id: 34408,
-    name: 'Saigaskin Trousers of Maiming',
+    name: '赛加羚羊革制敌软甲裤',
     level: 533,
     rarity: 1,
     slot: 7,
@@ -44189,7 +44189,7 @@ export default [
   },
   {
     id: 34409,
-    name: 'Saigaskin Boots of Maiming',
+    name: '赛加羚羊革制敌筒靴',
     level: 533,
     rarity: 1,
     slot: 8,
@@ -44210,7 +44210,7 @@ export default [
   },
   {
     id: 34410,
-    name: 'Snow Linen Cap of Striking',
+    name: '雪亚麻强袭无檐帽',
     level: 533,
     rarity: 1,
     slot: 3,
@@ -44231,7 +44231,7 @@ export default [
   },
   {
     id: 34411,
-    name: 'Saigaskin Jacket of Striking',
+    name: '赛加羚羊革强袭长衣',
     level: 533,
     rarity: 1,
     slot: 4,
@@ -44252,7 +44252,7 @@ export default [
   },
   {
     id: 34412,
-    name: 'Saigaskin Gloves of Striking',
+    name: '赛加羚羊革强袭手套',
     level: 533,
     rarity: 1,
     slot: 5,
@@ -44273,7 +44273,7 @@ export default [
   },
   {
     id: 34413,
-    name: 'Snow Linen Bottoms of Striking',
+    name: '雪亚麻强袭打底裤',
     level: 533,
     rarity: 1,
     slot: 7,
@@ -44294,7 +44294,7 @@ export default [
   },
   {
     id: 34414,
-    name: 'Saigaskin Shoes of Striking',
+    name: '赛加羚羊革强袭厚底鞋',
     level: 533,
     rarity: 1,
     slot: 8,
@@ -44315,7 +44315,7 @@ export default [
   },
   {
     id: 34415,
-    name: 'Saigaskin Cap of Aiming',
+    name: '赛加羚羊革精准仪仗帽',
     level: 533,
     rarity: 1,
     slot: 3,
@@ -44336,7 +44336,7 @@ export default [
   },
   {
     id: 34416,
-    name: 'Saigaskin Jacket of Aiming',
+    name: '赛加羚羊革精准长衣',
     level: 533,
     rarity: 1,
     slot: 4,
@@ -44357,7 +44357,7 @@ export default [
   },
   {
     id: 34417,
-    name: 'Saigaskin Gloves of Aiming',
+    name: '赛加羚羊革精准手套',
     level: 533,
     rarity: 1,
     slot: 5,
@@ -44378,7 +44378,7 @@ export default [
   },
   {
     id: 34418,
-    name: 'Snow Linen Bottoms of Aiming',
+    name: '雪亚麻精准打底裤',
     level: 533,
     rarity: 1,
     slot: 7,
@@ -44399,7 +44399,7 @@ export default [
   },
   {
     id: 34419,
-    name: 'Saigaskin Shoes of Aiming',
+    name: '赛加羚羊革精准厚底鞋',
     level: 533,
     rarity: 1,
     slot: 8,
@@ -44420,7 +44420,7 @@ export default [
   },
   {
     id: 34420,
-    name: 'Snow Linen Cap of Scouting',
+    name: '雪亚麻游击无檐帽',
     level: 533,
     rarity: 1,
     slot: 3,
@@ -44441,7 +44441,7 @@ export default [
   },
   {
     id: 34421,
-    name: 'Saigaskin Jacket of Scouting',
+    name: '赛加羚羊革游击短衣',
     level: 533,
     rarity: 1,
     slot: 4,
@@ -44462,7 +44462,7 @@ export default [
   },
   {
     id: 34422,
-    name: 'Saigaskin Armguards of Scouting',
+    name: '赛加羚羊革游击护臂',
     level: 533,
     rarity: 1,
     slot: 5,
@@ -44483,7 +44483,7 @@ export default [
   },
   {
     id: 34423,
-    name: 'Snow Linen Sarouel of Scouting',
+    name: '雪亚麻游击垮裤',
     level: 533,
     rarity: 1,
     slot: 7,
@@ -44504,7 +44504,7 @@ export default [
   },
   {
     id: 34424,
-    name: 'Saigaskin Shoes of Scouting',
+    name: '赛加羚羊革游击厚底鞋',
     level: 533,
     rarity: 1,
     slot: 8,
@@ -44525,7 +44525,7 @@ export default [
   },
   {
     id: 34425,
-    name: 'Snow Linen Cap of Healing',
+    name: '雪亚麻治愈无檐帽',
     level: 533,
     rarity: 1,
     slot: 3,
@@ -44546,7 +44546,7 @@ export default [
   },
   {
     id: 34426,
-    name: 'Snow Linen Jacket of Healing',
+    name: '雪亚麻治愈短衣',
     level: 533,
     rarity: 1,
     slot: 4,
@@ -44567,7 +44567,7 @@ export default [
   },
   {
     id: 34427,
-    name: 'Saigaskin Gloves of Healing',
+    name: '赛加羚羊革治愈手套',
     level: 533,
     rarity: 1,
     slot: 5,
@@ -44588,7 +44588,7 @@ export default [
   },
   {
     id: 34428,
-    name: 'Snow Linen Bottoms of Healing',
+    name: '雪亚麻治愈打底裤',
     level: 533,
     rarity: 1,
     slot: 7,
@@ -44609,7 +44609,7 @@ export default [
   },
   {
     id: 34429,
-    name: 'Saigaskin Shoes of Healing',
+    name: '赛加羚羊革治愈厚底鞋',
     level: 533,
     rarity: 1,
     slot: 8,
@@ -44630,7 +44630,7 @@ export default [
   },
   {
     id: 34430,
-    name: 'Saigaskin Cap of Casting',
+    name: '赛加羚羊革咏咒仪仗帽',
     level: 533,
     rarity: 1,
     slot: 3,
@@ -44651,7 +44651,7 @@ export default [
   },
   {
     id: 34431,
-    name: 'Snow Linen Jacket of Casting',
+    name: '雪亚麻咏咒长袍',
     level: 533,
     rarity: 1,
     slot: 4,
@@ -44672,7 +44672,7 @@ export default [
   },
   {
     id: 34432,
-    name: 'Saigaskin Armguards of Casting',
+    name: '赛加羚羊革咏咒护臂',
     level: 533,
     rarity: 1,
     slot: 5,
@@ -44693,7 +44693,7 @@ export default [
   },
   {
     id: 34433,
-    name: 'Snow Linen Sarouel of Casting',
+    name: '雪亚麻咏咒垮裤',
     level: 533,
     rarity: 1,
     slot: 7,
@@ -44714,7 +44714,7 @@ export default [
   },
   {
     id: 34434,
-    name: 'Saigaskin Shoes of Casting',
+    name: '赛加羚羊革咏咒厚底鞋',
     level: 533,
     rarity: 1,
     slot: 8,
@@ -44735,7 +44735,7 @@ export default [
   },
   {
     id: 34435,
-    name: 'Phrygian Ear Cuffs of Fending',
+    name: '弗里金御敌耳夹',
     level: 533,
     rarity: 1,
     slot: 9,
@@ -44756,7 +44756,7 @@ export default [
   },
   {
     id: 34436,
-    name: 'Phrygian Ear Cuffs of Slaying',
+    name: '弗里金强攻耳夹',
     level: 533,
     rarity: 1,
     slot: 9,
@@ -44777,7 +44777,7 @@ export default [
   },
   {
     id: 34437,
-    name: 'Phrygian Ear Cuffs of Aiming',
+    name: '弗里金精准耳夹',
     level: 533,
     rarity: 1,
     slot: 9,
@@ -44798,7 +44798,7 @@ export default [
   },
   {
     id: 34438,
-    name: 'Phrygian Ear Cuffs of Healing',
+    name: '弗里金治愈耳夹',
     level: 533,
     rarity: 1,
     slot: 9,
@@ -44819,7 +44819,7 @@ export default [
   },
   {
     id: 34439,
-    name: 'Phrygian Ear Cuffs of Casting',
+    name: '弗里金咏咒耳夹',
     level: 533,
     rarity: 1,
     slot: 9,
@@ -44840,7 +44840,7 @@ export default [
   },
   {
     id: 34440,
-    name: 'Phrygian Choker of Fending',
+    name: '弗里金御敌项环',
     level: 533,
     rarity: 1,
     slot: 10,
@@ -44861,7 +44861,7 @@ export default [
   },
   {
     id: 34441,
-    name: 'Phrygian Choker of Slaying',
+    name: '弗里金强攻项环',
     level: 533,
     rarity: 1,
     slot: 10,
@@ -44882,7 +44882,7 @@ export default [
   },
   {
     id: 34442,
-    name: 'Phrygian Choker of Aiming',
+    name: '弗里金精准项环',
     level: 533,
     rarity: 1,
     slot: 10,
@@ -44903,7 +44903,7 @@ export default [
   },
   {
     id: 34443,
-    name: 'Phrygian Choker of Healing',
+    name: '弗里金治愈项环',
     level: 533,
     rarity: 1,
     slot: 10,
@@ -44924,7 +44924,7 @@ export default [
   },
   {
     id: 34444,
-    name: 'Phrygian Choker of Casting',
+    name: '弗里金咏咒项环',
     level: 533,
     rarity: 1,
     slot: 10,
@@ -44945,7 +44945,7 @@ export default [
   },
   {
     id: 34445,
-    name: 'Bismuth Bracelet of Fending',
+    name: '铋金御敌手环',
     level: 533,
     rarity: 1,
     slot: 11,
@@ -44966,7 +44966,7 @@ export default [
   },
   {
     id: 34446,
-    name: 'Bismuth Bracelet of Slaying',
+    name: '铋金强攻手环',
     level: 533,
     rarity: 1,
     slot: 11,
@@ -44987,7 +44987,7 @@ export default [
   },
   {
     id: 34447,
-    name: 'Bismuth Bracelet of Aiming',
+    name: '铋金精准手环',
     level: 533,
     rarity: 1,
     slot: 11,
@@ -45008,7 +45008,7 @@ export default [
   },
   {
     id: 34448,
-    name: 'Bismuth Bracelet of Healing',
+    name: '铋金治愈手环',
     level: 533,
     rarity: 1,
     slot: 11,
@@ -45029,7 +45029,7 @@ export default [
   },
   {
     id: 34449,
-    name: 'Bismuth Bracelet of Casting',
+    name: '铋金咏咒手环',
     level: 533,
     rarity: 1,
     slot: 11,
@@ -45050,7 +45050,7 @@ export default [
   },
   {
     id: 34450,
-    name: 'Bismuth Ring of Fending',
+    name: '铋金御敌指环',
     level: 533,
     rarity: 1,
     slot: 12,
@@ -45071,7 +45071,7 @@ export default [
   },
   {
     id: 34451,
-    name: 'Bismuth Ring of Slaying',
+    name: '铋金强攻指环',
     level: 533,
     rarity: 1,
     slot: 12,
@@ -45092,7 +45092,7 @@ export default [
   },
   {
     id: 34452,
-    name: 'Bismuth Ring of Aiming',
+    name: '铋金精准指环',
     level: 533,
     rarity: 1,
     slot: 12,
@@ -45113,7 +45113,7 @@ export default [
   },
   {
     id: 34453,
-    name: 'Bismuth Ring of Healing',
+    name: '铋金治愈指环',
     level: 533,
     rarity: 1,
     slot: 12,
@@ -45134,7 +45134,7 @@ export default [
   },
   {
     id: 34454,
-    name: 'Bismuth Ring of Casting',
+    name: '铋金咏咒指环',
     level: 533,
     rarity: 1,
     slot: 12,
@@ -45155,7 +45155,7 @@ export default [
   },
   {
     id: 35452,
-    name: 'Ironwood Earrings of Crafting',
+    name: '铁木巧匠耳坠',
     level: 534,
     rarity: 1,
     slot: 9,
@@ -45174,7 +45174,7 @@ export default [
   },
   {
     id: 35453,
-    name: 'Ironwood Necklace of Crafting',
+    name: '铁木巧匠项链',
     level: 534,
     rarity: 1,
     slot: 10,
@@ -45193,7 +45193,7 @@ export default [
   },
   {
     id: 35454,
-    name: 'Ironwood Bracelet of Crafting',
+    name: '铁木巧匠手镯',
     level: 534,
     rarity: 1,
     slot: 11,
@@ -45212,7 +45212,7 @@ export default [
   },
   {
     id: 35455,
-    name: 'Ironwood Ring of Crafting',
+    name: '铁木巧匠指环',
     level: 534,
     rarity: 1,
     slot: 12,
@@ -45231,7 +45231,7 @@ export default [
   },
   {
     id: 35456,
-    name: 'Kumbhiraskin Earrings of Gathering',
+    name: '金毗罗鳄革大地耳坠',
     level: 534,
     rarity: 1,
     slot: 9,
@@ -45249,7 +45249,7 @@ export default [
   },
   {
     id: 35457,
-    name: 'Kumbhiraskin Necklace of Gathering',
+    name: '金毗罗鳄革大地项链',
     level: 534,
     rarity: 1,
     slot: 10,
@@ -45267,7 +45267,7 @@ export default [
   },
   {
     id: 35458,
-    name: 'Kumbhiraskin Armilla of Gathering',
+    name: '金毗罗鳄革大地手环',
     level: 534,
     rarity: 1,
     slot: 11,
@@ -45285,7 +45285,7 @@ export default [
   },
   {
     id: 35459,
-    name: 'Kumbhiraskin Ring of Gathering',
+    name: '金毗罗鳄革大地指环',
     level: 534,
     rarity: 1,
     slot: 12,
@@ -45989,7 +45989,7 @@ export default [
   },
   {
     id: 35772,
-    name: 'Edenmorn Sickle',
+    name: '伊甸之晨夺命镰',
     level: 535,
     rarity: 3,
     slot: 13,
@@ -46010,7 +46010,7 @@ export default [
   },
   {
     id: 35790,
-    name: 'Edenmorn Pendulums',
+    name: '伊甸之晨振空摆',
     level: 535,
     rarity: 3,
     slot: 13,
@@ -46030,7 +46030,7 @@ export default [
   },
   {
     id: 34455,
-    name: 'Palaka Shamshir',
+    name: '波洛伽长刀',
     level: 536,
     rarity: 2,
     slot: 1,
@@ -46051,7 +46051,7 @@ export default [
   },
   {
     id: 34456,
-    name: 'Palaka Sainti',
+    name: '波洛伽圣徒',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46072,7 +46072,7 @@ export default [
   },
   {
     id: 34457,
-    name: 'Palaka Bardiche',
+    name: '波洛伽巨斧',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46093,7 +46093,7 @@ export default [
   },
   {
     id: 34458,
-    name: 'Palaka Couse',
+    name: '波洛伽长柄刀',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46114,7 +46114,7 @@ export default [
   },
   {
     id: 34459,
-    name: 'Palaka Shortbow',
+    name: '波洛伽短弓',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46135,7 +46135,7 @@ export default [
   },
   {
     id: 34460,
-    name: 'Palaka Cleavers',
+    name: '波洛伽屠刀',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46156,7 +46156,7 @@ export default [
   },
   {
     id: 34461,
-    name: 'Palaka Claymore',
+    name: '波洛伽大剑',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46177,7 +46177,7 @@ export default [
   },
   {
     id: 34462,
-    name: 'Palaka Culverin',
+    name: '波洛伽重炮',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46198,7 +46198,7 @@ export default [
   },
   {
     id: 34463,
-    name: 'Palaka Wand',
+    name: '波洛伽幻杖',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46218,7 +46218,7 @@ export default [
   },
   {
     id: 34464,
-    name: 'Palaka Longpole',
+    name: '波洛伽长玉杖',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46238,7 +46238,7 @@ export default [
   },
   {
     id: 34465,
-    name: 'Palaka Grimoire',
+    name: '波洛伽魔导书',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46258,7 +46258,7 @@ export default [
   },
   {
     id: 34466,
-    name: 'Palaka Codex',
+    name: '波洛伽魔导典',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46278,7 +46278,7 @@ export default [
   },
   {
     id: 34467,
-    name: 'Palaka Torquetum',
+    name: '波洛伽黄道仪',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46298,7 +46298,7 @@ export default [
   },
   {
     id: 34468,
-    name: 'Palaka Tulwar',
+    name: '波洛伽曲刃刀',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46319,7 +46319,7 @@ export default [
   },
   {
     id: 34469,
-    name: 'Palaka Smallsword',
+    name: '波洛伽小剑',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46339,7 +46339,7 @@ export default [
   },
   {
     id: 34470,
-    name: 'Palaka Gunblade',
+    name: '波洛伽枪刃',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46360,7 +46360,7 @@ export default [
   },
   {
     id: 34471,
-    name: 'Palaka Chakrams',
+    name: '波洛伽圆月轮',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46381,7 +46381,7 @@ export default [
   },
   {
     id: 34472,
-    name: 'Palaka Pendulums',
+    name: '波洛伽振空摆',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46401,7 +46401,7 @@ export default [
   },
   {
     id: 34473,
-    name: 'Palaka War Scythe',
+    name: '波洛伽战镰',
     level: 536,
     rarity: 2,
     slot: 13,
@@ -46422,7 +46422,7 @@ export default [
   },
   {
     id: 34474,
-    name: 'Palaka Pelta',
+    name: '波洛伽轻盾',
     level: 536,
     rarity: 2,
     slot: 2,
@@ -46441,7 +46441,7 @@ export default [
   },
   {
     id: 34475,
-    name: 'Palaka Helm of Fending',
+    name: '波洛伽御敌头盔',
     level: 536,
     rarity: 2,
     slot: 3,
@@ -46460,7 +46460,7 @@ export default [
   },
   {
     id: 34476,
-    name: 'Palaka Jacket of Fending',
+    name: '波洛伽御敌短衣',
     level: 536,
     rarity: 2,
     slot: 4,
@@ -46479,7 +46479,7 @@ export default [
   },
   {
     id: 34477,
-    name: 'Palaka Vambraces of Fending',
+    name: '波洛伽御敌臂甲',
     level: 536,
     rarity: 2,
     slot: 5,
@@ -46498,7 +46498,7 @@ export default [
   },
   {
     id: 34478,
-    name: 'Palaka Sarouel of Fending',
+    name: '波洛伽御敌垮裤',
     level: 536,
     rarity: 2,
     slot: 7,
@@ -46517,7 +46517,7 @@ export default [
   },
   {
     id: 34479,
-    name: 'Palaka Boots of Fending',
+    name: '波洛伽御敌短靴',
     level: 536,
     rarity: 2,
     slot: 8,
@@ -46536,7 +46536,7 @@ export default [
   },
   {
     id: 34480,
-    name: 'Palaka Helm of Maiming',
+    name: '波洛伽制敌头盔',
     level: 536,
     rarity: 2,
     slot: 3,
@@ -46555,7 +46555,7 @@ export default [
   },
   {
     id: 34481,
-    name: 'Palaka Jacket of Maiming',
+    name: '波洛伽制敌短衣',
     level: 536,
     rarity: 2,
     slot: 4,
@@ -46574,7 +46574,7 @@ export default [
   },
   {
     id: 34482,
-    name: 'Palaka Vambraces of Maiming',
+    name: '波洛伽制敌臂甲',
     level: 536,
     rarity: 2,
     slot: 5,
@@ -46593,7 +46593,7 @@ export default [
   },
   {
     id: 34483,
-    name: 'Palaka Sarouel of Maiming',
+    name: '波洛伽制敌垮裤',
     level: 536,
     rarity: 2,
     slot: 7,
@@ -46612,7 +46612,7 @@ export default [
   },
   {
     id: 34484,
-    name: 'Palaka Boots of Maiming',
+    name: '波洛伽制敌短靴',
     level: 536,
     rarity: 2,
     slot: 8,
@@ -46631,7 +46631,7 @@ export default [
   },
   {
     id: 34485,
-    name: 'Palaka Turban of Striking',
+    name: '波洛伽强袭包头巾',
     level: 536,
     rarity: 2,
     slot: 3,
@@ -46650,7 +46650,7 @@ export default [
   },
   {
     id: 34486,
-    name: 'Palaka Vest of Striking',
+    name: '波洛伽强袭坎肩',
     level: 536,
     rarity: 2,
     slot: 4,
@@ -46669,7 +46669,7 @@ export default [
   },
   {
     id: 34487,
-    name: 'Palaka Vambraces of Striking',
+    name: '波洛伽强袭臂甲',
     level: 536,
     rarity: 2,
     slot: 5,
@@ -46688,7 +46688,7 @@ export default [
   },
   {
     id: 34488,
-    name: 'Palaka Sarouel of Striking',
+    name: '波洛伽强袭垮裤',
     level: 536,
     rarity: 2,
     slot: 7,
@@ -46707,7 +46707,7 @@ export default [
   },
   {
     id: 34489,
-    name: 'Palaka Pumps of Striking',
+    name: '波洛伽强袭浅口鞋',
     level: 536,
     rarity: 2,
     slot: 8,
@@ -46726,7 +46726,7 @@ export default [
   },
   {
     id: 34490,
-    name: 'Palaka Turban of Aiming',
+    name: '波洛伽精准包头巾',
     level: 536,
     rarity: 2,
     slot: 3,
@@ -46745,7 +46745,7 @@ export default [
   },
   {
     id: 34491,
-    name: 'Palaka Vest of Aiming',
+    name: '波洛伽精准坎肩',
     level: 536,
     rarity: 2,
     slot: 4,
@@ -46764,7 +46764,7 @@ export default [
   },
   {
     id: 34492,
-    name: 'Palaka Vambraces of Aiming',
+    name: '波洛伽精准臂甲',
     level: 536,
     rarity: 2,
     slot: 5,
@@ -46783,7 +46783,7 @@ export default [
   },
   {
     id: 34493,
-    name: 'Palaka Sarouel of Aiming',
+    name: '波洛伽精准垮裤',
     level: 536,
     rarity: 2,
     slot: 7,
@@ -46802,7 +46802,7 @@ export default [
   },
   {
     id: 34494,
-    name: 'Palaka Boots of Aiming',
+    name: '波洛伽精准短靴',
     level: 536,
     rarity: 2,
     slot: 8,
@@ -46821,7 +46821,7 @@ export default [
   },
   {
     id: 34495,
-    name: 'Palaka Turban of Scouting',
+    name: '波洛伽游击包头巾',
     level: 536,
     rarity: 2,
     slot: 3,
@@ -46840,7 +46840,7 @@ export default [
   },
   {
     id: 34496,
-    name: 'Palaka Vest of Scouting',
+    name: '波洛伽游击坎肩',
     level: 536,
     rarity: 2,
     slot: 4,
@@ -46859,7 +46859,7 @@ export default [
   },
   {
     id: 34497,
-    name: 'Palaka Halfgloves of Scouting',
+    name: '波洛伽游击半指手套',
     level: 536,
     rarity: 2,
     slot: 5,
@@ -46878,7 +46878,7 @@ export default [
   },
   {
     id: 34498,
-    name: 'Palaka Sarouel of Scouting',
+    name: '波洛伽游击垮裤',
     level: 536,
     rarity: 2,
     slot: 7,
@@ -46897,7 +46897,7 @@ export default [
   },
   {
     id: 34499,
-    name: 'Palaka Pumps of Scouting',
+    name: '波洛伽游击浅口鞋',
     level: 536,
     rarity: 2,
     slot: 8,
@@ -46916,7 +46916,7 @@ export default [
   },
   {
     id: 34500,
-    name: 'Palaka Turban of Healing',
+    name: '波洛伽治愈包头巾',
     level: 536,
     rarity: 2,
     slot: 3,
@@ -46935,7 +46935,7 @@ export default [
   },
   {
     id: 34501,
-    name: 'Palaka Vest of Healing',
+    name: '波洛伽治愈坎肩',
     level: 536,
     rarity: 2,
     slot: 4,
@@ -46954,7 +46954,7 @@ export default [
   },
   {
     id: 34502,
-    name: 'Palaka Halfgloves of Healing',
+    name: '波洛伽治愈半指手套',
     level: 536,
     rarity: 2,
     slot: 5,
@@ -46973,7 +46973,7 @@ export default [
   },
   {
     id: 34503,
-    name: 'Palaka Sarouel of Healing',
+    name: '波洛伽治愈垮裤',
     level: 536,
     rarity: 2,
     slot: 7,
@@ -46992,7 +46992,7 @@ export default [
   },
   {
     id: 34504,
-    name: 'Palaka Pumps of Healing',
+    name: '波洛伽治愈浅口鞋',
     level: 536,
     rarity: 2,
     slot: 8,
@@ -47011,7 +47011,7 @@ export default [
   },
   {
     id: 34505,
-    name: 'Palaka Turban of Casting',
+    name: '波洛伽咏咒包头巾',
     level: 536,
     rarity: 2,
     slot: 3,
@@ -47030,7 +47030,7 @@ export default [
   },
   {
     id: 34506,
-    name: 'Palaka Vest of Casting',
+    name: '波洛伽咏咒坎肩',
     level: 536,
     rarity: 2,
     slot: 4,
@@ -47049,7 +47049,7 @@ export default [
   },
   {
     id: 34507,
-    name: 'Palaka Halfgloves of Casting',
+    name: '波洛伽咏咒半指手套',
     level: 536,
     rarity: 2,
     slot: 5,
@@ -47068,7 +47068,7 @@ export default [
   },
   {
     id: 34508,
-    name: 'Palaka Sarouel of Casting',
+    name: '波洛伽咏咒垮裤',
     level: 536,
     rarity: 2,
     slot: 7,
@@ -47087,7 +47087,7 @@ export default [
   },
   {
     id: 34509,
-    name: 'Palaka Pumps of Casting',
+    name: '波洛伽咏咒浅口鞋',
     level: 536,
     rarity: 2,
     slot: 8,
@@ -47106,7 +47106,7 @@ export default [
   },
   {
     id: 34510,
-    name: 'Palaka Earrings of Fending',
+    name: '波洛伽御敌耳坠',
     level: 536,
     rarity: 2,
     slot: 9,
@@ -47125,7 +47125,7 @@ export default [
   },
   {
     id: 34511,
-    name: 'Palaka Earrings of Slaying',
+    name: '波洛伽强攻耳坠',
     level: 536,
     rarity: 2,
     slot: 9,
@@ -47144,7 +47144,7 @@ export default [
   },
   {
     id: 34512,
-    name: 'Palaka Earrings of Aiming',
+    name: '波洛伽精准耳坠',
     level: 536,
     rarity: 2,
     slot: 9,
@@ -47163,7 +47163,7 @@ export default [
   },
   {
     id: 34513,
-    name: 'Palaka Earrings of Healing',
+    name: '波洛伽治愈耳坠',
     level: 536,
     rarity: 2,
     slot: 9,
@@ -47182,7 +47182,7 @@ export default [
   },
   {
     id: 34514,
-    name: 'Palaka Earrings of Casting',
+    name: '波洛伽咏咒耳坠',
     level: 536,
     rarity: 2,
     slot: 9,
@@ -47201,7 +47201,7 @@ export default [
   },
   {
     id: 34515,
-    name: 'Palaka Choker of Fending',
+    name: '波洛伽御敌项环',
     level: 536,
     rarity: 2,
     slot: 10,
@@ -47220,7 +47220,7 @@ export default [
   },
   {
     id: 34516,
-    name: 'Palaka Choker of Slaying',
+    name: '波洛伽强攻项环',
     level: 536,
     rarity: 2,
     slot: 10,
@@ -47239,7 +47239,7 @@ export default [
   },
   {
     id: 34517,
-    name: 'Palaka Choker of Aiming',
+    name: '波洛伽精准项环',
     level: 536,
     rarity: 2,
     slot: 10,
@@ -47258,7 +47258,7 @@ export default [
   },
   {
     id: 34518,
-    name: 'Palaka Choker of Healing',
+    name: '波洛伽治愈项环',
     level: 536,
     rarity: 2,
     slot: 10,
@@ -47277,7 +47277,7 @@ export default [
   },
   {
     id: 34519,
-    name: 'Palaka Choker of Casting',
+    name: '波洛伽咏咒项环',
     level: 536,
     rarity: 2,
     slot: 10,
@@ -47296,7 +47296,7 @@ export default [
   },
   {
     id: 34520,
-    name: 'Palaka Bracelet of Fending',
+    name: '波洛伽御敌手环',
     level: 536,
     rarity: 2,
     slot: 11,
@@ -47315,7 +47315,7 @@ export default [
   },
   {
     id: 34521,
-    name: 'Palaka Bracelet of Slaying',
+    name: '波洛伽强攻手环',
     level: 536,
     rarity: 2,
     slot: 11,
@@ -47334,7 +47334,7 @@ export default [
   },
   {
     id: 34522,
-    name: 'Palaka Bracelet of Aiming',
+    name: '波洛伽精准手环',
     level: 536,
     rarity: 2,
     slot: 11,
@@ -47353,7 +47353,7 @@ export default [
   },
   {
     id: 34523,
-    name: 'Palaka Bracelet of Healing',
+    name: '波洛伽治愈手环',
     level: 536,
     rarity: 2,
     slot: 11,
@@ -47372,7 +47372,7 @@ export default [
   },
   {
     id: 34524,
-    name: 'Palaka Bracelet of Casting',
+    name: '波洛伽咏咒手环',
     level: 536,
     rarity: 2,
     slot: 11,
@@ -47391,7 +47391,7 @@ export default [
   },
   {
     id: 34525,
-    name: 'Palaka Ring of Fending',
+    name: '波洛伽御敌指环',
     level: 536,
     rarity: 2,
     slot: 12,
@@ -47410,7 +47410,7 @@ export default [
   },
   {
     id: 34526,
-    name: 'Palaka Ring of Slaying',
+    name: '波洛伽强攻指环',
     level: 536,
     rarity: 2,
     slot: 12,
@@ -47429,7 +47429,7 @@ export default [
   },
   {
     id: 34527,
-    name: 'Palaka Ring of Aiming',
+    name: '波洛伽精准指环',
     level: 536,
     rarity: 2,
     slot: 12,
@@ -47448,7 +47448,7 @@ export default [
   },
   {
     id: 34528,
-    name: 'Palaka Ring of Healing',
+    name: '波洛伽治愈指环',
     level: 536,
     rarity: 2,
     slot: 12,
@@ -47467,7 +47467,7 @@ export default [
   },
   {
     id: 34529,
-    name: 'Palaka Ring of Casting',
+    name: '波洛伽咏咒指环',
     level: 536,
     rarity: 2,
     slot: 12,
@@ -47486,7 +47486,7 @@ export default [
   },
   {
     id: 34530,
-    name: 'Manganese Sword',
+    name: '锰钢剑',
     level: 539,
     rarity: 1,
     slot: 1,
@@ -47509,7 +47509,7 @@ export default [
   },
   {
     id: 34531,
-    name: 'Manganese Knuckles',
+    name: '锰钢拳套',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47532,7 +47532,7 @@ export default [
   },
   {
     id: 34532,
-    name: 'Manganese Axe',
+    name: '锰钢战斧',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47555,7 +47555,7 @@ export default [
   },
   {
     id: 34533,
-    name: 'Ironwood Spear',
+    name: '铁木长枪',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47578,7 +47578,7 @@ export default [
   },
   {
     id: 34534,
-    name: 'Ironwood Longbow',
+    name: '铁木长弓',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47601,7 +47601,7 @@ export default [
   },
   {
     id: 34535,
-    name: 'Manganese Daggers',
+    name: '锰钢小刀',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47624,7 +47624,7 @@ export default [
   },
   {
     id: 34536,
-    name: 'Manganese Greatsword',
+    name: '锰钢巨剑',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47647,7 +47647,7 @@ export default [
   },
   {
     id: 34537,
-    name: 'Manganese Arquebus',
+    name: '锰钢明火枪',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47670,7 +47670,7 @@ export default [
   },
   {
     id: 34538,
-    name: 'Ironwood Cane',
+    name: '铁木牧杖',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47692,7 +47692,7 @@ export default [
   },
   {
     id: 34539,
-    name: 'Ironwood Staff',
+    name: '铁木法杖',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47714,7 +47714,7 @@ export default [
   },
   {
     id: 34540,
-    name: 'Kumbhiraskin Grimoire',
+    name: '金毗罗鳄革魔导书',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47736,7 +47736,7 @@ export default [
   },
   {
     id: 34541,
-    name: 'Kumbhiraskin Codex',
+    name: '金毗罗鳄革魔导典',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47758,7 +47758,7 @@ export default [
   },
   {
     id: 34542,
-    name: 'Manganese Orrery',
+    name: '锰钢太阳仪',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47780,7 +47780,7 @@ export default [
   },
   {
     id: 34543,
-    name: 'Manganese Uchigatana',
+    name: '锰钢打刀',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47803,7 +47803,7 @@ export default [
   },
   {
     id: 34544,
-    name: 'Manganese Rapier',
+    name: '锰钢刺剑',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47825,7 +47825,7 @@ export default [
   },
   {
     id: 34545,
-    name: 'Manganese Bayonet',
+    name: '锰钢刺刀',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47848,7 +47848,7 @@ export default [
   },
   {
     id: 34546,
-    name: 'Manganese Chakrams',
+    name: '锰钢圆月轮',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47871,7 +47871,7 @@ export default [
   },
   {
     id: 34547,
-    name: 'Manganese Syrinxi',
+    name: '锰钢注射管',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47893,7 +47893,7 @@ export default [
   },
   {
     id: 34548,
-    name: 'Manganese War Scythe',
+    name: '锰钢战镰',
     level: 539,
     rarity: 1,
     slot: 13,
@@ -47916,7 +47916,7 @@ export default [
   },
   {
     id: 34549,
-    name: 'Manganese Kite Shield',
+    name: '锰钢鸢盾',
     level: 539,
     rarity: 1,
     slot: 2,
@@ -47936,7 +47936,7 @@ export default [
   },
   {
     id: 34550,
-    name: 'Manganese Helm of the Behemoth King',
+    name: '锰钢贝希摩斯王战盔',
     level: 539,
     rarity: 1,
     slot: 3,
@@ -47957,7 +47957,7 @@ export default [
   },
   {
     id: 34551,
-    name: 'Manganese Armor of the Behemoth King',
+    name: '锰钢贝希摩斯王战甲',
     level: 539,
     rarity: 1,
     slot: 4,
@@ -47978,7 +47978,7 @@ export default [
   },
   {
     id: 34552,
-    name: 'Manganese Gauntlets of the Behemoth King',
+    name: '锰钢贝希摩斯王手铠',
     level: 539,
     rarity: 1,
     slot: 5,
@@ -47999,7 +47999,7 @@ export default [
   },
   {
     id: 34553,
-    name: 'Kumbhiraskin Cuisses of the Behemoth King',
+    name: '金毗罗鳄革贝希摩斯王腿甲',
     level: 539,
     rarity: 1,
     slot: 7,
@@ -48020,7 +48020,7 @@ export default [
   },
   {
     id: 34554,
-    name: 'Manganese Sabatons of the Behemoth King',
+    name: '锰钢贝希摩斯王铠靴',
     level: 539,
     rarity: 1,
     slot: 8,
@@ -48041,7 +48041,7 @@ export default [
   },
   {
     id: 34555,
-    name: 'Manganese Helm of the Behemoth Queen',
+    name: '锰钢贝希摩斯女王战盔',
     level: 539,
     rarity: 1,
     slot: 3,
@@ -48062,7 +48062,7 @@ export default [
   },
   {
     id: 34556,
-    name: 'Manganese Armor of the Behemoth Queen',
+    name: '锰钢贝希摩斯女王战甲',
     level: 539,
     rarity: 1,
     slot: 4,
@@ -48083,7 +48083,7 @@ export default [
   },
   {
     id: 34557,
-    name: 'Manganese Gauntlets of the Behemoth Queen',
+    name: '锰钢贝希摩斯女王手铠',
     level: 539,
     rarity: 1,
     slot: 5,
@@ -48104,7 +48104,7 @@ export default [
   },
   {
     id: 34558,
-    name: 'Kumbhiraskin Cuisses of the Behemoth Queen',
+    name: '金毗罗鳄革贝希摩斯女王腿甲',
     level: 539,
     rarity: 1,
     slot: 7,
@@ -48125,7 +48125,7 @@ export default [
   },
   {
     id: 34559,
-    name: 'Manganese Sabatons of the Behemoth Queen',
+    name: '锰钢贝希摩斯女王铠靴',
     level: 539,
     rarity: 1,
     slot: 8,
@@ -48146,7 +48146,7 @@ export default [
   },
   {
     id: 34560,
-    name: 'Manganese Helm of the Rising Dragon',
+    name: '锰钢升龙战盔',
     level: 539,
     rarity: 1,
     slot: 3,
@@ -48167,7 +48167,7 @@ export default [
   },
   {
     id: 34561,
-    name: 'Kumbhiraskin Jacket of the Rising Dragon',
+    name: '金毗罗鳄革升龙皮甲',
     level: 539,
     rarity: 1,
     slot: 4,
@@ -48188,7 +48188,7 @@ export default [
   },
   {
     id: 34562,
-    name: 'Manganese Gloves of the Rising Dragon',
+    name: '锰钢升龙手套',
     level: 539,
     rarity: 1,
     slot: 5,
@@ -48209,7 +48209,7 @@ export default [
   },
   {
     id: 34563,
-    name: 'Scarlet Moko Gaskins of the Rising Dragon',
+    name: '绛红草布升龙束膝裤',
     level: 539,
     rarity: 1,
     slot: 7,
@@ -48230,7 +48230,7 @@ export default [
   },
   {
     id: 34564,
-    name: 'Manganese Gaiters of the Rising Dragon',
+    name: '锰钢升龙斗鞋',
     level: 539,
     rarity: 1,
     slot: 8,
@@ -48251,7 +48251,7 @@ export default [
   },
   {
     id: 34565,
-    name: 'Manganese Horn of the Last Unicorn',
+    name: '锰钢最后的独角兽之角',
     level: 539,
     rarity: 1,
     slot: 3,
@@ -48272,7 +48272,7 @@ export default [
   },
   {
     id: 34566,
-    name: 'Scarlet Moko Robe of the Last Unicorn',
+    name: '绛红草布最后的独角兽长袍',
     level: 539,
     rarity: 1,
     slot: 4,
@@ -48293,7 +48293,7 @@ export default [
   },
   {
     id: 34567,
-    name: 'Kumbhiraskin Armguards of the Last Unicorn',
+    name: '金毗罗鳄革最后的独角兽护臂',
     level: 539,
     rarity: 1,
     slot: 5,
@@ -48314,7 +48314,7 @@ export default [
   },
   {
     id: 34568,
-    name: 'Scarlet Moko Longkilt of the Last Unicorn',
+    name: '绛红草布最后的独角兽长裙',
     level: 539,
     rarity: 1,
     slot: 7,
@@ -48335,7 +48335,7 @@ export default [
   },
   {
     id: 34569,
-    name: 'Kumbhiraskin Leg Guards of the Last Unicorn',
+    name: '金毗罗鳄革最后的独角兽甲靴',
     level: 539,
     rarity: 1,
     slot: 8,
@@ -48356,7 +48356,7 @@ export default [
   },
   {
     id: 34570,
-    name: 'Manganese Helm of the Falling Dragon',
+    name: '锰钢堕龙战盔',
     level: 539,
     rarity: 1,
     slot: 3,
@@ -48377,7 +48377,7 @@ export default [
   },
   {
     id: 34571,
-    name: 'Kumbhiraskin Jacket of the Falling Dragon',
+    name: '金毗罗鳄革堕龙皮甲',
     level: 539,
     rarity: 1,
     slot: 4,
@@ -48398,7 +48398,7 @@ export default [
   },
   {
     id: 34572,
-    name: 'Manganese Gloves of the Falling Dragon',
+    name: '锰钢堕龙手套',
     level: 539,
     rarity: 1,
     slot: 5,
@@ -48419,7 +48419,7 @@ export default [
   },
   {
     id: 34573,
-    name: 'Scarlet Moko Gaskins of the Falling Dragon',
+    name: '绛红草布堕龙束膝裤',
     level: 539,
     rarity: 1,
     slot: 7,
@@ -48440,7 +48440,7 @@ export default [
   },
   {
     id: 34574,
-    name: 'Manganese Gaiters of the Falling Dragon',
+    name: '锰钢堕龙斗鞋',
     level: 539,
     rarity: 1,
     slot: 8,
@@ -48461,7 +48461,7 @@ export default [
   },
   {
     id: 34575,
-    name: 'Scarlet Moko Hood of the White Griffin',
+    name: '绛红草布白狮鹫兜帽',
     level: 539,
     rarity: 1,
     slot: 3,
@@ -48482,7 +48482,7 @@ export default [
   },
   {
     id: 34576,
-    name: 'Scarlet Moko Robe of the White Griffin',
+    name: '绛红草布白狮鹫长袍',
     level: 539,
     rarity: 1,
     slot: 4,
@@ -48503,7 +48503,7 @@ export default [
   },
   {
     id: 34577,
-    name: 'Kumbhiraskin Gloves of the White Griffin',
+    name: '金毗罗鳄革白狮鹫手套',
     level: 539,
     rarity: 1,
     slot: 5,
@@ -48524,7 +48524,7 @@ export default [
   },
   {
     id: 34578,
-    name: 'Scarlet Moko Chausses of the White Griffin',
+    name: '绛红草布白狮鹫裤袜',
     level: 539,
     rarity: 1,
     slot: 7,
@@ -48545,7 +48545,7 @@ export default [
   },
   {
     id: 34579,
-    name: 'Manganese Boots of the White Griffin',
+    name: '锰钢白狮鹫筒靴',
     level: 539,
     rarity: 1,
     slot: 8,
@@ -48566,7 +48566,7 @@ export default [
   },
   {
     id: 34580,
-    name: 'Scarlet Moko Hood of the Black Griffin',
+    name: '绛红草布黑狮鹫兜帽',
     level: 539,
     rarity: 1,
     slot: 3,
@@ -48587,7 +48587,7 @@ export default [
   },
   {
     id: 34581,
-    name: 'Scarlet Moko Robe of the Black Griffin',
+    name: '绛红草布黑狮鹫长袍',
     level: 539,
     rarity: 1,
     slot: 4,
@@ -48608,7 +48608,7 @@ export default [
   },
   {
     id: 34582,
-    name: 'Kumbhiraskin Gloves of the Black Griffin',
+    name: '金毗罗鳄革黑狮鹫手套',
     level: 539,
     rarity: 1,
     slot: 5,
@@ -48629,7 +48629,7 @@ export default [
   },
   {
     id: 34583,
-    name: 'Scarlet Moko Chausses of the Black Griffin',
+    name: '绛红草布黑狮鹫裤袜',
     level: 539,
     rarity: 1,
     slot: 7,
@@ -48650,7 +48650,7 @@ export default [
   },
   {
     id: 34584,
-    name: 'Manganese Boots of the Black Griffin',
+    name: '锰钢黑狮鹫筒靴',
     level: 539,
     rarity: 1,
     slot: 8,
@@ -48671,7 +48671,7 @@ export default [
   },
   {
     id: 34585,
-    name: 'Blue Zircon Earrings of Fending ',
+    name: '蓝锆石御敌耳坠',
     level: 539,
     rarity: 1,
     slot: 9,
@@ -48692,7 +48692,7 @@ export default [
   },
   {
     id: 34586,
-    name: 'Blue Zircon Earrings of Slaying',
+    name: '蓝锆石强攻耳坠',
     level: 539,
     rarity: 1,
     slot: 9,
@@ -48713,7 +48713,7 @@ export default [
   },
   {
     id: 34587,
-    name: 'Blue Zircon Earrings of Aiming',
+    name: '蓝锆石精准耳坠',
     level: 539,
     rarity: 1,
     slot: 9,
@@ -48734,7 +48734,7 @@ export default [
   },
   {
     id: 34588,
-    name: 'Blue Zircon Earrings of Healing',
+    name: '蓝锆石治愈耳坠',
     level: 539,
     rarity: 1,
     slot: 9,
@@ -48755,7 +48755,7 @@ export default [
   },
   {
     id: 34589,
-    name: 'Blue Zircon Earrings of Casting',
+    name: '蓝锆石咏咒耳坠',
     level: 539,
     rarity: 1,
     slot: 9,
@@ -48776,7 +48776,7 @@ export default [
   },
   {
     id: 34590,
-    name: 'Ironwood Choker of Fending',
+    name: '铁木御敌项环',
     level: 539,
     rarity: 1,
     slot: 10,
@@ -48797,7 +48797,7 @@ export default [
   },
   {
     id: 34591,
-    name: 'Ironwood Choker of Slaying',
+    name: '铁木强攻项环',
     level: 539,
     rarity: 1,
     slot: 10,
@@ -48818,7 +48818,7 @@ export default [
   },
   {
     id: 34592,
-    name: 'Ironwood Choker of Aiming',
+    name: '铁木精准项环',
     level: 539,
     rarity: 1,
     slot: 10,
@@ -48839,7 +48839,7 @@ export default [
   },
   {
     id: 34593,
-    name: 'Ironwood Choker of Healing',
+    name: '铁木治愈项环',
     level: 539,
     rarity: 1,
     slot: 10,
@@ -48860,7 +48860,7 @@ export default [
   },
   {
     id: 34594,
-    name: 'Ironwood Choker of Casting',
+    name: '铁木咏咒项环',
     level: 539,
     rarity: 1,
     slot: 10,
@@ -48881,7 +48881,7 @@ export default [
   },
   {
     id: 34595,
-    name: 'Blue Zircon Bracelet of Fending',
+    name: '蓝锆石御敌手环',
     level: 539,
     rarity: 1,
     slot: 11,
@@ -48902,7 +48902,7 @@ export default [
   },
   {
     id: 34596,
-    name: 'Blue Zircon Bracelet of Slaying',
+    name: '蓝锆石强攻手环',
     level: 539,
     rarity: 1,
     slot: 11,
@@ -48923,7 +48923,7 @@ export default [
   },
   {
     id: 34597,
-    name: 'Blue Zircon Bracelet of Aiming',
+    name: '蓝锆石精准手环',
     level: 539,
     rarity: 1,
     slot: 11,
@@ -48944,7 +48944,7 @@ export default [
   },
   {
     id: 34598,
-    name: 'Blue Zircon Bracelet of Healing',
+    name: '蓝锆石治愈手环',
     level: 539,
     rarity: 1,
     slot: 11,
@@ -48965,7 +48965,7 @@ export default [
   },
   {
     id: 34599,
-    name: 'Blue Zircon Bracelet of Casting',
+    name: '蓝锆石咏咒手环',
     level: 539,
     rarity: 1,
     slot: 11,
@@ -48986,7 +48986,7 @@ export default [
   },
   {
     id: 34600,
-    name: 'Blue Zircon Ring of Fending',
+    name: '蓝锆石御敌指环',
     level: 539,
     rarity: 1,
     slot: 12,
@@ -49007,7 +49007,7 @@ export default [
   },
   {
     id: 34601,
-    name: 'Blue Zircon Ring of Slaying',
+    name: '蓝锆石强攻指环',
     level: 539,
     rarity: 1,
     slot: 12,
@@ -49028,7 +49028,7 @@ export default [
   },
   {
     id: 34602,
-    name: 'Blue Zircon Ring of Aiming',
+    name: '蓝锆石精准指环',
     level: 539,
     rarity: 1,
     slot: 12,
@@ -49049,7 +49049,7 @@ export default [
   },
   {
     id: 34603,
-    name: 'Blue Zircon Ring of Healing',
+    name: '蓝锆石治愈指环',
     level: 539,
     rarity: 1,
     slot: 12,
@@ -49070,7 +49070,7 @@ export default [
   },
   {
     id: 34604,
-    name: 'Blue Zircon Ring of Casting',
+    name: '蓝锆石咏咒指环',
     level: 539,
     rarity: 1,
     slot: 12,
@@ -49091,7 +49091,7 @@ export default [
   },
   {
     id: 35362,
-    name: 'Manganese Saw',
+    name: '锰钢手锯',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49110,7 +49110,7 @@ export default [
   },
   {
     id: 35363,
-    name: 'Manganese Cross-pein Hammer',
+    name: '锰钢横头锤',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49129,7 +49129,7 @@ export default [
   },
   {
     id: 35364,
-    name: 'Manganese Raising Hammer',
+    name: '锰钢圆头锤',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49148,7 +49148,7 @@ export default [
   },
   {
     id: 35365,
-    name: 'Manganese Lapidary Hammer',
+    name: '锰钢工艺锤',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49167,7 +49167,7 @@ export default [
   },
   {
     id: 35366,
-    name: 'Manganese Round Knife',
+    name: '锰钢圆革刀',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49186,7 +49186,7 @@ export default [
   },
   {
     id: 35367,
-    name: 'Manganese Needle',
+    name: '锰钢缝针',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49205,7 +49205,7 @@ export default [
   },
   {
     id: 35368,
-    name: 'Manganese Alembic',
+    name: '锰钢蒸馏器',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49224,7 +49224,7 @@ export default [
   },
   {
     id: 35369,
-    name: 'Manganese Chocobo Frypan',
+    name: '锰钢陆行鸟煎锅',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49243,7 +49243,7 @@ export default [
   },
   {
     id: 35370,
-    name: 'Manganese Pickaxe',
+    name: '锰钢鹤嘴锄',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49263,7 +49263,7 @@ export default [
   },
   {
     id: 35371,
-    name: 'Manganese Hatchet',
+    name: '锰钢手斧',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49283,7 +49283,7 @@ export default [
   },
   {
     id: 35372,
-    name: 'Ironwood Fishing Rod',
+    name: '铁木钓竿',
     level: 540,
     rarity: 1,
     slot: 1,
@@ -49303,7 +49303,7 @@ export default [
   },
   {
     id: 35373,
-    name: 'Manganese Claw Hammer',
+    name: '锰钢羊角锤',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49322,7 +49322,7 @@ export default [
   },
   {
     id: 35374,
-    name: 'Manganese File',
+    name: '锰钢锉刀',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49341,7 +49341,7 @@ export default [
   },
   {
     id: 35375,
-    name: 'Manganese Pliers',
+    name: '锰钢手钳',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49360,7 +49360,7 @@ export default [
   },
   {
     id: 35376,
-    name: 'Ironwood Grinding Wheel',
+    name: '铁木泥岩砂轮机',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49379,7 +49379,7 @@ export default [
   },
   {
     id: 35377,
-    name: 'Manganese Awl',
+    name: '锰钢平斩',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49398,7 +49398,7 @@ export default [
   },
   {
     id: 35378,
-    name: 'Ironwood Spinning Wheel',
+    name: '铁木纺车',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49417,7 +49417,7 @@ export default [
   },
   {
     id: 35379,
-    name: 'Manganese Mortar',
+    name: '锰钢研钵',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49436,7 +49436,7 @@ export default [
   },
   {
     id: 35380,
-    name: 'Manganese Culinary Knife',
+    name: '锰钢厨刀',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49455,7 +49455,7 @@ export default [
   },
   {
     id: 35381,
-    name: 'Manganese Sledgehammer',
+    name: '锰钢碎石锤',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49474,7 +49474,7 @@ export default [
   },
   {
     id: 35382,
-    name: 'Manganese Garden Scythe',
+    name: '锰钢园艺镰',
     level: 540,
     rarity: 1,
     slot: 2,
@@ -49493,7 +49493,7 @@ export default [
   },
   {
     id: 35424,
-    name: 'Scarlet Moko Wedge Cap of Crafting',
+    name: '绛红草布巧匠无檐帽',
     level: 540,
     rarity: 1,
     slot: 3,
@@ -49512,7 +49512,7 @@ export default [
   },
   {
     id: 35425,
-    name: 'Scarlet Moko Coatee of Crafting',
+    name: '绛红草布巧匠短上衣',
     level: 540,
     rarity: 1,
     slot: 4,
@@ -49532,7 +49532,7 @@ export default [
   },
   {
     id: 35426,
-    name: 'Kumbhiraskin Gloves of Crafting',
+    name: '金毗罗鳄革巧匠手套',
     level: 540,
     rarity: 1,
     slot: 5,
@@ -49551,7 +49551,7 @@ export default [
   },
   {
     id: 35427,
-    name: 'Scarlet Moko Bottoms of Crafting',
+    name: '绛红草布巧匠打底裤',
     level: 540,
     rarity: 1,
     slot: 7,
@@ -49570,7 +49570,7 @@ export default [
   },
   {
     id: 35428,
-    name: 'Kumbhiraskin Shoes of Crafting',
+    name: '金毗罗鳄革巧匠皮鞋',
     level: 540,
     rarity: 1,
     slot: 8,
@@ -49589,7 +49589,7 @@ export default [
   },
   {
     id: 35429,
-    name: 'Scarlet Moko Beret of Gathering',
+    name: '绛红草布大地贝雷帽',
     level: 540,
     rarity: 1,
     slot: 3,
@@ -49608,7 +49608,7 @@ export default [
   },
   {
     id: 35430,
-    name: 'Scarlet Moko Vest of Gathering',
+    name: '绛红草布大地坎肩',
     level: 540,
     rarity: 1,
     slot: 4,
@@ -49629,7 +49629,7 @@ export default [
   },
   {
     id: 35431,
-    name: 'Kumbhiraskin Gloves of Gathering',
+    name: '金毗罗鳄革大地手套',
     level: 540,
     rarity: 1,
     slot: 5,
@@ -49649,7 +49649,7 @@ export default [
   },
   {
     id: 35432,
-    name: 'Scarlet Moko Halfslops of Gathering',
+    name: '绛红草布大地五分裤',
     level: 540,
     rarity: 1,
     slot: 7,
@@ -49670,7 +49670,7 @@ export default [
   },
   {
     id: 35433,
-    name: 'Kumbhiraskin Boots of Gathering',
+    name: '金毗罗鳄革大地筒靴',
     level: 540,
     rarity: 1,
     slot: 8,
@@ -49690,7 +49690,7 @@ export default [
   },
   {
     id: 34605,
-    name: 'Ktiseos Sword',
+    name: '造物院剑',
     level: 542,
     rarity: 2,
     slot: 1,
@@ -49711,7 +49711,7 @@ export default [
   },
   {
     id: 34606,
-    name: 'Ktiseos Knuckles',
+    name: '造物院拳套',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49732,7 +49732,7 @@ export default [
   },
   {
     id: 34607,
-    name: 'Ktiseos War Axe',
+    name: '造物院战斧',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49753,7 +49753,7 @@ export default [
   },
   {
     id: 34608,
-    name: 'Ktiseos Spear',
+    name: '造物院长枪',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49774,7 +49774,7 @@ export default [
   },
   {
     id: 34609,
-    name: 'Ktiseos Compound Bow',
+    name: '造物院复合弓',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49795,7 +49795,7 @@ export default [
   },
   {
     id: 34610,
-    name: 'Ktiseos Main Gauches',
+    name: '造物院左手剑',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49816,7 +49816,7 @@ export default [
   },
   {
     id: 34611,
-    name: 'Ktiseos Greatsword',
+    name: '造物院巨剑',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49837,7 +49837,7 @@ export default [
   },
   {
     id: 34612,
-    name: 'Ktiseos Revolver',
+    name: '造物院左轮枪',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49858,7 +49858,7 @@ export default [
   },
   {
     id: 34613,
-    name: 'Ktiseos Cane',
+    name: '造物院牧杖',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49878,7 +49878,7 @@ export default [
   },
   {
     id: 34614,
-    name: 'Ktiseos Rod',
+    name: '造物院咒杖',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49898,7 +49898,7 @@ export default [
   },
   {
     id: 34615,
-    name: 'Ktiseos Index',
+    name: '造物院魔导书',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49918,7 +49918,7 @@ export default [
   },
   {
     id: 34616,
-    name: 'Ktiseos Codex',
+    name: '造物院魔导典',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49938,7 +49938,7 @@ export default [
   },
   {
     id: 34617,
-    name: 'Ktiseos Planisphere',
+    name: '造物院天星盘',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49958,7 +49958,7 @@ export default [
   },
   {
     id: 34618,
-    name: 'Ktiseos Blade',
+    name: '造物院武士刀',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49979,7 +49979,7 @@ export default [
   },
   {
     id: 34619,
-    name: 'Ktiseos Smallsword',
+    name: '造物院小剑',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -49999,7 +49999,7 @@ export default [
   },
   {
     id: 34620,
-    name: 'Ktiseos Gunblade',
+    name: '造物院枪刃',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -50020,7 +50020,7 @@ export default [
   },
   {
     id: 34621,
-    name: 'Ktiseos Chakrams',
+    name: '造物院圆月轮',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -50041,7 +50041,7 @@ export default [
   },
   {
     id: 34622,
-    name: 'Ktiseos Wings',
+    name: '造物院飞翼',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -50061,7 +50061,7 @@ export default [
   },
   {
     id: 34623,
-    name: 'Ktiseos Zaghnal',
+    name: '造物院扎戈斧镰',
     level: 542,
     rarity: 2,
     slot: 13,
@@ -50082,7 +50082,7 @@ export default [
   },
   {
     id: 34624,
-    name: 'Ktiseos Shield',
+    name: '造物院盾',
     level: 542,
     rarity: 2,
     slot: 2,
@@ -50101,7 +50101,7 @@ export default [
   },
   {
     id: 34625,
-    name: 'Ktiseos Mask of Fending',
+    name: '造物院御敌面具',
     level: 542,
     rarity: 2,
     slot: 3,
@@ -50120,7 +50120,7 @@ export default [
   },
   {
     id: 34626,
-    name: 'Ktiseos Coat of Fending',
+    name: '造物院御敌大衣',
     level: 542,
     rarity: 2,
     slot: 4,
@@ -50139,7 +50139,7 @@ export default [
   },
   {
     id: 34627,
-    name: 'Ktiseos Vambraces of Fending',
+    name: '造物院御敌臂甲',
     level: 542,
     rarity: 2,
     slot: 5,
@@ -50158,7 +50158,7 @@ export default [
   },
   {
     id: 34628,
-    name: 'Ktiseos Skirt of Fending',
+    name: '造物院御敌长裙',
     level: 542,
     rarity: 2,
     slot: 7,
@@ -50177,7 +50177,7 @@ export default [
   },
   {
     id: 34629,
-    name: 'Ktiseos Greaves of Fending',
+    name: '造物院御敌胫甲',
     level: 542,
     rarity: 2,
     slot: 8,
@@ -50196,7 +50196,7 @@ export default [
   },
   {
     id: 34630,
-    name: 'Ktiseos Mask of Maiming',
+    name: '造物院制敌面具',
     level: 542,
     rarity: 2,
     slot: 3,
@@ -50215,7 +50215,7 @@ export default [
   },
   {
     id: 34631,
-    name: 'Ktiseos Coat of Maiming',
+    name: '造物院制敌外套',
     level: 542,
     rarity: 2,
     slot: 4,
@@ -50234,7 +50234,7 @@ export default [
   },
   {
     id: 34632,
-    name: 'Ktiseos Vambraces of Maiming',
+    name: '造物院制敌臂甲',
     level: 542,
     rarity: 2,
     slot: 5,
@@ -50253,7 +50253,7 @@ export default [
   },
   {
     id: 34633,
-    name: 'Ktiseos Trousers of Maiming',
+    name: '造物院制敌软甲裤',
     level: 542,
     rarity: 2,
     slot: 7,
@@ -50272,7 +50272,7 @@ export default [
   },
   {
     id: 34634,
-    name: 'Ktiseos Greaves of Maiming',
+    name: '造物院制敌胫甲',
     level: 542,
     rarity: 2,
     slot: 8,
@@ -50291,7 +50291,7 @@ export default [
   },
   {
     id: 34635,
-    name: 'Ktiseos Mask of Striking',
+    name: '造物院强袭面具',
     level: 542,
     rarity: 2,
     slot: 3,
@@ -50310,7 +50310,7 @@ export default [
   },
   {
     id: 34636,
-    name: 'Ktiseos Coat of Striking',
+    name: '造物院强袭外套',
     level: 542,
     rarity: 2,
     slot: 4,
@@ -50329,7 +50329,7 @@ export default [
   },
   {
     id: 34637,
-    name: 'Ktiseos Gloves of Striking',
+    name: '造物院强袭手套',
     level: 542,
     rarity: 2,
     slot: 5,
@@ -50348,7 +50348,7 @@ export default [
   },
   {
     id: 34638,
-    name: 'Ktiseos Hose of Striking',
+    name: '造物院强袭骑兵裤',
     level: 542,
     rarity: 2,
     slot: 7,
@@ -50367,7 +50367,7 @@ export default [
   },
   {
     id: 34639,
-    name: 'Ktiseos Sabatons of Striking',
+    name: '造物院强袭铠靴',
     level: 542,
     rarity: 2,
     slot: 8,
@@ -50386,7 +50386,7 @@ export default [
   },
   {
     id: 34640,
-    name: 'Ktiseos Mask of Aiming',
+    name: '造物院精准面具',
     level: 542,
     rarity: 2,
     slot: 3,
@@ -50405,7 +50405,7 @@ export default [
   },
   {
     id: 34641,
-    name: 'Ktiseos Coat of Aiming',
+    name: '造物院精准长衣',
     level: 542,
     rarity: 2,
     slot: 4,
@@ -50424,7 +50424,7 @@ export default [
   },
   {
     id: 34642,
-    name: 'Ktiseos Gloves of Aiming',
+    name: '造物院精准手套',
     level: 542,
     rarity: 2,
     slot: 5,
@@ -50443,7 +50443,7 @@ export default [
   },
   {
     id: 34643,
-    name: 'Ktiseos Hose of Aiming',
+    name: '造物院精准骑兵裤',
     level: 542,
     rarity: 2,
     slot: 7,
@@ -50462,7 +50462,7 @@ export default [
   },
   {
     id: 34644,
-    name: 'Ktiseos Sabatons of Aiming',
+    name: '造物院精准铠靴',
     level: 542,
     rarity: 2,
     slot: 8,
@@ -50481,7 +50481,7 @@ export default [
   },
   {
     id: 34645,
-    name: 'Ktiseos Mask of Scouting',
+    name: '造物院游击面具',
     level: 542,
     rarity: 2,
     slot: 3,
@@ -50500,7 +50500,7 @@ export default [
   },
   {
     id: 34646,
-    name: 'Ktiseos Coat of Scouting',
+    name: '造物院游击长衣',
     level: 542,
     rarity: 2,
     slot: 4,
@@ -50519,7 +50519,7 @@ export default [
   },
   {
     id: 34647,
-    name: 'Ktiseos Gloves of Scouting',
+    name: '造物院游击手套',
     level: 542,
     rarity: 2,
     slot: 5,
@@ -50538,7 +50538,7 @@ export default [
   },
   {
     id: 34648,
-    name: 'Ktiseos Hose of Scouting',
+    name: '造物院游击骑兵裤',
     level: 542,
     rarity: 2,
     slot: 7,
@@ -50557,7 +50557,7 @@ export default [
   },
   {
     id: 34649,
-    name: 'Ktiseos Sabatons of Scouting',
+    name: '造物院游击铠靴',
     level: 542,
     rarity: 2,
     slot: 8,
@@ -50576,7 +50576,7 @@ export default [
   },
   {
     id: 34650,
-    name: 'Ktiseos Petasos of Healing',
+    name: '造物院治愈阔边帽',
     level: 542,
     rarity: 2,
     slot: 3,
@@ -50595,7 +50595,7 @@ export default [
   },
   {
     id: 34651,
-    name: 'Ktiseos Robe of Healing',
+    name: '造物院治愈长袍',
     level: 542,
     rarity: 2,
     slot: 4,
@@ -50614,7 +50614,7 @@ export default [
   },
   {
     id: 34652,
-    name: 'Ktiseos Gloves of Healing',
+    name: '造物院治愈手套',
     level: 542,
     rarity: 2,
     slot: 5,
@@ -50633,7 +50633,7 @@ export default [
   },
   {
     id: 34653,
-    name: 'Ktiseos Bottoms of Healing',
+    name: '造物院治愈打底裤',
     level: 542,
     rarity: 2,
     slot: 7,
@@ -50652,7 +50652,7 @@ export default [
   },
   {
     id: 34654,
-    name: 'Ktiseos Boots of Healing',
+    name: '造物院治愈筒靴',
     level: 542,
     rarity: 2,
     slot: 8,
@@ -50671,7 +50671,7 @@ export default [
   },
   {
     id: 34655,
-    name: 'Ktiseos Petasos of Casting',
+    name: '造物院咏咒阔边帽',
     level: 542,
     rarity: 2,
     slot: 3,
@@ -50690,7 +50690,7 @@ export default [
   },
   {
     id: 34656,
-    name: 'Ktiseos Robe of Casting',
+    name: '造物院咏咒长袍',
     level: 542,
     rarity: 2,
     slot: 4,
@@ -50709,7 +50709,7 @@ export default [
   },
   {
     id: 34657,
-    name: 'Ktiseos Gloves of Casting',
+    name: '造物院咏咒手套',
     level: 542,
     rarity: 2,
     slot: 5,
@@ -50728,7 +50728,7 @@ export default [
   },
   {
     id: 34658,
-    name: 'Ktiseos Bottoms of Casting',
+    name: '造物院咏咒打底裤',
     level: 542,
     rarity: 2,
     slot: 7,
@@ -50747,7 +50747,7 @@ export default [
   },
   {
     id: 34659,
-    name: 'Ktiseos Boots of Casting',
+    name: '造物院咏咒筒靴',
     level: 542,
     rarity: 2,
     slot: 8,
@@ -50766,7 +50766,7 @@ export default [
   },
   {
     id: 34660,
-    name: 'Ktiseos Earring of Fending',
+    name: '造物院御敌耳坠',
     level: 542,
     rarity: 2,
     slot: 9,
@@ -50785,7 +50785,7 @@ export default [
   },
   {
     id: 34661,
-    name: 'Ktiseos Earring of Slaying',
+    name: '造物院强攻耳坠',
     level: 542,
     rarity: 2,
     slot: 9,
@@ -50804,7 +50804,7 @@ export default [
   },
   {
     id: 34662,
-    name: 'Ktiseos Earring of Aiming',
+    name: '造物院精准耳坠',
     level: 542,
     rarity: 2,
     slot: 9,
@@ -50823,7 +50823,7 @@ export default [
   },
   {
     id: 34663,
-    name: 'Ktiseos Earring of Healing',
+    name: '造物院治愈耳坠',
     level: 542,
     rarity: 2,
     slot: 9,
@@ -50842,7 +50842,7 @@ export default [
   },
   {
     id: 34664,
-    name: 'Ktiseos Earring of Casting',
+    name: '造物院咏咒耳坠',
     level: 542,
     rarity: 2,
     slot: 9,
@@ -50861,7 +50861,7 @@ export default [
   },
   {
     id: 34665,
-    name: 'Ktiseos Choker of Fending',
+    name: '造物院御敌项环',
     level: 542,
     rarity: 2,
     slot: 10,
@@ -50880,7 +50880,7 @@ export default [
   },
   {
     id: 34666,
-    name: 'Ktiseos Choker of Slaying',
+    name: '造物院强攻项环',
     level: 542,
     rarity: 2,
     slot: 10,
@@ -50899,7 +50899,7 @@ export default [
   },
   {
     id: 34667,
-    name: 'Ktiseos Choker of Aiming',
+    name: '造物院精准项环',
     level: 542,
     rarity: 2,
     slot: 10,
@@ -50918,7 +50918,7 @@ export default [
   },
   {
     id: 34668,
-    name: 'Ktiseos Choker of Healing',
+    name: '造物院治愈项环',
     level: 542,
     rarity: 2,
     slot: 10,
@@ -50937,7 +50937,7 @@ export default [
   },
   {
     id: 34669,
-    name: 'Ktiseos Choker of Casting',
+    name: '造物院咏咒项环',
     level: 542,
     rarity: 2,
     slot: 10,
@@ -50956,7 +50956,7 @@ export default [
   },
   {
     id: 34670,
-    name: 'Ktiseos Bracelet of Fending',
+    name: '造物院御敌手环',
     level: 542,
     rarity: 2,
     slot: 11,
@@ -50975,7 +50975,7 @@ export default [
   },
   {
     id: 34671,
-    name: 'Ktiseos Bracelet of Slaying',
+    name: '造物院强攻手环',
     level: 542,
     rarity: 2,
     slot: 11,
@@ -50994,7 +50994,7 @@ export default [
   },
   {
     id: 34672,
-    name: 'Ktiseos Bracelet of Aiming',
+    name: '造物院精准手环',
     level: 542,
     rarity: 2,
     slot: 11,
@@ -51013,7 +51013,7 @@ export default [
   },
   {
     id: 34673,
-    name: 'Ktiseos Bracelet of Healing',
+    name: '造物院治愈手环',
     level: 542,
     rarity: 2,
     slot: 11,
@@ -51032,7 +51032,7 @@ export default [
   },
   {
     id: 34674,
-    name: 'Ktiseos Bracelet of Casting',
+    name: '造物院咏咒手环',
     level: 542,
     rarity: 2,
     slot: 11,
@@ -51051,7 +51051,7 @@ export default [
   },
   {
     id: 34675,
-    name: 'Ktiseos Ring of Fending',
+    name: '造物院御敌指环',
     level: 542,
     rarity: 2,
     slot: 12,
@@ -51070,7 +51070,7 @@ export default [
   },
   {
     id: 34676,
-    name: 'Ktiseos Ring of Slaying',
+    name: '造物院强攻指环',
     level: 542,
     rarity: 2,
     slot: 12,
@@ -51089,7 +51089,7 @@ export default [
   },
   {
     id: 34677,
-    name: 'Ktiseos Ring of Aiming',
+    name: '造物院精准指环',
     level: 542,
     rarity: 2,
     slot: 12,
@@ -51108,7 +51108,7 @@ export default [
   },
   {
     id: 34678,
-    name: 'Ktiseos Ring of Healing',
+    name: '造物院治愈指环',
     level: 542,
     rarity: 2,
     slot: 12,
@@ -51127,7 +51127,7 @@ export default [
   },
   {
     id: 34679,
-    name: 'Ktiseos Ring of Casting',
+    name: '造物院咏咒指环',
     level: 542,
     rarity: 2,
     slot: 12,
@@ -51146,7 +51146,7 @@ export default [
   },
   {
     id: 34680,
-    name: 'Chondrite Magitek Sword',
+    name: '球粒陨石魔导剑',
     level: 545,
     rarity: 1,
     slot: 1,
@@ -51169,7 +51169,7 @@ export default [
   },
   {
     id: 34681,
-    name: 'Chondrite Magitek Baghnakhs',
+    name: '球粒陨石魔导虎爪',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51192,7 +51192,7 @@ export default [
   },
   {
     id: 34682,
-    name: 'Chondrite Magitek Axe',
+    name: '球粒陨石魔导战斧',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51215,7 +51215,7 @@ export default [
   },
   {
     id: 34683,
-    name: 'Integral Magitek Spear',
+    name: '完满木魔导长枪',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51238,7 +51238,7 @@ export default [
   },
   {
     id: 34684,
-    name: 'Integral Magitek Bow',
+    name: '完满木魔导弓',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51261,7 +51261,7 @@ export default [
   },
   {
     id: 34685,
-    name: 'Chondrite Magitek Cleavers',
+    name: '球粒陨石魔导屠刀',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51284,7 +51284,7 @@ export default [
   },
   {
     id: 34686,
-    name: 'Chondrite Magitek Guillotine',
+    name: '球粒陨石魔导断头剑',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51307,7 +51307,7 @@ export default [
   },
   {
     id: 34687,
-    name: 'Chondrite Magitek Handgonne',
+    name: '球粒陨石魔导手炮',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51330,7 +51330,7 @@ export default [
   },
   {
     id: 34688,
-    name: 'Integral Magitek Cane',
+    name: '完满木魔导牧杖',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51352,7 +51352,7 @@ export default [
   },
   {
     id: 34689,
-    name: 'Integral Magitek Rod',
+    name: '完满木魔导咒杖',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51374,7 +51374,7 @@ export default [
   },
   {
     id: 34690,
-    name: 'Ophiotauroskin Magitek Index',
+    name: '蛇牛革魔导魔导书',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51396,7 +51396,7 @@ export default [
   },
   {
     id: 34691,
-    name: 'Ophiotauroskin Magitek Codex',
+    name: '蛇牛革魔导魔导典',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51418,7 +51418,7 @@ export default [
   },
   {
     id: 34692,
-    name: 'Chondrite Magitek Planisphere',
+    name: '球粒陨石魔导天星盘',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51440,7 +51440,7 @@ export default [
   },
   {
     id: 34693,
-    name: 'Chondrite Magitek Samurai Blade',
+    name: '球粒陨石魔导武士刀',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51463,7 +51463,7 @@ export default [
   },
   {
     id: 34694,
-    name: 'Chondrite Magitek Tuck',
+    name: '球粒陨石魔导刺剑',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51485,7 +51485,7 @@ export default [
   },
   {
     id: 34695,
-    name: 'Chondrite Magitek Sawback',
+    name: '球粒陨石魔导锯刃',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51508,7 +51508,7 @@ export default [
   },
   {
     id: 34696,
-    name: 'Chondrite Magitek Glaives',
+    name: '球粒陨石魔导轮刃',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51531,7 +51531,7 @@ export default [
   },
   {
     id: 34697,
-    name: 'Chondrite Magitek Wings',
+    name: '球粒陨石魔导飞翼',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51553,7 +51553,7 @@ export default [
   },
   {
     id: 34698,
-    name: 'Chondrite Magitek War Scythe',
+    name: '球粒陨石魔导战镰',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -51576,7 +51576,7 @@ export default [
   },
   {
     id: 34699,
-    name: 'Chondrite Magitek Shield',
+    name: '球粒陨石魔导盾',
     level: 545,
     rarity: 1,
     slot: 2,
@@ -51596,7 +51596,7 @@ export default [
   },
   {
     id: 34700,
-    name: 'AR-Caean Velvet Cap of Fending',
+    name: '迷彩绒御敌军帽',
     level: 545,
     rarity: 1,
     slot: 3,
@@ -51617,7 +51617,7 @@ export default [
   },
   {
     id: 34701,
-    name: 'Chondrite Top of Fending',
+    name: '球粒陨石御敌上装',
     level: 545,
     rarity: 1,
     slot: 4,
@@ -51638,7 +51638,7 @@ export default [
   },
   {
     id: 34702,
-    name: 'Chondrite Gauntlets of Fending',
+    name: '球粒陨石御敌手铠',
     level: 545,
     rarity: 1,
     slot: 5,
@@ -51659,7 +51659,7 @@ export default [
   },
   {
     id: 34703,
-    name: 'AR-Caean Velvet Bottoms of Fending',
+    name: '迷彩绒御敌打底裤',
     level: 545,
     rarity: 1,
     slot: 7,
@@ -51680,7 +51680,7 @@ export default [
   },
   {
     id: 34704,
-    name: 'Chondrite Sollerets of Fending',
+    name: '球粒陨石御敌锁甲靴',
     level: 545,
     rarity: 1,
     slot: 8,
@@ -51701,7 +51701,7 @@ export default [
   },
   {
     id: 34705,
-    name: 'AR-Caean Velvet Cap of Maiming',
+    name: '迷彩绒制敌军帽',
     level: 545,
     rarity: 1,
     slot: 3,
@@ -51722,7 +51722,7 @@ export default [
   },
   {
     id: 34706,
-    name: 'Chondrite Top of Maiming',
+    name: '球粒陨石制敌上装',
     level: 545,
     rarity: 1,
     slot: 4,
@@ -51743,7 +51743,7 @@ export default [
   },
   {
     id: 34707,
-    name: 'Chondrite Gloves of Maiming',
+    name: '球粒陨石制敌手套',
     level: 545,
     rarity: 1,
     slot: 5,
@@ -51764,7 +51764,7 @@ export default [
   },
   {
     id: 34708,
-    name: 'AR-Caean Velvet Bottoms of Maiming',
+    name: '迷彩绒制敌打底裤',
     level: 545,
     rarity: 1,
     slot: 7,
@@ -51785,7 +51785,7 @@ export default [
   },
   {
     id: 34709,
-    name: 'Ophiotauroskin Boots of Maiming',
+    name: '蛇牛革制敌皮靴',
     level: 545,
     rarity: 1,
     slot: 8,
@@ -51806,7 +51806,7 @@ export default [
   },
   {
     id: 34710,
-    name: 'AR-Caean Velvet Hat of Striking',
+    name: '迷彩绒强袭礼帽',
     level: 545,
     rarity: 1,
     slot: 3,
@@ -51827,7 +51827,7 @@ export default [
   },
   {
     id: 34711,
-    name: 'AR-Caean Velvet Top of Striking',
+    name: '迷彩绒强袭上装',
     level: 545,
     rarity: 1,
     slot: 4,
@@ -51848,7 +51848,7 @@ export default [
   },
   {
     id: 34712,
-    name: 'Chondrite Gloves of Striking',
+    name: '球粒陨石强袭手套',
     level: 545,
     rarity: 1,
     slot: 5,
@@ -51869,7 +51869,7 @@ export default [
   },
   {
     id: 34713,
-    name: 'AR-Caean Velvet Bottoms of Striking',
+    name: '迷彩绒强袭打底裤',
     level: 545,
     rarity: 1,
     slot: 7,
@@ -51890,7 +51890,7 @@ export default [
   },
   {
     id: 34714,
-    name: 'Ophiotauroskin Boots of Striking',
+    name: '蛇牛革强袭长靴',
     level: 545,
     rarity: 1,
     slot: 8,
@@ -51911,7 +51911,7 @@ export default [
   },
   {
     id: 34715,
-    name: 'AR-Caean Velvet Cap of Aiming',
+    name: '迷彩绒精准军帽',
     level: 545,
     rarity: 1,
     slot: 3,
@@ -51932,7 +51932,7 @@ export default [
   },
   {
     id: 34716,
-    name: 'Ophiotauroskin Top of Aiming',
+    name: '蛇牛革精准上装',
     level: 545,
     rarity: 1,
     slot: 4,
@@ -51953,7 +51953,7 @@ export default [
   },
   {
     id: 34717,
-    name: 'Chondrite Gloves of Aiming',
+    name: '球粒陨石精准手套',
     level: 545,
     rarity: 1,
     slot: 5,
@@ -51974,7 +51974,7 @@ export default [
   },
   {
     id: 34718,
-    name: 'AR-Caean Velvet Bottoms of Aiming',
+    name: '迷彩绒精准打底裤',
     level: 545,
     rarity: 1,
     slot: 7,
@@ -51995,7 +51995,7 @@ export default [
   },
   {
     id: 34719,
-    name: 'Ophiotauroskin Boots of Aiming',
+    name: '蛇牛革精准长靴',
     level: 545,
     rarity: 1,
     slot: 8,
@@ -52016,7 +52016,7 @@ export default [
   },
   {
     id: 34720,
-    name: 'AR-Caean Velvet Hat of Scouting',
+    name: '迷彩绒游击军帽',
     level: 545,
     rarity: 1,
     slot: 3,
@@ -52037,7 +52037,7 @@ export default [
   },
   {
     id: 34721,
-    name: 'Ophiotauroskin Top of Scouting',
+    name: '蛇牛革游击上装',
     level: 545,
     rarity: 1,
     slot: 4,
@@ -52058,7 +52058,7 @@ export default [
   },
   {
     id: 34722,
-    name: 'Chondrite Gloves of Scouting',
+    name: '球粒陨石游击手套',
     level: 545,
     rarity: 1,
     slot: 5,
@@ -52079,7 +52079,7 @@ export default [
   },
   {
     id: 34723,
-    name: 'AR-Caean Velvet Bottoms of Scouting',
+    name: '迷彩绒游击打底裤',
     level: 545,
     rarity: 1,
     slot: 7,
@@ -52100,7 +52100,7 @@ export default [
   },
   {
     id: 34724,
-    name: 'Chondrite Sollerets of Scouting',
+    name: '球粒陨石游击锁甲靴',
     level: 545,
     rarity: 1,
     slot: 8,
@@ -52121,7 +52121,7 @@ export default [
   },
   {
     id: 34725,
-    name: 'AR-Caean Velvet Cap of Healing',
+    name: '迷彩绒治愈军帽',
     level: 545,
     rarity: 1,
     slot: 3,
@@ -52142,7 +52142,7 @@ export default [
   },
   {
     id: 34726,
-    name: 'Ophiotauroskin Top of Healing',
+    name: '蛇牛革治愈上装',
     level: 545,
     rarity: 1,
     slot: 4,
@@ -52163,7 +52163,7 @@ export default [
   },
   {
     id: 34727,
-    name: 'Chondrite Gloves of Healing',
+    name: '球粒陨石治愈手套',
     level: 545,
     rarity: 1,
     slot: 5,
@@ -52184,7 +52184,7 @@ export default [
   },
   {
     id: 34728,
-    name: 'AR-Caean Velvet Bottoms of Healing',
+    name: '迷彩绒治愈打底裤',
     level: 545,
     rarity: 1,
     slot: 7,
@@ -52205,7 +52205,7 @@ export default [
   },
   {
     id: 34729,
-    name: 'Ophiotauroskin Boots of Healing',
+    name: '蛇牛革治愈长靴',
     level: 545,
     rarity: 1,
     slot: 8,
@@ -52226,7 +52226,7 @@ export default [
   },
   {
     id: 34730,
-    name: 'AR-Caean Velvet Hat of Casting',
+    name: '迷彩绒咏咒礼帽',
     level: 545,
     rarity: 1,
     slot: 3,
@@ -52247,7 +52247,7 @@ export default [
   },
   {
     id: 34731,
-    name: 'Ophiotauroskin Top of Casting',
+    name: '蛇牛革咏咒上装',
     level: 545,
     rarity: 1,
     slot: 4,
@@ -52268,7 +52268,7 @@ export default [
   },
   {
     id: 34732,
-    name: 'Chondrite Gloves of Casting',
+    name: '球粒陨石咏咒手套',
     level: 545,
     rarity: 1,
     slot: 5,
@@ -52289,7 +52289,7 @@ export default [
   },
   {
     id: 34733,
-    name: 'AR-Caean Velvet Bottoms of Casting',
+    name: '迷彩绒咏咒打底裤',
     level: 545,
     rarity: 1,
     slot: 7,
@@ -52310,7 +52310,7 @@ export default [
   },
   {
     id: 34734,
-    name: 'Ophiotauroskin Boots of Casting',
+    name: '蛇牛革咏咒皮靴',
     level: 545,
     rarity: 1,
     slot: 8,
@@ -52331,7 +52331,7 @@ export default [
   },
   {
     id: 34735,
-    name: 'Star Quartz Earrings of Fending',
+    name: '星点石英御敌耳坠',
     level: 545,
     rarity: 1,
     slot: 9,
@@ -52352,7 +52352,7 @@ export default [
   },
   {
     id: 34736,
-    name: 'Star Quartz Earrings of Slaying',
+    name: '星点石英强攻耳坠',
     level: 545,
     rarity: 1,
     slot: 9,
@@ -52373,7 +52373,7 @@ export default [
   },
   {
     id: 34737,
-    name: 'Star Quartz Earrings of Aiming',
+    name: '星点石英精准耳坠',
     level: 545,
     rarity: 1,
     slot: 9,
@@ -52394,7 +52394,7 @@ export default [
   },
   {
     id: 34738,
-    name: 'Star Quartz Earrings of Healing',
+    name: '星点石英治愈耳坠',
     level: 545,
     rarity: 1,
     slot: 9,
@@ -52415,7 +52415,7 @@ export default [
   },
   {
     id: 34739,
-    name: 'Star Quartz Earrings of Casting',
+    name: '星点石英咏咒耳坠',
     level: 545,
     rarity: 1,
     slot: 9,
@@ -52436,7 +52436,7 @@ export default [
   },
   {
     id: 34740,
-    name: 'Star Quartz Choker of Fending',
+    name: '星点石英御敌项环',
     level: 545,
     rarity: 1,
     slot: 10,
@@ -52457,7 +52457,7 @@ export default [
   },
   {
     id: 34741,
-    name: 'Star Quartz Choker of Slaying',
+    name: '星点石英强攻项环',
     level: 545,
     rarity: 1,
     slot: 10,
@@ -52478,7 +52478,7 @@ export default [
   },
   {
     id: 34742,
-    name: 'Star Quartz Choker of Aiming',
+    name: '星点石英精准项环',
     level: 545,
     rarity: 1,
     slot: 10,
@@ -52499,7 +52499,7 @@ export default [
   },
   {
     id: 34743,
-    name: 'Star Quartz Choker of Healing',
+    name: '星点石英治愈项环',
     level: 545,
     rarity: 1,
     slot: 10,
@@ -52520,7 +52520,7 @@ export default [
   },
   {
     id: 34744,
-    name: 'Star Quartz Choker of Casting',
+    name: '星点石英咏咒项环',
     level: 545,
     rarity: 1,
     slot: 10,
@@ -52541,7 +52541,7 @@ export default [
   },
   {
     id: 34745,
-    name: 'Star Quartz Wristband of Fending',
+    name: '星点石英御敌腕带',
     level: 545,
     rarity: 1,
     slot: 11,
@@ -52562,7 +52562,7 @@ export default [
   },
   {
     id: 34746,
-    name: 'Star Quartz Wristband of Slaying',
+    name: '星点石英强攻腕带',
     level: 545,
     rarity: 1,
     slot: 11,
@@ -52583,7 +52583,7 @@ export default [
   },
   {
     id: 34747,
-    name: 'Star Quartz Wristband of Aiming',
+    name: '星点石英精准腕带',
     level: 545,
     rarity: 1,
     slot: 11,
@@ -52604,7 +52604,7 @@ export default [
   },
   {
     id: 34748,
-    name: 'Star Quartz Wristband of Healing',
+    name: '星点石英治愈腕带',
     level: 545,
     rarity: 1,
     slot: 11,
@@ -52625,7 +52625,7 @@ export default [
   },
   {
     id: 34749,
-    name: 'Star Quartz Wristband of Casting',
+    name: '星点石英咏咒腕带',
     level: 545,
     rarity: 1,
     slot: 11,
@@ -52646,7 +52646,7 @@ export default [
   },
   {
     id: 34750,
-    name: 'Star Quartz Ring of Fending',
+    name: '星点石英御敌指环',
     level: 545,
     rarity: 1,
     slot: 12,
@@ -52667,7 +52667,7 @@ export default [
   },
   {
     id: 34751,
-    name: 'Star Quartz Ring of Slaying',
+    name: '星点石英强攻指环',
     level: 545,
     rarity: 1,
     slot: 12,
@@ -52688,7 +52688,7 @@ export default [
   },
   {
     id: 34752,
-    name: 'Star Quartz Ring of Aiming',
+    name: '星点石英精准指环',
     level: 545,
     rarity: 1,
     slot: 12,
@@ -52709,7 +52709,7 @@ export default [
   },
   {
     id: 34753,
-    name: 'Star Quartz Ring of Healing',
+    name: '星点石英治愈指环',
     level: 545,
     rarity: 1,
     slot: 12,
@@ -52730,7 +52730,7 @@ export default [
   },
   {
     id: 34754,
-    name: 'Star Quartz Ring of Casting',
+    name: '星点石英咏咒指环',
     level: 545,
     rarity: 1,
     slot: 12,
@@ -52751,7 +52751,7 @@ export default [
   },
   {
     id: 34810,
-    name: 'Etheirys Earring of Fending',
+    name: '亚伊太利斯御敌耳坠',
     level: 548,
     rarity: 2,
     slot: 9,
@@ -52770,7 +52770,7 @@ export default [
   },
   {
     id: 34811,
-    name: 'Etheirys Earring of Slaying',
+    name: '亚伊太利斯强攻耳坠',
     level: 548,
     rarity: 2,
     slot: 9,
@@ -52789,7 +52789,7 @@ export default [
   },
   {
     id: 34812,
-    name: 'Etheirys Earring of Aiming',
+    name: '亚伊太利斯精准耳坠',
     level: 548,
     rarity: 2,
     slot: 9,
@@ -52808,7 +52808,7 @@ export default [
   },
   {
     id: 34813,
-    name: 'Etheirys Earring of Healing',
+    name: '亚伊太利斯治愈耳坠',
     level: 548,
     rarity: 2,
     slot: 9,
@@ -52827,7 +52827,7 @@ export default [
   },
   {
     id: 34814,
-    name: 'Etheirys Earring of Casting',
+    name: '亚伊太利斯咏咒耳坠',
     level: 548,
     rarity: 2,
     slot: 9,
@@ -52846,7 +52846,7 @@ export default [
   },
   {
     id: 34815,
-    name: 'Etheirys Choker of Fending',
+    name: '亚伊太利斯御敌项环',
     level: 548,
     rarity: 2,
     slot: 10,
@@ -52865,7 +52865,7 @@ export default [
   },
   {
     id: 34816,
-    name: 'Etheirys Choker of Slaying',
+    name: '亚伊太利斯强攻项环',
     level: 548,
     rarity: 2,
     slot: 10,
@@ -52884,7 +52884,7 @@ export default [
   },
   {
     id: 34817,
-    name: 'Etheirys Choker of Aiming',
+    name: '亚伊太利斯精准项环',
     level: 548,
     rarity: 2,
     slot: 10,
@@ -52903,7 +52903,7 @@ export default [
   },
   {
     id: 34818,
-    name: 'Etheirys Choker of Healing',
+    name: '亚伊太利斯治愈项环',
     level: 548,
     rarity: 2,
     slot: 10,
@@ -52922,7 +52922,7 @@ export default [
   },
   {
     id: 34819,
-    name: 'Etheirys Choker of Casting',
+    name: '亚伊太利斯咏咒项环',
     level: 548,
     rarity: 2,
     slot: 10,
@@ -52941,7 +52941,7 @@ export default [
   },
   {
     id: 34820,
-    name: 'Etheirys Bracelet of Fending',
+    name: '亚伊太利斯御敌手环',
     level: 548,
     rarity: 2,
     slot: 11,
@@ -52960,7 +52960,7 @@ export default [
   },
   {
     id: 34821,
-    name: 'Etheirys Bracelet of Slaying',
+    name: '亚伊太利斯强攻手环',
     level: 548,
     rarity: 2,
     slot: 11,
@@ -52979,7 +52979,7 @@ export default [
   },
   {
     id: 34822,
-    name: 'Etheirys Bracelet of Aiming',
+    name: '亚伊太利斯精准手环',
     level: 548,
     rarity: 2,
     slot: 11,
@@ -52998,7 +52998,7 @@ export default [
   },
   {
     id: 34823,
-    name: 'Etheirys Bracelet of Healing',
+    name: '亚伊太利斯治愈手环',
     level: 548,
     rarity: 2,
     slot: 11,
@@ -53017,7 +53017,7 @@ export default [
   },
   {
     id: 34824,
-    name: 'Etheirys Bracelet of Casting',
+    name: '亚伊太利斯咏咒手环',
     level: 548,
     rarity: 2,
     slot: 11,
@@ -53036,7 +53036,7 @@ export default [
   },
   {
     id: 34825,
-    name: 'Etheirys Ring of Fending',
+    name: '亚伊太利斯御敌指环',
     level: 548,
     rarity: 2,
     slot: 12,
@@ -53055,7 +53055,7 @@ export default [
   },
   {
     id: 34826,
-    name: 'Etheirys Ring of Slaying',
+    name: '亚伊太利斯强攻指环',
     level: 548,
     rarity: 2,
     slot: 12,
@@ -53074,7 +53074,7 @@ export default [
   },
   {
     id: 34827,
-    name: 'Etheirys Ring of Aiming',
+    name: '亚伊太利斯精准指环',
     level: 548,
     rarity: 2,
     slot: 12,
@@ -53093,7 +53093,7 @@ export default [
   },
   {
     id: 34828,
-    name: 'Etheirys Ring of Healing',
+    name: '亚伊太利斯治愈指环',
     level: 548,
     rarity: 2,
     slot: 12,
@@ -53112,7 +53112,7 @@ export default [
   },
   {
     id: 34829,
-    name: 'Etheirys Ring of Casting',
+    name: '亚伊太利斯咏咒指环',
     level: 548,
     rarity: 2,
     slot: 12,

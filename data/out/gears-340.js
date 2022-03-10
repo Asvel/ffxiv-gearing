@@ -20034,7 +20034,7 @@ export default [
   },
   {
     id: 35759,
-    name: 'Empyrean War Talon',
+    name: '天之戈',
     level: 365,
     rarity: 3,
     slot: 13,
@@ -20055,7 +20055,7 @@ export default [
   },
   {
     id: 35777,
-    name: 'Empyrean Dzi',
+    name: '天之天珠',
     level: 365,
     rarity: 3,
     slot: 13,
