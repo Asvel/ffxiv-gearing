@@ -279,8 +279,8 @@ export const Store = mst.types
         PIE: calcTier(PIE! - main, div / 150),
       };
     },
-    get share(): string {
-      if (self.job === undefined) return '';
+    get gearset(): G.Gearset | null {
+      if (self.job === undefined) return null;
       const gears: G.Gearset['gears'] = [];
       for (const slot of self.schema.slots) {
         const gear = self.equippedGears.get(slot.slot.toString());
@@ -292,15 +292,23 @@ export const Store = mst.types
           customStats: (gear as IGear).customStats?.toJSON(),
         });
       }
-      return share.stringify({
+      return {
         job: self.job,
         jobLevel: self.jobLevel,
         syncLevel: self.syncLevel,
         gears,
-      });
+      };
+    },
+    get share(): string {
+      if (this.gearset === null) return '';
+      return share.stringify(this.gearset);
     },
     get shareUrl(): string {
       return window.location.origin + window.location.pathname + '?' + this.share;
+    },
+    get migrateUrl(): string {
+      if (this.gearset === null) return '';
+      return '../?import-' + JSON.stringify(this.gearset);
     },
   }))
   .actions(self => ({

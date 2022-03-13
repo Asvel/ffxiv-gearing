@@ -137,6 +137,15 @@ export const Condition = mobxReact.observer(() => {
         {viewing && (
           <Button
             className="condition_button"
+            children="迁移至《晓月之终途》版本"
+            onClick={() => {
+              window.location.href = store.migrateUrl;
+            }}
+          />
+        )}
+        {viewing && (
+          <Button
+            className="condition_button"
             onClick={() => {
               store.startEditing();
               // TODO: recheck behavior
