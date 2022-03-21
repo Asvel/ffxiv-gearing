@@ -2374,7 +2374,7 @@ export default [
       TEN: 111,
       SKS: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2393,7 +2393,7 @@ export default [
       CRT: 111,
       DET: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2412,7 +2412,7 @@ export default [
       CRT: 111,
       DET: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2431,7 +2431,7 @@ export default [
       CRT: 78,
       DET: 111,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2450,7 +2450,7 @@ export default [
       CRT: 111,
       SPS: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2469,7 +2469,7 @@ export default [
       CRT: 111,
       DET: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2488,7 +2488,7 @@ export default [
       DHT: 111,
       CRT: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2507,7 +2507,7 @@ export default [
       DHT: 111,
       SKS: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2526,7 +2526,7 @@ export default [
       PIE: 111,
       SPS: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2545,7 +2545,7 @@ export default [
       DHT: 78,
       DET: 111,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2564,7 +2564,7 @@ export default [
       TEN: 111,
       CRT: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2583,7 +2583,7 @@ export default [
       DET: 111,
       SKS: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2602,7 +2602,7 @@ export default [
       CRT: 78,
       DET: 111,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2621,7 +2621,7 @@ export default [
       CRT: 111,
       DET: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2640,7 +2640,7 @@ export default [
       DHT: 78,
       CRT: 111,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2659,7 +2659,7 @@ export default [
       CRT: 111,
       DET: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2678,7 +2678,7 @@ export default [
       CRT: 111,
       DET: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2697,7 +2697,7 @@ export default [
       DHT: 78,
       CRT: 111,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2716,7 +2716,7 @@ export default [
       PIE: 111,
       DET: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -2735,7 +2735,7 @@ export default [
       DET: 111,
       SPS: 78,
     },
-    source: '迷宫挑战/90本',
+    source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
     patch: '6.0',
   },
   {
@@ -6110,7 +6110,7 @@ export default [
       PDMG: 115,
       DLY: 2240,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6131,7 +6131,7 @@ export default [
       PDMG: 115,
       DLY: 2560,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6152,7 +6152,7 @@ export default [
       PDMG: 115,
       DLY: 3360,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6173,7 +6173,7 @@ export default [
       PDMG: 115,
       DLY: 2800,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6194,7 +6194,7 @@ export default [
       PDMG: 115,
       DLY: 3040,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6215,7 +6215,7 @@ export default [
       PDMG: 115,
       DLY: 2560,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6236,7 +6236,7 @@ export default [
       PDMG: 115,
       DLY: 2960,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6257,7 +6257,7 @@ export default [
       PDMG: 115,
       DLY: 2640,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6277,7 +6277,7 @@ export default [
       DET: 253,
       MDMG: 115,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6297,7 +6297,7 @@ export default [
       DET: 253,
       MDMG: 115,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6317,7 +6317,7 @@ export default [
       CRT: 177,
       MDMG: 115,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6337,7 +6337,7 @@ export default [
       DET: 253,
       MDMG: 115,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6357,7 +6357,7 @@ export default [
       DET: 253,
       MDMG: 115,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6378,7 +6378,7 @@ export default [
       PDMG: 115,
       DLY: 2640,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6398,7 +6398,7 @@ export default [
       CRT: 177,
       MDMG: 115,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6419,7 +6419,7 @@ export default [
       PDMG: 115,
       DLY: 2800,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6440,7 +6440,7 @@ export default [
       PDMG: 115,
       DLY: 3120,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6460,7 +6460,7 @@ export default [
       DET: 253,
       MDMG: 115,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6481,7 +6481,7 @@ export default [
       PDMG: 115,
       DLY: 3200,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6500,7 +6500,7 @@ export default [
       CRT: 72,
       DET: 50,
     },
-    source: '歼殛战/89讨伐',
+    source: '歼殛战/海德林',
     patch: '6.0',
   },
   {
@@ -6519,7 +6519,7 @@ export default [
       CRT: 121,
       DET: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6538,7 +6538,7 @@ export default [
       CRT: 85,
       DET: 121,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6557,7 +6557,7 @@ export default [
       DHT: 85,
       SKS: 121,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6576,7 +6576,7 @@ export default [
       PIE: 85,
       DET: 121,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6595,7 +6595,7 @@ export default [
       DHT: 121,
       DET: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6614,7 +6614,7 @@ export default [
       DET: 121,
       SKS: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6633,7 +6633,7 @@ export default [
       DHT: 85,
       DET: 121,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6652,7 +6652,7 @@ export default [
       CRT: 121,
       DET: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6671,7 +6671,7 @@ export default [
       CRT: 121,
       SPS: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6690,7 +6690,7 @@ export default [
       CRT: 121,
       SPS: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6709,7 +6709,7 @@ export default [
       CRT: 121,
       SKS: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6728,7 +6728,7 @@ export default [
       CRT: 121,
       DET: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6747,7 +6747,7 @@ export default [
       DHT: 85,
       CRT: 121,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6766,7 +6766,7 @@ export default [
       PIE: 85,
       DET: 121,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6785,7 +6785,7 @@ export default [
       CRT: 121,
       DET: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6804,7 +6804,7 @@ export default [
       TEN: 121,
       CRT: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6823,7 +6823,7 @@ export default [
       DHT: 121,
       SKS: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6842,7 +6842,7 @@ export default [
       DHT: 85,
       DET: 121,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6861,7 +6861,7 @@ export default [
       DET: 121,
       SPS: 85,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
@@ -6880,7 +6880,7 @@ export default [
       DET: 85,
       SPS: 121,
     },
-    source: '歼殛战/83讨伐',
+    source: '歼殛战/佐迪亚克',
     patch: '6.0',
   },
   {
