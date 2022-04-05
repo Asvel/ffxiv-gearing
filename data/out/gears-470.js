@@ -9504,7 +9504,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35321,
@@ -9523,7 +9522,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35322,
@@ -9542,7 +9540,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35323,
@@ -9561,7 +9558,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35324,
@@ -9580,7 +9576,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35325,
@@ -9599,7 +9594,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35326,
@@ -9618,7 +9612,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35327,
@@ -9637,7 +9630,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35328,
@@ -9657,7 +9649,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35329,
@@ -9677,7 +9668,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35330,
@@ -9697,7 +9687,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35331,
@@ -9716,7 +9705,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35332,
@@ -9735,7 +9723,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35333,
@@ -9754,7 +9741,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35334,
@@ -9773,7 +9759,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35335,
@@ -9792,7 +9777,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35336,
@@ -9811,7 +9795,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35337,
@@ -9830,7 +9813,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35338,
@@ -9849,7 +9831,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35339,
@@ -9868,7 +9849,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35340,
@@ -9887,7 +9867,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35404,
@@ -9906,7 +9885,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35405,
@@ -9926,7 +9904,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35406,
@@ -9945,7 +9922,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35407,
@@ -9964,7 +9940,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35408,
@@ -9983,7 +9958,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35409,
@@ -10002,7 +9976,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35410,
@@ -10023,7 +9996,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35411,
@@ -10043,7 +10015,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35412,
@@ -10064,7 +10035,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35413,
@@ -10084,7 +10054,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35444,
@@ -10103,7 +10072,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35445,
@@ -10122,7 +10090,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35446,
@@ -10141,7 +10108,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35447,
@@ -10160,7 +10126,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35448,
@@ -10178,7 +10143,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35449,
@@ -10196,7 +10160,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35450,
@@ -10214,7 +10177,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35451,
@@ -10232,7 +10194,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 29002,
@@ -22646,7 +22607,6 @@ export default [
       MDMG: 102,
     },
     source: '点数强化/奇谭→诗学',
-    patch: '6.0',
   },
   {
     id: 36614,
@@ -22667,7 +22627,6 @@ export default [
       DLY: 3200,
     },
     source: '点数强化/奇谭→诗学',
-    patch: '6.0',
   },
   {
     id: 29037,
@@ -29515,7 +29474,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34081,
@@ -29538,7 +29496,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34082,
@@ -29561,7 +29518,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34083,
@@ -29584,7 +29540,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34084,
@@ -29607,7 +29562,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34085,
@@ -29630,7 +29584,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34086,
@@ -29653,7 +29606,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34087,
@@ -29676,7 +29628,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34088,
@@ -29698,7 +29649,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34089,
@@ -29720,7 +29670,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34090,
@@ -29742,7 +29691,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34091,
@@ -29764,7 +29712,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34092,
@@ -29786,7 +29733,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34093,
@@ -29809,7 +29755,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34094,
@@ -29831,7 +29776,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34095,
@@ -29854,7 +29798,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34096,
@@ -29877,7 +29820,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34097,
@@ -29899,7 +29841,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34098,
@@ -29922,7 +29863,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34099,
@@ -29942,7 +29882,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34100,
@@ -29963,7 +29902,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34101,
@@ -29984,7 +29922,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34102,
@@ -30005,7 +29942,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34103,
@@ -30026,7 +29962,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34104,
@@ -30047,7 +29982,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34105,
@@ -30068,7 +30002,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34106,
@@ -30089,7 +30022,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34107,
@@ -30110,7 +30042,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34108,
@@ -30131,7 +30062,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34109,
@@ -30152,7 +30082,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34110,
@@ -30173,7 +30102,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34111,
@@ -30194,7 +30122,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34112,
@@ -30215,7 +30142,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34113,
@@ -30236,7 +30162,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34114,
@@ -30257,7 +30182,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34115,
@@ -30278,7 +30202,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34116,
@@ -30299,7 +30222,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34117,
@@ -30320,7 +30242,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34118,
@@ -30341,7 +30262,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34119,
@@ -30362,7 +30282,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34120,
@@ -30383,7 +30302,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34121,
@@ -30404,7 +30322,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34122,
@@ -30425,7 +30342,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34123,
@@ -30446,7 +30362,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34124,
@@ -30467,7 +30382,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34125,
@@ -30488,7 +30402,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34126,
@@ -30509,7 +30422,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34127,
@@ -30530,7 +30442,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34128,
@@ -30551,7 +30462,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34129,
@@ -30572,7 +30482,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34130,
@@ -30593,7 +30502,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34131,
@@ -30614,7 +30522,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34132,
@@ -30635,7 +30542,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34133,
@@ -30656,7 +30562,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34134,
@@ -30677,7 +30582,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34135,
@@ -30698,7 +30602,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34136,
@@ -30719,7 +30622,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34137,
@@ -30740,7 +30642,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34138,
@@ -30761,7 +30662,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34139,
@@ -30782,7 +30682,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34140,
@@ -30803,7 +30702,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34141,
@@ -30824,7 +30722,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34142,
@@ -30845,7 +30742,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34143,
@@ -30866,7 +30762,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34144,
@@ -30887,7 +30782,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34145,
@@ -30908,7 +30802,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34146,
@@ -30929,7 +30822,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34147,
@@ -30950,7 +30842,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34148,
@@ -30971,7 +30862,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34149,
@@ -30992,7 +30882,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34150,
@@ -31013,7 +30902,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34151,
@@ -31034,7 +30922,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34152,
@@ -31055,7 +30942,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34153,
@@ -31076,7 +30962,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34154,
@@ -31097,7 +30982,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 32418,
@@ -34843,8 +34727,7 @@ export default [
       PDMG: 104,
       DLY: 2240,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34156,
@@ -34864,8 +34747,7 @@ export default [
       PDMG: 104,
       DLY: 2560,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34157,
@@ -34885,8 +34767,7 @@ export default [
       PDMG: 104,
       DLY: 3360,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34158,
@@ -34906,8 +34787,7 @@ export default [
       PDMG: 104,
       DLY: 2800,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34159,
@@ -34927,8 +34807,7 @@ export default [
       PDMG: 104,
       DLY: 3040,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34160,
@@ -34948,8 +34827,7 @@ export default [
       PDMG: 104,
       DLY: 2560,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34161,
@@ -34969,8 +34847,7 @@ export default [
       PDMG: 104,
       DLY: 2960,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34162,
@@ -34990,8 +34867,7 @@ export default [
       PDMG: 104,
       DLY: 2640,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34163,
@@ -35010,8 +34886,7 @@ export default [
       DET: 143,
       MDMG: 104,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34164,
@@ -35030,8 +34905,7 @@ export default [
       SPS: 143,
       MDMG: 104,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34165,
@@ -35050,8 +34924,7 @@ export default [
       CRT: 143,
       MDMG: 104,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34166,
@@ -35070,8 +34943,7 @@ export default [
       DET: 143,
       MDMG: 104,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34167,
@@ -35090,8 +34962,7 @@ export default [
       DET: 143,
       MDMG: 104,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34168,
@@ -35111,8 +34982,7 @@ export default [
       PDMG: 104,
       DLY: 2640,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34169,
@@ -35131,8 +35001,7 @@ export default [
       CRT: 143,
       MDMG: 104,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34170,
@@ -35152,8 +35021,7 @@ export default [
       PDMG: 104,
       DLY: 2800,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34171,
@@ -35173,8 +35041,7 @@ export default [
       PDMG: 104,
       DLY: 3120,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34172,
@@ -35193,8 +35060,7 @@ export default [
       DET: 143,
       MDMG: 104,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34173,
@@ -35214,8 +35080,7 @@ export default [
       PDMG: 104,
       DLY: 3200,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34174,
@@ -35233,8 +35098,7 @@ export default [
       TEN: 58,
       DET: 41,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34175,
@@ -35252,8 +35116,7 @@ export default [
       TEN: 87,
       CRT: 124,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34176,
@@ -35271,8 +35134,7 @@ export default [
       CRT: 137,
       DET: 196,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34177,
@@ -35290,8 +35152,7 @@ export default [
       DET: 124,
       SKS: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34178,
@@ -35309,8 +35170,7 @@ export default [
       CRT: 196,
       SKS: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34179,
@@ -35328,8 +35188,7 @@ export default [
       TEN: 124,
       CRT: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34180,
@@ -35347,8 +35206,7 @@ export default [
       DHT: 124,
       CRT: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34181,
@@ -35366,8 +35224,7 @@ export default [
       CRT: 196,
       SKS: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34182,
@@ -35385,8 +35242,7 @@ export default [
       CRT: 124,
       DET: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34183,
@@ -35404,8 +35260,7 @@ export default [
       DHT: 196,
       DET: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34184,
@@ -35423,8 +35278,7 @@ export default [
       DET: 124,
       SKS: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34185,
@@ -35442,8 +35296,7 @@ export default [
       DHT: 124,
       SKS: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34186,
@@ -35461,8 +35314,7 @@ export default [
       CRT: 196,
       DET: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34187,
@@ -35480,8 +35332,7 @@ export default [
       DHT: 87,
       CRT: 124,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34188,
@@ -35499,8 +35350,7 @@ export default [
       DHT: 196,
       SKS: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34189,
@@ -35518,8 +35368,7 @@ export default [
       CRT: 124,
       DET: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34190,
@@ -35537,8 +35386,7 @@ export default [
       DHT: 124,
       CRT: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34191,
@@ -35556,8 +35404,7 @@ export default [
       DHT: 137,
       CRT: 196,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34192,
@@ -35575,8 +35422,7 @@ export default [
       CRT: 124,
       SKS: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34193,
@@ -35594,8 +35440,7 @@ export default [
       CRT: 137,
       DET: 196,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34194,
@@ -35613,8 +35458,7 @@ export default [
       DHT: 87,
       SKS: 124,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34195,
@@ -35632,8 +35476,7 @@ export default [
       DHT: 124,
       SKS: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34196,
@@ -35651,8 +35494,7 @@ export default [
       DHT: 137,
       CRT: 196,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34197,
@@ -35670,8 +35512,7 @@ export default [
       DET: 87,
       SKS: 124,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34198,
@@ -35689,8 +35530,7 @@ export default [
       CRT: 196,
       DET: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34199,
@@ -35708,8 +35548,7 @@ export default [
       CRT: 87,
       DET: 124,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34200,
@@ -35727,8 +35566,7 @@ export default [
       PIE: 124,
       CRT: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34201,
@@ -35746,8 +35584,7 @@ export default [
       DET: 196,
       SPS: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34202,
@@ -35765,8 +35602,7 @@ export default [
       PIE: 124,
       CRT: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34203,
@@ -35784,8 +35620,7 @@ export default [
       DET: 196,
       SPS: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34204,
@@ -35803,8 +35638,7 @@ export default [
       PIE: 124,
       DET: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34205,
@@ -35822,8 +35656,7 @@ export default [
       DHT: 124,
       SPS: 87,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34206,
@@ -35841,8 +35674,7 @@ export default [
       CRT: 137,
       DET: 196,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34207,
@@ -35860,8 +35692,7 @@ export default [
       DHT: 87,
       CRT: 124,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34208,
@@ -35879,8 +35710,7 @@ export default [
       CRT: 196,
       DET: 137,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34209,
@@ -35898,8 +35728,7 @@ export default [
       DET: 87,
       SPS: 124,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34210,
@@ -35917,8 +35746,7 @@ export default [
       CRT: 68,
       SKS: 97,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34211,
@@ -35936,8 +35764,7 @@ export default [
       DET: 97,
       SKS: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34212,
@@ -35955,8 +35782,7 @@ export default [
       CRT: 97,
       DET: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34213,
@@ -35974,8 +35800,7 @@ export default [
       CRT: 97,
       SPS: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34214,
@@ -35993,8 +35818,7 @@ export default [
       DHT: 97,
       SPS: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34215,
@@ -36012,8 +35836,7 @@ export default [
       TEN: 68,
       DET: 97,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34216,
@@ -36031,8 +35854,7 @@ export default [
       DHT: 97,
       CRT: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34217,
@@ -36050,8 +35872,7 @@ export default [
       DET: 97,
       SKS: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34218,
@@ -36069,8 +35890,7 @@ export default [
       DET: 97,
       SPS: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34219,
@@ -36088,8 +35908,7 @@ export default [
       CRT: 68,
       DET: 97,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34220,
@@ -36107,8 +35926,7 @@ export default [
       TEN: 97,
       DET: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34221,
@@ -36126,8 +35944,7 @@ export default [
       DHT: 97,
       DET: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34222,
@@ -36145,8 +35962,7 @@ export default [
       DHT: 97,
       SKS: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34223,
@@ -36164,8 +35980,7 @@ export default [
       PIE: 68,
       CRT: 97,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34224,
@@ -36183,8 +35998,7 @@ export default [
       DET: 68,
       SPS: 97,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34225,
@@ -36202,8 +36016,7 @@ export default [
       CRT: 68,
       DET: 97,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34226,
@@ -36221,8 +36034,7 @@ export default [
       CRT: 97,
       DET: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34227,
@@ -36240,8 +36052,7 @@ export default [
       DHT: 68,
       CRT: 97,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34228,
@@ -36259,8 +36070,7 @@ export default [
       PIE: 97,
       DET: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 34229,
@@ -36278,8 +36088,7 @@ export default [
       CRT: 97,
       DET: 68,
     },
-    source: '迷宫挑战/81本',
-    patch: '6.0',
+    source: '迷宫挑战/佐特塔',
   },
   {
     id: 35341,
@@ -36298,7 +36107,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35342,
@@ -36317,7 +36125,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35343,
@@ -36336,7 +36143,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35344,
@@ -36355,7 +36161,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35345,
@@ -36374,7 +36179,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35346,
@@ -36393,7 +36197,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35347,
@@ -36412,7 +36215,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35348,
@@ -36431,7 +36233,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35349,
@@ -36451,7 +36252,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35350,
@@ -36471,7 +36271,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35351,
@@ -36491,7 +36290,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35352,
@@ -36510,7 +36308,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35353,
@@ -36529,7 +36326,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35354,
@@ -36548,7 +36344,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35355,
@@ -36567,7 +36362,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35356,
@@ -36586,7 +36380,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35357,
@@ -36605,7 +36398,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35358,
@@ -36624,7 +36416,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35359,
@@ -36643,7 +36434,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35360,
@@ -36662,7 +36452,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35361,
@@ -36681,7 +36470,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35414,
@@ -36700,7 +36488,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35415,
@@ -36720,7 +36507,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35416,
@@ -36739,7 +36525,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35417,
@@ -36758,7 +36543,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35418,
@@ -36777,7 +36561,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35419,
@@ -36796,7 +36579,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35420,
@@ -36817,7 +36599,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35421,
@@ -36837,7 +36618,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35422,
@@ -36858,7 +36638,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35423,
@@ -36878,7 +36657,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 33482,
@@ -37883,7 +37661,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34231,
@@ -37906,7 +37683,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34232,
@@ -37929,7 +37705,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34233,
@@ -37952,7 +37727,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34234,
@@ -37975,7 +37749,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34235,
@@ -37998,7 +37771,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34236,
@@ -38021,7 +37793,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34237,
@@ -38044,7 +37815,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34238,
@@ -38066,7 +37836,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34239,
@@ -38088,7 +37857,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34240,
@@ -38110,7 +37878,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34241,
@@ -38132,7 +37899,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34242,
@@ -38154,7 +37920,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34243,
@@ -38177,7 +37942,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34244,
@@ -38199,7 +37963,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34245,
@@ -38222,7 +37985,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34246,
@@ -38245,7 +38007,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34247,
@@ -38267,7 +38028,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34248,
@@ -38290,7 +38050,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34249,
@@ -38310,7 +38069,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34250,
@@ -38331,7 +38089,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34251,
@@ -38352,7 +38109,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34252,
@@ -38373,7 +38129,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34253,
@@ -38394,7 +38149,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34254,
@@ -38415,7 +38169,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34255,
@@ -38436,7 +38189,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34256,
@@ -38457,7 +38209,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34257,
@@ -38478,7 +38229,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34258,
@@ -38499,7 +38249,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34259,
@@ -38520,7 +38269,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34260,
@@ -38541,7 +38289,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34261,
@@ -38562,7 +38309,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34262,
@@ -38583,7 +38329,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34263,
@@ -38604,7 +38349,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34264,
@@ -38625,7 +38369,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34265,
@@ -38646,7 +38389,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34266,
@@ -38667,7 +38409,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34267,
@@ -38688,7 +38429,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34268,
@@ -38709,7 +38449,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34269,
@@ -38730,7 +38469,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34270,
@@ -38751,7 +38489,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34271,
@@ -38772,7 +38509,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34272,
@@ -38793,7 +38529,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34273,
@@ -38814,7 +38549,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34274,
@@ -38835,7 +38569,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34275,
@@ -38856,7 +38589,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34276,
@@ -38877,7 +38609,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34277,
@@ -38898,7 +38629,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34278,
@@ -38919,7 +38649,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34279,
@@ -38940,7 +38669,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34280,
@@ -38961,7 +38689,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34281,
@@ -38982,7 +38709,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34282,
@@ -39003,7 +38729,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34283,
@@ -39024,7 +38749,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34284,
@@ -39045,7 +38769,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34285,
@@ -39066,7 +38789,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34286,
@@ -39087,7 +38809,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34287,
@@ -39108,7 +38829,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34288,
@@ -39129,7 +38849,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34289,
@@ -39150,7 +38869,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34290,
@@ -39171,7 +38889,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34291,
@@ -39192,7 +38909,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34292,
@@ -39213,7 +38929,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34293,
@@ -39234,7 +38949,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34294,
@@ -39255,7 +38969,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34295,
@@ -39276,7 +38989,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34296,
@@ -39297,7 +39009,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34297,
@@ -39318,7 +39029,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34298,
@@ -39339,7 +39049,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34299,
@@ -39360,7 +39069,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34300,
@@ -39381,7 +39089,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34301,
@@ -39402,7 +39109,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34302,
@@ -39423,7 +39129,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34303,
@@ -39444,7 +39149,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34304,
@@ -39465,7 +39169,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 32294,
@@ -42069,8 +41772,7 @@ export default [
       PDMG: 105,
       DLY: 2240,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34306,
@@ -42090,8 +41792,7 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34307,
@@ -42111,8 +41812,7 @@ export default [
       PDMG: 105,
       DLY: 3360,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34308,
@@ -42132,8 +41832,7 @@ export default [
       PDMG: 105,
       DLY: 2800,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34309,
@@ -42153,8 +41852,7 @@ export default [
       PDMG: 105,
       DLY: 3040,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34310,
@@ -42174,8 +41872,7 @@ export default [
       PDMG: 105,
       DLY: 2560,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34311,
@@ -42195,8 +41892,7 @@ export default [
       PDMG: 105,
       DLY: 2960,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34312,
@@ -42216,8 +41912,7 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34313,
@@ -42236,8 +41931,7 @@ export default [
       SPS: 145,
       MDMG: 105,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34314,
@@ -42256,8 +41950,7 @@ export default [
       CRT: 145,
       MDMG: 105,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34315,
@@ -42276,8 +41969,7 @@ export default [
       CRT: 145,
       MDMG: 105,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34316,
@@ -42296,8 +41988,7 @@ export default [
       SPS: 145,
       MDMG: 105,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34317,
@@ -42316,8 +42007,7 @@ export default [
       SPS: 145,
       MDMG: 105,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34318,
@@ -42337,8 +42027,7 @@ export default [
       PDMG: 105,
       DLY: 2640,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34319,
@@ -42357,8 +42046,7 @@ export default [
       CRT: 145,
       MDMG: 105,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34320,
@@ -42378,8 +42066,7 @@ export default [
       PDMG: 105,
       DLY: 2800,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34321,
@@ -42399,8 +42086,7 @@ export default [
       PDMG: 105,
       DLY: 3120,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34322,
@@ -42419,8 +42105,7 @@ export default [
       SPS: 145,
       MDMG: 105,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34323,
@@ -42440,8 +42125,7 @@ export default [
       PDMG: 105,
       DLY: 3200,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34324,
@@ -42459,8 +42143,7 @@ export default [
       TEN: 59,
       DET: 41,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34325,
@@ -42478,8 +42161,7 @@ export default [
       CRT: 126,
       SKS: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34326,
@@ -42497,8 +42179,7 @@ export default [
       CRT: 140,
       DET: 200,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34327,
@@ -42516,8 +42197,7 @@ export default [
       TEN: 126,
       SKS: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34328,
@@ -42535,8 +42215,7 @@ export default [
       CRT: 200,
       DET: 140,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34329,
@@ -42554,8 +42233,7 @@ export default [
       TEN: 88,
       SKS: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34330,
@@ -42573,8 +42251,7 @@ export default [
       CRT: 126,
       SKS: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34331,
@@ -42592,8 +42269,7 @@ export default [
       DHT: 200,
       DET: 140,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34332,
@@ -42611,8 +42287,7 @@ export default [
       CRT: 88,
       SKS: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34333,
@@ -42630,8 +42305,7 @@ export default [
       DHT: 200,
       CRT: 140,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34334,
@@ -42649,8 +42323,7 @@ export default [
       CRT: 88,
       DET: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34335,
@@ -42668,8 +42341,7 @@ export default [
       CRT: 126,
       DET: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34336,
@@ -42687,8 +42359,7 @@ export default [
       DHT: 200,
       SKS: 140,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34337,
@@ -42706,8 +42377,7 @@ export default [
       DHT: 126,
       DET: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34338,
@@ -42725,8 +42395,7 @@ export default [
       CRT: 200,
       DET: 140,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34339,
@@ -42744,8 +42413,7 @@ export default [
       DHT: 126,
       DET: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34340,
@@ -42763,8 +42431,7 @@ export default [
       CRT: 126,
       SKS: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34341,
@@ -42782,8 +42449,7 @@ export default [
       CRT: 140,
       DET: 200,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34342,
@@ -42801,8 +42467,7 @@ export default [
       DHT: 126,
       DET: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34343,
@@ -42820,8 +42485,7 @@ export default [
       DHT: 140,
       CRT: 200,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34344,
@@ -42839,8 +42503,7 @@ export default [
       CRT: 126,
       DET: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34345,
@@ -42858,8 +42521,7 @@ export default [
       DHT: 88,
       SKS: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34346,
@@ -42877,8 +42539,7 @@ export default [
       CRT: 200,
       DET: 140,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34347,
@@ -42896,8 +42557,7 @@ export default [
       DHT: 88,
       DET: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34348,
@@ -42915,8 +42575,7 @@ export default [
       DHT: 140,
       CRT: 200,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34349,
@@ -42934,8 +42593,7 @@ export default [
       CRT: 88,
       DET: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34350,
@@ -42953,8 +42611,7 @@ export default [
       DET: 88,
       SPS: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34351,
@@ -42972,8 +42629,7 @@ export default [
       PIE: 140,
       CRT: 200,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34352,
@@ -42991,8 +42647,7 @@ export default [
       CRT: 126,
       DET: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34353,
@@ -43010,8 +42665,7 @@ export default [
       PIE: 200,
       CRT: 140,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34354,
@@ -43029,8 +42683,7 @@ export default [
       PIE: 126,
       SPS: 88,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34355,
@@ -43048,8 +42701,7 @@ export default [
       CRT: 88,
       DET: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34356,
@@ -43067,8 +42719,7 @@ export default [
       DET: 200,
       SPS: 140,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34357,
@@ -43086,8 +42737,7 @@ export default [
       DHT: 88,
       CRT: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34358,
@@ -43105,8 +42755,7 @@ export default [
       CRT: 140,
       SPS: 200,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34359,
@@ -43124,8 +42773,7 @@ export default [
       DET: 88,
       SPS: 126,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34360,
@@ -43143,8 +42791,7 @@ export default [
       TEN: 99,
       DET: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34361,
@@ -43162,8 +42809,7 @@ export default [
       DHT: 69,
       CRT: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34362,
@@ -43181,8 +42827,7 @@ export default [
       DHT: 69,
       DET: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34363,
@@ -43200,8 +42845,7 @@ export default [
       PIE: 99,
       DET: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34364,
@@ -43219,8 +42863,7 @@ export default [
       DHT: 99,
       DET: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34365,
@@ -43238,8 +42881,7 @@ export default [
       CRT: 99,
       DET: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34366,
@@ -43257,8 +42899,7 @@ export default [
       CRT: 69,
       DET: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34367,
@@ -43276,8 +42917,7 @@ export default [
       CRT: 99,
       DET: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34368,
@@ -43295,8 +42935,7 @@ export default [
       PIE: 69,
       CRT: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34369,
@@ -43314,8 +42953,7 @@ export default [
       CRT: 69,
       DET: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34370,
@@ -43333,8 +42971,7 @@ export default [
       TEN: 99,
       SKS: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34371,
@@ -43352,8 +42989,7 @@ export default [
       CRT: 69,
       SKS: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34372,
@@ -43371,8 +43007,7 @@ export default [
       DHT: 69,
       CRT: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34373,
@@ -43390,8 +43025,7 @@ export default [
       CRT: 99,
       DET: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34374,
@@ -43409,8 +43043,7 @@ export default [
       DHT: 69,
       DET: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34375,
@@ -43428,8 +43061,7 @@ export default [
       CRT: 69,
       SKS: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34376,
@@ -43447,8 +43079,7 @@ export default [
       DHT: 69,
       CRT: 99,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34377,
@@ -43466,8 +43097,7 @@ export default [
       DET: 99,
       SKS: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34378,
@@ -43485,8 +43115,7 @@ export default [
       CRT: 99,
       DET: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 34379,
@@ -43504,8 +43133,7 @@ export default [
       DHT: 99,
       CRT: 69,
     },
-    source: '迷宫挑战/83本',
-    patch: '6.0',
+    source: '迷宫挑战/巴别塔',
   },
   {
     id: 35771,
@@ -43526,7 +43154,6 @@ export default [
       DLY: 3200,
     },
     source: '点数强化/默示→诗学',
-    patch: '6.0',
   },
   {
     id: 35789,
@@ -43546,7 +43173,6 @@ export default [
       MDMG: 105,
     },
     source: '点数强化/默示→诗学',
-    patch: '6.0',
   },
   {
     id: 34380,
@@ -43569,7 +43195,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34381,
@@ -43592,7 +43217,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34382,
@@ -43615,7 +43239,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34383,
@@ -43638,7 +43261,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34384,
@@ -43661,7 +43283,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34385,
@@ -43684,7 +43305,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34386,
@@ -43707,7 +43327,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34387,
@@ -43730,7 +43349,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34388,
@@ -43752,7 +43370,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34389,
@@ -43774,7 +43391,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34390,
@@ -43796,7 +43412,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34391,
@@ -43818,7 +43433,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34392,
@@ -43840,7 +43454,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34393,
@@ -43863,7 +43476,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34394,
@@ -43885,7 +43497,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34395,
@@ -43908,7 +43519,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34396,
@@ -43931,7 +43541,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34397,
@@ -43953,7 +43562,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34398,
@@ -43976,7 +43584,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34399,
@@ -43996,7 +43603,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34400,
@@ -44017,7 +43623,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34401,
@@ -44038,7 +43643,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34402,
@@ -44059,7 +43663,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34403,
@@ -44080,7 +43683,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34404,
@@ -44101,7 +43703,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34405,
@@ -44122,7 +43723,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34406,
@@ -44143,7 +43743,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34407,
@@ -44164,7 +43763,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34408,
@@ -44185,7 +43783,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34409,
@@ -44206,7 +43803,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34410,
@@ -44227,7 +43823,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34411,
@@ -44248,7 +43843,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34412,
@@ -44269,7 +43863,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34413,
@@ -44290,7 +43883,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34414,
@@ -44311,7 +43903,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34415,
@@ -44332,7 +43923,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34416,
@@ -44353,7 +43943,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34417,
@@ -44374,7 +43963,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34418,
@@ -44395,7 +43983,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34419,
@@ -44416,7 +44003,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34420,
@@ -44437,7 +44023,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34421,
@@ -44458,7 +44043,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34422,
@@ -44479,7 +44063,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34423,
@@ -44500,7 +44083,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34424,
@@ -44521,7 +44103,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34425,
@@ -44542,7 +44123,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34426,
@@ -44563,7 +44143,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34427,
@@ -44584,7 +44163,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34428,
@@ -44605,7 +44183,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34429,
@@ -44626,7 +44203,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34430,
@@ -44647,7 +44223,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34431,
@@ -44668,7 +44243,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34432,
@@ -44689,7 +44263,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34433,
@@ -44710,7 +44283,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34434,
@@ -44731,7 +44303,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34435,
@@ -44752,7 +44323,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34436,
@@ -44773,7 +44343,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34437,
@@ -44794,7 +44363,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34438,
@@ -44815,7 +44383,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34439,
@@ -44836,7 +44403,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34440,
@@ -44857,7 +44423,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34441,
@@ -44878,7 +44443,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34442,
@@ -44899,7 +44463,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34443,
@@ -44920,7 +44483,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34444,
@@ -44941,7 +44503,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34445,
@@ -44962,7 +44523,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34446,
@@ -44983,7 +44543,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34447,
@@ -45004,7 +44563,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34448,
@@ -45025,7 +44583,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34449,
@@ -45046,7 +44603,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34450,
@@ -45067,7 +44623,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34451,
@@ -45088,7 +44643,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34452,
@@ -45109,7 +44663,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34453,
@@ -45130,7 +44683,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34454,
@@ -45151,7 +44703,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35452,
@@ -45170,7 +44721,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35453,
@@ -45189,7 +44739,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35454,
@@ -45208,7 +44757,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35455,
@@ -45227,7 +44775,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35456,
@@ -45245,7 +44792,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35457,
@@ -45263,7 +44809,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35458,
@@ -45281,7 +44826,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35459,
@@ -45299,7 +44843,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 32276,
@@ -46006,7 +45549,6 @@ export default [
       DLY: 3200,
     },
     source: '零式/再生之章',
-    patch: '6.0',
   },
   {
     id: 35790,
@@ -46026,7 +45568,6 @@ export default [
       MDMG: 106,
     },
     source: '零式/再生之章',
-    patch: '6.0',
   },
   {
     id: 34455,
@@ -46046,8 +45587,7 @@ export default [
       PDMG: 106,
       DLY: 2240,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34456,
@@ -46067,8 +45607,7 @@ export default [
       PDMG: 106,
       DLY: 2560,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34457,
@@ -46088,8 +45627,7 @@ export default [
       PDMG: 106,
       DLY: 3360,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34458,
@@ -46109,8 +45647,7 @@ export default [
       PDMG: 106,
       DLY: 2800,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34459,
@@ -46130,8 +45667,7 @@ export default [
       PDMG: 106,
       DLY: 3040,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34460,
@@ -46151,8 +45687,7 @@ export default [
       PDMG: 106,
       DLY: 2560,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34461,
@@ -46172,8 +45707,7 @@ export default [
       PDMG: 106,
       DLY: 2960,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34462,
@@ -46193,8 +45727,7 @@ export default [
       PDMG: 106,
       DLY: 2640,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34463,
@@ -46213,8 +45746,7 @@ export default [
       DET: 147,
       MDMG: 106,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34464,
@@ -46233,8 +45765,7 @@ export default [
       DET: 147,
       MDMG: 106,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34465,
@@ -46253,8 +45784,7 @@ export default [
       DET: 147,
       MDMG: 106,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34466,
@@ -46273,8 +45803,7 @@ export default [
       DET: 147,
       MDMG: 106,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34467,
@@ -46293,8 +45822,7 @@ export default [
       DET: 147,
       MDMG: 106,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34468,
@@ -46314,8 +45842,7 @@ export default [
       PDMG: 106,
       DLY: 2640,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34469,
@@ -46334,8 +45861,7 @@ export default [
       DET: 147,
       MDMG: 106,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34470,
@@ -46355,8 +45881,7 @@ export default [
       PDMG: 106,
       DLY: 2800,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34471,
@@ -46376,8 +45901,7 @@ export default [
       PDMG: 106,
       DLY: 3120,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34472,
@@ -46396,8 +45920,7 @@ export default [
       DET: 147,
       MDMG: 106,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34473,
@@ -46417,8 +45940,7 @@ export default [
       PDMG: 106,
       DLY: 3200,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34474,
@@ -46436,8 +45958,7 @@ export default [
       TEN: 60,
       CRT: 42,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34475,
@@ -46455,8 +45976,7 @@ export default [
       CRT: 128,
       DET: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34476,
@@ -46474,8 +45994,7 @@ export default [
       DET: 142,
       SKS: 203,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34477,
@@ -46493,8 +46012,7 @@ export default [
       TEN: 128,
       SKS: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34478,
@@ -46512,8 +46030,7 @@ export default [
       CRT: 203,
       DET: 142,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34479,
@@ -46531,8 +46048,7 @@ export default [
       CRT: 90,
       DET: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34480,
@@ -46550,8 +46066,7 @@ export default [
       DET: 128,
       SKS: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34481,
@@ -46569,8 +46084,7 @@ export default [
       CRT: 203,
       DET: 142,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34482,
@@ -46588,8 +46102,7 @@ export default [
       DHT: 128,
       CRT: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34483,
@@ -46607,8 +46120,7 @@ export default [
       DET: 203,
       SKS: 142,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34484,
@@ -46626,8 +46138,7 @@ export default [
       DHT: 90,
       CRT: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34485,
@@ -46645,8 +46156,7 @@ export default [
       CRT: 90,
       SKS: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34486,
@@ -46664,8 +46174,7 @@ export default [
       CRT: 142,
       SKS: 203,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34487,
@@ -46683,8 +46192,7 @@ export default [
       DHT: 128,
       DET: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34488,
@@ -46702,8 +46210,7 @@ export default [
       CRT: 203,
       SKS: 142,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34489,
@@ -46721,8 +46228,7 @@ export default [
       DHT: 128,
       DET: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34490,
@@ -46740,8 +46246,7 @@ export default [
       CRT: 90,
       SKS: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34491,
@@ -46759,8 +46264,7 @@ export default [
       DHT: 142,
       DET: 203,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34492,
@@ -46778,8 +46282,7 @@ export default [
       CRT: 128,
       DET: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34493,
@@ -46797,8 +46300,7 @@ export default [
       DHT: 142,
       CRT: 203,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34494,
@@ -46816,8 +46318,7 @@ export default [
       DET: 90,
       SKS: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34495,
@@ -46835,8 +46336,7 @@ export default [
       CRT: 128,
       SKS: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34496,
@@ -46854,8 +46354,7 @@ export default [
       DET: 142,
       SKS: 203,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34497,
@@ -46873,8 +46372,7 @@ export default [
       CRT: 90,
       DET: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34498,
@@ -46892,8 +46390,7 @@ export default [
       DHT: 203,
       CRT: 142,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34499,
@@ -46911,8 +46408,7 @@ export default [
       DHT: 90,
       DET: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34500,
@@ -46930,8 +46426,7 @@ export default [
       DET: 90,
       SPS: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34501,
@@ -46949,8 +46444,7 @@ export default [
       PIE: 203,
       CRT: 142,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34502,
@@ -46968,8 +46462,7 @@ export default [
       DET: 128,
       SPS: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34503,
@@ -46987,8 +46480,7 @@ export default [
       PIE: 142,
       CRT: 203,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34504,
@@ -47006,8 +46498,7 @@ export default [
       CRT: 90,
       DET: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34505,
@@ -47025,8 +46516,7 @@ export default [
       DHT: 90,
       SPS: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34506,
@@ -47044,8 +46534,7 @@ export default [
       DHT: 203,
       DET: 142,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34507,
@@ -47063,8 +46552,7 @@ export default [
       DHT: 128,
       CRT: 90,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34508,
@@ -47082,8 +46570,7 @@ export default [
       DHT: 203,
       SPS: 142,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34509,
@@ -47101,8 +46588,7 @@ export default [
       CRT: 90,
       SPS: 128,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34510,
@@ -47120,8 +46606,7 @@ export default [
       CRT: 71,
       DET: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34511,
@@ -47139,8 +46624,7 @@ export default [
       DHT: 101,
       DET: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34512,
@@ -47158,8 +46642,7 @@ export default [
       CRT: 101,
       DET: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34513,
@@ -47177,8 +46660,7 @@ export default [
       PIE: 101,
       CRT: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34514,
@@ -47196,8 +46678,7 @@ export default [
       CRT: 71,
       SPS: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34515,
@@ -47215,8 +46696,7 @@ export default [
       TEN: 71,
       CRT: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34516,
@@ -47234,8 +46714,7 @@ export default [
       CRT: 71,
       SKS: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34517,
@@ -47253,8 +46732,7 @@ export default [
       DHT: 71,
       CRT: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34518,
@@ -47272,8 +46750,7 @@ export default [
       CRT: 101,
       DET: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34519,
@@ -47291,8 +46768,7 @@ export default [
       DET: 71,
       SPS: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34520,
@@ -47310,8 +46786,7 @@ export default [
       TEN: 101,
       SKS: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34521,
@@ -47329,8 +46804,7 @@ export default [
       CRT: 101,
       SKS: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34522,
@@ -47348,8 +46822,7 @@ export default [
       DHT: 101,
       CRT: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34523,
@@ -47367,8 +46840,7 @@ export default [
       PIE: 71,
       SPS: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34524,
@@ -47386,8 +46858,7 @@ export default [
       CRT: 101,
       DET: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34525,
@@ -47405,8 +46876,7 @@ export default [
       CRT: 101,
       DET: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34526,
@@ -47424,8 +46894,7 @@ export default [
       DHT: 71,
       CRT: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34527,
@@ -47443,8 +46912,7 @@ export default [
       DHT: 101,
       SKS: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34528,
@@ -47462,8 +46930,7 @@ export default [
       DET: 101,
       SPS: 71,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34529,
@@ -47481,8 +46948,7 @@ export default [
       DHT: 71,
       DET: 101,
     },
-    source: '迷宫挑战/85本',
-    patch: '6.0',
+    source: '迷宫挑战/万相森国',
   },
   {
     id: 34530,
@@ -47505,7 +46971,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34531,
@@ -47528,7 +46993,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34532,
@@ -47551,7 +47015,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34533,
@@ -47574,7 +47037,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34534,
@@ -47597,7 +47059,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34535,
@@ -47620,7 +47081,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34536,
@@ -47643,7 +47103,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34537,
@@ -47666,7 +47125,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34538,
@@ -47688,7 +47146,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34539,
@@ -47710,7 +47167,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34540,
@@ -47732,7 +47188,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34541,
@@ -47754,7 +47209,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34542,
@@ -47776,7 +47230,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34543,
@@ -47799,7 +47252,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34544,
@@ -47821,7 +47273,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34545,
@@ -47844,7 +47295,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34546,
@@ -47867,7 +47317,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34547,
@@ -47889,7 +47338,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34548,
@@ -47912,7 +47360,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34549,
@@ -47932,7 +47379,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34550,
@@ -47953,7 +47399,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34551,
@@ -47974,7 +47419,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34552,
@@ -47995,7 +47439,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34553,
@@ -48016,7 +47459,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34554,
@@ -48037,7 +47479,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34555,
@@ -48058,7 +47499,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34556,
@@ -48079,7 +47519,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34557,
@@ -48100,7 +47539,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34558,
@@ -48121,7 +47559,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34559,
@@ -48142,7 +47579,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34560,
@@ -48163,7 +47599,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34561,
@@ -48184,7 +47619,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34562,
@@ -48205,7 +47639,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34563,
@@ -48226,7 +47659,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34564,
@@ -48247,7 +47679,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34565,
@@ -48268,7 +47699,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34566,
@@ -48289,7 +47719,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34567,
@@ -48310,7 +47739,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34568,
@@ -48331,7 +47759,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34569,
@@ -48352,7 +47779,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34570,
@@ -48373,7 +47799,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34571,
@@ -48394,7 +47819,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34572,
@@ -48415,7 +47839,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34573,
@@ -48436,7 +47859,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34574,
@@ -48457,7 +47879,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34575,
@@ -48478,7 +47899,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34576,
@@ -48499,7 +47919,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34577,
@@ -48520,7 +47939,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34578,
@@ -48541,7 +47959,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34579,
@@ -48562,7 +47979,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34580,
@@ -48583,7 +47999,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34581,
@@ -48604,7 +48019,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34582,
@@ -48625,7 +48039,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34583,
@@ -48646,7 +48059,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34584,
@@ -48667,7 +48079,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34585,
@@ -48688,7 +48099,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34586,
@@ -48709,7 +48119,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34587,
@@ -48730,7 +48139,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34588,
@@ -48751,7 +48159,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34589,
@@ -48772,7 +48179,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34590,
@@ -48793,7 +48199,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34591,
@@ -48814,7 +48219,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34592,
@@ -48835,7 +48239,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34593,
@@ -48856,7 +48259,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34594,
@@ -48877,7 +48279,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34595,
@@ -48898,7 +48299,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34596,
@@ -48919,7 +48319,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34597,
@@ -48940,7 +48339,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34598,
@@ -48961,7 +48359,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34599,
@@ -48982,7 +48379,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34600,
@@ -49003,7 +48399,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34601,
@@ -49024,7 +48419,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34602,
@@ -49045,7 +48439,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34603,
@@ -49066,7 +48459,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34604,
@@ -49087,7 +48479,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35362,
@@ -49106,7 +48497,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35363,
@@ -49125,7 +48515,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35364,
@@ -49144,7 +48533,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35365,
@@ -49163,7 +48551,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35366,
@@ -49182,7 +48569,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35367,
@@ -49201,7 +48587,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35368,
@@ -49220,7 +48605,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35369,
@@ -49239,7 +48623,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35370,
@@ -49259,7 +48642,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35371,
@@ -49279,7 +48661,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35372,
@@ -49299,7 +48680,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35373,
@@ -49318,7 +48698,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35374,
@@ -49337,7 +48716,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35375,
@@ -49356,7 +48734,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35376,
@@ -49375,7 +48752,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35377,
@@ -49394,7 +48770,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35378,
@@ -49413,7 +48788,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35379,
@@ -49432,7 +48806,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35380,
@@ -49451,7 +48824,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35381,
@@ -49470,7 +48842,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35382,
@@ -49489,7 +48860,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35424,
@@ -49508,7 +48878,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35425,
@@ -49528,7 +48897,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35426,
@@ -49547,7 +48915,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35427,
@@ -49566,7 +48933,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35428,
@@ -49585,7 +48951,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35429,
@@ -49604,7 +48969,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35430,
@@ -49625,7 +48989,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35431,
@@ -49645,7 +49008,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35432,
@@ -49666,7 +49028,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35433,
@@ -49686,7 +49047,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34605,
@@ -49706,8 +49066,7 @@ export default [
       PDMG: 107,
       DLY: 2240,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34606,
@@ -49727,8 +49086,7 @@ export default [
       PDMG: 107,
       DLY: 2560,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34607,
@@ -49748,8 +49106,7 @@ export default [
       PDMG: 107,
       DLY: 3360,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34608,
@@ -49769,8 +49126,7 @@ export default [
       PDMG: 107,
       DLY: 2800,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34609,
@@ -49790,8 +49146,7 @@ export default [
       PDMG: 107,
       DLY: 3040,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34610,
@@ -49811,8 +49166,7 @@ export default [
       PDMG: 107,
       DLY: 2560,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34611,
@@ -49832,8 +49186,7 @@ export default [
       PDMG: 107,
       DLY: 2960,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34612,
@@ -49853,8 +49206,7 @@ export default [
       PDMG: 107,
       DLY: 2640,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34613,
@@ -49873,8 +49225,7 @@ export default [
       DET: 213,
       MDMG: 107,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34614,
@@ -49893,8 +49244,7 @@ export default [
       CRT: 213,
       MDMG: 107,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34615,
@@ -49913,8 +49263,7 @@ export default [
       CRT: 213,
       MDMG: 107,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34616,
@@ -49933,8 +49282,7 @@ export default [
       DET: 213,
       MDMG: 107,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34617,
@@ -49953,8 +49301,7 @@ export default [
       DET: 213,
       MDMG: 107,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34618,
@@ -49974,8 +49321,7 @@ export default [
       PDMG: 107,
       DLY: 2640,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34619,
@@ -49994,8 +49340,7 @@ export default [
       CRT: 213,
       MDMG: 107,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34620,
@@ -50015,8 +49360,7 @@ export default [
       PDMG: 107,
       DLY: 2800,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34621,
@@ -50036,8 +49380,7 @@ export default [
       PDMG: 107,
       DLY: 3120,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34622,
@@ -50056,8 +49399,7 @@ export default [
       DET: 213,
       MDMG: 107,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34623,
@@ -50077,8 +49419,7 @@ export default [
       PDMG: 107,
       DLY: 3200,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34624,
@@ -50096,8 +49437,7 @@ export default [
       CRT: 61,
       DET: 43,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34625,
@@ -50115,8 +49455,7 @@ export default [
       DET: 129,
       SKS: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34626,
@@ -50134,8 +49473,7 @@ export default [
       TEN: 144,
       DET: 205,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34627,
@@ -50153,8 +49491,7 @@ export default [
       TEN: 129,
       DET: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34628,
@@ -50172,8 +49509,7 @@ export default [
       TEN: 144,
       SKS: 205,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34629,
@@ -50191,8 +49527,7 @@ export default [
       TEN: 90,
       CRT: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34630,
@@ -50210,8 +49545,7 @@ export default [
       DET: 90,
       SKS: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34631,
@@ -50229,8 +49563,7 @@ export default [
       CRT: 144,
       SKS: 205,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34632,
@@ -50248,8 +49581,7 @@ export default [
       DHT: 90,
       DET: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34633,
@@ -50267,8 +49599,7 @@ export default [
       DHT: 205,
       CRT: 144,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34634,
@@ -50286,8 +49617,7 @@ export default [
       CRT: 90,
       DET: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34635,
@@ -50305,8 +49635,7 @@ export default [
       DHT: 129,
       DET: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34636,
@@ -50324,8 +49653,7 @@ export default [
       CRT: 205,
       DET: 144,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34637,
@@ -50343,8 +49671,7 @@ export default [
       DHT: 129,
       DET: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34638,
@@ -50362,8 +49689,7 @@ export default [
       DHT: 144,
       CRT: 205,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34639,
@@ -50381,8 +49707,7 @@ export default [
       CRT: 90,
       SKS: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34640,
@@ -50400,8 +49725,7 @@ export default [
       DHT: 129,
       SKS: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34641,
@@ -50419,8 +49743,7 @@ export default [
       DHT: 144,
       CRT: 205,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34642,
@@ -50438,8 +49761,7 @@ export default [
       DHT: 90,
       DET: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34643,
@@ -50457,8 +49779,7 @@ export default [
       CRT: 205,
       DET: 144,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34644,
@@ -50476,8 +49797,7 @@ export default [
       DET: 90,
       SKS: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34645,
@@ -50495,8 +49815,7 @@ export default [
       DET: 90,
       SKS: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34646,
@@ -50514,8 +49833,7 @@ export default [
       DHT: 205,
       DET: 144,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34647,
@@ -50533,8 +49851,7 @@ export default [
       CRT: 129,
       SKS: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34648,
@@ -50552,8 +49869,7 @@ export default [
       CRT: 205,
       DET: 144,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34649,
@@ -50571,8 +49887,7 @@ export default [
       DHT: 129,
       DET: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34650,
@@ -50590,8 +49905,7 @@ export default [
       CRT: 129,
       DET: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34651,
@@ -50609,8 +49923,7 @@ export default [
       PIE: 144,
       SPS: 205,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34652,
@@ -50628,8 +49941,7 @@ export default [
       PIE: 129,
       DET: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34653,
@@ -50647,8 +49959,7 @@ export default [
       CRT: 205,
       SPS: 144,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34654,
@@ -50666,8 +49977,7 @@ export default [
       CRT: 90,
       SPS: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34655,
@@ -50685,8 +49995,7 @@ export default [
       DET: 90,
       SPS: 129,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34656,
@@ -50704,8 +50013,7 @@ export default [
       CRT: 205,
       DET: 144,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34657,
@@ -50723,8 +50031,7 @@ export default [
       CRT: 129,
       SPS: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34658,
@@ -50742,8 +50049,7 @@ export default [
       DET: 205,
       SPS: 144,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34659,
@@ -50761,8 +50067,7 @@ export default [
       DHT: 129,
       CRT: 90,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34660,
@@ -50780,8 +50085,7 @@ export default [
       CRT: 102,
       DET: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34661,
@@ -50799,8 +50103,7 @@ export default [
       DHT: 71,
       CRT: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34662,
@@ -50818,8 +50121,7 @@ export default [
       DET: 71,
       SKS: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34663,
@@ -50837,8 +50139,7 @@ export default [
       PIE: 71,
       CRT: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34664,
@@ -50856,8 +50157,7 @@ export default [
       DHT: 102,
       DET: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34665,
@@ -50875,8 +50175,7 @@ export default [
       CRT: 71,
       DET: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34666,
@@ -50894,8 +50193,7 @@ export default [
       DHT: 102,
       DET: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34667,
@@ -50913,8 +50211,7 @@ export default [
       CRT: 71,
       DET: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34668,
@@ -50932,8 +50229,7 @@ export default [
       CRT: 71,
       DET: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34669,
@@ -50951,8 +50247,7 @@ export default [
       DHT: 102,
       SPS: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34670,
@@ -50970,8 +50265,7 @@ export default [
       TEN: 102,
       CRT: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34671,
@@ -50989,8 +50283,7 @@ export default [
       DHT: 71,
       DET: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34672,
@@ -51008,8 +50301,7 @@ export default [
       CRT: 102,
       DET: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34673,
@@ -51027,8 +50319,7 @@ export default [
       PIE: 102,
       CRT: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34674,
@@ -51046,8 +50337,7 @@ export default [
       DHT: 71,
       DET: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34675,
@@ -51065,8 +50355,7 @@ export default [
       TEN: 102,
       DET: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34676,
@@ -51084,8 +50373,7 @@ export default [
       DHT: 71,
       CRT: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34677,
@@ -51103,8 +50391,7 @@ export default [
       DHT: 71,
       DET: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34678,
@@ -51122,8 +50409,7 @@ export default [
       DET: 71,
       SPS: 102,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34679,
@@ -51141,8 +50427,7 @@ export default [
       DHT: 102,
       SPS: 71,
     },
-    source: '迷宫挑战/87本',
-    patch: '6.0',
+    source: '迷宫挑战/极北造物院',
   },
   {
     id: 34680,
@@ -51165,7 +50450,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34681,
@@ -51188,7 +50472,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34682,
@@ -51211,7 +50494,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34683,
@@ -51234,7 +50516,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34684,
@@ -51257,7 +50538,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34685,
@@ -51280,7 +50560,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34686,
@@ -51303,7 +50582,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34687,
@@ -51326,7 +50604,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34688,
@@ -51348,7 +50625,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34689,
@@ -51370,7 +50646,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34690,
@@ -51392,7 +50667,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34691,
@@ -51414,7 +50688,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34692,
@@ -51436,7 +50709,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34693,
@@ -51459,7 +50731,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34694,
@@ -51481,7 +50752,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34695,
@@ -51504,7 +50774,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34696,
@@ -51527,7 +50796,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34697,
@@ -51549,7 +50817,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34698,
@@ -51572,7 +50839,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34699,
@@ -51592,7 +50858,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34700,
@@ -51613,7 +50878,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34701,
@@ -51634,7 +50898,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34702,
@@ -51655,7 +50918,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34703,
@@ -51676,7 +50938,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34704,
@@ -51697,7 +50958,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34705,
@@ -51718,7 +50978,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34706,
@@ -51739,7 +50998,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34707,
@@ -51760,7 +51018,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34708,
@@ -51781,7 +51038,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34709,
@@ -51802,7 +51058,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34710,
@@ -51823,7 +51078,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34711,
@@ -51844,7 +51098,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34712,
@@ -51865,7 +51118,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34713,
@@ -51886,7 +51138,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34714,
@@ -51907,7 +51158,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34715,
@@ -51928,7 +51178,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34716,
@@ -51949,7 +51198,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34717,
@@ -51970,7 +51218,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34718,
@@ -51991,7 +51238,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34719,
@@ -52012,7 +51258,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34720,
@@ -52033,7 +51278,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34721,
@@ -52054,7 +51298,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34722,
@@ -52075,7 +51318,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34723,
@@ -52096,7 +51338,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34724,
@@ -52117,7 +51358,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34725,
@@ -52138,7 +51378,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34726,
@@ -52159,7 +51398,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34727,
@@ -52180,7 +51418,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34728,
@@ -52201,7 +51438,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34729,
@@ -52222,7 +51458,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34730,
@@ -52243,7 +51478,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34731,
@@ -52264,7 +51498,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34732,
@@ -52285,7 +51518,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34733,
@@ -52306,7 +51538,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34734,
@@ -52327,7 +51558,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34735,
@@ -52348,7 +51578,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34736,
@@ -52369,7 +51598,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34737,
@@ -52390,7 +51618,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34738,
@@ -52411,7 +51638,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34739,
@@ -52432,7 +51658,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34740,
@@ -52453,7 +51678,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34741,
@@ -52474,7 +51698,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34742,
@@ -52495,7 +51718,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34743,
@@ -52516,7 +51738,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34744,
@@ -52537,7 +51758,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34745,
@@ -52558,7 +51778,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34746,
@@ -52579,7 +51798,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34747,
@@ -52600,7 +51818,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34748,
@@ -52621,7 +51838,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34749,
@@ -52642,7 +51858,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34750,
@@ -52663,7 +51878,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34751,
@@ -52684,7 +51898,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34752,
@@ -52705,7 +51918,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34753,
@@ -52726,7 +51938,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34754,
@@ -52747,7 +51958,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34810,
@@ -52765,8 +51975,7 @@ export default [
       TEN: 103,
       SKS: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34811,
@@ -52784,8 +51993,7 @@ export default [
       CRT: 103,
       SKS: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34812,
@@ -52803,8 +52011,7 @@ export default [
       CRT: 103,
       DET: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34813,
@@ -52822,8 +52029,7 @@ export default [
       PIE: 103,
       SPS: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34814,
@@ -52841,8 +52047,7 @@ export default [
       CRT: 72,
       DET: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34815,
@@ -52860,8 +52065,7 @@ export default [
       CRT: 72,
       DET: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34816,
@@ -52879,8 +52083,7 @@ export default [
       CRT: 103,
       SKS: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34817,
@@ -52898,8 +52101,7 @@ export default [
       DHT: 103,
       CRT: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34818,
@@ -52917,8 +52119,7 @@ export default [
       CRT: 72,
       SPS: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34819,
@@ -52936,8 +52137,7 @@ export default [
       DET: 103,
       SPS: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34820,
@@ -52955,8 +52155,7 @@ export default [
       TEN: 72,
       CRT: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34821,
@@ -52974,8 +52173,7 @@ export default [
       CRT: 72,
       DET: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34822,
@@ -52993,8 +52191,7 @@ export default [
       DHT: 72,
       DET: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34823,
@@ -53012,8 +52209,7 @@ export default [
       PIE: 72,
       CRT: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34824,
@@ -53031,8 +52227,7 @@ export default [
       CRT: 72,
       SPS: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34825,
@@ -53050,8 +52245,7 @@ export default [
       CRT: 72,
       DET: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34826,
@@ -53069,8 +52263,7 @@ export default [
       DHT: 72,
       DET: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34827,
@@ -53088,8 +52281,7 @@ export default [
       DHT: 103,
       CRT: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34828,
@@ -53107,8 +52299,7 @@ export default [
       CRT: 103,
       DET: 72,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
   {
     id: 34829,
@@ -53126,7 +52317,6 @@ export default [
       DET: 72,
       SPS: 103,
     },
-    source: '迷宫挑战/89本',
-    patch: '6.0',
+    source: '迷宫挑战/寻因星晶镜',
   },
 ];

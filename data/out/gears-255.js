@@ -3183,7 +3183,6 @@ export default [
       DLY: 3200,
     },
     source: '死者宫殿',
-    patch: '6.0',
   },
   {
     id: 35775,
@@ -3203,7 +3202,6 @@ export default [
       MDMG: 78,
     },
     source: '死者宫殿',
-    patch: '6.0',
   },
   {
     id: 15237,
@@ -32943,7 +32941,6 @@ export default [
       DLY: 3200,
     },
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
-    patch: '6.0',
   },
   {
     id: 35776,
@@ -32963,7 +32960,6 @@ export default [
       MDMG: 82,
     },
     source: '迷宫挑战/阿拉米格、黄金阁、星导寺',
-    patch: '6.0',
   },
   {
     id: 19125,

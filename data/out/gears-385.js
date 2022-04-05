@@ -2249,7 +2249,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35778,
@@ -2271,7 +2270,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 36015,
@@ -2290,7 +2288,6 @@ export default [
       DET: 59,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36016,
@@ -2309,7 +2306,6 @@ export default [
       CRT: 134,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36017,
@@ -2328,7 +2324,6 @@ export default [
       SPS: 59,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36018,
@@ -2347,7 +2342,6 @@ export default [
       DET: 134,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36019,
@@ -2366,7 +2360,6 @@ export default [
       DET: 84,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36020,
@@ -2385,7 +2378,6 @@ export default [
       DET: 84,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36021,
@@ -2404,7 +2396,6 @@ export default [
       CRT: 134,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36022,
@@ -2423,7 +2414,6 @@ export default [
       DET: 84,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36023,
@@ -2442,7 +2432,6 @@ export default [
       DET: 94,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 36024,
@@ -2461,7 +2450,6 @@ export default [
       SKS: 84,
     },
     source: '职业任务',
-    patch: '6.0',
   },
   {
     id: 23394,
@@ -9488,7 +9476,6 @@ export default [
       DLY: 3200,
     },
     source: '迷宫挑战/水滩村',
-    patch: '6.0',
   },
   {
     id: 35780,
@@ -9508,7 +9495,6 @@ export default [
       MDMG: 91,
     },
     source: '迷宫挑战/水滩村',
-    patch: '6.0',
   },
   {
     id: 24472,
@@ -11760,7 +11746,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35781,
@@ -11782,7 +11767,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 23472,
@@ -16911,7 +16895,6 @@ export default [
       DLY: 3200,
     },
     source: '点数强化/创世→诗学',
-    patch: '6.0',
   },
   {
     id: 35764,
@@ -16932,7 +16915,6 @@ export default [
       DLY: 3200,
     },
     source: '迷宫挑战/水妖幻园',
-    patch: '6.0',
   },
   {
     id: 35779,
@@ -16952,7 +16934,6 @@ export default [
       MDMG: 92,
     },
     source: '点数强化/创世→诗学',
-    patch: '6.0',
   },
   {
     id: 35782,
@@ -16972,6 +16953,5 @@ export default [
       MDMG: 92,
     },
     source: '迷宫挑战/水妖幻园',
-    patch: '6.0',
   },
 ];

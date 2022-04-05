@@ -7903,7 +7903,6 @@ export default [
       PDMG: 9,
       DLY: 3200,
     },
-    patch: '6.0',
   },
   {
     id: 35755,
@@ -7921,7 +7920,6 @@ export default [
       PDMG: 9,
       DLY: 3200,
     },
-    patch: '6.0',
   },
   {
     id: 35773,
@@ -7938,7 +7936,6 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    patch: '6.0',
   },
   {
     id: 36335,
@@ -7956,7 +7953,6 @@ export default [
       PDMG: 9,
       DLY: 3200,
     },
-    patch: '6.0',
   },
   {
     id: 1602,
@@ -18256,7 +18252,7 @@ export default [
   },
   {
     id: 1617,
-    name: '医师弯刀',
+    name: '教练弯刀',
     level: 22,
     rarity: 2,
     slot: 1,
@@ -18329,7 +18325,7 @@ export default [
   },
   {
     id: 1693,
-    name: '医师骨拳',
+    name: '教练骨拳',
     level: 22,
     rarity: 2,
     slot: 13,
@@ -18402,7 +18398,7 @@ export default [
   },
   {
     id: 1763,
-    name: '医师钩斧',
+    name: '教练钩斧',
     level: 22,
     rarity: 2,
     slot: 13,
@@ -18475,7 +18471,7 @@ export default [
   },
   {
     id: 1832,
-    name: '医师战叉',
+    name: '教练战叉',
     level: 22,
     rarity: 2,
     slot: 13,
@@ -18494,7 +18490,7 @@ export default [
   },
   {
     id: 1901,
-    name: '医师装甲弓',
+    name: '教练装甲弓',
     level: 22,
     rarity: 2,
     slot: 13,
@@ -18513,7 +18509,7 @@ export default [
   },
   {
     id: 2006,
-    name: '医师手杖',
+    name: '教练手杖',
     level: 22,
     rarity: 2,
     slot: 13,
@@ -18531,7 +18527,7 @@ export default [
   },
   {
     id: 2065,
-    name: '医师咒锤',
+    name: '教练咒锤',
     level: 22,
     rarity: 2,
     slot: 1,
@@ -18568,7 +18564,7 @@ export default [
   },
   {
     id: 2152,
-    name: '医师魔导书',
+    name: '教练魔导书',
     level: 22,
     rarity: 2,
     slot: 13,
@@ -18674,7 +18670,7 @@ export default [
   },
   {
     id: 2721,
-    name: '医师锁甲头罩',
+    name: '教练锁甲头罩',
     level: 22,
     rarity: 2,
     slot: 3,
@@ -18691,7 +18687,7 @@ export default [
   },
   {
     id: 2722,
-    name: '医师宽边帽',
+    name: '教练宽边帽',
     level: 22,
     rarity: 2,
     slot: 3,
@@ -18709,7 +18705,7 @@ export default [
   },
   {
     id: 3054,
-    name: '医师链甲',
+    name: '教练链甲',
     level: 22,
     rarity: 2,
     slot: 4,
@@ -18726,7 +18722,7 @@ export default [
   },
   {
     id: 3055,
-    name: '医师格斗服',
+    name: '教练格斗服',
     level: 22,
     rarity: 2,
     slot: 4,
@@ -18744,7 +18740,7 @@ export default [
   },
   {
     id: 3056,
-    name: '医师长袍',
+    name: '教练长袍',
     level: 22,
     rarity: 2,
     slot: 4,
@@ -18870,7 +18866,7 @@ export default [
   },
   {
     id: 9189,
-    name: '医师刺刀',
+    name: '教练刺刀',
     level: 22,
     rarity: 2,
     slot: 13,
@@ -18889,7 +18885,7 @@ export default [
   },
   {
     id: 31430,
-    name: '医师臂甲',
+    name: '教练臂甲',
     level: 22,
     rarity: 2,
     slot: 5,
@@ -18906,7 +18902,7 @@ export default [
   },
   {
     id: 31431,
-    name: '医师软甲裤',
+    name: '教练软甲裤',
     level: 22,
     rarity: 2,
     slot: 7,
@@ -18923,7 +18919,7 @@ export default [
   },
   {
     id: 31432,
-    name: '医师锁甲靴',
+    name: '教练锁甲靴',
     level: 22,
     rarity: 2,
     slot: 8,
@@ -18940,7 +18936,7 @@ export default [
   },
   {
     id: 31433,
-    name: '医师弹性腰带',
+    name: '教练弹性腰带',
     level: 22,
     rarity: 2,
     slot: 0,
@@ -18957,7 +18953,7 @@ export default [
   },
   {
     id: 31434,
-    name: '医师弓术手套',
+    name: '教练弓术手套',
     level: 22,
     rarity: 2,
     slot: 5,
@@ -18975,7 +18971,7 @@ export default [
   },
   {
     id: 31435,
-    name: '医师三角裤',
+    name: '教练三角裤',
     level: 22,
     rarity: 2,
     slot: 7,
@@ -18993,7 +18989,7 @@ export default [
   },
   {
     id: 31436,
-    name: '医师战靴',
+    name: '教练战靴',
     level: 22,
     rarity: 2,
     slot: 8,
@@ -19011,7 +19007,7 @@ export default [
   },
   {
     id: 31437,
-    name: '医师战斗腰带',
+    name: '教练战斗腰带',
     level: 22,
     rarity: 2,
     slot: 0,
@@ -19029,7 +19025,7 @@ export default [
   },
   {
     id: 31438,
-    name: '医师手箍',
+    name: '教练手箍',
     level: 22,
     rarity: 2,
     slot: 5,
@@ -19047,7 +19043,7 @@ export default [
   },
   {
     id: 31439,
-    name: '医师紧身裤',
+    name: '教练紧身裤',
     level: 22,
     rarity: 2,
     slot: 7,
@@ -19065,7 +19061,7 @@ export default [
   },
   {
     id: 31440,
-    name: '医师尖头靴',
+    name: '教练尖头靴',
     level: 22,
     rarity: 2,
     slot: 8,
@@ -19083,7 +19079,7 @@ export default [
   },
   {
     id: 31441,
-    name: '医师术士腰带',
+    name: '教练术士腰带',
     level: 22,
     rarity: 2,
     slot: 0,
@@ -19101,7 +19097,7 @@ export default [
   },
   {
     id: 31649,
-    name: '医师小圆盾',
+    name: '教练小圆盾',
     level: 22,
     rarity: 2,
     slot: 2,

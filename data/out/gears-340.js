@@ -20051,7 +20051,6 @@ export default [
       DLY: 3200,
     },
     source: '天之御柱',
-    patch: '6.0',
   },
   {
     id: 35777,
@@ -20071,7 +20070,6 @@ export default [
       MDMG: 89,
     },
     source: '天之御柱',
-    patch: '6.0',
   },
   {
     id: 21399,

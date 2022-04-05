@@ -4975,7 +4975,6 @@ export default [
       VIT: 10,
     },
     statMain: 'SKS',
-    patch: '6.0',
   },
   {
     id: 36037,
@@ -4992,7 +4991,6 @@ export default [
       VIT: 10,
     },
     statMain: 'PIE',
-    patch: '6.0',
   },
   {
     id: 36038,
@@ -5009,7 +5007,6 @@ export default [
       VIT: 10,
     },
     statMain: 'TEN',
-    patch: '6.0',
   },
   {
     id: 36039,
@@ -5026,7 +5023,6 @@ export default [
       VIT: 10,
     },
     statMain: 'DET',
-    patch: '6.0',
   },
   {
     id: 36040,
@@ -5043,7 +5039,6 @@ export default [
       VIT: 10,
     },
     statMain: 'SPS',
-    patch: '6.0',
   },
   {
     id: 36041,
@@ -5060,7 +5055,6 @@ export default [
       VIT: 10,
     },
     statMain: 'CRT',
-    patch: '6.0',
   },
   {
     id: 36042,
@@ -5077,7 +5071,6 @@ export default [
       VIT: 10,
     },
     statMain: 'TEN',
-    patch: '6.0',
   },
   {
     id: 36043,
@@ -5094,7 +5087,6 @@ export default [
       VIT: 10,
     },
     statMain: 'DHT',
-    patch: '6.0',
   },
   {
     id: 36044,
@@ -5111,7 +5103,6 @@ export default [
       VIT: 10,
     },
     statMain: 'PIE',
-    patch: '6.0',
   },
   {
     id: 36045,
@@ -5128,7 +5119,6 @@ export default [
       VIT: 10,
     },
     statMain: 'SPS',
-    patch: '6.0',
   },
   {
     id: 36046,
@@ -5145,7 +5135,6 @@ export default [
       CP: 10,
     },
     statMain: 'CMS',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5163,7 +5152,6 @@ export default [
       PCP: 3,
     },
     statMain: 'GTH',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5183,7 +5171,6 @@ export default [
       CRT: 10,
     },
     statMain: 'TEN',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5203,7 +5190,6 @@ export default [
       TEN: 10,
     },
     statMain: 'SKS',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5223,7 +5209,6 @@ export default [
       DET: 10,
     },
     statMain: 'SPS',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5243,7 +5228,6 @@ export default [
       SPS: 10,
     },
     statMain: 'CRT',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5263,7 +5247,6 @@ export default [
       CRT: 10,
     },
     statMain: 'PIE',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5281,7 +5264,6 @@ export default [
       CMS: 5,
     },
     statMain: 'CRL',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5299,7 +5281,6 @@ export default [
       GTH: 3,
     },
     statMain: 'GP',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5319,7 +5300,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SPS',
-    patch: '6.0',
   },
   {
     id: 36056,
@@ -5338,7 +5318,6 @@ export default [
       DET: 10,
     },
     statMain: 'PIE',
-    patch: '6.0',
   },
   {
     id: 36057,
@@ -5357,7 +5336,6 @@ export default [
       CRT: 10,
     },
     statMain: 'DET',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5377,7 +5355,6 @@ export default [
       DET: 10,
     },
     statMain: 'DHT',
-    patch: '6.0',
   },
   {
     id: 36059,
@@ -5396,7 +5373,6 @@ export default [
       DET: 10,
     },
     statMain: 'TEN',
-    patch: '6.0',
   },
   {
     id: 36060,
@@ -5413,7 +5389,6 @@ export default [
       CRL: 5,
     },
     statMain: 'CP',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5431,7 +5406,6 @@ export default [
       GP: 10,
     },
     statMain: 'PCP',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5451,7 +5425,6 @@ export default [
       DET: 10,
     },
     statMain: 'TEN',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5471,7 +5444,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SKS',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5491,7 +5463,6 @@ export default [
       DHT: 10,
     },
     statMain: 'SPS',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5511,7 +5482,6 @@ export default [
       DET: 10,
     },
     statMain: 'PIE',
-    patch: '6.0',
     best: true,
   },
   {
@@ -5531,7 +5501,6 @@ export default [
       DET: 10,
     },
     statMain: 'DHT',
-    patch: '6.0',
     best: true,
   },
   {

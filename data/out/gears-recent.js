@@ -159,7 +159,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33948,
@@ -178,7 +177,6 @@ export default [
       CRT: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33949,
@@ -197,7 +195,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33950,
@@ -216,7 +213,6 @@ export default [
       SKS: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33951,
@@ -235,7 +231,6 @@ export default [
       CRT: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33952,
@@ -254,7 +249,6 @@ export default [
       CRT: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33953,
@@ -273,7 +267,6 @@ export default [
       DET: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33954,
@@ -292,7 +285,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33955,
@@ -311,7 +303,6 @@ export default [
       CRT: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33956,
@@ -330,7 +321,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33957,
@@ -349,7 +339,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33958,
@@ -368,7 +357,6 @@ export default [
       CRT: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33959,
@@ -387,7 +375,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33960,
@@ -406,7 +393,6 @@ export default [
       SKS: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33961,
@@ -425,7 +411,6 @@ export default [
       CRT: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33962,
@@ -444,7 +429,6 @@ export default [
       SKS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33963,
@@ -463,7 +447,6 @@ export default [
       DET: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33964,
@@ -482,11 +465,10 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33965,
-    name: '暗龙战铠',
+    name: '暗龙软甲裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -501,7 +483,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33966,
@@ -520,7 +501,6 @@ export default [
       CRT: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33967,
@@ -539,7 +519,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33968,
@@ -558,7 +537,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33969,
@@ -577,7 +555,6 @@ export default [
       CRT: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33970,
@@ -596,7 +573,6 @@ export default [
       DET: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33971,
@@ -615,7 +591,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33972,
@@ -634,7 +609,6 @@ export default [
       SPS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33973,
@@ -653,7 +627,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33974,
@@ -672,7 +645,6 @@ export default [
       SPS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33975,
@@ -691,7 +663,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33976,
@@ -710,7 +681,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33977,
@@ -729,7 +699,6 @@ export default [
       SPS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33978,
@@ -748,7 +717,6 @@ export default [
       SPS: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33979,
@@ -767,7 +735,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33980,
@@ -786,7 +753,6 @@ export default [
       CRT: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33981,
@@ -805,7 +771,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33982,
@@ -824,7 +789,6 @@ export default [
       SPS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33983,
@@ -843,7 +807,6 @@ export default [
       SPS: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33984,
@@ -862,7 +825,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33985,
@@ -881,7 +843,6 @@ export default [
       CRT: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33986,
@@ -900,7 +861,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33987,
@@ -919,7 +879,6 @@ export default [
       SPS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33988,
@@ -938,7 +897,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33989,
@@ -957,7 +915,6 @@ export default [
       SPS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33990,
@@ -976,7 +933,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33991,
@@ -995,7 +951,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33992,
@@ -1014,7 +969,6 @@ export default [
       CRT: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33993,
@@ -1033,7 +987,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33994,
@@ -1052,7 +1005,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33995,
@@ -1071,7 +1023,6 @@ export default [
       CRT: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33996,
@@ -1090,7 +1041,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33997,
@@ -1109,7 +1059,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33998,
@@ -1128,7 +1077,6 @@ export default [
       CRT: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 33999,
@@ -1147,7 +1095,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34000,
@@ -1166,7 +1113,6 @@ export default [
       SKS: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34001,
@@ -1185,7 +1131,6 @@ export default [
       CRT: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34002,
@@ -1204,7 +1149,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34003,
@@ -1223,7 +1167,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34004,
@@ -1242,7 +1185,6 @@ export default [
       CRT: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34005,
@@ -1261,7 +1203,6 @@ export default [
       DET: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34006,
@@ -1280,7 +1221,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34007,
@@ -1299,7 +1239,6 @@ export default [
       SPS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34008,
@@ -1318,7 +1257,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34009,
@@ -1337,7 +1275,6 @@ export default [
       SPS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34010,
@@ -1356,7 +1293,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34011,
@@ -1375,7 +1311,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34012,
@@ -1394,7 +1329,6 @@ export default [
       CRT: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34013,
@@ -1413,7 +1347,6 @@ export default [
       DET: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34014,
@@ -1432,7 +1365,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34015,
@@ -1451,7 +1383,6 @@ export default [
       CRT: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34016,
@@ -1470,7 +1401,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34017,
@@ -1489,7 +1419,6 @@ export default [
       SPS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34018,
@@ -1508,7 +1437,6 @@ export default [
       SPS: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34019,
@@ -1527,7 +1455,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34020,
@@ -1546,7 +1473,6 @@ export default [
       CRT: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34021,
@@ -1565,7 +1491,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34022,
@@ -1584,7 +1509,6 @@ export default [
       DET: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34023,
@@ -1603,7 +1527,6 @@ export default [
       CRT: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34024,
@@ -1622,7 +1545,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34025,
@@ -1641,7 +1563,6 @@ export default [
       SKS: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34026,
@@ -1660,7 +1581,6 @@ export default [
       CRT: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34027,
@@ -1679,7 +1599,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34028,
@@ -1698,7 +1617,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34029,
@@ -1717,7 +1635,6 @@ export default [
       CRT: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34030,
@@ -1736,7 +1653,6 @@ export default [
       DET: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34031,
@@ -1755,7 +1671,6 @@ export default [
       SKS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34032,
@@ -1774,7 +1689,6 @@ export default [
       SPS: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34033,
@@ -1793,7 +1707,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34034,
@@ -1812,7 +1725,6 @@ export default [
       SPS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34035,
@@ -1831,7 +1743,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34036,
@@ -1850,7 +1761,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34037,
@@ -1869,7 +1779,6 @@ export default [
       SKS: 99,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34038,
@@ -1888,7 +1797,6 @@ export default [
       DET: 224,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34039,
@@ -1907,7 +1815,6 @@ export default [
       DET: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34040,
@@ -1926,7 +1833,6 @@ export default [
       DET: 157,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34041,
@@ -1945,7 +1851,6 @@ export default [
       CRT: 141,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34042,
@@ -1966,7 +1871,6 @@ export default [
       DLY: 2240,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34043,
@@ -1987,7 +1891,6 @@ export default [
       DLY: 2560,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34044,
@@ -2008,7 +1911,6 @@ export default [
       DLY: 3360,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34045,
@@ -2029,7 +1931,6 @@ export default [
       DLY: 2800,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34046,
@@ -2050,7 +1951,6 @@ export default [
       DLY: 3040,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34047,
@@ -2071,7 +1971,6 @@ export default [
       DLY: 2560,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34048,
@@ -2092,7 +1991,6 @@ export default [
       DLY: 2960,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34049,
@@ -2113,7 +2011,6 @@ export default [
       DLY: 2640,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34050,
@@ -2133,7 +2030,6 @@ export default [
       MDMG: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34051,
@@ -2153,7 +2049,6 @@ export default [
       MDMG: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34052,
@@ -2173,7 +2068,6 @@ export default [
       MDMG: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34053,
@@ -2193,7 +2087,6 @@ export default [
       MDMG: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34054,
@@ -2213,7 +2106,6 @@ export default [
       MDMG: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34055,
@@ -2234,7 +2126,6 @@ export default [
       DLY: 2640,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34056,
@@ -2254,7 +2145,6 @@ export default [
       MDMG: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34057,
@@ -2275,7 +2165,6 @@ export default [
       DLY: 2800,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34058,
@@ -2296,7 +2185,6 @@ export default [
       DLY: 3120,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34059,
@@ -2316,7 +2204,6 @@ export default [
       MDMG: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34060,
@@ -2337,7 +2224,6 @@ export default [
       DLY: 3200,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34061,
@@ -2356,7 +2242,6 @@ export default [
       DET: 66,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 34830,
@@ -2375,7 +2260,6 @@ export default [
       SKS: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34831,
@@ -2394,7 +2278,6 @@ export default [
       DET: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34832,
@@ -2413,7 +2296,6 @@ export default [
       DET: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34833,
@@ -2432,7 +2314,6 @@ export default [
       DET: 111,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34834,
@@ -2451,7 +2332,6 @@ export default [
       SPS: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34835,
@@ -2470,7 +2350,6 @@ export default [
       DET: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34836,
@@ -2489,7 +2368,6 @@ export default [
       CRT: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34837,
@@ -2508,7 +2386,6 @@ export default [
       SKS: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34838,
@@ -2527,7 +2404,6 @@ export default [
       SPS: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34839,
@@ -2546,7 +2422,6 @@ export default [
       DET: 111,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34840,
@@ -2565,7 +2440,6 @@ export default [
       CRT: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34841,
@@ -2584,7 +2458,6 @@ export default [
       SKS: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34842,
@@ -2603,7 +2476,6 @@ export default [
       DET: 111,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34843,
@@ -2622,7 +2494,6 @@ export default [
       DET: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34844,
@@ -2641,7 +2512,6 @@ export default [
       CRT: 111,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34845,
@@ -2660,7 +2530,6 @@ export default [
       DET: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34846,
@@ -2679,7 +2548,6 @@ export default [
       DET: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34847,
@@ -2698,7 +2566,6 @@ export default [
       CRT: 111,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34848,
@@ -2717,7 +2584,6 @@ export default [
       DET: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 34849,
@@ -2736,7 +2602,6 @@ export default [
       SPS: 78,
     },
     source: '迷宫挑战/末世遗迹、笑笑镇、斯提格玛四',
-    patch: '6.0',
   },
   {
     id: 35383,
@@ -2755,7 +2620,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35384,
@@ -2774,7 +2638,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35385,
@@ -2793,7 +2656,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35386,
@@ -2812,7 +2674,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35387,
@@ -2831,7 +2692,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35388,
@@ -2850,7 +2710,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35389,
@@ -2869,7 +2728,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35390,
@@ -2888,7 +2746,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35391,
@@ -2908,7 +2765,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35392,
@@ -2928,7 +2784,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35393,
@@ -2948,7 +2803,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35394,
@@ -2967,7 +2821,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35395,
@@ -2986,7 +2839,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35396,
@@ -3005,7 +2857,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35397,
@@ -3024,7 +2875,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35398,
@@ -3043,7 +2893,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35399,
@@ -3062,7 +2911,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35400,
@@ -3081,7 +2929,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35401,
@@ -3100,7 +2947,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35402,
@@ -3119,7 +2965,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35403,
@@ -3138,7 +2983,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35434,
@@ -3157,7 +3001,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35435,
@@ -3177,7 +3020,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35436,
@@ -3196,7 +3038,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35437,
@@ -3215,7 +3056,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35438,
@@ -3234,7 +3074,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35439,
@@ -3253,7 +3092,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35440,
@@ -3274,7 +3112,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35441,
@@ -3294,7 +3131,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35442,
@@ -3315,7 +3151,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35443,
@@ -3335,7 +3170,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35460,
@@ -3354,7 +3188,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35461,
@@ -3373,7 +3206,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35462,
@@ -3392,7 +3224,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35463,
@@ -3411,7 +3242,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35464,
@@ -3429,7 +3259,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35465,
@@ -3447,7 +3276,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35466,
@@ -3465,7 +3293,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35467,
@@ -3483,7 +3310,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 34850,
@@ -3504,7 +3330,6 @@ export default [
       DLY: 2240,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34851,
@@ -3525,7 +3350,6 @@ export default [
       DLY: 2560,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34852,
@@ -3546,7 +3370,6 @@ export default [
       DLY: 3360,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34853,
@@ -3567,7 +3390,6 @@ export default [
       DLY: 2800,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34854,
@@ -3588,7 +3410,6 @@ export default [
       DLY: 3040,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34855,
@@ -3609,7 +3430,6 @@ export default [
       DLY: 2560,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34856,
@@ -3630,7 +3450,6 @@ export default [
       DLY: 2960,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34857,
@@ -3651,7 +3470,6 @@ export default [
       DLY: 2640,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34858,
@@ -3671,7 +3489,6 @@ export default [
       MDMG: 113,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34859,
@@ -3691,7 +3508,6 @@ export default [
       MDMG: 113,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34860,
@@ -3711,7 +3527,6 @@ export default [
       MDMG: 113,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34861,
@@ -3731,7 +3546,6 @@ export default [
       MDMG: 113,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34862,
@@ -3751,7 +3565,6 @@ export default [
       MDMG: 113,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34863,
@@ -3772,7 +3585,6 @@ export default [
       DLY: 2640,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34864,
@@ -3792,7 +3604,6 @@ export default [
       MDMG: 113,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34865,
@@ -3813,7 +3624,6 @@ export default [
       DLY: 2800,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34866,
@@ -3834,7 +3644,6 @@ export default [
       DLY: 3120,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34867,
@@ -3854,7 +3663,6 @@ export default [
       MDMG: 113,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34868,
@@ -3875,7 +3683,6 @@ export default [
       DLY: 3200,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34869,
@@ -3894,7 +3701,6 @@ export default [
       DET: 50,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34870,
@@ -3913,7 +3719,6 @@ export default [
       SKS: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34871,
@@ -3932,7 +3737,6 @@ export default [
       DET: 238,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34872,
@@ -3951,7 +3755,6 @@ export default [
       DET: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34873,
@@ -3970,7 +3773,6 @@ export default [
       CRT: 167,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34874,
@@ -3989,7 +3791,6 @@ export default [
       DET: 150,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34875,
@@ -4008,7 +3809,6 @@ export default [
       DET: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34876,
@@ -4027,7 +3827,6 @@ export default [
       DET: 167,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34877,
@@ -4046,7 +3845,6 @@ export default [
       CRT: 150,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34878,
@@ -4065,7 +3863,6 @@ export default [
       DET: 238,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34879,
@@ -4084,7 +3881,6 @@ export default [
       SKS: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34880,
@@ -4103,7 +3899,6 @@ export default [
       DET: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34881,
@@ -4122,7 +3917,6 @@ export default [
       CRT: 167,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34882,
@@ -4141,7 +3935,6 @@ export default [
       DET: 150,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34883,
@@ -4160,7 +3953,6 @@ export default [
       DET: 238,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34884,
@@ -4179,7 +3971,6 @@ export default [
       SKS: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34885,
@@ -4198,7 +3989,6 @@ export default [
       DET: 150,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34886,
@@ -4217,7 +4007,6 @@ export default [
       DET: 167,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34887,
@@ -4236,7 +4025,6 @@ export default [
       CRT: 150,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34888,
@@ -4255,7 +4043,6 @@ export default [
       DET: 238,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34889,
@@ -4274,7 +4061,6 @@ export default [
       SKS: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34890,
@@ -4293,7 +4079,6 @@ export default [
       DET: 150,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34891,
@@ -4312,7 +4097,6 @@ export default [
       DET: 167,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34892,
@@ -4331,7 +4115,6 @@ export default [
       SKS: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34893,
@@ -4350,7 +4133,6 @@ export default [
       CRT: 167,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34894,
@@ -4369,7 +4151,6 @@ export default [
       DET: 150,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34895,
@@ -4388,7 +4169,6 @@ export default [
       DET: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34896,
@@ -4407,7 +4187,6 @@ export default [
       CRT: 167,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34897,
@@ -4426,7 +4205,6 @@ export default [
       SPS: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34898,
@@ -4445,7 +4223,6 @@ export default [
       DET: 238,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34899,
@@ -4464,7 +4241,6 @@ export default [
       SPS: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34900,
@@ -4483,7 +4259,6 @@ export default [
       DET: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34901,
@@ -4502,7 +4277,6 @@ export default [
       DET: 238,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34902,
@@ -4521,7 +4295,6 @@ export default [
       SPS: 105,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34903,
@@ -4540,7 +4313,6 @@ export default [
       CRT: 167,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34904,
@@ -4559,7 +4331,6 @@ export default [
       SPS: 150,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34905,
@@ -4578,7 +4349,6 @@ export default [
       DET: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34906,
@@ -4597,7 +4367,6 @@ export default [
       DET: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34907,
@@ -4616,7 +4385,6 @@ export default [
       SKS: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34908,
@@ -4635,7 +4403,6 @@ export default [
       CRT: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34909,
@@ -4654,7 +4421,6 @@ export default [
       DET: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34910,
@@ -4673,7 +4439,6 @@ export default [
       SKS: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34911,
@@ -4692,7 +4457,6 @@ export default [
       SKS: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34912,
@@ -4711,7 +4475,6 @@ export default [
       DET: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34913,
@@ -4730,7 +4493,6 @@ export default [
       SPS: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34914,
@@ -4749,7 +4511,6 @@ export default [
       SPS: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34915,
@@ -4768,7 +4529,6 @@ export default [
       DET: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34916,
@@ -4787,7 +4547,6 @@ export default [
       CRT: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34917,
@@ -4806,7 +4565,6 @@ export default [
       CRT: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34918,
@@ -4825,7 +4583,6 @@ export default [
       DET: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34919,
@@ -4844,7 +4601,6 @@ export default [
       SPS: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34920,
@@ -4863,7 +4619,6 @@ export default [
       DET: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34921,
@@ -4882,7 +4637,6 @@ export default [
       DET: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34922,
@@ -4901,7 +4655,6 @@ export default [
       DET: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34923,
@@ -4920,7 +4673,6 @@ export default [
       DET: 118,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 34924,
@@ -4939,7 +4691,6 @@ export default [
       DET: 83,
     },
     source: '点数/经典',
-    patch: '6.0',
   },
   {
     id: 35468,
@@ -4956,7 +4707,6 @@ export default [
       CRL: 556,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35469,
@@ -4973,7 +4723,6 @@ export default [
       CRL: 556,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35470,
@@ -4990,7 +4739,6 @@ export default [
       CRL: 556,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35471,
@@ -5007,7 +4755,6 @@ export default [
       CRL: 556,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35472,
@@ -5024,7 +4771,6 @@ export default [
       CRL: 556,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35473,
@@ -5041,7 +4787,6 @@ export default [
       CRL: 556,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35474,
@@ -5058,7 +4803,6 @@ export default [
       CRL: 556,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35475,
@@ -5075,7 +4819,6 @@ export default [
       CRL: 556,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35476,
@@ -5093,7 +4836,6 @@ export default [
       PCP: 599,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35477,
@@ -5111,7 +4853,6 @@ export default [
       PCP: 599,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35478,
@@ -5129,7 +4870,6 @@ export default [
       PCP: 599,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35479,
@@ -5146,7 +4886,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35480,
@@ -5164,7 +4903,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35481,
@@ -5181,7 +4919,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35482,
@@ -5198,7 +4935,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35483,
@@ -5215,7 +4951,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35484,
@@ -5232,7 +4967,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35485,
@@ -5250,7 +4984,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35486,
@@ -5267,7 +5000,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35487,
@@ -5284,7 +5016,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35488,
@@ -5301,7 +5032,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35489,
@@ -5318,7 +5048,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35490,
@@ -5336,7 +5065,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35491,
@@ -5353,7 +5081,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35492,
@@ -5370,7 +5097,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35493,
@@ -5387,7 +5113,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35494,
@@ -5404,7 +5129,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35495,
@@ -5422,7 +5146,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35496,
@@ -5439,7 +5162,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35497,
@@ -5456,7 +5178,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35498,
@@ -5473,7 +5194,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35499,
@@ -5490,7 +5210,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35500,
@@ -5508,7 +5227,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35501,
@@ -5525,7 +5243,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35502,
@@ -5542,7 +5259,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35503,
@@ -5559,7 +5275,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35504,
@@ -5576,7 +5291,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35505,
@@ -5594,7 +5308,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35506,
@@ -5611,7 +5324,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35507,
@@ -5628,7 +5340,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35508,
@@ -5645,7 +5356,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35509,
@@ -5662,7 +5372,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35510,
@@ -5680,7 +5389,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35511,
@@ -5697,7 +5405,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35512,
@@ -5714,7 +5421,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35513,
@@ -5731,7 +5437,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35514,
@@ -5748,7 +5453,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35515,
@@ -5766,7 +5470,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35516,
@@ -5783,7 +5486,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35517,
@@ -5800,7 +5502,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35518,
@@ -5817,7 +5518,6 @@ export default [
       CRL: 334,
     },
     source: '巧手紫票',
-    patch: '6.0',
   },
   {
     id: 35519,
@@ -5834,7 +5534,6 @@ export default [
       PCP: 599,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35520,
@@ -5853,7 +5552,6 @@ export default [
       PCP: 300,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35521,
@@ -5871,7 +5569,6 @@ export default [
       GTH: 449,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35522,
@@ -5890,7 +5587,6 @@ export default [
       PCP: 150,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35523,
@@ -5908,7 +5604,6 @@ export default [
       PCP: 330,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35524,
@@ -5925,7 +5620,6 @@ export default [
       PCP: 599,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35525,
@@ -5944,7 +5638,6 @@ export default [
       PCP: 300,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35526,
@@ -5962,7 +5655,6 @@ export default [
       GTH: 449,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35527,
@@ -5981,7 +5673,6 @@ export default [
       PCP: 150,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35528,
@@ -5999,7 +5690,6 @@ export default [
       PCP: 330,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35529,
@@ -6016,7 +5706,6 @@ export default [
       PCP: 599,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35530,
@@ -6035,7 +5724,6 @@ export default [
       PCP: 300,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35531,
@@ -6053,7 +5741,6 @@ export default [
       GTH: 449,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35532,
@@ -6072,7 +5759,6 @@ export default [
       PCP: 150,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 35533,
@@ -6090,7 +5776,6 @@ export default [
       PCP: 330,
     },
     source: '大地紫票',
-    patch: '6.0',
   },
   {
     id: 34925,
@@ -6111,7 +5796,6 @@ export default [
       DLY: 2240,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34926,
@@ -6132,7 +5816,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34927,
@@ -6153,7 +5836,6 @@ export default [
       DLY: 3360,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34928,
@@ -6174,7 +5856,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34929,
@@ -6195,7 +5876,6 @@ export default [
       DLY: 3040,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34930,
@@ -6216,7 +5896,6 @@ export default [
       DLY: 2560,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34931,
@@ -6237,7 +5916,6 @@ export default [
       DLY: 2960,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34932,
@@ -6258,7 +5936,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34933,
@@ -6278,7 +5955,6 @@ export default [
       MDMG: 115,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34934,
@@ -6298,7 +5974,6 @@ export default [
       MDMG: 115,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34935,
@@ -6318,7 +5993,6 @@ export default [
       MDMG: 115,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34936,
@@ -6338,7 +6012,6 @@ export default [
       MDMG: 115,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34937,
@@ -6358,7 +6031,6 @@ export default [
       MDMG: 115,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34938,
@@ -6379,7 +6051,6 @@ export default [
       DLY: 2640,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34939,
@@ -6399,7 +6070,6 @@ export default [
       MDMG: 115,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34940,
@@ -6420,7 +6090,6 @@ export default [
       DLY: 2800,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34941,
@@ -6441,7 +6110,6 @@ export default [
       DLY: 3120,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34942,
@@ -6461,7 +6129,6 @@ export default [
       MDMG: 115,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34943,
@@ -6482,7 +6149,6 @@ export default [
       DLY: 3200,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34944,
@@ -6501,7 +6167,6 @@ export default [
       DET: 50,
     },
     source: '歼殛战/海德林',
-    patch: '6.0',
   },
   {
     id: 34945,
@@ -6520,7 +6185,6 @@ export default [
       DET: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34946,
@@ -6539,7 +6203,6 @@ export default [
       DET: 121,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34947,
@@ -6558,7 +6221,6 @@ export default [
       SKS: 121,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34948,
@@ -6577,7 +6239,6 @@ export default [
       DET: 121,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34949,
@@ -6596,7 +6257,6 @@ export default [
       DET: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34950,
@@ -6615,7 +6275,6 @@ export default [
       SKS: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34951,
@@ -6634,7 +6293,6 @@ export default [
       DET: 121,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34952,
@@ -6653,7 +6311,6 @@ export default [
       DET: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34953,
@@ -6672,7 +6329,6 @@ export default [
       SPS: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34954,
@@ -6691,7 +6347,6 @@ export default [
       SPS: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34955,
@@ -6710,7 +6365,6 @@ export default [
       SKS: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34956,
@@ -6729,7 +6383,6 @@ export default [
       DET: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34957,
@@ -6748,7 +6401,6 @@ export default [
       CRT: 121,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34958,
@@ -6767,7 +6419,6 @@ export default [
       DET: 121,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34959,
@@ -6786,7 +6437,6 @@ export default [
       DET: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34960,
@@ -6805,7 +6455,6 @@ export default [
       CRT: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34961,
@@ -6824,7 +6473,6 @@ export default [
       SKS: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34962,
@@ -6843,7 +6491,6 @@ export default [
       DET: 121,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34963,
@@ -6862,7 +6509,6 @@ export default [
       SPS: 85,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34964,
@@ -6881,11 +6527,10 @@ export default [
       SPS: 121,
     },
     source: '歼殛战/佐迪亚克',
-    patch: '6.0',
   },
   {
     id: 34965,
-    name: 'Limbo Circlet of Fending',
+    name: '边境御敌头冠',
     level: 580,
     rarity: 3,
     slot: 3,
@@ -6899,12 +6544,11 @@ export default [
       DET: 154,
       SKS: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34966,
-    name: 'Limbo Chiton of Fending',
+    name: '边境御敌长衣',
     level: 580,
     rarity: 3,
     slot: 4,
@@ -6918,12 +6562,11 @@ export default [
       TEN: 244,
       CRT: 171,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34967,
-    name: 'Limbo Vambraces of Fending',
+    name: '边境御敌臂甲',
     level: 580,
     rarity: 3,
     slot: 5,
@@ -6937,12 +6580,11 @@ export default [
       CRT: 154,
       DET: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34968,
-    name: 'Limbo Skirt of Fending',
+    name: '边境御敌短裙',
     level: 580,
     rarity: 3,
     slot: 7,
@@ -6956,12 +6598,11 @@ export default [
       TEN: 244,
       DET: 171,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34969,
-    name: 'Limbo Boots of Fending',
+    name: '边境御敌长靴',
     level: 580,
     rarity: 3,
     slot: 8,
@@ -6975,12 +6616,11 @@ export default [
       CRT: 108,
       SKS: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34970,
-    name: 'Limbo Faceguard of Maiming',
+    name: '边境制敌护面',
     level: 580,
     rarity: 3,
     slot: 3,
@@ -6994,12 +6634,11 @@ export default [
       DHT: 154,
       SKS: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34971,
-    name: 'Limbo Himation of Maiming',
+    name: '边境制敌长衫',
     level: 580,
     rarity: 3,
     slot: 4,
@@ -7013,12 +6652,11 @@ export default [
       CRT: 171,
       DET: 244,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34972,
-    name: 'Limbo Halfgloves of Maiming',
+    name: '边境制敌半指手套',
     level: 580,
     rarity: 3,
     slot: 5,
@@ -7032,12 +6670,11 @@ export default [
       CRT: 154,
       DET: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34973,
-    name: 'Limbo Breeches of Maiming',
+    name: '边境制敌马裤',
     level: 580,
     rarity: 3,
     slot: 7,
@@ -7051,12 +6688,11 @@ export default [
       DHT: 171,
       CRT: 244,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34974,
-    name: 'Limbo Shoes of Maiming',
+    name: '边境制敌皮靴',
     level: 580,
     rarity: 3,
     slot: 8,
@@ -7070,12 +6706,11 @@ export default [
       CRT: 154,
       DET: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34975,
-    name: 'Limbo Faceguard of Striking',
+    name: '边境强袭护面',
     level: 580,
     rarity: 3,
     slot: 3,
@@ -7089,12 +6724,11 @@ export default [
       DET: 154,
       SKS: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34976,
-    name: 'Limbo Himation of Striking',
+    name: '边境强袭长衫',
     level: 580,
     rarity: 3,
     slot: 4,
@@ -7108,12 +6742,11 @@ export default [
       DHT: 171,
       CRT: 244,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34977,
-    name: 'Limbo Halfgloves of Striking',
+    name: '边境强袭半指手套',
     level: 580,
     rarity: 3,
     slot: 5,
@@ -7127,12 +6760,11 @@ export default [
       DHT: 154,
       DET: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34978,
-    name: 'Limbo Breeches of Striking',
+    name: '边境强袭马裤',
     level: 580,
     rarity: 3,
     slot: 7,
@@ -7146,12 +6778,11 @@ export default [
       DHT: 171,
       CRT: 244,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34979,
-    name: 'Limbo Shoes of Striking',
+    name: '边境强袭皮靴',
     level: 580,
     rarity: 3,
     slot: 8,
@@ -7165,12 +6796,11 @@ export default [
       CRT: 108,
       DET: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34980,
-    name: 'Limbo Circlet of Aiming',
+    name: '边境精准头冠',
     level: 580,
     rarity: 3,
     slot: 3,
@@ -7184,12 +6814,11 @@ export default [
       DHT: 154,
       SKS: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34981,
-    name: 'Limbo Himation of Aiming',
+    name: '边境精准上衣',
     level: 580,
     rarity: 3,
     slot: 4,
@@ -7203,12 +6832,11 @@ export default [
       DHT: 171,
       DET: 244,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34982,
-    name: 'Limbo Gloves of Aiming',
+    name: '边境精准手套',
     level: 580,
     rarity: 3,
     slot: 5,
@@ -7222,12 +6850,11 @@ export default [
       CRT: 154,
       DET: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34983,
-    name: 'Limbo Hose of Aiming',
+    name: '边境精准骑兵裤',
     level: 580,
     rarity: 3,
     slot: 7,
@@ -7241,12 +6868,11 @@ export default [
       CRT: 244,
       DET: 171,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34984,
-    name: 'Limbo Boots of Aiming',
+    name: '边境精准短靴',
     level: 580,
     rarity: 3,
     slot: 8,
@@ -7260,12 +6886,11 @@ export default [
       DHT: 154,
       CRT: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34985,
-    name: 'Limbo Circlet of Scouting',
+    name: '边境游击头冠',
     level: 580,
     rarity: 3,
     slot: 3,
@@ -7279,12 +6904,11 @@ export default [
       DET: 108,
       SKS: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34986,
-    name: 'Limbo Himation of Scouting',
+    name: '边境游击上衣',
     level: 580,
     rarity: 3,
     slot: 4,
@@ -7298,12 +6922,11 @@ export default [
       DHT: 171,
       DET: 244,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34987,
-    name: 'Limbo Gloves of Scouting',
+    name: '边境游击手套',
     level: 580,
     rarity: 3,
     slot: 5,
@@ -7317,12 +6940,11 @@ export default [
       CRT: 108,
       DET: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34988,
-    name: 'Limbo Hose of Scouting',
+    name: '边境游击骑兵裤',
     level: 580,
     rarity: 3,
     slot: 7,
@@ -7336,12 +6958,11 @@ export default [
       CRT: 171,
       DET: 244,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34989,
-    name: 'Limbo Boots of Scouting',
+    name: '边境游击短靴',
     level: 580,
     rarity: 3,
     slot: 8,
@@ -7355,12 +6976,11 @@ export default [
       DHT: 108,
       CRT: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34990,
-    name: 'Limbo Headgear of Healing',
+    name: '边境治愈头甲',
     level: 580,
     rarity: 3,
     slot: 3,
@@ -7374,12 +6994,11 @@ export default [
       PIE: 154,
       SPS: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34991,
-    name: 'Limbo Chiton of Healing',
+    name: '边境治愈长衣',
     level: 580,
     rarity: 3,
     slot: 4,
@@ -7393,12 +7012,11 @@ export default [
       CRT: 244,
       DET: 171,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34992,
-    name: 'Limbo Wristbands of Healing',
+    name: '边境治愈手环',
     level: 580,
     rarity: 3,
     slot: 5,
@@ -7412,12 +7030,11 @@ export default [
       PIE: 108,
       DET: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34993,
-    name: 'Limbo Trousers of Healing',
+    name: '边境治愈软甲裤',
     level: 580,
     rarity: 3,
     slot: 7,
@@ -7431,12 +7048,11 @@ export default [
       CRT: 244,
       DET: 171,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34994,
-    name: 'Limbo Gaiters of Healing',
+    name: '边境治愈绑腿鞋',
     level: 580,
     rarity: 3,
     slot: 8,
@@ -7450,12 +7066,11 @@ export default [
       DET: 154,
       SPS: 108,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34995,
-    name: 'Limbo Headgear of Casting',
+    name: '边境咏咒头甲',
     level: 580,
     rarity: 3,
     slot: 3,
@@ -7469,12 +7084,11 @@ export default [
       DET: 108,
       SPS: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34996,
-    name: 'Limbo Chiton of Casting',
+    name: '边境咏咒长衣',
     level: 580,
     rarity: 3,
     slot: 4,
@@ -7488,12 +7102,11 @@ export default [
       DHT: 244,
       SPS: 171,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34997,
-    name: 'Limbo Wristbands of Casting',
+    name: '边境咏咒手环',
     level: 580,
     rarity: 3,
     slot: 5,
@@ -7507,12 +7120,11 @@ export default [
       DHT: 108,
       CRT: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34998,
-    name: 'Limbo Trousers of Casting',
+    name: '边境咏咒软甲裤',
     level: 580,
     rarity: 3,
     slot: 7,
@@ -7526,12 +7138,11 @@ export default [
       CRT: 244,
       DET: 171,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 34999,
-    name: 'Limbo Gaiters of Casting',
+    name: '边境咏咒绑腿鞋',
     level: 580,
     rarity: 3,
     slot: 8,
@@ -7545,12 +7156,11 @@ export default [
       DHT: 108,
       DET: 154,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35000,
-    name: 'Limbo Earrings of Fending',
+    name: '边境御敌耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -7564,12 +7174,11 @@ export default [
       TEN: 85,
       CRT: 121,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35001,
-    name: 'Limbo Earrings of Slaying',
+    name: '边境强攻耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -7583,12 +7192,11 @@ export default [
       DHT: 121,
       DET: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35002,
-    name: 'Limbo Earrings of Aiming',
+    name: '边境精准耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -7602,12 +7210,11 @@ export default [
       DHT: 121,
       DET: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35003,
-    name: 'Limbo Earrings of Healing',
+    name: '边境治愈耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -7621,12 +7228,11 @@ export default [
       CRT: 121,
       DET: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35004,
-    name: 'Limbo Earrings of Casting',
+    name: '边境咏咒耳坠',
     level: 580,
     rarity: 3,
     slot: 9,
@@ -7640,12 +7246,11 @@ export default [
       CRT: 85,
       DET: 121,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35005,
-    name: 'Limbo Necklace of Fending',
+    name: '边境御敌项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -7659,12 +7264,11 @@ export default [
       TEN: 85,
       DET: 121,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35006,
-    name: 'Limbo Necklace of Slaying',
+    name: '边境强攻项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -7678,12 +7282,11 @@ export default [
       DHT: 85,
       SKS: 121,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35007,
-    name: 'Limbo Necklace of Aiming',
+    name: '边境精准项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -7697,12 +7300,11 @@ export default [
       DHT: 121,
       CRT: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35008,
-    name: 'Limbo Necklace of Healing',
+    name: '边境治愈项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -7716,12 +7318,11 @@ export default [
       PIE: 121,
       DET: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35009,
-    name: 'Limbo Necklace of Casting',
+    name: '边境咏咒项链',
     level: 580,
     rarity: 3,
     slot: 10,
@@ -7735,12 +7336,11 @@ export default [
       DET: 121,
       SPS: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35010,
-    name: 'Limbo Amulet of Fending',
+    name: '边境御敌手镯',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -7754,12 +7354,11 @@ export default [
       CRT: 85,
       DET: 121,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35011,
-    name: 'Limbo Amulet of Slaying',
+    name: '边境强攻手镯',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -7773,12 +7372,11 @@ export default [
       DHT: 85,
       CRT: 121,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35012,
-    name: 'Limbo Amulet of Aiming',
+    name: '边境精准手镯',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -7792,12 +7390,11 @@ export default [
       CRT: 121,
       DET: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35013,
-    name: 'Limbo Amulet of Healing',
+    name: '边境治愈手镯',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -7811,12 +7408,11 @@ export default [
       CRT: 121,
       DET: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35014,
-    name: 'Limbo Amulet of Casting',
+    name: '边境咏咒手镯',
     level: 580,
     rarity: 3,
     slot: 11,
@@ -7830,12 +7426,11 @@ export default [
       DHT: 85,
       CRT: 121,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35015,
-    name: 'Limbo Ring of Fending',
+    name: '边境御敌指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -7849,12 +7444,11 @@ export default [
       CRT: 121,
       SKS: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35016,
-    name: 'Limbo Ring of Slaying',
+    name: '边境强攻指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -7868,12 +7462,11 @@ export default [
       DHT: 121,
       DET: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35017,
-    name: 'Limbo Ring of Aiming',
+    name: '边境精准指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -7887,12 +7480,11 @@ export default [
       DHT: 121,
       CRT: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35018,
-    name: 'Limbo Ring of Healing',
+    name: '边境治愈指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -7906,12 +7498,11 @@ export default [
       PIE: 121,
       CRT: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35019,
-    name: 'Limbo Ring of Casting',
+    name: '边境咏咒指环',
     level: 580,
     rarity: 3,
     slot: 12,
@@ -7925,8 +7516,7 @@ export default [
       DHT: 121,
       SPS: 85,
     },
-    source: '大型任务/边狱之章',
-    patch: '6.01',
+    source: '大型任务/边境之狱',
   },
   {
     id: 35020,
@@ -12601,7 +12191,7 @@ export default [
       TEN: 113,
       DET: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12620,7 +12210,7 @@ export default [
       CRT: 257,
       DET: 180,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12639,7 +12229,7 @@ export default [
       TEN: 162,
       DET: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12658,7 +12248,7 @@ export default [
       TEN: 180,
       DET: 257,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12677,7 +12267,7 @@ export default [
       CRT: 162,
       SKS: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12696,7 +12286,7 @@ export default [
       DHT: 162,
       DET: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12715,7 +12305,7 @@ export default [
       CRT: 257,
       DET: 180,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12734,7 +12324,7 @@ export default [
       CRT: 113,
       DET: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12753,7 +12343,7 @@ export default [
       CRT: 180,
       DET: 257,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12772,7 +12362,7 @@ export default [
       DHT: 162,
       SKS: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12791,7 +12381,7 @@ export default [
       CRT: 162,
       SKS: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12810,7 +12400,7 @@ export default [
       CRT: 180,
       DET: 257,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12829,7 +12419,7 @@ export default [
       DHT: 113,
       DET: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12848,7 +12438,7 @@ export default [
       DHT: 257,
       DET: 180,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12867,7 +12457,7 @@ export default [
       DHT: 113,
       CRT: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12886,7 +12476,7 @@ export default [
       CRT: 162,
       SKS: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12905,7 +12495,7 @@ export default [
       DHT: 180,
       CRT: 257,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12924,7 +12514,7 @@ export default [
       CRT: 113,
       DET: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12943,7 +12533,7 @@ export default [
       DHT: 180,
       DET: 257,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12962,7 +12552,7 @@ export default [
       DHT: 113,
       DET: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -12981,7 +12571,7 @@ export default [
       CRT: 162,
       SKS: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13000,7 +12590,7 @@ export default [
       DHT: 257,
       CRT: 180,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13019,7 +12609,7 @@ export default [
       CRT: 113,
       DET: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13038,7 +12628,7 @@ export default [
       CRT: 257,
       DET: 180,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13057,7 +12647,7 @@ export default [
       DHT: 113,
       DET: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13076,7 +12666,7 @@ export default [
       PIE: 113,
       CRT: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13095,7 +12685,7 @@ export default [
       CRT: 180,
       DET: 257,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13114,7 +12704,7 @@ export default [
       PIE: 113,
       SPS: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13133,7 +12723,7 @@ export default [
       PIE: 257,
       DET: 180,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13152,7 +12742,7 @@ export default [
       CRT: 162,
       DET: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13171,7 +12761,7 @@ export default [
       DHT: 113,
       CRT: 162,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13190,7 +12780,7 @@ export default [
       CRT: 257,
       DET: 180,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13209,7 +12799,7 @@ export default [
       CRT: 162,
       DET: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13228,7 +12818,7 @@ export default [
       DET: 180,
       SPS: 257,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13247,7 +12837,7 @@ export default [
       DHT: 162,
       SPS: 113,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13266,7 +12856,7 @@ export default [
       CRT: 127,
       DET: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13285,7 +12875,7 @@ export default [
       CRT: 127,
       DET: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13304,7 +12894,7 @@ export default [
       DHT: 89,
       CRT: 127,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13323,7 +12913,7 @@ export default [
       CRT: 127,
       DET: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13342,7 +12932,7 @@ export default [
       DHT: 127,
       SPS: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13361,7 +12951,7 @@ export default [
       DET: 89,
       SKS: 127,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13380,7 +12970,7 @@ export default [
       CRT: 127,
       SKS: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13399,7 +12989,7 @@ export default [
       CRT: 127,
       SKS: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13418,7 +13008,7 @@ export default [
       PIE: 127,
       CRT: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13437,7 +13027,7 @@ export default [
       DHT: 89,
       CRT: 127,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13456,7 +13046,7 @@ export default [
       TEN: 127,
       DET: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13475,7 +13065,7 @@ export default [
       DHT: 127,
       CRT: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13494,7 +13084,7 @@ export default [
       DHT: 89,
       DET: 127,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13513,7 +13103,7 @@ export default [
       CRT: 127,
       DET: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13532,7 +13122,7 @@ export default [
       DET: 89,
       SPS: 127,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13551,7 +13141,7 @@ export default [
       CRT: 127,
       DET: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13570,7 +13160,7 @@ export default [
       DHT: 127,
       DET: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13589,7 +13179,7 @@ export default [
       DHT: 89,
       CRT: 127,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13608,7 +13198,7 @@ export default [
       CRT: 89,
       DET: 127,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13627,7 +13217,7 @@ export default [
       DET: 127,
       SPS: 89,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13648,7 +13238,7 @@ export default [
       PDMG: 120,
       DLY: 2240,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13669,7 +13259,7 @@ export default [
       PDMG: 120,
       DLY: 2560,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13690,7 +13280,7 @@ export default [
       PDMG: 120,
       DLY: 3360,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13711,7 +13301,7 @@ export default [
       PDMG: 120,
       DLY: 2800,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13732,7 +13322,7 @@ export default [
       PDMG: 120,
       DLY: 3040,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13753,7 +13343,7 @@ export default [
       PDMG: 120,
       DLY: 2560,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13774,7 +13364,7 @@ export default [
       PDMG: 120,
       DLY: 2960,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13795,7 +13385,7 @@ export default [
       PDMG: 120,
       DLY: 2640,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13815,7 +13405,7 @@ export default [
       DET: 269,
       MDMG: 120,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13835,7 +13425,7 @@ export default [
       SPS: 269,
       MDMG: 120,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13855,7 +13445,7 @@ export default [
       DET: 188,
       MDMG: 120,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13875,7 +13465,7 @@ export default [
       DET: 269,
       MDMG: 120,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13895,7 +13485,7 @@ export default [
       DET: 269,
       MDMG: 120,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13916,7 +13506,7 @@ export default [
       PDMG: 120,
       DLY: 2640,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13936,7 +13526,7 @@ export default [
       DET: 188,
       MDMG: 120,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13957,7 +13547,7 @@ export default [
       PDMG: 120,
       DLY: 2800,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13978,7 +13568,7 @@ export default [
       PDMG: 120,
       DLY: 3120,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -13998,7 +13588,7 @@ export default [
       DET: 269,
       MDMG: 120,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -14019,7 +13609,7 @@ export default [
       PDMG: 120,
       DLY: 3200,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
   {
@@ -14038,7 +13628,7 @@ export default [
       CRT: 77,
       DET: 54,
     },
-    source: '零式/边狱之章',
+    source: '零式/边境之狱',
     patch: '6.05',
   },
 ];

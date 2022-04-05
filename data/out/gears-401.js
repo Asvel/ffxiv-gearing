@@ -1641,7 +1641,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35783,
@@ -1663,7 +1662,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 23566,
@@ -4096,7 +4094,6 @@ export default [
       DLY: 3200,
     },
     source: '迷宫挑战/神影洞',
-    patch: '6.0',
   },
   {
     id: 35784,
@@ -4116,7 +4113,6 @@ export default [
       MDMG: 93,
     },
     source: '迷宫挑战/神影洞',
-    patch: '6.0',
   },
   {
     id: 26108,
@@ -5760,7 +5756,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35785,
@@ -5782,7 +5777,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 26188,
@@ -7271,7 +7265,6 @@ export default [
       DLY: 3200,
     },
     source: '迷宫挑战/马利卡大井',
-    patch: '6.0',
   },
   {
     id: 35786,
@@ -7291,7 +7284,6 @@ export default [
       MDMG: 93,
     },
     source: '迷宫挑战/马利卡大井',
-    patch: '6.0',
   },
   {
     id: 26268,
@@ -8935,7 +8927,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 35787,
@@ -8957,7 +8948,6 @@ export default [
     },
     hq: true,
     source: '生产制作',
-    patch: '6.0',
   },
   {
     id: 26348,
@@ -10446,7 +10436,6 @@ export default [
       DLY: 3200,
     },
     source: '迷宫挑战/格鲁格火山',
-    patch: '6.0',
   },
   {
     id: 35788,
@@ -10466,7 +10455,6 @@ export default [
       MDMG: 94,
     },
     source: '迷宫挑战/格鲁格火山',
-    patch: '6.0',
   },
   {
     id: 25218,
@@ -14014,7 +14002,6 @@ export default [
       DLY: 3200,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36644,
@@ -14033,7 +14020,6 @@ export default [
       CRT: 100,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36645,
@@ -14052,7 +14038,6 @@ export default [
       DET: 159,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36646,
@@ -14071,7 +14056,6 @@ export default [
       SKS: 70,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36647,
@@ -14090,7 +14074,6 @@ export default [
       CRT: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36648,
@@ -14109,7 +14092,6 @@ export default [
       SKS: 100,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36649,
@@ -14129,7 +14111,6 @@ export default [
       MDMG: 95,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36650,
@@ -14148,7 +14129,6 @@ export default [
       SPS: 70,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36651,
@@ -14167,7 +14147,6 @@ export default [
       DET: 159,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36652,
@@ -14186,7 +14165,6 @@ export default [
       DET: 70,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36653,
@@ -14205,7 +14183,6 @@ export default [
       DET: 111,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 36654,
@@ -14224,7 +14201,6 @@ export default [
       CRT: 100,
     },
     source: '职业校服',
-    patch: '6.0',
   },
   {
     id: 25322,

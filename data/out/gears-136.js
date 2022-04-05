@@ -53473,7 +53473,6 @@ export default [
       DLY: 3200,
     },
     source: '死者宫殿',
-    patch: '6.0',
   },
   {
     id: 35774,
@@ -53493,7 +53492,6 @@ export default [
       MDMG: 76,
     },
     source: '死者宫殿',
-    patch: '6.0',
   },
   {
     id: 14388,
