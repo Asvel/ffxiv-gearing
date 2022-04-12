@@ -1758,46 +1758,8 @@ export default [
     statMain: 'PIE',
   },
   {
-    id: 4752,
-    name: '山羊奶',
-    level: 4,
-    slot: -1,
-    jobCategory: 34,
-    stats: {
-      VIT: 1,
-    },
-    statRates: {},
-    statMain: 'VIT',
-  },
-  {
-    id: 4753,
-    name: '水牛奶',
-    level: 3,
-    slot: -1,
-    jobCategory: 34,
-    stats: {
-      VIT: 1,
-    },
-    statRates: {},
-    statMain: 'VIT',
-  },
-  {
     id: 4754,
     name: '农家奶酪',
-    level: 15,
-    slot: -1,
-    jobCategory: 34,
-    stats: {
-      VIT: 3,
-    },
-    statRates: {
-      VIT: 10,
-    },
-    statMain: 'VIT',
-  },
-  {
-    id: 4755,
-    name: '蓝霉奶酪',
     level: 15,
     slot: -1,
     jobCategory: 34,
@@ -4135,7 +4097,6 @@ export default [
       GTH: 3,
     },
     statMain: 'GP',
-    best: true,
   },
   {
     id: 27871,
@@ -5273,7 +5234,7 @@ export default [
     slot: -1,
     jobCategory: 32,
     stats: {
-      GP: 48,
+      GP: 55,
       GTH: 60,
     },
     statRates: {
@@ -5701,6 +5662,42 @@ export default [
     },
     statMain: 'DET',
     patch: '6.05',
+    best: true,
+  },
+  {
+    id: 37282,
+    name: 'Calamari Ripieni',
+    level: 590,
+    slot: -1,
+    jobCategory: 33,
+    stats: {
+      CP: 82,
+      CMS: 120,
+    },
+    statRates: {
+      CP: 26,
+      CMS: 5,
+    },
+    statMain: 'CP',
+    patch: '6.1',
+    best: true,
+  },
+  {
+    id: 37283,
+    name: 'Kalamarakia Tiganita',
+    level: 590,
+    slot: -1,
+    jobCategory: 32,
+    stats: {
+      PCP: 124,
+      GTH: 64,
+    },
+    statRates: {
+      PCP: 7,
+      GTH: 3,
+    },
+    statMain: 'PCP',
+    patch: '6.1',
     best: true,
   },
 ];

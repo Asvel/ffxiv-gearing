@@ -45580,7 +45580,7 @@ export default [
     equipLevel: 85,
     materiaSlot: 2,
     stats: {
-      STR: 155,
+      STR: 154,
       VIT: 162,
       TEN: 150,
       CRT: 105,
@@ -45953,7 +45953,7 @@ export default [
     equipLevel: 85,
     materiaSlot: 0,
     stats: {
-      STR: 61,
+      STR: 62,
       VIT: 65,
       TEN: 60,
       CRT: 42,

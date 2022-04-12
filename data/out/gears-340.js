@@ -13160,6 +13160,7 @@ export default [
     materiaSlot: 0,
     stats: {
       GTH: 521,
+      PCP: 298,
     },
     source: '成就/笔记完成度',
   },
@@ -13191,6 +13192,7 @@ export default [
     materiaSlot: 0,
     stats: {
       GTH: 521,
+      PCP: 298,
     },
     source: '成就/笔记完成度',
   },
