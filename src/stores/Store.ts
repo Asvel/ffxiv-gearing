@@ -244,7 +244,7 @@ export const Store = mst.types
       const damage = 0.01 * weaponDamage * mainDamage * detDamage * tenDamage * traitDamageMultiplier *
         ((crtDamage - 1) * crtChance + 1) * (0.25 * dhtChance + 1);
       const gcd = floor(floor((1000 - floor(130 * ((SKS ?? SPS)! - sub) / div)) * 2500 / 1000) *
-        (statModifiers.gcd ?? 100) / 1000) / 100;
+        (self.jobLevel >= 80 && statModifiers.gcd || 100) / 1000) / 100;
       const ssDamage = floor(130 * ((SKS ?? SPS)! - sub) / div + 1000) / 1000;
       const hp = floor(levelMod.hp * statModifiers.hp / 100 +
         (mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) * (VIT! - main));

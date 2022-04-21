@@ -72,8 +72,11 @@ export const Summary = mobxReact.observer(() => {
             <>
               {(stat === 'SKS' || stat === 'SPS') && (
                 <div
-                  className={classNames('summary_stat-effect', store.schema.statModifiers?.gcdReason && '-tip')}
-                  aria-label={store.schema.statModifiers?.gcdReason}
+                  className={classNames(
+                    'summary_stat-effect',
+                    store.jobLevel >= 80 && store.schema.statModifiers?.gcdReason && '-tip',
+                  )}
+                  aria-label={store.jobLevel >= 80 ? store.schema.statModifiers?.gcdReason : undefined}
                   role="tooltip"
                   children={effects.gcd.toFixed(2) + 's'}
                 />
