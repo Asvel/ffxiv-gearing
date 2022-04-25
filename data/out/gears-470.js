@@ -41954,7 +41954,7 @@ export default [
   },
   {
     id: 34315,
-    name: '帝国魔导魔导书',
+    name: '帝国魔导书',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -41973,7 +41973,7 @@ export default [
   },
   {
     id: 34316,
-    name: '帝国魔导魔导典',
+    name: '帝国魔导典',
     level: 530,
     rarity: 2,
     slot: 13,
@@ -50649,7 +50649,7 @@ export default [
   },
   {
     id: 34690,
-    name: '蛇牛革魔导魔导书',
+    name: '蛇牛革魔导书',
     level: 545,
     rarity: 1,
     slot: 13,
@@ -50670,7 +50670,7 @@ export default [
   },
   {
     id: 34691,
-    name: '蛇牛革魔导魔导典',
+    name: '蛇牛革魔导典',
     level: 545,
     rarity: 1,
     slot: 13,
