@@ -46,10 +46,11 @@ const itemPatchIds = require('./in/Item.json');
 for (let i = 34965; i <= 35019; i++) itemPatchIds[i] = 78;  // temporary fix of ffxiv-datamining-patches data incorrect
 const patchOfId = {
   80: '6.1',
+  81: '6.11',
 };
 
 const patches = {
-  data: '6.1',
+  data: '6.11',
   next: '6.1',
   current: '6.05',  // CN server
 };
