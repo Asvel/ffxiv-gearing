@@ -31,6 +31,7 @@ function persistArchiveIfExists(): void {
 }
 setInterval(persistArchiveIfExists, 5000);
 window.addEventListener('beforeunload', persistArchiveIfExists);
+window.addEventListener('popstate', () => { newArchive = undefined; });  // archiveKey already mismatched when popstate
 
 export function save(archive: object): void {
   newArchive = archive;
