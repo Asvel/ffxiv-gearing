@@ -108,6 +108,15 @@ module.exports = function (env, argv) {
           ],
         },
         { test: /\.svg$/, use: 'svg-sprite-loader' },
+        {
+          test: /\.png$/,
+          use: {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[contenthash:6].[ext]',
+            },
+          },
+        },
       ],
     },
     plugins: [

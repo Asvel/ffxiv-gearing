@@ -60,7 +60,9 @@ export const JobSelector = mobxReact.observer(() => {
           <JobItem job="FSH" />
         </JobGroup>
       </div>
-      <Icon className="job-selector_background-icon" name="meteo" />
+      <div className="job-selector_background-icon">
+        <Icon name="meteo" />
+      </div>
     </div>
   );
 });

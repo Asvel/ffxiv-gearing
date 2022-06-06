@@ -1,7 +1,9 @@
 @use "./components/mixins" as *;
 
 .condition {
+  position: relative;
   margin-top: 10px;
+  overflow: visible;
 }
 .condition_divider {
   display: inline-block;
@@ -83,4 +85,18 @@
 .condition_level-sync-icon {
   width: 14px;
   vertical-align: -2px;
+}
+
+.condition_welcome-promotion {
+  position: absolute;
+  top: 66px;
+  right: 0;
+  border-radius: 4px;
+  transform: rotate(6deg);
+  transform-origin: right 38%;
+  transition: box-shadow .1s ease-in-out;
+  @include elevation(1);
+  &:hover {
+    @include elevation(2);
+  }
 }

@@ -169,6 +169,20 @@ export const Condition = mobxReact.observer(() => {
         <span className="condition_text">数据版本 {G.patches.data}</span>
       </span>
       {welcoming && <JobSelector />}
+      {welcoming && (
+        <a
+          href="https://www.bilibili.com/video/BV1pt4y1W7pX"
+          title="【视频】如何自助配装？高难本配装原理详解"
+          target="_blank"
+        >
+          <img
+            className="condition_welcome-promotion"
+            src={require('../../img/BV1pt4y1W7pX.png').default}
+            srcSet={require('../../img/BV1pt4y1W7pX@2x.png').default + ' 2x'}
+            alt=""
+          />
+        </a>
+      )}
     </div>
   );
 });
