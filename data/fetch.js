@@ -11,7 +11,7 @@ const resources = {
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/ItemFood.csv': '',
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/ItemLevel.csv': '',
   'https://raw.githubusercontent.com/thewakingsands/ffxiv-datamining-cn/master/Item.csv': 'Item.cn.csv',
-  'https://raw.githubusercontent.com/xivapi/ffxiv-datamining-patches/master/patchdata/Item.json': 'Item.json',
+  'https://raw.githubusercontent.com/xivapi/ffxiv-datamining-patches/master/patchdata/Item.json': '',
   'https://raw.githubusercontent.com/Asvel/ffxiv-lodestone-item-id/master/lodestone-item-id.txt': '',
 };
 

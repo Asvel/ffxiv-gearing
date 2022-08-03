@@ -48,11 +48,12 @@ const patchOfId = {
   80: '6.1',
   81: '6.11',
 };
+const lastPatchId = Number(Object.keys(patchOfId).slice(-1)[0]);
 
 const patches = {
-  data: '6.18',
-  next: '6.1',
-  current: '6.05',  // CN server
+  data: '6.18',  // 主数据的版本，即国际服游戏版本
+  next: '6.1',  // 对国服来说，下一个有装备更新的版本
+  current: '6.05',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};
@@ -134,7 +135,7 @@ const gears = Item
     ret.source = sourceOfId[x['#']];
     ret.obsolete = (ret.rarity === 7 && ret.source !== '危命任务' && !(ret.slot >= 9 && ret.slot <= 12)) ||
       ret.source?.endsWith('已废弃') || ret.source === '旧空岛' ? true : undefined;
-    ret.patch = patchOfId[itemPatchIds[x['#']]];
+    ret.patch = patchOfId[itemPatchIds[x['#']] ?? lastPatchId];
 
     // stats
     const rawStats = {};
@@ -216,7 +217,7 @@ const foods = Item
     ret.stats = {};
     ret.statRates = {};
     ret.statMain = statAbbrs[itemFood['BaseParam[0]']];
-    ret.patch = patchOfId[itemPatchIds[x['#']]];
+    ret.patch = patchOfId[itemPatchIds[x['#']] ?? lastPatchId];
 
     // stats
     for (const i of [0, 1, 2]) {
