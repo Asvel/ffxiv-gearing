@@ -4505,7 +4505,6 @@ export default [
       CMS: 6,
     },
     statMain: 'CP',
-    best: true,
   },
   {
     id: 28721,
@@ -4522,7 +4521,6 @@ export default [
       GTH: 3,
     },
     statMain: 'PCP',
-    best: true,
   },
   {
     id: 29497,
@@ -5645,7 +5643,7 @@ export default [
   },
   {
     id: 37282,
-    name: 'Calamari Ripieni',
+    name: '镶烤墨鱼',
     level: 590,
     slot: -1,
     jobCategory: 33,
@@ -5658,12 +5656,11 @@ export default [
       CMS: 5,
     },
     statMain: 'CP',
-    patch: '6.1',
     best: true,
   },
   {
     id: 37283,
-    name: 'Kalamarakia Tiganita',
+    name: '炸墨鱼圈',
     level: 590,
     slot: -1,
     jobCategory: 32,
@@ -5676,7 +5673,6 @@ export default [
       GTH: 3,
     },
     statMain: 'PCP',
-    patch: '6.1',
     best: true,
   },
 ];

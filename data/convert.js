@@ -45,15 +45,14 @@ const jobs = [
 const itemPatchIds = require('./in/Item.json');
 for (let i = 34965; i <= 35019; i++) itemPatchIds[i] = 78;  // temporary fix of ffxiv-datamining-patches data incorrect
 const patchOfId = {
-  80: '6.1',
   81: '6.11',
 };
 const lastPatchId = Number(Object.keys(patchOfId).slice(-1)[0]);
 
 const patches = {
   data: '6.18',  // 主数据的版本，即国际服游戏版本
-  next: '6.1',  // 对国服来说，下一个有装备更新的版本
-  current: '6.05',  // 国服当前游戏版本
+  next: '6.11',  // 对国服来说，下一个有装备更新的版本
+  current: '6.1',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};

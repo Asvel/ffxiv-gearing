@@ -13822,7 +13822,7 @@ export default [
   },
   {
     id: 23706,
-    name: '志愿者御敌头盔',
+    name: '志愿兵御敌头盔',
     level: 355,
     rarity: 2,
     slot: 3,
@@ -13840,7 +13840,7 @@ export default [
   },
   {
     id: 23707,
-    name: '志愿者御敌紧身衣',
+    name: '志愿兵御敌紧身衣',
     level: 355,
     rarity: 2,
     slot: 4,
@@ -13876,7 +13876,7 @@ export default [
   },
   {
     id: 23709,
-    name: '志愿者御敌软甲裤',
+    name: '志愿兵御敌软甲裤',
     level: 355,
     rarity: 2,
     slot: 7,
@@ -13894,7 +13894,7 @@ export default [
   },
   {
     id: 23710,
-    name: '志愿者御敌重铠靴',
+    name: '志愿兵御敌重铠靴',
     level: 355,
     rarity: 2,
     slot: 8,
@@ -13912,7 +13912,7 @@ export default [
   },
   {
     id: 23711,
-    name: '志愿者御敌腰带',
+    name: '志愿兵御敌腰带',
     level: 355,
     rarity: 2,
     slot: 0,
@@ -13930,7 +13930,7 @@ export default [
   },
   {
     id: 23712,
-    name: '志愿者制敌头盔',
+    name: '志愿兵制敌头盔',
     level: 355,
     rarity: 2,
     slot: 3,
@@ -13966,7 +13966,7 @@ export default [
   },
   {
     id: 23714,
-    name: '志愿者制敌手铠',
+    name: '志愿兵制敌手铠',
     level: 355,
     rarity: 2,
     slot: 5,
@@ -13984,7 +13984,7 @@ export default [
   },
   {
     id: 23715,
-    name: '志愿者制敌软甲裤',
+    name: '志愿兵制敌软甲裤',
     level: 355,
     rarity: 2,
     slot: 7,
@@ -14002,7 +14002,7 @@ export default [
   },
   {
     id: 23716,
-    name: '志愿者制敌重铠靴',
+    name: '志愿兵制敌重铠靴',
     level: 355,
     rarity: 2,
     slot: 8,
@@ -14020,7 +14020,7 @@ export default [
   },
   {
     id: 23717,
-    name: '志愿者制敌腰带',
+    name: '志愿兵制敌腰带',
     level: 355,
     rarity: 2,
     slot: 0,
@@ -14038,7 +14038,7 @@ export default [
   },
   {
     id: 23718,
-    name: '志愿者强袭兜帽',
+    name: '志愿兵强袭兜帽',
     level: 355,
     rarity: 2,
     slot: 3,
@@ -14074,7 +14074,7 @@ export default [
   },
   {
     id: 23720,
-    name: '志愿者强袭手套',
+    name: '志愿兵强袭手套',
     level: 355,
     rarity: 2,
     slot: 5,
@@ -14092,7 +14092,7 @@ export default [
   },
   {
     id: 23721,
-    name: '志愿者强袭软甲裤',
+    name: '志愿兵强袭软甲裤',
     level: 355,
     rarity: 2,
     slot: 7,
@@ -14110,7 +14110,7 @@ export default [
   },
   {
     id: 23722,
-    name: '志愿者强袭长靴',
+    name: '志愿兵强袭长靴',
     level: 355,
     rarity: 2,
     slot: 8,
@@ -14128,7 +14128,7 @@ export default [
   },
   {
     id: 23723,
-    name: '志愿者强袭腰带',
+    name: '志愿兵强袭腰带',
     level: 355,
     rarity: 2,
     slot: 0,
@@ -14146,7 +14146,7 @@ export default [
   },
   {
     id: 23724,
-    name: '志愿者精准目镜',
+    name: '志愿兵精准目镜',
     level: 355,
     rarity: 2,
     slot: 3,
@@ -14164,7 +14164,7 @@ export default [
   },
   {
     id: 23725,
-    name: '志愿者精准大衣',
+    name: '志愿兵精准大衣',
     level: 355,
     rarity: 2,
     slot: 4,
@@ -14182,7 +14182,7 @@ export default [
   },
   {
     id: 23726,
-    name: '志愿者精准手铠',
+    name: '志愿兵精准手铠',
     level: 355,
     rarity: 2,
     slot: 5,
@@ -14200,7 +14200,7 @@ export default [
   },
   {
     id: 23727,
-    name: '志愿者精准软甲裤',
+    name: '志愿兵精准软甲裤',
     level: 355,
     rarity: 2,
     slot: 7,
@@ -14236,7 +14236,7 @@ export default [
   },
   {
     id: 23729,
-    name: '志愿者精准腰带',
+    name: '志愿兵精准腰带',
     level: 355,
     rarity: 2,
     slot: 0,
@@ -14254,7 +14254,7 @@ export default [
   },
   {
     id: 23730,
-    name: '志愿者游击防毒兜帽',
+    name: '志愿兵游击防毒兜帽',
     level: 355,
     rarity: 2,
     slot: 3,
@@ -14272,7 +14272,7 @@ export default [
   },
   {
     id: 23731,
-    name: '志愿者游击长衣',
+    name: '志愿兵游击长衣',
     level: 355,
     rarity: 2,
     slot: 4,
@@ -14290,7 +14290,7 @@ export default [
   },
   {
     id: 23732,
-    name: '志愿者游击手套',
+    name: '志愿兵游击手套',
     level: 355,
     rarity: 2,
     slot: 5,
@@ -14308,7 +14308,7 @@ export default [
   },
   {
     id: 23733,
-    name: '志愿者游击软甲裤',
+    name: '志愿兵游击软甲裤',
     level: 355,
     rarity: 2,
     slot: 7,
@@ -14326,7 +14326,7 @@ export default [
   },
   {
     id: 23734,
-    name: '志愿者游击长靴',
+    name: '志愿兵游击长靴',
     level: 355,
     rarity: 2,
     slot: 8,
@@ -14344,7 +14344,7 @@ export default [
   },
   {
     id: 23735,
-    name: '志愿者游击腰带',
+    name: '志愿兵游击腰带',
     level: 355,
     rarity: 2,
     slot: 0,
@@ -14362,7 +14362,7 @@ export default [
   },
   {
     id: 23736,
-    name: '志愿者治愈贝雷帽',
+    name: '志愿兵治愈贝雷帽',
     level: 355,
     rarity: 2,
     slot: 3,
@@ -14380,7 +14380,7 @@ export default [
   },
   {
     id: 23737,
-    name: '志愿者治愈紧身衣',
+    name: '志愿兵治愈紧身衣',
     level: 355,
     rarity: 2,
     slot: 4,
@@ -14398,7 +14398,7 @@ export default [
   },
   {
     id: 23738,
-    name: '志愿者治愈半指护手',
+    name: '志愿兵治愈半指护手',
     level: 355,
     rarity: 2,
     slot: 5,
@@ -14416,7 +14416,7 @@ export default [
   },
   {
     id: 23739,
-    name: '志愿者治愈软甲裤',
+    name: '志愿兵治愈软甲裤',
     level: 355,
     rarity: 2,
     slot: 7,
@@ -14452,7 +14452,7 @@ export default [
   },
   {
     id: 23741,
-    name: '志愿者治愈腰带',
+    name: '志愿兵治愈腰带',
     level: 355,
     rarity: 2,
     slot: 0,
@@ -14470,7 +14470,7 @@ export default [
   },
   {
     id: 23742,
-    name: '志愿者咏咒口罩',
+    name: '志愿兵咏咒口罩',
     level: 355,
     rarity: 2,
     slot: 3,
@@ -14488,7 +14488,7 @@ export default [
   },
   {
     id: 23743,
-    name: '志愿者咏咒紧身衣',
+    name: '志愿兵咏咒紧身衣',
     level: 355,
     rarity: 2,
     slot: 4,
@@ -14506,7 +14506,7 @@ export default [
   },
   {
     id: 23744,
-    name: '志愿者咏咒护臂',
+    name: '志愿兵咏咒护臂',
     level: 355,
     rarity: 2,
     slot: 5,
@@ -14524,7 +14524,7 @@ export default [
   },
   {
     id: 23745,
-    name: '志愿者咏咒软甲裤',
+    name: '志愿兵咏咒软甲裤',
     level: 355,
     rarity: 2,
     slot: 7,
@@ -14542,7 +14542,7 @@ export default [
   },
   {
     id: 23746,
-    name: '志愿者咏咒长靴',
+    name: '志愿兵咏咒长靴',
     level: 355,
     rarity: 2,
     slot: 8,
@@ -14560,7 +14560,7 @@ export default [
   },
   {
     id: 23747,
-    name: '志愿者咏咒腰带',
+    name: '志愿兵咏咒腰带',
     level: 355,
     rarity: 2,
     slot: 0,
@@ -14578,7 +14578,7 @@ export default [
   },
   {
     id: 23748,
-    name: '志愿者御敌耳坠',
+    name: '志愿兵御敌耳坠',
     level: 355,
     rarity: 2,
     slot: 9,
@@ -14596,7 +14596,7 @@ export default [
   },
   {
     id: 23749,
-    name: '志愿者强攻耳坠',
+    name: '志愿兵强攻耳坠',
     level: 355,
     rarity: 2,
     slot: 9,
@@ -14614,7 +14614,7 @@ export default [
   },
   {
     id: 23750,
-    name: '志愿者精准耳坠',
+    name: '志愿兵精准耳坠',
     level: 355,
     rarity: 2,
     slot: 9,
@@ -14632,7 +14632,7 @@ export default [
   },
   {
     id: 23751,
-    name: '志愿者治愈耳坠',
+    name: '志愿兵治愈耳坠',
     level: 355,
     rarity: 2,
     slot: 9,
@@ -14650,7 +14650,7 @@ export default [
   },
   {
     id: 23752,
-    name: '志愿者咏咒耳坠',
+    name: '志愿兵咏咒耳坠',
     level: 355,
     rarity: 2,
     slot: 9,
@@ -14668,7 +14668,7 @@ export default [
   },
   {
     id: 23753,
-    name: '志愿者御敌项环',
+    name: '志愿兵御敌项环',
     level: 355,
     rarity: 2,
     slot: 10,
@@ -14686,7 +14686,7 @@ export default [
   },
   {
     id: 23754,
-    name: '志愿者强攻项环',
+    name: '志愿兵强攻项环',
     level: 355,
     rarity: 2,
     slot: 10,
@@ -14704,7 +14704,7 @@ export default [
   },
   {
     id: 23755,
-    name: '志愿者精准项环',
+    name: '志愿兵精准项环',
     level: 355,
     rarity: 2,
     slot: 10,
@@ -14722,7 +14722,7 @@ export default [
   },
   {
     id: 23756,
-    name: '志愿者治愈项环',
+    name: '志愿兵治愈项环',
     level: 355,
     rarity: 2,
     slot: 10,
@@ -14740,7 +14740,7 @@ export default [
   },
   {
     id: 23757,
-    name: '志愿者咏咒项环',
+    name: '志愿兵咏咒项环',
     level: 355,
     rarity: 2,
     slot: 10,
@@ -14758,7 +14758,7 @@ export default [
   },
   {
     id: 23758,
-    name: '志愿者御敌手镯',
+    name: '志愿兵御敌手镯',
     level: 355,
     rarity: 2,
     slot: 11,
@@ -14776,7 +14776,7 @@ export default [
   },
   {
     id: 23759,
-    name: '志愿者强攻手镯',
+    name: '志愿兵强攻手镯',
     level: 355,
     rarity: 2,
     slot: 11,
@@ -14794,7 +14794,7 @@ export default [
   },
   {
     id: 23760,
-    name: '志愿者精准手镯',
+    name: '志愿兵精准手镯',
     level: 355,
     rarity: 2,
     slot: 11,
@@ -14812,7 +14812,7 @@ export default [
   },
   {
     id: 23761,
-    name: '志愿者治愈手镯',
+    name: '志愿兵治愈手镯',
     level: 355,
     rarity: 2,
     slot: 11,
@@ -14830,7 +14830,7 @@ export default [
   },
   {
     id: 23762,
-    name: '志愿者咏咒手镯',
+    name: '志愿兵咏咒手镯',
     level: 355,
     rarity: 2,
     slot: 11,
@@ -14848,7 +14848,7 @@ export default [
   },
   {
     id: 23763,
-    name: '志愿者御敌指环',
+    name: '志愿兵御敌指环',
     level: 355,
     rarity: 2,
     slot: 12,
@@ -14866,7 +14866,7 @@ export default [
   },
   {
     id: 23764,
-    name: '志愿者强攻指环',
+    name: '志愿兵强攻指环',
     level: 355,
     rarity: 2,
     slot: 12,
@@ -14884,7 +14884,7 @@ export default [
   },
   {
     id: 23765,
-    name: '志愿者精准指环',
+    name: '志愿兵精准指环',
     level: 355,
     rarity: 2,
     slot: 12,
@@ -14902,7 +14902,7 @@ export default [
   },
   {
     id: 23766,
-    name: '志愿者治愈指环',
+    name: '志愿兵治愈指环',
     level: 355,
     rarity: 2,
     slot: 12,
@@ -14920,7 +14920,7 @@ export default [
   },
   {
     id: 23767,
-    name: '志愿者咏咒指环',
+    name: '志愿兵咏咒指环',
     level: 355,
     rarity: 2,
     slot: 12,

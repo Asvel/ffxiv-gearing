@@ -15389,7 +15389,7 @@ export default [
   },
   {
     id: 25393,
-    name: '隆卡小刀',
+    name: '隆卡匕首',
     level: 440,
     rarity: 3,
     slot: 13,
@@ -15525,7 +15525,7 @@ export default [
   },
   {
     id: 25400,
-    name: '隆卡天球仪',
+    name: '隆卡量天仪',
     level: 440,
     rarity: 3,
     slot: 13,
