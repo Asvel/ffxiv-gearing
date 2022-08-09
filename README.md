@@ -1,9 +1,8 @@
 # 最终幻想14配装器
 
-* 主域名：https://asvel.github.io/ffxiv-gearing/
-* 备用域名：https://asvel.gitee.io/ffxiv-gearing/
+https://asvel.github.io/ffxiv-gearing/
 
-两个域名内容完全相同，后者国内访问快一点但服务稳定性稍差。**所有分享链接在两个域名下均有效。**
+原备用域名因平台方运营调整无法再更新，如无法使用主域名可以考虑使用[第三方镜像](https://gearing.ffsusu.com/)，此镜像由第三方维护会存在一定程度的更新延迟。
 
 没有做完善的兼容性处理，建议使用较新的浏览器。页面内容复杂，建议在不太小的屏幕上使用。
 
