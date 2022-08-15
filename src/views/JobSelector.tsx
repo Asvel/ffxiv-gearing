@@ -1,3 +1,4 @@
+import type * as React from 'react';
 import * as mobxReact from 'mobx-react-lite';
 import * as G from '../game';
 import { useStore } from './components/contexts';
@@ -67,7 +68,7 @@ export const JobSelector = mobxReact.observer(() => {
   );
 });
 
-const JobGroup = mobxReact.observer<{ name: string }>(({ name, children }) => {
+const JobGroup = mobxReact.observer<{ name: string, children: React.ReactNode }>(({ name, children }) => {
   return (
     <div className="job-selector_group">
       <div className="job-selector_group-name">{name}</div>

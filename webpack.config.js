@@ -62,7 +62,6 @@ module.exports = function (env, argv) {
             {
               loader: 'ts-loader',
               options: {
-                transpileOnly: true,
                 compilerOptions: {
                   jsx: prod ? 'react-jsx' : 'react-jsxdev',
                 },
@@ -82,6 +81,18 @@ module.exports = function (env, argv) {
           },
         },
         {
+          test: /node_modules[\\\/]@rmwc[\\\/]list[\\\/]next[\\\/]collapsible-list\.js$/,
+          use: {
+            loader: 'simple-functional-loader',
+            ident: 'rmwc-list-fix',
+            options: {
+              // temporary fix of RMWC CollapsibleList initial render jitter under React 18 concurrent mode
+              processor: source => source.replace('maxHeight: this.childContainer',
+                'maxHeight: this.childContainer && this.state.open'),
+            },
+          },
+        },
+        {
           test: /\.s?css$/,
           use: [
             'style-loader',
@@ -92,9 +103,18 @@ module.exports = function (env, argv) {
                 postcssOptions: {
                   plugins: [
                     ['postcss-preset-env', { features: { 'case-insensitive-attributes': false } }],
+                    ['css-byebye', { rulesToRemove: [/.*\.mdc-evolution-.*/, /.*\[dir=rtl].*/] }],
                     prod && 'cssnano',
                   ].filter(Boolean),
                 },
+              },
+            },
+            {
+              loader: 'simple-functional-loader',
+              ident: 'mdc-ripple-no-will-change',
+              options: {
+                // these will-change from @material/ripple/_ripple.scss break text subpixel rendering
+                processor: source => source.replaceAll('will-change: transform, opacity;', ''),
               },
             },
             {
@@ -132,9 +152,7 @@ module.exports = function (env, argv) {
       }),
       new ForkTsCheckerWebpackPlugin({
         async: !prod,
-        logger: {
-          issues: 'webpack-infrastructure',
-        },
+        logger: 'webpack-infrastructure',
       }),
     ],
     optimization: {
@@ -204,5 +222,20 @@ module.exports = function (env, argv) {
       return warn.apply(this, arguments);
     };
     return options;
+  };
+}
+
+// filter out logs like '[ForkTsCheckerWebpackPlugin] No errors found.', incredibly it can't be done by configuration
+{
+  const infrastructureLogger = require('fork-ts-checker-webpack-plugin/lib/infrastructure-logger');
+  const { getInfrastructureLogger } = infrastructureLogger;
+  infrastructureLogger.getInfrastructureLogger = function () {
+    const ret = getInfrastructureLogger.apply(this, arguments);
+    const info = { ret };
+    ret.info = function () {
+      if (/^\u001b\[3[26]m/.test(arguments[0])) return;
+      info.apply(this, arguments);
+    };
+    return ret;
   };
 }

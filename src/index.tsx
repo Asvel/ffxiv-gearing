@@ -1,5 +1,5 @@
 import './migrate';
-import * as ReactDOM from 'react-dom';
+import * as ReactDOMClient from 'react-dom/client';
 import * as mobx from 'mobx';
 import './views/components/sanitize.scss';
 import './views/components/material.scss';
@@ -15,6 +15,6 @@ mobx.autorun(() => {
 
 const container = document.createElement('div');
 document.body.appendChild(container);
-ReactDOM.render(<App store={store} />, container);
+ReactDOMClient.createRoot(container).render(<App store={store} />);
 
 navigator.serviceWorker?.register('./serviceworker.js');
