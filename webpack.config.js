@@ -114,7 +114,7 @@ module.exports = function (env, argv) {
               ident: 'mdc-ripple-no-will-change',
               options: {
                 // these will-change from @material/ripple/_ripple.scss break text subpixel rendering
-                processor: source => source.replaceAll('will-change: transform, opacity;', ''),
+                processor: source => source.replace(/will-change: ?transform, ?opacity;/, ''),
               },
             },
             {
