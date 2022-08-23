@@ -23115,6 +23115,23 @@ export default [
     },
   },
   {
+    id: 38713,
+    name: 'Thalassian Shield',
+    level: 26,
+    rarity: 2,
+    slot: 2,
+    role: 1,
+    jobCategory: 38,
+    equipLevel: 24,
+    materiaSlot: 0,
+    stats: {
+      STR: 1,
+      VIT: 2,
+      TEN: 1,
+    },
+    patch: '6.2',
+  },
+  {
     id: 267,
     name: '过期黑铁羊角锤',
     level: 27,

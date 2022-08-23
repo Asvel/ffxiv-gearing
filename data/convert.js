@@ -46,11 +46,12 @@ const itemPatchIds = require('./in/Item.json');
 for (let i = 34965; i <= 35019; i++) itemPatchIds[i] = 78;  // temporary fix of ffxiv-datamining-patches data incorrect
 const patchOfId = {
   81: '6.11',
+  82: '6.2',
 };
 const lastPatchId = Number(Object.keys(patchOfId).slice(-1)[0]);
 
 const patches = {
-  data: '6.18',  // 主数据的版本，即国际服游戏版本
+  data: '6.2',  // 主数据的版本，即国际服游戏版本
   next: '6.11',  // 对国服来说，下一个有装备更新的版本
   current: '6.1',  // 国服当前游戏版本
 };
@@ -308,7 +309,7 @@ for (const i of Object.keys(statAbbrs)) {
 
 const roleCaps = {};
 for (const i of Object.keys(statAbbrs)) {
-  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][26 + j], 10));
+  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][27 + j], 10));
 }
 
 const levelGroupBasis = [1, 70, 136, 255, 340, 385, 401, 470, 560];
