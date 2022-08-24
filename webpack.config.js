@@ -133,7 +133,7 @@ module.exports = function (env, argv) {
           use: {
             loader: 'file-loader',
             options: {
-              name: '[name].[contenthash:6].[ext]',
+              name: '[name].[contenthash:10].[ext]',
             },
           },
         },
