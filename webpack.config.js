@@ -231,7 +231,7 @@ module.exports = function (env, argv) {
   const { getInfrastructureLogger } = infrastructureLogger;
   infrastructureLogger.getInfrastructureLogger = function () {
     const ret = getInfrastructureLogger.apply(this, arguments);
-    const info = { ret };
+    const { info } = ret;
     ret.info = function () {
       if (/^\u001b\[3[26]m/.test(arguments[0])) return;
       info.apply(this, arguments);
