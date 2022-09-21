@@ -1,7 +1,12 @@
 
+.badge-button {
+  .mdc-button__label {
+    position: relative;
+  }
+}
 .badge-button_badge {
-  top: 10px;
-  right: 7px;
+  top: -3px;
+  right: -8px;
   min-width: 8px;
   height: 8px;
   padding: 0;

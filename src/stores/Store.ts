@@ -2,7 +2,7 @@ import * as mobx from 'mobx';
 import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as share from '../share';
-import { floor, ceil, ISetting, Promotion, IGear, IFood, GearUnion, IGearUnion, GearUnionReference,
+import { floor, ceil, ISetting, Promotion, IGear, IFood, GearUnion, IGearUnion, GearUnionReference, IMateria,
   gearDataOrdered, gearDataLoading, loadGearDataOfGearId, loadGearDataOfLevelRange } from '.';
 
 const globalClanKey = 'ffxiv-gearing.ew.clan';
@@ -31,6 +31,7 @@ export const Store = mst.types
     promotion: Promotion.create(),
     clan: Number(localStorage.getItem(globalClanKey)) || 0,
     autoSelectScheduled: false,
+    materiaOverallActiveTab: 0,
   }))
   .views(self => ({
     get setting(): ISetting {
@@ -280,6 +281,265 @@ export const Store = mst.types
         PIE: calcTier(PIE! - main, div / 150),
       };
     },
+    get materiaDetDhtOptimized() {
+      console.debug('materiaDetDhtOptimized');
+      type Pair = number;  // a packed DET,DHT pair
+      type Meld = [number, number];  // a meld assignment, [DET major materia amount, DET minor materia amount]
+      type OriginalMelds = { DET: Meld, DHT: Meld, all: Meld };  // eslint-disable-line
+      type Route = Pair[];  // a selection from possible pairs of every gear
+
+      const pack = (stats: G.Stats): Pair => ((stats.DET ?? 0) << 16) | (stats.DHT ?? 0);
+      const unpack = (pair: Pair) => ([ pair >> 16, pair & ~(-1 << 16) ]);
+      const mapPush = <TKey, TItem>(map: Map<TKey, TItem[]>, key: TKey, item: TItem) => {
+        const items = map.get(key) ?? [];
+        items.push(item);
+        map.set(key, items);
+      };
+
+      const gearOriginalMelds = new Map<G.GearId, OriginalMelds>();
+      let food: IFood | undefined;
+      let fixedPair = pack(self.baseStats);
+      const freeGears: IGear[] = [];
+      const freeMajorSlots: IMateria[] = [];
+      const freeMinorSlots: IMateria[] = [];
+      const freePossiblePairMelds = new Map<Pair, Meld[]>();
+      const crucialGears: IGear[] = [];
+      const crucialGearPossiblePairMelds: Map<Pair, Meld[]>[] = [];
+      mobx.runInAction(() => {  // this action only modifies the replica
+        const replica = Store.create(mst.getSnapshot(self));
+        replica.unprotect();
+
+        for (const gear of replica.equippedGears.values()) {
+          if (gear === undefined) continue;
+          if (gear.isFood) {
+            food = gear;
+            continue;
+          }
+
+          const slots = gear.materias.filter(m => m.stat === 'DET' || m.stat === 'DHT' || m.stat === undefined);
+          const originalMelds: OriginalMelds = { DET: [0, 0], DHT: [0, 0], all: [0, 0] };
+          for (const materia of slots) {
+            materia.grade = materia.meldableGrades[0];
+            const meldType = materia.isRestricted ? 1 : 0;
+            if (materia.stat === 'DET') originalMelds['DET'][meldType]++;
+            if (materia.stat === 'DHT') originalMelds['DHT'][meldType]++;
+            originalMelds['all'][meldType]++;
+          }
+          gearOriginalMelds.set(gear.id, originalMelds);
+
+          for (const materia of slots) materia.stat = 'DET';
+          const pairAllDet = pack(gear.stats);
+          const overcapAllDet = gear.currentMeldableStats.DET! < 0;
+          for (const materia of slots) materia.stat = 'DHT';
+          const pairAllDht = pack(gear.stats);
+          const overcapAllDht = gear.currentMeldableStats.DHT! < 0;
+          if (pairAllDet === pairAllDht) {
+            // this gear is unaffected by DET/DHT materias, preserve stat value only
+            fixedPair += pairAllDet;
+          } else if (!overcapAllDet && !overcapAllDht && (freeGears.length === 0 ||
+              gear.materias[0].meldableGrades[0] === freeGears[0].materias[0].meldableGrades[0])) {
+            // this gear is free to meld from over cap, treat all these gears as one joint gear for better performance
+            freeGears.push(gear);
+            for (const materia of slots) {
+              (materia.isRestricted ? freeMinorSlots : freeMajorSlots).push(materia);
+            }
+          } else {
+            // this gear might over cap, need to enumerate respectively
+            crucialGears.push(gear);
+            const majorSlots = slots.filter(m => !m.isRestricted);
+            const minorSlots = slots.filter(m => m.isRestricted);
+            const pairMelds = new Map<Pair, Meld[]>();
+            for (let majorDetAmount = 0; majorDetAmount <= majorSlots.length; majorDetAmount++) {
+              if (majorDetAmount > 0) majorSlots[majorDetAmount - 1].stat = 'DET';
+              for (const minorSlot of minorSlots) minorSlot.stat = 'DHT';
+              for (let minorDetAmount = 0; minorDetAmount <= minorSlots.length; minorDetAmount++) {
+                if (minorDetAmount > 0) minorSlots[minorDetAmount - 1].stat = 'DET';
+                const pair = pack(gear.stats);
+                mapPush(pairMelds, pair, [majorDetAmount, minorDetAmount]);
+              }
+            }
+            for (const pair of pairMelds.keys()) {  // prune completely inferior pairs
+              const [ DET, DHT ] = unpack(pair);
+              for (const pair2 of pairMelds.keys()) {
+                if (pair === pair2) continue;
+                const [ DET2, DHT2 ] = unpack(pair2);
+                if (DET <= DET2 && DHT <= DHT2) {
+                  pairMelds.delete(pair);
+                  break;
+                }
+              }
+            }
+            crucialGearPossiblePairMelds.push(pairMelds);
+          }
+        }
+
+        for (let majorDetAmount = 0; majorDetAmount <= freeMajorSlots.length; majorDetAmount++) {
+          if (majorDetAmount > 0) freeMajorSlots[majorDetAmount - 1].stat = 'DET';
+          for (const minorSlot of freeMinorSlots) minorSlot.stat = 'DHT';
+          for (let minorDetAmount = 0; minorDetAmount <= freeMinorSlots.length; minorDetAmount++) {
+            if (minorDetAmount > 0) freeMinorSlots[minorDetAmount - 1].stat = 'DET';
+            const pair = freeGears.reduce((sc, gear) => sc + pack(gear.stats), 0);
+            mapPush(freePossiblePairMelds, pair, [majorDetAmount, minorDetAmount]);
+          }
+        }
+      });
+
+      const { main, sub, div, det, detTrunc } = G.jobLevelModifiers[self.jobLevel];
+      const bluAetherialMimicry = self.job === 'BLU' ? 200 : 0;
+      const foodDet = food?.stats?.['DET'] ?? 0;
+      const foodDetRate = food?.statRates?.['DET'] ?? Infinity;
+      const foodDht = food?.stats?.['DHT'] ?? 0;
+      const foodDhtRate = food?.statRates?.['DHT'] ?? Infinity;
+
+      let maxDamage = 0;
+      let acceptableDamage = 0;
+      const damagePossibleTotalPairs = new Map<number, Pair[]>();
+      const totalPairPossibleRoutes = new Map<Pair, Route[]>();
+      const combinedPossiblePairMelds = [freePossiblePairMelds].concat(crucialGearPossiblePairMelds);
+      const route: Route = [];
+      const search = (currentPair: Pair, gearIndex: number) => {
+        if (gearIndex < combinedPossiblePairMelds.length) {
+          for (const pair of combinedPossiblePairMelds[gearIndex].keys()) {
+            route[gearIndex] = pair;
+            search(currentPair + pair, gearIndex + 1);
+          }
+        } else {
+          let [ DET, DHT ] = unpack(currentPair);
+          DET += Math.min(foodDet, floor(DET * foodDetRate / 100));
+          DHT += Math.min(foodDht, floor(DHT * foodDhtRate / 100));
+
+          const detDamage = floor((140 * (DET - main) / det + 1000) / detTrunc) * detTrunc / 1000;
+          const dhtChance = floor(550 * (DHT - sub) / div + bluAetherialMimicry) / 1000;
+          const damage = detDamage * (0.25 * dhtChance + 1);
+          if (damage > maxDamage) {
+            maxDamage = damage;
+            acceptableDamage = damage * 0.9997;
+          }
+          if (damage > acceptableDamage) {
+            const totalPair = pack({ DET, DHT });
+            mapPush(damagePossibleTotalPairs, damage, totalPair);
+            mapPush(totalPairPossibleRoutes, totalPair, route.slice());
+          }
+        }
+      };
+      search(fixedPair, 0);
+      for (const damage of damagePossibleTotalPairs.keys()) {
+        if (damage <= acceptableDamage) {
+          damagePossibleTotalPairs.delete(damage);
+        }
+      }
+      const damages = new Float64Array(damagePossibleTotalPairs.keys()).sort().reverse();
+      const goodTotalPairs: Pair[] = [];
+      for (const damage of damages) {
+        goodTotalPairs.push(...new Set(damagePossibleTotalPairs.get(damage)!).values());
+      }
+
+      // ↑ determine good DET/DHT distribution
+      // ↓ determine corresponding materia assignment
+
+      const freeOriginalMelds: OriginalMelds = { DET: [0, 0], DHT: [0, 0], all: [0, 0] };
+      const freeOriginalMaterias: IMateria[] = [];
+      const freeGearMateriaPositions: Map<G.GearId, number[]> = new Map();
+      for (const gear of freeGears) {
+        for (const [ stat, meld ] of Object.entries(freeOriginalMelds)) {
+          meld[0] += gearOriginalMelds.get(gear.id)![stat as keyof OriginalMelds][0];
+          meld[1] += gearOriginalMelds.get(gear.id)![stat as keyof OriginalMelds][1];
+        }
+        freeGearMateriaPositions.set(gear.id, []);
+      }
+      for (let materiaIndex = 0; materiaIndex < 5; materiaIndex++) {
+        for (const gear of freeGears) {
+          const originalGead = self.gears.get(gear.id) as IGear;
+          if (materiaIndex < originalGead.materias.length) {
+            freeGearMateriaPositions.get(gear.id)![materiaIndex] = freeOriginalMaterias.length;
+            freeOriginalMaterias.push(originalGead.materias[materiaIndex]);
+          }
+        }
+      }
+
+      const combinedPossiblePairDistance: Map<Pair, number>[] =
+        Array.from({ length: combinedPossiblePairMelds.length }, () => new Map());
+      const combinedPossiblePairMateriaStats: Map<Pair, G.Stat[]>[] =
+        Array.from({ length: combinedPossiblePairMelds.length }, () => new Map());
+      const solutions = goodTotalPairs.map(totalPair => {
+        const routes = totalPairPossibleRoutes.get(totalPair)!;
+        let bestDistance = Infinity;
+        let bestRoute: Route | undefined;
+        for (const route of routes) {
+          let routeDistance = 0;
+          for (let gearIndex = 0; gearIndex < route.length; gearIndex++) {
+            const pair = route[gearIndex];
+            let distance = combinedPossiblePairDistance[gearIndex].get(pair);
+            if (distance === undefined) {
+              distance = Infinity;
+              let bestMateriaStats: G.Stat[] = [];
+              const melds = combinedPossiblePairMelds[gearIndex].get(pair)!;
+              for (const meld of melds) {
+                let currentDistance = 0;
+                const originalMaterias = gearIndex === 0 ? freeOriginalMaterias :
+                  (self.gears.get(crucialGears[gearIndex - 1].id) as IGear).materias;
+                const originalMelds = gearIndex === 0 ? freeOriginalMelds :
+                  gearOriginalMelds.get(crucialGears[gearIndex - 1].id)!;
+                const materiaStats = originalMaterias.map(m => m.stat);
+                for (const meldType of [0, 1]) {
+                  const statMeld = { DET: meld[meldType], DHT: originalMelds['all'][meldType] - meld[meldType] };
+                  for (const stat of ['DET', 'DHT'] as const) {
+                    let retrieveAmount = originalMelds[stat][meldType] - statMeld[stat];
+                    let materiaIndex = originalMaterias.length - 1;
+                    while (retrieveAmount > 0) {
+                      const materia = originalMaterias[materiaIndex];
+                      if (materia.stat === stat && (materia.isRestricted === (meldType === 1))) {
+                        currentDistance += 1000 + materia.index;
+                        materiaStats[materiaIndex] = undefined;
+                        retrieveAmount--;
+                      }
+                      materiaIndex--;
+                    }
+                  }
+                  for (const stat of ['DET', 'DHT'] as const) {
+                    let meldAmount = statMeld[stat] - originalMelds[stat][meldType];
+                    let materiaIndex = 0;
+                    while (meldAmount > 0) {
+                      if (materiaStats[materiaIndex] === undefined) {
+                        materiaStats[materiaIndex] = stat;
+                        meldAmount--;
+                      }
+                      materiaIndex++;
+                    }
+                  }
+                }
+                if (currentDistance < distance) {
+                  distance = currentDistance;
+                  bestMateriaStats = materiaStats.slice() as G.Stat[];
+                }
+              }
+              combinedPossiblePairDistance[gearIndex].set(pair, distance);
+              combinedPossiblePairMateriaStats[gearIndex].set(pair, bestMateriaStats);
+            }
+            routeDistance += distance;
+          }
+          if (routeDistance < bestDistance) {
+            bestDistance = routeDistance;
+            bestRoute = route;
+          }
+        }
+        const gearMateriaStats: Map<G.GearId, G.Stat[]> = new Map();
+        for (let gearIndex = 0; gearIndex < bestRoute!.length; gearIndex++) {
+          const pair = bestRoute![gearIndex];
+          const materiaStats = combinedPossiblePairMateriaStats[gearIndex].get(pair)!;
+          if (gearIndex === 0) {
+            for (const [ gearId, positions ] of freeGearMateriaPositions.entries()) {
+              gearMateriaStats.set(gearId, positions.map(p => materiaStats[p]));
+            }
+          } else {
+            gearMateriaStats.set(crucialGears[gearIndex - 1].id, materiaStats);
+          }
+        }
+        const [ DET, DHT ] = unpack(totalPair);
+        return { DET, DHT, gearMateriaStats };
+      });
+      return solutions;
+    },
     get share(): string {
       if (self.job === undefined) return '';
       const gears: G.Gearset['gears'] = [];
@@ -350,6 +610,21 @@ export const Store = mst.types
     },
     setFilterFocus(filterFocus: FilterFocus) {
       self.filterFocus = filterFocus;
+    },
+    setMateriaOverallActiveTab(activeTab: number) {
+      self.materiaOverallActiveTab = activeTab;
+    },
+    setMateriaDetDhtOptimization(gearMateriaStats: Map<G.GearId, G.Stat[]>): void {
+      for (const [ gearId, materiaStats ] of gearMateriaStats.entries()) {
+        const gear = self.gears.get(gearId as any) as IGear;
+        for (let i = 0; i < gear.materias.length; i++) {
+          const materia = gear.materias[i];
+          materia.stat = materiaStats[i];
+          if (materia.stat === 'DET' || materia.stat === 'DHT') {
+            materia.grade = materia.meldableGrades[0];
+          }
+        }
+      }
     },
     toggleShowAllFoods(): void {
       self.showAllFoods = !self.showAllFoods;

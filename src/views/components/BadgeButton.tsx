@@ -1,6 +1,7 @@
 import * as React from 'react';
+import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
-import { Badge, BadgeAnchor } from '@rmwc/badge';
+import { Badge } from '@rmwc/badge';
 import { useStore } from './contexts';
 
 type Props<T> = T extends (props: infer P, ...args: never[]) => any ? P : never;
@@ -10,19 +11,20 @@ export interface BadgeButtonProps extends Props<typeof Button> {
 }
 
 export const BadgeButton = React.forwardRef<HTMLButtonElement, BadgeButtonProps>(
-  ({ promotion, onClick, ...otherProps }, ref) => {
+  ({ promotion, className, onClick, children, ...otherProps }, ref) => {
     const store = useStore();
     return (
-      <BadgeAnchor>
         <Button
           {...otherProps}
           ref={ref}
+          className={classNames(className, 'badge-button')}
           onClick={() => {
             store.promotion.off(promotion);
             return onClick();
           }}
-        />
-        <Badge className="badge-button_badge" exited={!store.promotion.get(promotion)} />
-      </BadgeAnchor>
+        >
+          {children}
+          <Badge className="badge-button_badge" exited={!store.promotion.get(promotion)} />
+        </Button>
     );
   });

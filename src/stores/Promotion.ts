@@ -6,6 +6,7 @@ export const Promotion = mst.types
   .model({
     filter: mst.types.optional(mst.types.boolean, true),
     legacyLink: mst.types.optional(mst.types.boolean, true),
+    materiaDetDhtOptimization: mst.types.optional(mst.types.boolean, true),
   })
   .views(self => ({
     get(name: string): boolean {
@@ -16,7 +17,7 @@ export const Promotion = mst.types
     afterCreate(): void {
       const snapshotString = localStorage.getItem(storageKey);
       const snapshot = JSON.parse(snapshotString ?? '{}');
-      if (snapshotString === null) {  // for brand new user, turn off all promotions as all features are "new" to them
+      if (snapshotString === null) {  // for brand-new user, turn off all promotions as all features are "new" to them
         for (const name of Object.keys(mst.getSnapshot(self))) {
           (snapshot as any)[name] = false;
         }

@@ -4,6 +4,7 @@ import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
 import { TextField } from '@rmwc/textfield';
+import { Badge } from '@rmwc/badge';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
@@ -119,7 +120,13 @@ export const Condition = mobxReact.observer(() => {
       {(editing || viewing) && (
         <Dropdown
           label={({ ref, toggle }) => (
-            <Button ref={ref} className="condition_button" onClick={toggle}>魔晶石</Button>
+            <Button ref={ref} className="condition_button badge-button" onClick={toggle}>
+              魔晶石
+              <Badge
+                className="badge-button_badge"
+                exited={store.isViewing || !store.promotion.get('materiaDetDhtOptimization')}
+              />
+            </Button>
           )}
           popper={MateriaOverallPanel}
           placement="bottom-start"
