@@ -23,7 +23,11 @@ https://asvel.github.io/ffxiv-gearing/
 
 #### 属性阈值和伤害期望
 
-虽然实战中有更多影响因素需要考虑，但利用这些参数，可以很好地处理难以宏观分析的【直击/信念选择】和部分【装等/副属性选择】问题。
+虽然实战中有更多影响因素需要考虑，但利用这些参数，可以很好地处理难以宏观分析的【信念/直击选择】和部分【装等/副属性选择】问题。
+
+#### 信念/直击分配优化
+
+随着游戏的调整与改进，信念属性和直击属性的收益越来越平衡了，这也意味着选择信念还是直击越来越难以直观决定，根据联合增伤期望精确计算可以得到更为可靠的分配方案。
 
 #### 魔晶石用量预估
 
@@ -45,7 +49,7 @@ https://asvel.github.io/ffxiv-gearing/
 
 遇到了问题或者有一些建议？可通过下面的方式来反馈：
 * 在 GitHub 上[提交一个 issue](https://github.com/Asvel/ffxiv-gearing/issues/new)。
-* 在 [NGA 发布帖](https://bbs.nga.cn/read.php?tid=22628951)下发表回复。
+* 在 [NGA 发布帖](https://nga.178.com/read.php?tid=22628951)下发表回复。
 
 
 ## License
@@ -54,4 +58,4 @@ Source code of this project is licensed under the [MIT license](LICENSE.txt).
 
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
 
-All FINAL FANTASY XIV contents and materials are copyrights of SQUARE ENIX, FINAL FANTASY XIV © 2010 - 2021 SQUARE ENIX CO., LTD. All Rights Reserved.
+All FINAL FANTASY XIV contents and materials are copyrights of SQUARE ENIX, FINAL FANTASY XIV © 2010 - 2022 SQUARE ENIX CO., LTD. All Rights Reserved.
