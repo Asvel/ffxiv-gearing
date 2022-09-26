@@ -487,7 +487,7 @@ export const Store = mst.types
                     while (retrieveAmount > 0) {
                       const materia = originalMaterias[materiaIndex];
                       if (materia.stat === stat && (materia.isRestricted === (meldType === 1))) {
-                        currentDistance += 1000 + materia.index;
+                        currentDistance += 1000 + materia.gear.materias.length - materia.index;
                         materiaStats[materiaIndex] = undefined;
                         retrieveAmount--;
                       }
