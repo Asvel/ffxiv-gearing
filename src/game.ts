@@ -95,7 +95,7 @@ export const jobLevelModifiers = {
   },
   90: {
     main: 390, sub: 400, div: 1900, det: 1900, detTrunc: 1,
-    ap: 195, apTank: 155, hp: 30, vit: 24.3, vitTank: 34.6,
+    ap: 195, apTank: 156, hp: 30, vit: 24.3, vitTank: 34.6,
   },
 };
 export type JobLevel = keyof typeof jobLevelModifiers;
