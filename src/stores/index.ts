@@ -11,7 +11,7 @@ declare global {
 }
 
 export function floor(value: number) {
-  return Math.floor(value + 1e-7);
+  return Math.trunc(value + 1e-7);
 }
 export function ceil(value: number) {
   return Math.ceil(value - 1e-7);

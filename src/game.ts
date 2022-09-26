@@ -79,23 +79,23 @@ export function getCaps(gear: Gear, syncLevel?: number): Stats {
 export const jobLevelModifiers = {
   50: {
     main: 202, sub: 341, div: 341, det: 202, detTrunc: 5,
-    ap: 75, apTank: 53, hp: 1700, vit: 10.2, vitTank: 14.5,
+    ap: 75, apTank: 53, hp: 14, vit: 11.2, vitTank: 15.5,
   },
   60: {
     main: 218, sub: 354, div: 600, det: 600 /* FIXME */, detTrunc: 2,
-    ap: 100, apTank: 78, hp: 2600, vit: 15.4, vitTank: 20.5,
+    ap: 100, apTank: 78, hp: 15, vit: 12.9, vitTank: 17.5,
   },
   70: {
     main: 292, sub: 364, div: 900, det: 900, detTrunc: 1,
-    ap: 125, apTank: 105, hp: 3600, vit: 15.9, vitTank: 21.5,
+    ap: 125, apTank: 105, hp: 17, vit: 14.0, vitTank: 18.8,
   },
   80: {
     main: 340, sub: 380, div: 1300, det: 1300, detTrunc: 1,
-    ap: 165, apTank: 115, hp: 4400, vit: 22.1, vitTank: 31.5,
+    ap: 165, apTank: 115, hp: 20, vit: 18.8, vitTank: 26.6,
   },
   90: {
     main: 390, sub: 400, div: 1900, det: 1900, detTrunc: 1,
-    ap: 195, apTank: 155, hp: 4400, vit: 22.1, vitTank: 31.5,
+    ap: 195, apTank: 155, hp: 30, vit: 24.3, vitTank: 34.6,
   },
 };
 export type JobLevel = keyof typeof jobLevelModifiers;
@@ -196,7 +196,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCombat,
     jobLevel: jobLevelMax,
     levelSyncable: true,
-    statModifiers: { STR: 100, VIT: 110, hp: 120 },
+    statModifiers: { STR: 100, VIT: 110, hp: 140 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -207,7 +207,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCombat,
     jobLevel: jobLevelMax,
     levelSyncable: true,
-    statModifiers: { STR: 105, VIT: 110, hp: 125 },
+    statModifiers: { STR: 105, VIT: 110, hp: 145 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -218,7 +218,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCombat,
     jobLevel: jobLevelMax,
     levelSyncable: true,
-    statModifiers: { STR: 105, VIT: 110, hp: 120 },
+    statModifiers: { STR: 105, VIT: 110, hp: 140 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
   } as JobSchema,
@@ -229,7 +229,7 @@ export const jobSchemas = {
     defaultItemLevel: defaultItemLevelCombat,
     jobLevel: jobLevelMax,
     levelSyncable: true,
-    statModifiers: { STR: 100, VIT: 110, hp: 120 },
+    statModifiers: { STR: 100, VIT: 110, hp: 140 },
     mainStat: 'VIT',
     traitDamageMultiplier: 1,
   } as JobSchema,

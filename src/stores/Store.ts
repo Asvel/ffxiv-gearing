@@ -247,8 +247,8 @@ export const Store = mst.types
       const gcd = floor(floor((1000 - floor(130 * ((SKS ?? SPS)! - sub) / div)) * 2500 / 1000) *
         (self.jobLevel >= 80 && statModifiers.gcd || 100) / 1000) / 100;
       const ssDamage = floor(130 * ((SKS ?? SPS)! - sub) / div + 1000) / 1000;
-      const hp = floor(levelMod.hp * statModifiers.hp / 100 +
-        (mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) * (VIT! - main));
+      const hp = levelMod.hp * statModifiers.hp +
+        floor((mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) * (VIT! - main));
       const mp = floor(150 * ((PIE ?? main) - main) / div + 200);
       return { crtChance, crtDamage, detDamage, dhtChance, tenDamage, damage, gcd, ssDamage, hp, mp };
     },

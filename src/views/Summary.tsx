@@ -85,7 +85,7 @@ export const Summary = mobxReact.observer(() => {
                 <div className="summary_stat-effect summary_stat-effect-hp">
                   {effects.hp}<span className="summary_stat-small">HP</span>
                 </div>
-              ) && false /* FIXME */}
+              )}
               {stat === 'TEN' && (
                 <div className="summary_stat-effect">
                   -{((effects.tenDamage - 1) * 100).toFixed(1)}%
