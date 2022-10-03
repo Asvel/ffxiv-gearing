@@ -11,8 +11,9 @@ import { useStore } from './components/contexts';
 
 export const MateriaOverallPanel = mobxReact.observer(() => {
   const store = useStore();
+  const materiaDetDhtOptimizationAvailable = !store.isViewing && store.schema.mainStat !== undefined;
   let activeTab = store.materiaOverallActiveTab;
-  if (store.isViewing && activeTab === 1) {
+  if (activeTab === 1 && !materiaDetDhtOptimizationAvailable) {
     activeTab = 0;
   }
   return (
@@ -28,7 +29,7 @@ export const MateriaOverallPanel = mobxReact.observer(() => {
           }}
         >
           <Tab>用量预估</Tab>
-          {!store.isViewing && (
+          {materiaDetDhtOptimizationAvailable && (
             <Tab>
               信念/直击分配优化
               <Badge className="badge-button_badge" exited={!store.promotion.get('materiaDetDhtOptimization')} />
