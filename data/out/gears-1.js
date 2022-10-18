@@ -23129,7 +23129,6 @@ export default [
       VIT: 2,
       TEN: 1,
     },
-    patch: '6.2',
   },
   {
     id: 267,

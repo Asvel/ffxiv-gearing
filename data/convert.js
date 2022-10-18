@@ -42,30 +42,28 @@ const jobs = [
   'MIN', 'BTN', 'FSH',
 ];
 
-const itemPatchIds = require('./in/Item.json');
-for (let i = 34965; i <= 35019; i++) itemPatchIds[i] = 78;  // temporary fix of ffxiv-datamining-patches data incorrect
-const patchOfId = {
-  82: '6.2',
-};
-const lastPatchId = Number(Object.keys(patchOfId).slice(-1)[0]);
-
 const patches = {
-  data: '6.2',  // 主数据的版本，即国际服游戏版本
+  data: '6.25',  // 主数据的版本，即国际服游戏版本
   next: '6.2',  // 对国服来说，下一个有装备更新的版本
   current: '6.15',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};
+const patchOfId = {};
 {
   const sourcesLines = fs.readFileSync('./in/sources.txt', 'utf8').split(/\r?\n/);
   let source;
+  let patch;
   for (const line of sourcesLines) {
     if (line === '') {
       source = undefined;
+      patch = undefined;
       continue;
     }
     if (source === undefined) {
-      source = line.replace(/\s*#.*/, '');
+      source = line.replace(/\s*[#@].*/, '');
+      patch = /@([\d.]+)/.exec(line)?.[1];
+      if (patch <= patches.current) patch = undefined;
       continue;
     }
     const parts = line.split('-');
@@ -74,6 +72,7 @@ const sourceOfId = {};
     for (let i = begin; i <= end; i++) {
       if (i in sourceOfId) throw Error(`装备 ${i} 来源存在冲突。`);
       sourceOfId[i] = source;
+      patchOfId[i] = patch;
     }
   }
 }
@@ -134,7 +133,7 @@ const gears = Item
     ret.source = sourceOfId[x['#']];
     ret.obsolete = (ret.rarity === 7 && ret.source !== '危命任务' && !(ret.slot >= 9 && ret.slot <= 12)) ||
       ret.source?.endsWith('已废弃') || ret.source === '旧空岛' ? true : undefined;
-    ret.patch = patchOfId[itemPatchIds[x['#']] ?? lastPatchId];
+    ret.patch = patchOfId[x['#']];
 
     // stats
     const rawStats = {};
@@ -216,7 +215,7 @@ const foods = Item
     ret.stats = {};
     ret.statRates = {};
     ret.statMain = statAbbrs[itemFood['BaseParam[0]']];
-    ret.patch = patchOfId[itemPatchIds[x['#']] ?? lastPatchId];
+    ret.patch = patchOfId[x['#']];
 
     // stats
     for (const i of [0, 1, 2]) {
@@ -266,7 +265,7 @@ const foods = Item
 const bestFoods = [];
 for (const food of foods.slice().reverse()) {
   if (food.id === 4745) continue;  // 唯一的直击信仰食物，各只加1，应该并不会有人想吃它
-  if (food.patch > '6.0' /* patches.current */) {  // 不强制显示6.0版本的新食物和6.0之前的国服已实装范围内的最优食物
+  if (food.patch > patches.current) {
     food.best = true;
     continue;
   }
