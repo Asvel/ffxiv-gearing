@@ -45,7 +45,7 @@ const jobs = [
 const patches = {
   data: '6.28',  // 主数据的版本，即国际服游戏版本
   next: '6.2',  // 对国服来说，下一个有装备更新的版本
-  current: '6.15',  // 国服当前游戏版本
+  current: '6.18',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};
