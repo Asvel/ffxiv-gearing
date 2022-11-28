@@ -85,13 +85,10 @@ yarn run analyze
   * 如果因为网络原因难以通过程序下载这些文件，也可手动下载它们并置入`data\in`目录下。
 * 修改`data\convert.js`文件中的游戏版本号信息。
   * `const patches = {`部分，按照游戏版本修改。
-  * `const patchOfId = {`部分是`ffxiv-datamining-patches`用的版本序号。
-    * 一般游戏每更新一个小版本顺延+1，但是有时版本更新几乎没有数据变动的话会跳过。
-    * 可以观察`data\in\Item.json`文件靠后的部分推测一下应该写多少。
-    * 这里只保留国服还未更新的版本（因为我们不区分国服已实装的道具是哪个版本的），即删除国服已经更新的版本，然后加入国际服新更新的版本。
 * 转换数据：`yarn run data-convert`。
   * 如果这次数据更新有新追加的装备或食物，会生成一个`data\out\sourcesMissing.txt`文件，参考这个文件编辑`data\in\sources.txt`中的装备来源。
     * `sources.txt`的格式为，每一部分第一行是装备来源，之后几行是这个来源的装备的 ID 范围，最后以一个空行结束。
+      * 装备来源后跟`@xx`可以指定这组装备的实装版本，一般来说将新出现的装备指定为最新版本即可。
     * `sourcesMissing.txt`中不连续的 ID 会被隔开，这通常意味着他们不同类的装备，但也要注意不同类装备的 ID 也有连在一起的时候。
     * 建议避免`sources.txt`中追加的 ID 范围包含未在`sourcesMissing.txt`中出现在的 ID，当前版本空着的 ID 可能会在之后版本中填入其他来源装备的数据。
   * 如果修改了`sources.txt`，需要再次执行转换数据命令，顺利的话`sourcesMissing.txt`文件会被自动删除。
