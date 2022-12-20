@@ -23116,7 +23116,7 @@ export default [
   },
   {
     id: 38713,
-    name: 'Thalassian Shield',
+    name: '浅海盾',
     level: 26,
     rarity: 2,
     slot: 2,

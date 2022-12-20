@@ -9852,7 +9852,7 @@ export default [
   },
   {
     id: 35340,
-    name: '辉翠银镰刀',
+    name: '辉翠银园艺镰',
     level: 480,
     rarity: 1,
     slot: 2,
