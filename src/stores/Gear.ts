@@ -70,7 +70,8 @@ export const Gear = mst.types
         stats = bareStats;
       } else {
         for (const stat of Object.keys(bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
-          stats[stat] = Math.min((bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0), this.caps[stat]);
+          stats[stat] = Math.min((bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0),
+            Math.max(bareStats[stat] ?? 0, this.caps[stat]));
         }
       }
       return stats;
