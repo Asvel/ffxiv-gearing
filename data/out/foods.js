@@ -5855,4 +5855,40 @@ export default [
     statMain: 'DET',
     best: true,
   },
+  {
+    id: 38929,
+    name: 'Jhinga Biryani',
+    level: 620,
+    slot: -1,
+    jobCategory: 33,
+    stats: {
+      CP: 86,
+      CRL: 90,
+    },
+    statRates: {
+      CP: 26,
+      CRL: 5,
+    },
+    statMain: 'CP',
+    patch: '6.3',
+    best: true,
+  },
+  {
+    id: 38930,
+    name: 'Jhinga Curry',
+    level: 620,
+    slot: -1,
+    jobCategory: 32,
+    stats: {
+      GTH: 136,
+      GP: 31,
+    },
+    statRates: {
+      GTH: 7,
+      GP: 5,
+    },
+    statMain: 'GTH',
+    patch: '6.3',
+    best: true,
+  },
 ];

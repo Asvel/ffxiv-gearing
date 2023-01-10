@@ -43,7 +43,7 @@ const jobs = [
 ];
 
 const patches = {
-  data: '6.28',  // 主数据的版本，即国际服游戏版本
+  data: '6.3',  // 主数据的版本，即国际服游戏版本
   next: '6.25',  // 对国服来说，下一个有装备更新的版本
   current: '6.2',  // 国服当前游戏版本
 };
@@ -257,7 +257,9 @@ const foods = Item
     ret.jobCategory = jobCategoryMap[Object.keys(jobs).sort().join(',')];
     if (ret.jobCategory === undefined) debugger;
     lodestoneIdsUsed[ret.id] = lodestoneIds[ret.id];
-
+    if (!ItemCn[index]?.['Name'] && ret.patch === undefined) {
+      sourcesMissing[ret.id] = `food  ${ret.name}`;
+    }
     return ret;
   })
   .filter(Boolean);
