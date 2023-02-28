@@ -1,5 +1,5 @@
 export default {
   data: '6.3',
-  next: '6.25',
-  current: '6.2',
+  next: '6.3',
+  current: '6.25',
 };
