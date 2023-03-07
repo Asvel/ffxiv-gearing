@@ -19700,7 +19700,7 @@ export default [
       PDMG: 89,
       DLY: 2240,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22978,
@@ -19720,7 +19720,7 @@ export default [
       PDMG: 89,
       DLY: 2560,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22979,
@@ -19740,7 +19740,7 @@ export default [
       PDMG: 89,
       DLY: 3360,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22980,
@@ -19760,7 +19760,7 @@ export default [
       PDMG: 89,
       DLY: 2800,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22981,
@@ -19780,7 +19780,7 @@ export default [
       PDMG: 89,
       DLY: 3040,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22982,
@@ -19800,7 +19800,7 @@ export default [
       PDMG: 89,
       DLY: 2560,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22983,
@@ -19820,7 +19820,7 @@ export default [
       PDMG: 89,
       DLY: 2960,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22984,
@@ -19840,7 +19840,7 @@ export default [
       PDMG: 89,
       DLY: 2640,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22985,
@@ -19859,7 +19859,7 @@ export default [
       DET: 94,
       MDMG: 89,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22986,
@@ -19878,7 +19878,7 @@ export default [
       SPS: 134,
       MDMG: 89,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22987,
@@ -19897,7 +19897,7 @@ export default [
       DET: 134,
       MDMG: 89,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22988,
@@ -19916,7 +19916,7 @@ export default [
       SPS: 94,
       MDMG: 89,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22989,
@@ -19935,7 +19935,7 @@ export default [
       DET: 134,
       MDMG: 89,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22990,
@@ -19955,7 +19955,7 @@ export default [
       PDMG: 89,
       DLY: 2640,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22991,
@@ -19974,7 +19974,7 @@ export default [
       SPS: 94,
       MDMG: 89,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 22992,
@@ -19992,7 +19992,7 @@ export default [
       TEN: 38,
       SKS: 27,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 27379,
@@ -20012,7 +20012,7 @@ export default [
       PDMG: 89,
       DLY: 2800,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 27380,
@@ -20032,7 +20032,7 @@ export default [
       PDMG: 89,
       DLY: 3120,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 35759,
@@ -20052,7 +20052,7 @@ export default [
       PDMG: 89,
       DLY: 3200,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 35777,
@@ -20071,7 +20071,7 @@ export default [
       DET: 134,
       MDMG: 89,
     },
-    source: '天之御柱',
+    source: '深层迷宫/天之御柱',
   },
   {
     id: 21399,

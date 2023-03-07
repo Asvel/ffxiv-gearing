@@ -49991,7 +49991,7 @@ export default [
       PDMG: 76,
       DLY: 2240,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15182,
@@ -50011,7 +50011,7 @@ export default [
       PDMG: 76,
       DLY: 2560,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15183,
@@ -50031,7 +50031,7 @@ export default [
       PDMG: 76,
       DLY: 3440,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15184,
@@ -50051,7 +50051,7 @@ export default [
       PDMG: 76,
       DLY: 2880,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15185,
@@ -50071,7 +50071,7 @@ export default [
       PDMG: 76,
       DLY: 3040,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15186,
@@ -50091,7 +50091,7 @@ export default [
       PDMG: 76,
       DLY: 2560,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15187,
@@ -50111,7 +50111,7 @@ export default [
       PDMG: 76,
       DLY: 2960,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15188,
@@ -50131,7 +50131,7 @@ export default [
       PDMG: 76,
       DLY: 2640,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15189,
@@ -50150,7 +50150,7 @@ export default [
       DET: 62,
       MDMG: 76,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15190,
@@ -50169,7 +50169,7 @@ export default [
       DET: 62,
       MDMG: 76,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15191,
@@ -50188,7 +50188,7 @@ export default [
       SPS: 62,
       MDMG: 76,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15192,
@@ -50207,7 +50207,7 @@ export default [
       DET: 62,
       MDMG: 76,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15193,
@@ -50226,7 +50226,7 @@ export default [
       DET: 62,
       MDMG: 76,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15194,
@@ -50244,7 +50244,7 @@ export default [
       TEN: 25,
       SKS: 18,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 15303,
@@ -53559,7 +53559,7 @@ export default [
       PDMG: 76,
       DLY: 2640,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 20457,
@@ -53578,7 +53578,7 @@ export default [
       DET: 62,
       MDMG: 76,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 27347,
@@ -53598,7 +53598,7 @@ export default [
       PDMG: 76,
       DLY: 2800,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 27348,
@@ -53618,7 +53618,7 @@ export default [
       PDMG: 76,
       DLY: 3120,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 35756,
@@ -53638,7 +53638,7 @@ export default [
       PDMG: 76,
       DLY: 3200,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 35774,
@@ -53657,7 +53657,7 @@ export default [
       CRT: 62,
       MDMG: 76,
     },
-    source: '死者宫殿',
+    source: '深层迷宫/死者宫殿',
   },
   {
     id: 37442,
