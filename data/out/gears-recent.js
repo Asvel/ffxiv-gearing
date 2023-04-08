@@ -25643,6 +25643,7 @@ export default [
     materiaSlot: 0,
     stats: {
       VIT: 159,
+      GP: 9,
       GTH: 1227,
       PCP: 701,
     },
@@ -25661,6 +25662,7 @@ export default [
     materiaSlot: 0,
     stats: {
       VIT: 159,
+      GP: 9,
       GTH: 1227,
       PCP: 701,
     },
@@ -25679,6 +25681,7 @@ export default [
     materiaSlot: 0,
     stats: {
       VIT: 159,
+      GP: 9,
       GTH: 1227,
       PCP: 701,
     },
