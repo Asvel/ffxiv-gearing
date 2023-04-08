@@ -9,7 +9,7 @@ export const FilterPanel = mobxReact.observer(() => {
     <div className="filter card">
       <div className="filter_section">
         <span className="filter_title">实装版本</span>
-        <span className="filter_sub">即使选择只显示国服项目，数值也仍然是国际服版本</span>
+        <span className="filter_sub">即使选择只显示国服项目，数值（如发生过变更）也仍为国际服版本</span>
       </div>
       <div className="filter_controls">
         <Radio

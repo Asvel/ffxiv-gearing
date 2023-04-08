@@ -76,7 +76,7 @@ export const MateriaOverallPanel = mobxReact.observer(() => {
           )}
           <tr className="materia-consumption_tip">
             <td colSpan={5}>
-              *以此成功率完成全部镶嵌所需的数量
+              *以此总体成功率完成全部镶嵌所需的数量
               {store.schema.toolMateriaDuplicates! > 1 && (
                 <div
                   className={classNames(
