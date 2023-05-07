@@ -5342,7 +5342,6 @@ export default [
       CRL: 5,
     },
     statMain: 'CP',
-    best: true,
   },
   {
     id: 36061,
@@ -5857,7 +5856,7 @@ export default [
   },
   {
     id: 38929,
-    name: 'Jhinga Biryani',
+    name: '近东虾香饭',
     level: 620,
     slot: -1,
     jobCategory: 33,
@@ -5870,12 +5869,11 @@ export default [
       CRL: 5,
     },
     statMain: 'CP',
-    patch: '6.3',
     best: true,
   },
   {
     id: 38930,
-    name: 'Jhinga Curry',
+    name: '近东虾咖喱',
     level: 620,
     slot: -1,
     jobCategory: 32,
@@ -5888,7 +5886,6 @@ export default [
       GP: 5,
     },
     statMain: 'GTH',
-    patch: '6.3',
     best: true,
   },
 ];

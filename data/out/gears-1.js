@@ -8834,7 +8834,7 @@ export default [
   },
   {
     id: 39621,
-    name: 'Obscure Hyposkhesphyra',
+    name: '蔽日的约定之锤',
     level: 1,
     rarity: 1,
     slot: 1,
@@ -8851,7 +8851,7 @@ export default [
   },
   {
     id: 39622,
-    name: 'Black Hyposkhesphyra',
+    name: '漆黑的约定之锤',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -8868,7 +8868,7 @@ export default [
   },
   {
     id: 39623,
-    name: 'Stark Hyposkhesphyra',
+    name: '荒芜的约定之锤',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -8885,7 +8885,7 @@ export default [
   },
   {
     id: 39624,
-    name: 'Shadow Hyposkhesphyra',
+    name: '暗影的约定之锤',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -8902,7 +8902,7 @@ export default [
   },
   {
     id: 39625,
-    name: 'Umbral Hyposkhesphyra',
+    name: '灵极的约定之锤',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -8918,7 +8918,7 @@ export default [
   },
   {
     id: 39626,
-    name: 'Ecliptic Hyposkhesphyra',
+    name: '黄道的约定之锤',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -8934,7 +8934,7 @@ export default [
   },
   {
     id: 39627,
-    name: 'Stygian Hyposkhesphyra',
+    name: '幽暗的约定之锤',
     level: 1,
     rarity: 1,
     slot: 13,
