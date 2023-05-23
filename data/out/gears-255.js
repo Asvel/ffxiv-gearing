@@ -17255,8 +17255,8 @@ export default [
     materiaSlot: 2,
     stats: {
       STR: 71,
-      VIT: 74,
-      CRT: 71,
+      VIT: 75,
+      CRT: 72,
       SKS: 50,
       PDMG: 80,
       DLY: 2240,
@@ -17510,9 +17510,9 @@ export default [
     materiaSlot: 0,
     stats: {
       STR: 29,
-      VIT: 30,
+      VIT: 29,
       TEN: 20,
-      DET: 29,
+      DET: 28,
     },
     source: '零式/天动之章',
   },
