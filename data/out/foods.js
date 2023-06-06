@@ -1277,7 +1277,7 @@ export default [
   },
   {
     id: 4719,
-    name: '韭菜洋葱汤',
+    name: '韭葱洋葱汤',
     level: 34,
     slot: -1,
     jobCategory: 33,
