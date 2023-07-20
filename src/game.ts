@@ -156,7 +156,7 @@ const slotSchemaCrafting = [
 ];
 
 const defaultItemLevelCombat = [620, 665];
-const defaultItemLevelCrafting = [620, 620];
+const defaultItemLevelCrafting = [620, 630];
 const defaultItemLevelGathering = defaultItemLevelCrafting;
 
 export interface JobSchema {
@@ -405,8 +405,8 @@ export const jobSchemas = {
       { slot: 13, name: '武器', levelWeight: 0, uiGroup: 'weapon' },
       ...slotSchemaCommon,
     ],
-    defaultItemLevel: [390, 400],
-    jobLevel: 70,
+    defaultItemLevel: [520, 530],
+    jobLevel: 80,
     levelSyncable: true,
     statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',

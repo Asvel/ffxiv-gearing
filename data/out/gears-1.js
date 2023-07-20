@@ -421,7 +421,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12117,
@@ -439,7 +439,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12118,
@@ -457,7 +457,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12119,
@@ -475,7 +475,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12120,
@@ -493,7 +493,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12121,
@@ -511,7 +511,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12122,
@@ -529,7 +529,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12123,
@@ -547,7 +547,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12124,
@@ -565,7 +565,7 @@ export default [
       PDMG: 9,
       DLY: 2320,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12125,
@@ -583,7 +583,7 @@ export default [
       PDMG: 9,
       DLY: 2720,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12126,
@@ -601,7 +601,7 @@ export default [
       PDMG: 9,
       DLY: 2720,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12127,
@@ -619,7 +619,7 @@ export default [
       PDMG: 9,
       DLY: 2720,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12128,
@@ -637,7 +637,7 @@ export default [
       PDMG: 9,
       DLY: 2720,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12129,
@@ -655,7 +655,7 @@ export default [
       PDMG: 9,
       DLY: 2720,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12130,
@@ -673,7 +673,7 @@ export default [
       PDMG: 9,
       DLY: 2720,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12131,
@@ -691,7 +691,7 @@ export default [
       PDMG: 9,
       DLY: 2720,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12132,
@@ -709,7 +709,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12133,
@@ -727,7 +727,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12134,
@@ -745,7 +745,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12135,
@@ -763,7 +763,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12136,
@@ -781,7 +781,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12137,
@@ -799,7 +799,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12138,
@@ -817,7 +817,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12139,
@@ -835,7 +835,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12140,
@@ -853,7 +853,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12141,
@@ -871,7 +871,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12142,
@@ -889,7 +889,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12143,
@@ -907,7 +907,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12144,
@@ -925,7 +925,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12145,
@@ -943,7 +943,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12146,
@@ -961,7 +961,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12147,
@@ -979,7 +979,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12148,
@@ -997,7 +997,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12149,
@@ -1015,7 +1015,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12150,
@@ -1033,7 +1033,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12151,
@@ -1051,7 +1051,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12152,
@@ -1069,7 +1069,7 @@ export default [
       PDMG: 9,
       DLY: 3280,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12153,
@@ -1087,7 +1087,7 @@ export default [
       PDMG: 9,
       DLY: 3280,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12154,
@@ -1105,7 +1105,7 @@ export default [
       PDMG: 9,
       DLY: 3280,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12155,
@@ -1123,7 +1123,7 @@ export default [
       PDMG: 9,
       DLY: 3280,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12156,
@@ -1141,7 +1141,7 @@ export default [
       PDMG: 9,
       DLY: 3280,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12157,
@@ -1159,7 +1159,7 @@ export default [
       PDMG: 9,
       DLY: 3280,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12158,
@@ -1177,7 +1177,7 @@ export default [
       PDMG: 9,
       DLY: 3280,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12159,
@@ -1195,7 +1195,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12160,
@@ -1213,7 +1213,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12161,
@@ -1231,7 +1231,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12162,
@@ -1249,7 +1249,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12163,
@@ -1267,7 +1267,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12164,
@@ -1285,7 +1285,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12165,
@@ -1303,7 +1303,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12166,
@@ -1321,7 +1321,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12167,
@@ -1339,7 +1339,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12168,
@@ -1357,7 +1357,7 @@ export default [
       PDMG: 9,
       DLY: 2400,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12169,
@@ -1375,7 +1375,7 @@ export default [
       PDMG: 9,
       DLY: 2400,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12170,
@@ -1392,7 +1392,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12171,
@@ -1409,7 +1409,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12172,
@@ -1426,7 +1426,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12173,
@@ -1443,7 +1443,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12174,
@@ -1460,7 +1460,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12175,
@@ -1477,7 +1477,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12176,
@@ -1494,7 +1494,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12177,
@@ -1511,7 +1511,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12178,
@@ -1528,7 +1528,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12179,
@@ -1545,7 +1545,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12180,
@@ -1562,7 +1562,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12181,
@@ -1579,7 +1579,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12182,
@@ -1596,7 +1596,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12183,
@@ -1613,7 +1613,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12184,
@@ -1630,7 +1630,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12185,
@@ -1647,7 +1647,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12186,
@@ -1664,7 +1664,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12187,
@@ -1681,7 +1681,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12188,
@@ -1698,7 +1698,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12189,
@@ -1715,7 +1715,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12190,
@@ -1732,7 +1732,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12191,
@@ -1749,7 +1749,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12192,
@@ -1766,7 +1766,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12193,
@@ -1783,7 +1783,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12194,
@@ -1800,7 +1800,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12195,
@@ -1817,7 +1817,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12196,
@@ -1834,7 +1834,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12197,
@@ -1851,7 +1851,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12198,
@@ -1868,7 +1868,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12199,
@@ -1885,7 +1885,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12200,
@@ -1902,7 +1902,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12201,
@@ -1919,7 +1919,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12202,
@@ -1936,7 +1936,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12203,
@@ -1953,7 +1953,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12204,
@@ -1970,7 +1970,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12205,
@@ -1987,7 +1987,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12206,
@@ -2003,7 +2003,7 @@ export default [
       STR: 3,
       VIT: 5,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12207,
@@ -2019,7 +2019,7 @@ export default [
       STR: 3,
       VIT: 5,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12208,
@@ -2035,7 +2035,7 @@ export default [
       STR: 3,
       VIT: 5,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12209,
@@ -2051,7 +2051,7 @@ export default [
       STR: 3,
       VIT: 5,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12210,
@@ -2067,7 +2067,7 @@ export default [
       STR: 3,
       VIT: 5,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12211,
@@ -2083,7 +2083,7 @@ export default [
       STR: 3,
       VIT: 5,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12212,
@@ -2099,7 +2099,7 @@ export default [
       STR: 3,
       VIT: 5,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 12213,
@@ -2115,7 +2115,7 @@ export default [
       STR: 3,
       VIT: 5,
     },
-    source: '古武/复制品',
+    source: '古武',
   },
   {
     id: 13118,
@@ -2165,7 +2165,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13777,
@@ -2183,7 +2183,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13778,
@@ -2201,7 +2201,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13779,
@@ -2219,7 +2219,7 @@ export default [
       PDMG: 9,
       DLY: 2880,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13780,
@@ -2237,7 +2237,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13781,
@@ -2255,7 +2255,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13782,
@@ -2273,7 +2273,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13783,
@@ -2291,7 +2291,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13784,
@@ -2308,7 +2308,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13785,
@@ -2325,7 +2325,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13786,
@@ -2342,7 +2342,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13787,
@@ -2359,7 +2359,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13788,
@@ -2376,7 +2376,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 13789,
@@ -2392,7 +2392,7 @@ export default [
       STR: 17,
       VIT: 17,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 14983,
@@ -2427,7 +2427,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15116,
@@ -2445,7 +2445,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15117,
@@ -2463,7 +2463,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15118,
@@ -2481,7 +2481,7 @@ export default [
       PDMG: 9,
       DLY: 2880,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15119,
@@ -2499,7 +2499,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15120,
@@ -2517,7 +2517,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15121,
@@ -2535,7 +2535,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15122,
@@ -2553,7 +2553,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15123,
@@ -2570,7 +2570,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15124,
@@ -2587,7 +2587,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15125,
@@ -2604,7 +2604,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15126,
@@ -2621,7 +2621,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15127,
@@ -2638,7 +2638,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15128,
@@ -2654,7 +2654,7 @@ export default [
       STR: 17,
       VIT: 17,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15893,
@@ -2672,7 +2672,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15894,
@@ -2690,7 +2690,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15895,
@@ -2708,7 +2708,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15896,
@@ -2726,7 +2726,7 @@ export default [
       PDMG: 9,
       DLY: 2880,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15897,
@@ -2744,7 +2744,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15898,
@@ -2762,7 +2762,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15899,
@@ -2780,7 +2780,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15900,
@@ -2798,7 +2798,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15901,
@@ -2815,7 +2815,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15902,
@@ -2832,7 +2832,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15903,
@@ -2849,7 +2849,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15904,
@@ -2866,7 +2866,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15905,
@@ -2883,7 +2883,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 15906,
@@ -2899,7 +2899,7 @@ export default [
       STR: 17,
       VIT: 17,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16912,
@@ -2917,7 +2917,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16913,
@@ -2935,7 +2935,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16914,
@@ -2953,7 +2953,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16915,
@@ -2971,7 +2971,7 @@ export default [
       PDMG: 9,
       DLY: 2880,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16916,
@@ -2989,7 +2989,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16917,
@@ -3007,7 +3007,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16918,
@@ -3025,7 +3025,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16919,
@@ -3043,7 +3043,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16920,
@@ -3060,7 +3060,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16921,
@@ -3077,7 +3077,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16922,
@@ -3094,7 +3094,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16923,
@@ -3111,7 +3111,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16924,
@@ -3128,7 +3128,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16925,
@@ -3144,7 +3144,7 @@ export default [
       STR: 17,
       VIT: 17,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16972,
@@ -3162,7 +3162,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16973,
@@ -3180,7 +3180,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16974,
@@ -3198,7 +3198,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16975,
@@ -3216,7 +3216,7 @@ export default [
       PDMG: 9,
       DLY: 2880,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16976,
@@ -3234,7 +3234,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16977,
@@ -3252,7 +3252,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16978,
@@ -3270,7 +3270,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16979,
@@ -3288,7 +3288,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16980,
@@ -3305,7 +3305,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16981,
@@ -3322,7 +3322,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16982,
@@ -3339,7 +3339,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16983,
@@ -3356,7 +3356,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16984,
@@ -3373,7 +3373,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16985,
@@ -3389,7 +3389,7 @@ export default [
       STR: 17,
       VIT: 17,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16986,
@@ -3407,7 +3407,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16987,
@@ -3425,7 +3425,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16988,
@@ -3443,7 +3443,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16989,
@@ -3461,7 +3461,7 @@ export default [
       PDMG: 9,
       DLY: 2880,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16990,
@@ -3479,7 +3479,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16991,
@@ -3497,7 +3497,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16992,
@@ -3515,7 +3515,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16993,
@@ -3533,7 +3533,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16994,
@@ -3550,7 +3550,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16995,
@@ -3567,7 +3567,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16996,
@@ -3584,7 +3584,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16997,
@@ -3601,7 +3601,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16998,
@@ -3618,7 +3618,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 16999,
@@ -3634,7 +3634,7 @@ export default [
       STR: 17,
       VIT: 17,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 20998,
@@ -3652,7 +3652,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 20999,
@@ -3670,7 +3670,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21000,
@@ -3688,7 +3688,7 @@ export default [
       PDMG: 9,
       DLY: 3440,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21001,
@@ -3706,7 +3706,7 @@ export default [
       PDMG: 9,
       DLY: 2880,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21002,
@@ -3724,7 +3724,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21003,
@@ -3742,7 +3742,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21004,
@@ -3760,7 +3760,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21005,
@@ -3778,7 +3778,7 @@ export default [
       PDMG: 9,
       DLY: 2480,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21006,
@@ -3795,7 +3795,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21007,
@@ -3812,7 +3812,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21008,
@@ -3829,7 +3829,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21009,
@@ -3846,7 +3846,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21010,
@@ -3863,7 +3863,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 21011,
@@ -3879,7 +3879,7 @@ export default [
       STR: 17,
       VIT: 17,
     },
-    source: '魂武/复制品',
+    source: '魂武',
   },
   {
     id: 22746,
@@ -3912,7 +3912,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23127,
@@ -3930,7 +3930,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23128,
@@ -3948,7 +3948,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23129,
@@ -3966,7 +3966,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23130,
@@ -3984,7 +3984,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23131,
@@ -4002,7 +4002,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23132,
@@ -4020,7 +4020,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23133,
@@ -4038,7 +4038,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23134,
@@ -4055,7 +4055,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23135,
@@ -4072,7 +4072,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23136,
@@ -4089,7 +4089,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23137,
@@ -4106,7 +4106,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23138,
@@ -4123,7 +4123,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23139,
@@ -4141,7 +4141,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23140,
@@ -4158,7 +4158,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 23141,
@@ -4174,7 +4174,7 @@ export default [
       STR: 31,
       VIT: 30,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24125,
@@ -4192,7 +4192,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24126,
@@ -4210,7 +4210,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24127,
@@ -4228,7 +4228,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24128,
@@ -4246,7 +4246,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24129,
@@ -4264,7 +4264,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24130,
@@ -4282,7 +4282,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24131,
@@ -4300,7 +4300,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24132,
@@ -4318,7 +4318,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24133,
@@ -4335,7 +4335,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24134,
@@ -4352,7 +4352,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24135,
@@ -4369,7 +4369,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24136,
@@ -4386,7 +4386,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24137,
@@ -4403,7 +4403,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24138,
@@ -4421,7 +4421,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24139,
@@ -4438,7 +4438,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24140,
@@ -4454,7 +4454,7 @@ export default [
       STR: 31,
       VIT: 30,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24796,
@@ -4487,7 +4487,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24833,
@@ -4505,7 +4505,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24834,
@@ -4523,7 +4523,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24835,
@@ -4541,7 +4541,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24836,
@@ -4559,7 +4559,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24837,
@@ -4577,7 +4577,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24838,
@@ -4595,7 +4595,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24839,
@@ -4613,7 +4613,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24840,
@@ -4630,7 +4630,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24841,
@@ -4647,7 +4647,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24842,
@@ -4664,7 +4664,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24843,
@@ -4681,7 +4681,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24844,
@@ -4698,7 +4698,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24845,
@@ -4716,7 +4716,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24846,
@@ -4733,7 +4733,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24847,
@@ -4749,7 +4749,7 @@ export default [
       STR: 31,
       VIT: 30,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 24857,
@@ -5015,7 +5015,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28308,
@@ -5033,7 +5033,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28309,
@@ -5051,7 +5051,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28310,
@@ -5069,7 +5069,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28311,
@@ -5087,7 +5087,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28312,
@@ -5105,7 +5105,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28313,
@@ -5123,7 +5123,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28314,
@@ -5141,7 +5141,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28315,
@@ -5158,7 +5158,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28316,
@@ -5175,7 +5175,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28317,
@@ -5192,7 +5192,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28318,
@@ -5209,7 +5209,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28319,
@@ -5226,7 +5226,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28320,
@@ -5244,7 +5244,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28321,
@@ -5261,7 +5261,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28322,
@@ -5277,7 +5277,7 @@ export default [
       STR: 31,
       VIT: 30,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28323,
@@ -5295,7 +5295,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28324,
@@ -5313,7 +5313,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28325,
@@ -5331,7 +5331,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28326,
@@ -5349,7 +5349,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28327,
@@ -5367,7 +5367,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28328,
@@ -5385,7 +5385,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28329,
@@ -5403,7 +5403,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28330,
@@ -5421,7 +5421,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28331,
@@ -5438,7 +5438,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28332,
@@ -5455,7 +5455,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28333,
@@ -5472,7 +5472,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28334,
@@ -5489,7 +5489,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28335,
@@ -5506,7 +5506,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28336,
@@ -5524,7 +5524,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28337,
@@ -5541,7 +5541,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 28338,
@@ -5557,7 +5557,7 @@ export default [
       STR: 31,
       VIT: 30,
     },
-    source: '优雷卡/复制品',
+    source: '优雷卡',
   },
   {
     id: 30066,
@@ -5604,7 +5604,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30305,
@@ -5620,7 +5620,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30306,
@@ -5636,7 +5636,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30307,
@@ -5652,7 +5652,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30308,
@@ -5668,7 +5668,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30309,
@@ -5684,7 +5684,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30310,
@@ -5700,7 +5700,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30311,
@@ -5716,7 +5716,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30312,
@@ -5732,7 +5732,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30313,
@@ -5748,7 +5748,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 30314,
@@ -5764,7 +5764,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31394,
@@ -5816,7 +5816,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31632,
@@ -5834,7 +5834,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31633,
@@ -5852,7 +5852,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31634,
@@ -5870,7 +5870,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31635,
@@ -5888,7 +5888,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31636,
@@ -5906,7 +5906,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31637,
@@ -5924,7 +5924,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31638,
@@ -5942,7 +5942,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31639,
@@ -5959,7 +5959,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31640,
@@ -5976,7 +5976,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31641,
@@ -5993,7 +5993,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31642,
@@ -6010,7 +6010,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31643,
@@ -6027,7 +6027,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31644,
@@ -6045,7 +6045,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31645,
@@ -6062,7 +6062,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31646,
@@ -6080,7 +6080,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31647,
@@ -6098,7 +6098,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31648,
@@ -6114,7 +6114,7 @@ export default [
       STR: 0,
       VIT: 0,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 31725,
@@ -6130,7 +6130,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31726,
@@ -6146,7 +6146,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31727,
@@ -6162,7 +6162,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31728,
@@ -6178,7 +6178,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31729,
@@ -6194,7 +6194,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31730,
@@ -6210,7 +6210,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31731,
@@ -6226,7 +6226,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31732,
@@ -6242,7 +6242,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31733,
@@ -6258,7 +6258,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31734,
@@ -6274,7 +6274,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 31735,
@@ -6290,7 +6290,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 32687,
@@ -6308,7 +6308,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32688,
@@ -6326,7 +6326,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32689,
@@ -6344,7 +6344,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32690,
@@ -6362,7 +6362,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32691,
@@ -6380,7 +6380,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32692,
@@ -6398,7 +6398,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32693,
@@ -6416,7 +6416,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32694,
@@ -6434,7 +6434,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32695,
@@ -6451,7 +6451,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32696,
@@ -6468,7 +6468,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32697,
@@ -6485,7 +6485,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32698,
@@ -6502,7 +6502,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32699,
@@ -6519,7 +6519,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32700,
@@ -6537,7 +6537,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32701,
@@ -6554,7 +6554,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32702,
@@ -6572,7 +6572,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32703,
@@ -6590,7 +6590,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32704,
@@ -6606,7 +6606,7 @@ export default [
       STR: 0,
       VIT: 0,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32705,
@@ -6624,7 +6624,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32706,
@@ -6642,7 +6642,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32707,
@@ -6660,7 +6660,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32708,
@@ -6678,7 +6678,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32709,
@@ -6696,7 +6696,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32710,
@@ -6714,7 +6714,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32711,
@@ -6732,7 +6732,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32712,
@@ -6750,7 +6750,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32713,
@@ -6767,7 +6767,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32714,
@@ -6784,7 +6784,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32715,
@@ -6801,7 +6801,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32716,
@@ -6818,7 +6818,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32717,
@@ -6835,7 +6835,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32718,
@@ -6853,7 +6853,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32719,
@@ -6870,7 +6870,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32720,
@@ -6888,7 +6888,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32721,
@@ -6906,7 +6906,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 32722,
@@ -6922,7 +6922,7 @@ export default [
       STR: 0,
       VIT: 0,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33146,
@@ -6955,7 +6955,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33716,
@@ -6971,7 +6971,7 @@ export default [
       STR: 0,
       VIT: 0,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33717,
@@ -6989,7 +6989,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33718,
@@ -7007,7 +7007,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33719,
@@ -7025,7 +7025,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33720,
@@ -7043,7 +7043,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33721,
@@ -7061,7 +7061,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33722,
@@ -7079,7 +7079,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33723,
@@ -7097,7 +7097,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33724,
@@ -7114,7 +7114,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33725,
@@ -7131,7 +7131,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33726,
@@ -7148,7 +7148,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33727,
@@ -7165,7 +7165,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33728,
@@ -7182,7 +7182,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33729,
@@ -7200,7 +7200,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33730,
@@ -7217,7 +7217,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33731,
@@ -7235,7 +7235,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33732,
@@ -7253,7 +7253,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33733,
@@ -7271,7 +7271,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33734,
@@ -7287,7 +7287,7 @@ export default [
       STR: 0,
       VIT: 0,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33735,
@@ -7305,7 +7305,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33736,
@@ -7323,7 +7323,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33737,
@@ -7341,7 +7341,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33738,
@@ -7359,7 +7359,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33739,
@@ -7377,7 +7377,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33740,
@@ -7395,7 +7395,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33741,
@@ -7413,7 +7413,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33742,
@@ -7430,7 +7430,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33743,
@@ -7447,7 +7447,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33744,
@@ -7464,7 +7464,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33745,
@@ -7481,7 +7481,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33746,
@@ -7498,7 +7498,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33747,
@@ -7516,7 +7516,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33748,
@@ -7533,7 +7533,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33749,
@@ -7551,7 +7551,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33750,
@@ -7569,7 +7569,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33820,
@@ -7587,7 +7587,7 @@ export default [
       PDMG: 9,
       DLY: 2240,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33821,
@@ -7603,7 +7603,7 @@ export default [
       STR: 0,
       VIT: 0,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33822,
@@ -7621,7 +7621,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33823,
@@ -7639,7 +7639,7 @@ export default [
       PDMG: 9,
       DLY: 3360,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33824,
@@ -7657,7 +7657,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33825,
@@ -7675,7 +7675,7 @@ export default [
       PDMG: 9,
       DLY: 3040,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33826,
@@ -7693,7 +7693,7 @@ export default [
       PDMG: 9,
       DLY: 2560,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33827,
@@ -7711,7 +7711,7 @@ export default [
       PDMG: 9,
       DLY: 2960,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33828,
@@ -7729,7 +7729,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33829,
@@ -7746,7 +7746,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33830,
@@ -7763,7 +7763,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33831,
@@ -7780,7 +7780,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33832,
@@ -7797,7 +7797,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33833,
@@ -7814,7 +7814,7 @@ export default [
       MND: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33834,
@@ -7832,7 +7832,7 @@ export default [
       PDMG: 9,
       DLY: 2640,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33835,
@@ -7849,7 +7849,7 @@ export default [
       INT: 0,
       MDMG: 9,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33836,
@@ -7867,7 +7867,7 @@ export default [
       PDMG: 9,
       DLY: 2800,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 33837,
@@ -7885,7 +7885,7 @@ export default [
       PDMG: 9,
       DLY: 3120,
     },
-    source: '义军武器/复制品',
+    source: '义军武器',
   },
   {
     id: 35754,
@@ -7968,7 +7968,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36796,
@@ -7984,7 +7984,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36797,
@@ -8000,7 +8000,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36798,
@@ -8016,7 +8016,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36799,
@@ -8032,7 +8032,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36800,
@@ -8048,7 +8048,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36801,
@@ -8064,7 +8064,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36802,
@@ -8080,7 +8080,7 @@ export default [
       CMS: 24,
       CRL: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36803,
@@ -8096,7 +8096,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36804,
@@ -8112,7 +8112,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36805,
@@ -8128,7 +8128,7 @@ export default [
       GTH: 26,
       PCP: 14,
     },
-    source: '天钢工具/复制品',
+    source: '天钢工具',
   },
   {
     id: 36963,
@@ -8928,6 +8928,564 @@ export default [
       PDMG: 9,
       DLY: 3200,
     },
+  },
+  {
+    id: 39754,
+    name: 'Replica Crystalline Saw',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 9,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      CMS: 24,
+      CRL: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39755,
+    name: 'Replica Crystalline Cross-pein Hammer',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 10,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      CMS: 24,
+      CRL: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39756,
+    name: 'Replica Crystalline Raising Hammer',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 11,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      CMS: 24,
+      CRL: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39757,
+    name: 'Replica Crystalline Mallet',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 12,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      CMS: 24,
+      CRL: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39758,
+    name: 'Replica Crystalline Round Knife',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 13,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      CMS: 24,
+      CRL: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39759,
+    name: 'Replica Crystalline Needle',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 14,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      CMS: 24,
+      CRL: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39760,
+    name: 'Replica Crystalline Alembic',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 15,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      CMS: 24,
+      CRL: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39761,
+    name: 'Replica Crystalline Frypan',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 16,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      CMS: 24,
+      CRL: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39762,
+    name: 'Replica Crystalline Pickaxe',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 17,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      GTH: 25,
+      PCP: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39763,
+    name: 'Replica Crystalline Hatchet',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 18,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      GTH: 25,
+      PCP: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 39764,
+    name: 'Replica Crystalline Fishing Rod',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 9,
+    jobCategory: 19,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      GTH: 25,
+      PCP: 14,
+    },
+    source: '莫雯卓越工具',
+    patch: '6.45',
+  },
+  {
+    id: 40323,
+    name: 'Amazing Manderville Sword Replica',
+    level: 1,
+    rarity: 4,
+    slot: 1,
+    role: 1,
+    jobCategory: 20,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 2240,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40324,
+    name: 'Replica Amazing Manderville Knuckles',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 3,
+    jobCategory: 21,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 2560,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40325,
+    name: 'Amazing Manderville Axe Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 1,
+    jobCategory: 22,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 3360,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40326,
+    name: 'Amazing Manderville Spear Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 2,
+    jobCategory: 23,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 2800,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40327,
+    name: 'Amazing Manderville Harp Bow Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 4,
+    jobCategory: 24,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      DEX: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 3040,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40328,
+    name: 'Replica Amazing Manderville Knives',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 11,
+    jobCategory: 92,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      DEX: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 2560,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40329,
+    name: 'Amazing Manderville Zweihander Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 1,
+    jobCategory: 98,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 2960,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40330,
+    name: 'Amazing Manderville Revolver Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 4,
+    jobCategory: 96,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      DEX: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 2640,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40331,
+    name: 'Amazing Manderville Cane Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 6,
+    jobCategory: 25,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      VIT: 0,
+      MND: 0,
+      MDMG: 9,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40332,
+    name: 'Amazing Manderville Rod Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 5,
+    jobCategory: 26,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      VIT: 0,
+      INT: 0,
+      MDMG: 9,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40333,
+    name: 'Amazing Manderville Index Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 5,
+    jobCategory: 28,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      VIT: 0,
+      INT: 0,
+      MDMG: 9,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40334,
+    name: 'Amazing Manderville Codex Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 6,
+    jobCategory: 29,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      VIT: 0,
+      MND: 0,
+      MDMG: 9,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40335,
+    name: 'Amazing Manderville Torquetum Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 6,
+    jobCategory: 99,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      VIT: 0,
+      MND: 0,
+      MDMG: 9,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40336,
+    name: 'Amazing Manderville Samurai Blade Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 3,
+    jobCategory: 111,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 2640,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40337,
+    name: 'Amazing Manderville Rapier Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 5,
+    jobCategory: 112,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      VIT: 0,
+      INT: 0,
+      MDMG: 9,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40338,
+    name: 'Amazing Manderville Gunblade Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 1,
+    jobCategory: 149,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 2800,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40339,
+    name: 'Replica Amazing Manderville Chakrams',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 4,
+    jobCategory: 150,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      DEX: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 3120,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40340,
+    name: 'Replica Amazing Manderville Milpreves',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 6,
+    jobCategory: 181,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      VIT: 0,
+      MND: 0,
+      MDMG: 9,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40341,
+    name: 'Amazing Manderville Scythe Replica',
+    level: 1,
+    rarity: 4,
+    slot: 13,
+    role: 2,
+    jobCategory: 180,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+      PDMG: 9,
+      DLY: 3200,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
+  },
+  {
+    id: 40342,
+    name: 'Amazing Manderville Kite Shield Replica',
+    level: 1,
+    rarity: 4,
+    slot: 2,
+    role: 1,
+    jobCategory: 20,
+    equipLevel: 90,
+    materiaSlot: 0,
+    stats: {
+      STR: 0,
+      VIT: 0,
+    },
+    source: '曼德维尔武器',
+    patch: '6.45',
   },
   {
     id: 40456,

@@ -43,7 +43,7 @@ const jobs = [
 ];
 
 const patches = {
-  data: '6.4',  // 主数据的版本，即国际服游戏版本
+  data: '6.45',  // 主数据的版本，即国际服游戏版本
   next: '6.4',  // 对国服来说，下一个有装备更新的版本
   current: '6.35',  // 国服当前游戏版本
 };
@@ -180,7 +180,7 @@ const gears = Item
         if (!craft && !gather) ret.jobCategory = 34;
       }
     }
-    if (ret.jobCategory === 63 && ret.equipLevel > 70) {  // 青魔并不能装备高等级装备
+    if (ret.jobCategory === 63 && ret.equipLevel > 80) {  // 青魔并不能装备高等级装备
       ret.jobCategory = 89;
     }
 
