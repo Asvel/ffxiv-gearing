@@ -3867,7 +3867,7 @@ export default [
   },
   {
     id: 27857,
-    name: '黑色肉酱面',
+    name: '黑色酱汁直面',
     level: 400,
     slot: -1,
     jobCategory: 34,
@@ -5149,7 +5149,7 @@ export default [
   },
   {
     id: 36050,
-    name: '辣味茄汁焗蛋',
+    name: '辣味番茄炖蛋',
     level: 539,
     slot: -1,
     jobCategory: 31,
