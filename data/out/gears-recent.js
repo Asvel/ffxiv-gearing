@@ -36848,7 +36848,7 @@ export default [
       CRT: 123,
       DET: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -36867,7 +36867,7 @@ export default [
       TEN: 196,
       CRT: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -36886,7 +36886,7 @@ export default [
       DET: 176,
       SKS: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -36905,7 +36905,7 @@ export default [
       TEN: 196,
       CRT: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -36924,7 +36924,7 @@ export default [
       CRT: 123,
       DET: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -36943,7 +36943,7 @@ export default [
       DET: 123,
       SKS: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -36962,7 +36962,7 @@ export default [
       DHT: 196,
       DET: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -36981,7 +36981,7 @@ export default [
       CRT: 176,
       DET: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37000,7 +37000,7 @@ export default [
       CRT: 280,
       DET: 196,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37019,7 +37019,7 @@ export default [
       DHT: 176,
       CRT: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37038,7 +37038,7 @@ export default [
       DHT: 123,
       DET: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37057,7 +37057,7 @@ export default [
       CRT: 280,
       DET: 196,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37076,7 +37076,7 @@ export default [
       CRT: 176,
       DET: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37095,7 +37095,7 @@ export default [
       DHT: 280,
       CRT: 196,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37114,7 +37114,7 @@ export default [
       DHT: 123,
       SKS: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37133,7 +37133,7 @@ export default [
       DET: 176,
       SKS: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37152,7 +37152,7 @@ export default [
       DHT: 196,
       CRT: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37171,7 +37171,7 @@ export default [
       DHT: 123,
       CRT: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37190,7 +37190,7 @@ export default [
       CRT: 196,
       DET: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37209,7 +37209,7 @@ export default [
       DHT: 123,
       DET: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37228,7 +37228,7 @@ export default [
       DHT: 123,
       SKS: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37247,7 +37247,7 @@ export default [
       DHT: 196,
       CRT: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37266,7 +37266,7 @@ export default [
       CRT: 176,
       DET: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37285,7 +37285,7 @@ export default [
       CRT: 196,
       DET: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37304,7 +37304,7 @@ export default [
       DHT: 176,
       CRT: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37323,7 +37323,7 @@ export default [
       CRT: 123,
       DET: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37342,7 +37342,7 @@ export default [
       PIE: 196,
       CRT: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37361,7 +37361,7 @@ export default [
       CRT: 176,
       DET: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37380,7 +37380,7 @@ export default [
       CRT: 196,
       SPS: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37399,7 +37399,7 @@ export default [
       PIE: 123,
       SPS: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37418,7 +37418,7 @@ export default [
       DHT: 123,
       CRT: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37437,7 +37437,7 @@ export default [
       DHT: 280,
       CRT: 196,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37456,7 +37456,7 @@ export default [
       DET: 123,
       SPS: 176,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37475,7 +37475,7 @@ export default [
       DET: 196,
       SPS: 280,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37494,7 +37494,7 @@ export default [
       DHT: 176,
       DET: 123,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37513,7 +37513,7 @@ export default [
       CRT: 97,
       DET: 139,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37532,7 +37532,7 @@ export default [
       DHT: 139,
       CRT: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37551,7 +37551,7 @@ export default [
       DET: 139,
       SKS: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37570,7 +37570,7 @@ export default [
       CRT: 139,
       SPS: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37589,7 +37589,7 @@ export default [
       DHT: 97,
       CRT: 139,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37608,7 +37608,7 @@ export default [
       TEN: 139,
       DET: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37627,7 +37627,7 @@ export default [
       DHT: 97,
       DET: 139,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37646,7 +37646,7 @@ export default [
       CRT: 139,
       DET: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37665,7 +37665,7 @@ export default [
       PIE: 139,
       CRT: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37684,7 +37684,7 @@ export default [
       DET: 139,
       SPS: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37703,7 +37703,7 @@ export default [
       CRT: 139,
       DET: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37722,7 +37722,7 @@ export default [
       CRT: 139,
       DET: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37741,7 +37741,7 @@ export default [
       DHT: 139,
       CRT: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37760,7 +37760,7 @@ export default [
       DET: 139,
       SPS: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37779,7 +37779,7 @@ export default [
       DHT: 97,
       CRT: 139,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37798,7 +37798,7 @@ export default [
       DET: 139,
       SKS: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37817,7 +37817,7 @@ export default [
       DHT: 139,
       SKS: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37836,7 +37836,7 @@ export default [
       DHT: 97,
       CRT: 139,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37855,7 +37855,7 @@ export default [
       PIE: 139,
       DET: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -37874,7 +37874,7 @@ export default [
       DHT: 139,
       DET: 97,
     },
-    source: '大型任务/天狱之章',
+    source: '大型任务/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41747,7 +41747,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41766,7 +41766,7 @@ export default [
       TEN: 292,
       DET: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41785,7 +41785,7 @@ export default [
       TEN: 129,
       CRT: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41804,7 +41804,7 @@ export default [
       CRT: 204,
       DET: 292,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41823,7 +41823,7 @@ export default [
       DET: 129,
       SKS: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41842,7 +41842,7 @@ export default [
       DHT: 129,
       SKS: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41861,7 +41861,7 @@ export default [
       CRT: 292,
       DET: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41880,7 +41880,7 @@ export default [
       DHT: 184,
       DET: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41899,7 +41899,7 @@ export default [
       DHT: 204,
       DET: 292,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41918,7 +41918,7 @@ export default [
       DHT: 129,
       CRT: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41937,7 +41937,7 @@ export default [
       CRT: 184,
       SKS: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41956,7 +41956,7 @@ export default [
       DHT: 292,
       CRT: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41975,7 +41975,7 @@ export default [
       DET: 184,
       SKS: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -41994,7 +41994,7 @@ export default [
       DHT: 204,
       DET: 292,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42013,7 +42013,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42032,7 +42032,7 @@ export default [
       DHT: 129,
       CRT: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42051,7 +42051,7 @@ export default [
       DHT: 292,
       DET: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42070,7 +42070,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42089,7 +42089,7 @@ export default [
       CRT: 204,
       DET: 292,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42108,7 +42108,7 @@ export default [
       DHT: 129,
       SKS: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42127,7 +42127,7 @@ export default [
       DHT: 129,
       DET: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42146,7 +42146,7 @@ export default [
       CRT: 292,
       DET: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42165,7 +42165,7 @@ export default [
       DET: 184,
       SKS: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42184,7 +42184,7 @@ export default [
       DHT: 292,
       DET: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42203,7 +42203,7 @@ export default [
       DHT: 184,
       CRT: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42222,7 +42222,7 @@ export default [
       DET: 184,
       SPS: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42241,7 +42241,7 @@ export default [
       CRT: 292,
       DET: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42260,7 +42260,7 @@ export default [
       PIE: 129,
       DET: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42279,7 +42279,7 @@ export default [
       PIE: 292,
       DET: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42298,7 +42298,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42317,7 +42317,7 @@ export default [
       DET: 129,
       SPS: 184,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42336,7 +42336,7 @@ export default [
       DHT: 204,
       SPS: 292,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42355,7 +42355,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42374,7 +42374,7 @@ export default [
       DHT: 292,
       CRT: 204,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42393,7 +42393,7 @@ export default [
       DET: 184,
       SPS: 129,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42412,7 +42412,7 @@ export default [
       TEN: 102,
       DET: 145,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42431,7 +42431,7 @@ export default [
       CRT: 145,
       DET: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42450,7 +42450,7 @@ export default [
       DHT: 145,
       DET: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42469,7 +42469,7 @@ export default [
       PIE: 102,
       CRT: 145,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42488,7 +42488,7 @@ export default [
       CRT: 145,
       DET: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42507,7 +42507,7 @@ export default [
       CRT: 145,
       DET: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42526,7 +42526,7 @@ export default [
       DHT: 102,
       SKS: 145,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42545,7 +42545,7 @@ export default [
       CRT: 145,
       DET: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42564,7 +42564,7 @@ export default [
       DET: 145,
       SPS: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42583,7 +42583,7 @@ export default [
       DHT: 145,
       SPS: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42602,7 +42602,7 @@ export default [
       DET: 145,
       SKS: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42621,7 +42621,7 @@ export default [
       DHT: 102,
       CRT: 145,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42640,7 +42640,7 @@ export default [
       DHT: 145,
       SKS: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42659,7 +42659,7 @@ export default [
       CRT: 145,
       DET: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42678,7 +42678,7 @@ export default [
       CRT: 145,
       DET: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42697,7 +42697,7 @@ export default [
       CRT: 145,
       SKS: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42716,7 +42716,7 @@ export default [
       CRT: 102,
       DET: 145,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42735,7 +42735,7 @@ export default [
       DHT: 145,
       CRT: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42754,7 +42754,7 @@ export default [
       PIE: 145,
       CRT: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42773,7 +42773,7 @@ export default [
       CRT: 145,
       DET: 102,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42794,7 +42794,7 @@ export default [
       PDMG: 132,
       DLY: 2240,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42815,7 +42815,7 @@ export default [
       PDMG: 132,
       DLY: 2560,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42836,7 +42836,7 @@ export default [
       PDMG: 132,
       DLY: 3360,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42857,7 +42857,7 @@ export default [
       PDMG: 132,
       DLY: 2800,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42878,7 +42878,7 @@ export default [
       PDMG: 132,
       DLY: 3040,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42899,7 +42899,7 @@ export default [
       PDMG: 132,
       DLY: 2560,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42920,7 +42920,7 @@ export default [
       PDMG: 132,
       DLY: 2960,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42941,7 +42941,7 @@ export default [
       PDMG: 132,
       DLY: 2640,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42961,7 +42961,7 @@ export default [
       DET: 214,
       MDMG: 132,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -42981,7 +42981,7 @@ export default [
       SPS: 214,
       MDMG: 132,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43001,7 +43001,7 @@ export default [
       CRT: 306,
       MDMG: 132,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43021,7 +43021,7 @@ export default [
       DET: 214,
       MDMG: 132,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43041,7 +43041,7 @@ export default [
       DET: 214,
       MDMG: 132,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43062,7 +43062,7 @@ export default [
       PDMG: 132,
       DLY: 2640,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43082,7 +43082,7 @@ export default [
       CRT: 306,
       MDMG: 132,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43103,7 +43103,7 @@ export default [
       PDMG: 132,
       DLY: 2800,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43124,7 +43124,7 @@ export default [
       PDMG: 132,
       DLY: 3120,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43144,7 +43144,7 @@ export default [
       DET: 214,
       MDMG: 132,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43165,7 +43165,7 @@ export default [
       PDMG: 132,
       DLY: 3200,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
   {
@@ -43184,7 +43184,7 @@ export default [
       CRT: 61,
       DET: 87,
     },
-    source: '零式/天狱之章',
+    source: '零式/荒天之狱',
     patch: '6.4',
   },
 ];
