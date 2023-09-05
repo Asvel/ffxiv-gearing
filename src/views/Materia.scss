@@ -16,6 +16,9 @@
     bottom: 4px;
     border-bottom: 2px solid;
     opacity: 0.1;
+    .gears_materias-same-width & {
+      display: none;
+    }
   }
   .app-edit & {
     &:hover {

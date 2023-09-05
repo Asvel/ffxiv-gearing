@@ -1,4 +1,5 @@
 import * as mobxReact from 'mobx-react-lite';
+import * as classNames from 'classnames';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { GearRow } from './GearRow';
@@ -18,7 +19,7 @@ export const SlotCompact = mobxReact.observer(() => {
         ))}
       </tr>
       </thead>
-      <tbody>
+      <tbody className={classNames(store.isMateriaNamesSameWidth && 'gears_materias-same-width')}>
       {store.schema.slots.map((slot, i) => (
         <GearRow
           key={slot.slot}

@@ -147,6 +147,22 @@ export const Store = mst.types
       }
       return floor(level / weight);
     },
+    get isMateriaNamesSameWidth(): boolean {
+      let lastWidth = -1;
+      for (const gear of self.equippedGears.values()) {
+        if (gear === undefined || gear.isFood) continue;
+        for (const { name } of gear.materias) {
+          if (name.length === 0) continue;
+          let width = 0;
+          for (let i = 0; i < name.length; i++) {
+            width += name.charCodeAt(i) < 0x100 ? 1 : 2;
+          }
+          if (lastWidth !== -1 && width !== lastWidth) return false;
+          lastWidth = width;
+        }
+      }
+      return true;
+    },
     get materiaConsumption() {
       const consumption: { [index in G.Stat]?: { [index in G.MateriaGrade]?:
           { safe: number, expectation: number, confidence90: number, confidence99: number, rates: number[] } } } = {};
