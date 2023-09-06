@@ -129,10 +129,31 @@
     // FFXIV Teamcraft
     const teamcraftApp = document.getElementsByTagName('app-gearset-display')[0];
     if (teamcraftApp !== undefined) {
-      const component = teamcraftApp.__ngContext__[teamcraftApp.__ngContext__.length - 1];
-      const gearset = await new Promise(resolve => { component.gearset$.subscribe(v => resolve(v)); });
+      // obtain component instance in a very evil way...
+      const webpackChunks = window['webpackChunkclient'];
+      let webpackRequire;
+      webpackChunks.push([[-webpackChunks.length], {}, wr => { webpackRequire = wr; }]);
+      let GearsetModule;
+      for (const chunk of webpackChunks) {
+        if (chunk.length !== 2) continue;
+        const keys = Object.keys(chunk[1]);
+        if (keys.length !== 1) continue;
+        ({ GearsetModule } = webpackRequire(keys[0]));
+        if (GearsetModule !== undefined) break;
+      }
+      const Component = GearsetModule.prototype.constructor.ɵinj.imports
+        .find(i => i.providers).providers[0].useValue[0].component;
+      const { copyToClipboard } = Component.prototype;
+      let component;
+      Component.prototype.copyToClipboard = function () { component = this; };
+      teamcraftApp.querySelector('.page-title [nztype="snippets"]').parentNode.click();
+      Component.prototype.copyToClipboard = copyToClipboard;
+
+      const subscribe = observable => new Promise(resolve => { observable.subscribe(v => resolve(v)); });
+      const gearset = await subscribe(component.gearset$);
+      const materias = await subscribe(component.lazyData.getEntry('materias'));
       const materiaMap = {};
-      component.lazyData.data.materias.forEach(m => { materiaMap[m.itemId] = m; });
+      materias.forEach(m => { materiaMap[m.itemId] = m; });
       for (const item of Object.values(gearset)) {
         if (item) {
           const id = item.itemId;
@@ -151,7 +172,8 @@
           }
         }
       }
-      data.job = component.lazyData.data.jobAbbr[gearset.job].en;
+      const jobAbbr = await subscribe(component.lazyData.getEntry('jobAbbr'));
+      data.job = jobAbbr[gearset.job].en;
     }
 
   } catch (e) { debugger; }  // eslint-disable-line no-debugger
@@ -160,9 +182,9 @@
     const importUrl = origin + '?import-' + encodeURIComponent(JSON.stringify(data));
     console.log(importUrl);
     if (window.open(importUrl) === null) {
-      prompt('Open this url to import.', importUrl);
+      prompt('打开此链接进行导入：', importUrl);
     }
   } else {
-    alert('No supported data found on this site.');
+    alert('未能在此页面中找到支持导入的数据。');
   }
 })();
