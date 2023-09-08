@@ -8,9 +8,6 @@
   .app-edit &[data-id] {
     cursor: pointer;
   }
-  &.-group-end td {
-    border-bottom: 2px solid transparent;
-  }
   &.-group-end + & td {
     border-top-width: 4px;
     border-top-color: #ededed;
