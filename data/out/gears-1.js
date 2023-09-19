@@ -9489,7 +9489,7 @@ export default [
   },
   {
     id: 40456,
-    name: 'Augmented Hellhound War Pick',
+    name: '改良型地狱犬战镐',
     level: 1,
     rarity: 1,
     slot: 1,
@@ -9506,7 +9506,7 @@ export default [
   },
   {
     id: 40457,
-    name: 'Augmented Hellhound Knuckles',
+    name: '改良型地狱犬利爪',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9523,7 +9523,7 @@ export default [
   },
   {
     id: 40458,
-    name: 'Augmented Hellhound Battleaxe',
+    name: '改良型地狱犬战斧',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9540,7 +9540,7 @@ export default [
   },
   {
     id: 40459,
-    name: 'Augmented Hellhound Spear',
+    name: '改良型地狱犬长枪',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9557,7 +9557,7 @@ export default [
   },
   {
     id: 40460,
-    name: 'Augmented Hellhound Longbow',
+    name: '改良型地狱犬长弓',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9574,7 +9574,7 @@ export default [
   },
   {
     id: 40461,
-    name: 'Augmented Hellhound Sword Breakers',
+    name: '改良型地狱犬破刃刀',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9591,7 +9591,7 @@ export default [
   },
   {
     id: 40462,
-    name: 'Augmented Hellhound Faussar',
+    name: '改良型地狱犬大弯刀',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9608,7 +9608,7 @@ export default [
   },
   {
     id: 40463,
-    name: 'Augmented Hellhound Handgonne',
+    name: '改良型地狱犬手枪',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9625,7 +9625,7 @@ export default [
   },
   {
     id: 40464,
-    name: 'Augmented Hellhound Cane',
+    name: '改良型地狱犬牧杖',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9641,7 +9641,7 @@ export default [
   },
   {
     id: 40465,
-    name: 'Augmented Hellhound Staff',
+    name: '改良型地狱犬长杖',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9657,7 +9657,7 @@ export default [
   },
   {
     id: 40466,
-    name: 'Augmented Hellhound Grimoire',
+    name: '改良型地狱犬魔导书',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9673,7 +9673,7 @@ export default [
   },
   {
     id: 40467,
-    name: 'Augmented Hellhound Codex',
+    name: '改良型地狱犬魔导典',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9689,7 +9689,7 @@ export default [
   },
   {
     id: 40468,
-    name: 'Augmented Hellhound Planisphere',
+    name: '改良型地狱犬天星盘',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9705,7 +9705,7 @@ export default [
   },
   {
     id: 40469,
-    name: 'Augmented Hellhound Katana',
+    name: '改良型地狱犬武士刀',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9722,7 +9722,7 @@ export default [
   },
   {
     id: 40470,
-    name: 'Augmented Hellhound Tuck',
+    name: '改良型地狱犬穿甲剑',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9738,7 +9738,7 @@ export default [
   },
   {
     id: 40471,
-    name: 'Augmented Hellhound Gunblade',
+    name: '改良型地狱犬枪刃',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9755,7 +9755,7 @@ export default [
   },
   {
     id: 40472,
-    name: 'Augmented Hellhound Chakrams',
+    name: '改良型地狱犬圆月轮',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9772,7 +9772,7 @@ export default [
   },
   {
     id: 40473,
-    name: 'Augmented Hellhound Pendulums',
+    name: '改良型地狱犬振空摆',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9788,7 +9788,7 @@ export default [
   },
   {
     id: 40474,
-    name: 'Augmented Hellhound Scythe',
+    name: '改良型地狱犬镰刀',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -9805,7 +9805,7 @@ export default [
   },
   {
     id: 40475,
-    name: 'Augmented Hellhound Kite Shield',
+    name: '改良型地狱犬鸢盾',
     level: 1,
     rarity: 1,
     slot: 2,
@@ -25106,7 +25106,7 @@ export default [
   },
   {
     id: 4108,
-    name: '山羊大地革手环',
+    name: '山羊革大地手环',
     level: 27,
     rarity: 1,
     slot: 11,

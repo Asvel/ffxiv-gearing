@@ -44,8 +44,8 @@ const jobs = [
 
 const patches = {
   data: '6.48',  // 主数据的版本，即国际服游戏版本
-  next: '6.4',  // 对国服来说，下一个有装备更新的版本
-  current: '6.38',  // 国服当前游戏版本
+  next: '6.45',  // 对国服来说，下一个有装备更新的版本
+  current: '6.4',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};
@@ -312,7 +312,7 @@ for (const i of Object.keys(statAbbrs)) {
   roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][27 + j], 10));
 }
 
-const levelGroupBasis = [1, 70, 136, 255, 340, 385, 401, 470, 560];
+const levelGroupBasis = [1, 70, 136, 255, 340, 385, 401, 470, 531, 620];
 const levelGroupIds = [];
 const levelGroupLast = levelGroupBasis[levelGroupBasis.length - 1];
 let groupId = 0;
