@@ -28504,7 +28504,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30069,
@@ -28526,7 +28526,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30070,
@@ -28548,7 +28548,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30071,
@@ -28570,7 +28570,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30072,
@@ -28592,7 +28592,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30073,
@@ -28614,7 +28614,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30074,
@@ -28636,7 +28636,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30075,
@@ -28658,7 +28658,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30076,
@@ -28679,7 +28679,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30077,
@@ -28700,7 +28700,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30078,
@@ -28721,7 +28721,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30079,
@@ -28742,7 +28742,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30080,
@@ -28763,7 +28763,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30081,
@@ -28785,7 +28785,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30082,
@@ -28806,7 +28806,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30083,
@@ -28828,7 +28828,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30084,
@@ -28850,7 +28850,7 @@ export default [
       DLY: 3120,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30085,
@@ -28869,7 +28869,7 @@ export default [
       CRT: 32,
     },
     hq: true,
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30811,
@@ -28891,7 +28891,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30812,
@@ -28913,7 +28913,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30813,
@@ -28935,7 +28935,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30814,
@@ -28957,7 +28957,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30815,
@@ -28979,7 +28979,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30816,
@@ -29001,7 +29001,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30817,
@@ -29023,7 +29023,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30818,
@@ -29045,7 +29045,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30819,
@@ -29066,7 +29066,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30820,
@@ -29087,7 +29087,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30821,
@@ -29108,7 +29108,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30822,
@@ -29129,7 +29129,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30823,
@@ -29150,7 +29150,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30824,
@@ -29172,7 +29172,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30825,
@@ -29193,7 +29193,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30826,
@@ -29212,7 +29212,7 @@ export default [
       SKS: 32,
     },
     hq: true,
-    source: '生产制作/月读幻化',
+    source: '生产制作/月读武器',
   },
   {
     id: 30827,
@@ -29234,7 +29234,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30828,
@@ -29256,7 +29256,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30829,
@@ -29278,7 +29278,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30830,
@@ -29300,7 +29300,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30831,
@@ -29322,7 +29322,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30832,
@@ -29344,7 +29344,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30833,
@@ -29366,7 +29366,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30834,
@@ -29388,7 +29388,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30835,
@@ -29409,7 +29409,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30836,
@@ -29430,7 +29430,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30837,
@@ -29451,7 +29451,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30838,
@@ -29472,7 +29472,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30839,
@@ -29493,7 +29493,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30840,
@@ -29515,7 +29515,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30841,
@@ -29536,7 +29536,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30842,
@@ -29555,7 +29555,7 @@ export default [
       CRT: 32,
     },
     hq: true,
-    source: '生产制作/朱雀幻化',
+    source: '生产制作/朱雀武器',
   },
   {
     id: 30843,
@@ -29577,7 +29577,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30844,
@@ -29599,7 +29599,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30845,
@@ -29621,7 +29621,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30846,
@@ -29643,7 +29643,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30847,
@@ -29665,7 +29665,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30848,
@@ -29687,7 +29687,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30849,
@@ -29709,7 +29709,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30850,
@@ -29731,7 +29731,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30851,
@@ -29752,7 +29752,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30852,
@@ -29773,7 +29773,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30853,
@@ -29794,7 +29794,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30854,
@@ -29815,7 +29815,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30855,
@@ -29836,7 +29836,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30856,
@@ -29858,7 +29858,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30857,
@@ -29879,7 +29879,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 30858,
@@ -29898,7 +29898,7 @@ export default [
       CRT: 32,
     },
     hq: true,
-    source: '生产制作/青龙幻化',
+    source: '生产制作/青龙武器',
   },
   {
     id: 33597,
@@ -29920,7 +29920,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33598,
@@ -29942,7 +29942,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33599,
@@ -29964,7 +29964,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33600,
@@ -29986,7 +29986,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33601,
@@ -30008,7 +30008,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33602,
@@ -30030,7 +30030,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33603,
@@ -30052,7 +30052,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33604,
@@ -30074,7 +30074,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33605,
@@ -30095,7 +30095,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33606,
@@ -30116,7 +30116,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33607,
@@ -30137,7 +30137,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33608,
@@ -30158,7 +30158,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33609,
@@ -30179,7 +30179,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33610,
@@ -30201,7 +30201,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33611,
@@ -30222,7 +30222,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 33612,
@@ -30241,7 +30241,7 @@ export default [
       SKS: 32,
     },
     hq: true,
-    source: '生产制作/白虎幻化',
+    source: '生产制作/白虎武器',
   },
   {
     id: 37317,
@@ -30263,7 +30263,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37318,
@@ -30285,7 +30285,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37319,
@@ -30307,7 +30307,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37320,
@@ -30329,7 +30329,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37321,
@@ -30351,7 +30351,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37322,
@@ -30373,7 +30373,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37323,
@@ -30395,7 +30395,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37324,
@@ -30417,7 +30417,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37325,
@@ -30438,7 +30438,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37326,
@@ -30459,7 +30459,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37327,
@@ -30480,7 +30480,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37328,
@@ -30501,7 +30501,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37329,
@@ -30522,7 +30522,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37330,
@@ -30544,7 +30544,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37331,
@@ -30565,7 +30565,7 @@ export default [
       MDMG: 81,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 37332,
@@ -30585,7 +30585,7 @@ export default [
       CRT: 32,
     },
     hq: true,
-    source: '生产制作/豪神幻化',
+    source: '生产制作/豪神武器',
   },
   {
     id: 18813,
@@ -47447,7 +47447,7 @@ export default [
       PDMG: 86,
       DLY: 2800,
     },
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
   {
     id: 30087,
@@ -47467,6 +47467,6 @@ export default [
       PDMG: 86,
       DLY: 3120,
     },
-    source: '生产制作/神龙幻化',
+    source: '生产制作/神龙武器',
   },
 ];

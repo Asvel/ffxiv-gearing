@@ -16949,7 +16949,7 @@ export default [
       DLY: 2160,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8356,
@@ -16971,7 +16971,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8357,
@@ -16993,7 +16993,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8358,
@@ -17015,7 +17015,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8359,
@@ -17037,7 +17037,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8360,
@@ -17058,7 +17058,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8361,
@@ -17079,7 +17079,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8362,
@@ -17100,7 +17100,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8363,
@@ -17121,7 +17121,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 8364,
@@ -17143,7 +17143,7 @@ export default [
       DLY: 1760,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8365,
@@ -17165,7 +17165,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8366,
@@ -17187,7 +17187,7 @@ export default [
       DLY: 3120,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8367,
@@ -17209,7 +17209,7 @@ export default [
       DLY: 2480,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8368,
@@ -17231,7 +17231,7 @@ export default [
       DLY: 2480,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8369,
@@ -17252,7 +17252,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8370,
@@ -17273,7 +17273,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8371,
@@ -17294,7 +17294,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8372,
@@ -17315,7 +17315,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 8373,
@@ -17337,7 +17337,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8374,
@@ -17359,7 +17359,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8375,
@@ -17381,7 +17381,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8376,
@@ -17403,7 +17403,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8377,
@@ -17424,7 +17424,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8378,
@@ -17445,7 +17445,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8379,
@@ -17466,7 +17466,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8380,
@@ -17487,7 +17487,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8381,
@@ -17507,7 +17507,7 @@ export default [
       DET: 7,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 8382,
@@ -17743,7 +17743,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 9235,
@@ -17765,7 +17765,7 @@ export default [
       DLY: 2320,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 9236,
@@ -17787,7 +17787,7 @@ export default [
       DLY: 2720,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 9237,
@@ -17851,7 +17851,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 10409,
@@ -17873,7 +17873,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 10410,
@@ -17895,7 +17895,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 10411,
@@ -17979,7 +17979,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 10471,
@@ -18001,7 +18001,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 10472,
@@ -18045,7 +18045,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 10510,
@@ -18106,7 +18106,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 10533,
@@ -18127,7 +18127,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 10534,
@@ -18148,7 +18148,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 10535,
@@ -18266,7 +18266,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 15914,
@@ -18308,7 +18308,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 15916,
@@ -18329,7 +18329,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 20358,
@@ -18351,7 +18351,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 20359,
@@ -18372,7 +18372,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/火神幻化',
+    source: '生产制作/火神武器',
   },
   {
     id: 20362,
@@ -18394,7 +18394,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 20363,
@@ -18415,7 +18415,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/风神幻化',
+    source: '生产制作/风神武器',
   },
   {
     id: 20366,
@@ -18437,7 +18437,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 20367,
@@ -18458,7 +18458,7 @@ export default [
       MDMG: 62,
     },
     hq: true,
-    source: '生产制作/土神幻化',
+    source: '生产制作/土神武器',
   },
   {
     id: 20370,
@@ -32258,7 +32258,7 @@ export default [
       DLY: 1920,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15557,
@@ -32280,7 +32280,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15558,
@@ -32302,7 +32302,7 @@ export default [
       DLY: 3280,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15559,
@@ -32324,7 +32324,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15560,
@@ -32346,7 +32346,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15561,
@@ -32368,7 +32368,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15562,
@@ -32390,7 +32390,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15563,
@@ -32412,7 +32412,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15564,
@@ -32434,7 +32434,7 @@ export default [
       MDMG: 63,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15565,
@@ -32455,7 +32455,7 @@ export default [
       MDMG: 63,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15566,
@@ -32476,7 +32476,7 @@ export default [
       MDMG: 63,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15567,
@@ -32498,7 +32498,7 @@ export default [
       MDMG: 63,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15568,
@@ -32520,7 +32520,7 @@ export default [
       MDMG: 63,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 15569,
@@ -32540,7 +32540,7 @@ export default [
       SKS: 13,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 20378,
@@ -32562,7 +32562,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 20379,
@@ -32583,7 +32583,7 @@ export default [
       MDMG: 63,
     },
     hq: true,
-    source: '生产制作/雷神幻化',
+    source: '生产制作/雷神武器',
   },
   {
     id: 20380,

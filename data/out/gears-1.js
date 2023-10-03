@@ -56356,7 +56356,7 @@ export default [
       DLY: 2160,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13791,
@@ -56377,7 +56377,7 @@ export default [
       DLY: 2720,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13792,
@@ -56398,7 +56398,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13793,
@@ -56419,7 +56419,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13794,
@@ -56440,7 +56440,7 @@ export default [
       DLY: 3200,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13795,
@@ -56460,7 +56460,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13796,
@@ -56480,7 +56480,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13797,
@@ -56500,7 +56500,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13798,
@@ -56520,7 +56520,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13799,
@@ -56541,7 +56541,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13800,
@@ -56562,7 +56562,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13801,
@@ -56583,7 +56583,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13802,
@@ -56603,7 +56603,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13803,
@@ -56622,7 +56622,7 @@ export default [
       DHT: 5,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13804,
@@ -56641,7 +56641,7 @@ export default [
       DHT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13805,
@@ -56660,7 +56660,7 @@ export default [
       DHT: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13806,
@@ -56679,7 +56679,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13807,
@@ -56698,7 +56698,7 @@ export default [
       CRT: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13808,
@@ -56717,7 +56717,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13809,
@@ -56736,7 +56736,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13810,
@@ -56755,7 +56755,7 @@ export default [
       SKS: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13811,
@@ -56774,7 +56774,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13812,
@@ -56793,7 +56793,7 @@ export default [
       DET: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13813,
@@ -56812,7 +56812,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13814,
@@ -56832,7 +56832,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13815,
@@ -56852,7 +56852,7 @@ export default [
       CRT: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13816,
@@ -56872,7 +56872,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13817,
@@ -56892,7 +56892,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13818,
@@ -56912,7 +56912,7 @@ export default [
       SKS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13819,
@@ -56931,7 +56931,7 @@ export default [
       CRT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13820,
@@ -56950,7 +56950,7 @@ export default [
       SKS: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13821,
@@ -56969,7 +56969,7 @@ export default [
       SKS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13822,
@@ -56988,7 +56988,7 @@ export default [
       CRT: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13823,
@@ -57007,7 +57007,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13824,
@@ -57026,7 +57026,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13825,
@@ -57045,7 +57045,7 @@ export default [
       DET: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13826,
@@ -57064,7 +57064,7 @@ export default [
       CRT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13827,
@@ -57083,7 +57083,7 @@ export default [
       CRT: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13828,
@@ -57102,7 +57102,7 @@ export default [
       SPS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13829,
@@ -57121,7 +57121,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13830,
@@ -57140,7 +57140,7 @@ export default [
       SPS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13831,
@@ -57159,7 +57159,7 @@ export default [
       SPS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13832,
@@ -57178,7 +57178,7 @@ export default [
       CRT: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13833,
@@ -57197,7 +57197,7 @@ export default [
       CRT: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13834,
@@ -57216,7 +57216,7 @@ export default [
       DET: 5,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13835,
@@ -57237,7 +57237,7 @@ export default [
       DLY: 2160,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13836,
@@ -57258,7 +57258,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13837,
@@ -57279,7 +57279,7 @@ export default [
       DLY: 3200,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13838,
@@ -57300,7 +57300,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13839,
@@ -57321,7 +57321,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13840,
@@ -57342,7 +57342,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13841,
@@ -57362,7 +57362,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13842,
@@ -57382,7 +57382,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13843,
@@ -57403,7 +57403,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13844,
@@ -57424,7 +57424,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13845,
@@ -57445,7 +57445,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13846,
@@ -57466,7 +57466,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13847,
@@ -57487,7 +57487,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13848,
@@ -57506,7 +57506,7 @@ export default [
       SKS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13849,
@@ -57525,7 +57525,7 @@ export default [
       CRT: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13850,
@@ -57544,7 +57544,7 @@ export default [
       CRT: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13851,
@@ -57563,7 +57563,7 @@ export default [
       DET: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13852,
@@ -57582,7 +57582,7 @@ export default [
       DHT: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13853,
@@ -57601,7 +57601,7 @@ export default [
       CRT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13854,
@@ -57620,7 +57620,7 @@ export default [
       SKS: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13855,
@@ -57639,7 +57639,7 @@ export default [
       CRT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13856,
@@ -57658,7 +57658,7 @@ export default [
       SKS: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13857,
@@ -57677,7 +57677,7 @@ export default [
       SKS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13858,
@@ -57697,7 +57697,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13859,
@@ -57717,7 +57717,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13860,
@@ -57737,7 +57737,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13861,
@@ -57757,7 +57757,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13862,
@@ -57777,7 +57777,7 @@ export default [
       SKS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13863,
@@ -57796,7 +57796,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13864,
@@ -57815,7 +57815,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13865,
@@ -57834,7 +57834,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13866,
@@ -57853,7 +57853,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13867,
@@ -57872,7 +57872,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13868,
@@ -57892,7 +57892,7 @@ export default [
       SPS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13869,
@@ -57912,7 +57912,7 @@ export default [
       DET: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13870,
@@ -57932,7 +57932,7 @@ export default [
       SPS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13871,
@@ -57952,7 +57952,7 @@ export default [
       SPS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13872,
@@ -57972,7 +57972,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13873,
@@ -57991,7 +57991,7 @@ export default [
       CRT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13874,
@@ -58010,7 +58010,7 @@ export default [
       SPS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13875,
@@ -58029,7 +58029,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13876,
@@ -58048,7 +58048,7 @@ export default [
       SPS: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13877,
@@ -58067,7 +58067,7 @@ export default [
       CRT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13892,
@@ -58086,7 +58086,7 @@ export default [
       DHT: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13893,
@@ -58105,7 +58105,7 @@ export default [
       DET: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13894,
@@ -58124,7 +58124,7 @@ export default [
       SKS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13895,
@@ -58143,7 +58143,7 @@ export default [
       DET: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13896,
@@ -58162,7 +58162,7 @@ export default [
       DHT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13897,
@@ -58181,7 +58181,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13898,
@@ -58200,7 +58200,7 @@ export default [
       SKS: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13899,
@@ -58219,7 +58219,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13900,
@@ -58238,7 +58238,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13901,
@@ -58257,7 +58257,7 @@ export default [
       SKS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13902,
@@ -58276,7 +58276,7 @@ export default [
       SKS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13903,
@@ -58295,7 +58295,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13904,
@@ -58314,7 +58314,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13905,
@@ -58333,7 +58333,7 @@ export default [
       SKS: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13906,
@@ -58352,7 +58352,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13907,
@@ -58371,7 +58371,7 @@ export default [
       SKS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13908,
@@ -58390,7 +58390,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13909,
@@ -58409,7 +58409,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13910,
@@ -58428,7 +58428,7 @@ export default [
       CRT: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13911,
@@ -58447,7 +58447,7 @@ export default [
       SKS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13912,
@@ -58467,7 +58467,7 @@ export default [
       SPS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13913,
@@ -58487,7 +58487,7 @@ export default [
       SPS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13914,
@@ -58507,7 +58507,7 @@ export default [
       SPS: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13915,
@@ -58527,7 +58527,7 @@ export default [
       CRT: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13916,
@@ -58547,7 +58547,7 @@ export default [
       SPS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13917,
@@ -58566,7 +58566,7 @@ export default [
       CRT: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13918,
@@ -58585,7 +58585,7 @@ export default [
       SPS: 23,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13919,
@@ -58604,7 +58604,7 @@ export default [
       SPS: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13920,
@@ -58623,7 +58623,7 @@ export default [
       SPS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13921,
@@ -58642,7 +58642,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13922,
@@ -58661,7 +58661,7 @@ export default [
       DET: 10,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13923,
@@ -58680,7 +58680,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13924,
@@ -58699,7 +58699,7 @@ export default [
       DET: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13925,
@@ -58718,7 +58718,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 13926,
@@ -58737,7 +58737,7 @@ export default [
       CRT: 14,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 15097,
@@ -58757,7 +58757,7 @@ export default [
       MDMG: 57,
     },
     hq: true,
-    source: '生产制作/亚拉戈幻化',
+    source: '生产制作/亚拉戈系列',
   },
   {
     id: 16039,

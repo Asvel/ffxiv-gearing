@@ -22033,7 +22033,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15571,
@@ -22055,7 +22055,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15572,
@@ -22077,7 +22077,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15573,
@@ -22099,7 +22099,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15574,
@@ -22121,7 +22121,7 @@ export default [
       DLY: 3280,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15575,
@@ -22143,7 +22143,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15576,
@@ -22165,7 +22165,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15577,
@@ -22187,7 +22187,7 @@ export default [
       DLY: 2760,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15578,
@@ -22208,7 +22208,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15579,
@@ -22229,7 +22229,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15580,
@@ -22250,7 +22250,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15581,
@@ -22271,7 +22271,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15582,
@@ -22292,7 +22292,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15583,
@@ -22312,7 +22312,7 @@ export default [
       SKS: 23,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 15584,
@@ -22334,7 +22334,7 @@ export default [
       DLY: 2080,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15585,
@@ -22356,7 +22356,7 @@ export default [
       DLY: 2400,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15586,
@@ -22378,7 +22378,7 @@ export default [
       DLY: 3360,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15587,
@@ -22400,7 +22400,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15588,
@@ -22422,7 +22422,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15589,
@@ -22444,7 +22444,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15590,
@@ -22466,7 +22466,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15591,
@@ -22488,7 +22488,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15592,
@@ -22509,7 +22509,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15593,
@@ -22530,7 +22530,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15594,
@@ -22551,7 +22551,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15595,
@@ -22572,7 +22572,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15596,
@@ -22593,7 +22593,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15597,
@@ -22613,7 +22613,7 @@ export default [
       SKS: 16,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 15598,
@@ -22635,7 +22635,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15599,
@@ -22657,7 +22657,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15600,
@@ -22679,7 +22679,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15601,
@@ -22701,7 +22701,7 @@ export default [
       DLY: 2880,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15602,
@@ -22723,7 +22723,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15603,
@@ -22745,7 +22745,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15604,
@@ -22767,7 +22767,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15605,
@@ -22789,7 +22789,7 @@ export default [
       DLY: 2480,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15606,
@@ -22810,7 +22810,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15607,
@@ -22831,7 +22831,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15608,
@@ -22852,7 +22852,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15609,
@@ -22873,7 +22873,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15610,
@@ -22894,7 +22894,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 15611,
@@ -22914,7 +22914,7 @@ export default [
       SKS: 23,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 17604,
@@ -23503,7 +23503,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 20429,
@@ -23524,7 +23524,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/云神幻化',
+    source: '生产制作/云神武器',
   },
   {
     id: 20432,
@@ -23546,7 +23546,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 20433,
@@ -23567,7 +23567,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/武神幻化',
+    source: '生产制作/武神武器',
   },
   {
     id: 20436,
@@ -23589,7 +23589,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 20437,
@@ -23610,7 +23610,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 20440,
@@ -23632,7 +23632,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/魔神幻化',
+    source: '生产制作/魔神武器',
   },
   {
     id: 20441,
@@ -23653,7 +23653,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/魔神幻化',
+    source: '生产制作/魔神武器',
   },
   {
     id: 24320,
@@ -23675,7 +23675,7 @@ export default [
       DLY: 2240,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24321,
@@ -23697,7 +23697,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24322,
@@ -23719,7 +23719,7 @@ export default [
       DLY: 3440,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24323,
@@ -23741,7 +23741,7 @@ export default [
       DLY: 2880,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24324,
@@ -23763,7 +23763,7 @@ export default [
       DLY: 3040,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24325,
@@ -23785,7 +23785,7 @@ export default [
       DLY: 2560,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24326,
@@ -23807,7 +23807,7 @@ export default [
       DLY: 2960,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24327,
@@ -23829,7 +23829,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24328,
@@ -23850,7 +23850,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24329,
@@ -23871,7 +23871,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24330,
@@ -23892,7 +23892,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24331,
@@ -23913,7 +23913,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24332,
@@ -23934,7 +23934,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24333,
@@ -23956,7 +23956,7 @@ export default [
       DLY: 2640,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24334,
@@ -23977,7 +23977,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 24335,
@@ -23997,7 +23997,7 @@ export default [
       CRT: 16,
     },
     hq: true,
-    source: '生产制作/邪龙幻化',
+    source: '生产制作/邪龙武器',
   },
   {
     id: 25022,
@@ -24705,7 +24705,7 @@ export default [
       DLY: 2800,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 37290,
@@ -24727,7 +24727,7 @@ export default [
       DLY: 3120,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 37291,
@@ -24748,7 +24748,7 @@ export default [
       MDMG: 70,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 37292,
@@ -24770,7 +24770,7 @@ export default [
       DLY: 3200,
     },
     hq: true,
-    source: '生产制作/骑神幻化',
+    source: '生产制作/骑神武器',
   },
   {
     id: 13161,
