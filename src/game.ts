@@ -591,8 +591,8 @@ export const clanStats: { [index in Stat]?: number[] } = {
 export const syncLevels = require('../data/out/syncLevels').default as { [index in JobLevel]: number[] };
 export const syncLevelIsPopular: { [index: number]: boolean } = {
   300: true,  // Eureka
-  345: true, 375: true, 475: true,  // Ultimate Raids
-  435: true,  // Unreal Trials
+  345: true, 375: true, 475: true, 605: true, 635: true,  // Ultimate Raids
+  565: true,  // Unreal Trials
 };
 export const syncLevelOfJobLevels = { 50: 130, 60: 270, 70: 400, 80: 530, 90: 660 };
 

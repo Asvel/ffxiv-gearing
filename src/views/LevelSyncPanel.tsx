@@ -16,10 +16,7 @@ export const LevelSyncPanel = mobxReact.observer<DropdownPopperProps>(({ toggle 
         {G.jobLevels.map(jobLevel=> jobLevel <= store.schema.jobLevel && (
           <CollapsibleList
             key={jobLevel}
-            defaultOpen={
-              jobLevel === store.jobLevel ||
-              jobLevel >= store.schema.jobLevel - 10 && store.jobLevel >= store.schema.jobLevel - 10
-            }
+            defaultOpen={jobLevel === store.jobLevel}
             handle={
               <SimpleListItem
                 className="level-sync_group"
