@@ -43377,4 +43377,20 @@ export default [
     source: '同盟徽章',
     patch: '6.45',
   },
+  {
+    id: 41700,
+    name: "Exquisite Gentlemage's Umbrella",
+    level: 530,
+    rarity: 3,
+    slot: 13,
+    role: 5,
+    jobCategory: 129,
+    equipLevel: 80,
+    materiaSlot: 2,
+    stats: {
+      MDMG: 1,
+    },
+    source: '异闻迷宫',
+    patch: '6.51',
+  },
 ];
