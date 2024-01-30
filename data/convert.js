@@ -86,6 +86,17 @@ const ItemAction = loadExd('ItemAction.csv');
 const ItemFood = loadExd('ItemFood.csv');
 const ItemLevel = loadExd('ItemLevel.csv');
 
+const slotComposite = {
+  15: [4, 3],
+  16: [4, 5, 7, 8],
+  // 17: 职业水晶
+  18: [7, 8],
+  19: [4, 3, 5, 7, 8],
+  20: [4, 5, 7],
+  21: [4, 7, 8],
+  22: [4, 5],
+};
+
 const jobCategories = ClassJobCategory.map(line => {
   const ret = {};
   for (const classjob of jobs) {
@@ -108,6 +119,7 @@ const jobCategoryOfMainStats = {
 const lodestoneIds = [undefined, ...fs.readFileSync('./in/lodestone-item-id.txt', 'utf8')
   .split(/\r?\n/).map(x => x || undefined)];
 
+const slotsUsed = [];
 const jobCategoriesUsed = [];
 const levelsUsed = {};
 const lodestoneIdsUsed = [];
@@ -123,6 +135,11 @@ const gears = Item
     ret.level = Number(x['Level{Item}']);
     ret.rarity = Number(x['Rarity']);
     ret.slot = Number(x['EquipSlotCategory']);
+    if (ret.slot in slotComposite) {
+      ret.rawSlot = ret.slot;
+      // ret.occupiedSlots = slotComposite[ret.slot].slice(1);
+      ret.slot = slotComposite[ret.slot][0];
+    }
     ret.role = Number(x['BaseParamModifier']);
     ret.jobCategory = Number(x['ClassJobCategory']);
     ret.equipLevel = Number(x['Level{Equip}']);
@@ -184,6 +201,7 @@ const gears = Item
       ret.jobCategory = 89;
     }
 
+    slotsUsed[ret.rawSlot ?? ret.slot] = true;
     jobCategoriesUsed[ret.jobCategory] = jobCategories[ret.jobCategory];
     levelsUsed[ret.level] = true;
     lodestoneIdsUsed[ret.id] = lodestoneIds[ret.id];
@@ -302,9 +320,10 @@ for (const i of Object.keys(statAbbrs)) {
   levelCaps[statAbbrs[i]] = levelCaps.level.map(l => parseInt(ItemLevel[l][i], 10));
 }
 
+delete slotsUsed[0];
 const slotCaps = {};
 for (const i of Object.keys(statAbbrs)) {
-  slotCaps[statAbbrs[i]] = Array.from({ length: 14 }).map((_, j) => j === 0 ? 0 : parseInt(BaseParam[i][4 + j], 10));
+  slotCaps[statAbbrs[i]] = Array.from(slotsUsed).map((_, j) => _ ? parseInt(BaseParam[i][4 + j], 10) : 0);
 }
 
 const roleCaps = {};

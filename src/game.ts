@@ -12,6 +12,7 @@ export interface GearBase {
 }
 export interface Gear extends GearBase {
   rarity: number,
+  rawSlot?: number,
   role: number,
   equipLevel: number,
   materiaSlot: number,
@@ -60,7 +61,8 @@ levelCaps.level.forEach((level, i) => {
 const capsCache: { [index: string]: Stats } = {};
 export function getCaps(gear: Gear, syncLevel?: number): Stats {
   const level = syncLevel ?? gear.level;
-  const { slot, role } = gear;
+  const slot = gear.rawSlot ?? gear.slot;
+  const role = gear.role;
   const cacheKey = `${level},${slot},${role}`;
   if (!(cacheKey in capsCache)) {
     const caps: Stats = {};
