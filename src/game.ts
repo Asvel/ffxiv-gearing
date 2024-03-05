@@ -157,7 +157,7 @@ const slotSchemaCrafting = [
   slotSchemaGathering[slotSchemaGathering.length - 1],
 ];
 
-const defaultItemLevelCombat = [640, 665];
+const defaultItemLevelCombat = [650, 665];
 const defaultItemLevelCrafting = [620, 640];
 const defaultItemLevelGathering = defaultItemLevelCrafting;
 

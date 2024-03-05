@@ -5111,7 +5111,7 @@ export default [
   },
   {
     id: 36048,
-    name: '桓娑咖喱',
+    name: '桓娑鸟肉咖喱',
     level: 539,
     slot: -1,
     jobCategory: 59,
@@ -5130,7 +5130,7 @@ export default [
   },
   {
     id: 36049,
-    name: '茄子镶桓娑肉',
+    name: '茄子镶桓娑鸟肉',
     level: 539,
     slot: -1,
     jobCategory: 59,
