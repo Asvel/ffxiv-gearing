@@ -24489,7 +24489,7 @@ export default [
   },
   {
     id: 18757,
-    name: '瓦勒良魔剑士翼冠',
+    name: '瓦雷利亚魔剑士翼冠',
     level: 288,
     rarity: 2,
     slot: 3,
@@ -24507,7 +24507,7 @@ export default [
   },
   {
     id: 18758,
-    name: '瓦勒良魔剑士战铠',
+    name: '瓦雷利亚魔剑士战铠',
     level: 288,
     rarity: 2,
     slot: 4,
@@ -24525,7 +24525,7 @@ export default [
   },
   {
     id: 18759,
-    name: '瓦勒良魔剑士手铠',
+    name: '瓦雷利亚魔剑士手铠',
     level: 288,
     rarity: 2,
     slot: 5,
@@ -24543,7 +24543,7 @@ export default [
   },
   {
     id: 18760,
-    name: '瓦勒良魔剑士马裤',
+    name: '瓦雷利亚魔剑士马裤',
     level: 288,
     rarity: 2,
     slot: 7,
@@ -24561,7 +24561,7 @@ export default [
   },
   {
     id: 18761,
-    name: '瓦勒良魔剑士长靴',
+    name: '瓦雷利亚魔剑士长靴',
     level: 288,
     rarity: 2,
     slot: 8,
@@ -24579,7 +24579,7 @@ export default [
   },
   {
     id: 18762,
-    name: '瓦勒良魔剑士腰带',
+    name: '瓦雷利亚魔剑士腰带',
     level: 288,
     rarity: 2,
     slot: 0,
@@ -24597,7 +24597,7 @@ export default [
   },
   {
     id: 18763,
-    name: '瓦勒良斗手宽边帽',
+    name: '瓦雷利亚斗手宽边帽',
     level: 288,
     rarity: 2,
     slot: 3,
@@ -24615,7 +24615,7 @@ export default [
   },
   {
     id: 18764,
-    name: '瓦勒良斗手棉甲',
+    name: '瓦雷利亚斗手棉甲',
     level: 288,
     rarity: 2,
     slot: 4,
@@ -24633,7 +24633,7 @@ export default [
   },
   {
     id: 18765,
-    name: '瓦勒良斗手手套',
+    name: '瓦雷利亚斗手手套',
     level: 288,
     rarity: 2,
     slot: 5,
@@ -24651,7 +24651,7 @@ export default [
   },
   {
     id: 18766,
-    name: '瓦勒良斗手打底裤',
+    name: '瓦雷利亚斗手打底裤',
     level: 288,
     rarity: 2,
     slot: 7,
@@ -24669,7 +24669,7 @@ export default [
   },
   {
     id: 18767,
-    name: '瓦勒良斗手长靴',
+    name: '瓦雷利亚斗手长靴',
     level: 288,
     rarity: 2,
     slot: 8,
@@ -24687,7 +24687,7 @@ export default [
   },
   {
     id: 18768,
-    name: '瓦勒良斗手腰带',
+    name: '瓦雷利亚斗手腰带',
     level: 288,
     rarity: 2,
     slot: 0,
@@ -24705,7 +24705,7 @@ export default [
   },
   {
     id: 18769,
-    name: '瓦勒良射手宽边帽',
+    name: '瓦雷利亚射手宽边帽',
     level: 288,
     rarity: 2,
     slot: 3,
@@ -24723,7 +24723,7 @@ export default [
   },
   {
     id: 18770,
-    name: '瓦勒良射手棉甲',
+    name: '瓦雷利亚射手棉甲',
     level: 288,
     rarity: 2,
     slot: 4,
@@ -24741,7 +24741,7 @@ export default [
   },
   {
     id: 18771,
-    name: '瓦勒良射手手套',
+    name: '瓦雷利亚射手手套',
     level: 288,
     rarity: 2,
     slot: 5,
@@ -24759,7 +24759,7 @@ export default [
   },
   {
     id: 18772,
-    name: '瓦勒良射手打底裤',
+    name: '瓦雷利亚射手打底裤',
     level: 288,
     rarity: 2,
     slot: 7,
@@ -24777,7 +24777,7 @@ export default [
   },
   {
     id: 18773,
-    name: '瓦勒良射手筒靴',
+    name: '瓦雷利亚射手筒靴',
     level: 288,
     rarity: 2,
     slot: 8,
@@ -24795,7 +24795,7 @@ export default [
   },
   {
     id: 18774,
-    name: '瓦勒良射手腰带',
+    name: '瓦雷利亚射手腰带',
     level: 288,
     rarity: 2,
     slot: 0,
@@ -24813,7 +24813,7 @@ export default [
   },
   {
     id: 18775,
-    name: '瓦勒良探马宽边帽',
+    name: '瓦雷利亚探马宽边帽',
     level: 288,
     rarity: 2,
     slot: 3,
@@ -24831,7 +24831,7 @@ export default [
   },
   {
     id: 18776,
-    name: '瓦勒良探马棉甲',
+    name: '瓦雷利亚探马棉甲',
     level: 288,
     rarity: 2,
     slot: 4,
@@ -24849,7 +24849,7 @@ export default [
   },
   {
     id: 18777,
-    name: '瓦勒良探马手套',
+    name: '瓦雷利亚探马手套',
     level: 288,
     rarity: 2,
     slot: 5,
@@ -24867,7 +24867,7 @@ export default [
   },
   {
     id: 18778,
-    name: '瓦勒良探马打底裤',
+    name: '瓦雷利亚探马打底裤',
     level: 288,
     rarity: 2,
     slot: 7,
@@ -24885,7 +24885,7 @@ export default [
   },
   {
     id: 18779,
-    name: '瓦勒良探马长靴',
+    name: '瓦雷利亚探马长靴',
     level: 288,
     rarity: 2,
     slot: 8,
@@ -24903,7 +24903,7 @@ export default [
   },
   {
     id: 18780,
-    name: '瓦勒良探马腰带',
+    name: '瓦雷利亚探马腰带',
     level: 288,
     rarity: 2,
     slot: 0,
@@ -24921,7 +24921,7 @@ export default [
   },
   {
     id: 18781,
-    name: '瓦勒良祭司宽边帽',
+    name: '瓦雷利亚祭司宽边帽',
     level: 288,
     rarity: 2,
     slot: 3,
@@ -24939,7 +24939,7 @@ export default [
   },
   {
     id: 18782,
-    name: '瓦勒良祭司上装',
+    name: '瓦雷利亚祭司上装',
     level: 288,
     rarity: 2,
     slot: 4,
@@ -24957,7 +24957,7 @@ export default [
   },
   {
     id: 18783,
-    name: '瓦勒良祭司手套',
+    name: '瓦雷利亚祭司手套',
     level: 288,
     rarity: 2,
     slot: 5,
@@ -24975,7 +24975,7 @@ export default [
   },
   {
     id: 18784,
-    name: '瓦勒良祭司打底裤',
+    name: '瓦雷利亚祭司打底裤',
     level: 288,
     rarity: 2,
     slot: 7,
@@ -24993,7 +24993,7 @@ export default [
   },
   {
     id: 18785,
-    name: '瓦勒良祭司筒靴',
+    name: '瓦雷利亚祭司筒靴',
     level: 288,
     rarity: 2,
     slot: 8,
@@ -25011,7 +25011,7 @@ export default [
   },
   {
     id: 18786,
-    name: '瓦勒良祭司腰带',
+    name: '瓦雷利亚祭司腰带',
     level: 288,
     rarity: 2,
     slot: 0,
@@ -25029,7 +25029,7 @@ export default [
   },
   {
     id: 18787,
-    name: '瓦勒良黑暗祭司宽边帽',
+    name: '瓦雷利亚黑暗祭司宽边帽',
     level: 288,
     rarity: 2,
     slot: 3,
@@ -25047,7 +25047,7 @@ export default [
   },
   {
     id: 18788,
-    name: '瓦勒良黑暗祭司上装',
+    name: '瓦雷利亚黑暗祭司上装',
     level: 288,
     rarity: 2,
     slot: 4,
@@ -25065,7 +25065,7 @@ export default [
   },
   {
     id: 18789,
-    name: '瓦勒良黑暗祭司手套',
+    name: '瓦雷利亚黑暗祭司手套',
     level: 288,
     rarity: 2,
     slot: 5,
@@ -25083,7 +25083,7 @@ export default [
   },
   {
     id: 18790,
-    name: '瓦勒良黑暗祭司打底裤',
+    name: '瓦雷利亚黑暗祭司打底裤',
     level: 288,
     rarity: 2,
     slot: 7,
@@ -25101,7 +25101,7 @@ export default [
   },
   {
     id: 18791,
-    name: '瓦勒良黑暗祭司筒靴',
+    name: '瓦雷利亚黑暗祭司筒靴',
     level: 288,
     rarity: 2,
     slot: 8,
@@ -25119,7 +25119,7 @@ export default [
   },
   {
     id: 18792,
-    name: '瓦勒良黑暗祭司腰带',
+    name: '瓦雷利亚黑暗祭司腰带',
     level: 288,
     rarity: 2,
     slot: 0,
@@ -25155,7 +25155,7 @@ export default [
   },
   {
     id: 18794,
-    name: '瓦勒良斗手耳坠',
+    name: '瓦雷利亚斗手耳坠',
     level: 288,
     rarity: 2,
     slot: 9,
@@ -25173,7 +25173,7 @@ export default [
   },
   {
     id: 18795,
-    name: '瓦勒良射手耳坠',
+    name: '瓦雷利亚射手耳坠',
     level: 288,
     rarity: 2,
     slot: 9,
@@ -25191,7 +25191,7 @@ export default [
   },
   {
     id: 18796,
-    name: '瓦勒良祭司耳坠',
+    name: '瓦雷利亚祭司耳坠',
     level: 288,
     rarity: 2,
     slot: 9,
@@ -25209,7 +25209,7 @@ export default [
   },
   {
     id: 18797,
-    name: '瓦勒良黑暗祭司耳坠',
+    name: '瓦雷利亚黑暗祭司耳坠',
     level: 288,
     rarity: 2,
     slot: 9,
@@ -25245,7 +25245,7 @@ export default [
   },
   {
     id: 18799,
-    name: '瓦勒良斗手项环',
+    name: '瓦雷利亚斗手项环',
     level: 288,
     rarity: 2,
     slot: 10,
@@ -25263,7 +25263,7 @@ export default [
   },
   {
     id: 18800,
-    name: '瓦勒良射手项环',
+    name: '瓦雷利亚射手项环',
     level: 288,
     rarity: 2,
     slot: 10,
@@ -25281,7 +25281,7 @@ export default [
   },
   {
     id: 18801,
-    name: '瓦勒良祭司项环',
+    name: '瓦雷利亚祭司项环',
     level: 288,
     rarity: 2,
     slot: 10,
@@ -25299,7 +25299,7 @@ export default [
   },
   {
     id: 18802,
-    name: '瓦勒良黑暗祭司项环',
+    name: '瓦雷利亚黑暗祭司项环',
     level: 288,
     rarity: 2,
     slot: 10,
@@ -25335,7 +25335,7 @@ export default [
   },
   {
     id: 18804,
-    name: '瓦勒良斗手手镯',
+    name: '瓦雷利亚斗手手镯',
     level: 288,
     rarity: 2,
     slot: 11,
@@ -25353,7 +25353,7 @@ export default [
   },
   {
     id: 18805,
-    name: '瓦勒良射手手镯',
+    name: '瓦雷利亚射手手镯',
     level: 288,
     rarity: 2,
     slot: 11,
@@ -25371,7 +25371,7 @@ export default [
   },
   {
     id: 18806,
-    name: '瓦勒良祭司手镯',
+    name: '瓦雷利亚祭司手镯',
     level: 288,
     rarity: 2,
     slot: 11,
@@ -25389,7 +25389,7 @@ export default [
   },
   {
     id: 18807,
-    name: '瓦勒良黑暗祭司手镯',
+    name: '瓦雷利亚黑暗祭司手镯',
     level: 288,
     rarity: 2,
     slot: 11,
@@ -25425,7 +25425,7 @@ export default [
   },
   {
     id: 18809,
-    name: '瓦勒良斗手戒指',
+    name: '瓦雷利亚斗手戒指',
     level: 288,
     rarity: 2,
     slot: 12,
@@ -25443,7 +25443,7 @@ export default [
   },
   {
     id: 18810,
-    name: '瓦勒良射手戒指',
+    name: '瓦雷利亚射手戒指',
     level: 288,
     rarity: 2,
     slot: 12,
@@ -25461,7 +25461,7 @@ export default [
   },
   {
     id: 18811,
-    name: '瓦勒良祭司戒指',
+    name: '瓦雷利亚祭司戒指',
     level: 288,
     rarity: 2,
     slot: 12,
@@ -25479,7 +25479,7 @@ export default [
   },
   {
     id: 18812,
-    name: '瓦勒良黑暗祭司戒指',
+    name: '瓦雷利亚黑暗祭司戒指',
     level: 288,
     rarity: 2,
     slot: 12,

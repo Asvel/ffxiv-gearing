@@ -43368,7 +43368,7 @@ export default [
   },
   {
     id: 41700,
-    name: "Exquisite Gentlemage's Umbrella",
+    name: '绅魔法师的伞·优雅',
     level: 530,
     rarity: 3,
     slot: 13,
@@ -43379,7 +43379,6 @@ export default [
     stats: {
       MDMG: 1,
     },
-    source: '异闻迷宫',
-    patch: '6.51',
+    source: '多变迷宫/阿罗阿罗岛',
   },
 ];
