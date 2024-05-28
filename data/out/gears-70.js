@@ -18468,7 +18468,7 @@ export default [
   },
   {
     id: 20370,
-    name: '贤王打刀',
+    name: '贤王莫古打刀',
     level: 95,
     rarity: 3,
     slot: 13,
@@ -18490,7 +18490,7 @@ export default [
   },
   {
     id: 20371,
-    name: '贤王刺剑',
+    name: '贤王莫古刺剑',
     level: 95,
     rarity: 3,
     slot: 13,
