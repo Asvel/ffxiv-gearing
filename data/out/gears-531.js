@@ -12314,6 +12314,21 @@ export default [
     source: '生产制作',
   },
   {
+    id: 41081,
+    name: '阿泽玛耳坠',
+    level: 560,
+    rarity: 1,
+    slot: 9,
+    role: 0,
+    jobCategory: 34,
+    equipLevel: 1,
+    materiaSlot: 0,
+    stats: {
+      VIT: 115,
+      DET: 111,
+    },
+  },
+  {
     id: 34850,
     name: '月卫长剑',
     level: 570,
