@@ -53,13 +53,6 @@ module.exports = function (env, argv) {
               },
             },
             {
-              loader: 'simple-functional-loader',
-              ident: 'use-ts2018-unsupported-bigint-literal',
-              options: {
-                processor: source => source.replace(/\bBigInt\((\d+)\)/g, '$1n'),
-              },
-            },
-            {
               loader: 'ts-loader',
               options: {
                 compilerOptions: {

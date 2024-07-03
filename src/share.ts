@@ -214,7 +214,7 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
     }
   }
 
-  let result = BigInt(0);
+  let result = 0n;
   const write = (value: number, range: number) => {
     // console.debug('write', value, range);
     result = result * BigInt(range) + BigInt(value < range ? value : range - 1);
@@ -324,7 +324,7 @@ export function parse(s: string): G.Gearset | 'legacy' {
   let gearIdDeltaDirection = 0;
   let ringsInversed = false;
   let id = -1;
-  while (input !== BigInt(0)) {  // eslint-disable-line no-unmodified-loop-condition
+  while (input !== 0n) {  // eslint-disable-line no-unmodified-loop-condition
     const gearType = gearTypeDecode[read(gearTypeDecode.length)];
     const materias: G.GearsetMaterias = [];
     let customStats: G.Stats | undefined;
@@ -352,7 +352,7 @@ export function parse(s: string): G.Gearset | 'legacy' {
       gearIdDeltaDirection = readBoolean() ? 1 : -1;
       ringsInversed = readBoolean();
     } else {
-      id += (read(gearIdDeltaRange) - (input === BigInt(0) ? 1 : 0)) * gearIdDeltaDirection;
+      id += (read(gearIdDeltaRange) - (input === 0n ? 1 : 0)) * gearIdDeltaDirection;
     }
     gears.push({ id: id as G.GearId, materias, customStats });
   }
