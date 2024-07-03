@@ -49,8 +49,8 @@ const parseQuery = () => {
     }
     if (query.length > 3) {
       const gearset = share.parse(query);
-      if (gearset === 'legacy') {
-        window.location.href = window.location.href.replace('/?', '/shb/?');
+      if (typeof gearset === 'string') {
+        window.location.href = window.location.href.replace('/?', `/${gearset}/?`);
         return;
       }
       for (const gear of gearset.gears) {

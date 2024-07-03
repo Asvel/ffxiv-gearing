@@ -4,7 +4,7 @@ type GearDisplayName = 'name' | 'source';
 type GearColorScheme = 'source' | 'rarity' | 'none';
 type MateriaDisplayName = 'stat' | 'materia';
 
-const storageKey = 'ffxiv-gearing.ew.setting';
+const storageKey = 'ffxiv-gearing.dt.setting';
 
 export const Setting = mst.types
   .model({

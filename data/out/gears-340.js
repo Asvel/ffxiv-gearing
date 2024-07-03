@@ -4420,8 +4420,8 @@ export default [
     materiaSlot: 1,
     materiaAdvanced: true,
     stats: {
-      CP: 49,
-      CMS: 9,
+      CP: 54,
+      CMS: 31,
     },
     hq: true,
     source: '生产制作',
@@ -4438,8 +4438,8 @@ export default [
     materiaSlot: 1,
     materiaAdvanced: true,
     stats: {
-      CP: 49,
-      CMS: 9,
+      CP: 54,
+      CMS: 31,
     },
     hq: true,
     source: '生产制作',
@@ -4456,8 +4456,8 @@ export default [
     materiaSlot: 1,
     materiaAdvanced: true,
     stats: {
-      CP: 49,
-      CMS: 9,
+      CP: 54,
+      CMS: 31,
     },
     hq: true,
     source: '生产制作',
@@ -4474,8 +4474,8 @@ export default [
     materiaSlot: 1,
     materiaAdvanced: true,
     stats: {
-      CP: 25,
-      CRL: 17,
+      CP: 28,
+      CRL: 58,
     },
     hq: true,
     source: '生产制作',
@@ -12534,7 +12534,7 @@ export default [
       CMS: 568,
       CRL: 305,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23077,
@@ -12550,7 +12550,7 @@ export default [
       CMS: 568,
       CRL: 305,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23078,
@@ -12566,7 +12566,7 @@ export default [
       CMS: 568,
       CRL: 305,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23079,
@@ -12582,7 +12582,7 @@ export default [
       CMS: 568,
       CRL: 305,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23080,
@@ -12598,7 +12598,7 @@ export default [
       CMS: 568,
       CRL: 305,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23081,
@@ -12614,7 +12614,7 @@ export default [
       CMS: 568,
       CRL: 305,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23082,
@@ -12630,7 +12630,7 @@ export default [
       CMS: 568,
       CRL: 305,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23083,
@@ -12646,7 +12646,7 @@ export default [
       CMS: 568,
       CRL: 305,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23084,
@@ -12663,7 +12663,7 @@ export default [
       GTH: 521,
       PCP: 298,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23085,
@@ -12680,7 +12680,7 @@ export default [
       GTH: 521,
       PCP: 298,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23086,
@@ -12697,7 +12697,7 @@ export default [
       GTH: 521,
       PCP: 298,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23087,
@@ -12713,7 +12713,7 @@ export default [
       CP: 7,
       CRL: 183,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23088,
@@ -12730,7 +12730,7 @@ export default [
       CMS: 487,
       CRL: 183,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23089,
@@ -12746,7 +12746,7 @@ export default [
       CP: 7,
       CRL: 183,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23090,
@@ -12762,7 +12762,7 @@ export default [
       CMS: 23,
       CRL: 183,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23091,
@@ -12778,7 +12778,7 @@ export default [
       CMS: 23,
       CRL: 183,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23092,
@@ -12794,7 +12794,7 @@ export default [
       VIT: 28,
       PCP: 298,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23093,
@@ -12812,7 +12812,7 @@ export default [
       GTH: 298,
       PCP: 149,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23094,
@@ -12829,7 +12829,7 @@ export default [
       GP: 6,
       GTH: 223,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23095,
@@ -12847,7 +12847,7 @@ export default [
       GTH: 149,
       PCP: 74,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23096,
@@ -12864,7 +12864,7 @@ export default [
       GTH: 15,
       PCP: 164,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23199,
@@ -12879,7 +12879,7 @@ export default [
     stats: {
       CRL: 152,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23200,
@@ -12892,10 +12892,10 @@ export default [
     equipLevel: 70,
     materiaSlot: 0,
     stats: {
-      CP: 50,
-      CMS: 10,
+      CP: 55,
+      CMS: 32,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23201,
@@ -12908,10 +12908,10 @@ export default [
     equipLevel: 70,
     materiaSlot: 0,
     stats: {
-      CP: 50,
-      CMS: 10,
+      CP: 55,
+      CMS: 32,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23202,
@@ -12924,10 +12924,10 @@ export default [
     equipLevel: 70,
     materiaSlot: 0,
     stats: {
-      CP: 50,
-      CMS: 10,
+      CP: 55,
+      CMS: 32,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23203,
@@ -12940,10 +12940,10 @@ export default [
     equipLevel: 70,
     materiaSlot: 0,
     stats: {
-      CP: 26,
-      CRL: 18,
+      CP: 29,
+      CRL: 61,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23204,
@@ -12958,7 +12958,7 @@ export default [
     stats: {
       PCP: 74,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23205,
@@ -12973,7 +12973,7 @@ export default [
     stats: {
       GP: 74,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23206,
@@ -12988,7 +12988,7 @@ export default [
     stats: {
       GP: 74,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23207,
@@ -13003,7 +13003,7 @@ export default [
     stats: {
       GP: 74,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23208,
@@ -13018,7 +13018,7 @@ export default [
     stats: {
       GP: 39,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 24821,
@@ -20072,6 +20072,47 @@ export default [
       MDMG: 89,
     },
     source: '深层迷宫/天之御柱',
+  },
+  {
+    id: 43635,
+    name: 'Empyrean Twinfangs',
+    level: 365,
+    rarity: 3,
+    slot: 13,
+    role: 11,
+    jobCategory: 196,
+    equipLevel: 70,
+    materiaSlot: 2,
+    stats: {
+      DEX: 135,
+      VIT: 139,
+      CRT: 134,
+      DET: 94,
+      PDMG: 89,
+      DLY: 2640,
+    },
+    source: '深层迷宫/天之御柱',
+    patch: '7.0',
+  },
+  {
+    id: 43656,
+    name: 'Empyrean Paintbrush',
+    level: 365,
+    rarity: 3,
+    slot: 13,
+    role: 5,
+    jobCategory: 197,
+    equipLevel: 70,
+    materiaSlot: 2,
+    stats: {
+      VIT: 125,
+      INT: 135,
+      CRT: 94,
+      DET: 134,
+      MDMG: 89,
+    },
+    source: '深层迷宫/天之御柱',
+    patch: '7.0',
   },
   {
     id: 21399,

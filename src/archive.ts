@@ -3,7 +3,7 @@ const instanceId = Math.random().toString();
 function createKey(): string {
   let key: string;
   do {
-    key = `ffxiv-gearing.ew.archive.${Math.random().toString(36).slice(2, 10)}`;
+    key = `ffxiv-gearing.dt.archive.${Math.random().toString(36).slice(2, 10)}`;
   } while (localStorage.getItem(key) !== null);
   return key;
 }

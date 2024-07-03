@@ -12,7 +12,6 @@ function stringify(obj) {
 function loadExd(filename) {
   const data = Papa.parse(fs.readFileSync('./in/' + filename, 'utf8')).data;
   const fields = data[1];
-  if (filename === 'ClassJobCategory.csv') fields.splice(41, 2, 'RPR', 'SGE');  // FIXME
   return data.slice(3, -1).map(line => {
     const ret = {};
     for (let i = 0; i < line.length; i++) {
@@ -35,17 +34,17 @@ const statAbbrs = {
 const jobs = [
   'PLD', 'WAR', 'DRK', 'GNB',
   'WHM', 'SCH', 'AST', 'SGE',
-  'MNK', 'DRG', 'NIN', 'SAM', 'RPR',
+  'MNK', 'DRG', 'NIN', 'SAM', 'RPR', 'VPR',
   'BRD', 'MCH', 'DNC',
-  'BLM', 'SMN', 'RDM', 'BLU',
+  'BLM', 'SMN', 'RDM', 'PCT', 'BLU',
   'CRP', 'BSM', 'ARM', 'GSM', 'LTW', 'WVR', 'ALC', 'CUL',
   'MIN', 'BTN', 'FSH',
 ];
 
 const patches = {
-  data: '6.58',  // 主数据的版本，即国际服游戏版本
-  next: '6.58',  // 对国服来说，下一个有装备更新的版本
-  current: '6.57',  // 国服当前游戏版本
+  data: '7.00',  // 主数据的版本，即国际服游戏版本
+  next: '7.00',  // 对国服来说，下一个有装备更新的版本
+  current: '6.99',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};
@@ -54,16 +53,19 @@ const patchOfId = {};
   const sourcesLines = fs.readFileSync('./in/sources.txt', 'utf8').split(/\r?\n/);
   let source;
   let patch;
-  for (const line of sourcesLines) {
+  for (let line of sourcesLines) {
     if (line === '') {
       source = undefined;
       patch = undefined;
       continue;
     }
+    const patchMark = /@([\d.]+)/.exec(line)?.[1];
+    if (patchMark > patches.current) {
+      patch = patchMark;
+    }
+    line = line.replace(/\s*[#@].*/, '');
     if (source === undefined) {
-      source = line.replace(/\s*[#@].*/, '');
-      patch = /@([\d.]+)/.exec(line)?.[1];
-      if (patch <= patches.current) patch = undefined;
+      source = line;
       continue;
     }
     const parts = line.split('-');
@@ -201,6 +203,11 @@ const gears = Item
       ret.jobCategory = 89;
     }
 
+    if (ret.source?.startsWith('巧手大地')) {
+      const craft = 'CMS' in ret.stats || 'CRL' in ret.stats || 'CP' in ret.stats;
+      ret.source = (craft ? '巧手' : '大地') + ret.source.slice(4);
+    }
+
     slotsUsed[ret.rawSlot ?? ret.slot] = true;
     jobCategoriesUsed[ret.jobCategory] = jobCategories[ret.jobCategory];
     levelsUsed[ret.level] = true;
@@ -265,17 +272,17 @@ const foods = Item
     }
     if (Object.keys(jobs).length === 0) {
       if (!('SPS' in ret.stats)) {
-        ['PLD', 'WAR', 'DRK', 'GNB', 'MNK', 'DRG', 'NIN', 'SAM', 'RPR', 'BRD', 'MCH', 'DNC']
+        ['PLD', 'WAR', 'DRK', 'GNB', 'MNK', 'DRG', 'NIN', 'SAM', 'RPR', 'VPR', 'BRD', 'MCH', 'DNC']
           .forEach(j => jobs[j] = true);
       }
       if (!('SKS' in ret.stats)) {
-        ['WHM', 'SCH', 'AST', 'SGE', 'BLM', 'SMN', 'RDM', 'BLU'].forEach(j => jobs[j] = true);
+        ['WHM', 'SCH', 'AST', 'SGE', 'BLM', 'SMN', 'RDM', 'PCT', 'BLU'].forEach(j => jobs[j] = true);
       }
     }
     ret.jobCategory = jobCategoryMap[Object.keys(jobs).sort().join(',')];
     if (ret.jobCategory === undefined) debugger;
     lodestoneIdsUsed[ret.id] = lodestoneIds[ret.id];
-    if (!ItemCn[index]?.['Name'] && ret.patch === undefined) {
+    if (!ItemCn[index]?.['Name'] && sourceOfId[ret.id] === undefined) {
       sourcesMissing[ret.id] = `food  ${ret.name}`;
     }
     return ret;
@@ -285,7 +292,7 @@ const foods = Item
 const bestFoods = [];
 for (const food of foods.slice().reverse()) {
   if (food.id === 4745) continue;  // 唯一的直击信仰食物，各只加1，应该并不会有人想吃它
-  if (food.patch > patches.current) {
+  if (food.patch > '7.0' /* patches.current */) {  // 不强制显示7.0版本的新食物和7.0之前的国服已实装范围内的最优食物
     food.best = true;
     continue;
   }
@@ -297,7 +304,7 @@ for (const food of foods.slice().reverse()) {
 
 const syncLevelOfJobLevel = {};
 for (const x of ContentFinderCondition) {
-  if (x['ClassJobLevel{Required}'] === x['ClassJobLevel{Sync}'] && Number(x['ClassJobLevel{Required}']) >= 50) {
+  if (x['ClassJobLevel{Required}'] % 10 === 0 && Number(x['ClassJobLevel{Required}']) >= 50) {
     syncLevelOfJobLevel[x['ItemLevel{Required}']] = x['ClassJobLevel{Required}'];
     syncLevelOfJobLevel[x['ItemLevel{Sync}']] = x['ClassJobLevel{Required}'];
   }
@@ -336,7 +343,8 @@ const levelGroupBasis = [
   210, 255, 271,
   340, 385, 401,
   470, 515, 531,
-  600, 645,
+  600, 645, 661,
+  690,
 ];
 const levelGroupIds = [];
 const levelGroupLast = levelGroupBasis[levelGroupBasis.length - 1];

@@ -88,6 +88,7 @@ export default [
     NIN: true,
     SAM: true,
     RPR: true,
+    VPR: true,
     BRD: true,
     MCH: true,
     DNC: true,
@@ -100,6 +101,7 @@ export default [
     BLM: true,
     SMN: true,
     RDM: true,
+    PCT: true,
     BLU: true,
   },
   {
@@ -131,12 +133,14 @@ export default [
     NIN: true,
     SAM: true,
     RPR: true,
+    VPR: true,
     BRD: true,
     MCH: true,
     DNC: true,
     BLM: true,
     SMN: true,
     RDM: true,
+    PCT: true,
     BLU: true,
   },
   {
@@ -219,6 +223,7 @@ export default [
     BLM: true,
     SMN: true,
     RDM: true,
+    PCT: true,
     BLU: true,
   },
   {
@@ -305,10 +310,12 @@ export default [
   },
   {
     NIN: true,
+    VPR: true,
   },
   ,
   {
     NIN: true,
+    VPR: true,
     BRD: true,
     MCH: true,
     DNC: true,
@@ -402,5 +409,25 @@ export default [
   },
   {
     SGE: true,
+  },
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  {
+    VPR: true,
+  },
+  {
+    PCT: true,
   },
 ];

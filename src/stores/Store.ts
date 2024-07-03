@@ -5,7 +5,7 @@ import * as share from '../share';
 import { floor, ceil, ISetting, Promotion, IGear, IFood, GearUnion, IGearUnion, GearUnionReference, IMateria,
   gearDataOrdered, gearDataLoading, loadGearDataOfGearId, loadGearDataOfLevelRange } from '.';
 
-const globalClanKey = 'ffxiv-gearing.ew.clan';
+const globalClanKey = 'ffxiv-gearing.dt.clan';
 
 export type Mode = 'edit' | 'view';
 
@@ -16,7 +16,7 @@ export const Store = mst.types
   .model('Store', {
     mode: mst.types.optional(mst.types.string as mst.ISimpleType<Mode>, 'edit'),
     job: mst.types.maybe(mst.types.string as mst.ISimpleType<G.Job>),
-    jobLevel: mst.types.optional(mst.types.number as mst.ISimpleType<G.JobLevel>, 90),
+    jobLevel: mst.types.optional(mst.types.number as mst.ISimpleType<G.JobLevel>, 100),
     minLevel: mst.types.optional(mst.types.number, 0),
     maxLevel: mst.types.optional(mst.types.number, 0),
     syncLevel: mst.types.maybe(mst.types.number),
@@ -250,7 +250,7 @@ export const Store = mst.types
       const crtDamage = floor(200 * (CRT! - sub) / div + 1400) / 1000;
       const detDamage = floor((140 * (DET! - main) / det + 1000) / detTrunc) * detTrunc / 1000;
       const dhtChance = floor(550 * (DHT! - sub) / div + bluAetherialMimicry) / 1000;
-      const tenDamage = floor(100 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
+      const tenDamage = floor(112 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
       const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
         ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0) +
         (self.job === 'BLU' ? G.bluMdmgAdditions[self.equippedStats['INT']! - self.baseStats['INT']!] ?? 0 : 0);
@@ -289,7 +289,7 @@ export const Store = mst.types
         CRT: calcTier(CRT! - sub, div / 200),
         DET: calcTier(DET! - main, det / 140 * detTrunc),
         DHT: calcTier(DHT! - sub, div / 550),
-        TEN: calcTier(TEN! - sub, div / 100),
+        TEN: calcTier(TEN! - sub, div / 112),
         SKS: calcGcdTier(SKS! - sub, div / 130, (statModifiers.gcd ?? 100) / 1000),
         SPS: calcGcdTier(SPS! - sub, div / 130, (statModifiers.gcd ?? 100) / 1000),
         PIE: calcTier(PIE! - main, div / 150),

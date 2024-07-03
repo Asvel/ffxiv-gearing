@@ -12961,8 +12961,8 @@ export default [
     materiaSlot: 1,
     materiaAdvanced: true,
     stats: {
-      CP: 46,
-      CMS: 7,
+      CP: 51,
+      CMS: 23,
     },
     hq: true,
     source: '生产制作',
@@ -12979,8 +12979,8 @@ export default [
     materiaSlot: 1,
     materiaAdvanced: true,
     stats: {
-      CP: 46,
-      CMS: 7,
+      CP: 51,
+      CMS: 23,
     },
     hq: true,
     source: '生产制作',
@@ -12997,8 +12997,8 @@ export default [
     materiaSlot: 1,
     materiaAdvanced: true,
     stats: {
-      CP: 46,
-      CMS: 7,
+      CP: 51,
+      CMS: 23,
     },
     hq: true,
     source: '生产制作',
@@ -13015,8 +13015,8 @@ export default [
     materiaSlot: 1,
     materiaAdvanced: true,
     stats: {
-      CP: 24,
-      CRL: 13,
+      CP: 27,
+      CRL: 43,
     },
     hq: true,
     source: '生产制作',
@@ -16665,7 +16665,7 @@ export default [
       CMS: 433,
       CRL: 232,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19591,
@@ -16681,7 +16681,7 @@ export default [
       CMS: 433,
       CRL: 232,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19592,
@@ -16697,7 +16697,7 @@ export default [
       CMS: 433,
       CRL: 232,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19593,
@@ -16713,7 +16713,7 @@ export default [
       CMS: 433,
       CRL: 232,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19594,
@@ -16729,7 +16729,7 @@ export default [
       CMS: 433,
       CRL: 232,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19595,
@@ -16745,7 +16745,7 @@ export default [
       CMS: 433,
       CRL: 232,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19596,
@@ -16761,7 +16761,7 @@ export default [
       CMS: 433,
       CRL: 232,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19597,
@@ -16777,7 +16777,7 @@ export default [
       CMS: 433,
       CRL: 232,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19598,
@@ -16794,7 +16794,7 @@ export default [
       GTH: 372,
       PCP: 213,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19599,
@@ -16811,7 +16811,7 @@ export default [
       GTH: 372,
       PCP: 213,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19600,
@@ -16828,7 +16828,7 @@ export default [
       GTH: 372,
       PCP: 213,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19662,
@@ -16844,7 +16844,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19663,
@@ -16861,7 +16861,7 @@ export default [
       CMS: 371,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19664,
@@ -16877,7 +16877,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19665,
@@ -16893,7 +16893,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19666,
@@ -16909,7 +16909,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19667,
@@ -16925,7 +16925,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19668,
@@ -16942,7 +16942,7 @@ export default [
       CMS: 371,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19669,
@@ -16958,7 +16958,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19670,
@@ -16974,7 +16974,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19671,
@@ -16990,7 +16990,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19672,
@@ -17006,7 +17006,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19673,
@@ -17023,7 +17023,7 @@ export default [
       CMS: 371,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19674,
@@ -17039,7 +17039,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19675,
@@ -17055,7 +17055,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19676,
@@ -17071,7 +17071,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19677,
@@ -17087,7 +17087,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19678,
@@ -17104,7 +17104,7 @@ export default [
       CMS: 371,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19679,
@@ -17120,7 +17120,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19680,
@@ -17136,7 +17136,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19681,
@@ -17152,7 +17152,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19682,
@@ -17168,7 +17168,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19683,
@@ -17185,7 +17185,7 @@ export default [
       CMS: 371,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19684,
@@ -17201,7 +17201,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19685,
@@ -17217,7 +17217,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19686,
@@ -17233,7 +17233,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19687,
@@ -17249,7 +17249,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19688,
@@ -17266,7 +17266,7 @@ export default [
       CMS: 371,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19689,
@@ -17282,7 +17282,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19690,
@@ -17298,7 +17298,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19691,
@@ -17314,7 +17314,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19692,
@@ -17330,7 +17330,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19693,
@@ -17347,7 +17347,7 @@ export default [
       CMS: 371,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19694,
@@ -17363,7 +17363,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19695,
@@ -17379,7 +17379,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19696,
@@ -17395,7 +17395,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19697,
@@ -17411,7 +17411,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19698,
@@ -17428,7 +17428,7 @@ export default [
       CMS: 371,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19699,
@@ -17444,7 +17444,7 @@ export default [
       CP: 6,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19700,
@@ -17460,7 +17460,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19701,
@@ -17476,7 +17476,7 @@ export default [
       CMS: 17,
       CRL: 139,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 19702,
@@ -17492,7 +17492,7 @@ export default [
       VIT: 24,
       PCP: 213,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19703,
@@ -17510,7 +17510,7 @@ export default [
       GTH: 213,
       PCP: 106,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19704,
@@ -17527,7 +17527,7 @@ export default [
       GP: 5,
       GTH: 159,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19705,
@@ -17545,7 +17545,7 @@ export default [
       GTH: 106,
       PCP: 53,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19706,
@@ -17562,7 +17562,7 @@ export default [
       GTH: 11,
       PCP: 117,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19707,
@@ -17578,7 +17578,7 @@ export default [
       VIT: 24,
       PCP: 213,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19708,
@@ -17596,7 +17596,7 @@ export default [
       GTH: 213,
       PCP: 106,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19709,
@@ -17613,7 +17613,7 @@ export default [
       GP: 5,
       GTH: 159,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19710,
@@ -17631,7 +17631,7 @@ export default [
       GTH: 106,
       PCP: 53,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19711,
@@ -17648,7 +17648,7 @@ export default [
       GTH: 11,
       PCP: 117,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19712,
@@ -17664,7 +17664,7 @@ export default [
       VIT: 24,
       PCP: 213,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19713,
@@ -17682,7 +17682,7 @@ export default [
       GTH: 213,
       PCP: 106,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19714,
@@ -17699,7 +17699,7 @@ export default [
       GP: 5,
       GTH: 159,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19715,
@@ -17717,7 +17717,7 @@ export default [
       GTH: 106,
       PCP: 53,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 19716,
@@ -17734,7 +17734,7 @@ export default [
       GTH: 11,
       PCP: 117,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 24850,
@@ -28122,7 +28122,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21209,
@@ -28138,7 +28138,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21210,
@@ -28154,7 +28154,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21211,
@@ -28170,7 +28170,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21212,
@@ -28186,7 +28186,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21213,
@@ -28202,7 +28202,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21214,
@@ -28218,7 +28218,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21215,
@@ -28234,7 +28234,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21216,
@@ -28251,7 +28251,7 @@ export default [
       GTH: 461,
       PCP: 264,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21217,
@@ -28268,7 +28268,7 @@ export default [
       GTH: 461,
       PCP: 264,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21218,
@@ -28285,7 +28285,7 @@ export default [
       GTH: 461,
       PCP: 264,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21219,
@@ -28301,7 +28301,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21220,
@@ -28318,7 +28318,7 @@ export default [
       CMS: 440,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21221,
@@ -28334,7 +28334,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21222,
@@ -28350,7 +28350,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21223,
@@ -28366,7 +28366,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21224,
@@ -28382,7 +28382,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21225,
@@ -28399,7 +28399,7 @@ export default [
       CMS: 440,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21226,
@@ -28415,7 +28415,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21227,
@@ -28431,7 +28431,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21228,
@@ -28447,7 +28447,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21229,
@@ -28463,7 +28463,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21230,
@@ -28480,7 +28480,7 @@ export default [
       CMS: 440,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21231,
@@ -28496,7 +28496,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21232,
@@ -28512,7 +28512,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21233,
@@ -28528,7 +28528,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21234,
@@ -28544,7 +28544,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21235,
@@ -28561,7 +28561,7 @@ export default [
       CMS: 440,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21236,
@@ -28577,7 +28577,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21237,
@@ -28593,7 +28593,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21238,
@@ -28609,7 +28609,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21239,
@@ -28625,7 +28625,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21240,
@@ -28642,7 +28642,7 @@ export default [
       CMS: 440,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21241,
@@ -28658,7 +28658,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21242,
@@ -28674,7 +28674,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21243,
@@ -28690,7 +28690,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21244,
@@ -28706,7 +28706,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21245,
@@ -28723,7 +28723,7 @@ export default [
       CMS: 440,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21246,
@@ -28739,7 +28739,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21247,
@@ -28755,7 +28755,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21248,
@@ -28771,7 +28771,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21249,
@@ -28787,7 +28787,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21250,
@@ -28804,7 +28804,7 @@ export default [
       CMS: 440,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21251,
@@ -28820,7 +28820,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21252,
@@ -28836,7 +28836,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21253,
@@ -28852,7 +28852,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21254,
@@ -28868,7 +28868,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21255,
@@ -28885,7 +28885,7 @@ export default [
       CMS: 440,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21256,
@@ -28901,7 +28901,7 @@ export default [
       CP: 6,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21257,
@@ -28917,7 +28917,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21258,
@@ -28933,7 +28933,7 @@ export default [
       CMS: 29,
       CRL: 165,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 21259,
@@ -28949,7 +28949,7 @@ export default [
       VIT: 26,
       PCP: 264,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21260,
@@ -28967,7 +28967,7 @@ export default [
       GTH: 264,
       PCP: 132,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21261,
@@ -28984,7 +28984,7 @@ export default [
       GP: 6,
       GTH: 198,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21262,
@@ -29002,7 +29002,7 @@ export default [
       GTH: 132,
       PCP: 66,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21263,
@@ -29019,7 +29019,7 @@ export default [
       GTH: 13,
       PCP: 145,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21264,
@@ -29035,7 +29035,7 @@ export default [
       VIT: 26,
       PCP: 264,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21265,
@@ -29053,7 +29053,7 @@ export default [
       GTH: 264,
       PCP: 132,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21266,
@@ -29070,7 +29070,7 @@ export default [
       GP: 6,
       GTH: 198,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21267,
@@ -29088,7 +29088,7 @@ export default [
       GTH: 132,
       PCP: 66,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21268,
@@ -29105,7 +29105,7 @@ export default [
       GTH: 13,
       PCP: 145,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21269,
@@ -29121,7 +29121,7 @@ export default [
       VIT: 26,
       PCP: 264,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21270,
@@ -29139,7 +29139,7 @@ export default [
       GTH: 264,
       PCP: 132,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21271,
@@ -29156,7 +29156,7 @@ export default [
       GP: 6,
       GTH: 198,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21272,
@@ -29174,7 +29174,7 @@ export default [
       GTH: 132,
       PCP: 66,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 21273,
@@ -29191,7 +29191,7 @@ export default [
       GTH: 13,
       PCP: 145,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23189,
@@ -29207,7 +29207,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23190,
@@ -29223,7 +29223,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23191,
@@ -29239,7 +29239,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23192,
@@ -29255,7 +29255,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23193,
@@ -29271,7 +29271,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23194,
@@ -29287,7 +29287,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23195,
@@ -29303,7 +29303,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23196,
@@ -29319,7 +29319,7 @@ export default [
       CMS: 514,
       CRL: 276,
     },
-    source: '巧手黄票→白票',
+    source: '巧手黄票→紫票',
   },
   {
     id: 23197,
@@ -29335,7 +29335,7 @@ export default [
       GTH: 264,
       PCP: 461,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 23198,
@@ -29351,7 +29351,7 @@ export default [
       GTH: 264,
       PCP: 461,
     },
-    source: '大地黄票→白票',
+    source: '大地黄票→紫票',
   },
   {
     id: 27077,

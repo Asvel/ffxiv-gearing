@@ -23,12 +23,14 @@ const jobDecode: { job: G.Job, statDecode: G.Stat[] }[] = [
   { job: 'NIN', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'SAM', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'RPR', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
+  { job: 'VPR', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'BRD', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'MCH', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'DNC', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },
   { job: 'BLM', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
   { job: 'SMN', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
   { job: 'RDM', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
+  { job: 'PCT', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
   { job: 'BLU', statDecode: ['CRT', 'DET', 'DHT', 'SPS'] },
   { job: 'CRP', statDecode: ['CMS', 'CRL', 'CP'] },
   { job: 'BSM', statDecode: ['CMS', 'CRL', 'CP'] },
@@ -49,7 +51,7 @@ for (let index = 0; index < jobDecode.length; index++) {
   jobEncode[item.job] = { index, statEncode };
 }
 
-const jobLevelDecode: G.JobLevel[] = [50, 60, 70, 80, 90];
+const jobLevelDecode: G.JobLevel[] = [50, 60, 70, 80, 90, 100];
 const jobLevelEncode = reverseMapping(jobLevelDecode);
 
 enum GearType {
@@ -84,14 +86,14 @@ class Ranges {
   private _version = 4;
   public useVersion(version: number) {
     this._version = version;
-    if (version >= 4) {
-      this.job = 31;  // jobDecode.length
-      this.jobLevel = 5;  // jobLevelDecode.length
-      this.syncLevel = 670;
+    if (version >= 5) {
+      this.job = 33;  // jobDecode.length
+      this.jobLevel = 6;  // jobLevelDecode.length
+      this.syncLevel = 800;
       this.gearType = 8;  // gearTypes.length
-      this.gearId = 50000;
+      this.gearId = 60000;
       this.materiaSlot = 6;
-      this.materiaGrade = 10;
+      this.materiaGrade = 12;
       this.specialGear = 9;  // specialGearDecode.length
       this.customStat = 1001;
     }
@@ -102,7 +104,7 @@ class Ranges {
 }
 
 export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): string {
-  const version = 4;
+  const version = 5;
   const ranges = new Ranges();
   ranges.useVersion(version);
   ranges.useJob(job);
@@ -275,7 +277,7 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
   return base62.encode(result);
 }
 
-export function parse(s: string): G.Gearset | 'legacy' {
+export function parse(s: string): G.Gearset | 'shb' | 'ew' {
   let input = base62.decode(s);
   const read = (range: number): number => {
     const rangeBI = BigInt(range);
@@ -288,7 +290,8 @@ export function parse(s: string): G.Gearset | 'legacy' {
   const ranges = new Ranges();
 
   const version = read(ranges.version);
-  if (version < 4) return 'legacy';
+  if (version < 4) return 'shb';
+  if (version < 5) return 'ew';
   ranges.useVersion(version);
 
   const { job, statDecode } = jobDecode[read(ranges.job)];
