@@ -8,27 +8,6 @@ export const FilterPanel = mobxReact.observer(() => {
   return (
     <div className="filter card">
       <div className="filter_section">
-        <span className="filter_title">实装版本</span>
-        <span className="filter_sub">即使选择只显示国服项目，数值（如发生过变更）也仍为国际服版本</span>
-      </div>
-      <div className="filter_controls">
-        <Radio
-          label={`显示全部`}
-          checked={store.filterPatch === 'all'}
-          onChange={() => store.setFilterPatch('all')}
-        />
-        <Radio
-          label={`显示国服已实装和即将实装的项目（≤${G.patches.next}）`}
-          checked={store.filterPatch === 'next'}
-          onChange={() => store.setFilterPatch('next')}
-        />
-        <Radio
-          label={`只显示国服已实装的项目（≤${G.patches.current}）`}
-          checked={store.filterPatch === 'current'}
-          onChange={() => store.setFilterPatch('current')}
-        />
-      </div>
-      <div className="filter_section">
         <span className="filter_title">“聚焦”模式</span>
         <span className="filter_sub">隐藏大部分装备，对比某几件</span>
       </div>

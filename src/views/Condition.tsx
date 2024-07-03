@@ -32,7 +32,7 @@ export const Condition = mobxReact.observer(() => {
       {welcoming && (
         <a
           className={classNames('condition_tip', store.promotion.get('legacyLink') && '-highlight')}
-          href="./shb/"
+          href="../shb/"
           children="此工具已适配至《晓月之终途》资料片，如需使用《暗影之逆焰》版本请点击此处"
           onClick={store.promotion.get('legacyLink') ? () => store.promotion.off('legacyLink') : undefined}
           onMouseLeave={store.promotion.get('legacyLink') ? () => store.promotion.off('legacyLink') : undefined}
@@ -142,13 +142,13 @@ export const Condition = mobxReact.observer(() => {
             placement="bottom-end"
           />
         )}
-        {(welcoming || editing) && (
-          <Dropdown
-            label={({ ref, toggle }) => (
-              <Button ref={ref} className="condition_button" onClick={toggle}>导入</Button>
-            )}
-            popper={ImportPanel}
-            placement="bottom-end"
+        {viewing && (
+          <Button
+            className="condition_button"
+            children="迁移至最新版本"
+            onClick={() => {
+              window.location.href = store.migrateUrl;
+            }}
           />
         )}
         {viewing && (
