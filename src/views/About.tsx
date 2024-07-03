@@ -3,9 +3,8 @@ import * as mobxReact from 'mobx-react-lite';
 export const About = mobxReact.observer(() => {
   return (
     <div className="about">
-      <span className="about_name">最终幻想14配装器</span>
-      <span className="about_name-suffix">怀旧版</span>
-      <span className="about_version">2203b</span>
+      <span className="about_name">最终幻想14配装器暗影版</span>
+      <span className="about_version">2407a</span>
       <span className="about_separator">·</span>
       <a
         className="about_link"

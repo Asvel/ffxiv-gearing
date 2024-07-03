@@ -125,19 +125,10 @@ export const Condition = mobxReact.observer(() => {
             placement="bottom-end"
           />
         )}
-        {(welcoming || editing) && (
-          <Dropdown
-            label={({ ref, toggle }) => (
-              <Button ref={ref} className="condition_button" onClick={toggle}>导入</Button>
-            )}
-            popper={ImportPanel}
-            placement="bottom-end"
-          />
-        )}
         {viewing && (
           <Button
             className="condition_button"
-            children="迁移至《晓月之终途》版本"
+            children="迁移至最新版本"
             onClick={() => {
               window.location.href = store.migrateUrl;
             }}
