@@ -937,7 +937,7 @@ export default [
     rarity: 3,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -955,7 +955,7 @@ export default [
     rarity: 3,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -973,7 +973,7 @@ export default [
     rarity: 3,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -991,7 +991,7 @@ export default [
     rarity: 3,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1009,7 +1009,7 @@ export default [
     rarity: 3,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1099,7 +1099,7 @@ export default [
     rarity: 3,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1189,7 +1189,7 @@ export default [
     rarity: 3,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1279,7 +1279,7 @@ export default [
     rarity: 3,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1369,7 +1369,7 @@ export default [
     rarity: 3,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1927,7 +1927,7 @@ export default [
     rarity: 3,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1945,7 +1945,7 @@ export default [
     rarity: 3,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1963,7 +1963,7 @@ export default [
     rarity: 3,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1981,7 +1981,7 @@ export default [
     rarity: 3,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -1999,7 +1999,7 @@ export default [
     rarity: 3,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -2089,7 +2089,7 @@ export default [
     rarity: 3,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -2179,7 +2179,7 @@ export default [
     rarity: 3,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -2269,7 +2269,7 @@ export default [
     rarity: 3,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -2359,7 +2359,7 @@ export default [
     rarity: 3,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -3699,7 +3699,7 @@ export default [
     rarity: 2,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -3717,7 +3717,7 @@ export default [
     rarity: 2,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -3735,7 +3735,7 @@ export default [
     rarity: 2,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -3753,7 +3753,7 @@ export default [
     rarity: 2,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -3771,7 +3771,7 @@ export default [
     rarity: 2,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -3861,7 +3861,7 @@ export default [
     rarity: 2,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -3951,7 +3951,7 @@ export default [
     rarity: 2,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -4041,7 +4041,7 @@ export default [
     rarity: 2,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -4131,7 +4131,7 @@ export default [
     rarity: 2,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -5179,7 +5179,7 @@ export default [
     rarity: 2,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -5199,7 +5199,7 @@ export default [
     rarity: 2,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -5219,7 +5219,7 @@ export default [
     rarity: 2,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -5239,7 +5239,7 @@ export default [
     rarity: 2,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -5259,7 +5259,7 @@ export default [
     rarity: 2,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -5359,7 +5359,7 @@ export default [
     rarity: 2,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     materiaAdvanced: true,
@@ -5459,7 +5459,7 @@ export default [
     rarity: 2,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     materiaAdvanced: true,
@@ -5559,7 +5559,7 @@ export default [
     rarity: 2,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     materiaAdvanced: true,
@@ -5659,7 +5659,7 @@ export default [
     rarity: 2,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     materiaAdvanced: true,
@@ -6219,7 +6219,7 @@ export default [
     rarity: 3,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -6237,7 +6237,7 @@ export default [
     rarity: 3,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -6255,7 +6255,7 @@ export default [
     rarity: 3,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -6273,7 +6273,7 @@ export default [
     rarity: 3,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -6291,7 +6291,7 @@ export default [
     rarity: 3,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -6381,7 +6381,7 @@ export default [
     rarity: 3,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -6471,7 +6471,7 @@ export default [
     rarity: 3,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -6561,7 +6561,7 @@ export default [
     rarity: 3,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -6651,7 +6651,7 @@ export default [
     rarity: 3,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -6783,7 +6783,7 @@ export default [
     rarity: 2,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 5,
     stats: {
@@ -9312,7 +9312,7 @@ export default [
     rarity: 3,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -9331,7 +9331,7 @@ export default [
     rarity: 3,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -9350,7 +9350,7 @@ export default [
     rarity: 3,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -9369,7 +9369,7 @@ export default [
     rarity: 3,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -9388,7 +9388,7 @@ export default [
     rarity: 3,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -9483,7 +9483,7 @@ export default [
     rarity: 3,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -9578,7 +9578,7 @@ export default [
     rarity: 3,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -9673,7 +9673,7 @@ export default [
     rarity: 3,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -9768,7 +9768,7 @@ export default [
     rarity: 3,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -11666,7 +11666,7 @@ export default [
     rarity: 2,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -11685,7 +11685,7 @@ export default [
     rarity: 2,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -11704,7 +11704,7 @@ export default [
     rarity: 2,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -11723,7 +11723,7 @@ export default [
     rarity: 2,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -11742,7 +11742,7 @@ export default [
     rarity: 2,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -11837,7 +11837,7 @@ export default [
     rarity: 2,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -11932,7 +11932,7 @@ export default [
     rarity: 2,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -12027,7 +12027,7 @@ export default [
     rarity: 2,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -12122,7 +12122,7 @@ export default [
     rarity: 2,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -12681,7 +12681,7 @@ export default [
     rarity: 3,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -12699,7 +12699,7 @@ export default [
     rarity: 3,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -12717,7 +12717,7 @@ export default [
     rarity: 3,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -12735,7 +12735,7 @@ export default [
     rarity: 3,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -12753,7 +12753,7 @@ export default [
     rarity: 3,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -15345,7 +15345,7 @@ export default [
     rarity: 2,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -15363,7 +15363,7 @@ export default [
     rarity: 2,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -15381,7 +15381,7 @@ export default [
     rarity: 2,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -15399,7 +15399,7 @@ export default [
     rarity: 2,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -15417,7 +15417,7 @@ export default [
     rarity: 2,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -15507,7 +15507,7 @@ export default [
     rarity: 2,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -15597,7 +15597,7 @@ export default [
     rarity: 2,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -15687,7 +15687,7 @@ export default [
     rarity: 2,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -15777,7 +15777,7 @@ export default [
     rarity: 2,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -16767,7 +16767,7 @@ export default [
     rarity: 3,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -16785,7 +16785,7 @@ export default [
     rarity: 3,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -16803,7 +16803,7 @@ export default [
     rarity: 3,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -16821,7 +16821,7 @@ export default [
     rarity: 3,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -16839,7 +16839,7 @@ export default [
     rarity: 3,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -16929,7 +16929,7 @@ export default [
     rarity: 3,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17019,7 +17019,7 @@ export default [
     rarity: 3,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17109,7 +17109,7 @@ export default [
     rarity: 3,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17199,7 +17199,7 @@ export default [
     rarity: 3,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17757,7 +17757,7 @@ export default [
     rarity: 3,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17775,7 +17775,7 @@ export default [
     rarity: 3,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17793,7 +17793,7 @@ export default [
     rarity: 3,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17811,7 +17811,7 @@ export default [
     rarity: 3,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17829,7 +17829,7 @@ export default [
     rarity: 3,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -17919,7 +17919,7 @@ export default [
     rarity: 3,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -18009,7 +18009,7 @@ export default [
     rarity: 3,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -18099,7 +18099,7 @@ export default [
     rarity: 3,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -18189,7 +18189,7 @@ export default [
     rarity: 3,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -20151,7 +20151,7 @@ export default [
     rarity: 2,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -20169,7 +20169,7 @@ export default [
     rarity: 2,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -20187,7 +20187,7 @@ export default [
     rarity: 2,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -20205,7 +20205,7 @@ export default [
     rarity: 2,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -20223,7 +20223,7 @@ export default [
     rarity: 2,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -20313,7 +20313,7 @@ export default [
     rarity: 2,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -20403,7 +20403,7 @@ export default [
     rarity: 2,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -20493,7 +20493,7 @@ export default [
     rarity: 2,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -20583,7 +20583,7 @@ export default [
     rarity: 2,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -21862,7 +21862,7 @@ export default [
     rarity: 2,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -21882,7 +21882,7 @@ export default [
     rarity: 2,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -21902,7 +21902,7 @@ export default [
     rarity: 2,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -21922,7 +21922,7 @@ export default [
     rarity: 2,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -21942,7 +21942,7 @@ export default [
     rarity: 2,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     materiaAdvanced: true,
@@ -22042,7 +22042,7 @@ export default [
     rarity: 2,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     materiaAdvanced: true,
@@ -22142,7 +22142,7 @@ export default [
     rarity: 2,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     materiaAdvanced: true,
@@ -22242,7 +22242,7 @@ export default [
     rarity: 2,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     materiaAdvanced: true,
@@ -22342,7 +22342,7 @@ export default [
     rarity: 2,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     materiaAdvanced: true,
@@ -22902,7 +22902,7 @@ export default [
     rarity: 3,
     slot: 3,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -22920,7 +22920,7 @@ export default [
     rarity: 3,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -22938,7 +22938,7 @@ export default [
     rarity: 3,
     slot: 5,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -22956,7 +22956,7 @@ export default [
     rarity: 3,
     slot: 7,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -22974,7 +22974,7 @@ export default [
     rarity: 3,
     slot: 8,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 2,
     stats: {
@@ -23064,7 +23064,7 @@ export default [
     rarity: 3,
     slot: 9,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -23154,7 +23154,7 @@ export default [
     rarity: 3,
     slot: 10,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -23244,7 +23244,7 @@ export default [
     rarity: 3,
     slot: 11,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -23334,7 +23334,7 @@ export default [
     rarity: 3,
     slot: 12,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 1,
     stats: {
@@ -23466,7 +23466,7 @@ export default [
     rarity: 2,
     slot: 4,
     role: 5,
-    jobCategory: 89,
+    jobCategory: 147,
     equipLevel: 90,
     materiaSlot: 5,
     stats: {

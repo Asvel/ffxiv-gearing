@@ -200,7 +200,7 @@ const gears = Item
       }
     }
     if (ret.jobCategory === 63 && ret.equipLevel > 80) {  // 青魔并不能装备高等级装备
-      ret.jobCategory = 89;
+      ret.jobCategory = 147;
     }
 
     if (ret.source?.startsWith('巧手大地')) {
