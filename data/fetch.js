@@ -6,6 +6,7 @@ const fs = require('fs');
 const resources = {
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/BaseParam.csv': '',
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/ClassJobCategory.csv': '',
+  'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/ContentFinderCondition.csv': '',
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/Item.csv': '',
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/ItemAction.csv': '',
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/ItemFood.csv': '',
