@@ -156,13 +156,11 @@ export const Condition = mobxReact.observer(() => {
             className="condition_button"
             onClick={() => {
               store.startEditing();
-              // TODO: recheck behavior
               window.history.pushState(null, document.title, window.location.href.replace(/\?.*$/, ''));
             }}
             children="编辑"
           />
         )}
-        {/* <Button className="condition_button">历史记录</Button> */}
         {(editing || viewing) && (
           <Dropdown
             label={({ ref, toggle }) => (
