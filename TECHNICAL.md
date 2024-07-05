@@ -43,11 +43,6 @@ yarn run analyze
 这种编码方式可以在不引入复杂的正式压缩算法的情况下，减少冗余让编码后的链接尽量短。
 
 
-### 历史记录
-
-页面状态存储在 localStorage 中，区分每个页面的 key 我放到了 history.state 里，不放在 URL 里因为无法避免不会读网址的用户复制到不适合贴出去的链接（无论如何标识，一般用户看不出网址里哪一部分是应该被复制走的实在太正常了）。
-
-
 ### Service Worker
 
 因为 GitHub Pages 的缓存机制不可调整，我用了 Service Worker 来启用更激进的缓存资源策略，但与常规用法不同，它被设置为了只对文件名带 contenthash 的资源生效，入口页面仍然是本来的缓存机制，发布新版之后 contenthash 会变旧版自动失效所以 Service Worker 本身不需要更新。

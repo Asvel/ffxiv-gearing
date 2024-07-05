@@ -336,7 +336,7 @@ const levelGroupBasis = [
   210, 255, 271,
   340, 385, 401,
   470, 515, 531,
-  600, 645,
+  620,
 ];
 const levelGroupIds = [];
 const levelGroupLast = levelGroupBasis[levelGroupBasis.length - 1];

@@ -4,7 +4,7 @@ export const About = mobxReact.observer(() => {
   return (
     <div className="about">
       <span className="about_name">最终幻想14配装器晓月版</span>
-      <span className="about_version">2407a</span>
+      <span className="about_version">2407c</span>
       <span className="about_separator">·</span>
       <a
         className="about_link"
