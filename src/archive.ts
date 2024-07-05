@@ -1,10 +1,8 @@
-const instanceId = Math.random().toString();
-
 function createKey(): string {
   let key: string;
   do {
-    key = `ffxiv-gearing-${Math.random().toString(36).slice(2, 10)}`;
-  } while (localStorage.getItem(key) !== null);
+    key = `ffxiv-gearing-${Math.random().toString(36).slice(2, 6)}`;
+  } while (sessionStorage.getItem(key) !== null);
   return key;
 }
 
@@ -20,12 +18,11 @@ let newArchive: object | undefined;
 function persistArchiveIfExists(): void {
   if (newArchive !== undefined) {
     let key = getCurrentKey();
-    if (key === undefined || localStorage.getItem(`${key}.owner`) !== instanceId) {
+    if (key === undefined) {
       key = createKey();
       setCurrentKey(key);
-      localStorage.setItem(`${key}.owner`, instanceId);
     }
-    localStorage.setItem(key, JSON.stringify(newArchive));
+    sessionStorage.setItem(key, JSON.stringify(newArchive));
     newArchive = undefined;
   }
 }
@@ -43,11 +40,7 @@ export function load(key?: string): object | undefined {
     setCurrentKey(key);
   }
   if (key !== undefined) {
-    localStorage.setItem(`${key}.owner`, instanceId);
-    const archive = localStorage.getItem(key);
+    const archive = sessionStorage.getItem(key);
     return archive ? JSON.parse(archive) : undefined;
   }
-}
-
-export function list() {
 }
