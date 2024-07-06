@@ -316,17 +316,6 @@ export const jobSchemas = {
     mainStat: 'DEX',
     traitDamageMultiplier: 1,
   } as JobSchema,
-  VPR: {
-    name: 'Viper',
-    stats: statSchemas.dpsDex,
-    slots: slotSchemaCombat,
-    defaultItemLevel: defaultItemLevelCombat,
-    jobLevel: jobLevelMax,
-    levelSyncable: true,
-    statModifiers: { DEX: 110, VIT: 100, hp: 111, gcd: 85, gcdReason: '“疾速”状态中' },
-    mainStat: 'DEX',
-    traitDamageMultiplier: 1,
-  } as JobSchema,
   SAM: {
     name: '武士',
     stats: statSchemas.dpsStr,
@@ -347,6 +336,17 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 115, VIT: 105, hp: 115 },
     mainStat: 'STR',
+    traitDamageMultiplier: 1,
+  } as JobSchema,
+  VPR: {
+    name: 'Viper',
+    stats: statSchemas.dpsDex,
+    slots: slotSchemaCombat,
+    defaultItemLevel: defaultItemLevelCombat,
+    jobLevel: jobLevelMax,
+    levelSyncable: true,
+    statModifiers: { DEX: 110, VIT: 100, hp: 111, gcd: 85, gcdReason: '“疾速”状态中' },
+    mainStat: 'DEX',
     traitDamageMultiplier: 1,
   } as JobSchema,
   BRD: {
@@ -581,9 +581,9 @@ export const materiaNames: { [index in Stat]?: string } = {
 };
 export const materiaGradeNames: string[] = ['壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖', '拾', '拾壹', '拾贰'];
 export const materiaStatNames = { ...statNames, CP: 'CP', GP: 'GP' };
-export function getMateriaName(stat: Stat, grade: MateriaGrade, useStat: boolean) {
+export function getMateriaName(stat: Stat, grade: MateriaGrade, useStat: boolean, maxLength=4) {
   return useStat ? materiaStatNames[stat].slice(0, 2) + materias[stat]![grade - 1] :
-    materiaNames[stat]!.slice(0, 3 - materiaGradeNames[grade - 1].length) + materiaGradeNames[grade - 1];
+    materiaNames[stat]!.slice(0, maxLength - materiaGradeNames[grade - 1].length) + materiaGradeNames[grade - 1];
 }
 
 export const races = [

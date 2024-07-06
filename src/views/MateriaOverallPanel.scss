@@ -36,19 +36,18 @@
     width: 72px;
     color: inherit;
   }
+  th:first-child,
+  td:first-child {
+    padding-left: 15px;
+    padding-right: 8px;
+    text-align: left;
+  }
 }
 .materia-consumption_empty {
   color: #00000060;
 }
-.materia-consumption_tip {
-  line-height: 20px;
-  text-align: left;
-  .table tbody &:hover {
-    background: none;
-  }
-  td {
-    padding: 8px 16px;
-  }
+.table .materia-consumption_tip:hover {
+  background: none;
 }
 .materia-consumption_tool-duplicates {
   font-weight: bold;

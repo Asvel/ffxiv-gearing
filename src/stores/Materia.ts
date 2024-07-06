@@ -18,7 +18,7 @@ export const Materia = mst.types
   .views(self => ({
     get name(): string {
       return self.stat === undefined ? '' : G.getMateriaName(self.stat, self.grade!,
-        (mst.getEnv(self).setting as ISetting).materiaDisplayName === 'stat');
+        (mst.getEnv(self).setting as ISetting).materiaDisplayName === 'stat', 3);
     },
     get isAdvanced(): boolean {
       return self.index >= self.gear.materiaSlot;
