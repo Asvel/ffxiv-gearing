@@ -55,3 +55,11 @@
   padding-top: 16px;
   @include elevation(4);
 }
+.job-select-panel_tip {
+  position: absolute;
+  bottom: 13px;
+  right: 18px;
+  line-height: 1;
+  font-style: italic;
+  color: #00000099;
+}

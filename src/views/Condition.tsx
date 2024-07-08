@@ -51,6 +51,9 @@ export const Condition = mobxReact.observer(() => {
           popper={() => (
             <div className="job-select-panel card">
               <JobSelector />
+              <div className="job-select-panel_tip">
+                中键点击职业（或右键菜单-在新标签页中打开链接）可新建一份空白配装
+              </div>
             </div>
           )}
           placement="bottom-start"
