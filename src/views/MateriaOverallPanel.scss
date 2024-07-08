@@ -44,10 +44,21 @@
   }
 }
 .materia-consumption_empty {
-  color: #00000060;
+  td:first-child {
+    padding: 0;
+    text-align: center;
+    color: #00000060;
+  }
 }
-.table .materia-consumption_tip:hover {
-  background: none;
+.materia-consumption_tip {
+  line-height: 20px;
+  .table tbody &:hover {
+    background: none;
+  }
+  td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }
 .materia-consumption_tool-duplicates {
   font-weight: bold;
