@@ -190,6 +190,18 @@ export const Store = mst.types
           }
         }
       }
+      let advancedItemCount = 0;
+      for (const consumptionOfStat of Object.values(consumption)) {
+        for (const consumptionItem of Object.values(consumptionOfStat!)) {
+          if (consumptionItem!.rates.length > 0) {
+            advancedItemCount++;
+          }
+        }
+      }
+      const p90 = .90 ** (1 / advancedItemCount);
+      const p99 = .99 ** (1 / advancedItemCount);
+      const thresholds90: { pBelow: number, pAbove: number, increase: () => void }[] = [];
+      const thresholds99: { pBelow: number, pAbove: number, increase: () => void }[] = [];
       for (const consumptionOfStat of Object.values(consumption)) {
         for (const consumptionItem of Object.values(consumptionOfStat!)) {
           consumptionItem!.expectation = consumptionItem!.safe + Math.round(consumptionItem!.expectation);
@@ -211,12 +223,28 @@ export const Store = mst.types
                 ps[n][i] += (1 - p[i]) ** (j - 1) * p[i] * ps[n - j][i + 1];
               }
             }
-            if (ps[n][0] > 0.9 && n90 === 0) n90 = n;
-            if (ps[n][0] > 0.99) break;
+            if (ps[n][0] > p90 && n90 === 0) n90 = n;
+            if (ps[n][0] > p99) break;
             n++;
           }
-          consumptionItem!.confidence90 = consumptionItem!.safe + n90;
-          consumptionItem!.confidence99 = consumptionItem!.safe + n;
+          consumptionItem!.confidence90 = consumptionItem!.safe + n90 - 1;
+          consumptionItem!.confidence99 = consumptionItem!.safe + n - 1;
+          thresholds90.push({ pBelow: ps[n90 - 1][0], pAbove: ps[n90][0],
+            increase: () => consumptionItem!.confidence90++ });
+          thresholds99.push({ pBelow: ps[n - 1][0], pAbove: ps[n][0],
+            increase: () => consumptionItem!.confidence99++ });
+        }
+      }
+      for (const [ threshold, pTarget ] of [[thresholds90, .90], [thresholds99, .99]] as const) {
+        threshold.sort((a, b) => a.pBelow - b.pBelow);
+        let pOverall = 1;
+        for (const entry of threshold) {
+          pOverall *= entry.pBelow;
+        }
+        for (const entry of threshold) {
+          entry.increase();
+          pOverall = pOverall / entry.pBelow * entry.pAbove;
+          if (pOverall > pTarget) break;
         }
       }
       return consumption;
