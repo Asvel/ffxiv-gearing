@@ -303,6 +303,7 @@ export default [
     MNK: true,
     NIN: true,
     SAM: true,
+    VPR: true,
   },
   {
     NIN: true,
