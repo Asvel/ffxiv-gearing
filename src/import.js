@@ -4,7 +4,6 @@
 
   const data = {
     job: null,
-    jobLevel: 100,  // FIXME
     gears: [],
   };
 
@@ -79,8 +78,7 @@
     // Etro
     if (/\betro\b/i.test(document.title)) {
       let element = document.getElementById('root')._reactRootContainer._internalRoot.current;
-      while (element.child && !(element.memoizedProps && element.memoizedProps.value &&
-        element.memoizedProps.value.store)) element = element.child;
+      while (element.child && !(element.memoizedProps?.value?.store)) element = element.child;
       const state = element.memoizedProps.value.store.getState();
       const materiaInfoOfId = {};
       for (const materiaInfo of state.materia.materiaSelectOptions) {
@@ -110,7 +108,7 @@
           let materiaKey = id;
           if (slot === 'fingerL') materiaKey += 'L';
           if (slot === 'fingerR') materiaKey += 'R';
-          const materia = state.gearsets.gearset.materia[materiaKey];
+          const materia = state.gearsets.gearset.materia?.[materiaKey];
           const materias = [];
           if (materia) {
             for (const [ index, materiaId ] of Object.entries(materia)) {
@@ -124,6 +122,8 @@
         }
       }
       data.job = state.jobs.currentJob.abbrev;
+      data.jobLevel = state.gearsets.gearset.level;
+      data.syncLevel = state.gearsets.gearset.itemLevelSync;
     }
 
     // FFXIV Teamcraft
