@@ -15,10 +15,9 @@
   try {
 
     // Ariyala's Final Fantasy XIV Toolkit
-    const { characterData } = window;
+    const { characterData, ContentGearCalculator } = window;
     if (characterData !== undefined) {
       const { identifier, items, materiaData } = characterData.currentSet;
-      data.job = identifier;
       for (const slot of Object.keys(items)) {
         const item = items[slot];
         const id = item.itemID;
@@ -28,6 +27,8 @@
         });
         data.gears.push({ id, materias });
       }
+      data.job = identifier;
+      data.jobLevel = parseInt(ContentGearCalculator.currentLevel, 10);
     }
 
     // FFXIV ORE TOOLS
