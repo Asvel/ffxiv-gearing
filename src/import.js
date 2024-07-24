@@ -115,7 +115,7 @@
           if (materia) {
             for (const [ index, materiaId ] of Object.entries(materia)) {
               const materiaInfo = materiaInfoOfId[materiaId];
-              if (materiaInfo.param in materiaTypes) {
+              if (materiaInfo !== undefined && materiaInfo.param in materiaTypes) {
                 materias[index - 1] = [materiaTypes[materiaInfo.param], materiaInfo.tier];
               }
             }
@@ -144,7 +144,7 @@
       const Component = GearsetModule.prototype.constructor.ɵinj.imports
         .find(i => i.providers).providers[0].useValue[0].component;
       const { copyToClipboard } = Component.prototype;
-      let component;
+      let component;  // eslint-disable-next-line @typescript-eslint/no-this-alias
       Component.prototype.copyToClipboard = function () { component = this; };
       teamcraftApp.querySelector('.page-title [nztype="snippets"]').parentNode.click();
       Component.prototype.copyToClipboard = copyToClipboard;
