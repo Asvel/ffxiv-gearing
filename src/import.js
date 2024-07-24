@@ -130,17 +130,12 @@
     const teamcraftApp = document.getElementsByTagName('app-gearset-display')[0];
     if (teamcraftApp !== undefined) {
       // obtain component instance in a very evil way...
-      const webpackChunks = window['webpackChunkclient'];
-      let webpackRequire;
-      webpackChunks.push([[-webpackChunks.length], {}, wr => { webpackRequire = wr; }]);
-      let GearsetModule;
-      for (const chunk of webpackChunks) {
-        if (chunk.length !== 2) continue;
-        const keys = Object.keys(chunk[1]);
-        if (keys.length !== 1) continue;
-        ({ GearsetModule } = webpackRequire(keys[0]));
-        if (GearsetModule !== undefined) break;
-      }
+      const mainUrl = Array.from(document.getElementsByTagName('script'),
+          e => e.getAttribute('src')).find(s => s?.includes('/main-'));
+      const mainScript = await (await fetch(mainUrl)).text();
+      const gearsetPath = /path:"gearset",loadChildren:\(\)=>import\("([^"]+)"/.exec(mainScript)[1];
+      const gearsetUrl = new URL(gearsetPath, mainUrl).href;
+      const { GearsetModule } = await import(/* webpackIgnore: true */gearsetUrl);
       const Component = GearsetModule.prototype.constructor.ɵinj.imports
         .find(i => i.providers).providers[0].useValue[0].component;
       const { copyToClipboard } = Component.prototype;
@@ -155,25 +150,24 @@
       const materiaMap = {};
       materias.forEach(m => { materiaMap[m.itemId] = m; });
       for (const item of Object.values(gearset)) {
-        if (item) {
-          const id = item.itemId;
-          if (id) {
-            const materias = item.materias.map(materiaId => {
-              const materia = materiaMap[materiaId];
-              if (!materia) return null;
-              const stat = materiaTypes[materia.baseParamId];
-              if (!stat) return null;
-              return [stat, materia.tier];
-            });
-            data.gears.push({ id, materias });
-          }
-          if (item.ID) {  // food
-            data.gears.push({ id: item.ID, materias: [] });
-          }
+        if (item?.itemId) {
+          const materias = item.materias.map(materiaId => {
+            const materia = materiaMap[materiaId];
+            if (!materia) return null;
+            const stat = materiaTypes[materia.baseParamId];
+            if (!stat) return null;
+            return [stat, materia.tier];
+          });
+          data.gears.push({ id: item.itemId, materias });
         }
+      }
+      const food = await subscribe(component.food$);
+      if (food) {  // food
+        data.gears.push({ id: food.ID, materias: [] });
       }
       const jobAbbr = await subscribe(component.lazyData.getEntry('jobAbbr'));
       data.job = jobAbbr[gearset.job].en;
+      data.jobLevel = await subscribe(component.level$);
     }
 
   } catch (e) { debugger; }  // eslint-disable-line no-debugger
