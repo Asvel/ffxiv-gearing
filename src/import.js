@@ -31,29 +31,10 @@
       data.jobLevel = parseInt(ContentGearCalculator.currentLevel, 10);
     }
 
-    // FFXIV ORE TOOLS
-    const { filterJobClass, equipSelectorList, jqsEquipList, materiaSelectorList, jqsMateriaList } = window;
-    if (filterJobClass !== undefined) {
-      const materiaTypes = {
-        'mat_hit': 'DHT',
-        'mat_crit': 'CRT',
-        'mat_will': 'DET',
-        'mat_skill_speed': 'SKS',
-        'mat_spell_speed': 'SPS',
-        'mat_dodge': 'TEN',
-        'mat_pie': 'PIE',
-        'mat_str': 'STR',
-        'mat_vit': 'VIT',
-        'mat_dex': 'DEX',
-        'mat_int': 'INT',
-        'mat_mnd': 'MND',
-        'mat_work': 'CMS',
-        'mat_edit': 'CRL',
-        'mat_cp': 'CP',
-        'mat_gain': 'GTH',
-        'mat_quality': 'PCP',
-        'mat_gp': 'GP',
-      };
+    // FF14俺Tools
+    const { controller } = window;
+    if (controller?.equipManager !== undefined) {
+      const materiaTypes = { CRIT: 'CRT', DH: 'DHT', CRFT: 'CMS', CNTL: 'CRL', GATH: 'GTH', PERC: 'PCP' };
       const lodestoneIds = (await import(/* webpackChunkName: "lodestone-id" */'../data/out/lodestoneIds')).default;
       const lodestoneIdToItemId = {};
       for (let i = 0; i < lodestoneIds.length; i++) {
@@ -61,19 +42,19 @@
           lodestoneIdToItemId[lodestoneIds[i]] = i;
         }
       }
-      data.job = filterJobClass;
-      for (let i = 0; i < equipSelectorList.length; i++) {
-        const equipSelector = equipSelectorList[i];
-        const equip = jqsEquipList[equipSelector].setting.data[jqsEquipList[equipSelector].selectedIndex];
-        const materiaData = jqsMateriaList[materiaSelectorList[i]].selectedMateriaData;
-        if (equip.data) {
-          const id = lodestoneIdToItemId[equip.data.id];
-          if (id !== undefined) {
-            const materias = (materiaData || []).map(m => [materiaTypes[m.key], Number(m.level)]);
-            data.gears.push({ id, materias });
-          }
+      for (const entry of Object.values(controller.equipManager.equipSelectors)) {
+        const id = lodestoneIdToItemId[entry?.selectedItem?.id];
+        if (id !== undefined) {
+          const materias = entry.selectedMateria?.list?.map(m => [materiaTypes[m.key] ?? m.key, m.tier + 1]) ?? [];
+          data.gears.push({ id, materias });
         }
       }
+      const foodId = lodestoneIdToItemId[controller.config.conf.meal?.slice(0, 11)];
+      if (foodId !== undefined) {
+        data.gears.push({ id: foodId, materias: [] });
+      }
+      data.job = controller.config.conf.jobId;
+      data.jobLevel = controller.config.conf.lvHigh;
     }
 
     // Etro
@@ -163,7 +144,7 @@
         }
       }
       const food = await subscribe(component.food$);
-      if (food) {  // food
+      if (food) {
         data.gears.push({ id: food.ID, materias: [] });
       }
       const jobAbbr = await subscribe(component.lazyData.getEntry('jobAbbr'));
