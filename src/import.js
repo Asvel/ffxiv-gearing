@@ -160,9 +160,17 @@
       for (const item of Object.values(currentGearSet.equipment)) {
         if (!item) continue;
         const { id } = item.gearItem;
-        const materias = item.melds.filter(Boolean).map(({ equippedMateria }) =>
+        const materias = item.melds.map(({ equippedMateria }) => equippedMateria &&
           [materiaTypes[equippedMateria.primaryStat], equippedMateria.materiaGrade]);
-        data.gears.push({ id, materias });
+        let customStats;
+        if (item.relicStats) {
+          customStats = {};
+          for (const [ stat, value ] of Object.entries(item.relicStats)) {
+            if (!value) continue;
+            customStats[materiaTypes[stat]] = value;
+          }
+        }
+        data.gears.push({ id, materias, customStats });
       }
       if (currentGearSet.food) {
         data.gears.push({ id: currentGearSet.food.id, materias: [] });
@@ -170,6 +178,7 @@
       data.job = currentSheet.classJobName;
       data.jobLevel = currentSheet.level;
       data.syncLevel = currentSheet.ilvlSync;
+      if (data.syncLevel === 665) data.syncLevel = undefined;  // prefer job level sync in this case
     }
 
   } catch (e) { debugger; }  // eslint-disable-line no-debugger
