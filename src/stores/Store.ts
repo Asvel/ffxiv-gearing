@@ -605,6 +605,15 @@ export const Store = mst.types
     get shareUrl(): string {
       return window.location.origin + window.location.pathname + '?' + this.share;
     },
+    get title(): string {
+      const suffix = '最终幻想14配装器';
+      if (self.job === undefined) return suffix;
+      if (self.isLoading) return `${self.schema.name} - ${suffix}`;
+      const glance = self.schema.mainStat !== undefined
+        ? `il${self.equippedLevel}/${this.equippedEffects.gcd.toFixed(2)}s`
+        : self.schema.stats.map(s => self.equippedStats[s]).join('/');
+      return `${self.schema.name}(${glance}) - ${suffix}`;
+    },
   }))
   .actions(self => ({
     createGears(): void {

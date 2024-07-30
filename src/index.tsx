@@ -7,11 +7,7 @@ import { store } from './stores';
 import { App } from './views/App';
 import './views/App.scss';
 
-mobx.autorun(() => {
-  if (store.job !== undefined && !store.isLoading) {
-    document.title = `${store.schema.name}(il${store.equippedLevel}) - 最终幻想14配装器`;
-  }
-});
+mobx.autorun(() => { document.title = store.title; });
 
 const container = document.createElement('div');
 document.body.appendChild(container);
