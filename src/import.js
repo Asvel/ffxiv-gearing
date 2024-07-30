@@ -152,6 +152,26 @@
       data.jobLevel = await subscribe(component.level$);
     }
 
+    // XivGear
+    const { currentGearSet, currentSheet } = window;
+    if (currentGearSet?.equipment !== undefined) {
+      const materiaTypes = { crit: 'CRT', determination: 'DET', dhit: 'DHT',
+        skillspeed: 'SKS', spellspeed: 'SPS', tenacity: 'TEN', piety: 'PIE' };
+      for (const item of Object.values(currentGearSet.equipment)) {
+        if (!item) continue;
+        const { id } = item.gearItem;
+        const materias = item.melds.filter(Boolean).map(({ equippedMateria }) =>
+          [materiaTypes[equippedMateria.primaryStat], equippedMateria.materiaGrade]);
+        data.gears.push({ id, materias });
+      }
+      if (currentGearSet.food) {
+        data.gears.push({ id: currentGearSet.food.id, materias: [] });
+      }
+      data.job = currentSheet.classJobName;
+      data.jobLevel = currentSheet.level;
+      data.syncLevel = currentSheet.ilvlSync;
+    }
+
   } catch (e) { debugger; }  // eslint-disable-line no-debugger
 
   if (data.job !== null) {

@@ -19,6 +19,7 @@ export const ImportPanel = mobxReact.observer(() => {
       <div>FF14俺tools：装備シミュレータ (ffxiv.es.exdreams.net)</div>
       <div>Etro (etro.gg)</div>
       <div>FFXIV Teamcraft (ffxivteamcraft.com)</div>
+      <div>XivGear (xivgear.app)</div>
       <div className="import_warn">此功能可能因上述站点的设计变动而失效，如遇到不可用请反馈。</div>
     </div>
   );
