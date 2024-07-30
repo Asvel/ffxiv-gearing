@@ -38,7 +38,7 @@ export const Gear = mst.types
     },
     get syncedLevel(): number | undefined {
       let { jobLevel, syncLevel } = mst.getParentOfType(self, Store);
-      if (syncLevel === undefined && jobLevel < this.equipLevel) {
+      if (jobLevel < this.equipLevel && !(syncLevel! < G.syncLevelOfJobLevels[jobLevel])) {
         syncLevel = G.syncLevelOfJobLevels[jobLevel];
       }
       return syncLevel! < this.level ? syncLevel : undefined;

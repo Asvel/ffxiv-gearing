@@ -32,6 +32,9 @@
     .app-high-saturation & {
       background-color: rgba($primary, .16);
     }
+    &:before {
+      opacity: 0;  // disable hover background
+    }
   }
 }
 .level-sync_job-level-sync {
