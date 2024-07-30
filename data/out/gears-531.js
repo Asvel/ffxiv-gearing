@@ -9022,7 +9022,7 @@ export default [
   },
   {
     id: 43650,
-    name: 'Integral Magitek Paintbrush',
+    name: 'Chondrite Magitek Paintbrush',
     level: 545,
     rarity: 1,
     slot: 13,
