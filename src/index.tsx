@@ -7,7 +7,11 @@ import { store } from './stores';
 import { App } from './views/App';
 import './views/App.scss';
 
-mobx.autorun(() => { document.title = store.title; });
+mobx.autorun(() => {
+  if (store.title !== undefined) {
+    document.title = store.title;
+  }
+});
 
 const container = document.createElement('div');
 document.body.appendChild(container);
