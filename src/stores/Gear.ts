@@ -1,7 +1,7 @@
 import * as mobx from 'mobx';
 import * as mst from 'mobx-state-tree';
 import * as G from '../game';
-import { ISetting, Materia, Store, gearData } from '.';
+import { Materia, Store, IStore, gearData } from '.';
 
 export type GearColor = 'white' | 'red' | 'green' | 'blue' | 'purple';
 
@@ -15,6 +15,9 @@ export const Gear = mst.types
     get data() {
       if (!gearData.has(Math.abs(self.id))) throw ReferenceError(`Gear ${self.id} not exists.`);
       return gearData.get(Math.abs(self.id))! as G.Gear;
+    },
+    get store(): IStore {
+      return mst.getParentOfType(self, Store);
     },
   }))
   .views(self => ({
@@ -31,13 +34,13 @@ export const Gear = mst.types
     get source() { return self.data.source; },
     get patch() { return self.data.patch; },
     get color(): GearColor {
-      const { gearColorScheme } = mst.getEnv(self).setting as ISetting;
+      const { gearColorScheme } = self.store.setting;
       if (gearColorScheme === 'none') return 'white';
       const { rarity, source='' } = self.data;
       return gearColorScheme === 'source' && sourceColors[(source).slice(0, 2)] || rarityColors[rarity];
     },
     get syncedLevel(): number | undefined {
-      let { jobLevel, syncLevel } = mst.getParentOfType(self, Store);
+      let { jobLevel, syncLevel } = self.store;
       if (jobLevel < this.equipLevel && !(syncLevel! < G.syncLevelOfJobLevels[jobLevel])) {
         syncLevel = G.syncLevelOfJobLevels[jobLevel];
       }
@@ -101,8 +104,7 @@ export const Gear = mst.types
       return !(this.patch > G.patches.current);
     },
     get isEquipped(): boolean {
-      const store = mst.getParentOfType(self, Store);
-      return store.equippedGears.get(this.slot.toString()) === self;
+      return self.store.equippedGears.get(this.slot.toString()) === self;
     },
     get isMelded(): boolean {
       for (const materia of self.materias) {

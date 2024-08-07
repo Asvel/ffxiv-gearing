@@ -1,6 +1,6 @@
 import * as mst from 'mobx-state-tree';
 import * as G from '../game';
-import { floor, GearColor, Store, gearData } from '.';
+import { floor, GearColor, Store, IStore, gearData } from '.';
 
 export const Food = mst.types
   .model('Food', {
@@ -10,6 +10,9 @@ export const Food = mst.types
     get data() {
       if (!gearData.has(self.id)) throw ReferenceError(`Food ${self.id} not exists.`);
       return gearData.get(self.id)! as G.Food;
+    },
+    get store(): IStore {
+      return mst.getParentOfType(self, Store);
     },
   }))
   .views(self => ({
@@ -34,10 +37,9 @@ export const Food = mst.types
       return stats;
     },
     get effectiveStats(): G.Stats {
-      const store = mst.getParentOfType(self, Store);
       const stats: G.Stats = {};
       for (const stat of Object.keys(this.stats) as G.Stat[]) {
-        const equippedStat = store.equippedStatsWithoutFood[stat] ?? 1;
+        const equippedStat = self.store.equippedStatsWithoutFood[stat] ?? 1;
         const statRate = this.statRates[stat] ?? Infinity;
         stats[stat] = Math.min(this.stats[stat], floor(equippedStat * statRate / 100));
       }
@@ -64,8 +66,7 @@ export const Food = mst.types
       return !(this.patch > G.patches.current);
     },
     get isEquipped(): boolean {
-      const store = mst.getParentOfType(self, Store);
-      return store.equippedGears.get('-1') === self;
+      return self.store.equippedGears.get('-1') === self;
     },
   }));
 

@@ -34,9 +34,9 @@ export type { IStore, Mode } from './Store';
 export { gearData, gearDataOrdered, gearDataLoading,
   loadGearData, loadGearDataOfGearId, loadGearDataOfLevelRange } from './gearData';
 
-import { Setting, Store } from '.';
+import { Store } from '.';
 
-export const store = Store.create(archive.load(), { setting: Setting.create() });
+export const store = Store.create(archive.load());
 
 mst.onSnapshot(store, snapshot => {
   if (snapshot.job !== undefined && snapshot.mode !== 'view') {
