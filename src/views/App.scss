@@ -19,7 +19,6 @@ svg {
 .app {
   position: relative;
   display: inline-block;
-  padding-bottom: 48px;
   font-size: 14px;
   font-family: // TODO: reconsider fonts
     Helvetica Neue, Helvetica, Arial,
@@ -30,6 +29,9 @@ svg {
   &:not(.app-high-saturation) ::selection {
     background-color: #c8e1ff;
   }
+}
+.app-edit {
+  padding-bottom: 48px;
 }
 
 .card {

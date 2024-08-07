@@ -1,4 +1,3 @@
-import * as React from 'react';
 import * as mobxReact from 'mobx-react-lite';
 import * as classNames from 'classnames';
 import { Button } from '@rmwc/button';
@@ -11,7 +10,6 @@ import { ClanPanel } from './ClanPanel';
 export const Summary = mobxReact.observer(() => {
   const store = useStore();
   const effects = store.equippedEffects;
-  const [ tiersVisible, setTiersVisible ] = React.useState(false);
   return (
     <div className="summary card">
       <span className="summary_left">
@@ -35,11 +33,8 @@ export const Summary = mobxReact.observer(() => {
         {effects && (
           <Button
             className="summary_tiers-toggle"
-            children={`${tiersVisible ? '隐藏' : '显示'}阈值(差值)`}
-            onClick={() => {
-              setTiersVisible(!tiersVisible);
-              (document.querySelector('.app') as HTMLDivElement).style.paddingBottom = `${tiersVisible ? 48 : 64}px`;
-            }}
+            children={`${store.tiersShown ? '隐藏' : '显示'}阈值(差值)`}
+            onClick={store.toggleTiersShown}
           />
         )}
         {effects && (
@@ -61,7 +56,7 @@ export const Summary = mobxReact.observer(() => {
       <span className="summary_divider" />
       {store.schema.stats.map(stat => (
         <span key={stat} className={classNames('summary_stat', store.schema.skeletonGears && '-skeleton')}>
-          {tiersVisible && store.equippedTiers !== undefined && store.equippedTiers[stat] !== undefined && (
+          {effects && store.tiersShown && store.equippedTiers?.[stat] !== undefined && (
             <div className="summary_stat-tier">
               <span className="summary_stat-prev">{store.equippedTiers[stat]!.prev}</span>
               <span className="summary_stat-next">+{store.equippedTiers[stat]!.next}</span>

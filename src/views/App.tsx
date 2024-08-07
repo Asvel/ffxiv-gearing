@@ -24,6 +24,7 @@ export const App = mobxReact.observer<{ store: IStore }>(({ store }) => {
         )}
         {store.job !== undefined && <Summary />}
         <About />
+        {store.tiersShown && !store.isViewing && store.equippedEffects && <div className="summary_tiers-spacer" />}
         <div id="popper" />
       </div>
     </StoreContext.Provider>

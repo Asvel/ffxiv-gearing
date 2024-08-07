@@ -5,7 +5,8 @@ import * as share from '../share';
 import { floor, ceil, Setting, Promotion, IGear, IFood, GearUnion, IGearUnion, GearUnionReference, IMateria,
   gearDataOrdered, gearDataLoading, loadGearDataOfGearId, loadGearDataOfLevelRange } from '.';
 
-const globalClanKey = 'ffxiv-gearing.dt.clan';
+const clanStorageKey = 'ffxiv-gearing.dt.clan';
+const tiersShownStorageKey = 'ffxiv-gearing.dt.tiers-shown';
 
 export type Mode = 'edit' | 'view';
 
@@ -30,7 +31,8 @@ export const Store = mst.types
   .volatile(() => ({
     setting: Setting.create(),
     promotion: Promotion.create(),
-    clan: Number(localStorage.getItem(globalClanKey)) || 0,
+    clan: Number(localStorage.getItem(clanStorageKey)) || 0,
+    tiersShown: localStorage.getItem(tiersShownStorageKey) === 'true',
     autoSelectScheduled: false,
     materiaOverallActiveTab: 0,
   }))
@@ -705,7 +707,11 @@ export const Store = mst.types
     },
     setClan(clan: number): void {
       self.clan = clan;
-      localStorage.setItem(globalClanKey, clan.toString());
+      localStorage.setItem(clanStorageKey, clan.toString());
+    },
+    toggleTiersShown(): void {
+      self.tiersShown = !self.tiersShown;
+      localStorage.setItem(tiersShownStorageKey, self.tiersShown.toString());
     },
     autoSelect(): void {
       if (!self.autoSelectScheduled) return;
