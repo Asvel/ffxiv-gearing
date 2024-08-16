@@ -267,6 +267,7 @@ export const Store = mst.types
   .views(self => ({
     get equippedEffects() {
       console.debug('equippedEffects');
+      if (self.job === undefined) return;
       const { statModifiers, mainStat, traitDamageMultiplier, partyBonus } = self.schema;
       if (statModifiers === undefined || mainStat === undefined || traitDamageMultiplier === undefined) return;
       const levelMod = G.jobLevelModifiers[self.jobLevel];
@@ -279,6 +280,7 @@ export const Store = mst.types
       const detDamage = floor((140 * (DET! - main) / det + 1000) / detTrunc) * detTrunc / 1000;
       const dhtChance = floor(550 * (DHT! - sub) / div + bluAetherialMimicry) / 1000;
       const tenDamage = floor(112 * ((TEN ?? sub) - sub) / div + 1000) / 1000;
+      const tenMitigation = floor(200 * ((TEN ?? sub) - sub) / div) / 1000;
       const weaponDamage = floor(main * statModifiers[attackMainStat]! / 1000) +
         ((mainStat === 'MND' || mainStat === 'INT' ? MDMG : PDMG) ?? 0) +
         (self.job === 'BLU' ? G.bluMdmgAdditions[self.equippedStats['INT']! - self.baseStats['INT']!] ?? 0 : 0);
@@ -292,7 +294,7 @@ export const Store = mst.types
       const hp = levelMod.hp * statModifiers.hp +
         floor((mainStat === 'VIT' ? levelMod.vitTank : levelMod.vit) * (VIT! - main));
       const mp = floor(150 * ((PIE ?? main) - main) / div + 200);
-      return { crtChance, crtDamage, detDamage, dhtChance, tenDamage, damage, gcd, ssDamage, hp, mp };
+      return { crtChance, crtDamage, detDamage, dhtChance, tenDamage, tenMitigation, damage, gcd, ssDamage, hp, mp };
     },
     get equippedTiers(): { [index in G.Stat]?: { prev: number, next: number } } | undefined {
       const { statModifiers } = self.schema;

@@ -83,9 +83,9 @@ export const Summary = mobxReact.observer(() => {
               )}
               {stat === 'TEN' && (
                 <div className="summary_stat-effect">
-                  -{((effects.tenDamage - 1) * 100).toFixed(1)}%
+                  -{(effects.tenMitigation * 100).toFixed(1)}%
                 </div>
-              ) && false /* FIXME */}
+              )}
               {stat === 'PIE' && (
                 <div className="summary_stat-effect">
                   {effects.mp}<span className="summary_stat-small">MP</span>/3s
