@@ -12913,7 +12913,7 @@ export default [
   },
   {
     id: 43095,
-    name: 'Augmented Quetzalli Bracelets of Healing',
+    name: 'Augmented Quetzalli Bracelets of Casting',
     level: 730,
     rarity: 3,
     slot: 11,
