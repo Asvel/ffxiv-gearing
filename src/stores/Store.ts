@@ -720,7 +720,8 @@ export const Store = mst.types
     autoSelect(): void {
       if (!self.autoSelectScheduled) return;
       self.autoSelectScheduled = false;
-      for (const gears of Object.values(self.groupedGears)) {
+      for (const [ slot, gears ] of Object.entries(self.groupedGears)) {
+        if (self.equippedGears.get(slot) !== undefined) continue;
         let lastMeldable = gears[gears.length - 1];
         if (lastMeldable === undefined || lastMeldable.isFood || lastMeldable.slot === 17) continue;
         for (let i = gears.length - 1; i >= 0; i--) {
