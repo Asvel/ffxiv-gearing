@@ -8,8 +8,8 @@ import { App } from './views/App';
 import './views/App.scss';
 
 mobx.autorun(() => {
-  if (store.job !== undefined && !store.isLoading) {
-    document.title = `${store.schema.name}(il${store.equippedLevel}) - 最终幻想14配装器`;
+  if (store.title !== undefined) {
+    document.title = store.title;
   }
 });
 
