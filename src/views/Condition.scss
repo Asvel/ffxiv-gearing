@@ -56,6 +56,15 @@
 }
 .condition_level-input {
   width: 36px;
+  .mdc-text-field__input {
+    -moz-appearance: textfield;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
 }
 .condition_level-separator {
   margin: 0 4px;
