@@ -224,6 +224,8 @@ const ConditionLevelInput = (() => {
       <TextField
         inputRef={inputRef}
         className="condition_level-input mdc-text-field--compact"
+        type="number"
+        step="5"
         value={inputValue}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           setInputValue(e.target.value);
