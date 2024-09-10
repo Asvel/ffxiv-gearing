@@ -7212,7 +7212,7 @@ export default [
       CRT: 225,
       DET: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7231,7 +7231,7 @@ export default [
       CRT: 250,
       DET: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7250,7 +7250,7 @@ export default [
       CRT: 225,
       SKS: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7269,7 +7269,7 @@ export default [
       TEN: 357,
       DET: 250,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7288,7 +7288,7 @@ export default [
       CRT: 158,
       DET: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7307,7 +7307,7 @@ export default [
       DHT: 225,
       DET: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7326,7 +7326,7 @@ export default [
       DHT: 357,
       SKS: 250,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7345,7 +7345,7 @@ export default [
       DHT: 225,
       DET: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7364,7 +7364,7 @@ export default [
       CRT: 250,
       SKS: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7383,7 +7383,7 @@ export default [
       DHT: 158,
       DET: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7402,7 +7402,7 @@ export default [
       DET: 225,
       SKS: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7421,7 +7421,7 @@ export default [
       DHT: 250,
       DET: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7440,7 +7440,7 @@ export default [
       CRT: 158,
       SKS: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7459,7 +7459,7 @@ export default [
       DHT: 250,
       CRT: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7478,7 +7478,7 @@ export default [
       DHT: 158,
       DET: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7497,7 +7497,7 @@ export default [
       CRT: 225,
       SKS: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7516,7 +7516,7 @@ export default [
       CRT: 250,
       DET: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7535,7 +7535,7 @@ export default [
       DHT: 225,
       SKS: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7554,7 +7554,7 @@ export default [
       DHT: 250,
       DET: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7573,7 +7573,7 @@ export default [
       DET: 158,
       SKS: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7592,7 +7592,7 @@ export default [
       CRT: 225,
       SKS: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7611,7 +7611,7 @@ export default [
       DHT: 250,
       DET: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7630,7 +7630,7 @@ export default [
       DHT: 158,
       CRT: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7649,7 +7649,7 @@ export default [
       DHT: 250,
       DET: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7668,7 +7668,7 @@ export default [
       DHT: 158,
       SKS: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7687,7 +7687,7 @@ export default [
       PIE: 158,
       DET: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7706,7 +7706,7 @@ export default [
       PIE: 357,
       DET: 250,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7725,7 +7725,7 @@ export default [
       PIE: 225,
       CRT: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7744,7 +7744,7 @@ export default [
       CRT: 250,
       SPS: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7763,7 +7763,7 @@ export default [
       CRT: 225,
       DET: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7782,7 +7782,7 @@ export default [
       DHT: 225,
       DET: 158,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7801,7 +7801,7 @@ export default [
       CRT: 357,
       SPS: 250,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7820,7 +7820,7 @@ export default [
       CRT: 158,
       DET: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7839,7 +7839,7 @@ export default [
       DHT: 250,
       DET: 357,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7858,7 +7858,7 @@ export default [
       DHT: 158,
       DET: 225,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7877,7 +7877,7 @@ export default [
       DET: 124,
       SKS: 177,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7896,7 +7896,7 @@ export default [
       CRT: 124,
       SKS: 177,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7915,7 +7915,7 @@ export default [
       DET: 177,
       SKS: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7934,7 +7934,7 @@ export default [
       DET: 177,
       SPS: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7953,7 +7953,7 @@ export default [
       DHT: 124,
       DET: 177,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7972,7 +7972,7 @@ export default [
       TEN: 177,
       CRT: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -7991,7 +7991,7 @@ export default [
       DHT: 177,
       SKS: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8010,7 +8010,7 @@ export default [
       DHT: 124,
       CRT: 177,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8029,7 +8029,7 @@ export default [
       PIE: 177,
       DET: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8048,7 +8048,7 @@ export default [
       CRT: 177,
       SPS: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8067,7 +8067,7 @@ export default [
       CRT: 177,
       SKS: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8086,7 +8086,7 @@ export default [
       DHT: 177,
       CRT: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8105,7 +8105,7 @@ export default [
       DHT: 177,
       CRT: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8124,7 +8124,7 @@ export default [
       DET: 177,
       SPS: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8143,7 +8143,7 @@ export default [
       DHT: 124,
       CRT: 177,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8162,7 +8162,7 @@ export default [
       TEN: 177,
       DET: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8181,7 +8181,7 @@ export default [
       CRT: 177,
       DET: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8200,7 +8200,7 @@ export default [
       DHT: 177,
       CRT: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8219,7 +8219,7 @@ export default [
       PIE: 124,
       CRT: 177,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -8238,7 +8238,7 @@ export default [
       DHT: 177,
       CRT: 124,
     },
-    source: '大型任务/轻重量级',
+    source: '大型任务/轻量级',
     patch: '7.01',
   },
   {
@@ -13041,7 +13041,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13060,7 +13060,7 @@ export default [
       TEN: 374,
       DET: 262,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13079,7 +13079,7 @@ export default [
       CRT: 165,
       DET: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13098,7 +13098,7 @@ export default [
       CRT: 262,
       DET: 374,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13117,7 +13117,7 @@ export default [
       TEN: 236,
       CRT: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13136,7 +13136,7 @@ export default [
       DHT: 236,
       DET: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13155,7 +13155,7 @@ export default [
       CRT: 374,
       DET: 262,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13174,7 +13174,7 @@ export default [
       CRT: 165,
       SKS: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13193,7 +13193,7 @@ export default [
       DHT: 374,
       DET: 262,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13212,7 +13212,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13231,7 +13231,7 @@ export default [
       DHT: 165,
       DET: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13250,7 +13250,7 @@ export default [
       CRT: 262,
       SKS: 374,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13269,7 +13269,7 @@ export default [
       DHT: 165,
       DET: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13288,7 +13288,7 @@ export default [
       DHT: 262,
       CRT: 374,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13307,7 +13307,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13326,7 +13326,7 @@ export default [
       DHT: 165,
       CRT: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13345,7 +13345,7 @@ export default [
       DHT: 374,
       DET: 262,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13364,7 +13364,7 @@ export default [
       DET: 236,
       SKS: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13383,7 +13383,7 @@ export default [
       DHT: 374,
       CRT: 262,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13402,7 +13402,7 @@ export default [
       CRT: 165,
       DET: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13421,7 +13421,7 @@ export default [
       DHT: 165,
       CRT: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13440,7 +13440,7 @@ export default [
       CRT: 262,
       DET: 374,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13459,7 +13459,7 @@ export default [
       DHT: 165,
       DET: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13478,7 +13478,7 @@ export default [
       DHT: 374,
       SKS: 262,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13497,7 +13497,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13516,7 +13516,7 @@ export default [
       PIE: 236,
       DET: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13535,7 +13535,7 @@ export default [
       CRT: 374,
       DET: 262,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13554,7 +13554,7 @@ export default [
       PIE: 165,
       CRT: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13573,7 +13573,7 @@ export default [
       PIE: 374,
       CRT: 262,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13592,7 +13592,7 @@ export default [
       PIE: 165,
       DET: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13611,7 +13611,7 @@ export default [
       DHT: 165,
       SPS: 236,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13630,7 +13630,7 @@ export default [
       DHT: 262,
       CRT: 374,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13649,7 +13649,7 @@ export default [
       CRT: 236,
       SPS: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13668,7 +13668,7 @@ export default [
       DHT: 262,
       SPS: 374,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13687,7 +13687,7 @@ export default [
       CRT: 236,
       DET: 165,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13706,7 +13706,7 @@ export default [
       CRT: 186,
       SKS: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13725,7 +13725,7 @@ export default [
       DHT: 186,
       DET: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13744,7 +13744,7 @@ export default [
       CRT: 130,
       SKS: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13763,7 +13763,7 @@ export default [
       CRT: 130,
       DET: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13782,7 +13782,7 @@ export default [
       CRT: 130,
       DET: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13801,7 +13801,7 @@ export default [
       CRT: 186,
       DET: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13820,7 +13820,7 @@ export default [
       DHT: 130,
       DET: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13839,7 +13839,7 @@ export default [
       DHT: 130,
       CRT: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13858,7 +13858,7 @@ export default [
       DET: 186,
       SPS: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13877,7 +13877,7 @@ export default [
       DET: 130,
       SPS: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13896,7 +13896,7 @@ export default [
       TEN: 186,
       CRT: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13915,7 +13915,7 @@ export default [
       DHT: 130,
       CRT: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13934,7 +13934,7 @@ export default [
       DET: 186,
       SKS: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13953,7 +13953,7 @@ export default [
       CRT: 186,
       DET: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13972,7 +13972,7 @@ export default [
       DHT: 186,
       CRT: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -13991,7 +13991,7 @@ export default [
       TEN: 186,
       CRT: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14010,7 +14010,7 @@ export default [
       CRT: 130,
       DET: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14029,7 +14029,7 @@ export default [
       DHT: 130,
       DET: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14048,7 +14048,7 @@ export default [
       CRT: 130,
       DET: 186,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14067,7 +14067,7 @@ export default [
       DHT: 186,
       CRT: 130,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14088,7 +14088,7 @@ export default [
       PDMG: 146,
       DLY: 2240,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14109,7 +14109,7 @@ export default [
       PDMG: 146,
       DLY: 2560,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14130,7 +14130,7 @@ export default [
       PDMG: 146,
       DLY: 3360,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14151,7 +14151,7 @@ export default [
       PDMG: 146,
       DLY: 2800,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14172,7 +14172,7 @@ export default [
       PDMG: 146,
       DLY: 3040,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14192,7 +14192,7 @@ export default [
       DET: 393,
       MDMG: 146,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14212,7 +14212,7 @@ export default [
       SPS: 275,
       MDMG: 146,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14232,7 +14232,7 @@ export default [
       DET: 275,
       MDMG: 146,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14252,7 +14252,7 @@ export default [
       DET: 393,
       MDMG: 146,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14273,7 +14273,7 @@ export default [
       PDMG: 146,
       DLY: 2560,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14294,7 +14294,7 @@ export default [
       PDMG: 146,
       DLY: 2960,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14315,7 +14315,7 @@ export default [
       PDMG: 146,
       DLY: 2640,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14335,7 +14335,7 @@ export default [
       DET: 393,
       MDMG: 146,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14356,7 +14356,7 @@ export default [
       PDMG: 146,
       DLY: 2640,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14376,7 +14376,7 @@ export default [
       DET: 275,
       MDMG: 146,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14397,7 +14397,7 @@ export default [
       PDMG: 146,
       DLY: 2800,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14418,7 +14418,7 @@ export default [
       PDMG: 146,
       DLY: 3120,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14439,7 +14439,7 @@ export default [
       PDMG: 146,
       DLY: 3200,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14459,7 +14459,7 @@ export default [
       DET: 393,
       MDMG: 146,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14480,7 +14480,7 @@ export default [
       PDMG: 146,
       DLY: 2640,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14500,7 +14500,7 @@ export default [
       DET: 275,
       MDMG: 146,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
   {
@@ -14519,7 +14519,7 @@ export default [
       CRT: 112,
       DET: 78,
     },
-    source: '零式/轻重量级',
+    source: '零式/轻量级',
     patch: '7.05',
   },
 ];

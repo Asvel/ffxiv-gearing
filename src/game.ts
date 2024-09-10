@@ -339,7 +339,7 @@ export const jobSchemas = {
     traitDamageMultiplier: 1,
   } as JobSchema,
   VPR: {
-    name: '蛇武士',
+    name: '蝰蛇剑士',
     stats: statSchemas.dpsDex,
     slots: slotSchemaCombat,
     defaultItemLevel: defaultItemLevelCombat,
