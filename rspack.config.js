@@ -155,6 +155,7 @@ module.exports = function (env, argv) {
     plugins: [
       new rspack.DefinePlugin({
         __VERSION__: JSON.stringify(/### `([^`]+)`/.exec(fs.readFileSync('./CHANGELOG.md', 'utf8'))[1]),
+        __BUILD_DATE__: Date.now(),
       }),
       new rspack.HtmlRspackPlugin({
         template: './src/index.html',
