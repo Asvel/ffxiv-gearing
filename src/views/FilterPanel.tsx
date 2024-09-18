@@ -39,7 +39,7 @@ export const FilterPanel = mobxReact.observer(() => {
           onChange={() => store.setFilterFocus('no')}
         />
         <Radio
-          label="只显示镶嵌了魔晶石的装备"
+          label="只显示镶嵌了魔晶石的装备和已选中的装备"
           checked={store.filterFocus === 'melded'}
           onChange={() => store.setFilterFocus('melded')}
         />

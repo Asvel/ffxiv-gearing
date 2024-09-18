@@ -92,7 +92,10 @@ export const Store = mst.types
       const ret: { [index: number]: IGearUnion[] } = {};
       for (const gearId of self.filteredIds) {
         const gear = self.gears.get(gearId.toString())!;
-        if (self.filterFocus !== 'no' && !gear.isFood && !gear.isMelded) continue;
+        if (!gear.isFood && !gear.isMelded) {
+          if (self.filterFocus === 'melded' && !gear.isEquipped) continue;
+          if (self.filterFocus === 'comparable') continue;
+        }
         if (!(gear.slot in ret)) {
           ret[gear.slot] = [];
         }
