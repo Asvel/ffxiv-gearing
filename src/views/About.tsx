@@ -1,10 +1,12 @@
 import * as mobxReact from 'mobx-react-lite';
 
+declare const __VERSION__: string;
+
 export const About = mobxReact.observer(() => {
   return (
     <div className="about">
       <span className="about_name">最终幻想14配装器</span>
-      <span className="about_version">2409d</span>
+      <span className="about_version">{__VERSION__}</span>
       <span className="about_separator">·</span>
       <a
         className="about_link"

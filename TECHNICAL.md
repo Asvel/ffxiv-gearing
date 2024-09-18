@@ -64,9 +64,7 @@ npm run analyze
 
 除了实际业务改动，发新版的时候还有这些地方需要手动修改：
 
-`src/views/About.tsx`：版本号。
-
-`CHANGELOG.md`：更新记录。
+`CHANGELOG.md`：更新记录，界面上展示的版本号也会从中提取。
 
 
 ## 只更新数据的详细流程
@@ -88,7 +86,7 @@ npm run analyze
     * 建议避免`sources.txt`中追加的 ID 范围包含未在`sourcesMissing.txt`中出现在的 ID，当前版本空着的 ID 可能会在之后版本中填入其他来源装备的数据。
   * 如果修改了`sources.txt`，需要再次执行转换数据命令，顺利的话`sourcesMissing.txt`文件会被自动删除。
 * 视更新程度考虑修改`src\game.ts`文件中`const defaultItemLevelCombat = `部分，这是开始新的配装时默认的品级范围。
-* 修改版本号，在`src/views/About.tsx`文件中，我用的版本号规则是【两位年+两位月+本月第几次更新】，你也可以自拟。
+* 追加更新记录至`CHANGELOG.md`文件，界面上展示的版本号会从中提取，我用的版本号规则是【两位年+两位月+本月第几次更新】，你也可以自拟。
 * 构建并发布：`npm run publish`。
   * 此命令会发布至你的 GitHub 仓库的 gh-pages 分支，发布后可以通过`https://<你的GitHub用户名>.github.io/ffxiv-gearing/`来访问。
-* 追加更新记录至`CHANGELOG.md`文件，并提交并推送所做的修改至 GitHub（推荐）。
+* 提交并推送所做的修改至 GitHub（推荐）。
