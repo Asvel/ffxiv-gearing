@@ -1,6 +1,7 @@
 import * as mst from 'mobx-state-tree';
 import * as G from '../game';
-import { Gear, IGear, Store, IStore } from '.';
+import { Gear, Store } from '.';
+import type { IGear, IStore } from '.';
 
 export const Materia = mst.types
   .model({

@@ -2,8 +2,9 @@ import * as mobx from 'mobx';
 import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as share from '../share';
-import { floor, ceil, Setting, Promotion, IGear, IFood, GearUnion, IGearUnion, GearUnionReference, IMateria,
+import { floor, ceil, Setting, Promotion, GearUnion, GearUnionReference,
   gearDataOrdered, gearDataLoading, loadGearDataOfGearId, loadGearDataOfLevelRange } from '.';
+import type { IGear, IFood, IGearUnion, IMateria } from '.';
 
 const clanStorageKey = 'ffxiv-gearing.dt.clan';
 const tiersShownStorageKey = 'ffxiv-gearing.dt.tiers-shown';

@@ -1,6 +1,6 @@
 import * as mobxReact from 'mobx-react-lite';
-import * as classNames from 'classnames';
-import { IMateria } from '../stores';
+import classNames from 'clsx';
+import type { IMateria } from '../stores';
 import { useStore } from './components/contexts';
 import { Dropdown } from './components/Dropdown';
 import { MateriaPanel } from './MateriaPanel';

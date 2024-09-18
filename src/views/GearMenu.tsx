@@ -1,10 +1,10 @@
 import * as mobxReact from 'mobx-react-lite';
 import Clipboard from 'react-clipboard.js';
-import { IGearUnion } from '../stores';
+import type { IGearUnion } from '../stores';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
-import { DropdownPopperProps } from './components/Dropdown';
+import type { DropdownPopperProps } from './components/Dropdown';
 
 export const GearMenu = mobxReact.observer<{
   gear: IGearUnion,

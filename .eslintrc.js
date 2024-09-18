@@ -22,14 +22,14 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/no-children-prop': 'off',
     '@typescript-eslint/consistent-type-assertions': 'off',
+    '@typescript-eslint/consistent-type-imports': 'off',  // should not be used with 'verbatimModuleSyntax'
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-require-imports': 'off',
-    '@typescript-eslint/no-unused-vars': 'error',
 
     // stylistic
-    'no-multi-spaces': ['error', { 'ignoreEOLComments': true }],
+    'no-multi-spaces': ['error', { ignoreEOLComments: true }],
     'comma-dangle': ['error', 'always-multiline'],
-    'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
+    'quotes': ['error', 'single', { allowTemplateLiterals: true }],
     'semi': 'error',
   },
   settings: {
@@ -40,18 +40,11 @@ module.exports = {
   overrides: [{
     files: ['*.ts', '*.tsx'],
     parserOptions: {
-      tsconfigRootDir: __dirname,
-      project: ['./tsconfig.json'],
-      jsxPragma: '__REACT_17_NEW_JSX_TRANSFORM__',
+      projectService: true,
     },
     rules: {
-      '@typescript-eslint/prefer-nullish-coalescing': 'error',
+      '@typescript-eslint/prefer-nullish-coalescing': ['error', { ignoreMixedLogicalExpressions: true }],
       '@typescript-eslint/require-array-sort-compare': 'error',
-    },
-  }, {
-    files: ['src/*.js'],
-    rules: {
-      '@typescript-eslint/prefer-optional-chain': 'off',
     },
   }, {
     files: ['*.js'],

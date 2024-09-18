@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as mobx from 'mobx';
 import * as mobxReact from 'mobx-react-lite';
-import * as classNames from 'classnames';
+import classNames from 'clsx';
 import { Button } from '@rmwc/button';
 import { TextField } from '@rmwc/textfield';
 import { Badge } from '@rmwc/badge';
@@ -185,8 +185,8 @@ export const Condition = mobxReact.observer(() => {
         >
           <img
             className="condition_welcome-promotion"
-            src={require('../../img/BV1pt4y1W7pX.png').default}
-            srcSet={require('../../img/BV1pt4y1W7pX@2x.png').default + ' 2x'}
+            src={require('../../img/BV1pt4y1W7pX.png')}
+            srcSet={require('../../img/BV1pt4y1W7pX@2x.png') + ' 2x'}
             alt=""
           />
         </a>

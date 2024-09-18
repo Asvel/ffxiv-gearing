@@ -1,9 +1,9 @@
 import * as mobxReact from 'mobx-react-lite';
-import * as classNames from 'classnames';
+import classNames from 'clsx';
 import * as G from '../game';
-import { IMateria } from '../stores';
+import type { IMateria } from '../stores';
 import { useStore } from './components/contexts';
-import { DropdownPopperProps } from './components/Dropdown';
+import type { DropdownPopperProps } from './components/Dropdown';
 
 export const MateriaPanel = mobxReact.observer<{
   materia: IMateria,

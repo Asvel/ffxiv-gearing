@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as mobx from 'mobx';
 import * as mobxReact from 'mobx-react-lite';
-import * as classNames from 'classnames';
+import classNames from 'clsx';
 import { Button } from '@rmwc/button';
 import { Tab, TabBar } from '@rmwc/tabs';
 import { Switch } from '@rmwc/switch';

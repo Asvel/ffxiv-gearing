@@ -1,5 +1,9 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const fs = require('fs');
+const rspack = require('@rspack/core');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+
+// require('browserslist')() can't match lightningcss built-in browserslist-rs
+const targets = fs.readFileSync('./.browserslistrc', 'utf8').split(/\r?\n/).filter(Boolean);
 
 module.exports = function (env, argv) {
   const prod = argv && argv.mode === 'production';
@@ -35,28 +39,31 @@ module.exports = function (env, argv) {
           test: /\.tsx?$/,
           exclude: /node_modules/,
           use: [
-            {
-              loader: 'simple-functional-loader',
-              ident: 'keep-react-component-display-name',
-              options: {
-                processor: source => source.replace(
-                  /([\r\n](?:export )?)const (.+?) = (.+?)\(\((.*?)\) => {([\r\n])/g,
-                  '$1const $2 = $3(function $2($4) {$5',
-                ),
-              },
-            },
             prod && {
               loader: 'simple-functional-loader',
               ident: 'remove-console-debug',
               options: {
-                processor: source => source.replace(/([\r\n])\s*console\.debug\(.+?\);/g, '$1'),
+                // 'drop_console' option of SWC doesn't support distinguishing types
+                processor: source => source.replace(/\n\s*console\.debug\(.+?\);/g, ''),
               },
             },
             {
-              loader: 'ts-loader',
+              loader: 'builtin:swc-loader',
               options: {
-                compilerOptions: {
-                  jsx: prod ? 'react-jsx' : 'react-jsxdev',
+                env: {
+                  targets,
+                },
+                jsc: {
+                  parser: {
+                    syntax: 'typescript',
+                    jsx: true,
+                  },
+                  transform: {
+                    react: {
+                      runtime: 'automatic',
+                      useBuiltins: true,
+                    },
+                  },
                 },
               },
             },
@@ -90,14 +97,24 @@ module.exports = function (env, argv) {
           use: [
             'style-loader',
             'css-loader',
+            // lightningcss does not keep properties order currently:
+            // https://github.com/parcel-bundler/lightningcss/issues/572
+            // it may or may not cause issues, stay with postcss for now
+            // {
+            //   loader: 'builtin:lightningcss-loader',
+            //   options: {
+            //     minify: prod,  // LightningCssMinimizerRspackPlugin not works with style-loader
+            //     // targets,
+            //   },
+            // },
             {
               loader: 'postcss-loader',
               options: {
                 postcssOptions: {
                   plugins: [
-                    ['postcss-preset-env', { features: { 'case-insensitive-attributes': false } }],
+                    ['postcss-preset-env', { features: { 'text-decoration-shorthand': false } }],
                     ['css-byebye', { rulesToRemove: [/.*\.mdc-evolution-.*/, /.*\[dir=rtl].*/] }],
-                    prod && 'cssnano',
+                    prod && ['cssnano', { preset: ['default', { cssDeclarationSorter: false }] }],
                   ].filter(Boolean),
                 },
               },
@@ -113,38 +130,52 @@ module.exports = function (env, argv) {
             {
               loader: 'sass-loader',
               options: {
+                api: 'modern-compiler',
                 sassOptions: {
                   includePaths: ['./node_modules'],
+                  silenceDeprecations: ['slash-div', 'mixed-decls'],
                 },
               },
             },
           ],
         },
-        { test: /\.svg$/, use: 'svg-sprite-loader' },
+        {
+          test: /\.svg$/,
+          use: 'svg-sprite-loader',
+        },
         {
           test: /\.png$/,
-          use: {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[contenthash:10].[ext]',
-            },
+          type: 'asset/resource',
+          generator: {
+            filename: '[name].[contenthash][ext]',  // this [ext] seems to already contain prefix dot
           },
         },
       ],
     },
     plugins: [
-      new HtmlWebpackPlugin({
+      new rspack.HtmlRspackPlugin({
         template: './src/index.html',
         favicon: './img/favicon.ico',
         chunks: ['main'],
       }),
-      new HtmlWebpackPlugin({
+      new rspack.HtmlRspackPlugin({
         filename: 'lodestone.html',
-        title: 'Redirecting...',
+        title: '跳转中...',
         chunks: ['lodestone'],
       }),
+      {
+        apply: compiler => {
+          compiler.hooks.compilation.tap('FixFaviconPath', compilation => {
+            rspack.HtmlRspackPlugin.getCompilationHooks(compilation)
+              .beforeAssetTagGeneration.tapPromise('FixFaviconPath', async data => {
+                if (data.assets.favicon?.startsWith('dist/')) {
+                  data.assets.favicon = data.assets.favicon.slice(5);
+                }
+              });
+          });
+        },
+      },
       new ForkTsCheckerWebpackPlugin({
-        async: !prod,
         logger: 'webpack-infrastructure',
       }),
     ],
@@ -198,27 +229,20 @@ module.exports = function (env, argv) {
       liveReload: false,
       static: false,
     },
+    experiments: {
+      rspackFuture: {
+        bundlerInfo: {
+          force: false,
+        },
+      },
+    },
   };
 };
 
-// suppress sass slash division warning (ignoreWarnings not work for this)
-// TODO: remove this hack if upgraded RMWC to newer version
-{
-  const sassLoaderUtils = require('sass-loader/dist/utils');
-  const { getSassOptions } = sassLoaderUtils;
-  sassLoaderUtils.getSassOptions = async function () {
-    const options = await getSassOptions.apply(this, arguments);
-    const { warn } = options.logger;
-    options.logger.warn = function (message) {
-      if (message?.startsWith('Using / for division outside of calc() is deprecated')) return;
-      if (message?.endsWith('repetitive deprecation warnings omitted.')) return;
-      return warn.apply(this, arguments);
-    };
-    return options;
-  };
-}
+// disable progess bar, it is separated into multiple lines by '<i> [webpack-dev-server] ...'
+rspack.ProgressPlugin.prototype.raw = () => {};
 
-// filter out logs like '[ForkTsCheckerWebpackPlugin] No errors found.', incredibly it can't be done by configuration
+// filter out logs like '[ForkTsCheckerWebpackPlugin] No errors found.', 'ignoreWarnings' only works on warning
 {
   const infrastructureLogger = require('fork-ts-checker-webpack-plugin/lib/infrastructure-logger');
   const { getInfrastructureLogger } = infrastructureLogger;

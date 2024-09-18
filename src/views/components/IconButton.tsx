@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as classNames from 'classnames';
+import classNames from 'clsx';
 import { RippleLazy } from './RippleLazy';
 import { Icon } from './Icon';
 

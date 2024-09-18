@@ -3,7 +3,8 @@ import * as mst from 'mobx-state-tree';
 import * as G from '../game';
 import * as archive from '../archive';
 import * as share from '../share';
-import { Store, IStore, gearData, gearDataLoading, loadGearDataOfGearId, store } from '.';
+import { Store, gearData, gearDataLoading, loadGearDataOfGearId, store } from '.';
+import type { IStore } from '.';
 
 // TODO: avoid accessing store instance
 

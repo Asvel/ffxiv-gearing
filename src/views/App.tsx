@@ -1,6 +1,6 @@
 import * as mobxReact from 'mobx-react-lite';
-import * as classNames from 'classnames';
-import { IStore } from '../stores';
+import classNames from 'clsx';
+import type { IStore } from '../stores';
 import { StoreContext } from './components/contexts';
 import { Slot } from './Slot';
 import { SlotCompact } from './SlotCompact';

@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "alwaysStrict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "useDefineForClassFields": true,
-    "module": "es2020",
-    "moduleResolution": "node",
     "target": "es2020",
-    "lib": ["es2020", "dom", "dom.iterable"],
-    "jsx": "react-jsxdev"
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": ["node", "@rspack/core/module"],
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": false,
+    "useDefineForClassFields": true
   }
 }

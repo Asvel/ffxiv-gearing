@@ -1,5 +1,6 @@
 import * as mst from 'mobx-state-tree';
-import { Gear, IGear, Food, IFood, gearData } from '.';
+import { Gear, Food, gearData } from '.';
+import type { IGear, IFood } from '.';
 
 export const GearUnion = mst.types.union({
   dispatcher: snapshot => {

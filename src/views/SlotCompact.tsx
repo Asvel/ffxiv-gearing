@@ -1,5 +1,5 @@
 import * as mobxReact from 'mobx-react-lite';
-import * as classNames from 'classnames';
+import classNames from 'clsx';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { GearRow } from './GearRow';

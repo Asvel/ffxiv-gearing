@@ -1,7 +1,8 @@
 import * as mobx from 'mobx';
 import * as mst from 'mobx-state-tree';
 import * as G from '../game';
-import { Materia, Store, IStore, gearData } from '.';
+import { Materia, Store, gearData } from '.';
+import type { IStore } from '.';
 
 export type GearColor = 'white' | 'red' | 'green' | 'blue' | 'purple';
 
@@ -126,7 +127,7 @@ export const Gear = mst.types
     initialize() {
       const materiaSlot = self.materiaAdvanced ? 5 : self.materiaSlot;
       if (self.materias.length > materiaSlot) {
-        self.materias.splice(0, materiaSlot, 5);  // 5 means all
+        self.materias.splice(materiaSlot, 5);  // 5 means all
       }
       if (self.materias.length < materiaSlot) {
         self.materias.push(...new Array(materiaSlot - self.materias.length).fill({}));

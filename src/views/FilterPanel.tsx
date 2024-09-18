@@ -13,7 +13,7 @@ export const FilterPanel = mobxReact.observer(() => {
       </div>
       <div className="filter_controls">
         <Radio
-          label={`显示全部`}
+          label="显示全部"
           checked={store.filterPatch === 'all'}
           onChange={() => store.setFilterPatch('all')}
         />

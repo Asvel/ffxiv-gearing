@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as mobxReact from 'mobx-react-lite';
-import * as classNames from 'classnames';
+import classNames from 'clsx';
 import { TextField } from '@rmwc/textfield';
 import * as G from '../game';
-import { IGearUnion } from '../stores';
+import type { IGearUnion } from '../stores';
 import { useStore } from './components/contexts';
 import { Icon } from './components/Icon';
 import { IconButton } from './components/IconButton';

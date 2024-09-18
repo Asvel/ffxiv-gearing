@@ -181,7 +181,7 @@
       if (data.syncLevel === 665) data.syncLevel = undefined;  // prefer job level sync in this case
     }
 
-  } catch (e) { debugger; }  // eslint-disable-line no-debugger
+  } catch (e) { debugger; }  // eslint-disable-line no-debugger, @typescript-eslint/no-unused-vars
 
   if (data.job !== null) {
     const importUrl = origin + '?import-' + encodeURIComponent(JSON.stringify(data));

@@ -2,7 +2,7 @@ import * as mobxReact from 'mobx-react-lite';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
-import { DropdownPopperProps } from './components/Dropdown';
+import type { DropdownPopperProps } from './components/Dropdown';
 
 export const ClanPanel = mobxReact.observer<DropdownPopperProps>(({ toggle }) => {
   const store = useStore();

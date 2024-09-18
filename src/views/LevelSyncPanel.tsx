@@ -1,12 +1,12 @@
 import * as mobxReact from 'mobx-react-lite';
-import * as classNames from 'classnames';
+import classNames from 'clsx';
 import { Button } from '@rmwc/button';
 import { List, SimpleListItem, CollapsibleList } from '@rmwc/list';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
-import { DropdownPopperProps } from './components/Dropdown';
+import type { DropdownPopperProps } from './components/Dropdown';
 
 export const LevelSyncPanel = mobxReact.observer<DropdownPopperProps>(({ toggle }) => {
   const store = useStore();
