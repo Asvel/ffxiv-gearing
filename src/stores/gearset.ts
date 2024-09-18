@@ -13,11 +13,12 @@ mobx.autorun(() => {  // gearsetStore react to main store
   const gearset = gearsetStore.get();
   if (gearset === undefined || window.location.search === '') return;
   if (gearDataLoading.get()) return;
+  const schema = G.jobSchemas[gearset.job];
   const snapshot: mst.SnapshotIn<IStore> = {
     mode: 'view',
     job: gearset.job,
-    jobLevel: gearset.jobLevel,
-    syncLevel: gearset.syncLevel,
+    jobLevel: schema.levelSyncable ? gearset.jobLevel : schema.jobLevel,
+    syncLevel: schema.levelSyncable ? gearset.syncLevel : undefined,
     gears: {},
     equippedGears: {},
   };
@@ -44,18 +45,24 @@ const parseQuery = () => {
   } else {
     if (query.startsWith('import-')) {
       const gearset = JSON.parse(decodeURIComponent(query.slice('import-'.length))) as G.Gearset;
-      if (gearset.syncLevel !== undefined) {
-        let matched = Object.entries(G.syncLevels).find(kvp => kvp[1].includes(gearset.syncLevel!))?.[0];
-        if (matched === undefined) {
-          matched = Object.entries(G.syncLevelOfJobLevels).find(kvp => kvp[1] === gearset.syncLevel)?.[0];
-          delete gearset.syncLevel;
+      const schema = G.jobSchemas[gearset.job];
+      if (schema.levelSyncable) {
+        if (gearset.syncLevel !== undefined) {
+          let matched = Object.entries(G.syncLevels).find(kvp => kvp[1].includes(gearset.syncLevel!))?.[0];
+          if (matched === undefined) {
+            matched = Object.entries(G.syncLevelOfJobLevels).find(kvp => kvp[1] === gearset.syncLevel)?.[0];
+            delete gearset.syncLevel;
+          }
+          if (matched !== undefined) {
+            gearset.jobLevel = parseInt(matched, 10) as G.JobLevel;
+          }
         }
-        if (matched !== undefined) {
-          gearset.jobLevel = parseInt(matched, 10) as G.JobLevel;
+        if (!G.jobLevels.includes(gearset.jobLevel)) {
+          gearset.jobLevel = schema.jobLevel;
         }
-      }
-      if (!G.jobLevels.includes(gearset.jobLevel)) {
-        gearset.jobLevel = G.jobSchemas[gearset.job].jobLevel;
+      } else {
+        gearset.jobLevel = schema.jobLevel;
+        gearset.syncLevel = undefined;
       }
       query = share.stringify(gearset);
       window.history.replaceState(window.history.state, document.title,
