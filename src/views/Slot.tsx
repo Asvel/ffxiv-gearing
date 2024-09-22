@@ -23,8 +23,15 @@ export const Slot = mobxReact.observer<{ slot: G.SlotSchema }>(({ slot }) => {
               onClick={store.toggleShowAllFoods}
             />
           )}
+          {slot.slot === -2 && (
+            <Button
+              className="gears_toogle-all-foods"
+              children={store.showAllPotions ? '显示最优' :'显示全部'}
+              onClick={store.toggleShowAllPotions}
+            />
+          )}
         </th>
-        <th className="gears_materias">{slot.slot === -1 ? '利用率' : '魔晶石'}</th>
+        <th className="gears_materias">{(slot.slot === -1 || slot.slot === -2) ? '利用率' : '魔晶石'}</th>
         {store.schema.stats.map(stat => (
           <th key={stat} className={classNames('gears_stat', store.schema.skeletonGears && '-skeleton')}>
             {G.statNames[stat]}

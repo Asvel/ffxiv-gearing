@@ -25,6 +25,7 @@ export const Store = mst.types
     filterPatch: mst.types.optional(mst.types.string as mst.ISimpleType<FilterPatch>, 'all'),
     filterFocus: mst.types.optional(mst.types.string as mst.ISimpleType<FilterFocus>, 'no'),
     showAllFoods: mst.types.optional(mst.types.boolean, false),
+    showAllPotions: mst.types.optional(mst.types.boolean, false),
     duplicateToolMateria: mst.types.optional(mst.types.boolean, true),
     gears: mst.types.map(GearUnion),
     equippedGears: mst.types.map(GearUnionReference),
@@ -53,9 +54,9 @@ export const Store = mst.types
           (filterPatch === 'all' ||
             filterPatch === 'next' && !(gear.patch! > G.patches.next) ||
             filterPatch === 'current' && !(gear.patch! > G.patches.current)) &&
-          (gear.slot === -1
-            ? (self.showAllFoods || 'best' in gear) // Foods
-            : gear.slot === 17 || (gear.slot === 2 && job === 'FSH') ||  // Soul crystal and spearfishing gig
+          (gear.slot === -1 ? (self.showAllFoods || 'best' in gear) :  // Foods
+            gear.slot === -2 ? (self.showAllPotions || 'best' in gear) :  // Potions
+              gear.slot === 17 || (gear.slot === 2 && job === 'FSH') ||  // Soul crystal and spearfishing gig
               (gear.level >= minLevel && gear.level <= maxLevel &&
                 !(gear.obsolete && this.setting.hideObsoleteGears))
           )
@@ -134,11 +135,13 @@ export const Store = mst.types
     get equippedStats(): G.Stats {
       console.debug('equippedStats');
       if (self.job === undefined) return {};
-      const equippedFood = self.equippedGears.get('-1') as IFood;
-      if (equippedFood === undefined) return this.equippedStatsWithoutFood;
-      const stats: G.Stats = {};
-      for (const stat of Object.keys(this.equippedStatsWithoutFood) as G.Stat[]) {
-        stats[stat] = this.equippedStatsWithoutFood[stat] + (equippedFood.effectiveStats[stat] ?? 0);
+      const stats = { ...this.equippedStatsWithoutFood };
+      for (const slot of ['-1', '-2']) {
+        const equippedFood = self.equippedGears.get(slot) as IFood;
+        if (equippedFood === undefined) continue;
+        for (const stat of Object.keys(this.equippedStatsWithoutFood) as G.Stat[]) {
+          stats[stat] += equippedFood.effectiveStats[stat] ?? 0;
+        }
       }
       return stats;
     },
@@ -685,6 +688,9 @@ export const Store = mst.types
     },
     toggleShowAllFoods(): void {
       self.showAllFoods = !self.showAllFoods;
+    },
+    toggleShowAllPotions(): void {
+      self.showAllPotions = !self.showAllPotions;
     },
     toggleDuplicateToolMateria(): void {
       self.duplicateToolMateria = !self.duplicateToolMateria;

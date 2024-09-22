@@ -228,14 +228,17 @@ const jobCategoryMap = Object.fromEntries(jobCategoriesUsed
 const foods = Item
   .map((x, index) => {
     const itemAction = ItemAction[x['ItemAction']];
-    if ((itemAction['Type'] !== '844' && itemAction['Type'] !== '845') || x['CanBeHq'] !== 'True') return;
+    const actionType = Number(itemAction['Type']);
+    const isFood = actionType === 844 || actionType === 845;  // 844=战斗食物, 845=生产采集食物
+    const isPotion = actionType === 846;  // 846=加属性值的药水
+    if (!(isFood || isPotion) || x['CanBeHq'] !== 'True') return;
     const itemFood = ItemFood[itemAction['Data[1]']];
 
     const ret = {};
     ret.id = Number(x['#']);
     ret.name = ItemCn[index]?.['Name'] || x['Name'];
     ret.level = Number(x['Level{Item}']);
-    ret.slot = -1;
+    ret.slot = isFood ? -1 : -2;
     ret.jobCategory = undefined;
     ret.stats = {};
     ret.statRates = {};
@@ -260,6 +263,8 @@ const foods = Item
     const jobs = {};
     if ('CMS' in ret.stats || 'CRL' in ret.stats || 'CP' in ret.stats) {
       ['CRP', 'BSM', 'ARM', 'GSM', 'LTW', 'WVR', 'ALC', 'CUL'].forEach(j => jobs[j] = true);
+    } else {
+      if (isPotion) return;
     }
     if ('GTH' in ret.stats || 'PCP' in ret.stats || 'GP' in ret.stats) {
       ['MIN', 'BTN', 'FSH'].forEach(j => jobs[j] = true);

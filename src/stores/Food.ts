@@ -67,7 +67,7 @@ export const Food = mst.types
       return !(this.patch > G.patches.current);
     },
     get isEquipped(): boolean {
-      return self.store.equippedGears.get('-1') === self;
+      return self.store.equippedGears.get(this.slot) === self;
     },
   }));
 

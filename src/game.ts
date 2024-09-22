@@ -144,7 +144,7 @@ const slotSchemaCommon: SlotSchema[] = [
   { slot: 11, name: '手镯', uiGroup: 'right' },
   { slot: 12, name: '戒指', uiGroup: 'right' },
   { slot: -12, name: '戒指', uiGroup: 'right' },
-  { slot: -1, name: '食物', levelWeight: 0, uiGroup: 'misc' },
+  { slot: -1, name: '食品', levelWeight: 0, uiGroup: 'misc' },
 ];
 const slotSchemaCombat = [
   { slot: 13, name: '武器', levelWeight: 2, uiGroup: 'weapon' },
@@ -159,6 +159,7 @@ const slotSchemaCrafting = [
   ...slotSchemaGathering.slice(0, -1),
   { slot: 17, name: '灵魂水晶', shortName: '水晶', levelWeight: 0, uiGroup: 'misc' },
   slotSchemaGathering[slotSchemaGathering.length - 1],
+  { slot: -2, name: '药品', levelWeight: 0, uiGroup: 'misc' },
 ];
 
 const defaultItemLevelCombat = [690, 735];

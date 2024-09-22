@@ -79,7 +79,7 @@ npm run analyze
 * 修改`data\convert.js`文件中的游戏版本号信息。
   * `const patches = {`部分，按照游戏版本修改。
 * 转换数据：`npm run data-convert`。
-  * 如果这次数据更新有新追加的装备或食物，会生成一个`data\out\sourcesMissing.txt`文件，参考这个文件编辑`data\in\sources.txt`中的装备来源。
+  * 如果这次数据更新有新追加的装备或食药，会生成一个`data\out\sourcesMissing.txt`文件，参考这个文件编辑`data\in\sources.txt`中的装备来源。
     * `sources.txt`的格式为，每一部分第一行是装备来源，之后几行是这个来源的装备的 ID 范围，最后以一个空行结束。
       * 装备来源后跟`@xx`可以指定这组装备的实装版本，一般来说将新出现的装备指定为最新版本即可。
     * `sourcesMissing.txt`中不连续的 ID 会被隔开，这通常意味着他们不同类的装备，但也要注意不同类装备的 ID 也有连在一起的时候。

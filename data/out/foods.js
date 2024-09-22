@@ -3445,6 +3445,48 @@ export default [
     statMain: 'GTH',
   },
   {
+    id: 19882,
+    name: '名匠药茶',
+    level: 273,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CMS: 25,
+    },
+    statRates: {
+      CMS: 3,
+    },
+    statMain: 'CMS',
+  },
+  {
+    id: 19883,
+    name: '巨匠药茶',
+    level: 276,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CRL: 25,
+    },
+    statRates: {
+      CRL: 3,
+    },
+    statMain: 'CRL',
+  },
+  {
+    id: 19884,
+    name: '魔匠药茶',
+    level: 282,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CP: 13,
+    },
+    statRates: {
+      CP: 5,
+    },
+    statMain: 'CP',
+  },
+  {
     id: 21087,
     name: '王室鲑鱼排',
     level: 320,
@@ -4488,6 +4530,48 @@ export default [
       TEN: 10,
     },
     statMain: 'DET',
+  },
+  {
+    id: 27957,
+    name: '名匠药水',
+    level: 406,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CMS: 41,
+    },
+    statRates: {
+      CMS: 3,
+    },
+    statMain: 'CMS',
+  },
+  {
+    id: 27958,
+    name: '巨匠药水',
+    level: 412,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CRL: 42,
+    },
+    statRates: {
+      CRL: 3,
+    },
+    statMain: 'CRL',
+  },
+  {
+    id: 27959,
+    name: '魔匠药水',
+    level: 412,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CP: 16,
+    },
+    statRates: {
+      CP: 6,
+    },
+    statMain: 'CP',
   },
   {
     id: 28720,
@@ -5621,6 +5705,48 @@ export default [
     statMain: 'DET',
   },
   {
+    id: 36114,
+    name: '名匠药酒',
+    level: 527,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CMS: 50,
+    },
+    statRates: {
+      CMS: 3,
+    },
+    statMain: 'CMS',
+  },
+  {
+    id: 36115,
+    name: '巨匠药酒',
+    level: 540,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CRL: 50,
+    },
+    statRates: {
+      CRL: 3,
+    },
+    statMain: 'CRL',
+  },
+  {
+    id: 36116,
+    name: '魔匠药酒',
+    level: 554,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CP: 21,
+    },
+    statRates: {
+      CP: 6,
+    },
+    statMain: 'CP',
+  },
+  {
     id: 37282,
     name: '镶烤墨鱼',
     level: 590,
@@ -6593,6 +6719,51 @@ export default [
       CRT: 10,
     },
     statMain: 'TEN',
+    best: true,
+  },
+  {
+    id: 44167,
+    name: '名匠药液',
+    level: 665,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CMS: 63,
+    },
+    statRates: {
+      CMS: 3,
+    },
+    statMain: 'CMS',
+    best: true,
+  },
+  {
+    id: 44168,
+    name: '巨匠药液',
+    level: 670,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CRL: 63,
+    },
+    statRates: {
+      CRL: 3,
+    },
+    statMain: 'CRL',
+    best: true,
+  },
+  {
+    id: 44169,
+    name: '魔匠药液',
+    level: 675,
+    slot: -2,
+    jobCategory: 33,
+    stats: {
+      CP: 27,
+    },
+    statRates: {
+      CP: 6,
+    },
+    statMain: 'CP',
     best: true,
   },
   {
