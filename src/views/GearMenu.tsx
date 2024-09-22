@@ -42,7 +42,7 @@ export const GearMenu = mobxReact.observer<{
         <RippleLazy>
           <a
             className="gear-menu_item"
-            href={`https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:` + encodeURI(gear.name)}
+            href={`https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:${encodeURI(gear.name)}`}
             target="_blank"
             tabIndex={0}
           >
@@ -53,8 +53,8 @@ export const GearMenu = mobxReact.observer<{
       <RippleLazy>
         <a
           className="gear-menu_item"
-          href={`http://www.garlandtools.org/db/#item/` + Math.abs(gear.id)}
-          target="_blank"
+          href={`http://www.garlandtools.org/db/#item/${Math.abs(gear.id)}`}
+          target="garlandtools"
           tabIndex={0}
         >
           在 Garland Data 中查看 <Icon className="gear-menu_external" name="open-in-new" />
