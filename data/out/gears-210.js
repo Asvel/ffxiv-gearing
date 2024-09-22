@@ -16758,7 +16758,7 @@ export default [
   },
   {
     id: 43633,
-    name: 'Padjali Twinfangs',
+    name: '角尊双牙',
     level: 235,
     rarity: 2,
     slot: 13,
@@ -16775,11 +16775,10 @@ export default [
       DLY: 2640,
     },
     source: '深层迷宫/死者宫殿',
-    patch: '7.0',
   },
   {
     id: 43654,
-    name: 'Padjali Fan Brush',
+    name: '角尊扇形笔',
     level: 235,
     rarity: 2,
     slot: 13,
@@ -16795,7 +16794,6 @@ export default [
       MDMG: 76,
     },
     source: '深层迷宫/死者宫殿',
-    patch: '7.0',
   },
   {
     id: 14388,

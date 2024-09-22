@@ -11546,7 +11546,7 @@ export default [
   },
   {
     id: 41678,
-    name: 'Chocobo Brush',
+    name: '陆行鸟之笔',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11562,7 +11562,7 @@ export default [
   },
   {
     id: 43638,
-    name: 'Hellhound Twinfangs',
+    name: '地狱犬双牙',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11579,7 +11579,7 @@ export default [
   },
   {
     id: 43639,
-    name: 'Augmented Hellhound Twinfangs',
+    name: '改良版地狱犬双牙',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11596,7 +11596,7 @@ export default [
   },
   {
     id: 43640,
-    name: 'Tropaios Saberfangs',
+    name: '凯旋双军刀',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11613,7 +11613,7 @@ export default [
   },
   {
     id: 43659,
-    name: 'Hellhound Round Brush',
+    name: '地狱犬圆笔',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11629,7 +11629,7 @@ export default [
   },
   {
     id: 43660,
-    name: 'Augmented Hellhound Round Brush',
+    name: '改良版地狱犬圆笔',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11645,7 +11645,7 @@ export default [
   },
   {
     id: 43661,
-    name: 'Tropaios Angle Brush',
+    name: '凯旋斜角笔',
     level: 1,
     rarity: 1,
     slot: 13,

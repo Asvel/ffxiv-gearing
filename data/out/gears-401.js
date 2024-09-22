@@ -17237,7 +17237,7 @@ export default [
   },
   {
     id: 25428,
-    name: '隆卡精准长筒靴',
+    name: '隆卡精准高筒靴',
     level: 440,
     rarity: 3,
     slot: 8,

@@ -22,11 +22,11 @@ export const FilterPanel = mobxReact.observer(() => {
           checked={store.filterPatch === 'next'}
           onChange={() => store.setFilterPatch('next')}
         />
-        {/* FIXME <Radio
+        <Radio
           label={`只显示国服已实装的项目（≤${G.patches.current}）`}
           checked={store.filterPatch === 'current'}
           onChange={() => store.setFilterPatch('current')}
-        /> */}
+        />
       </div>
       <div className="filter_section">
         <span className="filter_title">“聚焦”模式</span>

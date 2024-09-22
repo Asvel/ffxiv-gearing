@@ -20075,7 +20075,7 @@ export default [
   },
   {
     id: 43635,
-    name: 'Empyrean Twinfangs',
+    name: '天之对剑',
     level: 365,
     rarity: 3,
     slot: 13,
@@ -20092,11 +20092,10 @@ export default [
       DLY: 2640,
     },
     source: '深层迷宫/天之御柱',
-    patch: '7.0',
   },
   {
     id: 43656,
-    name: 'Empyrean Paintbrush',
+    name: '天之绘笔',
     level: 365,
     rarity: 3,
     slot: 13,
@@ -20112,7 +20111,6 @@ export default [
       MDMG: 89,
     },
     source: '深层迷宫/天之御柱',
-    patch: '7.0',
   },
   {
     id: 21399,

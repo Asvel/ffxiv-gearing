@@ -3205,7 +3205,7 @@ export default [
   },
   {
     id: 43634,
-    name: 'Kinna Twinfangs',
+    name: '闪熠双牙',
     level: 255,
     rarity: 3,
     slot: 13,
@@ -3222,11 +3222,10 @@ export default [
       DLY: 2640,
     },
     source: '深层迷宫/死者宫殿',
-    patch: '7.0',
   },
   {
     id: 43655,
-    name: 'Kinna Angle Brush',
+    name: '闪熠斜角笔',
     level: 255,
     rarity: 3,
     slot: 13,
@@ -3242,7 +3241,6 @@ export default [
       MDMG: 78,
     },
     source: '深层迷宫/死者宫殿',
-    patch: '7.0',
   },
   {
     id: 15237,

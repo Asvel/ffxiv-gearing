@@ -43,8 +43,8 @@ const jobs = [
 
 const patches = {
   data: '7.05',  // 主数据的版本，即国际服游戏版本
-  next: '7.0',  // 对国服来说，下一个有装备更新的版本
-  current: '6.99',  // 国服当前游戏版本
+  next: '7.01',  // 对国服来说，下一个有装备更新的版本
+  current: '7.0',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};
@@ -292,7 +292,7 @@ const foods = Item
 const bestFoods = [];
 for (const food of foods.slice().reverse()) {
   if (food.id === 4745) continue;  // 唯一的直击信仰食物，各只加1，应该并不会有人想吃它
-  if (food.patch > '7.0' /* patches.current */) {  // 不强制显示7.0版本的新食物和7.0之前的国服已实装范围内的最优食物
+  if (food.patch > patches.current) {
     food.best = true;
     continue;
   }
