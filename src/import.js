@@ -70,6 +70,10 @@
       for (const food of state.food.listResult) {
         foodIdToItemId[food.id] = food.item;
       }
+      const medicineIdToItemId = {};
+      for (const medicine of state.medicine.listResult) {
+        medicineIdToItemId[medicine.id] = medicine.item;
+      }
       for (const [ slot, gear ] of Object.entries(state.gearsets.gearset)) {
         if (!gear) continue;
         let { id } = gear;
@@ -87,6 +91,7 @@
         }
         if (id) {
           if (slot === 'food') id = foodIdToItemId[id];
+          if (slot === 'medicine') id = medicineIdToItemId[id];
           let materiaKey = id;
           if (slot === 'fingerL') materiaKey += 'L';
           if (slot === 'fingerR') materiaKey += 'R';
