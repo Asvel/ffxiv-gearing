@@ -41,11 +41,12 @@ export const Gear = mst.types
       return gearColorScheme === 'source' && sourceColors[(source).slice(0, 2)] || rarityColors[rarity];
     },
     get syncedLevel(): number | undefined {
-      let { jobLevel, syncLevel } = self.store;
-      if (jobLevel < this.equipLevel && !(syncLevel! < G.syncLevelOfJobLevels[jobLevel])) {
-        syncLevel = G.syncLevelOfJobLevels[jobLevel];
+      const { jobLevel, syncLevel } = self.store;
+      if (jobLevel < this.equipLevel) {
+        return Math.min(this.level, G.syncLevelOfJobLevels[jobLevel], syncLevel ?? Infinity);
+      } else {
+        return syncLevel! < this.level ? syncLevel : undefined;
       }
-      return syncLevel! < this.level ? syncLevel : undefined;
     },
     get caps(): G.Stats { return G.getCaps(self.data); },
     get bareStats(): G.Stats { return self.data.stats; },
