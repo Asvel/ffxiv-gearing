@@ -15,6 +15,7 @@ export interface Gear extends GearBase {
   rawSlot?: number,
   role: number,
   equipLevel: number,
+  equipLevelVariable?: true,
   materiaSlot: number,
   materiaAdvanced?: true,
   hq?: true,

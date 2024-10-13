@@ -28,6 +28,7 @@ export const Gear = mst.types
     get slot() { return self.id > 0 ? self.data.slot : -self.data.slot; },
     get jobs() { return G.jobCategories[self.data.jobCategory]; },
     get equipLevel() { return self.data.equipLevel; },
+    get equipLevelVariable() { return self.data.equipLevelVariable; },
     get materiaSlot() { return self.data.materiaSlot; },
     get materiaAdvanced() { return self.data.materiaAdvanced; },
     get hq() { return self.data.hq; },
@@ -41,12 +42,12 @@ export const Gear = mst.types
       return gearColorScheme === 'source' && sourceColors[(source).slice(0, 2)] || rarityColors[rarity];
     },
     get syncedLevel(): number | undefined {
-      const { jobLevel, syncLevel } = self.store;
-      if (jobLevel < this.equipLevel) {
-        return Math.min(this.level, G.syncLevelOfJobLevels[jobLevel], syncLevel ?? Infinity);
-      } else {
-        return syncLevel! < this.level ? syncLevel : undefined;
-      }
+      const { jobLevel, syncLevel=Infinity } = self.store;
+      if (syncLevel >= this.level && jobLevel >= this.equipLevel) return undefined;
+      const jobLevelSyncedLevel = Math.min(this.level, G.syncLevelOfJobLevels[jobLevel]);
+      return this.equipLevelVariable
+        ? Math.min(syncLevel, jobLevelSyncedLevel)
+        : syncLevel < this.level ? syncLevel : jobLevelSyncedLevel;
     },
     get caps(): G.Stats { return G.getCaps(self.data); },
     get bareStats(): G.Stats { return self.data.stats; },

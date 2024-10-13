@@ -9399,6 +9399,7 @@ export default [
     role: 1,
     jobCategory: 20,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9417,6 +9418,7 @@ export default [
     role: 1,
     jobCategory: 20,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -9435,6 +9437,7 @@ export default [
     role: 1,
     jobCategory: 20,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9453,6 +9456,7 @@ export default [
     role: 1,
     jobCategory: 20,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -9471,6 +9475,7 @@ export default [
     role: 1,
     jobCategory: 20,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9489,6 +9494,7 @@ export default [
     role: 3,
     jobCategory: 21,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9507,6 +9513,7 @@ export default [
     role: 3,
     jobCategory: 21,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -9525,6 +9532,7 @@ export default [
     role: 3,
     jobCategory: 21,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9543,6 +9551,7 @@ export default [
     role: 3,
     jobCategory: 21,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -9561,6 +9570,7 @@ export default [
     role: 3,
     jobCategory: 21,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9579,6 +9589,7 @@ export default [
     role: 1,
     jobCategory: 22,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9597,6 +9608,7 @@ export default [
     role: 1,
     jobCategory: 22,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -9615,6 +9627,7 @@ export default [
     role: 1,
     jobCategory: 22,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9633,6 +9646,7 @@ export default [
     role: 1,
     jobCategory: 22,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -9651,6 +9665,7 @@ export default [
     role: 1,
     jobCategory: 22,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9669,6 +9684,7 @@ export default [
     role: 2,
     jobCategory: 23,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9687,6 +9703,7 @@ export default [
     role: 2,
     jobCategory: 23,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -9705,6 +9722,7 @@ export default [
     role: 2,
     jobCategory: 23,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9723,6 +9741,7 @@ export default [
     role: 2,
     jobCategory: 23,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -9741,6 +9760,7 @@ export default [
     role: 2,
     jobCategory: 23,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -9759,6 +9779,7 @@ export default [
     role: 4,
     jobCategory: 24,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -9777,6 +9798,7 @@ export default [
     role: 4,
     jobCategory: 24,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 232,
@@ -9795,6 +9817,7 @@ export default [
     role: 4,
     jobCategory: 24,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -9813,6 +9836,7 @@ export default [
     role: 4,
     jobCategory: 24,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 232,
@@ -9831,6 +9855,7 @@ export default [
     role: 4,
     jobCategory: 24,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -9849,6 +9874,7 @@ export default [
     role: 6,
     jobCategory: 25,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -9867,6 +9893,7 @@ export default [
     role: 6,
     jobCategory: 25,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -9885,6 +9912,7 @@ export default [
     role: 6,
     jobCategory: 25,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -9903,6 +9931,7 @@ export default [
     role: 6,
     jobCategory: 25,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -9921,6 +9950,7 @@ export default [
     role: 6,
     jobCategory: 25,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -9939,6 +9969,7 @@ export default [
     role: 5,
     jobCategory: 26,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -9957,6 +9988,7 @@ export default [
     role: 5,
     jobCategory: 26,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -9975,6 +10007,7 @@ export default [
     role: 5,
     jobCategory: 26,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -9993,6 +10026,7 @@ export default [
     role: 5,
     jobCategory: 26,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10011,6 +10045,7 @@ export default [
     role: 5,
     jobCategory: 26,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10029,6 +10064,7 @@ export default [
     role: 5,
     jobCategory: 28,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10047,6 +10083,7 @@ export default [
     role: 5,
     jobCategory: 28,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10065,6 +10102,7 @@ export default [
     role: 5,
     jobCategory: 28,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10083,6 +10121,7 @@ export default [
     role: 5,
     jobCategory: 28,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10101,6 +10140,7 @@ export default [
     role: 5,
     jobCategory: 28,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10119,6 +10159,7 @@ export default [
     role: 6,
     jobCategory: 29,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10137,6 +10178,7 @@ export default [
     role: 6,
     jobCategory: 29,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10155,6 +10197,7 @@ export default [
     role: 6,
     jobCategory: 29,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10173,6 +10216,7 @@ export default [
     role: 6,
     jobCategory: 29,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10191,6 +10235,7 @@ export default [
     role: 6,
     jobCategory: 29,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10209,6 +10254,7 @@ export default [
     role: 11,
     jobCategory: 92,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10227,6 +10273,7 @@ export default [
     role: 11,
     jobCategory: 92,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 232,
@@ -10245,6 +10292,7 @@ export default [
     role: 11,
     jobCategory: 92,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10263,6 +10311,7 @@ export default [
     role: 11,
     jobCategory: 92,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 232,
@@ -10281,6 +10330,7 @@ export default [
     role: 11,
     jobCategory: 92,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10299,6 +10349,7 @@ export default [
     role: 1,
     jobCategory: 98,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10317,6 +10368,7 @@ export default [
     role: 1,
     jobCategory: 98,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -10335,6 +10387,7 @@ export default [
     role: 1,
     jobCategory: 98,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10353,6 +10406,7 @@ export default [
     role: 1,
     jobCategory: 98,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -10371,6 +10425,7 @@ export default [
     role: 1,
     jobCategory: 98,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10389,6 +10444,7 @@ export default [
     role: 4,
     jobCategory: 96,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10407,6 +10463,7 @@ export default [
     role: 4,
     jobCategory: 96,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 232,
@@ -10425,6 +10482,7 @@ export default [
     role: 4,
     jobCategory: 96,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10443,6 +10501,7 @@ export default [
     role: 4,
     jobCategory: 96,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 232,
@@ -10461,6 +10520,7 @@ export default [
     role: 4,
     jobCategory: 96,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10479,6 +10539,7 @@ export default [
     role: 6,
     jobCategory: 99,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10497,6 +10558,7 @@ export default [
     role: 6,
     jobCategory: 99,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10515,6 +10577,7 @@ export default [
     role: 6,
     jobCategory: 99,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10533,6 +10596,7 @@ export default [
     role: 6,
     jobCategory: 99,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10551,6 +10615,7 @@ export default [
     role: 6,
     jobCategory: 99,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10569,6 +10634,7 @@ export default [
     role: 3,
     jobCategory: 111,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10587,6 +10653,7 @@ export default [
     role: 3,
     jobCategory: 111,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -10605,6 +10672,7 @@ export default [
     role: 3,
     jobCategory: 111,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10623,6 +10691,7 @@ export default [
     role: 3,
     jobCategory: 111,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -10641,6 +10710,7 @@ export default [
     role: 3,
     jobCategory: 111,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10659,6 +10729,7 @@ export default [
     role: 5,
     jobCategory: 112,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10677,6 +10748,7 @@ export default [
     role: 5,
     jobCategory: 112,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10695,6 +10767,7 @@ export default [
     role: 5,
     jobCategory: 112,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10713,6 +10786,7 @@ export default [
     role: 5,
     jobCategory: 112,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10731,6 +10805,7 @@ export default [
     role: 5,
     jobCategory: 112,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10749,6 +10824,7 @@ export default [
     role: 1,
     jobCategory: 149,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10767,6 +10843,7 @@ export default [
     role: 1,
     jobCategory: 149,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -10785,6 +10862,7 @@ export default [
     role: 1,
     jobCategory: 149,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10803,6 +10881,7 @@ export default [
     role: 1,
     jobCategory: 149,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -10821,6 +10900,7 @@ export default [
     role: 1,
     jobCategory: 149,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -10839,6 +10919,7 @@ export default [
     role: 4,
     jobCategory: 150,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10857,6 +10938,7 @@ export default [
     role: 4,
     jobCategory: 150,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 232,
@@ -10875,6 +10957,7 @@ export default [
     role: 4,
     jobCategory: 150,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10893,6 +10976,7 @@ export default [
     role: 4,
     jobCategory: 150,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 232,
@@ -10911,6 +10995,7 @@ export default [
     role: 4,
     jobCategory: 150,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 146,
@@ -10929,6 +11014,7 @@ export default [
     role: 6,
     jobCategory: 181,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10947,6 +11033,7 @@ export default [
     role: 6,
     jobCategory: 181,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -10965,6 +11052,7 @@ export default [
     role: 6,
     jobCategory: 181,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -10983,6 +11071,7 @@ export default [
     role: 6,
     jobCategory: 181,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 209,
@@ -11001,6 +11090,7 @@ export default [
     role: 6,
     jobCategory: 181,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 131,
@@ -11019,6 +11109,7 @@ export default [
     role: 2,
     jobCategory: 180,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -11037,6 +11128,7 @@ export default [
     role: 2,
     jobCategory: 180,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -11055,6 +11147,7 @@ export default [
     role: 2,
     jobCategory: 180,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -11073,6 +11166,7 @@ export default [
     role: 2,
     jobCategory: 180,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 232,
@@ -11091,6 +11185,7 @@ export default [
     role: 2,
     jobCategory: 180,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 146,
@@ -11109,6 +11204,7 @@ export default [
     role: 1,
     jobCategory: 20,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 172,
@@ -11129,6 +11225,7 @@ export default [
     role: 3,
     jobCategory: 21,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 241,
@@ -11149,6 +11246,7 @@ export default [
     role: 1,
     jobCategory: 22,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 241,
@@ -11169,6 +11267,7 @@ export default [
     role: 2,
     jobCategory: 23,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 241,
@@ -11189,6 +11288,7 @@ export default [
     role: 4,
     jobCategory: 24,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 241,
@@ -11209,6 +11309,7 @@ export default [
     role: 11,
     jobCategory: 92,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 241,
@@ -11229,6 +11330,7 @@ export default [
     role: 1,
     jobCategory: 98,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 241,
@@ -11249,6 +11351,7 @@ export default [
     role: 4,
     jobCategory: 96,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 241,
@@ -11269,6 +11372,7 @@ export default [
     role: 6,
     jobCategory: 25,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 217,
@@ -11288,6 +11392,7 @@ export default [
     role: 5,
     jobCategory: 26,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 217,
@@ -11307,6 +11412,7 @@ export default [
     role: 5,
     jobCategory: 28,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 217,
@@ -11326,6 +11432,7 @@ export default [
     role: 6,
     jobCategory: 29,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 217,
@@ -11345,6 +11452,7 @@ export default [
     role: 6,
     jobCategory: 99,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 217,
@@ -11364,6 +11472,7 @@ export default [
     role: 3,
     jobCategory: 111,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 241,
@@ -11384,6 +11493,7 @@ export default [
     role: 5,
     jobCategory: 112,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 217,
@@ -11403,6 +11513,7 @@ export default [
     role: 1,
     jobCategory: 149,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 241,
@@ -11423,6 +11534,7 @@ export default [
     role: 4,
     jobCategory: 150,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       DEX: 241,
@@ -11443,6 +11555,7 @@ export default [
     role: 6,
     jobCategory: 181,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       VIT: 217,
@@ -11462,6 +11575,7 @@ export default [
     role: 2,
     jobCategory: 180,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 2,
     stats: {
       STR: 241,
@@ -11482,6 +11596,7 @@ export default [
     role: 1,
     jobCategory: 20,
     equipLevel: 89,
+    equipLevelVariable: true,
     materiaSlot: 0,
     stats: {
       STR: 69,

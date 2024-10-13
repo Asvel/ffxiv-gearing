@@ -145,6 +145,8 @@ const gears = Item
     ret.role = Number(x['BaseParamModifier']);
     ret.jobCategory = Number(x['ClassJobCategory']);
     ret.equipLevel = Number(x['Level{Equip}']);
+    ret.equipLevelVariable = x['Description'] === 'IL and attributes synced to current job level.'
+      ? true : undefined;  // FIXME: 是否有更标识字段的判定方式
     ret.materiaSlot = Number(x['MateriaSlotCount']);
     ret.materiaAdvanced = x['IsAdvancedMeldingPermitted'] === 'True' ? true : undefined;
     ret.stats = {};
