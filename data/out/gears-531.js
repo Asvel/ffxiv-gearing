@@ -1553,7 +1553,7 @@ export default [
   },
   {
     id: 43646,
-    name: '红松木圆笔',
+    name: '红松木平笔',
     level: 533,
     rarity: 1,
     slot: 13,

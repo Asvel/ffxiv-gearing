@@ -5894,7 +5894,7 @@ export default [
       PDMG: 129,
       DLY: 2240,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41914,
@@ -5914,7 +5914,7 @@ export default [
       PDMG: 129,
       DLY: 2560,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41915,
@@ -5934,7 +5934,7 @@ export default [
       PDMG: 129,
       DLY: 3360,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41916,
@@ -5954,7 +5954,7 @@ export default [
       PDMG: 129,
       DLY: 2800,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41917,
@@ -5974,7 +5974,7 @@ export default [
       PDMG: 129,
       DLY: 3040,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41918,
@@ -5993,7 +5993,7 @@ export default [
       DET: 297,
       MDMG: 129,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41919,
@@ -6012,7 +6012,7 @@ export default [
       DET: 208,
       MDMG: 129,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41920,
@@ -6031,7 +6031,7 @@ export default [
       DET: 297,
       MDMG: 129,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41921,
@@ -6050,7 +6050,7 @@ export default [
       DET: 208,
       MDMG: 129,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41922,
@@ -6070,7 +6070,7 @@ export default [
       PDMG: 129,
       DLY: 2560,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41923,
@@ -6090,7 +6090,7 @@ export default [
       PDMG: 129,
       DLY: 2960,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41924,
@@ -6110,7 +6110,7 @@ export default [
       PDMG: 129,
       DLY: 2640,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41925,
@@ -6129,7 +6129,7 @@ export default [
       DET: 297,
       MDMG: 129,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41926,
@@ -6149,7 +6149,7 @@ export default [
       PDMG: 129,
       DLY: 2640,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41927,
@@ -6168,7 +6168,7 @@ export default [
       SPS: 297,
       MDMG: 129,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41928,
@@ -6188,7 +6188,7 @@ export default [
       PDMG: 129,
       DLY: 2800,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41929,
@@ -6208,7 +6208,7 @@ export default [
       PDMG: 129,
       DLY: 3120,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41930,
@@ -6228,7 +6228,7 @@ export default [
       PDMG: 129,
       DLY: 3200,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41931,
@@ -6247,7 +6247,7 @@ export default [
       DET: 297,
       MDMG: 129,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41932,
@@ -6267,7 +6267,7 @@ export default [
       PDMG: 129,
       DLY: 2640,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41933,
@@ -6286,7 +6286,7 @@ export default [
       SPS: 208,
       MDMG: 129,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41934,
@@ -6304,7 +6304,7 @@ export default [
       CRT: 60,
       DET: 85,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41935,
@@ -6322,7 +6322,7 @@ export default [
       TEN: 126,
       DET: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41936,
@@ -6340,7 +6340,7 @@ export default [
       CRT: 200,
       SKS: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41937,
@@ -6358,7 +6358,7 @@ export default [
       CRT: 180,
       SKS: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41938,
@@ -6376,7 +6376,7 @@ export default [
       TEN: 200,
       DET: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41939,
@@ -6394,7 +6394,7 @@ export default [
       TEN: 126,
       SKS: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41940,
@@ -6412,7 +6412,7 @@ export default [
       DHT: 126,
       SKS: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41941,
@@ -6430,7 +6430,7 @@ export default [
       CRT: 286,
       DET: 200,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41942,
@@ -6448,7 +6448,7 @@ export default [
       CRT: 126,
       DET: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41943,
@@ -6466,7 +6466,7 @@ export default [
       DHT: 200,
       SKS: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41944,
@@ -6484,7 +6484,7 @@ export default [
       CRT: 126,
       DET: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41945,
@@ -6502,7 +6502,7 @@ export default [
       CRT: 180,
       SKS: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41946,
@@ -6520,7 +6520,7 @@ export default [
       DET: 200,
       SKS: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41947,
@@ -6538,7 +6538,7 @@ export default [
       CRT: 180,
       DET: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41948,
@@ -6556,7 +6556,7 @@ export default [
       DHT: 200,
       DET: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41949,
@@ -6574,7 +6574,7 @@ export default [
       DHT: 180,
       CRT: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41950,
@@ -6592,7 +6592,7 @@ export default [
       CRT: 180,
       SKS: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41951,
@@ -6610,7 +6610,7 @@ export default [
       CRT: 200,
       DET: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41952,
@@ -6628,7 +6628,7 @@ export default [
       DHT: 180,
       SKS: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41953,
@@ -6646,7 +6646,7 @@ export default [
       DHT: 286,
       DET: 200,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41954,
@@ -6664,7 +6664,7 @@ export default [
       DHT: 126,
       SKS: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41955,
@@ -6682,7 +6682,7 @@ export default [
       DHT: 126,
       DET: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41956,
@@ -6700,7 +6700,7 @@ export default [
       DHT: 200,
       CRT: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41957,
@@ -6718,7 +6718,7 @@ export default [
       DHT: 180,
       DET: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41958,
@@ -6736,7 +6736,7 @@ export default [
       CRT: 200,
       SKS: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41959,
@@ -6754,7 +6754,7 @@ export default [
       DET: 180,
       SKS: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41960,
@@ -6772,7 +6772,7 @@ export default [
       CRT: 180,
       DET: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41961,
@@ -6790,7 +6790,7 @@ export default [
       PIE: 200,
       DET: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41962,
@@ -6808,7 +6808,7 @@ export default [
       DET: 126,
       SPS: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41963,
@@ -6826,7 +6826,7 @@ export default [
       PIE: 286,
       CRT: 200,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41964,
@@ -6844,7 +6844,7 @@ export default [
       DET: 126,
       SPS: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41965,
@@ -6862,7 +6862,7 @@ export default [
       DET: 126,
       SPS: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41966,
@@ -6880,7 +6880,7 @@ export default [
       DHT: 200,
       CRT: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41967,
@@ -6898,7 +6898,7 @@ export default [
       DHT: 126,
       DET: 180,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41968,
@@ -6916,7 +6916,7 @@ export default [
       DET: 200,
       SPS: 286,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41969,
@@ -6934,7 +6934,7 @@ export default [
       CRT: 180,
       DET: 126,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41970,
@@ -6952,7 +6952,7 @@ export default [
       TEN: 99,
       DET: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41971,
@@ -6970,7 +6970,7 @@ export default [
       DET: 99,
       SKS: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41972,
@@ -6988,7 +6988,7 @@ export default [
       DHT: 99,
       CRT: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41973,
@@ -7006,7 +7006,7 @@ export default [
       CRT: 142,
       SPS: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41974,
@@ -7024,7 +7024,7 @@ export default [
       DET: 142,
       SPS: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41975,
@@ -7042,7 +7042,7 @@ export default [
       CRT: 142,
       DET: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41976,
@@ -7060,7 +7060,7 @@ export default [
       DHT: 142,
       DET: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41977,
@@ -7078,7 +7078,7 @@ export default [
       CRT: 99,
       DET: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41978,
@@ -7096,7 +7096,7 @@ export default [
       PIE: 99,
       SPS: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41979,
@@ -7114,7 +7114,7 @@ export default [
       DHT: 99,
       CRT: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41980,
@@ -7132,7 +7132,7 @@ export default [
       TEN: 99,
       DET: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41981,
@@ -7150,7 +7150,7 @@ export default [
       DHT: 142,
       CRT: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41982,
@@ -7168,7 +7168,7 @@ export default [
       CRT: 142,
       SKS: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41983,
@@ -7186,7 +7186,7 @@ export default [
       PIE: 99,
       CRT: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41984,
@@ -7204,7 +7204,7 @@ export default [
       DHT: 142,
       DET: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41985,
@@ -7222,7 +7222,7 @@ export default [
       TEN: 142,
       CRT: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41986,
@@ -7240,7 +7240,7 @@ export default [
       DHT: 99,
       CRT: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41987,
@@ -7258,7 +7258,7 @@ export default [
       DHT: 99,
       DET: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41988,
@@ -7276,7 +7276,7 @@ export default [
       CRT: 99,
       DET: 142,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 41989,
@@ -7294,7 +7294,7 @@ export default [
       DHT: 142,
       CRT: 99,
     },
-    source: '迷宫挑战/91本',
+    source: '迷宫挑战/生息河岸',
   },
   {
     id: 43221,
@@ -7827,7 +7827,7 @@ export default [
   },
   {
     id: 43302,
-    name: '嵌齿象革大地及膝裤',
+    name: '薄绢大地及膝裤',
     level: 650,
     rarity: 1,
     slot: 7,
@@ -8323,7 +8323,7 @@ export default [
   },
   {
     id: 41993,
-    name: '木棉长枪',
+    name: '木棉木长枪',
     level: 655,
     rarity: 1,
     slot: 13,
@@ -8345,7 +8345,7 @@ export default [
   },
   {
     id: 41994,
-    name: '木棉长弓',
+    name: '木棉木长弓',
     level: 655,
     rarity: 1,
     slot: 13,
@@ -8367,7 +8367,7 @@ export default [
   },
   {
     id: 41995,
-    name: '木棉手杖',
+    name: '木棉木手杖',
     level: 655,
     rarity: 1,
     slot: 13,
@@ -8388,7 +8388,7 @@ export default [
   },
   {
     id: 41996,
-    name: '木棉咒杖',
+    name: '木棉木咒杖',
     level: 655,
     rarity: 1,
     slot: 13,
@@ -8647,7 +8647,7 @@ export default [
   },
   {
     id: 42008,
-    name: '木棉飞翼',
+    name: '木棉木飞翼',
     level: 655,
     rarity: 1,
     slot: 13,
@@ -8690,7 +8690,7 @@ export default [
   },
   {
     id: 42010,
-    name: '木棉圆笔',
+    name: '木棉木圆笔',
     level: 655,
     rarity: 1,
     slot: 13,
@@ -12217,7 +12217,7 @@ export default [
       PDMG: 131,
       DLY: 2240,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42068,
@@ -12237,7 +12237,7 @@ export default [
       PDMG: 131,
       DLY: 2560,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42069,
@@ -12257,7 +12257,7 @@ export default [
       PDMG: 131,
       DLY: 3360,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42070,
@@ -12277,7 +12277,7 @@ export default [
       PDMG: 131,
       DLY: 2800,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42071,
@@ -12297,7 +12297,7 @@ export default [
       PDMG: 131,
       DLY: 3040,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42072,
@@ -12316,7 +12316,7 @@ export default [
       SPS: 212,
       MDMG: 131,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42073,
@@ -12335,7 +12335,7 @@ export default [
       DET: 303,
       MDMG: 131,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42074,
@@ -12354,7 +12354,7 @@ export default [
       DET: 212,
       MDMG: 131,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42075,
@@ -12373,7 +12373,7 @@ export default [
       CRT: 212,
       MDMG: 131,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42076,
@@ -12393,7 +12393,7 @@ export default [
       PDMG: 131,
       DLY: 2560,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42077,
@@ -12413,7 +12413,7 @@ export default [
       PDMG: 131,
       DLY: 2960,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42078,
@@ -12433,7 +12433,7 @@ export default [
       PDMG: 131,
       DLY: 2640,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42079,
@@ -12452,7 +12452,7 @@ export default [
       DET: 303,
       MDMG: 131,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42080,
@@ -12472,7 +12472,7 @@ export default [
       PDMG: 131,
       DLY: 2640,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42081,
@@ -12491,7 +12491,7 @@ export default [
       SPS: 212,
       MDMG: 131,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42082,
@@ -12511,7 +12511,7 @@ export default [
       PDMG: 131,
       DLY: 2800,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42083,
@@ -12531,7 +12531,7 @@ export default [
       PDMG: 131,
       DLY: 3120,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42084,
@@ -12551,7 +12551,7 @@ export default [
       PDMG: 131,
       DLY: 3200,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42085,
@@ -12570,7 +12570,7 @@ export default [
       DET: 212,
       MDMG: 131,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42086,
@@ -12590,7 +12590,7 @@ export default [
       PDMG: 131,
       DLY: 2640,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42087,
@@ -12609,7 +12609,7 @@ export default [
       SPS: 303,
       MDMG: 131,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42088,
@@ -12627,7 +12627,7 @@ export default [
       CRT: 86,
       DET: 60,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42089,
@@ -12645,7 +12645,7 @@ export default [
       TEN: 184,
       CRT: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42090,
@@ -12663,7 +12663,7 @@ export default [
       CRT: 292,
       DET: 204,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42091,
@@ -12681,7 +12681,7 @@ export default [
       TEN: 129,
       SKS: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42092,
@@ -12699,11 +12699,11 @@ export default [
       TEN: 292,
       DET: 204,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42093,
-    name: '佐莫御敌高跟鞋',
+    name: '佐莫御敌绑腿',
     level: 660,
     rarity: 2,
     slot: 8,
@@ -12717,7 +12717,7 @@ export default [
       CRT: 129,
       SKS: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42094,
@@ -12735,7 +12735,7 @@ export default [
       DHT: 129,
       CRT: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42095,
@@ -12753,7 +12753,7 @@ export default [
       CRT: 292,
       DET: 204,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42096,
@@ -12771,7 +12771,7 @@ export default [
       CRT: 129,
       SKS: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42097,
@@ -12789,7 +12789,7 @@ export default [
       DHT: 204,
       SKS: 292,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42098,
@@ -12807,7 +12807,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42099,
@@ -12825,7 +12825,7 @@ export default [
       CRT: 184,
       SKS: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42100,
@@ -12843,7 +12843,7 @@ export default [
       CRT: 204,
       DET: 292,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42101,
@@ -12861,7 +12861,7 @@ export default [
       DHT: 184,
       CRT: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42102,
@@ -12879,7 +12879,7 @@ export default [
       CRT: 292,
       SKS: 204,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42103,
@@ -12897,7 +12897,7 @@ export default [
       DET: 184,
       SKS: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42104,
@@ -12915,7 +12915,7 @@ export default [
       CRT: 129,
       DET: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42105,
@@ -12933,7 +12933,7 @@ export default [
       CRT: 204,
       DET: 292,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42106,
@@ -12951,7 +12951,7 @@ export default [
       DHT: 184,
       SKS: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42107,
@@ -12969,7 +12969,7 @@ export default [
       DHT: 204,
       CRT: 292,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42108,
@@ -12987,7 +12987,7 @@ export default [
       DHT: 129,
       SKS: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42109,
@@ -13005,7 +13005,7 @@ export default [
       DET: 184,
       SKS: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42110,
@@ -13023,7 +13023,7 @@ export default [
       DHT: 292,
       CRT: 204,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42111,
@@ -13041,7 +13041,7 @@ export default [
       DHT: 129,
       CRT: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42112,
@@ -13059,7 +13059,7 @@ export default [
       DHT: 204,
       DET: 292,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42113,
@@ -13077,7 +13077,7 @@ export default [
       CRT: 184,
       SKS: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42114,
@@ -13095,7 +13095,7 @@ export default [
       PIE: 129,
       SPS: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42115,
@@ -13113,7 +13113,7 @@ export default [
       CRT: 204,
       DET: 292,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42116,
@@ -13131,7 +13131,7 @@ export default [
       PIE: 129,
       DET: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42117,
@@ -13149,7 +13149,7 @@ export default [
       PIE: 204,
       CRT: 292,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42118,
@@ -13167,11 +13167,11 @@ export default [
       PIE: 129,
       SPS: 184,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42119,
-    name: '佐莫咏咒小丑帽',
+    name: '佐莫咏咒无檐帽',
     level: 660,
     rarity: 2,
     slot: 3,
@@ -13185,7 +13185,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42120,
@@ -13203,7 +13203,7 @@ export default [
       DHT: 292,
       SPS: 204,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42121,
@@ -13221,11 +13221,11 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42122,
-    name: '佐莫咏咒打底裙',
+    name: '佐莫咏咒打底裤',
     level: 660,
     rarity: 2,
     slot: 7,
@@ -13239,7 +13239,7 @@ export default [
       DHT: 204,
       SPS: 292,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42123,
@@ -13257,7 +13257,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42124,
@@ -13275,7 +13275,7 @@ export default [
       CRT: 145,
       SKS: 102,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42125,
@@ -13293,7 +13293,7 @@ export default [
       DHT: 102,
       DET: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42126,
@@ -13311,7 +13311,7 @@ export default [
       DHT: 102,
       CRT: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42127,
@@ -13329,7 +13329,7 @@ export default [
       DET: 102,
       SPS: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42128,
@@ -13347,7 +13347,7 @@ export default [
       DHT: 102,
       DET: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42129,
@@ -13365,7 +13365,7 @@ export default [
       DET: 145,
       SKS: 102,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42130,
@@ -13383,7 +13383,7 @@ export default [
       DHT: 145,
       SKS: 102,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42131,
@@ -13401,7 +13401,7 @@ export default [
       CRT: 102,
       DET: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42132,
@@ -13419,7 +13419,7 @@ export default [
       PIE: 102,
       CRT: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42133,
@@ -13437,7 +13437,7 @@ export default [
       CRT: 145,
       DET: 102,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42134,
@@ -13455,7 +13455,7 @@ export default [
       TEN: 102,
       CRT: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42135,
@@ -13473,7 +13473,7 @@ export default [
       DHT: 145,
       DET: 102,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42136,
@@ -13491,7 +13491,7 @@ export default [
       DET: 102,
       SKS: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42137,
@@ -13509,7 +13509,7 @@ export default [
       CRT: 102,
       DET: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42138,
@@ -13527,7 +13527,7 @@ export default [
       DHT: 102,
       DET: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42139,
@@ -13545,7 +13545,7 @@ export default [
       TEN: 102,
       DET: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42140,
@@ -13563,7 +13563,7 @@ export default [
       DHT: 102,
       DET: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42141,
@@ -13581,7 +13581,7 @@ export default [
       DHT: 145,
       SKS: 102,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42142,
@@ -13599,7 +13599,7 @@ export default [
       PIE: 102,
       DET: 145,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 42143,
@@ -13617,7 +13617,7 @@ export default [
       CRT: 145,
       SPS: 102,
     },
-    source: '迷宫挑战/93本',
+    source: '迷宫挑战/沃刻佐莫山',
   },
   {
     id: 43632,
@@ -13641,7 +13641,7 @@ export default [
   },
   {
     id: 43653,
-    name: '文艺复兴之笔',
+    name: '改良型文艺复兴之笔',
     level: 660,
     rarity: 3,
     slot: 13,

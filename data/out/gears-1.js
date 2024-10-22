@@ -11579,7 +11579,7 @@ export default [
   },
   {
     id: 43639,
-    name: '改良版地狱犬双牙',
+    name: '改良型地狱犬双牙',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11629,7 +11629,7 @@ export default [
   },
   {
     id: 43660,
-    name: '改良版地狱犬圆笔',
+    name: '改良型地狱犬圆笔',
     level: 1,
     rarity: 1,
     slot: 13,

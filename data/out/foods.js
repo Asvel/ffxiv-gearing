@@ -6432,7 +6432,7 @@ export default [
   },
   {
     id: 44090,
-    name: '西蓝花炒菠菜',
+    name: '西兰花炒菠菜',
     level: 690,
     slot: -1,
     jobCategory: 64,

@@ -2961,7 +2961,7 @@ export default [
       PDMG: 132,
       DLY: 2240,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42222,
@@ -2981,7 +2981,7 @@ export default [
       PDMG: 132,
       DLY: 2560,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42223,
@@ -3001,7 +3001,7 @@ export default [
       PDMG: 132,
       DLY: 3360,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42224,
@@ -3021,7 +3021,7 @@ export default [
       PDMG: 132,
       DLY: 2800,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42225,
@@ -3041,7 +3041,7 @@ export default [
       PDMG: 132,
       DLY: 3040,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42226,
@@ -3060,7 +3060,7 @@ export default [
       SPS: 215,
       MDMG: 132,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42227,
@@ -3079,7 +3079,7 @@ export default [
       SPS: 307,
       MDMG: 132,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42228,
@@ -3098,7 +3098,7 @@ export default [
       CRT: 307,
       MDMG: 132,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42229,
@@ -3117,7 +3117,7 @@ export default [
       CRT: 307,
       MDMG: 132,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42230,
@@ -3137,7 +3137,7 @@ export default [
       PDMG: 132,
       DLY: 2560,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42231,
@@ -3157,7 +3157,7 @@ export default [
       PDMG: 132,
       DLY: 2960,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42232,
@@ -3177,7 +3177,7 @@ export default [
       PDMG: 132,
       DLY: 2640,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42233,
@@ -3196,7 +3196,7 @@ export default [
       SPS: 307,
       MDMG: 132,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42234,
@@ -3216,7 +3216,7 @@ export default [
       PDMG: 132,
       DLY: 2640,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42235,
@@ -3235,7 +3235,7 @@ export default [
       CRT: 307,
       MDMG: 132,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42236,
@@ -3255,7 +3255,7 @@ export default [
       PDMG: 132,
       DLY: 2800,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42237,
@@ -3275,7 +3275,7 @@ export default [
       PDMG: 132,
       DLY: 3120,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42238,
@@ -3295,11 +3295,11 @@ export default [
       PDMG: 132,
       DLY: 3200,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42239,
-    name: '深空石针',
+    name: '深空蛇石针',
     level: 666,
     rarity: 2,
     slot: 13,
@@ -3314,7 +3314,7 @@ export default [
       DET: 215,
       MDMG: 132,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42240,
@@ -3334,7 +3334,7 @@ export default [
       PDMG: 132,
       DLY: 2640,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42241,
@@ -3353,7 +3353,7 @@ export default [
       SPS: 307,
       MDMG: 132,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42242,
@@ -3371,7 +3371,7 @@ export default [
       CRT: 62,
       DET: 88,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42243,
@@ -3389,7 +3389,7 @@ export default [
       CRT: 186,
       DET: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42244,
@@ -3407,7 +3407,7 @@ export default [
       CRT: 296,
       DET: 207,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42245,
@@ -3425,7 +3425,7 @@ export default [
       TEN: 186,
       SKS: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42246,
@@ -3443,7 +3443,7 @@ export default [
       TEN: 296,
       DET: 207,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42247,
@@ -3461,7 +3461,7 @@ export default [
       TEN: 186,
       SKS: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42248,
@@ -3479,7 +3479,7 @@ export default [
       DHT: 186,
       DET: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42249,
@@ -3497,7 +3497,7 @@ export default [
       CRT: 296,
       SKS: 207,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42250,
@@ -3515,7 +3515,7 @@ export default [
       DET: 130,
       SKS: 186,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42251,
@@ -3533,7 +3533,7 @@ export default [
       DHT: 207,
       CRT: 296,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42252,
@@ -3551,7 +3551,7 @@ export default [
       DHT: 186,
       CRT: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42253,
@@ -3569,7 +3569,7 @@ export default [
       DHT: 186,
       CRT: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42254,
@@ -3587,7 +3587,7 @@ export default [
       CRT: 296,
       DET: 207,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42255,
@@ -3605,7 +3605,7 @@ export default [
       CRT: 186,
       SKS: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42256,
@@ -3623,7 +3623,7 @@ export default [
       DHT: 207,
       SKS: 296,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42257,
@@ -3641,7 +3641,7 @@ export default [
       DHT: 186,
       DET: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42258,
@@ -3659,7 +3659,7 @@ export default [
       CRT: 130,
       DET: 186,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42259,
@@ -3677,7 +3677,7 @@ export default [
       DHT: 207,
       CRT: 296,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42260,
@@ -3695,7 +3695,7 @@ export default [
       DHT: 186,
       SKS: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42261,
@@ -3713,7 +3713,7 @@ export default [
       DHT: 207,
       SKS: 296,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42262,
@@ -3731,7 +3731,7 @@ export default [
       CRT: 186,
       DET: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42263,
@@ -3749,7 +3749,7 @@ export default [
       DHT: 186,
       SKS: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42264,
@@ -3767,7 +3767,7 @@ export default [
       DET: 207,
       SKS: 296,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42265,
@@ -3785,7 +3785,7 @@ export default [
       DHT: 186,
       CRT: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42266,
@@ -3803,7 +3803,7 @@ export default [
       DHT: 207,
       CRT: 296,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42267,
@@ -3821,7 +3821,7 @@ export default [
       CRT: 186,
       DET: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42268,
@@ -3839,7 +3839,7 @@ export default [
       PIE: 130,
       CRT: 186,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42269,
@@ -3857,7 +3857,7 @@ export default [
       CRT: 207,
       DET: 296,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42270,
@@ -3875,7 +3875,7 @@ export default [
       PIE: 186,
       DET: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42271,
@@ -3893,7 +3893,7 @@ export default [
       CRT: 207,
       SPS: 296,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42272,
@@ -3911,7 +3911,7 @@ export default [
       CRT: 186,
       DET: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42273,
@@ -3929,7 +3929,7 @@ export default [
       CRT: 186,
       DET: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42274,
@@ -3947,7 +3947,7 @@ export default [
       DHT: 296,
       DET: 207,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42275,
@@ -3965,7 +3965,7 @@ export default [
       CRT: 186,
       SPS: 130,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42276,
@@ -3983,7 +3983,7 @@ export default [
       CRT: 296,
       DET: 207,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42277,
@@ -4001,7 +4001,7 @@ export default [
       DHT: 130,
       SPS: 186,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42278,
@@ -4019,7 +4019,7 @@ export default [
       DET: 103,
       SKS: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42279,
@@ -4037,7 +4037,7 @@ export default [
       DET: 147,
       SKS: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42280,
@@ -4055,7 +4055,7 @@ export default [
       DHT: 103,
       DET: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42281,
@@ -4073,7 +4073,7 @@ export default [
       PIE: 147,
       SPS: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42282,
@@ -4091,7 +4091,7 @@ export default [
       DHT: 147,
       DET: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42283,
@@ -4109,7 +4109,7 @@ export default [
       DET: 103,
       SKS: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42284,
@@ -4127,7 +4127,7 @@ export default [
       CRT: 103,
       DET: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42285,
@@ -4145,7 +4145,7 @@ export default [
       DET: 103,
       SKS: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42286,
@@ -4163,7 +4163,7 @@ export default [
       PIE: 147,
       DET: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42287,
@@ -4181,7 +4181,7 @@ export default [
       DET: 103,
       SPS: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42288,
@@ -4199,7 +4199,7 @@ export default [
       CRT: 147,
       DET: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42289,
@@ -4217,7 +4217,7 @@ export default [
       DHT: 103,
       DET: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42290,
@@ -4235,7 +4235,7 @@ export default [
       DHT: 103,
       DET: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42291,
@@ -4253,7 +4253,7 @@ export default [
       DET: 103,
       SPS: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42292,
@@ -4271,7 +4271,7 @@ export default [
       DET: 147,
       SPS: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42293,
@@ -4289,7 +4289,7 @@ export default [
       TEN: 103,
       CRT: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42294,
@@ -4307,7 +4307,7 @@ export default [
       DHT: 103,
       SKS: 147,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42295,
@@ -4325,7 +4325,7 @@ export default [
       CRT: 147,
       DET: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42296,
@@ -4343,7 +4343,7 @@ export default [
       PIE: 147,
       DET: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42297,
@@ -4361,7 +4361,7 @@ export default [
       DHT: 147,
       CRT: 103,
     },
-    source: '迷宫挑战/95本',
+    source: '迷宫挑战/深空天坑',
   },
   {
     id: 42298,
@@ -4938,7 +4938,7 @@ export default [
   },
   {
     id: 42325,
-    name: '白黄金强攻半假面',
+    name: '白黄金制敌半假面',
     level: 669,
     rarity: 1,
     slot: 3,
@@ -5498,7 +5498,7 @@ export default [
   },
   {
     id: 42353,
-    name: '嵌齿象革咏咒手套',
+    name: '嵌齿象革咏咒衬裤',
     level: 669,
     rarity: 1,
     slot: 7,
@@ -6046,7 +6046,7 @@ export default [
   },
   {
     id: 43248,
-    name: '克拉洛胡桃木蒸馏器',
+    name: '钛金蒸馏器',
     level: 670,
     rarity: 1,
     slot: 1,
@@ -6211,7 +6211,7 @@ export default [
   },
   {
     id: 43257,
-    name: '克拉洛胡桃木平斩',
+    name: '钛金平斩',
     level: 670,
     rarity: 1,
     slot: 2,
@@ -6522,7 +6522,7 @@ export default [
       PDMG: 133,
       DLY: 2240,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42376,
@@ -6542,7 +6542,7 @@ export default [
       PDMG: 133,
       DLY: 2560,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42377,
@@ -6562,7 +6562,7 @@ export default [
       PDMG: 133,
       DLY: 3360,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42378,
@@ -6582,7 +6582,7 @@ export default [
       PDMG: 133,
       DLY: 2800,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42379,
@@ -6602,7 +6602,7 @@ export default [
       PDMG: 133,
       DLY: 3040,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42380,
@@ -6621,7 +6621,7 @@ export default [
       DET: 311,
       MDMG: 133,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42381,
@@ -6640,7 +6640,7 @@ export default [
       SPS: 218,
       MDMG: 133,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42382,
@@ -6659,7 +6659,7 @@ export default [
       SPS: 218,
       MDMG: 133,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42383,
@@ -6678,7 +6678,7 @@ export default [
       SPS: 311,
       MDMG: 133,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42384,
@@ -6698,7 +6698,7 @@ export default [
       PDMG: 133,
       DLY: 2560,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42385,
@@ -6718,7 +6718,7 @@ export default [
       PDMG: 133,
       DLY: 2960,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42386,
@@ -6738,7 +6738,7 @@ export default [
       PDMG: 133,
       DLY: 2640,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42387,
@@ -6757,7 +6757,7 @@ export default [
       DET: 218,
       MDMG: 133,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42388,
@@ -6777,7 +6777,7 @@ export default [
       PDMG: 133,
       DLY: 2640,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42389,
@@ -6796,7 +6796,7 @@ export default [
       SPS: 311,
       MDMG: 133,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42390,
@@ -6816,7 +6816,7 @@ export default [
       PDMG: 133,
       DLY: 2800,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42391,
@@ -6836,7 +6836,7 @@ export default [
       PDMG: 133,
       DLY: 3120,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42392,
@@ -6856,7 +6856,7 @@ export default [
       PDMG: 133,
       DLY: 3200,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42393,
@@ -6875,7 +6875,7 @@ export default [
       SPS: 218,
       MDMG: 133,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42394,
@@ -6895,7 +6895,7 @@ export default [
       PDMG: 133,
       DLY: 2640,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42395,
@@ -6914,7 +6914,7 @@ export default [
       SPS: 311,
       MDMG: 133,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42396,
@@ -6932,7 +6932,7 @@ export default [
       CRT: 63,
       DET: 89,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42397,
@@ -6950,7 +6950,7 @@ export default [
       CRT: 132,
       DET: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42398,
@@ -6968,7 +6968,7 @@ export default [
       TEN: 210,
       CRT: 300,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42399,
@@ -6986,7 +6986,7 @@ export default [
       TEN: 132,
       DET: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42400,
@@ -7004,7 +7004,7 @@ export default [
       DET: 300,
       SKS: 210,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42401,
@@ -7022,7 +7022,7 @@ export default [
       TEN: 189,
       CRT: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42402,
@@ -7040,7 +7040,7 @@ export default [
       CRT: 132,
       SKS: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42403,
@@ -7058,7 +7058,7 @@ export default [
       DHT: 210,
       DET: 300,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42404,
@@ -7076,7 +7076,7 @@ export default [
       CRT: 132,
       DET: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42405,
@@ -7094,7 +7094,7 @@ export default [
       DHT: 210,
       SKS: 300,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42406,
@@ -7112,7 +7112,7 @@ export default [
       DHT: 132,
       CRT: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42407,
@@ -7130,7 +7130,7 @@ export default [
       DHT: 189,
       CRT: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42408,
@@ -7148,7 +7148,7 @@ export default [
       DET: 210,
       SKS: 300,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42409,
@@ -7166,7 +7166,7 @@ export default [
       DHT: 132,
       DET: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42410,
@@ -7184,7 +7184,7 @@ export default [
       CRT: 300,
       SKS: 210,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42411,
@@ -7202,7 +7202,7 @@ export default [
       DHT: 189,
       DET: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42412,
@@ -7220,7 +7220,7 @@ export default [
       DHT: 189,
       DET: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42413,
@@ -7238,7 +7238,7 @@ export default [
       DET: 210,
       SKS: 300,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42414,
@@ -7256,7 +7256,7 @@ export default [
       DHT: 132,
       CRT: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42415,
@@ -7274,7 +7274,7 @@ export default [
       DET: 300,
       SKS: 210,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42416,
@@ -7292,7 +7292,7 @@ export default [
       DHT: 189,
       CRT: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42417,
@@ -7310,7 +7310,7 @@ export default [
       DHT: 189,
       DET: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42418,
@@ -7328,7 +7328,7 @@ export default [
       DET: 210,
       SKS: 300,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42419,
@@ -7346,7 +7346,7 @@ export default [
       DHT: 132,
       SKS: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42420,
@@ -7364,7 +7364,7 @@ export default [
       CRT: 300,
       DET: 210,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42421,
@@ -7382,7 +7382,7 @@ export default [
       DHT: 132,
       DET: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42422,
@@ -7400,7 +7400,7 @@ export default [
       PIE: 132,
       DET: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42423,
@@ -7418,7 +7418,7 @@ export default [
       PIE: 300,
       DET: 210,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42424,
@@ -7436,11 +7436,11 @@ export default [
       PIE: 189,
       CRT: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42425,
-    name: '先锋治愈七分裤',
+    name: '先锋治愈五分裤',
     level: 672,
     rarity: 2,
     slot: 7,
@@ -7454,7 +7454,7 @@ export default [
       CRT: 300,
       SPS: 210,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42426,
@@ -7472,7 +7472,7 @@ export default [
       CRT: 189,
       SPS: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42427,
@@ -7490,7 +7490,7 @@ export default [
       DHT: 132,
       CRT: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42428,
@@ -7508,7 +7508,7 @@ export default [
       DET: 300,
       SPS: 210,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42429,
@@ -7526,11 +7526,11 @@ export default [
       CRT: 189,
       DET: 132,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42430,
-    name: '先锋咏咒七分裤',
+    name: '先锋咏咒五分裤',
     level: 672,
     rarity: 2,
     slot: 7,
@@ -7544,7 +7544,7 @@ export default [
       DHT: 300,
       SPS: 210,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42431,
@@ -7562,7 +7562,7 @@ export default [
       DHT: 132,
       CRT: 189,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42432,
@@ -7580,7 +7580,7 @@ export default [
       CRT: 104,
       DET: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42433,
@@ -7598,7 +7598,7 @@ export default [
       CRT: 104,
       DET: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42434,
@@ -7616,7 +7616,7 @@ export default [
       CRT: 149,
       SKS: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42435,
@@ -7634,7 +7634,7 @@ export default [
       PIE: 104,
       DET: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42436,
@@ -7652,7 +7652,7 @@ export default [
       CRT: 104,
       DET: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42437,
@@ -7670,7 +7670,7 @@ export default [
       TEN: 149,
       SKS: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42438,
@@ -7688,7 +7688,7 @@ export default [
       DHT: 149,
       CRT: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42439,
@@ -7706,7 +7706,7 @@ export default [
       CRT: 149,
       DET: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42440,
@@ -7724,7 +7724,7 @@ export default [
       CRT: 104,
       SPS: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42441,
@@ -7742,7 +7742,7 @@ export default [
       DHT: 104,
       SPS: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42442,
@@ -7760,7 +7760,7 @@ export default [
       CRT: 149,
       SKS: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42443,
@@ -7778,7 +7778,7 @@ export default [
       CRT: 149,
       SKS: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42444,
@@ -7796,7 +7796,7 @@ export default [
       DHT: 149,
       CRT: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42445,
@@ -7814,7 +7814,7 @@ export default [
       CRT: 104,
       DET: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42446,
@@ -7832,7 +7832,7 @@ export default [
       DHT: 149,
       DET: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42447,
@@ -7850,7 +7850,7 @@ export default [
       TEN: 104,
       SKS: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42448,
@@ -7868,7 +7868,7 @@ export default [
       DHT: 104,
       DET: 149,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42449,
@@ -7886,7 +7886,7 @@ export default [
       DHT: 149,
       CRT: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42450,
@@ -7904,7 +7904,7 @@ export default [
       DET: 149,
       SPS: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42451,
@@ -7922,7 +7922,7 @@ export default [
       CRT: 149,
       DET: 104,
     },
-    source: '迷宫挑战/97本',
+    source: '迷宫挑战/先锋营',
   },
   {
     id: 42452,
@@ -9513,7 +9513,7 @@ export default [
       CRT: 151,
       SKS: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42530,
@@ -9531,7 +9531,7 @@ export default [
       DHT: 106,
       SKS: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42531,
@@ -9549,7 +9549,7 @@ export default [
       CRT: 151,
       DET: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42532,
@@ -9567,7 +9567,7 @@ export default [
       DET: 106,
       SPS: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42533,
@@ -9585,7 +9585,7 @@ export default [
       DHT: 106,
       SPS: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42534,
@@ -9603,7 +9603,7 @@ export default [
       TEN: 151,
       DET: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42535,
@@ -9621,7 +9621,7 @@ export default [
       CRT: 106,
       DET: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42536,
@@ -9639,7 +9639,7 @@ export default [
       CRT: 106,
       DET: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42537,
@@ -9657,7 +9657,7 @@ export default [
       PIE: 106,
       CRT: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42538,
@@ -9675,7 +9675,7 @@ export default [
       CRT: 106,
       DET: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42539,
@@ -9693,7 +9693,7 @@ export default [
       TEN: 106,
       DET: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42540,
@@ -9711,7 +9711,7 @@ export default [
       DHT: 151,
       DET: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42541,
@@ -9729,7 +9729,7 @@ export default [
       DHT: 106,
       SKS: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42542,
@@ -9747,7 +9747,7 @@ export default [
       PIE: 151,
       DET: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42543,
@@ -9765,7 +9765,7 @@ export default [
       DHT: 151,
       CRT: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42544,
@@ -9783,7 +9783,7 @@ export default [
       CRT: 106,
       SKS: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42545,
@@ -9801,7 +9801,7 @@ export default [
       CRT: 151,
       SKS: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42546,
@@ -9819,7 +9819,7 @@ export default [
       DHT: 151,
       SKS: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42547,
@@ -9837,7 +9837,7 @@ export default [
       CRT: 106,
       SPS: 151,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
   {
     id: 42548,
@@ -9855,6 +9855,6 @@ export default [
       DET: 151,
       SPS: 106,
     },
-    source: '迷宫挑战/99本',
+    source: '迷宫挑战/创生设施',
   },
 ];
