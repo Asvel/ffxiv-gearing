@@ -6319,7 +6319,7 @@ export default [
   },
   {
     id: 43304,
-    name: '犎牛哔叽巧匠无檐帽',
+    name: '犎牛哔叽巧匠皮帽',
     level: 670,
     rarity: 1,
     slot: 3,
@@ -9733,7 +9733,7 @@ export default [
   },
   {
     id: 42542,
-    name: '创生治愈手链',
+    name: '创生治愈手环',
     level: 678,
     rarity: 2,
     slot: 11,
@@ -9751,7 +9751,7 @@ export default [
   },
   {
     id: 42543,
-    name: '创生咏咒手链',
+    name: '创生咏咒手环',
     level: 678,
     rarity: 2,
     slot: 11,

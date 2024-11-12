@@ -2418,7 +2418,7 @@ export default [
   },
   {
     id: 43187,
-    name: '旧化的画家厚底鞋',
+    name: '旧化的画家木底鞋',
     level: 515,
     rarity: 1,
     slot: 8,

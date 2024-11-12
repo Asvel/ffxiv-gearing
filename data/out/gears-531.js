@@ -12874,7 +12874,7 @@ export default [
   },
   {
     id: 43198,
-    name: '画家长裤',
+    name: '画家工作裤',
     level: 560,
     rarity: 3,
     slot: 7,
@@ -12892,7 +12892,7 @@ export default [
   },
   {
     id: 43199,
-    name: '画家厚底鞋',
+    name: '画家木底鞋',
     level: 560,
     rarity: 3,
     slot: 8,
@@ -14535,7 +14535,7 @@ export default [
   },
   {
     id: 35483,
-    name: '林木专业专用高跟鞋',
+    name: '林木专业专用绑腿',
     level: 570,
     rarity: 3,
     slot: 8,
@@ -14794,7 +14794,7 @@ export default [
   },
   {
     id: 35499,
-    name: '皮革专业专用无檐帽',
+    name: '皮革专业专用帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -15037,7 +15037,7 @@ export default [
   },
   {
     id: 35514,
-    name: '营养专业专用无檐帽',
+    name: '营养专业专用帽',
     level: 570,
     rarity: 3,
     slot: 3,
@@ -24398,7 +24398,7 @@ export default [
   },
   {
     id: 37724,
-    name: '完美主义巧匠无檐帽',
+    name: '完美主义巧匠皮帽',
     level: 590,
     rarity: 3,
     slot: 3,
