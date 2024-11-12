@@ -164,7 +164,7 @@ const slotSchemaCrafting = [
 ];
 
 const defaultItemLevelCombat = [710, 735];
-const defaultItemLevelCrafting = [690, 700];
+const defaultItemLevelCrafting = [690, 720];
 const defaultItemLevelGathering = defaultItemLevelCrafting;
 
 export interface JobSchema {

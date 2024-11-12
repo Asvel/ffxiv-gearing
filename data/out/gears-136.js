@@ -9686,6 +9686,21 @@ export default [
     source: '危命任务',
   },
   {
+    id: 44410,
+    name: "Neophyte's Ring",
+    level: 150,
+    rarity: 1,
+    slot: 12,
+    role: 0,
+    jobCategory: 34,
+    equipLevel: 1,
+    materiaSlot: 0,
+    stats: {
+      VIT: 26,
+      DET: 25,
+    },
+  },
+  {
     id: 6109,
     name: '军阀王冠',
     level: 160,

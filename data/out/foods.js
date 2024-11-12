@@ -6944,4 +6944,40 @@ export default [
     statMain: 'DET',
     best: true,
   },
+  {
+    id: 44842,
+    name: 'Ceviche',
+    level: 720,
+    slot: -1,
+    jobCategory: 33,
+    stats: {
+      CP: 96,
+      CMS: 150,
+    },
+    statRates: {
+      CP: 26,
+      CMS: 5,
+    },
+    statMain: 'CP',
+    patch: '7.1',
+    best: true,
+  },
+  {
+    id: 44843,
+    name: 'Cloudsail Meuniere',
+    level: 720,
+    slot: -1,
+    jobCategory: 32,
+    stats: {
+      PCP: 176,
+      GTH: 91,
+    },
+    statRates: {
+      PCP: 7,
+      GTH: 3,
+    },
+    statMain: 'PCP',
+    patch: '7.1',
+    best: true,
+  },
 ];
