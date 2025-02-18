@@ -12515,7 +12515,7 @@ export default [
   },
   {
     id: 42083,
-    name: '佐莫法轮',
+    name: '佐莫月轮',
     level: 660,
     rarity: 2,
     slot: 13,

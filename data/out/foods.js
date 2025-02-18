@@ -5761,7 +5761,6 @@ export default [
       CMS: 5,
     },
     statMain: 'CP',
-    best: true,
   },
   {
     id: 37283,
@@ -5778,7 +5777,6 @@ export default [
       GTH: 3,
     },
     statMain: 'PCP',
-    best: true,
   },
   {
     id: 38261,
@@ -6722,7 +6720,6 @@ export default [
       CMS: 3,
     },
     statMain: 'CMS',
-    best: true,
   },
   {
     id: 44168,
@@ -6752,7 +6749,6 @@ export default [
       CP: 6,
     },
     statMain: 'CP',
-    best: true,
   },
   {
     id: 44175,
@@ -6946,7 +6942,7 @@ export default [
   },
   {
     id: 44842,
-    name: 'Ceviche',
+    name: '酸柠檬腌鱼',
     level: 720,
     slot: -1,
     jobCategory: 33,
@@ -6959,12 +6955,11 @@ export default [
       CMS: 5,
     },
     statMain: 'CP',
-    patch: '7.1',
     best: true,
   },
   {
     id: 44843,
-    name: 'Cloudsail Meuniere',
+    name: '香煎面拖旗鱼',
     level: 720,
     slot: -1,
     jobCategory: 32,
@@ -6977,7 +6972,6 @@ export default [
       GTH: 3,
     },
     statMain: 'PCP',
-    patch: '7.1',
     best: true,
   },
 ];

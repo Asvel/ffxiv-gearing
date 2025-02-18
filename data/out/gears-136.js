@@ -9687,7 +9687,7 @@ export default [
   },
   {
     id: 44410,
-    name: "Neophyte's Ring",
+    name: '初学者戒指',
     level: 150,
     rarity: 1,
     slot: 12,

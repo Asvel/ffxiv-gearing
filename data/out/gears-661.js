@@ -8739,7 +8739,7 @@ export default [
   },
   {
     id: 42491,
-    name: '卡扎纳尔精准护臂',
+    name: '卡扎纳尔精准手套',
     level: 675,
     rarity: 1,
     slot: 5,

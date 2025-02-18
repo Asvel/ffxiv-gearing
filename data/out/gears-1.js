@@ -11661,7 +11661,7 @@ export default [
   },
   {
     id: 44973,
-    name: "Ex-arch's Cane",
+    name: '血盟公爵幻杖',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11677,7 +11677,7 @@ export default [
   },
   {
     id: 44974,
-    name: "Ex-arch's Rod",
+    name: '血盟公爵咒杖',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11693,7 +11693,7 @@ export default [
   },
   {
     id: 44975,
-    name: "Zero's Order Death Scythe",
+    name: '零风死镰',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11710,7 +11710,7 @@ export default [
   },
   {
     id: 45047,
-    name: 'Figmental Ladle',
+    name: '烹饪之幻梦',
     level: 1,
     rarity: 1,
     slot: 1,
@@ -11727,7 +11727,7 @@ export default [
   },
   {
     id: 45048,
-    name: 'Figments of the Shallows',
+    name: '鲨滩之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11744,7 +11744,7 @@ export default [
   },
   {
     id: 45049,
-    name: 'Figmental Fish Stick',
+    name: '刺球之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11761,7 +11761,7 @@ export default [
   },
   {
     id: 45050,
-    name: "Figment of Kittens' Joy",
+    name: '逗猫之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11778,7 +11778,7 @@ export default [
   },
   {
     id: 45051,
-    name: 'Figment of the Forest',
+    name: '丛林之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11795,7 +11795,7 @@ export default [
   },
   {
     id: 45052,
-    name: 'Figment of Sweetness',
+    name: '奶油之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11811,7 +11811,7 @@ export default [
   },
   {
     id: 45053,
-    name: 'Figment of Teatimes Past',
+    name: '茶歇之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11827,7 +11827,7 @@ export default [
   },
   {
     id: 45054,
-    name: 'Figment of the Journey',
+    name: '旅途之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11843,7 +11843,7 @@ export default [
   },
   {
     id: 45055,
-    name: 'Figment of Faerie Lore',
+    name: '仙韵之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11859,7 +11859,7 @@ export default [
   },
   {
     id: 45056,
-    name: 'Figments of Family Dinner',
+    name: '聚餐之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11876,7 +11876,7 @@ export default [
   },
   {
     id: 45057,
-    name: 'Figment of Spring',
+    name: '春意之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11893,7 +11893,7 @@ export default [
   },
   {
     id: 45058,
-    name: 'Figment of Love and War',
+    name: '浪漫之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11910,7 +11910,7 @@ export default [
   },
   {
     id: 45059,
-    name: 'Figment of Winter',
+    name: '冬雪之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11926,7 +11926,7 @@ export default [
   },
   {
     id: 45060,
-    name: 'Figment of Summer',
+    name: '花伞之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11943,7 +11943,7 @@ export default [
   },
   {
     id: 45061,
-    name: 'Figmental Rainpier',
+    name: '雨滴之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11959,7 +11959,7 @@ export default [
   },
   {
     id: 45062,
-    name: 'Figment of the Deep',
+    name: '深海之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11976,7 +11976,7 @@ export default [
   },
   {
     id: 45063,
-    name: "Figments of Fire's Work",
+    name: '夏火之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -11993,7 +11993,7 @@ export default [
   },
   {
     id: 45064,
-    name: 'Figment of Autumn',
+    name: '秋收之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -12010,7 +12010,7 @@ export default [
   },
   {
     id: 45065,
-    name: 'Figments of the Feast',
+    name: '盛宴之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -12026,7 +12026,7 @@ export default [
   },
   {
     id: 45066,
-    name: "Figments of Silver 'Wared",
+    name: '馋扠之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -12043,7 +12043,7 @@ export default [
   },
   {
     id: 45067,
-    name: 'Figment of Artistry',
+    name: '艺术之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,
@@ -12059,7 +12059,7 @@ export default [
   },
   {
     id: 45068,
-    name: 'Figmental Lid',
+    name: '菜蔬之幻梦',
     level: 1,
     rarity: 1,
     slot: 2,
@@ -12074,7 +12074,7 @@ export default [
   },
   {
     id: 45069,
-    name: 'Figment of Showtime',
+    name: '好戏之幻梦',
     level: 1,
     rarity: 1,
     slot: 13,

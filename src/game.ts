@@ -163,7 +163,7 @@ const slotSchemaCrafting = [
   { slot: -2, name: '药品', levelWeight: 0, uiGroup: 'misc' },
 ];
 
-const defaultItemLevelCombat = [710, 735];
+const defaultItemLevelCombat = [720, 735];
 const defaultItemLevelCrafting = [690, 720];
 const defaultItemLevelGathering = defaultItemLevelCrafting;
 
