@@ -11991,7 +11991,7 @@ export default [
   },
   {
     id: 15333,
-    name: '亚菲姆革强袭凉鞋',
+    name: '亚菲姆强袭凉鞋',
     level: 230,
     rarity: 3,
     slot: 8,
