@@ -15,8 +15,9 @@ function loadExd(filename) {
   return data.slice(3, -1).map(line => {
     const ret = {};
     for (let i = 0; i < line.length; i++) {
-      if (fields[i] in ret) console.log(fields[i]);
-      ret[fields[i] || i] = line[i];
+      if (fields[i] !== '') {
+        ret[fields[i]] = line[i];
+      }
       ret[i] = line[i];
     }
     return ret;
@@ -328,21 +329,21 @@ for (const l of Object.keys(syncLevelOfJobLevel).map(x => Number(x)).sort((a, b)
 }
 
 const levelCaps = {
-  level: Object.keys(levelsUsed).map(x => parseInt(x, 10)).sort((a, b) => a - b),
+  level: Object.keys(levelsUsed).map(x => Number(x)).sort((a, b) => a - b),
 };
 for (const i of Object.keys(statAbbrs)) {
-  levelCaps[statAbbrs[i]] = levelCaps.level.map(l => parseInt(ItemLevel[l][i], 10));
+  levelCaps[statAbbrs[i]] = levelCaps.level.map(l => Number(ItemLevel[l][i]));
 }
 
 delete slotsUsed[0];
 const slotCaps = {};
 for (const i of Object.keys(statAbbrs)) {
-  slotCaps[statAbbrs[i]] = Array.from(slotsUsed).map((_, j) => _ ? parseInt(BaseParam[i][4 + j], 10) : 0);
+  slotCaps[statAbbrs[i]] = Array.from(slotsUsed).map((_, j) => _ ? Number(BaseParam[i][4 + j]) : 0);
 }
 
 const roleCaps = {};
 for (const i of Object.keys(statAbbrs)) {
-  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => parseInt(BaseParam[i][27 + j], 10));
+  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }).map((_, j) => Number(BaseParam[i][27 + j]));
 }
 
 const levelGroupBasis = [
@@ -375,7 +376,7 @@ for (const gear of gears) {
 }
 
 const bluMdmgAdditions = fs.readFileSync('./in/bluMdmgAdditions.txt', 'utf8')
-  .split(/\r?\n/).map(x => parseInt(x, 10)).filter(x => !Number.isNaN(x));
+  .trim().split(/\r?\n/).map(Number);
 
 for (const filename of fs.readdirSync('./out')) {
   fs.unlinkSync(`./out/${filename}`);
