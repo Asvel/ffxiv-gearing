@@ -217,17 +217,21 @@ export const Store = mst.types
             consumptionItem!.confidence90 = consumptionItem!.confidence99 = consumptionItem!.safe;
             continue;
           }
+          const pp: number[][] = p.map(pi => [1, 1 - pi]);  // pp[i][j] = (1 - p[i]) ** j, for caching
           const ps: number[][] = [];  // ps[n][i]: success rate of using n materias to meld slots p[i..]
           let n = 1;
           let n90 = 0;
           while (true) {
+            for (let i = 0; i < p.length; i++) {
+              pp[i][n] = pp[i][n - 1] * pp[i][1];
+            }
             ps[n] = [];
-            ps[n][p.length - 1] = 1 - (1 - p[p.length - 1]) ** n;
+            ps[n][p.length - 1] = 1 - pp[p.length - 1][n];
             for (let i = p.length - 2; i >= 0; i--) {
               if (p.length - i > n) break;
               ps[n][i] = 0;
               for (let j = 1; j <= n - (p.length - i) + 1; j++) {
-                ps[n][i] += (1 - p[i]) ** (j - 1) * p[i] * ps[n - j][i + 1];
+                ps[n][i] += pp[i][j - 1] * p[i] * ps[n - j][i + 1];
               }
             }
             if (ps[n][0] > p90 && n90 === 0) n90 = n;
