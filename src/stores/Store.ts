@@ -218,14 +218,14 @@ export const Store = mst.types
             continue;
           }
           const pp: number[][] = p.map(pi => [1, 1 - pi]);  // pp[i][j] = (1 - p[i]) ** j, for caching
-          const ps: number[][] = [];  // ps[n][i]: success rate of using n materias to meld slots p[i..]
+          const ps: Float64Array[] = [];  // ps[n][i]: success rate of using n materias to meld slots p[i..]
           let n = 1;
           let n90 = 0;
           while (true) {
             for (let i = 0; i < p.length; i++) {
               pp[i][n] = pp[i][n - 1] * pp[i][1];
             }
-            ps[n] = [];
+            ps[n] = new Float64Array(p.length);
             ps[n][p.length - 1] = 1 - pp[p.length - 1][n];
             for (let i = p.length - 2; i >= 0; i--) {
               if (p.length - i > n) break;
