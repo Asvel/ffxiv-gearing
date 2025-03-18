@@ -133,7 +133,7 @@ module.exports = function (env, argv) {
                 api: 'modern-compiler',
                 sassOptions: {
                   includePaths: ['./node_modules'],
-                  silenceDeprecations: ['slash-div', 'mixed-decls'],
+                  silenceDeprecations: ['slash-div', 'mixed-decls', 'color-functions', 'global-builtin', 'import'],
                 },
               },
             },
@@ -179,6 +179,7 @@ module.exports = function (env, argv) {
           });
         },
       },
+      new rspack.WarnCaseSensitiveModulesPlugin(),
       new ForkTsCheckerWebpackPlugin({
         logger: 'webpack-infrastructure',
       }),
