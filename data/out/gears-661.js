@@ -2917,8 +2917,8 @@ export default [
     stats: {
       DEX: 416,
       VIT: 458,
-      DHT: 214,
       CRT: 306,
+      DET: 214,
       PDMG: 132,
       DLY: 2640,
     },
@@ -2937,8 +2937,8 @@ export default [
     stats: {
       VIT: 412,
       INT: 416,
-      DHT: 306,
-      CRT: 214,
+      DHT: 214,
+      CRT: 306,
       MDMG: 132,
     },
     source: '特殊迷宫/阿罗阿罗岛',
