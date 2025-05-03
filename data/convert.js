@@ -304,7 +304,8 @@ for (const food of foods.slice().reverse()) {
     food.best = true;
     continue;
   }
-  if (!bestFoods.some(bestFood => Object.keys(food.stats).every(stat => food.stats[stat] <= bestFood.stats[stat]))) {
+  if (!bestFoods.some(bestFood => food.slot === bestFood.slot &&
+    Object.keys(food.stats).every(stat => food.stats[stat] <= bestFood.stats[stat]))) {
     food.best = true;
     bestFoods.push(food);
   }

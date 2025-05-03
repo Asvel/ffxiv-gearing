@@ -6720,6 +6720,7 @@ export default [
       CMS: 3,
     },
     statMain: 'CMS',
+    best: true,
   },
   {
     id: 44168,
@@ -6749,6 +6750,7 @@ export default [
       CP: 6,
     },
     statMain: 'CP',
+    best: true,
   },
   {
     id: 44175,
