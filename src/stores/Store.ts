@@ -35,8 +35,8 @@ export const Store = mst.types
     promotion: Promotion.create(),
     clan: Number(localStorage.getItem(clanStorageKey)) || 0,
     tiersShown: localStorage.getItem(tiersShownStorageKey) === 'true',
-    autoSelectScheduled: false,
     materiaOverallActiveTab: 0,
+    autoSelectScheduled: false,
   }))
   .views(self => ({
     get filteredIds(): G.GearId[] {

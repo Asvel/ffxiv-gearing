@@ -22,7 +22,7 @@ export const Gear = mst.types
     },
   }))
   .views(self => ({
-    get isFood(): false { return false; },
+    get isFood() { return false as const; },
     get name() { return self.data.name; },
     get level() { return self.data.level; },
     get slot() { return self.id > 0 ? self.data.slot : -self.data.slot; },

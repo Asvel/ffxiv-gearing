@@ -17,7 +17,7 @@ export const Food = mst.types
     },
   }))
   .views(self => ({
-    get isFood(): true { return true; },
+    get isFood() { return true as const; },
     get name() { return self.data.name; },
     get level() { return self.data.level; },
     get slot() { return self.data.slot; },
