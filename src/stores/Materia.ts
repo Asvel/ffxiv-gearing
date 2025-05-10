@@ -27,12 +27,22 @@ export const Materia = mst.types
     get isAdvanced(): boolean {
       return self.index >= self.gear.materiaSlot;
     },
-    get isRestricted(): boolean {
-      return self.index > self.gear.materiaSlot;
+    get canRestricted(): boolean {
+      return self.index <= self.gear.materiaSlot;
     },
     get meldableGrades(): G.MateriaGrade[] {
-      return (this.isRestricted ? G.materiaGradesAdvanced : G.materiaGrades)
-        .filter(grade => self.gear.level >= G.materiaGradeRequiredLevels[grade - 1]);
+      const { level } = self.gear;
+      const { canRestricted } = this;
+      const { showAllMaterias } = self.store;
+      return G.materiaGrades.filter(grade => {
+        if (level < G.materiaGradeRequiredLevels[grade - 1]) return false;
+        if (canRestricted) {
+          if (showAllMaterias || grade === self.grade) return true;
+          return G.materiaGradeIsRestricted[grade];
+        } else {
+          return !G.materiaGradeIsRestricted[grade];
+        }
+      });
     },
     get successRate(): number | undefined {
       if (self.grade === undefined) return undefined;

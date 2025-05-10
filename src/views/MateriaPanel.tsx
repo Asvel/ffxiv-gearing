@@ -3,6 +3,7 @@ import classNames from 'clsx';
 import * as G from '../game';
 import type { IMateria } from '../stores';
 import { useStore } from './components/contexts';
+import { Icon } from './components/Icon';
 import type { DropdownPopperProps } from './components/Dropdown';
 
 export const MateriaPanel = mobxReact.observer<{
@@ -55,11 +56,20 @@ export const MateriaPanel = mobxReact.observer<{
         <td className="materias_meldable-title" colSpan={2}>可镶嵌值</td>
         <td
           className={classNames('materias_remove', materia.stat === undefined && '-selected')}
-          colSpan={materia.meldableGrades.length}
+          colSpan={materia.meldableGrades.length - (materia.canRestricted ? 1 : 0)}
           onClick={() => materia.meld(undefined)}
         >
           不镶嵌魔晶石
         </td>
+        {materia.canRestricted && (
+          <td
+            className="materias_show-all"
+            rowSpan={store.schema.stats.length}
+            onClick={store.toggleShowAllMaterias}
+          >
+            <Icon name={store.showAllMaterias ? 'filter' : 'filter-off'} />
+          </td>
+        )}
       </tr>
       </tbody>
     </table>

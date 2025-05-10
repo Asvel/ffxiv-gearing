@@ -26,7 +26,8 @@
   }
 }
 .materias_grade,
-.materias_remove {
+.materias_remove,
+.materias_show-all {
   cursor: pointer;
   text-align: center;
   &:hover {
@@ -40,6 +41,16 @@
     .app-high-saturation & {
       background-color: rgba($primary, .16);
     }
+  }
+}
+.materias_show-all {
+  border-left: $table-border;
+  svg {
+    height: 17px;
+    margin-right: -2px;
+    fill: currentColor;
+    vertical-align: -3px;
+    opacity: .77;
   }
 }
 td.materias_meldable {

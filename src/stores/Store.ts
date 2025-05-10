@@ -24,6 +24,7 @@ export const Store = mst.types
     syncLevel: mst.types.maybe(mst.types.number),
     filterPatch: mst.types.optional(mst.types.string as mst.ISimpleType<FilterPatch>, 'all'),
     filterFocus: mst.types.optional(mst.types.string as mst.ISimpleType<FilterFocus>, 'no'),
+    showAllMaterias: mst.types.optional(mst.types.boolean, false),
     showAllFoods: mst.types.optional(mst.types.boolean, false),
     showAllPotions: mst.types.optional(mst.types.boolean, false),
     duplicateToolMateria: mst.types.optional(mst.types.boolean, true),
@@ -375,7 +376,7 @@ export const Store = mst.types
           const originalMelds: OriginalMelds = { DET: [0, 0], DHT: [0, 0], all: [0, 0] };
           for (const materia of slots) {
             materia.grade = materia.meldableGrades[0];
-            const meldType = materia.isRestricted ? 1 : 0;
+            const meldType = materia.canRestricted ? 0 : 1;
             if (materia.stat === 'DET') originalMelds['DET'][meldType]++;
             if (materia.stat === 'DHT') originalMelds['DHT'][meldType]++;
             originalMelds['all'][meldType]++;
@@ -396,13 +397,13 @@ export const Store = mst.types
             // this gear is free to meld from over cap, treat all these gears as one joint gear for better performance
             freeGears.push(gear);
             for (const materia of slots) {
-              (materia.isRestricted ? freeMinorSlots : freeMajorSlots).push(materia);
+              (materia.canRestricted ? freeMajorSlots : freeMinorSlots).push(materia);
             }
           } else {
             // this gear might over cap, need to enumerate respectively
             crucialGears.push(gear);
-            const majorSlots = slots.filter(m => !m.isRestricted);
-            const minorSlots = slots.filter(m => m.isRestricted);
+            const majorSlots = slots.filter(m => m.canRestricted);
+            const minorSlots = slots.filter(m => !m.canRestricted);
             const pairMelds = new Map<Pair, Meld[]>();
             for (let majorDetAmount = 0; majorDetAmount <= majorSlots.length; majorDetAmount++) {
               if (majorDetAmount > 0) majorSlots[majorDetAmount - 1].stat = 'DET';
@@ -543,7 +544,7 @@ export const Store = mst.types
                     let materiaIndex = originalMaterias.length - 1;
                     while (retrieveAmount > 0) {
                       const materia = originalMaterias[materiaIndex];
-                      if (materia.stat === stat && (materia.isRestricted === (meldType === 1))) {
+                      if (materia.stat === stat && (materia.canRestricted === (meldType === 0))) {
                         currentDistance += 1000 + materia.gear.materias.length - materia.index;
                         materiaStats[materiaIndex] = undefined;
                         retrieveAmount--;
@@ -689,6 +690,9 @@ export const Store = mst.types
           }
         }
       }
+    },
+    toggleShowAllMaterias(): void {
+      self.showAllMaterias = !self.showAllMaterias;
     },
     toggleShowAllFoods(): void {
       self.showAllFoods = !self.showAllFoods;
