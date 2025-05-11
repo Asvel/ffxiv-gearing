@@ -89,8 +89,10 @@ const JobItem = mobxReact.observer<{ job: G.Job }>(({ job }) => {
         href={`?${job}`}
         onClick={e => {
           e.preventDefault();
+          if (store.job === undefined) {
+            window.history.pushState(window.history.state, document.title, window.location.href);
+          }
           store.setJob(job);
-          window.history.pushState(window.history.state, document.title, window.location.href);
         }}
       >
         {schema.name}
