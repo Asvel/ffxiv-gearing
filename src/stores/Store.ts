@@ -619,6 +619,24 @@ export const Store = mst.types
     get shareUrl(): string {
       return window.location.origin + window.location.pathname + '?' + this.share;
     },
+    get garland(): string {
+      if (self.job === undefined) return '';
+      const parts = [self.schema.name, self.equippedLevel, ' ', (new Date()).toLocaleString(), '{'];
+      for (const slot of self.schema.slots) {
+        if (slot.slot === 17 || (slot.slot === 2 && self.job === 'FSH')) continue;
+        const gear = self.equippedGears.get(slot.slot.toString());
+        if (gear === undefined) continue;
+        if (gear.data.id === parts.at(-2)) {  // same rings
+          parts.splice(-1, 0, '+2');
+        } else {
+          parts.push('item/');
+          parts.push(gear.data.id);
+          parts.push('|');
+        }
+      }
+      parts[parts.length - 1] = '}';
+      return `https://www.garlandtools.org/db/#group/${encodeURI(parts.join(''))}`;
+    },
     get title(): string | undefined {
       const suffix = '最终幻想14配装器';
       if (self.job === undefined) return suffix;
