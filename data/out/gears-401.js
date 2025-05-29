@@ -15927,7 +15927,7 @@ export default [
   },
   {
     id: 45654,
-    name: 'Cosmic hatchet Prototype v0.6',
+    name: 'Cosmic Pickaxe Prototype v0.6',
     level: 430,
     rarity: 1,
     slot: 1,
@@ -15945,7 +15945,7 @@ export default [
   },
   {
     id: 45655,
-    name: 'Cosmic Pickaxe Prototype v0.6',
+    name: 'Cosmic Hatchet Prototype v0.6',
     level: 430,
     rarity: 1,
     slot: 1,
