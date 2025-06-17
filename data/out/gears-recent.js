@@ -16127,7 +16127,7 @@ export default [
       TEN: 163,
       CRT: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16146,7 +16146,7 @@ export default [
       TEN: 370,
       SKS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16165,7 +16165,7 @@ export default [
       TEN: 163,
       DET: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16184,7 +16184,7 @@ export default [
       CRT: 370,
       SKS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16203,7 +16203,7 @@ export default [
       CRT: 163,
       DET: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16222,7 +16222,7 @@ export default [
       DHT: 163,
       DET: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16241,7 +16241,7 @@ export default [
       DHT: 370,
       CRT: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16260,7 +16260,7 @@ export default [
       DHT: 163,
       CRT: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16279,7 +16279,7 @@ export default [
       DET: 370,
       SKS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16298,7 +16298,7 @@ export default [
       DHT: 233,
       CRT: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16317,7 +16317,7 @@ export default [
       CRT: 163,
       DET: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16336,7 +16336,7 @@ export default [
       DHT: 370,
       SKS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16355,7 +16355,7 @@ export default [
       CRT: 233,
       DET: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16374,7 +16374,7 @@ export default [
       DET: 370,
       SKS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16393,7 +16393,7 @@ export default [
       CRT: 163,
       DET: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16412,7 +16412,7 @@ export default [
       DHT: 233,
       CRT: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16431,7 +16431,7 @@ export default [
       DHT: 259,
       DET: 370,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16450,7 +16450,7 @@ export default [
       CRT: 163,
       DET: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16469,7 +16469,7 @@ export default [
       DHT: 370,
       SKS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16488,7 +16488,7 @@ export default [
       CRT: 233,
       DET: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16507,7 +16507,7 @@ export default [
       CRT: 233,
       DET: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16526,7 +16526,7 @@ export default [
       DHT: 370,
       CRT: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16545,7 +16545,7 @@ export default [
       DHT: 233,
       DET: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16564,7 +16564,7 @@ export default [
       CRT: 370,
       SKS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16583,7 +16583,7 @@ export default [
       DHT: 163,
       CRT: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16602,7 +16602,7 @@ export default [
       CRT: 233,
       DET: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16621,7 +16621,7 @@ export default [
       CRT: 370,
       SPS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16640,7 +16640,7 @@ export default [
       PIE: 163,
       DET: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16659,7 +16659,7 @@ export default [
       PIE: 370,
       DET: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16678,7 +16678,7 @@ export default [
       DET: 233,
       SPS: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16697,7 +16697,7 @@ export default [
       DHT: 233,
       DET: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16716,7 +16716,7 @@ export default [
       CRT: 370,
       SPS: 259,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16735,7 +16735,7 @@ export default [
       DHT: 163,
       CRT: 233,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16754,7 +16754,7 @@ export default [
       DET: 259,
       SPS: 370,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16773,7 +16773,7 @@ export default [
       DHT: 233,
       CRT: 163,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16792,7 +16792,7 @@ export default [
       TEN: 184,
       DET: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16811,7 +16811,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16830,7 +16830,7 @@ export default [
       DHT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16849,7 +16849,7 @@ export default [
       CRT: 184,
       SPS: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16868,7 +16868,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16887,7 +16887,7 @@ export default [
       TEN: 129,
       CRT: 184,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16906,7 +16906,7 @@ export default [
       DHT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16925,7 +16925,7 @@ export default [
       CRT: 184,
       SKS: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16944,7 +16944,7 @@ export default [
       PIE: 184,
       CRT: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16963,7 +16963,7 @@ export default [
       CRT: 184,
       DET: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -16982,7 +16982,7 @@ export default [
       CRT: 184,
       SKS: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17001,7 +17001,7 @@ export default [
       DHT: 184,
       CRT: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17020,7 +17020,7 @@ export default [
       CRT: 129,
       DET: 184,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17039,7 +17039,7 @@ export default [
       PIE: 184,
       DET: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17058,7 +17058,7 @@ export default [
       DET: 184,
       SPS: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17077,7 +17077,7 @@ export default [
       TEN: 129,
       CRT: 184,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17096,7 +17096,7 @@ export default [
       CRT: 184,
       SKS: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17115,7 +17115,7 @@ export default [
       DHT: 129,
       CRT: 184,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17134,7 +17134,7 @@ export default [
       DET: 184,
       SPS: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -17153,7 +17153,7 @@ export default [
       CRT: 184,
       SPS: 129,
     },
-    source: '迷宫挑战/永护塔下层',
+    source: '迷宫挑战/永护塔底',
     patch: '7.2',
   },
   {
@@ -23909,7 +23909,7 @@ export default [
       PDMG: 148,
       DLY: 2240,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -23930,7 +23930,7 @@ export default [
       PDMG: 148,
       DLY: 2560,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -23951,7 +23951,7 @@ export default [
       PDMG: 148,
       DLY: 3360,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -23972,7 +23972,7 @@ export default [
       PDMG: 148,
       DLY: 2800,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -23993,7 +23993,7 @@ export default [
       PDMG: 148,
       DLY: 3040,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24013,7 +24013,7 @@ export default [
       DET: 281,
       MDMG: 148,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24033,7 +24033,7 @@ export default [
       SPS: 401,
       MDMG: 148,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24053,7 +24053,7 @@ export default [
       DET: 401,
       MDMG: 148,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24073,7 +24073,7 @@ export default [
       DET: 281,
       MDMG: 148,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24094,7 +24094,7 @@ export default [
       PDMG: 148,
       DLY: 2560,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24115,7 +24115,7 @@ export default [
       PDMG: 148,
       DLY: 2960,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24136,7 +24136,7 @@ export default [
       PDMG: 148,
       DLY: 2640,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24156,7 +24156,7 @@ export default [
       DET: 281,
       MDMG: 148,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24177,7 +24177,7 @@ export default [
       PDMG: 148,
       DLY: 2640,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24197,7 +24197,7 @@ export default [
       DET: 401,
       MDMG: 148,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24218,7 +24218,7 @@ export default [
       PDMG: 148,
       DLY: 2800,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24239,7 +24239,7 @@ export default [
       PDMG: 148,
       DLY: 3120,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24260,7 +24260,7 @@ export default [
       PDMG: 148,
       DLY: 3200,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24280,7 +24280,7 @@ export default [
       DET: 281,
       MDMG: 148,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24301,7 +24301,7 @@ export default [
       PDMG: 148,
       DLY: 2640,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24321,7 +24321,7 @@ export default [
       DET: 401,
       MDMG: 148,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24340,7 +24340,7 @@ export default [
       CRT: 115,
       DET: 81,
     },
-    source: '歼殛战/ゼレニア',
+    source: '歼殛战/泽莲尼娅',
     patch: '7.2',
   },
   {
@@ -24359,7 +24359,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24381,7 +24381,7 @@ export default [
       TEN: 387,
       CRT: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24403,7 +24403,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24425,7 +24425,7 @@ export default [
       TEN: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24447,7 +24447,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24469,7 +24469,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24491,7 +24491,7 @@ export default [
       TEN: 387,
       CRT: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24513,7 +24513,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24535,7 +24535,7 @@ export default [
       TEN: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24557,7 +24557,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24579,7 +24579,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24601,7 +24601,7 @@ export default [
       TEN: 387,
       CRT: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24623,7 +24623,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24645,7 +24645,7 @@ export default [
       TEN: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24667,7 +24667,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24689,7 +24689,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24711,7 +24711,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24733,7 +24733,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24755,7 +24755,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24777,7 +24777,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -24799,7 +24799,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24821,7 +24821,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24843,7 +24843,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24865,7 +24865,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24887,7 +24887,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -24909,7 +24909,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24931,7 +24931,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24953,7 +24953,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24975,7 +24975,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -24997,7 +24997,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -25019,7 +25019,7 @@ export default [
       DHT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -25041,7 +25041,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -25063,7 +25063,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -25085,7 +25085,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -25107,7 +25107,7 @@ export default [
       DHT: 170,
       CRT: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 40,
@@ -25129,7 +25129,7 @@ export default [
       DHT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -25151,7 +25151,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -25173,7 +25173,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -25195,7 +25195,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -25217,7 +25217,7 @@ export default [
       DHT: 170,
       CRT: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 80,
@@ -25239,7 +25239,7 @@ export default [
       DHT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -25261,7 +25261,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -25283,7 +25283,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -25305,7 +25305,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -25327,7 +25327,7 @@ export default [
       DHT: 170,
       CRT: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       STR: 120,
@@ -25349,7 +25349,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25371,7 +25371,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25393,7 +25393,7 @@ export default [
       DHT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25415,7 +25415,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25437,7 +25437,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25459,7 +25459,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25481,7 +25481,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25503,7 +25503,7 @@ export default [
       DHT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25525,7 +25525,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25547,7 +25547,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25569,7 +25569,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25591,7 +25591,7 @@ export default [
       DHT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25613,7 +25613,7 @@ export default [
       DHT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25635,7 +25635,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25657,7 +25657,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25679,7 +25679,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25701,7 +25701,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25723,7 +25723,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25745,7 +25745,7 @@ export default [
       DHT: 271,
       CRT: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25767,7 +25767,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 40,
@@ -25789,7 +25789,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25811,7 +25811,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25833,7 +25833,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25855,7 +25855,7 @@ export default [
       DHT: 271,
       CRT: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25877,7 +25877,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 80,
@@ -25899,7 +25899,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25921,7 +25921,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25943,7 +25943,7 @@ export default [
       CRT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25965,7 +25965,7 @@ export default [
       DHT: 271,
       CRT: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -25987,7 +25987,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       DEX: 120,
@@ -26009,7 +26009,7 @@ export default [
       PIE: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 40,
@@ -26031,7 +26031,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 40,
@@ -26053,7 +26053,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 40,
@@ -26075,7 +26075,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 40,
@@ -26097,7 +26097,7 @@ export default [
       PIE: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 40,
@@ -26119,7 +26119,7 @@ export default [
       PIE: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 80,
@@ -26141,7 +26141,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 80,
@@ -26163,7 +26163,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 80,
@@ -26185,7 +26185,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 80,
@@ -26207,7 +26207,7 @@ export default [
       PIE: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 80,
@@ -26229,7 +26229,7 @@ export default [
       PIE: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 120,
@@ -26251,7 +26251,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 120,
@@ -26273,7 +26273,7 @@ export default [
       CRT: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 120,
@@ -26295,7 +26295,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 120,
@@ -26317,7 +26317,7 @@ export default [
       PIE: 243,
       DET: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       MND: 120,
@@ -26339,7 +26339,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 40,
@@ -26361,7 +26361,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 40,
@@ -26383,7 +26383,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 40,
@@ -26405,7 +26405,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 40,
@@ -26427,7 +26427,7 @@ export default [
       DHT: 170,
       CRT: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 40,
@@ -26449,7 +26449,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 80,
@@ -26471,7 +26471,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 80,
@@ -26493,7 +26493,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 80,
@@ -26515,7 +26515,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 80,
@@ -26537,7 +26537,7 @@ export default [
       DHT: 170,
       CRT: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 80,
@@ -26559,7 +26559,7 @@ export default [
       DHT: 243,
       CRT: 170,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 120,
@@ -26581,7 +26581,7 @@ export default [
       CRT: 387,
       DET: 271,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 120,
@@ -26603,7 +26603,7 @@ export default [
       DHT: 170,
       DET: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 120,
@@ -26625,7 +26625,7 @@ export default [
       CRT: 271,
       DET: 387,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 120,
@@ -26647,7 +26647,7 @@ export default [
       DHT: 170,
       CRT: 243,
     },
-    source: '新月岛/南征編',
+    source: '新月岛/南征之章',
     patch: '7.25',
     occultStats: {
       INT: 120,
@@ -26671,7 +26671,7 @@ export default [
       PDMG: 148,
       DLY: 2240,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26692,7 +26692,7 @@ export default [
       PDMG: 148,
       DLY: 2560,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26713,7 +26713,7 @@ export default [
       PDMG: 148,
       DLY: 3360,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26734,7 +26734,7 @@ export default [
       PDMG: 148,
       DLY: 2800,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26755,7 +26755,7 @@ export default [
       PDMG: 148,
       DLY: 3040,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26775,7 +26775,7 @@ export default [
       DET: 401,
       MDMG: 148,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26795,7 +26795,7 @@ export default [
       SPS: 401,
       MDMG: 148,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26815,7 +26815,7 @@ export default [
       DET: 401,
       MDMG: 148,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26835,7 +26835,7 @@ export default [
       CRT: 401,
       MDMG: 148,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26856,7 +26856,7 @@ export default [
       PDMG: 148,
       DLY: 2560,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26877,7 +26877,7 @@ export default [
       PDMG: 148,
       DLY: 2960,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26898,7 +26898,7 @@ export default [
       PDMG: 148,
       DLY: 2640,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26918,7 +26918,7 @@ export default [
       DET: 401,
       MDMG: 148,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26939,7 +26939,7 @@ export default [
       PDMG: 148,
       DLY: 2640,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26959,7 +26959,7 @@ export default [
       CRT: 401,
       MDMG: 148,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -26980,7 +26980,7 @@ export default [
       PDMG: 148,
       DLY: 2800,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -27001,7 +27001,7 @@ export default [
       PDMG: 148,
       DLY: 3120,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -27022,7 +27022,7 @@ export default [
       PDMG: 148,
       DLY: 3200,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -27042,7 +27042,7 @@ export default [
       CRT: 401,
       MDMG: 148,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -27063,7 +27063,7 @@ export default [
       PDMG: 148,
       DLY: 2640,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -27083,7 +27083,7 @@ export default [
       CRT: 401,
       MDMG: 148,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
@@ -27102,7 +27102,7 @@ export default [
       CRT: 115,
       DET: 115,
     },
-    source: '幻影武器',
+    source: '幻境武器',
     patch: '7.25',
   },
   {
