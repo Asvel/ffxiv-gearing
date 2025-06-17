@@ -72,6 +72,11 @@ export const Gear = mst.types
         for (const stat of Object.keys(bareStats) as G.Stat[]) {
           stats[stat] = Math.min(bareStats[stat] ?? 0, caps[stat]!);
         }
+        if (this.syncedLevel === 700 && self.data.occultStats !== undefined) {
+          for (const stat of Object.keys(self.data.occultStats) as G.Stat[]) {
+            stats[stat]! += self.data.occultStats[stat]!;
+          }
+        }
       } else if (this.materiaSlot === 0) {
         stats = bareStats;
       } else {

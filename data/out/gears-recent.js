@@ -24361,6 +24361,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47759,
@@ -24380,6 +24383,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47760,
@@ -24399,6 +24405,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47761,
@@ -24418,6 +24427,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47762,
@@ -24437,6 +24449,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47763,
@@ -24456,6 +24471,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47764,
@@ -24475,6 +24493,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47765,
@@ -24494,6 +24515,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47766,
@@ -24513,6 +24537,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47767,
@@ -24532,6 +24559,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47768,
@@ -24551,6 +24581,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47769,
@@ -24570,6 +24603,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47770,
@@ -24589,6 +24625,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47771,
@@ -24608,6 +24647,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47772,
@@ -24627,6 +24669,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47773,
@@ -24646,6 +24691,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47774,
@@ -24665,6 +24713,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47775,
@@ -24684,6 +24735,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47776,
@@ -24703,6 +24757,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47777,
@@ -24722,6 +24779,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47778,
@@ -24741,6 +24801,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47779,
@@ -24760,6 +24823,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47780,
@@ -24779,6 +24845,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47781,
@@ -24798,6 +24867,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47782,
@@ -24817,6 +24889,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47783,
@@ -24836,6 +24911,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47784,
@@ -24855,6 +24933,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47785,
@@ -24874,6 +24955,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47786,
@@ -24893,6 +24977,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47787,
@@ -24912,6 +24999,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47788,
@@ -24931,6 +25021,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47789,
@@ -24950,6 +25043,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47790,
@@ -24969,6 +25065,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47791,
@@ -24988,6 +25087,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47792,
@@ -25007,6 +25109,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 40,
+    },
   },
   {
     id: 47793,
@@ -25026,6 +25131,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47794,
@@ -25045,6 +25153,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47795,
@@ -25064,6 +25175,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47796,
@@ -25083,6 +25197,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47797,
@@ -25102,6 +25219,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 80,
+    },
   },
   {
     id: 47798,
@@ -25121,6 +25241,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47799,
@@ -25140,6 +25263,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47800,
@@ -25159,6 +25285,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47801,
@@ -25178,6 +25307,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47802,
@@ -25197,6 +25329,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      STR: 120,
+    },
   },
   {
     id: 47803,
@@ -25216,6 +25351,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47804,
@@ -25235,6 +25373,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47805,
@@ -25254,6 +25395,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47806,
@@ -25273,6 +25417,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47807,
@@ -25292,6 +25439,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47808,
@@ -25311,6 +25461,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47809,
@@ -25330,6 +25483,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47810,
@@ -25349,6 +25505,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47811,
@@ -25368,6 +25527,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47812,
@@ -25387,6 +25549,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47813,
@@ -25406,6 +25571,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47814,
@@ -25425,6 +25593,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47815,
@@ -25444,6 +25615,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47816,
@@ -25463,6 +25637,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47817,
@@ -25482,6 +25659,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47818,
@@ -25501,6 +25681,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47819,
@@ -25520,6 +25703,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47820,
@@ -25539,6 +25725,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47821,
@@ -25558,6 +25747,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47822,
@@ -25577,6 +25769,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 40,
+    },
   },
   {
     id: 47823,
@@ -25596,6 +25791,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47824,
@@ -25615,6 +25813,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47825,
@@ -25634,6 +25835,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47826,
@@ -25653,6 +25857,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47827,
@@ -25672,6 +25879,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 80,
+    },
   },
   {
     id: 47828,
@@ -25691,6 +25901,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47829,
@@ -25710,6 +25923,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47830,
@@ -25729,6 +25945,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47831,
@@ -25748,6 +25967,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47832,
@@ -25767,6 +25989,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      DEX: 120,
+    },
   },
   {
     id: 47833,
@@ -25786,6 +26011,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 40,
+    },
   },
   {
     id: 47834,
@@ -25805,6 +26033,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 40,
+    },
   },
   {
     id: 47835,
@@ -25824,6 +26055,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 40,
+    },
   },
   {
     id: 47836,
@@ -25843,6 +26077,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 40,
+    },
   },
   {
     id: 47837,
@@ -25862,6 +26099,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 40,
+    },
   },
   {
     id: 47838,
@@ -25881,6 +26121,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 80,
+    },
   },
   {
     id: 47839,
@@ -25900,6 +26143,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 80,
+    },
   },
   {
     id: 47840,
@@ -25919,6 +26165,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 80,
+    },
   },
   {
     id: 47841,
@@ -25938,6 +26187,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 80,
+    },
   },
   {
     id: 47842,
@@ -25957,6 +26209,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 80,
+    },
   },
   {
     id: 47843,
@@ -25976,6 +26231,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 120,
+    },
   },
   {
     id: 47844,
@@ -25995,6 +26253,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 120,
+    },
   },
   {
     id: 47845,
@@ -26014,6 +26275,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 120,
+    },
   },
   {
     id: 47846,
@@ -26033,6 +26297,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 120,
+    },
   },
   {
     id: 47847,
@@ -26052,6 +26319,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      MND: 120,
+    },
   },
   {
     id: 47848,
@@ -26071,6 +26341,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 40,
+    },
   },
   {
     id: 47849,
@@ -26090,6 +26363,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 40,
+    },
   },
   {
     id: 47850,
@@ -26109,6 +26385,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 40,
+    },
   },
   {
     id: 47851,
@@ -26128,6 +26407,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 40,
+    },
   },
   {
     id: 47852,
@@ -26147,6 +26429,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 40,
+    },
   },
   {
     id: 47853,
@@ -26166,6 +26451,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 80,
+    },
   },
   {
     id: 47854,
@@ -26185,6 +26473,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 80,
+    },
   },
   {
     id: 47855,
@@ -26204,6 +26495,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 80,
+    },
   },
   {
     id: 47856,
@@ -26223,6 +26517,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 80,
+    },
   },
   {
     id: 47857,
@@ -26242,6 +26539,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 80,
+    },
   },
   {
     id: 47858,
@@ -26261,6 +26561,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 120,
+    },
   },
   {
     id: 47859,
@@ -26280,6 +26583,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 120,
+    },
   },
   {
     id: 47860,
@@ -26299,6 +26605,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 120,
+    },
   },
   {
     id: 47861,
@@ -26318,6 +26627,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 120,
+    },
   },
   {
     id: 47862,
@@ -26337,6 +26649,9 @@ export default [
     },
     source: '新月岛/南征編',
     patch: '7.25',
+    occultStats: {
+      INT: 120,
+    },
   },
   {
     id: 47869,

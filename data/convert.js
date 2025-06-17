@@ -161,7 +161,7 @@ const gears = Item
     const rawStats = {};
     for (let i = 0; i < 6; i++) {
       rawStats[x[`BaseParam[${i}]`]] = (rawStats[x[`BaseParam[${i}]`]] || 0) + Number(x[`BaseParamValue[${i}]`]);
-      if (ret.hq) {  // 不能 HQ 的装备 {Special} 属性有值可能是有套装效果
+      if (ret.hq) {  // 可 HQ 装备的 BaseParam{Special} 为 HQ 附加值
         rawStats[x[`BaseParam{Special}[${i}]`]] = (rawStats[x[`BaseParam{Special}[${i}]`]] ?? 0) +
           Number(x[`BaseParamValue{Special}[${i}]`]);
       }
@@ -187,6 +187,16 @@ const gears = Item
       ret.stats['MDMG'] = rawStats[13];
     }
     if (Object.keys(ret.stats).length === 0) return;
+
+    if (x['ItemSpecialBonus'] === '9') {  // 新月岛补正
+      const stats = ret.occultStats = {};
+      for (let i = 0; i < 6; i++) {
+        const stat = statAbbrs[x[`BaseParam{Special}[${i}]`]];
+        if (stat !== undefined) {
+          stats[stat] = Number(x[`BaseParamValue{Special}[${i}]`]);
+        }
+      }
+    }
 
     // jobCategory
     if (ret.jobCategory === 1 || ret.jobCategory === 34 || ret.jobCategory === 30 || ret.jobCategory === 31) {
