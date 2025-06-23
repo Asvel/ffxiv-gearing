@@ -15225,7 +15225,7 @@ export default [
   },
   {
     id: 45635,
-    name: 'Cosmic Saw Prototype v0.5',
+    name: '原型宇宙手锯v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15242,7 +15242,7 @@ export default [
   },
   {
     id: 45636,
-    name: 'Cosmic Cross-pein Hammer Prototype v0.5',
+    name: '原型宇宙横头锤v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15259,7 +15259,7 @@ export default [
   },
   {
     id: 45637,
-    name: 'Cosmic Raising Hammer Prototype v0.5',
+    name: '原型宇宙圆头锤v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15276,7 +15276,7 @@ export default [
   },
   {
     id: 45638,
-    name: 'Cosmic Mallet Prototype v0.5',
+    name: '原型宇宙工艺锤v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15293,7 +15293,7 @@ export default [
   },
   {
     id: 45639,
-    name: 'Cosmic Round Knife v0.5',
+    name: '原型宇宙圆革刀v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15310,7 +15310,7 @@ export default [
   },
   {
     id: 45640,
-    name: 'Cosmic Needle v0.5',
+    name: '原型宇宙缝针v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15327,7 +15327,7 @@ export default [
   },
   {
     id: 45641,
-    name: 'Cosmic Alembic Prototype v0.5',
+    name: '原型宇宙蒸馏器v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15344,7 +15344,7 @@ export default [
   },
   {
     id: 45642,
-    name: 'Cosmic Frypan Prototype v0.5',
+    name: '原型宇宙煎锅v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15361,7 +15361,7 @@ export default [
   },
   {
     id: 45643,
-    name: 'Cosmic Pickaxe Prototype v0.5',
+    name: '原型宇宙鹤嘴锄v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15379,7 +15379,7 @@ export default [
   },
   {
     id: 45644,
-    name: 'Cosmic Hatchet Prototype v0.5',
+    name: '原型宇宙手斧v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
@@ -15397,7 +15397,7 @@ export default [
   },
   {
     id: 45645,
-    name: 'Cosmic Fishing Rod Prototype v0.5',
+    name: '原型宇宙钓竿v0.5',
     level: 290,
     rarity: 1,
     slot: 1,
