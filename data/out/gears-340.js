@@ -26179,7 +26179,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 2,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       PIE: 58,
       CRT: 83,
@@ -26215,7 +26215,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 2,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       PIE: 83,
       SPS: 58,
@@ -26251,7 +26251,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 2,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       DET: 58,
       SPS: 83,
@@ -26287,7 +26287,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 2,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       DHT: 83,
       SPS: 58,
@@ -26323,7 +26323,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 2,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       CRT: 58,
       DET: 83,
@@ -26359,7 +26359,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 2,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       DET: 83,
       SPS: 58,
@@ -27695,7 +27695,7 @@ export default [
     materiaSlot: 2,
     materiaAdvanced: true,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       PIE: 83,
       DET: 58,
@@ -27735,7 +27735,7 @@ export default [
     materiaSlot: 2,
     materiaAdvanced: true,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       CRT: 58,
       DET: 83,
@@ -27775,7 +27775,7 @@ export default [
     materiaSlot: 2,
     materiaAdvanced: true,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       PIE: 83,
       SPS: 58,
@@ -27814,7 +27814,7 @@ export default [
     materiaSlot: 2,
     materiaAdvanced: true,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       CRT: 58,
       DET: 83,
@@ -27854,7 +27854,7 @@ export default [
     materiaSlot: 2,
     materiaAdvanced: true,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       DHT: 58,
       DET: 83,
@@ -27894,7 +27894,7 @@ export default [
     materiaSlot: 2,
     materiaAdvanced: true,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       DHT: 58,
       CRT: 83,
@@ -29227,7 +29227,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 5,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       DET: 58,
       SPS: 83,
@@ -29263,7 +29263,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 5,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       PIE: 58,
       DET: 83,
@@ -29299,7 +29299,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 5,
     stats: {
-      VIT: 79,
+      VIT: 80,
       MND: 85,
       CRT: 83,
       DET: 58,
@@ -29317,7 +29317,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 5,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       DHT: 83,
       CRT: 58,
@@ -29353,7 +29353,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 5,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       DET: 83,
       SPS: 58,
@@ -29389,7 +29389,7 @@ export default [
     equipLevel: 70,
     materiaSlot: 5,
     stats: {
-      VIT: 79,
+      VIT: 80,
       INT: 85,
       DHT: 83,
       DET: 58,

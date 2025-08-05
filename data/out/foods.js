@@ -7156,4 +7156,40 @@ export default [
     statMain: 'DET',
     best: true,
   },
+  {
+    id: 46253,
+    name: 'All i Pebre',
+    level: 750,
+    slot: -1,
+    jobCategory: 33,
+    stats: {
+      CP: 100,
+      CRL: 115,
+    },
+    statRates: {
+      CP: 26,
+      CRL: 5,
+    },
+    statMain: 'CP',
+    patch: '7.3',
+    best: true,
+  },
+  {
+    id: 46254,
+    name: 'Goldentail Pie',
+    level: 750,
+    slot: -1,
+    jobCategory: 32,
+    stats: {
+      GTH: 188,
+      PCP: 97,
+    },
+    statRates: {
+      GTH: 7,
+      PCP: 3,
+    },
+    statMain: 'GTH',
+    patch: '7.3',
+    best: true,
+  },
 ];

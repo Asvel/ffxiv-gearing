@@ -15238,7 +15238,6 @@ export default [
       CRL: 217,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45636,
@@ -15255,7 +15254,6 @@ export default [
       CRL: 217,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45637,
@@ -15272,7 +15270,6 @@ export default [
       CRL: 217,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45638,
@@ -15289,7 +15286,6 @@ export default [
       CRL: 217,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45639,
@@ -15306,7 +15302,6 @@ export default [
       CRL: 217,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45640,
@@ -15323,7 +15318,6 @@ export default [
       CRL: 217,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45641,
@@ -15340,7 +15334,6 @@ export default [
       CRL: 217,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45642,
@@ -15357,7 +15350,6 @@ export default [
       CRL: 217,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45643,
@@ -15375,7 +15367,6 @@ export default [
       PCP: 196,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45644,
@@ -15393,7 +15384,6 @@ export default [
       PCP: 196,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 45645,
@@ -15411,7 +15401,6 @@ export default [
       PCP: 196,
     },
     source: '宇宙探索',
-    patch: '7.21',
   },
   {
     id: 18813,
