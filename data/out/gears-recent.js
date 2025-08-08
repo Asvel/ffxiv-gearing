@@ -29733,7 +29733,7 @@ export default [
       DEX: 413,
       VIT: 446,
       DHT: 246,
-      SPS: 172,
+      SKS: 172,
     },
     source: '团队任务/桑多利亚',
     patch: '7.3',
