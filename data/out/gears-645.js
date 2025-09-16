@@ -11787,7 +11787,7 @@ export default [
   },
   {
     id: 40217,
-    name: '成神之咏咒手套',
+    name: '成神之咏咒腕套',
     level: 660,
     rarity: 3,
     slot: 5,

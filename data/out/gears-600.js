@@ -22886,7 +22886,7 @@ export default [
   },
   {
     id: 39992,
-    name: '荒天咏咒手套',
+    name: '荒天咏咒腕套',
     level: 640,
     rarity: 3,
     slot: 5,

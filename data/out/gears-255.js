@@ -6180,7 +6180,7 @@ export default [
   },
   {
     id: 18135,
-    name: '鬼船制敌护臂',
+    name: '鬼船制敌臂环',
     level: 260,
     rarity: 2,
     slot: 5,

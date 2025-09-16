@@ -1277,7 +1277,7 @@ export default [
   },
   {
     id: 4719,
-    name: '韭葱洋葱汤',
+    name: '盐韭洋葱汤',
     level: 34,
     slot: -1,
     jobCategory: 33,
@@ -6457,7 +6457,6 @@ export default [
       CRL: 5,
     },
     statMain: 'CP',
-    best: true,
   },
   {
     id: 44092,
@@ -6596,7 +6595,6 @@ export default [
       PCP: 3,
     },
     statMain: 'GTH',
-    best: true,
   },
   {
     id: 44100,
@@ -7158,7 +7156,7 @@ export default [
   },
   {
     id: 46253,
-    name: 'All i Pebre',
+    name: '椒麻鳗鱼',
     level: 750,
     slot: -1,
     jobCategory: 33,
@@ -7171,12 +7169,11 @@ export default [
       CRL: 5,
     },
     statMain: 'CP',
-    patch: '7.3',
     best: true,
   },
   {
     id: 46254,
-    name: 'Goldentail Pie',
+    name: '黄金鳗鱼派',
     level: 750,
     slot: -1,
     jobCategory: 32,
@@ -7189,7 +7186,6 @@ export default [
       PCP: 3,
     },
     statMain: 'GTH',
-    patch: '7.3',
     best: true,
   },
 ];
