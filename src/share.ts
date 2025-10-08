@@ -211,7 +211,7 @@ export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): strin
     // the last id delta might be 0, it could break endding detect when decode
     // so we always increase it by 1, but do this can make it larger than delta range
     if (gearCodes[gearCodes.length - 1].id - gearCodes[gearCodes.length - 2].id ===
-      gearIdDeltaDirection * gearIdDeltaRange - 1) {
+      gearIdDeltaDirection * (gearIdDeltaRange - 1)) {
       gearIdDeltaRange += 1;
     }
   }
