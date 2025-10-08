@@ -40,9 +40,12 @@ export const Food = mst.types
     get effectiveStats(): G.Stats {
       const stats: G.Stats = {};
       for (const stat of Object.keys(this.stats) as G.Stat[]) {
-        const equippedStat = self.store.equippedStatsWithoutFood[stat] ?? 1;
-        const statRate = this.statRates[stat] ?? Infinity;
-        stats[stat] = Math.min(this.stats[stat], floor(equippedStat * statRate / 100));
+        if (stat in this.statRates) {
+          const equippedStat = self.store.equippedStatsWithoutFood[stat] ?? 0;
+          stats[stat] = Math.min(this.stats[stat], floor(equippedStat * this.statRates[stat] / 100));
+        } else {
+          stats[stat] = this.stats[stat];
+        }
       }
       return stats;
     },
