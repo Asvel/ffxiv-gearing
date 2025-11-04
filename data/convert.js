@@ -42,10 +42,11 @@ const jobs = [
   'MIN', 'BTN', 'FSH',
 ];
 
+// 暂不移除数据拼合，等版本更新情况稳定再说
 const patches = {
-  data: '7.35',  // 主数据的版本，即国际服游戏版本
-  next: '7.35',  // 对国服来说，下一个有装备更新的版本
-  current: '7.31',  // 国服当前游戏版本
+  data: '7.38',  // 主数据的版本，即国际服游戏版本
+  next: '7.38',  // 对国服来说，下一个有装备更新的版本
+  current: '7.38',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};
@@ -146,7 +147,8 @@ const gears = Item
     ret.role = Number(x['BaseParamModifier']);
     ret.jobCategory = Number(x['ClassJobCategory']);
     ret.equipLevel = Number(x['Level{Equip}']);
-    ret.equipLevelVariable = x['Description'] === 'IL and attributes synced to current job level.'
+    // ret.equipLevelVariable = x['Description'] === 'IL and attributes synced to current job level.'
+    ret.equipLevelVariable = x['Description'] === '此装备的品级与附加的属性数值会随着装备时的等级发生变化。'
       ? true : undefined;  // FIXME: 是否有更标识字段的判定方式
     ret.materiaSlot = Number(x['MateriaSlotCount']);
     ret.materiaAdvanced = x['IsAdvancedMeldingPermitted'] === 'True' ? true : undefined;
@@ -300,9 +302,9 @@ const foods = Item
     ret.jobCategory = jobCategoryMap[Object.keys(jobs).sort().join(',')];
     if (ret.jobCategory === undefined) debugger;
     lodestoneIdsUsed[ret.id] = lodestoneIds[ret.id];
-    if (!ItemCn[index]?.['Name'] && sourceOfId[ret.id] === undefined) {
-      sourcesMissing[ret.id] = `food  ${ret.name}`;
-    }
+    // if (!ItemCn[index]?.['Name'] && sourceOfId[ret.id] === undefined) {
+    //   sourcesMissing[ret.id] = `food  ${ret.name}`;
+    // }
     return ret;
   })
   .filter(Boolean);
