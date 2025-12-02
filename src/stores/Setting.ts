@@ -3,6 +3,7 @@ import * as mst from 'mobx-state-tree';
 type GearDisplayName = 'name' | 'source';
 type GearColorScheme = 'source' | 'rarity' | 'none';
 type MateriaDisplayName = 'stat' | 'materia';
+type AppTheme = 'light' | 'light-highSaturation' | 'dark';
 
 const storageKey = 'ffxiv-gearing.dt.setting';
 
@@ -13,7 +14,7 @@ export const Setting = mst.types
     materiaDisplayName: mst.types.optional(mst.types.string as mst.ISimpleType<MateriaDisplayName>, 'stat'),
     displayMeldedStats: mst.types.optional(mst.types.boolean, true),
     hideObsoleteGears: mst.types.optional(mst.types.boolean, true),
-    highSaturation: mst.types.optional(mst.types.boolean, false),
+    appTheme: mst.types.optional(mst.types.string as mst.ISimpleType<AppTheme>, 'light'),
   })
   .actions(self => ({
     afterCreate(): void {
@@ -35,8 +36,8 @@ export const Setting = mst.types
     setHideObsoleteGears(hideObsoleteGears: boolean): void {
       self.hideObsoleteGears = hideObsoleteGears;
     },
-    setHighSaturation(highSaturation: boolean): void {
-      self.highSaturation = highSaturation;
+    setAppTheme(appTheme: AppTheme): void {
+      self.appTheme = appTheme;
     },
   }));
 

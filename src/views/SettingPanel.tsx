@@ -89,19 +89,23 @@ export const SettingPanel = mobxReact.observer(() => {
         />
       </div>
       <div className="setting_section">
-        <span className="setting_title">高饱和度模式</span>
-        <span className="setting_sub">如果默认高亮颜色难以辨识请启用此模式</span>
+        <span className="setting_title">主题</span>
       </div>
       <div className="setting_controls">
         <Radio
-          label="不启用"
-          checked={!store.setting.highSaturation}
-          onChange={() => store.setting.setHighSaturation(false)}
+          label="浅色"
+          checked={store.setting.appTheme === 'light'}
+          onChange={() => store.setting.setAppTheme('light')}
         />
         <Radio
-          label="启用"
-          checked={store.setting.highSaturation}
-          onChange={() => store.setting.setHighSaturation(true)}
+          label="浅色(高饱和)"
+          checked={store.setting.appTheme === 'light-highSaturation'}
+          onChange={() => store.setting.setAppTheme('light-highSaturation')}
+        />
+        <Radio
+          label="深色"
+          checked={store.setting.appTheme === 'dark'}
+          onChange={() => store.setting.setAppTheme('dark')}
         />
       </div>
     </div>

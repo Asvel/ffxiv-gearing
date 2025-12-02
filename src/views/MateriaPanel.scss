@@ -22,7 +22,7 @@
 }
 .materias_row {
   &.-invalid {
-    color: rgba(#000000, .20);
+    color: var(--color-text-invalid);
   }
 }
 .materias_grade,
@@ -31,14 +31,14 @@
   cursor: pointer;
   text-align: center;
   &:hover {
-    background-color: #0000000a;
+    background-color: var(--color-material-hover);
   }
   &:active {
-    background-color: #0000001a;
+    background-color: var(--color-material-active);
   }
   &.-selected {
     background-color: rgba($primary, .08);
-    .app-high-saturation & {
+    .theme-light--highSaturation & {
       background-color: rgba($primary, .16);
     }
   }
