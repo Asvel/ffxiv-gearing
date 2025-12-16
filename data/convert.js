@@ -44,9 +44,9 @@ const jobs = [
 
 // 暂不移除数据拼合，等版本更新情况稳定再说
 const patches = {
-  data: '7.38',  // 主数据的版本，即国际服游戏版本
-  next: '7.38',  // 对国服来说，下一个有装备更新的版本
-  current: '7.38',  // 国服当前游戏版本
+  data: '7.4',  // 主数据的版本，即国际服游戏版本
+  next: '7.4',  // 对国服来说，下一个有装备更新的版本
+  current: '7.4',  // 国服当前游戏版本
 };
 
 const sourceOfId = {};
@@ -365,7 +365,7 @@ const levelGroupBasis = [
   340, 385, 401,
   470, 515, 531,
   600, 645, 661,
-  690,
+  730,
 ];
 const levelGroupIds = [];
 const levelGroupLast = levelGroupBasis[levelGroupBasis.length - 1];
