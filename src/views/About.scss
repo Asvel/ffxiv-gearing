@@ -6,7 +6,7 @@
   font-size: 13px;
   line-height: 19px;
   text-align: center;
-  color: #00000080;
+  color: var(--color-text-about);
 }
 .about_separator {
   margin: 0 4px;
@@ -15,7 +15,7 @@
   margin-left: 4px;
 }
 .about_link {
-  color: #00000080;
+  color: var(--color-text-about);
   text-decoration: none;
   &:hover {
     text-decoration: underline;

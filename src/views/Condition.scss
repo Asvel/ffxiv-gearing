@@ -10,7 +10,7 @@
   margin: 9px 0;
   height: 24px;
   width: 1px;
-  background-color: #0000001f;
+  background-color: var(--color-divider);
   vertical-align: top;
 }
 .condition_right {
@@ -34,7 +34,7 @@
   margin-top: 5px;
   font-size: 12px;
   line-height: 34px;
-  color: #00000099;
+  color: var(--color-text-sub);
   text-decoration: none;
   vertical-align: top;
   &:hover {
@@ -42,7 +42,7 @@
   }
   &.-highlight {
     font-weight: bold;
-    color: #b00020;
+    color: var(--color-text-highlighted);
   }
 }
 .condition_level {

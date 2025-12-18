@@ -16,7 +16,7 @@
 .gear-menu_divider {
   height: 1px;
   margin: 8px 0;
-  background-color: #0000001f;
+  background-color: var(--color-divider);
   &:first-child,
   &:last-child,
   & + & {

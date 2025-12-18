@@ -29,7 +29,7 @@
   }
   &.-selected {
     background-color: rgba($primary, .08);
-    .app-high-saturation & {
+    .theme-light--highSaturation & {
       background-color: rgba($primary, .16);
     }
     &:before {

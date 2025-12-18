@@ -10,6 +10,107 @@ body {
   text-align: center;
   background-color: #f2f2f2;
   cursor: auto;
+
+  --color-text: #000000de;
+  --color-text-sub: #00000099;
+  --color-text-invalid: #0003;
+  --color-text-patch: rgba(0, 0, 0, 0.37647);
+  --color-text-il: #00000060;
+  --color-text-stat: rgba(0, 0, 0, 0.65);
+  --color-text-stat-sub: rgba(0, 0, 0, .54);
+  --color-text-damageTip: rgba(0, 0, 0, 0.55);
+  --color-text-about: #00000080;
+  --color-text-highlighted: #b00020;
+  --color-text-primary: #6200ee;
+  --color-border: #e0e0e0;
+  --color-border-sub: #ededed;
+  --color-divider: #0000001f;
+  --color-bg: #f2f2f2;
+  --color-bg-fill: rgba(0, 0, 0, .77);
+  --color-bg-selection: #c8e1ff;
+  --color-hover: #0000000a;
+  --color-material-hover: #0000000f;
+  --color-material-active: #0000001a;
+  --color-gear-red: #721c24;
+  --color-gear-green: #155724;
+  --color-gear-blue: #003085;
+  --color-gear-purple: #36037c;
+}
+
+body.theme-light--highSaturation {
+  --color-gear-red: #9c0010;
+  --color-gear-green: #007a2b;
+  --color-gear-blue: #003899;
+  --color-gear-purple: #3e0094;
+}
+
+body.theme-dark {
+  background-color: #121212;
+
+  --color-text: #ffffffde;
+  --color-text-sub: #ffffff99;
+  --color-text-invalid: #ffffff33;
+  --color-text-patch: rgba(255, 255, 255, 0.37647);
+  --color-text-il: #ffffff60;
+  --color-text-stat: rgba(255, 255, 255, 0.65);
+  --color-text-stat-sub: rgba(255, 255, 255, .54);
+  --color-text-damageTip: rgba(255, 255, 255, 0.55);
+  --color-text-about: #ffffff80;
+  --color-text-highlighted: #b00020;
+  --color-text-primary: #704AB7;
+  --color-border: #121212;
+  --color-border-sub: #444;
+  --color-divider: #ffffff1f;
+  --color-bg: #121212;
+  --color-bg-fill: rgba(255, 255, 255, .77);
+  --color-bg-selection: #0539A4;
+  --color-hover: #ffffff0a;
+  --color-material-hover: #ffffff0f;
+  --color-material-active: #ffffff1a;
+  --color-gear-red: #f7949d;
+  --color-gear-green: #94f7a4;
+  --color-gear-blue: #94c3f7;
+  --color-gear-purple: #c394f7;
+
+  // @rmwc theme
+  --mdc-theme-primary: #24aee9;
+  --mdc-theme-secondary: #e539ff;
+  --mdc-theme-error: #b00020;
+  --mdc-theme-background: #242424;
+  --mdc-theme-surface: #18181C;
+  --mdc-theme-on-primary: rgba(255,255,255,.87);
+  --mdc-theme-on-secondary: rgba(0,0,0,0.87);
+  --mdc-theme-on-surface: rgba(255,255,255,.87);
+  --mdc-theme-on-error: #fff;
+  --mdc-theme-text-primary-on-background: rgba(255, 255, 255, 1);
+  --mdc-theme-text-secondary-on-background: rgba(255, 255, 255, 0.7);
+  --mdc-theme-text-hint-on-background: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-disabled-on-background: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-icon-on-background: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-primary-on-light: rgba(0, 0, 0, 0.87);
+  --mdc-theme-text-secondary-on-light: rgba(0, 0, 0, 0.54);
+  --mdc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-icon-on-light: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-primary-on-dark: white;
+  --mdc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
+  --mdc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);
+
+  // 部分组件需要特殊处理
+  .mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+    color: rgba(255, 255, 255, .87);
+  }
+  .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::before {
+    border-bottom-color: rgba(255, 255, 255, .42);
+  }
+  .mdc-text-field--filled:not(.mdc-text-field--disabled):hover .mdc-line-ripple::before {
+    border-bottom-color: rgba(255, 255, 255, .87);
+  }
+  .mdc-radio .mdc-radio__native-control:enabled:not(:checked) + .mdc-radio__background .mdc-radio__outer-circle {
+    border-color: rgba(255, 255, 255, .54);
+  }
 }
 
 svg {
@@ -26,9 +127,9 @@ svg {
     PingFang SC, Hiragino Sans GB, Microsoft YaHei, \5FAE\8F6F\96C5\9ED1,
     sans-serif;
   text-align: initial;
-  color: #000000de;
-  &:not(.app-high-saturation) ::selection {
-    background-color: #c8e1ff;
+  color: var(--color-text);
+  &:not(.theme-light--highSaturation) ::selection {
+    background-color: var(--color-bg-selection);
   }
 }
 .app-edit {
@@ -44,7 +145,7 @@ svg {
 
 .table {
   line-height: 36px;
-  color: #000000de;
+  color: var(--color-text);
   th, td {
     padding-top: 0;
     padding-bottom: 0;
@@ -53,21 +154,21 @@ svg {
   th {
     padding-top: 1px;
     font-weight: normal;
-    color: #00000099;
+    color: var(--color-text-sub);
   }
   td {
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid var(--color-border);
   }
   tbody:first-child tr:first-child td {
     border-top: none;
   }
   tbody tr {
     &:hover {
-      background-color: #0000000a;
+      background-color: var(--color-hover);
     }
     &.-selected {
       background-color: rgba($primary, .08);
-      .app-high-saturation & {
+      .theme-light--highSaturation & {
         background-color: rgba($primary, .16);
       }
     }

@@ -7,11 +7,26 @@ import { SlotCompact } from './SlotCompact';
 import { Condition } from './Condition';
 import { Summary } from './Summary';
 import { About } from './About';
+import { useEffect } from 'react';
 
 export const App = mobxReact.observer<{ store: IStore }>(({ store }) => {
+  useEffect(() => {
+    const themeClassMap = {
+      'light-highSaturation': 'theme-light--highSaturation',
+      'dark': 'theme-dark',
+    };
+    Object.entries(themeClassMap).forEach(([theme, className]) => {
+      if (store.setting.appTheme === theme) {
+        document.body.classList.add(className);
+      } else {
+        document.body.classList.remove(className);
+      }
+    });
+  }, [store.setting.appTheme]);
+
   return store.isLoading ? null : (
     <StoreContext.Provider value={store}>
-      <div className={classNames('app', `app-${store.mode}`, store.setting.highSaturation && 'app-high-saturation')}>
+      <div className={classNames('app', `app-${store.mode}`)}>
         <Condition />
         {store.job !== undefined && (
           store.isViewing ? (
