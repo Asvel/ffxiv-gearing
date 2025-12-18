@@ -53,11 +53,11 @@ export const GearMenu = mobxReact.observer<{
       <RippleLazy>
         <a
           className="gear-menu_item"
-          href={`http://www.garlandtools.org/db/#item/${Math.abs(gear.id)}`}
+          href={`http://garlandtools.cn/db/#item/${Math.abs(gear.id)}`}
           target="garlandtools"
           tabIndex={0}
         >
-          在 Garland Data 中查看 <Icon className="gear-menu_external" name="open-in-new" />
+          在 Garland 数据 中查看 <Icon className="gear-menu_external" name="open-in-new" />
         </a>
       </RippleLazy>
       <RippleLazy>

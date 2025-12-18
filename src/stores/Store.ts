@@ -635,7 +635,7 @@ export const Store = mst.types
         }
       }
       parts[parts.length - 1] = '}';
-      return `https://www.garlandtools.org/db/#group/${encodeURI(parts.join(''))}`;
+      return `https://garlandtools.cn/db/#group/${encodeURI(parts.join(''))}`;
     },
     get title(): string | undefined {
       const suffix = '最终幻想14配装器';
