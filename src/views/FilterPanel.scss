@@ -20,7 +20,7 @@
   font-size: 12px;
   line-height: 1;
   vertical-align: -1px;
-  color: #00000099;
+  color: rgb(var(--color-text-base), .60);
 }
 .filter_controls {
   margin-left: -9px;

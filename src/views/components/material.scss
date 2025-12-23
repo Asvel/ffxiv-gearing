@@ -62,6 +62,9 @@
   }
   &:not(.mdc-text-field--disabled) {
     background-color: transparent;
+    .mdc-text-field__input {
+      color: inherit;
+    }
   }
 }
 

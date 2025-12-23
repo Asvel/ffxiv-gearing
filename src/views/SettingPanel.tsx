@@ -7,6 +7,27 @@ export const SettingPanel = mobxReact.observer(() => {
   return (
     <div className="setting card">
       <div className="setting_section">
+        <span className="setting_title">主题</span>
+        <span className="setting_sub">如果高亮颜色难以辨识可以选用高饱和主题</span>
+      </div>
+      <div className="setting_controls">
+        <Radio
+          label="浅色"
+          checked={store.setting.appTheme === 'light'}
+          onChange={() => store.setting.setAppTheme('light')}
+        />
+        <Radio
+          label="浅色（高饱和）"
+          checked={store.setting.appTheme === 'light-hs'}
+          onChange={() => store.setting.setAppTheme('light-hs')}
+        />
+        <Radio
+          label="深色"
+          checked={store.setting.appTheme === 'dark'}
+          onChange={() => store.setting.setAppTheme('dark')}
+        />
+      </div>
+      <div className="setting_section">
         <span className="setting_title">装备名显示方式</span>
         <span className="setting_sub">国服未实装的装备总会显示为获取途径</span>
       </div>
@@ -86,22 +107,6 @@ export const SettingPanel = mobxReact.observer(() => {
           label="显示"
           checked={!store.setting.hideObsoleteGears}
           onChange={() => store.setting.setHideObsoleteGears(false)}
-        />
-      </div>
-      <div className="setting_section">
-        <span className="setting_title">高饱和度模式</span>
-        <span className="setting_sub">如果默认高亮颜色难以辨识请启用此模式</span>
-      </div>
-      <div className="setting_controls">
-        <Radio
-          label="不启用"
-          checked={!store.setting.highSaturation}
-          onChange={() => store.setting.setHighSaturation(false)}
-        />
-        <Radio
-          label="启用"
-          checked={store.setting.highSaturation}
-          onChange={() => store.setting.setHighSaturation(true)}
         />
       </div>
     </div>

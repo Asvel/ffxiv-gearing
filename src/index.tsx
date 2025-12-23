@@ -13,6 +13,17 @@ mobx.autorun(() => {
   }
 });
 
+mobx.autorun(() => {
+  for (const className of document.body.classList) {
+    if (className.startsWith('theme-')) {
+      document.body.classList.remove(className);
+    }
+  }
+  if (store.setting.appTheme !== 'light') {
+    document.body.classList.add(`theme-${store.setting.appTheme}`);
+  }
+});
+
 const container = document.createElement('div');
 document.body.appendChild(container);
 ReactDOMClient.createRoot(container).render(<App store={store} />);

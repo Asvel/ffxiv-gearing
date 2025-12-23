@@ -13,9 +13,10 @@
   text-align: center;
   margin: 8px 0;
   padding: 8px;
-  color: $primary;
+  color: var(--mdc-theme-primary);
   text-decoration: none;
-  border: 1px dashed #6200ee99;
+  border: 1px dashed var(--mdc-theme-primary);
+  border-color: color(from var(--mdc-theme-primary) srgb r g b / .60);
   border-radius: 4px;
   &:hover {
     text-decoration: underline;
@@ -24,5 +25,5 @@
 .import_warn {
   margin-top: 4px;
   font-weight: bold;
-  color: #721c24;
+  color: var(--color-gear-red);
 }

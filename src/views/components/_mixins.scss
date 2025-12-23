@@ -1,9 +1,5 @@
 @forward "../../../node_modules/@material/elevation/mixins" show elevation;
 
-$primary: #6200ee;
-$red: #dc3545;
-$green: #28a745;
-
 @function _ta($top, $bottom) {
   @return if($top < $bottom, $top / $bottom, (255 - $top) / (255 - $bottom));
 }
@@ -16,5 +12,3 @@ $green: #28a745;
   $a: min(1, _ta($tr, $br), _ta($tg, $bg), _ta($tb, $bb));
   @return rgba(_tc($tr, $br, $a), _tc($tg, $bg, $a), _tc($tb, $bb, $a), 1 - $a);
 }
-
-$table-border: 1px solid unquote('#0000001f');

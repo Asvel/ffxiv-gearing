@@ -5,7 +5,7 @@
   @include elevation(4);
 }
 .materia-overall_tabbar {
-  border-bottom: 1px solid #0000001f;
+  border-bottom: 1px solid var(--color-divider);
   .mdc-tab {
     padding: 0 12px;
     height: 40px;
@@ -47,7 +47,7 @@
   td:first-child {
     padding: 0;
     text-align: center;
-    color: #00000060;
+    color: rgb(var(--color-text-base), .377);
   }
 }
 .materia-consumption_tip {
@@ -78,7 +78,7 @@
 .materia-det-dht-optimization_introduce {
   padding: 9px 16px 4px;
   line-height: 20px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--color-divider);
   p {
     margin-top: 0;
     margin-bottom: 5px;
@@ -97,6 +97,6 @@
   vertical-align: baseline;
 }
 .materia-det-dht-optimization_tip {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid var(--color-divider);
   padding: 12px 16px 14px;
 }

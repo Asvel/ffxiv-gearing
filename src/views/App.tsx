@@ -1,5 +1,4 @@
 import * as mobxReact from 'mobx-react-lite';
-import classNames from 'clsx';
 import type { IStore } from '../stores';
 import { StoreContext } from './components/contexts';
 import { Slot } from './Slot';
@@ -11,7 +10,7 @@ import { About } from './About';
 export const App = mobxReact.observer<{ store: IStore }>(({ store }) => {
   return store.isLoading ? null : (
     <StoreContext.Provider value={store}>
-      <div className={classNames('app', `app-${store.mode}`, store.setting.highSaturation && 'app-high-saturation')}>
+      <div className={`app app-${store.mode}`}>
         <Condition />
         {store.job !== undefined && (
           store.isViewing ? (

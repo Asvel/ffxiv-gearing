@@ -42,7 +42,7 @@
   height: 391px;
   border-bottom-right-radius: 4px;
   overflow: hidden;
-  color: $primary;
+  color: var(--mdc-theme-primary);
   opacity: 0.08;
   pointer-events: none;
   > svg {
@@ -61,5 +61,5 @@
   right: 18px;
   line-height: 1;
   font-style: italic;
-  color: #00000099;
+  color: rgb(var(--color-text-base), .60);
 }

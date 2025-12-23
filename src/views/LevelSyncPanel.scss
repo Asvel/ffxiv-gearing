@@ -8,6 +8,9 @@
 }
 .level-sync_group {
   font-weight: bold;
+  .mdc-list-item__ripple {
+    z-index: -1;
+  }
 }
 .level-sync_group-icon {
   width: 24px;
@@ -28,10 +31,7 @@
     font-weight: bold;
   }
   &.-selected {
-    background-color: rgba($primary, .08);
-    .app-high-saturation & {
-      background-color: rgba($primary, .16);
-    }
+    background-color: var(--color-selected-bg);
     &:before {
       opacity: 0;  // disable hover background
     }

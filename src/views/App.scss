@@ -10,6 +10,105 @@ body {
   text-align: center;
   background-color: #f2f2f2;
   cursor: auto;
+
+  --color-text-base: 0, 0, 0;
+  --color-text-selection-bg: #c8e1ff;
+  --color-divider: #0000001f;
+  --color-divider-noalpha: #e0e0e0;
+  --color-divider-thick: #ededed;
+  --color-gear-red: #721c24;
+  --color-gear-green: #145021;
+  --color-gear-blue: #003085;
+  --color-gear-purple: #36037c;
+  --color-slot-green: #{transparentify(#c3e6cb)};
+  --color-slot-red: #{transparentify(#f5c6cb)};
+  --color-selected-bg: #6200ee14;
+
+  --mdc-theme-primary: #6200ee;
+  --mdc-theme-secondary: #6200ee;
+  --mdc-theme-surface: #fff;
+  --mdc-theme-error: #b00020;
+  --mdc-theme-on-primary: #fff;
+  --mdc-theme-on-secondary: #fff;
+  --mdc-theme-on-surface: rgb(0, 0, 0, .87);
+  --mdc-theme-on-error: #fff;
+  --mdc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);
+  --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+  --mdc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);
+}
+
+body.theme-light-hs {
+  --color-gear-red: #9c0010;
+  --color-gear-green: #006b10;
+  --color-gear-blue: #003899;
+  --color-gear-purple: #3e0094;
+  --color-selected-bg: #6200ee20;
+}
+
+body.theme-dark {
+  background-color: #121212;
+
+  --color-text-base: 255, 255, 255;
+  --color-text-selection-bg: #3d3d3d;
+  --color-divider: #ffffff15;
+  --color-divider-noalpha: #313131;
+  --color-divider-thick: #2b2b2b;
+  --color-gear-red: #f4afae; // oklch(0.819 0.081 20.24 / 1);
+  --color-gear-green: #b7debb; // oklch(0.863 0.063 147.25 / 1);
+  --color-gear-blue: #a9c6f6; // oklch(0.821 0.075 261.15 / 1);
+  --color-gear-purple: #c3b7ff; // oklch(0.817 0.108 290.58 / 1);
+  --color-slot-green: #{transparentify(#48634b, #1e1e1e)}; // oklch(0.47 0.05 147.25);
+  --color-slot-red: #{transparentify(#75504f, #1e1e1e)}; // oklch(0.47 0.05 20.24);
+  --color-selected-bg: #bb86fc23;
+
+  --mdc-theme-primary: #bb86fc;
+  --mdc-theme-secondary: #bb86fc;
+  --mdc-theme-surface: #1e1e1e;
+  --mdc-theme-error: #b00020;
+  --mdc-theme-on-primary: #000;
+  --mdc-theme-on-secondary: #000;
+  --mdc-theme-on-surface: rgb(255, 255, 255, .87);
+  --mdc-theme-on-error: #fff;
+  --mdc-theme-text-primary-on-background: rgba(255, 255, 255, 1);
+  --mdc-theme-text-secondary-on-background: rgba(255, 255, 255, 0.7);
+  --mdc-theme-text-hint-on-background: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-disabled-on-background: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-icon-on-background: rgba(255, 255, 255, 0.5);
+
+  .mdc-ripple-surface {
+    &::before, &::after {
+      background-color: #fff;
+    }
+  }
+  .mdc-tab:not(.mdc-tab--active) {
+    .mdc-tab__text-label {
+      color: rgba(255, 255, 255, .60);
+    }
+  }
+  .mdc-text-field--filled {
+    .mdc-text-field__ripple {
+      &::before, &::after {
+        background-color: rgba(255, 255, 255, .87);
+      }
+    }
+    &:not(.mdc-text-field--disabled) {
+      .mdc-line-ripple::before {
+        border-bottom-color: rgba(255, 255, 255, .45);
+      }
+      &:hover .mdc-line-ripple::before {
+        border-bottom-color: rgba(255, 255, 255, .70);
+      }
+    }
+  }
+  .mdc-radio {
+    .mdc-radio__native-control:enabled:not(:checked) + .mdc-radio__background {
+      .mdc-radio__outer-circle {
+        border-color: rgba(255, 255, 255, .54);
+      }
+    }
+  }
 }
 
 svg {
@@ -26,9 +125,9 @@ svg {
     PingFang SC, Hiragino Sans GB, Microsoft YaHei, \5FAE\8F6F\96C5\9ED1,
     sans-serif;
   text-align: initial;
-  color: #000000de;
-  &:not(.app-high-saturation) ::selection {
-    background-color: #c8e1ff;
+  color: rgb(var(--color-text-base), .87);
+  &:not(.theme-light-hs) ::selection {
+    background-color: var(--color-text-selection-bg);
   }
 }
 .app-edit {
@@ -44,7 +143,7 @@ svg {
 
 .table {
   line-height: 36px;
-  color: #000000de;
+  color: rgb(var(--color-text-base), .87);
   th, td {
     padding-top: 0;
     padding-bottom: 0;
@@ -53,23 +152,20 @@ svg {
   th {
     padding-top: 1px;
     font-weight: normal;
-    color: #00000099;
+    color: rgb(var(--color-text-base), .60);
   }
   td {
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid var(--color-divider-noalpha);
   }
   tbody:first-child tr:first-child td {
     border-top: none;
   }
   tbody tr {
     &:hover {
-      background-color: #0000000a;
+      background-color: rgb(var(--color-text-base), .04);
     }
     &.-selected {
-      background-color: rgba($primary, .08);
-      .app-high-saturation & {
-        background-color: rgba($primary, .16);
-      }
+      background-color: var(--color-selected-bg);
     }
   }
 }

@@ -23,7 +23,7 @@
 
 .summary_divider {
   align-self: stretch;
-  border-left: $table-border;
+  border-left: 1px solid var(--color-divider);
   margin: 0 -.5px;
 }
 
@@ -51,7 +51,7 @@
   bottom: 0;
   font-size: 12px;
   line-height: 44px;
-  color: #00000060;
+  color: rgb(var(--color-text-base), .377);
 }
 
 .summary_tiers-toggle {
@@ -94,7 +94,7 @@
 }
 .summary_stat-name {
   font-size: 13px;
-  color: rgba(0, 0, 0, 0.65);
+  color: rgb(var(--color-text-base), .65);
 }
 .summary_stat-effect {
   font-size: 12px;
@@ -125,5 +125,5 @@
   width: 16px;
   margin: -1px -6px -1px 1px;
   vertical-align: 1px;
-  color: rgba(0, 0, 0, 0.55);
+  color: rgb(var(--color-text-base), .55);
 }

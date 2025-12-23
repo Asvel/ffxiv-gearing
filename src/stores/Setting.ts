@@ -3,6 +3,7 @@ import * as mst from 'mobx-state-tree';
 type GearDisplayName = 'name' | 'source';
 type GearColorScheme = 'source' | 'rarity' | 'none';
 type MateriaDisplayName = 'stat' | 'materia';
+type AppTheme = 'light' | 'light-hs' | 'dark';
 
 const storageKey = 'ffxiv-gearing.dt.setting';
 
@@ -13,11 +14,15 @@ export const Setting = mst.types
     materiaDisplayName: mst.types.optional(mst.types.string as mst.ISimpleType<MateriaDisplayName>, 'stat'),
     displayMeldedStats: mst.types.optional(mst.types.boolean, true),
     hideObsoleteGears: mst.types.optional(mst.types.boolean, true),
-    highSaturation: mst.types.optional(mst.types.boolean, false),
+    appTheme: mst.types.optional(mst.types.string as mst.ISimpleType<AppTheme>, 'light'),
   })
   .actions(self => ({
     afterCreate(): void {
-      mst.applySnapshot(self, JSON.parse(localStorage.getItem(storageKey) ?? '{}'));
+      const snapshot = JSON.parse(localStorage.getItem(storageKey) ?? '{}');
+      if (snapshot.highSaturation) {  // TODO: remove this when switch to next storageKey
+        snapshot.appTheme = 'light-hs';
+      }
+      mst.applySnapshot(self, snapshot);
       mst.onSnapshot(self, snapshot => localStorage.setItem(storageKey, JSON.stringify(snapshot)));
     },
     setGearDisplayName(gearDisplayName: GearDisplayName): void {
@@ -35,8 +40,8 @@ export const Setting = mst.types
     setHideObsoleteGears(hideObsoleteGears: boolean): void {
       self.hideObsoleteGears = hideObsoleteGears;
     },
-    setHighSaturation(highSaturation: boolean): void {
-      self.highSaturation = highSaturation;
+    setAppTheme(appTheme: AppTheme): void {
+      self.appTheme = appTheme;
     },
   }));
 

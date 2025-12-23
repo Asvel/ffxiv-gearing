@@ -10,7 +10,7 @@
   }
   &.-group-end + & td {
     border-top-width: 4px;
-    border-top-color: #ededed;
+    border-top-color: var(--color-divider-thick);
   }
 }
 .gears_inline-slot {
@@ -26,7 +26,7 @@
   @at-root th#{&} {
     font-weight: bold;
     text-align: left;
-    color: #000000de;
+    color: rgb(var(--color-text-base), .87);
   }
 }
 .gears_name {
@@ -40,37 +40,25 @@
     max-width: 198px;
   }
   .gears_color-red & {
-    color: #721c24;
-    .app-high-saturation & {
-      color: #9c0010;
-    }
+    color: var(--color-gear-red);
   }
   .gears_color-green & {
-    color: #155724;
-    .app-high-saturation & {
-      color: #007a2b;
-    }
+    color: var(--color-gear-green);
   }
   .gears_color-blue & {
-    color: #003085;
-    .app-high-saturation & {
-      color: #003899;
-    }
+    color: var(--color-gear-blue);
   }
   .gears_color-purple & {
-    color: #36037c;
-    .app-high-saturation & {
-      color: #3e0094;
-    }
+    color: var(--color-gear-purple);
   }
 }
 .gears_hq {
   width: 12px;
   vertical-align: -1px;
-  //fill: rgba(0, 0, 0, .77);
+  //fill: rgb(var(--color-text-base), .77);
 }
 .gears_patch {
-  color: rgba(0, 0, 0, 0.37647);
+  color: rgb(var(--color-text-base), .377);
   margin-left: 4px;
   font-size: 12px;
   line-height: 1;
@@ -81,12 +69,12 @@
   line-height: 34px;
   margin-top: 2px;
   font-size: 12px;
-  color: #00000060;
+  color: rgb(var(--color-text-base), .377);
 }
 .gears_more {
   float: right;
   margin: 6px -10px 0 4px;
-  fill: rgba(0, 0, 0, .77);
+  fill: rgb(var(--color-text-base), .77);
 }
 
 .gears_toogle-all-foods {
@@ -103,8 +91,8 @@
   width: 277px;
   padding-left: 13px;
   padding-right: 13px;
-  border-left: $table-border;
-  border-right: $table-border;
+  border-left: 1px solid var(--color-divider);
+  border-right: 1px solid var(--color-divider);
 }
 .gears_materias-synced {
   position: absolute;
@@ -117,7 +105,7 @@
   pointer-events: none;
   > svg {
     width: 16px;
-    color: #00000099;
+    color: rgb(var(--color-text-base), .60);
   }
 }
 .gears_food-utilization {
@@ -159,14 +147,14 @@
   text-align: left;
   font-size: 12px;
   line-height: 1;
-  color: #00000099;
+  color: rgb(var(--color-text-base), .60);
 }
 .gears_stat-requirement {
   display: block;
   margin-bottom: -2px;
   font-size: 12px;
   line-height: 8px;
-  color: rgba(0, 0, 0, .54);
+  color: rgb(var(--color-text-base), .54);
   transform: scale(.9);
 }
 .gears_custom-stat-input {
@@ -174,5 +162,5 @@
 }
 
 .gears_empty {
-  color: #00000060;
+  color: rgb(var(--color-text-base), .377);
 }

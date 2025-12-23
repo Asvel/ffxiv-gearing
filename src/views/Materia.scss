@@ -23,12 +23,12 @@
   .app-edit & {
     &:hover {
       z-index: 1;
-      background-color: #0000000f;
+      background-color: rgb(var(--color-text-base), .06);
     }
     &:active,
     &.-active {
       z-index: 1;
-      background-color: #0000001a;
+      background-color: rgb(var(--color-text-base), .102);
     }
     &:empty:before {
       content: " ";
@@ -44,23 +44,15 @@
     opacity: 0.2;
   }
   &.-normal {
-    color: #155724;
-    //color: mix($green, #000, 60%);
-    .app-high-saturation & {
-      color: #007a2b;
-    }
+    color: var(--color-gear-green);
     &:empty:before {
-      border-color: transparentify(#c3e6cb);
+      border-color: var(--color-slot-green);
     }
   }
   &.-advanced {
-    color: #721c24;
-    //color: mix($red, #000, 63%);
-    .app-high-saturation & {
-      color: #9c0010;
-    }
+    color: var(--color-gear-red);
     &:empty:before {
-      border-color: transparentify(#f5c6cb);
+      border-color: var(--color-slot-red);
     }
   }
 }

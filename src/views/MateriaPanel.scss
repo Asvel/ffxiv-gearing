@@ -13,16 +13,15 @@
     &:last-child {
       padding-right: 16px;
     }
-    //border-right: $table-border;
   }
 }
 .materias_stat-name {
   text-align: center;
-  border-right: $table-border;
+  border-right: 1px solid var(--color-divider);
 }
 .materias_row {
   &.-invalid {
-    color: rgba(#000000, .20);
+    color: rgb(var(--color-text-base), .20);
   }
 }
 .materias_grade,
@@ -31,20 +30,17 @@
   cursor: pointer;
   text-align: center;
   &:hover {
-    background-color: #0000000a;
+    background-color: rgb(var(--color-text-base), .06);
   }
   &:active {
-    background-color: #0000001a;
+    background-color: rgb(var(--color-text-base), .102);
   }
   &.-selected {
-    background-color: rgba($primary, .08);
-    .app-high-saturation & {
-      background-color: rgba($primary, .16);
-    }
+    background-color: var(--color-selected-bg);
   }
 }
 .materias_show-all {
-  border-left: $table-border;
+  border-left: 1px solid var(--color-divider);
   svg {
     height: 17px;
     margin-right: -2px;
@@ -64,5 +60,5 @@ td.materias_meldable {
 }
 .materias_meldable-title {
   text-align: center;
-  border-right: $table-border;
+  border-right: 1px solid var(--color-divider);
 }
