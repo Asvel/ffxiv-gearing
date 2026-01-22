@@ -4,8 +4,11 @@ import { Button } from '@rmwc/button';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { Icon } from './components/Icon';
+import { Badge } from '@rmwc/badge';
+import { IconButton } from './components/IconButton';
 import { Dropdown } from './components/Dropdown';
 import { ClanPanel } from './ClanPanel';
+import { SummaryMenu } from './SummaryMenu';
 
 export const Summary = mobxReact.observer(() => {
   const store = useStore();
@@ -23,6 +26,21 @@ export const Summary = mobxReact.observer(() => {
           placement="top-start"
           modifiers={[{ name: 'offset', options: { offset: [-8, 0] } }]}
           strategy="fixed"
+        />
+        <Dropdown
+          label={({ ref, toggle }) => (
+            <>
+              <IconButton ref={ref} className="summary_more" icon="more" onClick={() => {
+                store.promotion.off('summaryMenu');
+                toggle();
+              }} />
+              <Badge className="badge-button_badge summary_more-badge" exited={!store.promotion.get('summaryMenu')} />
+            </>
+          )}
+          popper={({ toggle }) => (
+            <SummaryMenu toggle={toggle} />
+          )}
+          placement="top-end"
         />
         <span className="summary_equipped-level">
           il{store.equippedLevel}

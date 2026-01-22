@@ -44,7 +44,6 @@
   height: 35px;
   padding: 0 12px;
 }
-
 .summary_equipped-level {
   position: absolute;
   left: 260px;
@@ -52,6 +51,18 @@
   font-size: 12px;
   line-height: 44px;
   color: rgb(var(--color-text-base), .377);
+}
+.summary_more {
+  position: absolute;
+  right: 6px;
+  bottom: 10px;
+  fill: rgb(var(--color-text-base), .77);
+}
+.summary_more-badge {
+  position: absolute;
+  top: unset;
+  bottom: 27px;
+  right: 7px;
 }
 
 .summary_tiers-toggle {

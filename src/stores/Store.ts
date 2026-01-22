@@ -277,6 +277,10 @@ export const Store = mst.types
     },
   }))
   .views(self => ({
+    get equippedStatsText(): string {
+      const stats = self.equippedStats;
+      return self.schema.stats.map(stat => `${G.statNames[stat]} ${stats[stat]}`).join('\n');
+    },
     get equippedEffects() {
       console.debug('equippedEffects');
       if (self.job === undefined) return;
@@ -619,7 +623,7 @@ export const Store = mst.types
     get shareUrl(): string {
       return window.location.origin + window.location.pathname + '?' + this.share;
     },
-    get garland(): string {
+    get garlandGroup(): string {
       if (self.job === undefined) return '';
       const parts = [self.schema.name, self.equippedLevel, ' ', (new Date()).toLocaleString(), '{'];
       for (const slot of self.schema.slots) {
@@ -635,7 +639,7 @@ export const Store = mst.types
         }
       }
       parts[parts.length - 1] = '}';
-      return `https://garlandtools.cn/db/#group/${encodeURI(parts.join(''))}`;
+      return `#group/${encodeURI(parts.join(''))}`;
     },
     get title(): string | undefined {
       const suffix = '最终幻想14配装器';

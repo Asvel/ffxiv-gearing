@@ -46,7 +46,7 @@ export { patches };
 
 export const statNames = {
   STR: '力量', DEX: '灵巧', INT: '智力', MND: '精神', VIT: '耐力',
-  CRT: '暴击', DHT: '直击', DET: '信念', SKS: '技速', SPS: '咏唱', TEN: '坚韧', PIE: '信仰',
+  CRT: '暴击', DHT: '直击', DET: '信念', SKS: '技速', SPS: '咏速', TEN: '坚韧', PIE: '信仰',
   CMS: '作业精度', CRL: '加工精度', CP: '制作力', GTH: '获得力', PCP: '鉴别力', GP: '采集力',
   PDMG: '物理基本性能', MDMG: '魔法基本性能', DLY: '攻击间隔',
 };
