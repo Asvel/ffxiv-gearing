@@ -278,8 +278,14 @@ export const Store = mst.types
   }))
   .views(self => ({
     get equippedStatsText(): string {
-      const stats = self.equippedStats;
-      return self.schema.stats.map(stat => `${G.statNames[stat]} ${stats[stat]}`).join('\n');
+      let stats = self.schema.stats;
+      if (stats[0] === 'STR' || stats[0] === 'DEX') {
+        stats = stats.concat('PDMG', 'DLY');
+      }
+      if (stats[0] === 'INT' || stats[0] === 'MND') {
+        stats = stats.concat('MDMG');
+      }
+      return stats.map(stat => `${G.statNames[stat]} ${self.equippedStats[stat] ?? '-'}`).join('\n');
     },
     get equippedEffects() {
       console.debug('equippedEffects');
