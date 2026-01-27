@@ -195,7 +195,7 @@ export default [
   },
   {
     id: 42153,
-    name: '钴钨屠刀',
+    name: '钴钨反曲刀',
     level: 663,
     rarity: 1,
     slot: 13,
