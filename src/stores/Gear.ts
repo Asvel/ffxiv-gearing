@@ -20,6 +20,11 @@ export const Gear = mst.types
     get store(): IStore {
       return mst.getParentOfType(self, Store);
     },
+    concretizeStat(stat: G.Stat): G.Stat {
+      if (stat === 'main') return this.store.schema.mainStat!;
+      if (stat === 'secondary') return this.store.schema.secondaryStat!;
+      return stat;
+    },
   }))
   .views(self => ({
     get isFood() { return false as const; },
@@ -62,27 +67,27 @@ export const Gear = mst.types
       return stats;
     },
     get stats(): G.Stats {
-      let stats: G.Stats = {};
-      let bareStats = this.bareStats;
+      const stats: G.Stats = {};
+      for (const [ stat, value ] of Object.entries(this.bareStats) as G.StatPairs) {
+        stats[self.concretizeStat(stat)] = value;
+      }
       if (this.customizable) {
-        bareStats = { ...bareStats, ...self.customStats!.toJSON() };
+        Object.assign(stats, self.customStats!.toJSON());
       }
       if (this.syncedLevel !== undefined) {
         const caps = G.getCaps(self.data, this.syncedLevel);
-        for (const stat of Object.keys(bareStats) as G.Stat[]) {
-          stats[stat] = Math.min(bareStats[stat] ?? 0, caps[stat]!);
+        for (const [ stat, value ] of Object.entries(stats) as G.StatPairs) {
+          stats[stat] = Math.min(value, caps[stat]!);
         }
         if (this.syncedLevel === 700 && self.data.occultStats !== undefined) {
-          for (const stat of Object.keys(self.data.occultStats) as G.Stat[]) {
-            stats[stat]! += self.data.occultStats[stat]!;
+          for (const [ stat, value ] of Object.entries(self.data.occultStats) as G.StatPairs) {
+            stats[self.concretizeStat(stat)]! += value;
           }
         }
-      } else if (this.materiaSlot === 0) {
-        stats = bareStats;
-      } else {
-        for (const stat of Object.keys(bareStats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
-          stats[stat] = Math.min((bareStats[stat] ?? 0) + (this.materiaStats[stat] ?? 0),
-            Math.max(bareStats[stat] ?? 0, this.caps[stat]));
+      } else if (this.materiaSlot > 0) {
+        for (const stat of Object.keys(stats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
+          stats[stat] = Math.min((stats[stat] ?? 0) + (this.materiaStats[stat] ?? 0),
+            Math.max(this.bareStats[stat] ?? 0, this.caps[stat]));
         }
       }
       return stats;

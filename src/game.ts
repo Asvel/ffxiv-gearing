@@ -49,9 +49,11 @@ export const statNames = {
   CRT: '暴击', DHT: '直击', DET: '信念', SKS: '技速', SPS: '咏速', TEN: '坚韧', PIE: '信仰',
   CMS: '作业精度', CRL: '加工精度', CP: '制作力', GTH: '获得力', PCP: '鉴别力', GP: '采集力',
   PDMG: '物理基本性能', MDMG: '魔法基本性能', DLY: '攻击间隔',
+  main: 'unreachable', secondary: 'unreachable',
 };
 export type Stat = keyof typeof statNames;
 export type Stats = { [index in Stat]?: number };
+export type StatPairs = [Stat, number][];
 
 const levelCaps = require('../data/out/levelCaps').default as { [index in Stat | 'level']: number[] };
 const slotCaps = require('../data/out/slotCaps').default as { [index in Stat]: number[] };
@@ -69,6 +71,7 @@ export function getCaps(gear: Gear, syncLevel?: number): Stats {
   if (!(cacheKey in capsCache)) {
     const caps: Stats = {};
     for (const stat of Object.keys(statNames) as Stat[]) {
+      if (stat === 'main' || stat === 'secondary') continue;
       caps[stat] = stat === 'DLY' ? Infinity : Math.round(
         levelCaps[stat][levelCapsIndex[level]] *
         slotCaps[stat][slot] *
@@ -186,6 +189,7 @@ export interface JobSchema {
     gcdReason?: string,
   },
   mainStat?: 'STR' | 'DEX' | 'INT' | 'MND' | 'VIT',
+  secondaryStat?: 'TEN' | 'PIE' | 'DHT',
   traitDamageMultiplier?: number,
   partyBonus?: number,
   skeletonGears?: boolean,  // consistent stats proportion in same slot, focus on materia melding than gear choosing
@@ -207,6 +211,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 100, VIT: 110, hp: 140 },
     mainStat: 'VIT',
+    secondaryStat: 'TEN',
     traitDamageMultiplier: 1,
   } as JobSchema,
   WAR: {
@@ -218,6 +223,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 105, VIT: 110, hp: 145 },
     mainStat: 'VIT',
+    secondaryStat: 'TEN',
     traitDamageMultiplier: 1,
   } as JobSchema,
   DRK: {
@@ -229,6 +235,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 105, VIT: 110, hp: 140 },
     mainStat: 'VIT',
+    secondaryStat: 'TEN',
     traitDamageMultiplier: 1,
   } as JobSchema,
   GNB: {
@@ -240,6 +247,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 100, VIT: 110, hp: 140 },
     mainStat: 'VIT',
+    secondaryStat: 'TEN',
     traitDamageMultiplier: 1,
   } as JobSchema,
   WHM: {
@@ -251,6 +259,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { MND: 115, VIT: 100, hp: 105 },
     mainStat: 'MND',
+    secondaryStat: 'PIE',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
   SCH: {
@@ -262,6 +271,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { MND: 115, VIT: 100, hp: 105 },
     mainStat: 'MND',
+    secondaryStat: 'PIE',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
   AST: {
@@ -273,6 +283,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { MND: 115, VIT: 100, hp: 105 },
     mainStat: 'MND',
+    secondaryStat: 'PIE',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
   SGE: {
@@ -284,6 +295,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { MND: 115, VIT: 100, hp: 105 },
     mainStat: 'MND',
+    secondaryStat: 'PIE',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
   MNK: {
@@ -295,6 +307,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 110, VIT: 100, hp: 110, gcd: 80, gcdReason: '“疾风迅雷”状态中' },
     mainStat: 'STR',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1,
   } as JobSchema,
   DRG: {
@@ -306,6 +319,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 115, VIT: 105, hp: 115 },
     mainStat: 'STR',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1,
   } as JobSchema,
   NIN: {
@@ -317,6 +331,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { DEX: 110, VIT: 100, hp: 108, gcd: 85, gcdReason: '“风遁”状态中' },
     mainStat: 'DEX',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1,
   } as JobSchema,
   SAM: {
@@ -328,6 +343,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 112, VIT: 100, hp: 109, gcd: 87, gcdReason: '“风花”状态中' },
     mainStat: 'STR',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1,
   } as JobSchema,
   RPR: {
@@ -339,6 +355,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { STR: 115, VIT: 105, hp: 115 },
     mainStat: 'STR',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1,
   } as JobSchema,
   VPR: {
@@ -350,6 +367,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { DEX: 110, VIT: 100, hp: 111, gcd: 85, gcdReason: '“疾速”状态中' },
     mainStat: 'DEX',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1,
   } as JobSchema,
   BRD: {
@@ -361,6 +379,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { DEX: 115, VIT: 100, hp: 105 },
     mainStat: 'DEX',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1.2,
   } as JobSchema,
   MCH: {
@@ -372,6 +391,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { DEX: 115, VIT: 100, hp: 105 },
     mainStat: 'DEX',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1.2,
   } as JobSchema,
   DNC: {
@@ -383,6 +403,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { DEX: 115, VIT: 100, hp: 105 },
     mainStat: 'DEX',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1.2,
   } as JobSchema,
   BLM: {
@@ -394,6 +415,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
   SMN: {
@@ -405,6 +427,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
   RDM: {
@@ -416,6 +439,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
   PCT: {
@@ -427,6 +451,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1.3,
   } as JobSchema,
   BLU: {
@@ -441,6 +466,7 @@ export const jobSchemas = {
     levelSyncable: true,
     statModifiers: { INT: 115, VIT: 100, hp: 105 },
     mainStat: 'INT',
+    secondaryStat: 'DHT',
     traitDamageMultiplier: 1.5,
     partyBonus: 1.01,
   } as JobSchema,

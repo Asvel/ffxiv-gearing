@@ -12686,6 +12686,8 @@ export default [
     stats: {
       VIT: 115,
       DET: 111,
+      main: 115,
+      secondary: 111,
     },
   },
   {

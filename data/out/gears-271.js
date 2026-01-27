@@ -13117,6 +13117,8 @@ export default [
     materiaSlot: 0,
     stats: {
       VIT: 46,
+      main: 51,
+      secondary: 53,
     },
     source: '运营活动',
   },

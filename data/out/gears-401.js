@@ -13616,6 +13616,8 @@ export default [
     stats: {
       VIT: 80,
       DET: 79,
+      main: 78,
+      secondary: 79,
     },
     source: '成就/博兹雅战线',
   },
@@ -13632,6 +13634,8 @@ export default [
     stats: {
       VIT: 80,
       DET: 79,
+      main: 78,
+      secondary: 79,
     },
     source: '预约特典',
   },

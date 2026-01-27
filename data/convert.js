@@ -30,6 +30,7 @@ const statAbbrs = {
   70: 'CMS', 71: 'CRL', 11: 'CP',
   72: 'GTH', 73: 'PCP', 10: 'GP',
   12: 'PDMG', 13: 'MDMG',
+  55: 'main', 56: 'secondary',
 };
 
 const jobs = [
@@ -190,7 +191,7 @@ const gears = Item
     }
     if (Object.keys(ret.stats).length === 0) return;
 
-    if (x['ItemSpecialBonus'] === '9') {  // 新月岛补正
+    if (x['ItemSpecialBonus'] === '9' || x['ItemSpecialBonus'] === '10') {  // 新月岛补正
       const stats = ret.occultStats = {};
       for (let i = 0; i < 6; i++) {
         const stat = statAbbrs[x[`BaseParam{Special}[${i}]`]];
@@ -201,7 +202,8 @@ const gears = Item
     }
 
     // jobCategory
-    if (ret.jobCategory === 1 || ret.jobCategory === 34 || ret.jobCategory === 30 || ret.jobCategory === 31) {
+    if ((ret.jobCategory === 1 || ret.jobCategory === 34 || ret.jobCategory === 30 || ret.jobCategory === 31) &&
+        !('main' in ret.stats)) {
       const existMainStats = ['STR', 'DEX', 'INT', 'MND'].filter(x => x in ret.stats).join(',');
       if (existMainStats !== '') {
         ret.jobCategory = jobCategoryOfMainStats[existMainStats] || 34;
@@ -340,6 +342,10 @@ for (const l of Object.keys(syncLevelOfJobLevel).map(x => Number(x)).sort((a, b)
   syncLevels[jobLevel].push(l);
   levelsUsed[l] = true;
 }
+
+// 它俩不会被直接算上限
+delete statAbbrs[55];
+delete statAbbrs[56];
 
 const levelCaps = {
   level: Object.keys(levelsUsed).map(x => Number(x)).sort((a, b) => a - b),

@@ -9698,6 +9698,8 @@ export default [
     stats: {
       VIT: 26,
       DET: 25,
+      main: 29,
+      secondary: 35,
     },
   },
   {
