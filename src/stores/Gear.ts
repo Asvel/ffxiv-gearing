@@ -85,9 +85,9 @@ export const Gear = mst.types
           }
         }
       } else if (this.materiaSlot > 0) {
-        for (const stat of Object.keys(stats).concat(Object.keys(this.materiaStats)) as G.Stat[]) {
-          stats[stat] = Math.min((stats[stat] ?? 0) + (this.materiaStats[stat] ?? 0),
-            Math.max(this.bareStats[stat] ?? 0, this.caps[stat]));
+        for (const [ stat, value ] of Object.entries(this.materiaStats) as G.StatPairs) {
+          const base = stats[stat] ?? 0;
+          stats[stat] = Math.min(base + value, Math.max(base, this.caps[stat]));
         }
       }
       return stats;
