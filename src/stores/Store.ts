@@ -108,7 +108,7 @@ export const Store = mst.types
     get baseStats(): G.Stats {
       if (self.job === undefined) return {};
       const levelModifier = G.jobLevelModifiers[self.jobLevel];
-      const stats: G.Stats = { PDMG: 0, MDMG: 0 };
+      const stats: G.Stats = { PDMG: 0, MDMG: 0, DLY: 0 };
       for (const stat of this.schema.stats as G.Stat[]) {
         const baseStat = G.baseStats[stat] ?? 0;
         if (typeof baseStat === 'number') {
@@ -285,7 +285,10 @@ export const Store = mst.types
       if (stats[0] === 'INT' || stats[0] === 'MND') {
         stats = stats.concat('MDMG');
       }
-      return stats.map(stat => `${G.statNames[stat]} ${self.equippedStats[stat] ?? '-'}`).join('\n');
+      return stats.map(stat => {
+        const value = self.equippedStats[stat]!;
+        return `${G.statNames[stat]} ${stat !== 'DLY' ? value : (value / 1000).toFixed(2)}`;
+      }).join('\n');
     },
     get equippedEffects() {
       console.debug('equippedEffects');
