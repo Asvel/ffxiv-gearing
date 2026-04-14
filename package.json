@@ -16,7 +16,8 @@
     "publish": "node publish.js",
     "data-fetch": "node data/fetch.js",
     "data-convert": "node data/convert.js",
-    "lint": "eslint --ext .js,.ts,.tsx ."
+    "lint": "eslint --ext .js,.ts,.tsx .",
+    "test": "playwright test -c test/"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -40,6 +41,7 @@
     "sanitize.css": "^13.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
     "@rspack/cli": "^1.2.8",
     "@rspack/core": "^1.2.8",
     "@types/react": "^18.3.5",
