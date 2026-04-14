@@ -7,7 +7,7 @@ function createKey(): string {
 }
 
 function getCurrentKey(): string | undefined {
-  return window.history.state?.archiveKey || undefined;
+  return window.history.state?.archiveKey ?? undefined;
 }
 
 function setCurrentKey(key: string): void {

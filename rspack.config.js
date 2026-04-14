@@ -179,7 +179,7 @@ module.exports = function (env, argv) {
           });
         },
       },
-      new rspack.WarnCaseSensitiveModulesPlugin(),
+      new rspack.CaseSensitivePlugin(),
       new ForkTsCheckerWebpackPlugin({
         logger: 'webpack-infrastructure',
       }),
@@ -196,7 +196,7 @@ module.exports = function (env, argv) {
               new RegExp(`[\\\\/]node_modules[\\\\/](${[
                 'react', 'react-dom', 'scheduler', 'object-assign',
                 'mobx', 'mobx-state-tree', 'mobx-react-lite',
-                'classnames', 'style-loader', 'css-loader',
+                'clsx', 'style-loader', 'css-loader',
                 '@popperjs', 'react-popper', 'react-fast-compare',
               ].join('|')})[\\\\/]`),
               /[\\/]sanitize\.scss$/,
@@ -234,6 +234,7 @@ module.exports = function (env, argv) {
       liveReload: false,
       static: false,
     },
+    lazyCompilation: false,
     experiments: {
       rspackFuture: {
         bundlerInfo: {
@@ -243,9 +244,6 @@ module.exports = function (env, argv) {
     },
   };
 };
-
-// disable progess bar, it is separated into multiple lines by '<i> [webpack-dev-server] ...'
-rspack.ProgressPlugin.prototype.raw = () => {};
 
 // filter out logs like '[ForkTsCheckerWebpackPlugin] No errors found.', 'ignoreWarnings' only works on warning
 {
@@ -261,3 +259,7 @@ rspack.ProgressPlugin.prototype.raw = () => {};
     return ret;
   };
 }
+
+// this auto detection implementation is no longer compatible with recent Rspack,
+// simply disable it since we only import svg files in JS
+require('svg-sprite-loader/lib/utils').isModuleShouldBeExtracted = () => false;

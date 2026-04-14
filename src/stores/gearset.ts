@@ -14,7 +14,7 @@ mobx.autorun(() => {  // gearsetStore react to main store
   if (gearset === undefined || window.location.search === '') return;
   if (gearDataLoading.get()) return;
   const schema = G.jobSchemas[gearset.job];
-  const snapshot: mst.SnapshotIn<IStore> = {
+  const snapshot: Partial<mst.SnapshotOut<IStore>> = {
     mode: 'view',
     job: gearset.job,
     jobLevel: schema.levelSyncable ? gearset.jobLevel : schema.jobLevel,

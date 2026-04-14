@@ -7,10 +7,10 @@ export const GearUnion = mst.types.union({
     const gear = gearData.get(Math.abs(snapshot.id));
     if (gear !== undefined) {
       const isFood = gear.slot === -1 || gear.slot === -2;
-      if (snapshot.materias !== undefined && isFood) delete snapshot.materias;
+      if (isFood && 'materias' in snapshot) delete (snapshot as any).materias;
       return !isFood ? Gear : Food;
     } else {
-      return snapshot.materias !== undefined ? Gear : Food;
+      return 'materias' in snapshot ? Gear : Food;
     }
   },
 }, Gear, Food);

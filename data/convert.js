@@ -390,7 +390,7 @@ for (const gear of gears) {
     groupId = levelGroupLast;
   }
   gearGroups[gear.id] = groupId;
-  if (groupedGears[groupId] === undefined) groupedGears[groupId] = [];
+  groupedGears[groupId] ??= [];
   groupedGears[groupId].push(gear);
 }
 

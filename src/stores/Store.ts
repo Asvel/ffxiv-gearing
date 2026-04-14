@@ -180,14 +180,9 @@ export const Store = mst.types
           (gear.slot === 1 || gear.slot === 2) && this.schema.toolMateriaDuplicates || 1;
         for (const materia of gear.materias) {
           if (materia.stat === undefined) continue;
-          if (consumption[materia.stat] === undefined) {
-            consumption[materia.stat] = {};
-          }
-          if (consumption[materia.stat]![materia.grade!] === undefined) {
-            consumption[materia.stat]![materia.grade!] =
-              { safe: 0, expectation: 0, confidence90: 0, confidence99: 0, rates: [] };
-          }
-          const consumptionItem = consumption[materia.stat]![materia.grade!]!;
+          const consumptionStat = consumption[materia.stat] ??= {};
+          const consumptionItem = consumptionStat[materia.grade!] ??=
+            { safe: 0, expectation: 0, confidence90: 0, confidence99: 0, rates: [] };
           for (let i = 0; i < duplicates; i++) {
             if (materia.successRate === 100) {
               consumptionItem.safe += 1;

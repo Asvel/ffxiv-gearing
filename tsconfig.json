@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "esnext",
-    "moduleResolution": "bundler",
+    "target": "es2022",
+    "module": "preserve",
     "types": ["node", "@rspack/core/module"],
     "jsx": "react-jsx",
     "noEmit": true,
     "skipLibCheck": true,
     "verbatimModuleSyntax": true,
-    "strict": true,
+    "noUncheckedSideEffectImports": false,
     "strictPropertyInitialization": false,
     "noImplicitThis": false,
     "useDefineForClassFields": true

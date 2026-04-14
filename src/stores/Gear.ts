@@ -144,8 +144,8 @@ export const Gear = mst.types
       if (self.materias.length < materiaSlot) {
         self.materias.push(...new Array(materiaSlot - self.materias.length).fill({}));
       }
-      if (self.customizable && self.customStats === undefined) {
-        self.customStats = {} as any;
+      if (self.customizable) {
+        self.customStats ??= {} as any;
       }
     },
     afterCreate(): void {
