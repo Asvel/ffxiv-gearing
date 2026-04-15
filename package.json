@@ -35,7 +35,6 @@
     "mobx-react-lite": "^4.1.1",
     "mobx-state-tree": "^7.2.0",
     "react": "~18.2.0",
-    "react-clipboard.js": "^2.0.16",
     "react-dom": "~18.2.0",
     "sanitize.css": "^13.0.0"
   },

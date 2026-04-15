@@ -1,5 +1,4 @@
 import * as mobxReact from 'mobx-react-lite';
-import Clipboard from 'react-clipboard.js';
 import type { IGearUnion } from '../stores';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
@@ -14,18 +13,17 @@ export const GearMenu = mobxReact.observer<{
   return (
     <div className="gear-menu card">
       <RippleLazy>
-        <div/* for ripple */>
-          <Clipboard
-            className="gear-menu_item"
-            component="div"
-            data-clipboard-text={gear.name}
-            onClick={toggle}
-          >
-            复制道具名
-            {!gear.isFood && gear.source && (store.setting.gearDisplayName === 'source' || !gear.isInstalled) && (
-              '：' + gear.name
-            )}
-          </Clipboard>
+        <div
+          className="gear-menu_item"
+          onClick={() => {
+            toggle();
+            navigator.clipboard.writeText(gear.name);
+          }}
+        >
+          复制道具名
+          {!gear.isFood && gear.source && (store.setting.gearDisplayName === 'source' || !gear.isInstalled) && (
+            '：' + gear.name
+          )}
         </div>
       </RippleLazy>
       <div className="gear-menu_divider" />

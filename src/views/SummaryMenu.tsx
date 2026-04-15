@@ -1,5 +1,4 @@
 import * as mobxReact from 'mobx-react-lite';
-import Clipboard from 'react-clipboard.js';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
@@ -23,15 +22,14 @@ export const SummaryMenu = mobxReact.observer<{
       </RippleLazy>
       <div className="gear-menu_divider" />
       <RippleLazy>
-        <div/* for ripple */>
-          <Clipboard
-            className="gear-menu_item"
-            component="div"
-            data-clipboard-text={store.equippedStatsText}
-            onClick={toggle}
-          >
-            复制套装总属性值
-          </Clipboard>
+        <div
+          className="gear-menu_item"
+          onClick={() => {
+            toggle();
+            navigator.clipboard.writeText(store.equippedStatsText);
+          }}
+        >
+          复制套装总属性值
         </div>
       </RippleLazy>
     </div>
