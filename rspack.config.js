@@ -196,8 +196,7 @@ module.exports = function (env, argv) {
               new RegExp(`[\\\\/]node_modules[\\\\/](${[
                 'react', 'react-dom', 'scheduler', 'object-assign',
                 'mobx', 'mobx-state-tree', 'mobx-react-lite',
-                'clsx', 'style-loader', 'css-loader',
-                '@popperjs', 'react-popper', 'react-fast-compare',
+                'clsx', 'style-loader', 'css-loader', '@popperjs',
               ].join('|')})[\\\\/]`),
               /[\\/]sanitize\.scss$/,
             ].some(r => r.test(module.resource)),

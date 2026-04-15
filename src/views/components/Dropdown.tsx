@@ -2,7 +2,6 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import * as mobxReact from 'mobx-react-lite';
 import * as PopperJS from '@popperjs/core';
-import * as ReactPopper from 'react-popper';
 
 export interface DropdownLabelProps {
   ref: (ref: HTMLElement | null) => void;
@@ -51,29 +50,40 @@ export const Dropdown = mobxReact.observer<DropdownProps>(props => {
   );
 });
 
-const DropdownPopper = mobxReact.observer<any>(props => {
-  const { popper, placement, modifiers, strategy, setExpanded, labelElement, toggle } = props;
+const DropdownPopper = mobxReact.observer<DropdownProps & {
+  setExpanded: (expanded: boolean) => void;
+  labelElement: HTMLElement | null;
+  toggle: () => void;
+}>(props => {
+  const { popper, placement, modifiers=[], strategy='absolute', setExpanded, labelElement, toggle } = props;
+  const [ popperOptions ] = React.useState({ placement, modifiers, strategy });
   const [ popperElement, setPopperElement ] = React.useState<HTMLElement | null>(null);
-  const popperInstance = ReactPopper.usePopper(labelElement, popperElement, { placement, modifiers, strategy });
   const popperContainer = document.getElementById('popper');
-  onGlobalClick = e => {
-    const target = e.target as Element;
-    if (target && labelElement && popperElement) {
-      if (!labelElement.contains(target) && !popperElement.contains(target)) {
-        setExpanded(false);
-        onGlobalClick = undefined;
-        (e as any)._isClosingDropdown = true;
+  React.useLayoutEffect(() => {
+    if (labelElement === null || popperElement === null) return;
+    const popperInstance = PopperJS.createPopper(labelElement, popperElement, popperOptions);
+    return () => popperInstance.destroy();
+  }, [labelElement, popperElement, popperOptions]);
+  React.useEffect(() => {
+    onGlobalClick = e => {
+      const target = e.target as Element;
+      if (target && labelElement && popperElement) {
+        if (!labelElement.contains(target) && !popperElement.contains(target)) {
+          setExpanded(false);
+          onGlobalClick = undefined;
+          (e as any)._isClosingDropdown = true;
+        }
       }
-    }
-  };
-  onGlobalKeyup = e => {
-    const target = e.target as Element;
-    // label (比如是一个 button) 有可能成为按键事件的 target
-    if (target && (target.tagName === 'BODY' || target === labelElement) && e.key === 'Escape') {
-      setExpanded(false);
-      onGlobalKeyup = undefined;
-    }
-  };
+    };
+    onGlobalKeyup = e => {
+      const target = e.target as Element;
+      // label (比如是一个 button) 有可能成为按键事件的 target
+      if (target && (target.tagName === 'BODY' || target === labelElement) && e.key === 'Escape') {
+        setExpanded(false);
+        onGlobalKeyup = undefined;
+      }
+    };
+  }, [labelElement, popperElement, setExpanded]);
   React.useEffect(() => () => {
     onGlobalClick = undefined;
     onGlobalKeyup = undefined;
@@ -81,8 +91,6 @@ const DropdownPopper = mobxReact.observer<any>(props => {
   return popperContainer && ReactDOM.createPortal((
     <div
       ref={setPopperElement}
-      style={popperInstance.styles.popper}
-      {...popperInstance.attributes.popper}
       onClick={e => e.stopPropagation()}
       children={React.createElement(popper, { toggle, labelElement })}
     />
