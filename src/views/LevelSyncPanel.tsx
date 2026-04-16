@@ -1,7 +1,7 @@
 import * as mobxReact from 'mobx-react-lite';
 import classNames from 'clsx';
-import { Button } from '@rmwc/button';
-import { List, SimpleListItem, CollapsibleList } from '@rmwc/list';
+import { Button } from './@rmwc/button';
+import { List, SimpleListItem, CollapsibleList } from './@rmwc/list';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';

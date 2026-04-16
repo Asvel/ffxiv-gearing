@@ -2,10 +2,10 @@ import * as React from 'react';
 import * as mobx from 'mobx';
 import * as mobxReact from 'mobx-react-lite';
 import classNames from 'clsx';
-import { Button } from '@rmwc/button';
-import { Tab, TabBar } from '@rmwc/tabs';
-import { Switch } from '@rmwc/switch';
-import { Badge } from '@rmwc/badge';
+import { Button } from './@rmwc/button';
+import { Tab, TabBar } from './@rmwc/tabs';
+import { Switch } from './@rmwc/switch';
+import { Badge } from './@rmwc/badge';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 

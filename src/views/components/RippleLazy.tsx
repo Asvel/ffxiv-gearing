@@ -1,10 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Ripple } from '@rmwc/ripple';
+import { Ripple } from '../@rmwc/ripple';
 
-export type RippleLazyProps = NonNullable<typeof Ripple.defaultProps>;
-
-export const RippleLazy = (props: RippleLazyProps) => {
+export const RippleLazy = (props: Parameters<typeof Ripple>[0]) => {
   const [ isInitialized, setIsInitialized ] = React.useState(false);
   const child = React.Children.only(props.children);
   if (!React.isValidElement(child)) return null;

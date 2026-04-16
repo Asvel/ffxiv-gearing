@@ -21,15 +21,6 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "@rmwc/badge": "^8.0.8",
-    "@rmwc/button": "^8.0.8",
-    "@rmwc/card": "^8.0.8",
-    "@rmwc/list": "^8.0.8",
-    "@rmwc/radio": "^8.0.8",
-    "@rmwc/ripple": "^8.0.8",
-    "@rmwc/switch": "^8.0.8",
-    "@rmwc/tabs": "^8.0.8",
-    "@rmwc/textfield": "^8.0.8",
     "clsx": "^2.1.1",
     "mobx": "^6.15.0",
     "mobx-react-lite": "^4.1.1",
@@ -66,10 +57,8 @@
     "simple-functional-loader": "^1.2.1",
     "style-loader": "^4.0.0",
     "svg-sprite-loader": "^6.0.11",
-    "tslib": "^1.14.1",
     "typescript": "^6.0.2"
   },
-  "//": "↑↑↑ RMWC uses many tslib v1, hoist it ↑↑↑",
   "overrides": {
     "eslint-config-alloy": {
       "typescript": "$typescript"

@@ -1,4 +1,4 @@
-@forward "../../../node_modules/@material/elevation/mixins" show elevation;
+@forward "../@material/elevation/mixins" show elevation;
 
 @function _ta($top, $bottom) {
   @return if($top < $bottom, $top / $bottom, (255 - $top) / (255 - $bottom));

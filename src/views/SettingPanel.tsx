@@ -1,5 +1,5 @@
 import * as mobxReact from 'mobx-react-lite';
-import { Radio } from '@rmwc/radio';
+import { Radio } from './@rmwc/radio';
 import { useStore } from './components/contexts';
 
 export const SettingPanel = mobxReact.observer(() => {

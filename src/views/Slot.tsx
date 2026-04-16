@@ -1,6 +1,6 @@
 import * as mobxReact from 'mobx-react-lite';
 import classNames from 'clsx';
-import { Button } from '@rmwc/button';
+import { Button } from './@rmwc/button';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { GearRow } from './GearRow';

@@ -1,10 +1,10 @@
 import * as mobxReact from 'mobx-react-lite';
 import classNames from 'clsx';
-import { Button } from '@rmwc/button';
+import { Button } from './@rmwc/button';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { Icon } from './components/Icon';
-import { Badge } from '@rmwc/badge';
+import { Badge } from './@rmwc/badge';
 import { IconButton } from './components/IconButton';
 import { Dropdown } from './components/Dropdown';
 import { ClanPanel } from './ClanPanel';

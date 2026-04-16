@@ -1,5 +1,5 @@
 import * as mobxReact from 'mobx-react-lite';
-import { Button } from '@rmwc/button';
+import { Button } from './@rmwc/button';
 import { useStore } from './components/contexts';
 
 export const SharePanel = mobxReact.observer(() => {

@@ -1,4 +1,3 @@
-@use "../../node_modules/@material/card/mixins" as card;
 @use "./components/mixins" as *;
 
 body {
@@ -135,8 +134,8 @@ svg {
 }
 
 .card {
-  @include card.fill-color(surface);
-  @include card.shape-radius(medium);
+  background-color: var(--mdc-theme-surface);
+  border-radius: 4px;
   @include elevation(1);
   overflow: hidden;
 }

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as mobxReact from 'mobx-react-lite';
 import classNames from 'clsx';
-import { TextField } from '@rmwc/textfield';
+import { TextField } from './@rmwc/textfield';
 import * as G from '../game';
 import type { IGearUnion } from '../stores';
 import { useStore } from './components/contexts';

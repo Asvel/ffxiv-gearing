@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classNames from 'clsx';
-import { Button } from '@rmwc/button';
-import { Badge } from '@rmwc/badge';
+import { Button } from '../@rmwc/button';
+import { Badge } from '../@rmwc/badge';
 import { useStore } from './contexts';
 
 type Props<T> = T extends (props: infer P, ...args: never[]) => any ? P : never;

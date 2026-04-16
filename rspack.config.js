@@ -206,6 +206,8 @@ module.exports = function (env, argv) {
           restVendors: {
             test: module => [
               /[\\/]node_modules[\\/]/,
+              /[\\/]@material[\\/]/,
+              /[\\/]@rmwc[\\/]/,
               /[\\/]img[\\/]/,
               /[\\/]material\.scss$/,
             ].some(r => r.test(module.resource)),
