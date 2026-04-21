@@ -138,6 +138,9 @@ svg {
   border-radius: 4px;
   @include elevation(1);
   overflow: hidden;
+  [data-popper-placement] > & {
+    @include elevation(4);
+  }
 }
 
 .table {
@@ -187,3 +190,4 @@ svg {
 @import "./GearMenu";
 @import "./MateriaPanel";
 @import "./ClanPanel";
+@import "./SummaryMenu";

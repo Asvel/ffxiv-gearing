@@ -9,7 +9,7 @@ export const SummaryMenu = mobxReact.observer<{
 }>(({ toggle }) => {
   const store = useStore();
   return (
-    <div className="gear-menu card">
+    <div className="summary-menu card">
       <RippleLazy>
         <a
           className="gear-menu_item"

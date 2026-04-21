@@ -1,8 +1,5 @@
 @use "./components/mixins" as *;
 
-.level-sync {
-  @include elevation(4);
-}
 .level-sync_group {
   font-weight: bold;
 }

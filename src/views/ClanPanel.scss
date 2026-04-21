@@ -2,7 +2,9 @@
 
 .clan {
   padding: 8px;
-  @include elevation(8);
+  .app-edit & {
+    @include elevation(7);
+  }
 }
 .clan_race {
   text-align: right;

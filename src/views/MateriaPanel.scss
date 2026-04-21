@@ -1,7 +1,6 @@
 @use "./components/mixins" as *;
 
 .materias {
-  @include elevation(4);
   tbody tr:hover {
     background-color: transparent;
   }

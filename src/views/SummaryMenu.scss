@@ -1,0 +1,8 @@
+@use "./components/mixins" as *;
+
+.summary-menu {
+  padding: 9px 0;
+  .app-edit & {
+    @include elevation(7);
+  }
+}
