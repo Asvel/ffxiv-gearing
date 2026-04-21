@@ -25,10 +25,10 @@ import {MDCFoundation} from '../base/foundation';
 import type {SpecificEventListener} from '../base/types';
 
 import type {MDCTextFieldAdapter} from './adapter';
-import {MDCTextFieldCharacterCounterFoundation} from './character-counter/foundation';
+// import {MDCTextFieldCharacterCounterFoundation} from './character-counter/foundation';
 import {ALWAYS_FLOAT_TYPES, cssClasses, numbers, strings, VALIDATION_ATTR_WHITELIST} from './constants';
-import {MDCTextFieldHelperTextFoundation} from './helper-text/foundation';
-import {MDCTextFieldIconFoundation} from './icon/foundation';
+// import {MDCTextFieldHelperTextFoundation} from './helper-text/foundation';
+// import {MDCTextFieldIconFoundation} from './icon/foundation';
 import type {MDCTextFieldFoundationMap, MDCTextFieldNativeInputElement} from './types';
 
 type PointerDownEventType = 'mousedown'|'touchstart';
@@ -118,10 +118,10 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
       (attributesList: string[]) => void;
   private validationObserver!: MutationObserver;  // assigned in init()
 
-  private readonly helperText?: MDCTextFieldHelperTextFoundation;
-  private readonly characterCounter?: MDCTextFieldCharacterCounterFoundation;
-  private readonly leadingIcon?: MDCTextFieldIconFoundation;
-  private readonly trailingIcon?: MDCTextFieldIconFoundation;
+  // private readonly helperText?: MDCTextFieldHelperTextFoundation;
+  // private readonly characterCounter?: MDCTextFieldCharacterCounterFoundation;
+  // private readonly leadingIcon?: MDCTextFieldIconFoundation;
+  // private readonly trailingIcon?: MDCTextFieldIconFoundation;
 
   /**
    * @param adapter
@@ -132,10 +132,10 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
       foundationMap: Partial<MDCTextFieldFoundationMap> = {}) {
     super({...MDCTextFieldFoundation.defaultAdapter, ...adapter});
 
-    this.helperText = foundationMap.helperText;
-    this.characterCounter = foundationMap.characterCounter;
-    this.leadingIcon = foundationMap.leadingIcon;
-    this.trailingIcon = foundationMap.trailingIcon;
+    // this.helperText = foundationMap.helperText;
+    // this.characterCounter = foundationMap.characterCounter;
+    // this.leadingIcon = foundationMap.leadingIcon;
+    // this.trailingIcon = foundationMap.trailingIcon;
     this.valid =
         !this.adapter.hasClass(MDCTextFieldFoundation.cssClasses.INVALID);
 
@@ -188,7 +188,7 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
     this.validationObserver =
         this.adapter.registerValidationAttributeChangeHandler(
             this.validationAttributeChangeHandler);
-    this.setcharacterCounter(this.getValue().length);
+    // this.setcharacterCounter(this.getValue().length);
   }
 
   override destroy() {
@@ -235,7 +235,7 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
     });
 
     if (attributesList.indexOf('maxlength') > -1) {
-      this.setcharacterCounter(this.getValue().length);
+      // this.setcharacterCounter(this.getValue().length);
     }
   }
 
@@ -268,11 +268,11 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
       this.styleFloating(this.shouldFloat);
       this.adapter.shakeLabel(this.shouldShake);
     }
-    if (this.helperText &&
-        (this.helperText.isPersistent() || !this.helperText.isValidation() ||
-         !this.valid)) {
-      this.helperText.showToScreenReader();
-    }
+    // if (this.helperText &&
+    //     (this.helperText.isPersistent() || !this.helperText.isValidation() ||
+    //      !this.valid)) {
+    //   this.helperText.showToScreenReader();
+    // }
   }
 
   /**
@@ -298,7 +298,7 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
    */
   handleInput() {
     this.autoCompleteFocus();
-    this.setcharacterCounter(this.getValue().length);
+    // this.setcharacterCounter(this.getValue().length);
   }
 
   /**
@@ -344,7 +344,7 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
     if (this.getValue() !== value) {
       this.getNativeInput().value = value;
     }
-    this.setcharacterCounter(value.length);
+    // this.setcharacterCounter(value.length);
     if (this.validateOnValueChange) {
       const isValid = this.isValid();
       this.styleValidity(isValid);
@@ -421,65 +421,65 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
   /**
    * @param content Sets the content of the helper text.
    */
-  setHelperTextContent(content: string): void {
-    if (this.helperText) {
-      this.helperText.setContent(content);
-    }
-  }
+  // setHelperTextContent(content: string): void {
+  //   if (this.helperText) {
+  //     this.helperText.setContent(content);
+  //   }
+  // }
 
   /**
    * Sets the aria label of the leading icon.
    */
-  setLeadingIconAriaLabel(label: string): void {
-    if (this.leadingIcon) {
-      this.leadingIcon.setAriaLabel(label);
-    }
-  }
+  // setLeadingIconAriaLabel(label: string): void {
+  //   if (this.leadingIcon) {
+  //     this.leadingIcon.setAriaLabel(label);
+  //   }
+  // }
 
   /**
    * Sets the text content of the leading icon.
    */
-  setLeadingIconContent(content: string): void {
-    if (this.leadingIcon) {
-      this.leadingIcon.setContent(content);
-    }
-  }
+  // setLeadingIconContent(content: string): void {
+  //   if (this.leadingIcon) {
+  //     this.leadingIcon.setContent(content);
+  //   }
+  // }
 
   /**
    * Sets the aria label of the trailing icon.
    */
-  setTrailingIconAriaLabel(label: string): void {
-    if (this.trailingIcon) {
-      this.trailingIcon.setAriaLabel(label);
-    }
-  }
+  // setTrailingIconAriaLabel(label: string): void {
+  //   if (this.trailingIcon) {
+  //     this.trailingIcon.setAriaLabel(label);
+  //   }
+  // }
 
   /**
    * Sets the text content of the trailing icon.
    */
-  setTrailingIconContent(content: string): void {
-    if (this.trailingIcon) {
-      this.trailingIcon.setContent(content);
-    }
-  }
+  // setTrailingIconContent(content: string): void {
+  //   if (this.trailingIcon) {
+  //     this.trailingIcon.setContent(content);
+  //   }
+  // }
 
   /**
    * Sets character counter values that shows characters used and the total
    * character limit.
    */
-  private setcharacterCounter(currentLength: number): void {
-    if (!this.characterCounter) {
-      return;
-    }
-
-    const maxLength = this.getNativeInput().maxLength;
-    if (maxLength === -1) {
-      throw new Error(
-          'MDCTextFieldFoundation: Expected maxlength html property on text input or textarea.');
-    }
-
-    this.characterCounter.setCounterValue(currentLength, maxLength);
-  }
+//   private setcharacterCounter(currentLength: number): void {
+//     if (!this.characterCounter) {
+//       return;
+//     }
+//
+//     const maxLength = this.getNativeInput().maxLength;
+//     if (maxLength === -1) {
+//       throw new Error(
+//           'MDCTextFieldFoundation: Expected maxlength html property on text input or textarea.');
+//     }
+//
+//     this.characterCounter.setCounterValue(currentLength, maxLength);
+//   }
 
   /**
    * @return True if the Text Field input fails in converting the user-supplied
@@ -507,25 +507,25 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
     } else {
       this.adapter.addClass(INVALID);
     }
-    if (this.helperText) {
-      this.helperText.setValidity(isValid);
-
-      // We dynamically set or unset aria-describedby for validation helper text
-      // only, based on whether the field is valid
-      const helperTextValidation = this.helperText.isValidation();
-      if (!helperTextValidation) {
-        return;
-      }
-
-      const helperTextVisible = this.helperText.isVisible();
-      const helperTextId = this.helperText.getId();
-
-      if (helperTextVisible && helperTextId) {
-        this.adapter.setInputAttr(strings.ARIA_DESCRIBEDBY, helperTextId);
-      } else {
-        this.adapter.removeInputAttr(strings.ARIA_DESCRIBEDBY);
-      }
-    }
+//     if (this.helperText) {
+//       this.helperText.setValidity(isValid);
+//
+//       // We dynamically set or unset aria-describedby for validation helper text
+//       // only, based on whether the field is valid
+//       const helperTextValidation = this.helperText.isValidation();
+//       if (!helperTextValidation) {
+//         return;
+//       }
+//
+//       const helperTextVisible = this.helperText.isVisible();
+//       const helperTextId = this.helperText.getId();
+//
+//       if (helperTextVisible && helperTextId) {
+//         this.adapter.setInputAttr(strings.ARIA_DESCRIBEDBY, helperTextId);
+//       } else {
+//         this.adapter.removeInputAttr(strings.ARIA_DESCRIBEDBY);
+//       }
+//     }
   }
 
   /**
@@ -552,13 +552,13 @@ export class MDCTextFieldFoundation extends MDCFoundation<MDCTextFieldAdapter> {
       this.adapter.removeClass(DISABLED);
     }
 
-    if (this.leadingIcon) {
-      this.leadingIcon.setDisabled(isDisabled);
-    }
-
-    if (this.trailingIcon) {
-      this.trailingIcon.setDisabled(isDisabled);
-    }
+//     if (this.leadingIcon) {
+//       this.leadingIcon.setDisabled(isDisabled);
+//     }
+//
+//     if (this.trailingIcon) {
+//       this.trailingIcon.setDisabled(isDisabled);
+//     }
   }
 
   /**

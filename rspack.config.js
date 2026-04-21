@@ -70,29 +70,6 @@ module.exports = function (env, argv) {
           ].filter(Boolean),
         },
         {
-          test: /node_modules[\\\/]@material[\\\/]ripple[\\\/]foundation\.js$/,
-          use: {
-            loader: 'simple-functional-loader',
-            ident: 'mdc-ripple-fix',
-            options: {
-              // mdc-ripple should not force using even number ripple size.
-              processor: source => source.replace('initialSize - 1;', 'initialSize;'),
-            },
-          },
-        },
-        {
-          test: /node_modules[\\\/]@rmwc[\\\/]list[\\\/]next[\\\/]collapsible-list\.js$/,
-          use: {
-            loader: 'simple-functional-loader',
-            ident: 'rmwc-list-fix',
-            options: {
-              // temporary fix of RMWC CollapsibleList initial render jitter under React 18 concurrent mode
-              processor: source => source.replace('maxHeight: this.childContainer',
-                'maxHeight: this.childContainer && this.state.open'),
-            },
-          },
-        },
-        {
           test: /\.s?css$/,
           use: [
             'style-loader',
@@ -113,18 +90,9 @@ module.exports = function (env, argv) {
                 postcssOptions: {
                   plugins: [
                     ['postcss-preset-env', { features: { 'text-decoration-shorthand': false } }],
-                    ['css-byebye', { rulesToRemove: [/.*\.mdc-evolution-.*/, /.*\[dir=rtl].*/] }],
                     prod && ['cssnano', { preset: ['default', { cssDeclarationSorter: false }] }],
                   ].filter(Boolean),
                 },
-              },
-            },
-            {
-              loader: 'simple-functional-loader',
-              ident: 'mdc-ripple-no-will-change',
-              options: {
-                // these will-change from @material/ripple/_ripple.scss break text subpixel rendering
-                processor: source => source.replace(/will-change: ?transform, ?opacity;/, ''),
               },
             },
             {

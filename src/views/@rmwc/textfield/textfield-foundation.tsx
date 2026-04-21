@@ -1,13 +1,8 @@
 import type { EventType, SpecificEventListener } from '../../@material/base/types';
 import { MDCTextFieldFoundation } from '../../@material/textfield';
 import { useFoundation } from '../base';
-import type { FloatingLabelApi } from '../floating-label';
 import { useEffect, useRef, useState } from 'react';
-import type { TextFieldIconApi, TextFieldProps } from './textfield';
-import {
-  type TextFieldCharacterCountApi,
-  useTextFieldCharacterCountFoundation
-} from './textfield-character-count-foundation';
+import type { TextFieldProps } from './textfield';
 
 export const useTextFieldFoundation = (props: TextFieldProps) => {
   const [lineRippleActive, setLineRippleActive] = useState(false);
@@ -16,44 +11,10 @@ export const useTextFieldFoundation = (props: TextFieldProps) => {
   const [shakeLabel, setShakeLabel] = useState(false);
   const [floatLabel, setFloatlabel] = useState(false);
 
-  const characterCounter = useRef<TextFieldCharacterCountApi | null>();
-  const setCharacterCounter = (api: TextFieldCharacterCountApi | null) => {
-    characterCounter.current = api;
-  };
-
-  const leadingIcon = useRef<TextFieldIconApi | null>();
-  const setLeadingIcon = (api: TextFieldIconApi | null) =>
-    (leadingIcon.current = api);
-
-  const trailingIcon = useRef<TextFieldIconApi | null>();
-  const setTrailingIcon = (api: TextFieldIconApi | null) =>
-    (trailingIcon.current = api);
-
-  const floatingLabel = useRef<FloatingLabelApi | null>();
-  const setFloatingLabel = (api: FloatingLabelApi | null) =>
-    (floatingLabel.current = api);
-
-  const { content: characterCountContent } =
-    useTextFieldCharacterCountFoundation({
-      apiRef: props.characterCount ? setCharacterCounter : undefined
-    });
-
   const { foundation, ...elements } = useFoundation({
     props,
     elements: { rootEl: true, inputEl: true },
     foundation: ({ rootEl, inputEl, getProps }) => {
-      const getLabelAdapterMethods = () => {
-        return {
-          shakeLabel: (shouldShake: boolean) => setShakeLabel(shouldShake),
-          floatLabel: (shouldFloat: boolean) => {
-            setFloatlabel(getProps().floatLabel ?? shouldFloat);
-          },
-          hasLabel: () => {
-            return !!getProps().label;
-          },
-          getLabelWidth: () => floatingLabel.current?.getWidth() || 0
-        };
-      };
 
       const getLineRippleAdapterMethods = () => {
         return {
@@ -65,20 +26,6 @@ export const useTextFieldFoundation = (props: TextFieldProps) => {
           },
           setLineRippleTransformOrigin: (normalizedX: number) => {
             setLineRippleCenter(normalizedX);
-          }
-        };
-      };
-
-      const getOutlineAdapterMethods = () => {
-        return {
-          notchOutline: (labelWidth: number) => {
-            setNotchWidth(labelWidth);
-          },
-          closeOutline: () => {
-            getProps().floatLabel ?? setNotchWidth(undefined);
-          },
-          hasOutline: () => {
-            return !!getProps().outlined;
           }
         };
       };
@@ -99,16 +46,7 @@ export const useTextFieldFoundation = (props: TextFieldProps) => {
 
       const getFoundationMap = () => {
         return {
-          characterCounter: characterCounter.current
-            ? characterCounter.current.getFoundation()
-            : undefined,
           helperText: undefined,
-          leadingIcon: leadingIcon.current
-            ? leadingIcon.current.getFoundation()
-            : undefined,
-          trailingIcon: trailingIcon.current
-            ? trailingIcon.current.getFoundation()
-            : undefined
         };
       };
 
@@ -151,9 +89,7 @@ export const useTextFieldFoundation = (props: TextFieldProps) => {
             return document.activeElement === inputEl.ref;
           },
           ...getInputAdapterMethods(),
-          ...getLabelAdapterMethods(),
           ...getLineRippleAdapterMethods(),
-          ...getOutlineAdapterMethods()
         },
         getFoundationMap()
       );
@@ -172,26 +108,12 @@ export const useTextFieldFoundation = (props: TextFieldProps) => {
     }
   }, [props.value, foundation, foundationValue]);
 
-  // Allow the user to float the label themselves
-  useEffect(() => {
-    if (props.floatLabel !== undefined) {
-      foundation.notchOutline(props.floatLabel);
-      // @ts-ignore unsafe adapter access
-      foundation.adapter.floatLabel(props.floatLabel);
-    }
-  }, [foundation, props.floatLabel]);
-
   return {
     shakeLabel,
     floatLabel,
     notchWidth,
     lineRippleActive,
     lineRippleCenter,
-    setCharacterCounter,
-    setLeadingIcon,
-    setTrailingIcon,
-    setFloatingLabel,
-    characterCountContent,
     ...elements
   };
 };

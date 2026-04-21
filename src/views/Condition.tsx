@@ -251,7 +251,7 @@ const ConditionLevelInput = (() => {
           }, 0);
           anyInstanceFocused = false;
         }}
-        onKeyPress={e => {
+        onKeyDown={e => {
           if (e.key === 'Enter') {
             (e.target as HTMLInputElement).blur();
           }

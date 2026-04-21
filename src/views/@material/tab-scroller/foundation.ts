@@ -25,10 +25,6 @@ import {MDCFoundation} from '../base/foundation';
 
 import type {MDCTabScrollerAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
-import {MDCTabScrollerRTLDefault} from './rtl-default-scroller';
-import {MDCTabScrollerRTLNegative} from './rtl-negative-scroller';
-import {MDCTabScrollerRTLReverse} from './rtl-reverse-scroller';
-import {MDCTabScrollerRTL} from './rtl-scroller';
 import type {MDCTabScrollerAnimation, MDCTabScrollerHorizontalEdges} from './types';
 
 /** MDC Tab Scroller Foundation */
@@ -71,13 +67,6 @@ export class MDCTabScrollerFoundation extends
    */
   private isAnimating = false;
 
-  /**
-   * The MDCTabScrollerRTL instance varies per browser and allows us to
-   * encapsulate the peculiar browser behavior of RTL scrolling in its own
-   * class.
-   */
-  private rtlScrollerInstance?: MDCTabScrollerRTL;
-
   constructor(adapter?: Partial<MDCTabScrollerAdapter>) {
     super({...MDCTabScrollerFoundation.defaultAdapter, ...adapter});
   }
@@ -98,10 +87,6 @@ export class MDCTabScrollerFoundation extends
    * Computes the current visual scroll position
    */
   getScrollPosition(): number {
-    if (this.isRTL()) {
-      return this.computeCurrentScrollPositionRTL();
-    }
-
     const currentTranslateX = this.calculateCurrentTranslateX();
     const scrollLeft = this.adapter.getScrollAreaScrollLeft();
     return scrollLeft - currentTranslateX;
@@ -173,23 +158,7 @@ export class MDCTabScrollerFoundation extends
    * Scrolls to the given scrollX value
    */
   scrollTo(scrollX: number) {
-    if (this.isRTL()) {
-      this.scrollToImplRTL(scrollX);
-      return;
-    }
-
     this.scrollToImpl(scrollX);
-  }
-
-  /**
-   * @return Browser-specific {@link MDCTabScrollerRTL} instance.
-   */
-  getRTLScroller(): MDCTabScrollerRTL {
-    if (!this.rtlScrollerInstance) {
-      this.rtlScrollerInstance = this.rtlScrollerFactory();
-    }
-
-    return this.rtlScrollerInstance;
   }
 
   /**
@@ -230,11 +199,6 @@ export class MDCTabScrollerFoundation extends
     return Math.min(Math.max(edges.left, scrollX), edges.right);
   }
 
-  private computeCurrentScrollPositionRTL(): number {
-    const translateX = this.calculateCurrentTranslateX();
-    return this.getRTLScroller().getScrollPositionRTL(translateX);
-  }
-
   private calculateScrollEdges(): MDCTabScrollerHorizontalEdges {
     const contentWidth = this.adapter.getScrollContentOffsetWidth();
     const rootWidth = this.adapter.getScrollAreaOffsetWidth();
@@ -259,15 +223,6 @@ export class MDCTabScrollerFoundation extends
   }
 
   /**
-   * Internal RTL scroll method
-   * @param scrollX The new scroll position
-   */
-  private scrollToImplRTL(scrollX: number) {
-    const animation = this.getRTLScroller().scrollToRTL(scrollX);
-    this.animate(animation);
-  }
-
-  /**
    * Internal method to compute the increment scroll operation values.
    * @param scrollX The desired scroll position increment
    * @return MDCTabScrollerAnimation with the sanitized values for performing
@@ -275,10 +230,6 @@ export class MDCTabScrollerFoundation extends
    */
   private getIncrementScrollOperation(scrollX: number):
       MDCTabScrollerAnimation {
-    if (this.isRTL()) {
-      return this.getRTLScroller().incrementScrollRTL(scrollX);
-    }
-
     const currentScrollX = this.getScrollPosition();
     const targetScrollX = scrollX + currentScrollX;
     const safeScrollX = this.clampScrollValue(targetScrollX);
@@ -334,68 +285,8 @@ export class MDCTabScrollerFoundation extends
   private getAnimatingScrollPosition(): number {
     const currentTranslateX = this.calculateCurrentTranslateX();
     const scrollLeft = this.adapter.getScrollAreaScrollLeft();
-    if (this.isRTL()) {
-      return this.getRTLScroller().getAnimatingScrollPosition(
-          scrollLeft, currentTranslateX);
-    }
 
     return scrollLeft - currentTranslateX;
-  }
-
-  /**
-   * Determines the RTL Scroller to use
-   */
-  private rtlScrollerFactory(): MDCTabScrollerRTL {
-    // Browsers have three different implementations of scrollLeft in RTL mode,
-    // dependent on the browser. The behavior is based off the max LTR
-    // scrollLeft value and 0.
-    //
-    // * Default scrolling in RTL *
-    //    - Left-most value: 0
-    //    - Right-most value: Max LTR scrollLeft value
-    //
-    // * Negative scrolling in RTL *
-    //    - Left-most value: Negated max LTR scrollLeft value
-    //    - Right-most value: 0
-    //
-    // * Reverse scrolling in RTL *
-    //    - Left-most value: Max LTR scrollLeft value
-    //    - Right-most value: 0
-    //
-    // We use those principles below to determine which RTL scrollLeft
-    // behavior is implemented in the current browser.
-    const initialScrollLeft = this.adapter.getScrollAreaScrollLeft();
-    this.adapter.setScrollAreaScrollLeft(initialScrollLeft - 1);
-    const newScrollLeft = this.adapter.getScrollAreaScrollLeft();
-
-    // If the newScrollLeft value is negative,then we know that the browser has
-    // implemented negative RTL scrolling, since all other implementations have
-    // only positive values.
-    if (newScrollLeft < 0) {
-      // Undo the scrollLeft test check
-      this.adapter.setScrollAreaScrollLeft(initialScrollLeft);
-      return new MDCTabScrollerRTLNegative(this.adapter);
-    }
-
-    const rootClientRect = this.adapter.computeScrollAreaClientRect();
-    const contentClientRect = this.adapter.computeScrollContentClientRect();
-    const rightEdgeDelta =
-        Math.round(contentClientRect.right - rootClientRect.right);
-    // Undo the scrollLeft test check
-    this.adapter.setScrollAreaScrollLeft(initialScrollLeft);
-
-    // By calculating the clientRect of the root element and the clientRect of
-    // the content element, we can determine how much the scroll value changed
-    // when we performed the scrollLeft subtraction above.
-    if (rightEdgeDelta === newScrollLeft) {
-      return new MDCTabScrollerRTLReverse(this.adapter);
-    }
-
-    return new MDCTabScrollerRTLDefault(this.adapter);
-  }
-
-  private isRTL(): boolean {
-    return this.adapter.getScrollContentStyleValue('direction') === 'rtl';
   }
 }
 

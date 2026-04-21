@@ -64,7 +64,7 @@ export const Switch: RMWC.ComponentType<
           })}
           type="checkbox"
           id={id}
-          ref={mergeRefs(checkboxEl.setRef, inputRef)}
+          ref={mergeRefs(checkboxEl.reactRef, inputRef)}
           role="switch"
           aria-checked={rest.checked ?? rest['aria-checked']}
         />
@@ -95,17 +95,18 @@ const SwitchThumb = React.memo(function SwitchThumb() {
 const SwitchThumbUnderlay = withRipple({
   unbounded: true,
   surface: false
-})(function SwitchThumbUnderlay({
-  className,
-  ...rest
-}: {
+})(createComponent<{}, {
   className?: string;
   children: React.ReactNode;
-}) {
+}>(function SwitchThumbUnderlay({
+  className,
+  ...rest
+}, ref) {
   return (
     <div
+      ref={ref}
       className={classNames(className, 'mdc-switch__thumb-underlay')}
       {...rest}
     />
   );
-});
+}));

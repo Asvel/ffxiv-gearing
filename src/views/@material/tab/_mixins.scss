@@ -45,7 +45,7 @@
   $feat-animation: feature-targeting.create-target($query, animation);
 
   .mdc-tab {
-    @include min-width(variables.$min-width, $query);
+    // @include min-width(variables.$min-width, $query);
     @include horizontal-padding(variables.$horizontal-padding, $query);
 
     @include feature-targeting.targets($feat-structure) {
@@ -376,7 +376,7 @@
       height: 100%;
       overflow: hidden;
       // TODO(b/151931961): Remove the following line once resolved
-      will-change: transform, opacity;
+      // will-change: transform, opacity;
     }
   }
 }

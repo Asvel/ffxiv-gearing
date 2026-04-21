@@ -23,8 +23,8 @@
 @use 'sass:math';
 @use 'sass:color';
 @use '../density/density' as density-variables;
-@use '../floating-label/variables' as floating-label-variables;
-@use '../notched-outline/variables' as notched-outline-variables;
+// @use '../floating-label/variables' as floating-label-variables;
+// @use '../notched-outline/variables' as notched-outline-variables;
 @use '../theme/custom-properties';
 @use '../theme/theme-color';
 
@@ -34,25 +34,25 @@
 /// @todo Instead of adjusting `$positionY` with label box height that might change based on floating label font size
 ///     wrap label in a child element to apply `transitionY(-50%)` to automatically offset based on box height.
 ///
-@function get-outlined-label-position-y($text-field-height) {
-  $offset: math.div(notched-outline-variables.$label-box-height, 2);
-
-  // If $text-field-height is not a primitive value, but a custom property or a custom property map,
-  // we cannot compute the label Y position at compilation time.
-  // We will have to defer it to the browser, using calc().
-  @if custom-properties.is-custom-prop($text-field-height) {
-    $text-field-height: custom-properties.get-declaration-value(
-      $text-field-height
-    );
-    @return calc($offset + $text-field-height / 2); // Evaluated in the browser.
-  }
-
-  @if custom-properties.is-custom-prop-string($text-field-height) {
-    @return calc($offset + $text-field-height / 2); // Evaluated in the browser.
-  }
-
-  @return $offset + math.div($text-field-height, 2); // Evaluated statically.
-}
+// @function get-outlined-label-position-y($text-field-height) {
+//   $offset: math.div(notched-outline-variables.$label-box-height, 2);
+//
+//   // If $text-field-height is not a primitive value, but a custom property or a custom property map,
+//   // we cannot compute the label Y position at compilation time.
+//   // We will have to defer it to the browser, using calc().
+//   @if custom-properties.is-custom-prop($text-field-height) {
+//     $text-field-height: custom-properties.get-declaration-value(
+//       $text-field-height
+//     );
+//     @return calc($offset + $text-field-height / 2); // Evaluated in the browser.
+//   }
+//
+//   @if custom-properties.is-custom-prop-string($text-field-height) {
+//     @return calc($offset + $text-field-height / 2); // Evaluated in the browser.
+//   }
+//
+//   @return $offset + math.div($text-field-height, 2); // Evaluated statically.
+// }
 
 $error: error !default;
 $disabled-border: rgba(theme-color.prop-value(on-surface), 0.06) !default;
@@ -125,8 +125,8 @@ $density-config: (
   ),
 ) !default;
 $shape-radius: small !default;
-$label-position-y: floating-label-variables.$position-y !default;
-$label-offset: 16px !default;
+// $label-position-y: floating-label-variables.$position-y !default;
+// $label-offset: 16px !default;
 // TODO(b/154350788): Remove this variable, it's not used internally but it is
 // externally in Angular
 /// @deprecated this variable will be removed in the future.
@@ -139,37 +139,37 @@ $helper-line-padding: 16px !default;
 $filled-baseline-top: 40px !default;
 $input-height: 28px !default;
 $textarea-label-top: 19px !default; // visually ~32dp from top to label baseline
-$textarea-outlined-label-top: $textarea-label-top -
-  notched-outline-variables.$border-width !default;
+// $textarea-outlined-label-top: $textarea-label-top -
+//   notched-outline-variables.$border-width !default;
 $textarea-line-height: 1.5rem !default; // 24dp from baseline to baseline
 $textarea-input-handle-margin: 1px !default;
-// Outlined textarea's first line should be placed at the same position as
-// outlined textfield, and should look identical if it is 1 row. Since textfield
-// is centered and font metrics vary for where the baseline is, the best way to
-// ensure textarea and textfield align is with padding. At 56px height with a
-// 24px line-height, a centered textfield has 16px of top and bottom padding.
-// Textarea should use this to position itself.
-$textarea-outlined-input-margin-top: 16px !default;
-$textarea-outlined-input-margin-bottom: 16px !default;
-$textarea-outlined-density-config: (
-  margin-top: (
-    default: $textarea-outlined-input-margin-top,
-    maximum: $textarea-outlined-input-margin-top,
-    minimum: $textarea-outlined-input-margin-top - 8,
-  ),
-  margin-bottom: (
-    default: $textarea-outlined-input-margin-bottom,
-    maximum: $textarea-outlined-input-margin-bottom,
-    minimum: $textarea-outlined-input-margin-bottom - 8,
-  ),
-) !default; // remove 1/2 of scale to -4 for minimum
-$textarea-outlined-label-density-config: (
-  top: (
-    default: $textarea-outlined-label-top,
-    maximum: $textarea-outlined-label-top,
-    minimum: $textarea-outlined-label-top - 8,
-  ),
-) !default; // remove 1/2 of scale to -4 for minimum
+// // Outlined textarea's first line should be placed at the same position as
+// // outlined textfield, and should look identical if it is 1 row. Since textfield
+// // is centered and font metrics vary for where the baseline is, the best way to
+// // ensure textarea and textfield align is with padding. At 56px height with a
+// // 24px line-height, a centered textfield has 16px of top and bottom padding.
+// // Textarea should use this to position itself.
+// $textarea-outlined-input-margin-top: 16px !default;
+// $textarea-outlined-input-margin-bottom: 16px !default;
+// $textarea-outlined-density-config: (
+//   margin-top: (
+//     default: $textarea-outlined-input-margin-top,
+//     maximum: $textarea-outlined-input-margin-top,
+//     minimum: $textarea-outlined-input-margin-top - 8,
+//   ),
+//   margin-bottom: (
+//     default: $textarea-outlined-input-margin-bottom,
+//     maximum: $textarea-outlined-input-margin-bottom,
+//     minimum: $textarea-outlined-input-margin-bottom - 8,
+//   ),
+// ) !default; // remove 1/2 of scale to -4 for minimum
+// $textarea-outlined-label-density-config: (
+//   top: (
+//     default: $textarea-outlined-label-top,
+//     maximum: $textarea-outlined-label-top,
+//     minimum: $textarea-outlined-label-top - 8,
+//   ),
+// ) !default; // remove 1/2 of scale to -4 for minimum
 $textarea-filled-input-margin-top: 23px !default; // visually ~40dp from top to baseline
 $textarea-filled-input-margin-bottom: 9px !default; // visually ~16dp from baseline to bottom
 $textarea-filled-density-config: (

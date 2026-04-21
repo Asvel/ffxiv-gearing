@@ -1,7 +1,8 @@
 import * as mobxReact from 'mobx-react-lite';
 import classNames from 'clsx';
+import { Ripple, RippleSurface } from './@rmwc/ripple';
 import { Button } from './@rmwc/button';
-import { List, SimpleListItem, CollapsibleList } from './@rmwc/list';
+import { CollapsibleList } from './@rmwc/list';
 import * as G from '../game';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
@@ -12,17 +13,21 @@ export const LevelSyncPanel = mobxReact.observer<DropdownPopperProps>(({ toggle 
   const store = useStore();
   return (
     <div className="level-sync card">
-      <List>
+      <ul className="mdc-list">
         {G.jobLevels.map(jobLevel=> jobLevel <= store.schema.jobLevel && (
           <CollapsibleList
             key={jobLevel}
             defaultOpen={jobLevel === (store.syncLevelText === undefined ? initialExpandedJobLevel : store.jobLevel)}
             handle={
-              <SimpleListItem
-                className="level-sync_group"
-                text={`${jobLevel}级`}
-                metaIcon={<Icon className="level-sync_group-icon" name="chevron-right" />}
-              />
+              <Ripple surface={false}>
+                <li tabIndex={0} className="level-sync_group mdc-list-item">
+                  <RippleSurface className="mdc-list-item__ripple" />
+                  <span className="mdc-list-item__text">{jobLevel}级</span>
+                  <i className="mdc-list-item__meta" aria-hidden="true">
+                    <Icon className="level-sync_group-icon" name="chevron-right" />
+                  </i>
+                </li>
+              </Ripple>
             }
             children={
               <div className="level-sync_levels">
@@ -71,7 +76,7 @@ export const LevelSyncPanel = mobxReact.observer<DropdownPopperProps>(({ toggle 
             children="取消同步"
           />
         )}
-      </List>
+      </ul>
     </div>
   );
 });

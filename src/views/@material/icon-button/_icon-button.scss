@@ -180,7 +180,8 @@
   .mdc-icon-button {
     @include ripple.surface(
       $query: $query,
-      $ripple-target: icon-button-theme.$ripple-target
+      $ripple-target: icon-button-theme.$ripple-target,
+      $include-will-change: false
     );
     @include ripple.radius-unbounded(
       $query: $query,

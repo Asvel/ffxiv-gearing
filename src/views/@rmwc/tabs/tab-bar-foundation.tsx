@@ -109,9 +109,11 @@ export const useTabBarFoundation = (
   };
 
   const handleTabInteraction = useCallback(
+    // eslint-disable-next-line react-hooks/preserve-manual-memoization
     (evt: MDCTabInteractionEvent) => {
       foundation.handleTabInteraction(evt);
     },
+    // eslint-disable-next-line react-hooks/preserve-manual-memoization
     [foundation]
   );
 
@@ -123,10 +125,11 @@ export const useTabBarFoundation = (
   rootEl.setProp('onKeyDown', handleKeyDown, true);
 
   // sync active tab index
-  useEffect(() => {
-    props.activeTabIndex !== undefined &&
-      setActiveTabIndex(props.activeTabIndex);
-  }, [props.activeTabIndex]);
+  const [ prevActiveTabIndex, setPrevActiveTabIndex ] = useState(props.activeTabIndex);
+  if (props.activeTabIndex !== prevActiveTabIndex) {
+    setPrevActiveTabIndex(props.activeTabIndex);
+    setActiveTabIndex(props.activeTabIndex || 0);
+  }
 
   // activate tabs
   useEffect(() => {

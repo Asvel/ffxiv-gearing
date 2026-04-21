@@ -33,7 +33,7 @@ export interface ButtonProps extends RMWC.WithRippleProps {
   danger?: boolean;
   /** Content specified as a label prop. */
   label?: React.ReactNode | any;
-  /** Makes the button more touch friendly. This will automatically be set true if used inside of TouchTargetWrapper.*/
+  /** Makes the button more touch friendly. This will automatically be set true if used inside of TouchTargetWrapper. */
   touch?: boolean;
   /** Content specified as children. */
   children?: React.ReactNode;

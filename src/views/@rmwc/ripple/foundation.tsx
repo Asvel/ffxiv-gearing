@@ -49,7 +49,7 @@ export const useRippleFoundation = (
         }),
         isSurfaceActive: () => {
           if (rootEl.ref) {
-            return matches(rootEl.ref, ':active');
+            return rootEl.ref.matches(':active');
           }
           return false;
         },

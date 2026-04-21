@@ -35,7 +35,7 @@ export function TabIndicator(
       })}
     >
       <Tag
-        tag={!!icon ? Icon : 'span'}
+        tag={icon ? Icon : 'span'}
         aria-hidden="true"
         // @ts-ignore icon prop not always present, this is ok
         icon={icon}

@@ -34,7 +34,11 @@ $ripple-target: '.mdc-button__ripple';
   @include ripple.common($query); // COPYBARA_COMMENT_THIS_LINE
 
   .mdc-button {
-    @include ripple.surface($query: $query, $ripple-target: $ripple-target);
+    @include ripple.surface(
+      $query: $query,
+      $ripple-target: $ripple-target,
+      $include-will-change: false
+    );
     @include ripple.radius-bounded(
       $query: $query,
       $ripple-target: $ripple-target

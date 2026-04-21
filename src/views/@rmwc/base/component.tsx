@@ -39,7 +39,6 @@ export const useClassNames = <Props extends { [key: string]: any }>(
 ) => {
   return classNamesFunc(
     props.className,
-    ...(props.theme ? parseThemeOptions(props.theme) : []),
     // @ts-ignore
     ...(typeof classNames === 'function' ? classNames(props) : classNames)
   );
@@ -58,7 +57,7 @@ export const mergeRefs =
     }
   };
 
-export const handleRef = <T extends any>(
+export const handleRef = <T,>(
   ref: React.Ref<T> | null | undefined,
   value: T
 ) => {
@@ -89,7 +88,7 @@ export function createComponent<
     return <></>;
   };
 
-  WrappedComponent.displayName = Component.constructor.name || 'RMWCComponent';
+  WrappedComponent.displayName = Component.name || 'RMWCComponent';
   ForwardComponent.displayName = WrappedComponent.displayName;
 
   return ForwardComponent as typeof WrappedComponent;

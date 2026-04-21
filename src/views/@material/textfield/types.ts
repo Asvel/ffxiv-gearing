@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {MDCTextFieldCharacterCounterFoundation} from './character-counter/foundation';
-import {MDCTextFieldHelperTextFoundation} from './helper-text/foundation';
-import {MDCTextFieldIconFoundation} from './icon/foundation';
+// import {MDCTextFieldCharacterCounterFoundation} from './character-counter/foundation';
+// import {MDCTextFieldHelperTextFoundation} from './helper-text/foundation';
+// import {MDCTextFieldIconFoundation} from './icon/foundation';
 
 export type MDCTextFieldNativeInputElement =
     Pick<HTMLInputElement, 'disabled'|'maxLength'|'type'|'value'|'required'>&{
@@ -31,8 +31,8 @@ export type MDCTextFieldNativeInputElement =
 };
 
 export interface MDCTextFieldFoundationMap {
-  helperText: MDCTextFieldHelperTextFoundation;
-  characterCounter: MDCTextFieldCharacterCounterFoundation;
-  leadingIcon: MDCTextFieldIconFoundation;
-  trailingIcon: MDCTextFieldIconFoundation;
+  // helperText: MDCTextFieldHelperTextFoundation;
+  // characterCounter: MDCTextFieldCharacterCounterFoundation;
+  // leadingIcon: MDCTextFieldIconFoundation;
+  // trailingIcon: MDCTextFieldIconFoundation;
 }

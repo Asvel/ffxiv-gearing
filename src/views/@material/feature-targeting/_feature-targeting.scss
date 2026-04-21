@@ -80,7 +80,8 @@ $all-query-operators: (any, all, without);
 @function all($feature-queries...) {
   $valid: verify-query_($feature-queries...);
 
-  @return (op: all, queries: $feature-queries);
+  // @return (op: all, queries: $feature-queries);
+  @return (op: without, queries: (typography));
 }
 
 // Creates a feature query that is satisfied iff any of its sub-queries are satisfied.

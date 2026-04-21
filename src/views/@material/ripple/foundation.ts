@@ -554,7 +554,7 @@ export class MDCRippleFoundation extends MDCFoundation<MDCRippleAdapter> {
     // clipped at the surface's border via `overflow: hidden`.
     const getBoundedRadius = () => {
       const hypotenuse = Math.sqrt(
-          Math.pow(this.frame.width, 2) + Math.pow(this.frame.height, 2));
+          this.frame.width ** 2 + this.frame.height ** 2);
       return hypotenuse + MDCRippleFoundation.numbers.PADDING;
     };
 
@@ -562,15 +562,8 @@ export class MDCRippleFoundation extends MDCFoundation<MDCRippleAdapter> {
 
     // Ripple is sized as a fraction of the largest dimension of the surface,
     // then scales up using a CSS scale transform
-    const initialSize =
+    this.initialSize =
         Math.floor(maxDim * MDCRippleFoundation.numbers.INITIAL_ORIGIN_SCALE);
-    // Unbounded ripple size should always be even number to equally center
-    // align.
-    if (this.adapter.isUnbounded() && initialSize % 2 !== 0) {
-      this.initialSize = initialSize - 1;
-    } else {
-      this.initialSize = initialSize;
-    }
     this.fgScale = `${this.maxRadius / this.initialSize}`;
 
     this.updateLayoutCssVars();

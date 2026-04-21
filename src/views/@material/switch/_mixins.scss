@@ -36,7 +36,7 @@
 @use '../dom/dom' as dom-mixins;
 
 // Temporary suffix to add to shared selectors between versions for migration
-$deprecated-suffix: '-deprecated' !default;
+$deprecated-suffix: '' !default;
 
 //
 // Public

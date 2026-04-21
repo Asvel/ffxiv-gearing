@@ -153,6 +153,6 @@
   }
 
   @include feature-targeting.targets($feat-animation) {
-    will-change: transform;
+    // will-change: transform;
   }
 }

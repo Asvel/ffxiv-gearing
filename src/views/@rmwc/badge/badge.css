@@ -41,15 +41,13 @@
   z-index: 1;
 }
 
-.rmwc-badge--align-start,
-[dir='rtl'] .rmwc-badge--align-end {
+.rmwc-badge--align-start {
   left: -0.75rem;
   margin-left: var(--rmwc-badge-inset, 0);
   right: auto;
 }
 
-.rmwc-badge--align-end,
-[dir='rtl'] .rmwc-badge--align-start {
+.rmwc-badge--align-end {
   right: -0.75rem;
   margin-right: var(--rmwc-badge-inset, 0);
   left: auto;

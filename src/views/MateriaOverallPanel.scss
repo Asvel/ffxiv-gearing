@@ -3,6 +3,10 @@
 .materia-overall {
   overflow: visible;
   @include elevation(4);
+  .mdc-tab__text-label,
+  .mdc-tab-indicator__content {
+    transition: none !important;
+  }
 }
 .materia-overall_tabbar {
   border-bottom: 1px solid var(--color-divider);

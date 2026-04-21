@@ -173,9 +173,7 @@ export class FoundationElement<Props extends {}, ElementType = HTMLElement> {
 const emitFactory =
   (props: { [key: string]: any }) =>
   (evtType: string, evtData: any, shouldBubble = false) => {
-    let evt;
-
-    evt = new CustomEvent(evtType, {
+    const evt = new CustomEvent(evtType, {
       detail: evtData,
       bubbles: shouldBubble
     });

@@ -86,7 +86,12 @@ export class CollapsibleList extends React.Component<
   }
 
   componentDidMount() {
-    this.syncOpenState();
+    (this.state.open ? this.props.onOpen : this.props.onClose)?.();
+    this.setState({
+      childrenStyle: this.state.open
+        ? { maxHeight: 'none' }
+        : {}
+    });
   }
 
   componentDidUpdate(
@@ -148,8 +153,8 @@ export class CollapsibleList extends React.Component<
         }
         if (sibling) {
           const els = sibling.querySelectorAll('[tabindex]');
-          for (let i = 0; i < els.length; i++) {
-            if (possiblyFocusElement(els[i])) {
+          for (const el of els) {
+            if (possiblyFocusElement(el)) {
               break;
             }
           }
@@ -185,8 +190,7 @@ export class CollapsibleList extends React.Component<
       case 'ArrowUp':
       case 'ArrowDown':
       case 'Tab':
-        const isBack = evt.shiftKey || evt.key === 'ArrowUp';
-        this.correctFocus(isBack);
+        this.correctFocus(evt.shiftKey || evt.key === 'ArrowUp');
         return;
       case 'ArrowLeft':
         this.toggleOpen(false);
@@ -204,7 +208,7 @@ export class CollapsibleList extends React.Component<
       this.childContainer.contains(document.activeElement)
     ) {
       const el = this.root.querySelector(
-        '.rmwc-collapsible-list__handle .mdc-deprecated-list-item'
+        '.rmwc-collapsible-list__handle .mdc-list-item'
       );
       el && (el as HTMLElement).focus();
     }

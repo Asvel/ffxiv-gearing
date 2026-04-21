@@ -1,7 +1,7 @@
 import * as RMWC from '../types';
 import React from 'react';
 import { MDCRippleFoundation } from '../../@material/ripple';
-import { classNames } from '../base';
+import { classNames, mergeRefs } from '../base';
 import { useRippleFoundation } from './foundation';
 
 export interface RippleSurfaceProps {
@@ -15,7 +15,7 @@ export interface RippleProps {
   unbounded?: boolean;
   /** Makes the ripple primary */
   primary?: boolean;
-  /** Makes the ripple an accent color*/
+  /** Makes the ripple an accent color */
   accent?: boolean;
   /** makes the ripple disabled */
   disabled?: boolean;
@@ -43,13 +43,7 @@ export function Ripple(props: RippleProps & RMWC.HTMLProps) {
 
   const { rootEl, surfaceEl } = useRippleFoundation(props);
 
-  const providerContext = useProviderContext();
-
   const child = React.Children.only(children);
-
-  if (!providerContext.ripple) {
-    return <>{children}</>;
-  }
 
   if (!React.isValidElement<React.HTMLProps<any>>(child)) {
     return null;
@@ -95,7 +89,7 @@ export function Ripple(props: RippleProps & RMWC.HTMLProps) {
 
   // do some crazy props merging...
   const content = React.cloneElement(child, {
-    ref: rootEl.reactRef,
+    ref: mergeRefs(rootEl.reactRef, (child as any).ref),
     ...child.props,
     ...unboundedProp,
     ...rootEl.props({
@@ -145,13 +139,11 @@ export const withRipple =
     accent: defaultAccent,
     surface: defaultSurface
   }: WithRippleOpts = {}) =>
-  <P extends any, C extends React.ComponentType<P>>(
+  <P, C extends React.ComponentType<P>>(
     Component: React.ComponentType<P>
   ): C => {
     const WithRippleComponent = React.forwardRef<any, P & RMWC.WithRippleProps>(
-      ({ ripple, ...rest }: any, ref) => {
-        const providerContext = useProviderContext();
-        ripple = ripple ?? providerContext.ripple;
+      ({ ripple = true, ...rest }: any, ref) => {
         const rippleOptions = typeof ripple !== 'object' ? {} : ripple;
 
         if (ripple) {
@@ -172,7 +164,7 @@ export const withRipple =
     );
 
     WithRippleComponent.displayName = `withRipple(${
-      Component.displayName || Component.constructor.name || 'Unknown'
+      Component.displayName || Component.name || 'Unknown'
     })`;
 
     return WithRippleComponent as any;

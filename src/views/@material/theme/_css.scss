@@ -30,7 +30,7 @@
 /// adds fallback support for older browsers such as IE11 that do not support
 /// these features at the cost of additional CSS. Set this variable to false to
 /// disable generating fallback declarations.
-$enable-fallback-declarations: true !default;
+$enable-fallback-declarations: false !default;
 
 /// Writes a CSS property/value declaration. This mixin is used throughout the
 /// theme package for consistency for dynamically setting CSS property values.

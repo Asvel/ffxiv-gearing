@@ -27,7 +27,7 @@ export const useTabScrollerFoundation = (
         eventTargetMatchesSelector: (
           evtTarget: EventTarget,
           selector: string
-        ) => matches(evtTarget as HTMLElement, selector),
+        ) => (evtTarget as HTMLElement).matches(selector),
         addClass: (className: string) => rootEl.addClass(className),
         removeClass: (className: string) => rootEl.removeClass(className),
         addScrollAreaClass: (className: string) => areaEl.addClass(className),

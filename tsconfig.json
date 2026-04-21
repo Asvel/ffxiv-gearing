@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2022",
     "module": "preserve",
-    "types": ["node", "@rspack/core/module"],
+    "types": ["@rspack/core/module"],
     "jsx": "react-jsx",
     "noEmit": true,
     "skipLibCheck": true,

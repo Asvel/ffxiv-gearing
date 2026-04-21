@@ -2,15 +2,9 @@
 
 .level-sync {
   @include elevation(4);
-  .rmwc-collapsible-list__children {
-    transition: none;
-  }
 }
 .level-sync_group {
   font-weight: bold;
-  .mdc-list-item__ripple {
-    z-index: -1;
-  }
 }
 .level-sync_group-icon {
   width: 24px;

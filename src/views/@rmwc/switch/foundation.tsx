@@ -38,7 +38,7 @@ export const useSwitchFoundation = (props: SwitchProps & SwitchHTMLProps) => {
   // On mount, sync the values with the native checkbox
   useEffect(() => {
     checkboxEl.ref &&
-      (foundation as any).updateCheckedStyling_(
+      (foundation as any).updateCheckedStyling(
         (checkboxEl.ref as HTMLInputElement).checked
       );
     checkboxEl.ref &&
@@ -48,7 +48,7 @@ export const useSwitchFoundation = (props: SwitchProps & SwitchHTMLProps) => {
   // sync checked
   useEffect(() => {
     if (props.checked !== undefined) {
-      (foundation as any).updateCheckedStyling_(props.checked);
+      (foundation as any).updateCheckedStyling(props.checked);
     }
   }, [props.checked, foundation]);
 
