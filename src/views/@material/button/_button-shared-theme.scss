@@ -79,6 +79,40 @@ $disabled-container-color: rgba(
     $query: $query
   );
 
+  $container-height: map.get($theme, container-height);
+  @include height($container-height, $query: $query);
+
+  $container-height-value: if(
+    sass(custom-properties.is-custom-prop($container-height)):
+      custom-properties.get-fallback($container-height);
+    else: $container-height
+  );
+
+  /// Token "keep-touch-target":
+  /// Prevent the increased touch target from being reseted if the
+  /// container-height differs from the default (36px)
+  $keep-touch-target: map.get($theme, keep-touch-target);
+  @if (not $keep-touch-target) and
+    ($container-height-value != null) and
+    ($container-height-value != $height)
+  {
+    @include _touch-target-reset($query: $query);
+  }
+
+  $shape: map.get($theme, container-shape);
+  @if $shape {
+    $container-height: if(
+      sass($container-height != null):
+        $container-height;
+      else: $height
+    );
+    @include _shape-radius-with-height(
+      $shape,
+      $height: $container-height,
+      $query: $query
+    );
+  }
+
   @include container-fill-color(
     (
       default: map.get($theme, container-color),
@@ -133,40 +167,6 @@ $disabled-container-color: rgba(
     $ripple-target: button-ripple.$ripple-target,
     $query: $query
   );
-
-  $container-height: map.get($theme, container-height);
-  @include height($container-height, $query: $query);
-
-  $container-height-value: if(
-    custom-properties.is-custom-prop($container-height),
-    custom-properties.get-fallback($container-height),
-    $container-height
-  );
-
-  /// Token "keep-touch-target":
-  /// Prevent the increased touch target from being reseted if the
-  /// container-height differs from the default (36px)
-  $keep-touch-target: map.get($theme, keep-touch-target);
-  @if (not $keep-touch-target) and
-    ($container-height-value != null) and
-    ($container-height-value != $height)
-  {
-    @include _touch-target-reset($query: $query);
-  }
-
-  $shape: map.get($theme, container-shape);
-  @if $shape {
-    $container-height: if(
-      $container-height != null,
-      $container-height,
-      $height
-    );
-    @include _shape-radius-with-height(
-      $shape,
-      $height: $container-height,
-      $query: $query
-    );
-  }
 
   @include _elevation(
     $resolver,
@@ -739,13 +739,13 @@ $disabled-container-color: rgba(
 
 @mixin _focus-ring-shape($radius, $query: feature-targeting.all()) {
   $radius-value: if(
-    custom-properties.is-custom-prop($radius),
-    custom-properties.get-declaration-value($radius),
-    $radius
+    sass(custom-properties.is-custom-prop($radius)):
+      custom-properties.get-declaration-value($radius);
+    else: $radius
   );
 
   .mdc-button__focus-ring {
-    @if $radius-value != 0 and type-of($radius-value) == 'number' {
+    @if $radius-value != 0 and meta.type-of($radius-value) == 'number' {
       @include focus-ring.focus-ring-radius(
         $ring-radius: $radius-value,
         $query: $query
@@ -756,9 +756,9 @@ $disabled-container-color: rgba(
 
 @mixin _focus-ring-color($color, $query: feature-targeting.all()) {
   $color-value: if(
-    custom-properties.is-custom-prop($color),
-    custom-properties.get-declaration-value($color),
-    $color
+    sass(custom-properties.is-custom-prop($color)):
+      custom-properties.get-declaration-value($color);
+    else: $color
   );
 
   .mdc-button__focus-ring {
@@ -773,9 +773,9 @@ $disabled-container-color: rgba(
 
 @mixin _focus-ring-offset($offset, $query: feature-targeting.all()) {
   $offset-value: if(
-    custom-properties.is-custom-prop($offset),
-    custom-properties.get-declaration-value($offset),
-    $offset
+    sass(custom-properties.is-custom-prop($offset)):
+      custom-properties.get-declaration-value($offset);
+    else: $offset
   );
 
   .mdc-button__focus-ring {

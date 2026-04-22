@@ -1,3 +1,4 @@
+@use "sass:meta";
 @use "./components/mixins" as *;
 
 body {
@@ -172,22 +173,22 @@ svg {
   }
 }
 
-@import "./components/BadgeButton";
+@include meta.load-css("./components/BadgeButton");
 
-@import "./JobSelector";
-@import "./Slot";
-@import "./Materia";
-@import "./Condition";
-@import "./Summary";
-@import "./About";
+@include meta.load-css("./JobSelector");
+@include meta.load-css("./Slot");
+@include meta.load-css("./Materia");
+@include meta.load-css("./Condition");
+@include meta.load-css("./Summary");
+@include meta.load-css("./About");
 
-@import "./FilterPanel";
-@import "./LevelSyncPanel";
-@import "./MateriaOverallPanel";
-@import "./SharePanel";
-@import "./ImportPanel";
-@import "./SettingPanel";
-@import "./GearMenu";
-@import "./MateriaPanel";
-@import "./ClanPanel";
-@import "./SummaryMenu";
+@include meta.load-css("./FilterPanel");
+@include meta.load-css("./LevelSyncPanel");
+@include meta.load-css("./MateriaOverallPanel");
+@include meta.load-css("./SharePanel");
+@include meta.load-css("./ImportPanel");
+@include meta.load-css("./SettingPanel");
+@include meta.load-css("./GearMenu");
+@include meta.load-css("./MateriaPanel");
+@include meta.load-css("./ClanPanel");
+@include meta.load-css("./SummaryMenu");

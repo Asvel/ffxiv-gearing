@@ -51,11 +51,11 @@
   .mdc-form-field {
     @include feature-targeting.targets($feat-structure) {
       display: inline-flex;
+      align-items: center;
+      vertical-align: middle;
       &[hidden] {
         display: none;
       }
-      align-items: center;
-      vertical-align: middle;
     }
 
     > label {

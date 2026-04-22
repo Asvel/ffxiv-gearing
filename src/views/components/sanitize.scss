@@ -1,2 +1,3 @@
-@import "../../../node_modules/sanitize.css/sanitize";
-@import "../../../node_modules/sanitize.css/forms";
+@use "sass:meta";
+@include meta.load-css("../../../node_modules/sanitize.css/sanitize");
+@include meta.load-css("../../../node_modules/sanitize.css/forms");

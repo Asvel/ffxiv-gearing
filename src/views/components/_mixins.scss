@@ -1,14 +1,16 @@
+@use "sass:color";
+@use "sass:math";
 @forward "../@material/elevation/mixins" show elevation;
 
 @function _ta($top, $bottom) {
-  @return if($top < $bottom, $top / $bottom, (255 - $top) / (255 - $bottom));
+  @return if(sass($top < $bottom): calc($top / $bottom); else: calc((255 - $top) / (255 - $bottom)));
 }
 @function _tc($top, $bottom, $alpha) {
-  @return ($top - $alpha * $bottom) / (1 - $alpha);
+  @return calc(($top - $alpha * $bottom) / (1 - $alpha));
 }
 @function transparentify($top, $bottom: #fff) {
-  $tr: red($top); $tg: green($top); $tb: blue($top);
-  $br: red($bottom); $bg: green($bottom); $bb: blue($bottom);
-  $a: min(1, _ta($tr, $br), _ta($tg, $bg), _ta($tb, $bb));
+  $tr: color.channel($top, "red"); $tg: color.channel($top, "green"); $tb: color.channel($top, "blue");
+  $br: color.channel($bottom, "red"); $bg: color.channel($bottom, "red"); $bb: color.channel($bottom, "red");
+  $a: math.min(1, _ta($tr, $br), _ta($tg, $bg), _ta($tb, $bb));
   @return rgba(_tc($tr, $br, $a), _tc($tg, $bg, $a), _tc($tb, $bb, $a), 1 - $a);
 }

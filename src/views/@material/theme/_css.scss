@@ -60,7 +60,7 @@ $enable-fallback-declarations: false !default;
   // wouldn't need to check this. However, Sass will throw an error if the
   // interpolated property is a custom property.
   @if $value != null {
-    $important-rule: if($important, ' !important', '');
+    $important-rule: if(sass($important): ' !important'; else: '');
 
     @if $fallback-value and $enable-fallback-declarations {
       @include gss.annotate($gss);

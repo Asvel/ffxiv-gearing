@@ -90,13 +90,13 @@
       }
 
       $result: if(
-        $result,
-        list.join($result, $inside-not-result),
-        $inside-not-result
+        sass($result):
+          list.join($result, $inside-not-result);
+        else: $inside-not-result
       );
     } @else {
       $to-append: string.unquote(':not(#{$simple-selector})');
-      $result: if($result, selector.append($result, $to-append), $to-append);
+      $result: if(sass($result): selector.append($result, $to-append); else: $to-append);
     }
   }
 

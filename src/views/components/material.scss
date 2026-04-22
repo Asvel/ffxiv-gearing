@@ -1,3 +1,4 @@
+@use "sass:meta";
 @use "../@material/theme/theme-color" with ( $secondary: #6200ee );
 @use "../@material/ripple/ripple" as ripple;
 @use "../@material/button/button" as button;
@@ -28,9 +29,9 @@
 @include form-field.core-styles;
 @include radio.core-styles;
 @include switch.core-styles;
-@import "../@rmwc/list/collapsible-list";
-@import "../@rmwc/badge/badge";
-@import "./microtip";
+@include meta.load-css("../@rmwc/list/collapsible-list");
+@include meta.load-css("../@rmwc/badge/badge");
+@include meta.load-css("./microtip");
 
 .mdc-ripple-surface {
   cursor: pointer;

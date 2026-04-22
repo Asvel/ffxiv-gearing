@@ -50,7 +50,7 @@
     "postcss": "^8.5.9",
     "postcss-loader": "^8.2.1",
     "postcss-preset-env": "^11.2.1",
-    "sass-embedded": "~1.91.0",
+    "sass-embedded": "^1.99.0",
     "sass-loader": "^16.0.7",
     "shelljs": "^0.10.0",
     "simple-functional-loader": "^1.2.1",

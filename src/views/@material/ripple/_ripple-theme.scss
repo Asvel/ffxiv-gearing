@@ -561,9 +561,9 @@ $_ripple-theme: (
 @function states-opacity($color, $state) {
   $color-value: theme-color.prop-value($color);
   $opacity-map: if(
-    theme-color.tone($color-value) == 'light',
-    $light-ink-opacities,
-    $dark-ink-opacities
+    sass(theme-color.tone($color-value) == 'light'):
+      $light-ink-opacities;
+    else: $dark-ink-opacities
   );
 
   @if not map.has-key($opacity-map, $state) {

@@ -82,10 +82,10 @@
     }
 
     .mdc-button__focus-ring {
-      @include focus-ring.focus-ring($query: $query);
       @include feature-targeting.targets($feat-structure) {
         display: none;
       }
+      @include focus-ring.focus-ring($query: $query);
     }
 
     @include ripple-theme.focus {
@@ -170,7 +170,6 @@
   $feat-structure: feature-targeting.create-target($query, structure);
 
   @include elevation-theme.overlay-surface-position($query: $query);
-  @include elevation-theme.overlay-dimensions(100%, $query: $query);
 
   @include feature-targeting.targets($feat-structure) {
     display: inline-flex;
@@ -191,6 +190,8 @@
     vertical-align: middle;
     background: transparent;
   }
+
+  @include elevation-theme.overlay-dimensions(100%, $query: $query);
 
   &::-moz-focus-inner {
     @include feature-targeting.targets($feat-structure) {

@@ -214,10 +214,10 @@ $category-keywords: (
 
   $radius: unpack-radius($radius);
 
-  @return if(list.nth($masked-corners, 1) == 1, list.nth($radius, 1), 0)
-    if(list.nth($masked-corners, 2) == 1, list.nth($radius, 2), 0)
-    if(list.nth($masked-corners, 3) == 1, list.nth($radius, 3), 0)
-    if(list.nth($masked-corners, 4) == 1, list.nth($radius, 4), 0);
+  @return if(sass(list.nth($masked-corners, 1) == 1): list.nth($radius, 1); else: 0)
+    if(sass(list.nth($masked-corners, 2) == 1): list.nth($radius, 2); else: 0)
+    if(sass(list.nth($masked-corners, 3) == 1): list.nth($radius, 3); else: 0)
+    if(sass(list.nth($masked-corners, 4) == 1): list.nth($radius, 4); else: 0);
 }
 
 /// Unpacks shorthand values for border-radius (i.e. lists of 1-3 values).

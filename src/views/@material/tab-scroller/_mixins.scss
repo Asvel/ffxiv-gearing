@@ -58,14 +58,14 @@
 
   // postcss-bem-linter: define tab-scroller
   .mdc-tab-scroller {
+    @include feature-targeting.targets($feat-structure) {
+      overflow-y: hidden;
+    }
+
     @include transition(
       $duration-ms: variables.$transition-duration,
       $query: $query
     );
-
-    @include feature-targeting.targets($feat-structure) {
-      overflow-y: hidden;
-    }
   }
 
   // Selector for test element used to feature-detect horizontal scrollbar height

@@ -50,9 +50,9 @@
   $feat-typography: feature-targeting.create-target($query, typography);
 
   $divider-color: if(
-    theme-color.tone(theme-color.$background) == 'dark',
-    variables.$deprecated-divider-color-on-dark-bg,
-    variables.$deprecated-divider-color-on-light-bg
+    sass(theme-color.tone(theme-color.$background) == 'dark'):
+      variables.$deprecated-divider-color-on-dark-bg;
+    else: variables.$deprecated-divider-color-on-light-bg
   );
 
   .mdc-list {
@@ -114,6 +114,20 @@
       @include deprecated-item-base_;
     }
 
+    @include deprecated-list-item-padding-variant(
+      variables.$deprecated-textual-variant-config,
+      $query
+    );
+    @include deprecated-list-item-height-variant(
+      variables.$deprecated-textual-variant-config,
+      $query
+    );
+
+    // from deprecated-item-base_
+    &:focus {
+      outline: none;
+    }
+
     // For components using aria-activedescendant, the focus pseudoclass is
     // never applied and use `.mdc-ripple-upgraded--background-focused` instead.
     &:not(.mdc-list-item--selected):focus::before,
@@ -128,15 +142,6 @@
         $query: $query
       );
     }
-
-    @include deprecated-list-item-padding-variant(
-      variables.$deprecated-textual-variant-config,
-      $query
-    );
-    @include deprecated-list-item-height-variant(
-      variables.$deprecated-textual-variant-config,
-      $query
-    );
 
 //     .mdc-list--icon-list & {
 //       @include deprecated-list-item-padding-variant(
@@ -953,11 +958,11 @@
   $query: feature-targeting.all()
 ) {
   $feat-structure: feature-targeting.create-target($query, structure);
-  $trailing-inset: if($trailing, variables.$deprecated-trailing-padding, 0);
+  $trailing-inset: if(sass($trailing): variables.$deprecated-trailing-padding; else: 0);
   $leading-inset: if(
-    $leading,
-    if($use-padding, $leading-padding, $text-offset),
-    0
+    sass($leading):
+      if(sass($use-padding): $leading-padding; else: $text-offset);
+    else: 0
   );
 
   @include feature-targeting.targets($feat-structure) {
@@ -1023,6 +1028,11 @@
     line-height: map.get(map.get(typography.$styles, body1), line-height);
   }
 
+  @include deprecated-item-primary-text-ink-color(
+    text-primary-on-background,
+    $query
+  );
+
   @include feature-targeting.targets($feat-structure) {
     margin: 0;
     padding: 8px 0;
@@ -1032,11 +1042,6 @@
       outline: none;
     }
   }
-
-  @include deprecated-item-primary-text-ink-color(
-    text-primary-on-background,
-    $query
-  );
 }
 
 @mixin deprecated-item-base_ {
@@ -1046,10 +1051,6 @@
   justify-content: flex-start;
   overflow: hidden;
   padding: 0;
-
-  &:focus {
-    outline: none;
-  }
 }
 
 // Ripple styles for an interactive list item (one that is enabled and inside an interactive list).

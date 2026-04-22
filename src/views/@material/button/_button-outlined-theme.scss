@@ -213,9 +213,9 @@ $light-theme: (
 
   @if $outline-width != null {
     $outline-width-value: if(
-      custom-properties.is-custom-prop($outline-width),
-      custom-properties.get-fallback($outline-width),
-      $outline-width
+      sass(custom-properties.is-custom-prop($outline-width)):
+        custom-properties.get-fallback($outline-width);
+      else: $outline-width
     );
     // TODO(b/194792044): uncouple padding from outline-width
     // Note: Adjust padding to maintain consistent width with non-outlined buttons

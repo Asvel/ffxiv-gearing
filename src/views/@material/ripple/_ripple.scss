@@ -47,15 +47,15 @@
   $feat-structure: feature-targeting.create-target($query, structure);
 
   .mdc-ripple-surface {
+    @include surface-styles($query: $query);
     @include surface($query: $query);
     @include radius-bounded($query: $query);
-    @include surface-styles($query: $query);
   }
 
   .mdc-ripple-surface[data-mdc-ripple-is-unbounded],
   .mdc-ripple-upgraded--unbounded {
-    @include radius-unbounded($query: $query);
     @include unbounded-styles($query: $query);
+    @include radius-unbounded($query: $query);
   }
 }
 

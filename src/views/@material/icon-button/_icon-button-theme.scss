@@ -400,9 +400,9 @@ $light-theme: (
 
 @mixin _focus-ring-color($color, $query: feature-targeting.all()) {
   $color-value: if(
-    custom-properties.is-custom-prop($color),
-    custom-properties.get-declaration-value($color),
-    $color
+    sass(custom-properties.is-custom-prop($color)):
+      custom-properties.get-declaration-value($color);
+    else: $color
   );
 
   @if $color != null {
@@ -417,9 +417,9 @@ $light-theme: (
 
 @mixin _focus-ring-offset($offset, $query: feature-targeting.all()) {
   $offset-value: if(
-    custom-properties.is-custom-prop($offset),
-    custom-properties.get-declaration-value($offset),
-    $offset
+    sass(custom-properties.is-custom-prop($offset)):
+      custom-properties.get-declaration-value($offset);
+    else: $offset
   );
 
   @if meta.type-of($offset-value) == 'number' {

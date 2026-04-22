@@ -99,10 +99,6 @@ module.exports = function (env, argv) {
               loader: 'sass-loader',
               options: {
                 api: 'modern-compiler',
-                sassOptions: {
-                  includePaths: ['./node_modules'],
-                  silenceDeprecations: ['slash-div', 'mixed-decls', 'color-functions', 'global-builtin', 'import'],
-                },
               },
             },
           ],

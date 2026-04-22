@@ -839,9 +839,9 @@ $_density-config: map.merge(
   $masked-radius: shape-mixins.mask-radius($radius, 1 1 0 0);
 
   $fallback: if(
-    custom-properties.is-custom-prop($radius),
-    custom-properties.get-fallback($radius),
-    null
+    sass(custom-properties.is-custom-prop($radius)):
+      custom-properties.get-fallback($radius);
+    else: null
   );
 
   @if meta.type-of($fallback) == 'list' {
@@ -852,24 +852,24 @@ $_density-config: map.merge(
     $fourth: list.nth($masked-radius, 4);
     $masked-radius: (
       if(
-        custom-properties.is-custom-prop($first),
-        custom-properties.set-fallback($first, list.nth($fallback, 1)),
-        $first
+        sass(custom-properties.is-custom-prop($first)):
+          custom-properties.set-fallback($first, list.nth($fallback, 1));
+        else: $first
       ),
       if(
-        custom-properties.is-custom-prop($second),
-        custom-properties.set-fallback($second, list.nth($fallback, 2)),
-        $second
+        sass(custom-properties.is-custom-prop($second)):
+          custom-properties.set-fallback($second, list.nth($fallback, 2));
+        else: $second
       ),
       if(
-        custom-properties.is-custom-prop($third),
-        custom-properties.set-fallback($third, list.nth($fallback, 3)),
-        $third
+        sass(custom-properties.is-custom-prop($third)):
+          custom-properties.set-fallback($third, list.nth($fallback, 3));
+        else: $third
       ),
       if(
-        custom-properties.is-custom-prop($fourth),
-        custom-properties.set-fallback($fourth, list.nth($fallback, 4)),
-        $fourth
+        sass(custom-properties.is-custom-prop($fourth)):
+          custom-properties.set-fallback($fourth, list.nth($fallback, 4));
+        else: $fourth
       )
     );
   }
@@ -1428,6 +1428,20 @@ $_density-config: map.merge(
   // Shape
   @include shape-radius(variables.$shape-radius, $query: $query);
 
+  @include feature-targeting.targets($feat-structure) {
+    // display and align-items are necessary to make the text field participate
+    // in baseline alignment, even though some variants are 'centered'. Those
+    // variants should use the _baseline-center-aligned() mixin
+    display: inline-flex;
+    align-items: baseline;
+    padding: 0 variables.$padding-horizontal;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* @alternate */
+    will-change: opacity, transform, color;
+  }
+
   // Colors
   // @include label-color(variables.$label, $query: $query);
   @include ink-color(variables.$ink-color, $query: $query);
@@ -1454,20 +1468,6 @@ $_density-config: map.merge(
 
 //   // Floating Label
 //   @include floating-label_($query);
-
-  @include feature-targeting.targets($feat-structure) {
-    // display and align-items are necessary to make the text field participate
-    // in baseline alignment, even though some variants are 'centered'. Those
-    // variants should use the _baseline-center-aligned() mixin
-    display: inline-flex;
-    align-items: baseline;
-    padding: 0 variables.$padding-horizontal;
-    position: relative;
-    box-sizing: border-box;
-    overflow: hidden;
-    /* @alternate */
-    will-change: opacity, transform, color;
-  }
 }
 
 // This mixin adds styles to visually center the text within the text field.
@@ -1550,6 +1550,8 @@ $_density-config: map.merge(
 // Filled
 
 @mixin _filled($query: feature-targeting.all()) {
+  @include height(variables.$height, $query: $query);
+
   // Text Field intentionally omits press ripple, so each state needs to be specified individually.
   @include ripple-theme.states-base-color(
     variables.$ink-color,
@@ -1567,7 +1569,6 @@ $_density-config: map.merge(
     $ripple-target: variables.$ripple-target
   );
 
-  @include height(variables.$height, $query: $query);
   @include typography.baseline-top(
     variables.$filled-baseline-top,
     $query: $query
@@ -1695,6 +1696,10 @@ $_density-config: map.merge(
 @mixin disabled_($query: feature-targeting.all()) {
   $feat-structure: feature-targeting.create-target($query, structure);
 
+  @include feature-targeting.targets($feat-structure) {
+    pointer-events: none;
+  }
+
   @include ink-color_(variables.$disabled-ink-color, $query: $query);
   @include placeholder-color_(
     variables.$disabled-placeholder-ink-color,
@@ -1757,10 +1762,6 @@ $_density-config: map.merge(
         z-index: 1;
       }
     }
-  }
-
-  @include feature-targeting.targets($feat-structure) {
-    pointer-events: none;
   }
 
 //   .mdc-floating-label {
