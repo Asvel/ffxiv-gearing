@@ -19,7 +19,7 @@ export interface FormFieldProps {
 
 /** A FormField component. */
 export const FormField = createComponent<FormFieldProps>(
-  function FormField(props, ref) {
+  function FormField(props) {
     useFormfieldFoundation(props);
 
     const { alignEnd, foundationRef, noWrap, spaceBetween, ...rest } = props;
@@ -31,6 +31,6 @@ export const FormField = createComponent<FormFieldProps>(
         'mdc-form-field--space-between': spaceBetween
       }
     ]);
-    return <Tag {...rest} ref={ref} className={className} />;
+    return <Tag {...rest} className={className} />;
   }
 );

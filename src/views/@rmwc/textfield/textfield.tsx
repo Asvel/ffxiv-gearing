@@ -63,7 +63,7 @@ export const TextField: RMWC.ComponentType<
   TextFieldHTMLProps,
   'input'
 > = createComponent<TextFieldProps, TextFieldHTMLProps>(
-  function TextField(props, ref) {
+  function TextField(props) {
     const {
       label,
       style,
@@ -80,6 +80,7 @@ export const TextField: RMWC.ComponentType<
       prefix,
       suffix,
       resizeable,
+      ref,
       ...rest
     } = props;
 
@@ -172,9 +173,9 @@ const TextFieldRipple = React.memo(function TextFieldRipple() {
 });
 
 const TextFieldRoot = withRipple({ surface: false })(
-  React.forwardRef(function TextFieldRoot(props: any, ref: React.Ref<any>) {
-    return <Tag {...props} tag="label" ref={ref} />;
-  })
+  function TextFieldRoot(props: any) {
+    return <Tag {...props} tag="label" />;
+  }
 );
 
 const TextFieldPrefix = React.memo(function TextFieldPrefix({

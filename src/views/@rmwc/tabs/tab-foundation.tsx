@@ -6,7 +6,7 @@ import type { TabIndicatorApi } from './tab-indicator';
 import { TabBarContext } from './tab-bar-context';
 
 export const useTabFoundation = (props: TabProps & React.HTMLProps<any>) => {
-  const tabIndicatorApi = useRef<TabIndicatorApi | null>();
+  const tabIndicatorApi = useRef<TabIndicatorApi | null>(null);
   const setTabIndicatorApi = (api: TabIndicatorApi | null) =>
     (tabIndicatorApi.current = api);
 

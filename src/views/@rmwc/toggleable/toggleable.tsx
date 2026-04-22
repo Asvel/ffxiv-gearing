@@ -1,5 +1,5 @@
 import * as RMWC from '../types';
-import React from 'react';
+import React, { type JSX } from 'react';
 import { useId } from '../base';
 import { FormField } from '../formfield';
 

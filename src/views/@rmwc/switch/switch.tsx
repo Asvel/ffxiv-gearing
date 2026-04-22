@@ -29,7 +29,7 @@ export const Switch: RMWC.ComponentType<
   SwitchProps,
   SwitchHTMLProps,
   'input'
-> = createComponent<SwitchProps, SwitchHTMLProps>(function Switch(props, ref) {
+> = createComponent<SwitchProps, SwitchHTMLProps>(function Switch(props) {
   const {
     renderToggle,
     id,
@@ -46,6 +46,7 @@ export const Switch: RMWC.ComponentType<
     style,
     inputRef,
     foundationRef,
+    ref,
     ...rest
   } = props;
 
@@ -101,10 +102,9 @@ const SwitchThumbUnderlay = withRipple({
 }>(function SwitchThumbUnderlay({
   className,
   ...rest
-}, ref) {
+}) {
   return (
     <div
-      ref={ref}
       className={classNames(className, 'mdc-switch__thumb-underlay')}
       {...rest}
     />

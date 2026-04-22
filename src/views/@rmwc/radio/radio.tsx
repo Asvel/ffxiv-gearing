@@ -19,7 +19,7 @@ export type RadioHTMLProps = ToggleHTMLProps;
 
 /** A Radio button component. */
 export const Radio: RMWC.ComponentType<RadioProps, RadioHTMLProps, 'input'> =
-  createComponent<RadioProps, RadioHTMLProps>(function Radio(props, ref) {
+  createComponent<RadioProps, RadioHTMLProps>(function Radio(props) {
     const { renderToggle, id, toggleRootProps, rootEl } =
       useRadioFoundation(props);
 
@@ -30,6 +30,7 @@ export const Radio: RMWC.ComponentType<RadioProps, RadioHTMLProps, 'input'> =
       style,
       inputRef,
       foundationRef,
+      ref,
       ...rest
     } = props;
 
@@ -43,7 +44,7 @@ export const Radio: RMWC.ComponentType<RadioProps, RadioHTMLProps, 'input'> =
           className="mdc-radio__native-control"
           type="radio"
           id={id}
-          ref={mergeRefs(ref, inputRef)}
+          ref={inputRef}
         />
         <RadioBackground />
         <RadioRipple />
@@ -65,18 +66,16 @@ const RadioRoot = withRipple({
   surface: false,
   unbounded: true
 })(
-  React.forwardRef<any, RadioProps & RMWC.HTMLProps>(
-    function RadioRoot(props, ref) {
-      const { disabled, ...rest } = props;
-      const className = useClassNames(props, [
-        'mdc-radio',
-        {
-          'mdc-radio--disabled': disabled
-        }
-      ]);
-      return <Tag {...rest} className={className} ref={ref} />;
-    }
-  )
+  function RadioRoot(props: RadioProps & RMWC.HTMLProps) {
+    const { disabled, ...rest } = props;
+    const className = useClassNames(props, [
+      'mdc-radio',
+      {
+        'mdc-radio--disabled': disabled
+      }
+    ]);
+    return <Tag {...rest} className={className} />;
+  }
 );
 
 const RadioBackground = React.memo(function RadioBackground() {

@@ -28,7 +28,7 @@ export interface TabBarProps {
   foundationRef?: React.Ref<MDCTabBarFoundation | null>;
 }
 
-export const TabBar = createComponent<TabBarProps>(function TabBar(props, ref) {
+export const TabBar = createComponent<TabBarProps>(function TabBar(props) {
   const { children, activeTabIndex, onActivate, foundationRef, ...rest } =
     props;
 
@@ -58,7 +58,6 @@ export const TabBar = createComponent<TabBarProps>(function TabBar(props, ref) {
         element={rootEl}
         {...rest}
         className={className}
-        ref={ref}
       >
         <TabScroller apiRef={setTabScrollerApi}>{children}</TabScroller>
       </Tag>

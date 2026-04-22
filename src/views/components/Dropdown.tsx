@@ -15,8 +15,8 @@ export interface DropdownPopperProps {
 }
 
 export interface DropdownProps {
-  label: (props: DropdownLabelProps) => React.ReactNode
-  popper: (props: DropdownPopperProps) => React.ReactNode;
+  label: React.FunctionComponent<DropdownLabelProps>;
+  popper: React.FunctionComponent<DropdownPopperProps>;
   placement: PopperJS.Placement;
   modifiers?: PopperJS.StrictModifiers[];
   strategy?: PopperJS.PositioningStrategy;

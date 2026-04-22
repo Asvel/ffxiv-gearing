@@ -55,7 +55,7 @@ export const Button: RMWC.ComponentType<
 > = withRipple({
   surface: false
 })(
-  createComponent<ButtonProps, ButtonHTMLProps>(function Button(props, ref) {
+  createComponent<ButtonProps, ButtonHTMLProps>(function Button(props) {
     const {
       dense,
       raised,
@@ -96,7 +96,7 @@ export const Button: RMWC.ComponentType<
     }
 
     return (
-      <Tag tag="button" {...rest} ref={ref} className={className}>
+      <Tag tag="button" {...rest} className={className}>
         <ButtonRipple />
         <ButtonTouch />
         <ButtonFocusRing />
@@ -132,8 +132,8 @@ interface ButtonIconProps extends IconProps {}
 
 /** An icon that goes inside of buttons. This is an instance of the Icon component. */
 const ButtonIcon = createMemoComponent<ButtonIconProps>(
-  function ButtonIcon(props, ref) {
+  function ButtonIcon(props) {
     const className = useClassNames(props, ['mdc-button__icon']);
-    return <Icon {...props} className={className} ref={ref} />;
+    return <Icon {...props} className={className} />;
   }
 );

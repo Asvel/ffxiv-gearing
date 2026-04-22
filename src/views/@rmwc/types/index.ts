@@ -1,3 +1,4 @@
+import type { JSX } from 'react';
 /**
  * Theming
  */
@@ -84,8 +85,7 @@ export type ComponentType<
   Element extends React.ElementType<any>
 > = {
   <Tag extends React.ElementType<any> = Element>(
-    props: ComponentProps<Props, ElementProps, Tag>,
-    ref: any
+    props: ComponentProps<Props, ElementProps, Tag>
   ): JSX.Element;
   displayName?: string;
 };

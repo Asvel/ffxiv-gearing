@@ -16,7 +16,7 @@ export interface BadgeProps {
 }
 
 /** A Badge component for indicating alerts or counts. */
-export const Badge = createComponent<BadgeProps>(function Badge(props, ref) {
+export const Badge = createComponent<BadgeProps>(function Badge(props) {
   const { align = 'end', label, style, exited, inset, ...rest } = props;
 
   const className = useClassNames(props, [
@@ -37,7 +37,7 @@ export const Badge = createComponent<BadgeProps>(function Badge(props, ref) {
       : style;
 
   return (
-    <Tag {...rest} style={finalStyle} className={className} ref={ref}>
+    <Tag {...rest} style={finalStyle} className={className}>
       {label ?? <>&nbsp;</>}
     </Tag>
   );
@@ -48,12 +48,12 @@ export interface BadgeAnchorProps {}
 
 /** An anchor component for badges. */
 export const BadgeAnchor = createComponent<BadgeAnchorProps>(
-  function BadgeAnchor(props, ref) {
+  function BadgeAnchor(props) {
     const { children, ...rest } = props;
 
     const className = useClassNames(props, ['rmwc-badge-anchor']);
     return (
-      <Tag {...rest} className={className} ref={ref}>
+      <Tag {...rest} className={className}>
         {children}
       </Tag>
     );

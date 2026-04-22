@@ -36,12 +36,12 @@ export const TouchTargetWrapper: RMWC.ComponentType<
   surface: false
 })(
   createComponent<TouchTargetWrapperProps, TouchTargetWrapperHTMLProps>(
-    function TouchTargetWrapper(props, ref) {
+    function TouchTargetWrapper(props) {
       const { children, ...rest } = props;
       const className = useClassNames(props, ['mdc-touch-target-wrapper']);
 
       return (
-        <Tag tag="div" {...rest} ref={ref} className={className}>
+        <Tag tag="div" {...rest} className={className}>
           <TouchTargetWrapperContext.Provider value={true}>
             {children}
           </TouchTargetWrapperContext.Provider>

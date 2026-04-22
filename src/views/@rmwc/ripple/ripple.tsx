@@ -38,6 +38,7 @@ export function Ripple(props: RippleProps & RMWC.HTMLProps) {
     unbounded,
     surface,
     foundationRef,
+    ref,
     ...rest
   } = props;
 
@@ -89,8 +90,8 @@ export function Ripple(props: RippleProps & RMWC.HTMLProps) {
 
   // do some crazy props merging...
   const content = React.cloneElement(child, {
-    ref: mergeRefs(rootEl.reactRef, (child as any).ref),
     ...child.props,
+    ref: mergeRefs(rootEl.reactRef, child.props.ref),
     ...unboundedProp,
     ...rootEl.props({
       ...rest,
@@ -142,8 +143,8 @@ export const withRipple =
   <P, C extends React.ComponentType<P>>(
     Component: React.ComponentType<P>
   ): C => {
-    const WithRippleComponent = React.forwardRef<any, P & RMWC.WithRippleProps>(
-      ({ ripple = true, ...rest }: any, ref) => {
+    const WithRippleComponent =
+      ({ ripple = true, ...rest }: P & RMWC.WithRippleProps) => {
         const rippleOptions = typeof ripple !== 'object' ? {} : ripple;
 
         if (ripple) {
@@ -154,14 +155,13 @@ export const withRipple =
               unbounded={rippleOptions.unbounded || defaultUnbounded}
               surface={rippleOptions.surface || defaultSurface}
             >
-              <Component {...(rest as any)} ref={ref} />
+              <Component {...(rest as any)} />
             </Ripple>
           );
         }
 
-        return <Component {...(rest as any)} ref={ref} />;
-      }
-    );
+        return <Component {...(rest as any)} />;
+      };
 
     WithRippleComponent.displayName = `withRipple(${
       Component.displayName || Component.name || 'Unknown'

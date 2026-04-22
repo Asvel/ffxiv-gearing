@@ -231,7 +231,7 @@ export class CollapsibleList extends React.Component<
       <Tag
         {...rest}
         onFocus={this.handleFocus}
-        ref={(el: HTMLDivElement) => (this.root = el)}
+        ref={(el: HTMLDivElement) => { this.root = el; }}
         className={classNames('rmwc-collapsible-list', className, {
           'rmwc-collapsible-list--open': open
         })}
@@ -246,7 +246,7 @@ export class CollapsibleList extends React.Component<
         <div className="rmwc-collapsible-list__children" style={childrenStyle}>
           <div
             className="rmwc-collapsible-list__children-inner"
-            ref={(el) => (this.childContainer = el)}
+            ref={(el) => { this.childContainer = el; }}
           >
             {children}
           </div>

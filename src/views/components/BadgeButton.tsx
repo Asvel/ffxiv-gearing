@@ -10,21 +10,19 @@ export interface BadgeButtonProps extends Props<typeof Button> {
   promotion: string,
 }
 
-export const BadgeButton = React.forwardRef<HTMLButtonElement, BadgeButtonProps>(
-  ({ promotion, className, onClick, children, ...otherProps }, ref) => {
-    const store = useStore();
-    return (
-        <Button
-          {...otherProps}
-          ref={ref}
-          className={classNames(className, 'badge-button')}
-          onClick={() => {
-            store.promotion.off(promotion);
-            return onClick();
-          }}
-        >
-          {children}
-          <Badge className="badge-button_badge" exited={!store.promotion.get(promotion)} />
-        </Button>
-    );
-  });
+export const BadgeButton = ({ promotion, className, onClick, children, ...otherProps }: BadgeButtonProps) => {
+  const store = useStore();
+  return (
+    <Button
+      {...otherProps}
+      className={classNames(className, 'badge-button')}
+      onClick={() => {
+        store.promotion.off(promotion);
+        return onClick();
+      }}
+    >
+      {children}
+      <Badge className="badge-button_badge" exited={!store.promotion.get(promotion)} />
+    </Button>
+  );
+};

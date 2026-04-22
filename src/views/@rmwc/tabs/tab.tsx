@@ -59,7 +59,7 @@ type TabRootProps = TabProps & {
 };
 
 const TabRoot = withRipple({ surface: false })(
-  createComponent<TabRootProps>(function TabRoot(props, ref) {
+  createComponent<TabRootProps>(function TabRoot(props) {
     const { stacked, minWidth, ...rest } = props;
     const className = useClassNames(props, [
       'mdc-tab',
@@ -69,7 +69,7 @@ const TabRoot = withRipple({ surface: false })(
       }
     ]);
     return (
-      <Tag tag="button" role="tab" {...rest} className={className} ref={ref} />
+      <Tag tag="button" role="tab" {...rest} className={className} />
     );
   })
 );
@@ -80,7 +80,7 @@ const TabIcon = React.memo(function TabIcon(props: IconProps & RMWC.HTMLProps) {
 });
 
 /** A Tab component */
-export const Tab = createComponent<TabProps>(function Tab(props, ref) {
+export const Tab = createComponent<TabProps>(function Tab(props) {
   const {
     children,
     label,
@@ -107,7 +107,7 @@ export const Tab = createComponent<TabProps>(function Tab(props, ref) {
   );
 
   return (
-    <TabRoot element={rootEl} stacked={stacked} {...rest} ref={ref}>
+    <TabRoot element={rootEl} stacked={stacked} {...rest}>
       <div
         className="mdc-tab__content"
         ref={contentEl.reactRef as React.Ref<HTMLDivElement>}

@@ -10,7 +10,7 @@ export interface LineRippleProps {
 }
 
 export const LineRipple = createComponent<LineRippleProps>(
-  function LineRipple(props, ref) {
+  function LineRipple(props) {
     const { active, center, ...rest } = props;
     const { rootEl } = useLineRippleFoundation(props);
 
@@ -20,7 +20,6 @@ export const LineRipple = createComponent<LineRippleProps>(
         tag="span"
         element={rootEl}
         className="mdc-line-ripple"
-        ref={ref}
       />
     );
   }
