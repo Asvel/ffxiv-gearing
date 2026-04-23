@@ -1,3 +1,4 @@
+import * as React from 'react';
 import * as mobxReact from 'mobx-react-lite';
 import classNames from 'clsx';
 import { Button } from './@rmwc/button';
@@ -19,7 +20,7 @@ export const Summary = mobxReact.observer(() => {
         <Dropdown
           label={({ ref, toggle }) => (
             <Button ref={ref} className="summary_clan" onClick={toggle}>
-              {store.raceName} - {store.clanName}
+              {store.clanText}
             </Button>
           )}
           popper={ClanPanel}
@@ -30,10 +31,10 @@ export const Summary = mobxReact.observer(() => {
         <Dropdown
           label={({ ref, toggle }) => (
             <>
-              <IconButton ref={ref} className="summary_more" icon="more" onClick={() => {
+              <IconButton ref={ref} className="summary_more" icon="more" onClick={React.useCallback(() => {
                 store.promotion.off('summaryMenu');
                 toggle();
-              }} />
+              }, [toggle])} />
               <Badge className="badge-button_badge summary_more-badge" exited={!store.promotion.get('summaryMenu')} />
             </>
           )}

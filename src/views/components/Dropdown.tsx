@@ -25,12 +25,12 @@ export interface DropdownProps {
 export const Dropdown = mobxReact.observer<DropdownProps>(props => {
   const [ expanded, setExpanded ] = React.useState(false);
   const [ labelElement, setLabelElement ] = React.useState<HTMLElement | null>(null);
-  const toggle = (e?: UIEvent) => {
+  const toggle = React.useCallback((e?: UIEvent) => {
     setExpanded(!expanded);
     if (e) {
       e.stopPropagation();
     }
-  };
+  }, [expanded]);
   return (
     <>
       {props.label({

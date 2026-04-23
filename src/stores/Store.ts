@@ -264,11 +264,8 @@ export const Store = mst.types
         return self.jobLevel + '级';
       }
     },
-    get raceName(): string {
-      return G.races[floor(self.clan / 2)];
-    },
-    get clanName(): string {
-      return G.clans[self.clan];
+    get clanText(): string {
+      return `${G.races[floor(self.clan / 2)]} - ${G.clans[self.clan]}`;
     },
   }))
   .views(self => ({

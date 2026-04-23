@@ -6,9 +6,11 @@ export type RippleLazyProps = Parameters<typeof Ripple>[0] & {
   children: React.ReactElement<any>,
 };
 
-export const RippleLazy = (props: RippleLazyProps) => {
+export const RippleLazy = React.memo<RippleLazyProps>(props => {
   const [ isInitialized, setIsInitialized ] = React.useState(false);
-  const init = () => ReactDOM.flushSync(() => setIsInitialized(true));
+  const init = React.useCallback(() => {
+    ReactDOM.flushSync(() => setIsInitialized(true));
+  }, []);
   return isInitialized
     ? <Ripple {...props} />
     : React.cloneElement(props.children, {
@@ -17,4 +19,4 @@ export const RippleLazy = (props: RippleLazyProps) => {
         onTouchStart: init,
         onMouseEnter: init,
       });
-};
+});

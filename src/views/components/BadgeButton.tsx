@@ -10,11 +10,12 @@ export interface BadgeButtonProps extends Props<typeof Button> {
   promotion: string,
 }
 
-export const BadgeButton = ({ promotion, className, onClick, children, ...otherProps }: BadgeButtonProps) => {
+export const BadgeButton = React.memo<BadgeButtonProps>(props => {
+  const { promotion, className, onClick, children, ...rest } = props;
   const store = useStore();
   return (
     <Button
-      {...otherProps}
+      {...rest}
       className={classNames(className, 'badge-button')}
       onClick={() => {
         store.promotion.off(promotion);
@@ -25,4 +26,4 @@ export const BadgeButton = ({ promotion, className, onClick, children, ...otherP
       <Badge className="badge-button_badge" exited={!store.promotion.get(promotion)} />
     </Button>
   );
-};
+});

@@ -167,5 +167,5 @@ export const withRipple =
       Component.displayName || Component.name || 'Unknown'
     })`;
 
-    return WithRippleComponent as any;
+    return React.memo(WithRippleComponent) as any;
   };
