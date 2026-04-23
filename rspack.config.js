@@ -105,7 +105,16 @@ module.exports = function (env, argv) {
         },
         {
           test: /\.svg$/,
-          use: 'svg-sprite-loader',
+          use: {
+            loader: 'simple-functional-loader',
+            ident: 'svg-to-symbol',
+            options: {
+              processor: source => source
+                .replace(/<(\/?)svg/g, '<$1symbol')
+                .replace(/ (width|height)="\d+"/g, ''),
+            },
+          },
+          type: 'asset/source',
         },
         {
           test: /\.png$/,
@@ -224,7 +233,3 @@ module.exports = function (env, argv) {
     return ret;
   };
 }
-
-// this auto detection implementation is no longer compatible with recent Rspack,
-// simply disable it since we only import svg files in JS
-require('svg-sprite-loader/lib/utils').isModuleShouldBeExtracted = () => false;

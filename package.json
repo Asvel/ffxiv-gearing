@@ -55,15 +55,11 @@
     "shelljs": "^0.10.0",
     "simple-functional-loader": "^1.2.1",
     "style-loader": "^4.0.0",
-    "svg-sprite-loader": "^6.0.11",
     "typescript": "^6.0.2"
   },
   "overrides": {
     "eslint-config-alloy": {
       "typescript": "$typescript"
-    },
-    "svg-baker": {
-      "postcss": "$postcss"
     }
   }
 }
