@@ -1,1 +1,4 @@
 /data/out/* linguist-generated
+/src/views/@material/** linguist-vendored
+/src/views/@rmwc/** linguist-vendored
+/src/views/components/microtip.css linguist-vendored
