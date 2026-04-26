@@ -73,8 +73,7 @@ npm run analyze
 * 在 GitHub 上 fork 此项目并克隆至本地。
 * 安装项目依赖：`npm install`（在项目目录下执行，下同）。
 * 获取源游戏数据：`npm run data-fetch`。
-  * 此步骤从他人提交至 GitHub 的仓库中下载数据，其中一部分数据也可使用 [SaintCoinach](https://github.com/xivapi/SaintCoinach) 自行解包得到。
-  * 观察`data\fetch.js`文件中的 URL，来自`ffxiv-datamining`仓库的数据可通过解包国际服客户端获得，`ffxiv-datamining-cn`则是国服（注意改文件名）。
+  * 此步骤从他人提交至 GitHub 的仓库中下载数据，其中一部分数据也可使用 [xiv-data-oxidizer](https://github.com/skyborn-industries/xiv-data-oxidizer) 自行解包得到。
   * 如果因为网络原因难以通过程序下载这些文件，也可手动下载它们并置入`data\in`目录下。
 * 修改`data\convert.js`文件中的游戏版本号信息。
   * `const patches = {`部分，按照游戏版本修改。

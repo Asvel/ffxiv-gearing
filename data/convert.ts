@@ -15,8 +15,8 @@ function stringify(obj: any) {
 
 function loadExd(filename: string) {
   const data = Papa.parse<string[]>(fs.readFileSync('./in/' + filename, 'utf8')).data;
-  const fields = data[1];
-  return data.slice(3, -1).map(line => {
+  const fields = data[0];
+  return data.slice(1, -1).map(line => {
     const ret: Record<string, string> = {};
     for (let i = 0; i < line.length; i++) {
       if (fields[i] !== '') {
@@ -90,7 +90,7 @@ const BaseParam = loadExd('BaseParam.csv');
 const ClassJobCategory = loadExd('ClassJobCategory.csv');
 const ContentFinderCondition = loadExd('ContentFinderCondition.csv');
 const Item = loadExd('Item.csv');
-const ItemCn = loadExd('Item.cn.csv');
+const ItemCn = loadExd('Item.csv');
 const ItemAction = loadExd('ItemAction.csv');
 const ItemFood = loadExd('ItemFood.csv');
 const ItemLevel = loadExd('ItemLevel.csv');
@@ -141,7 +141,7 @@ const gears = Item
     const ret = {} as G.Gear;
     ret.id = +x['#'] as G.GearId;
     ret.name = ItemCn[index]?.['Name'] || x['Name'];
-    ret.level = +x['Level{Item}'];
+    ret.level = +x['LevelItem'];
     ret.rarity = +x['Rarity'];
     ret.slot = +x['EquipSlotCategory'];
     if (ret.slot in slotComposite) {
@@ -151,7 +151,7 @@ const gears = Item
     }
     ret.role = +x['BaseParamModifier'];
     ret.jobCategory = +x['ClassJobCategory'];
-    ret.equipLevel = +x['Level{Equip}'];
+    ret.equipLevel = +x['LevelEquip'];
     // ret.equipLevelVariable = x['Description'] === 'IL and attributes synced to current job level.'
     ret.equipLevelVariable = x['Description'] === '此装备的品级与附加的属性数值会随着装备时的等级发生变化。'
       ? true : undefined;  // FIXME: 是否有更标识字段的判定方式
@@ -169,13 +169,13 @@ const gears = Item
     for (let i = 0; i < 6; i++) {
       rawStats[x[`BaseParam[${i}]`]] ??= 0;
       rawStats[x[`BaseParam[${i}]`]] += +x[`BaseParamValue[${i}]`];
-      if (ret.hq) {  // 可 HQ 装备的 BaseParam{Special} 为 HQ 附加值
-        rawStats[x[`BaseParam{Special}[${i}]`]] ??= 0;
-        rawStats[x[`BaseParam{Special}[${i}]`]] += +x[`BaseParamValue{Special}[${i}]`];
+      if (ret.hq) {  // 可 HQ 装备的 BaseParamSpecial 为 HQ 附加值
+        rawStats[x[`BaseParamSpecial[${i}]`]] ??= 0;
+        rawStats[x[`BaseParamSpecial[${i}]`]] += +x[`BaseParamValueSpecial[${i}]`];
       }
     }
-    rawStats[12] = (rawStats[12] ?? 0) + +x['Damage{Phys}'];
-    rawStats[13] = (rawStats[13] ?? 0) + +x['Damage{Mag}'];
+    rawStats[12] = (rawStats[12] ?? 0) + +x['DamagePhys'];
+    rawStats[13] = (rawStats[13] ?? 0) + +x['DamageMag'];
     for (const [ k, v ] of Object.entries(rawStats)) {
       if (v >= 0 && k in statAbbrs && k !== '12' && k !== '13') {
         ret.stats[statAbbrs[k]] = v;
@@ -186,7 +186,7 @@ const gears = Item
     }
     if (rawStats[12] > 0 && ('STR' in ret.stats || 'DEX' in ret.stats)) {
       ret.stats['PDMG'] = rawStats[12];
-      ret.stats['DLY'] = +x['Delay<ms>'];  // 攻击间隔不会有 HQ 附加值
+      ret.stats['DLY'] = +x['Delayms'];  // 攻击间隔不会有 HQ 附加值
     }
     if (rawStats[13] > 0 && ('INT' in ret.stats || 'MND' in ret.stats)) {
       ret.stats['MDMG'] = rawStats[13];
@@ -199,9 +199,9 @@ const gears = Item
     if (x['ItemSpecialBonus'] === '9' || x['ItemSpecialBonus'] === '10') {  // 新月岛补正
       ret.occultStats = {};
       for (let i = 0; i < 6; i++) {
-        const stat = statAbbrs[x[`BaseParam{Special}[${i}]`]];
+        const stat = statAbbrs[x[`BaseParamSpecial[${i}]`]];
         if (stat !== undefined) {
-          ret.occultStats[stat] = +x[`BaseParamValue{Special}[${i}]`];
+          ret.occultStats[stat] = +x[`BaseParamValueSpecial[${i}]`];
         }
       }
     }
@@ -250,7 +250,7 @@ const jobCategoryMap = Object.fromEntries(jobCategoriesUsed
 const foods = Item
   .map((x, index) => {
     const itemAction = ItemAction[+x['ItemAction']];
-    const actionType = +itemAction['Type'];
+    const actionType = +itemAction['Action'];
     const isFood = actionType === 844 || actionType === 845;  // 844=战斗食物, 845=生产采集食物
     const isPotion = actionType === 846;  // 846=加属性值的药水
     if (!(isFood || isPotion) || x['CanBeHq'] !== 'True') return;
@@ -259,7 +259,7 @@ const foods = Item
     const ret = {} as G.Food;
     ret.id = +x['#'] as G.GearId;
     ret.name = ItemCn[index]?.['Name'] || x['Name'];
-    ret.level = +x['Level{Item}'];
+    ret.level = +x['LevelItem'];
     ret.slot = isFood ? -1 : -2;
     ret.jobCategory = undefined as any;
     ret.stats = {};
@@ -272,10 +272,10 @@ const foods = Item
       const stat = statAbbrs[itemFood[`BaseParam[${i}]`]];
       if (stat !== undefined) {
         if (itemFood[`IsRelative[${i}]`] === 'True') {
-          ret.stats[stat] = +itemFood[`Max{HQ}[${i}]`];
-          ret.statRates[stat] = +itemFood[`Value{HQ}[${i}]`];
+          ret.stats[stat] = +itemFood[`MaxHQ[${i}]`];
+          ret.statRates[stat] = +itemFood[`ValueHQ[${i}]`];
         } else {
-          ret.stats[stat] = +itemFood[`Value{HQ}[${i}]`];
+          ret.stats[stat] = +itemFood[`ValueHQ[${i}]`];
         }
       }
     }
@@ -332,10 +332,10 @@ for (const food of foods.slice().reverse()) {
 
 const syncLevelOfJobLevel: Record<string, number> = {};
 for (const x of ContentFinderCondition) {
-  const jobLevelRequired = +x['ClassJobLevel{Required}'];
+  const jobLevelRequired = +x['ClassJobLevelRequired'];
   if (jobLevelRequired % 10 === 0 && jobLevelRequired >= 50) {
-    syncLevelOfJobLevel[x['ItemLevel{Required}']] = jobLevelRequired;
-    syncLevelOfJobLevel[x['ItemLevel{Sync}']] = jobLevelRequired;
+    syncLevelOfJobLevel[x['ItemLevelRequired']] = jobLevelRequired;
+    syncLevelOfJobLevel[x['ItemLevelSync']] = jobLevelRequired;
   }
 }
 delete syncLevelOfJobLevel['0'];
@@ -361,12 +361,12 @@ for (const i of Object.keys(statAbbrs)) {
 delete slotsUsed[0];
 const slotCaps = {} as Record<G.Stat, number[]>;
 for (const i of Object.keys(statAbbrs)) {
-  slotCaps[statAbbrs[i]] = Array.from(slotsUsed, (used, j) => used ? +BaseParam[+i][4 + j] : 0);
+  slotCaps[statAbbrs[i]] = Array.from(slotsUsed, (used, j) => used ? +BaseParam[+i][2 + j] : 0);
 }
 
 const roleCaps = {} as Record<G.Stat, number[]>;
 for (const i of Object.keys(statAbbrs)) {
-  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }, (_, j) => +BaseParam[+i][28 + j]);
+  roleCaps[statAbbrs[i]] = Array.from({ length: 13 }, (_, j) => +BaseParam[+i][`MeldParam[${j}]`]);
 }
 
 const levelGroupBasis = [
