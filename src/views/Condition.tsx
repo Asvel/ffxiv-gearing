@@ -5,7 +5,6 @@ import classNames from 'clsx';
 import { Button } from './@rmwc/button';
 import { TextField } from './@rmwc/textfield';
 import { Badge } from './@rmwc/badge';
-import * as G from '../game';
 import { useStore } from './components/contexts';
 import { RippleLazy } from './components/RippleLazy';
 import { Icon } from './components/Icon';
@@ -18,6 +17,8 @@ import { MateriaOverallPanel } from './MateriaOverallPanel';
 import { SharePanel } from './SharePanel';
 import { ImportPanel } from './ImportPanel';
 import { SettingPanel } from './SettingPanel';
+
+declare const __PATCH__: string;
 
 export const Condition = mobxReact.observer(() => {
   const store = useStore();
@@ -174,7 +175,7 @@ export const Condition = mobxReact.observer(() => {
           />
         )}
         <span className="condition_divider" />
-        <span className="condition_text">数据版本 {G.patches.data}</span>
+        <span className="condition_text">数据版本 {__PATCH__}</span>
       </span>
       {welcoming && <JobSelector />}
       {welcoming && (

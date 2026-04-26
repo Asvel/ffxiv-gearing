@@ -39,7 +39,6 @@ export const Gear = mst.types
     get hq() { return self.data.hq; },
     get customizable() { return self.data.customizable; },
     get source() { return self.data.source; },
-    get patch() { return self.data.patch; },
     get color(): GearColor {
       const { gearColorScheme } = self.store.setting;
       if (gearColorScheme === 'none') return 'white';
@@ -112,9 +111,6 @@ export const Gear = mst.types
         ret[stat] = G.statHighlight[stat] && (this.bareStats[stat] ?? 0) >= (this.caps[stat] ?? Infinity);
       }
       return ret;
-    },
-    get isInstalled(): boolean {
-      return !(this.patch > G.patches.current);
     },
     get isEquipped(): boolean {
       return self.store.equippedGears.get(this.slot.toString()) === self;

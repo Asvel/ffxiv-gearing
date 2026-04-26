@@ -8,7 +8,6 @@ export interface GearBase {
   jobCategory: number,
   stats: Stats,
   obsolete?: true,
-  patch?: string,
 }
 export interface Gear extends GearBase {
   rarity: number,
@@ -40,9 +39,6 @@ export interface Gearset {
   }[],
 }
 export type GearsetMaterias = ([Stat, MateriaGrade] | null)[];
-
-import patches from '../data/out/patches';
-export { patches };
 
 export const statNames = {
   STR: '力量', DEX: '灵巧', INT: '智力', MND: '精神', VIT: '耐力',

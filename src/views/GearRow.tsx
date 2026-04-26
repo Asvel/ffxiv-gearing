@@ -49,17 +49,11 @@ export const GearRow = mobxReact.observer<{
         {store.setting.gearDisplayName === 'source' && !gear.isFood && gear.source ? (
           <span className="gears_name">
             {gear.source}
-            {!gear.isInstalled && <span className="gears_patch">{gear.patch}</span>}
-          </span>
-        ) : gear.isInstalled ? (
-          <span className="gears_name">
-            {gear.name}
-            {gear.hq && <Icon className="gears_hq" name="hq"/>}
           </span>
         ) : (
           <span className="gears_name">
-            <span className="gears_origin">{!gear.isFood ? '*' + gear.source : gear.name}</span>
-            <span className="gears_patch">{gear.patch}</span>
+            {gear.name}
+            {gear.hq && <Icon className="gears_hq" name="hq"/>}
           </span>
         )}
         <Dropdown

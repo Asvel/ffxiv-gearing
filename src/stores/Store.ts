@@ -11,7 +11,6 @@ const tiersShownStorageKey = 'ffxiv-gearing.dt.tiers-shown';
 
 export type Mode = 'edit' | 'view';
 
-export type FilterPatch = 'all' | 'next' | 'current';
 export type FilterFocus = 'no' | 'melded' | 'comparable';
 
 export const Store = mst.types
@@ -22,7 +21,6 @@ export const Store = mst.types
     minLevel: mst.types.optional(mst.types.number, 0),
     maxLevel: mst.types.optional(mst.types.number, 0),
     syncLevel: mst.types.maybe(mst.types.number),
-    filterPatch: mst.types.optional(mst.types.string as mst.ISimpleType<FilterPatch>, 'all'),
     filterFocus: mst.types.optional(mst.types.string as mst.ISimpleType<FilterFocus>, 'no'),
     showAllMaterias: mst.types.optional(mst.types.boolean, false),
     showAllFoods: mst.types.optional(mst.types.boolean, false),
@@ -49,12 +47,9 @@ export const Store = mst.types
       const unobservableEquippedGears = mobx.untracked(() => self.equippedGears.toJSON());
       const ret: G.GearId[] = [];
       for (const gear of gearDataOrdered.get()) {
-        const { job, minLevel, maxLevel, filterPatch } = self;
+        const { job, minLevel, maxLevel } = self;
         if (
           G.jobCategories[gear.jobCategory][job!] &&
-          (filterPatch === 'all' ||
-            filterPatch === 'next' && !(gear.patch! > G.patches.next) ||
-            filterPatch === 'current' && !(gear.patch! > G.patches.current)) &&
           (gear.slot === -1 ? (self.showAllFoods || 'best' in gear) :  // Foods
             gear.slot === -2 ? (self.showAllPotions || 'best' in gear) :  // Potions
               gear.slot === 17 || (gear.slot === 2 && job === 'FSH') ||  // Soul crystal and spearfishing gig
@@ -692,9 +687,6 @@ export const Store = mst.types
     setSyncLevel(level: number | undefined, jobLevel: G.JobLevel | undefined): void {
       self.syncLevel = level;
       self.jobLevel = jobLevel ?? self.schema.jobLevel;
-    },
-    setFilterPatch(filterPatch: FilterPatch) {
-      self.filterPatch = filterPatch;
     },
     setFilterFocus(filterFocus: FilterFocus) {
       self.filterFocus = filterFocus;

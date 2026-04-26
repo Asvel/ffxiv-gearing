@@ -47,28 +47,14 @@ const jobs: G.Job[] = [
   'MIN', 'BTN', 'FSH',
 ];
 
-// 暂不移除数据拼合，等版本更新情况稳定再说
-const patches = {
-  data: '7.45',  // 主数据的版本，即国际服游戏版本
-  next: '7.45',  // 对国服来说，下一个有装备更新的版本
-  current: '7.45',  // 国服当前游戏版本
-};
-
 const sourceOfId: Record<number, string | undefined> = {};
-const patchOfId: Record<number, string | undefined> = {};
 {
   const sourcesLines = fs.readFileSync('./in/sources.txt', 'utf8').split(/\r?\n/);
   let source: string | undefined;
-  let patch: string | undefined;
   for (let line of sourcesLines) {
     if (line === '') {
       source = undefined;
-      patch = undefined;
       continue;
-    }
-    const patchMark = /@([\d.]+)/.exec(line)?.[1];
-    if (patchMark! > patches.current) {
-      patch = patchMark;
     }
     line = line.replace(/\s*[#@].*/, '');
     if (source === undefined) {
@@ -81,7 +67,6 @@ const patchOfId: Record<number, string | undefined> = {};
     for (let i = begin; i <= end; i++) {
       if (i in sourceOfId) throw Error(`装备 ${i} 来源存在冲突。`);
       sourceOfId[i] = source;
-      patchOfId[i] = patch;
     }
   }
 }
@@ -90,7 +75,6 @@ const BaseParam = loadExd('BaseParam.csv');
 const ClassJobCategory = loadExd('ClassJobCategory.csv');
 const ContentFinderCondition = loadExd('ContentFinderCondition.csv');
 const Item = loadExd('Item.csv');
-const ItemCn = loadExd('Item.csv');
 const ItemAction = loadExd('ItemAction.csv');
 const ItemFood = loadExd('ItemFood.csv');
 const ItemLevel = loadExd('ItemLevel.csv');
@@ -135,12 +119,12 @@ const lodestoneIdsUsed: (string | undefined)[] = [];
 const sourcesMissing: Record<string, string> = {};
 
 const gears = Item
-  .map((x, index) => {
+  .map(x => {
     if (x['ClassJobCategory'] === '0') return;
 
     const ret = {} as G.Gear;
     ret.id = +x['#'] as G.GearId;
-    ret.name = ItemCn[index]?.['Name'] || x['Name'];
+    ret.name = x['Name'];
     ret.level = +x['LevelItem'];
     ret.rarity = +x['Rarity'];
     ret.slot = +x['EquipSlotCategory'];
@@ -162,7 +146,6 @@ const gears = Item
     ret.source = sourceOfId[ret.id];
     ret.obsolete = (ret.rarity === 7 && ret.source !== '危命任务' && !(ret.slot >= 9 && ret.slot <= 12)) ||
       ret.source?.endsWith('已废弃') || ret.source === '旧空岛' ? true : undefined;
-    ret.patch = patchOfId[ret.id];
 
     // stats
     const rawStats: Record<string, number> = {};
@@ -248,7 +231,7 @@ const gears = Item
 const jobCategoryMap = Object.fromEntries(jobCategoriesUsed
   .map((x, i) => [Object.keys(x).sort().join(','), i]).filter(Boolean));
 const foods = Item
-  .map((x, index) => {
+  .map(x => {
     const itemAction = ItemAction[+x['ItemAction']];
     const actionType = +itemAction['Action'];
     const isFood = actionType === 844 || actionType === 845;  // 844=战斗食物, 845=生产采集食物
@@ -258,14 +241,13 @@ const foods = Item
 
     const ret = {} as G.Food;
     ret.id = +x['#'] as G.GearId;
-    ret.name = ItemCn[index]?.['Name'] || x['Name'];
+    ret.name = x['Name'];
     ret.level = +x['LevelItem'];
     ret.slot = isFood ? -1 : -2;
     ret.jobCategory = undefined as any;
     ret.stats = {};
     ret.statRates = {};
     ret.statMain = statAbbrs[itemFood['BaseParam[0]']];
-    ret.patch = patchOfId[ret.id];
 
     // stats
     for (const i of [0, 1, 2]) {
@@ -319,10 +301,6 @@ const foods = Item
 const bestFoods: G.Food[] = [];
 for (const food of foods.slice().reverse()) {
   if (food.id === 4745) continue;  // 唯一的直击信仰食物，各只加1，应该并不会有人想吃它
-  if (food.patch! > patches.current) {
-    food.best = true;
-    continue;
-  }
   if (!bestFoods.some(bestFood => food.slot === bestFood.slot &&
     Object.keys(food.stats).every(stat => food.stats[stat as G.Stat]! <= bestFood.stats[stat as G.Stat]!))) {
     food.best = true;
@@ -416,7 +394,6 @@ if (sourcesMissingIds.length > 0) {
   fs.writeFileSync('./out/sourcesMissing.txt', output.join('\n'));
 }
 
-fs.writeFileSync('./out/patches.ts', stringify(patches).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroupBasis.js', stringify(levelGroupBasis).replace(/null,/g, ','));
 fs.writeFileSync('./out/gearGroups.js', stringify(gearGroups).replace(/null,/g, ','));
 for (const groupId of levelGroupBasis) {

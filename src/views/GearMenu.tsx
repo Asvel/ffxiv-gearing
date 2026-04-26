@@ -21,13 +21,13 @@ export const GearMenu = mobxReact.observer<{
           }}
         >
           复制道具名
-          {!gear.isFood && gear.source && (store.setting.gearDisplayName === 'source' || !gear.isInstalled) && (
+          {!gear.isFood && gear.source && store.setting.gearDisplayName === 'source' && (
             '：' + gear.name
           )}
         </div>
       </RippleLazy>
       <div className="gear-menu_divider" />
-      {!gear.isFood && gear.source && (store.setting.gearDisplayName === 'name' && gear.isInstalled) && (
+      {!gear.isFood && gear.source && store.setting.gearDisplayName === 'name' && (
         <div className="gear-menu_item">获取途径：{gear.source}</div>
       )}
       {gear.stats.PDMG !== undefined && <div className="gear-menu_item">物理基本性能：{gear.stats.PDMG}</div>}
@@ -36,18 +36,16 @@ export const GearMenu = mobxReact.observer<{
         <div className="gear-menu_item">攻击间隔：{(gear.stats.DLY / 1000).toFixed(2)}</div>
       )}
       <div className="gear-menu_divider" />
-      {gear.isInstalled && (
-        <RippleLazy>
-          <a
-            className="gear-menu_item"
-            href={`https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:${encodeURI(gear.name)}`}
-            target="_blank"
-            tabIndex={0}
-          >
-            在 最终幻想XIV中文维基 中查看 <Icon className="gear-menu_external" name="open-in-new" />
-          </a>
-        </RippleLazy>
-      )}
+      <RippleLazy>
+        <a
+          className="gear-menu_item"
+          href={`https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:${encodeURI(gear.name)}`}
+          target="_blank"
+          tabIndex={0}
+        >
+          在 最终幻想XIV中文维基 中查看 <Icon className="gear-menu_external" name="open-in-new" />
+        </a>
+      </RippleLazy>
       <RippleLazy>
         <a
           className="gear-menu_item"

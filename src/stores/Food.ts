@@ -23,7 +23,6 @@ export const Food = mst.types
     get slot() { return self.data.slot; },
     get jobs() { return G.jobCategories[self.data.jobCategory]; },
     get hq() { return true; },
-    get patch() { return self.data.patch; },
     get color(): GearColor { return 'white'; },
     get stats(): G.Stats { return self.data.stats; },
     get statRates(): G.Stats { return self.data.statRates; },
@@ -65,9 +64,6 @@ export const Food = mst.types
     },
     get utilizationOpacity(): number {
       return Math.max(0.2, (this.utilization / 100) ** 2);
-    },
-    get isInstalled(): boolean {
-      return !(this.patch > G.patches.current);
     },
     get isEquipped(): boolean {
       return self.store.equippedGears.get(this.slot) === self;

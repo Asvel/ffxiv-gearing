@@ -126,10 +126,11 @@ module.exports = function (env, argv) {
       ],
     },
     plugins: [
-      new rspack.DefinePlugin({
-        __VERSION__: JSON.stringify(/### `([^`]+)`/.exec(fs.readFileSync('./CHANGELOG.md', 'utf8'))[1]),
+      new rspack.DefinePlugin((changelog => ({
+        __PATCH__: JSON.stringify(/更新游戏数据至(\d+\.\d+)/.exec(changelog)[1]),
+        __VERSION__: JSON.stringify(/### `([^`]+)`/.exec(changelog)[1]),
         __BUILD_DATE__: Date.now(),
-      }),
+      }))(fs.readFileSync('./CHANGELOG.md', 'utf8'))),
       new rspack.HtmlRspackPlugin({
         template: './src/index.html',
         favicon: './img/favicon.ico',
