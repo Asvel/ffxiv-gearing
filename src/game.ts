@@ -21,7 +21,7 @@ export interface Gear extends GearBase {
   hq?: true,
   customizable?: true,
   occultStats?: Stats,
-  source: string,
+  source?: string,
 }
 export interface Food extends GearBase {
   statRates: Stats,

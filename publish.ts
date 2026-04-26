@@ -1,6 +1,4 @@
-#!/usr/bin/env node
-
-const shell = require('shelljs');
+import shell from 'shelljs';
 
 shell.config.fatal = true;
 shell.config.globOptions.dot = true;

@@ -1,7 +1,7 @@
-process.chdir(__dirname);
+import https from 'node:https';
+import fs from 'node:fs';
 
-const https = require('https');
-const fs = require('fs');
+process.chdir(import.meta.dirname);
 
 const resources = {
   'https://raw.githubusercontent.com/xivapi/ffxiv-datamining/master/csv/BaseParam.csv': '',
