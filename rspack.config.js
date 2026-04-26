@@ -154,6 +154,9 @@ module.exports = function (env, argv) {
       },
       new rspack.CaseSensitivePlugin(),
       new ForkTsCheckerWebpackPlugin({
+        typescript: {
+          configFile: './src/tsconfig.json',
+        },
         logger: 'webpack-infrastructure',
       }),
     ],
