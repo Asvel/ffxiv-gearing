@@ -4,6 +4,7 @@
 @use "../@material/button/button" as button;
 @use "../@material/icon-button/icon-button" as icon-button;
 @use "../@material/icon-button/icon-button-theme" as icon-button-theme;
+@use "../@material/linear-progress/linear-progress" as linear-progress;
 @use "../@material/tab-bar/mixins" as tab-bar;
 @use "../@material/tab-scroller/mixins" as tab-scroller;
 @use "../@material/tab-indicator/mixins" as tab-indicator;
@@ -19,6 +20,7 @@
 @include ripple.core-styles;
 @include button.core-styles;
 @include icon-button.core-styles;
+@include linear-progress.core-styles;
 @include tab-bar.core-styles;
 @include tab-scroller.core-styles;
 @include tab-indicator.core-styles;

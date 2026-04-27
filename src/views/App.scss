@@ -175,6 +175,7 @@ svg {
 
 @include meta.load-css("./components/BadgeButton");
 
+@include meta.load-css("./Loading");
 @include meta.load-css("./JobSelector");
 @include meta.load-css("./Slot");
 @include meta.load-css("./Materia");

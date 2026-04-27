@@ -20,6 +20,8 @@ export const Store = mst.types
     jobLevel: mst.types.optional(mst.types.number as mst.ISimpleType<G.JobLevel>, 100),
     minLevel: mst.types.optional(mst.types.number, 0),
     maxLevel: mst.types.optional(mst.types.number, 0),
+    minLevelIncoming: mst.types.maybe(mst.types.number),
+    maxLevelIncoming: mst.types.maybe(mst.types.number),
     syncLevel: mst.types.maybe(mst.types.number),
     filterFocus: mst.types.optional(mst.types.string as mst.ISimpleType<FilterFocus>, 'no'),
     showAllMaterias: mst.types.optional(mst.types.boolean, false),
@@ -74,8 +76,12 @@ export const Store = mst.types
     },
   }))
   .views(self => ({
-    get isLoading(): boolean {
-      return gearDataLoading.get();
+    get loadingStatus() {
+      return gearDataLoading.get()
+        ? self.minLevelIncoming !== undefined || self.maxLevelIncoming !== undefined
+          ? 'appending'  // keep rendered when loading
+          : 'loading'
+        : 'ready';
     },
     get isViewing(): boolean {
       return self.mode === 'view';
@@ -640,7 +646,7 @@ export const Store = mst.types
     get title(): string | undefined {
       const suffix = '最终幻想14配装器';
       if (self.job === undefined) return suffix;
-      if (self.isLoading) return undefined;
+      if (self.loadingStatus !== 'ready') return undefined;
       const glance = self.schema.mainStat !== undefined
         ? `il${self.equippedLevel}/${this.equippedEffects.gcd.toFixed(2)}s`
         : self.schema.stats.map(s => self.equippedStats[s]).join('/');
@@ -670,6 +676,8 @@ export const Store = mst.types
       if (newSchema.defaultItemLevel !== oldSchema?.defaultItemLevel) {
         self.minLevel = newSchema.defaultItemLevel[0];
         self.maxLevel = newSchema.defaultItemLevel[1];
+        self.minLevelIncoming = undefined;
+        self.maxLevelIncoming = undefined;
       }
       for (const [ key, gear ] of self.equippedGears.entries()) {
         if (gear !== undefined && !gear.jobs[job]) {
@@ -679,10 +687,20 @@ export const Store = mst.types
       self.autoSelectScheduled = newSchema.skeletonGears ?? false;
     },
     setMinLevel(level: number): void {
-      self.minLevel = level;
+      self.minLevelIncoming = level;
     },
     setMaxLevel(level: number): void {
-      self.maxLevel = level;
+      self.maxLevelIncoming = level;
+    },
+    submitIncomingLevels(): void {
+      if (self.minLevelIncoming !== undefined) {
+        self.minLevel = self.minLevelIncoming;
+        self.minLevelIncoming = undefined;
+      }
+      if (self.maxLevelIncoming !== undefined) {
+        self.maxLevel = self.maxLevelIncoming;
+        self.maxLevelIncoming = undefined;
+      }
     },
     setSyncLevel(level: number | undefined, jobLevel: G.JobLevel | undefined): void {
       self.syncLevel = level;
@@ -731,6 +749,8 @@ export const Store = mst.types
       }
       self.minLevel = minLevel;
       self.maxLevel = maxLevel;
+      self.minLevelIncoming = undefined;
+      self.maxLevelIncoming = undefined;
     },
     equip(gear: IGearUnion): void {
       const key = gear.slot.toString();
@@ -749,6 +769,7 @@ export const Store = mst.types
       localStorage.setItem(tiersShownStorageKey, self.tiersShown.toString());
     },
     autoSelect(): void {
+      if (self.loadingStatus === 'loading') return;
       if (!self.autoSelectScheduled) return;
       self.autoSelectScheduled = false;
       for (const [ slot, gears ] of Object.entries(self.groupedGears)) {
@@ -775,7 +796,17 @@ export const Store = mst.types
       for (const gearId of Object.values(self.equippedGears.toJSON())) {
         loadGearDataOfGearId(Math.abs(gearId as G.GearId));
       }
+      self.submitIncomingLevels();  // if user refreshs during appending, we should switch to hard loading
       mobx.autorun(() => loadGearDataOfLevelRange(self.minLevel, self.maxLevel));
+      mobx.autorun(() => {
+        if (self.minLevelIncoming !== undefined || self.maxLevelIncoming !== undefined) {
+          loadGearDataOfLevelRange(
+            self.minLevelIncoming ?? self.minLevel,
+            self.maxLevelIncoming ?? self.maxLevel,
+          );
+          mobx.when(() => !gearDataLoading.get(), self.submitIncomingLevels);
+        }
+      });
       mobx.reaction(() => self.filteredIds, self.createGears, { fireImmediately: true });
       mobx.reaction(() => self.autoSelectScheduled && self.groupedGears, self.autoSelect);
     },

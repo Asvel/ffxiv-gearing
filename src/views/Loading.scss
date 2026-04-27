@@ -1,0 +1,13 @@
+@use "./components/mixins" as *;
+
+.loading {
+  .mdc-linear-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .mdc-linear-progress__buffer-bar {
+    background-color: transparent;
+  }
+}
