@@ -168,27 +168,12 @@ module.exports = function (env, argv) {
         cacheGroups: {
           defaultVendors: false,
           default: false,
-          essentialVendors: {
-            test: module => [
-              new RegExp(`[\\\\/]node_modules[\\\\/](${[
-                'react', 'react-dom', 'scheduler', 'object-assign',
-                'mobx', 'mobx-state-tree', 'mobx-react-lite',
-                'clsx', 'style-loader', 'css-loader', '@popperjs',
-              ].join('|')})[\\\\/]`),
-              /[\\/]sanitize\.scss$/,
-            ].some(r => r.test(module.resource)),
-            name: 'vendor-essential',
-            priority: 1,
-          },
-          restVendors: {
+          vendor: {
             test: module => [
               /[\\/]node_modules[\\/]/,
-              /[\\/]@material[\\/]/,
-              /[\\/]@rmwc[\\/]/,
               /[\\/]img[\\/]/,
-              /[\\/]material\.scss$/,
             ].some(r => r.test(module.resource)),
-            name: 'vendor-rest',
+            name: 'vendor',
           },
           data: {
             test: /[\\/]data[\\/]out[\\/](?!lodestoneIds\.js$).+/,
