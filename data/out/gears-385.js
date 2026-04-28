@@ -11228,7 +11228,7 @@ export default [
   },
   {
     id: 25843,
-    name: '虹茧咏咒斗上装',
+    name: '虹茧咏咒上装',
     level: 395,
     rarity: 1,
     slot: 4,

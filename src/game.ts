@@ -163,7 +163,7 @@ const slotSchemaCrafting = [
   { slot: -2, name: '药品', levelWeight: 0, uiGroup: 'misc' },
 ];
 
-const defaultItemLevelCombat = [770, 795];
+const defaultItemLevelCombat = [780, 795];
 const defaultItemLevelCrafting = [750, 765];
 const defaultItemLevelGathering = defaultItemLevelCrafting;
 
@@ -644,9 +644,9 @@ export const clanStats: { [index in Stat]?: number[] } = {
 
 export const syncLevels = require('../data/out/syncLevels').default as { [index in JobLevel]: number[] };
 export const syncLevelIsPopular: { [index: number]: boolean } = {
-  345: true, 375: true, 475: true, 605: true, 635: true, 735: true,  // Ultimate Raids
+  345: true, 375: true, 475: true, 605: true, 635: true, 735: true, 795: true,  // Ultimate Raids
   300: true, 700: true,  // Field Operations
-  /* 635: true, */ 665: true,  // Criterion Dungeons
+  /* 635: true, */665: true,/* 795: true */  // Criterion Dungeons
   695: true,  // Unreal Trials
 };
 export const syncLevelOfJobLevels = { 50: 130, 60: 270, 70: 400, 80: 530, 90: 660, 100: 790 };
