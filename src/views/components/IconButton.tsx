@@ -10,7 +10,7 @@ export interface IconButtonProps extends React.HTMLProps<HTMLButtonElement> {
 export const IconButton = React.memo<IconButtonProps>(props => {
   const { icon, className, ...rest } = props;
   return (
-    <RippleLazy unbounded>
+    <RippleLazy unbounded surfaceClass="mdc-icon-button__ripple">
       <button
         {...rest}
         className={classNames('mdc-icon-button', 'mdc-icon-button--dense', className)}

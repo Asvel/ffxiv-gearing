@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as mobxReact from 'mobx-react-lite';
 import classNames from 'clsx';
 import { Button } from '../@rmwc/button';
 import { Badge } from '../@rmwc/badge';
@@ -10,7 +10,7 @@ export interface BadgeButtonProps extends Props<typeof Button> {
   promotion: string,
 }
 
-export const BadgeButton = React.memo<BadgeButtonProps>(props => {
+export const BadgeButton = mobxReact.observer<BadgeButtonProps>(props => {
   const { promotion, className, onClick, children, ...rest } = props;
   const store = useStore();
   return (

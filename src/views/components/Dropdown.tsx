@@ -26,11 +26,11 @@ export const Dropdown = mobxReact.observer<DropdownProps>(props => {
   const [ expanded, setExpanded ] = React.useState(false);
   const [ labelElement, setLabelElement ] = React.useState<HTMLElement | null>(null);
   const toggle = React.useCallback((e?: UIEvent) => {
-    setExpanded(!expanded);
+    setExpanded(expanded => !expanded);
     if (e) {
       e.stopPropagation();
     }
-  }, [expanded]);
+  }, []);
   return (
     <>
       {props.label({
@@ -61,7 +61,13 @@ const DropdownPopper = mobxReact.observer<DropdownProps & {
   const popperContainer = document.getElementById('popper');
   React.useLayoutEffect(() => {
     if (labelElement === null || popperElement === null) return;
+    if (popperOptions.strategy !== 'fixed') {
+      popperOptions.modifiers.push({ name: 'flip', options: { padding: { bottom: 50 } }});
+    }
     const popperInstance = PopperJS.createPopper(labelElement, popperElement, popperOptions);
+    if (popperOptions.strategy === 'fixed') {
+      popperElement.style.zIndex = '7';  // for search: z-index: 7;
+    }
     return () => popperInstance.destroy();
   }, [labelElement, popperElement, popperOptions]);
   React.useEffect(() => {

@@ -53,8 +53,6 @@
       text-decoration: none;
       cursor: pointer;
       user-select: none;
-      z-index: 0; // Added to render above the container in IE11 tests.
-      overflow: visible; // Added to fix IE11 touch target tests.
     }
 
     .mdc-icon-button__touch {
@@ -213,7 +211,7 @@
         position: absolute;
         top: 0px;
         width: 100%;
-        z-index: -1;
+        z-index: 1;
       }
     }
   }

@@ -52,7 +52,7 @@ $ripple-target: '.mdc-button__ripple';
       // is often set as a default, so we override that here.
       box-sizing: content-box;
       overflow: hidden;
-      z-index: 0;
+      z-index: 1;
       top: 0;
       left: 0;
       bottom: 0;

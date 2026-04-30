@@ -59,8 +59,8 @@ test('visual regression', async ({ page }) => {
   await monitoredClick(page.getByText('浅色（高饱和）'));
   await monitoredClick(page.getByText('深色'));
 
-  await monitoredClick(page.locator('css=.gears_materia').nth(33));
-  await page.mouse.wheel(0, 80);
+  await monitoredClick(page.locator('css=.gears_materia').nth(28));
+  await page.mouse.wheel(0, 100);
   await expect.soft(page).toHaveScreenshot();
 
   await monitoredClick(page.locator('css=.summary_clan'));
@@ -71,7 +71,7 @@ test('visual regression', async ({ page }) => {
   await page.locator('css=.summary_damage-tip').hover();
   await expect.soft(page).toHaveScreenshot();
 
-  await page.mouse.wheel(0, 9999);
+  await page.keyboard.press('End');
   await expect.soft(page).toHaveScreenshot();
 
   await monitoredClick(page.getByRole('button', { name: '隐藏阈值(差值)' }));

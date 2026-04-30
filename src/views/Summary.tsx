@@ -38,10 +38,9 @@ export const Summary = mobxReact.observer(() => {
               <Badge className="badge-button_badge summary_more-badge" exited={!store.promotion.get('summaryMenu')} />
             </>
           )}
-          popper={({ toggle }) => (
-            <SummaryMenu toggle={toggle} />
-          )}
+          popper={SummaryMenu}
           placement="top-end"
+          strategy="fixed"
         />
         <span className="summary_equipped-level">
           il{store.equippedLevel}

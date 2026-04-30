@@ -1439,7 +1439,7 @@ $_density-config: map.merge(
     box-sizing: border-box;
     overflow: hidden;
     /* @alternate */
-    will-change: opacity, transform, color;
+    // will-change: opacity, transform, color;
   }
 
   // Colors

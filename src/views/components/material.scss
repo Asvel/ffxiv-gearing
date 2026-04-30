@@ -37,6 +37,9 @@
 
 .mdc-ripple-surface {
   cursor: pointer;
+  &::before, &::after {
+    z-index: 1;
+  }
 }
 
 .mdc-button {
@@ -70,9 +73,4 @@
       color: inherit;
     }
   }
-}
-
-.mdc-list-item__text,
-.mdc-list-item__meta {
-  z-index: 1;
 }

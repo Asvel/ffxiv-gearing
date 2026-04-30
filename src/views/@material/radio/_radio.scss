@@ -59,7 +59,7 @@ $ripple-target: radio-theme.$ripple-target;
       height: radio-theme.$icon-size;
       cursor: pointer;
       /* @alternate */
-      will-change: opacity, transform, border-color, color;
+      // will-change: opacity, transform, border-color, color;
       &[hidden] {
         display: none;
       }
