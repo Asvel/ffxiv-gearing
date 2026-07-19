@@ -13,7 +13,7 @@ import { BadgeButton } from './components/BadgeButton';
 import { JobSelector } from './JobSelector';
 import { FilterPanel } from './FilterPanel';
 import { LevelSyncPanel } from './LevelSyncPanel';
-import { MateriaOverallPanel } from './MateriaOverallPanel';
+import { MateriaOverallPanel, SubStatCalculationPanel } from './MateriaOverallPanel';
 import { SharePanel } from './SharePanel';
 import { ImportPanel } from './ImportPanel';
 import { SettingPanel } from './SettingPanel';
@@ -25,6 +25,10 @@ export const Condition = mobxReact.observer(() => {
   const welcoming = store.job === undefined;
   const editing = !store.isViewing && store.job !== undefined;
   const viewing = store.isViewing && store.job !== undefined;
+  const subStatCalculationAvailable = editing &&
+    ((store.schema.mainStat !== undefined &&
+      (store.schema.stats.includes('SPS') || store.schema.stats.includes('SKS'))) ||
+      store.schema.stats.some(stat => stat === 'CMS' || stat === 'GTH'));
   return (
     <div className="condition card" style={store.job === undefined ? { width: '900px' } : {}}>
       {welcoming && (
@@ -133,6 +137,15 @@ export const Condition = mobxReact.observer(() => {
             </Button>
           )}
           popper={MateriaOverallPanel}
+          placement="bottom-start"
+        />
+      )}
+      {subStatCalculationAvailable && (
+        <Dropdown
+          label={({ ref, toggle }) => (
+            <Button ref={ref} className="condition_button" onClick={toggle}>副属性计算</Button>
+          )}
+          popper={SubStatCalculationPanel}
           placement="bottom-start"
         />
       )}

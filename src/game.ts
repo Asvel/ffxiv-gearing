@@ -590,8 +590,10 @@ export const materias: { [index in Stat]?: number[] } = {
   PCP: [3, 4, 5, 6, 10, 15, 12, 20, 14, 25, 20, 36],
   GP: [1, 2, 3, 4, 6, 8, 7, 9, 8, 10, 9, 11],
 };
-export type MateriaGrade = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
-export const materiaGrades: MateriaGrade[] = [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+export const materiaGrades = [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] as const;
+export type MateriaGrade = (typeof materiaGrades)[number];
+export const materiaMinGrade = Math.min(...materiaGrades);
+export const materiaMaxGrade = Math.max(...materiaGrades);
 export const materiaGradeRequiredLevels: number[] = [15, 30, 45, 70, 160, 290, 420, 420, 560, 560, 690, 690];
 export const materiaGradeIsRestricted = Array.from(materiaGradeRequiredLevels, () => false);
 for (const grade of [12, 10, 8, 6]) materiaGradeIsRestricted[grade] = true;

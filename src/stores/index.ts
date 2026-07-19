@@ -29,8 +29,9 @@ export { Food } from './Food';
 export type { IFood } from './Food';
 export { GearUnion, GearUnionReference } from './GearUnion';
 export type { IGearUnion } from './GearUnion';
-export { Store } from './Store';
-export type { IStore, Mode } from './Store';
+export { Store, gcdOptimizationMinTargetGcd, gcdOptimizationMaxTargetGcd } from './Store';
+export type { IStore, Mode, GcdOptimizationMode, GcdOptimizationResult } from './Store';
+export type { ProductionMateriaOptimizationResult, ProductionMateriaStat } from './productionMateriaOptimizationCore';
 export { gearData, gearDataOrdered, gearDataLoading,
   loadGearData, loadGearDataOfGearId, loadGearDataOfLevelRange } from './gearData';
 
