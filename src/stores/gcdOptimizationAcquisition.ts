@@ -1,23 +1,24 @@
-export type GearAcquisitionKind = 'tomestone' | 'augmentedTomestone' | 'raid' | 'other';
+export type GearAcquisitionKind = 'tomestone' | 'augmentedTomestone' | 'raid' | 'dungeon' | 'other';
 
 export interface GearAcquisitionPolicy {
-  kind: GearAcquisitionKind,
-  ringExclusivityGroup?: Exclude<GearAcquisitionKind, 'other'>,
-  tomestoneCost: number,
-  raidCost: number,
+  kind: GearAcquisitionKind;
+  ringExclusivityGroup?: Exclude<GearAcquisitionKind, 'other'>;
+  tomestoneCost: number;
+  raidCost: number;
 }
 
 interface GearAcquisitionRule {
-  kind: Exclude<GearAcquisitionKind, 'other'>,
-  sourcePrefix: string,
-  ringExclusive: boolean,
+  kind: Exclude<GearAcquisitionKind, 'other'>;
+  sourcePrefix: string;
+  ringExclusive: boolean;
 }
 
 const acquisitionRules: readonly GearAcquisitionRule[] = [
   { kind: 'tomestone', sourcePrefix: '点数/', ringExclusive: true },
   { kind: 'augmentedTomestone', sourcePrefix: '点数强化/', ringExclusive: true },
-  { kind: 'raid', sourcePrefix: '大型任务/', ringExclusive: false },
+  { kind: 'raid', sourcePrefix: '大型任务/', ringExclusive: true },
   { kind: 'raid', sourcePrefix: '零式/', ringExclusive: true },
+  { kind: 'dungeon', sourcePrefix: '迷宫挑战/', ringExclusive: true },
 ];
 
 const tomestoneCostsBySlot: Readonly<Record<number, number>> = {
@@ -57,13 +58,18 @@ export function getGearAcquisitionPolicy(
   isWeapon: boolean,
   isChargedPointWeapon: boolean,
 ): GearAcquisitionPolicy {
-  const rule = acquisitionRules.find(candidate => source?.startsWith(candidate.sourcePrefix));
+  const rule = acquisitionRules.find((candidate) => source?.startsWith(candidate.sourcePrefix));
   if (rule === undefined) return { kind: 'other', tomestoneCost: 0, raidCost: 0 };
   const absoluteSlot = Math.abs(slot);
-  const tomestoneCost = rule.kind === 'tomestone'
-    ? isWeapon ? isChargedPointWeapon ? progressionBudget.pointWeaponCost : 0 : tomestoneCostsBySlot[absoluteSlot] ?? 0
-    : 0;
-  const raidCost = rule.kind === 'raid' ? raidCostsBySlot[absoluteSlot] ?? 0 : 0;
+  const tomestoneCost =
+    rule.kind === 'tomestone'
+      ? isWeapon
+        ? isChargedPointWeapon
+          ? progressionBudget.pointWeaponCost
+          : 0
+        : (tomestoneCostsBySlot[absoluteSlot] ?? 0)
+      : 0;
+  const raidCost = rule.kind === 'raid' ? (raidCostsBySlot[absoluteSlot] ?? 0) : 0;
   return {
     kind: rule.kind,
     ringExclusivityGroup: rule.ringExclusive ? rule.kind : undefined,
