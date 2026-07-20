@@ -52,6 +52,25 @@
     color: var(--color-gear-purple);
   }
 }
+.gears_optimization-checkbox-wrapper {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+  vertical-align: -3px;
+  line-height: 1;
+  + .gears_name {
+    max-width: 206px;
+  }
+}
+.gears_optimization-checkbox {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--mdc-theme-primary);
+  cursor: pointer;
+}
 .gears_hq {
   width: 12px;
   vertical-align: -1px;

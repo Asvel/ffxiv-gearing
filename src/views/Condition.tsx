@@ -147,6 +147,7 @@ export const Condition = mobxReact.observer(() => {
           )}
           popper={SubStatCalculationPanel}
           placement="bottom-start"
+          outsideClickIgnoreSelector=".gears_optimization-checkbox-wrapper"
         />
       )}
       <span className="condition_right">

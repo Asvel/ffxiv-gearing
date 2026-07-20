@@ -20,6 +20,7 @@ export interface DropdownProps {
   placement: PopperJS.Placement;
   modifiers?: PopperJS.StrictModifiers[];
   strategy?: PopperJS.PositioningStrategy;
+  outsideClickIgnoreSelector?: string;
 }
 
 export const Dropdown = mobxReact.observer<DropdownProps>(props => {
@@ -74,7 +75,12 @@ const DropdownPopper = mobxReact.observer<DropdownProps & {
     onGlobalClick = e => {
       const target = e.target as Element;
       if (target && labelElement && popperElement) {
-        if (!labelElement.contains(target) && !popperElement.contains(target)) {
+        if (
+          !labelElement.contains(target) &&
+          !popperElement.contains(target) &&
+          (props.outsideClickIgnoreSelector === undefined ||
+            target.closest(props.outsideClickIgnoreSelector) === null)
+        ) {
           setExpanded(false);
           onGlobalClick = undefined;
           (e as any)._isClosingDropdown = true;
@@ -89,7 +95,7 @@ const DropdownPopper = mobxReact.observer<DropdownProps & {
         onGlobalKeyup = undefined;
       }
     };
-  }, [labelElement, popperElement, setExpanded]);
+  }, [labelElement, popperElement, props.outsideClickIgnoreSelector, setExpanded]);
   React.useEffect(() => () => {
     onGlobalClick = undefined;
     onGlobalKeyup = undefined;

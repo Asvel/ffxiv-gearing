@@ -344,6 +344,10 @@ const ProductionMateriaResultView = mobxReact.observer<{
 
 const MateriaGcdCalculationPanel = mobxReact.observer(() => {
   const store = useStore();
+  const candidateGearIds = store.filteredIds.flatMap((gearId) => {
+    const gear = store.gears.get(gearId.toString()) as IGearUnion | undefined;
+    return gear === undefined || gear.isFood ? [] : [gear.id];
+  });
   const [mode, setMode] = React.useState<GcdOptimizationMode>('current');
   const [targetGcd, setTargetGcd] = React.useState(() => formatGcdTarget(store.equippedEffects?.gcd));
   const [result, setResult] = React.useState<GcdOptimizationResult>();
@@ -351,21 +355,30 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
   const requestId = React.useRef(0);
   const targetGcdNumber = parseFloat(targetGcd);
   const targetGcdValid = isValidGcdTarget(targetGcdNumber);
-  React.useEffect(() => () => {
-    requestId.current++;
-    store.cancelGcdOptimization();
-  }, [store]);
-  const resetResult = () => {
+  const selectedGearIdsKey = store.gcdOptimizationSelectedGearIds.join(',');
+  const resetResult = React.useCallback(() => {
     requestId.current++;
     store.cancelGcdOptimization();
     setCalculating(false);
     setResult(undefined);
-  };
+  }, [store]);
+  React.useEffect(() => () => {
+    requestId.current++;
+    store.cancelGcdOptimization();
+    store.stopGcdOptimizationGearSelection();
+  }, [store]);
+  React.useEffect(() => {
+    if (mode === 'all') resetResult();
+  }, [mode, resetResult, selectedGearIdsKey]);
   const calculate = async () => {
     const currentRequestId = ++requestId.current;
     setCalculating(true);
     setResult(undefined);
-    const nextResult = await store.optimizeGcdAsync(targetGcdNumber, mode);
+    const nextResult = await store.optimizeGcdAsync(
+      targetGcdNumber,
+      mode,
+      mode === 'all' ? store.gcdOptimizationSelectedGearIds : undefined,
+    );
     if (requestId.current === currentRequestId) {
       setResult(nextResult);
       setCalculating(false);
@@ -380,6 +393,7 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
             checked={mode === 'current'}
             onChange={() => {
               setMode('current');
+              store.stopGcdOptimizationGearSelection();
               resetResult();
             }}
           />
@@ -388,6 +402,7 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
             checked={mode === 'all'}
             onChange={() => {
               setMode('all');
+              store.startGcdOptimizationGearSelection(candidateGearIds);
               resetResult();
             }}
           />
@@ -408,13 +423,39 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
           />
           <Button
             className="materia-gcd-optimization_calculate"
-            disabled={!targetGcdValid || calculating}
+            disabled={!targetGcdValid || calculating ||
+              (mode === 'all' && store.gcdOptimizationSelectedGearIds.length === 0)}
             onClick={calculate}
           >
             {calculating ? '计算中' : '计算'}
           </Button>
         </div>
       </div>
+      {mode === 'all' && (
+        <div className="materia-gcd-optimization_gear-selector">
+          <span>
+            {`参与计算的装备 ${store.gcdOptimizationSelectedGearIds.length}/${candidateGearIds.length}`}
+          </span>
+          <span className="materia-gcd-optimization_gear-selector-actions">
+            <Button
+              disabled={store.gcdOptimizationSelectedGearIds.length === candidateGearIds.length}
+              onClick={() => {
+                store.setGcdOptimizationSelectedGearIds(candidateGearIds);
+              }}
+            >
+              全选
+            </Button>
+            <Button
+              disabled={store.gcdOptimizationSelectedGearIds.length === 0}
+              onClick={() => {
+                store.setGcdOptimizationSelectedGearIds([]);
+              }}
+            >
+              全不选
+            </Button>
+          </span>
+        </div>
+      )}
       <MateriaGcdOptimizationResultView result={result} />
     </div>
   );

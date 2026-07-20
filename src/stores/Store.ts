@@ -566,13 +566,14 @@ function createAllGearFrontier(
   speedStat: G.Stat,
   requiredSpeed: number,
   relevantStats: G.Stat[],
+  candidateGearIds?: readonly G.GearId[],
 ): { frontier: GcdCombinedState[], customSkipped: boolean, error?: string } {
   let frontier: GcdCombinedState[] = [{ stats: self.baseStats, plan: [], changeCost: 0 }];
   let customSkipped = false;
   for (const slot of self.schema.slots) {
     if (slot.slot === -1 || slot.slot === -2) continue;
     const gearStates: GcdGearState[] = [];
-    for (const gearId of self.filteredIds as G.GearId[]) {
+    for (const gearId of candidateGearIds ?? self.filteredIds as G.GearId[]) {
       const gear = self.gears.get(gearId.toString()) as IGearUnion | undefined;
       if (gear === undefined || gear.isFood || gear.slot !== slot.slot) continue;
       const { states, customSkipped: skipped } = getGearStates(
@@ -728,6 +729,7 @@ function optimizeGcdForStore(
   self: any,
   targetGcd: number,
   mode: GcdOptimizationMode,
+  candidateGearIds?: readonly G.GearId[],
 ): GcdOptimizationResult {
   if (self.job === undefined) return { status: 'error', message: '请先选择职业。' };
   if (self.loadingStatus !== 'ready') return { status: 'error', message: '装备数据仍在加载。' };
@@ -750,7 +752,7 @@ function optimizeGcdForStore(
   try {
     const optimization: { frontier: GcdCombinedState[], customSkipped: boolean, error?: string } = mode === 'current'
       ? createCurrentGearFrontier(self, speedStat, requiredSpeed, relevantStats)
-      : createAllGearFrontier(self, speedStat, requiredSpeed, relevantStats);
+      : createAllGearFrontier(self, speedStat, requiredSpeed, relevantStats, candidateGearIds);
     const { frontier, customSkipped, error } = optimization;
     if (error !== undefined) {
       return { status: 'error', message: error };
@@ -775,14 +777,16 @@ function createGcdOptimizationInput(
   self: any,
   targetGcd: number,
   mode: GcdOptimizationMode,
+  candidateGearIds?: readonly G.GearId[],
 ): GcdOptimizationInput {
+  const filteredIds = candidateGearIds ?? self.filteredIds as G.GearId[];
   const gears = new Map<G.GearId, GcdOptimizationGearInput>();
   const addGear = (gear: IGearUnion | undefined) => {
     if (gear === undefined || gear.isFood) return;
     gears.set(gear.id, createGcdOptimizationGearInput(gear));
   };
 
-  for (const gearId of self.filteredIds as G.GearId[]) {
+  for (const gearId of filteredIds) {
     addGear(self.gears.get(gearId.toString()) as IGearUnion | undefined);
   }
 
@@ -817,7 +821,7 @@ function createGcdOptimizationInput(
     baseStats: self.baseStats,
     currentDamage: self.equippedEffects?.damage ?? 0,
     currentFoodId,
-    filteredIds: self.filteredIds as G.GearId[],
+    filteredIds: Array.from(filteredIds),
     equippedGearIdsBySlot,
     gears: Array.from(gears.values()),
     foods,
@@ -894,6 +898,8 @@ export const Store = mst.types
     tiersShown: localStorage.getItem(tiersShownStorageKey) === 'true',
     materiaOverallActiveTab: 0,
     autoSelectScheduled: false,
+    gcdOptimizationGearSelectionActive: false,
+    gcdOptimizationSelectedGearIds: [] as G.GearId[],
   }))
   .views(self => ({
     get filteredIds(): G.GearId[] {
@@ -1578,6 +1584,24 @@ export const Store = mst.types
     setMateriaOverallActiveTab(activeTab: number) {
       self.materiaOverallActiveTab = activeTab;
     },
+    startGcdOptimizationGearSelection(gearIds: G.GearId[]) {
+      self.gcdOptimizationSelectedGearIds = gearIds;
+      self.gcdOptimizationGearSelectionActive = true;
+    },
+    stopGcdOptimizationGearSelection() {
+      self.gcdOptimizationGearSelectionActive = false;
+    },
+    setGcdOptimizationSelectedGearIds(gearIds: G.GearId[]) {
+      self.gcdOptimizationSelectedGearIds = gearIds;
+    },
+    toggleGcdOptimizationGearSelection(gearId: G.GearId) {
+      if (self.gcdOptimizationSelectedGearIds.includes(gearId)) {
+        self.gcdOptimizationSelectedGearIds = self.gcdOptimizationSelectedGearIds.filter(id => id !== gearId);
+      } else {
+        const selectedIds = new Set(self.gcdOptimizationSelectedGearIds.concat(gearId));
+        self.gcdOptimizationSelectedGearIds = self.filteredIds.filter(id => selectedIds.has(id));
+      }
+    },
     setMateriaDetDhtOptimization(gearMateriaStats: Map<G.GearId, G.Stat[]>): void {
       for (const [ gearId, materiaStats ] of gearMateriaStats.entries()) {
         const gear = self.gears.get(gearId as any) as IGear;
@@ -1590,13 +1614,21 @@ export const Store = mst.types
         }
       }
     },
-    optimizeGcd(targetGcd: number, mode: GcdOptimizationMode): GcdOptimizationResult {
-      return optimizeGcdForStore(self, targetGcd, mode);
+    optimizeGcd(
+      targetGcd: number,
+      mode: GcdOptimizationMode,
+      candidateGearIds?: G.GearId[],
+    ): GcdOptimizationResult {
+      return optimizeGcdForStore(self, targetGcd, mode, candidateGearIds);
     },
-    optimizeGcdAsync(targetGcd: number, mode: GcdOptimizationMode): Promise<GcdOptimizationResult> {
+    optimizeGcdAsync(
+      targetGcd: number,
+      mode: GcdOptimizationMode,
+      candidateGearIds?: G.GearId[],
+    ): Promise<GcdOptimizationResult> {
       if (self.job === undefined) return Promise.resolve({ status: 'error', message: '请先选择职业。' });
       if (self.loadingStatus !== 'ready') return Promise.resolve({ status: 'error', message: '装备数据仍在加载。' });
-      const input = createGcdOptimizationInput(self, targetGcd, mode);
+      const input = createGcdOptimizationInput(self, targetGcd, mode, candidateGearIds);
       console.log('optimizeGcdAsync params:', JSON.stringify(input));
       return optimizeGcdInWorker(input) as Promise<GcdOptimizationResult>;
     },

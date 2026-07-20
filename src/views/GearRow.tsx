@@ -45,6 +45,17 @@ export const GearRow = mobxReact.observer<{
       }}
     >
       <td className={classNames('gears_left', `gears_color-${gear.color}`)}>
+        {!gear.isFood && store.gcdOptimizationGearSelectionActive && (
+          <span className="gears_optimization-checkbox-wrapper" onClick={e => e.stopPropagation()}>
+            <input
+              className="gears_optimization-checkbox"
+              type="checkbox"
+              aria-label={`${gear.name}计入副属性计算`}
+              checked={store.gcdOptimizationSelectedGearIds.includes(gear.id)}
+              onChange={() => store.toggleGcdOptimizationGearSelection(gear.id)}
+            />
+          </span>
+        )}
         {slot !== undefined && <span className="gears_inline-slot">{(slot.shortName ?? slot.name).slice(0, 2)}</span>}
         {store.setting.gearDisplayName === 'source' && !gear.isFood && gear.source ? (
           <span className="gears_name">
