@@ -224,6 +224,40 @@
     font-size: 12px;
   }
 }
+.materia-gcd-optimization_source-selector {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 16px 10px;
+  border-bottom: 1px solid var(--color-divider);
+}
+.materia-gcd-optimization_source-selector-label {
+  flex: none;
+  line-height: 26px;
+  color: rgb(var(--color-text-base), .6);
+}
+.materia-gcd-optimization_sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.materia-gcd-optimization_source {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 26px;
+  padding: 0 7px;
+  border: 1px solid var(--color-divider-noalpha);
+  border-radius: 4px;
+  cursor: pointer;
+  input {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    accent-color: var(--mdc-theme-primary);
+    cursor: pointer;
+  }
+}
 .materia-gcd-optimization_empty,
 .materia-gcd-optimization_message,
 .materia-gcd-optimization_note {

@@ -10,7 +10,7 @@ import { Switch } from './@rmwc/switch';
 import { Badge } from './@rmwc/badge';
 import * as G from '../game';
 import { gcdOptimizationMaxTargetGcd, gcdOptimizationMinTargetGcd } from '../stores';
-import type { GcdOptimizationMode, GcdOptimizationResult, IGearUnion,
+import type { GcdOptimizationMode, GcdOptimizationResult, IGear, IGearUnion,
   ProductionMateriaOptimizationResult, ProductionMateriaStat } from '../stores';
 import { useStore } from './components/contexts';
 
@@ -344,10 +344,18 @@ const ProductionMateriaResultView = mobxReact.observer<{
 
 const MateriaGcdCalculationPanel = mobxReact.observer(() => {
   const store = useStore();
-  const candidateGearIds = store.filteredIds.flatMap((gearId) => {
+  const candidateGears = store.filteredIds.flatMap((gearId) => {
     const gear = store.gears.get(gearId.toString()) as IGearUnion | undefined;
-    return gear === undefined || gear.isFood ? [] : [gear.id];
-  });
+    return gear === undefined || gear.isFood ? [] : [gear];
+  }) as IGear[];
+  const candidateGearIds = candidateGears.map(gear => gear.id);
+  const candidateGearSourceGroups = Array.from(candidateGears.reduce((groups, gear) => {
+    const source = gear.source ?? '其他';
+    const gearIds = groups.get(source) ?? [];
+    gearIds.push(gear.id);
+    groups.set(source, gearIds);
+    return groups;
+  }, new Map<string, G.GearId[]>()));
   const [mode, setMode] = React.useState<GcdOptimizationMode>('current');
   const [targetGcd, setTargetGcd] = React.useState(() => formatGcdTarget(store.equippedEffects?.gcd));
   const [result, setResult] = React.useState<GcdOptimizationResult>();
@@ -432,29 +440,64 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
         </div>
       </div>
       {mode === 'all' && (
-        <div className="materia-gcd-optimization_gear-selector">
-          <span>
-            {`参与计算的装备 ${store.gcdOptimizationSelectedGearIds.length}/${candidateGearIds.length}`}
-          </span>
-          <span className="materia-gcd-optimization_gear-selector-actions">
-            <Button
-              disabled={store.gcdOptimizationSelectedGearIds.length === candidateGearIds.length}
-              onClick={() => {
-                store.setGcdOptimizationSelectedGearIds(candidateGearIds);
-              }}
-            >
-              全选
-            </Button>
-            <Button
-              disabled={store.gcdOptimizationSelectedGearIds.length === 0}
-              onClick={() => {
-                store.setGcdOptimizationSelectedGearIds([]);
-              }}
-            >
-              全不选
-            </Button>
-          </span>
-        </div>
+        <>
+          <div className="materia-gcd-optimization_gear-selector">
+            <span>
+              {`参与计算的装备 ${store.gcdOptimizationSelectedGearIds.length}/${candidateGearIds.length}`}
+            </span>
+            <span className="materia-gcd-optimization_gear-selector-actions">
+              <Button
+                disabled={store.gcdOptimizationSelectedGearIds.length === candidateGearIds.length}
+                onClick={() => {
+                  store.setGcdOptimizationSelectedGearIds(candidateGearIds);
+                }}
+              >
+                全选
+              </Button>
+              <Button
+                disabled={store.gcdOptimizationSelectedGearIds.length === 0}
+                onClick={() => {
+                  store.setGcdOptimizationSelectedGearIds([]);
+                }}
+              >
+                全不选
+              </Button>
+            </span>
+          </div>
+          <div className="materia-gcd-optimization_source-selector">
+            <span className="materia-gcd-optimization_source-selector-label">按获取途径</span>
+            <span className="materia-gcd-optimization_sources">
+              {candidateGearSourceGroups.map(([source, gearIds]) => {
+                const selectedCount = gearIds.filter(gearId =>
+                  store.gcdOptimizationSelectedGearIds.includes(gearId)).length;
+                const allSelected = selectedCount === gearIds.length;
+                const partiallySelected = selectedCount > 0 && !allSelected;
+                return (
+                  <label className="materia-gcd-optimization_source" key={source}>
+                    <input
+                      type="checkbox"
+                      checked={allSelected}
+                      ref={(input) => {
+                        if (input !== null) input.indeterminate = partiallySelected;
+                      }}
+                      onChange={() => {
+                        const nextSelectedGearIds = new Set(store.gcdOptimizationSelectedGearIds);
+                        for (const gearId of gearIds) {
+                          if (allSelected) nextSelectedGearIds.delete(gearId);
+                          else nextSelectedGearIds.add(gearId);
+                        }
+                        store.setGcdOptimizationSelectedGearIds(
+                          candidateGearIds.filter(gearId => nextSelectedGearIds.has(gearId)),
+                        );
+                      }}
+                    />
+                    <span>{source}</span>
+                  </label>
+                );
+              })}
+            </span>
+          </div>
+        </>
       )}
       <MateriaGcdOptimizationResultView result={result} />
     </div>
