@@ -258,6 +258,37 @@
     cursor: pointer;
   }
 }
+.materia-gcd-optimization_progression {
+  padding: 8px 16px 10px;
+  border-bottom: 1px solid var(--color-divider);
+}
+.materia-gcd-optimization_progression-controls,
+.materia-gcd-optimization_progression-weeks {
+  display: flex;
+  align-items: center;
+}
+.materia-gcd-optimization_progression-controls {
+  min-height: 32px;
+  gap: 20px;
+}
+.materia-gcd-optimization_progression-weeks {
+  gap: 8px;
+  color: rgb(var(--color-text-base), .7);
+}
+.materia-gcd-optimization_progression-input {
+  width: 72px;
+}
+.materia-gcd-optimization_progression-tip,
+.materia-gcd-optimization_progression-validation {
+  margin-top: 6px;
+  line-height: 20px;
+}
+.materia-gcd-optimization_progression-tip {
+  color: rgb(var(--color-text-base), .6);
+}
+.materia-gcd-optimization_progression-validation {
+  color: var(--mdc-theme-error);
+}
 .materia-gcd-optimization_empty,
 .materia-gcd-optimization_message,
 .materia-gcd-optimization_note {

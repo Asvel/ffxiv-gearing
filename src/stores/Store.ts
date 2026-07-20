@@ -6,6 +6,7 @@ import { floor, ceil, Setting, Promotion, GearUnion, GearUnionReference,
   gearData, gearDataOrdered, gearDataLoading, loadGearDataOfGearId, loadGearDataOfLevelRange } from '.';
 import type { IGear, IFood, IGearUnion, IMateria } from '.';
 import { cancelGcdOptimizationInWorker, optimizeGcdInWorker } from './gcdOptimizationWorkerClient';
+import { optimizeGcd as optimizeGcdCore } from './gcdOptimizationCore';
 import type { GcdOptimizationGearInput, GcdOptimizationInput } from './gcdOptimizationCore';
 import { optimizeProductionMateria } from './productionMateriaOptimizationCore';
 import type { ProductionMateriaOptimizationInput, ProductionMateriaOptimizationResult,
@@ -778,6 +779,7 @@ function createGcdOptimizationInput(
   targetGcd: number,
   mode: GcdOptimizationMode,
   candidateGearIds?: readonly G.GearId[],
+  progressionWeeks?: number,
 ): GcdOptimizationInput {
   const filteredIds = candidateGearIds ?? self.filteredIds as G.GearId[];
   const gears = new Map<G.GearId, GcdOptimizationGearInput>();
@@ -815,6 +817,7 @@ function createGcdOptimizationInput(
   return {
     mode,
     targetGcd,
+    progressionWeeks,
     job: self.job,
     jobLevel: self.jobLevel,
     syncLevel: self.syncLevel,
@@ -1618,17 +1621,28 @@ export const Store = mst.types
       targetGcd: number,
       mode: GcdOptimizationMode,
       candidateGearIds?: G.GearId[],
+      progressionWeeks?: number,
     ): GcdOptimizationResult {
+      if (progressionWeeks !== undefined) {
+        return optimizeGcdCore(createGcdOptimizationInput(
+          self,
+          targetGcd,
+          mode,
+          candidateGearIds,
+          progressionWeeks,
+        )) as GcdOptimizationResult;
+      }
       return optimizeGcdForStore(self, targetGcd, mode, candidateGearIds);
     },
     optimizeGcdAsync(
       targetGcd: number,
       mode: GcdOptimizationMode,
       candidateGearIds?: G.GearId[],
+      progressionWeeks?: number,
     ): Promise<GcdOptimizationResult> {
       if (self.job === undefined) return Promise.resolve({ status: 'error', message: '请先选择职业。' });
       if (self.loadingStatus !== 'ready') return Promise.resolve({ status: 'error', message: '装备数据仍在加载。' });
-      const input = createGcdOptimizationInput(self, targetGcd, mode, candidateGearIds);
+      const input = createGcdOptimizationInput(self, targetGcd, mode, candidateGearIds, progressionWeeks);
       console.log('optimizeGcdAsync params:', JSON.stringify(input));
       return optimizeGcdInWorker(input) as Promise<GcdOptimizationResult>;
     },

@@ -73,6 +73,7 @@ export interface GcdOptimizationGearInput {
 export interface GcdOptimizationInput {
   mode: GcdOptimizationMode,
   targetGcd: number,
+  progressionWeeks?: number,
   job: G.Job,
   jobLevel: G.JobLevel,
   syncLevel?: number,
@@ -92,6 +93,8 @@ interface GcdGearState {
   stats: G.Stats,
   materias?: GcdOptimizationMateriaPlan[],
   changeCost: number,
+  tomestoneCost?: number,
+  raidCost?: number,
 }
 
 interface GcdPlanNode {
@@ -103,6 +106,8 @@ interface GcdCombinedState {
   stats: G.Stats,
   plan?: GcdPlanNode,
   changeCost: number,
+  tomestoneCost?: number,
+  raidCost?: number,
 }
 
 interface GcdMateriaState {
@@ -133,6 +138,8 @@ interface GcdExactState {
   values: number[],
   dualScores: number[],
   changeCost: number,
+  tomestoneCost?: number,
+  raidCost?: number,
   plan?: GcdExactPlanNode,
 }
 
@@ -184,6 +191,7 @@ interface GcdOptimizationContext extends GcdOptimizationInput {
   schema: G.JobSchema,
   gearById: Map<G.GearId, GcdOptimizationGearInput>,
   equippedGearIdBySlot: Map<number, G.GearId>,
+  progressionPointWeaponChargeSlot?: number,
 }
 
 export const gcdOptimizationMinTargetGcd = 1.80;
@@ -193,6 +201,78 @@ const gcdOptimizationFrontierLimit = 200000;
 const gcdOptimizationExactStateLimit = 1000000;
 const gcdOptimizationDamageTolerance = 1e-10;
 const gcdOptimizationBoundTolerance = 1e-10;
+const progressionTomestonePerWeek = 450;
+const progressionRaidTokensPerWeek = 4;
+const progressionPointWeaponCost = 500;
+
+interface ProgressionCostState {
+  tomestoneCost?: number,
+  raidCost?: number,
+}
+
+function getTomestoneCost(state: ProgressionCostState): number {
+  return state.tomestoneCost ?? 0;
+}
+
+function getRaidCost(state: ProgressionCostState): number {
+  return state.raidCost ?? 0;
+}
+
+function isWithinProgressionBudget(ctx: GcdOptimizationContext, state: ProgressionCostState): boolean {
+  if (ctx.progressionWeeks === undefined) return true;
+  return getTomestoneCost(state) <= progressionTomestonePerWeek * ctx.progressionWeeks &&
+    getRaidCost(state) <= progressionRaidTokensPerWeek * ctx.progressionWeeks;
+}
+
+function isTomestoneGear(gear: GcdOptimizationGearInput): boolean {
+  return gear.data.source?.startsWith('点数/') === true;
+}
+
+function isWeaponSlot(ctx: GcdOptimizationContext, slot: number): boolean {
+  return ctx.schema.slots.some(item => item.slot === slot && item.uiGroup === 'weapon');
+}
+
+function getGearProgressionCosts(
+  ctx: GcdOptimizationContext,
+  gear: GcdOptimizationGearInput,
+): Required<ProgressionCostState> {
+  if (ctx.progressionWeeks === undefined) return { tomestoneCost: 0, raidCost: 0 };
+  if (isTomestoneGear(gear)) {
+    if (isWeaponSlot(ctx, gear.slot)) {
+      return {
+        tomestoneCost: gear.slot === ctx.progressionPointWeaponChargeSlot ? progressionPointWeaponCost : 0,
+        raidCost: 0,
+      };
+    }
+    const tomestoneCosts: Record<number, number> = {
+      3: 495,
+      4: 825,
+      5: 495,
+      7: 825,
+      8: 495,
+      9: 375,
+      10: 375,
+      11: 375,
+      12: 375,
+    };
+    return { tomestoneCost: tomestoneCosts[Math.abs(gear.slot)] ?? 0, raidCost: 0 };
+  }
+  if (gear.data.source?.startsWith('大型任务/') === true) {
+    const raidCosts: Record<number, number> = {
+      3: 2,
+      4: 4,
+      5: 2,
+      7: 4,
+      8: 2,
+      9: 1,
+      10: 1,
+      11: 1,
+      12: 1,
+    };
+    return { tomestoneCost: 0, raidCost: raidCosts[Math.abs(gear.slot)] ?? 0 };
+  }
+  return { tomestoneCost: 0, raidCost: 0 };
+}
 
 function floor(value: number) {
   return Math.trunc(value + 1e-7);
@@ -397,7 +477,7 @@ function getSpeedOverflow(stats: G.Stats, speedStat: G.Stat, requiredSpeed: numb
   return Math.max(0, (stats[speedStat] ?? 0) - requiredSpeed);
 }
 
-function shouldReplaceSamePruneKey<T extends { stats: G.Stats, changeCost: number }>(
+function shouldReplaceSamePruneKey<T extends { stats: G.Stats, changeCost: number } & ProgressionCostState>(
   state: T,
   existing: T,
   speedStat: G.Stat,
@@ -408,13 +488,14 @@ function shouldReplaceSamePruneKey<T extends { stats: G.Stats, changeCost: numbe
   return overflow < existingOverflow || overflow === existingOverflow && state.changeCost < existing.changeCost;
 }
 
-function addUniqueState<T extends { stats: G.Stats, changeCost: number }>(
+function addUniqueState<T extends { stats: G.Stats, changeCost: number } & ProgressionCostState>(
   unique: Map<string, T>,
   state: T,
   relevantStats: G.Stat[],
   speedStat: G.Stat,
   requiredSpeed: number,
-  key=getPruneKey(state.stats, relevantStats, speedStat, requiredSpeed),
+  key=`${getPruneKey(state.stats, relevantStats, speedStat, requiredSpeed)};` +
+    `${getTomestoneCost(state)},${getRaidCost(state)}`,
 ): void {
   const existing = unique.get(key);
   if (existing === undefined || shouldReplaceSamePruneKey(state, existing, speedStat, requiredSpeed)) {
@@ -422,7 +503,7 @@ function addUniqueState<T extends { stats: G.Stats, changeCost: number }>(
   }
 }
 
-function deduplicateStates<T extends { stats: G.Stats, changeCost: number }>(
+function deduplicateStates<T extends { stats: G.Stats, changeCost: number } & ProgressionCostState>(
   states: Iterable<T>,
   relevantStats: G.Stat[],
   speedStat: G.Stat,
@@ -435,7 +516,7 @@ function deduplicateStates<T extends { stats: G.Stats, changeCost: number }>(
   return Array.from(unique.values());
 }
 
-function pruneUniqueStates<T extends { stats: G.Stats, changeCost: number }>(
+function pruneUniqueStates<T extends { stats: G.Stats, changeCost: number } & ProgressionCostState>(
   states: T[],
   relevantStats: G.Stat[],
   speedStat: G.Stat,
@@ -447,6 +528,10 @@ function pruneUniqueStates<T extends { stats: G.Stats, changeCost: number }>(
         getComparableStatValue(a.stats, stat, speedStat, requiredSpeed);
       if (diff !== 0) return diff;
     }
+    const tomestoneDiff = getTomestoneCost(a) - getTomestoneCost(b);
+    if (tomestoneDiff !== 0) return tomestoneDiff;
+    const raidDiff = getRaidCost(a) - getRaidCost(b);
+    if (raidDiff !== 0) return raidDiff;
     return a.changeCost - b.changeCost;
   });
   const otherStats = relevantStats.filter(stat => stat !== speedStat);
@@ -456,13 +541,17 @@ function pruneUniqueStates<T extends { stats: G.Stats, changeCost: number }>(
     state => [
       ...otherStats.map(stat => state.stats[stat] ?? 0),
       -getSpeedOverflow(state.stats, speedStat, requiredSpeed),
+      -getTomestoneCost(state),
+      -getRaidCost(state),
       -state.changeCost,
     ],
     gcdOptimizationFrontierLimit,
   );
 }
 
-export function pruneGcdOptimizationStates<T extends { stats: G.Stats, changeCost: number }>(
+export function pruneGcdOptimizationStates<
+  T extends { stats: G.Stats, changeCost: number } & ProgressionCostState,
+>(
   states: Iterable<T>,
   relevantStats: G.Stat[],
   speedStat: G.Stat,
@@ -514,6 +603,7 @@ function getGearStates(
   }
 
   const baseChangeCost = getGearChangeCost(currentGear, gear);
+  const progressionCosts = getGearProgressionCosts(ctx, gear);
   const { stats: syncedStats, syncedLevel } = getGearBaseStats(
     data,
     ctx.schema,
@@ -530,6 +620,7 @@ function getGearStates(
         gearId: gear.id,
         stats: syncedStats,
         changeCost: baseChangeCost,
+        ...progressionCosts,
       }],
     };
   }
@@ -581,6 +672,7 @@ function getGearStates(
     stats: state.stats,
     materias: state.materias,
     changeCost: baseChangeCost + state.changeCost,
+    ...progressionCosts,
   }));
 
   return {
@@ -590,6 +682,7 @@ function getGearStates(
 }
 
 function combineFrontier(
+  ctx: GcdOptimizationContext,
   frontier: GcdCombinedState[],
   gearStates: GcdGearState[],
   relevantStats: G.Stat[],
@@ -604,10 +697,13 @@ function combineFrontier(
     for (const gearState of gearStates) {
       const speed = (frontierState.stats[speedStat] ?? 0) + (gearState.stats[speedStat] ?? 0);
       const changeCost = frontierState.changeCost + gearState.changeCost;
-      const key = relevantStats.map(stat => {
+      const tomestoneCost = getTomestoneCost(frontierState) + getTomestoneCost(gearState);
+      const raidCost = getRaidCost(frontierState) + getRaidCost(gearState);
+      if (!isWithinProgressionBudget(ctx, { tomestoneCost, raidCost })) continue;
+      const key = `${relevantStats.map(stat => {
         const value = (frontierState.stats[stat] ?? 0) + (gearState.stats[stat] ?? 0);
         return stat === speedStat ? Math.min(value, requiredSpeed) : value;
-      }).join(',');
+      }).join(',')};${tomestoneCost},${raidCost}`;
       const existing = combined.get(key);
       const overflow = Math.max(0, speed - requiredSpeed);
       if (
@@ -629,6 +725,8 @@ function combineFrontier(
           },
         },
         changeCost,
+        tomestoneCost,
+        raidCost,
       });
     }
   }
@@ -666,7 +764,7 @@ function createCurrentGearFrontier(
       skipSpeedMateria,
     );
     customSkipped ||= skipped;
-    frontier = combineFrontier(frontier, states, relevantStats, speedStat, requiredSpeed);
+    frontier = combineFrontier(ctx, frontier, states, relevantStats, speedStat, requiredSpeed);
   }
   return { frontier, customSkipped };
 }
@@ -701,6 +799,43 @@ function createAllGearStateSets(
       };
     }
     slots.push({ schemaIndex, slot, gears });
+  }
+
+  if (ctx.progressionWeeks !== undefined) {
+    const weaponSlots = slots.filter(item => item.slot.uiGroup === 'weapon');
+    const pointWeaponsBySlot = weaponSlots.map(item => item.gears.filter(isTomestoneGear));
+    const otherWeaponsBySlot = weaponSlots.map(item => item.gears.filter(gear => !isTomestoneGear(gear)));
+    const forcePointWeapon = weaponSlots.length > 0 && weaponSlots.every((_, index) =>
+      pointWeaponsBySlot[index].length === 1 && otherWeaponsBySlot[index].length === 0);
+    if (forcePointWeapon) {
+      const availableTomestones = progressionTomestonePerWeek * ctx.progressionWeeks;
+      if (availableTomestones < progressionPointWeaponCost) {
+        return {
+          slotStates: [],
+          customSkipped,
+          guaranteedBaseSpeed: 0,
+          error: `准备 ${ctx.progressionWeeks} 周只有 ${availableTomestones} 点数，` +
+            `不足以购买需要 ${progressionPointWeaponCost} 点数的武器。`,
+        };
+      }
+      // 骑士的主手和盾牌共同消耗 500 点；把成本记在第一个武器部位即可避免重复扣除。
+      ctx.progressionPointWeaponChargeSlot = weaponSlots[0].slot.slot;
+    } else {
+      for (let index = 0; index < weaponSlots.length; index++) {
+        weaponSlots[index].gears = otherWeaponsBySlot[index];
+        if (weaponSlots[index].gears.length > 0) continue;
+        const onlyPointWeapons = pointWeaponsBySlot.every((pointWeapons, pointIndex) =>
+          pointWeapons.length > 0 && otherWeaponsBySlot[pointIndex].length === 0);
+        return {
+          slotStates: [],
+          customSkipped,
+          guaranteedBaseSpeed: 0,
+          error: onlyPointWeapons
+            ? '使用点数武器时，请取消勾选其他武器，并在每个武器部位仅保留一件点数武器。'
+            : `${weaponSlots[index].slot.name}没有可用装备，无法生成完整配装。`,
+        };
+      }
+    }
   }
 
   const guaranteedBaseSpeed = (ctx.baseStats[speedStat] ?? 0) + slots.reduce((total, slot) =>
@@ -744,6 +879,7 @@ function combineAllGearStateSets(
   let frontier: GcdCombinedState[] = [{ stats: ctx.baseStats, changeCost: 0 }];
   for (const slot of slotStates) {
     frontier = combineFrontier(
+      ctx,
       frontier,
       slot.states,
       relevantStats,
@@ -1111,6 +1247,71 @@ function getExactCombinedStats(ctx: GcdOptimizationContext, choices: GcdExactCho
   return stats;
 }
 
+function getExactChoicesProgressionCosts(choices: GcdExactChoice[]): Required<ProgressionCostState> {
+  return choices.reduce((costs, choice) => ({
+    tomestoneCost: costs.tomestoneCost + getTomestoneCost(choice.state),
+    raidCost: costs.raidCost + getRaidCost(choice.state),
+  }), { tomestoneCost: 0, raidCost: 0 });
+}
+
+function areExactChoicesWithinProgressionBudget(
+  ctx: GcdOptimizationContext,
+  choices: GcdExactChoice[],
+): boolean {
+  return isWithinProgressionBudget(ctx, getExactChoicesProgressionCosts(choices));
+}
+
+function selectExactChoicesWithinProgressionBudget(
+  ctx: GcdOptimizationContext,
+  slots: GcdExactSlot[],
+  getScore: (choice: GcdExactChoice) => number,
+): GcdExactChoice[] | undefined {
+  if (ctx.progressionWeeks === undefined) {
+    return slots.map(slot => slot.choices.reduce((best, choice) =>
+      getScore(choice) > getScore(best) ? choice : best));
+  }
+  interface SelectionState extends Required<ProgressionCostState> {
+    score: number,
+    choices: GcdExactChoice[],
+  }
+  let selections = new Map<string, SelectionState>();
+  selections.set('0,0', { tomestoneCost: 0, raidCost: 0, score: 0, choices: [] });
+  for (const slot of slots) {
+    const bestChoicesByCost = new Map<string, { choice: GcdExactChoice, score: number }>();
+    for (const choice of slot.choices) {
+      const key = `${getTomestoneCost(choice.state)},${getRaidCost(choice.state)}`;
+      const score = getScore(choice);
+      const existing = bestChoicesByCost.get(key);
+      if (existing === undefined || score > existing.score) {
+        bestChoicesByCost.set(key, { choice, score });
+      }
+    }
+    const next = new Map<string, SelectionState>();
+    for (const selection of selections.values()) {
+      for (const option of bestChoicesByCost.values()) {
+        const tomestoneCost = selection.tomestoneCost + getTomestoneCost(option.choice.state);
+        const raidCost = selection.raidCost + getRaidCost(option.choice.state);
+        if (!isWithinProgressionBudget(ctx, { tomestoneCost, raidCost })) continue;
+        const key = `${tomestoneCost},${raidCost}`;
+        const score = selection.score + option.score;
+        const existing = next.get(key);
+        if (existing === undefined || score > existing.score) {
+          next.set(key, {
+            tomestoneCost,
+            raidCost,
+            score,
+            choices: selection.choices.concat(option.choice),
+          });
+        }
+      }
+    }
+    selections = next;
+    if (selections.size === 0) return;
+  }
+  return Array.from(selections.values()).reduce((best, selection) =>
+    selection.score > best.score ? selection : best).choices;
+}
+
 function getExactDamageBaseWeights(model: GcdExactDamageModel): number[] {
   return model.damageStats.map((stat, index) => {
     const low = model.lowerBounds[index];
@@ -1136,14 +1337,12 @@ function findExactDamageIncumbent(
   };
   for (let attempt = 0; attempt < 40; attempt++) {
     const weights = baseWeights.map(weight => weight * Math.exp((random() - 0.5) * (attempt === 0 ? 0 : 3)));
-    const selected = slots.map(slot => slot.choices.reduce((best, choice) => {
-      const bestScore = model.damageIndexes.reduce((score, statIndex, index) =>
-        score + weights[index] * best.values[statIndex], 0);
-      const score = model.damageIndexes.reduce((total, statIndex, index) =>
-        total + weights[index] * choice.values[statIndex], 0);
-      return score > bestScore ? choice : best;
-    }));
+    const selected = selectExactChoicesWithinProgressionBudget(ctx, slots, choice =>
+      model.damageIndexes.reduce((score, statIndex, index) =>
+        score + weights[index] * choice.values[statIndex], 0));
+    if (selected === undefined) continue;
     let values = selected.reduce((total, choice) => addStatValues(total, choice.values), baseValues);
+    let progressionCosts = getExactChoicesProgressionCosts(selected);
     for (let round = 0; round < 3; round++) {
       let changed = false;
       for (let slotIndex = 0; slotIndex < slots.length; slotIndex++) {
@@ -1152,6 +1351,13 @@ function findExactDamageIncumbent(
         let localValues = values;
         let localDamage = getMaximumExactModelDamage(ctx, model, values);
         for (const choice of slots[slotIndex].choices) {
+          const candidateProgressionCosts = {
+            tomestoneCost: progressionCosts.tomestoneCost - getTomestoneCost(selected[slotIndex].state) +
+              getTomestoneCost(choice.state),
+            raidCost: progressionCosts.raidCost - getRaidCost(selected[slotIndex].state) +
+              getRaidCost(choice.state),
+          };
+          if (!isWithinProgressionBudget(ctx, candidateProgressionCosts)) continue;
           const candidateValues = addStatValues(without, choice.values);
           const damage = getMaximumExactModelDamage(ctx, model, candidateValues);
           if (damage > localDamage) {
@@ -1161,12 +1367,19 @@ function findExactDamageIncumbent(
           }
         }
         changed ||= localChoice !== selected[slotIndex];
+        progressionCosts = {
+          tomestoneCost: progressionCosts.tomestoneCost - getTomestoneCost(selected[slotIndex].state) +
+            getTomestoneCost(localChoice.state),
+          raidCost: progressionCosts.raidCost - getRaidCost(selected[slotIndex].state) +
+            getRaidCost(localChoice.state),
+        };
         selected[slotIndex] = localChoice;
         values = localValues;
       }
       if (!changed) break;
     }
 
+    if (!areExactChoicesWithinProgressionBudget(ctx, selected)) continue;
     const combined: GcdCombinedState = { stats: getExactCombinedStats(ctx, selected), changeCost: 0 };
     for (const food of model.foods) {
       const finalStats = getFinalStats(ctx, combined, food);
@@ -1177,7 +1390,9 @@ function findExactDamageIncumbent(
       bestDamage = Math.max(bestDamage, effects.damage);
     }
   }
-  return Number.isFinite(bestDamage) ? { damage: bestDamage, baseWeights } : undefined;
+  return Number.isFinite(bestDamage) || ctx.progressionWeeks !== undefined
+    ? { damage: bestDamage, baseWeights }
+    : undefined;
 }
 
 function createDamageDual(
@@ -1296,7 +1511,13 @@ function exactStateToCombinedState(ctx: GcdOptimizationContext, state: GcdExactS
       item: { slot: choice.slot, gearId: choice.gearId, materias: choice.materias },
     };
   }
-  return { stats, plan, changeCost: state.changeCost };
+  return {
+    stats,
+    plan,
+    changeCost: state.changeCost,
+    tomestoneCost: getTomestoneCost(state),
+    raidCost: getRaidCost(state),
+  };
 }
 
 function evaluateExactGcdContenders(
@@ -1408,6 +1629,8 @@ function optimizeAllGearExactly(
     dualScores: duals.map(dual => model.damageIndexes.reduce((total, statIndex, index) =>
       total + dual.weights[index] * baseValues[statIndex], 0)),
     changeCost: 0,
+    tomestoneCost: 0,
+    raidCost: 0,
   }];
   for (let depth = 0; depth < slots.length; depth++) {
     const next = new Map<string, GcdExactState>();
@@ -1420,7 +1643,11 @@ function optimizeAllGearExactly(
         }
         if (upper + gcdOptimizationBoundTolerance < threshold) continue;
         const values = addStatValues(partial.values, choice.values);
-        const key = model.damageIndexes.map(index => values[index]).join(',');
+        const tomestoneCost = getTomestoneCost(partial) + getTomestoneCost(choice.state);
+        const raidCost = getRaidCost(partial) + getRaidCost(choice.state);
+        if (!isWithinProgressionBudget(ctx, { tomestoneCost, raidCost })) continue;
+        const key = `${model.damageIndexes.map(index => values[index]).join(',')};` +
+          `${tomestoneCost},${raidCost}`;
         const changeCost = partial.changeCost + choice.state.changeCost;
         const existing = next.get(key);
         if (
@@ -1432,6 +1659,8 @@ function optimizeAllGearExactly(
             values,
             dualScores,
             changeCost,
+            tomestoneCost,
+            raidCost,
             plan: { previous: partial.plan, state: choice.state },
           });
           if (next.size > gcdOptimizationExactStateLimit) {
@@ -1627,18 +1856,6 @@ function filterConstrainedExactSlotChoices(
   }
 }
 
-function selectConstrainedExactChoices(
-  model: GcdExactDamageModel,
-  slots: GcdExactSlot[],
-  weights: number[],
-  speedIndex: number,
-  speedWeight: number,
-): GcdExactChoice[] {
-  return slots.map(slot => slot.choices.reduce((best, choice) =>
-    getConstrainedChoiceScore(choice, model, weights, speedIndex, speedWeight) >
-      getConstrainedChoiceScore(best, model, weights, speedIndex, speedWeight) ? choice : best));
-}
-
 function improveConstrainedExactChoices(
   ctx: GcdOptimizationContext,
   model: GcdExactDamageModel,
@@ -1651,6 +1868,8 @@ function improveConstrainedExactChoices(
 ): { choices: GcdExactChoice[], values: number[], damage: number } | undefined {
   const choices = selected.slice();
   let values = choices.reduce((total, choice) => addStatValues(total, choice.values), baseValues);
+  let progressionCosts = getExactChoicesProgressionCosts(choices);
+  if (!isWithinProgressionBudget(ctx, progressionCosts)) return;
   if (values[speedIndex] < requiredBaseSpeed) return;
   for (let round = 0; round < 3; round++) {
     let changed = false;
@@ -1660,6 +1879,13 @@ function improveConstrainedExactChoices(
       let bestValues = values;
       let bestDamage = getExactModelDamage(ctx, model, values, food);
       for (const choice of slots[slotIndex].choices) {
+        const candidateProgressionCosts = {
+          tomestoneCost: progressionCosts.tomestoneCost - getTomestoneCost(choices[slotIndex].state) +
+            getTomestoneCost(choice.state),
+          raidCost: progressionCosts.raidCost - getRaidCost(choices[slotIndex].state) +
+            getRaidCost(choice.state),
+        };
+        if (!isWithinProgressionBudget(ctx, candidateProgressionCosts)) continue;
         const candidateValues = addStatValues(without, choice.values);
         if (candidateValues[speedIndex] < requiredBaseSpeed) continue;
         const damage = getExactModelDamage(ctx, model, candidateValues, food);
@@ -1670,6 +1896,12 @@ function improveConstrainedExactChoices(
         }
       }
       changed ||= bestChoice !== choices[slotIndex];
+      progressionCosts = {
+        tomestoneCost: progressionCosts.tomestoneCost - getTomestoneCost(choices[slotIndex].state) +
+          getTomestoneCost(bestChoice.state),
+        raidCost: progressionCosts.raidCost - getRaidCost(choices[slotIndex].state) +
+          getRaidCost(bestChoice.state),
+      };
       choices[slotIndex] = bestChoice;
       values = bestValues;
     }
@@ -1688,8 +1920,12 @@ function findConstrainedExactIncumbent(
   food: G.Food | undefined,
   baseWeights: number[],
 ): { choices: GcdExactChoice[], values: number[], damage: number } | undefined {
-  const maximumSpeedChoices = slots.map(slot => slot.choices.reduce((best, choice) =>
-    choice.values[speedIndex] > best.values[speedIndex] ? choice : best));
+  const maximumSpeedChoices = selectExactChoicesWithinProgressionBudget(
+    ctx,
+    slots,
+    choice => choice.values[speedIndex],
+  );
+  if (maximumSpeedChoices === undefined) return;
   const maximumSpeed = maximumSpeedChoices.reduce((total, choice) => total + choice.values[speedIndex],
     baseValues[speedIndex]);
   if (maximumSpeed < requiredBaseSpeed) return;
@@ -1703,6 +1939,7 @@ function findConstrainedExactIncumbent(
     requiredBaseSpeed,
     food,
   );
+  if (best !== undefined && !areExactChoicesWithinProgressionBudget(ctx, best.choices)) best = undefined;
   let seed = 0x9e3779b9;
   const random = () => {
     seed = (Math.imul(1664525, seed) + 1013904223) >>> 0;
@@ -1710,13 +1947,22 @@ function findConstrainedExactIncumbent(
   };
   for (let attempt = 0; attempt < 24; attempt++) {
     const weights = baseWeights.map(weight => weight * Math.exp((random() - 0.5) * (attempt === 0 ? 0 : 4)));
-    let selected = selectConstrainedExactChoices(model, slots, weights, speedIndex, 0);
+    let selected = selectExactChoicesWithinProgressionBudget(
+      ctx,
+      slots,
+      choice => getConstrainedChoiceScore(choice, model, weights, speedIndex, 0),
+    );
+    if (selected === undefined) continue;
     let speed = selected.reduce((total, choice) => total + choice.values[speedIndex], baseValues[speedIndex]);
     if (speed < requiredBaseSpeed) {
       let low = 0;
       let high = Math.max(1e-10, ...weights);
       for (let iteration = 0; iteration < 60; iteration++) {
-        selected = selectConstrainedExactChoices(model, slots, weights, speedIndex, high);
+        selected = selectExactChoicesWithinProgressionBudget(
+          ctx,
+          slots,
+          choice => getConstrainedChoiceScore(choice, model, weights, speedIndex, high),
+        )!;
         speed = selected.reduce((total, choice) => total + choice.values[speedIndex], baseValues[speedIndex]);
         if (speed >= requiredBaseSpeed) break;
         high *= 2;
@@ -1724,7 +1970,11 @@ function findConstrainedExactIncumbent(
       if (speed < requiredBaseSpeed) continue;
       for (let iteration = 0; iteration < 32; iteration++) {
         const middle = (low + high) / 2;
-        const candidate = selectConstrainedExactChoices(model, slots, weights, speedIndex, middle);
+        const candidate = selectExactChoicesWithinProgressionBudget(
+          ctx,
+          slots,
+          choice => getConstrainedChoiceScore(choice, model, weights, speedIndex, middle),
+        )!;
         const candidateSpeed = candidate.reduce((total, choice) =>
           total + choice.values[speedIndex], baseValues[speedIndex]);
         if (candidateSpeed >= requiredBaseSpeed) {
@@ -1745,7 +1995,11 @@ function findConstrainedExactIncumbent(
       requiredBaseSpeed,
       food,
     );
-    if (improved !== undefined && (best === undefined || improved.damage > best.damage)) best = improved;
+    if (
+      improved !== undefined &&
+      areExactChoicesWithinProgressionBudget(ctx, improved.choices) &&
+      (best === undefined || improved.damage > best.damage)
+    ) best = improved;
   }
   return best;
 }
@@ -1757,15 +2011,19 @@ function exactChoicesToCombinedState(
   let stats = ctx.baseStats;
   let plan: GcdPlanNode | undefined;
   let changeCost = 0;
+  let tomestoneCost = 0;
+  let raidCost = 0;
   for (const choice of choices) {
     stats = addStats(stats, choice.state.stats);
     changeCost += choice.state.changeCost;
+    tomestoneCost += getTomestoneCost(choice.state);
+    raidCost += getRaidCost(choice.state);
     plan = {
       previous: plan,
       item: { slot: choice.state.slot, gearId: choice.state.gearId, materias: choice.state.materias },
     };
   }
-  return { stats, plan, changeCost };
+  return { stats, plan, changeCost, tomestoneCost, raidCost };
 }
 
 function searchConstrainedExactFood(
@@ -1846,12 +2104,23 @@ function searchConstrainedExactFood(
     score + dual.weights[index] * baseValues[statIndex], 0));
   const selected: GcdExactChoice[] = [];
   const seen = Array.from({ length: slots.length + 1 }, () => new Map<string, { speed: number, cost: number }>());
-  const visit = (depth: number, changeCost: number): void => {
+  const visit = (
+    depth: number,
+    changeCost: number,
+    tomestoneCost: number,
+    raidCost: number,
+  ): void => {
     if (depth === slots.length) {
       if (values[speedIndex] >= requiredBaseSpeed) consider(selected, food);
       return;
     }
     for (const choice of slots[depth].choices) {
+      const nextTomestoneCost = tomestoneCost + getTomestoneCost(choice.state);
+      const nextRaidCost = raidCost + getRaidCost(choice.state);
+      if (!isWithinProgressionBudget(ctx, {
+        tomestoneCost: nextTomestoneCost,
+        raidCost: nextRaidCost,
+      })) continue;
       const nextSpeed = values[speedIndex] + choice.values[speedIndex];
       if (nextSpeed + speedSuffix[depth + 1] < requiredBaseSpeed) continue;
       let upper = Infinity;
@@ -1867,7 +2136,8 @@ function searchConstrainedExactFood(
       for (let index = 0; index < dualScores.length; index++) dualScores[index] += choice.dualScores![index];
       const nextCost = changeCost + choice.state.changeCost;
       const speedKey = Math.min(values[speedIndex], requiredBaseSpeed);
-      const key = `${model.damageIndexes.map(index => values[index]).join(',')},${speedKey}`;
+      const key = `${model.damageIndexes.map(index => values[index]).join(',')},${speedKey};` +
+        `${nextTomestoneCost},${nextRaidCost}`;
       const existing = seen[depth + 1].get(key);
       if (
         existing === undefined ||
@@ -1876,14 +2146,14 @@ function searchConstrainedExactFood(
       ) {
         seen[depth + 1].set(key, { speed: values[speedIndex], cost: nextCost });
         selected.push(choice);
-        visit(depth + 1, nextCost);
+        visit(depth + 1, nextCost, nextTomestoneCost, nextRaidCost);
         selected.pop();
       }
       for (let index = 0; index < dualScores.length; index++) dualScores[index] -= choice.dualScores![index];
       for (let index = 0; index < values.length; index++) values[index] -= choice.values[index];
     }
   };
-  visit(0, 0);
+  visit(0, 0, 0, 0);
 }
 
 function optimizeAllGearExactlyWithSpeed(
@@ -1923,6 +2193,7 @@ function optimizeAllGearExactlyWithSpeed(
   let best: GcdExactBest | undefined;
   const consider = (choices: GcdExactChoice[], food: G.Food | undefined): void => {
     const combined = exactChoicesToCombinedState(ctx, choices);
+    if (!isWithinProgressionBudget(ctx, combined)) return;
     const stats = getFinalStats(ctx, combined, food);
     const effects = calcEffects(stats, ctx.baseStats, ctx.job, ctx.jobLevel, ctx.schema);
     if (effects === undefined || effects.gcd > ctx.targetGcd) return;
@@ -1956,7 +2227,7 @@ function optimizeAllGearExactlyWithSpeed(
     search.incumbentDamage = incumbent.damage;
     consider(incumbent.choices, search.food);
   }
-  if (best === undefined) return;
+  if (best === undefined && ctx.progressionWeeks === undefined) return;
   foods.sort((a, b) => b.incumbentDamage - a.incumbentDamage);
   for (const search of foods) {
     searchConstrainedExactFood(
@@ -1968,10 +2239,11 @@ function optimizeAllGearExactlyWithSpeed(
       search.requiredBaseSpeed,
       search.food,
       weightCandidates,
-      () => best!.effects.damage,
+      () => best?.effects.damage ?? -Infinity,
       consider,
     );
   }
+  if (best === undefined) return;
   const combined = exactChoicesToCombinedState(ctx, best.choices);
   return {
     mode: ctx.mode,
@@ -1998,6 +2270,13 @@ export function optimizeGcd(input: GcdOptimizationInput): GcdOptimizationResult 
     gearById: new Map(input.gears.map(gear => [ gear.id, gear ])),
     equippedGearIdBySlot: new Map(input.equippedGearIdsBySlot),
   };
+  if (
+    ctx.progressionWeeks !== undefined &&
+    (ctx.mode !== 'all' || !Number.isInteger(ctx.progressionWeeks) ||
+      ctx.progressionWeeks < 0 || ctx.progressionWeeks > 10)
+  ) {
+    return { status: 'error', message: '准备周数目前仅支持 0–10 周。' };
+  }
   if (
     !Number.isFinite(ctx.targetGcd) ||
     ctx.targetGcd < gcdOptimizationMinTargetGcd ||
