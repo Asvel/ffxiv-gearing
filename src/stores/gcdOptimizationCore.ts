@@ -3,6 +3,11 @@ import { filterParetoFrontier, ParetoFrontierLimitError } from './paretoFrontier
 
 export type GcdOptimizationMode = 'current' | 'all';
 
+export interface GcdOptimizationSpeedRange {
+  min: number,
+  max: number,
+}
+
 export interface EquippedEffects {
   crtChance: number,
   crtDamage: number,
@@ -22,6 +27,7 @@ export interface GcdOptimizationResultBase {
   targetGcd: number,
   speedStat: G.Stat,
   requiredSpeed: number,
+  speedRange?: GcdOptimizationSpeedRange,
   customSkipped?: boolean,
 }
 
@@ -41,6 +47,8 @@ export interface GcdOptimizationUnreachableResult extends GcdOptimizationResultB
   fastestGcd: number,
   fastestSpeed: number,
   fastestDamage: number,
+  closestGcd?: number,
+  closestSpeed?: number,
 }
 
 export interface GcdOptimizationErrorResult {
@@ -73,6 +81,7 @@ export interface GcdOptimizationGearInput {
 export interface GcdOptimizationInput {
   mode: GcdOptimizationMode,
   targetGcd: number,
+  speedRange?: GcdOptimizationSpeedRange,
   progressionWeeks?: number,
   job: G.Job,
   jobLevel: G.JobLevel,
@@ -196,6 +205,7 @@ interface GcdOptimizationContext extends GcdOptimizationInput {
 
 export const gcdOptimizationMinTargetGcd = 1.80;
 export const gcdOptimizationMaxTargetGcd = 2.50;
+export const gcdOptimizationMaxSpeed = 100000;
 
 const gcdOptimizationFrontierLimit = 200000;
 const gcdOptimizationExactStateLimit = 1000000;
@@ -975,6 +985,31 @@ function isBetterGcdOptimization(
   return (candidate.foodId ?? 0) < (current.foodId ?? 0);
 }
 
+function isSpeedWithinRange(ctx: GcdOptimizationContext, speed: number): boolean {
+  return ctx.speedRange === undefined || speed >= ctx.speedRange.min && speed <= ctx.speedRange.max;
+}
+
+function getSpeedRangeDistance(ctx: GcdOptimizationContext, speed: number): number {
+  if (ctx.speedRange === undefined) return 0;
+  if (speed < ctx.speedRange.min) return ctx.speedRange.min - speed;
+  if (speed > ctx.speedRange.max) return speed - ctx.speedRange.max;
+  return 0;
+}
+
+function isCloserToSpeedRange(
+  ctx: GcdOptimizationContext,
+  candidate: { effects: EquippedEffects, stats: G.Stats },
+  current: { effects: EquippedEffects, stats: G.Stats } | undefined,
+  speedStat: G.Stat,
+): boolean {
+  if (current === undefined) return true;
+  const candidateSpeed = candidate.stats[speedStat] ?? 0;
+  const currentSpeed = current.stats[speedStat] ?? 0;
+  const distanceDiff = getSpeedRangeDistance(ctx, candidateSpeed) - getSpeedRangeDistance(ctx, currentSpeed);
+  if (distanceDiff !== 0) return distanceDiff < 0;
+  return candidate.effects.damage > current.effects.damage;
+}
+
 function materializePlan(ctx: GcdOptimizationContext, node: GcdPlanNode | undefined): GcdOptimizationGearPlan[] {
   const plan: GcdOptimizationGearPlan[] = [];
   for (let current = node; current !== undefined; current = current.previous) {
@@ -998,6 +1033,7 @@ function evaluateGcdFrontier(
     finalChangeCost: number,
   }) | undefined;
   let fastest: { effects: EquippedEffects, stats: G.Stats } | undefined;
+  let closest: { effects: EquippedEffects, stats: G.Stats } | undefined;
   const foods = getFoodCandidates(ctx, speedStat);
   for (const state of frontier) {
     for (const food of foods) {
@@ -1011,7 +1047,11 @@ function evaluateGcdFrontier(
       ) {
         fastest = { effects, stats: finalStats };
       }
-      if (effects.gcd > ctx.targetGcd) continue;
+      if (isCloserToSpeedRange(ctx, { effects, stats: finalStats }, closest, speedStat)) {
+        closest = { effects, stats: finalStats };
+      }
+      const speed = finalStats[speedStat] ?? 0;
+      if (effects.gcd > ctx.targetGcd || !isSpeedWithinRange(ctx, speed)) continue;
       const candidate = {
         effects,
         stats: finalStats,
@@ -1047,6 +1087,7 @@ function evaluateGcdFrontier(
     targetGcd: ctx.targetGcd,
     speedStat,
     requiredSpeed,
+    speedRange: ctx.speedRange,
     customSkipped,
   };
   if (best !== undefined) {
@@ -1069,6 +1110,8 @@ function evaluateGcdFrontier(
       fastestGcd: fastest.effects.gcd,
       fastestSpeed: fastest.stats[speedStat] ?? 0,
       fastestDamage: fastest.effects.damage,
+      closestGcd: closest?.effects.gcd,
+      closestSpeed: closest?.stats[speedStat] ?? 0,
     };
   }
   return { status: 'error', message: '没有可用于计算的装备状态。' };
@@ -1543,6 +1586,7 @@ function evaluateExactGcdContenders(
       if (
         effects === undefined ||
         effects.gcd > ctx.targetGcd ||
+        !isSpeedWithinRange(ctx, stats[speedStat] ?? 0) ||
         effects.damage + gcdOptimizationDamageTolerance < maximumDamage
       ) continue;
       const changeCost = state.changeCost + getFoodChangeCost(ctx, food);
@@ -1566,6 +1610,7 @@ function evaluateExactGcdContenders(
     targetGcd: ctx.targetGcd,
     speedStat,
     requiredSpeed,
+    speedRange: ctx.speedRange,
     customSkipped,
     status: 'ok',
     stats: best.stats,
@@ -1706,6 +1751,23 @@ function getRequiredExactBaseSpeed(
     const middle = floor((low + high) / 2);
     if (getExactFinalStatValue(ctx, middle, speedStat, food) >= requiredSpeed) high = middle;
     else low = middle + 1;
+  }
+  return low;
+}
+
+function getMaximumExactBaseSpeed(
+  ctx: GcdOptimizationContext,
+  speedStat: G.Stat,
+  maximumSpeed: number,
+  food: G.Food | undefined,
+): number {
+  if (getExactFinalStatValue(ctx, 0, speedStat, food) > maximumSpeed) return -1;
+  let low = 0;
+  let high = maximumSpeed;
+  while (low < high) {
+    const middle = low + floor((high - low + 1) / 2);
+    if (getExactFinalStatValue(ctx, middle, speedStat, food) <= maximumSpeed) low = middle;
+    else high = middle - 1;
   }
   return low;
 }
@@ -2033,6 +2095,7 @@ function searchConstrainedExactFood(
   baseValues: number[],
   speedIndex: number,
   requiredBaseSpeed: number,
+  maximumBaseSpeed: number,
   food: G.Food | undefined,
   weightCandidates: number[][],
   getBestDamage: () => number,
@@ -2111,7 +2174,9 @@ function searchConstrainedExactFood(
     raidCost: number,
   ): void => {
     if (depth === slots.length) {
-      if (values[speedIndex] >= requiredBaseSpeed) consider(selected, food);
+      if (values[speedIndex] >= requiredBaseSpeed && values[speedIndex] <= maximumBaseSpeed) {
+        consider(selected, food);
+      }
       return;
     }
     for (const choice of slots[depth].choices) {
@@ -2122,6 +2187,7 @@ function searchConstrainedExactFood(
         raidCost: nextRaidCost,
       })) continue;
       const nextSpeed = values[speedIndex] + choice.values[speedIndex];
+      if (nextSpeed > maximumBaseSpeed) continue;
       if (nextSpeed + speedSuffix[depth + 1] < requiredBaseSpeed) continue;
       let upper = Infinity;
       const neededSpeed = Math.max(0, requiredBaseSpeed - nextSpeed);
@@ -2181,13 +2247,19 @@ function optimizeAllGearExactlyWithSpeed(
   if (!weightCandidates.some(weights => weights.every((value, index) => value === baseWeights[index]))) {
     weightCandidates.push(baseWeights);
   }
-  const maximumBaseSpeed = baseValues[speedIndex] + slots.reduce((total, slot) => total +
+  const availableMaximumBaseSpeed = baseValues[speedIndex] + slots.reduce((total, slot) => total +
     Math.max(...slot.choices.map(choice => choice.values[speedIndex])), 0);
   const foods = getFoodCandidates(ctx, speedStat).map(food => ({
     food,
     requiredBaseSpeed: getRequiredExactBaseSpeed(ctx, speedStat, requiredSpeed, food),
+    maximumBaseSpeed: ctx.speedRange === undefined
+      ? Infinity
+      : getMaximumExactBaseSpeed(ctx, speedStat, ctx.speedRange.max, food),
     incumbentDamage: -Infinity,
-  })).filter(search => search.requiredBaseSpeed <= maximumBaseSpeed);
+  })).filter(search =>
+    search.requiredBaseSpeed <= search.maximumBaseSpeed &&
+    search.requiredBaseSpeed <= availableMaximumBaseSpeed &&
+    baseValues[speedIndex] <= search.maximumBaseSpeed);
   if (foods.length === 0) return;
 
   let best: GcdExactBest | undefined;
@@ -2196,7 +2268,11 @@ function optimizeAllGearExactlyWithSpeed(
     if (!isWithinProgressionBudget(ctx, combined)) return;
     const stats = getFinalStats(ctx, combined, food);
     const effects = calcEffects(stats, ctx.baseStats, ctx.job, ctx.jobLevel, ctx.schema);
-    if (effects === undefined || effects.gcd > ctx.targetGcd) return;
+    if (
+      effects === undefined ||
+      effects.gcd > ctx.targetGcd ||
+      !isSpeedWithinRange(ctx, stats[speedStat] ?? 0)
+    ) return;
     const changeCost = combined.changeCost + getFoodChangeCost(ctx, food);
     if (isBetterGcdOptimization(
       { effects, stats, changeCost, foodId: food?.id },
@@ -2227,7 +2303,7 @@ function optimizeAllGearExactlyWithSpeed(
     search.incumbentDamage = incumbent.damage;
     consider(incumbent.choices, search.food);
   }
-  if (best === undefined && ctx.progressionWeeks === undefined) return;
+  if (best === undefined && ctx.progressionWeeks === undefined && ctx.speedRange === undefined) return;
   foods.sort((a, b) => b.incumbentDamage - a.incumbentDamage);
   for (const search of foods) {
     searchConstrainedExactFood(
@@ -2237,6 +2313,7 @@ function optimizeAllGearExactlyWithSpeed(
       baseValues,
       speedIndex,
       search.requiredBaseSpeed,
+      search.maximumBaseSpeed,
       search.food,
       weightCandidates,
       () => best?.effects.damage ?? -Infinity,
@@ -2250,6 +2327,7 @@ function optimizeAllGearExactlyWithSpeed(
     targetGcd: ctx.targetGcd,
     speedStat,
     requiredSpeed,
+    speedRange: ctx.speedRange,
     customSkipped,
     status: 'ok',
     stats: best.stats,
@@ -2284,14 +2362,39 @@ export function optimizeGcd(input: GcdOptimizationInput): GcdOptimizationResult 
   ) {
     return { status: 'error', message: `目标 GCD 只能在 ${gcdOptimizationMinTargetGcd.toFixed(2)}s - ${gcdOptimizationMaxTargetGcd.toFixed(2)}s 之间。` };
   }
+  if (
+    ctx.speedRange !== undefined &&
+    (!Number.isSafeInteger(ctx.speedRange.min) || !Number.isSafeInteger(ctx.speedRange.max) ||
+      ctx.speedRange.min < 0 || ctx.speedRange.max < ctx.speedRange.min ||
+      ctx.speedRange.max > gcdOptimizationMaxSpeed)
+  ) {
+    return {
+      status: 'error',
+      message: `速度属性范围必须是 0–${gcdOptimizationMaxSpeed} 内的整数，且最小值不能大于最大值。`,
+    };
+  }
   const speedStat = getSpeedStat(schema);
   if (schema.mainStat === undefined || speedStat === undefined) {
     return { status: 'error', message: '该职业不支持伤害期望配速优化。' };
   }
-  const requiredSpeed = calcRequiredSpeed(ctx.targetGcd, ctx.jobLevel, schema.statModifiers);
-  if (requiredSpeed === Infinity) {
+  const baseSpeed = ctx.baseStats[speedStat] ?? G.jobLevelModifiers[ctx.jobLevel].sub;
+  if (ctx.speedRange !== undefined && ctx.speedRange.max < baseSpeed) {
+    return {
+      status: 'error',
+      message: `${G.statNames[speedStat]}范围上限不能低于当前等级的基础值 ${baseSpeed}。`,
+    };
+  }
+  const targetRequiredSpeed = calcRequiredSpeed(ctx.targetGcd, ctx.jobLevel, schema.statModifiers);
+  if (targetRequiredSpeed === Infinity) {
     return { status: 'error', message: '目标 GCD 超出可计算范围。' };
   }
+  if (ctx.speedRange !== undefined && targetRequiredSpeed > ctx.speedRange.max) {
+    return {
+      status: 'error',
+      message: `目标 GCD 至少需要${G.statNames[speedStat]} ${targetRequiredSpeed}，超过了范围上限 ${ctx.speedRange.max}。`,
+    };
+  }
+  const requiredSpeed = Math.max(targetRequiredSpeed, ctx.speedRange?.min ?? 0);
   const relevantStats = getRelevantStats(schema, speedStat);
   try {
     if (ctx.mode === 'current') {
@@ -2314,7 +2417,7 @@ export function optimizeGcd(input: GcdOptimizationInput): GcdOptimizationResult 
       return evaluateGcdFrontier(ctx, speedStat, requiredSpeed, frontier, allGearStates.customSkipped);
     } catch (e) {
       if (e instanceof ParetoFrontierLimitError) {
-        const exactResult = allGearStates.guaranteedBaseSpeed >= requiredSpeed
+        const exactResult = allGearStates.guaranteedBaseSpeed >= requiredSpeed && ctx.speedRange === undefined
           ? optimizeAllGearExactly(
             ctx,
             speedStat,

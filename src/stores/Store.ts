@@ -23,6 +23,11 @@ export type FilterFocus = 'no' | 'melded' | 'comparable';
 
 export type GcdOptimizationMode = 'current' | 'all';
 
+export interface GcdOptimizationSpeedRange {
+  min: number,
+  max: number,
+}
+
 export interface EquippedEffects {
   crtChance: number,
   crtDamage: number,
@@ -42,6 +47,7 @@ export interface GcdOptimizationResultBase {
   targetGcd: number,
   speedStat: G.Stat,
   requiredSpeed: number,
+  speedRange?: GcdOptimizationSpeedRange,
   customSkipped?: boolean,
 }
 
@@ -61,6 +67,8 @@ export interface GcdOptimizationUnreachableResult extends GcdOptimizationResultB
   fastestGcd: number,
   fastestSpeed: number,
   fastestDamage: number,
+  closestGcd?: number,
+  closestSpeed?: number,
 }
 
 export interface GcdOptimizationErrorResult {
@@ -98,6 +106,7 @@ interface GcdCombinedState {
 
 export const gcdOptimizationMinTargetGcd = 1.80;
 export const gcdOptimizationMaxTargetGcd = 2.50;
+export const gcdOptimizationMaxSpeed = 100000;
 
 const gcdOptimizationFrontierLimit = 200000;
 
@@ -780,6 +789,7 @@ function createGcdOptimizationInput(
   mode: GcdOptimizationMode,
   candidateGearIds?: readonly G.GearId[],
   progressionWeeks?: number,
+  speedRange?: GcdOptimizationSpeedRange,
 ): GcdOptimizationInput {
   const filteredIds = candidateGearIds ?? self.filteredIds as G.GearId[];
   const gears = new Map<G.GearId, GcdOptimizationGearInput>();
@@ -817,6 +827,7 @@ function createGcdOptimizationInput(
   return {
     mode,
     targetGcd,
+    speedRange,
     progressionWeeks,
     job: self.job,
     jobLevel: self.jobLevel,
@@ -1622,14 +1633,16 @@ export const Store = mst.types
       mode: GcdOptimizationMode,
       candidateGearIds?: G.GearId[],
       progressionWeeks?: number,
+      speedRange?: GcdOptimizationSpeedRange,
     ): GcdOptimizationResult {
-      if (progressionWeeks !== undefined) {
+      if (progressionWeeks !== undefined || speedRange !== undefined) {
         return optimizeGcdCore(createGcdOptimizationInput(
           self,
           targetGcd,
           mode,
           candidateGearIds,
           progressionWeeks,
+          speedRange,
         )) as GcdOptimizationResult;
       }
       return optimizeGcdForStore(self, targetGcd, mode, candidateGearIds);
@@ -1639,10 +1652,18 @@ export const Store = mst.types
       mode: GcdOptimizationMode,
       candidateGearIds?: G.GearId[],
       progressionWeeks?: number,
+      speedRange?: GcdOptimizationSpeedRange,
     ): Promise<GcdOptimizationResult> {
       if (self.job === undefined) return Promise.resolve({ status: 'error', message: '请先选择职业。' });
       if (self.loadingStatus !== 'ready') return Promise.resolve({ status: 'error', message: '装备数据仍在加载。' });
-      const input = createGcdOptimizationInput(self, targetGcd, mode, candidateGearIds, progressionWeeks);
+      const input = createGcdOptimizationInput(
+        self,
+        targetGcd,
+        mode,
+        candidateGearIds,
+        progressionWeeks,
+        speedRange,
+      );
       console.log('optimizeGcdAsync params:', JSON.stringify(input));
       return optimizeGcdInWorker(input) as Promise<GcdOptimizationResult>;
     },

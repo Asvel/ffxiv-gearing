@@ -9,10 +9,17 @@ import { TextField } from "./@rmwc/textfield";
 import { Switch } from "./@rmwc/switch";
 import { Badge } from "./@rmwc/badge";
 import * as G from "../game";
-import { gcdOptimizationMaxTargetGcd, gcdOptimizationMinTargetGcd } from "../stores";
+import {
+  calcGcd,
+  calcRequiredSpeed,
+  gcdOptimizationMaxSpeed,
+  gcdOptimizationMaxTargetGcd,
+  gcdOptimizationMinTargetGcd,
+} from "../stores";
 import type {
   GcdOptimizationMode,
   GcdOptimizationResult,
+  GcdOptimizationSpeedRange,
   IGear,
   IGearUnion,
   ProductionMateriaOptimizationResult,
@@ -372,6 +379,8 @@ const ProductionMateriaResultView = mobxReact.observer<{
 
 const MateriaGcdCalculationPanel = mobxReact.observer(() => {
   const store = useStore();
+  const speedStat = store.schema.stats.includes("SPS") ? "SPS" : "SKS";
+  const speedStatName = speedStat === "SPS" ? "咏唱速度" : "技能速度";
   const candidateGears = store.filteredIds.flatMap((gearId) => {
     const gear = store.gears.get(gearId.toString()) as IGearUnion | undefined;
     return gear === undefined || gear.isFood ? [] : [gear];
@@ -388,6 +397,9 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
   );
   const [mode, setMode] = React.useState<GcdOptimizationMode>("current");
   const [targetGcd, setTargetGcd] = React.useState(() => formatGcdTarget(store.equippedEffects?.gcd));
+  const [speedRangeEnabled, setSpeedRangeEnabled] = React.useState(false);
+  const [minimumSpeed, setMinimumSpeed] = React.useState("");
+  const [maximumSpeed, setMaximumSpeed] = React.useState("");
   const [progressionEnabled, setProgressionEnabled] = React.useState(false);
   const [progressionWeeks, setProgressionWeeks] = React.useState("0");
   const [result, setResult] = React.useState<GcdOptimizationResult>();
@@ -395,6 +407,27 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
   const requestId = React.useRef(0);
   const targetGcdNumber = parseFloat(targetGcd);
   const targetGcdValid = isValidGcdTarget(targetGcdNumber);
+  const minimumSpeedNumber = Number(minimumSpeed);
+  const maximumSpeedNumber = Number(maximumSpeed);
+  const speedRangeValuesValid =
+    minimumSpeed.trim() !== "" &&
+    maximumSpeed.trim() !== "" &&
+    Number.isSafeInteger(minimumSpeedNumber) &&
+    Number.isSafeInteger(maximumSpeedNumber) &&
+    minimumSpeedNumber >= 0 &&
+    maximumSpeedNumber >= minimumSpeedNumber &&
+    maximumSpeedNumber <= gcdOptimizationMaxSpeed;
+  const baseSpeed = store.baseStats[speedStat] ?? G.jobLevelModifiers[store.jobLevel].sub;
+  const targetRequiredSpeed = targetGcdValid
+    ? calcRequiredSpeed(targetGcdNumber, store.jobLevel, store.schema.statModifiers)
+    : Infinity;
+  const speedRangeBelowBase = speedRangeValuesValid && maximumSpeedNumber < baseSpeed;
+  const speedRangeConflictsWithTarget =
+    speedRangeValuesValid && !speedRangeBelowBase && targetRequiredSpeed > maximumSpeedNumber;
+  const speedRangeValid = speedRangeValuesValid && !speedRangeBelowBase && !speedRangeConflictsWithTarget;
+  const speedRange: GcdOptimizationSpeedRange | undefined = speedRangeEnabled && speedRangeValid
+    ? { min: minimumSpeedNumber, max: maximumSpeedNumber }
+    : undefined;
   const progressionWeeksNumber = Number(progressionWeeks);
   const progressionWeeksValid =
     progressionWeeks.trim() !== "" &&
@@ -428,6 +461,7 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
       mode,
       mode === "all" ? store.gcdOptimizationSelectedGearIds : undefined,
       mode === "all" && progressionEnabled ? progressionWeeksNumber : undefined,
+      speedRange,
     );
     if (requestId.current === currentRequestId) {
       setResult(nextResult);
@@ -475,6 +509,7 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
             className="materia-gcd-optimization_calculate"
             disabled={
               !targetGcdValid ||
+              (speedRangeEnabled && !speedRangeValid) ||
               calculating ||
               (mode === "all" &&
                 (store.gcdOptimizationSelectedGearIds.length === 0 || (progressionEnabled && !progressionWeeksValid)))
@@ -483,6 +518,85 @@ const MateriaGcdCalculationPanel = mobxReact.observer(() => {
           >
             {calculating ? "计算中" : "计算"}
           </Button>
+        </div>
+        <div className="materia-gcd-optimization_advanced">
+          <Switch
+            label="高级选项"
+            checked={speedRangeEnabled}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+              setSpeedRangeEnabled(e.target.checked);
+              resetResult();
+            }}
+          />
+          {speedRangeEnabled && (
+            <div className="materia-gcd-optimization_speed-range">
+              <div className="materia-gcd-optimization_speed-range-controls">
+                <span className="materia-gcd-optimization_label">最终{speedStatName}</span>
+                <TextField
+                  className={classNames(
+                    "materia-gcd-optimization_speed-input mdc-text-field--compact",
+                    !speedRangeValuesValid && "-invalid",
+                  )}
+                  aria-label={`${speedStatName}最小值`}
+                  type="number"
+                  min="0"
+                  max={String(gcdOptimizationMaxSpeed)}
+                  step="1"
+                  placeholder="最小值"
+                  value={minimumSpeed}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                    setMinimumSpeed(e.target.value);
+                    resetResult();
+                  }}
+                />
+                <span>–</span>
+                <TextField
+                  className={classNames(
+                    "materia-gcd-optimization_speed-input mdc-text-field--compact",
+                    (!speedRangeValuesValid || speedRangeBelowBase || speedRangeConflictsWithTarget) && "-invalid",
+                  )}
+                  aria-label={`${speedStatName}最大值`}
+                  type="number"
+                  min="0"
+                  max={String(gcdOptimizationMaxSpeed)}
+                  step="1"
+                  placeholder="最大值"
+                  value={maximumSpeed}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                    setMaximumSpeed(e.target.value);
+                    resetResult();
+                  }}
+                />
+              </div>
+              {speedRangeValuesValid ? (
+                <div className="materia-gcd-optimization_speed-range-tip">
+                  {`含食物加成与边界值，该范围对应 ${calcGcd(
+                    maximumSpeedNumber,
+                    store.jobLevel,
+                    store.schema.statModifiers,
+                  ).toFixed(2)}s–${calcGcd(
+                    minimumSpeedNumber,
+                    store.jobLevel,
+                    store.schema.statModifiers,
+                  ).toFixed(2)}s GCD。`}
+                </div>
+              ) : (
+                <div className="materia-gcd-optimization_speed-range-validation">
+                  {`请输入 0–${gcdOptimizationMaxSpeed} 内、最小值不大于最大值的整数范围。`}
+                </div>
+              )}
+              {speedRangeConflictsWithTarget && (
+                <div className="materia-gcd-optimization_speed-range-validation">
+                  {`目标 GCD 至少需要${speedStatName} ${targetRequiredSpeed}，已超过范围上限。`}
+                </div>
+              )}
+              {speedRangeBelowBase && (
+                <div className="materia-gcd-optimization_speed-range-validation">
+                  {`${speedStatName}范围上限不能低于当前等级的基础值 ${baseSpeed}。`}
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
       {mode === "all" && (
@@ -611,6 +725,18 @@ const MateriaGcdOptimizationResultView = mobxReact.observer<{
     return <div className="materia-gcd-optimization_message -error">{result.message}</div>;
   }
   if (result.status === "unreachable") {
+    if (result.speedRange !== undefined) {
+      return (
+        <div className="materia-gcd-optimization_message -warning">
+          <div>
+            {`指定的${G.statNames[result.speedStat]}范围 [${result.speedRange.min}, ${result.speedRange.max}] 内没有可达方案。`}
+          </div>
+          {result.closestSpeed !== undefined && result.closestGcd !== undefined && (
+            <div>{`最接近可达值为 ${result.closestSpeed}，对应 ${result.closestGcd.toFixed(2)}s GCD。`}</div>
+          )}
+        </div>
+      );
+    }
     return (
       <div className="materia-gcd-optimization_message -warning">
         <div>无法达到目标 GCD。</div>

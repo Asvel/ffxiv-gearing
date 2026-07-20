@@ -197,6 +197,39 @@
   align-items: center;
   gap: 8px;
 }
+.materia-gcd-optimization_advanced {
+  margin-top: 8px;
+  .mdc-form-field {
+    min-height: 28px;
+  }
+}
+.materia-gcd-optimization_speed-range {
+  margin-top: 6px;
+  padding-left: 8px;
+}
+.materia-gcd-optimization_speed-range-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.materia-gcd-optimization_speed-input {
+  width: 88px;
+  &.-invalid {
+    border-bottom: 2px solid var(--mdc-theme-error);
+  }
+}
+.materia-gcd-optimization_speed-range-tip,
+.materia-gcd-optimization_speed-range-validation {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.materia-gcd-optimization_speed-range-tip {
+  color: rgb(var(--color-text-base), .6);
+}
+.materia-gcd-optimization_speed-range-validation {
+  color: var(--mdc-theme-error);
+}
 .materia-gcd-optimization_label {
   color: rgb(var(--color-text-base), .6);
 }
