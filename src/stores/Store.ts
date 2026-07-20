@@ -1596,7 +1596,9 @@ export const Store = mst.types
     optimizeGcdAsync(targetGcd: number, mode: GcdOptimizationMode): Promise<GcdOptimizationResult> {
       if (self.job === undefined) return Promise.resolve({ status: 'error', message: '请先选择职业。' });
       if (self.loadingStatus !== 'ready') return Promise.resolve({ status: 'error', message: '装备数据仍在加载。' });
-      return optimizeGcdInWorker(createGcdOptimizationInput(self, targetGcd, mode)) as Promise<GcdOptimizationResult>;
+      const input = createGcdOptimizationInput(self, targetGcd, mode);
+      console.log('optimizeGcdAsync params:', JSON.stringify(input));
+      return optimizeGcdInWorker(input) as Promise<GcdOptimizationResult>;
     },
     cancelGcdOptimization(): void {
       cancelGcdOptimizationInWorker();
