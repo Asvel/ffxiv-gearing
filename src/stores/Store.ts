@@ -1635,7 +1635,7 @@ export const Store = mst.types
       progressionWeeks?: number,
       speedRange?: GcdOptimizationSpeedRange,
     ): GcdOptimizationResult {
-      if (progressionWeeks !== undefined || speedRange !== undefined) {
+      if (mode === 'all' || progressionWeeks !== undefined || speedRange !== undefined) {
         return optimizeGcdCore(createGcdOptimizationInput(
           self,
           targetGcd,

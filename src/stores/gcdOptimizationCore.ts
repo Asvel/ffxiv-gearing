@@ -101,6 +101,7 @@ interface GcdGearState {
   gearId: G.GearId,
   stats: G.Stats,
   materias?: GcdOptimizationMateriaPlan[],
+  planItems?: GcdOptimizationGearPlan[],
   changeCost: number,
   tomestoneCost?: number,
   raidCost?: number,
@@ -726,14 +727,7 @@ function combineFrontier(
       }
       combined.set(key, {
         stats: addStats(frontierState.stats, gearState.stats),
-        plan: {
-          previous: frontierState.plan,
-          item: {
-            slot: gearState.slot,
-            gearId: gearState.gearId,
-            materias: gearState.materias,
-          },
-        },
+        plan: appendGearStatePlan(frontierState.plan, gearState),
         changeCost,
         tomestoneCost,
         raidCost,
@@ -741,6 +735,78 @@ function combineFrontier(
     }
   }
   return pruneUniqueStates(Array.from(combined.values()), relevantStats, speedStat, requiredSpeed);
+}
+
+function getGearStatePlanItems(state: GcdGearState): GcdOptimizationGearPlan[] {
+  return state.planItems ?? [{ slot: state.slot, gearId: state.gearId, materias: state.materias }];
+}
+
+function appendGearStatePlan(plan: GcdPlanNode | undefined, state: GcdGearState): GcdPlanNode | undefined {
+  let next = plan;
+  for (const item of getGearStatePlanItems(state)) {
+    next = { previous: next, item };
+  }
+  return next;
+}
+
+const nonrepeatableRingSourcePrefixes = ['点数/', '点数强化/', '零式/'] as const;
+
+function getNonrepeatableRingSource(
+  ctx: GcdOptimizationContext,
+  state: GcdGearState,
+): typeof nonrepeatableRingSourcePrefixes[number] | undefined {
+  const source = ctx.gearById.get(state.gearId)?.data.source;
+  return nonrepeatableRingSourcePrefixes.find(prefix => source?.startsWith(prefix));
+}
+
+function combineRingSlotStates(
+  ctx: GcdOptimizationContext,
+  first: GcdSlotStateSet,
+  second: GcdSlotStateSet,
+  relevantStats: G.Stat[],
+  speedStat: G.Stat,
+  requiredSpeed: number,
+): GcdSlotStateSet {
+  const states: GcdGearState[] = [];
+  for (const firstState of first.states) {
+    const firstSource = getNonrepeatableRingSource(ctx, firstState);
+    for (const secondState of second.states) {
+      if (firstSource !== undefined && firstSource === getNonrepeatableRingSource(ctx, secondState)) continue;
+      const tomestoneCost = getTomestoneCost(firstState) + getTomestoneCost(secondState);
+      const raidCost = getRaidCost(firstState) + getRaidCost(secondState);
+      states.push({
+        slot: firstState.slot,
+        gearId: firstState.gearId,
+        stats: addStats(firstState.stats, secondState.stats),
+        planItems: getGearStatePlanItems(firstState).concat(getGearStatePlanItems(secondState)),
+        changeCost: firstState.changeCost + secondState.changeCost,
+        tomestoneCost,
+        raidCost,
+      });
+    }
+  }
+  return {
+    schemaIndex: Math.min(first.schemaIndex, second.schemaIndex),
+    states: pruneGcdOptimizationStates(states, relevantStats, speedStat, requiredSpeed),
+  };
+}
+
+function pruneRingSlotStates(
+  ctx: GcdOptimizationContext,
+  states: GcdGearState[],
+  relevantStats: G.Stat[],
+  speedStat: G.Stat,
+  requiredSpeed: number,
+): GcdGearState[] {
+  const statesBySource = new Map<string, GcdGearState[]>();
+  for (const state of states) {
+    const source = getNonrepeatableRingSource(ctx, state) ?? '';
+    const sourceStates = statesBySource.get(source) ?? [];
+    sourceStates.push(state);
+    statesBySource.set(source, sourceStates);
+  }
+  return Array.from(statesBySource.values()).flatMap(sourceStates =>
+    pruneGcdOptimizationStates(sourceStates, relevantStats, speedStat, requiredSpeed));
 }
 
 function createCurrentGearFrontier(
@@ -872,8 +938,31 @@ function createAllGearStateSets(
     }
     slotStates.push({
       schemaIndex,
-      states: pruneGcdOptimizationStates(gearStates, relevantStats, speedStat, requiredSpeed),
+      states: Math.abs(slot.slot) === 12
+        ? pruneRingSlotStates(ctx, gearStates, relevantStats, speedStat, requiredSpeed)
+        : pruneGcdOptimizationStates(gearStates, relevantStats, speedStat, requiredSpeed),
     });
+  }
+  const ringSlotStates = slotStates.filter(slot => Math.abs(ctx.schema.slots[slot.schemaIndex].slot) === 12);
+  if (ringSlotStates.length === 2) {
+    const combinedRings = combineRingSlotStates(
+      ctx,
+      ringSlotStates[0],
+      ringSlotStates[1],
+      relevantStats,
+      speedStat,
+      requiredSpeed,
+    );
+    if (combinedRings.states.length === 0) {
+      return {
+        slotStates: [],
+        customSkipped,
+        guaranteedBaseSpeed,
+        error: '两个戒指不能同时选择同为“点数/*”“点数强化/*”或“零式/*”的装备。',
+      };
+    }
+    const ringSlotStateSet = new Set(ringSlotStates);
+    slotStates.splice(0, slotStates.length, ...slotStates.filter(slot => !ringSlotStateSet.has(slot)), combinedRings);
   }
   slotStates.sort((a, b) => a.states.length - b.states.length || a.schemaIndex - b.schemaIndex);
   return { slotStates, customSkipped, guaranteedBaseSpeed };
@@ -1549,10 +1638,7 @@ function exactStateToCombinedState(ctx: GcdOptimizationContext, state: GcdExactS
   let plan: GcdPlanNode | undefined;
   for (const choice of choices) {
     stats = addStats(stats, choice.stats);
-    plan = {
-      previous: plan,
-      item: { slot: choice.slot, gearId: choice.gearId, materias: choice.materias },
-    };
+    plan = appendGearStatePlan(plan, choice);
   }
   return {
     stats,
@@ -2080,10 +2166,7 @@ function exactChoicesToCombinedState(
     changeCost += choice.state.changeCost;
     tomestoneCost += getTomestoneCost(choice.state);
     raidCost += getRaidCost(choice.state);
-    plan = {
-      previous: plan,
-      item: { slot: choice.state.slot, gearId: choice.state.gearId, materias: choice.state.materias },
-    };
+    plan = appendGearStatePlan(plan, choice.state);
   }
   return { stats, plan, changeCost, tomestoneCost, raidCost };
 }
