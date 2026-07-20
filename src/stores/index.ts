@@ -29,9 +29,12 @@ export { Food } from './Food';
 export type { IFood } from './Food';
 export { GearUnion, GearUnionReference } from './GearUnion';
 export type { IGearUnion } from './GearUnion';
-export { Store, calcGcd, calcRequiredSpeed,
-  gcdOptimizationMinTargetGcd, gcdOptimizationMaxTargetGcd, gcdOptimizationMaxSpeed } from './Store';
-export type { IStore, Mode, GcdOptimizationMode, GcdOptimizationResult, GcdOptimizationSpeedRange } from './Store';
+export { Store } from './Store';
+export type { IStore, Mode } from './Store';
+export { calcGcd, calcRequiredSpeed,
+  gcdOptimizationMinTargetGcd, gcdOptimizationMaxTargetGcd, gcdOptimizationMaxSpeed } from './gcdOptimizationCore';
+export type { GcdOptimizationMode, GcdOptimizationResult,
+  GcdOptimizationSpeedRange } from './gcdOptimizationCore';
 export type { ProductionMateriaOptimizationResult, ProductionMateriaStat } from './productionMateriaOptimizationCore';
 export { gearData, gearDataOrdered, gearDataLoading,
   loadGearData, loadGearDataOfGearId, loadGearDataOfLevelRange } from './gearData';
