@@ -1,10 +1,8 @@
 @use "./components/mixins" as *;
 
 .gears_slot {
-  position: relative;
   margin-top: 10px;
   margin-bottom: 10px;
-  z-index: 0;
 }
 .gears_item {
   .app-edit &[data-id] {
@@ -155,6 +153,7 @@
 }
 .gears_custom-stat-input {
   width: 36px;
+  z-index: 0;
 }
 
 .gears_empty {
