@@ -10,6 +10,7 @@ export default [
     DRG: true,
     SAM: true,
     RPR: true,
+    BST: true,
   },
   ,
   ,
@@ -89,6 +90,7 @@ export default [
     SAM: true,
     RPR: true,
     VPR: true,
+    BST: true,
     BRD: true,
     MCH: true,
     DNC: true,
@@ -134,6 +136,7 @@ export default [
     SAM: true,
     RPR: true,
     VPR: true,
+    BST: true,
     BRD: true,
     MCH: true,
     DNC: true,
@@ -193,15 +196,18 @@ export default [
   {
     PLD: true,
     WHM: true,
+    BST: true,
     BLM: true,
   },
   {
     PLD: true,
+    BST: true,
     BLM: true,
   },
   {
     PLD: true,
     WHM: true,
+    BST: true,
   },
   {
     PLD: true,
@@ -235,6 +241,7 @@ export default [
   {
     MNK: true,
     SAM: true,
+    BST: true,
   },
   {
     BRD: true,
@@ -271,6 +278,7 @@ export default [
     DRG: true,
     SAM: true,
     RPR: true,
+    BST: true,
   },
   ,
   ,
@@ -304,6 +312,7 @@ export default [
     NIN: true,
     SAM: true,
     VPR: true,
+    BST: true,
   },
   {
     NIN: true,
@@ -431,5 +440,13 @@ export default [
   },
   {
     PCT: true,
+  },
+  ,
+  ,
+  ,
+  ,
+  ,
+  {
+    BST: true,
   },
 ];

@@ -50,12 +50,14 @@ export const Store = mst.types
       const ret: G.GearId[] = [];
       for (const gear of gearDataOrdered.get()) {
         const { job, minLevel, maxLevel } = self;
+        const maxJobLevel = G.jobSchemas[self.job].jobLevel;
         if (
           G.jobCategories[gear.jobCategory][job!] &&
           (gear.slot === -1 ? (self.showAllFoods || 'best' in gear) :  // Foods
             gear.slot === -2 ? (self.showAllPotions || 'best' in gear) :  // Potions
               gear.slot === 17 || (gear.slot === 2 && job === 'FSH') ||  // Soul crystal and spearfishing gig
               (gear.level >= minLevel && gear.level <= maxLevel &&
+                (gear as G.Gear).equipLevel <= maxJobLevel &&
                 !(gear.obsolete && this.setting.hideObsoleteGears))
           )
         ) {

@@ -43,6 +43,7 @@ const jobDecode: { job: G.Job, statDecode: G.Stat[] }[] = [
   { job: 'MIN', statDecode: ['GTH', 'PCP', 'GP'] },
   { job: 'BTN', statDecode: ['GTH', 'PCP', 'GP'] },
   { job: 'FSH', statDecode: ['GTH', 'PCP', 'GP'] },
+  { job: 'BST', statDecode: ['CRT', 'DET', 'DHT', 'SKS'] },  // TODO: 切8.0版本时挪上去
 ];
 const jobEncode: { [index in G.Job]?: { index: number, statEncode: { [index in G.Stat]?: number } } } = {};
 for (let index = 0; index < jobDecode.length; index++) {
@@ -97,6 +98,9 @@ class Ranges {
       this.specialGear = 9;  // specialGearDecode.length
       this.customStat = 1001;
     }
+    if (version >= 6) {
+      this.job += 1;
+    }
   }
   public useJob(job: G.Job) {
     this.materiaStat = jobDecode[jobEncode[job]!.index].statDecode.length;  // TODO: version
@@ -104,7 +108,7 @@ class Ranges {
 }
 
 export function stringify({ job, jobLevel, syncLevel, gears }: G.Gearset): string {
-  const version = 5;
+  const version = 6;
   const ranges = new Ranges();
   ranges.useVersion(version);
   ranges.useJob(job);

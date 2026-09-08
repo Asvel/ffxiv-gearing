@@ -366,6 +366,23 @@ export const jobSchemas = {
     secondaryStat: 'DHT',
     traitDamageMultiplier: 1,
   } as JobSchema,
+  BST: {
+    name: '驯兽师',
+    stats: statSchemas.dpsStr,
+    slots: [
+      { slot: 1, name: '武器', uiGroup: 'weapon' },
+      { slot: 2, name: '盾牌', uiGroup: 'weapon' },
+      ...slotSchemaCommon,
+    ],
+    defaultItemLevel: [130, 135],
+    jobLevel: 50,
+    levelSyncable: true,
+    statModifiers: { STR: 110, VIT: 100, hp: 110 },
+    mainStat: 'STR',
+    secondaryStat: 'DHT',
+    traitDamageMultiplier: 1,
+    partyBonus: 1,  // TODO: 确认驯兽师终盘玩法组队情况
+  } as JobSchema,
   BRD: {
     name: '吟游诗人',
     stats: statSchemas.dpsDex,

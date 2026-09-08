@@ -16,6 +16,7 @@ function stringify(obj: any) {
 function loadExd(filename: string) {
   const data = Papa.parse<string[]>(fs.readFileSync('./in/' + filename, 'utf8')).data;
   const fields = data[0];
+  if (filename === 'ClassJobCategory.csv') fields[45] = 'BST';  // TODO: EXDSchema 更新后删掉
   return data.slice(1, -1).map(line => {
     const ret: Record<string, string> = {};
     for (let i = 0; i < line.length; i++) {
@@ -40,7 +41,7 @@ const statAbbrs: Record<string, G.Stat> = {
 const jobs: G.Job[] = [
   'PLD', 'WAR', 'DRK', 'GNB',
   'WHM', 'SCH', 'AST', 'SGE',
-  'MNK', 'DRG', 'NIN', 'SAM', 'RPR', 'VPR',
+  'MNK', 'DRG', 'NIN', 'SAM', 'RPR', 'VPR', 'BST',
   'BRD', 'MCH', 'DNC',
   'BLM', 'SMN', 'RDM', 'PCT', 'BLU',
   'CRP', 'BSM', 'ARM', 'GSM', 'LTW', 'WVR', 'ALC', 'CUL',
@@ -99,7 +100,7 @@ const jobCategories = ClassJobCategory.map(line => {
   }
   return ret;
 });
-jobCategories[2] = { PLD: true, WAR: true, DRK: true, GNB: true, MNK: true, DRG: true, SAM: true, RPR: true };
+jobCategories[2] = { PLD: true, WAR: true, DRK: true, GNB: true, MNK: true, DRG: true, SAM: true, RPR: true, BST: true };
 const jobCategoryOfMainStats: Record<string, number> = {
   'STR': 2,
   'DEX': 105,
@@ -204,6 +205,7 @@ const gears = Item
         if (!craft && !gather) ret.jobCategory = 34;
       }
     }
+    // TODO: 已改成在前端实现过滤，但当前没必要搞得数据包全变，等切8.0版本时再删掉
     if (ret.jobCategory === 63 && ret.equipLevel > 80) {  // 青魔并不能装备高等级装备
       ret.jobCategory = 147;
     }
@@ -281,7 +283,7 @@ const foods = Item
     }
     if (Object.keys(jobs).length === 0) {
       if (!('SPS' in ret.stats)) {
-        ['PLD', 'WAR', 'DRK', 'GNB', 'MNK', 'DRG', 'NIN', 'SAM', 'RPR', 'VPR', 'BRD', 'MCH', 'DNC']
+        ['PLD', 'WAR', 'DRK', 'GNB', 'MNK', 'DRG', 'NIN', 'SAM', 'RPR', 'VPR', 'BST', 'BRD', 'MCH', 'DNC']
           .forEach(j => jobs[j] = true);
       }
       if (!('SKS' in ret.stats)) {

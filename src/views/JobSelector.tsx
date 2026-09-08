@@ -22,6 +22,7 @@ export const JobSelector = mobxReact.observer(() => {
           <JobItem job="SAM" />
           <JobItem job="RPR" />
           <JobItem job="VPR" />
+          <JobItem job="BST" />
         </JobGroup>
       </div>
       <div className="job-selector_column">
