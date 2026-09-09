@@ -130,7 +130,9 @@ export const Store = mst.types
         if (gear === undefined) continue;
         if (!gear.isFood) {
           for (const stat of Object.keys(gear.stats) as G.Stat[]) {
-            stats[stat] = stats[stat]! + gear.stats[stat]!;
+            const value = stats[stat];
+            if (value === undefined) continue;
+            stats[stat] = value + gear.stats[stat]!;
           }
         }
       }
