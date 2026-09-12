@@ -13612,6 +13612,7 @@ export default [
     role: 0,
     jobCategory: 34,
     equipLevel: 71,
+    equipLevelVariable: true,
     materiaSlot: 0,
     stats: {
       VIT: 80,
@@ -13630,6 +13631,7 @@ export default [
     role: 0,
     jobCategory: 34,
     equipLevel: 1,
+    equipLevelVariable: true,
     materiaSlot: 0,
     stats: {
       VIT: 80,

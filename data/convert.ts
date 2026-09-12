@@ -137,9 +137,7 @@ const gears = Item
     ret.role = +x['BaseParamModifier'];
     ret.jobCategory = +x['ClassJobCategory'];
     ret.equipLevel = +x['LevelEquip'];
-    // ret.equipLevelVariable = x['Description'] === 'IL and attributes synced to current job level.'
-    ret.equipLevelVariable = x['Description'] === '此装备的品级与附加的属性数值会随着装备时的等级发生变化。'
-      ? true : undefined;  // FIXME: 是否有更标识字段的判定方式
+    ret.equipLevelVariable = x['SubStatCategory'] === '2' ? true : undefined;
     ret.materiaSlot = +x['MateriaSlotCount'];
     ret.materiaAdvanced = x['IsAdvancedMeldingPermitted'] === 'True' ? true : undefined;
     ret.stats = {};
