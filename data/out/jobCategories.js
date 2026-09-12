@@ -373,12 +373,7 @@ export default [
   ,
   ,
   ,
-  {
-    BLM: true,
-    SMN: true,
-    RDM: true,
-    PCT: true,
-  },
+  ,
   ,
   {
     GNB: true,

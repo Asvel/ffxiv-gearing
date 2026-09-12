@@ -207,10 +207,6 @@ const gears = Item
         if (!craft && !gather) ret.jobCategory = 34;
       }
     }
-    // TODO: 已改成在前端实现过滤，但当前没必要搞得数据包全变，等切8.0版本时再删掉
-    if (ret.jobCategory === 63 && ret.equipLevel > 80) {  // 青魔并不能装备高等级装备
-      ret.jobCategory = 147;
-    }
 
     if (ret.source?.startsWith('巧手大地')) {
       const craft = 'CMS' in ret.stats || 'CRL' in ret.stats || 'CP' in ret.stats;
