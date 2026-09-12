@@ -16565,7 +16565,7 @@ export default [
       PDMG: 61,
       DLY: 2240,
     },
-    source: '驯兽师',
+    source: '职业任务',
   },
   {
     id: 50743,
@@ -16583,7 +16583,7 @@ export default [
       DHT: 11,
       DET: 8,
     },
-    source: '驯兽师',
+    source: '职业任务',
   },
   {
     id: 50744,
@@ -16601,7 +16601,7 @@ export default [
       DHT: 22,
       DET: 15,
     },
-    source: '驯兽师',
+    source: '职业任务',
   },
   {
     id: 50745,
@@ -16619,7 +16619,7 @@ export default [
       DHT: 25,
       DET: 36,
     },
-    source: '驯兽师',
+    source: '职业任务',
   },
   {
     id: 50746,
@@ -16637,7 +16637,7 @@ export default [
       DHT: 22,
       DET: 15,
     },
-    source: '驯兽师',
+    source: '职业任务',
   },
   {
     id: 50747,
@@ -16655,7 +16655,7 @@ export default [
       DHT: 36,
       DET: 25,
     },
-    source: '驯兽师',
+    source: '职业任务',
   },
   {
     id: 50748,
@@ -16673,7 +16673,7 @@ export default [
       DHT: 15,
       DET: 22,
     },
-    source: '驯兽师',
+    source: '职业任务',
   },
   {
     id: 1678,
@@ -25640,7 +25640,7 @@ export default [
       PDMG: 62,
       DLY: 2240,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50750,
@@ -25658,7 +25658,7 @@ export default [
       DHT: 11,
       DET: 8,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50751,
@@ -25676,7 +25676,7 @@ export default [
       DHT: 25,
       DET: 18,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50752,
@@ -25694,7 +25694,7 @@ export default [
       DHT: 27,
       DET: 39,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50753,
@@ -25712,7 +25712,7 @@ export default [
       DHT: 25,
       DET: 18,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50754,
@@ -25730,7 +25730,7 @@ export default [
       DHT: 39,
       DET: 27,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50755,
@@ -25748,7 +25748,7 @@ export default [
       DHT: 18,
       DET: 25,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 7162,
@@ -32904,7 +32904,7 @@ export default [
       PDMG: 63,
       DLY: 2240,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50757,
@@ -32922,7 +32922,7 @@ export default [
       DHT: 13,
       DET: 9,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50758,
@@ -32940,7 +32940,7 @@ export default [
       DHT: 27,
       DET: 19,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50759,
@@ -32958,7 +32958,7 @@ export default [
       DHT: 29,
       DET: 42,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50760,
@@ -32976,7 +32976,7 @@ export default [
       DHT: 27,
       DET: 19,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50761,
@@ -32994,7 +32994,7 @@ export default [
       DHT: 42,
       DET: 29,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50762,
@@ -33012,7 +33012,7 @@ export default [
       DHT: 19,
       DET: 27,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 7218,
@@ -39633,7 +39633,7 @@ export default [
       PDMG: 64,
       DLY: 2240,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50764,
@@ -39651,7 +39651,7 @@ export default [
       DHT: 13,
       DET: 9,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50765,
@@ -39669,7 +39669,7 @@ export default [
       DHT: 29,
       DET: 20,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50766,
@@ -39687,7 +39687,7 @@ export default [
       DHT: 32,
       DET: 46,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50767,
@@ -39705,7 +39705,7 @@ export default [
       DHT: 29,
       DET: 20,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50768,
@@ -39723,7 +39723,7 @@ export default [
       DHT: 46,
       DET: 32,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50769,
@@ -39741,7 +39741,7 @@ export default [
       DHT: 20,
       DET: 29,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 9491,
@@ -46665,7 +46665,7 @@ export default [
       PDMG: 65,
       DLY: 2240,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50771,
@@ -46683,7 +46683,7 @@ export default [
       DHT: 15,
       DET: 11,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50772,
@@ -46701,7 +46701,7 @@ export default [
       DHT: 31,
       DET: 22,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50773,
@@ -46719,7 +46719,7 @@ export default [
       DHT: 34,
       DET: 49,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50774,
@@ -46737,7 +46737,7 @@ export default [
       DHT: 31,
       DET: 22,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50775,
@@ -46755,7 +46755,7 @@ export default [
       DHT: 49,
       DET: 34,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50776,
@@ -46773,7 +46773,7 @@ export default [
       DHT: 22,
       DET: 31,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 10588,
@@ -48888,7 +48888,7 @@ export default [
       PDMG: 66,
       DLY: 2240,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 50778,
@@ -48906,7 +48906,7 @@ export default [
       DHT: 15,
       DET: 11,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 51736,
@@ -48926,7 +48926,7 @@ export default [
       PDMG: 66,
       DLY: 2240,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 51737,
@@ -48944,7 +48944,7 @@ export default [
       DHT: 15,
       DET: 11,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 51739,
@@ -48964,7 +48964,7 @@ export default [
       PDMG: 66,
       DLY: 2240,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 51740,
@@ -48982,7 +48982,7 @@ export default [
       DHT: 15,
       DET: 11,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
   {
     id: 51745,
@@ -49000,6 +49000,6 @@ export default [
       DHT: 18,
       DET: 26,
     },
-    source: '驯兽师',
+    source: '斗兽奇弈',
   },
 ];
