@@ -19,7 +19,8 @@ export interface Gear extends GearBase {
   materiaAdvanced?: true,
   hq?: true,
   customizable?: true,
-  occultStats?: Stats,
+  bonusType?: 9 | 11,
+  bonusStats?: Stats,
   source?: string,
 }
 export interface Food extends GearBase {

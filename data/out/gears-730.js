@@ -9032,7 +9032,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9053,7 +9054,8 @@ export default [
       CRT: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9074,7 +9076,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9095,7 +9098,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9116,7 +9120,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9137,7 +9142,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9158,7 +9164,8 @@ export default [
       CRT: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9179,7 +9186,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9200,7 +9208,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9221,7 +9230,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9242,7 +9252,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9263,7 +9274,8 @@ export default [
       CRT: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9284,7 +9296,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9305,7 +9318,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9326,7 +9340,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9347,7 +9362,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9368,7 +9384,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9389,7 +9406,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9410,7 +9428,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9431,7 +9450,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9452,7 +9472,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9473,7 +9494,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9494,7 +9516,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9515,7 +9538,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9536,7 +9560,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9557,7 +9582,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9578,7 +9604,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9599,7 +9626,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9620,7 +9648,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9641,7 +9670,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9662,7 +9692,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9683,7 +9714,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9704,7 +9736,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9725,7 +9758,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9746,7 +9780,8 @@ export default [
       CRT: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 40,
     },
   },
@@ -9767,7 +9802,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9788,7 +9824,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9809,7 +9846,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9830,7 +9868,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9851,7 +9890,8 @@ export default [
       CRT: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 80,
     },
   },
@@ -9872,7 +9912,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9893,7 +9934,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9914,7 +9956,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9935,7 +9978,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9956,7 +10000,8 @@ export default [
       CRT: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       STR: 120,
     },
   },
@@ -9977,7 +10022,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -9998,7 +10044,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10019,7 +10066,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10040,7 +10088,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10061,7 +10110,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10082,7 +10132,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10103,7 +10154,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10124,7 +10176,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10145,7 +10198,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10166,7 +10220,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10187,7 +10242,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10208,7 +10264,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10229,7 +10286,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10250,7 +10308,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10271,7 +10330,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10292,7 +10352,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10313,7 +10374,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10334,7 +10396,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10355,7 +10418,8 @@ export default [
       CRT: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10376,7 +10440,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 40,
     },
   },
@@ -10397,7 +10462,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10418,7 +10484,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10439,7 +10506,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10460,7 +10528,8 @@ export default [
       CRT: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10481,7 +10550,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 80,
     },
   },
@@ -10502,7 +10572,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10523,7 +10594,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10544,7 +10616,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10565,7 +10638,8 @@ export default [
       CRT: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10586,7 +10660,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       DEX: 120,
     },
   },
@@ -10607,7 +10682,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 40,
     },
   },
@@ -10628,7 +10704,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 40,
     },
   },
@@ -10649,7 +10726,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 40,
     },
   },
@@ -10670,7 +10748,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 40,
     },
   },
@@ -10691,7 +10770,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 40,
     },
   },
@@ -10712,7 +10792,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 80,
     },
   },
@@ -10733,7 +10814,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 80,
     },
   },
@@ -10754,7 +10836,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 80,
     },
   },
@@ -10775,7 +10858,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 80,
     },
   },
@@ -10796,7 +10880,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 80,
     },
   },
@@ -10817,7 +10902,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 120,
     },
   },
@@ -10838,7 +10924,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 120,
     },
   },
@@ -10859,7 +10946,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 120,
     },
   },
@@ -10880,7 +10968,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 120,
     },
   },
@@ -10901,7 +10990,8 @@ export default [
       DET: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       MND: 120,
     },
   },
@@ -10922,7 +11012,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 40,
     },
   },
@@ -10943,7 +11034,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 40,
     },
   },
@@ -10964,7 +11056,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 40,
     },
   },
@@ -10985,7 +11078,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 40,
     },
   },
@@ -11006,7 +11100,8 @@ export default [
       CRT: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 40,
     },
   },
@@ -11027,7 +11122,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 80,
     },
   },
@@ -11048,7 +11144,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 80,
     },
   },
@@ -11069,7 +11166,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 80,
     },
   },
@@ -11090,7 +11188,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 80,
     },
   },
@@ -11111,7 +11210,8 @@ export default [
       CRT: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 80,
     },
   },
@@ -11132,7 +11232,8 @@ export default [
       CRT: 170,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 120,
     },
   },
@@ -11153,7 +11254,8 @@ export default [
       DET: 271,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 120,
     },
   },
@@ -11174,7 +11276,8 @@ export default [
       DET: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 120,
     },
   },
@@ -11195,7 +11298,8 @@ export default [
       DET: 387,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 120,
     },
   },
@@ -11216,7 +11320,8 @@ export default [
       CRT: 243,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       INT: 120,
     },
   },
@@ -11667,7 +11772,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 40,
     },
   },
@@ -11688,7 +11794,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 40,
     },
   },
@@ -11709,7 +11816,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 40,
     },
   },
@@ -11730,7 +11838,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 40,
     },
   },
@@ -11751,7 +11860,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 80,
     },
   },
@@ -11772,7 +11882,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 40,
     },
   },
@@ -11793,7 +11904,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 40,
     },
   },
@@ -11814,7 +11926,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 40,
     },
   },
@@ -11835,7 +11948,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 40,
     },
   },
@@ -11856,7 +11970,8 @@ export default [
       main: 317,
     },
     source: '新月岛/南征之章',
-    occultStats: {
+    bonusType: 9,
+    bonusStats: {
       main: 80,
     },
   },

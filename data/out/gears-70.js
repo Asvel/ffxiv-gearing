@@ -16566,6 +16566,11 @@ export default [
       DLY: 2240,
     },
     source: '职业任务',
+    bonusType: 11,
+    bonusStats: {
+      STR: 4,
+      VIT: 4,
+    },
   },
   {
     id: 50743,
@@ -16584,6 +16589,11 @@ export default [
       DET: 8,
     },
     source: '职业任务',
+    bonusType: 11,
+    bonusStats: {
+      STR: 2,
+      VIT: 2,
+    },
   },
   {
     id: 50744,
@@ -16602,6 +16612,11 @@ export default [
       DET: 15,
     },
     source: '职业任务',
+    bonusType: 11,
+    bonusStats: {
+      STR: 4,
+      VIT: 4,
+    },
   },
   {
     id: 50745,
@@ -16620,6 +16635,11 @@ export default [
       DET: 36,
     },
     source: '职业任务',
+    bonusType: 11,
+    bonusStats: {
+      STR: 6,
+      VIT: 6,
+    },
   },
   {
     id: 50746,
@@ -16638,6 +16658,11 @@ export default [
       DET: 15,
     },
     source: '职业任务',
+    bonusType: 11,
+    bonusStats: {
+      STR: 4,
+      VIT: 4,
+    },
   },
   {
     id: 50747,
@@ -16656,6 +16681,11 @@ export default [
       DET: 25,
     },
     source: '职业任务',
+    bonusType: 11,
+    bonusStats: {
+      STR: 6,
+      VIT: 6,
+    },
   },
   {
     id: 50748,
@@ -16674,6 +16704,11 @@ export default [
       DET: 22,
     },
     source: '职业任务',
+    bonusType: 11,
+    bonusStats: {
+      STR: 4,
+      VIT: 4,
+    },
   },
   {
     id: 1678,
@@ -25641,6 +25676,11 @@ export default [
       DLY: 2240,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 5,
+      VIT: 5,
+    },
   },
   {
     id: 50750,
@@ -25659,6 +25699,11 @@ export default [
       DET: 8,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 3,
+      VIT: 3,
+    },
   },
   {
     id: 50751,
@@ -25677,6 +25722,11 @@ export default [
       DET: 18,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 5,
+      VIT: 5,
+    },
   },
   {
     id: 50752,
@@ -25695,6 +25745,11 @@ export default [
       DET: 39,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 7,
+      VIT: 7,
+    },
   },
   {
     id: 50753,
@@ -25713,6 +25768,11 @@ export default [
       DET: 18,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 5,
+      VIT: 5,
+    },
   },
   {
     id: 50754,
@@ -25731,6 +25791,11 @@ export default [
       DET: 27,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 7,
+      VIT: 7,
+    },
   },
   {
     id: 50755,
@@ -25749,6 +25814,11 @@ export default [
       DET: 25,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 5,
+      VIT: 5,
+    },
   },
   {
     id: 7162,
@@ -32905,6 +32975,11 @@ export default [
       DLY: 2240,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 6,
+      VIT: 6,
+    },
   },
   {
     id: 50757,
@@ -32923,6 +32998,11 @@ export default [
       DET: 9,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 4,
+      VIT: 4,
+    },
   },
   {
     id: 50758,
@@ -32941,6 +33021,11 @@ export default [
       DET: 19,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 6,
+      VIT: 6,
+    },
   },
   {
     id: 50759,
@@ -32959,6 +33044,11 @@ export default [
       DET: 42,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 8,
+      VIT: 8,
+    },
   },
   {
     id: 50760,
@@ -32977,6 +33067,11 @@ export default [
       DET: 19,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 6,
+      VIT: 6,
+    },
   },
   {
     id: 50761,
@@ -32995,6 +33090,11 @@ export default [
       DET: 29,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 8,
+      VIT: 8,
+    },
   },
   {
     id: 50762,
@@ -33013,6 +33113,11 @@ export default [
       DET: 27,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 6,
+      VIT: 6,
+    },
   },
   {
     id: 7218,
@@ -39634,6 +39739,11 @@ export default [
       DLY: 2240,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 7,
+      VIT: 7,
+    },
   },
   {
     id: 50764,
@@ -39652,6 +39762,11 @@ export default [
       DET: 9,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 5,
+      VIT: 5,
+    },
   },
   {
     id: 50765,
@@ -39670,6 +39785,11 @@ export default [
       DET: 20,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 7,
+      VIT: 7,
+    },
   },
   {
     id: 50766,
@@ -39688,6 +39808,11 @@ export default [
       DET: 46,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 9,
+      VIT: 9,
+    },
   },
   {
     id: 50767,
@@ -39706,6 +39831,11 @@ export default [
       DET: 20,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 7,
+      VIT: 7,
+    },
   },
   {
     id: 50768,
@@ -39724,6 +39854,11 @@ export default [
       DET: 32,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 9,
+      VIT: 9,
+    },
   },
   {
     id: 50769,
@@ -39742,6 +39877,11 @@ export default [
       DET: 29,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 7,
+      VIT: 7,
+    },
   },
   {
     id: 9491,
@@ -46666,6 +46806,11 @@ export default [
       DLY: 2240,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 8,
+      VIT: 8,
+    },
   },
   {
     id: 50771,
@@ -46684,6 +46829,11 @@ export default [
       DET: 11,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 6,
+      VIT: 6,
+    },
   },
   {
     id: 50772,
@@ -46702,6 +46852,11 @@ export default [
       DET: 22,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 8,
+      VIT: 8,
+    },
   },
   {
     id: 50773,
@@ -46720,6 +46875,11 @@ export default [
       DET: 49,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 10,
+      VIT: 10,
+    },
   },
   {
     id: 50774,
@@ -46738,6 +46898,11 @@ export default [
       DET: 22,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 8,
+      VIT: 8,
+    },
   },
   {
     id: 50775,
@@ -46756,6 +46921,11 @@ export default [
       DET: 34,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 10,
+      VIT: 10,
+    },
   },
   {
     id: 50776,
@@ -46774,6 +46944,11 @@ export default [
       DET: 31,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 8,
+      VIT: 8,
+    },
   },
   {
     id: 10588,
@@ -48889,6 +49064,11 @@ export default [
       DLY: 2240,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 9,
+      VIT: 9,
+    },
   },
   {
     id: 50778,
@@ -48907,6 +49087,11 @@ export default [
       DET: 11,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 7,
+      VIT: 7,
+    },
   },
   {
     id: 51736,
@@ -48927,6 +49112,11 @@ export default [
       DLY: 2240,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 10,
+      VIT: 10,
+    },
   },
   {
     id: 51737,
@@ -48945,6 +49135,11 @@ export default [
       DET: 11,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 8,
+      VIT: 8,
+    },
   },
   {
     id: 51739,
@@ -48965,6 +49160,11 @@ export default [
       DLY: 2240,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 10,
+      VIT: 10,
+    },
   },
   {
     id: 51740,
@@ -48983,6 +49183,11 @@ export default [
       DET: 11,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 8,
+      VIT: 8,
+    },
   },
   {
     id: 51745,
@@ -49001,5 +49206,10 @@ export default [
       DET: 26,
     },
     source: '斗兽奇弈',
+    bonusType: 11,
+    bonusStats: {
+      STR: 5,
+      VIT: 5,
+    },
   },
 ];

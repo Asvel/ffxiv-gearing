@@ -178,12 +178,16 @@ const gears = Item
     }
     if (Object.keys(ret.stats).length === 0) return;
 
-    if (x['ItemSpecialBonus'] === '9' || x['ItemSpecialBonus'] === '10') {  // 新月岛补正
-      ret.occultStats = {};
+    ret.bonusType =
+      x['ItemSpecialBonus'] === '9' || x['ItemSpecialBonus'] === '10' ? 9 :  // 新月岛补正
+      x['ItemSpecialBonus'] === '11' ? 11 :  // 斗兽奇弈补正
+      undefined;
+    if (ret.bonusType !== undefined) {
+      ret.bonusStats = {};
       for (let i = 0; i < 6; i++) {
         const stat = statAbbrs[x[`BaseParamSpecial[${i}]`]];
         if (stat !== undefined) {
-          ret.occultStats[stat] = +x[`BaseParamValueSpecial[${i}]`];
+          ret.bonusStats[stat] = +x[`BaseParamValueSpecial[${i}]`];
         }
       }
     }

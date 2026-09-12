@@ -90,15 +90,17 @@ export const Gear = mst.types
         for (const [ stat, value ] of Object.entries(stats) as G.StatPairs) {
           stats[stat] = Math.min(value, caps[stat]!);
         }
-        if (this.syncedLevel === 700 && self.data.occultStats !== undefined) {
-          for (const [ stat, value ] of Object.entries(self.data.occultStats) as G.StatPairs) {
-            stats[self.concretizeStat(stat)]! += value;
-          }
-        }
       } else if (this.materiaSlot > 0) {
         for (const [ stat, value ] of Object.entries(this.materiaStats) as G.StatPairs) {
           const base = stats[stat] ?? 0;
           stats[stat] = Math.min(base + value, Math.max(base, this.caps[stat]));
+        }
+      }
+      if (self.data.bonusStats !== undefined) {
+        if (self.data.bonusType === 9 && this.syncedLevel === 700 || self.data.bonusType === 11) {
+          for (const [ stat, value ] of Object.entries(self.data.bonusStats) as G.StatPairs) {
+            stats[self.concretizeStat(stat)]! += value;
+          }
         }
       }
       return stats;
