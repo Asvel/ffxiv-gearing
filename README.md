@@ -1,10 +1,11 @@
 # 最终幻想14配装器
 
-https://asvel.github.io/ffxiv-gearing/
+* 主站：https://asvel.github.io/ffxiv-gearing/
+* 镜像：https://ffxivgearing.neko7ina.com/
 
-原备用域名因平台方运营调整无法再更新，如无法使用主域名可以考虑使用[第三方镜像](https://ffxivgearing.neko7ina.com/)，此镜像由第三方维护会存在一定程度的更新延迟。
+两个站点内容完全相同，后者国内访问更顺畅一点。**所有分享链接在两个站点均有效，把链接里`?`前的部分换掉即可。**
 
-没有做完善的兼容性处理，建议使用较新的浏览器。页面内容复杂，建议在不太小的屏幕上使用。
+没有做完善的兼容性处理，建议使用较新的浏览器。页面内容复杂，建议在不是太小的屏幕上使用。
 
 
 ## 特色功能
@@ -58,4 +59,4 @@ Source code of this project is licensed under the [MIT license](LICENSE.txt).
 
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
 
-All FINAL FANTASY XIV contents and materials are copyrights of SQUARE ENIX, FINAL FANTASY XIV © 2010 - 2022 SQUARE ENIX CO., LTD. All Rights Reserved.
+All FINAL FANTASY XIV contents and materials are copyrights of SQUARE ENIX, FINAL FANTASY XIV © 2010 - 2026 SQUARE ENIX CO., LTD. All Rights Reserved.
