@@ -19537,7 +19537,7 @@ export default [
   },
   {
     id: 12286,
-    name: '贝希摩斯领主之剑',
+    name: '贝希摩斯王之巨剑',
     level: 180,
     rarity: 2,
     slot: 13,
